@@ -38,17 +38,20 @@
           <li><b>Include a language information in the URL</b>: pgAdmin web site is not able to detect the language of your browser. To display a page in your language, just click on your country flag. For example, the URL of the French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>.
           <li><b>Downloading links</b>: whenever possible, publish links pointing to pgAdmin <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>.
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
-        <tr><td>http://www.pgadmin.org/pgadmin3/download.php
+        <tr><td>
+	http://www.pgadmin.org/pgadmin3/download.php</br>
+	You may add the locale too in order to display in your language. Example:</br>
+	Spanish download: http://www.pgadmin.org/pgadmin3/download.php?locale=es_ES
 	</td></tr>
       </table>
        Some sites (especially Windows shareware/freeware sites) may require direct links. Be very careful before submitting direct links, because you may have to upgrade them when pgAdmin new versions are released. When direct links are required, choose several PostgreSQL mirrors from the <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>.  Some sites can ask for up to 5 links. For example (do not copy these examples, copy your own links):
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
-ftp://ftp.fr.postgresql.org/pgadmin3/release/win32/pgadmin3-1_0_2.zip
-ftp://ftp2.de.postgresql.org/pub/comp/os/unix/database/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip
-ftp://ftp3.us.postgresql.org/pub/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip
-ftp://ftp.kr.postgresql.org/mirror/database/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip
-ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2.zip
+ftp://ftp.fr.postgresql.org/pgadmin3/release/win32/pgadmin3-1_0_2.zip</br>
+ftp://ftp2.de.postgresql.org/pub/comp/os/unix/database/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip</br>
+ftp://ftp3.us.postgresql.org/pub/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip</br>
+ftp://ftp.kr.postgresql.org/mirror/database/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip</br>
+ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2.zip</br>
 	</td></tr>
       </table>
 

@@ -4,6 +4,7 @@
 // Released under the BSD licence
 //
 
+  $translated->addLanguage ("bg_BG", "Bulgarian", "Latchezar Kostov", "lkostov_hobby@yahoo.co.uk", "pgadmin3.po","src/ui/bg_BG/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("da_DK", "Danish", "Troels Arvin", "troels@arvin.dk", "pgadmin3.po","src/ui/da_DK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("de_CH", "German (Switzerland)", "Marc Balmer", "marc@msys.ch", "pgadmin3.po", "src/ui/de_CH/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("de_DE", "German (Germany)", "Andreas Pflug", "pgadmin@pse-consulting.de", "pgadmin3.po", "src/ui/de_DE/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
@@ -26,7 +27,6 @@
 
   $pending->addLanguage ("af_ZA", "Afrikaans", "Petri Jooste", "rkwjpj@puknet.puk.ac.za", "pgadmin3.po","src/ui/af_ZA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("ar_SA", "Arabic", "Motaz	Abuthiab", "moty66@yahoo.com", "pgadmin3.po","src/ui/ar_SA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $pending->addLanguage ("bg_BG", "Bulgarian", "Latchezar Kostov", "lkostov_hobby@yahoo.co.uk", "pgadmin3.po","src/ui/bg_BG/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("ca_ES", "Catalan", "Carlos Saltos", "csaltos@netscape.net", "pgadmin3.po","src/ui/ca_ES/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("cs_CZ", "Czech", "Jan Pruner", "jan@pruner.cz", "pgadmin3.po","src/ui/cs_CZ/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("el_GR", "Greek", "Γιάννης Παΐλας (Yiannis Pailas)", "yiannis_pailas@yahoo.gr", "pgadmin3.po","src/ui/el_GR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

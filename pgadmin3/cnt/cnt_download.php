@@ -74,7 +74,7 @@
       </tr>
 
       <tr bgcolor=lightyellow>
-        <td>wxWindows</td>
+        <td>pgadmin3/release/wxwindows</td>
         <td></td>
         <td><?php echo sprintf(_("Latest wxWindows %s source and binary packages needed for pgAdmin"), "2.5")?></td>
       </tr>

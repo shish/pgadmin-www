@@ -155,4 +155,15 @@ IN COUNTRIES WHERE THE ABSENCE OF LIABILITY MAY NOT EXIST OR BE RESTRICTED BY LA
 		<ASP_Member>N</ASP_Member>
 		<ASP_Member_Number/>
 	</ASP>
+	<PADRING>
+		http://www.aquafold.com/PAD_FILE.XML
+		http://www.alligatorsql.de/download/alligator.xml
+		http://www.casestudio.com/padinfo/casestudio.xml
+		http://www.degisy.com/padinfo/dbw5_eng.xml
+		http://www.ems-hitech.com/pad/pgmanager_pad.xml
+		http://www.fabforce.net/dbdesigner4/various/win.xml
+		http://www.microolap.com/pad/pgisql.xml
+		http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml
+		http://www.sqlboss.com/PAD_SQLBoss_Dev_WIN.xml
+	</PADRING>
 </XML_DIZ_INFO>

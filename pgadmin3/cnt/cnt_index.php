@@ -28,7 +28,7 @@
 <dl>
   [2004-09-10] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Beta-1");?></dt>
   <dd>
-    <?php echo _("The pgAdmin Development Team is pleased to announce the first Beta version of pgAdmin III v1.2.0, the well-known GUI administration tool for the PostgreSQL database system.");?>
+    <?php echo _("The pgAdmin Development Team are pleased to announce the first Beta version of pgAdmin III v1.2.0, the well-known GUI administration tool for the PostgreSQL database system.");?>
     <?php echo sprintf(_("Please visit the pgAdmin <a href='%s'>Beta release</a> page to learn more about this exciting new version."), "beta.php");?>
   </dd>
 </dl>

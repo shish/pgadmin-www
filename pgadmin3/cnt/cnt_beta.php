@@ -5,7 +5,7 @@
 <h1 id="beta"><?php echo _("Beta-1 of pgAdmin III V1.2 released");?></h1>
 2004-09-10
 <p>
-The pgAdmin Development Team is pleased to announce the first Beta
+The pgAdmin Development Team are pleased to announce the first Beta
 version of pgAdmin III v1.2.0, the well-known GUI administration tool
 for the PostgreSQL database system.
 

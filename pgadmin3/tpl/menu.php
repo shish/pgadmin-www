@@ -10,6 +10,7 @@
       <td align="right" valign="bottom">
       	Language:
         <a href="?locale=de_DE"><img src="img/flags/Germany.gif" alt="German">
+        <a href="?locale=en_US"><img src="img/flags/UK.gif" alt="English">
         <a href="?locale=fa_IR"><img src="img/flags/Persian.gif" alt="Persian">
         <a href="?locale=fr_FR"><img src="img/flags/France.gif" alt="France">
         <a href="?locale=id_ID"><img src="img/flags/Indonesia.gif" alt="Indonesian">

@@ -92,7 +92,7 @@
             <br/>
             <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
               <tr><td>
-								ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian woody pgadmin
+								deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian woody pgadmin
               </td></tr>
             </table>
             <br/>

@@ -157,9 +157,9 @@ en (English)
     <li><a href='http://www.snapfiles.com/freeware/freeware.html'>Snapfiles</a> (Reminder to register)</li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>
     <li><a href='http://www.soft411.com/software/postgresql.html'>Soft 411</a> (pending)</li>
-    <li><a href='http://www.softempire.com'>Softempire</a> (pending)</li>
+    <li><a href='http://www.softempire.com/pgadmin-iii-for-postgresql.html'>Softempire</a> (pending)</li>
     <li><a href='http://www.theopencd.org'>The Open CD</a> (pending)</li>
-    <li><a href='http://www.thesoftwarebank.com'>The Software bank</a> (pending)</li>
+    <li><a href='http://www.thesoftwarebank.com/soft.aspx?id=23109'>The Software bank</a></li>
     <li><a href='http://www.topdownloads.net/software/view.php?id=14174'>Top Downloads Net</a></li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
     <li><a href='http://www.webmasterfree.com'>Webmaster Free</a> (pending)</li>

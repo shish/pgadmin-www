@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-08-19 10:36+0200\n"
+"POT-Creation-Date: 2003-08-19 11:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid ""
 "separate dialog."
 msgstr ""
 
-#: ../cnt/cnt_development.php:42
+#: ../cnt/cnt_development.php:45
 #, c-format
 msgid "A list of team members is available on the <a href='%s'>team</a> page."
 msgstr ""
@@ -108,7 +108,7 @@ msgid ""
 "we recommand installing <a href='%s'>binary packages</a>."
 msgstr ""
 
-#: ../cnt/cnt_development.php:51
+#: ../cnt/cnt_development.php:54
 msgid ""
 "Because compiling from source requires technical knowledge, we recommand "
 "using binary packages."
@@ -185,11 +185,11 @@ msgstr ""
 msgid "Create a symlink to pgAdmin binary."
 msgstr ""
 
-#: ../cnt/cnt_development.php:6 ../cnt/cnt_development.php:47
+#: ../cnt/cnt_development.php:6 ../cnt/cnt_development.php:50
 msgid "Daily snapshots"
 msgstr ""
 
-#: ../cnt/cnt_development.php:49
+#: ../cnt/cnt_development.php:52
 msgid "Daily snapshots are packages compiled from CVS nearly everyday."
 msgstr ""
 
@@ -214,7 +214,7 @@ msgstr ""
 msgid "Development"
 msgstr ""
 
-#: ../cnt/cnt_development.php:5 ../cnt/cnt_development.php:40
+#: ../cnt/cnt_development.php:5 ../cnt/cnt_development.php:43
 msgid "Development team"
 msgstr ""
 
@@ -274,7 +274,7 @@ msgstr ""
 msgid "Download pgAdmin source code from a mirror."
 msgstr ""
 
-#: ../cnt/cnt_development.php:52
+#: ../cnt/cnt_development.php:55
 msgid "Download pgAdmin3 snapshots here:"
 msgstr ""
 
@@ -544,7 +544,7 @@ msgstr ""
 msgid "Maintainer"
 msgstr ""
 
-#: ../cnt/cnt_development.php:33 ../cnt/cnt_support.php:13
+#: ../cnt/cnt_development.php:36 ../cnt/cnt_support.php:13
 #, c-format
 msgid ""
 "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a "
@@ -631,7 +631,7 @@ msgstr ""
 msgid "Packager: %s"
 msgstr ""
 
-#: ../cnt/cnt_development.php:58
+#: ../cnt/cnt_development.php:61
 #, c-format
 msgid "Please refer to our <a href='%s'>installation instructions</a>."
 msgstr ""
@@ -762,7 +762,7 @@ msgstr ""
 msgid "The documentation can be viewed off-line or on-line."
 msgstr ""
 
-#: ../cnt/cnt_development.php:65 ../cnt/cnt_support.php:20
+#: ../cnt/cnt_development.php:68 ../cnt/cnt_support.php:20
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
 msgstr ""
 
@@ -787,6 +787,10 @@ msgstr ""
 msgid ""
 "The properties and statistics of the selected object are displayed in the "
 "right pane of pgAdmin3."
+msgstr ""
+
+#: ../cnt/cnt_development.php:19
+msgid "The required command lines needed for checkout are as follows:"
 msgstr ""
 
 #: ../cnt/cnt_download.php:10
@@ -818,7 +822,7 @@ msgid ""
 "The updated translations are published in daily snapshots automatically."
 msgstr ""
 
-#: ../cnt/cnt_development.php:50
+#: ../cnt/cnt_development.php:53
 msgid ""
 "There is no guarantee that these packages work in any way: it is alpha "
 "developer software intended for testing and development."
@@ -828,11 +832,12 @@ msgstr ""
 msgid "This makes learning SQL more easy..."
 msgstr ""
 
-#: ../cnt/cnt_development.php:43
+#: ../cnt/cnt_development.php:46
 msgid "This page is available in English only."
 msgstr ""
 
-#: ../cnt/cnt_development.php:64 ../cnt/cnt_support.php:19
+#: ../cnt/cnt_development.php:67 ../cnt/cnt_support.php:19
+#: ../cnt/cnt_translation.php:66
 msgid "This section is available in English only."
 msgstr ""
 
@@ -852,14 +857,14 @@ msgid ""
 "pot</a> file."
 msgstr ""
 
-#: ../cnt/cnt_development.php:31 ../cnt/cnt_support.php:11
+#: ../cnt/cnt_development.php:34 ../cnt/cnt_support.php:11
 #, c-format
 msgid ""
 "To subscribe to the mailing list, send an email to %s with the word "
 "'subscribe', without quotes, as the body of message."
 msgstr ""
 
-#: ../cnt/cnt_development.php:7 ../cnt/cnt_development.php:62
+#: ../cnt/cnt_development.php:7 ../cnt/cnt_development.php:65
 msgid "Todo list"
 msgstr ""
 
@@ -894,6 +899,19 @@ msgstr ""
 
 #: ../cnt/cnt_index.php:103 ../cnt/cnt_screenshots.php:120
 msgid "Types"
+msgstr ""
+
+#: ../cnt/cnt_development.php:18
+msgid ""
+"Under GNU/Linux, there are several command line and graphical clients "
+"available."
+msgstr ""
+
+#: ../cnt/cnt_development.php:17
+#, c-format
+msgid ""
+"Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free "
+"software."
 msgstr ""
 
 #: ../cnt/cnt_download.php:254 ../cnt/cnt_download.php:306
@@ -977,7 +995,7 @@ msgid ""
 "pgAdmin3."
 msgstr ""
 
-#: ../cnt/cnt_development.php:30
+#: ../cnt/cnt_development.php:33
 #, c-format
 msgid ""
 "You are more than welcome to subscribe, but please remember to use <a href='%"
@@ -1098,13 +1116,13 @@ msgstr ""
 msgid "pgAdmin3 user interface is translated in more than %d languages."
 msgstr ""
 
-#: ../cnt/cnt_development.php:29
+#: ../cnt/cnt_development.php:32
 msgid ""
 "pgadmin-hackers list is intended for developers who whish to contribute to "
 "pgAdmin project."
 msgstr ""
 
-#: ../cnt/cnt_development.php:27
+#: ../cnt/cnt_development.php:30
 msgid "pgadmin-hackers mailing list"
 msgstr ""
 

@@ -58,13 +58,14 @@
     <tbody>
     	<tr>
       	<td COLSPAN=3>
+        <p>
         	<?php echo _("pgAdmin project started five years ago.");?>
           <?php echo sprintf(_("pgAdmin is used by more than %d users worldwide."), 50000);?>
           <?php echo _("With the help and suggestions of users, we have been constantly improving the usability of pgAdmin.");?>
           <?php echo _("Recently, our team was joined by developers with an experience of more than 10 years in the design of database tools.");?>
           <br><br>
           <?php echo _("A short guided tour of the interface:");?>
-          <br>
+         </p>
         </td>
 			</tr>
 
@@ -73,10 +74,12 @@
         	<img src="shots/pgadmin3_connect.png" alt="">
         </td>
         <td COLSPAN=2 valign='top'>
+        <p>
         	<?php echo _("pgAdmin3 can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library.");?>
           <?php echo _("The application does not need any ODBC layer.");?>
           <br><br>
           <?php echo _("When configured server-side, it is possible to connect using encrypted password or SSL authentication.");?>
+          </p>
           </td>
       </tr>
 
@@ -86,8 +89,10 @@
         </td>
 
         <td colspan=2>
+        	<p>
         	 <?php echo _("In the left pane of pgAdmin3, a navigation tree allow to browse database objects.");?>
            <?php echo _("Nearly all PostgreSQL objects can be viewed, created, modified and dropped, including:");?>
+           </p>
         </td>
 			</tr>
 
@@ -129,11 +134,13 @@
         	<img src="shots/pgadmin3_properties.png" alt="">
         </td>
         <td COLSPAN=2 valign='top'>
-        <?php echo _("The properties and statistics of the selected object are displayed in the right pane of pgAdmin3.");?>
-        <?php echo _("Notice the display of the SQL definition with colour syntax highlight.");?>
-        <br><br>
-        <?php echo _("Every time you manipulate objects graphically, pgAdmin3 writes the corresponding SQL code.");?>
-        <?php echo _("This makes learning SQL more easy...");?>
+        <p>
+            <?php echo _("The properties and statistics of the selected object are displayed in the right pane of pgAdmin3.");?>
+            <?php echo _("Notice the display of the SQL definition with colour syntax highlight.");?>
+            <br><br>
+            <?php echo _("Every time you manipulate objects graphically, pgAdmin3 writes the corresponding SQL code.");?>
+            <?php echo _("This makes learning SQL more easy...");?>
+        </p>
         </td>
       </tr>
 
@@ -142,9 +149,11 @@
         	<img src="shots/pgadmin3_function.png" alt="">
         </td>
         <td COLSPAN=2 valign='top'>
+         <p>
         	<?php echo _("A double-click in the navigation tree opens the selected object in a separate dialog.");?>
-          <br><br>
-          <?php echo _("Notice the tabs giving access to Properties, Parameters, Security and SQL definition.");?>
+         	 <br><br>
+         	 <?php echo _("Notice the tabs giving access to Properties, Parameters, Security and SQL definition.");?>
+          </p>
         </td>
       </tr>
 
@@ -153,9 +162,11 @@
         	<img src="shots/pgadmin3_table.png" alt="">
         </td>
         <td  COLSPAN=2 valign='top'>
+        	<p>
         	<?php echo _("pgAdmin3 includes a table editor.");?>
           <?php echo _("Columns can be dropped.");?>
           <?php echo _("Column data types can be modified in certain conditions.");?>
+          	</p>
         </td>
       </tr>
     </tbody>

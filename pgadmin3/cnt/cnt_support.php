@@ -27,7 +27,9 @@
 
   <h1 id="bugs"><?php echo _("Known bugs")?></h1>
   <dd>
-    <?php echo _("This section is available in English only.");?>
+  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
+      <tr><td>
+    <?php echo _("This section is available in English only.");?><br><br>
     <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
     <?php
     	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/BUGS.txt";
@@ -36,6 +38,7 @@
     		include_once ($_file);
       }
     ?>
+    </td></tr></table>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 </div>

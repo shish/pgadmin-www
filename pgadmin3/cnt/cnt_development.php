@@ -18,7 +18,7 @@
      <?php echo _("Under GNU/Linux, there are several command line and graphical clients available.");?>
      <?php echo _("The required command lines needed for checkout are as follows:");?>
       <br><br>
-      <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+      <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
           CVSROOT=:pserver:anonymous@cvs.pgadmin.org:/disk1/cvsroot<br>
           export CVSROOT<br>
@@ -47,6 +47,8 @@
 
   <h1 id="team"><?php echo _("Development team");?></h1>
   <dd>
+  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
+  <tr><td>
   <?php echo _("This section is available in English only.");?><br><br>
   Version 1.2, 22 August 2001
   <ol>
@@ -83,6 +85,8 @@
       <li><a href='mailto:blacknoz@club-internet.fr'>Rapha&#235;l Enrici</a> (Member): Maintains the Debian port, and helps with numerous other issues.
     </ul>
   </ol>
+</td></tr></table>
+
 </dd>
 
   </dd>
@@ -91,7 +95,9 @@
 
   <h1 id="todo"><?php echo _("Todo list")?></h1>
   <dd>
-    <?php echo _("This section is available in English only.");?>
+      <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
+      <tr><td>
+    <?php echo _("This section is available in English only.");?><br><br>
     <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
     <?php
     	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/TODO.txt";
@@ -100,12 +106,14 @@
     		include_once ($_file);
       }
     ?>
+     </td></tr></table>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
   <h1 id="changelog"><?php echo _("Change log")?></h1>
-  <dd>
-    <?php echo _("This section is available in English only.");?>
+   <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
+      <tr><td>
+    <?php echo _("This section is available in English only.");?><br><br>
     <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
     <?php
     	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/CHANGELOG.txt";
@@ -114,6 +122,7 @@
     		include_once ($_file);
       }
     ?>
+    </td></tr></table>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 

@@ -88,7 +88,7 @@
   	<br><br>
 
  <li>
-    Connect to <a href="translation.php#trans_progress">Translation in progress</a> page and download the *.po file.
+    When this is done, you will receive an email. Connect to <a href="translation.php#trans_progress">Translation in progress</a> page and download the *.po file.
     <br><br>
 
   <li>Edit pgadmin.po file. The steps described are related to <a href="http://poedit.sourceforge.net">poEdit</a> only.<br><br>
@@ -124,8 +124,7 @@
 	<br><br>
 
 
-
-	<li>From time to time, new strings which need translation are added to the application. Download/update the new pgadmin3.pot and merge the new file with your language file using <a href="http://poedit.sourceforge.net">poEdit</a>'s "Catalog/Update from POT file.." function.
+	<li>From time to time, new strings which need translation are added to the application. Download/update the new pgadmin3.pot and merge the new file with your language file using <a href='http://poedit.sourceforge.net'>poEdit</a> "Catalog/Update from POT file.." function.
   </li>
 </ol>
 </dd>

@@ -14,6 +14,7 @@
 <A HREF="#Win9x">Win9x problems</A><BR>
 <A HREF="#HangWin9x">Query tool hangs on Win9x</A><BR>
 <A HREF="#ColTrunc">Query tool columns truncated</A><BR>
+<A HREF="#ConnDrop">Connection to database dropped</A><BR>
 </B>
 </p>
 
@@ -102,6 +103,7 @@ the database is missing.<br>
 Run the adddepend script, which can be found in the backend's sources contrib/adddepend directory.
 <br> [AP]
 </p><br>
+
 <H3><A Name="Win9x">Win9x problems</A></H3>
 <p>
 We're providing a stripped down pgAdmin3 version without unicode support and limited functionality.
@@ -116,6 +118,7 @@ Apparently this happens when Win9x cleans up the result set ListView. Win9x isn'
 (it's still kind-of 16 bit in these places).<br>
 We don't provide fixes for Win9x components (M$ doesn't either). There's no known workaround.[AP]
 </p><br>
+
 <H3><A Name="ColTrunc">Query tool columns truncated</A></H3>
 <p>
 Some columns are truncated when running a query in the query tool.
@@ -124,6 +127,40 @@ You can increase the query option "max. chars per column" for this. Please note 
 windows control, which apparently doesn't allow more than 511 characters.
 <BR>
 In V1.1, we provide the function "execute to file", which has no column restrictions. [AP]
+</p>
+
+<H3><A Name="ConnDrop">Connection to database dropped</A></H3>
+<p>
+I'm connecting to the database server via a firewall. After some minutes of inactivity, the 
+connection to the database is dropped. Some admins report that bogus backend processes 
+remain that are never terminated.
+</p><p>
+Unfortunately some network administrators extend functions meant for external web server access to cover
+internal database traffic too. After some minutes of inactivity, the TCP/IP connection
+is interrupted without notice to both sides of the connection. As a result, the backend 
+doesn't know that there's no connection to the client (in this case: pgAdmin III, but any
+other PostgreSQL client would be affected in the same way) any more, 
+but thinks it's just idle, and will continue waiting for the next query that never arrives.
+<BR>
+The PostgreSQL interface uses the TCP/IP protocol stack, that by definition should 
+provide a reliable connection between the two end points of the connection. If interrupted,
+the protocol stack would notice this and notify the interface. In contrast, a firewall configured
+to interrupt by not forwarding any packet belonging to the connection after some arbitrary
+timeout, violates basic TCP/IP principles.
+<BR>While this might be perfectly reasonable for browser connections to a web servers that are
+aware of possible non-detectable interruptions, this is not acceptable for database connections
+carrying sensitive data. Unfortunately, many network administrators don't understand 
+the vital difference, others can't change the firewall configuration for some 
+hardware/software/policy restricting reasons.
+</p></p>
+As the officially required solution, ask yor network administrator to vastly increase or 
+even better disable TCP/IP connection watchdog timeouts on the PostgreSQL port (usually 5432)
+to restore RFC compliant protocol behaviour of the firewall.
+<BR>
+If there's absolutely no way to accomplish this, you could use a SSH tunnel for PostgreSQL traffic. 
+SSH can be configured to keep the channel open at all times, so that database traffic can be passed
+even after a prolonged period of inactivity. For information how to configure this, ask your 
+SSH package's documentation for "tunneling". [AP]
 </p>
 </body>
 </html>

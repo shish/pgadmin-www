@@ -79,7 +79,7 @@
 	    </tr>
     </table>
       </br>If the translation of our website is up-to-date, this description can be translated as follows:
-    <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="lightyellow" dir='ltr'>
+    <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
       <tr><td>
 	      <ol>
 	        <li><?php echo _("Graphical administration interface for the PostgreSQL database, free for any use.")?></li>

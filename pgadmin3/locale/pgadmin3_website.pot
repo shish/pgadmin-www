@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-08-13 00:56+0200\n"
+"POT-Creation-Date: 2003-08-19 00:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,6 +173,14 @@ msgstr ""
 msgid "Conversions"
 msgstr ""
 
+#: ../cnt/cnt_mirrors.php:11
+msgid "Could not connect to the mirror database."
+msgstr ""
+
+#: ../cnt/cnt_mirrors.php:28
+msgid "Could not connect to the mirror table."
+msgstr ""
+
 #: ../cnt/cnt_download.php:196
 msgid "Create a symlink to pgAdmin binary."
 msgstr ""
@@ -258,10 +266,6 @@ msgstr ""
 msgid "Download pgAdmin Slackware package."
 msgstr ""
 
-#: ../cnt/cnt_mirrors.php:1
-msgid "Download pgAdmin from one of PostgreSQL mirrors:"
-msgstr ""
-
 #: ../cnt/cnt_download.php:215
 msgid "Download pgAdmin installer."
 msgstr ""
@@ -290,7 +294,7 @@ msgid ""
 "corresponding SQL code."
 msgstr ""
 
-#: ../cnt/cnt_translation.php:38
+#: ../cnt/cnt_translation.php:30
 msgid ""
 "Everyone can participate, please refer to the translation howto for more "
 "information."
@@ -298,6 +302,14 @@ msgstr ""
 
 #: ../cnt/cnt_index.php:4 ../cnt/cnt_index.php:36
 msgid "Features"
+msgstr ""
+
+#: ../cnt/cnt_mirrors.php:12 ../cnt/cnt_mirrors.php:29
+#: ../cnt/cnt_mirrors.php:45
+#, c-format
+msgid ""
+"Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</"
+"a>."
 msgstr ""
 
 #: ../cnt/cnt_download.php:111 ../cnt/cnt_download.php:132
@@ -367,11 +379,11 @@ msgstr ""
 msgid "How to contribute"
 msgstr ""
 
-#: ../cnt/cnt_translation.php:31
+#: ../cnt/cnt_translation.php:23
 msgid "Howto"
 msgstr ""
 
-#: ../cnt/cnt_translation.php:40
+#: ../cnt/cnt_translation.php:32
 #, c-format
 msgid ""
 "If you are interested by the translation of PostgreSQL server messages, "
@@ -384,14 +396,14 @@ msgstr ""
 msgid "If you are interested, please visit <a href='%s'>pgAdmin2</a> site."
 msgstr ""
 
-#: ../cnt/cnt_translation.php:49
+#: ../cnt/cnt_translation.php:41
 msgid ""
 "If you are not the author/maintainer of a translation and whish to submit a "
 "translation fix: download the language file (*.po extension), make the "
 "necessary corrections and send it back to us with CC to the translator."
 msgstr ""
 
-#: ../cnt/cnt_translation.php:46
+#: ../cnt/cnt_translation.php:38
 msgid ""
 "If you are the author/maintainer of a translation and whish to update you "
 "work: download the template file (*.pot extension), execute poEdit and use "
@@ -433,7 +445,7 @@ msgstr ""
 msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
 msgstr ""
 
-#: ../cnt/cnt_translation.php:30
+#: ../cnt/cnt_translation.php:22
 msgid "In progress"
 msgstr ""
 
@@ -570,6 +582,10 @@ msgid ""
 "including:"
 msgstr ""
 
+#: ../cnt/cnt_mirrors.php:44
+msgid "No mirrors could be found."
+msgstr ""
+
 #: ../cnt/cnt_download.php:295
 msgid "Not yet available."
 msgstr ""
@@ -622,7 +638,7 @@ msgstr ""
 
 #: ../cnt/cnt_download.php:244
 #, c-format
-msgid "PostgreSQL %s with libpq for data access are needed."
+msgid "PostgreSQL %s with libpq for data access."
 msgstr ""
 
 #: ../cnt/cnt_index.php:48
@@ -645,11 +661,11 @@ msgstr ""
 msgid "Powerfull query tool with color syntax highlight"
 msgstr ""
 
-#: ../cnt/cnt_translation.php:29
+#: ../cnt/cnt_translation.php:21
 msgid "Published"
 msgstr ""
 
-#: ../cnt/cnt_translation.php:44
+#: ../cnt/cnt_translation.php:36
 #, c-format
 msgid "Published Translations (%d languages)"
 msgstr ""
@@ -796,7 +812,7 @@ msgstr ""
 msgid "The tool displays execution times of queries."
 msgstr ""
 
-#: ../cnt/cnt_translation.php:52
+#: ../cnt/cnt_translation.php:44
 msgid ""
 "The updated translations are published in daily snapshots automatically."
 msgstr ""
@@ -828,7 +844,7 @@ msgid ""
 "This technical choice allows to browse very large tables without problem."
 msgstr ""
 
-#: ../cnt/cnt_translation.php:39
+#: ../cnt/cnt_translation.php:31
 #, c-format
 msgid ""
 "This web site can also be translated using <a href='%s'>pgadmin3_website."
@@ -850,7 +866,7 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
-#: ../cnt/cnt_translation.php:47
+#: ../cnt/cnt_translation.php:39
 msgid "Translate the text and send us the *.po file."
 msgstr ""
 
@@ -858,15 +874,15 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../cnt/cnt_index.php:150 ../cnt/cnt_translation.php:28 ../tpl/menu.php:34
+#: ../cnt/cnt_index.php:150 ../cnt/cnt_translation.php:20 ../tpl/menu.php:34
 msgid "Translation"
 msgstr ""
 
-#: ../cnt/cnt_translation.php:72
+#: ../cnt/cnt_translation.php:64
 msgid "Translation howto"
 msgstr ""
 
-#: ../cnt/cnt_translation.php:63
+#: ../cnt/cnt_translation.php:55
 #, c-format
 msgid "Translations in progress (%d languages)"
 msgstr ""
@@ -917,7 +933,7 @@ msgid ""
 "We need help to translate pgAdmin3 and our website in more than %d languages."
 msgstr ""
 
-#: ../cnt/cnt_translation.php:37
+#: ../cnt/cnt_translation.php:29
 msgid "We need your help to translate pgAdmin3 into several languages."
 msgstr ""
 
@@ -1110,5 +1126,5 @@ msgid "wxWindows 2.4 will not work because of Unicode problems."
 msgstr ""
 
 #: ../cnt/cnt_download.php:237
-msgid "wxWindows 2.5 compiled from CVS is required with additional patches."
+msgid "wxWindows 2.5 compiled from CVS with additional patches."
 msgstr ""

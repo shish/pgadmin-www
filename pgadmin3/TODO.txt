@@ -3,9 +3,10 @@ High priority
 - Registration on search engines. We will need to define relevant keywords and translated them.
 - Link section in Support page. Exchanging links is the only way of getting high results on search engines like Google.
 - Website translation status.
+- Add bug reporting information.
 
 Done
-- Expose pgadmin3 TODO.txtt and BUGS.txt to the users, so they can be checked and referenced for bug reporting.
+- Expose pgadmin3 TODO.txtt, BUGS.txt and FAQ.txt to users.
 - Compilation howto for both pgAdmin and wxGTK2ud 2.5 cvs version.
 - Link to the Artistic licence.
 - Use PostgreSQL php class to generate the list of mirrors.

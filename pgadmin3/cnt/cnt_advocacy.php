@@ -119,6 +119,7 @@ de (German)
     <li><a href='http://www.apps4linux.org/showapps.php3?id=702&detail=1'>Apps4Linux</a></li>
     <li><a href='http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.links2linux.de/search.php4?words=pgadmin&x=3&y=13'>links2linux.de</a></li>
+    <li><a href='http://www.shareware.de'>Shareware.de</a> (pending)</li>
   </ul>
 </dd>
 

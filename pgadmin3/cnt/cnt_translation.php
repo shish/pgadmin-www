@@ -64,7 +64,7 @@
   <h1 id="trans_howto"><?php echo _("Translation howto");?></h1>
   <dd>
 		<?php echo _("This section is available in English only.");?><br><br>
-    Anyone can translate pgAdmin3 into his/her mother tongue. You don't need to be a programmer. As described in the <a href='http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/*checkout*/pgadmin3/docs/en_US/translation_guidelines.html'>translation guidelines</a>, we made sure that all strings could be translated, even into non-European and non-Asian languages. The required steps for translation are the followings:
+    Anyone can translate pgAdmin into his/her mother tongue. You don't need to be a programmer. As described in the <a href='http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/*checkout*/pgadmin3/docs/en_US/translation_guidelines.html'>translation guidelines</a>, we made sure that all strings could be translated, even into non-European and non-Asian languages. The required steps for translation are the followings:
 
 <ol>
   <li>
@@ -117,7 +117,7 @@
     <br><br>
 
   <li>Review your translation carefully. <br><br>
-    You should be able to add the appropriate ui/language_Country/pgadmin3.mo file under an existing binary installation of pgAdmin3. Then, just select the language under the File -> Options menu. Review is an important step, because somes strings do not have a real context. You will only be able to correct entries by using pgAdmin3 yourself...
+    You should be able to add the appropriate ui/language_Country/pgadmin3.mo file under an existing binary installation of pgAdmin. Then, just select the language under the File -> Options menu. Review is an important step, because somes strings do not have a real context. You will only be able to correct entries by using pgAdmin yourself...
 	<br><br>
 
   <li>When the translation is finished and reviewed, send pgadmin3.po and pgadmin3.mo files to <a href="mailto:jm@poure.com">Jean-Michel Pouré</a> after zipping/taring them. We will do our best to publish your files immediately. The translations are published in pgAdmin <a href="development.php#dev_snap">Daily snapshots</a> almost everyday.

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-08-03 23:59+0200\n"
+"POT-Creation-Date: 2003-08-05 10:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,6 +110,10 @@ msgstr ""
 msgid "Casts"
 msgstr ""
 
+#: ../cnt/cnt_download.php:109
+msgid "Check that pgAdmin executable is in the path."
+msgstr ""
+
 #: ../tpl/menu.php:14
 msgid "Choose a language"
 msgstr ""
@@ -138,6 +142,10 @@ msgstr ""
 msgid "Conversions"
 msgstr ""
 
+#: ../cnt/cnt_download.php:107
+msgid "Create a symlink to pgAdmin binary."
+msgstr ""
+
 #: ../cnt/cnt_development.php:6 ../cnt/cnt_development.php:41
 msgid "Daily snapshots"
 msgstr ""
@@ -159,7 +167,7 @@ msgstr ""
 msgid "Designed for PostgreSQL latest versions"
 msgstr ""
 
-#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:137 ../tpl/menu.php:31
+#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:137 ../tpl/menu.php:32
 msgid "Development"
 msgstr ""
 
@@ -175,7 +183,11 @@ msgstr ""
 msgid "Domains"
 msgstr ""
 
-#: ../cnt/cnt_download.php:2 ../tpl/menu.php:33
+#: ../cnt/cnt_download.php:122
+msgid "Double-clic on the installer and follow the instructions."
+msgstr ""
+
+#: ../cnt/cnt_download.php:2 ../tpl/menu.php:34
 msgid "Download"
 msgstr ""
 
@@ -187,12 +199,20 @@ msgstr ""
 msgid "Download Template"
 msgstr ""
 
-#: ../cnt/cnt_download.php:89
+#: ../cnt/cnt_download.php:104
+msgid "Download pgAdmin FreeBSD package."
+msgstr ""
+
+#: ../cnt/cnt_download.php:75
+msgid "Download pgAdmin RPM package."
+msgstr ""
+
+#: ../cnt/cnt_download.php:91
 msgid "Download pgAdmin Slackware package."
 msgstr ""
 
-#: ../cnt/cnt_download.php:74
-msgid "Download pgAdmin rpm."
+#: ../cnt/cnt_download.php:121
+msgid "Download pgAdmin installer."
 msgstr ""
 
 #: ../cnt/cnt_download.php:15
@@ -245,6 +265,11 @@ msgstr ""
 msgid "FreeBSD"
 msgstr ""
 
+#: ../cnt/cnt_download.php:100
+#, c-format
+msgid "FreeBSD %s"
+msgstr ""
+
 #: ../cnt/cnt_index.php:81 ../cnt/cnt_screenshots.php:104
 msgid "Functions"
 msgstr ""
@@ -253,24 +278,29 @@ msgstr ""
 msgid "Fuzzy"
 msgstr ""
 
-#: ../cnt/cnt_download.php:27
-msgid "GNU Debian"
-msgstr ""
-
 #: ../cnt/cnt_index.php:35
 msgid "GNU/Linux"
 msgstr ""
 
-#: ../cnt/cnt_download.php:84
+#: ../cnt/cnt_download.php:27
+msgid "GNU/Linux Debian"
+msgstr ""
+
+#: ../cnt/cnt_download.php:70
 #, c-format
-msgid "GNU/Slackware %s"
+msgid "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
+msgstr ""
+
+#: ../cnt/cnt_download.php:86
+#, c-format
+msgid "GNU/Linux Slackware %s"
 msgstr ""
 
 #: ../cnt/cnt_index.php:82 ../cnt/cnt_screenshots.php:105
 msgid "Groups"
 msgstr ""
 
-#: ../cnt/cnt_index.php:2 ../tpl/menu.php:29
+#: ../cnt/cnt_index.php:2 ../tpl/menu.php:30
 msgid "Home"
 msgstr ""
 
@@ -290,7 +320,7 @@ msgid ""
 "page."
 msgstr ""
 
-#: ../cnt/cnt_download.php:102
+#: ../cnt/cnt_download.php:133
 #, c-format
 msgid ""
 "If you are interested in pgAdmin2, please visit <a href='%s'>pgAdmin2 "
@@ -360,16 +390,16 @@ msgstr ""
 msgid "Indexes"
 msgstr ""
 
-#: ../cnt/cnt_download.php:76
-msgid "Install the downloaded RPM using the following command:"
-msgstr ""
-
-#: ../cnt/cnt_download.php:91
+#: ../cnt/cnt_download.php:93
 msgid "Install the downloaded package using Slackware pkgtool or installpkg."
 msgstr ""
 
-#: ../cnt/cnt_download.php:4 ../cnt/cnt_download.php:25
-msgid "Installation instructions"
+#: ../cnt/cnt_download.php:77 ../cnt/cnt_download.php:105
+msgid "Install using the following command:"
+msgstr ""
+
+#: ../cnt/cnt_download.php:4
+msgid "Installation"
 msgstr ""
 
 #: ../class/pgadmin_po.php:197
@@ -388,7 +418,7 @@ msgstr ""
 msgid "Locale"
 msgstr ""
 
-#: ../cnt/cnt_index.php:34
+#: ../cnt/cnt_download.php:117 ../cnt/cnt_index.php:34
 msgid "MS Windows 2000 & XP"
 msgstr ""
 
@@ -472,8 +502,9 @@ msgstr ""
 msgid "Operators"
 msgstr ""
 
-#: ../cnt/cnt_download.php:28 ../cnt/cnt_download.php:70
-#: ../cnt/cnt_download.php:85
+#: ../cnt/cnt_download.php:28 ../cnt/cnt_download.php:71
+#: ../cnt/cnt_download.php:87 ../cnt/cnt_download.php:101
+#: ../cnt/cnt_download.php:118
 #, c-format
 msgid "Packager: %s"
 msgstr ""
@@ -512,11 +543,6 @@ msgstr ""
 msgid "Published Translations (%d languages)"
 msgstr ""
 
-#: ../cnt/cnt_download.php:69
-#, c-format
-msgid "RPM packages for GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
-msgstr ""
-
 #: ../cnt/cnt_screenshots.php:64
 msgid ""
 "Recently, our team was joined by developers with an experience of more than "
@@ -539,7 +565,7 @@ msgstr ""
 msgid "Schemas"
 msgstr ""
 
-#: ../cnt/cnt_screenshots.php:2 ../tpl/menu.php:30
+#: ../cnt/cnt_screenshots.php:2 ../tpl/menu.php:31
 msgid "Screenshots"
 msgstr ""
 
@@ -559,7 +585,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: ../cnt/cnt_support.php:2 ../tpl/menu.php:34
+#: ../cnt/cnt_support.php:2 ../tpl/menu.php:35
 msgid "Support"
 msgstr ""
 
@@ -637,7 +663,7 @@ msgstr ""
 msgid "This makes learning SQL more easy..."
 msgstr ""
 
-#: ../cnt/cnt_development.php:37 ../cnt/cnt_download.php:103
+#: ../cnt/cnt_development.php:37 ../cnt/cnt_download.php:134
 msgid "This page is available in English only."
 msgstr ""
 
@@ -665,7 +691,7 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../cnt/cnt_index.php:144 ../cnt/cnt_translation.php:6 ../tpl/menu.php:32
+#: ../cnt/cnt_index.php:144 ../cnt/cnt_translation.php:6 ../tpl/menu.php:33
 msgid "Translation"
 msgstr ""
 
@@ -749,7 +775,7 @@ msgid ""
 "the usability of pgAdmin."
 msgstr ""
 
-#: ../cnt/cnt_download.php:101 ../cnt/cnt_index.php:25
+#: ../cnt/cnt_download.php:132 ../cnt/cnt_index.php:25
 msgid ""
 "With the rapid advancement of the project, we recommand upgrading to "
 "pgAdmin3."
@@ -787,7 +813,7 @@ msgid ""
 "Licence."
 msgstr ""
 
-#: ../cnt/cnt_download.php:100
+#: ../cnt/cnt_download.php:131
 msgid "pgAdmin2 is available for Ms Windows only."
 msgstr ""
 
@@ -795,7 +821,7 @@ msgstr ""
 msgid "pgAdmin2 is still supported"
 msgstr ""
 
-#: ../cnt/cnt_download.php:98
+#: ../cnt/cnt_download.php:129
 msgid "pgAdmin2 stable"
 msgstr ""
 
@@ -819,6 +845,10 @@ msgstr ""
 
 #: ../cnt/cnt_screenshots.php:156
 msgid "pgAdmin3 includes a table editor."
+msgstr ""
+
+#: ../cnt/cnt_download.php:25
+msgid "pgAdmin3 installation instructions"
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:246

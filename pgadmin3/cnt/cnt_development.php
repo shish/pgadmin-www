@@ -2,8 +2,10 @@
   <div><?php echo _("Development");?></div>
   <a href="#dev_cvs">&rsaquo; <?php echo _("CVS access");?></a>
   <a href="#dev_list">&rsaquo; <?php echo _("Mailing list");?></a>
-  <a href="#dev_team">&rsaquo; <?php echo _("Team");?></a>
+  <a href="#dev_team">&rsaquo; <?php echo _("Development team");?></a>
   <a href="#dev_snap">&rsaquo; <?php echo _("Daily snapshots");?></a>
+  <a href="#bugs">&rsaquo; <?php echo _("Known bugs")?></a>
+  <a href="#todo">&rsaquo; <?php echo _("Todo list")?></a>
 </div>
 
 <div id="bodyText">
@@ -52,4 +54,33 @@
   <?php echo sprintf(_("Please refer to our <a href='%s'>installation instructions</a>."), "download.php#installation");?>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
+  <h1 id="bugs"><?php echo _("Known bugs")?></h1>
+  <dd>
+    <?php echo _("This section is available in English only.");?>
+    <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
+    <?php
+    	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/BUGS.txt";
+    	if (file_exists($_file)) {
+        echo ("<br><br>");
+    		include_once ($_file);
+      }
+    ?>
+  </dd>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
+  <h1 id="todo"><?php echo _("Todo list")?></h1>
+  <dd>
+    <?php echo _("This section is available in English only.");?>
+    <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
+    <?php
+    	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/TODO.txt";
+    	if (file_exists($_file)) {
+      	echo ("<br><br>");
+    		include_once ($_file);
+      }
+    ?>
+  </dd>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
 </div>

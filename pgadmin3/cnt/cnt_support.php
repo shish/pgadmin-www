@@ -1,9 +1,10 @@
 <div class="sideBox LHS">
   <div><?php echo _("Support")?></div>
-  <a href="support_list">&rsaquo; <?php echo _("Mailing list")?></a>
+  <a href="#support_list">&rsaquo; <?php echo _("Mailing list")?></a>
 </div>
 
 <div id="bodyText">
+	<dd><?php echo sprintf(_("Please note that a list of <a href='%s'>known bugs</a> and a <a href='%s'>to do list</a> are also available on the <a href='%s'>Development</a> page."), "development.php#bugs", "development.php#todo", "development.php")?></dd>
   <h1 id="support_list"><?php echo _("pgadmin-support mailing list")?></h1>
 	<dd>
   	<?php echo _("pgadmin-support is a support list intended for end user support and bug reports.")?>

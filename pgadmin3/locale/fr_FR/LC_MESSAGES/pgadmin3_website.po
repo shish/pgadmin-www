@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-11-27 21:44+0100\n"
+"PO-Revision-Date: 2003-11-27 22:02+0100\n"
 "Last-Translator: Jean-Michel Pouré <jm@poure.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -597,8 +597,8 @@ msgstr "Opérateurs"
 
 #: ../cnt/cnt_support.php:11
 #, c-format
-msgid "Our <a href=%s>FAQ</a> document contains some known caveats."
-msgstr "Le document <a href=%s>FAQ</a> contient des réponses aux problèmes les plus courants."
+msgid "Our <a href='%s' target='_blank'>FAQ</a> document contains some known caveats."
+msgstr "Le document <a href='%s' target='_blank'>FAQ</a> contient des réponses aux problèmes les plus courants."
 
 #: ../cnt/cnt_download.php:122
 #: ../cnt/cnt_download.php:211

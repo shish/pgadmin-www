@@ -4,12 +4,13 @@
 </head>
 
 <body>
-<H1>pgAdmin III V1.x FAQ</H1>
+<H1>pgAdmin III FAQ</H1>
 <p>
 <A HREF="#CantEdit">Can't edit table data</A><BR>
 <A HREF="#PropertyDisabled">A property is disabled on an object I want to edit</A><BR>
 <A HREF="#UserPrivileges">User privileges</A><BR>
 <A HREF="#ConstraintTrigger">Foreign key constraints not shown</A><BR>
+<A HREF="#datpath">ERROR: column &quot;datpath&quot; does not exist</A><BR>
 <A HREF="#Win9x">Win9x problems</A><BR>
 <A HREF="#HangWin9x">Query tool hangs on Win9x</A><BR>
 <A HREF="#ColTrunc">Query tool columns truncated</A><BR>
@@ -70,6 +71,16 @@ compatibility only, and shouldn't be used in newer scripts any more. Some tools 
 by showing a ADD CONSTRAINT when reverse engineering, while actually the constraint information in 
 the database is missing.<br>
 Run the adddepend script, which can be found in the backend's sources contrib/adddepend directory.
+[AP]
+</p><br>
+<H3><A Name="datpath">ERROR: column &quot;datpath&quot; does not exist</A></H3>
+<p>
+I'm using pgAdmin III V1.0.x and try to connect to a PostgreSQL 8.0.x server. I get the message
+&quot;ERROR: column &quot;datpath&quot; does not exist.&quot; and can't continue.
+</p><p>
+pgAdmin III V1.0.x does not work on PostgreSQL 8.0.x, because some system structure changed.
+</p><p>
+Use pgAdmin III V1.2.x instead, which supports PostgreSQL 7.3.x, 7.4.x and 8.0.x.
 [AP]
 </p><br>
 <H3><A Name="Win9x">Win9x problems</A></H3>

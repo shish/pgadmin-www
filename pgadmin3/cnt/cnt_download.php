@@ -18,7 +18,7 @@
 	<dd>
 		<table width= '100%' cellspacing=0 cellpadding=10 border=0>
 			<tr bgcolor=lightgray>
-        <td><?php echo _("pgAdmin location on mirror")?></td>
+        <td><?php echo _("Location on mirror")?></td>
         <td></td>
         <td><?php echo _("Description")?></td>
       </tr>
@@ -94,52 +94,51 @@
 
           <ul>
             <li>
-              <?php echo _("For Debian WOODY:");?>
-              <br>
-              &nbsp;deb
-              [MIRROR URL]/beta/debian woody pgadmin
+            <?php echo _("For Debian WOODY:");?>
+            <pre>
+            &nbsp;deb [MIRROR URL]/beta/debian woody pgadmin
+            </pre>
 
             <li>
-              <?php echo _("For Debian TESTING:");?>
-              <br>
-              &nbsp;deb
-              [MIRROR URL]/beta/debian testing pgadmin
+            <?php echo _("For Debian TESTING:");?>
+            <pre>
+            &nbsp;deb [MIRROR URL]/beta/debian testing pgadmin
+            </pre>
 
             <li>
-              <?php echo _("For Debian UNSTABLE:");?>
-              <br>
-              &nbsp;deb
-              [MIRROR URL]/beta/debian unstable pgadmin
+            <?php echo _("For Debian UNSTABLE:");?>
+            <pre>
+            &nbsp;deb [MIRROR URL]/beta/debian unstable pgadmin
+            </pre>
 					</ul>
 
           <?php echo _("For example, for France, you can try:");?>
           <ul>
             <li>
-              <?php echo _("For Debian WOODY:");?>
-              <br>
-              &nbsp;deb
-              ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian woody pgadmin
+            <?php echo _("For Debian WOODY:");?>
+            <pre>
+            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian woody pgadmin
+            </pre>
 
             <li>
-              <?php echo _("For Debian TESTING:");?>
-              <br>
-              &nbsp;deb
-              ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian testing pgadmin
+            <?php echo _("For Debian TESTING:");?>
+            <pre>
+            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian testing pgadmin
+            </pre>
 
             <li>
-              <?php echo _("For Debian UNSTABLE:");?>
-              <br>
-              &nbsp;deb
-              ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian unstable pgadmin
+            <?php echo _("For Debian UNSTABLE:");?>
+            <pre>
+            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian unstable pgadmin
+            </pre>
 					</ul>
 
 				<li>
-        	<?php echo _("Run the following commands as root:");?>
-          <br>
-          # apt-get update
-          <br>
-          #	apt-get install pgadmin3
-          <br>
+        <?php echo _("Run the following commands as root:");?>
+        <pre>
+        # apt-get update
+        # apt-get install pgadmin3
+        </pre>
      </ol>
     </dd>
 	</dl>
@@ -151,11 +150,12 @@
     <dd>
       <ol>
         <li>
-        	<?php echo _("Download pgAdmin RPM package.");?>
+        <?php echo _("Download pgAdmin RPM package.");?>
         <li>
-        	<?php echo _("Install using the following command:");?>
-          <BR>
-          # rpm -Uvh pgadmin*.rpm
+        <?php echo _("Install using the following command:");?>
+        <pre>
+        # rpm -Uvh pgadmin*.rpm
+        </pre>
       </ol>
 		</dd>
 	</dl>
@@ -181,12 +181,19 @@
     <dd>
     	<ol>
         <li><?php echo _("Download pgAdmin FreeBSD package.");?>
-        <li><?php echo _("Install using the following command:");?><br>
-            # pkg_add pgadmin3-yyyymmdd.tgz
-        <li><?php echo _("Create a symlink to pgAdmin binary.");?><br>
-            # ln -sf /usr/local/pgadmin3/bin/pgadmin3 /usr/local/bin/pgadmin3
-        <li><?php echo _("Check that pgAdmin executable is in the path.");?><br>
-            # which pgadmin3 # /usr/local/bin/pgadmin3
+        <li><?php echo _("Install using the following command:");?>
+        <pre>
+        # pkg_add pgadmin3-yyyymmdd.tgz
+        </pre>
+        <li><?php echo _("Create a symlink to pgAdmin binary.");?>
+        <pre>
+        # ln -sf /usr/local/pgadmin3/bin/pgadmin3 /usr/local/bin/pgadmin3
+				</pre>
+        <li><?php echo _("Check that pgAdmin executable is in the path.");?>
+        <pre>
+        # which pgadmin3
+        # /usr/local/bin/pgadmin3
+        </pre>
       </ol>
 		</dd>
 	</dl>
@@ -205,10 +212,110 @@
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
   <h1 id="source"><?php echo _("Installing pgAdmin3 from source")?></h1>
-    <dd>
-      <?php echo _("The detailed compilation steps will be explained shortly.")?>
-      <?php echo sprintf(_("pgAdmin source code is signed using <a href='%s'>Dave Page PGP key</a>."), "pgp/davepage.pgp")?>
-    </dd>
+  <dt><?php echo _("Requirements");?></dt>
+  <dd>
+  	<ul>
+      <li><?php echo _("A recent development environment")?>
+      	<ul>
+        	<li>
+          	<?php echo _("GNU/Linux, FreeBSD and other *nixes.")?>
+        		<?php echo _("Recents versions of GTK2.2, automake,  autoconf and gcc are needed.")?>
+            <?php echo _("The best solution is to use a recent distribution.")?>
+					<li>
+          	<?php echo _("Windows 2000 & XP.")?>
+            <?php echo "A recent version of Mingw compiler can be used."?>
+        </ul>
+
+    	<li><?php echo _("wxWindows 2.5 compiled from CVS is required with additional patches.")?>
+        <?php echo _("wxWindows 2.4 will not work because of Unicode problems.")?>
+        <?php echo _("To avoid problems, we provide wxWindows 2.5 source and binary packages.")?>
+        <?php echo _("The required packages can be downloaded from our mirrors in the 'wxWindows' directory.")?>
+
+
+
+			<li><?php echo sprintf(_("PostgreSQL %s with libpq for data access are needed."), "7.3+") ?>
+    </ul>
+  </dd>
+
+  <dt><?php echo _("Installing wxWindows framework");?></dt>
+  <dd>
+  	<ol>
+    	<li><?php echo _("Download our supported wxWindows 2.5 CVS version.");?>
+      <?php echo _("Unpack as follows:");?><br>
+      <pre>
+      # tar -xzf wxWindows*.tar.gz
+      </pre>
+
+      <li><?php echo _("Install wxWindows from source.");?>
+      <PRE>
+      # cd wxWindows*;
+      # ./configure --with-gtk --enable-gtk2 --enable-unicode --disable-shared --enable-debug
+      # make
+      # make install
+      # ldconfig
+      </PRE>
+
+      <li><?php echo _("Install wxWindows STC (Styled Text Control).");?>
+      <PRE>
+      # cd contrib/src/stc
+      # make
+      # make install
+      # ldconfig
+      </PRE>
+
+      <li><?php echo _("Install wxWindows XRC (Xml Resource Control).");?>
+      <PRE>
+      # cd ../xrc
+      # make
+      # make install
+      # ldconfig
+      </PRE>
+  	</ol>
+	</dd>
+
+	<dt><?php echo _("Installing pgAdmin");?></dt>
+  <dd>
+  	<ol>
+    	<li>
+      	<?php echo _("Download pgAdmin source code from a mirror.");?>
+        <?php echo _("pgAdmin is available in several qualities: stable, beta, daily snapshot.");?><br>
+        <ul>
+        	<li><?php echo _("Stable release.");?>
+          <?php echo _("Download from 'stable/source' directory on a mirror.");?>
+          <?php echo _("Not yet available.");?>
+
+        	<li>Beta release.
+          <?php echo _("Download from 'beta/source' directory on a mirror.");?>
+
+          <li>Daily snapshot.
+          <?php echo _("Download from http://snake.pgadmin.org/snapshots");?>
+				</ul>
+      <br>
+
+      <li><?php echo sprintf(_("Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"), "pgp/davepage.pgp");?><br><br>
+
+      <li><?php echo _("Unpack pgAdmin tarball.");?><br>
+      <pre>
+      # tar -xzf pgadmin3*.tar.gz
+      </pre>
+
+      <li><?php echo _("Alternatively, you can use a CVS client.");?>
+      <pre>
+      # CVSROOT=:pserver:anonymous@cvs.pgadmin.org:/disk1/cvsroot export CVSROOT
+      # cvs login
+      # cvs -z9 checkout pgadmin3
+      # cd pgadmin3
+      # sh bootstrap
+      </pre>
+
+      <li><?php echo _("Compile pgAdmin");?>
+      <pre>
+      # ./configure --enable-static --enable-debug
+      # make all
+      # make install
+      </pre>
+		</ol>
+  </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
 

@@ -17,8 +17,8 @@
 			<Author_First_Name>pgAdmin</Author_First_Name>
 			<Author_Last_Name>Team</Author_Last_Name>
 			<Author_Email></Author_Email>
-			<Contact_First_Name></Contact_First_Name>
-			<Contact_Last_Name></Contact_Last_Name>
+			<Contact_First_Name>pgAdmin</Contact_First_Name>
+			<Contact_Last_Name>Team</Contact_Last_Name>
 			<Contact_Email>pgadmin-support@postgresql.org</Contact_Email>
 		</Contact_Info>
 		<Support_Info>
@@ -54,8 +54,8 @@
 			<Filename_Previous>pgadmin3.zip</Filename_Previous>
 			<Filename_Generic>pgadmin3.zip</Filename_Generic>
 			<Filename_Long>pgadmin3.zip</Filename_Long>
-			<File_Size_Bytes>4936809</File_Size_Bytes>
-			<File_Size_K></File_Size_K>
+			<File_Size_Bytes></File_Size_Bytes>
+			<File_Size_K>4821</File_Size_K>
 			<File_Size_MB>4.7</File_Size_MB>
 		</File_Info>
 		<Expire_Info>

@@ -42,7 +42,7 @@ if (!$_error) {
   $ii = pg_num_rows($res);
   if($ii == 0) {
     echo _("No mirrors could be found.")."<br>";
-    echo sprintf(_("Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</a>."), "http://www.postgresql.org/ftpsite")."<br>";
+    echo sprintf(_("Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</a>."), "http://www.postgresql.org/ftpsite/pgadmin3/")."<br>";
   } else {
     $content = "<table width='100%'><tr><td colspan=$numcells align=left><font size=4>$prompt<br><br></font></td>\n";
 
@@ -54,9 +54,9 @@ if (!$_error) {
       $img = str_replace(" ","",$row[3]);
       $img .= ".gif";
       if ($row[1] == "") {
-        $content .= "<td align='center' valign='top' width='" . 100 / $numcells . "%'><a href='ftp://$row[0]$row[2]'><img src='http://www.postgresql.org/images/flags/$img' border=1 alt='" . ucwords($row[3]) . "' width='32' height='21'><br>" . ucwords($row[3]) . "</a><br>&nbsp;</td>\n";
+        $content .= "<td align='center' valign='top' width='" . 100 / $numcells . "%'><a href='ftp://$row[0]$row[2]/pgadmin3/'><img src='http://www.postgresql.org/images/flags/$img' border=1 alt='" . ucwords($row[3]) . "' width='32' height='21'><br>" . ucwords($row[3]) . "</a><br>&nbsp;</td>\n";
       } else {
-        $content .= "<td align='center' valign='top' width='" . 100 / $numcells . "%'><a href='ftp://$row[0]:$row[1]$row[2]'><img src='http://www.postgresql.org/images/flags/$img' border=1 alt='$row[3]' width='32' height='21'><br>" . ucwords($row[3]) . "</a><br>&nbsp;</td>\n";
+        $content .= "<td align='center' valign='top' width='" . 100 / $numcells . "%'><a href='ftp://$row[0]:$row[1]$row[2]/pgadmin3/'><img src='http://www.postgresql.org/images/flags/$img' border=1 alt='$row[3]' width='32' height='21'><br>" . ucwords($row[3]) . "</a><br>&nbsp;</td>\n";
       }
     }
     $ii = $numcells - ($x%$numcells);

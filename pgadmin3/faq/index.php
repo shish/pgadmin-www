@@ -13,6 +13,7 @@
 <A HREF="#ConstraintTrigger">Foreign key constraints not shown</A><BR>
 <A HREF="#Win9x">Win9x problems</A><BR>
 <A HREF="#HangWin9x">Query tool hangs on Win9x</A><BR>
+<A HREF="#ColTrunc">Query tool columns truncated</A><BR>
 </B>
 </p>
 
@@ -108,12 +109,22 @@ Still, Win9x imposes some other problems too. Consider using a true 32bit operat
 (Linux, W2K, XP) if these constraints hit you.<BR>
 One example: </p>
 <H3><A Name="HangWin9x">Query tool hangs on Win9x</A></H3>
-</p>
+<p>
 After running a query on Win9x that retrieves around 3000 rows or more, closing the query tool will hang the app.
 </p><p>
 Apparently this happens when Win9x cleans up the result set ListView. Win9x isn't prepared to handle large data
 (it's still kind-of 16 bit in these places).<br>
 We don't provide fixes for Win9x components (M$ doesn't either). There's no known workaround.[AP]
+</p><br>
+<H3><A Name="ColTrunc">Query tool columns truncated</A></H3>
+<p>
+Some columns are truncated when running a query in the query tool.
+</p><p>
+You can increase the query option "max. chars per column" for this. Please note that there's another limit for this imposed by the underlying 
+windows control, which apparently doesn't allow more than 511 characters.
+<BR>
+In V1.1, we provide the function "execute to file", which has no column restrictions. [AP]
+</p>
 </body>
 </html>
 

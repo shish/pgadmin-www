@@ -2,6 +2,7 @@
 # Blank lines are ignored, # at the start indicates a comment.
 # The format is package|version|url and is not case sensitive.
 
-PostgreSQL|7.3.3|http://www.postgresql.org/
+pgAdmin III|1.0.0|http://www.pgadmin.org/
+pgAdmin II|1.6.0|http://www.pgadmin.org/pgadmin2
+PostgreSQL|7.3.4|http://www.postgresql.org/
 psqlODBC|7.3.100|http://gborg.postgresql.org/project/psqlodbc/
-pgAdmin II|1.6.0|http://www.pgadmin.org/

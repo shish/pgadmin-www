@@ -10,6 +10,7 @@
 <A HREF="#FontProblem2">Font problem: SQL shows weird characters</A><BR>
 <A HREF="#UserPrivileges">User privileges</A><BR>
 <A HREF="#UnsuppProtocol">Server log: unsupported protocol</A><BR>
+<A HREF="#ConstraintTrigger">Foreign key constraints not shown</A><BR>
 </B>
 </p>
 
@@ -78,6 +79,21 @@ will try to connect to the backend using this protocol first, and if that fails 
 uses the older one.<br>
 This behaviour is by design, and there's no problem to be expected
 from this.
+<br> [AP]
+</p><br>
+<H3><A Name="ConstraintTrigger">Foreign key constraints not shown</A></H3>
+<p>
+My database contains foreign key constraints, but these are not visible with pgAdmin III.
+</p><p>
+If you convert a database prior to 7.3 to a newer one, some dependency information isn't created
+because it didn't exist in PostgreSQL 7.2 and older. When restoring such a pg_dump file, the foreign
+keys are generated with CREATE CONSTRAINT TRIGGER instead of an ADD 
+CONSTRAINT command. pgAdmin III considers constraint triggers as an internal implementation detail,
+not interesting for the common administrator. In fact, CREATE CONSTRAINT TRIGGER is for backward 
+compatibility only, and shouldn't be used in newer scripts any more. Some tools (e.g. pgAdmin II) imply this, 
+by showing a ADD CONSTRAINT when reverse engineering, while actually the constraint information in 
+the database is missing.<br>
+Run the adddepend script, which can be found in the backend's sources contrib/adddepend directory.
 <br> [AP]
 </p><br>
 </body>

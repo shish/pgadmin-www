@@ -52,7 +52,7 @@
 	  <li><b>Keywords</b>: when visiting a web site, most users may not query "pgAdmin" but "PostgreSQL database" or "free administration tools", etc... To answer these search requests, you may be asked to enter additional keywords. My personal choice is to enter:
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
-	PostgreSQL postgresql postgres sql database administration admin free
+	PostgreSQL postgresql postgres sql database administration admin free pgadmin pg
 	</td></tr>
       </table>
         </ul>

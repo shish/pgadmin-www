@@ -72,7 +72,7 @@
       <tr><td>
 	      <ol>
 	        <li>Powerfull administration and development tools for PostgreSQL, free for any use.</li>
-	        <li>A powerfull administration and development platform for the PostgreSQL database, free for any use. Available in more than 30 languages for Win/NT/2000/XP, GNU/Linux and FreeBSD. Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more.</li>
+	        <li>pgAdmin III is a powerfull administration and development platform for the PostgreSQL database, free for any use. Available in more than 30 languages for Windows 2000/XP, GNU/Linux and FreeBSD. Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more.</li>
 	        <li>pgAdmin III is a completely free administration and development platform for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and Windows 2000/XP. pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. pgAdmin III also includes a query builder, an sql editor, a server-side code editor and much more. pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.</li>
 	      </ol>
 	      </td></tr>
@@ -145,6 +145,7 @@ en (English)
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
     <li><a href='http://www.hotscripts.com/Detailed/30672.html'>Hotscripts</a></li>
+    <li><a href='http://www.linuxdownloads.org'>Linuxdownloads</a> (pending)</li>
     <li><a href='http://www.linuxlinks.com/Web/Databases'>Linuxlinks</a></li>
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>

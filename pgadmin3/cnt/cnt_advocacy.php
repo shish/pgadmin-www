@@ -93,6 +93,7 @@ en (English)
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
     <li><a href='http://www.hotscripts.com/Tools_and_Utilities/Database_Tools'>Hotscripts</a> (pending)</li>
+    <li><a href='http://www.linuxlinks.com/Web/Databases'>Linuxlinks</a></li>
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>

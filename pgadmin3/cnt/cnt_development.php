@@ -1,7 +1,6 @@
 <div class="sideBox LHS">
   <div><?php echo _("Development");?></div>
   <a href="#dev_cvs">&rsaquo; <?php echo _("CVS access");?></a>
-  <a href="#dev_snap">&rsaquo; <?php echo _("Daily snapshots");?></a>
   <a href="#dev_list">&rsaquo; <?php echo _("Mailing list");?></a>
   <a href="#team">&rsaquo; <?php echo _("Development team");?></a>
   <a href="#todo">&rsaquo; <?php echo _("Todo list")?></a>

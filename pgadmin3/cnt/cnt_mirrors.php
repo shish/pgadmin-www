@@ -20,7 +20,9 @@
   if (!$_error) {
     $prompt = _('Please select a download mirror:');
 
-    $query = "SELECT 'ftp' || CASE WHEN mirror_index = 0 THEN ''::text ELSE mirror_index::text END || '.' || country_code || '.postgresql.org' AS hostname, host_port AS port, host_path AS path, country_name AS country FROM mirrors WHERE mirror_type = 'ftp' AND mirror_active = TRUE AND mirror_private = FALSE AND mirror_dns = TRUE AND mirror_last_rsync > (now() - '48 hrs'::interval) ORDER BY country_name, mirror_index;";
+// Temporary fix to allow for the fact that the mirrors aren't updating whilst hub.org is down.
+//  $query = "SELECT 'ftp' || CASE WHEN mirror_index = 0 THEN ''::text ELSE mirror_index::text END || '.' || country_code || '.postgresql.org' AS hostname, host_port AS port, host_path AS path, country_name AS country FROM mirrors WHERE mirror_type = 'ftp' AND mirror_active = TRUE AND mirror_private = FALSE AND mirror_dns = TRUE AND mirror_last_rsync > (now() - '48 hrs'::interval) ORDER BY country_name, mirror_index;";
+    $query = "SELECT 'ftp' || CASE WHEN mirror_index = 0 THEN ''::text ELSE mirror_index::text END || '.' || country_code || '.postgresql.org' AS hostname, host_port AS port, host_path AS path, country_name AS country FROM mirrors WHERE mirror_type = 'ftp' AND mirror_active = TRUE AND mirror_private = FALSE AND mirror_dns = TRUE ORDER BY country_name, mirror_index;";
     $res = pg_query($conn,$query);
 
 

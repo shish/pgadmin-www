@@ -23,7 +23,7 @@
   $translated->addLanguage ("el_GR", "Greek", "Γιάννης Παΐλας (Yiannis Pailas)", "yiannis_pailas@yahoo.gr", "pgadmin3.po","src/ui/el_GR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("es_ES", "Spanish", "Karim Mribti", "karim@inlosa.com", "pgadmin3.po","src/ui/es_ES/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("fa_IR", "Farsi", "Abbas Izad", "abbasizad@hotmail.com", "pgadmin3.po", "src/ui/fa_IR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-    $pending->addLanguage ("fi_FI", "Finnish", "Jori Luoto", "psql@jorch.net", "pgadmin3.po","src/ui/fi_FI/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $translated->addLanguage ("fi_FI", "Finnish", "Jori Luoto", "psql@jorch.net", "pgadmin3.po","src/ui/fi_FI/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("fr_FR", "French", "Jean-Michel Pouré", "jm.poure@freesurf.fr",  "pgadmin3.po","src/ui/fr_FR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("gl_ES", "Galician", "Antonio Ricoy", "aricoy@edu.xunta.es", "pgadmin3.po","src/ui/gl_ES/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("hr_HR", "Croatian", "Finteh d.o.o.", "finteh@finteh.hr", "pgadmin3.po", "src/ui/hr_HR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

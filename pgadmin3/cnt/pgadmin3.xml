@@ -6,12 +6,12 @@
 	</MASTER_PAD_VERSION_INFO>
 	<Company_Info>
 		<Company_Name>pgAdmin Team</Company_Name>
-		</Address_1>
-		</Address_2>
-		</City_Town>
-		</State_Province>
-		</Zip_Postal_Code>
-		</Country>
+		<Address_1/>
+		<Address_2/>
+		<City_Town/>
+		<State_Province/>
+		<Zip_Postal_Code/>
+		<Country/>
 		<Company_WebSite_URL>http://www.pgadmin.org</Company_WebSite_URL>
 		<Contact_Info>
 			<Author_First_Name>pgAdmin</Author_First_Name>
@@ -22,13 +22,13 @@
 			<Contact_Email>pgadmin-support@postgresql.org</Contact_Email>
 		</Contact_Info>
 		<Support_Info>
-			<Sales_Email></Sales_Email>
+			<Sales_Email><Sales_Email/>
 			<Support_Email>pgadmin-support@postgresql.org</Support_Email>
-			<General_Email></General_Email>
-			<Sales_Phone></Sales_Phone>
-			<Support_Phone></Support_Phone>
-			<General_Phone></General_Phone>
-			<Fax_Phone></Fax_Phone>
+			<General_Email/>
+			<Sales_Phone/>
+			<Support_Phone><Support_Phone/>
+			<General_Phone><General_Phone/>
+			<Fax_Phone><Fax_Phone/>
 		</Support_Info>
 	</Company_Info>
 	<Program_Info>
@@ -38,36 +38,34 @@
 		<Program_Release_Day>27</Program_Release_Day>
 		<Program_Release_Year>2004</Program_Release_Year>
 		<Program_Cost_Dollars>0</Program_Cost_Dollars>
-		</Program_Cost_Other_Code>
-		</Program_Cost_Other>
+		<Program_Cost_Other_Code/>
+		<Program_Cost_Other/>
 		<Program_Type>Freeware</Program_Type>
 		<Program_Release_Status>New Release</Program_Release_Status>
 		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
 		<Program_OS_Support>WinXP,WinNT4.x,Windows2000,Unix,Linux</Program_OS_Support>
 		<Program_Language>Arabic,Chinese,Czech,Danish,English,French,German,Greek,Hungarian,Italian,Japanese,Polish,Portuguese,Russian,Spanish,Swedish,Turkish</Program_Language>
-		</Program_Change_Info>
-		</Program_System_Requirements>
+		<Program_Change_Info/>
+		<Program_System_Requirements/>
 		<Program_Specific_Category>Development Tools</Program_Specific_Category>
-		<Program_Categories>Database :: Management,Database :: Utilities</Program_Categories>
-
-
+		<Program_Categories>Database::Management,Database::Utilities</Program_Categories>
 		<File_Info>
 			<Filename_Versioned>pgadmin3.zip</Filename_Versioned>
 			<Filename_Previous>pgadmin3.zip</Filename_Previous>
 			<Filename_Generic>pgadmin3.zip</Filename_Generic>
 			<Filename_Long>pgadmin3.zip</Filename_Long>
-			<File_Size_Bytes></File_Size_Bytes>
+			<File_Size_Bytes/>
 			<File_Size_K>4821</File_Size_K>
 			<File_Size_MB>4.7</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
-			<Expire_Count></Expire_Count>
-			<Expire_Based_On>Days</Expire_Based_On>
-			<Expire_Other_Info></Expire_Other_Info>
-			<Expire_Month></Expire_Month>
-			<Expire_Day></Expire_Day>
-			<Expire_Year></Expire_Year>
+			<Expire_Count/>
+			<Expire_Based_On/>
+			<Expire_Other_Info/>
+			<Expire_Month/>
+			<Expire_Day/>
+			<Expire_Year/>
 		</Expire_Info>
 		<Includes_VB_Runtime>N</Includes_VB_Runtime>
 		<Includes_JAVA_VM>N</Includes_JAVA_VM>
@@ -112,6 +110,6 @@
 	</Permissions>
 	<ASP>
 		<ASP_Member>N</ASP_Member>
-		<ASP_Member_Number></ASP_Member_Number>
+		<ASP_Member_Number/>
 	</ASP>
 </XML_DIZ_INFO>

@@ -63,6 +63,71 @@
 
   <h1 id="trans_howto"><?php echo _("Translation howto");?></h1>
   <dd>
-  </dd>
+		<?php echo _("This section is available in English only.");?><br><br>
+    Anyone can translate pgAdmin3 into his/her mother tongue. You don't need to be a programmer. As described in the <a href='http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/*checkout*/pgadmin3/docs/en_US/translation_guidelines.html'>translation guidelines</a>, we made sure that all strings could be translated, even into non-European and non-Asian languages. The required steps for translation are the followings:
+
+<ol>
+  <li>
+  Subscribe to <a href="development.php#dev_list">pgAdmin hackers mailing list</a> and declare yourself as a translator by sending an email to the list. Upon reception of your email, we will add you to the <a href='#trans_progress'>Translation in progress</a> list and make sure two translators do not work at the same time for the same language.
+  <br><br>
+  Usually, we prefer native speakers translating into their mother tongue. In the case of non European and non Asian languages, we have no special requirements.
+  <br><br>
+
+  <li>
+  Download <a href="http://poedit.sourceforge.net">poEdit</a> and install it under MS Windows or GNU/Linux. <br><br>
+  <a href="http://poedit.sourceforge.net">poEdit</a> is our recommended choice, as it makes it really easy to maintain your translation. An MS Windows installer is available on <a href="http://poedit.sourceforge.net">poEdit</a> web site. For GNU/Linux users, we provide packages built against GTK2 with Unicode support. Only our packages enable the translation of Right-To-Left (RTL) languages like Arabic or Persian. Download them from:<br>
+    <a href="http://www.pgadmin.org/snapshots/linux/mandrake91/poEdit">http://www.pgadmin.org/snapshots/linux/mandrake91/poEdit</a><br>
+    <a href="http://www.pgadmin.org/snapshots/linux/redhat9/poEdit">http://www.pgadmin.org/snapshots/linux/redhat9/poEdit</a>.<br>
+    <a href="http://www.pgadmin.org/snapshots/linux/suse82/poEdit">http://www.pgadmin.org/snapshots/linux/suse82/poEdit</a>.<br>
+  <br><br>
+  Alternatively, you may also run <a href="http://i18n.kde.org/tools/kbabel/">Kbabel</a> which can be found in recent GNU/Linux distributions.
+  <br><br>
+
+  <li>
+    Send us the English and translated names of your language: "French" and "Français", "German" and "Deutsch", etc.. This will allow us to modify pgAdmin src/ui/pgadmin3.lng file to display the language name in pgAdmin. We will also create a directory according to your locale canonical name under /usr/share/pgadmin3/ui (GNU/Linux and other Unixes) or c:\program files\pgadmi3\ui (Win32). The list of language codes can be found on <a href="http://www.debian.org/international/l10n/po">Debian site</a>.
+  	<br><br>
+
+ <li>
+    Connect to <a href="translation.php#trans_progress">Translation in progress</a> page and download the *.po file.
+    <br><br>
+
+  <li>Edit pgadmin.po file. The steps described are related to <a href="http://poedit.sourceforge.net">poEdit</a> only.<br><br>
+  	<ul>
+    	<li>As a first action, please edit the file properties (Catalog/Settings).  Select correct language and country, Charset to utf-8. Project name is pgAdmin3, Team is pgAdmin Developers, email address should be pgadmin-hackers@postgresql.org.
+      <br><br>
+      <li>
+			Check the "Automatically compile .mo file on save" in Properties.
+      <br><br>
+      <li>
+			Enter your translation strings.
+      <br><br>
+      <li>
+			Please refer to <a href='http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/*checkout*/pgadmin3/docs/en_US/translation_guidelines.html'>translation guidelines</a> to translate variables (%s and %d) and keyboard shortcuts entries (&).
+		</ul>
+  <br><br>
+
+  <li>Compile pgadmin3.po file into pgadmin3.mo binary file.<br><br>
+      <ul>
+        <li>In <a href="http://poedit.sourceforge.net">poEdit</a>, clicking on the save button will automatically compile pgadmin3.po into an pgadmin3.mo file. <br><br>
+        <li>In Kbabel, you will need to run the following script manually:
+        <pre>
+        # msgfmt -o pgadmin3.mo pgadmin3.po.
+        </pre>
+    	</ul>
+    <br><br>
+
+  <li>Review your translation carefully. <br><br>
+    You should be able to add the appropriate ui/language_Country/pgadmin3.mo file under an existing binary installation of pgAdmin3. Then, just select the language under the File -> Options menu. Review is an important step, because somes strings do not have a real context. You will only be able to correct entries by using pgAdmin3 yourself...
+	<br><br>
+
+  <li>When the translation is finished and reviewed, send pgadmin3.po and pgadmin3.mo files to <a href="mailto:jm@poure.com">Jean-Michel Pouré</a> after zipping/taring them. We will do our best to publish your files immediately. The translations are published in pgAdmin <a href="development.php#dev_snap">Daily snapshots</a> almost everyday.
+	<br><br>
+
+
+
+	<li>From time to time, new strings which need translation are added to the application. Download/update the new pgadmin3.pot and merge the new file with your language file using <a href="http://poedit.sourceforge.net">poEdit</a>'s "Catalog/Update from POT file.." function.
+  </li>
+</ol>
+</dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 </div>

@@ -26,10 +26,9 @@
   <dd>
         The proposed strategy is quite simple :
         <ul>
-          <li>It is better to start translating pgAdmin software and pgAdmin web site in your language as explained on the <a href='translation.php'>translation page</a>.
-          <li>Then, try to register pgAdmin on free software web sites in your country. We are highly interested in community web sites designed by 'opinion leaders'. Each country has one or two major web sites for free software. For example, pgAdmin was registered on <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>.
+          <li>Before you start, it is better to translate pgAdmin software and pgAdmin web site in your language. Just visit the <a href='translation.php'>translation page</a>.
+          <li>Then, register pgAdmin on free software web sites in your country. We are highly interested in community web sites designed by 'opinion leaders'. Each country has one or two major web sites for free software. For example, pgAdmin was registered on <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>.
           <li>You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members. For information purpose, after each registration, please drop us an email to add a new entry to the Registration list.
-          <li>If you are bold enough, contact the press and write short articles about pgAdmin.
           <li>Every month, analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 web site, which reflect the overall interest in pgAdmin. You may be interested in studying the number of connections from your country.
           <li>Cross your fingers and wait until PostgreSQL becomes the #1 database.
         </ul>
@@ -39,9 +38,23 @@
   <dd>
         You are free to publish any technical information about pgAdmin. Here are some guidelines, mainly about links and localization.
         <ul>
-          <li><b>Include a language information in the URL</b>: pgAdmin web site is not (yet) able to guess the default language of your browser. To display a page in your language, just click on your country flag. For example, the URL of the French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>. You can notice that the end of the URL <b>"?locale=xx_XX"</b> forces display in a given language.
-          <li><b>Downloading links</b>: do not publish downloading links pointing to our mirrors (as mirrors may change or be down at certain times). Always publish links pointing directly to pgAdmin web site pages.
-          <li><b>Description of pgAdmin</b>: any technical description is suitable. For the lazy, just translate "pgAdmin III is a comprehensive administration interface for the PostgreSQL database. The application is available under GNU/Linux, FreeBSD and MS Windows. It was designed to answer all needs from writing simple SQL queries to developing complex databases, with support of all features of the latest PostgreSQL generations. The software is released with an installer and does not need any specific driver to communicate with the database server. pgAdmin has been developed by a large community and is available in more than 30 languages." Any comments are welcome.
+          <li><b>Include a language information in the URL</b>: pgAdmin web site is not able to detect the language of your browser. To display a page in your language, just click on your country flag. For example, the URL of the French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>.
+          <li><b>Downloading links</b>: whenever possible, publish links pointing to pgAdmin downloading page: <a href='http://www.pgadmin.org/pgadmin3/download.php'>http://www.pgadmin.org/pgadmin3/download.php</a>. When direct links are required, choose several PostgreSQL mirrors displayed on the same page. Some sites can ask for up to 5 links. Choose mirrors around the world.
+
+          <li><b>Description of pgAdmin</b>: any technical description is suitable. If you are not sure what to write, just translate
+	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
+        <tr><td>
+	pgAdmin III is a comprehensive administration interface for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and MS Windows. It was designed to answer the needs of all users, from writing simple SQL queries to developing complex databases, with support of the latest PostgreSQL features. The software is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin is developed by a community of database specialists around the world and is available in more than 30 languages.
+	</td></tr>
+      </table>
+      Any comments are welcome.
+
+	  <li><b>Keywords</b>: when visiting a web site, most users may not query "pgAdmin" but "PostgreSQL database" or "free administration tools", etc... To answer these search requests, you may be asked to enter additional keywords. My personal choice is to enter:
+	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
+        <tr><td>
+	PostgreSQL postgresql postgres sql database administration admin free
+	</td></tr>
+      </table>
         </ul>
   </dd>
 

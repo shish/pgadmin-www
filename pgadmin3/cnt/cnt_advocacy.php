@@ -142,8 +142,10 @@ de (German)
 en (English)
   <ul>
     <li><a href='http://www.acm.org/sigmod/databaseSoftware/nonprofit'>Association for Computing Machinery</a></li>
+    <li><a href='http://http://www.afreego.com'>AFreeGo</a> (reminder to register)</li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/recent1.html'>Database Journal</a> (pending)</li>
     <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
+    <li><a href='http://www.downlinx.com'>Download 32</a> (reminder to register)</li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://www.freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
@@ -153,8 +155,10 @@ en (English)
     <li><a href='http://www.linuxlinks.com/Web/Databases'>Linux Links</a></li>
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linux Gurus</a> (pending)</li>
     <li><a href='http://www.linuxarchives.com/database.html'>Linux Archives</a> (pending)</li>
+    <li><a href='http://www.needscripts.com'>NeedScripts</a> (reminder to register)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
+    <li><a href='http://www.scriptz.com'>Scriptz</a> (reminder to register)</li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a></li>
@@ -166,6 +170,7 @@ es (Spanish)
   <ul>
     <li><a href='http://www.postgresql.cl'>PostgreSQL Chile</a></li>
     <li><a href='http://linux.bankhacker.com/software/pgAdmin3'>Linux Bankhacker</a></li>
+    <li><a href='http://www.programacion.com'>Programacion</a> (reminder to register)</li>
   </ul>
 </dd>
 
@@ -195,6 +200,13 @@ hu (Hungarian)
 </dd>
 
 <dd>
+pl (Polish)
+  <ul>
+    <li><a href='http://www.idg.pl'>IDG</a> (reminder to register)</li>
+  </ul>
+</dd>
+
+<dd>
 pt (Portuguese/Brazilian)
   <ul>
     <li><a href='http://www.mhavila.com.br/link/dbms/dbms-free.html'>Hyperlink</a></li>
@@ -214,7 +226,10 @@ ro (Romanian)
 ru (Russian)
   <ul>
     <li><a href='http://www.linuxshare.ru/docs/software/SQL/postgresql/index.html'>PostgreSQL Russia</a></li>
+    <li><a href='http://www.linuxcenter.ru'>LinuxCenter</a> (reminder to register)</li>
+    <li><a href='http://www.listsoft.ru'>ListSoft</a> (reminder to register)</li>
     <li><a href='http://www.opennet.ru/prog/sml/154.shtml'>Opennet</a> (pending)</li>
+
   </ul>
 </dd>
 
@@ -222,6 +237,7 @@ ru (Russian)
 zh (Chinese)
   <ul>
     <li><a href='http://www.pgsqldb.org/hail-fellow-link.html'>PostgreSQL China</a></li>
+    <li><a href='http://download.jsinfo.net'>China Telecom</a> (reminder to register)</li>
   </ul>
 </dd>
 

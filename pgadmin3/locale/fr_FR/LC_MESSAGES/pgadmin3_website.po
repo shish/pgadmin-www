@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-08-19 11:51+0100\n"
+"PO-Revision-Date: 2003-08-19 12:02+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr "Auteur"
 #: ../cnt/cnt_download.php:11
 #, c-format
 msgid "Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."
-msgstr "Sachant que la compilation du <a href='%s'>code source/a> requiert des connaissances techniques, il est recommandé d'utiliser les <a href='%s'>binaires précompilés</a>."
+msgstr "Sachant que la compilation du <a href='%s'>code source</a> requiert des connaissances techniques, il est recommandé d'utiliser les <a href='%s'>binaires précompilés</a>."
 
 #: ../cnt/cnt_development.php:54
 msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."

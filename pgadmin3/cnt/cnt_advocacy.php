@@ -41,7 +41,7 @@
         <ul>
           <li><b>Include a language information in the URL</b>: pgAdmin web site is not (yet) able to guess the default language of your browser. To display a page in your language, just click on your country flag. For example, the URL of the French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>. You can notice that the end of the URL <b>"?locale=xx_XX"</b> forces display in a given language.
           <li><b>Downloading links</b>: do not publish downloading links pointing to our mirrors (as mirrors may change or be down at certain times). Always publish links pointing directly to pgAdmin web site pages.
-          <li><b>Description of pgAdmin</b>: any technical description is suitable. For the lazy, just translate "pgAdmin III is a comprehensive design and management graphical user interface for the PostgreSQL database. It communicates with the DBMS using the native protocol and supports all major features and specialties of the latest PostgreSQL generations.". Any comments are welcome.
+          <li><b>Description of pgAdmin</b>: any technical description is suitable. For the lazy, just translate "pgAdmin III is a comprehensive design and management graphical user interface for the PostgreSQL database. The application is available under GNU/Linux, FreeBSD and MS Windows. It communicates with the DBMS using the native protocol and supports all major features and specialties of the latest PostgreSQL generations." Any comments are welcome.
         </ul>
   </dd>
 
@@ -51,6 +51,13 @@
 
 <h1 id="list">Web sites pointing to pgAdmin</h1>
 <dl>
+en_US (English)
+<dd>
+  <ul>
+    <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
+    <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>
+  </ul>
+</dd>
 </dl>
 
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>

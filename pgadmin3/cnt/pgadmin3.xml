@@ -14,11 +14,11 @@
 		<Country></Country>
 		<Company_WebSite_URL>http://www.pgadmin.org</Company_WebSite_URL>
 		<Contact_Info>
-			<Author_First_Name></Author_First_Name>
-			<Author_Last_Name>pgAdmin-Team</Author_Last_Name>
+			<Author_First_Name>pgAdmin</Author_First_Name>
+			<Author_Last_Name>Team</Author_Last_Name>
 			<Author_Email></Author_Email>
-			<Contact_First_Name>Jean-Michel</Contact_First_Name>
-			<Contact_Last_Name>Pouré</Contact_Last_Name>
+			<Contact_First_Name>pgAdmin</Contact_First_Name>
+			<Contact_Last_Name>Team</Contact_Last_Name>
 			<Contact_Email>jm@poure.com</Contact_Email>
 		</Contact_Info>
 		<Support_Info>

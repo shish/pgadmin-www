@@ -162,7 +162,7 @@ en (English)
     <li><a href='http://www.thesoftwarebank.com/soft.aspx?id=23109'>The Software bank</a></li>
     <li><a href='http://www.topdownloads.net/software/view.php?id=14174'>Top Downloads Net</a></li>
     <li><a href='http://www.topshareware.com/pgAdmin-III-for-PostgreSQL-download-12418.htm'>TopShareware</a></li>
-    <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
+    <li><a href='http://www.tucows.com/preview/349245.html'>Tucows</a></li>
     <li><a href='http://www.winpicks.com/ShowDetailsRed.asp?title=pgAdmin+III'>WinPick</a></li>
     <li><a href='http://www.worldssp.net/detailview.asp?proid=12563'>WorldSSP</a></li>
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a></li>

@@ -174,6 +174,7 @@ ro (Romanian)
 ru (Russian)
   <ul>
     <li><a href='http://www.linuxshare.ru/docs/software/SQL/postgresql/index.html'>PostgreSQL Russia</a></li>
+    <li><a href='http://www.opennet.ru/prog/sml/154.shtml'>Opennet</a> (pending)</li>
   </ul>
 </dd>
 

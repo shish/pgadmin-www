@@ -196,7 +196,7 @@ fr (French)
 pt (Portuguese/Brazilian)
   <ul>
     <li><a href='http://www.mhavila.com.br/link/dbms/dbms-free.html'>Hyperlink</a></li>
-    <li><a href='http://www.postgresql.org.br/index.php?corpo=links'>PostgreSQL Brazil</a> (pending)</li>
+    <li><a href='http://www.postgresql.org.br/index.php?corpo=links'>PostgreSQL Brazil</a></li>
   </ul>
 </dd>
 

@@ -3,7 +3,7 @@
   $numcells = 5;
   $conn = @pg_pconnect("dbname=186_portal host=jupiter.hub.org user=186_pgsql");
 	$_error = false;
-  
+
   //
   // Create a connexion
 	//
@@ -39,7 +39,7 @@ if (!$_error) {
   // Warning: should use pg_fetch_all
   // to avoid to many queries over the Internet
   //
-  $ii = pg_numrows($res);
+  $ii = pg_num_rows($res);
   if($ii == 0) {
     echo _("No mirrors could be found.")."<br>";
     echo sprintf(_("Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</a>."), "http://www.postgresql.org/ftpsite")."<br>";

@@ -9,13 +9,13 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
-  <dt><?php echo sprintf(_("pgAdmin3 Beta-%d released"), 2);?></dt>
+  <dt><?php echo sprintf(_("pgAdmin3 %s released"), "1.0");?></dt>
   <dd>
   	<?php echo _("After one year of development, we are happy to announce the availability of pgAdmin3 beta, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD.");?>
     <?php echo _("We would like to thank our developer and translator community who contributed to the project.");?>
     <?php echo sprintf(_("pgAdmin3 is the result of a joint effort of a team of more than %d contributors from %d different countries."), 100, 38);?>
     <br><br>
-    <?php echo _("As usual your feedback during beta is highly appreciated and required.");?>
+    <?php echo _("As usual your feedback is highly appreciated and required.");?>
     <?php echo _("We can only rely on users to make pgAdmin the best possible software.");?>
     <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."), "development.php#changelog");?>
     <br><br>

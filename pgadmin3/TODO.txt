@@ -1,6 +1,5 @@
 High priority
 - FAQ and CHANGELOG should be in CVS, with automatic update to the web site.
-- Define a default font for Latin1 languages.
 - Registration on search engines. We will need to define relevant keywords and translated them.
 - Link section in Support page. Exchanging links is the only way of getting high results on search engines like Google.
 - Website translation status.
@@ -12,3 +11,4 @@ Done
 - Use PostgreSQL php class to generate the list of mirrors.
 - Translation howto including "getting started" and "guidelines" sections.
 - Team members.
+- Define pgAdmin default font for Latin1 languages.

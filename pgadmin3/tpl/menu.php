@@ -8,6 +8,7 @@
 
       <td align="<?php echo $_SESSION['pgadmin']['locale_right']?>" valign="bottom">
       	Languages:
+	<a href="?locale=af_ZA"><img src="img/flags/SouthAfrica.gif" alt="Afrikaans"></img></a>
         <a href="?locale=de_DE"><img src="img/flags/Germany.gif" alt="German"></img></a>
         <a href="?locale=en_US"><img src="img/flags/UK.gif" alt="English"></img></a>
         <a href="?locale=es_ES"><img src="img/flags/Spain.gif" alt="Spain"></img></a>

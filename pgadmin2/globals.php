@@ -1,7 +1,7 @@
 <?php
 
 // Setup the connection string for the database
-$dbConn = "user=pgadmin dbname=186_pgadmin port=5432 host=db.svr2.postgresql.org";
+$dbConn = "user=186_pgsql dbname=186_pgadmin host=jupiter.hub.org";
 
 $Site = "pgadmin2";
 $Root = 1;

@@ -133,7 +133,7 @@ es (Spanish)
 <dd>
 fa (Persian)
   <ul>
-    <li><a href='http://www.linuxiran.org/modules/mylinks'>Linux Iran</a> (pending)</li>
+    <li><a href='http://www.linuxiran.org/modules/mylinks/viewcat.php?cid=4'>Linux Iran</a></li>
   </ul>
 </dd>
 

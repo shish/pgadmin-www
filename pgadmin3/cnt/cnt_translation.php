@@ -111,7 +111,7 @@
         <li>In <a href="http://poedit.sourceforge.net">poEdit</a>, clicking on the save button will automatically compile pgadmin3.po into an pgadmin3.mo file. <br><br>
         <li>In Kbabel, you will need to run the following script manually:
         <pre>
-        # msgfmt -o pgadmin3.mo pgadmin3.po.
+        # msgfmt -o pgadmin3.mo pgadmin3.po
         </pre>
     	</ul>
     <br><br>

@@ -141,7 +141,7 @@
     <dt><?php echo  sprintf(_("Packager: %s"), "<a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> / <a href='mailto:devrim@gunduz.org'>Devrim Gündüz</a> ");?></dt>
 
     <dd>
-    <?php echo sprintf(_("pgAdmin RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s, SuSE %s"), "RC1", "9.1", "9", "8.2");?>
+    <?php echo sprintf(_("pgAdmin RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."), "RC1", "9.1", "9", "8.2");?>
  </dd>
 
   <dd>

@@ -1,7 +1,7 @@
 <div class="sideBox LHS">
   <div><?php echo _("Download")?></div>
   <a href="#pgadmin3">&rsaquo; <?php echo _("pgAdmin3 beta")?></a>
-  <a href="#installation">&rsaquo; <?php echo _("Installation instructions")?></a>
+  <a href="#installation">&rsaquo; <?php echo _("Installation")?></a>
   <a href="#pgadmin2">&rsaquo; pgAdmin2</a>
 </div>
 
@@ -22,7 +22,7 @@
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
 
-  <h1 id="installation"><?php echo _("Installation instructions")?></h1>
+  <h1 id="installation"><?php echo _("pgAdmin3 installation instructions")?></h1>
   <dl>
     <dt><?php echo _("GNU/Linux Debian");?></dt>
     <?php echo  sprintf(_("Packager: %s"), "Raphaël Enrici");?>
@@ -64,6 +64,7 @@
      </ol>
     </dd>
 	</dl>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
   <dl>
     <dt><?php echo sprintf(_("GNU/Linux Mandrake %s, RedHat %s, SuSE %s RPM packages"), "9.1", "9", "8.2");?></dt>
@@ -79,6 +80,7 @@
       </ol>
 		</dd>
 	</dl>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
   <dl>
     <dt><?php echo sprintf(_("GNU/Linux Slackware %s"), "9.0");?></dt>

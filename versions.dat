@@ -1,0 +1,7 @@
+# This file lists the current versions of 'interesting' software.
+# Blank lines are ignored, # at the start indicates a comment.
+# The format is package|version|url and is not case sensitive.
+
+PostgreSQL|7.3.2|http://www.postgresql.org/
+psqlODBC|7.3.100|http://gborg.postgresql.org/project/psqlodbc/
+pgAdmin II|1.5.60|http://www.pgadmin.org/

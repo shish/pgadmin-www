@@ -1,0 +1,5 @@
+AuthUserFile /usr/local/www/security/pgadmin.htpasswd
+AuthGroupFile /dev/null
+AuthName "pgAdmin II Website Administration"
+AuthType Basic
+require valid-user

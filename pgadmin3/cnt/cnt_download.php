@@ -3,8 +3,6 @@
   <a href="#mirrors">&rsaquo; <?php echo _("List of mirrors")?></a>
   <a href="#binaries">&rsaquo; <?php echo _("Binary packages")?></a>
   <a href="#source">&rsaquo; <?php echo _("Source code")?></a>
-  <br>
-<i>On Friday 26th September, the day of pgAdmin v1.0.0 release, it may take a few hours to update download mirrors. <br><br>Please be patient...</i>
 </div>
 
 <div id="bodyText">

@@ -3,8 +3,6 @@
 <a href="#news">&rsaquo; <?php echo _("Latest news");?></a>
 <a href="#features">&rsaquo; <?php echo _("Features");?></a>
 <a href="#contribute">&rsaquo; <?php echo _("How to contribute");?></a>
-<br>
-<i>On Friday 26th September, the day of pgAdmin v1.0.0 release, it may take a few hours to update download mirrors. <br><br>Please be patient...</i>
 </div>
 
 <div id="bodyText">

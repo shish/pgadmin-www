@@ -184,7 +184,9 @@
       You should be able to add the appropriate ui/language_Country/pgadmin3.mo file under an existing binary installation of pgAdmin. Then, just select the language under the File -> Options menu. Review is an important step, because somes strings do not have a real context. You will only be able to correct entries by using pgAdmin yourself...
     <br><br>
 
-    <li>When the translation is finished and reviewed, send pgadmin3.po and pgadmin3.mo files to <a href="mailto:jm@poure.com">Jean-Michel Pouré</a> or any member of the <a href="development.php#team">team</a> after zipping/taring them. We will do our best to publish your files immediately. The translations are published in pgAdmin <a href="download.php#snapshots">Daily snapshots</a> almost everyday.
+    <li>When the translation is finished and reviewed, send pgadmin3.po and pgadmin3.mo files to
+      <a href='mailto:dpage@vale-housing.co.uk'>Dave Page</a> or <a href='mailto:pgadmin@pse-consulting.de'>Andreas Pflug</a>
+ after zipping/taring them. We will do our best to publish your files immediately. The translations are published in pgAdmin <a href="download.php#snapshots">Daily snapshots</a> almost every day.
     <br><br>
 
 

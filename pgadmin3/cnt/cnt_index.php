@@ -14,7 +14,7 @@
   	<?php echo _("After one year of development, we are happy to announce the availability of pgAdmin3 beta, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD.");?>
     <?php echo _("We would like to thank our developer and translator community who contributed to the project.");?>
     <?php echo sprintf(_("pgAdmin3 is the result of a joint effort of a team of more than %d contributors from %d different countries."), 100, 26);?>
-    <?php echo sprintf(_("pgAdmin3 Beta-%d fixes several bugs as shown on the <a href='%s'>Change log</a>."), 2, "development.php#changelog");?>
+    <?php echo sprintf(_("pgAdmin3 Beta-%d fixes several bugs listed on the <a href='%s'>Change log</a> page."), 2, "development.php#changelog");?>
     <br><br>
   	<?php echo sprintf(_("pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
   	<?php echo sprintf(_("The software is available in source and binary format from the <a href='%s'>Download</a> page."), "download.php");?>

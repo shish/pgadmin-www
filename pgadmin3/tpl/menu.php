@@ -15,6 +15,7 @@
               <option value="none">---------------------------</option>
               <option value="en_US">English</option>
               <option value="fr_FR">Français</option>
+              <option value="id_ID">Indonesian</option>
               <option value="ja_JP">日本</option>
             </select>
 

@@ -26,7 +26,7 @@
 </div>
 
 <div id="bodyText">
-<h1 id="update"><?php echo _("Translation updates"), $translated->getNbLanguages());?></h1>
+<h1 id="update"><?php echo _("Translation updates");?></h1>
 <dd>
      <?php  echo sprintf(_("pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."), $translated->getNbLanguages());?>
      <?php  echo _("In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language.");?>

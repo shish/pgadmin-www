@@ -18,9 +18,9 @@
 
 <div class="sideBox LHS">
   <div><?php echo _("Translation");?></div>
-  <a href="#trans_published">&rsaquo;  <?php echo _("Published");?></a>
-  <a href="#trans_progress">&rsaquo;  <?php echo _("In progress");?></a>
-  <a href="#trans_howto">&rsaquo; <?php echo _("Howto");?></a>
+  <a href="#published">&rsaquo;  <?php echo _("Published");?></a>
+  <a href="#progress">&rsaquo;  <?php echo _("In progress");?></a>
+  <a href="#howto">&rsaquo; <?php echo _("Howto");?></a>
 </div>
 
 <div id="bodyText">
@@ -33,7 +33,7 @@
   </dd>
 
 
-  <h1 id="trans_published"><?php echo sprintf(_("Published Translations (%d languages)"), $translated->getNbLanguages());?></h1>
+  <h1 id="published"><?php echo sprintf(_("Published Translations (%d languages)"), $translated->getNbLanguages());?></h1>
   <dd>
   	<?php echo _("If you are the author/maintainer of a translation and whish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command.");?>
     <?php echo _("Translate the text and send us the *.po file.");?>
@@ -52,7 +52,7 @@
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
-  <h1 id="trans_progress"><?php echo sprintf(_("Translations in progress (%d languages)"), $pending->getNbLanguages());?></h1>
+  <h1 id="progress"><?php echo sprintf(_("Translations in progress (%d languages)"), $pending->getNbLanguages());?></h1>
     <?php
     	$_sortBy = $_SESSION['pgadmin']['d2943_poSortBy'];
       $pending->sortBy($_sortBy, SORT_ASC);
@@ -61,14 +61,14 @@
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
   <br>
 
-  <h1 id="trans_howto"><?php echo _("Translation howto");?></h1>
+  <h1 id="howto"><?php echo _("Translation howto");?></h1>
   <dd>
 		<?php echo _("This section is available in English only.");?><br><br>
     Anyone can translate pgAdmin into his/her mother tongue. You don't need to be a programmer. As described in the <a href='http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/*checkout*/pgadmin3/docs/en_US/translation_guidelines.html'>translation guidelines</a>, we made sure that all strings could be translated, even into non-European and non-Asian languages. The required steps for translation are the followings:
 
 <ol>
   <li>
-  Subscribe to <a href="development.php#dev_list">pgAdmin hackers mailing list</a> and declare yourself as a translator by sending an email to the list. Upon reception of your email, we will add you to the <a href='#trans_progress'>Translation in progress</a> list and make sure two translators do not work at the same time for the same language.
+  Subscribe to <a href="development.php#dev_list">pgAdmin hackers mailing list</a> and declare yourself as a translator by sending an email to the list. Upon reception of your email, we will add you to the <a href='#progress'>Translation in progress</a> list and make sure two translators do not work at the same time for the same language.
   <br><br>
   Usually, we prefer native speakers translating into their mother tongue. In the case of non European and non Asian languages, we have no special requirements.
   <br><br>
@@ -88,7 +88,7 @@
   	<br><br>
 
  <li>
-    When this is done, you will receive an email. Connect to <a href="translation.php#trans_progress">Translation in progress</a> page and download the *.po file corresponding to your language.
+    When this is done, you will receive an email. Connect to <a href="translation.php#progress">Translation in progress</a> page and download the *.po file corresponding to your language.
     <br><br>
 
   <li>Edit pgadmin.po file. The steps described are related to <a href="http://poedit.sourceforge.net">poEdit</a> only.<br><br>

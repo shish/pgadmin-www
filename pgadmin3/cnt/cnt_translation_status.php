@@ -45,16 +45,9 @@
   $translated->addLanguage ("zh_CN", "Chinese simplified", "何伟平 (Weiping He)", "laser@zhengmai.com.cn", "pgadmin3.po", "src/ui/zh_CN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("zh_TW", "Chinese traditional", "李枝新 (Chih-Hsin Lee)", "chlee@mail.femh.org.tw", "pgadmin3.po", "src/ui/zh_TW/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
 
-  $pending->addLanguage ("ca_ES", "Catalan", "Carlos Saltos", "csaltos@netscape.net", "pgadmin3.po","src/ui/ca_ES/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $pending->addLanguage ("de_CH", "German (Switzerland)", "Marc Balmer", "marc@msys.ch", "pgadmin3.po", "src/ui/de_CH/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $pending->addLanguage ("gu_IN", "Gujarati", "Bhavin Choksi", "bhavinchoksi2k@yahoo.com", "pgadmin3.po", "src/ui/gu_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $pending->addLanguage ("hi_IN", "Hindi", "Guntupalli Karunakar", "karunakar@freedomink.org", "pgadmin3.po", "src/ui/hi_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("is_IS", "Icelandic", "Þórhallur Hálfdánarson", "tolli@tol.li", "pgadmin3.po","src/ui/is_IS/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("lt_LT", "Lithuanian", "Linas Jankauskas", "linas.jankauskas@eniro.lt", "pgadmin3.po", "src/ui/lt_LT/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $pending->addLanguage ("sd_IN", "Sindhi", "Tariq Farooqi", "mahin@linux.net.pk", "pgadmin3.po","src/ui/sd_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $pending->addLanguage ("te_IN", "Telugu", "Murali Medisetti", "murali@sristi.org", "pgadmin3.po","src/ui/te_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("tl_PH", "Filipino/Tagalog", "Howard Bagcat", "howard@mu.edu.ph", "pgadmin3.po","src/ui/tl_PH/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("uk_UA", "Ukrainian", "Алексей Поторжинский (Alex Potorzhinsky)", "alp@kengu.ru", "pgadmin3.po","src/ui/uk_UA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $pending->addLanguage ("ur_PK", "Urdu", "Tariq Farooqi", "mahin@linux.net.pk", "pgadmin3.po","src/ui/sd_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("vi_VN", "Vietnamese", "Victor Ngoc Duc Vu", "vuducngocus@yahoo.com", "pgadmin3.po","src/ui/vi_VN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
 ?>

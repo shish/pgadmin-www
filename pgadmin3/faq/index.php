@@ -18,6 +18,7 @@
 <A HREF="#UnsuppProtocol">Server log: unsupported protocol</A><BR>
 <A HREF="#FontProblem1">Font problem: too big</A><BR>
 <A HREF="#FontProblem2">Font problem: SQL shows weird characters</A><BR>
+<A HREF="#gtk-qt">Crash on Linux: QPixmap: Invalid pixmap parameters</A><BR>
 <A HREF="#ConnDrop">Connection to database dropped</A><BR>
 <A HREF="#EncodingProblem">Encoding Problem: My data is not shown</A><BR>
 </B>
@@ -169,13 +170,23 @@ On the Query tab of the  Options dialogue, you may select your preferred
 font to have a correct display.
 [AP]
 </p><br>
+<H3><A Name="gtk-qt">Crash on Linux: Qpixmap: Invalid pixmap parameters</A></H3>
+<p>
+When running on a machine with gtk-qt-engine installed, pgAdmin III will crash with a 
+segmentation fault. A console will print "QPixmap: Invalid pixmap parameters".
+<p></p>
+This is caused by a broken gtk-qt-engine; not only pgAdmin III suffers from this.
+<p></p>
+To fix, remove the broken gtk-qt-engine or install a fixed version if available.
+</p><br>
 <H3><A Name="ConnDrop">Connection to database dropped</A></H3>
 <p>
 I'm connecting to the database server via a firewall. After some minutes of inactivity, the 
 connection to the database is dropped. Some admins report that bogus backend processes 
 remain that are never terminated.
 </p><p>
-Unfortunately some network administrators extend functions meant for external web server access to cover
+Unfortunately some network administrators or default firewall settings extend functions 
+meant for external web server access to cover
 internal database traffic too. After some minutes of inactivity, the TCP/IP connection
 is interrupted without notice to both sides of the connection. As a result, the backend 
 doesn't know that there's no connection to the client (in this case: pgAdmin III, but any

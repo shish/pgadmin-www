@@ -14,12 +14,12 @@
 		<Country/>
 		<Company_WebSite_URL>http://www.pgadmin.org</Company_WebSite_URL>
 		<Contact_Info>
-			<Author_First_Name>pgAdmin</Author_First_Name>
-			<Author_Last_Name>Team</Author_Last_Name>
-			<Author_Email></Author_Email>
+			</Author_First_Name>
+			</Author_Last_Name>
+			</Author_Email>
 			<Contact_First_Name>pgAdmin</Contact_First_Name>
 			<Contact_Last_Name>Team</Contact_Last_Name>
-			<Contact_Email>pgadmin-support@postgresql.org</Contact_Email>
+			<Contact_Email>pad@pgadmin.org</Contact_Email>
 		</Contact_Info>
 		<Support_Info>
 			<Sales_Email/>
@@ -82,9 +82,9 @@
 		</English>
 		<French>
 			<Keywords>pgadmin,pgadmin3,pg,pg-admin,postgresql,postgres,sql,database,development,gui,administration,admin,tool,free</Keywords>
-			<Char_Desc_45>Interface graphique d'admistration pour la base de données PostgreSQL, libre et gratuite pour tous usages.</Char_Desc_45>
-			<Char_Desc_80>pgAdmin III est une plate-forme puissante d'admistration et de développement pour la base de données PostgreSQL, libre et gratuite pour tous usages. Disponible dans plus de 30 langues pour Windows 2000/XP, GNU/Linux et FreeBSD. Comprend une interface graphique d'administration, un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore. pgAdmin III est le fruit d'un projet collaboratif international réunissant des spécialistes des bases de données. L'application est disponible dans plus de 30 langues sous licence libre "Artistic licence".</Char_Desc_80>
-			<Char_Desc_250>pgAdmin III est une plate-forme complète d'admistration et de développement pour la base de données PostgreSQL, libre et gratuite pour tous usages. L'application fonctionne sous GNU/Linux, FreeBSD et Windows 2000/XP. pgAdmin III a été conçu pour répondre aux besoins de tous les utilisateurs, depuis l'écriture de requêtes simples jusqu'au développement de bases de données complexes. L'interface graphique donne accès aux fonctionnalités de PostgreSQL les plus récentes, faisant de l'administration un véritable jeu d'enfant. L'application comprend également un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore. pgAdmin III est disponible sous forme d'un installeur ne nécessitant aucun driver additionnel pour communiquer avec la base de données. pgAdmin III est le fruit d'un projet collaboratif international réunissant des spécialistes des bases de données. L'application est disponible dans plus de 30 langues sous licence libre "Artistic licence". </Char_Desc_250>
+			<Char_Desc_45>Interface graphique d'admistration pour la base de donnï¿½s PostgreSQL, libre et gratuite pour tous usages.</Char_Desc_45>
+			<Char_Desc_80>pgAdmin III est une plate-forme puissante d'admistration et de dï¿½eloppement pour la base de donnï¿½s PostgreSQL, libre et gratuite pour tous usages. Disponible dans plus de 30 langues pour Windows 2000/XP, GNU/Linux et FreeBSD. Comprend une interface graphique d'administration, un constructeur de requï¿½es, un ï¿½iteur SQL, un ï¿½iteur de code server-side et bien plus encore. pgAdmin III est le fruit d'un projet collaboratif international rï¿½nissant des spï¿½ialistes des bases de donnï¿½s. L'application est disponible dans plus de 30 langues sous licence libre "Artistic licence".</Char_Desc_80>
+			<Char_Desc_250>pgAdmin III est une plate-forme complï¿½e d'admistration et de dï¿½eloppement pour la base de donnï¿½s PostgreSQL, libre et gratuite pour tous usages. L'application fonctionne sous GNU/Linux, FreeBSD et Windows 2000/XP. pgAdmin III a ï¿½ï¿½conï¿½ pour rï¿½ondre aux besoins de tous les utilisateurs, depuis l'ï¿½riture de requï¿½es simples jusqu'au dï¿½eloppement de bases de donnï¿½s complexes. L'interface graphique donne accï¿½ aux fonctionnalitï¿½ de PostgreSQL les plus rï¿½entes, faisant de l'administration un vï¿½itable jeu d'enfant. L'application comprend ï¿½alement un constructeur de requï¿½es, un ï¿½iteur SQL, un ï¿½iteur de code server-side et bien plus encore. pgAdmin III est disponible sous forme d'un installeur ne nï¿½essitant aucun driver additionnel pour communiquer avec la base de donnï¿½s. pgAdmin III est le fruit d'un projet collaboratif international rï¿½nissant des spï¿½ialistes des bases de donnï¿½s. L'application est disponible dans plus de 30 langues sous licence libre "Artistic licence". </Char_Desc_250>
 			<Char_Desc_450></Char_Desc_450>
 			<Char_Desc_2000></Char_Desc_2000>
 		</French>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-08-05 10:50+0100\n"
+"PO-Revision-Date: 2003-08-06 17:46+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -45,13 +45,18 @@ msgstr "Il est possible d'annuler une requête en cours d'exécution en cliquant
 msgid "A short guided tour of the interface:"
 msgstr "Un rapide aperçu de l'interface:"
 
-#: ../cnt/cnt_download.php:33
+#: ../cnt/cnt_download.php:84
 msgid "APT Configuration"
 msgstr "Configuration APT"
 
 #: ../cnt/cnt_index.php:65
 msgid "Access to all PostgreSQL objects"
 msgstr "Accès à la majorité des objets PostgreSQL"
+
+#: ../cnt/cnt_download.php:13
+#, c-format
+msgid "After downloading, please read our <a href='%s'>installation instructions</a>."
+msgstr "Après avoir terminé le téléchargement, veuillez vous référer à nos <a href='%s'>instructions d'installation</a>."
 
 #: ../cnt/cnt_index.php:14
 msgid "After one year of development, we are happy to announce the availability of pgAdmin3 beta, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD."
@@ -70,12 +75,13 @@ msgstr "Bien que concentrant tous nos efforts sur pgAdmin3, nous allons continue
 msgid "Anonymous read access is available at the following CVSRoot without password from:"
 msgstr "L'accès anonyme en lecture seule est disponible au CVSRoot suivant, sans mot de passe:"
 
-#: ../class/pgadmin_po.php:198
+#: ../class/pgadmin_po.php:241
 msgid "Author"
 msgstr "Auteur"
 
+#: ../cnt/cnt_development.php:45
 #: ../cnt/cnt_download.php:12
-msgid "Because compiling source code requires technical knowledge, we recommand using precompiled binaries."
+msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."
 msgstr "Sachant que la compilation du code source requiert des connaissances techniques, il est recommandé d'utiliser les binaires précompilés."
 
 #: ../cnt/cnt_index.php:26
@@ -97,7 +103,7 @@ msgstr "Le dépot CVS est accessible via une <a href='%s'>interface web</a> ou e
 msgid "Casts"
 msgstr "Casts"
 
-#: ../cnt/cnt_download.php:109
+#: ../cnt/cnt_download.php:160
 msgid "Check that pgAdmin executable is in the path."
 msgstr "Vérifier que l'exécutable de pgAdmin est dans le path."
 
@@ -132,7 +138,7 @@ msgstr "Contraintes"
 msgid "Conversions"
 msgstr "Conversions"
 
-#: ../cnt/cnt_download.php:107
+#: ../cnt/cnt_download.php:158
 msgid "Create a symlink to pgAdmin binary."
 msgstr "Créer un raccourci vers l'exécutable de pgAdmin."
 
@@ -155,6 +161,10 @@ msgstr "Accès aux données"
 #: ../cnt/cnt_screenshots.php:102
 msgid "Databases"
 msgstr "Base de données"
+
+#: ../cnt/cnt_download.php:22
+msgid "Description"
+msgstr "Descriptif"
 
 #: ../cnt/cnt_index.php:40
 msgid "Designed for PostgreSQL latest versions"
@@ -179,7 +189,7 @@ msgstr "Documentation"
 msgid "Domains"
 msgstr "Domaines"
 
-#: ../cnt/cnt_download.php:122
+#: ../cnt/cnt_download.php:173
 msgid "Double-clic on the installer and follow the instructions."
 msgstr "Double-cliquer sur l'installeur et suivre les instructions."
 
@@ -188,35 +198,35 @@ msgstr "Double-cliquer sur l'installeur et suivre les instructions."
 msgid "Download"
 msgstr "Téléchargement"
 
-#: ../class/pgadmin_po.php:200
+#: ../class/pgadmin_po.php:243
 msgid "Download Language"
 msgstr "Téléchargement langue"
 
-#: ../class/pgadmin_po.php:199
+#: ../class/pgadmin_po.php:242
 msgid "Download Template"
 msgstr "Téléchargement modèle"
 
-#: ../cnt/cnt_download.php:104
+#: ../cnt/cnt_download.php:155
 msgid "Download pgAdmin FreeBSD package."
 msgstr "Télécharger le package FreeBSD de pgAdmin."
 
-#: ../cnt/cnt_download.php:75
+#: ../cnt/cnt_download.php:126
 msgid "Download pgAdmin RPM package."
 msgstr "Télécharger le package RPM de pgAdmin."
 
-#: ../cnt/cnt_download.php:91
+#: ../cnt/cnt_download.php:142
 msgid "Download pgAdmin Slackware package."
 msgstr "Télécharger le package Slackware de pgAdmin."
 
-#: ../cnt/cnt_download.php:121
+#: ../cnt/cnt_mirrors.php:1
+msgid "Download pgAdmin from one of PostgreSQL mirrors:"
+msgstr "Téléchargez pgAdmin depuis un des miroirs de PostgreSQL:"
+
+#: ../cnt/cnt_download.php:172
 msgid "Download pgAdmin installer."
 msgstr "Télécharger l'installeur de pgAdmin."
 
-#: ../cnt/cnt_download.php:15
-msgid "Download pgAdmin3 binaries here:"
-msgstr "Télécharger les binaires de pgAdmin3 ici :"
-
-#: ../cnt/cnt_development.php:45
+#: ../cnt/cnt_development.php:46
 msgid "Download pgAdmin3 snapshots here:"
 msgstr "Télécharger les snapshots pgAdmin3 ici :"
 
@@ -224,7 +234,7 @@ msgstr "Télécharger les snapshots pgAdmin3 ici :"
 msgid "EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique optimisation features."
 msgstr "Analysez vos requêtes grâce aux fonctions EXPLAIN et/ou ANALYSE et décrouvrez les fonctionnalités uniques de PostgreSQL concernant l'optimisation."
 
-#: ../cnt/cnt_download.php:35
+#: ../cnt/cnt_download.php:86
 msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr "Editer le fichier /etc/apt/sources.list et ajouter la ligne suivante :"
 
@@ -232,7 +242,7 @@ msgstr "Editer le fichier /etc/apt/sources.list et ajouter la ligne suivante :"
 msgid "Every time you manipulate objects graphically, pgAdmin3 writes the corresponding SQL code."
 msgstr "A chaque fois que vous manipulez des objets graphiquement, pgAdmin3 écrit le code SQL correspondant."
 
-#: ../cnt/cnt_translation.php:16
+#: ../cnt/cnt_translation.php:38
 msgid "Everyone can participate, please refer to the translation howto for more information."
 msgstr "Tout le monde peut participer, veuillez vous reporter au guide de traduction pour plus d'informations."
 
@@ -241,15 +251,15 @@ msgstr "Tout le monde peut participer, veuillez vous reporter au guide de traduc
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: ../cnt/cnt_download.php:45
+#: ../cnt/cnt_download.php:96
 msgid "For Debian TESTING:"
 msgstr "Pour Debian TESTING:"
 
-#: ../cnt/cnt_download.php:51
+#: ../cnt/cnt_download.php:102
 msgid "For Debian UNSTABLE:"
 msgstr "Pour Debian UNSTABLE:"
 
-#: ../cnt/cnt_download.php:39
+#: ../cnt/cnt_download.php:90
 msgid "For Debian WOODY:"
 msgstr "Pour Debian WOODY:"
 
@@ -257,7 +267,7 @@ msgstr "Pour Debian WOODY:"
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../cnt/cnt_download.php:100
+#: ../cnt/cnt_download.php:151
 #, c-format
 msgid "FreeBSD %s"
 msgstr "FreeBSD %s"
@@ -267,7 +277,7 @@ msgstr "FreeBSD %s"
 msgid "Functions"
 msgstr "Fonctions"
 
-#: ../class/pgadmin_po.php:203
+#: ../class/pgadmin_po.php:246
 msgid "Fuzzy"
 msgstr "Fuzzy"
 
@@ -275,16 +285,16 @@ msgstr "Fuzzy"
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: ../cnt/cnt_download.php:27
+#: ../cnt/cnt_download.php:78
 msgid "GNU/Linux Debian"
 msgstr "GNU/Linux Debian"
 
-#: ../cnt/cnt_download.php:70
+#: ../cnt/cnt_download.php:121
 #, c-format
 msgid "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
 msgstr "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
 
-#: ../cnt/cnt_download.php:86
+#: ../cnt/cnt_download.php:137
 #, c-format
 msgid "GNU/Linux Slackware %s"
 msgstr "GNU/Linux Slackware %s"
@@ -304,25 +314,25 @@ msgstr "Accueil"
 msgid "How to contribute"
 msgstr "Comment participer"
 
-#: ../cnt/cnt_translation.php:9
+#: ../cnt/cnt_translation.php:31
 msgid "Howto"
 msgstr "Guide howto"
 
-#: ../cnt/cnt_translation.php:17
+#: ../cnt/cnt_translation.php:40
 #, c-format
 msgid "If you are interested by the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."
 msgstr "Si vous êtes intéressés par la traduction des messages du serveur PostgreSQL, veuillez visiter la page du projet <a href='%s'>PostgreSQL National Language Support</a>."
 
-#: ../cnt/cnt_download.php:133
+#: ../cnt/cnt_download.php:184
 #, c-format
 msgid "If you are interested in pgAdmin2, please visit <a href='%s'>pgAdmin2 downloading</a> page."
 msgstr "Si vous vous intéressez à pgAdmin2, veuillez visiter la page de <a href='%s'>téléchargement de pgAdmin2</a>."
 
-#: ../cnt/cnt_translation.php:25
+#: ../cnt/cnt_translation.php:49
 msgid "If you are not the author/maintainer of a translation and whish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator."
 msgstr "Si vous êtes l'auteur ou le responsable de la traduction et souhaitez soumettre un correctif : téléchargez le fichier correpondant à votre langue (extension *.po), faites les corrections nécessaires et renvoyez-nous le fichier en mettant le traducteur en CC."
 
-#: ../cnt/cnt_translation.php:22
+#: ../cnt/cnt_translation.php:46
 msgid "If you are the author/maintainer of a translation and whish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command."
 msgstr "Si vous êtes l'auteur ou le responsable de la traduction et souhaitez soumettre un correctif : téléchargez le fichier correpondant à votre langue (extension *.po), lancer poEdit et utiliser la commande 'Mettre à jour à partir du fichier modèle'."
 
@@ -353,7 +363,7 @@ msgstr "Dans chaque environnement, pgAdmin3 est une application native."
 msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
 msgstr "En particulier, nous avons besoin d'aide pour le portage vers MacOsX et SunOS."
 
-#: ../cnt/cnt_translation.php:8
+#: ../cnt/cnt_translation.php:30
 msgid "In progress"
 msgstr "En cours de réalisation"
 
@@ -366,12 +376,12 @@ msgstr "Dans la partie gauche de pgAdmin3, une arborescence de navigation permet
 msgid "Indexes"
 msgstr "Index"
 
-#: ../cnt/cnt_download.php:93
+#: ../cnt/cnt_download.php:144
 msgid "Install the downloaded package using Slackware pkgtool or installpkg."
 msgstr "Installer le package téléchargé en utilisant les outils pkgtool et installpkg de Slackware."
 
-#: ../cnt/cnt_download.php:77
-#: ../cnt/cnt_download.php:105
+#: ../cnt/cnt_download.php:128
+#: ../cnt/cnt_download.php:156
 msgid "Install using the following command:"
 msgstr "Installer à l'aide de la commande suivante :"
 
@@ -379,7 +389,7 @@ msgstr "Installer à l'aide de la commande suivante :"
 msgid "Installation"
 msgstr "Installation"
 
-#: ../class/pgadmin_po.php:197
+#: ../class/pgadmin_po.php:240
 msgid "Language"
 msgstr "Langue"
 
@@ -392,11 +402,11 @@ msgstr "Langue :"
 msgid "Latest news"
 msgstr "Dernières nouvelles"
 
-#: ../class/pgadmin_po.php:196
+#: ../class/pgadmin_po.php:239
 msgid "Locale"
 msgstr "Locale"
 
-#: ../cnt/cnt_download.php:117
+#: ../cnt/cnt_download.php:168
 #: ../cnt/cnt_index.php:34
 msgid "MS Windows 2000 & XP"
 msgstr "MS Windows 2000 & XP"
@@ -410,7 +420,7 @@ msgstr "Les versions MacOsX et SunOS sont en cours de développement."
 msgid "Mailing list"
 msgstr "Listes de diffusion"
 
-#: ../class/pgadmin_po.php:198
+#: ../class/pgadmin_po.php:241
 msgid "Maintainer"
 msgstr "Responsable"
 
@@ -462,6 +472,10 @@ msgstr "Veuillez remarquer les onglets donnant accès aux propriétés, aux para
 msgid "Objects are displayed with their SQL definition."
 msgstr "Les objets sont affichés accompagnés de leur définition SQL."
 
+#: ../cnt/cnt_download.php:14
+msgid "On each mirror, the files can be found in the following directories:"
+msgstr "Sur chaque miroir, vous pourrez trouver les fichiers dans les répertoires suivants:"
+
 #: ../cnt/cnt_screenshots.php:213
 msgid "On-line documentation"
 msgstr "Documentation en ligne"
@@ -480,16 +494,16 @@ msgstr "Classes opérateur"
 msgid "Operators"
 msgstr "Opérateurs"
 
-#: ../cnt/cnt_download.php:28
-#: ../cnt/cnt_download.php:71
-#: ../cnt/cnt_download.php:87
-#: ../cnt/cnt_download.php:101
-#: ../cnt/cnt_download.php:118
+#: ../cnt/cnt_download.php:79
+#: ../cnt/cnt_download.php:122
+#: ../cnt/cnt_download.php:138
+#: ../cnt/cnt_download.php:152
+#: ../cnt/cnt_download.php:169
 #, c-format
 msgid "Packager: %s"
 msgstr "Responsable package : %s"
 
-#: ../cnt/cnt_development.php:51
+#: ../cnt/cnt_development.php:52
 #, c-format
 msgid "Please refer to our <a href='%s'>installation instructions</a>."
 msgstr "Veuillez vous référer à nos <a href='%s'>instructions d'installation</a>."
@@ -515,11 +529,11 @@ msgstr "Serveurs PostgreSQL"
 msgid "Powerfull query tool with color syntax highlight"
 msgstr "Puissant outil de requêtage avec mise en évidence colorisée de la syntaxe"
 
-#: ../cnt/cnt_translation.php:7
+#: ../cnt/cnt_translation.php:29
 msgid "Published"
 msgstr "Publié"
 
-#: ../cnt/cnt_translation.php:20
+#: ../cnt/cnt_translation.php:44
 #, c-format
 msgid "Published Translations (%d languages)"
 msgstr "Traduction publiées (%d langues)"
@@ -533,7 +547,7 @@ msgstr "Récemment, notre équipe s'est enrichie de développeurs ayant une exp�
 msgid "Rules"
 msgstr "Règles"
 
-#: ../cnt/cnt_download.php:58
+#: ../cnt/cnt_download.php:109
 msgid "Run the following commands as root:"
 msgstr "Lancer les commandes suivantes sous l'utilisateur root :"
 
@@ -566,7 +580,7 @@ msgstr "Etat du serveur"
 msgid "Server-side languages (like PLpgsql, PLpython, PLperl, etc...)"
 msgstr "Langages de programmation server-side (i.e. PLpgSQL, PLpython, PLperl, etc...)"
 
-#: ../class/pgadmin_po.php:204
+#: ../class/pgadmin_po.php:247
 msgid "Status"
 msgstr "Avancement"
 
@@ -625,7 +639,7 @@ msgstr "Le logiciel est écrit en C++ à partir de l'excellent toolkit multi pla
 msgid "The tool displays execution times of queries."
 msgstr "L'outil affiche la durée d'exécution des requêtes."
 
-#: ../cnt/cnt_translation.php:28
+#: ../cnt/cnt_translation.php:52
 msgid "The updated translations are published in daily snapshots automatically."
 msgstr "Les traductions mises à jour sont publiées automatiquement dans les snapshots quotidiens."
 
@@ -638,7 +652,7 @@ msgid "This makes learning SQL more easy..."
 msgstr "Apprendre le langage SQL est ainsi plus aisé..."
 
 #: ../cnt/cnt_development.php:37
-#: ../cnt/cnt_download.php:134
+#: ../cnt/cnt_download.php:185
 msgid "This page is available in English only."
 msgstr "Cette page est disponible uniquement en langue anglaise."
 
@@ -646,35 +660,40 @@ msgstr "Cette page est disponible uniquement en langue anglaise."
 msgid "This technical choice allows to browse very large tables without problem."
 msgstr "Ce choix technique permet de faire défiler de grandes tables de données sans aucun problème."
 
+#: ../cnt/cnt_translation.php:39
+#, c-format
+msgid "This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."
+msgstr "Nous signalons que ce site web peut également être traduit à l'aide du fichier <a href='%s'>pgadmin3_website.pot</a>."
+
 #: ../cnt/cnt_development.php:25
 #: ../cnt/cnt_support.php:10
 #, c-format
 msgid "To subscribe to the mailing list, send an email to %s with the word 'subscribe', without quotes, as the body of message."
 msgstr "Pour vous inscrire sur la liste de diffusion, veuillez envoyer un courriel à l'adresse %s en indiquant le mot 'subscribe', sans quillemet, dans le corps de votre message."
 
-#: ../class/pgadmin_po.php:201
+#: ../class/pgadmin_po.php:244
 msgid "Total"
 msgstr "Total"
 
-#: ../cnt/cnt_translation.php:23
+#: ../cnt/cnt_translation.php:47
 msgid "Translate the text and send us the *.po file."
 msgstr "Traduisez le texte et faites-nous parvenir le fichier *.po."
 
-#: ../class/pgadmin_po.php:202
+#: ../class/pgadmin_po.php:245
 msgid "Translated"
 msgstr "Traduit"
 
 #: ../cnt/cnt_index.php:144
-#: ../cnt/cnt_translation.php:6
+#: ../cnt/cnt_translation.php:28
 #: ../tpl/menu.php:33
 msgid "Translation"
 msgstr "Traduction"
 
-#: ../cnt/cnt_translation.php:48
+#: ../cnt/cnt_translation.php:72
 msgid "Translation howto"
 msgstr "Guide de traduction"
 
-#: ../cnt/cnt_translation.php:39
+#: ../cnt/cnt_translation.php:63
 #, c-format
 msgid "Translations in progress (%d languages)"
 msgstr "Traductions en cours de réalisation (%d langues)"
@@ -689,7 +708,7 @@ msgstr "Fonctions trigger"
 msgid "Types"
 msgstr "Types"
 
-#: ../class/pgadmin_po.php:203
+#: ../class/pgadmin_po.php:246
 msgid "Untranslated"
 msgstr "Non-traduit"
 
@@ -721,7 +740,7 @@ msgstr "Vues"
 msgid "We need help to translate pgAdmin3 and our website in more than %d languages."
 msgstr "Nous avons besoin de votre aide pour traduire pgAdmin3 et notre site Internet vers plus de %d langues."
 
-#: ../cnt/cnt_translation.php:15
+#: ../cnt/cnt_translation.php:37
 msgid "We need your help to translate pgAdmin3 into several languages."
 msgstr "Nous avons besoin de votre aide pour traduire pgAdmin3 vers plusieurs langues."
 
@@ -746,7 +765,7 @@ msgstr "Lorsque configuré côté serveur, il est possible de se connecter en ut
 msgid "With the help and suggestions of users, we have been constantly improving the usability of pgAdmin."
 msgstr "Grâce à l'aide et aux suggestions des utilisateurs, nous avons amélioré régulièrement l'ergonomie de pgAdmin."
 
-#: ../cnt/cnt_download.php:132
+#: ../cnt/cnt_download.php:183
 #: ../cnt/cnt_index.php:25
 msgid "With the rapid advancement of the project, we recommand upgrading to pgAdmin3."
 msgstr "Avec la progression rapide du projet, nous recommandons une mise à jour vers pgAdmin3."
@@ -760,6 +779,20 @@ msgstr "Vous êtes les bienvenus sur la liste, mais pensez à utiliser la liste 
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr "Vous découvrirez rapidement que PostgreSQL est la base de données la plus rapide."
 
+#: ../cnt/cnt_download.php:11
+msgid "pgAdmin  is available in source and binary format."
+msgstr "pgAdmin est disponible aux formats source et binaires."
+
+#: ../cnt/cnt_download.php:34
+#: ../cnt/cnt_download.php:40
+#: ../cnt/cnt_download.php:46
+#: ../cnt/cnt_download.php:52
+#: ../cnt/cnt_download.php:58
+#: ../cnt/cnt_download.php:64
+#, c-format
+msgid "pgAdmin binary packages for %s"
+msgstr "Package binaire pgAdmin pour %s"
+
 #: ../cnt/cnt_index.php:133
 msgid "pgAdmin is a project created and managed by contributors from the whole world."
 msgstr "pgAdmin est un projet créé et animé par des participants du monde entier."
@@ -769,15 +802,23 @@ msgstr "pgAdmin est un projet créé et animé par des participants du monde ent
 msgid "pgAdmin is used by more than %d users worldwide."
 msgstr "pgAdmin est utilisé par plus de %d utilisateurs dans le monde."
 
+#: ../cnt/cnt_download.php:20
+msgid "pgAdmin location on mirror"
+msgstr "Emplacement de pgAdmin sur le miroir"
+
 #: ../cnt/cnt_screenshots.php:61
 msgid "pgAdmin project started five years ago."
 msgstr "Le projet pgAdmin existe depuis cinq années."
+
+#: ../cnt/cnt_download.php:28
+msgid "pgAdmin source code"
+msgstr "Code source de pgAdmin"
 
 #: ../cnt/cnt_development.php:13
 msgid "pgAdmin source code is available subject to the terms of the Artistic Licence."
 msgstr "Le code source de pgAdmin est disponible sous licence Artistic Licence."
 
-#: ../cnt/cnt_download.php:131
+#: ../cnt/cnt_download.php:182
 msgid "pgAdmin2 is available for Ms Windows only."
 msgstr "pgAdmin2 est disponible uniquement sous Ms Windows."
 
@@ -785,7 +826,7 @@ msgstr "pgAdmin2 est disponible uniquement sous Ms Windows."
 msgid "pgAdmin2 is still supported"
 msgstr "pgAdmin2 fait toujours l'object d'un suivi technique"
 
-#: ../cnt/cnt_download.php:129
+#: ../cnt/cnt_download.php:180
 msgid "pgAdmin2 stable"
 msgstr "Version stable de pgAdmin2"
 
@@ -810,7 +851,7 @@ msgstr "pgAdmin3 inclue la documentation complète de PostgreSQL."
 msgid "pgAdmin3 includes a table editor."
 msgstr "pgAdmin3 incorpore un éditeur de table."
 
-#: ../cnt/cnt_download.php:25
+#: ../cnt/cnt_download.php:76
 msgid "pgAdmin3 installation instructions"
 msgstr "Instructions d'installation de pgAdmin3"
 
@@ -835,11 +876,6 @@ msgstr "pgAdmin3 est un logiciel libre distribué sous licence Artistic licence.
 #, c-format
 msgid "pgAdmin3 is the result of a joint effort of a team of more than %d contributors from %d different countries."
 msgstr "pgAdmin3 est le résultat de l'effort commun d'une équipe comprenant plus de %d participants de %d pays différents."
-
-#: ../cnt/cnt_download.php:11
-#, c-format
-msgid "pgAdmin3 source code can be downloaded <a href='%s'>here</a>."
-msgstr "Le code source de pgAdmin3 peut être téléchargé <a href='%s'>ici</a>."
 
 #: ../cnt/cnt_screenshots.php:237
 msgid "pgAdmin3 supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte encodings."

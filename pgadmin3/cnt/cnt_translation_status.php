@@ -44,6 +44,7 @@
   $translated->addLanguage ("sk_SK", "Slovak", "Andrej Misovic", "ado@nirvanaclub.sk", "pgadmin3.po","src/ui/sk_SK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("sl_SI", "Slovenian", "Miha Radej", "miha.radej@siix.com", "pgadmin3.po","src/ui/sl_SI/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("sv_SE", "Swedish", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po","src/ui/sv_SE/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $outofdate->addLanguage ("te_IN", "Telugu", "Sai Suresh Danduboyina", "saisuresh@cc.usu.edu", "pgadmin3.po","src/ui/te_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("tl_PH", "Filipino/Tagalog", "Howard Bagcat", "howard@mu.edu.ph", "pgadmin3.po","src/ui/tl_PH/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("tr_TR", "Turkish", "Devrim Gunduz",  "devrim@gunduz.org", "pgadmin3.po", "src/ui/tr_TR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("ur_PK", "Urdu", "Zaeem Arshad", "zaeem.arshad@gmail.com", "pgadmin3.po","src/ui/ur_PK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

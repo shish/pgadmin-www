@@ -23,7 +23,7 @@
   <dd>
         The proposed strategy is quite simple :
         <ul>
-          <li>Before you start, it is better to translate pgAdmin software and pgAdmin web site in your language. Just visit the <a href='translation.php'>translation page</a>.
+          <li>Before you start, it is recommanded to translate pgAdmin software and pgAdmin web site in your language. Just visit the <a href='translation.php'>translation page</a>.
           <li>Then, register pgAdmin on free software web sites in your country. We are highly interested in community web sites. Some countries have one or two major web sites for free software. For example, pgAdmin was registered on <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>.
           <li>You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members. For information purpose, after each registration, please drop us an email to add a new entry to the Registration list.
           <li>Every month, analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 web site, which reflect the overall interest in pgAdmin. You may be interested in studying the number of connections from your country.

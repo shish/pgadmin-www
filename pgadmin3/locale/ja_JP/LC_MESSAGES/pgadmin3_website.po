@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2004-02-04 12:36+0100\n"
-"PO-Revision-Date: 2004-02-12 00:13+0900\n"
+"PO-Revision-Date: 2004-02-13 11:01+0900\n"
 "Last-Translator: Hiroshi Saito <saito@inetrt.skcapi.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: ../cnt/cnt_advocacy.php:82
 msgid "<Char_Desc_2000>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. Available in more than 30 languages and for several operating systems, including MS Windows, GNU/Linux and FreeBSD.</Char_Desc_2000>"
-msgstr "<Char_Desc_2000>PostgreSQLデータベースにおける中心で自由に管理できます。グラフィカルな管理インターフェース、SQLクエリーツール、手続きのコード・エディター、および多くを含みます。シンプルなSQLクエリーを書くことから開発途中の複雑なデータベースへ、pgAdminIIIは、ほとんどのユーザーの要求に答えるようにデザインされています。グラフィカルなインターフェースは、すべてのPostgreSQL特徴をサポートして、管理を簡単にします。３０以上の言語で、MSウィンドウズ、GNU/Linux、およびFreeBSDを含むいくつかのオペレーティングシステムので利用できます。</Char_Desc_2000>"
+msgstr "<Char_Desc_2000>PostgreSQLデータベースにおける中心で自由に管理できます。グラフィカルな管理インターフェース、SQLクエリーツール、手続きのコード・エディター、および多くを含みます。シンプルなSQLクエリーを書くことから開発中の複雑なデータベース操作、pgAdminIIIは、ほとんどのユーザーの要求に答えるようにデザインされています。グラフィカルなインターフェースは、すべてのPostgreSQL特徴をサポートして、管理を簡単にします。３０以上の言語で、MSウィンドウズ、GNU/Linux、およびFreeBSDを含むいくつかのオペレーティングシステムので利用できます。</Char_Desc_2000>"
 
 #: ../cnt/cnt_advocacy.php:78
 msgid "<Char_Desc_250>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. Designed to answer the needs of most users.</Char_Desc_250>"
@@ -24,7 +24,7 @@ msgstr "<Char_Desc_250>PostgreSQLデータベースにおける中心で自由�
 
 #: ../cnt/cnt_advocacy.php:80
 msgid "<Char_Desc_450>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. Available in more than 30 languages and for several operating systems.</Char_Desc_450>"
-msgstr "<Char_Desc_450>PostgreSQLデータベースにおける中心で自由に管理できます。グラフィカルな管理インターフェース、SQLクエリーツール、手続きのコード・エディター、および多くを含みます。シンプルなSQLクエリーを書くことから開発途中の複雑なデータベースへ、pgAdminIIIは、ほとんどのユーザーの要求に答えるようにデザインされています。３０以上の言語で利用できて、およびいくつかのオペレーティングシステムで可能です。.</Char_Desc_450>"
+msgstr "<Char_Desc_450>PostgreSQLデータベースにおける中心で自由に管理できます。グラフィカルな管理インターフェース、SQLクエリーツール、手続きのコード・エディター、および多くを含みます。シンプルなSQLクエリーを書くことから開発中の複雑なデータベース操作、pgAdminIIIは、ほとんどのユーザーの要求に答えるようにデザインされています。３０以上の言語で利用できて、およびいくつかのオペレーティングシステムで可能です。.</Char_Desc_450>"
 
 #: ../cnt/cnt_advocacy.php:74
 msgid "<Char_Desc_45>Administration Centre for PostgreSQL</Char_Desc_45>"
@@ -50,7 +50,7 @@ msgstr "ナビゲーション・ツリーのダブルクリックは、別々の
 
 #: ../cnt/cnt_index.php:29
 msgid "A new release of pgAdmin is available, including bug fixes for some problems that have been reported by users."
-msgstr "pgAdminの新しいリリースは、利用できます。また、含んでいるバグは、ユーザーによってレポートされたいくつかの問題を修正しています。"
+msgstr "pgAdminの新しいリリースは、利用できます。また、潜在していたバグは、ユーザーによりレポートされたいくつかの問題を修正しています。"
 
 #: ../cnt/cnt_screenshots.php:198
 msgid "A query tool with colour syntax highlight allows to run custom queries."
@@ -88,7 +88,7 @@ msgstr "統計情報"
 
 #: ../cnt/cnt_index.php:51
 msgid "Although we concentrate on pgAdmin III, we will continue to support pgAdmin II."
-msgstr "私達は、pgAdmin III.に専念するにもかかわらず、pgAdmin2をサポートし続けるでしょう。"
+msgstr "私達は、pgAdmin III.に専念するにもかかわらず、pgAdminIIをサポートし続けるでしょう。"
 
 #: ../cnt/cnt_development.php:16
 msgid "Anonymous read access is available using a CVS client."
@@ -114,12 +114,12 @@ msgstr "<a href='%s'>source</a>からコンパイルすることは専門知識�
 
 #: ../cnt/cnt_download.php:455
 msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."
-msgstr "ソース・コードからコンパイルすることは専門知識を要するかもしれないという理由で、私達は再度得られるためにバイナリーパッケージを用意しました。"
+msgstr "ソース・コードからコンパイルすることは専門知識を要するかもしれないという理由で、私達は再度、利用できるようにバイナリーパッケージを用意しました。"
 
 #: ../cnt/cnt_download.php:32
 #, c-format
 msgid "Before you start installation, please choose a mirror in the list of our <a href='%s'>mirrors</a>."
-msgstr "貴方がインストールを開始する前に、どうぞ我々のリストから<a href='%s'> ミラーサイト</a>を選んで下さい。"
+msgstr "あなたがインストールを開始する前に、どうぞ我々のリストから<a href='%s'> ミラーサイト</a>を選んで下さい。"
 
 #: ../cnt/cnt_download.php:9
 msgid "Binary snapshots"
@@ -245,11 +245,11 @@ msgstr "開発チーム"
 
 #: ../cnt/cnt_index.php:169
 msgid "Do not hesitate to get involved."
-msgstr "含まれるのを躊躇しないで下さい。"
+msgstr "躊躇せずに、ぜひ参加して下さい。"
 
 #: ../cnt/cnt_translation.php:47
 msgid "Do not hesitate to review or update a translation."
-msgstr "翻訳をレビューまたは更新するのを躊躇しないで下さい。"
+msgstr "躊躇せずに、ぜひ翻訳をレビューするかまたは更新して下さい。"
 
 #: ../cnt/cnt_screenshots.php:7
 msgid "Documentation"
@@ -308,7 +308,7 @@ msgstr "私達の<a href='%s'>ミラーサイト<a>からpgAdminをダウンロ�
 
 #: ../cnt/cnt_screenshots.php:214
 msgid "EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique optimisation features."
-msgstr "分析(Explain)またはアナライズ(Analyze)を利用してクエリーで独特の最適化特徴を備えるPostgreSQLを利用して下さい。"
+msgstr "分析(Explain)またはアナライズ(Analyze)を利用したクエリーで独特の最適化特徴を備えるPostgreSQLを利用して下さい。"
 
 #: ../cnt/cnt_download.php:54
 msgid "Edit /etc/apt/sources.list file and add the following line:"
@@ -351,7 +351,7 @@ msgstr "For Debian WOODY:"
 
 #: ../cnt/cnt_download.php:88
 msgid "For example, for France, you can try:"
-msgstr "例えば、フランス語のために、あなたは試みることができます: "
+msgstr "例えば、フランス語であなたは試みることができます: "
 
 #: ../cnt/cnt_download.php:6
 #: ../cnt/cnt_index.php:69
@@ -411,7 +411,7 @@ msgstr "pgAdminIIに興味があれば、<a href='%s'>pgAdminII</a>サイトを�
 
 #: ../cnt/cnt_translation.php:42
 msgid "If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator."
-msgstr "翻訳の作者/保守者でなくても、あなたが翻訳修正を提出することができます :まずは言語ファイル(*.po)をダウンロードして、必要な修正をして翻訳者と私達にCCで送り返して下さい。"
+msgstr "翻訳の作者/保守者でなくても、あなたは翻訳の修正を提出することができます :まずは言語ファイル(*.po)をダウンロードして、必要な修正をして翻訳者と私達にCCで送り返して下さい。"
 
 #: ../cnt/cnt_translation.php:38
 msgid "If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command."
@@ -420,21 +420,21 @@ msgstr "作者/保守者かあなたは翻訳を更新する必要があれば: 
 #: ../cnt/cnt_index.php:173
 #, c-format
 msgid "If you think you can contribute new features and/or bug fixes, please visit the <a href='%s'>Development</a> page."
-msgstr "あなたがあなたが新しい特徴、あるいはバグの修正に貢献することができると思うときは、<a href='%s'>開発者</a>ページを訪れてください。"
+msgstr "あなたが新しい特徴を加えるか、あるいはバグの修正に貢献することができると思うときは、<a href='%s'>開発者</a>ページを訪れてください。"
 
 #: ../cnt/cnt_index.php:181
 #, c-format
 msgid "If you think you can help us, please visit the <a href='%s'>Translation</a> page."
-msgstr "あなたがあなたが私達を手伝うことができると思うときは、<a href='%s'>翻訳</a>ページを訪れてください。"
+msgstr "あなたが私達を手伝うことができると思うときは、<a href='%s'>翻訳</a>ページを訪れてください。"
 
 #: ../cnt/cnt_index.php:45
 #, c-format
 msgid "If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."
-msgstr "あなたが開発に貢献したいとき、<a href='%s'>バイナリスナップショット</a>を毎日コンパイルしてしていますので、これを使うことが出来ます。"
+msgstr "あなたが開発に貢献したいとき、<a href='%s'>バイナリスナップショット</a>を毎日コンパイルしてしていますので、これを使ってください。"
 
 #: ../cnt/cnt_screenshots.php:277
 msgid "In a near future, we would like to transform this utility into a full-featured PostgreSQL server configuration utility."
-msgstr "近い将来で、私達は、このユーティリティを完全に備えられたPostgreSQLサーバー構成ユーティリティに変換したいです。"
+msgstr "近い将来に、私達はこのユーティリティを、完全に備えられたPostgreSQLサーバー構成ユーティリティに変換したいと考えています。"
 
 #: ../cnt/cnt_support.php:12
 msgid "In case you encounter an unexpected behaviour, you should have a look at that page."
@@ -446,7 +446,7 @@ msgstr "すべての環境で、pgAdminIIIは、ネイティブアプリケー�
 
 #: ../cnt/cnt_index.php:174
 msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
-msgstr "特に、私達は、やがて起こるMacOsX、SunOSﾎﾟｰﾄのために助けを必要とします。"
+msgstr "特に私達は、やがて必要になるMacOsX、SunOSﾎﾟｰﾄのために手助けを必要としています。"
 
 #: ../cnt/cnt_translation.php:22
 msgid "In progress"
@@ -534,7 +534,7 @@ msgstr "保守者"
 #: ../cnt/cnt_support.php:24
 #, c-format
 msgid "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a href='%s'>mail-archive.com</a>."
-msgstr "リストに送られるメッセージはアーカイブされます <a href='%s'>PostgreSQL</a> または <a　href='%s'>mail-archive.com</a>"
+msgstr "リストに送られるメッセージは、<a href='%s'>PostgreSQL</a> または <a　href='%s'>mail-archive.com</a>でアーカイブされます"
 
 #: ../cnt/cnt_download.php:7
 msgid "Ms Windows"
@@ -611,7 +611,7 @@ msgstr "オペレータ"
 #: ../cnt/cnt_support.php:11
 #, c-format
 msgid "Our <a href='%s' target='_blank'>FAQ</a> document contains some known caveats."
-msgstr "私達の<a href='%s' target='_blank'>FAQ</a> ドキュメントはいくつかの知られた警告を含みます。"
+msgstr "私達の<a href='%s' target='_blank'>FAQ</a>ドキュメントはいくつかの知られた警告を含みます。"
 
 #: ../cnt/cnt_download.php:22
 #: ../cnt/cnt_download.php:141
@@ -689,7 +689,7 @@ msgstr "GTK2.2、automake、autoconf、およびgccは、必要とされます�
 
 #: ../cnt/cnt_screenshots.php:65
 msgid "Recently, our team was joined by developers with an experience of more than 10 years in the design of database tools."
-msgstr "最近、私達のチームは、データベース・ツールのデザインで10年以上の経験との開発者が加わりました。"
+msgstr "最近、私達のチームは、データベース・ツールのデザインで10年以上の経験を持った開発者が加わりました。"
 
 #: ../cnt/cnt_download.php:330
 msgid "Requirements"
@@ -785,7 +785,7 @@ msgstr "Windows 2000/XP, GNU/LinuxまたはFreeBSDで利用できます。"
 
 #: ../cnt/cnt_download.php:338
 msgid "The best solution is to use a recent distribution."
-msgstr "最もよい解決は、最近のディストリビューションを使うことです。"
+msgstr "最もよい解決方法は、最新のディストリビューションを使うことです。"
 
 #: ../cnt/cnt_screenshots.php:188
 msgid "The data is retrieved on-demand when it needs to be displayed."
@@ -797,7 +797,7 @@ msgstr "ドキュメンテーションは、オフラインあるいはオンラ
 
 #: ../cnt/cnt_index.php:17
 msgid "The graphical interface supports all PostgreSQL features and makes administration easy."
-msgstr "グラフィカルなインターフェースは、すべてのPostgreSQL特徴をサポートして、管理を簡単にします。"
+msgstr "グラフィカルなインターフェースは、すべてのPostgreSQL特徴をサポートし、管理を簡単にします。"
 
 #: ../cnt/cnt_development.php:101
 #: ../cnt/cnt_development.php:117
@@ -813,12 +813,12 @@ msgstr "ライブラリーは、'wxWindows'ディレクトリーで私達のミ�
 #: ../cnt/cnt_download.php:476
 #, c-format
 msgid "The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."
-msgstr "ミラーサイトは、<a href='%s'>PostgreSQL</a>プロジェクトによって親切に提供されます。"
+msgstr "ミラーサイトは、<a href='%s'>PostgreSQL</a>プロジェクトによって親切に提供されています。"
 
 #: ../cnt/cnt_index.php:168
 #: ../cnt/cnt_translation.php:46
 msgid "The project can only live and develop with your help."
-msgstr "プロジェクトは、単に生きていて、あなたのヘルプで発展することができます。"
+msgstr "プロジェクトは、単に存在し、あなたの手助けで発展することができます。"
 
 #: ../cnt/cnt_screenshots.php:138
 msgid "The properties and statistics of the selected object are displayed in the right pane of pgAdmin III."
@@ -848,7 +848,7 @@ msgstr "ツールは、クエリーの実行の時に表示します。"
 
 #: ../cnt/cnt_translation.php:50
 msgid "The updated translations are published in daily snapshots automatically."
-msgstr "更新された翻訳は、自動的に毎日のスナップショットで公開されます"
+msgstr "更新された翻訳状態は、自動的に毎日のスナップショットで公開されます"
 
 #: ../cnt/cnt_download.php:454
 msgid "There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development."
@@ -944,7 +944,7 @@ msgstr "GNU/Linuxの下に、利用できるいくつかのコマンドライン
 #: ../cnt/cnt_development.php:17
 #, c-format
 msgid "Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free software."
-msgstr "Windowsのために、我々は<a href='%s'>WinCVS</a>を勧めます。これは、Free Softwareです。"
+msgstr "Windowsのために、私達は<a href='%s'>WinCVS</a>を勧めます。これは、Free Softwareです。"
 
 #: ../cnt/cnt_download.php:360
 #: ../cnt/cnt_download.php:430
@@ -967,7 +967,7 @@ msgstr "ユーザー"
 
 #: ../cnt/cnt_support.php:27
 msgid "Using the mailing list guarantees that your request isn't lost and will be answered in a timely fashion."
-msgstr "メーリング・リストを使うことは、あなたのリクエストが失われないでそして適時の対応で答えられるだろうことを保証します。"
+msgstr "メーリング・リストを使うことは、あなたの要求が失われず、そして適時の対応で答えられるだろうことを保証します。"
 
 #: ../cnt/cnt_index.php:95
 msgid "Very fast datagrid for display/entry of data"
@@ -989,16 +989,16 @@ msgstr "私達は、pgAdminを最もよい有能なソフトウェアにする�
 #: ../cnt/cnt_index.php:180
 #, c-format
 msgid "We need help to translate pgAdmin III and our website in more than %d languages."
-msgstr "私達は、%d 言語以上でpgAdminIIIおよび私達のウェブサイトを訳すために助ける必要があります。"
+msgstr "私達は、%d言語以上でpgAdminIIIおよび私達のウェブサイトを訳すための手助けを求めています。"
 
 #: ../cnt/cnt_translation.php:29
 msgid "We need your help to translate pgAdmin III into several languages."
-msgstr "私達は、pgAdminIIIをいくつかの言語に訳すために、あなたのヘルプを必要とします。"
+msgstr "私達は、pgAdminIIIをいくつかの言語に訳すために、あなたの助けを必要とします。"
 
 #: ../cnt/cnt_screenshots.php:258
 #, c-format
 msgid "We plan to reach %d languages soon."
-msgstr "私達は、すぐに%dの言語に達する計画を立てます。"
+msgstr "私達は、すぐに%dの言語に達する計画を立てています。"
 
 #: ../cnt/cnt_download.php:346
 msgid "We provide modified wxWindows 2.5 source and binary packages."
@@ -1006,11 +1006,11 @@ msgstr "私達は、改造されたwxWindows2.5のソース、およびバイナ
 
 #: ../cnt/cnt_screenshots.php:47
 msgid "We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows 2000 & XP. MacOsX and SunOS ports are in preparation."
-msgstr "私達は、ソース、およびバイナリー・パッケージをGNU / Linuxに提供します, FreeBSD または MS Windows 2000 と XP,MacOsX と SunOS portsは準備中です。"
+msgstr "私達は、ソース、およびバイナリー・パッケージをGNU/Linuxに提供します, FreeBSD または MS Windows 2000 と XP,MacOsX と SunOS portsは準備中です。"
 
 #: ../cnt/cnt_index.php:37
 msgid "We would like to thank our developer and translator community who contributed to the project."
-msgstr "私達は、このプロジェクトに貢献した開発者、および翻訳者コミュニティーに感謝します。"
+msgstr "私達は、このプロジェクトに貢献した開発者達、および翻訳者コミュニティーに感謝します。"
 
 #: ../cnt/cnt_screenshots.php:81
 msgid "When configured server-side, it is possible to connect using encrypted password or SSL authentication."
@@ -1022,16 +1022,16 @@ msgstr "Windows 2000 & XP"
 
 #: ../cnt/cnt_screenshots.php:64
 msgid "With the help and suggestions of users, we have been constantly improving the usability of pgAdmin."
-msgstr "ユーザーのヘルプ、および提案で、私達は、常にpgAdminの有用性を改良しています。"
+msgstr "ユーザーのヘルプ、および提案によって、私達は、常にpgAdminの品質を改良しています。"
 
 #: ../cnt/cnt_index.php:52
 msgid "With the rapid advancement of the project, we recommand upgrading to pgAdmin III."
-msgstr "プロジェクトの急速な前進で、私達は再びpgAdminIIIをグレードアップします。"
+msgstr "プロジェクトの急速な前進で、私達は再びpgAdminIIIをグレードアップするでしょう。"
 
 #: ../cnt/cnt_development.php:38
 #, c-format
 msgid "You are more than welcome to subscribe, but please remember to use <a href='%s'>pgadmin-support</a> list for end user support issues."
-msgstr "あなたが自由に予約して、そしてそこに貢献しまたはスレッドを開始してください。 しかし、どうぞ忘れずに使うようにして下さい <a href='%s'>pgadmin サポート・リスト</a> は、エンドユーザー問題のサポートのためにあります。"
+msgstr "あなたは自由に予約することができます、そして貢献するかまたはスレッドを開始してください。 しかし、どうぞ忘れずに使うようにして下さい。<a href='%s'>pgadmin サポート・リスト</a> は、エンドユーザーのトラブルサポートのためにあります。"
 
 #: ../cnt/cnt_screenshots.php:216
 msgid "You will soon notice that PostgreSQL is the fastest database available."
@@ -1050,7 +1050,7 @@ msgstr "pgAdminIII %s リリース"
 #: ../cnt/cnt_download.php:144
 #, c-format
 msgid "pgAdmin III RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."
-msgstr "pgAdminIII rpmパッケージは、いくつかのGNU / Linuxディストリビューションで利用できます。Fedora %s, Mandrake %s, RedHat %s または SuSE %s を含みます。"
+msgstr "pgAdminIII rpmパッケージは、いくつかのGNU/Linuxディストリビューションで利用できます。Fedora %s, Mandrake %s, RedHat %s または SuSE %s を含みます。"
 
 #: ../cnt/cnt_download.php:46
 #: ../cnt/cnt_download.php:162
@@ -1074,7 +1074,7 @@ msgstr "pgAdminIIIは、埋め込み型libpqネイティブライブラリを利
 
 #: ../cnt/cnt_screenshots.php:232
 msgid "pgAdmin III includes PostgreSQL full documentation."
-msgstr "pgAdminIIIは、完全なPostgreSQLのドキュメンテーションが含まれます。"
+msgstr "pgAdminIIIは、完全なPostgreSQLのドキュメンテーションが含まれています。"
 
 #: ../cnt/cnt_screenshots.php:166
 msgid "pgAdmin III includes a table editor."
@@ -1083,11 +1083,11 @@ msgstr "pgAdminIIIには、テーブルエディターが含まれます。"
 #: ../cnt/cnt_screenshots.php:257
 #, c-format
 msgid "pgAdmin III interface is translated in more than %d languages."
-msgstr "pgAdminIIIインターフェースは、%d 以上の言語で訳されます。"
+msgstr "pgAdminIIIインターフェースは、%d以上の言語で訳されます。"
 
 #: ../cnt/cnt_screenshots.php:259
 msgid "pgAdmin III interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic."
-msgstr "pgAdminIIIインターフェースは、アラビア(RTL)のような去られたスクリプトにさえ、広く知られたユニコード・スクリプトでサポートします。"
+msgstr "pgAdminIIIインターフェースは、アラビア(RTL)のような去られたスクリプトにさえ、広く認知されたユニコード・スクリプトによりサポートします。"
 
 #: ../cnt/cnt_screenshots.php:43
 msgid "pgAdmin III is a comprehensive design and management interface for PostgreSQL database, designed to run on most Operating Systems."
@@ -1105,15 +1105,15 @@ msgstr "pgAdminIIIは、PostgreSQLデータベースのための効率的な管�
 
 #: ../cnt/cnt_development.php:14
 msgid "pgAdmin III is available subject to the terms of the Artistic Licence."
-msgstr "pgAdminIIIのためのソース・コードは、Artistic Licenceの条件で利用できるサブジェクトです。"
+msgstr "pgAdminIIIのソース・コードは、Artistic Licenceの条件のもとで自由に利用できるサブジェクトです。"
 
 #: ../cnt/cnt_index.php:16
 msgid "pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases."
-msgstr "pgAdminIIIは、シンプルなSQL質問を書くことから開発途中の複雑なデータベースへ、すべてのユーザーの要求に答えるようにデザインされています。"
+msgstr "pgAdminIIIは、シンプルなSQLクエリーを書くことから開発中の複雑なデータベース操作まで、すべてのユーザーの要求に答えるようにデザインされています。"
 
 #: ../cnt/cnt_index.php:22
 msgid "pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License."
-msgstr "pgAdminIIIは、世界中にデータベース・スペシャリストのコミュニティーによって開発されて、３０以上の言語で利用できます。それは、Artistic Licenseの基に解放されたフリー・ソフトウェアです。"
+msgstr "pgAdminIIIは、世界のデータベース・スペシャリストによるコミュニティーによって開発されて、３０以上の言語で利用できます。それは、Artistic Licenseのもとに自由に利用できるフリー・ソフトウェアです。"
 
 #: ../cnt/cnt_index.php:19
 msgid "pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server."
@@ -1122,7 +1122,7 @@ msgstr "pgAdminIIIは、データベース・サーバーと接続するため�
 #: ../cnt/cnt_index.php:38
 #, c-format
 msgid "pgAdmin III is the result of a joint effort of a team of more than %d contributors from %d different countries."
-msgstr "pgAdminIIIは、より多くのチームの共同の努力の結果です %d の寄稿者から %d の異なる国々。"
+msgstr "pgAdminIIIは、%dの寄稿者達から%dの異なる国々の多くのチームの共同の努力の結果です 。"
 
 #: ../cnt/cnt_download.php:204
 #: ../cnt/cnt_download.php:240
@@ -1138,7 +1138,7 @@ msgstr "pgAdminIIIパッケージは、<a href='%s'>GNU/Linux Debian</a>安定�
 
 #: ../cnt/cnt_screenshots.php:248
 msgid "pgAdmin III supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte encodings."
-msgstr "pgAdminIIIは、PostgreSQLユニコード UTF-8を含むサーバー側エンコーディングおよび他のマルチ・バイトのエンコーディングをサポートします。"
+msgstr "pgAdminIIIは、PostgreSQLのユニコード(UTF-8)を含むサーバー側エンコーディング、および他のマルチ・バイトのエンコーディングをサポートします。"
 
 #: ../cnt/cnt_index.php:144
 msgid "pgAdmin III supports most PostgreSQL server-side encodings:"
@@ -1147,24 +1147,24 @@ msgstr "pgAdminIIIは、サーバー側のほとんどのPostgreSQLのエンコ�
 #: ../cnt/cnt_index.php:87
 #, c-format
 msgid "pgAdmin III user interface is translated in more than %d languages."
-msgstr "pgAdminIIIユーザ・インタフェースは、% d言語以上で訳されています。"
+msgstr "pgAdminIIIユーザ・インタフェースは、%d言語以上で訳されています。"
 
 #: ../cnt/cnt_index.php:167
 msgid "pgAdmin is a project created and managed by contributors from the whole world."
-msgstr "pgAdminは、全世界から寄稿者によって作り出して管理されたプロジェクトです。"
+msgstr "pgAdminは、全世界からの寄稿者達によって成り立っている管理されたプロジェクトです。"
 
 #: ../cnt/cnt_screenshots.php:63
 #, c-format
 msgid "pgAdmin is used by more than %d users worldwide."
-msgstr "pgAdminを使っているユーザーは、今世界中の %d 人以上います。"
+msgstr "pgAdminを使っているユーザーは、今世界中に%d人以上います。"
 
 #: ../cnt/cnt_screenshots.php:62
 msgid "pgAdmin project started five years ago."
-msgstr "pgAdminプロジェクトは、５年前にスタートしました。"
+msgstr "pgAdminプロジェクトは、おおよそ５年前にスタートしました。"
 
 #: ../cnt/cnt_development.php:37
 msgid "pgadmin-hackers list is intended for developers who wish to contribute to pgAdmin project."
-msgstr "pgadmin-hackers のリストは、pgAdminプロジェクトに貢献したいと思う開発者を意図しました。"
+msgstr "pgadmin-hackersのリストは、pgAdminプロジェクトに貢献したいと思う開発者を意図しました。"
 
 #: ../cnt/cnt_development.php:35
 msgid "pgadmin-hackers mailing list"
@@ -1172,7 +1172,7 @@ msgstr "pgadmin-hackers メーリング・リスト "
 
 #: ../cnt/cnt_support.php:21
 msgid "pgadmin-support is a support list intended for end user support and bug reports."
-msgstr "pgadmin-support は、エンドユーザー・サポート、およびバグ・レポートを意図したサポート・リストです。"
+msgstr "pgadmin-supportは、エンドユーザーのサポート、およびバグ・レポートを意図したサポート・リストです。"
 
 #: ../cnt/cnt_support.php:19
 msgid "pgadmin-support mailing list"
@@ -1180,9 +1180,9 @@ msgstr "pgadmin-support メーリング・リスト"
 
 #: ../cnt/cnt_download.php:345
 msgid "wxWindows 2.4 will not work because of Unicode problems."
-msgstr "wxWindows2.4は、ユニコード問題があるために十分に働かないでしょう。"
+msgstr "wxWindows2.4は、ユニコード問題があるために十分に動きません。"
 
 #: ../cnt/cnt_download.php:344
 msgid "wxWindows 2.5 compiled from CVS with additional patches."
-msgstr "wxWindows2.5は、cvsから追加のパッチでコンパイルしました。"
+msgstr "wxWindows2.5は、cvsから追加のパッチでコンパイルしています。"
 

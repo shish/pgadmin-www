@@ -90,7 +90,7 @@
 	pgadmin pgadmin2 pgdmin3 PostgreSQL postgresql postgres sql database development gui administration tool software free pg pg-admin
 	</td></tr>
       </table></li>
-	<li><b>Information in PAD format</b>: PAD is an XML format from the <a href='http://www.asp-shareware.org/pad'>Association of Shareware Profesionals</a> designed for registration of freeware and sharewares. pgAdmin III pad file is available here: <a href='http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml</a>. Furthermore, the <a href='http://www.padring.com'>Pad Ring</a> extension enables the creation of links between PAD files. Using this feature, our <a href='http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>PAD file</a> points at several PostgreSQL administration software. This way, there are chances that pgAdmin III be published on the same sites automatically.</li>
+	<li><b>Information in PAD format</b>: PAD is an XML format from the <a href='http://www.asp-shareware.org/pad'>Association of Shareware Professionals</a> designed for registration of freeware and sharewares. pgAdmin III pad file is available here: <a href='http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml</a>. Furthermore, the <a href='http://www.padring.com'>Pad Ring</a> extension enables the creation of links between PAD files. Using this feature, our <a href='http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>PAD file</a> points at several PostgreSQL administration software. This way, there are chances that pgAdmin III be published on the same sites automatically.</li>
     </ul>
   </dd>
 
@@ -127,6 +127,7 @@ en (English)
   <ul>
     <li><a href='http://www.acm.org/sigmod/databaseSoftware/nonprofit'>Association for Computing Machinery</a></li>
     <li><a href='http://www.afreego.com'>AFreeGo</a> (pending)</li>
+    <li><a href='http://www.asp-shareware.org/pad/showinfo.asp?xmlfile=http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>Association of Shareware Professionals</a></li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/1075383313.html'>Database Journal</a></li>
     <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.download32.com/proghtml/533/53391.htm'>Download 32</a></li>

@@ -118,7 +118,7 @@ pt (Portuguese/Brazilian)
 ru (Russian Federation)
 <dd>
   <ul>
-    <li><a href='http://www.linuxshare.ru/docs/software/SQL/postgresql/index.html'>PostgreSQL Russia</a> (pending)
+    <li><a href='http://www.linuxshare.ru/docs/software/SQL/postgresql/index.html'>PostgreSQL Russia</a>
   </ul>
 </dd>
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-08-19 00:19+0100\n"
+"PO-Revision-Date: 2003-08-19 10:39+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -474,8 +474,8 @@ msgid "Installing pgAdmin"
 msgstr "Installation de pgAdmin"
 
 #: ../cnt/cnt_download.php:248
-msgid "Installing wxWindows framework"
-msgstr "Installation du framework wxWindows"
+msgid "Installing wxWindows libraries"
+msgstr "Installation des librairies wxWindows"
 
 #: ../cnt/cnt_support.php:4
 #: ../cnt/cnt_support.php:17
@@ -498,7 +498,7 @@ msgstr "Dernières nouvelles"
 #: ../cnt/cnt_download.php:79
 #, c-format
 msgid "Latest wxWindows %s source and binary packages needed for pgAdmin"
-msgstr ""
+msgstr "Packages binaires et sources de wxWindows %s les plus récents requis pour pgAdmin"
 
 #: ../cnt/cnt_download.php:3
 #: ../cnt/cnt_download.php:13
@@ -663,8 +663,8 @@ msgid "Recently, our team was joined by developers with an experience of more th
 msgstr "Récemment, notre équipe s'est enrichie de développeurs ayant une expérience de plus de 10 années dans la création d'outils de base de données."
 
 #: ../cnt/cnt_download.php:230
-msgid "Recents versions of GTK2.2, automake,  autoconf and gcc are needed."
-msgstr ""
+msgid "Recents versions of GTK2.2, automake, autoconf and gcc are needed."
+msgstr "Il est nécessaire d'utiliser des versions récentes de GTK2.2, de automake, de autoconf et de gcc."
 
 #: ../cnt/cnt_download.php:223
 msgid "Requirements"
@@ -757,17 +757,17 @@ msgstr "La documentation peut être consultée on-line ou off-line."
 #: ../cnt/cnt_development.php:65
 #: ../cnt/cnt_support.php:20
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
-msgstr ""
+msgstr "Les informations affichées sont extraites automatiquement du CVS de pgAdmin."
+
+#: ../cnt/cnt_download.php:240
+#: ../cnt/cnt_download.php:253
+msgid "The libraries can be downloaded from our mirrors in the 'wxWindows' directory."
+msgstr "Les librairies peuvent être téléchargées directement depuis nos miroirs dans le répertoire 'wxWindows'."
 
 #: ../cnt/cnt_download.php:16
 #, c-format
 msgid "The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."
-msgstr ""
-
-#: ../cnt/cnt_download.php:240
-#: ../cnt/cnt_download.php:253
-msgid "The packages can be downloaded from our mirrors in the 'wxWindows' directory."
-msgstr ""
+msgstr "Les miroirs sont fournis gracieusement par le projet <a href='%s'>PostgreSQL</a>."
 
 #: ../cnt/cnt_index.php:140
 msgid "The project can only live and develop with your help. Do not hesitate to get involved."
@@ -838,7 +838,7 @@ msgstr "Pour vous inscrire sur la liste de diffusion, veuillez envoyer un courri
 #: ../cnt/cnt_development.php:7
 #: ../cnt/cnt_development.php:62
 msgid "Todo list"
-msgstr ""
+msgstr "Liste des todo."
 
 #: ../class/pgadmin_po.php:244
 msgid "Total"
@@ -878,12 +878,9 @@ msgid "Types"
 msgstr "Types"
 
 #: ../cnt/cnt_download.php:254
-msgid "Unpack as follows:"
-msgstr ""
-
 #: ../cnt/cnt_download.php:306
-msgid "Unpack pgAdmin tarball."
-msgstr "Décompresser l'archive de pgAdmin."
+msgid "Unpack as follows:"
+msgstr "Extraire l'archive comme indiqué ci-dessous:"
 
 #: ../class/pgadmin_po.php:246
 msgid "Untranslated"
@@ -932,7 +929,7 @@ msgstr "Le code source et des packages pré-compilés sont disponibles pour les 
 
 #: ../cnt/cnt_download.php:239
 msgid "We provide wxWindows 2.5 source and binary packages."
-msgstr ""
+msgstr "Nous fournissons des packages source et binaire de wxWindows 2.5."
 
 #: ../cnt/cnt_index.php:15
 msgid "We would like to thank our developer and translator community who contributed to the project."
@@ -1013,7 +1010,7 @@ msgstr "pgAdmin3 est disponible en version bêta"
 
 #: ../cnt/cnt_download.php:15
 msgid "pgAdmin3 can be downloaded from a large number of mirrors."
-msgstr ""
+msgstr "pgAdmin3 est téléchargeable depuis un grand nombre de miroirs."
 
 #: ../cnt/cnt_screenshots.php:76
 msgid "pgAdmin3 can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library."
@@ -1081,9 +1078,9 @@ msgstr "Liste de diffusion pgadmin-support"
 
 #: ../cnt/cnt_download.php:238
 msgid "wxWindows 2.4 will not work because of Unicode problems."
-msgstr ""
+msgstr "wxWindows 2.4 ne fonctionne pas en raison de problèmes Unicode."
 
 #: ../cnt/cnt_download.php:237
 msgid "wxWindows 2.5 compiled from CVS with additional patches."
-msgstr ""
+msgstr "wxWindows 2.5 compilé à partir de CVS avec quelques correctifs additionnels."
 

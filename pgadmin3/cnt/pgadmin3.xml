@@ -90,6 +90,16 @@
 			<Char_Desc_2000>Logiciel libre d'administration de la base de données PostgreSQL. Comprend une interface graphique d'administration, un outil de requêtes SQL, un éditeur de code procédural et bien plus encore. pgAdmin III est conçu pour répondre à la plupart des besoins, depuis l'écriture de simples requêtes SQL jusqu'au développement de bases de données complexes. L'interface graphique supporte les fonctionnalités de PostgreSQL les plus récentes et fait de l'administration un jeu d'enfant. Disponible dans plus de 30 langues et pour plusieurs systèmes d'exploitation, y compris MS Windows, GNU/Linux et FreeBSD.</Char_Desc_2000>
 		</French>
 
+		<Japanese>
+			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
+			<Char_Desc_45>PostgreSQLにとって中心の管理</Char_Desc_45>
+			<Char_Desc_80>PostgreSQLデータベースのためのグラフィカルな管理インターフェース</Char_Desc_80>
+			<Char_Desc_250>PostgreSQLデータベースにおける中心で自由に管理できます。グラフィカルな管理インターフェース、SQLクエリーツール、手続きのコード・エディター、および多くを含みます。ほとんどのユーザーの要求に答えるようにデザインました。.</Char_Desc_250>
+			<Char_Desc_450>PostgreSQLデータベースにおける中心で自由に管理できます。グラフィカルな管理インターフェース、SQLクエリーツール、手続きのコード・エディター、および多くを含みます。シンプルなSQLクエリーを書くことから開発途中の複雑なデータベースへ、pgAdminIIIは、ほとんどのユーザーの要求に答えるようにデザインされています。３０以上の言語で利用できて、およびいくつかのオペレーティングシステムで可能です。.</Char_Desc_450>
+			<Char_Desc_2000>PostgreSQLデータベースにおける中心で自由に管理できます。グラフィカルな管理インターフェース、SQLクエリーツール、手続きのコード・エディター、および多くを含みます。シンプルなSQLクエリーを書くことから開発途中の複雑なデータベースへ、pgAdminIIIは、ほとんどのユーザーの要求に答えるようにデザインされています。グラフィカルなインターフェースは、すべてのPostgreSQL特徴をサポートして、管理を簡単にします。３０以上の言語で、MSウィンドウズ、GNU/Linux、およびFreeBSDを含むいくつかのオペレーティングシステムので利用できます。</Char_Desc_2000>
+		</Japanese>
+
+
 		<Taiwanese>
 			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
 			<Char_Desc_45>PostgreSQL資料庫管理中心</Char_Desc_45>

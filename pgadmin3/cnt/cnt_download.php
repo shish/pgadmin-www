@@ -245,12 +245,12 @@
     </ul>
   </dd>
 
-  <dt><?php echo _("Installing wxWindows framework");?></dt>
+  <dt><?php echo _("Installing wxWindows libraries");?></dt>
   <dd>
   	<ol>
     	<li>
       	<?php echo _("Download our supported wxWindows 2.5 CVS version.");?>
-        <?php echo _("The packages can be downloaded from our mirrors in the 'wxWindows' directory.")?>
+        <?php echo _("The libraries can be downloaded from our mirrors in the 'wxWindows' directory.")?>
       	<?php echo _("Unpack as follows:");?><br>
       <pre>
       # tar -xzf wxWindows*.tar.gz

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-08-19 00:18+0200\n"
+"POT-Creation-Date: 2003-08-19 00:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -492,7 +492,7 @@ msgid "Installing pgAdmin"
 msgstr ""
 
 #: ../cnt/cnt_download.php:248
-msgid "Installing wxWindows framework"
+msgid "Installing wxWindows libraries"
 msgstr ""
 
 #: ../cnt/cnt_support.php:4 ../cnt/cnt_support.php:17
@@ -766,12 +766,18 @@ msgstr ""
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
 msgstr ""
 
+#: ../cnt/cnt_download.php:253
+msgid ""
+"The libraries can be downloaded from our mirrors in the 'wxWindows' "
+"directory."
+msgstr ""
+
 #: ../cnt/cnt_download.php:16
 #, c-format
 msgid "The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."
 msgstr ""
 
-#: ../cnt/cnt_download.php:240 ../cnt/cnt_download.php:253
+#: ../cnt/cnt_download.php:240
 msgid ""
 "The packages can be downloaded from our mirrors in the 'wxWindows' directory."
 msgstr ""

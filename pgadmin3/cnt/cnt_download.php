@@ -237,7 +237,7 @@
   <dl>
     <dt><?php echo  sprintf(_("Packager: %s"), "斉藤　浩 (Hiroshi Saito)");?></dt>
   <dd>
-    <?php echo sprintf(_("pgAdmin packages are available for FreeBSD %s."), "5.1");?>
+    <?php echo sprintf(_("pgAdmin packages are available for %s."), "FreeBSD 5.1");?>
   </dd>
 
   <dd>

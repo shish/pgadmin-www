@@ -7,7 +7,7 @@
 <div id="bodyText">
   <dd>
     <?php echo _("The advocacy page is intended for the promotion of pgAdmin.");?>
-    <?php echo _("This page is only available in English.");?>
+    <?php echo _("This page is available in English only.");?>
   </dd>
 
 <h1 id="introduction">Introduction</h1>

@@ -89,7 +89,9 @@
       <li><a href='mailto:pgadmin@pse-consulting.de'>Andreas Pflug</a> (Core Developer): Has written vast amounts of pgAdmin III code and is responsible for much of its design.
       <li><a href='mailto:frank_lupo@email.it'>Frank Lupo</a> (Core Developer): Has made countless improvements to the pgAdmin II code from minor bug fixes to major enhancements.<br>&nbsp;
 
-      <li><a href='mailto:saito@inetrt.skcapi.co.jpe'>Hiroshi Saito</a> (Member): Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.
+      <li><a href='mailto:saito@inetrt.skcapi.co.jp'>Hiroshi Saito</a> (Member): Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.
+      <li><a href='mailto:fmonkey@fmonkey.net'>Adam H. Pendleton</a> (Member): Developed and maintains the build system, and helps with various porting issues.
+      <li><a href='mailto:blacknoz@club-internet.fr'>Raphaël Enrici</a> (Member): Maintains the Debian port, and helps with numerous other issues.
     </ul>
   </ol>
 </dd>

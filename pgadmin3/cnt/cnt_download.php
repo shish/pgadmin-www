@@ -96,19 +96,19 @@
               <?php echo _("For Debian WOODY:");?>
               <br>
               &nbsp;deb
-              [MIRROR'S URL]/beta/debian woody pgadmin
+              [MIRROR URL]/beta/debian woody pgadmin
 
             <li>
               <?php echo _("For Debian TESTING:");?>
               <br>
               &nbsp;deb
-              [MIRROR'S URL]/beta/debian testing pgadmin
+              [MIRROR URL]/beta/debian testing pgadmin
 
             <li>
               <?php echo _("For Debian UNSTABLE:");?>
               <br>
               &nbsp;deb
-              [MIRROR'S URL]/beta/debian unstable pgadmin
+              [MIRROR URL]/beta/debian unstable pgadmin
 					</ul>
 
           <?php echo _("For example, for France, you can try:");?>

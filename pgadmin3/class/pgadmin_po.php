@@ -297,6 +297,11 @@ class po_status {
 				$_result['status'] = 0;
       }
 
+      if (($_result['status'] == 100) && ($_result['total'] != $_result['translated'])) {
+				$_result['status'] = 99;
+      }
+
+
       return $_result;
     } else {
     	$this_error = "Error: no statistics available for $_po_file_path";

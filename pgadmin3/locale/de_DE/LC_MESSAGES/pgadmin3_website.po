@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-22 14:51+0200\n"
-"PO-Revision-Date: 2003-09-26 15:28+0100\n"
+"PO-Revision-Date: 2003-09-28 13:06+0100\n"
 "Last-Translator: Andreas Pflug <Andreas.Pflug@web.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -672,7 +672,7 @@ msgstr "Veröffentlicht"
 #: ../cnt/cnt_translation.php:36
 #, c-format
 msgid "Published Translations (%d languages)"
-msgstr "Veröffentlichtee Übersetzungen (%d Sprachen)"
+msgstr "Veröffentlichte Übersetzungen (%d Sprachen)"
 
 #: ../cnt/cnt_screenshots.php:64
 msgid "Recently, our team was joined by developers with an experience of more than 10 years in the design of database tools."

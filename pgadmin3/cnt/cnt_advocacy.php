@@ -219,7 +219,7 @@ ru (Russian)
     <li><a href='http://www.linuxcenter.ru'>LinuxCenter</a> (reminder to register)</li>
     <li><a href='http://www.listsoft.ru'>ListSoft</a> (reminder to register)</li>
     <li><a href='http://www.opennet.ru/prog/sml/154.shtml'>Opennet</a></li>
-    <li><a href='http://soft.necromancers.ru'>Necromancers</a> (pending)</li>
+    <li><a href='http://soft.necromancers.ru/prog_13303.html'>Necromancers</a></li>
   </ul>
 </dd>
 

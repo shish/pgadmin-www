@@ -12,26 +12,26 @@
 
 <h1 id="introduction">Introduction</h1>
 <dl>
-  <dt>Why promote pgAdmin?</dt>
+  <h3>Why promote pgAdmin?</h3>
   <dd>
   Promotion is essential for the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers. In the long run, promoting free software is essential for economical development and civil liberties.
   The free software packages PostgreSQL and pgAdmin are used worldwide by a large number of end-users, companies, governments and institutions, therefore, helping us promote pgAdmin is important.
   </dd>
-
-
-  <dt>Promotion strategies</dt>
+  <BR>
+  <h3>Promotion strategies</h3>
   <dd>
         The proposed strategy is quite simple :
         <ul>
-          <li>Before you start, it is recommended that you translate pgAdmin software and pgAdmin web site in your language. Just visit the <a href='translation.php'>translation page</a>.
+          <li>Before you start, it is recommended that you translate pgAdmin III software and pgAdmin web site in your language. Just visit the <a href='translation.php'>translation page</a>.
           <li>Then, register pgAdmin on free software web sites in your country. We are highly interested in community web sites. Some countries have one or two major web sites for free software. For example, pgAdmin was registered on <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>.
           <li>You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members. For information purpose, after each registration, please drop us an email to add a new entry to the Registration list.
-          <li>Every month, analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 web site, which reflect the overall interest in pgAdmin. You may be interested in studying the number of connections from your country.
+          <li>Please note that the official spelling is <b>pgAdmin</b> for the project, with <b>pgAdmin III</b> being the recent version of the administration tool itself. For filename or other canonical purposes, the spelling <b>pgadmin3</b> is used.
+          <li>Every month, analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin web site, which reflect the overall interest in pgAdmin. You may be interested in studying the number of connections from your country.
           <li>Cross your fingers and wait until PostgreSQL becomes the #1 database.
         </ul>
   </dd>
-
-    <dt>Information published</dt>
+<BR>
+    <h3>Information published</h3>
   <dd>
         You are free to publish any technical information about pgAdmin. Here are some guidelines, mainly about links and localization.
         <ul>
@@ -95,7 +95,7 @@
 	  <li><b>Keywords</b>: when visiting a web site, users may not find "pgAdmin" directly, but query  keywords like "PostgreSQL database" or "free administration tools", etc... During registration, you may be asked to enter keywords. My personal choice is to register these keywords:
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
-	PostgreSQL postgresql postgres sql database development gui administration tool software free pg
+	pgadmin pgadmin2 pgdmin3 PostgreSQL postgresql postgres sql database development gui administration tool software free pg pg-admin
 	</td></tr>
       </table></li>
 	<li><b>Information in PAD format</b>: PAD is an XML format from the <a href='http://www.asp-shareware.org/pad'>Association of Shaware Profesionals</a> designed for registration of freeware and sharewares. pgAdmin III pad file is available here: <a href='http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml</a></li>
@@ -122,7 +122,7 @@ cs (Czech)
 <dd>
 de (German)
   <ul>
-    <li><a href='http://www.apps4linux.org'>Apps4Linux</a> (reminder to register)</li>
+    <li><a href='http://www.apps4linux.org'>Apps4Linux</a> (pending)</li>
     <li><a href='http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.links2linux.de'>links2linux.de</a> (reminder to register)</li>
     <li><a href='http://www.linuxsoftboard.de/viewforum.php?f=29'>LinuxSoftBoard</a> (reminder to register)</li>

@@ -130,15 +130,11 @@ en (English)
     <li><a href='http://www.afreego.com/Categories/Business_and_Productivity/Database_Management/019104.php'>AFreeGo</a></li>
     <li><a href='http://www.asp-shareware.org/pad/showinfo.asp?xmlfile=http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>Association of Shareware Professionals</a></li>
     <li><a href='http://www.bloodshed.net/c'>Bloodshed</a></li>
-    <li><a href='http://www.brothersoft.com'>Brothersoft</a> (pending)</li>
-    <li><a href='http://www.bykeyword.com'>By Keyword</a> (pending)</li>
-    <li><a href='http://products.databasejournal.com/dbtools/mgmt/1075383313.html'>Database Journal</a></li>
+     <li><a href='http://products.databasejournal.com/dbtools/mgmt/1075383313.html'>Database Journal</a></li>
     <li><a href='http://www.dirfile.com/pgadmin_iii_for_postgresql.htm'>Dir file.com</a></li>
     <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.download32.com/proghtml/533/53391.htm'>Download 32</a></li>
-    <li><a href='http://www.downloaddatabase.com'>Download Database</a> (pending)</li>
-    <li><a href='http://www.downloadfreetrial.com/development/database_tools.html'>Download Free Trial</a> (pending)</li>
-    <li><a href='http://www.downseek.com'>Downseek</a> (pending)</li>
+    <li><a href='http://www.downseek.com/download/26344.asp'>Downseek</a></li>
     <li><a href='http://www.finaldownload.com/developer_tools_databases_networks_pgadmin_iii_for_postgresql.html'>Final download</a></li>
     <li><a href='http://www.fileguru.com'>File Guru</a> (pending)</li>
     <li><a href='http://www.freedownloadscenter.com/Programming/Databases_and_Networks/pgAdmin_III_for_PostgreSQL.html'>Free Downloads Center</a></li>

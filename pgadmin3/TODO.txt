@@ -2,9 +2,7 @@ High priority
 - FAQ and CHANGELOG should be in CVS, with automatic update to the web site.
 - Define a default font for Latin1 languages.
 - Link section in Support page.
-- Calculate statistics from .pot template file.
 - Website translation status.
-- Team members
 
 Done
 - Expose pgadmin3 TODO.txtt and BUGS.txt to the users, so they can be checked and referenced for bug reporting.
@@ -12,3 +10,4 @@ Done
 - Link to the Artistic licence.
 - Use PostgreSQL php class to generate the list of mirrors.
 - Translation howto.
+- Team members

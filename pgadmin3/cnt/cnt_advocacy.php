@@ -129,6 +129,7 @@ en (English)
     <li><a href='http://www.acm.org/sigmod/databaseSoftware/nonprofit'>Association for Computing Machinery</a></li>
     <li><a href='http://www.afreego.com'>AFreeGo</a> (pending)</li>
     <li><a href='http://www.asp-shareware.org/pad/showinfo.asp?xmlfile=http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>Association of Shareware Professionals</a></li>
+    <li><a href='http://www.aspin.com/home/webapps/database'>ASP Resource index</a> (pending)</li>
     <li><a href='http://www.bloodshed.net/c'>Bloodshed</a></li>
     <li><a href='http://www.bykeyword.com'>By Keyword</a> (pending)</li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/1075383313.html'>Database Journal</a></li>

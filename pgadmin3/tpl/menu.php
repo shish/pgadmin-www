@@ -21,6 +21,7 @@
               <option value="ja_JP">日本</option>
               <option value="tr_TR">Türkçe</option>
               <option value="zh_CN">中文 (简体)</option>
+              <option value="zh_TW">中文 (正體)</option>
             </select>
 
             <input type="submit" value="Go" />

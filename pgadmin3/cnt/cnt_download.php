@@ -29,12 +29,12 @@
       <tr bgcolor=beige>
         <td>beta/win32</td>
         <td></td>
-        <td><?php echo _("Binary binary packages for Windows 2000 & XP")?></td>
+        <td><?php echo _("pgAdmin binary packages for Windows 2000 & XP")?></td>
       </tr>
       <tr bgcolor=lightyellow>
         <td>beta/slackware9</td>
         <td></td>
-        <td><?php echo _("Binary binary packages for GNU/Linux Slackware 9.0")?></td>
+        <td><?php echo _("pgAdmin binary packages for GNU/Linux Slackware 9.0")?></td>
       </tr>
     </table>
   </dd>

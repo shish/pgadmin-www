@@ -42,11 +42,12 @@
   <dd>
 	<?php echo _("Daily snapshots are packages compiled from CVS nearly everyday.");?>
   <?php echo _("There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development.");?>
+  <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
   <?php echo _("Download pgAdmin3 snapshots here:");?>
   <ul>
     <li>GNU Linux <a href="http://www.pgadmin.org/snapshots/linux/debian">Debian</a> | <a href="http://www.pgadmin.org/snapshots/linux/redhat9">RedHat 9</a> | <a href="http://www.pgadmin.org/snapshots/linux/suse82">SuSE 8.2</a> | <a href="http://www.pgadmin.org/snapshots/linux/mandrake91">Mandrake 9.1</a> | <a href="http://www.pgadmin.org/snapshots/linux/slackware90">Slackware 9.0</a><br>
     <li><a href="http://www.pgadmin.org/snapshots/freeBSD">FreeBSD 5.1</a><br>
-    <li><a href="http://www.pgadmin.org/snapshots/windows">Microsoft Windows 2000 | XP</a><br>
+    <li><a href="http://www.pgadmin.org/snapshots/windows">Microsoft Windows 2000 & XP</a><br>
   </ul>
   <?php echo sprintf(_("Please refer to our <a href='%s'>installation instructions</a>."), "download.php#installation");?>
   </dd>

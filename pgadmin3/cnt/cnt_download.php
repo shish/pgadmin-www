@@ -149,31 +149,37 @@
       </tr>
 
       <tr bgcolor=lightyellow>
-        <td>[MIRROR URL]/pgadmin3/release/FC2</td>
+        <td>[MIRROR URL]/pgadmin3/release/[VERSION]/FC3</td>
+        <td></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Fedora FC3")?></td>
+      </tr>
+      
+      <tr bgcolor=lightyellow>
+        <td>[MIRROR URL]/pgadmin3/release/[VERSION]/FC2</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Fedora FC2")?></td>
       </tr>
 
       <tr bgcolor=lightyellow>
-        <td>[MIRROR URL]/pgadmin3/release/FC1</td>
+        <td>[MIRROR URL]/pgadmin3/release/[VERSION]/FC1</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Fedora FC1")?></td>
       </tr>
 
       <tr bgcolor=lightyellow>
-        <td>[MIRROR URL]/pgadmin3/release/mandrake91</td>
+        <td>[MIRROR URL]/pgadmin3/release/[VERSION]/mandrake91</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Mandrake 9.1")?></td>
       </tr>
 
       <tr bgcolor=lightyellow>
-        <td>[MIRROR URL]/pgadmin3/release/redhat9</td>
+        <td>[MIRROR URL]/pgadmin3/release/[VERSION]/redhat9</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux RedHat 9")?></td>
       </tr>
 
 	<tr bgcolor=lightyellow>
-        <td>[MIRROR URL]/pgadmin3/release/suse82</td>
+        <td>[MIRROR URL]/pgadmin3/release/[VERSION]/suse82</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux SuSE 8.2")?></td>
       </tr>
@@ -199,7 +205,7 @@
     <dt><?php echo  sprintf(_("Packager: %s"), "Dave Page");?></dt>
 
   <dd>
-    <?php echo sprintf(_("pgAdmin III packages are available for %s."), "GNU/Linux Slackware 9.0");?>
+    <?php echo sprintf(_("pgAdmin III packages are available for %s."), "GNU/Linux Slackware 9.0/9.1");?>
   </dd>
 
   <dd>
@@ -216,7 +222,13 @@
       </tr>
 
       <tr bgcolor=lightyellow>
-        <td>[MIRROR URL]/pgadmin3/release/slackware9</td>
+        <td>[MIRROR URL]/pgadmin3/release/[VERSION]/slackware91</td>
+        <td></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Slackware 9.1")?></td>
+      </tr>
+      
+      <tr bgcolor=lightyellow>
+        <td>[MIRROR URL]/pgadmin3/release/[VERSION]/slackware9</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Slackware 9.0")?></td>
       </tr>
@@ -252,7 +264,7 @@
       </tr>
 
       <tr bgcolor=lightyellow>
-        <td>[MIRROR URL]/pgadmin3/release/freebsd51</td>
+        <td>[MIRROR URL]/pgadmin3/release/[VERSION]/freebsd51</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "FreeBSD 5.1")?></td>
       </tr>

@@ -85,8 +85,8 @@ ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2
 <h1 id="list">Web sites promoting pgAdmin</h1>
 <dl>
 
-cs (Czech)
 <dd>
+cs (Czech)
   <ul>
     <li><a href='http://postgresql.ok.cz'>PostgreSQL CZ</a></li>
   </ul>
@@ -99,8 +99,8 @@ de (German)
   </ul>
 </dd>
 
-en (English)
 <dd>
+en (English)
   <ul>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/recent1.html'>Database Journal</a> (pending)</li>
     <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
@@ -118,25 +118,23 @@ en (English)
   </ul>
 </dd>
 
-
-
-es (Spanish)
 <dd>
+es (Spanish)
   <ul>
     <li><a href='http://www.postgresql.cl'>PostgreSQL Chile</a></li>
     <li><a href='http://linux.bankhacker.com/software/pgAdmin3'>Linux Bankhacker</a></li>
   </ul>
 </dd>
 
-fa (Persian)
 <dd>
+fa (Persian)
   <ul>
     <li><a href='http://www.linuxiran.org/modules/mylinks'>Linux Iran</a> (pending)</li>
   </ul>
 </dd>
 
-fr (French)
 <dd>
+fr (French)
   <ul>
     <li><a href='http://www.jesuislibre.org/applications/Bases_de_Donnees/Gestionnaire/pgAdmin_III.php3'>Je suis libre</a></li>
     <li><a href='http://www.framasoft.net/rubrique2.html'>Framasoft</a> (pending)</li>
@@ -145,33 +143,34 @@ fr (French)
   </ul>
 </dd>
 
-pt (Portuguese/Brazilian)
 <dd>
+pt (Portuguese/Brazilian)
   <ul>
     <li><a href='http://www.postgresql.org.br/index.php?corpo=links'>PostgreSQL Brazil</a> (pending)</li>
   </ul>
 </dd>
 
-ro (Romanian)
 <dd>
+ro (Romanian)
   <ul>
     <li><a href='http://www.softpedia.com/public/scripts/romanianhero/10-8-6-71'>Softpedia</a> (both Englih and Romanian)</li>
   </ul>
 </dd>
 
-ru (Russian)
+
 <dd>
+ru (Russian)
   <ul>
     <li><a href='http://www.linuxshare.ru/docs/software/SQL/postgresql/index.html'>PostgreSQL Russia</a></li>
   </ul>
 </dd>
 
-zh (Chinese)
 <dd>
+zh (Chinese)
   <ul>
     <li><a href='http://www.pgsqldb.org'>PostgreSQL China</a></li>
   </ul>
-</d
+</dd>
 
 </dl>
 

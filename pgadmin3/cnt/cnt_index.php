@@ -21,7 +21,7 @@
     <br><br>
   	<?php echo sprintf(_("pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
   	<?php echo sprintf(_("The software is available in source and binary format from the <a href='%s'>Download</a> page."), "download.php");?>
-  	<?php echo sprintf(_("If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."), "development.php#dev_snap");?>
+  	<?php echo sprintf(_("If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."), "download.php#snapshots");?>
   </dd>
 </dl>
 <dl>

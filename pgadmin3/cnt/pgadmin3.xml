@@ -46,7 +46,7 @@
 		<Program_OS_Support>WinXP,WinNT4.x,Windows2000,Unix,Linux</Program_OS_Support>
 		<Program_Language>Afrikaans,Arabic,Chinese,Czech,Danish,English,French,German,Greek,Hungarian,Italian,Japanese,Polish,Portuguese,Russian,Spanish,Swedish,Taiwanese,Turkish</Program_Language>
 		<Program_Change_Info/>
-		<Program_System_Requirements/>
+		<Program_System_Requirements>PostgreSQL 7.3/7.4</Program_System_Requirements>
 		<Program_Specific_Category>Development Tools</Program_Specific_Category>
 		<Program_Categories>Database::Management,Database::Utilities</Program_Categories>
 		<File_Info>

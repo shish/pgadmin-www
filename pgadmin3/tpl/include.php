@@ -5,5 +5,4 @@
 	include_once ($_base."/class/pgadmin_thumb.php");
 
   $session = new pgadmin_session();
-  $session->start();
 ?>

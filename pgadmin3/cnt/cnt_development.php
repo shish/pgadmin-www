@@ -5,6 +5,7 @@
   <a href="#team">&rsaquo; <?php echo _("Development team");?></a>
   <a href="#dev_snap">&rsaquo; <?php echo _("Daily snapshots");?></a>
   <a href="#todo">&rsaquo; <?php echo _("Todo list")?></a>
+  <a href="#changelog">&rsaquo; <?php echo _("Change log")?></a>
 </div>
 
 <div id="bodyText">
@@ -99,6 +100,20 @@
     <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
     <?php
     	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/TODO.txt";
+    	if (file_exists($_file)) {
+      	echo ("<br><br>");
+    		include_once ($_file);
+      }
+    ?>
+  </dd>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
+  <h1 id="changelog"><?php echo _("Change log")?></h1>
+  <dd>
+    <?php echo _("This section is available in English only.");?>
+    <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
+    <?php
+    	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/CHANGELOG.txt";
     	if (file_exists($_file)) {
       	echo ("<br><br>");
     		include_once ($_file);

@@ -178,7 +178,7 @@ carrying sensitive data. Unfortunately, many network administrators don't unders
 the vital difference, others can't change the firewall configuration for some 
 hardware/software/policy restricting reasons.
 </p></p>
-As the officially required solution, ask yor network administrator to vastly increase or 
+As the officially required solution, ask your network administrator to vastly increase or 
 even better disable TCP/IP connection watchdog timeouts on the PostgreSQL port (usually 5432)
 to restore RFC compliant protocol behaviour of the firewall.
 <BR>
@@ -200,7 +200,7 @@ client encoding the server starts to convert, and fails.<br>
 Later versions of pgAdmin III (1.0.1 and up) will use SQL_ASCII client encoding, if it detects a server encoding 
 of SQL_ASCII. If a different encoding is present, UNICODE is used.
 [AP]
-</p>>
+</p>
 </body>
 </html>
 

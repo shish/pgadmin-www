@@ -23,13 +23,14 @@
 	</tr>
 
     <tr>
-  		<td COLSPAN=2 valign="middle">
+  		<td valign="middle" COLSPAN=2>
         <div id="header">
           <div class="menuBar">
             <a href="index.php"><?php echo _("Home")?></a>|
             <a href="screenshots.php"><?php echo _("Screenshots")?></a>|
             <a href="development.php"><?php echo _("Development")?></a>|
             <a href="translation.php"><?php echo _("Translation")?></a>|
+            <a href="advocacy.php" ><?php echo _("Advocacy")?></a>|
             <a href="download.php"><?php echo _("Download")?></a>|
             <a href="support.php"><?php echo _("Support")?></a>
            </div>

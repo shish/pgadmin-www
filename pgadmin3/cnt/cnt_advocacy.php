@@ -150,10 +150,12 @@ en (English)
     <li><a href='http://www.madpenguin.org'>Mad Penguin</a> (pending)</li>
     <li><a href='http://www.needscripts.com'>NeedScripts</a> (reminder to register)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
+    <li><a href='http://www.osdir.org'>OSDir O'Reilly</a> (pending)</li>
     <li><a href='http://www.padring.com'>Pad Ring</a> (pending)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>
+    <li><a href='http://www.theopencd.org'>The Open CD</a> (reminder to register)</li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a></li>
   </ul>

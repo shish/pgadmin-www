@@ -81,10 +81,10 @@
 
 		<English>
 			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
-			<Char_Desc_45>PostgreSQL free administration interface</Char_Desc_45>
-			<Char_Desc_80>PostgreSQL free administration interface, with query builder and SQL editor</Char_Desc_80>
-			<Char_Desc_250>pgAdmin III is a powerful graphical interface for the PostgreSQL database, free for any use. Includes an administration interface, a query builder, an sql editor, a server-side code editor and much more.</Char_Desc_250>
-			<Char_Desc_450>pgAdmin III is a powerful administration and development interface for the PostgreSQL database, free for any use. pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. The application also includes a query builder, an SQL editor, a server-side code editor and much more.</Char_Desc_450>
+			<Char_Desc_45>Administration Centre for PostgreSQL</Char_Desc_45>
+			<Char_Desc_80>Administration Centre for the PostgreSQL database, free for any use</Char_Desc_80>
+			<Char_Desc_250>Administration Centre for the PostgreSQL database, free for any use. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of all users.</Char_Desc_250>
+			<Char_Desc_450>Administration Centre for the PostgreSQL database, free for any use. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. <br/>pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. Available in more than 30 languages and several operating systems.</Char_Desc_450>
 		</English>
 
 		<French>

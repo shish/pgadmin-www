@@ -119,7 +119,7 @@ IN COUNTRIES WHERE THE ABSENCE OF LIABILITY MAY NOT EXIST OR BE RESTRICTED
 BY LAW, PGADMIN DEVELOPMENT TEAM MEMBERS, CONTRIBUTORS AND DISTRIBUTORS
 LIABILITY SHALL BE LIMITED TO ONE EURO.
 
-		pgAdmin can be distributed under the terms of the Artistic licence available from http://www.pgadmin.org/pgadmin3/cnt/licence.txt.</a>
+		pgAdmin can be distributed under the terms of the Artistic licence available from http://www.pgadmin.org/pgadmin3/cnt/licence.txt
 		</Distribution_Permissions>
 		<EULA>
 		BY INSTALLING OR DISTRIBUTING PGADMIN AND RELATED SOFTWARE, YOU AGREE WITH THE FOLLOWING DISCLAIMER:
@@ -128,7 +128,7 @@ PGADMIN AND RELATED SOFTWARE IS PROVIDED WITHOUT GUARANTEE OR WARRANTY OF ANY KI
 
 IN COUNTRIES WHERE THE ABSENCE OF LIABILITY MAY NOT EXIST OR BE RESTRICTED BY LAW, PGADMIN DEVELOPMENT TEAM MEMBERS, CONTRIBUTORS AND DISTRIBUTORS LIABILITY SHALL BE LIMITED TO ONE EURO.
 
-		pgAdmin is a free software project released under the Artistic licence available from http://www.pgadmin.org/pgadmin3/cnt/licence.txt'
+		pgAdmin is a free software project released under the Artistic licence available from http://www.pgadmin.org/pgadmin3/cnt/licence.txt
 		</EULA>
 	</Permissions>
 	<ASP>

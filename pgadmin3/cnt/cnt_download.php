@@ -1,17 +1,19 @@
 <div class="sideBox LHS">
   <div><?php echo _("Download")?></div>
-  <a href="#pgadmin3">&rsaquo; <?php echo _("pgAdmin3 beta")?></a>
-  <a href="#installation">&rsaquo; <?php echo _("Installing binaries")?></a>
-  <a href="#source">&rsaquo; <?php echo _("Installing from source")?></a>
-  <a href="#pgadmin2">&rsaquo; pgAdmin2</a>
+  <a href="#mirrors">&rsaquo; <?php echo _("List of mirrors")?></a>
+  <a href="#binaries">&rsaquo; <?php echo _("Binary packages")?></a>
+  <a href="#source">&rsaquo; <?php echo _("Source code")?></a>
 </div>
 
 <div id="bodyText">
-  <h1 id="pgadmin3"><?php echo _("pgAdmin3 beta")?></h1>
+  <?php echo _("pgAdmin3 is a free software project released under the Artistic licence.");?>
+  <?php echo sprintf(_("The software is available in source and binary format from our <a href='%s'>mirrors</a>."), "#mirrors")?>
+  <?php echo sprintf(_("Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."), "#source", "#binaries")?>
+
+  <h1 id="mirrors"><?php echo _("List of mirrors")?></h1>
   <dd>
-		<?php echo _("pgAdmin  is available in source and binary format.")?>
-    <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
-		<?php echo sprintf(_("After downloading, please read our <a href='%s'>installation instructions</a>."), "#installation")?>
+  	<?php echo _("pgAdmin3 can be downloaded from a large number of mirrors.")?>
+    <?php echo sprintf(_("The mirrors were kindly provided by <a href='%s'>PostgreSQL</a> project."), "http://www.postgresql.org")?>
     <?php echo _("On each mirror, the files can be found in the following directories:")?>
   </dd>
 
@@ -70,6 +72,12 @@
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux SuSE 8.2")?></td>
       </tr>
+
+      <tr bgcolor=lightyellow>
+        <td>wxWindows</td>
+        <td></td>
+        <td><?php echo sprintf(_("Latest wxWindows %s source and binary packages needed for pgAdmin"), "2.5")?></td>
+      </tr>
     </table>
   </dd>
 
@@ -80,7 +88,7 @@
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
 
-  <h1 id="installation"><?php echo _("Installing pgAdmin3 binaries")?></h1>
+  <h1 id="binaries"><?php echo _("Installing binary packages")?></h1>
   <dl>
     <dt><?php echo _("GNU/Linux Debian");?></dt>
     <?php echo  sprintf(_("Packager: %s"), "Raphaël Enrici");?>
@@ -211,11 +219,11 @@
 	</dl>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
-  <h1 id="source"><?php echo _("Installing pgAdmin3 from source")?></h1>
+  <h1 id="source"><?php echo _("Installing from source")?></h1>
   <dt><?php echo _("Requirements");?></dt>
   <dd>
   	<ul>
-      <li><?php echo _("A recent development environment")?>
+      <li><?php echo _("A recent development environment.")?>
       	<ul>
         	<li>
           	<?php echo _("GNU/Linux, FreeBSD and other *nixes.")?>
@@ -287,8 +295,7 @@
         	<li>Beta release.
           <?php echo _("Download from 'beta/source' directory on a mirror.");?>
 
-          <li>Daily snapshot.
-          <?php echo _("Download from http://snake.pgadmin.org/snapshots");?>
+          <li><?php echo sprintf(_("<a href='%s'>Daily snapshot</a>."), "http://snake.pgadmin.org/snapshots");?>
 				</ul>
       <br>
 
@@ -308,7 +315,7 @@
       # sh bootstrap
       </pre>
 
-      <li><?php echo _("Compile pgAdmin");?>
+      <li><?php echo _("Compile pgAdmin.");?>
       <pre>
       # ./configure --enable-static --enable-debug
       # make all
@@ -317,15 +324,4 @@
 		</ol>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
-
-
-  <h1 id="pgadmin2"><?php echo _("pgAdmin2 stable")?></h1>
-    <dd>
-      <?php echo _("pgAdmin2 is available for Ms Windows only.")?>
-      <?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin3.");?>
-      <?php echo sprintf(_("If you are interested in pgAdmin2, please visit <a href='%s'>pgAdmin2 downloading</a> page."), "http://www.pgadmin.org/pgadmin2/downloads")?>
-      <?php echo _("This page is available in English only.")?>
-    </dd>
-  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
-
 </div>

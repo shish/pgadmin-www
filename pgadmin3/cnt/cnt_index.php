@@ -21,9 +21,15 @@
 </dl>
 <dl>
   <dt><?php echo _("pgAdmin2 is still supported");?></dt>
-  <dd><?php echo _("Although we concentrate on pgAdmin3, we will continue to support pgAdmin2.");?>
-  <?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin3.");?>
-  <?php echo _("Both pgAdmin2 and pgAdmin3 can coexist on the same system.");?></dd>
+  <dd>
+  	<?php echo _("Although we concentrate on pgAdmin3, we will continue to support pgAdmin2.");?>
+  	<?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin3.");?>
+		<?php echo _("pgAdmin2 is available under Windows only.");?>
+    <?php echo _("Both pgAdmin2 and pgAdmin3 can coexist on the same system.");?>
+    <?php echo sprintf(_("If you are interested, please visit <a href='%s'>pgAdmin2</a> site."), "http://www.pgadmin.org/pgadmin2")?>
+    <?php echo _("This site is available in English only.")?>
+  </dd>
+
 </dl>
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 

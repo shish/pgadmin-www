@@ -35,15 +35,27 @@
   <dd>
         You are free to publish any technical information about pgAdmin. Here are some guidelines, mainly about links and localization.
         <ul>
-          <li><b>Include a language information in the URL</b>: pgAdmin web site is not able to detect the language of your browser. To display a page in your language, just click on your country flag. For example, the URL of the French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>.
-          <li><b>Downloading links</b>: whenever possible, publish links pointing to pgAdmin <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>.
-	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
-        <tr><td>
-	http://www.pgadmin.org/pgadmin3/download.php</br>
-	You may add the locale too in order to display in your language. Example:</br>
-	Spanish download: http://www.pgadmin.org/pgadmin3/download.php?locale=es_ES
-	</td></tr>
-      </table>
+          <li><b>Include a language information in the URL</b>: pgAdmin web site is not able to detect the language of your browser. To display a page in your language, just click on your country flag. For example, the URL of the French homepage is:<br/><a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>.</li>
+          <li><b>Downloading links</b>: whenever possible, publish links pointing to pgAdmin <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>.</li>
+            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
+              <tr><td>
+              Main: http://www.pgadmin.org/pgadmin3/download.php<br/>
+              Debian: http://www.pgadmin.org/pgadmin3/download.php#debian<br/>
+              RPM: http://www.pgadmin.org/pgadmin3/download.php#rpm<br/>
+              Slackware: http://www.pgadmin.org/pgadmin3/download.php#slackware<br/>
+              FreeBSD: http://www.pgadmin.org/pgadmin3/download.php#freebsd<br/>
+              MS Windows: http://www.pgadmin.org/pgadmin3/download.php#win32<br/>
+              Source: http://www.pgadmin.org/pgadmin3/download.php#source<br/>
+              Snapshots: http://www.pgadmin.org/pgadmin3/download.php#snapshots<br/>
+              Mirrors: http://www.pgadmin.org/pgadmin3/download.php#mirrors<br/>
+              </td></tr>
+            </table>
+              You may add the locale too in order to display in your language. Example:</br>
+            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
+              <tr><td>
+              Spanish download: http://www.pgadmin.org/pgadmin3/download.php?locale=es_ES
+              </td></tr>
+            </table>
        Some sites (especially Windows shareware/freeware sites) may require direct links. Be very careful before submitting direct links, because you may have to upgrade them when pgAdmin new versions are released. When direct links are required, choose several PostgreSQL mirrors from the <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>.  Some sites can ask for up to 5 links. For example (do not copy these examples, copy your own links):
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>

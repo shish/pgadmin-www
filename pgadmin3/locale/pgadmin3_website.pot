@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-09-26 09:48+0200\n"
+"POT-Creation-Date: 2003-09-26 09:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,7 +66,7 @@ msgstr ""
 #: ../cnt/cnt_index.php:14
 msgid ""
 "After one year of development, we are happy to announce the availability of "
-"pgAdmin3 beta, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and "
+"pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and "
 "FreeBSD."
 msgstr ""
 

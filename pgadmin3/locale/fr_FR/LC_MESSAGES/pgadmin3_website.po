@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-09-26 09:50+0100\n"
+"PO-Revision-Date: 2003-09-26 09:56+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -58,8 +58,8 @@ msgid "Access to all PostgreSQL objects"
 msgstr "Accès à la majorité des objets PostgreSQL"
 
 #: ../cnt/cnt_index.php:14
-msgid "After one year of development, we are happy to announce the availability of pgAdmin3 beta, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD."
-msgstr "Après une année de développement, nous sommes heureux d'annoncer la disponibilité de la version bêta de pgAdmin3, une réécriture complète de pgAdmin2 pour Ms Windows, GNU/Linux et FreeBSD."
+msgid "After one year of development, we are happy to announce the availability of pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD."
+msgstr "Après une année de développement, nous sommes heureux d'annoncer la disponibilité de pgAdmin3, une réécriture complète de pgAdmin2 pour Ms Windows, GNU/Linux et FreeBSD."
 
 #: ../cnt/cnt_index.php:84
 #: ../cnt/cnt_screenshots.php:97

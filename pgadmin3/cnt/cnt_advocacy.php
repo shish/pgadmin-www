@@ -115,7 +115,7 @@ pt (Portuguese/Brazilian)
   </ul>
 </dd>
 
-zh (Chines)
+zh (Chinese)
 <dd>
   <ul>
     <li><a href='http://www.pgsqldb.org'>PostgreSQL China</a> (pending)

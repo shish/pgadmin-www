@@ -11,10 +11,11 @@
 #
 #######################################################################
 
+cd /home/jmpoure/project/pgadmin/www/pgadmin3
 cvs update -C -P -d
 if test -f pgadmin3_website.pot; then
 
-  for GETTEXTDIR in *_*/LC_MESSAGES/ ; do
+  for GETTEXTDIR in locale/*_*/LC_MESSAGES/ ; do
     echo "Entering $GETTEXTDIR."
     cd $GETTEXTDIR
     echo "Merging pgadmin3_website.pot into pgadmin3_website.po"
@@ -22,8 +23,8 @@ if test -f pgadmin3_website.pot; then
     echo "Compiling pgadmin3.mo"
     msgfmt -o pgadmin3_website.mo pgadmin3_website.po
     echo "Committing changes to CVS."
-    #cvs commit -m "Automatic merge using stringmerge script." pgadmin3_website.po
-    #cvs commit -m "Automatic merge using stringmerge script." pgadmin3_website.mo
+    cvs commit -m "Automatic merge using stringmerge script." pgadmin3_website.po
+    cvs commit -m "Automatic merge using stringmerge script." pgadmin3_website.mo
     cd ../..
   done
 fi

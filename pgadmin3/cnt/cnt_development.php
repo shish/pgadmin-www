@@ -20,7 +20,7 @@
       <br><br>
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
-          CVSROOT=:pserver:anonymous@cvs.pgadmin.org:/disk1/cvsroot<br>
+          CVSROOT=:pserver:anonymous@cvs.pgadmin.org:/projects<br>
           export CVSROOT<br>
           cvs login<br>
           cvs -z9 checkout pgadmin3<br>

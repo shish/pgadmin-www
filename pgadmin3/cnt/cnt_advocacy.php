@@ -15,7 +15,7 @@
 <dl>
   <dt>Why promote pgAdmin?</dt>
   <dd>
-  Promotion is essential for the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers, who may bring exciting new features to pgAdmin and PostgreSQL.
+  Promotion is essential for the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers.
   </dd>
   <dd>On the long run, promoting free software is essential for economical development and civil liberties.
   The free software packages PostgreSQL and pgAdmin are used worldwide by a large number of end-users, companies, governments and institutions. Therefore, helping us promote pgAdmin is certainly not a loss of time.
@@ -27,7 +27,7 @@
         The proposed strategy is quite simple :
         <ul>
           <li>Before you start, it is better to translate pgAdmin software and pgAdmin web site in your language. Just visit the <a href='translation.php'>translation page</a>.
-          <li>Then, register pgAdmin on free software web sites in your country. We are highly interested in community web sites designed by 'opinion leaders'. Each country has one or two major web sites for free software. For example, pgAdmin was registered on <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>.
+          <li>Then, register pgAdmin on free software web sites in your country. We are highly interested in community web sites. Some countries have one or two major web sites for free software. For example, pgAdmin was registered on <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>.
           <li>You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members. For information purpose, after each registration, please drop us an email to add a new entry to the Registration list.
           <li>Every month, analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 web site, which reflect the overall interest in pgAdmin. You may be interested in studying the number of connections from your country.
           <li>Cross your fingers and wait until PostgreSQL becomes the #1 database.

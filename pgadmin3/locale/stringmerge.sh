@@ -11,13 +11,13 @@
 #
 #######################################################################
 
+cvs update -C -P -d
 if test -f pgadmin3_website.pot; then
 
   for GETTEXTDIR in *_*/LC_MESSAGES/ ; do
     echo "Entering $GETTEXTDIR."
     cd $GETTEXTDIR
     echo "Updating from CVS."
-    cvs update -C -P -d
     echo "Merging pgadmin3_website.pot into pgadmin3_website.po"
     msgmerge --update pgadmin3_website.po ../../../pgadmin3_website.pot
     echo "Compiling pgadmin3.mo"

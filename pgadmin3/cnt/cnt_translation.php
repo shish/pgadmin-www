@@ -9,8 +9,8 @@
   $pending->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
   $pending->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
 
-  $_cache_translated = $_SERVER["SCRIPT_FILENAME"]."_cache_translated";
-  $_cache_pending    = $_SERVER["SCRIPT_FILENAME"]."_cache_pending";
+  $_cache_translated = dirname($_SERVER["SCRIPT_FILENAME"])."/cache/"."cache_translated.txt";
+  $_cache_pending    = dirname($_SERVER["SCRIPT_FILENAME"]))."/cache/"."cache_pending.txt";
 
   if ((!file_exists($_cache_translated)) || ((time() - filemtime($_cache_translated)) > 300)) {
     require_once "cnt/cnt_translation_status.php";

@@ -1,13 +1,12 @@
 <div id="top"></div>
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr >
     <tr id="header">
       <td >
         <img src="img/elephant.png" alt="pgAdmin III for PostgreSQL">
       </td>
 
-      <td align="right" valign="bottom">
+      <td align="<?php echo $_SESSION['LANG_RIGHT']?>" valign="bottom">
       	Languages:
         <a href="?locale=de_DE"><img src="img/flags/Germany.gif" alt="German">
         <a href="?locale=en_US"><img src="img/flags/UK.gif" alt="English">
@@ -23,7 +22,7 @@
 	</tr>
 
     <tr>
-  		<td COLSPAN=2 valign="middle" align="left">
+  		<td COLSPAN=2 valign="middle">
         <div id="header">
           <div class="menuBar">
             <a href="index.php"><?php echo _("Home")?></a>|
@@ -35,7 +34,6 @@
            </div>
 		 </div>
   		</td>
-		</tr>
   </tr>
 </table>
 

@@ -1,3 +1,4 @@
+# translation of pgadmin3_website_tr.po to 
 # translation of pgadmin3_website.po to Turkish
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
@@ -8,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website_tr\n"
 "POT-Creation-Date: 2003-09-12 14:47+0200\n"
-"PO-Revision-Date: 2003-09-28 15:41+0100\n"
+"PO-Revision-Date: 2003-09-28 16:12+0100\n"
 "Last-Translator: Andreas Pflug <Andreas.Pflug@web.de>\n"
-"Language-Team:  <pgsql-tr-genel@PostgreSQL.org>\n"
+"Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -95,7 +96,7 @@ msgstr "Yazan"
 #: ../cnt/cnt_download.php:11
 #, c-format
 msgid "Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."
-msgstr "Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."
+msgstr "<a href='%s'>Kaynak koddan</a> derlemek teknik bilgi gerektirdiğinden <a href='%s'>ikili paketleri</a>. kurmanızı öneriyoruz."
 
 #: ../cnt/cnt_development.php:35
 msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."

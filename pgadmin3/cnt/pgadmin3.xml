@@ -113,8 +113,8 @@
 			<Char_Desc_45>提供PostgreSQL資料庫系統使用的圖形化管理介面，不需任何費用。</Char_Desc_45>
 			<Char_Desc_80>pgAdmin III是一個供PostgreSQL資料庫使用的強大發展平台，不需任何費用。 可支援30種以上的語言，並相容於Windows 2000/XP，GNU/Linux和FreeBSD。 整合了圖形化的管理介面、查詢建立器、SQL編輯器、伺服器端的程式編輯器和更多其它的功能。</Char_Desc_80>
 			<Char_Desc_250>pgAdmin III是一個供PostgreSQL資料庫使用的強大發展平台，不需任何費用。 此程式可執行於GNU/Linux、FreeBSD及Windows 2000/XP系統。 pgAdmin III的設計回應了使用者的需求，從寫簡單的SQL查詢到發展複雜的資料庫系統。 它的圖形化介面支援了所有PostgreSQL的特性而使得管理工作變得十分容易。 此程式也包含了查詢建立器、SQL編輯器、伺服器端程式碼編輯器和更多其它功能。 pgAdmin III包含了自動安裝程式，不需要額外的驅動程式就可以資料庫伺服器溝通。 pgAdmin III是由一個資料庫專家組成的社群所開發，成員來自於全世界，已被翻譯為30種以上的語言。它是依Artistic授權條款發行的免費軟體。
-			<Char_Desc_450></Char_Desc_450>
-			<Char_Desc_2000></Char_Desc_2000>
+			<Char_Desc_450/>
+			<Char_Desc_2000/>
 		</Taiwanese>
 	</Program_Descriptions>
 	<Web_Info>

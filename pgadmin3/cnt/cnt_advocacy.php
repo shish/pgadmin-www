@@ -140,6 +140,7 @@ en (English)
     <li><a href='http://www.downloadfreetrial.com'>Downloadfreetrial</a> (pending)</li>
     <li><a href='http://www.downseek.com'>Downseek</a> (pending)</li>
     <li><a href='http://www.finaldownload.com/developer_tools_databases_networks_pgadmin_iii_for_postgresql.html'>Final download</a></li>
+    <li><a href='http://www.fileguru.com'>File Guru</a> (pending)</li>
     <li><a href='http://www.freedownloadscenter.com'>Free Downloads Center</a> (pending)</li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://www.freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>

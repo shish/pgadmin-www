@@ -108,6 +108,7 @@ We would like to thank the web sites registering pgAdmin. To our knowledge, pgAd
 cs (Czech)
   <ul>
     <li><a href='http://postgresql.ok.cz'>PostgreSQL CZ</a></li>
+    <li><a href='http://www.prospector.cz/Software/Development_Tools/Databases'>Prospector</a></li>
     <li><a href='http://www.stahuj.cz'>Stahuj</a> (reminder to register)</li>
   </ul>
 </dd>
@@ -128,11 +129,12 @@ en (English)
     <li><a href='http://www.acm.org/sigmod/databaseSoftware/nonprofit'>Association for Computing Machinery</a></li>
     <li><a href='http://www.afreego.com'>AFreeGo</a> (pending)</li>
     <li><a href='http://www.asp-shareware.org/pad/showinfo.asp?xmlfile=http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>Association of Shareware Professionals</a></li>
+    <li><a href='http://www.bloodshed.net/c'>Bloodshed</a></li>
     <li><a href='http://www.bykeyword.com'>By Keyword</a> (pending)</li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/1075383313.html'>Database Journal</a></li>
     <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.download32.com/proghtml/533/53391.htm'>Download 32</a></li>
-    <li><a href='http://www.downloaddatabase.com/'>Download Database</a> (pending)</li>
+    <li><a href='http://www.downloaddatabase.co/'>Download Database</a> (pending)</li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://www.freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>

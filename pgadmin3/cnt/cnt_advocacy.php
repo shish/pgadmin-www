@@ -132,10 +132,10 @@ de (German)
 en (English)
   <ul>
     <li><a href='http://www.acm.org/sigmod/databaseSoftware/nonprofit'>Association for Computing Machinery</a></li>
-    <li><a href='http://www.afreego.com'>AFreeGo</a> (reminder to register)</li>
+    <li><a href='http://www.afreego.com'>AFreeGo</a> (pending)</li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/recent1.html'>Database Journal</a> (pending)</li>
     <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
-    <li><a href='http://www.downlinx.com'>Download 32</a> (reminder to register)</li>
+    <li><a href='http://www.downlinx.com'>Download 32</a> (pending)</li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://www.freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>

@@ -19,6 +19,7 @@
               <option value="fr_FR">Français</option>
               <option value="id_ID">Indonesia</option>
               <option value="ja_JP">日本</option>
+              <option value="ru_RU">Русский</option>
               <option value="tr_TR">Türkçe</option>
               <option value="zh_CN">中文 (简体)</option>
               <option value="zh_TW">中文 (正體)</option>

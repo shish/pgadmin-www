@@ -132,6 +132,7 @@ en (English)
     <li><a href='http://www.bloodshed.net/c'>Bloodshed</a></li>
     <li><a href='http://www.bykeyword.com'>By Keyword</a> (pending)</li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/1075383313.html'>Database Journal</a></li>
+    <li><a href='http://www.dirfile.com'>Dir file.com</a> (pending)</li>
     <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.download32.com/proghtml/533/53391.htm'>Download 32</a></li>
     <li><a href='http://www.downloaddatabase.co/'>Download Database</a> (pending)</li>
@@ -155,6 +156,7 @@ en (English)
     <li><a href='http://www.perfectdownloads.com'>Perfect Downloads</a> (pending)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
     <li><a href='http://www.programmersheaven.com/search/download.asp?FileID=32608'>Programmers Heaven</a></li>
+    <li><a href='http://www.sharewareconnection.com'>Shareware connection</a> (pending)</li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>
     <li><a href='http://www.snapfiles.com/freeware/freeware.html'>Snapfiles</a> (Reminder to register)</li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>

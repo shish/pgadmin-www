@@ -10,6 +10,7 @@
       	Languages:
 	<a href="?locale=af_ZA"><img src="img/flags/SouthAfrica.gif" alt="Afrikaans"></img></a>
         <a href="?locale=de_DE"><img src="img/flags/Germany.gif" alt="German"></img></a>
+        <a href="?locale=el_GR"><img src="img/flags/Greece.gif" alt="Greek"></img></a>
         <a href="?locale=en_US"><img src="img/flags/UK.gif" alt="English"></img></a>
         <a href="?locale=es_ES"><img src="img/flags/Spain.gif" alt="Spain"></img></a>
         <a href="?locale=fa_IR"><img src="img/flags/Persian.gif" alt="Persian"></img></a>

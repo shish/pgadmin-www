@@ -24,7 +24,7 @@
 
   <h1 id="installation"><?php echo _("Installation instructions")?></h1>
   <dl>
-    <dt><?php echo _("GNU Debian");?></dt>
+    <dt><?php echo _("GNU/Linux Debian");?></dt>
     <?php echo  sprintf(_("Packager: %s"), "Raphaël Enrici");?>
     <br>
 
@@ -81,7 +81,7 @@
 	</dl>
 
   <dl>
-    <dt><?php echo sprintf(_("GNU/Slackware %s"), "9.0");?></dt>
+    <dt><?php echo sprintf(_("GNU/Linux Slackware %s"), "9.0");?></dt>
 		<?php echo  sprintf(_("Packager: %s"), "Dave Page");?>
     <dd>
       <ol>
@@ -89,6 +89,23 @@
           <?php echo _("Download pgAdmin Slackware package.");?>
         <li>
          <?php echo _("Install the downloaded package using Slackware pkgtool or installpkg.");?>
+      </ol>
+		</dd>
+	</dl>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
+  <dl>
+    <dt><?php echo sprintf(_("FreeBSD %s"), "5.1");?></dt>
+		<?php echo  sprintf(_("Packager: %s"), "斉藤　浩 (Hiroshi Saito)");?>
+    <dd>
+    	<ol>
+        <li>Download pgadmin3-yyyymmdd.tgz
+        <li>Install using pkg_add
+            # pkg_add pgadmin3-yyyymmdd.tgz
+        <li>Create a symlink to pgadmin3 binary<br>
+            # ln -sf /usr/local/pgadmin3/bin/pgadmin3 /usr/local/bin/pgadmin3
+        <li>Check that pgadmin3 is in the path<br>
+            # which pgadmin3 # /usr/local/bin/pgadmin3
       </ol>
 		</dd>
 	</dl>

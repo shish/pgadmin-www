@@ -12,7 +12,7 @@
   $_cache_translated = $_SERVER["SCRIPT_FILENAME"]."_cache_translated";
   $_cache_pending    = $_SERVER["SCRIPT_FILENAME"]."_cache_pending";
 
-  if (((time() - filemtime($_cache_translated)) > 300) || (!file_exists($_cache_translated))) {
+  if ((!file_exists($_cache_translated)) || ((time() - filemtime($_cache_translated)) > 300)) {
     require_once "cnt/cnt_translation_status.php";
 
     $translated->_cache_save($_cache_translated);

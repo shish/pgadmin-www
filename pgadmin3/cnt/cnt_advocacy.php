@@ -178,7 +178,7 @@ ru (Russian)
 <dd>
 zh (Chinese)
   <ul>
-    <li><a href='http://www.pgsqldb.org'>PostgreSQL China</a></li>
+    <li><a href='http://www.pgsqldb.org/hail-fellow-link.html'>PostgreSQL China</a></li>
   </ul>
 </dd>
 

@@ -2,7 +2,7 @@
   require "tpl/include.php";
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml"  lang='<?php echo $_SESSION['pgadmin']['locale']?>' xml:lang='<?php echo $_SESSION['pgadmin']['locale']?>'>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang='<?php echo $_SESSION['pgadmin']['locale_lang']?>' xml:lang='<?php echo $_SESSION['pgadmin']['locale_lang']?>'>
   <head>
 		<?php require_once "tpl/head.php"; ?>
     <title>pgAdmin homepage</title>

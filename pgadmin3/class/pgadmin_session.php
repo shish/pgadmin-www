@@ -34,8 +34,9 @@
     if (!isset($_SESSION['pgadmin']['locale'])) {
       $_SESSION['pgadmin']['locale'] = 'en_US';
     }
-
     $_locale = $_SESSION['pgadmin']['locale'];
+    $_SESSION['pgadmin']['locale_lang'] = substr($_locale, 0, 2);
+
     $_domain = 'pgadmin3_website';
 
     putenv("LANG=$_locale");

@@ -6,13 +6,26 @@
 <body>
 <p>This is the FAQ for the pgAdmin III tool V1.0.</p>
 <p>
-<A HREF="#FontProblem1">Font problem: too big</A><BR>
+<A HREF="#EncodingProblem">Encoding Problem: My data is not shown</A><BR>
 <A HREF="#FontProblem2">Font problem: SQL shows weird characters</A><BR>
 <A HREF="#UserPrivileges">User privileges</A><BR>
 <A HREF="#UnsuppProtocol">Server log: unsupported protocol</A><BR>
 </B>
 </p>
 
+<H3><A Name="EncodingProblem">Encoding Problem: My data is not shown</A></H3>
+<p>Data that includes non-ascii characters (character code > 0x7f) will not be shown.
+</p><p>
+pgAdmin III 1.0.0 uses the client_encoding set to UNICODE. The server will automatically convert 
+all data from the encoding format stored in the database to UNICODE. If the server is not able
+to convert the data, it will suppress this. A common problem is using the SQL_ASCII server side
+encoding, but storing non-ascii data in it. If you're using a client_encoding set to SQL_ASCII,
+you won't notice a problem because the server doesn't convert the data, but when using a different
+client encoding the server starts to convert, and fails.<br>
+Later versions of pgAdmin III (1.0.1 and up) will use SQL_ASCII client encoding, if it detects a server encoding 
+of SQL_ASCII. If a different encoding is present, UNICODE is used.
+<br>[AP]
+</p><br>
 <H3><A Name="FontProblem1">Font problem: too big</A></H3>
 <p>On my *ix system, the text is too big, and is truncated in the controls.
 </p><p>

@@ -1,19 +1,19 @@
 <?php
   require_once "class/pgadmin_po.php";
   $translated = new po_status();
-  $vacant = new po_status();
+  $outofdate = new po_status();
 
   $translated->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
   $translated->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
 
-  $vacant->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-  $vacant->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
+  $outofdate->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
+  $outofdate->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
 
   $_cache_translated = "cache/cache_translated.txt";
-  $_cache_vacant     = "cache/cache_vacant.txt";
+  $_cache_outofdate     = "cache/cache_outofdate.txt";
 
   $translated->_cache_load($_cache_translated);
-  $vacant->_cache_load($_cache_vacant);
+  $outofdate->_cache_load($_cache_outofdate);
 ?>
 
 <div class="sideBox LHS">
@@ -28,7 +28,7 @@
 <div id="bodyText">
 <h1 id="update"><?php echo _("Translation updates");?></h1>
 <dd>
-     <?php  echo sprintf(_("pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."), $translated->getNbLanguages() + $vacant->getNbLanguages());?>
+     <?php  echo sprintf(_("pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."), $translated->getNbLanguages() + $outofdate->getNbLanguages());?>
      <?php  echo _("In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language.");?>
      <?php  echo sprintf(_("Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section, create a subdirectory in your installation's ui directory with a name corresponding to the locale code,  and copy the new translation file into that directory."), "#published");?>
      <?php  echo sprintf(_("You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox."), "http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/pgadmin3/src/ui/pgadmin3.lng?rev=HEAD&content-type=text/lng");?>
@@ -71,13 +71,13 @@
     ?>
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
-  <h1 id="vacant"><?php echo sprintf(_("Currently unmaintained Translations (%d languages)"), $vacant->getNbLanguages());?></h1>
-	<?php echo sprintf(_("The mail address is that of the translator who contributed previously, but couldn't or hasn't continued for some reason."));?></h1>
-	<?php echo sprintf(_("If you like to continue the work, don't hesiate to contact us!"));?></h1>
+  <h1 id="vacant"><?php echo sprintf(_("Out of date Translations (%d languages)"), $outofdate->getNbLanguages());?></h1>
+	<?php echo sprintf(_("The translations belwo are not considered complete enough for inclusion in current releases."));?></h1>
+	<?php echo sprintf(_("If you like to continue the work, please don't hesiate to contact the current maintainer (please CC pgadmin-hackers@pgadmin.org)!"));?></h1>
     <?php
     	$_sortBy = $_SESSION['pgadmin']['d3456_poSortBy'];
-      $vacant->sortBy($_sortBy, SORT_ASC);
-      $vacant->display("d3456");
+      $outofdate->sortBy($_sortBy, SORT_ASC);
+      $outofdate->display("d3456");
     ?>
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>

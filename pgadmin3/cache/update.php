@@ -1,32 +1,24 @@
 <?php
-	if ($_SERVER["REMOTE_ADDR"]="127.0.0.1") {
+
     require_once "../class/pgadmin_po.php";
 
     $translated = new po_status();
-    $vacant = new po_status();
-    $pending = new po_status();
+    $outofdate = new po_status();
 
     $translated->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
     $translated->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
 
-    $vacant->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-    $vacant->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
-
-    $pending->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-    $pending->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
+    $outofdate->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
+    $outofdate->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
 
     require_once "../cnt/cnt_translation_status.php";
 
     $_cache_translated = dirname($_SERVER["SCRIPT_FILENAME"])."/cache_translated.txt";
-    $_cache_vacant = dirname($_SERVER["SCRIPT_FILENAME"])."/cache_vacant.txt";
-    $_cache_pending    = dirname($_SERVER["SCRIPT_FILENAME"])."/cache_pending.txt";
+    $_cache_outofdate = dirname($_SERVER["SCRIPT_FILENAME"])."/cache_outofdate.txt";
 
     $translated->_cache_save($_cache_translated);
-    $vacant->_cache_save($_cache_vacant);
-    $pending->_cache_save($_cache_pending);
+    $outofdate>_cache_save($_cache_outofdate);
 
     echo "Translation statistics updated.<br>";
-  } else {
-		Echo "Sorry, this cache update utility can only be run locally.";
-  }
+
 ?>

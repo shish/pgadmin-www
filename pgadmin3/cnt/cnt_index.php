@@ -4,7 +4,7 @@
 <a href="#features">&rsaquo; <?php echo _("Features");?></a>
 <a href="#contribute">&rsaquo; <?php echo _("How to contribute");?></a>
 <br>
-<i>On the first day of public release, Friday 26th September, it may take a few hours to update download mirrors. <br><br>Please be patient...</i>
+<i>On Friday 26th September, the first day of pgAdmin 1.0.0 release, it may take a few hours to update download mirrors. <br><br>Please be patient...</i>
 </div>
 
 <div id="bodyText">

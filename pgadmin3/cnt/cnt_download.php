@@ -4,7 +4,7 @@
   <a href="#binaries">&rsaquo; <?php echo _("Binary packages")?></a>
   <a href="#source">&rsaquo; <?php echo _("Source code")?></a>
   <br>
-<i>On the first day of public release, Friday 26th September, it may take a few hours to update download mirrors. <br><br>Please be patient...<i>
+<i>On Friday 26th September, the first day of pgAdmin 1.0.0 release, it may take a few hours to update download mirrors. <br><br>Please be patient...</i>
 </div>
 
 <div id="bodyText">

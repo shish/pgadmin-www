@@ -40,6 +40,12 @@
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "FreeBSD 5.1")?></td>
       </tr>
 
+			<tr bgcolor=beige>
+        <td>beta/debian</td>
+        <td></td>
+        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Debian")?></td>
+      </tr>
+
       <tr bgcolor=beige>
         <td>beta/mandrake91</td>
         <td></td>
@@ -90,19 +96,40 @@
               <?php echo _("For Debian WOODY:");?>
               <br>
               &nbsp;deb
-              http://www.pgadmin.org/snapshots/linux/debian woody pgadmin
+              [MIRROR'S URL]/beta/debian woody pgadmin
 
             <li>
               <?php echo _("For Debian TESTING:");?>
               <br>
               &nbsp;deb
-              http://www.pgadmin.org/snapshots/linux/debian testing pgadmin
+              [MIRROR'S URL]/beta/debian testing pgadmin
 
             <li>
               <?php echo _("For Debian UNSTABLE:");?>
               <br>
               &nbsp;deb
-              http://www.pgadmin.org/snapshots/linux/debian unstable pgadmin
+              [MIRROR'S URL]/beta/debian unstable pgadmin
+					</ul>
+
+          <?php echo _("For example, for France, you can try:");?>
+          <ul>
+            <li>
+              <?php echo _("For Debian WOODY:");?>
+              <br>
+              &nbsp;deb
+              ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian woody pgadmin
+
+            <li>
+              <?php echo _("For Debian TESTING:");?>
+              <br>
+              &nbsp;deb
+              ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian testing pgadmin
+
+            <li>
+              <?php echo _("For Debian UNSTABLE:");?>
+              <br>
+              &nbsp;deb
+              ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian unstable pgadmin
 					</ul>
 
 				<li>
@@ -166,7 +193,7 @@
 
   <dl>
     <dt><?php echo _("MS Windows 2000 & XP");?></dt>
-		<?php echo  sprintf(_("Packager: %s"), "Dave Page");?>
+		<?php echo  sprintf(_("Packager: %s"), "Andreas Pflug");?>
     <dd>
     	<ol>
         <li><?php echo _("Download pgAdmin installer.");?>
@@ -180,7 +207,7 @@
   <h1 id="pgadmin2"><?php echo _("pgAdmin2 stable")?></h1>
     <dd>
       <?php echo _("pgAdmin2 is available for Ms Windows only.")?>
-      <?php echo _("With the rapid advancement of the project, we recommend upgrading to pgAdmin3.");?>
+      <?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin3.");?>
       <?php echo sprintf(_("If you are interested in pgAdmin2, please visit <a href='%s'>pgAdmin2 downloading</a> page."), "http://www.pgadmin.org/pgadmin2/downloads")?>
       <?php echo _("This page is available in English only.")?>
     </dd>

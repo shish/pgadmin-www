@@ -14,7 +14,10 @@
   	<?php echo _("After one year of development, we are happy to announce the availability of pgAdmin3 beta, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD.");?>
     <?php echo _("We would like to thank our developer and translator community who contributed to the project.");?>
     <?php echo sprintf(_("pgAdmin3 is the result of a joint effort of a team of more than %d contributors from %d different countries."), 100, 38);?>
-    <?php echo sprintf(_("pgAdmin3 Beta-%d fixes several bugs listed on the <a href='%s'>Change log</a> page."), 2, "development.php#changelog");?>
+    <br><br>
+    <?php echo _("As usual your feedback during beta is highly appreciated and required.");?>
+    <?php echo _("We can only rely on users to make pgAdmin the best possible software.");?>
+    <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."), "development.php#changelog");?>
     <br><br>
   	<?php echo sprintf(_("pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
   	<?php echo sprintf(_("The software is available in source and binary format from the <a href='%s'>Download</a> page."), "download.php");?>
@@ -26,7 +29,6 @@
   <dd>
   	<?php echo _("Although we concentrate on pgAdmin3, we will continue to support pgAdmin2.");?>
   	<?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin3.");?>
-		<?php echo _("pgAdmin2 is available under Windows only.");?>
     <?php echo _("Both pgAdmin2 and pgAdmin3 can coexist on the same system.");?>
     <?php echo sprintf(_("If you are interested, please visit <a href='%s'>pgAdmin2</a> site."), "http://www.pgadmin.org/pgadmin2")?>
     <?php echo _("This site is available in English only.")?>

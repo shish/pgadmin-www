@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2004-02-03 22:02+0100\n"
+"PO-Revision-Date: 2004-02-04 10:05+0100\n"
 "Last-Translator: Jean-Michel Pouré <jm@poure.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -360,6 +360,10 @@ msgstr "GNU/Linux"
 msgid "GNU/Linux, FreeBSD and other *nixes."
 msgstr "GNU/Linux, FreeBSD et autres *nixes."
 
+#: ../cnt/cnt_advocacy.php:85
+msgid "Graphical administration interface for the PostgreSQL database, free for any use."
+msgstr "Interface graphique d'admistration pour la base de données PostgreSQL, libre et gratuite pour tous usages."
+
 #: ../cnt/cnt_index.php:115
 #: ../cnt/cnt_screenshots.php:110
 msgid "Groups"
@@ -641,10 +645,6 @@ msgstr "Documentation PostgreSQL (on-line et off-line)"
 #: ../cnt/cnt_screenshots.php:119
 msgid "PostgreSQL servers"
 msgstr "Serveurs PostgreSQL"
-
-#: ../cnt/cnt_advocacy.php:85
-msgid "Powerfull administration and development tools for PostgreSQL, free for any use."
-msgstr "Puissants outils d'admistration et de développement pour PostgreSQL. Libres et gratuits pour toute utilisation."
 
 #: ../cnt/cnt_index.php:94
 msgid "Powerfull query tool with color syntax highlight"
@@ -1029,6 +1029,9 @@ msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr "Vous découvrirez rapidement que PostgreSQL est la base de données la plus rapide."
 
 #: ../cnt/cnt_advocacy.php:87
+msgid "pgAdmin III is a powerfull administration and development interface for the PostgreSQL database, free for any use."
+msgstr "pgAdmin III est une plate-forme puissante d'admistration et de développement pour la base de données PostgreSQL, libre et gratuite pour tous usages."
+
 #: ../cnt/cnt_advocacy.php:91
 #: ../cnt/cnt_index.php:12
 msgid "pgAdmin III is a powerfull administration and development platform for the PostgreSQL database, free for any use."

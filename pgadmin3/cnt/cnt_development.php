@@ -84,7 +84,7 @@
     <ul>
       <li><a href='mailto:dpage@vale-housing.co.uk'>Dave Page</a> (Project Leader): Project founder & primary developer.<br>&nbsp;
       
-      <li><a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> (Core Developer): translations & web site management.
+      <li><a href='mailto:jm@poure.com'>Jean-Michel Pour&#233;</a> (Core Developer): translations & web site management.
       <li><a href='mailto:myeatman@vale-housing.co.uk'>Mark Yeatman</a> (Core Developer): Works on controls and consults on UI design.
       <li><a href='mailto:pgadmin@pse-consulting.de'>Andreas Pflug</a> (Core Developer): Has written vast amounts of pgAdmin III code and is responsible for much of its design.
       <li><a href='mailto:frank_lupo@email.it'>Frank Lupo</a> (Core Developer): Has made countless improvements to the pgAdmin II code from minor bug fixes to major enhancements.<br>&nbsp;

@@ -77,7 +77,8 @@ fr (French)
   <ul>
     <li><a href='http://www.jesuislibre.org/applications/Bases_de_Donnees/Gestionnaire/pgAdmin_III.php3'>Je suis libre</a>
     <li><a href='http://www.framasoft.net/rubrique2.html'>Framasoft</a> (pending)
-        <li><a href='http://gnuwin.epfl.ch/fr/index.html'>GNU Win</a> (pending)
+    <li><a href='http://gnuwin.epfl.ch/fr/index.html'>GNU Win</a> (pending)
+    <li><a href='http://www.lunerouge.org/gnu/applis_f.ht'>Lune Rouge</a> (pending)
   </ul>
 </dd>
 </dl>

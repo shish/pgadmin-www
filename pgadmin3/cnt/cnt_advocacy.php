@@ -14,9 +14,7 @@
 <dl>
   <dt>Why promote pgAdmin?</dt>
   <dd>
-  Promotion is essential for the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers.
-  </dd>
-  <dd>On the long run, promoting free software is essential for economical development and civil liberties.
+  Promotion is essential for the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers. On the long run, promoting free software is essential for economical development and civil liberties.
   The free software packages PostgreSQL and pgAdmin are used worldwide by a large number of end-users, companies, governments and institutions. Therefore, helping us promote pgAdmin is certainly not a loss of time.
   </dd>
 
@@ -52,7 +50,7 @@ ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2
           <li><b>Description of pgAdmin</b>: any technical description is suitable. If you are not sure what to write, just translate
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
-	pgAdmin III is a comprehensive administration interface for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and MS Windows. It was designed to answer the needs of all users, from writing simple SQL queries to developing complex databases, with support of the latest PostgreSQL features. The software is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin is developed by a community of database specialists around the world and is available in more than 30 languages.
+	pgAdmin III is a comprehensive administration interface for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and MS Windows. It is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases, with support of the latest PostgreSQL features. The software is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin is developed by a community of database specialists around the world and is available in more than 30 languages.
 	</td></tr>
       </table>
       Any comments are welcome.

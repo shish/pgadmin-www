@@ -30,6 +30,7 @@ require("../pgadmin2/globals.php");
     $doc = pg_fetch_array($rs, 0);
     echo ("<form action=\"edit.php\" method=\"POST\"><table border=1 width=\"99%\">\n");
     echo ("<tr><th align=\"left\" width=150>Content ID</th><td>$doc[id]</td></tr></tr>\n");
+    echo ("<tr><th align=\"left\" width=150>Site</th><td><input type=\"text\" size=15 value=\"$doc[site]\" name=\"site\"></td></tr>\n");
     echo ("<tr><th align=\"left\" width=150>Quicklink</th><td><input type=\"text\" size=25 value=\"$doc[quicklink]\" name=\"quicklink\"></td></tr>\n");
     if ($doc[showquicklink] == "t") {
       echo ("<tr><th align=\"left\" width=150>Show Quicklink</th><td><select name=\"showquicklink\"><option selected value=\"Yes\">Yes<option value=\"No\">No</select></td></tr>\n");
@@ -49,7 +50,7 @@ require("../pgadmin2/globals.php");
 
   if ($Action == "Update") {
       $db = pg_connect("$dbConn");      
-      $rs = pg_exec($db, "UPDATE content SET quicklink = '".$quicklink."', showquicklink = '$showquicklink', title = '".$title."', content = '".$content."', idoc = '$idoc', updated = now() WHERE id = $ContentID"); 
+      $rs = pg_exec($db, "UPDATE content SET site = '".$site."', quicklink = '".$quicklink."', showquicklink = '$showquicklink', title = '".$title."', content = '".$content."', idoc = '$idoc', updated = now() WHERE id = $ContentID"); 
       echo ("Updated Content ID: $ContentID.\n");  
       echo ("<b><a href=\"content.php\">Continue</a></b>\n");  
   }

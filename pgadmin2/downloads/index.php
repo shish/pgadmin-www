@@ -5,7 +5,7 @@ require("../globals.php");
 
   // Connect to the database
   $db = pg_connect("$dbConn");
-  $rs = pg_exec($db, "SELECT id, product, version, description, downloads FROM downloads WHERE active = true ORDER BY id DESC");
+  $rs = pg_exec($db, "SELECT id, product, version, description, downloads FROM downloads WHERE site = '$Site' AND active = true ORDER BY id DESC");
 
   // Now build the table rows
   $rows = pg_numrows($rs);

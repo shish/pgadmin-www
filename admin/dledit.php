@@ -30,6 +30,7 @@ require("../pgadmin2/globals.php");
     $dld = pg_fetch_array($rs, 0);
     echo ("<form action=\"dledit.php\" method=\"POST\"><table border=1 width=\"99%\">\n");
     echo ("<tr><th align=\"left\" width=150>Download ID</th><td>$dld[id]</td></tr></tr>\n");
+    echo ("<tr><th align=\"left\" width=150>Site</th><td><input type=\"text\" size=15 value=\"$dld[site]\" name=\"site\"></td></tr>\n");
     echo ("<tr><th align=\"left\" width=150>Filename</th><td><input type=\"text\" size=50 value=\"$dld[filename]\" name=\"filename\"></td></tr>\n");
     echo ("<tr><th align=\"left\" width=150>Product</th><td><input type=\"text\" size=50 value=\"$dld[product]\" name=\"product\"></td></tr>\n");
     echo ("<tr><th align=\"left\" width=150>Version</th><td><input type=\"text\" size=50 value=\"$dld[version]\" name=\"version\"></td></tr>\n");
@@ -46,7 +47,7 @@ require("../pgadmin2/globals.php");
 
   if ($Action == "Update") {
       $db = pg_connect("$dbConn");      
-      $rs = pg_exec($db, "UPDATE downloads SET filename = '".$filename."', product = '".$product."', version = '".$version."', description = '".$description."', details = '".$details."', active = '$active' WHERE id = $DownloadID"); 
+      $rs = pg_exec($db, "UPDATE downloads SET site = '".$site."', filename = '".$filename."', product = '".$product."', version = '".$version."', description = '".$description."', details = '".$details."', active = '$active' WHERE id = $DownloadID"); 
       echo ("Updated Download ID: $DownloadID.\n");  
       echo ("<br><br><b><a href=\"downloads.php\">Continue</a></b>\n");  
   }

@@ -14,6 +14,7 @@ Click <a href="dladd.php">here</a> to add a new download.<br><br>
 <center>
 <table border=1 width="99%">
 <tr>
+  <th>Site</th>
   <th>ID</th>
   <th>File</th>
   <th>Product</th>
@@ -26,7 +27,7 @@ require("../pgadmin2/globals.php");
 
   // Connect to the database
   $db = pg_connect("$dbConn");
-  $rs = pg_exec($db, "SELECT id, filename, product, version FROM downloads ORDER BY id");
+  $rs = pg_exec($db, "SELECT site, id, filename, product, version FROM downloads ORDER BY site, id");
   $rows = pg_numrows($rs);
 
 
@@ -34,6 +35,7 @@ require("../pgadmin2/globals.php");
   $rows = pg_numrows($rs);
   for ($x = 0;$x < $rows;$x++) {
     echo ("<tr>\n");
+    echo ("  <td>" . pg_result($rs, $x, "site") . "</td>\n");
     echo ("  <td>" . pg_result($rs, $x, "id") . "</td>\n");
     echo ("  <td>" . pg_result($rs, $x, "filename") . "</td>\n");
     echo ("  <td>" . pg_result($rs, $x, "product") . "</td>\n");

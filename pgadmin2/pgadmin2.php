@@ -5,12 +5,12 @@ require("globals.php");
 
   // Default to the Index
   if($ContentID == ""){
-    $ContentID = 1;
+    $ContentID = $Root;
   }
 
   // Connect to the database
   $db = pg_connect("$dbConn");
-  $rs = pg_exec($db, "SELECT id, quicklink, showquicklink, title, content, date_part('epoch', updated) AS updated, idoc FROM content WHERE id = $ContentID");
+  $rs = pg_exec($db, "SELECT id, quicklink, showquicklink, title, content, date_part('epoch', updated) AS updated, idoc FROM content WHERE (site = '$Site' OR site = 'common') AND id = $ContentID");
   $rows = pg_numrows($rs);
   if ($rows != 1){
     $doc = array(
@@ -27,7 +27,7 @@ require("globals.php");
   }
 
   // Now build the Quicklinks
-  $rs = pg_exec($db, "SELECT id, quicklink FROM content WHERE showquicklink = TRUE ORDER BY quicklink");
+  $rs = pg_exec($db, "SELECT id, quicklink FROM content WHERE (site = '$Site' OR site = 'common') AND showquicklink = TRUE ORDER BY quicklink");
   $rows = pg_numrows($rs);
   for ($x = 0;$x < $rows;$x++) {
     $QuickLinks = $QuickLinks . "        &nbsp;&nbsp;<a href=\"pgadmin2.php?ContentID=" . pg_result($rs, $x, "id") . "\">" . pg_result($rs, $x, "quicklink") . "</a><br>\n";

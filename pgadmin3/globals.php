@@ -1,6 +1,12 @@
 <?php
 
-// Main portal database
-$PortalDB = "dbname=186_portal host=db.svr2.postgresql.org user=portal";
+// Setup the connection string for the database
+$dbConn = "user=pgadmin dbname=186_pgadmin port=5432 host=db.svr2.postgresql.org";
 
+$Site = "pgadmin3";
+$Root = 24;
+
+// Colours
+$LightBlue = "#cdddeb";
+$DarkBlue = "#6884a4";
 ?>

@@ -38,7 +38,13 @@
   	<?php echo _("If you are the author/maintainer of a translation and whish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command.");?>
     <?php echo _("Translate the text and send us the *.po file.");?>
 
-  <dd><?php echo _("If you are not the author/maintainer of a translation and whish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator.");?>
+  <dd>
+  	<?php echo _("If you are not the author/maintainer of a translation and whish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator.");?>
+  </dd>
+
+  <dd>
+    <?php echo _("The project can only live and develop with your help.");?>
+    <?php echo _("Do not hesitate to review or update a translation.");?>
   </dd>
 
   <dd><?php echo _("The updated translations are published in daily snapshots automatically.");?>

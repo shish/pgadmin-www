@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-08-19 11:50+0200\n"
+"POT-Creation-Date: 2003-08-22 11:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,12 +210,20 @@ msgstr ""
 msgid "Designed for PostgreSQL latest versions"
 msgstr ""
 
-#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:143 ../tpl/menu.php:33
+#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:142 ../tpl/menu.php:33
 msgid "Development"
 msgstr ""
 
 #: ../cnt/cnt_development.php:5 ../cnt/cnt_development.php:43
 msgid "Development team"
+msgstr ""
+
+#: ../cnt/cnt_index.php:140
+msgid "Do not hesitate to get involved."
+msgstr ""
+
+#: ../cnt/cnt_translation.php:47
+msgid "Do not hesitate to review or update a translation."
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:7
@@ -396,7 +404,7 @@ msgstr ""
 msgid "If you are interested, please visit <a href='%s'>pgAdmin2</a> site."
 msgstr ""
 
-#: ../cnt/cnt_translation.php:41
+#: ../cnt/cnt_translation.php:42
 msgid ""
 "If you are not the author/maintainer of a translation and whish to submit a "
 "translation fix: download the language file (*.po extension), make the "
@@ -410,14 +418,14 @@ msgid ""
 "the 'update from template' command."
 msgstr ""
 
-#: ../cnt/cnt_index.php:145
+#: ../cnt/cnt_index.php:144
 #, c-format
 msgid ""
 "If you think you can contribute new features and/or bug fixes, please visit "
 "the <a href='%s'>Development</a> page."
 msgstr ""
 
-#: ../cnt/cnt_index.php:153
+#: ../cnt/cnt_index.php:152
 #, c-format
 msgid ""
 "If you think you can help us, please visit the <a href='%s'>Translation</a> "
@@ -441,7 +449,7 @@ msgstr ""
 msgid "In every environment, pgAdmin3 is a native application."
 msgstr ""
 
-#: ../cnt/cnt_index.php:146
+#: ../cnt/cnt_index.php:145
 msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
 msgstr ""
 
@@ -777,10 +785,8 @@ msgstr ""
 msgid "The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."
 msgstr ""
 
-#: ../cnt/cnt_index.php:140
-msgid ""
-"The project can only live and develop with your help. Do not hesitate to get "
-"involved."
+#: ../cnt/cnt_index.php:139 ../cnt/cnt_translation.php:46
+msgid "The project can only live and develop with your help."
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:132
@@ -817,7 +823,7 @@ msgstr ""
 msgid "The tool displays execution times of queries."
 msgstr ""
 
-#: ../cnt/cnt_translation.php:44
+#: ../cnt/cnt_translation.php:50
 msgid ""
 "The updated translations are published in daily snapshots automatically."
 msgstr ""
@@ -837,7 +843,7 @@ msgid "This page is available in English only."
 msgstr ""
 
 #: ../cnt/cnt_development.php:67 ../cnt/cnt_support.php:19
-#: ../cnt/cnt_translation.php:66
+#: ../cnt/cnt_translation.php:72
 msgid "This section is available in English only."
 msgstr ""
 
@@ -880,15 +886,15 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../cnt/cnt_index.php:150 ../cnt/cnt_translation.php:20 ../tpl/menu.php:34
+#: ../cnt/cnt_index.php:149 ../cnt/cnt_translation.php:20 ../tpl/menu.php:34
 msgid "Translation"
 msgstr ""
 
-#: ../cnt/cnt_translation.php:64
+#: ../cnt/cnt_translation.php:70
 msgid "Translation howto"
 msgstr ""
 
-#: ../cnt/cnt_translation.php:55
+#: ../cnt/cnt_translation.php:61
 #, c-format
 msgid "Translations in progress (%d languages)"
 msgstr ""
@@ -942,7 +948,7 @@ msgstr ""
 msgid "Views"
 msgstr ""
 
-#: ../cnt/cnt_index.php:152
+#: ../cnt/cnt_index.php:151
 #, c-format
 msgid ""
 "We need help to translate pgAdmin3 and our website in more than %d languages."
@@ -1014,7 +1020,7 @@ msgstr ""
 msgid "pgAdmin binary packages for %s"
 msgstr ""
 
-#: ../cnt/cnt_index.php:139
+#: ../cnt/cnt_index.php:138
 msgid ""
 "pgAdmin is a project created and managed by contributors from the whole "
 "world."

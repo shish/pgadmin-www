@@ -135,10 +135,9 @@
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
 <h1 id="contribute"><?php echo _("How to contribute");?></h1>
-<p>
   <?php echo _("pgAdmin is a project created and managed by contributors from the whole world.");?>
-  <?php echo _("The project can only live and develop with your help. Do not hesitate to get involved.");?>
-</p>
+	<?php echo _("The project can only live and develop with your help.");?>
+  <?php echo _("Do not hesitate to get involved.");?>
 <dl>
   <dt><?php echo _("Development");?></dt>
   <dd>

@@ -421,7 +421,7 @@
 	<dt><?php echo _("Installing pgAdmin III");?></dt>
   <dd>
   	<ol>
-    	<li><?php echo _("Download pgAdmin  IIIsource code from a mirror.");?>
+    	<li><?php echo _("Download pgAdmin III source code from a mirror.");?>
       <br/><br/>
 
       <li><?php echo sprintf(_("Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"), "pgp/davepage.pgp");?>

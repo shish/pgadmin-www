@@ -7,28 +7,19 @@
         <img src="img/elephant.png" alt="pgAdmin III for PostgreSQL">
       </td>
 
-      <td valign="bottom" align="right">
-				<form action="" method="post">
-            <label><?php echo _("Language:")?></label>
-            <select size="1" name="locale" id="locale" title="">
-              <option value="en_US" selected><?php echo _("Choose a language"); ?></option>
-              <option value="none">---------------------------</option>
-              <option value="de_DE">Deutsch</option>
-              <option value="en_US">English</option>
-              <option value="fa_IR">فارسی</option>
-              <option value="fr_FR">Français</option>
-              <option value="id_ID">Indonesia</option>
-              <option value="ja_JP">日本</option>
-              <option value="ru_RU">Русский</option>
-              <option value="tr_TR">Türkçe</option>
-              <option value="zh_CN">中文 (简体)</option>
-              <option value="zh_TW">中文 (正體)</option>
-            </select>
-
-            <input type="submit" value="Go" />
-          </form>
-      </td >
-    </tr>
+      <td align="right" valign="bottom">
+      	Language:
+        <a href="?locale=de_DE"><img src="img/flags/Germany.gif" alt="German">
+        <a href="?locale=fa_IR"><img src="img/flags/Persian.gif" alt="Persian">
+        <a href="?locale=fr_FR"><img src="img/flags/France.gif" alt="France">
+        <a href="?locale=id_ID"><img src="img/flags/Indonesia.gif" alt="Indonesian">
+        <a href="?locale=ja_JP"><img src="img/flags/Japan.gif" alt="Japanese">
+        <a href="?locale=ru_RU"><img src="img/flags/Russia.gif" alt="Russian">
+        <a href="?locale=tr_TR"><img src="img/flags/Turkey.gif" alt="Turkish">
+        <a href="?locale=zh_CN"><img src="img/flags/China.gif" alt="Simplified Chinese">
+        <a href="?locale=zh_TW"><img src="img/flags/Taiwan.gif" alt="Traditional Chinese">
+      </td>
+	</tr>
 
     <tr>
   		<td COLSPAN=2 valign="middle" align="left">
@@ -40,8 +31,8 @@
             <a href="translation.php"><?php echo _("Translation")?></a>|
             <a href="download.php"><?php echo _("Download")?></a>|
             <a href="support.php"><?php echo _("Support")?></a>
-          </div>
-				</div>
+           </div>
+		 </div>
   		</td>
 		</tr>
   </tr>

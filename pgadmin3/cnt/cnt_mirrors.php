@@ -53,10 +53,16 @@ if (!$_error) {
       $row = pg_fetch_row($res,$x);
       $img = str_replace(" ","",$row[3]);
       $img .= ".gif";
-      if ($row[1] == "") {
-        $content .= "<td align='center' valign='top' width='" . 100 / $numcells . "%'><a href='ftp://$row[0]$row[2]/pgadmin3/'><img src='http://www.postgresql.org/images/flags/$img' border=1 alt='" . ucwords($row[3]) . "' width='32' height='21'><br>" . ucwords($row[3]) . "</a><br>&nbsp;</td>\n";
+      if(substr($row[2], strlen($row[2]) - 1, 1) == '/') {
+        $path = $row[2] . "pgadmin3/";
       } else {
-        $content .= "<td align='center' valign='top' width='" . 100 / $numcells . "%'><a href='ftp://$row[0]:$row[1]$row[2]/pgadmin3/'><img src='http://www.postgresql.org/images/flags/$img' border=1 alt='$row[3]' width='32' height='21'><br>" . ucwords($row[3]) . "</a><br>&nbsp;</td>\n";
+        $path = $row[2] . "/pgadmin3/";
+      }
+
+      if ($row[1] == "") {
+        $content .= "<td align='center' valign='top' width='" . 100 / $numcells . "%'><a href='ftp://$row[0]$path'><img src='http://www.postgresql.org/images/flags/$img' border=1 alt='" . ucwords($row[3]) . "' width='32' height='21'><br>" . ucwords($row[3]) . "</a><br>&nbsp;</td>\n";
+      } else {
+        $content .= "<td align='center' valign='top' width='" . 100 / $numcells . "%'><a href='ftp://$row[0]:$row[1]$path'><img src='http://www.postgresql.org/images/flags/$img' border=1 alt='$row[3]' width='32' height='21'><br>" . ucwords($row[3]) . "</a><br>&nbsp;</td>\n";
       }
     }
     $ii = $numcells - ($x%$numcells);

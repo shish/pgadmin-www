@@ -133,7 +133,7 @@
     <dt><?php echo  sprintf(_("Packager: %s"), "<a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> / <a href='mailto:devrim@gunduz.org'>Devrim Gündüz</a> ");?></dt>
 
     <dd>
-    <?php echo sprintf(_("pgAdmin III RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."), "RC1", "9.1", "9", "8.2");?>
+    <?php echo sprintf(_("pgAdmin III RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."), "FC1 and FC2", "9.1", "9", "8.2");?>
  </dd>
 
   <dd>
@@ -149,9 +149,15 @@
       </tr>
 
       <tr bgcolor=lightyellow>
+        <td>[MIRROR URL]/pgadmin3/release/FC2</td>
+        <td></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Fedora FC2")?></td>
+      </tr>
+
+      <tr bgcolor=lightyellow>
         <td>[MIRROR URL]/pgadmin3/release/FC1</td>
         <td></td>
-        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Fedora")?></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Fedora FC1")?></td>
       </tr>
 
       <tr bgcolor=lightyellow>

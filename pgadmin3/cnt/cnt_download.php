@@ -336,13 +336,11 @@
             <?php echo _("The best solution is to use a recent distribution.")?>
 					<li>
           	<?php echo _("Windows 2000 & XP.")?>
-            <?php echo "A recent version of MinGW compiler can be used."?>
+            <?php echo _("Microsoft Visual C++ 6.0 or newer.")?>
         </ul>
 
-    	<li><?php echo _("wxWindows 2.5 compiled from CVS with additional patches.")?>
-        <?php echo _("wxWindows 2.4 will not work because of Unicode problems.")?>
-        <?php echo _("We provide modified wxWindows 2.5 source and binary packages.")?>
-        <?php echo _("The libraries can be downloaded from our mirrors in the 'wxWindows' directory.")?>
+    	<li><?php echo sprintf(_("wxWidgets (former wxWindows) %s compiled from a source snapshot."), "2.5.3")?>
+        <?php echo _("Currently, this is the only version we support.")?>
 
 
 
@@ -352,14 +350,13 @@
 
   <dt><?php echo _("Installing wxWindows libraries");?></dt>
   <dd>
-      <?php echo _("Download our supported wxWindows 2.5 CVS version.");?>
-      <?php echo _("The libraries can be downloaded from our mirrors in the 'wxWindows' directory.")?>
+      <?php echo sprintf(_("Download wxWidgets from the <a href='%s'>wxWidgets</a> download area."), "http://www.wxwidgets.org");?>
       <br/><br/>
       <?php echo _("Unpack as follows:");?>
       <br/>
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
         <tr><td>
-        tar -xzf wxWindows*.tar.gz
+        tar -xzf wxWidgets*.tar.gz
         </td></tr>
       </table>
 
@@ -372,19 +369,15 @@
       <br/>
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
         <tr><td>
-					cd wxWindows*<br/>
+					cd wxWidgets*<br/>
           ./configure --with-gtk --enable-gtk2 \<br/>
-          --enable-unicode --disable-shared --enable-debug<br/>
+          --enable-unicode --disable-shared --enable-debug --enable-mimetype=no<br/>
           make<br/>
       		sudo make install<br/><br/>
           # <?php echo _("Install wxWindows STC (Styled Text Control).");?><br/>
           cd contrib/src/stc<br/>
       		make<br/>
       		sudo make install<br/><br/>
-          # <?php echo _("Install wxWindows XRC (Xml Resource Control).");?><br/>
-          cd ../xrc/<br/>
-      		make<br/>
-      		sudo make install
         </td></tr>
       </table>
 
@@ -398,7 +391,7 @@
           # Please checkout wxWindows and pgAdmin from CVS only.<br/>
           # To coordinate efforts, please contact us on the mailing list<br/>
           <br/>
-					cd wxWindows*<br/>
+					cd wxWidgets*<br/>
           ../configure --with-mac --disable-shared --enable-debug<br/>
           make<br/>
           sudo make install<br/><br/>
@@ -406,10 +399,6 @@
           cd contrib/src/stc/<br/>
           make<br/>
           sudo make install<br/><br/>
-          # <?php echo _("Install wxWindows XRC (Xml Resource Control).");?><br/>
-          cd ../xrc/<br/>
-          make<br/>
-          sudo make install<br/>
         </td></tr>
       </table>
 		</ul>

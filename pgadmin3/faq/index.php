@@ -11,6 +11,8 @@
 <A HREF="#UserPrivileges">User privileges</A><BR>
 <A HREF="#UnsuppProtocol">Server log: unsupported protocol</A><BR>
 <A HREF="#ConstraintTrigger">Foreign key constraints not shown</A><BR>
+<A HREF="#Win9x">Win9x problems</A><BR>
+<A HREF="#HangWin9x">Query tool hangs on Win9x</A><BR>
 </B>
 </p>
 
@@ -41,6 +43,8 @@ style "defaultfont"<br>
 }<br>
 widget_class "*" style "defaultfont"<br>
 <---------cut here------------------->
+<br>
+The forthcoming V1.1 will solve this by resizing the dialogs according to the font in use.
 <br>[RE]
 </p><br>
 <H3><A NAME="FontProblem2">Font problem: SQL shows weird
@@ -97,6 +101,19 @@ the database is missing.<br>
 Run the adddepend script, which can be found in the backend's sources contrib/adddepend directory.
 <br> [AP]
 </p><br>
+<H3><A Name="Win9x">Win9x problems</A></H3>
+<p>
+We're providing a stripped down pgAdmin3 version without unicode support and limited functionality.
+Still, Win9x imposes some other problems too. Consider using a true 32bit operating system 
+(Linux, W2K, XP) if these constraints hit you.<BR>
+One example: </p>
+<H3><A Name="HangWin9x">Query tool hangs on Win9x</A></H3>
+</p>
+After running a query on Win9x that retrieves around 3000 rows or more, closing the query tool will hang the app.
+</p><p>
+Apparently this happens when Win9x cleans up the result set ListView. Win9x isn't prepared to handle large data
+(it's still kind-of 16 bit in these places).<br>
+We don't provide fixes for Win9x components (M$ doesn't either). There's no known workaround.[AP]
 </body>
 </html>
 

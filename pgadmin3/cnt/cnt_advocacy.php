@@ -129,13 +129,14 @@ en (English)
     <li><a href='http://www.afreego.com'>AFreeGo</a> (pending)</li>
     <li><a href='http://www.asp-shareware.org/pad/showinfo.asp?xmlfile=http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>Association of Shareware Professionals</a></li>
     <li><a href='http://www.bloodshed.net/c'>Bloodshed</a></li>
+    <li><a href='http://www.brothersoft.com'>Brothersoft</a> (pending)</li>
     <li><a href='http://www.bykeyword.com'>By Keyword</a> (pending)</li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/1075383313.html'>Database Journal</a></li>
-    <li><a href='http://www.dirfile.com'>Dir file.com</a> (pending)</li>
+    <li><a href='http://www.dirfile.com/pgadmin_iii_for_postgresql.htm'>Dir file.com</a></li>
     <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.download32.com/proghtml/533/53391.htm'>Download 32</a></li>
     <li><a href='http://www.downloaddatabase.com'>Download Database</a> (pending)</li>
-    <li><a href='http://www.finaldownload.com'>Final download</a> (pending)</li>
+    <li><a href='http://www.finaldownload.com/developer_tools_databases_networks_pgadmin_iii_for_postgresql.html'>Final download</a></li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://www.freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
@@ -149,13 +150,16 @@ en (English)
     <li><a href='http://www.padring.com'>Pad Ring</a> (pending)</li>
     <li><a href='http://www.pcworlddownload.com'>PC World Download</a> (pending)</li>
     <li><a href='http://www.perfectdownloads.com/software-development/databases-networks/pgadmin-iii-for-postgresql.htm'>Perfect Downloads</a></li>
-    <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
+    <li><a href='http://www.programfiles.com/Default.asp?LinkId=31982'>ProgramFiles.com</a></li>
     <li><a href='http://www.programmersheaven.com/search/download.asp?FileID=32608'>Programmers Heaven</a></li>
     <li><a href='http://www.sharewareconnection.com/pgadmin-iii-for-postgresql.htm'>Shareware connection</a></li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>
     <li><a href='http://www.snapfiles.com/freeware/freeware.html'>Snapfiles</a> (Reminder to register)</li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>
+    <li><a href='http://www.soft411.com/software/postgresql.html'>Soft 411</a> (pending)</li>
+    <li><a href='http://www.softempire.com'>Softempire</a> (pending)</li>
     <li><a href='http://www.theopencd.org'>The Open CD</a> (pending)</li>
+    <li><a href='http://www.thesoftwarebank.com'>The Software bank</a> (pending)</li>
     <li><a href='http://www.topdownloads.net/software/view.php?id=14174'>Top Downloads Net</a></li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
     <li><a href='http://www.webmasterfree.com'>Webmaster Free</a> (pending)</li>
@@ -214,8 +218,8 @@ ru (Russian)
     <li><a href='http://www.linuxshare.ru/docs/software/SQL/postgresql/index.html'>PostgreSQL Russia</a></li>
     <li><a href='http://www.linuxcenter.ru'>LinuxCenter</a> (reminder to register)</li>
     <li><a href='http://www.listsoft.ru'>ListSoft</a> (reminder to register)</li>
-    <li><a href='http://www.opennet.ru/prog/sml/154.shtml'>Opennet</a> (pending)</li>
-
+    <li><a href='http://www.opennet.ru/prog/sml/154.shtml'>Opennet</a></li>
+    <li><a href='http://soft.necromancers.ru'>Necromancers</a> (pending)</li>
   </ul>
 </dd>
 

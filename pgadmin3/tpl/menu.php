@@ -20,7 +20,7 @@
               <option value="id_ID">Indonesia</option>
               <option value="ja_JP">日本</option>
               <option value="zh_CN">中文 (简体)</option>
-              <option value="tr_TR">Turkish</option>
+              <option value="tr_TR">Türkçe</option>
             </select>
 
             <input type="submit" value="Go" />

@@ -59,11 +59,11 @@
        Some sites (especially Windows shareware/freeware sites) may require direct links. Be very careful before submitting direct links, because you may have to upgrade them when pgAdmin new versions are released. When direct links are required, choose several PostgreSQL mirrors from the <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>.  Some sites can ask for up to 5 links. For example (do not copy these examples, copy your own links):
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
-1: <a href='ftp://ftp.fr.postgresql.org/pgadmin3/release/win32/pgadmin3-1_0_2.zip'>ftp://ftp.fr.postgresql.org/pgadmin3/release/win32/pgadmin3-1_0_2.zip</a></br>
-2: <a href='ftp://ftp2.de.postgresql.org/pub/comp/os/unix/database/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip'>ftp://ftp2.de.postgresql.org/pub/comp/os/unix/database/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip</a></br>
-3: <a href='ftp://ftp3.us.postgresql.org/pub/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip'>ftp://ftp3.us.postgresql.org/pub/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip</a></br>
-4: <a href='ftp://ftp.kr.postgresql.org/mirror/database/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip'>ftp://ftp.kr.postgresql.org/mirror/database/postgresql/pgadmin3/release/win32/pgadmin3-1_0_2.zip</a></br>
-5: <a href='ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2.zip'>ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2.zip</a></br>
+1: <a href='ftp://ftp.fr.postgresql.org/pgadmin3/release/win32/pgadmin3.zip'>ftp://ftp.fr.postgresql.org/pgadmin3/release/win32/pgadmin3.zip</a></br>
+2: <a href='ftp://ftp2.de.postgresql.org/pub/comp/os/unix/database/postgresql/pgadmin3/release/win32/pgadmin3.zip'>ftp://ftp2.de.postgresql.org/pub/comp/os/unix/database/postgresql/pgadmin3/release/win32/pgadmin3.zip</a></br>
+3: <a href='ftp://ftp3.us.postgresql.org/pub/postgresql/pgadmin3/release/win32/pgadmin3.zip'>ftp://ftp3.us.postgresql.org/pub/postgresql/pgadmin3/release/win32/pgadmin3.zip</a></br>
+4: <a href='ftp://ftp.kr.postgresql.org/mirror/database/postgresql/pgadmin3/release/win32/pgadmin3.zip'>ftp://ftp.kr.postgresql.org/mirror/database/postgresql/pgadmin3/release/win32/pgadmin3.zip</a></br>
+5: <a href='ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3.zip'>ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3.zip</a></br>
 	</td></tr>
       </table>
 

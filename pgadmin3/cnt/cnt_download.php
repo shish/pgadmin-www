@@ -10,31 +10,58 @@
   <dd>
 		<?php echo _("pgAdmin3  is available in source and binary format.")?>
     <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
-		<?php echo _("After downloading, please read our installation instructions.")?>
+		<?php echo sprintf(_("After downloading, please read our <a href='%s'>installation instructions</a>."), "#installation")?>
     <?php echo _("On each mirror, the files can be found in the following directories:")?>
   </dd>
 
 	<dd>
 		<table width= '100%' cellspacing=0 cellpadding=10 border=0>
 			<tr bgcolor=lightgray>
-        <td><?php echo _("Location on mirror")?></td>
+        <td><?php echo _("pgAdmin location on mirror")?></td>
         <td></td>
         <td><?php echo _("Description")?></td>
       </tr>
+
     	<tr bgcolor=lightyellow>
         <td>beta/src</td>
         <td></td>
         <td><?php echo _("pgAdmin source code")?></td>
       </tr>
+
       <tr bgcolor=beige>
         <td>beta/win32</td>
         <td></td>
-        <td><?php echo _("pgAdmin binary packages for Windows 2000 & XP")?></td>
+        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "Windows 2000 & XP")?></td>
       </tr>
+
       <tr bgcolor=lightyellow>
+        <td>beta/freebsd51</td>
+        <td></td>
+        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "FreeBSD 5.1")?></td>
+      </tr>
+
+      <tr bgcolor=beige>
+        <td>beta/mandrake91</td>
+        <td></td>
+        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Mandrake 9.1")?></td>
+      </tr>
+
+      <tr bgcolor=beige>
+        <td>beta/redhat9</td>
+        <td></td>
+        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux RedHat 9")?></td>
+      </tr>
+
+      <tr bgcolor=beige>
         <td>beta/slackware9</td>
         <td></td>
-        <td><?php echo _("pgAdmin binary packages for GNU/Linux Slackware 9.0")?></td>
+        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Slackware 9.0")?></td>
+      </tr>
+
+			<tr bgcolor=beige>
+        <td>beta/suse82</td>
+        <td></td>
+        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux SuSE 8.2")?></td>
       </tr>
     </table>
   </dd>

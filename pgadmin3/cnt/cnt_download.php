@@ -13,7 +13,7 @@
   <h1 id="mirrors"><?php echo _("List of mirrors")?></h1>
   <dd>
   	<?php echo _("pgAdmin3 can be downloaded from a large number of mirrors.")?>
-    <?php echo sprintf(_("The mirrors were kindly provided by <a href='%s'>PostgreSQL</a> project."), "http://www.postgresql.org")?>
+    <?php echo sprintf(_("The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."), "http://www.postgresql.org")?>
     <?php echo _("On each mirror, the files can be found in the following directories:")?>
   </dd>
 
@@ -236,8 +236,8 @@
 
     	<li><?php echo _("wxWindows 2.5 compiled from CVS is required with additional patches.")?>
         <?php echo _("wxWindows 2.4 will not work because of Unicode problems.")?>
-        <?php echo _("To avoid problems, we provide wxWindows 2.5 source and binary packages.")?>
-        <?php echo _("The required packages can be downloaded from our mirrors in the 'wxWindows' directory.")?>
+        <?php echo _("We provide wxWindows 2.5 source and binary packages.")?>
+        <?php echo _("The packages can be downloaded from our mirrors in the 'wxWindows' directory.")?>
 
 
 
@@ -248,8 +248,10 @@
   <dt><?php echo _("Installing wxWindows framework");?></dt>
   <dd>
   	<ol>
-    	<li><?php echo _("Download our supported wxWindows 2.5 CVS version.");?>
-      <?php echo _("Unpack as follows:");?><br>
+    	<li>
+      	<?php echo _("Download our supported wxWindows 2.5 CVS version.");?>
+        <?php echo _("The packages can be downloaded from our mirrors in the 'wxWindows' directory.")?>
+      	<?php echo _("Unpack as follows:");?><br>
       <pre>
       # tar -xzf wxWindows*.tar.gz
       </pre>

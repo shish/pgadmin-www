@@ -26,14 +26,23 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
-  <dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.0.2");?></dt>
+  [2004-09-10] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Beta-1");?></dt>
+  <dd>
+    <?php echo _("The pgAdmin Development Team is pleased to announce the first Beta
+version of pgAdmin III v1.2.0, the well-known GUI administration tool
+for the PostgreSQL database system.");?>
+    <?php echo sprintf(_("Please visit the pgAdmin <a href='%s'>Beta release</a> page to learn more about this exciting new version."), "beta.php");?>
+  </dd>
+</dl>
+<dl>
+  [2003-11-28]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.0.2");?></dt>
   <dd>
     <?php echo _("A new release of pgAdmin is available, including bug fixes for some problems that have been reported by users.");?>
     <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."), "development.php#changelog");?>
   </dd>
 </dl>
 <dl>
-  <dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.0.0");?></dt>
+  [2003-09-26]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.0.0");?></dt>
   <dd>
     <?php echo _("After one year of development, we are happy to announce the availability of pgAdmin III, a complete rewrite of pgAdmin II for Ms Windows, GNU/Linux and FreeBSD.");?>
     <?php echo _("We would like to thank our developer and translator community who contributed to the project.");?>

@@ -465,7 +465,7 @@
     <h1 id="mirrors"><?php echo _("Download mirrors")?></h1>
   <dd>
     <?php echo _("pgAdmin III can be downloaded from a large number of mirrors.")?>
-    <?php echo sprintf(_("The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."), "http://www.postgresql.org")?>
+    <?php echo sprintf(_("The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."), "http://www.postgresql.org")?><br>
   </dd>
 
   <dd>

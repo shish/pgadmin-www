@@ -36,7 +36,7 @@
         You are free to publish any technical information about pgAdmin. Here are some guidelines, mainly about links and localization.
         <ul>
           <li><b>Include a language information in the URL</b>: pgAdmin web site is not able to detect the language of your browser. To display a page in your language, just click on your country flag. For example, the URL of the French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>.
-          <li><b>Downloading links</b>: whenever possible, publish links pointing to pgAdmin <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>. When direct links are required, choose several PostgreSQL mirrors from the <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>. Some sites can ask for up to 5 links. For example:
+          <li><b>Downloading links</b>: whenever possible, publish links pointing to pgAdmin <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>. When direct links are required, choose several PostgreSQL mirrors from the <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>. Some sites can ask for up to 5 links. For example (do not copy these examples, copy your own links):
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
 ftp://ftp.fr.postgresql.org/pgadmin3/release/win32/pgadmin3-1_0_2.zip

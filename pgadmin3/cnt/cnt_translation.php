@@ -1,18 +1,24 @@
 <?php
   require_once "class/pgadmin_po.php";
   $translated = new po_status();
+  $vacant = new po_status();
   $pending = new po_status();
 
   $translated->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
   $translated->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
 
+  $vacant->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
+  $vacant->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
+
   $pending->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
   $pending->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
 
   $_cache_translated = "cache/cache_translated.txt";
+  $_cache_vacant     = "cache/cache_vacant.txt";
   $_cache_pending    = "cache/cache_pending.txt";
 
   $translated->_cache_load($_cache_translated);
+  $vacant->_cache_load($_cache_vacant);
   $pending->_cache_load($_cache_pending);
 ?>
 
@@ -28,7 +34,7 @@
 <div id="bodyText">
 <h1 id="update"><?php echo _("Translation updates");?></h1>
 <dd>
-     <?php  echo sprintf(_("pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."), $translated->getNbLanguages());?>
+     <?php  echo sprintf(_("pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."), $translated->getNbLanguages() + $vacant->getNbLanguages());?>
      <?php  echo _("In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language.");?>
      <?php  echo sprintf(_("Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section, create a subdirectory in your installation's ui directory with a name corresponding to the locale code,  and copy the new translation file into that directory."), "#published");?>
      <?php  echo sprintf(_("You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox."), "http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/pgadmin3/src/ui/pgadmin3.lng?rev=HEAD&content-type=text/lng");?>
@@ -44,7 +50,7 @@
   </dd>
 
 
-  <h1 id="published"><?php echo sprintf(_("Published Translations (%d languages)"), $translated->getNbLanguages());?></h1>
+  <h1 id="published"><?php echo sprintf(_("Published Translations (%d languages)"), $translated->getNbLanguages()+$vacant->getNbLanguages());?></h1>
   <dd>
   	<?php echo _("If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command.");?>
     <?php echo _("Translate the text and send us the *.po file.");?>
@@ -68,6 +74,16 @@
     $_sortBy = $_SESSION['pgadmin']['c9875_poSortBy'];
     $translated->sortBy($_sortBy, SORT_ASC);
     $translated->display("c9875");
+    ?>
+
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+  <h1 id="progress"><?php echo sprintf(_("Currently unmaintained Translations (%d languages)"), $vacant->getNbLanguages());?></h1>
+	<?php echo sprintf(_("The mail address it that of the translator who contributed previously, but couldn't continue any more."));?></h1>
+	<?php echo sprintf(_("If you like to continue the work, don't hesiate to contact us!"));?></h1>
+    <?php
+    	$_sortBy = $_SESSION['pgadmin']['d3456_poSortBy'];
+      $vacant->sortBy($_sortBy, SORT_ASC);
+      $vacant->display("d3456");
     ?>
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2004-02-02 15:41+0100\n"
+"PO-Revision-Date: 2004-02-03 10:28+0100\n"
 "Last-Translator: Jean-Michel Pouré <jm@poure.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,6 +31,10 @@ msgstr "Un double-clic dans l'arborescence de navigation ouvre l'objet sélectio
 #: ../cnt/cnt_index.php:14
 msgid "A new release of pgAdmin is available, including bug fixes for some problems that have been reported by users."
 msgstr "Une nouvelle version de pgAdmin est disponible, qui corrige les bugs et problèmes rapportés par les utilisateurs."
+
+#: ../cnt/cnt_advocacy.php:86
+msgid "A powerfull administration and development platform for the PostgreSQL database, free for any use. Available in more than 30 languages for Win/NT/2000/XP, GNU/Linux and FreeBSD. Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more."
+msgstr "Plated-forme complète d'administration et de développement pour la base de données PostgreSQL. Libre et gratuit pour toutes utilisations. Disponible dans plus de 30 langues pour Win/NT/2000/XP, GNU/linux et FreeBSD. Comprend une interface graphique d'administration, un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore."
 
 #: ../cnt/cnt_screenshots.php:198
 msgid "A query tool with colour syntax highlight allows to run custom queries."
@@ -257,6 +261,7 @@ msgstr "Téléchargement des sources"
 msgid "Download Translation"
 msgstr "Téléchargement des traductions"
 
+#: ../cnt/cnt_download.php:10
 #: ../cnt/cnt_download.php:473
 msgid "Download mirrors"
 msgstr "Mirroirs de téléchargement"
@@ -511,10 +516,6 @@ msgstr "Responsable"
 msgid "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a href='%s'>mail-archive.com</a>."
 msgstr "Les message de la liste de diffusion sont archivés chez <a href='%s'>PostgreSQL</a> et <a href='%s'>mail-archive.com</a>."
 
-#: ../cnt/cnt_download.php:10
-msgid "Mirrors"
-msgstr "Mirroirs"
-
 #: ../cnt/cnt_download.php:7
 msgid "Ms Windows"
 msgstr "Ms Windows"
@@ -636,6 +637,10 @@ msgstr "Documentation PostgreSQL (on-line et off-line)"
 #: ../cnt/cnt_screenshots.php:119
 msgid "PostgreSQL servers"
 msgstr "Serveurs PostgreSQL"
+
+#: ../cnt/cnt_advocacy.php:85
+msgid "Powerfull administration and development tools for PostgreSQL, free for any use."
+msgstr "Puissants outils d'admistration et de développement pour PostgreSQL. Libres et gratuits pour toute utilisation."
 
 #: ../cnt/cnt_index.php:79
 msgid "Powerfull query tool with color syntax highlight"
@@ -995,6 +1000,10 @@ msgstr "Vous êtes les bienvenus sur la liste, mais pensez à utiliser la liste 
 #: ../cnt/cnt_screenshots.php:216
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr "Vous découvrirez rapidement que PostgreSQL est la base de données la plus rapide."
+
+#: ../cnt/cnt_advocacy.php:87
+msgid "pgAdmin III is a completely free administration and development platform for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and MS Windows. It is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. pgAdmin also includes a query builder, an sql editor, a server-side code editor and much more. pgAdmin is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License."
+msgstr "pgAdmin III est une plate-forme complète d'administration et de développement pour la base de données PostgreSQL, totalement libre et gratuite pour toutes utilisations. L'application est disponible pour GNU/Linux, FreeBSD et MS Windows. Elle est conçue pour répondre aux besoins de tous les utilisateurs, depuis l'écriture de simples requêtes SQL jusqu'au développement de bases de données complexes. L'interface graphique donne accès à toutes les fonctionnalités de PostgreSQL, faisant de l'administration un jeu d'enfant. pgAdmin comprend également un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore. pgAdmin est disponible sous forme d'un installeur et ne nécessite aucun driver additionnel pour se connecter à la base de données. pgAdmin est le fruit d'un travail collaboratif d'une communauté internationale de spécialistes des bases de données. L'application est disponible dans plus de 30 langues pour Win/NT/2000/XP, GNU/linux et FreeBSD. Le logiciel est disponible aux conditions de la licence libre \"Artisitic licence\"."
 
 #: ../cnt/cnt_download.php:144
 #, c-format

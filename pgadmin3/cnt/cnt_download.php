@@ -1,6 +1,6 @@
 <div class="sideBox LHS">
   <div><?php echo _("Download")?></div>
-  <a href="#mirrors">&rsaquo; <?php echo _("Stable release")?></a>
+  <a href="#stable">&rsaquo; <?php echo _("Stable release")?></a>
   <a href="#snapshots">&rsaquo; <?php echo _("Daily snapshots");?></a>
   <a href="#binaries">&rsaquo; <?php echo _("Installing binary packages")?></a>
   <a href="#source">&rsaquo; <?php echo _("Installing from source")?></a>
@@ -11,7 +11,7 @@
   <?php echo sprintf(_("The software is available in source and binary format from our <a href='%s'>mirrors</a>."), "#mirrors")?>
   <?php echo sprintf(_("Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."), "#source", "#binaries")?>
 
-  <h1 id="mirrors"><?php echo _("Stable release")?></h1>
+  <h1 id="stable"><?php echo _("Stable release")?></h1>
   <dd>
   	<?php echo _("pgAdmin3 can be downloaded from a large number of mirrors.")?>
     <?php echo sprintf(_("The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."), "http://www.postgresql.org")?>

@@ -72,8 +72,9 @@
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
   <h1 id="vacant"><?php echo sprintf(_("Out of date Translations (%d languages)"), $outofdate->getNbLanguages());?></h1>
-	<?php echo sprintf(_("The translations belwo are not considered complete enough for inclusion in current releases."));?></h1>
+	<?php echo sprintf(_("The translations below are not considered complete enough for inclusion in current releases."));?></h1>
 	<?php echo sprintf(_("If you like to continue the work, please don't hesiate to contact the current maintainer (please CC pgadmin-hackers@pgadmin.org)!"));?></h1>
+  <br>
     <?php
     	$_sortBy = $_SESSION['pgadmin']['d3456_poSortBy'];
       $outofdate->sortBy($_sortBy, SORT_ASC);

@@ -17,7 +17,7 @@
     $_cache_outofdate = dirname($_SERVER["SCRIPT_FILENAME"])."/cache_outofdate.txt";
 
     $translated->_cache_save($_cache_translated);
-    $outofdate>_cache_save($_cache_outofdate);
+    $outofdate->_cache_save($_cache_outofdate);
 
     echo "Translation statistics updated.<br>";
 

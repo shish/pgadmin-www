@@ -10,6 +10,7 @@
 <A HREF="#PropertyDisabled">A property is disabled on an object I want to edit</A><BR>
 <A HREF="#UserPrivileges">User privileges</A><BR>
 <A HREF="#ConstraintTrigger">Foreign key constraints not shown</A><BR>
+<A HREF="#ColChange">Problem after changing column type</A><BR>
 <A HREF="#datpath">ERROR: column &quot;datpath&quot; does not exist</A><BR>
 <A HREF="#Win9x">Win9x problems</A><BR>
 <A HREF="#HangWin9x">Query tool hangs on Win9x</A><BR>
@@ -72,6 +73,20 @@ by showing a ADD CONSTRAINT when reverse engineering, while actually the constra
 the database is missing.<br>
 Run the adddepend script, which can be found in the backend's sources contrib/adddepend directory.
 [AP]
+</p><br>
+<H3><A Name="ColChange">Problem after changing column type</A></H3>
+<p>
+After changing a column type in PostgreSQL 7.3 or 7.4, I get errors when executing views or triggers. 
+I don't see this problem on 8.0 servers.
+<p></p>
+PostgreSQL 7.3 and 7.4 don't support changing the column type by themselves, pgAdmin III changes system tables 
+directly instead. Under some circumstances, the query plan that was stored when a view or trigger created 
+containing that column, have to be replanned using the new type information.
+</p><p>
+Currently, pgAdmin III does not recreate depending objects automatically for 7.3 and 7.4 servers; you will 
+have to do that manually if you encounter execution errors. pgAdmin III V1.3 and later are planned to do 
+that automatically. This is not necessary on PostgreSQL 8.+ servers, because these versions support altering
+a column type instrinsically.
 </p><br>
 <H3><A Name="datpath">ERROR: column &quot;datpath&quot; does not exist</A></H3>
 <p>

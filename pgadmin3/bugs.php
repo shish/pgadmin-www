@@ -8,7 +8,7 @@
   </head>
 
  <body >
-  <h1><?php echo _("Known bugs")?></h1>
+  <31><?php echo _("Known bugs")?></h3>
   <dd>
   <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
       <tr><td>

@@ -8,10 +8,11 @@
 <div id="bodyText">
   <h1 id="FAQ"><?php echo _("Frequently asked questions")?></h1>
 	<dd>
-  	<?php echo sprintf(_("Our <a href=%s>FAQ</a> document contains some known caveats."), "/pgadmin3/faq")?>
+  	<?php echo sprintf(_("Our <a href='%s' target='_blank'>FAQ</a> document contains some known caveats."), "/pgadmin3/faq")?>
     <?php echo _("In case you encounter an unexpected behaviour, you should have a look at that page.")?>
     <br><br>
     <?php echo _("The FAQ page is also accessible via the pgAdmin III help menu.")?>
+    <?php echo _("This page is available in English only.")?>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 

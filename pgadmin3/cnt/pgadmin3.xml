@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <XML_DIZ_INFO>
 	<MASTER_PAD_VERSION_INFO>
 		<MASTER_PAD_VERSION>1.15</MASTER_PAD_VERSION>
@@ -44,7 +44,7 @@
 		<Program_Release_Status>New Release</Program_Release_Status>
 		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
 		<Program_OS_Support>WinXP,WinNT4.x,Windows2000,Unix,Linux</Program_OS_Support>
-		<Program_Language>English,Dutch,French,German,Italian,Russian,Spanish</Program_Language>
+		<Program_Language>Arabic,Chinese,Czech,Danish,English,French,German,Greek,Hungarian,Italian,Japanese,Polish,Portuguese,Russian,Spanish,Swedish,Turkish</Program_Language>
 		<Program_Change_Info></Program_Change_Info>
 		<Program_System_Requirements></Program_System_Requirements>
 		<Program_Specific_Category>Development Tools</Program_Specific_Category>

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-08-06 17:45+0200\n"
+"POT-Creation-Date: 2003-08-07 18:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgid ""
 "separate dialog."
 msgstr ""
 
-#: ../cnt/cnt_development.php:36
+#: ../cnt/cnt_development.php:38
 #, c-format
 msgid "A list of team members is available on the <a href='%s'>team</a> page."
 msgstr ""
@@ -51,7 +51,7 @@ msgstr ""
 msgid "A short guided tour of the interface:"
 msgstr ""
 
-#: ../cnt/cnt_download.php:84
+#: ../cnt/cnt_download.php:90
 msgid "APT Configuration"
 msgstr ""
 
@@ -82,7 +82,7 @@ msgid ""
 "Although we concentrate on pgAdmin3, we will continue to support pgAdmin2."
 msgstr ""
 
-#: ../cnt/cnt_development.php:15
+#: ../cnt/cnt_development.php:17
 msgid ""
 "Anonymous read access is available at the following CVSRoot without password "
 "from:"
@@ -92,7 +92,7 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: ../cnt/cnt_development.php:45 ../cnt/cnt_download.php:12
+#: ../cnt/cnt_development.php:47 ../cnt/cnt_download.php:12
 msgid ""
 "Because compiling from source requires technical knowledge, we recommand "
 "using binary packages."
@@ -102,11 +102,11 @@ msgstr ""
 msgid "Both pgAdmin2 and pgAdmin3 can coexist on the same system."
 msgstr ""
 
-#: ../cnt/cnt_development.php:3 ../cnt/cnt_development.php:11
+#: ../cnt/cnt_development.php:3 ../cnt/cnt_development.php:13
 msgid "CVS access"
 msgstr ""
 
-#: ../cnt/cnt_development.php:14
+#: ../cnt/cnt_development.php:16
 #, c-format
 msgid ""
 "CVS access to the repository is available through a <a href='%s'>web "
@@ -117,7 +117,7 @@ msgstr ""
 msgid "Casts"
 msgstr ""
 
-#: ../cnt/cnt_download.php:160
+#: ../cnt/cnt_download.php:187
 msgid "Check that pgAdmin executable is in the path."
 msgstr ""
 
@@ -149,15 +149,15 @@ msgstr ""
 msgid "Conversions"
 msgstr ""
 
-#: ../cnt/cnt_download.php:158
+#: ../cnt/cnt_download.php:185
 msgid "Create a symlink to pgAdmin binary."
 msgstr ""
 
-#: ../cnt/cnt_development.php:6 ../cnt/cnt_development.php:41
+#: ../cnt/cnt_development.php:6 ../cnt/cnt_development.php:43
 msgid "Daily snapshots"
 msgstr ""
 
-#: ../cnt/cnt_development.php:43
+#: ../cnt/cnt_development.php:45
 msgid "Daily snapshots are packages compiled from CVS nearly everyday."
 msgstr ""
 
@@ -178,11 +178,11 @@ msgstr ""
 msgid "Designed for PostgreSQL latest versions"
 msgstr ""
 
-#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:137 ../tpl/menu.php:32
+#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:137 ../tpl/menu.php:33
 msgid "Development"
 msgstr ""
 
-#: ../cnt/cnt_development.php:34
+#: ../cnt/cnt_development.php:5 ../cnt/cnt_development.php:36
 msgid "Development team"
 msgstr ""
 
@@ -194,11 +194,11 @@ msgstr ""
 msgid "Domains"
 msgstr ""
 
-#: ../cnt/cnt_download.php:173
+#: ../cnt/cnt_download.php:200
 msgid "Double-clic on the installer and follow the instructions."
 msgstr ""
 
-#: ../cnt/cnt_download.php:2 ../tpl/menu.php:34
+#: ../cnt/cnt_download.php:2 ../tpl/menu.php:35
 msgid "Download"
 msgstr ""
 
@@ -210,15 +210,15 @@ msgstr ""
 msgid "Download Template"
 msgstr ""
 
-#: ../cnt/cnt_download.php:155
+#: ../cnt/cnt_download.php:182
 msgid "Download pgAdmin FreeBSD package."
 msgstr ""
 
-#: ../cnt/cnt_download.php:126
+#: ../cnt/cnt_download.php:153
 msgid "Download pgAdmin RPM package."
 msgstr ""
 
-#: ../cnt/cnt_download.php:142
+#: ../cnt/cnt_download.php:169
 msgid "Download pgAdmin Slackware package."
 msgstr ""
 
@@ -226,11 +226,11 @@ msgstr ""
 msgid "Download pgAdmin from one of PostgreSQL mirrors:"
 msgstr ""
 
-#: ../cnt/cnt_download.php:172
+#: ../cnt/cnt_download.php:199
 msgid "Download pgAdmin installer."
 msgstr ""
 
-#: ../cnt/cnt_development.php:46
+#: ../cnt/cnt_development.php:48
 msgid "Download pgAdmin3 snapshots here:"
 msgstr ""
 
@@ -240,7 +240,7 @@ msgid ""
 "optimisation features."
 msgstr ""
 
-#: ../cnt/cnt_download.php:86
+#: ../cnt/cnt_download.php:92
 msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr ""
 
@@ -260,23 +260,27 @@ msgstr ""
 msgid "Features"
 msgstr ""
 
-#: ../cnt/cnt_download.php:96
+#: ../cnt/cnt_download.php:102 ../cnt/cnt_download.php:123
 msgid "For Debian TESTING:"
 msgstr ""
 
-#: ../cnt/cnt_download.php:102
+#: ../cnt/cnt_download.php:108 ../cnt/cnt_download.php:129
 msgid "For Debian UNSTABLE:"
 msgstr ""
 
-#: ../cnt/cnt_download.php:90
+#: ../cnt/cnt_download.php:96 ../cnt/cnt_download.php:117
 msgid "For Debian WOODY:"
+msgstr ""
+
+#: ../cnt/cnt_download.php:114
+msgid "For example, for France, you can try:"
 msgstr ""
 
 #: ../cnt/cnt_index.php:36
 msgid "FreeBSD"
 msgstr ""
 
-#: ../cnt/cnt_download.php:151
+#: ../cnt/cnt_download.php:178
 #, c-format
 msgid "FreeBSD %s"
 msgstr ""
@@ -293,16 +297,16 @@ msgstr ""
 msgid "GNU/Linux"
 msgstr ""
 
-#: ../cnt/cnt_download.php:78
+#: ../cnt/cnt_download.php:84
 msgid "GNU/Linux Debian"
 msgstr ""
 
-#: ../cnt/cnt_download.php:121
+#: ../cnt/cnt_download.php:148
 #, c-format
 msgid "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
 msgstr ""
 
-#: ../cnt/cnt_download.php:137
+#: ../cnt/cnt_download.php:164
 #, c-format
 msgid "GNU/Linux Slackware %s"
 msgstr ""
@@ -311,7 +315,7 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-#: ../cnt/cnt_index.php:2 ../tpl/menu.php:30
+#: ../cnt/cnt_index.php:2 ../tpl/menu.php:31
 msgid "Home"
 msgstr ""
 
@@ -331,7 +335,7 @@ msgid ""
 "page."
 msgstr ""
 
-#: ../cnt/cnt_download.php:184
+#: ../cnt/cnt_download.php:211
 #, c-format
 msgid ""
 "If you are interested in pgAdmin2, please visit <a href='%s'>pgAdmin2 "
@@ -401,16 +405,20 @@ msgstr ""
 msgid "Indexes"
 msgstr ""
 
-#: ../cnt/cnt_download.php:144
+#: ../cnt/cnt_download.php:171
 msgid "Install the downloaded package using Slackware pkgtool or installpkg."
 msgstr ""
 
-#: ../cnt/cnt_download.php:128 ../cnt/cnt_download.php:156
+#: ../cnt/cnt_download.php:155 ../cnt/cnt_download.php:183
 msgid "Install using the following command:"
 msgstr ""
 
 #: ../cnt/cnt_download.php:4
 msgid "Installation"
+msgstr ""
+
+#: ../cnt/cnt_development.php:7 ../cnt/cnt_development.php:58
+msgid "Known bugs"
 msgstr ""
 
 #: ../class/pgadmin_po.php:240
@@ -429,7 +437,7 @@ msgstr ""
 msgid "Locale"
 msgstr ""
 
-#: ../cnt/cnt_download.php:168 ../cnt/cnt_index.php:34
+#: ../cnt/cnt_download.php:195 ../cnt/cnt_index.php:34
 msgid "MS Windows 2000 & XP"
 msgstr ""
 
@@ -445,7 +453,7 @@ msgstr ""
 msgid "Maintainer"
 msgstr ""
 
-#: ../cnt/cnt_development.php:27 ../cnt/cnt_support.php:12
+#: ../cnt/cnt_development.php:29 ../cnt/cnt_support.php:13
 #, c-format
 msgid ""
 "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a "
@@ -517,14 +525,21 @@ msgstr ""
 msgid "Operators"
 msgstr ""
 
-#: ../cnt/cnt_download.php:79 ../cnt/cnt_download.php:122
-#: ../cnt/cnt_download.php:138 ../cnt/cnt_download.php:152
-#: ../cnt/cnt_download.php:169
+#: ../cnt/cnt_download.php:85 ../cnt/cnt_download.php:149
+#: ../cnt/cnt_download.php:165 ../cnt/cnt_download.php:179
+#: ../cnt/cnt_download.php:196
 #, c-format
 msgid "Packager: %s"
 msgstr ""
 
-#: ../cnt/cnt_development.php:52
+#: ../cnt/cnt_support.php:7
+#, c-format
+msgid ""
+"Please note that a list of <a href='%s'>known bugs</a> and a <a href='%s'>to "
+"do list</a> are also available on the <a href='%s'>Development</a> page."
+msgstr ""
+
+#: ../cnt/cnt_development.php:54
 #, c-format
 msgid "Please refer to our <a href='%s'>installation instructions</a>."
 msgstr ""
@@ -568,7 +583,7 @@ msgstr ""
 msgid "Rules"
 msgstr ""
 
-#: ../cnt/cnt_download.php:109
+#: ../cnt/cnt_download.php:136
 msgid "Run the following commands as root:"
 msgstr ""
 
@@ -580,7 +595,7 @@ msgstr ""
 msgid "Schemas"
 msgstr ""
 
-#: ../cnt/cnt_screenshots.php:2 ../tpl/menu.php:31
+#: ../cnt/cnt_screenshots.php:2 ../tpl/menu.php:32
 msgid "Screenshots"
 msgstr ""
 
@@ -600,16 +615,12 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: ../cnt/cnt_support.php:2 ../tpl/menu.php:35
+#: ../cnt/cnt_support.php:2 ../tpl/menu.php:36
 msgid "Support"
 msgstr ""
 
 #: ../cnt/cnt_index.php:95 ../cnt/cnt_screenshots.php:118
 msgid "Tables"
-msgstr ""
-
-#: ../cnt/cnt_development.php:5
-msgid "Team"
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:189
@@ -632,6 +643,10 @@ msgstr ""
 
 #: ../cnt/cnt_screenshots.php:222
 msgid "The documentation can be viewed off-line or on-line."
+msgstr ""
+
+#: ../cnt/cnt_development.php:61 ../cnt/cnt_development.php:75
+msgid "The information displayed is extracted automatically from pgAdmin CVS."
 msgstr ""
 
 #: ../cnt/cnt_index.php:134
@@ -668,7 +683,7 @@ msgid ""
 "The updated translations are published in daily snapshots automatically."
 msgstr ""
 
-#: ../cnt/cnt_development.php:44
+#: ../cnt/cnt_development.php:46
 msgid ""
 "There is no guarantee that these packages work in any way: it is alpha "
 "developer software intended for testing and development."
@@ -678,8 +693,12 @@ msgstr ""
 msgid "This makes learning SQL more easy..."
 msgstr ""
 
-#: ../cnt/cnt_development.php:37 ../cnt/cnt_download.php:185
+#: ../cnt/cnt_development.php:39 ../cnt/cnt_download.php:212
 msgid "This page is available in English only."
+msgstr ""
+
+#: ../cnt/cnt_development.php:60 ../cnt/cnt_development.php:74
+msgid "This section is available in English only."
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:178
@@ -694,11 +713,15 @@ msgid ""
 "pot</a> file."
 msgstr ""
 
-#: ../cnt/cnt_development.php:25 ../cnt/cnt_support.php:10
+#: ../cnt/cnt_development.php:27 ../cnt/cnt_support.php:11
 #, c-format
 msgid ""
 "To subscribe to the mailing list, send an email to %s with the word "
 "'subscribe', without quotes, as the body of message."
+msgstr ""
+
+#: ../cnt/cnt_development.php:8 ../cnt/cnt_development.php:72
+msgid "Todo list"
 msgstr ""
 
 #: ../class/pgadmin_po.php:244
@@ -713,7 +736,7 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../cnt/cnt_index.php:144 ../cnt/cnt_translation.php:28 ../tpl/menu.php:33
+#: ../cnt/cnt_index.php:144 ../cnt/cnt_translation.php:28 ../tpl/menu.php:34
 msgid "Translation"
 msgstr ""
 
@@ -797,13 +820,13 @@ msgid ""
 "the usability of pgAdmin."
 msgstr ""
 
-#: ../cnt/cnt_download.php:183 ../cnt/cnt_index.php:25
+#: ../cnt/cnt_download.php:210 ../cnt/cnt_index.php:25
 msgid ""
 "With the rapid advancement of the project, we recommand upgrading to "
 "pgAdmin3."
 msgstr ""
 
-#: ../cnt/cnt_development.php:24
+#: ../cnt/cnt_development.php:26
 #, c-format
 msgid ""
 "You are more than welcome to subscribe, but please remember to use <a href='%"
@@ -821,6 +844,7 @@ msgstr ""
 #: ../cnt/cnt_download.php:34 ../cnt/cnt_download.php:40
 #: ../cnt/cnt_download.php:46 ../cnt/cnt_download.php:52
 #: ../cnt/cnt_download.php:58 ../cnt/cnt_download.php:64
+#: ../cnt/cnt_download.php:70
 #, c-format
 msgid "pgAdmin binary packages for %s"
 msgstr ""
@@ -848,13 +872,13 @@ msgstr ""
 msgid "pgAdmin source code"
 msgstr ""
 
-#: ../cnt/cnt_development.php:13
+#: ../cnt/cnt_development.php:15
 msgid ""
 "pgAdmin source code is available subject to the terms of the Artistic "
 "Licence."
 msgstr ""
 
-#: ../cnt/cnt_download.php:182
+#: ../cnt/cnt_download.php:209
 msgid "pgAdmin2 is available for Ms Windows only."
 msgstr ""
 
@@ -862,7 +886,7 @@ msgstr ""
 msgid "pgAdmin2 is still supported"
 msgstr ""
 
-#: ../cnt/cnt_download.php:180
+#: ../cnt/cnt_download.php:207
 msgid "pgAdmin2 stable"
 msgstr ""
 
@@ -888,7 +912,7 @@ msgstr ""
 msgid "pgAdmin3 includes a table editor."
 msgstr ""
 
-#: ../cnt/cnt_download.php:76
+#: ../cnt/cnt_download.php:82
 msgid "pgAdmin3 installation instructions"
 msgstr ""
 
@@ -936,22 +960,22 @@ msgstr ""
 msgid "pgAdmin3 user interface is translated in more than %d languages."
 msgstr ""
 
-#: ../cnt/cnt_development.php:23
+#: ../cnt/cnt_development.php:25
 msgid ""
 "pgadmin-hackers list is intended for developers who whish to contribute to "
 "pgAdmin project."
 msgstr ""
 
-#: ../cnt/cnt_development.php:21
+#: ../cnt/cnt_development.php:23
 msgid "pgadmin-hackers mailing list"
 msgstr ""
 
-#: ../cnt/cnt_support.php:9
+#: ../cnt/cnt_support.php:10
 msgid ""
 "pgadmin-support is a support list intended for end user support and bug "
 "reports."
 msgstr ""
 
-#: ../cnt/cnt_support.php:7
+#: ../cnt/cnt_support.php:8
 msgid "pgadmin-support mailing list"
 msgstr ""

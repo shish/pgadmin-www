@@ -55,4 +55,5 @@
   $pending->addLanguage ("tl_PH", "Filipino/Tagalog", "Howard Bagcat", "howard@mu.edu.ph", "pgadmin3.po","src/ui/tl_PH/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("uk_UA", "Ukrainian", "Алексей Поторжинский (Alex Potorzhinsky)", "alp@kengu.ru", "pgadmin3.po","src/ui/uk_UA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("ur_PK", "Urdu", "Tariq Farooqi", "mahin@linux.net.pk", "pgadmin3.po","src/ui/sd_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+	$pending->addLanguage ("vi_VN", "Vietnamese", "Victor Ngoc Duc Vu", "vuducngocus@yahoo.com", "pgadmin3.po","src/ui/vi_VN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
 ?>

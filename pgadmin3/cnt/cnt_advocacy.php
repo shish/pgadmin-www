@@ -24,7 +24,7 @@
         <ul>
           <li>Before you start, it is recommended that you translate pgAdmin III software and pgAdmin web site in your language. Just visit the <a href='translation.php'>translation page</a>.
           <li>Then, register pgAdmin on free software web sites in your country. We are highly interested in community web sites. Some countries have one or two major web sites for free software. For example, pgAdmin was registered on <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>.
-          <li>You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members. For information purpose, after each registration, please drop us an email to add a new entry to the Registration list.
+          <li>You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members. For information purpose, after each registration, please drop us an <a href='mailto:pad@pgadmin.org, pgadmin-hackers-request@postgresql.org'>email</a> to add a new entry to the <a href='#list'>Registration list</a>.
           <li>Please note that the official spelling is <b>pgAdmin</b> for the project, with <b>pgAdmin III</b> being the recent version of the administration tool itself. For filename or other canonical purposes, the spelling <b>pgadmin3</b> is used.
           <li>Every month, analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin web site, which reflect the overall interest in pgAdmin. You may be interested in studying the number of connections from your country.
           <li>Cross your fingers and wait until PostgreSQL becomes the #1 database.
@@ -74,17 +74,17 @@
 	      <ol>
 	        <li><?php echo _("Graphical administration interface for the PostgreSQL database, free for any use.")?></li>
 	        <li>
-		  <?php echo _("pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use.")?>
-		  <?php echo _("Available in more than 30 languages for Windows 2000/XP, GNU/Linux and FreeBSD.")?>
-		  <?php echo _("Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more.")?></li>
+		  	<?php echo _("pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use.")?>
+		  	<?php echo _("Available in more than 30 languages for Windows 2000/XP, GNU/Linux and FreeBSD.")?>
+		  	<?php echo _("Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more.")?></li>
 	        <li>
-  <?php echo _("pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use.")?>
-  <?php echo _("The application is running under GNU/Linux, FreeBSD and Windows 2000/XP.")?>
-  <?php echo _("pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases.")?>
-  <?php echo _("The graphical interface supports all PostgreSQL features and makes administration easy.")?>
-  <?php echo _("The application also includes a query builder, an SQL editor, a server-side code editor and much more.")?>
-  <?php echo _("pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server.")?>
-  <?php echo _("pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.")?>
+			<?php echo _("pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use.")?>
+  			<?php echo _("The application is running under GNU/Linux, FreeBSD and Windows 2000/XP.")?>
+			<?php echo _("pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases.")?>
+			<?php echo _("The graphical interface supports all PostgreSQL features and makes administration easy.")?>
+			<?php echo _("The application also includes a query builder, an SQL editor, a server-side code editor and much more.")?>
+			<?php echo _("pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server.")?>
+			<?php echo _("pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.")?>
 		</li>
 	      </ol>
 	      </td></tr>

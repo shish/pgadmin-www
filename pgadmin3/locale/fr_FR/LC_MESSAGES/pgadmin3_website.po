@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-08-19 10:39+0100\n"
+"PO-Revision-Date: 2003-08-19 11:28+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "Une liste détaillée des langues proposées est disponible à la page <
 msgid "A double-click in the navigation tree opens the selected object in a separate dialog."
 msgstr "Un double-clic dans l'arborescence de navigation ouvre l'objet sélectionné dans une fenêtre de dialogue séparée."
 
-#: ../cnt/cnt_development.php:42
+#: ../cnt/cnt_development.php:45
 #, c-format
 msgid "A list of team members is available on the <a href='%s'>team</a> page."
 msgstr "Une liste détaillé des membres de l'équipe est disponible à la page <a href='%s'>équipe</a>."
@@ -97,7 +97,7 @@ msgstr "Auteur"
 msgid "Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."
 msgstr "Sachant que la compilation du <a href='%s'>code source/a> requiert des connaissances techniques, il est recommandé d'utiliser les <a href='%s'>binaires précompilés</a>."
 
-#: ../cnt/cnt_development.php:51
+#: ../cnt/cnt_development.php:54
 msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."
 msgstr "Sachant que la compilation du code source requiert des connaissances techniques, il est recommandé d'utiliser les binaires précompilés."
 
@@ -176,11 +176,11 @@ msgid "Create a symlink to pgAdmin binary."
 msgstr "Créer un raccourci vers l'exécutable de pgAdmin."
 
 #: ../cnt/cnt_development.php:6
-#: ../cnt/cnt_development.php:47
+#: ../cnt/cnt_development.php:50
 msgid "Daily snapshots"
 msgstr "Snapshots quotidiens"
 
-#: ../cnt/cnt_development.php:49
+#: ../cnt/cnt_development.php:52
 msgid "Daily snapshots are packages compiled from CVS nearly everyday."
 msgstr "Les snapshots quotidiens sont des packages compilés chaque jour ou presque à partir du CVS."
 
@@ -210,7 +210,7 @@ msgid "Development"
 msgstr "Développement"
 
 #: ../cnt/cnt_development.php:5
-#: ../cnt/cnt_development.php:40
+#: ../cnt/cnt_development.php:43
 msgid "Development team"
 msgstr "Equipe de développement"
 
@@ -272,7 +272,7 @@ msgstr "Télécharger l'installeur de pgAdmin."
 msgid "Download pgAdmin source code from a mirror."
 msgstr "Télécharger pgAdmin depuis un miroir."
 
-#: ../cnt/cnt_development.php:52
+#: ../cnt/cnt_development.php:55
 msgid "Download pgAdmin3 snapshots here:"
 msgstr "Télécharger les snapshots pgAdmin3 ici :"
 
@@ -531,7 +531,7 @@ msgstr "Listes de diffusion"
 msgid "Maintainer"
 msgstr "Responsable"
 
-#: ../cnt/cnt_development.php:33
+#: ../cnt/cnt_development.php:36
 #: ../cnt/cnt_support.php:13
 #, c-format
 msgid "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a href='%s'>mail-archive.com</a>."
@@ -618,7 +618,7 @@ msgstr "Opérateurs"
 msgid "Packager: %s"
 msgstr "Responsable package : %s"
 
-#: ../cnt/cnt_development.php:58
+#: ../cnt/cnt_development.php:61
 #, c-format
 msgid "Please refer to our <a href='%s'>installation instructions</a>."
 msgstr "Veuillez vous référer à nos <a href='%s'>instructions d'installation</a>."
@@ -754,7 +754,7 @@ msgstr "Les données sont extraites à la demande, au fur et à mesure de l'affi
 msgid "The documentation can be viewed off-line or on-line."
 msgstr "La documentation peut être consultée on-line ou off-line."
 
-#: ../cnt/cnt_development.php:65
+#: ../cnt/cnt_development.php:68
 #: ../cnt/cnt_support.php:20
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
 msgstr "Les informations affichées sont extraites automatiquement du CVS de pgAdmin."
@@ -776,6 +776,10 @@ msgstr "Le projet évolue uniquement grâce à votre aide. N'hésitez pas à vou
 #: ../cnt/cnt_screenshots.php:132
 msgid "The properties and statistics of the selected object are displayed in the right pane of pgAdmin3."
 msgstr "Les propriétés et statistiques de l'objet sélectionné s'affichent dans la partie droite de pgAdmin3."
+
+#: ../cnt/cnt_development.php:19
+msgid "The required command lines needed for checkout are as follows:"
+msgstr "Les lignes de commandes nécessaires pour faire un checkout sont les suivantes :"
 
 #: ../cnt/cnt_download.php:10
 #, c-format
@@ -799,7 +803,7 @@ msgstr "L'outil affiche la durée d'exécution des requêtes."
 msgid "The updated translations are published in daily snapshots automatically."
 msgstr "Les traductions mises à jour sont publiées automatiquement dans les snapshots quotidiens."
 
-#: ../cnt/cnt_development.php:50
+#: ../cnt/cnt_development.php:53
 msgid "There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development."
 msgstr "Il n'est apporté aucune garantie que ces packages fonctionnent d'une quelconque manière : il s'agit d'un logiciel de qualité alpha destiné aux développeurs pour leurs besoins de test et de développement."
 
@@ -807,12 +811,13 @@ msgstr "Il n'est apporté aucune garantie que ces packages fonctionnent d'une qu
 msgid "This makes learning SQL more easy..."
 msgstr "Apprendre le langage SQL est ainsi plus aisé..."
 
-#: ../cnt/cnt_development.php:43
+#: ../cnt/cnt_development.php:46
 msgid "This page is available in English only."
 msgstr "Cette page est disponible uniquement en langue anglaise."
 
-#: ../cnt/cnt_development.php:64
+#: ../cnt/cnt_development.php:67
 #: ../cnt/cnt_support.php:19
+#: ../cnt/cnt_translation.php:66
 msgid "This section is available in English only."
 msgstr "Cette section est disponible uniquement en langue anglaise."
 
@@ -829,14 +834,14 @@ msgstr "Ce choix technique permet de faire défiler de grandes tables de donnée
 msgid "This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."
 msgstr "Nous signalons que ce site web peut également être traduit à l'aide du fichier <a href='%s'>pgadmin3_website.pot</a>."
 
-#: ../cnt/cnt_development.php:31
+#: ../cnt/cnt_development.php:34
 #: ../cnt/cnt_support.php:11
 #, c-format
 msgid "To subscribe to the mailing list, send an email to %s with the word 'subscribe', without quotes, as the body of message."
 msgstr "Pour vous inscrire sur la liste de diffusion, veuillez envoyer un courriel à l'adresse %s en indiquant le mot 'subscribe', sans quillemet, dans le corps de votre message."
 
 #: ../cnt/cnt_development.php:7
-#: ../cnt/cnt_development.php:62
+#: ../cnt/cnt_development.php:65
 msgid "Todo list"
 msgstr "Liste des todo."
 
@@ -876,6 +881,15 @@ msgstr "Fonctions trigger"
 #: ../cnt/cnt_screenshots.php:120
 msgid "Types"
 msgstr "Types"
+
+#: ../cnt/cnt_development.php:18
+msgid "Under GNU/Linux, there are several command line and graphical clients available."
+msgstr "Sous GNU/Linux, il existe de nombreux clients en mode graphique ou ligne de commandes."
+
+#: ../cnt/cnt_development.php:17
+#, c-format
+msgid "Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free software."
+msgstr "Sous Windows, nous recommandons l'utilisation de <a href='%s'>WinCVS</a>, qui est un logiciel libre."
 
 #: ../cnt/cnt_download.php:254
 #: ../cnt/cnt_download.php:306
@@ -951,7 +965,7 @@ msgstr "Grâce à l'aide et aux suggestions des utilisateurs, nous avons amélio
 msgid "With the rapid advancement of the project, we recommand upgrading to pgAdmin3."
 msgstr "Avec la progression rapide du projet, nous recommandons une mise à jour vers pgAdmin3."
 
-#: ../cnt/cnt_development.php:30
+#: ../cnt/cnt_development.php:33
 #, c-format
 msgid "You are more than welcome to subscribe, but please remember to use <a href='%s'>pgadmin-support</a> list for end user support issues."
 msgstr "Vous êtes les bienvenus sur la liste, mais pensez à utiliser la liste de diffusion <a href='%s'>pgadmin support</a> pour les questions de support technique utilisateur."
@@ -1060,11 +1074,11 @@ msgstr "pgAdmin3 supporte la majorité des jeux de caractères du serveur Postgr
 msgid "pgAdmin3 user interface is translated in more than %d languages."
 msgstr "L'interface utilisateur de pgAdmin3 est traduire vers %d langues."
 
-#: ../cnt/cnt_development.php:29
+#: ../cnt/cnt_development.php:32
 msgid "pgadmin-hackers list is intended for developers who whish to contribute to pgAdmin project."
 msgstr "La liste de diffusion pgadmin-hackers est destinée aux développeurs désirant participer au projet pgAdmin."
 
-#: ../cnt/cnt_development.php:27
+#: ../cnt/cnt_development.php:30
 msgid "pgadmin-hackers mailing list"
 msgstr "Liste de diffusion pgadmin-hackers"
 

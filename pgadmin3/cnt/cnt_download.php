@@ -285,22 +285,11 @@
 	<dt><?php echo _("Installing pgAdmin");?></dt>
   <dd>
   	<ol>
-    	<li>
-      	<?php echo _("Download pgAdmin source code from a mirror.");?>
-        <?php echo _("pgAdmin is available in several qualities: stable, beta, daily snapshot.");?><br>
-        <ul>
-        	<li><?php echo _("Stable release.");?>
-          <?php echo _("Download from 'stable/source' directory on a mirror.");?>
-          <?php echo _("Not yet available.");?>
+    	<li><?php echo _("Download pgAdmin source code from a mirror.");?>
+      <br><br>
 
-        	<li>Beta release.
-          <?php echo _("Download from 'beta/source' directory on a mirror.");?>
-
-          <li><?php echo sprintf(_("<a href='%s'>Daily snapshot</a>."), "http://snake.pgadmin.org/snapshots");?>
-				</ul>
-      <br>
-
-      <li><?php echo sprintf(_("Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"), "pgp/davepage.pgp");?><br><br>
+      <li><?php echo sprintf(_("Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"), "pgp/davepage.pgp");?>
+      <br><br>
 
       <li><?php echo _("Unpack as follows:");?><br>
       <pre>

@@ -147,7 +147,7 @@ en (English)
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
     <li><a href='http://www.osdir.com'>OSDir OReilly</a> (pending)</li>
     <li><a href='http://www.padring.com'>Pad Ring</a> (pending)</li>
-    <li><a href='http://www.pcworlddownload.com'>PC World Download</a> (pending)</li>
+    <li><a href='http://www.pcworlddownload.com/development-tools/database/pgadmin-iii-for-postgresql.htm'>PC World Download</a></li>
     <li><a href='http://www.perfectdownloads.com/software-development/databases-networks/pgadmin-iii-for-postgresql.htm'>Perfect Downloads</a></li>
     <li><a href='http://www.programfiles.com/Default.asp?LinkId=31982'>ProgramFiles.com</a></li>
     <li><a href='http://www.programmersheaven.com/search/download.asp?FileID=32608'>Programmers Heaven</a></li>

@@ -202,7 +202,7 @@
 
   <dl>
     <dt><?php echo sprintf(_("GNU/Linux Fedora %s, Mandrake %s, RedHat %s, SuSE %s"), "RC1", "9.1", "9", "8.2");?></dt>
-    <?php echo  sprintf(_("Packager: %s"), "<a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> / <a href='mailto:devrim@gunduz.org'>Devrim GUNDUZ</a> ");?>
+    <?php echo  sprintf(_("Packager: %s"), "<a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> / <a href='mailto:devrim@gunduz.org'>Devrim Gündüz</a> ");?>
     <dd>
       <ol>
         <li>

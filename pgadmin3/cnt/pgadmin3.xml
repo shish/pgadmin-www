@@ -98,10 +98,10 @@
 			<Application_XML_File_URL></Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>http://www.pgadmin.org/pgadmin3/download.php</Primary_Download_URL>
-			<Secondary_Download_URL></Secondary_Download_URL>
-			<Additional_Download_URL_1></Additional_Download_URL_1>
-			<Additional_Download_URL_2></Additional_Download_URL_2>
+			<Primary_Download_URL>ftp://ftp3.us.postgresql.org/pub/postgresql/pgadmin3/release/win32/pgadmin3.zip</Primary_Download_URL>
+			<Secondary_Download_URL>ftp://ftp2.de.postgresql.org/pub/comp/os/unix/database/postgresql/pgadmin3/release/win32/pgadmin3.zip</Secondary_Download_URL>
+			<Additional_Download_URL_1>ftp://ftp4.ar.postgresql.org/pub/mirrors/postgresql/pgadmin3/release/win32/pgadmin3.zip</Additional_Download_URL_1>
+			<Additional_Download_URL_2>ftp://ftp5.tw.postgresql.org/pub/Unix/Database/PostgreSQL/pgadmin3/release/win32/pgadmin3.zip</Additional_Download_URL_2>
 		</Download_URLs>
 	</Web_Info>
 	<Permissions>

@@ -51,6 +51,7 @@
 
 <h1 id="list">Web sites pointing to pgAdmin</h1>
 <dl>
+
 en (English)
 <dd>
   <ul>
@@ -86,6 +87,14 @@ fr (French)
     <li><a href='http://www.lunerouge.org/gnu/applis_f.ht'>Lune Rouge</a> (pending)
   </ul>
 </dd>
+
+pt (Portuguese/Brazilian)
+<dd>
+  <ul>
+    <li><a href='http://www.postgresql.org.br/index.php?corpo=links'>PostgreSQL Brazil</a> (pending)
+  </ul>
+</dd>
+
 </dl>
 
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>

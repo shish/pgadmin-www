@@ -11,7 +11,7 @@
 
   <h1 id="cvs"><?php echo _("CVS access");?></h1>
   <dd>
-  	<?php echo _("pgAdmin is available subject to the terms of the Artistic Licence.");?>
+  	<?php echo _("pgAdmin III is available subject to the terms of the Artistic Licence.");?>
     <?php echo sprintf(_("CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."), "http://cvs.pgadmin.org");?>
     <?php echo _("Anonymous read access is available using a CVS client.");?>
     <?php echo sprintf(_("Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free software."), "http://www.wincvs.org");?>

@@ -40,9 +40,9 @@
 
         <td COLSPAN=3>
           <p>
-            <?php echo _("pgAdmin3 is a comprehensive design and management interface for PostgreSQL database, designed to run on most Operating Systems.");?>
+            <?php echo _("pgAdmin III is a comprehensive design and management interface for PostgreSQL database, designed to run on most Operating Systems.");?>
             <?php echo _("The software is written in C++ and uses the excellent wxWindows cross platform toolkit.");?>
-            <?php echo _("In every environment, pgAdmin3 is a native application.");?>
+            <?php echo _("In every environment, pgAdmin III is a native application.");?>
             <?php echo _("The application is executed in binary code, not in a virtual machine, therefore offering very good performance.");?><br><br>
             <?php echo _("We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows 2000 & XP. MacOsX and SunOS ports are in preparation.");?>
           </p>
@@ -75,7 +75,7 @@
         </td>
         <td COLSPAN=2 valign='top'>
         <p>
-        	<?php echo _("pgAdmin3 can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library.");?>
+        	<?php echo _("pgAdmin III can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library.");?>
           <?php echo _("The application does not need any ODBC layer.");?>
           <br><br>
           <?php echo _("When configured server-side, it is possible to connect using encrypted password or SSL authentication.");?>
@@ -90,7 +90,7 @@
 
         <td colspan=2>
         	<p>
-        	 <?php echo _("In the left pane of pgAdmin3, a navigation tree allow to browse database objects.");?>
+        	 <?php echo _("In the left pane of pgAdmin III, a navigation tree allow to browse database objects.");?>
            <?php echo _("Nearly all PostgreSQL objects can be viewed, created, modified and dropped, including:");?>
            </p>
         </td>
@@ -135,10 +135,10 @@
         </td>
         <td COLSPAN=2 valign='top'>
         <p>
-            <?php echo _("The properties and statistics of the selected object are displayed in the right pane of pgAdmin3.");?>
+            <?php echo _("The properties and statistics of the selected object are displayed in the right pane of pgAdmin III.");?>
             <?php echo _("Notice the display of the SQL definition with colour syntax highlight.");?>
             <br><br>
-            <?php echo _("Every time you manipulate objects graphically, pgAdmin3 writes the corresponding SQL code.");?>
+            <?php echo _("Every time you manipulate objects graphically, pgAdmin III writes the corresponding SQL code.");?>
             <?php echo _("This makes learning SQL more easy...");?>
         </p>
         </td>
@@ -163,7 +163,7 @@
         </td>
         <td  COLSPAN=2 valign='top'>
         	<p>
-        	<?php echo _("pgAdmin3 includes a table editor.");?>
+        	<?php echo _("pgAdmin III includes a table editor.");?>
           <?php echo _("Columns can be dropped.");?>
           <?php echo _("Column data types can be modified in certain conditions.");?>
           	</p>
@@ -229,7 +229,7 @@
         	<img src="shots/pgadmin3_documentation.png" alt="">
         </td>
         <td COLSPAN=2 valign='top'>
-        <?php echo _("pgAdmin3 includes PostgreSQL full documentation.");?>
+        <?php echo _("pgAdmin III includes PostgreSQL full documentation.");?>
         <?php echo _("The documentation can be viewed off-line or on-line.");?>
         </td>
       </tr>
@@ -245,7 +245,7 @@
             <img src="shots/pgadmin3_encoding.png" alt="">
           </td>
           <td COLSPAN=2 valign='top'>
-            <?php echo _("pgAdmin3 supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte encodings."); ?>
+            <?php echo _("pgAdmin III supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte encodings."); ?>
           </td>
         </tr>
 
@@ -254,9 +254,9 @@
             <img src="shots/pgadmin3_languages.png" alt="">
           </td>
           <td COLSPAN=2 valign='top'>
-          <?php echo sprintf(_("pgAdmin3 interface is translated in more than %d languages."), 20);?>
+          <?php echo sprintf(_("pgAdmin III interface is translated in more than %d languages."), 20);?>
           <?php echo sprintf(_("We plan to reach %d languages soon."), 40);?>
-          <?php echo _("pgAdmin3 interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic.");?>
+          <?php echo _("pgAdmin III interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic.");?>
           <br><br>
           <?php echo sprintf(_("A detailed list of supported languages is available on the <a href='%s'>Translation</a> page."), "translation.php");?>
           </td>

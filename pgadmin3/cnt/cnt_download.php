@@ -11,7 +11,7 @@
 </div>
 
 <div id="bodyText">
-  <?php echo sprintf(_("pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
+  <?php echo sprintf(_("pgAdmin III is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
   <?php echo sprintf(_("The software is available in source and binary format from our <a href='%s'>mirrors</a>."), "#mirrors")?>
   <?php echo sprintf(_("Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing binary packages."), "#source")?>
 
@@ -23,7 +23,7 @@
     </dt>
 
     <dd>
-      <?php echo sprintf(_("pgAdmin packages are available for <a href='%s'>GNU/Linux Debian</a> stable, testing and unstable distributions."), "http://www.debian.org");?>
+      <?php echo sprintf(_("pgAdmin III packages are available for <a href='%s'>GNU/Linux Debian</a> stable, testing and unstable distributions."), "http://www.debian.org");?>
       <?php echo sprintf(_("These packages are also well-suited for <a href='%s'>Knoppix</a> and other Debian based distributions."), "http://www.knoppix.net");?>
       <?php echo ("An APT repository is provided to ease installation.");?>
     </dd>
@@ -43,7 +43,7 @@
       <tr bgcolor=lightyellow>
         <td>[MIRROR URL]/pgadmin3/release/debian</td>
         <td></td>
-        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Debian");?></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Debian");?></td>
       </tr>
       </tr>
     </table>
@@ -141,7 +141,7 @@
     <dt><?php echo  sprintf(_("Packager: %s"), "<a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> / <a href='mailto:devrim@gunduz.org'>Devrim Gündüz</a> ");?></dt>
 
     <dd>
-    <?php echo sprintf(_("pgAdmin RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."), "RC1", "9.1", "9", "8.2");?>
+    <?php echo sprintf(_("pgAdmin III RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."), "RC1", "9.1", "9", "8.2");?>
  </dd>
 
   <dd>
@@ -159,25 +159,25 @@
       <tr bgcolor=lightyellow>
         <td>[MIRROR URL]/pgadmin3/release/FC1</td>
         <td></td>
-        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Fedora")?></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Fedora")?></td>
       </tr>
 
       <tr bgcolor=lightyellow>
         <td>[MIRROR URL]/pgadmin3/release/mandrake91</td>
         <td></td>
-        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Mandrake 9.1")?></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Mandrake 9.1")?></td>
       </tr>
 
       <tr bgcolor=lightyellow>
         <td>[MIRROR URL]/pgadmin3/release/redhat9</td>
         <td></td>
-        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux RedHat 9")?></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux RedHat 9")?></td>
       </tr>
 
 	<tr bgcolor=lightyellow>
         <td>[MIRROR URL]/pgadmin3/release/suse82</td>
         <td></td>
-        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux SuSE 8.2")?></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux SuSE 8.2")?></td>
       </tr>
     </table>
     </dd>
@@ -201,11 +201,11 @@
     <dt><?php echo  sprintf(_("Packager: %s"), "Dave Page");?></dt>
 
   <dd>
-    <?php echo sprintf(_("pgAdmin packages are available for %s."), "GNU/Linux Slackware 9.0");?>
+    <?php echo sprintf(_("pgAdmin III packages are available for %s."), "GNU/Linux Slackware 9.0");?>
   </dd>
 
   <dd>
-        <?php echo sprintf(_("Download pgAdmin package from our <a href='%s'>mirrors</a>."), "#mirrors");?>
+        <?php echo sprintf(_("Download pgAdmin III package from our <a href='%s'>mirrors</a>."), "#mirrors");?>
 	<?php echo "On each mirror, the packages are located in:";?>
   </dd>
     <dd>
@@ -220,7 +220,7 @@
       <tr bgcolor=lightyellow>
         <td>[MIRROR URL]/pgadmin3/release/slackware9</td>
         <td></td>
-        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Slackware 9.0")?></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Slackware 9.0")?></td>
       </tr>
       </tr>
     </table>
@@ -237,11 +237,11 @@
   <dl>
     <dt><?php echo  sprintf(_("Packager: %s"), "斉藤　浩 (Hiroshi Saito)");?></dt>
   <dd>
-    <?php echo sprintf(_("pgAdmin packages are available for %s."), "FreeBSD 5.1");?>
+    <?php echo sprintf(_("pgAdmin III packages are available for %s."), "FreeBSD 5.1");?>
   </dd>
 
   <dd>
-        <?php echo sprintf(_("Download pgAdmin package from our <a href='%s'>mirrors</a>."), "#mirrors");?>
+        <?php echo sprintf(_("Download pgAdmin III package from our <a href='%s'>mirrors</a>."), "#mirrors");?>
 	<?php echo "On each mirror, the packages are located in:";?>
   </dd>
     <dd>
@@ -256,7 +256,7 @@
       <tr bgcolor=lightyellow>
         <td>[MIRROR URL]/pgadmin3/release/freebsd51</td>
         <td></td>
-        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "FreeBSD 5.1")?></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "FreeBSD 5.1")?></td>
       </tr>
       </tr>
     </table>
@@ -270,7 +270,7 @@
           </table>
      </dd>
      <dd>
-      <?php echo _("Create a symlink to pgAdmin binary.");?>
+      <?php echo _("Create a symlink to pgAdmin III binary.");?>
           <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
             <tr><td>
               ln -sf /usr/local/pgadmin3/bin/pgadmin3 /usr/local/bin/pgadmin3
@@ -279,7 +279,7 @@
      </dd>
 
      <dd>
-     <?php echo _("Check that pgAdmin executable is in the path.");?>
+     <?php echo _("Check that pgAdmin III executable is in the path.");?>
         <br/>
           <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
             <tr><td>
@@ -297,10 +297,10 @@
     <dt><?php echo  sprintf(_("Packager: %s"), "Andreas Pflug");?></dt>
 
     <dd>
-      <?php echo sprintf(_("pgAdmin packages are available for %s."), "MS Windows 2000/XP");?>
+      <?php echo sprintf(_("pgAdmin III packages are available for %s."), "MS Windows 2000/XP");?>
     </dd>
   <dd>
-        <?php echo sprintf(_("Download pgAdmin package from our <a href='%s'>mirrors</a>."), "#mirrors");?>
+        <?php echo sprintf(_("Download pgAdmin III package from our <a href='%s'>mirrors</a>."), "#mirrors");?>
 	<?php echo "On each mirror, the packages are located in:";?>
   </dd>
     <dd>
@@ -315,18 +315,18 @@
       <tr bgcolor=lightyellow>
         <td>[MIRROR URL]/pgadmin3/release/win32</td>
         <td></td>
-        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "MS Windows 2000/XP")?></td>
+        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "MS Windows 2000/XP")?></td>
       </tr>
       </tr>
     </table>
     </dd>
     <dd>
-        <li><?php echo _("Double-clic on the installer and follow the instructions.");?>
+        <li><?php echo _("Double-click on the installer and follow the instructions.");?>
     </dd>
 	</dl>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
-  <h1 id="source"><?php echo _("Installing pgAdmin from source code")?></h1>
+  <h1 id="source"><?php echo _("Installing pgAdmin III from source code")?></h1>
   <dt><?php echo _("Requirements");?></dt>
   <dd>
   	<ul>
@@ -334,7 +334,7 @@
       	<ul>
         	<li>
           	<?php echo _("GNU/Linux, FreeBSD and other *nixes.")?>
-        		<?php echo _("Recents versions of GTK2.2, automake, autoconf and gcc are needed.")?>
+        		<?php echo _("Recent versions of GTK2.2, automake, autoconf and gcc are needed.")?>
             <?php echo _("The best solution is to use a recent distribution.")?>
 					<li>
           	<?php echo _("Windows 2000 & XP.")?>
@@ -343,7 +343,7 @@
 
     	<li><?php echo _("wxWindows 2.5 compiled from CVS with additional patches.")?>
         <?php echo _("wxWindows 2.4 will not work because of Unicode problems.")?>
-        <?php echo _("We provide wxWindows 2.5 source and binary packages.")?>
+        <?php echo _("We provide modified wxWindows 2.5 source and binary packages.")?>
         <?php echo _("The libraries can be downloaded from our mirrors in the 'wxWindows' directory.")?>
 
 
@@ -418,10 +418,10 @@
 
 	</dd>
 
-	<dt><?php echo _("Installing pgAdmin");?></dt>
+	<dt><?php echo _("Installing pgAdmin III");?></dt>
   <dd>
   	<ol>
-    	<li><?php echo _("Download pgAdmin source code from a mirror.");?>
+    	<li><?php echo _("Download pgAdmin  IIIsource code from a mirror.");?>
       <br/><br/>
 
       <li><?php echo sprintf(_("Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"), "pgp/davepage.pgp");?>
@@ -435,7 +435,7 @@
       </table>
       <br/>
 
-      <li><?php echo _("Compile pgAdmin.");?><br/>
+      <li><?php echo _("Compile pgAdmin III.");?><br/>
         <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
             <tr><td>
             ./configure --enable-static --enable-debug<br/>
@@ -448,12 +448,12 @@
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
-      <h1 id="snapshots"><?php echo _("Installing pgAdmin from binary snapshots");?></h1>
+      <h1 id="snapshots"><?php echo _("Installing pgAdmin III from binary snapshots");?></h1>
   <dd>
     <?php echo sprintf(_("Binary snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."), "development.php#cvs");?>
     <?php echo _("There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development.");?>
     <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
-    <?php echo _("Download pgAdmin3 snapshots here:");?>
+    <?php echo _("Download pgAdmin III snapshots here:");?>
     <ul>
       <li>GNU Linux <a href="http://www.pgadmin.org/snapshots/linux/debian">Debian</a> |
       <a href="http://www.pgadmin.org/snapshots/linux/FC1">Fedora FC1</a> |

@@ -147,6 +147,8 @@ en (English)
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
     <li><a href='http://www.osdir.com'>OSDir OReilly</a> (pending)</li>
     <li><a href='http://www.padring.com'>Pad Ring</a> (pending)</li>
+    <li><a href='http://www.pcworlddownload.com'>PC World Download</a> (pending)</li>
+    <li><a href='http://www.perfectdownloads.com'>Perfect Downloads</a> (pending)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
     <li><a href='http://www.programmersheaven.com'>Programmers Heaven</a> (pending)</li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>

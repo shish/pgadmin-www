@@ -8,6 +8,7 @@
   <a href="#source">&rsaquo; <?php echo _("Installing pgAdmin III from source code")?></a>
   <a href="#snapshots">&rsaquo; <?php echo _("Installing pgAdmin III from binary snapshots");?></a>
   <a href="#mirrors">&rsaquo; <?php echo _("Download mirrors")?></a>
+  <a href="#languages">&rsaquo;<?php echo _("Additional languages")?></a>
 </div>
 
 <div id="bodyText">
@@ -482,4 +483,10 @@
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
+  <h1 id="languages"><?php echo _("Additional languages");?></h1>
+  <dd>
+      <?php echo _("Languages not included in the distribution package may be added at a later time.");?>
+     <?php echo sprintf("Please check the <a HREF='%s'>Translation</a> page wheter your preferred language is available already.", "http://www.pgadmin.org/pgadmin3/translation.php#update");?>
+  </dd>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 </div>

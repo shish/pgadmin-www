@@ -18,13 +18,17 @@
 
 <div class="sideBox LHS">
   <div><?php echo _("Translation");?></div>
+  <a href="#update">&rsaquo;  <?php echo _("Update");?></a>
   <a href="#published">&rsaquo;  <?php echo _("Published");?></a>
   <a href="#progress">&rsaquo;  <?php echo _("In progress");?></a>
   <a href="#howto">&rsaquo; <?php echo _("Howto");?></a>
 </div>
 
 <div id="bodyText">
-
+     <?php  echo _("pgAdmin III is already translated in more than 30 languages, and translators all around the world are adding more and more language options.");?>
+     <?php  echo _("In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language.");?>
+     <?php  echo sprintf("Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section and copy it into your ui directory.", "#published");?>
+     <?php  echo sprintf("You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox.", "http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/pgadmin3/src/ui/pgadmin3.lng?rev=HEAD&content-type=text/lng");?>
   <dd>
     <?php echo _("We need your help to translate pgAdmin III into several languages.");?>
     <?php echo _("Everyone can participate, please refer to the translation howto for more information.");?>
@@ -71,7 +75,7 @@
   <?php echo _("This section is available in English only.");?><br><br>
   <dt id="started">Getting started</dt>
   <dd>
-    Anyone can translate pgAdmin into his her mother tongue.
+    Anyone can translate pgAdmin into his or her mother tongue.
     You do not need to be a programmer.
     We made sure that all strings could be translated, even into non-European and non-Asian languages.
     The required steps for translation are the followings:

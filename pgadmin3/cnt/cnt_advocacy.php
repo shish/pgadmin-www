@@ -96,7 +96,6 @@ en (English)
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
-    <li><a href='http://www.softpedia.com/public/cat/10/8/6/10-8-6-71.shtml'>Softpedia</a></li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a></li>
   </ul>
@@ -139,7 +138,7 @@ pt (Portuguese/Brazilian)
 ro (Romanian)
 <dd>
   <ul>
-    <li><a href='http://www.softpedia.com/public/scripts/romanianhero/10-8-6-71'>Softpedia</a></li>
+    <li><a href='http://www.softpedia.com/public/scripts/romanianhero/10-8-6-71'>Softpedia</a> (both Ensglih and Romanian)</li>
   </ul>
 </dd>
 

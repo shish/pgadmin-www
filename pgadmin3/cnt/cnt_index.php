@@ -4,14 +4,14 @@
 <a href="#features">&rsaquo; <?php echo _("Features");?></a>
 <a href="#contribute">&rsaquo; <?php echo _("How to contribute");?></a>
 <br>
-<i>On the first day of public release, Friday 26th September, it may take a few hours to deliver binary packages and update mirrors. <br><br>Be patient until mirrors are updated...<i>
+<i>On the first day of public release, Friday 26th September, it may take a few hours to update download mirrors. <br><br>Please be patient...<i>
 </div>
 
 <div id="bodyText">
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
-  <dt><?php echo sprintf(_("pgAdmin3 %s released"), "1.0");?></dt>
+  <dt><?php echo sprintf(_("pgAdmin3 %s released"), "v1.0.0");?></dt>
   <dd>
   	<?php echo _("After one year of development, we are happy to announce the availability of pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD.");?>
     <?php echo _("We would like to thank our developer and translator community who contributed to the project.");?>

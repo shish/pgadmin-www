@@ -51,7 +51,7 @@
       </tr>
 
       <tr bgcolor=beige>
-        <td>pgadmin3/release/debian</td>
+        <td>pgadmin3/release/FC1</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Fedora")?></td>
       </tr>

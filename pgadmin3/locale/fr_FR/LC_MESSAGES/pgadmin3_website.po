@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-10-01 14:51+0100\n"
+"PO-Revision-Date: 2003-10-01 15:06+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -176,8 +176,9 @@ msgid "Daily snapshots"
 msgstr "Snapshots quotidiens"
 
 #: ../cnt/cnt_download.php:93
-msgid "Daily snapshots are packages compiled from CVS nearly everyday."
-msgstr "Les snapshots quotidiens sont des packages compilés chaque jour ou presque à partir du dépôt CVS."
+#, c-format
+msgid "Daily snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."
+msgstr "Les snapshots quotidiens sont des packages compilés chaque jour ou presque à partir du dépôt <a href='%s'>CVS</a>."
 
 #: ../cnt/cnt_index.php:68
 #: ../cnt/cnt_screenshots.php:5

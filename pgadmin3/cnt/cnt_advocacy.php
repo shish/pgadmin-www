@@ -147,7 +147,6 @@ en (English)
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
     <li><a href='http://www.hotscripts.com/Detailed/30672.html'>Hotscripts</a></li>
     <li><a href='http://www.icewalkers.com/Linux/Software/521170/pgAdmin-III.html'>IceWalkers</a></li>
-    <li><a href='http://www.itnetix.com'>IT Netrix</a> (pending)</li>
     <li><a href='http://www.linuxdownloads.org'>Linux Downloads</a> (pending)</li>
     <li><a href='http://www.linuxlinks.com/Web/Databases'>Linux Links</a></li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>

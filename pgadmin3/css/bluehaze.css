@@ -37,7 +37,7 @@
 body {
   background-color: white;
   color: black;
-  font-family: verdana, tahoma, helvetica, arial, sans-serif;
+  /*font-family: verdana, tahoma, helvetica, arial, sans-serif;*/
   font-size: 95%;
   margin: 0;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: "trebuchet ms", tahoma, sans-serif;
+  /*font-family: "trebuchet ms", tahoma, sans-serif;*/
 }
 
 h1 {
@@ -61,7 +61,7 @@ img {
 }
 
 q {
-  font-family: tahoma, verdana, helvetica, arial, sans-serif;
+  /*font-family: tahoma, verdana, helvetica, arial, sans-serif;*/
   font-weight: bold;
   border-style: dotted;
   border-width: 2px;
@@ -78,7 +78,7 @@ acronym {
 }
 
 code {
-  font-family: "lucida console", monospace;
+  /*font-family: "lucida console", monospace;*/
   font-size: 90%;
 }
 

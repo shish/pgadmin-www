@@ -1,231 +1,121 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3\n"
-"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2004-02-11 00:29+0100\n"
-"PO-Revision-Date: 2003-09-25 08:20-0000\n"
-"Last-Translator: Erwien Samantha Y <apache@cosinus.sederhana.or.id>\n"
+"PO-Revision-Date: 2004-02-26 11:19+0100\n"
+"Last-Translator: Jean-Michel Pouré <jm@poure.com>\n"
 "Language-Team: pgAdmin Developers <pgadmin-hackers@postgresql.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../cnt/cnt_advocacy.php:82
-msgid ""
-"<Char_Desc_2000>Free Administration Centre for the PostgreSQL database. "
-"Includes a graphical administration interface, an SQL query tool, a "
-"procedural code editor and much more. pgAdmin III is designed to answer the "
-"needs of most users, from writing simple SQL queries to developing complex "
-"databases. The graphical interface supports all PostgreSQL features and "
-"makes administration easy. Available in more than 30 languages and for "
-"several operating systems, including MS Windows, GNU/Linux and FreeBSD.</"
-"Char_Desc_2000>"
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:78
-msgid ""
-"<Char_Desc_250>Free Administration Centre for the PostgreSQL database. "
-"Includes a graphical administration interface, an SQL query tool, a "
-"procedural code editor and much more. Designed to answer the needs of most "
-"users.</Char_Desc_250>"
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:80
-msgid ""
-"<Char_Desc_450>Free Administration Centre for the PostgreSQL database. "
-"Includes a graphical administration interface, an SQL query tool, a "
-"procedural code editor and much more. pgAdmin III is designed to answer the "
-"needs of most users, from writing simple SQL queries to developing complex "
-"databases. Available in more than 30 languages and for several operating "
-"systems.</Char_Desc_450>"
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:74
-msgid "<Char_Desc_45>Administration Centre for PostgreSQL</Char_Desc_45>"
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:76
-msgid ""
-"<Char_Desc_80>Free Administration Centre for the PostgreSQL database</"
-"Char_Desc_80>"
-msgstr ""
-
 #: ../cnt/cnt_screenshots.php:186
 msgid "A data grid allows to insert, modify and drop data easily."
-msgstr ""
-"Sebuah sel data di gunakan untuk mempermudah input,modifikasi, drop suatu "
-"data."
+msgstr "Sebuah sel data di gunakan untuk mempermudah input,modifikasi, drop suatu data."
 
-#: ../cnt/cnt_index.php:88 ../cnt/cnt_screenshots.php:261
+#: ../cnt/cnt_index.php:75
+#: ../cnt/cnt_screenshots.php:261
 #, c-format
-msgid ""
-"A detailed list of supported languages is available on the <a href='%"
-"s'>Translation</a> page."
-msgstr ""
-"Daftar secara detail dari bahasa apa yang di dukung tersedia pada halaman <a "
-"href='%s'>Penterjemahan</a>"
+msgid "A detailed list of supported languages is available on the <a href='%s'>Translation</a> page."
+msgstr "Daftar secara detail dari bahasa apa yang di dukung tersedia pada halaman <a href='%s'>Penterjemahan</a>"
 
 #: ../cnt/cnt_screenshots.php:153
-msgid ""
-"A double-click in the navigation tree opens the selected object in a "
-"separate dialog."
-msgstr ""
-"Klik dua kali pada navigasi tree akan menampilkan obyek yang telah di pilih "
-"dalam dialog terpisah."
+msgid "A double-click in the navigation tree opens the selected object in a separate dialog."
+msgstr "Klik dua kali pada navigasi tree akan menampilkan obyek yang telah di pilih dalam dialog terpisah."
 
-#: ../cnt/cnt_index.php:29
-msgid ""
-"A new release of pgAdmin is available, including bug fixes for some problems "
-"that have been reported by users."
-msgstr ""
+#: ../cnt/cnt_index.php:14
+msgid "A new release of pgAdmin is available, including bug fixes for some problems that have been reported by users."
+msgstr "Rilis terbaru dari pgAdmin sudah tersedia, dan sudah termasuk perbaikan bug untuk masalah yang telah dilaporkan oleh para  pengguna."
 
 #: ../cnt/cnt_screenshots.php:198
 msgid "A query tool with colour syntax highlight allows to run custom queries."
-msgstr ""
-"Alat query yang di lengkapi dengan syntax highlight yang berwarna ini "
-"berguna untuk menjalankan berbagai macam query."
+msgstr "Alat query yang di lengkapi dengan syntax highlight yang berwarna ini berguna untuk menjalankan berbagai macam query."
 
-#: ../cnt/cnt_download.php:333
+#: ../cnt/cnt_download.php:296
 msgid "A recent development environment."
 msgstr "Enviroment development yang baru."
 
 #: ../cnt/cnt_screenshots.php:203
-msgid ""
-"A running query can be cancelled on the fly by clicking on the red square "
-"button."
-msgstr ""
-"Query yang sedang berjalan bisa di batalkan secara langsung dengan dengan "
-"meng-klik tombol berwarna merah."
+msgid "A running query can be cancelled on the fly by clicking on the red square button."
+msgstr "Query yang sedang berjalan bisa di batalkan secara langsung dengan dengan meng-klik tombol berwarna merah."
 
 #: ../cnt/cnt_screenshots.php:67
 msgid "A short guided tour of the interface:"
 msgstr "Petunjuk singkat dari tampilan:"
 
-#: ../cnt/cnt_index.php:98
+#: ../cnt/cnt_download.php:126
+msgid "APT Configuration"
+msgstr "Konfigarasi APT"
+
+#: ../cnt/cnt_index.php:85
 msgid "Access to all PostgreSQL objects"
 msgstr "Akses ke semua obyek PostgreSQL"
 
-#: ../cnt/cnt_advocacy.php:2 ../tpl/menu.php:34
-msgid "Advocacy"
-msgstr ""
+#: ../cnt/cnt_index.php:22
+msgid "After one year of development, we are happy to announce the availability of pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD."
+msgstr "Setelah proses development selama satu tahun, akhirnya kita bisa mengumukan beta dari pgAdmin III untuk Ms Windows,GNU/Linux dan FreeBSD yang di tulis ulang secara menyeluruh dari pgAdmin II."
 
-#: ../cnt/cnt_index.php:36
-#, fuzzy
-msgid ""
-"After one year of development, we are happy to announce the availability of "
-"pgAdmin III, a complete rewrite of pgAdmin II for Ms Windows, GNU/Linux and "
-"FreeBSD."
-msgstr ""
-"Setelah proses development selama satu tahun, akhirnya kita bisa mengumukan "
-"beta dari pgAdmin3 untuk Ms Windows,GNU/Linux dan FreeBSD yang di tulis "
-"ulang secara menyeluruh dari pgAdmin2."
-
-#: ../cnt/cnt_index.php:107 ../cnt/cnt_screenshots.php:102
+#: ../cnt/cnt_index.php:94
+#: ../cnt/cnt_screenshots.php:102
 msgid "Aggregates"
 msgstr "Aggregate"
 
-#: ../cnt/cnt_index.php:51
-#, fuzzy
-msgid ""
-"Although we concentrate on pgAdmin III, we will continue to support pgAdmin "
-"II."
-msgstr ""
-"Kita akan tetap melakukan support terhadap pgAdmin2, meskipun konsentrasi "
-"kita sekarang pada pgAdmin3."
+#: ../cnt/cnt_index.php:38
+msgid "Although we concentrate on pgAdmin3, we will continue to support pgAdmin2."
+msgstr "Kita akan tetap melakukan support terhadap pgAdmin II, meskipun konsentrasi kita sekarang pada pgAdmin III."
 
 #: ../cnt/cnt_development.php:16
 msgid "Anonymous read access is available using a CVS client."
-msgstr ""
-"Hak membaca untuk akses anonymous tersedia dengan menggunakan client CVS."
+msgstr "Hak membaca untuk akses anonymous tersedia dengan menggunakan client CVS."
 
-#: ../cnt/cnt_index.php:40
-#, fuzzy
+#: ../cnt/cnt_index.php:26
 msgid "As usual your feedback is highly appreciated and required."
-msgstr ""
-"Seperti biasanya masukan masukan sebelum beta sangatlah diperlukan dan kami "
-"hargai."
+msgstr "Seperti biasanya masukan masukan sebelum beta sangatlah diperlukan dan kami hargai."
 
-#: ../cnt/cnt_download.php:427
+#: ../cnt/cnt_download.php:390
 #, c-format
 msgid "Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"
-msgstr ""
-"Autentifikasi kode dari source menggunakan <a href='%s'>key PGP dari Dave "
-"Page</a>"
+msgstr "Autentifikasi kode dari source menggunakan <a href='%s'>key PGP dari Dave Page</a>"
 
 #: ../class/pgadmin_po.php:251
 msgid "Author"
 msgstr "Pengarang"
 
-#: ../cnt/cnt_download.php:16
-#, fuzzy, c-format
-msgid ""
-"Because compiling from <a href='%s'>source</a> requires technical knowledge, "
-"we recommand installing binary packages."
-msgstr ""
-"Karena untuk mengkompile dari <a href='%s'>source</a> dibutuhkan pengetahuan "
-"secara teknik,Direkomendasikan untuk menggunakan <a href='%s'>paket binary</"
-"a>"
+#: ../cnt/cnt_download.php:12
+#, c-format
+msgid "Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."
+msgstr "Karena untuk mengkompile dari <a href='%s'>source</a> dibutuhkan pengetahuan secara teknik,Direkomendasikan untuk menggunakan <a href='%s'>paket binary</a>"
 
-#: ../cnt/cnt_download.php:455
-msgid ""
-"Because compiling from source requires technical knowledge, we recommand "
-"using binary packages."
-msgstr ""
-"Karena untuk mengkompile dari source code dibutuhkan pengetahuan secara "
-"teknik,Direkomendasikan untuk menggunakan precompiled binaries."
+#: ../cnt/cnt_download.php:101
+msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."
+msgstr "Karena untuk mengkompile dari source code dibutuhkan pengetahuan secara teknik,Direkomendasikan untuk menggunakan precompiled binaries."
 
-#: ../cnt/cnt_download.php:32
-#, fuzzy, c-format
-msgid ""
-"Before you start installation, please choose a mirror in the list of our <a "
-"href='%s'>mirrors</a>."
-msgstr ""
-"Software ini tersedia dalam format  source dan binary dari halaman <a href='%"
-"s'>mirrors</a>."
+#: ../cnt/cnt_index.php:40
+msgid "Both pgAdmin2 and pgAdmin3 can coexist on the same system."
+msgstr "pgAdmin II dan pgAdmin III bisa digunakan bersama dalam satu sistem yang sama."
 
-#: ../cnt/cnt_download.php:9
-#, fuzzy
-msgid "Binary snapshots"
-msgstr "Snapshot harian"
-
-#: ../cnt/cnt_download.php:453
-#, fuzzy, c-format
-msgid ""
-"Binary snapshots are packages compiled from <a href='%s'>CVS</a> nearly "
-"everyday."
-msgstr ""
-"Snapshot harian adalah paket yang di kompile dari CVS hampir setiap hari."
-
-#: ../cnt/cnt_index.php:53
-#, fuzzy
-msgid "Both pgAdmin II and pgAdmin III can coexist on the same system."
-msgstr ""
-"pgAdmin2 dan pgAdmin3 bisa digunakan bersama dalam satu sistem yang sama."
-
-#: ../cnt/cnt_development.php:3 ../cnt/cnt_development.php:12
+#: ../cnt/cnt_development.php:3
+#: ../cnt/cnt_development.php:12
 msgid "CVS access"
 msgstr "Akses CVS"
 
 #: ../cnt/cnt_development.php:15
 #, c-format
-msgid ""
-"CVS access to the repository is available through a <a href='%s'>web "
-"interface</a> or using your favourite CVS client."
-msgstr ""
-"Akses CVS ke repository tersedia melalui <a href='%s'>web interface</a> atau "
-"menggunakan klien CVS kesukaanmu."
+msgid "CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."
+msgstr "Akses CVS ke repository tersedia melalui <a href='%s'>web interface</a> atau menggunakan klien CVS kesukaanmu."
 
-#: ../cnt/cnt_index.php:108 ../cnt/cnt_screenshots.php:103
+#: ../cnt/cnt_index.php:95
+#: ../cnt/cnt_screenshots.php:103
 msgid "Casts"
 msgstr "Cast"
 
-#: ../cnt/cnt_development.php:7 ../cnt/cnt_development.php:113
+#: ../cnt/cnt_development.php:7
+#: ../cnt/cnt_development.php:113
 msgid "Change log"
 msgstr "Log perubahan"
 
-#: ../cnt/cnt_download.php:282
-#, fuzzy
-msgid "Check that pgAdmin III executable is in the path."
+#: ../cnt/cnt_download.php:267
+msgid "Check that pgAdmin executable is in the path."
 msgstr "Periksa apakah eksekusi dari pgAdmin berada pada path yang benar."
 
 #: ../cnt/cnt_screenshots.php:202
@@ -236,7 +126,8 @@ msgstr "Klik pada tombol panah berwarna hijau untuk menjalankan query."
 msgid "Column data types can be modified in certain conditions."
 msgstr "Tipe data kolom bisa di modifikasi dalam beberapa kondisi."
 
-#: ../cnt/cnt_index.php:109 ../cnt/cnt_screenshots.php:104
+#: ../cnt/cnt_index.php:96
+#: ../cnt/cnt_screenshots.php:104
 msgid "Columns"
 msgstr "Kolom"
 
@@ -244,16 +135,17 @@ msgstr "Kolom"
 msgid "Columns can be dropped."
 msgstr "Kolom bisa di drop."
 
-#: ../cnt/cnt_download.php:438
-#, fuzzy
-msgid "Compile pgAdmin III."
+#: ../cnt/cnt_download.php:401
+msgid "Compile pgAdmin."
 msgstr "Kompile pgAdmin."
 
-#: ../cnt/cnt_index.php:110 ../cnt/cnt_screenshots.php:105
+#: ../cnt/cnt_index.php:97
+#: ../cnt/cnt_screenshots.php:105
 msgid "Constraints"
 msgstr "Constraints"
 
-#: ../cnt/cnt_index.php:111 ../cnt/cnt_screenshots.php:106
+#: ../cnt/cnt_index.php:98
+#: ../cnt/cnt_screenshots.php:106
 msgid "Conversions"
 msgstr "Konversi"
 
@@ -265,48 +157,51 @@ msgstr "Tidak bisa terkoneksi ke basisdata mirror."
 msgid "Could not connect to the mirror table."
 msgstr "Tidak bisa terkoneksi ke tbel mirror."
 
-#: ../cnt/cnt_download.php:273
-#, fuzzy
-msgid "Create a symlink to pgAdmin III binary."
+#: ../cnt/cnt_download.php:258
+msgid "Create a symlink to pgAdmin binary."
 msgstr "Buat suatu symlink pada binary pgAdmin."
 
-#: ../cnt/cnt_index.php:91 ../cnt/cnt_screenshots.php:5
+#: ../cnt/cnt_download.php:4
+#: ../cnt/cnt_download.php:97
+msgid "Daily snapshots"
+msgstr "Snapshot harian"
+
+#: ../cnt/cnt_download.php:99
+#, c-format
+msgid "Daily snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."
+msgstr "Snapshoot harian adalah paket yang di kompile dari <a href=%s'>CVS</a> ahmpir setiap hari."
+
+#: ../cnt/cnt_index.php:78
+#: ../cnt/cnt_screenshots.php:5
 #: ../cnt/cnt_screenshots.php:177
 msgid "Data access"
 msgstr "Akses data"
 
-#: ../cnt/cnt_index.php:112 ../cnt/cnt_screenshots.php:107
+#: ../cnt/cnt_index.php:99
+#: ../cnt/cnt_screenshots.php:107
 msgid "Databases"
 msgstr "Basisdata"
 
-#: ../cnt/cnt_download.php:3
-msgid "Debian"
-msgstr ""
-
-#: ../cnt/cnt_download.php:19
-#, fuzzy
-msgid "Debian packages"
-msgstr "Paket binary"
-
-#: ../cnt/cnt_download.php:40 ../cnt/cnt_download.php:156
-#: ../cnt/cnt_download.php:217 ../cnt/cnt_download.php:253
-#: ../cnt/cnt_download.php:312
+#: ../cnt/cnt_download.php:26
 msgid "Description"
 msgstr "Diskripsi"
 
-#: ../cnt/cnt_index.php:73
+#: ../cnt/cnt_index.php:60
 msgid "Designed for PostgreSQL latest versions"
 msgstr "Didesain untuk versi PostgreSQL yang terbaru"
 
-#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:171 ../tpl/menu.php:32
+#: ../cnt/cnt_development.php:2
+#: ../cnt/cnt_index.php:158
+#: ../tpl/menu.php:30
 msgid "Development"
 msgstr "DEvelopment"
 
-#: ../cnt/cnt_development.php:5 ../cnt/cnt_development.php:48
+#: ../cnt/cnt_development.php:5
+#: ../cnt/cnt_development.php:48
 msgid "Development team"
 msgstr "Tim Development"
 
-#: ../cnt/cnt_index.php:169
+#: ../cnt/cnt_index.php:156
 msgid "Do not hesitate to get involved."
 msgstr "Jangan ragu untuk terlibat."
 
@@ -318,127 +213,119 @@ msgstr "Jangan ragu untuk melakukan review dan mengupdate hasil terjemahan."
 msgid "Documentation"
 msgstr "Dokumentasi"
 
-#: ../cnt/cnt_index.php:113 ../cnt/cnt_screenshots.php:108
+#: ../cnt/cnt_index.php:100
+#: ../cnt/cnt_screenshots.php:108
 msgid "Domains"
 msgstr "Domain"
 
-#: ../cnt/cnt_download.php:324
-#, fuzzy
-msgid "Double-click on the installer and follow the instructions."
+#: ../cnt/cnt_download.php:286
+msgid "Double-clic on the installer and follow the instructions."
 msgstr "Klik dua kali pada instaler dan ikuti instruksi selanjutnya."
 
-#: ../cnt/cnt_download.php:2 ../tpl/menu.php:35
+#: ../cnt/cnt_download.php:2
+#: ../tpl/menu.php:32
 msgid "Download"
 msgstr "Download"
 
 #: ../class/pgadmin_po.php:253
-#, fuzzy
 msgid "Download Source"
-msgstr "Download"
+msgstr "Download Source"
 
 #: ../class/pgadmin_po.php:252
-#, fuzzy
 msgid "Download Translation"
-msgstr "Terjemahan"
+msgstr "Download Terjemahan"
 
-#: ../cnt/cnt_download.php:10 ../cnt/cnt_download.php:473
-#, fuzzy
-msgid "Download mirrors"
-msgstr "Download"
-
-#: ../cnt/cnt_download.php:357
+#: ../cnt/cnt_download.php:320
 msgid "Download our supported wxWindows 2.5 CVS version."
 msgstr "Downloadlah wxWindows versi CVS yang di support oleh kita."
 
-#: ../cnt/cnt_download.php:208 ../cnt/cnt_download.php:244
-#: ../cnt/cnt_download.php:303
-#, fuzzy, c-format
-msgid "Download pgAdmin III package from our <a href='%s'>mirrors</a>."
+#: ../cnt/cnt_download.php:248
+msgid "Download pgAdmin FreeBSD package."
+msgstr "Download pgAdmin untuk paket FreeBSD"
+
+#: ../cnt/cnt_download.php:215
+msgid "Download pgAdmin RPM package."
+msgstr "Download paket RPM pgAdmin."
+
+#: ../cnt/cnt_download.php:235
+msgid "Download pgAdmin Slackware package."
+msgstr "Download pgAdmin untuk paket Slacware."
+
+#: ../cnt/cnt_download.php:285
+msgid "Download pgAdmin installer."
+msgstr "Download installer pgAdmin"
+
+#: ../cnt/cnt_download.php:387
+msgid "Download pgAdmin source code from a mirror."
 msgstr "Download kode source pgAdmin dari mirror."
 
-#: ../cnt/cnt_download.php:456
-#, fuzzy
-msgid "Download pgAdmin III snapshots here:"
-msgstr "Download snapshot pgAdmin3 disini:"
-
-#: ../cnt/cnt_download.php:424
-#, fuzzy
-msgid "Download pgAdmin III source code from a mirror."
-msgstr "Download kode source pgAdmin dari mirror."
-
-#: ../cnt/cnt_download.php:148
-#, fuzzy, c-format
-msgid "Download pgAdmin package from our <a href='%s'>mirrors</a>."
-msgstr "Download kode source pgAdmin dari mirror."
+#: ../cnt/cnt_download.php:102
+msgid "Download pgAdmin3 snapshots here:"
+msgstr "Download snapshot pgAdmin III disini:"
 
 #: ../cnt/cnt_screenshots.php:214
-msgid ""
-"EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique "
-"optimisation features."
-msgstr ""
-"EXPLAIN dan/atau ANALYSE query kamu untuk dapat melihat kelebihan dari "
-"optimasi yang unik dari PostgreSQL."
+msgid "EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique optimisation features."
+msgstr "EXPLAIN dan/atau ANALYSE query kamu untuk dapat melihat kelebihan dari optimasi yang unik dari PostgreSQL."
 
-#: ../cnt/cnt_download.php:54
+#: ../cnt/cnt_download.php:128
 msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr "Rubah file /etc/apt/source.list dan tambahan baris berikut ini:"
 
 #: ../cnt/cnt_screenshots.php:141
-#, fuzzy
-msgid ""
-"Every time you manipulate objects graphically, pgAdmin III writes the "
-"corresponding SQL code."
-msgstr ""
-"Setiap kali kamu melakukan manipusali obyek secara grafik, pgAdmin3 akan "
-"menuliskan kode SQL yang berkaitan."
+msgid "Every time you manipulate objects graphically, pgAdmin3 writes the corresponding SQL code."
+msgstr "Setiap kali kamu melakukan manipusali obyek secara grafik, pgAdmin III akan menuliskan kode SQL yang berkaitan."
 
 #: ../cnt/cnt_translation.php:30
-msgid ""
-"Everyone can participate, please refer to the translation howto for more "
-"information."
-msgstr ""
-"Semua orang bisa berpartisipasi, untuk informasi lebih lanjut silakan "
-"merujuk pada cara melakukan penterjemahan."
+msgid "Everyone can participate, please refer to the translation howto for more information."
+msgstr "Semua orang bisa berpartisipasi, untuk informasi lebih lanjut silakan merujuk pada cara melakukan penterjemahan."
 
-#: ../cnt/cnt_index.php:5 ../cnt/cnt_index.php:63
+#: ../cnt/cnt_index.php:4
+#: ../cnt/cnt_index.php:50
 msgid "Features"
 msgstr "Keistimewaan"
 
-#: ../cnt/cnt_mirrors.php:12 ../cnt/cnt_mirrors.php:29
+#: ../cnt/cnt_mirrors.php:12
+#: ../cnt/cnt_mirrors.php:29
 #: ../cnt/cnt_mirrors.php:45
 #, c-format
-msgid ""
-"Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</"
-"a>."
-msgstr ""
-"pdAdmin bisa di download dengan gratis di <a href='%s'>halaman FTP utama "
-"PostgreSQL</a>"
+msgid "Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</a>."
+msgstr "pdAdmin bisa di download dengan gratis di <a href='%s'>halaman FTP utama PostgreSQL</a>"
 
-#: ../cnt/cnt_download.php:68 ../cnt/cnt_download.php:101
+#: ../cnt/cnt_download.php:142
+#: ../cnt/cnt_download.php:175
 msgid "For Debian TESTING:"
 msgstr "Untuk Debian TESTING:"
 
-#: ../cnt/cnt_download.php:78 ../cnt/cnt_download.php:111
+#: ../cnt/cnt_download.php:152
+#: ../cnt/cnt_download.php:185
 msgid "For Debian UNSTABLE:"
 msgstr "Untuk Debian UNSTABLE:"
 
-#: ../cnt/cnt_download.php:58 ../cnt/cnt_download.php:91
+#: ../cnt/cnt_download.php:132
+#: ../cnt/cnt_download.php:165
 msgid "For Debian WOODY:"
 msgstr "Untuk Debian WOODY:"
 
-#: ../cnt/cnt_download.php:88
+#: ../cnt/cnt_download.php:162
 msgid "For example, for France, you can try:"
 msgstr "Contoh, Untuk bahasa Perancis, kamu coba:"
 
-#: ../cnt/cnt_download.php:6 ../cnt/cnt_index.php:69
+#: ../cnt/cnt_index.php:56
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../cnt/cnt_support.php:3 ../cnt/cnt_support.php:9
-msgid "Frequently asked questions"
-msgstr ""
+#: ../cnt/cnt_download.php:244
+#, c-format
+msgid "FreeBSD %s"
+msgstr "FreeBSD %s"
 
-#: ../cnt/cnt_index.php:114 ../cnt/cnt_screenshots.php:109
+#: ../cnt/cnt_support.php:3
+#: ../cnt/cnt_support.php:9
+msgid "Frequently asked questions"
+msgstr "Pertanyaan yang sering dipertanyakan (FAQ)."
+
+#: ../cnt/cnt_index.php:101
+#: ../cnt/cnt_screenshots.php:109
 msgid "Functions"
 msgstr "Fungsi"
 
@@ -446,23 +333,40 @@ msgstr "Fungsi"
 msgid "Fuzzy"
 msgstr "Fuzzy"
 
-#: ../cnt/cnt_index.php:68
+#: ../cnt/cnt_index.php:55
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: ../cnt/cnt_download.php:336
+#: ../cnt/cnt_download.php:121
+msgid "GNU/Linux Debian"
+msgstr "GNU/Linux Debian"
+
+#: ../cnt/cnt_download.php:210
+#, c-format
+msgid "GNU/Linux Fedora %s, Mandrake %s, RedHat %s, SuSE %s"
+msgstr "GNU/Linux Fedora %s, Mandraje %s, RedHat %s, SuSE %s"
+
+#: ../cnt/cnt_download.php:230
+#, c-format
+msgid "GNU/Linux Slackware %s"
+msgstr "GNU/Linux Slackware %s"
+
+#: ../cnt/cnt_download.php:299
 msgid "GNU/Linux, FreeBSD and other *nixes."
 msgstr "GNU/Linux, FreeBSD,dan *nix yang lain."
 
-#: ../cnt/cnt_index.php:115 ../cnt/cnt_screenshots.php:110
+#: ../cnt/cnt_index.php:102
+#: ../cnt/cnt_screenshots.php:110
 msgid "Groups"
 msgstr "Group"
 
-#: ../cnt/cnt_index.php:2 ../tpl/menu.php:30
+#: ../cnt/cnt_index.php:2
+#: ../tpl/menu.php:28
 msgid "Home"
 msgstr "Home"
 
-#: ../cnt/cnt_index.php:6 ../cnt/cnt_index.php:166
+#: ../cnt/cnt_index.php:5
+#: ../cnt/cnt_index.php:153
 msgid "How to contribute"
 msgstr "Cara untuk kontribusi"
 
@@ -472,140 +376,95 @@ msgstr "Howto"
 
 #: ../cnt/cnt_translation.php:32
 #, c-format
-msgid ""
-"If you are interested in the translation of PostgreSQL server messages, "
-"please visit <a href='%s'>PostgreSQL National Language Support</a> project "
-"page."
-msgstr ""
-"Jika kamu tertarik untuk menterjemahkan pesan dari server PostgreSQL, "
-"silakan kunjungi halaman proyek <a href='%s'>PostgreSQL National Language "
-"Support</a>."
+msgid "If you are interested in the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."
+msgstr "Jika kamu tertarik untuk menterjemahkan pesan dari server PostgreSQL, silakan kunjungi halaman proyek <a href='%s'>PostgreSQL National Language Support</a>."
 
-#: ../cnt/cnt_index.php:54
-#, fuzzy, c-format
-msgid "If you are interested, please visit <a href='%s'>pgAdmin II</a> site."
-msgstr ""
-"Jika kamu tertarik , silakan kunjungi halaman <a href='%s'>pgAdmin2</a>."
+#: ../cnt/cnt_index.php:41
+#, c-format
+msgid "If you are interested, please visit <a href='%s'>pgAdmin2</a> site."
+msgstr "Jika kamu tertarik , silakan kunjungi halaman <a href='%s'>pgAdmin II</a>."
 
 #: ../cnt/cnt_translation.php:42
-msgid ""
-"If you are not the author/maintainer of a translation and wish to submit a "
-"translation fix: download the language file (*.po extension), make the "
-"necessary corrections and send it back to us with CC to the translator."
-msgstr ""
-"Jika kamu bukan author/maintainer dari terjemahan dan ingin membenarkan "
-"suatu terjemahan: download file bahasa (ekstensi *.po),buat koreksi "
-"seperlunya dan kirimkan ke kita serta di CC ke penterjemah."
+msgid "If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator."
+msgstr "Jika kamu bukan author/maintainer dari terjemahan dan ingin membenarkan suatu terjemahan: download file bahasa (ekstensi *.po),buat koreksi seperlunya dan kirimkan ke kita serta di CC ke penterjemah."
 
 #: ../cnt/cnt_translation.php:38
-msgid ""
-"If you are the author/maintainer of a translation and wish to update you "
-"work: download the template file (*.pot extension), execute poEdit and use "
-"the 'update from template' command."
-msgstr ""
-"JIka kamu adalah author/maintener dari terjemahan dan ingin mengupdate "
-"kerjamu, download file template (ekstensi *.pot), jalankan poEdit dan "
-"gunakan perintah  'update from template'."
+msgid "If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command."
+msgstr "JIka kamu adalah author/maintener dari terjemahan dan ingin mengupdate kerjamu, download file template (ekstensi *.pot), jalankan poEdit dan gunakan perintah  'update from template'."
 
-#: ../cnt/cnt_index.php:173
+#: ../cnt/cnt_index.php:160
 #, c-format
-msgid ""
-"If you think you can contribute new features and/or bug fixes, please visit "
-"the <a href='%s'>Development</a> page."
-msgstr ""
-"Jika kamu bisa memberikan kontribusi berupa keistimewaan baru atau perbaikan "
-"bug, silakan knjungi halaman <a href='%s'>Development</a>."
+msgid "If you think you can contribute new features and/or bug fixes, please visit the <a href='%s'>Development</a> page."
+msgstr "Jika kamu bisa memberikan kontribusi berupa keistimewaan baru atau perbaikan bug, silakan knjungi halaman <a href='%s'>Development</a>."
 
-#: ../cnt/cnt_index.php:181
+#: ../cnt/cnt_index.php:168
 #, c-format
-msgid ""
-"If you think you can help us, please visit the <a href='%s'>Translation</a> "
-"page."
-msgstr ""
-"Jika kamu bisa membatu kita, silakan kunjungi halaman <a href='%"
-"s'>Penerjemahan</a>."
+msgid "If you think you can help us, please visit the <a href='%s'>Translation</a> page."
+msgstr "Jika kamu bisa membatu kita, silakan kunjungi halaman <a href='%s'>Penerjemahan</a>."
 
-#: ../cnt/cnt_index.php:45
+#: ../cnt/cnt_index.php:31
 #, c-format
-msgid ""
-"If you want to contribute to development, you can also use our <a href='%"
-"s'>daily snapshots</a> compiled almost everyday."
-msgstr ""
-"Jika kamu ingin memberikan kontribusi ke development, kamu bisa menggunakan "
-"<a href='%s'>  snapshot harian</a> kita."
+msgid "If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."
+msgstr "Jika kamu ingin memberikan kontribusi ke development, kamu bisa menggunakan <a href='%s'>  snapshot harian</a> kita."
 
 #: ../cnt/cnt_screenshots.php:277
-msgid ""
-"In a near future, we would like to transform this utility into a full-"
-"featured PostgreSQL server configuration utility."
-msgstr ""
-"Beberapa bulan kedepan, kita berharap bisa mentransfer secara menyeluruh "
-"utilitas ini di konpfigurasi server PostgreSQL"
+msgid "In a near future, we would like to transform this utility into a full-featured PostgreSQL server configuration utility."
+msgstr "Beberapa bulan kedepan, kita berharap bisa mentransfer secara menyeluruh utilitas ini di konpfigurasi server PostgreSQL"
 
 #: ../cnt/cnt_support.php:12
-msgid ""
-"In case you encounter an unexpected behaviour, you should have a look at "
-"that page."
-msgstr ""
+msgid "In case you encounter an unexpected behaviour, you should have a look at that page."
+msgstr "Untuk suatu kejadian yang kamu hadapi secara tak terduga, kamu harus melihat pada halaman tersebut."
 
 #: ../cnt/cnt_screenshots.php:45
-#, fuzzy
-msgid "In every environment, pgAdmin III is a native application."
-msgstr "Di setiap enviroment, pgAdmin hanyalah sebuah native application."
+msgid "In every environment, pgAdmin3 is a native application."
+msgstr "Di setiap enviroment, pgAdmin III hanyalah sebuah native application."
 
-#: ../cnt/cnt_index.php:174
+#: ../cnt/cnt_index.php:161
 msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
-msgstr ""
-"Untuk selanjutnya, kita membutuhkan untuk melakukan porting pada MacOSX dan "
-"SunOS."
+msgstr "Untuk selanjutnya, kita membutuhkan untuk melakukan porting pada MacOSX dan SunOS."
 
 #: ../cnt/cnt_translation.php:22
 msgid "In progress"
 msgstr "Dalam proses"
 
 #: ../cnt/cnt_screenshots.php:93
-#, fuzzy
-msgid ""
-"In the left pane of pgAdmin III, a navigation tree allow to browse database "
-"objects."
-msgstr ""
-"Pada panel sebelah kiri pgAdmin3, diperbolehkan untuk melihat-lihat obyek "
-"pada navigasi tree."
+msgid "In the left pane of pgAdmin3, a navigation tree allow to browse database objects."
+msgstr "Pada panel sebelah kiri pgAdmin III, diperbolehkan untuk melihat-lihat obyek pada navigasi tree."
 
-#: ../cnt/cnt_index.php:116 ../cnt/cnt_screenshots.php:111
+#: ../cnt/cnt_index.php:103
+#: ../cnt/cnt_screenshots.php:111
 msgid "Indexes"
 msgstr "Indexes"
 
-#: ../cnt/cnt_download.php:230
+#: ../cnt/cnt_download.php:237
 msgid "Install the downloaded package using Slackware pkgtool or installpkg."
-msgstr ""
-"Intall paket yang sudah di downliad menggunakan pkgtool atau installpkg dari "
-"Slackware."
+msgstr "Intall paket yang sudah di downliad menggunakan pkgtool atau installpkg dari Slackware."
 
-#: ../cnt/cnt_download.php:187 ../cnt/cnt_download.php:265
+#: ../cnt/cnt_download.php:217
+#: ../cnt/cnt_download.php:249
 msgid "Install using the following command:"
 msgstr "Intall dengan menggunakan perintah berikut ini:"
 
-#: ../cnt/cnt_download.php:421
-#, fuzzy
-msgid "Installing pgAdmin III"
-msgstr "Instalasi pgAdmin"
+#: ../cnt/cnt_download.php:5
+#: ../cnt/cnt_download.php:119
+msgid "Installing binary packages"
+msgstr "Install paket paket binary"
 
-#: ../cnt/cnt_download.php:451
-#, fuzzy
-msgid "Installing pgAdmin III from binary snapshots"
-msgstr "Instalasi pgAdmin"
-
-#: ../cnt/cnt_download.php:329
-#, fuzzy
-msgid "Installing pgAdmin III from source code"
+#: ../cnt/cnt_download.php:6
+#: ../cnt/cnt_download.php:292
+msgid "Installing from source"
 msgstr "Menginstal dari source"
 
-#: ../cnt/cnt_download.php:355
+#: ../cnt/cnt_download.php:384
+msgid "Installing pgAdmin"
+msgstr "Instalasi pgAdmin"
+
+#: ../cnt/cnt_download.php:318
 msgid "Installing wxWindows libraries"
 msgstr "Install library wxWindows"
 
-#: ../cnt/cnt_support.php:5 ../cnt/cnt_support.php:31
+#: ../cnt/cnt_support.php:5
+#: ../cnt/cnt_support.php:28
 msgid "Known bugs"
 msgstr "Bug yang sudah diketahui"
 
@@ -613,30 +472,35 @@ msgstr "Bug yang sudah diketahui"
 msgid "Language"
 msgstr "Bahasa"
 
-#: ../cnt/cnt_index.php:4 ../cnt/cnt_index.php:25
+#: ../cnt/cnt_index.php:3
+#: ../cnt/cnt_index.php:10
 msgid "Latest news"
 msgstr "Berita yang terakhir"
+
+#: ../cnt/cnt_download.php:86
+#, c-format
+msgid "Latest wxWindows %s source and binary packages needed for pgAdmin"
+msgstr "pgAdmin III membutuhkan source dan binari wxWindows %s yang paling terkahir"
 
 #: ../class/pgadmin_po.php:249
 msgid "Locale"
 msgstr "Locale"
 
-#: ../cnt/cnt_download.php:38 ../cnt/cnt_download.php:154
-#: ../cnt/cnt_download.php:215 ../cnt/cnt_download.php:251
-#: ../cnt/cnt_download.php:310
-#, fuzzy
-msgid "Location"
-msgstr "Dokumentasi"
+#: ../cnt/cnt_download.php:24
+msgid "Location on mirror"
+msgstr "Lokasi di mirror"
 
-#: ../cnt/cnt_download.php:294 ../cnt/cnt_index.php:67
+#: ../cnt/cnt_download.php:281
+#: ../cnt/cnt_index.php:54
 msgid "MS Windows 2000 & XP"
 msgstr "MS Windows 2000 & XP"
 
-#: ../cnt/cnt_index.php:70
+#: ../cnt/cnt_index.php:57
 msgid "MacOsX and SunOS ports are under development."
 msgstr "Porting untuk  MacOsX dan SunOS masih dalam development."
 
-#: ../cnt/cnt_development.php:4 ../cnt/cnt_support.php:4
+#: ../cnt/cnt_development.php:4
+#: ../cnt/cnt_support.php:4
 msgid "Mailing list"
 msgstr "Mailing list"
 
@@ -644,19 +508,11 @@ msgstr "Mailing list"
 msgid "Maintainer"
 msgstr "Pemelihara"
 
-#: ../cnt/cnt_development.php:41 ../cnt/cnt_support.php:24
+#: ../cnt/cnt_development.php:41
+#: ../cnt/cnt_support.php:24
 #, c-format
-msgid ""
-"Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a "
-"href='%s'>mail-archive.com</a>."
-msgstr ""
-"Pesan yang di kirim ke list akan tersimpan dengan rapi di  <a href='%"
-"s'>PostgreSQL</a> dan <a href='%s'>mail-archive.com</a>"
-
-#: ../cnt/cnt_download.php:7
-#, fuzzy
-msgid "Ms Windows"
-msgstr "MS Windows 2000 & XP"
+msgid "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a href='%s'>mail-archive.com</a>."
+msgstr "Pesan yang di kirim ke list akan tersimpan dengan rapi di  <a href='%s'>PostgreSQL</a> dan <a href='%s'>mail-archive.com</a>"
 
 #: ../cnt/cnt_screenshots.php:6
 msgid "Multibyte & i18n"
@@ -666,30 +522,27 @@ msgstr "Multibyte & i18n"
 msgid "Multibyte and Internationalisation (i18n) support"
 msgstr "Mendukung Multibyte dan Internasionalisasi (i18n)"
 
-#: ../cnt/cnt_index.php:142
+#: ../cnt/cnt_index.php:129
 msgid "Multibyte support"
 msgstr "mendukung multibyte"
 
-#: ../cnt/cnt_index.php:85
+#: ../cnt/cnt_index.php:72
 msgid "Multilingual interface"
 msgstr "Tampilan multibahasa"
 
-#: ../cnt/cnt_index.php:65 ../cnt/cnt_screenshots.php:3
+#: ../cnt/cnt_index.php:52
+#: ../cnt/cnt_screenshots.php:3
 #: ../cnt/cnt_screenshots.php:13
 msgid "Multiplatform"
 msgstr "Multiplatform"
 
-#: ../cnt/cnt_index.php:93
+#: ../cnt/cnt_index.php:80
 msgid "Native PostgreSQL acccess (no ODBC layer needed)"
 msgstr "Akses Native PostgreSQL (tidak diperlukan layer ODBC) "
 
 #: ../cnt/cnt_screenshots.php:94
-msgid ""
-"Nearly all PostgreSQL objects can be viewed, created, modified and dropped, "
-"including:"
-msgstr ""
-"Hampir semua obyek dari PostgreSQL bisa dilihat,dibuat,dimodifikasi dan di "
-"drop termasuk:"
+msgid "Nearly all PostgreSQL objects can be viewed, created, modified and dropped, including:"
+msgstr "Hampir semua obyek dari PostgreSQL bisa dilihat,dibuat,dimodifikasi dan di drop termasuk:"
 
 #: ../cnt/cnt_mirrors.php:44
 msgid "No mirrors could be found."
@@ -697,108 +550,91 @@ msgstr "Tidak ada mirror yang ditemukan."
 
 #: ../cnt/cnt_screenshots.php:139
 msgid "Notice the display of the SQL definition with colour syntax highlight."
-msgstr ""
-"Syntax highlight yang berwarna digunakan untuk menandai difinisi dari SQL."
+msgstr "Syntax highlight yang berwarna digunakan untuk menandai difinisi dari SQL."
 
 #: ../cnt/cnt_screenshots.php:155
-msgid ""
-"Notice the tabs giving access to Properties, Parameters, Security and SQL "
-"definition."
-msgstr ""
-"Kita diberi akses untuk ke Properti, Parameter, Keamanan dan difinisi SQL."
+msgid "Notice the tabs giving access to Properties, Parameters, Security and SQL definition."
+msgstr "Kita diberi akses untuk ke Properti, Parameter, Keamanan dan difinisi SQL."
 
-#: ../cnt/cnt_download.php:369
+#: ../cnt/cnt_download.php:332
 msgid "Now, depending on your operation system, follow these steps:"
-msgstr ""
+msgstr "Saat ini , tergantung pada sistem operasi kamu, ikutu langkah-langkah berikut:"
 
-#: ../cnt/cnt_index.php:101
+#: ../cnt/cnt_index.php:88
 msgid "Objects are displayed with their SQL definition."
 msgstr "Obyek di tampilkan dengan difinisi dari SQl itu sendiri."
+
+#: ../cnt/cnt_download.php:18
+msgid "On each mirror, the files can be found in the following directories:"
+msgstr "Pada setiap miror, file file bisa di temukan di beberapa direktori ini :"
 
 #: ../cnt/cnt_screenshots.php:224
 msgid "On-line documentation"
 msgstr "Dokumentasi On-line"
 
-#: ../cnt/cnt_index.php:79
+#: ../cnt/cnt_index.php:66
 msgid "On-line help"
 msgstr "Bantuan On-line"
 
-#: ../cnt/cnt_index.php:122 ../cnt/cnt_screenshots.php:117
+#: ../cnt/cnt_index.php:109
+#: ../cnt/cnt_screenshots.php:117
 msgid "Operator classes"
 msgstr "Kelas Operator"
 
-#: ../cnt/cnt_index.php:123 ../cnt/cnt_screenshots.php:118
+#: ../cnt/cnt_index.php:110
+#: ../cnt/cnt_screenshots.php:118
 msgid "Operators"
 msgstr "Operator"
 
 #: ../cnt/cnt_support.php:11
 #, c-format
-msgid ""
-"Our <a href='%s' target='_blank'>FAQ</a> document contains some known "
-"caveats."
-msgstr ""
+msgid "Our <a href='%s' target='_blank'>FAQ</a> document contains some known caveats."
+msgstr "Dokumen <a href='%s' target='_blank'>FAQ<a/> kita berisi masalah yang sering kita hadapai. "
 
-#: ../cnt/cnt_download.php:22 ../cnt/cnt_download.php:141
-#: ../cnt/cnt_download.php:201 ../cnt/cnt_download.php:238
-#: ../cnt/cnt_download.php:297
+#: ../cnt/cnt_download.php:122
+#: ../cnt/cnt_download.php:211
+#: ../cnt/cnt_download.php:231
+#: ../cnt/cnt_download.php:245
+#: ../cnt/cnt_download.php:282
 #, c-format
 msgid "Packager: %s"
 msgstr "Pemaket: %s"
 
-#: ../cnt/cnt_support.php:26
-msgid ""
-"Please do <B>not</B> send an email directly to one of the programmers; they "
-"might miss it, or even be the wrong person at all."
-msgstr ""
-
-#: ../cnt/cnt_download.php:468
+#: ../cnt/cnt_download.php:114
 #, c-format
 msgid "Please refer to our <a href='%s'>installation instructions</a>."
 msgstr "Silakan menuju ke <a href='%s'>instruksi instalasi</a> kita."
 
-#: ../cnt/cnt_index.php:30
+#: ../cnt/cnt_index.php:15
 #, c-format
-msgid ""
-"Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about "
-"the latest fixes."
-msgstr ""
-"Silakan kunjungi halaman <a href='%s'> Log perubahan</a> dari pgAdmin untuk "
-"mengetahui perbaikan yang terbaru."
+msgid "Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."
+msgstr "Silakan kunjungi halaman <a href='%s'> Log perubahan</a> dari pgAdmin untuk mengetahui perbaikan yang terbaru."
 
-#: ../cnt/cnt_download.php:351
+#: ../cnt/cnt_download.php:314
 #, c-format
 msgid "PostgreSQL %s with libpq for data access."
-msgstr "Untuk akses data diperlukan PostgreSQL dengan libpq."
+msgstr "PostgreSQL %s dengan libpq untuk akses data."
 
-#: ../cnt/cnt_index.php:75
+#: ../cnt/cnt_index.php:62
 msgid "PostgreSQL 7.3"
 msgstr "PostgreSQL 7.3"
 
-#: ../cnt/cnt_index.php:76
+#: ../cnt/cnt_index.php:63
 msgid "PostgreSQL 7.4"
 msgstr "PostgreSQL 7.4"
 
-#: ../cnt/cnt_index.php:81
+#: ../cnt/cnt_index.php:68
 msgid "PostgreSQL documentation (on-line and off-line)"
 msgstr "Dokumentasi PostgreSQL (on-line dan off-line)"
 
-#: ../cnt/cnt_index.php:124 ../cnt/cnt_screenshots.php:119
+#: ../cnt/cnt_index.php:111
+#: ../cnt/cnt_screenshots.php:119
 msgid "PostgreSQL servers"
 msgstr "Server PostgreSQL"
 
-#: ../cnt/cnt_index.php:94
-#, fuzzy
-msgid "Powerful query tool with color syntax highlight"
+#: ../cnt/cnt_index.php:81
+msgid "Powerfull query tool with color syntax highlight"
 msgstr "Alat query yang luar biasa dengan highlight syntax yang berwarna"
-
-#: ../cnt/cnt_index.php:3
-#, fuzzy
-msgid "Presentation"
-msgstr "Dokumentasi"
-
-#: ../cnt/cnt_index.php:10
-msgid "Presentation of pgAdmin III"
-msgstr ""
 
 #: ../cnt/cnt_translation.php:21
 msgid "Published"
@@ -809,119 +645,92 @@ msgstr "Sudah di terbitkan"
 msgid "Published Translations (%d languages)"
 msgstr "Terjemahan yang di terbitkan (%d bahasa)"
 
-#: ../cnt/cnt_download.php:4
-msgid "RPM"
-msgstr ""
-
-#: ../cnt/cnt_download.php:337
-#, fuzzy
-msgid "Recent versions of GTK2.2, automake, autoconf and gcc are needed."
-msgstr ""
-"Versi-versi yang baru dari GTK2.2,automake,autoconf dan gcc adalah sangat "
-"diperlukan."
-
 #: ../cnt/cnt_screenshots.php:65
-msgid ""
-"Recently, our team was joined by developers with an experience of more than "
-"10 years in the design of database tools."
-msgstr ""
-"Baru-baru ini ,ada developer yang dengan pengalaman 10 tahun dalam hal "
-"mendesain tool untuk basisdata bergabung dalam tim kita."
+msgid "Recently, our team was joined by developers with an experience of more than 10 years in the design of database tools."
+msgstr "Baru-baru ini ,ada developer yang dengan pengalaman 10 tahun dalam hal mendesain tool untuk basisdata bergabung dalam tim kita."
 
-#: ../cnt/cnt_download.php:330
+#: ../cnt/cnt_download.php:300
+msgid "Recents versions of GTK2.2, automake, autoconf and gcc are needed."
+msgstr "Versi-versi yang baru dari GTK2.2, automake, autoconf dan gcc adalah sangat diperlukan."
+
+#: ../cnt/cnt_download.php:293
 msgid "Requirements"
 msgstr "Yang harus dipenuhi"
 
-#: ../cnt/cnt_index.php:125 ../cnt/cnt_screenshots.php:120
+#: ../cnt/cnt_index.php:112
+#: ../cnt/cnt_screenshots.php:120
 msgid "Rules"
 msgstr "Aturan"
 
-#: ../cnt/cnt_download.php:124
+#: ../cnt/cnt_download.php:196
 msgid "Run the following commands as root:"
 msgstr "Jalan perintah perintah ini sebagai root:"
 
-#: ../cnt/cnt_index.php:82
+#: ../cnt/cnt_index.php:69
 msgid "SQL command guide"
 msgstr "Petunjuk perintah SQL"
 
-#: ../cnt/cnt_index.php:126 ../cnt/cnt_screenshots.php:121
+#: ../cnt/cnt_index.php:113
+#: ../cnt/cnt_screenshots.php:121
 msgid "Schemas"
 msgstr "Skema"
 
-#: ../cnt/cnt_screenshots.php:2 ../tpl/menu.php:31
+#: ../cnt/cnt_screenshots.php:2
+#: ../tpl/menu.php:29
 msgid "Screenshots"
 msgstr "Screenshots"
 
-#: ../cnt/cnt_index.php:127 ../cnt/cnt_screenshots.php:122
+#: ../cnt/cnt_index.php:114
+#: ../cnt/cnt_screenshots.php:122
 msgid "Sequences"
 msgstr "rangkaian"
 
-#: ../cnt/cnt_screenshots.php:8 ../cnt/cnt_screenshots.php:268
+#: ../cnt/cnt_screenshots.php:8
+#: ../cnt/cnt_screenshots.php:268
 msgid "Server status"
 msgstr "Status Server"
 
-#: ../cnt/cnt_index.php:117 ../cnt/cnt_screenshots.php:112
+#: ../cnt/cnt_index.php:104
+#: ../cnt/cnt_screenshots.php:112
 msgid "Server-side languages (like PLpgsql, PLpython, PLperl, etc...)"
 msgstr "Bahasa server-side (seperti  PLpgsql, PLpython, PLperl, dll ..)"
 
-#: ../cnt/cnt_download.php:5
-msgid "Slackware"
-msgstr ""
-
-#: ../cnt/cnt_download.php:8
-msgid "Source code"
-msgstr "Kode dari source"
+#: ../cnt/cnt_download.php:3
+#: ../cnt/cnt_download.php:14
+msgid "Stable release"
+msgstr "Rilis yang stabil"
 
 #: ../class/pgadmin_po.php:257
 msgid "Status"
 msgstr "Status"
 
-#: ../cnt/cnt_support.php:2 ../tpl/menu.php:36
+#: ../cnt/cnt_support.php:2
+#: ../tpl/menu.php:33
 msgid "Support"
 msgstr "Support"
 
-#: ../cnt/cnt_index.php:128 ../cnt/cnt_screenshots.php:123
+#: ../cnt/cnt_index.php:115
+#: ../cnt/cnt_screenshots.php:123
 msgid "Tables"
 msgstr "Tabel"
 
 #: ../cnt/cnt_support.php:14
 msgid "The FAQ page is also accessible via the pgAdmin III help menu."
-msgstr ""
+msgstr "Halaman FAQ juga bisa di akses lewat menu bantuan dari pgAdmin III."
 
 #: ../cnt/cnt_screenshots.php:200
 msgid "The SQL definition of any object can be transfered to the query tool."
-msgstr ""
-"Dari berbagai macam bentuk difinisi SQL dapat di pindahkan menggunakan alat "
-"query."
-
-#: ../cnt/cnt_advocacy.php:9
-msgid "The advocacy page is intended for the promotion of pgAdmin."
-msgstr ""
-
-#: ../cnt/cnt_index.php:18
-msgid ""
-"The application also includes a query builder, an SQL editor, a server-side "
-"code editor and much more."
-msgstr ""
+msgstr "Dari berbagai macam bentuk difinisi SQL dapat di pindahkan menggunakan alat query."
 
 #: ../cnt/cnt_screenshots.php:79
 msgid "The application does not need any ODBC layer."
 msgstr "Aplikasi ini tidak membutuhkan sama sekali layer dari ODBC."
 
 #: ../cnt/cnt_screenshots.php:46
-msgid ""
-"The application is executed in binary code, not in a virtual machine, "
-"therefore offering very good performance."
-msgstr ""
-"Untuk mendapatkan performance yang bagus ,aplikasi ini di eksekusi dalam "
-"kode binary, tidak di dalam mesin virtual. "
+msgid "The application is executed in binary code, not in a virtual machine, therefore offering very good performance."
+msgstr "Untuk mendapatkan performance yang bagus ,aplikasi ini di eksekusi dalam kode binary, tidak di dalam mesin virtual. "
 
-#: ../cnt/cnt_index.php:13
-msgid ""
-"The application is running under GNU/Linux, FreeBSD and Windows 2000/XP."
-msgstr ""
-
-#: ../cnt/cnt_download.php:338
+#: ../cnt/cnt_download.php:301
 msgid "The best solution is to use a recent distribution."
 msgstr "Solusi yang paling baik adalah menggukan distribusi yang paling baru."
 
@@ -933,148 +742,98 @@ msgstr "Data itu akan diambil sesuai kebutuhan ketika perlu untuk ditampilan."
 msgid "The documentation can be viewed off-line or on-line."
 msgstr "Dokumentasi ini bisa di lihat secara offline atau online."
 
-#: ../cnt/cnt_index.php:17
-msgid ""
-"The graphical interface supports all PostgreSQL features and makes "
-"administration easy."
-msgstr ""
-
-#: ../cnt/cnt_development.php:101 ../cnt/cnt_development.php:117
-#: ../cnt/cnt_support.php:36
+#: ../cnt/cnt_development.php:101
+#: ../cnt/cnt_development.php:117
+#: ../cnt/cnt_support.php:33
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
-msgstr ""
-"Informasi yang di tampilkan di ekstrak secara otomatis dari CVS pgAdmin."
+msgstr "Informasi yang di tampilkan di ekstrak secara otomatis dari CVS pgAdmin."
 
-#: ../cnt/cnt_download.php:347 ../cnt/cnt_download.php:358
-msgid ""
-"The libraries can be downloaded from our mirrors in the 'wxWindows' "
-"directory."
-msgstr ""
-"Library yang dibutuhkan bisa di download dari mirror kita di direktori "
-"'wxWindow'."
+#: ../cnt/cnt_download.php:310
+#: ../cnt/cnt_download.php:321
+msgid "The libraries can be downloaded from our mirrors in the 'wxWindows' directory."
+msgstr "Library yang dibutuhkan bisa di download dari mirror kita di direktori 'wxWindow'."
 
-#: ../cnt/cnt_download.php:476
+#: ../cnt/cnt_download.php:17
 #, c-format
 msgid "The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."
-msgstr ""
-"Mirror-mirror yang ada di sediakan oleh proyek <a href='%s'>PostgreSQL</a>."
+msgstr "Mirror-mirror yang ada di sediakan oleh proyek <a href='%s'>PostgreSQL</a>."
 
-#: ../cnt/cnt_index.php:168 ../cnt/cnt_translation.php:46
+#: ../cnt/cnt_index.php:155
+#: ../cnt/cnt_translation.php:46
 msgid "The project can only live and develop with your help."
 msgstr "Proyek ini ada dalam akan di develop dengan bantuan kalian. "
 
 #: ../cnt/cnt_screenshots.php:138
-#, fuzzy
-msgid ""
-"The properties and statistics of the selected object are displayed in the "
-"right pane of pgAdmin III."
-msgstr ""
-"Properti dan statistik ini menampilan obyek yang di pilih dari panel sebelah "
-"kanan pgAdmin3."
+msgid "The properties and statistics of the selected object are displayed in the right pane of pgAdmin3."
+msgstr "Properti dan statistik ini menampilan obyek yang di pilih dari panel sebelah kanan pgAdmin III."
 
 #: ../cnt/cnt_development.php:19
 msgid "The required command lines needed for checkout are as follows:"
-msgstr ""
-"Dibawah ini adalah perintah2 dasar yang dibutuhkan untuk melakukan checkout:"
+msgstr "Dibawah ini adalah perintah2 dasar yang dibutuhkan untuk melakukan checkout:"
 
-#: ../cnt/cnt_download.php:15
+#: ../cnt/cnt_download.php:11
 #, c-format
-msgid ""
-"The software is available in source and binary format from our <a href='%"
-"s'>mirrors</a>."
-msgstr ""
-"Software ini tersedia dalam format  source dan binary dari halaman <a href='%"
-"s'>mirrors</a>."
+msgid "The software is available in source and binary format from our <a href='%s'>mirrors</a>."
+msgstr "Software ini tersedia dalam format  source dan binary dari halaman <a href='%s'>mirrors</a>."
 
-#: ../cnt/cnt_index.php:44
+#: ../cnt/cnt_index.php:30
 #, c-format
-msgid ""
-"The software is available in source and binary format from the <a href='%"
-"s'>Download</a> page."
-msgstr ""
-"Software ini tersedia dalam format  source dan binary dari halaman <a href='%"
-"s'>Download</a>."
+msgid "The software is available in source and binary format from the <a href='%s'>Download</a> page."
+msgstr "Software ini tersedia dalam format  source dan binary dari halaman <a href='%s'>Download</a>."
 
 #: ../cnt/cnt_screenshots.php:44
-msgid ""
-"The software is written in C++ and uses the excellent wxWindows cross "
-"platform toolkit."
-msgstr ""
-"Software ini ditulis dalam bahasa C++ dan menggunakan toolkit cross platform "
-"dari wxWindows."
+msgid "The software is written in C++ and uses the excellent wxWindows cross platform toolkit."
+msgstr "Software ini ditulis dalam bahasa C++ dan menggunakan toolkit cross platform dari wxWindows."
 
 #: ../cnt/cnt_screenshots.php:205
 msgid "The tool displays execution times of queries."
 msgstr "Tool ini menampilkan waktu berapa lama query dieksekusi."
 
 #: ../cnt/cnt_translation.php:50
-msgid ""
-"The updated translations are published in daily snapshots automatically."
-msgstr ""
-"Update dari terjemagan akan di terbitkan secara otomatis dalam snapshot "
-"harian."
+msgid "The updated translations are published in daily snapshots automatically."
+msgstr "Update dari terjemagan akan di terbitkan secara otomatis dalam snapshot harian."
 
-#: ../cnt/cnt_download.php:454
-msgid ""
-"There is no guarantee that these packages work in any way: it is alpha "
-"developer software intended for testing and development."
-msgstr ""
-"Sama sekali tidak ada garansi kalau paket ini akan bisa jalan karena masih "
-"software alpha developer yang kita gunakan untuk percobaan dan development."
-
-#: ../cnt/cnt_download.php:27
-#, c-format
-msgid ""
-"These packages are also well-suited for <a href='%s'>Knoppix</a> and other "
-"Debian based distributions."
-msgstr ""
+#: ../cnt/cnt_download.php:100
+msgid "There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development."
+msgstr "Sama sekali tidak ada garansi kalau paket ini akan bisa jalan karena masih software alpha developer yang kita gunakan untuk percobaan dan development."
 
 #: ../cnt/cnt_screenshots.php:142
 msgid "This makes learning SQL more easy..."
-msgstr ""
-"Kita bisa belalar SQL dengan semakin gampang dengan menggunakan pgAdmin3"
+msgstr "Kita bisa belalar SQL dengan semakin gampang dengan menggunakan pgAdmin3"
 
-#: ../cnt/cnt_advocacy.php:10 ../cnt/cnt_support.php:15
-#, fuzzy
+#: ../cnt/cnt_support.php:15
 msgid "This page is available in English only."
 msgstr "Halaman ini hanya tersedia dalam bahasa Inggris."
 
-#: ../cnt/cnt_development.php:52 ../cnt/cnt_development.php:100
-#: ../cnt/cnt_development.php:116 ../cnt/cnt_support.php:35
+#: ../cnt/cnt_development.php:52
+#: ../cnt/cnt_development.php:100
+#: ../cnt/cnt_development.php:116
+#: ../cnt/cnt_support.php:32
 #: ../cnt/cnt_translation.php:71
 msgid "This section is available in English only."
 msgstr "Bagian ini hanya tersedia dalam bahasa Inggris."
 
-#: ../cnt/cnt_index.php:55
+#: ../cnt/cnt_index.php:42
 msgid "This site is available in English only."
 msgstr "Halaman ini hanya tersedia dalam bahasa Inggris."
 
 #: ../cnt/cnt_screenshots.php:189
-msgid ""
-"This technical choice allows to browse very large tables without problem."
-msgstr ""
-"Pilihan dengan menggunakan teknik ini memperbolehkan kita untuk browse table "
-"yang sangat besar tanpa ada masalah."
+msgid "This technical choice allows to browse very large tables without problem."
+msgstr "Pilihan dengan menggunakan teknik ini memperbolehkan kita untuk browse table yang sangat besar tanpa ada masalah."
 
 #: ../cnt/cnt_translation.php:31
 #, c-format
-msgid ""
-"This web site can also be translated using <a href='%s'>pgadmin3_website."
-"pot</a> file."
-msgstr ""
-"Website ini juga bisa di terjemahkan dengan mengunakan file <a href='%"
-"s'>pgadmin3_website.pot</a>."
+msgid "This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."
+msgstr "Website ini juga bisa di terjemahkan dengan mengunakan file <a href='%s'>pgadmin3_website.pot</a>."
 
-#: ../cnt/cnt_development.php:39 ../cnt/cnt_support.php:22
+#: ../cnt/cnt_development.php:39
+#: ../cnt/cnt_support.php:22
 #, c-format
-msgid ""
-"To subscribe to the mailing list, send an email to %s with the word "
-"'subscribe', without quotes, as the body of message."
-msgstr ""
-"Untuk mendaftar ke mailing list, kirimkan email ke %s dengan pesan "
-"'subscribe' , tanpa tanda kutip."
+msgid "To subscribe to the mailing list, send an email to %s with the word 'subscribe', without quotes, as the body of message."
+msgstr "Untuk mendaftar ke mailing list, kirimkan email ke %s dengan pesan 'subscribe' , tanpa tanda kutip."
 
-#: ../cnt/cnt_development.php:6 ../cnt/cnt_development.php:96
+#: ../cnt/cnt_development.php:6
+#: ../cnt/cnt_development.php:96
 msgid "Todo list"
 msgstr "Daftar yang harus di kerjakan."
 
@@ -1090,7 +849,9 @@ msgstr "Terjemahkan text nya dan kirimkan ke kita dalam bentuk file *.po."
 msgid "Translated"
 msgstr "Sudah di terjemhakan."
 
-#: ../cnt/cnt_index.php:178 ../cnt/cnt_translation.php:20 ../tpl/menu.php:33
+#: ../cnt/cnt_index.php:165
+#: ../cnt/cnt_translation.php:20
+#: ../tpl/menu.php:31
 msgid "Translation"
 msgstr "Terjemahan"
 
@@ -1103,32 +864,27 @@ msgstr "Cara menterjemahkan"
 msgid "Translations in progress (%d languages)"
 msgstr "Dalam progres penerjemahan (%d bahasa)"
 
-#: ../cnt/cnt_index.php:129 ../cnt/cnt_screenshots.php:124
+#: ../cnt/cnt_index.php:116
+#: ../cnt/cnt_screenshots.php:124
 msgid "Trigger function"
 msgstr "Trigger function"
 
-#: ../cnt/cnt_index.php:130 ../cnt/cnt_screenshots.php:125
+#: ../cnt/cnt_index.php:117
+#: ../cnt/cnt_screenshots.php:125
 msgid "Types"
 msgstr "Tipe"
 
 #: ../cnt/cnt_development.php:18
-msgid ""
-"Under GNU/Linux, there are several command line and graphical clients "
-"available."
-msgstr ""
-"Di GNU/Linux, ada tersedia beberapa perintah dasar dan client dalam bentuk "
-"grafik. "
+msgid "Under GNU/Linux, there are several command line and graphical clients available."
+msgstr "Di GNU/Linux, ada tersedia beberapa perintah dasar dan client dalam bentuk grafik. "
 
 #: ../cnt/cnt_development.php:17
 #, c-format
-msgid ""
-"Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free "
-"software."
-msgstr ""
-"Di Windows, kita merekomendasikan untuk menggukan <a href='%s'>WinCVS</a>, "
-"yang merupakan software gratis."
+msgid "Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free software."
+msgstr "Di Windows, kita merekomendasikan untuk menggukan <a href='%s'>WinCVS</a>, yang merupakan software gratis."
 
-#: ../cnt/cnt_download.php:360 ../cnt/cnt_download.php:430
+#: ../cnt/cnt_download.php:323
+#: ../cnt/cnt_download.php:393
 msgid "Unpack as follows:"
 msgstr "Kerjakan seperti dibawah ini:"
 
@@ -1136,21 +892,17 @@ msgstr "Kerjakan seperti dibawah ini:"
 msgid "Untranslated"
 msgstr "Belum di terjemahkan"
 
-#: ../cnt/cnt_screenshots.php:4 ../cnt/cnt_screenshots.php:56
+#: ../cnt/cnt_screenshots.php:4
+#: ../cnt/cnt_screenshots.php:56
 msgid "User interface"
 msgstr "User interface"
 
-#: ../cnt/cnt_index.php:131 ../cnt/cnt_screenshots.php:126
+#: ../cnt/cnt_index.php:118
+#: ../cnt/cnt_screenshots.php:126
 msgid "Users"
 msgstr "User"
 
-#: ../cnt/cnt_support.php:27
-msgid ""
-"Using the mailing list guarantees that your request isn't lost and will be "
-"answered in a timely fashion."
-msgstr ""
-
-#: ../cnt/cnt_index.php:95
+#: ../cnt/cnt_index.php:82
 msgid "Very fast datagrid for display/entry of data"
 msgstr "Datagrid yang sangat cepat untuk menampilkan/memasukan data."
 
@@ -1158,266 +910,85 @@ msgstr "Datagrid yang sangat cepat untuk menampilkan/memasukan data."
 msgid "View the status of PostgreSQL server."
 msgstr "Lihat status dari server PostgreSQL."
 
-#: ../cnt/cnt_index.php:132 ../cnt/cnt_screenshots.php:127
+#: ../cnt/cnt_index.php:119
+#: ../cnt/cnt_screenshots.php:127
 msgid "Views"
 msgstr "Tampilan"
 
-#: ../cnt/cnt_index.php:41
+#: ../cnt/cnt_index.php:27
 msgid "We can only rely on users to make pgAdmin the best possible software."
 msgstr "Untuk menjadi software yang sangat bagus kita bertumpu pada pemakai."
 
-#: ../cnt/cnt_index.php:180
-#, fuzzy, c-format
-msgid ""
-"We need help to translate pgAdmin III and our website in more than %d "
-"languages."
-msgstr ""
-"Kita butuh bantuan untuk meterjemahkan pgAdmin3 dan website lebih dari %d "
-"bahasa."
+#: ../cnt/cnt_index.php:167
+#, c-format
+msgid "We need help to translate pgAdmin3 and our website in more than %d languages."
+msgstr "Kita butuh bantuan untuk meterjemahkan pgAdmin III dan website lebih dari %d bahasa."
 
 #: ../cnt/cnt_translation.php:29
-#, fuzzy
-msgid "We need your help to translate pgAdmin III into several languages."
-msgstr ""
-"Kita butuh bantuan untuk melakukan peterjemhan pgAdmin3 dalam berbagai "
-"bahasa."
+msgid "We need your help to translate pgAdmin3 into several languages."
+msgstr "Kita butuh bantuan untuk melakukan peterjemhan pgAdmin III dalam berbagai bahasa."
 
 #: ../cnt/cnt_screenshots.php:258
 #, c-format
 msgid "We plan to reach %d languages soon."
 msgstr "Dalam waktu dekat ini kita merencankan bisa mencapai %d bahasa."
 
-#: ../cnt/cnt_download.php:346
-#, fuzzy
-msgid "We provide modified wxWindows 2.5 source and binary packages."
+#: ../cnt/cnt_screenshots.php:47
+msgid "We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows 2000 & XP. MacOsX and SunOS ports are in preparation."
+msgstr "Kita menyediakan paket dalam bentuk source dan binary untuk GNU/Linux, FreeBSD dan Ms Windows 2000 & XP. Yang berikutanya adalah menyiapkan porting untuk MacOSX dan SunOS."
+
+#: ../cnt/cnt_download.php:309
+msgid "We provide wxWindows 2.5 source and binary packages."
 msgstr "Kita menyediakan paket source dan binary dari wxWindows 2.5."
 
-#: ../cnt/cnt_screenshots.php:47
-msgid ""
-"We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows "
-"2000 & XP. MacOsX and SunOS ports are in preparation."
-msgstr ""
-"Kita menyediakan paket dalam bentuk source dan binary untuk GNU/Linux, "
-"FreeBSD dan Ms Windows 2000 & XP. Yang berikutanya adalah menyiapkan porting "
-"untuk MacOSX dan SunOS."
-
-#: ../cnt/cnt_index.php:37
-msgid ""
-"We would like to thank our developer and translator community who "
-"contributed to the project."
-msgstr ""
-"Kita ucapkan terimakasih kepada para komunitas developer dan penerjemah yang "
-"sudah melakukan kontribusi dalam proyek ini."
+#: ../cnt/cnt_index.php:23
+msgid "We would like to thank our developer and translator community who contributed to the project."
+msgstr "Kita ucapkan terimakasih kepada para komunitas developer dan penerjemah yang sudah melakukan kontribusi dalam proyek ini."
 
 #: ../cnt/cnt_screenshots.php:81
-msgid ""
-"When configured server-side, it is possible to connect using encrypted "
-"password or SSL authentication."
-msgstr ""
-"Sangat dimungkinkan sekali mengunakan password yang terenkripsi atau "
-"otorisasi SSL waktu mengkonfigurasi server-side."
+msgid "When configured server-side, it is possible to connect using encrypted password or SSL authentication."
+msgstr "Sangat dimungkinkan sekali mengunakan password yang terenkripsi atau otorisasi SSL waktu mengkonfigurasi server-side."
 
-#: ../cnt/cnt_download.php:340
+#: ../cnt/cnt_download.php:303
 msgid "Windows 2000 & XP."
 msgstr "Windows 2000 & XP"
 
 #: ../cnt/cnt_screenshots.php:64
-msgid ""
-"With the help and suggestions of users, we have been constantly improving "
-"the usability of pgAdmin."
-msgstr ""
-"Atas bantuan dan saran dari banyak user, akhirnya kita bisa mencapai "
-"kemajuan yang berarti dari kegunaan pgAdmin ini."
+msgid "With the help and suggestions of users, we have been constantly improving the usability of pgAdmin."
+msgstr "Atas bantuan dan saran dari banyak user, akhirnya kita bisa mencapai kemajuan yang berarti dari kegunaan pgAdmin ini."
 
-#: ../cnt/cnt_index.php:52
-#, fuzzy
-msgid ""
-"With the rapid advancement of the project, we recommand upgrading to pgAdmin "
-"III."
-msgstr ""
-"Dikarenakan perkembangan yang cepat dalam proyek ini , di rekomendasikan "
-"untuk segera mengupgrade ke pgAdmin3."
+#: ../cnt/cnt_index.php:39
+msgid "With the rapid advancement of the project, we recommand upgrading to pgAdmin3."
+msgstr "Dikarenakan perkembangan yang cepat dalam proyek ini , di rekomendasikan untuk segera mengupgrade ke pgAdmin III."
 
 #: ../cnt/cnt_development.php:38
 #, c-format
-msgid ""
-"You are more than welcome to subscribe, but please remember to use <a href='%"
-"s'>pgadmin-support</a> list for end user support issues."
-msgstr ""
-"Silakan saja untuk melakukan pendaftaran , tapi untuk end user dan issue "
-"tentang support jangan lupa menggunakan list <a href='%s'> pgadmin-support</"
-"a>."
+msgid "You are more than welcome to subscribe, but please remember to use <a href='%s'>pgadmin-support</a> list for end user support issues."
+msgstr "Silakan saja untuk melakukan pendaftaran , tapi untuk end user dan issue tentang support jangan lupa menggunakan list <a href='%s'> pgadmin-support</a>."
 
 #: ../cnt/cnt_screenshots.php:216
 msgid "You will soon notice that PostgreSQL is the fastest database available."
-msgstr ""
-"Kamu akan menyadari kalau basisdata yang paling cepat adalah PostgreSQL."
+msgstr "Kamu akan menyadari kalau basisdata yang paling cepat adalah PostgreSQL."
 
-#: ../cnt/cnt_index.php:49
-#, fuzzy
-msgid "pgAdmin II is still supported"
-msgstr "pgAdmin2 masih di support terus"
-
-#: ../cnt/cnt_index.php:27 ../cnt/cnt_index.php:34
-#, fuzzy, c-format
-msgid "pgAdmin III %s released"
-msgstr "Beta-%d release dari pgAdmin3"
-
-#: ../cnt/cnt_download.php:144
+#: ../cnt/cnt_download.php:38
+#: ../cnt/cnt_download.php:44
+#: ../cnt/cnt_download.php:50
+#: ../cnt/cnt_download.php:56
+#: ../cnt/cnt_download.php:62
+#: ../cnt/cnt_download.php:68
+#: ../cnt/cnt_download.php:74
+#: ../cnt/cnt_download.php:80
 #, c-format
-msgid ""
-"pgAdmin III RPM packages are available for several GNU/Linux distributions, "
-"including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."
-msgstr ""
-
-#: ../cnt/cnt_download.php:46 ../cnt/cnt_download.php:162
-#: ../cnt/cnt_download.php:168 ../cnt/cnt_download.php:174
-#: ../cnt/cnt_download.php:180 ../cnt/cnt_download.php:223
-#: ../cnt/cnt_download.php:259 ../cnt/cnt_download.php:318
-#, fuzzy, c-format
-msgid "pgAdmin III binary packages for %s"
+msgid "pgAdmin binary packages for %s"
 msgstr "Paket binary pgAdmin untuk %s"
 
-#: ../cnt/cnt_download.php:475
-#, fuzzy
-msgid "pgAdmin III can be downloaded from a large number of mirrors."
-msgstr "pgAdmin3 bisa di download dari sebagian besar mirror yang ada. "
-
-#: ../cnt/cnt_screenshots.php:78
-#, fuzzy
-msgid ""
-"pgAdmin III can connect to any PostgreSQL 7.3/7.4 database using the "
-"embedded libpq native library."
-msgstr ""
-"pgAdmin3 bisa terkoneksi ke basisdata  PostgreSQL 7.3/7.4 menggunakan native "
-"library dari embeded libpq."
-
-#: ../cnt/cnt_screenshots.php:232
-#, fuzzy
-msgid "pgAdmin III includes PostgreSQL full documentation."
-msgstr "Dokumentasi lengkap PostgreSQL sudah ada di pgAdmin3."
-
-#: ../cnt/cnt_screenshots.php:166
-#, fuzzy
-msgid "pgAdmin III includes a table editor."
-msgstr "Tabel buat editor sudah termasuk didalam pgAdmin3."
-
-#: ../cnt/cnt_screenshots.php:257
-#, fuzzy, c-format
-msgid "pgAdmin III interface is translated in more than %d languages."
-msgstr "Tampilan dari pgAdmin3 sudah di terjemahkan lebih dari %d  bahasa."
-
-#: ../cnt/cnt_screenshots.php:259
-#, fuzzy
-msgid ""
-"pgAdmin III interface supports all known Unicode scripts, even Right to Left "
-"(RTL) scripts like Arabic."
-msgstr ""
-"Tampilan dari pgAdmin mendukung semua skrip Unicode yang ada, seperti juga "
-"bahasa Arab yang cara penulisannya dari kanan ke kiri."
-
-#: ../cnt/cnt_screenshots.php:43
-#, fuzzy
-msgid ""
-"pgAdmin III is a comprehensive design and management interface for "
-"PostgreSQL database, designed to run on most Operating Systems."
-msgstr ""
-"pgAdmin3 adalah interface untuk basisdata PostgreSQL yang memiliki desain "
-"dan manejemen yang meliputi banyak hal, salah satunya adalah didesain agar "
-"bisa jalan diberbgai macam Sistem Operasi."
-
-#: ../cnt/cnt_download.php:14 ../cnt/cnt_index.php:43
-#, fuzzy, c-format
-msgid ""
-"pgAdmin III is a free software project released under the <a href='%"
-"s'>Artistic licence</a>."
-msgstr ""
-"pgAdmin3 adalah proyek dari software gratis yang di release di bawah <a "
-"href='%s'>lisensi Artistic</a>."
-
-#: ../cnt/cnt_index.php:12
-#, fuzzy
-msgid ""
-"pgAdmin III is a powerful administration and development platform for the "
-"PostgreSQL database, free for any use."
-msgstr ""
-"pgAdmin3 adalah interface untuk basisdata PostgreSQL yang memiliki desain "
-"dan manejemen yang meliputi banyak hal, salah satunya adalah didesain agar "
-"bisa jalan diberbgai macam Sistem Operasi."
+#: ../cnt/cnt_index.php:154
+msgid "pgAdmin is a project created and managed by contributors from the whole world."
+msgstr "pgAdmin adalah sebuah proyek yang di kerjakan dan di manage oleh para kontributor di seluruh dunia."
 
 #: ../cnt/cnt_development.php:14
-#, fuzzy
-msgid "pgAdmin III is available subject to the terms of the Artistic Licence."
+msgid "pgAdmin is available subject to the terms of the Artistic Licence."
 msgstr "pgAdmin tersedia menggunakan aturan dari Lisensi Artistic."
-
-#: ../cnt/cnt_index.php:16
-msgid ""
-"pgAdmin III is designed to answer the needs of all users, from writing "
-"simple SQL queries to developing complex databases."
-msgstr ""
-
-#: ../cnt/cnt_index.php:22
-msgid ""
-"pgAdmin III is developed by a community of database specialists around the "
-"world and is available in more than 30 languages. It is Free Software "
-"released under the Artistic License."
-msgstr ""
-
-#: ../cnt/cnt_index.php:19
-msgid ""
-"pgAdmin III is released with an installer and does not require any "
-"additional driver to communicate with the database server."
-msgstr ""
-
-#: ../cnt/cnt_index.php:38
-#, fuzzy, c-format
-msgid ""
-"pgAdmin III is the result of a joint effort of a team of more than %d "
-"contributors from %d different countries."
-msgstr ""
-"pgAdmin adalah hasil dari kerja sama tim lebih dari %d kontributor dari %d "
-"negara yang berbeda."
-
-#: ../cnt/cnt_download.php:204 ../cnt/cnt_download.php:240
-#: ../cnt/cnt_download.php:300
-#, fuzzy, c-format
-msgid "pgAdmin III packages are available for %s."
-msgstr "Paket binary pgAdmin untuk %s"
-
-#: ../cnt/cnt_download.php:26
-#, c-format
-msgid ""
-"pgAdmin III packages are available for <a href='%s'>GNU/Linux Debian</a> "
-"stable, testing and unstable distributions."
-msgstr ""
-
-#: ../cnt/cnt_screenshots.php:248
-#, fuzzy
-msgid ""
-"pgAdmin III supports most PostgreSQL server-side encodings including Unicode "
-"UTF-8 and other multi-byte encodings."
-msgstr ""
-"Hampir semua enkoding server-side PostgreSQL termasuk unicode UTF-8 dan "
-"enkoding multi-byte didukung oleh pgAdmin3."
-
-#: ../cnt/cnt_index.php:144
-#, fuzzy
-msgid "pgAdmin III supports most PostgreSQL server-side encodings:"
-msgstr ""
-"Hampir semua enkoding server-side PostgreSQL yang didukung oleh pgAdmin:"
-
-#: ../cnt/cnt_index.php:87
-#, fuzzy, c-format
-msgid "pgAdmin III user interface is translated in more than %d languages."
-msgstr "Tampilan dari pgAdmin3 sudah di terjemahkan lebih dari % bahasa."
-
-#: ../cnt/cnt_index.php:167
-msgid ""
-"pgAdmin is a project created and managed by contributors from the whole "
-"world."
-msgstr ""
-"pgAdmin adalah sebuah proyek yang di kerjakan dan di manage oleh para "
-"kontributor di seluruh dunia."
 
 #: ../cnt/cnt_screenshots.php:63
 #, c-format
@@ -1428,128 +999,94 @@ msgstr "pgAdmin digunakan lebih dari %d user di seluruh dunia."
 msgid "pgAdmin project started five years ago."
 msgstr "Proyek pgAdmin dimulai dari 5 tahun yang lalu."
 
+#: ../cnt/cnt_download.php:32
+msgid "pgAdmin source code"
+msgstr "Kode dari kode source"
+
+#: ../cnt/cnt_index.php:36
+msgid "pgAdmin2 is still supported"
+msgstr "pgAdmin II masih di support terus"
+
+#: ../cnt/cnt_index.php:12
+#: ../cnt/cnt_index.php:20
+#, c-format
+msgid "pgAdmin3 %s released"
+msgstr "pgAdmin III %s telah di rilis."
+
+#: ../cnt/cnt_download.php:16
+msgid "pgAdmin3 can be downloaded from a large number of mirrors."
+msgstr "pgAdmin III bisa di download dari sebagian besar mirror yang ada. "
+
+#: ../cnt/cnt_screenshots.php:78
+msgid "pgAdmin3 can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library."
+msgstr "pgAdmin III bisa terkoneksi ke basisdata  PostgreSQL 7.3/7.4 menggunakan native library dari embeded libpq."
+
+#: ../cnt/cnt_screenshots.php:232
+msgid "pgAdmin3 includes PostgreSQL full documentation."
+msgstr "Dokumentasi lengkap PostgreSQL sudah ada di pgAdmin III."
+
+#: ../cnt/cnt_screenshots.php:166
+msgid "pgAdmin3 includes a table editor."
+msgstr "Tabel buat editor sudah termasuk didalam pgAdmin III."
+
+#: ../cnt/cnt_screenshots.php:257
+#, c-format
+msgid "pgAdmin3 interface is translated in more than %d languages."
+msgstr "Tampilan dari pgAdmin III sudah di terjemahkan lebih dari %d  bahasa."
+
+#: ../cnt/cnt_screenshots.php:259
+msgid "pgAdmin3 interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic."
+msgstr "Tampilan dari pgAdmin III mendukung semua skrip Unicode yang ada, seperti juga bahasa Arab yang cara penulisannya dari kanan ke kiri."
+
+#: ../cnt/cnt_screenshots.php:43
+msgid "pgAdmin3 is a comprehensive design and management interface for PostgreSQL database, designed to run on most Operating Systems."
+msgstr "pgAdmin III adalah interface untuk basisdata PostgreSQL yang memiliki desain dan manejemen yang meliputi banyak hal, salah satunya adalah didesain agar bisa jalan diberbgai macam Sistem Operasi."
+
+#: ../cnt/cnt_download.php:10
+#: ../cnt/cnt_index.php:29
+#, c-format
+msgid "pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."
+msgstr "pgAdmin III adalah proyek dari software gratis yang di release di bawah <a href='%s'>lisensi Artistic</a>."
+
+#: ../cnt/cnt_index.php:24
+#, c-format
+msgid "pgAdmin3 is the result of a joint effort of a team of more than %d contributors from %d different countries."
+msgstr "pgAdmin III adalah hasil dari kerja sama tim lebih dari %d kontributor dari %d negara yang berbeda."
+
+#: ../cnt/cnt_screenshots.php:248
+msgid "pgAdmin3 supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte encodings."
+msgstr "Hampir semua enkoding server-side PostgreSQL termasuk unicode UTF-8 dan enkoding multi-byte didukung oleh pgAdmin III."
+
+#: ../cnt/cnt_index.php:131
+msgid "pgAdmin3 supports most PostgreSQL server-side encodings:"
+msgstr "Hampir semua enkoding server-side PostgreSQL yang didukung oleh pgAdmin III:"
+
+#: ../cnt/cnt_index.php:74
+#, c-format
+msgid "pgAdmin3 user interface is translated in more than %d languages."
+msgstr "Tampilan dari pgAdmin III sudah di terjemahkan lebih dari %d bahasa."
+
 #: ../cnt/cnt_development.php:37
-msgid ""
-"pgadmin-hackers list is intended for developers who wish to contribute to "
-"pgAdmin project."
-msgstr ""
-"list pgadmin-hackers adalah ditujukan untuk para pengembang(developer) yang "
-"memberikan kontribusi untuk project pgAdmin ini."
+msgid "pgadmin-hackers list is intended for developers who wish to contribute to pgAdmin project."
+msgstr "list pgadmin-hackers adalah ditujukan untuk para pengembang(developer) yang memberikan kontribusi untuk project pgAdmin ini."
 
 #: ../cnt/cnt_development.php:35
 msgid "pgadmin-hackers mailing list"
 msgstr "mailing list pgadmin-hackers"
 
 #: ../cnt/cnt_support.php:21
-msgid ""
-"pgadmin-support is a support list intended for end user support and bug "
-"reports."
-msgstr ""
-"pgadmin-support adalah support list yang ditujukan untuk support end user "
-"dan report adanya bug."
+msgid "pgadmin-support is a support list intended for end user support and bug reports."
+msgstr "pgadmin-support adalah support list yang ditujukan untuk support end user dan report adanya bug."
 
 #: ../cnt/cnt_support.php:19
 msgid "pgadmin-support mailing list"
 msgstr "mailing list pgadmin-support"
 
-#: ../cnt/cnt_download.php:345
+#: ../cnt/cnt_download.php:308
 msgid "wxWindows 2.4 will not work because of Unicode problems."
 msgstr "wxWindows 2.4 tidak akan bisa berjalan dikarenakan masalah Unicode."
 
-#: ../cnt/cnt_download.php:344
+#: ../cnt/cnt_download.php:307
 msgid "wxWindows 2.5 compiled from CVS with additional patches."
 msgstr "wxWindows yang sudah di kompile dari CVS dengan patch tambahan."
 
-#~ msgid "<a href='%s'>Daily snapshot</a>."
-#~ msgstr "<a href='%s'>Daily snapshot</a>"
-
-#~ msgid "APT Configuration"
-#~ msgstr "Konfigurasi APT"
-
-#~ msgid "Alternatively, you can use a CVS client."
-#~ msgstr "Sebagai alternatif, CVS client bisa digunakan."
-
-#~ msgid "Choose a language"
-#~ msgstr "Pilih Bahasa"
-
-#~ msgid "Download Language"
-#~ msgstr "Download Bahasa"
-
-#~ msgid "Download Template"
-#~ msgstr "Donwload Template"
-
-#~ msgid "Download from 'beta/source' directory on a mirror."
-#~ msgstr "Download dari 'beta/source' direktory pada mirror."
-
-#~ msgid "Download from 'stable/source' directory on a mirror."
-#~ msgstr "Download dari 'stabil/source' direktory pada mirror."
-
-#~ msgid "Download pgAdmin FreeBSD package."
-#~ msgstr "Download pgAdmin untuk paket FreeBSD."
-
-#~ msgid "Download pgAdmin RPM package."
-#~ msgstr "Download paket RPM pgAdmin."
-
-#~ msgid "Download pgAdmin Slackware package."
-#~ msgstr "Download pgAdmin untuk paket Slackware."
-
-#~ msgid "Download pgAdmin installer."
-#~ msgstr "Download instaler pgAdmin."
-
-#~ msgid "FreeBSD %s"
-#~ msgstr "FreeBSD %s"
-
-#~ msgid "GNU/Linux Debian"
-#~ msgstr "GNU/Linux Debian"
-
-#~ msgid "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
-#~ msgstr "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
-
-#~ msgid "GNU/Linux Slackware %s"
-#~ msgstr "GNU/Linux Slackware %s"
-
-#~ msgid "Install wxWindows STC (Styled Text Control)."
-#~ msgstr "Install wxWindows STC (Styled text Control)."
-
-#~ msgid "Install wxWindows XRC (Xml Resource Control)."
-#~ msgstr "Install wxWindows XRC (Xml Resource Control)."
-
-#~ msgid "Install wxWindows from source."
-#~ msgstr "Install wxWindows dari source."
-
-#~ msgid "Installing binary packages"
-#~ msgstr "Install dari paket binary"
-
-#~ msgid "Language:"
-#~ msgstr "Bahasa"
-
-#~ msgid "Latest wxWindows %s source and binary packages needed for pgAdmin"
-#~ msgstr ""
-#~ "Paket source dan binary wxWindows %s yang terbaru di perlukan oleh pgAdmin"
-
-#~ msgid "List of mirrors"
-#~ msgstr "Daftar dari mirror"
-
-#~ msgid "Location on mirror"
-#~ msgstr "Lokasi mirror"
-
-#~ msgid "Not yet available."
-#~ msgstr "Belum tersedia."
-
-#~ msgid "On each mirror, the files can be found in the following directories:"
-#~ msgstr ""
-#~ "Dalam setiap mirror,file pgAdmin bisa di temukan di direktori berikut:"
-
-#~ msgid "Stable release."
-#~ msgstr "Release yang stabil."
-
-#~ msgid ""
-#~ "pgAdmin is available in several qualities: stable, beta, daily snapshot."
-#~ msgstr ""
-#~ "pgAdmin2 tersedia dalam beberapa kualitas: stabil,beta, snapshot harian."
-
-#~ msgid "pgAdmin source code"
-#~ msgstr "Kode sourcer pgAdmin"
-
-#~ msgid "pgAdmin2 is available under Windows only."
-#~ msgstr "pgAdmin2 hanya tersedia untuk Ms. Windows."

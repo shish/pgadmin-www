@@ -111,6 +111,18 @@
 	</dl>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
+  <dl>
+    <dt><?php echo _("Ms Windows 2000 & XP");?></dt>
+		<?php echo  sprintf(_("Packager: %s"), "Andreas Pflug");?>
+    <dd>
+    	<ol>
+        <li><?php echo _("Download pgadmin installer.");?>
+        <li><?php echo _("Double-clic on the installer and follow the instructions.");?><br>
+      </ol>
+		</dd>
+	</dl>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
 
   <h1 id="pgadmin2"><?php echo _("pgAdmin2 stable")?></h1>
     <dd>

@@ -6,7 +6,7 @@
         <img src="img/elephant.png" alt="pgAdmin III for PostgreSQL">
       </td>
 
-      <td align="<?php echo $_SESSION['LANG_RIGHT']?>" valign="bottom">
+      <td align="<?php echo $_SESSION['pgadmin']['locale_right']?>" valign="bottom">
       	Languages:
         <a href="?locale=de_DE"><img src="img/flags/Germany.gif" alt="German"></a>
         <a href="?locale=en_US"><img src="img/flags/UK.gif" alt="English"></a>

@@ -47,13 +47,13 @@
 
 	// RTL languages
     if ($_locale == 'fa_IR') {
-        $_SESSION['LANG_DIRECTION']="rtl";
-        $_SESSION['LANG_RIGHT']="left";
-        $_SESSION['LANG_LEFT']="right";
+        $_SESSION['pgadmin']['locale_direction']="rtl";
+        $_SESSION['pgadmin']['locale_right']="left";
+        $_SESSION['pgadmin']['locale_left']="right";
     } else {
-        $_SESSION['LANG_DIRECTION']="ltr";
-        $_SESSION['LANG_RIGHT']="right";
-        $_SESSION['LANG_LEFT']="left";
+        $_SESSION['pgadmin']['locale_direction']="ltr";
+        $_SESSION['pgadmin']['locale_right']="right";
+        $_SESSION['pgadmin']['locale_left']="left";
     }
 
   }

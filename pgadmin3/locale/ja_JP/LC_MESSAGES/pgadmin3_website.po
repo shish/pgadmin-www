@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2004-02-04 12:36+0100\n"
-"PO-Revision-Date: 2004-10-02 00:00+0900\n"
+"PO-Revision-Date: 2004-10-09 02:24+0900\n"
 "Last-Translator: Hiroshi Saito <saito@inetrt.skcapi.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -322,11 +322,11 @@ msgstr "/etc/apt/sources.list ファイルをエディットして、以下の�
 
 #: ../cnt/cnt_screenshots.php:141
 msgid "Every time you manipulate objects graphically, pgAdmin III writes the corresponding SQL code."
-msgstr "あなたが絵を見るようにオブジェクトを操作する時ごとに、pgAdminIIIは、対応するSQLコードを書きます。"
+msgstr "いつでも、あなたは絵を見るようにオブジェクトを操作できます、そしてpgAdminIIIは、対応するSQLコードを描き出します。"
 
 #: ../cnt/cnt_translation.php:46
 msgid "Everyone can participate, please refer to the translation howto for more information."
-msgstr "みんなは参加することができます 、どうぞより多くのインフォメーションに関して翻訳方法に問い合わせて下さい。"
+msgstr "みんなは参加することができます 、どうぞより多くのインフォメーションに関して翻訳方法を問い合わせて下さい。"
 
 #: ../cnt/cnt_index.php:5
 #: ../cnt/cnt_index.php:61
@@ -582,7 +582,7 @@ msgstr "ネイティブなPostgreSQLアクセスです。(ODBC層を必要とし
 
 #: ../cnt/cnt_screenshots.php:94
 msgid "Nearly all PostgreSQL objects can be viewed, created, modified and dropped, including:"
-msgstr "ほとんど、すべてのPostgreSQLオブジェクトは見ることができます、また、作り出されて、改変されてそして落とされて含むこと:"
+msgstr "ほとんど、すべてのPostgreSQLオブジェクトを見ることができます、それは、作成したり改変し抹消することができます:"
 
 #: ../cnt/cnt_mirrors.php:44
 msgid "No mirrors could be found."
@@ -687,16 +687,16 @@ msgstr "紹介"
 
 #: ../cnt/cnt_index.php:10
 msgid "Presentation of pgAdmin III"
-msgstr "pgAdminIIIのプレゼンテーション"
+msgstr "pgAdminIIIの紹介"
 
 #: ../cnt/cnt_translation.php:29
 msgid "Published"
-msgstr "公表する"
+msgstr "公開する"
 
 #: ../cnt/cnt_translation.php:53
 #, c-format
 msgid "Published Translations (%d languages)"
-msgstr "公表された翻訳 (%d 言語)"
+msgstr "公開された翻訳 (%d 言語)"
 
 #: ../cnt/cnt_download.php:4
 msgid "RPM"

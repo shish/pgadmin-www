@@ -72,6 +72,15 @@
 		<Includes_DirectX>N</Includes_DirectX>
 	</Program_Info>
 	<Program_Descriptions>
+		<Afrikaans>
+			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
+			<Char_Desc_45>Administrasie van PostgreSQL-databasisse</Char_Desc_45>
+			<Char_Desc_80>Gratis administrasiesentrum vir PostgreSQL-databasisse met grafiese koppelvlak</Char_Desc_80>
+			<Char_Desc_250>Gratis administrasiesentrum vir PostgreSQL-databasisse. Dit bevat 'n grafiese koppelvlak, 'n SQL-navraaghulpmiddel, 'n prosedure-redigeerder en vele meer - ontwerp vir die meeste gebruikers se behoeftes.</Char_Desc_250>
+			<Char_Desc_450>Gratis administrasiesentrum vir PostgreSQL-databasisse. Dit bevat 'n grafiese koppelvlak, 'n SQL-navraaghulpmiddel, 'n prosedure-redigeerder en vele meer. pgAdmin III is ontwerp vir die meeste gebruikers se behoeftes, van eenvoudige SQL-navrae tot die ontwikkeling van komplekse databasisse. Dit is beskikbaar in meer as 30 tale en vir verskeie bedryfstelsels.</Char_Desc_450>
+			<Char_Desc_2000>Gratis administrasiesentrum vir PostgreSQL-databasisse. Dit bevat 'n grafiese administrasiekoppelvlak, 'n SQL-navraaghulpmiddel, 'n redigeerder vir programkode van prosedures en vele meer. pgAdmin III is ontwerp om vir die behoeftes van die meeste gebruikers voorsiening te maak, van die skryf van eenvoudige SQL-navrae tot die ontwikkeling van komplekse databasisse. Die grafiese koppelvlak ondersteun alle PostgreSQL-funksionaliteit en dit maak administrasie maklik. Dit is beskikbaar in meer as 30 tale en vir verskeie bedryfstelsels, insluitende MS Windows, GNU/Linux en FreeBSD.</Char_Desc_2000>
+		</Afrikaans>
+
 		<English>
 			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
 			<Char_Desc_45>Administration Centre for PostgreSQL</Char_Desc_45>

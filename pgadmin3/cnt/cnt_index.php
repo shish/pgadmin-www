@@ -47,17 +47,6 @@
     <?php echo sprintf(_("If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."), "download.php#snapshots");?>
   </dd>
 </dl>
-<dl>
-  <dt><?php echo _("pgAdmin II is still supported");?></dt>
-  <dd>
-    <?php echo _("Although we concentrate on pgAdmin III, we will continue to support pgAdmin II.");?>
-    <?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin III.");?>
-    <?php echo _("Both pgAdmin II and pgAdmin III can coexist on the same system.");?>
-    <?php echo sprintf(_("If you are interested, please visit <a href='%s'>pgAdmin II</a> site."), "http://www.pgadmin.org/pgadmin2")?>
-    <?php echo _("This site is available in English only.")?>
-  </dd>
-
-</dl>
 
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 

@@ -84,7 +84,7 @@
     </table>
       </li>
 
-	  <li><b>Keywords</b>: when visiting a web site, users may not find "pgAdmin" directly, but query  keywords like "PostgreSQL database" or "free administration tools", etc... During registration, you may be asked to enter keywords. My personal choice is to register these keywords:
+	  <li><b>Keywords</b>: when visiting a web site, users may not find "pgAdmin" directly, but query  keywords like "PostgreSQL database" or "free administration tools", etc... During registration, you may be asked to enter keywords. As an ethical choice, do not hijack other product names. Our proposal for keywords is:
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
 	pgadmin pgadmin2 pgdmin3 PostgreSQL postgresql postgres sql database development gui administration tool software free pg pg-admin

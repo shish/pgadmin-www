@@ -1,0 +1,34 @@
+BODY
+{
+    FONT-FAMILY: verdana, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+}
+
+th
+{ 
+    TEXT-DECORATION: none;
+    FONT-WEIGHT: 600;
+    FONT-FAMILY: verdana, helvetica, sans-serif;
+    FONT-SIZE: 13px; 
+    TEXT-ALIGN: left;
+    BACKGROUND-COLOR: #6884A4;
+    COLOR: #FFFFFF;
+}
+
+td
+{
+    FONT-FAMILY: verdana, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+}
+
+p, li, ul, ol, center, dt, dd, dl
+{
+    FONT-FAMILY: verdana, helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+}

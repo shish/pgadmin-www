@@ -99,6 +99,15 @@
 			<Char_Desc_2000>Logiciel libre d'administration de la base de données PostgreSQL. Comprend une interface graphique d'administration, un outil de requêtes SQL, un éditeur de code procédural et bien plus encore. pgAdmin III est conçu pour répondre à la plupart des besoins, depuis l'écriture de simples requêtes SQL jusqu'au développement de bases de données complexes. L'interface graphique supporte les fonctionnalités de PostgreSQL les plus récentes et fait de l'administration un jeu d'enfant. Disponible dans plus de 30 langues et pour plusieurs systèmes d'exploitation, y compris MS Windows, GNU/Linux et FreeBSD.</Char_Desc_2000>
 		</French>
 
+		<German>
+			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
+			<Char_Desc_45>Administrationszentrum für PostgreSQL</Char_Desc_45>
+			<Char_Desc_80>Grafische Administrationsoberfläche für das PostgreSQL Datenbanksystem</Char_Desc_80>
+			<Char_Desc_250>Freies Administrationstool für das PostgreSQL Datenbanksystem. Enthält eine grafische Admistrationsoberfläche, ein SQL Query Tool, ein Editor für prozeduralen Code und etliches mehr. pgAdmin III dürfte praktisch allen Ansprüchen an ein Datenbanktool gerecht werden.</Char_Desc_250>
+			<Char_Desc_450>Freies Administrationstool für das PostgreSQL Datenbanksystem. Enthält eine grafische Admistrationsoberfläche, ein SQL Query Tool, ein Editor für prozeduralen Code und etliches mehr. pgAdmin III wurde entwickelt um den Anforderungen einer breiten Schicht von Benutzern, vom Schreiben einfacher Queries bis zur Entwicklung komplexer Datenbanken, zu entsprechen. Das Programm ist in mehr als 30 Sprachen übersetzt und steht für diverse Betriebssysteme einschließlich Windows, Linux und FreeBSD zur Verfügung.</Char_Desc_450>
+			<Char_Desc_2000>Freies Administrationstool für das PostgreSQL Datenbanksystem. Enthält eine grafische Admistrationsoberfläche, ein SQL Query Tool, ein Editor für prozeduralen Code und etliches mehr. pgAdmin III wurde entwickelt um den Anforderungen einer breiten Schicht von Benutzern, vom Schreiben einfacher Queries bis zur Entwicklung komplexer Datenbanken, zu entsprechen. Die grafische Oberfläche unterstützt sämtliche PostgreSQL Features und macht die Administration sehr einfach. Das Programm ist in mehr als 30 Sprachen übersetzt und steht für diverse Betriebssysteme einschließlich Windows, Linux und FreeBSD zur Verfügung.</Char_Desc_2000>
+		</German>
+
 		<Japanese>
 			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
 			<Char_Desc_45>PostgreSQLにとって中心の管理</Char_Desc_45>

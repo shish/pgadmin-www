@@ -6,7 +6,7 @@
 
   $translated->addLanguage ("ar_SA", "Arabic", "Motaz	Abuthiab", "moty66@yahoo.com", "pgadmin3.po","src/ui/ar_SA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("da_DK", "Danish", "Troels Arvin", "troels@arvin.dk", "pgadmin3.po","src/ui/da_DK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $translated->addLanguage ("de_DE", "German", "Andreas Plug", "pgadmin@pse-consulting.de", "pgadmin3.po", "src/ui/de_DE/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $translated->addLanguage ("de_DE", "German", "Andreas Pflug", "pgadmin@pse-consulting.de", "pgadmin3.po", "src/ui/de_DE/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("fa_IR", "Farsi", "Abbas Izad", "abbasizad@hotmail.com", "pgadmin3.po", "src/ui/fa_IR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("fr_FR", "French", "Jean-Michel Pouré", "jm.poure@freesurf.fr",  "pgadmin3.po","src/ui/fr_FR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("hr_HR", "Croatian", "Finteh d.o.o.", "finteh@finteh.hr", "pgadmin3.po", "src/ui/hr_HR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

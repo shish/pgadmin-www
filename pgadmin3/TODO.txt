@@ -3,8 +3,9 @@ High priority
 - FAQ should be in CVS, with automatic update to the FAQ site.
 - Compilation howto. Otherwise, developpers will contact us with a "I can't compile using wxGTK2.4"...
 - Link to the Artistic licence.
-- use PostgreSQL php class to generate the list of mirrors.
-- define a default font for Latin1 languages.
+- Use PostgreSQL php class to generate the list of mirrors.
+- Define a default font for Latin1 languages.
+- Link section in Support page.
 
 Low priority
 - Translation howto.

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3_website\n"
 "POT-Creation-Date: 2003-12-01 17:35+0100\n"
-"PO-Revision-Date: 2004-01-29 08:21+0200\n"
+"PO-Revision-Date: 2004-01-30 09:26+0200\n"
 "Last-Translator: Petri Jooste <rkwjpj@puk.ac.za>\n"
 "Language-Team: Petri Jooste <rkwjpj@puk.ac.za>\n"
 "MIME-Version: 1.0\n"
@@ -117,7 +117,7 @@ msgstr "Ekwivalente"
 #: ../cnt/cnt_development.php:7
 #: ../cnt/cnt_development.php:113
 msgid "Change log"
-msgstr "Veranderinge-log"
+msgstr "Change log"
 
 #: ../cnt/cnt_download.php:267
 msgid "Check that pgAdmin executable is in the path."
@@ -426,7 +426,7 @@ msgstr "In elke omgewing is pgAdmin 'n inheemse toepassing."
 
 #: ../cnt/cnt_index.php:161
 msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
-msgstr "Ons benodig besonderlik hulp met die nuwe MacOsX en SunOS omskakelings."
+msgstr "Ons benodig veral hulp met die nuwe MacOsX en SunOS omskakelings."
 
 #: ../cnt/cnt_translation.php:22
 msgid "In progress"
@@ -613,7 +613,7 @@ msgstr "Verwys asb. na ons <a href='%s'>installasie-instruksies</a>."
 #: ../cnt/cnt_index.php:15
 #, c-format
 msgid "Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."
-msgstr "Besoiek asb. die pgAdmin <a href='%s'>Change log</a> blad om meer uit te vind oor ons nuutste regstellings."
+msgstr "Besoek asb. die pgAdmin <a href='%s'>Change log</a> blad om meer uit te vind oor ons nuutste regstellings."
 
 #: ../cnt/cnt_download.php:314
 #, c-format
@@ -1073,7 +1073,7 @@ msgstr "Die pgAdmin3 gebruikerkoppelvlak is vertaal in meer as %d tale."
 
 #: ../cnt/cnt_development.php:37
 msgid "pgadmin-hackers list is intended for developers who wish to contribute to pgAdmin project."
-msgstr "pgadmin-hackers lys is bedoel vir ontwikkelaars wat wil saamwerk aan die pgAdmin projek."
+msgstr "Die pgadmin-hackers lys is bedoel vir ontwikkelaars wat wil saamwerk aan die pgAdmin projek."
 
 #: ../cnt/cnt_development.php:35
 msgid "pgadmin-hackers mailing list"

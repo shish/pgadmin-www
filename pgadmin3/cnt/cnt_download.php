@@ -339,7 +339,7 @@
             <?php echo _("Microsoft Visual C++ 6.0 or newer.")?>
         </ul>
 
-    	<li><?php echo sprintf(_("wxWidgets (former wxWindows) %s compiled from a source snapshot."), "2.5.3")?>
+    	<li><?php echo sprintf(_("wxWidgets %s."), "2.5.3")?>
         <?php echo _("Currently, this is the only version we support.")?>
 
 

@@ -44,10 +44,16 @@
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "FreeBSD 5.1")?></td>
       </tr>
 
-			<tr bgcolor=beige>
+      <tr bgcolor=beige>
         <td>pgadmin3/release/debian</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Debian")?></td>
+      </tr>
+
+      <tr bgcolor=beige>
+        <td>pgadmin3/release/debian</td>
+        <td></td>
+        <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Fedora")?></td>
       </tr>
 
       <tr bgcolor=beige>
@@ -105,7 +111,7 @@
       <li><a href="http://www.pgadmin.org/snapshots/freeBSD">FreeBSD 5.1</a><br>
       <li><a href="http://www.pgadmin.org/snapshots/win32">Microsoft Windows 2000 & XP</a><br>
     </ul>
-    <?php echo sprintf(_("Please refer to our <a href='%s'>installation instructions</a>."), "binaries");?>
+    <?php echo sprintf(_("Please refer to our <a href='%s'>installation instructions</a>."), "#binaries");?>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 

@@ -115,7 +115,7 @@ es (Spanish)
 fa (Persian)
 <dd>
   <ul>
-    <li><a href='http://www.linuxiran.org/modules/mylinks'>Linux Iran</a></li>
+    <li><a href='http://www.linuxiran.org/modules/mylinks'>Linux Iran</a> (pending)</li>
   </ul>
 </dd>
 

@@ -14,9 +14,14 @@
   <dd>
   	<?php echo _("pgAdmin source code is available subject to the terms of the Artistic Licence.");?>
     <?php echo sprintf(_("CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."), "http://cvs.pgadmin.org");?>
-    <?php echo _("Anonymous read access is available at the following CVSRoot without password from:");?>
-    <br><br>
-:pserver:anonymous@cvs.pgadmin.org:/disk1/cvsroot<br>
+    <?php echo _("Anonymous read access is available at the following CVSRoot without password.");?>
+    <pre>
+    # CVSROOT=:pserver:anonymous@cvs.pgadmin.org:/disk1/cvsroot export CVSROOT
+    # cvs login
+    # cvs -z9 checkout pgadmin3
+    # cd pgadmin3
+    # sh bootstrap
+    </pre>
 	</dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 

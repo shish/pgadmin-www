@@ -144,6 +144,7 @@ en (English)
     <li><a href='http://www.icewalkers.com/Linux/Software/521170/pgAdmin-III.html'>IceWalkers</a></li>
     <li><a href='http://www.linuxdownloads.org'>Linux Downloads</a> (pending)</li>
     <li><a href='http://www.linuxlinks.com/Web/Databases'>Linux Links</a></li>
+    <li><a href='http://www.macshareware.net'>Mac shareware</a> (pending)</li>    
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
     <li><a href='http://www.padring.com'>Pad Ring</a> (pending)</li>
     <li><a href='http://www.pcworlddownload.com/development-tools/database/pgadmin-iii-for-postgresql.htm'>PC World Download</a></li>

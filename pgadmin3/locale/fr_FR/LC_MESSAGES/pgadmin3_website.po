@@ -7,12 +7,32 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2004-02-10 10:53+0100\n"
-"PO-Revision-Date: 2004-02-10 10:55+0100\n"
+"PO-Revision-Date: 2004-02-11 00:38+0100\n"
 "Last-Translator: Jean-Michel Pouré <jm@poure.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../cnt/cnt_advocacy.php:82
+msgid "<Char_Desc_2000>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. Available in more than 30 languages and for several operating systems, including MS Windows, GNU/Linux and FreeBSD.</Char_Desc_2000>"
+msgstr "<Char_Desc_2000>Logiciel libre d'administration de la base de données PostgreSQL. Comprend une interface graphique d'administration, un outil de requêtes SQL, un éditeur de code procédural et bien plus encore. pgAdmin III est conçu pour répondre à la plupart des besoins, depuis l'écriture de simples requêtes SQL jusqu'au développement de bases de données complexes. L'interface graphique supporte les fonctionnalités de PostgreSQL les plus récentes et fait de l'administration un jeu d'enfant. Disponible dans plus de 30 langues et pour plusieurs systèmes d'exploitation, y compris MS Windows, GNU/Linux et FreeBSD.</Char_Desc_2000>"
+
+#: ../cnt/cnt_advocacy.php:78
+msgid "<Char_Desc_250>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. Designed to answer the needs of most users.</Char_Desc_250>"
+msgstr "<Char_Desc_250>Logiciel libre d'administration de PostgreSQL. Comprend une interface graphique d'administration, un outil de requêtes SQL, un éditeur de code procédural et bien plus encore. Conçu pour répondre à la plupart des besoins.</Char_Desc_250>"
+
+#: ../cnt/cnt_advocacy.php:80
+msgid "<Char_Desc_450>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. Available in more than 30 languages and for several operating systems.</Char_Desc_450>"
+msgstr "<Char_Desc_450>Logiciel libre d'administration de la base de données PostgreSQL. Comprend une interface graphique d'administration, un outil de requêtes SQL, un éditeur de code procédural et bien plus encore. pgAdmin III est conçu pour répondre à la plupart des besoins, depuis l'écriture de simples requêtes SQL jusqu'au développement de bases de données complexes. Disponible dans plus de 30 langues et pour plusieurs systèmes d'exploitation.</Char_Desc_450>"
+
+#: ../cnt/cnt_advocacy.php:74
+msgid "<Char_Desc_45>Administration Centre for PostgreSQL</Char_Desc_45>"
+msgstr "<Char_Desc_45>Logiciel libre d'administration de PostgreSQL</Char_Desc_45>"
+
+#: ../cnt/cnt_advocacy.php:76
+msgid "<Char_Desc_80>Free Administration Centre for the PostgreSQL database</Char_Desc_80>"
+msgstr "<Char_Desc_80>Logiciel libre d'admistration de la base de données PostgreSQL</Char_Desc_80>"
 
 #: ../cnt/cnt_screenshots.php:186
 msgid "A data grid allows to insert, modify and drop data easily."
@@ -86,10 +106,6 @@ msgstr "Authentifier le code source à l'aide de la <a href='%s'>clé PGP de Dav
 #: ../class/pgadmin_po.php:251
 msgid "Author"
 msgstr "Auteur"
-
-#: ../cnt/cnt_advocacy.php:78
-msgid "Available in more than 30 languages for Windows 2000/XP, GNU/Linux and FreeBSD."
-msgstr "Disponible dans plus de 30 langues pour Windows 2000/XP, GNU/Linux et FreeBSD."
 
 #: ../cnt/cnt_download.php:16
 #, c-format
@@ -364,10 +380,6 @@ msgstr "GNU/Linux"
 msgid "GNU/Linux, FreeBSD and other *nixes."
 msgstr "GNU/Linux, FreeBSD et autres *nixes."
 
-#: ../cnt/cnt_advocacy.php:75
-msgid "Graphical administration interface for the PostgreSQL database, free for any use."
-msgstr "Interface graphique d'admistration pour la base de données PostgreSQL, libre et gratuite pour tous usages."
-
 #: ../cnt/cnt_index.php:115
 #: ../cnt/cnt_screenshots.php:110
 msgid "Groups"
@@ -443,10 +455,6 @@ msgstr "En cours de réalisation"
 #: ../cnt/cnt_screenshots.php:93
 msgid "In the left pane of pgAdmin III, a navigation tree allow to browse database objects."
 msgstr "Dans la partie gauche de pgAdmin III, une arborescence permet de parcourir les objets de la base de données."
-
-#: ../cnt/cnt_advocacy.php:79
-msgid "Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more."
-msgstr "Comprend une interface graphique d'administration, un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore."
 
 #: ../cnt/cnt_index.php:116
 #: ../cnt/cnt_screenshots.php:111
@@ -759,7 +767,6 @@ msgstr "Il est possible de transférer la définition SQL de tout objet vers l'o
 msgid "The advocacy page is intended for the promotion of pgAdmin."
 msgstr "La page advocacy est destinée à la promotion de pgAdmin."
 
-#: ../cnt/cnt_advocacy.php:85
 #: ../cnt/cnt_index.php:18
 msgid "The application also includes a query builder, an SQL editor, a server-side code editor and much more."
 msgstr "L'application comprend également un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore."
@@ -772,7 +779,6 @@ msgstr "L'application fonctionne sans faire appel à une couche ODBC."
 msgid "The application is executed in binary code, not in a virtual machine, therefore offering very good performance."
 msgstr "L'application s'exécute sous forme d'un code binaire et non dans une machine virtuelle, offrant ainsi de réelles performances."
 
-#: ../cnt/cnt_advocacy.php:82
 #: ../cnt/cnt_index.php:13
 msgid "The application is running under GNU/Linux, FreeBSD and Windows 2000/XP."
 msgstr "L'application fonctionne sous GNU/Linux, FreeBSD et Windows 2000/XP."
@@ -789,7 +795,6 @@ msgstr "Les données sont extraites à la demande, au fur et à mesure de l'affi
 msgid "The documentation can be viewed off-line or on-line."
 msgstr "La documentation peut être consultée on-line ou off-line."
 
-#: ../cnt/cnt_advocacy.php:84
 #: ../cnt/cnt_index.php:17
 msgid "The graphical interface supports all PostgreSQL features and makes administration easy."
 msgstr "L'interface graphique donne accès aux fonctionnalités de PostgreSQL les plus récentes, faisant de l'administration un véritable jeu d'enfant."
@@ -1094,8 +1099,6 @@ msgstr "pgAdmin III est une interface de conception et de gestion pour la base d
 msgid "pgAdmin III is a free software project released under the <a href='%s'>Artistic licence</a>."
 msgstr "pgAdmin III est un logiciel libre distribué sous <a href='%s'>licence artistique</a>."
 
-#: ../cnt/cnt_advocacy.php:77
-#: ../cnt/cnt_advocacy.php:81
 #: ../cnt/cnt_index.php:12
 msgid "pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use."
 msgstr "pgAdmin III est une plate-forme puissante d'admistration et de développement pour la base de données PostgreSQL, libre et gratuite pour tous usages."
@@ -1104,17 +1107,14 @@ msgstr "pgAdmin III est une plate-forme puissante d'admistration et de développ
 msgid "pgAdmin III is available subject to the terms of the Artistic Licence."
 msgstr "pgAdmin III est disponible aux conditions de la licence « Artistic Licence »."
 
-#: ../cnt/cnt_advocacy.php:83
 #: ../cnt/cnt_index.php:16
 msgid "pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases."
 msgstr "pgAdmin III a été conçu pour répondre aux besoins de tous les utilisateurs, depuis l'écriture de requêtes simples jusqu'au développement de bases de données complexes."
 
-#: ../cnt/cnt_advocacy.php:87
 #: ../cnt/cnt_index.php:22
 msgid "pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License."
 msgstr "pgAdmin III est le fruit d'un projet collaboratif international réunissant des spécialistes des bases de données. L'application est disponible dans plus de 30 langues sous licence libre \"Artistic licence\"."
 
-#: ../cnt/cnt_advocacy.php:86
 #: ../cnt/cnt_index.php:19
 msgid "pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server."
 msgstr "pgAdmin III est disponible sous forme d'un installeur ne nécessitant aucun driver additionnel pour communiquer avec la base de données."

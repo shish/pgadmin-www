@@ -169,6 +169,16 @@
           	</p>
         </td>
       </tr>
+      <tr>
+        <td>
+        	<img src="shots/pgadmin3_grantwiz.png" alt="">
+        </td>
+        <td  COLSPAN=2 valign='top'>
+        	<p>
+        	<?php echo _("pgAdmin III includes a wizard that supports granting rights to multiple objects.");?>
+          	</p>
+        </td>
+      </tr>
     </tbody>
   </table>
 
@@ -254,7 +264,7 @@
             <img src="shots/pgadmin3_languages.png" alt="">
           </td>
           <td COLSPAN=2 valign='top'>
-          <?php echo sprintf(_("pgAdmin III interface is translated in more than %d languages."), 20);?>
+          <?php echo sprintf(_("pgAdmin III interface is translated in more than %d languages."), 30);?>
           <?php echo sprintf(_("We plan to reach %d languages soon."), 40);?>
           <?php echo _("pgAdmin III interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic.");?>
           <br><br>
@@ -274,7 +284,6 @@
         </td>
         <td COLSPAN=2 valign='top'>
           <?php echo _("View the status of PostgreSQL server.");?>
-          <?php echo _("In a near future, we would like to transform this utility into a full-featured PostgreSQL server configuration utility.");?>
         </td>
       </tr>
     </tbody>

@@ -1,10 +1,32 @@
 <div class="sideBox LHS">
 <div><?php echo _("Beta versions");?></div>
+<a href="#rc1">Release Candidate</a>
 <a href="#beta3">Beta-3</a>
 <a href="#beta2">Beta-2</a>
 <a href="#beta1">Beta-1</a>
 </div>
 <div id="bodyText">
+<h1 id="rc1"><?php echo _("Release Candidate of pgAdmin III V1.2 released");?></h1>
+2004-11-03
+<p>
+The pgAdmin Development Team are proud to announce the release candidate 
+of pgAdmin III v1.2.0, the well-known GUI administration tool
+for the PostgreSQL database system. 
+</p>
+<p>
+About one year after the last maintenance release V1.0.2 of pgAdmin III, the new version V1.2 with many enhancements
+and full PostgreSQL 8.0 support is approching a mature status. Over the past year and especially the passed beta period
+we received a lot of feedback and wishes from users, which now have been addressed in V1.2. We are quite confident that 
+the status pgAdmin III has reached now is mature, and we're looking forward to release have a final V1.2.0 release 
+quite soon.
+</p>
+<p>
+All fixes that have been included in this release can be checked in our <a href="development.php#changelog">changelog</a>.
+</p>
+<p>
+If you still find bugs or problems, report them immediately to the <a href="mailto:pgadmin-support@postgresql.org">pgAdmin-support mailing list</a>, so we can fix them for the final V1.2.0.
+</p>
+<p>
 <h1 id="beta3"><?php echo _("Beta-3 of pgAdmin III V1.2 released");?></h1>
 2004-10-18
 <p>

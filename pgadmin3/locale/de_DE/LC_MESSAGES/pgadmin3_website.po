@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin III\n"
 "POT-Creation-Date: 2004-02-11 00:29+0100\n"
-"PO-Revision-Date: 2004-10-20 20:14+0100\n"
+"PO-Revision-Date: 2004-11-01 17:36+0100\n"
 "Last-Translator: Andreas Pflug <pgadmin@pse-consulting.de>\n"
 "Language-Team: The pgAdmin Development Team <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -34,12 +34,12 @@ msgstr "<Char_Desc_45>Administrationszentrum für PostgreSQL</Char_Desc_45>"
 msgid "<Char_Desc_80>Free Administration Centre for the PostgreSQL database</Char_Desc_80>"
 msgstr "<Char_Desc_80>Grafische Administrationsoberfläche für das PostgreSQL Datenbanksystem</Char_Desc_80>"
 
-#: ../cnt/cnt_screenshots.php:186
+#: ../cnt/cnt_screenshots.php:196
 msgid "A data grid allows to insert, modify and drop data easily."
 msgstr "Das Datengrid erlaubt das einfache Einfügen, Ändern und Löschen von Daten."
 
-#: ../cnt/cnt_index.php:100
-#: ../cnt/cnt_screenshots.php:261
+#: ../cnt/cnt_index.php:106
+#: ../cnt/cnt_screenshots.php:271
 #, c-format
 msgid "A detailed list of supported languages is available on the <a href='%s'>Translation</a> page."
 msgstr "Eine detaillierte Liste der unterstützten Sprachen kann von der <a href='%s'>Übersetzungen-Seite</a> abgerufen werden."
@@ -48,11 +48,11 @@ msgstr "Eine detaillierte Liste der unterstützten Sprachen kann von der <a href
 msgid "A double-click in the navigation tree opens the selected object in a separate dialog."
 msgstr "Ein Doppelklick in den Navigationsbaum öffnet für das gewählte Objekt einen separaten Dialog."
 
-#: ../cnt/cnt_index.php:52
+#: ../cnt/cnt_index.php:58
 msgid "A new release of pgAdmin is available, including bug fixes for some problems that have been reported by users."
 msgstr "Ein neues Release von pgAdmin is freigegeben, mit einigen Bug Fixes zu Problemen die uns durch Benutzer gemeldet wurden."
 
-#: ../cnt/cnt_screenshots.php:198
+#: ../cnt/cnt_screenshots.php:208
 msgid "A query tool with colour syntax highlight allows to run custom queries."
 msgstr "Ein Abfragetool mit Syntaxhervorhebung erlaubt das Ausführen beliebiger Abfragen."
 
@@ -60,7 +60,7 @@ msgstr "Ein Abfragetool mit Syntaxhervorhebung erlaubt das Ausführen beliebiger
 msgid "A recent development environment."
 msgstr "Eine aktuelle Entwicklungsumgebung."
 
-#: ../cnt/cnt_screenshots.php:203
+#: ../cnt/cnt_screenshots.php:213
 msgid "A running query can be cancelled on the fly by clicking on the red square button."
 msgstr "Eine laufende Abfrage kann durch Klick des roten Quadrates abgebrochen werden."
 
@@ -68,7 +68,7 @@ msgstr "Eine laufende Abfrage kann durch Klick des roten Quadrates abgebrochen w
 msgid "A short guided tour of the interface:"
 msgstr "Eine kurze geführte Tour durch die Oberfläche:"
 
-#: ../cnt/cnt_index.php:110
+#: ../cnt/cnt_index.php:116
 msgid "Access to all PostgreSQL objects"
 msgstr "Zugriff auf alle PostgreSQL-Objekte"
 
@@ -82,11 +82,11 @@ msgstr "Zusätzliche Sprachen"
 msgid "Advocacy"
 msgstr "Advocacy"
 
-#: ../cnt/cnt_index.php:59
+#: ../cnt/cnt_index.php:65
 msgid "After one year of development, we are happy to announce the availability of pgAdmin III, a complete rewrite of pgAdmin II for Ms Windows, GNU/Linux and FreeBSD."
 msgstr "Wir sind stolz, nach einem Jahr der Entwicklung die Verfügbarkeit von pgAdmin III, einer kompletten Neuimplementation, für MS Windows, GNU/Linux und FreeBSD ankündigen zu können."
 
-#: ../cnt/cnt_index.php:119
+#: ../cnt/cnt_index.php:125
 #: ../cnt/cnt_screenshots.php:102
 msgid "Aggregates"
 msgstr "Aggregate"
@@ -95,7 +95,7 @@ msgstr "Aggregate"
 msgid "Anonymous read access is available using a CVS client."
 msgstr "Anonymer Lesezugriff ist über einen CVS-Client verfügbar."
 
-#: ../cnt/cnt_index.php:63
+#: ../cnt/cnt_index.php:69
 msgid "As usual your feedback is highly appreciated and required."
 msgstr "Feedback ist jederzeit willkommen und ermöglicht die Verbesserung der Funktionalität."
 
@@ -138,7 +138,7 @@ msgstr "CVS-Zugriff"
 msgid "CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."
 msgstr "CVS-Zugriff auf das Repository ist über das <a href='%s'>Webinterface</a> oder einen CVS-Client möglich."
 
-#: ../cnt/cnt_index.php:120
+#: ../cnt/cnt_index.php:126
 #: ../cnt/cnt_screenshots.php:103
 msgid "Casts"
 msgstr "Casts"
@@ -152,7 +152,7 @@ msgstr "Änderungen"
 msgid "Check that pgAdmin III executable is in the path."
 msgstr "Prüfen, ob pgAdmin III im Pfad zu finden ist."
 
-#: ../cnt/cnt_screenshots.php:202
+#: ../cnt/cnt_screenshots.php:212
 msgid "Click on the green arrow button to run a query."
 msgstr "Klick auf das grüne Dreieck führt die Abfrage aus."
 
@@ -160,7 +160,7 @@ msgstr "Klick auf das grüne Dreieck führt die Abfrage aus."
 msgid "Column data types can be modified in certain conditions."
 msgstr "Mit bestimmten Einschränkungen können die Datentypen von Spalten verändert werden."
 
-#: ../cnt/cnt_index.php:121
+#: ../cnt/cnt_index.php:127
 #: ../cnt/cnt_screenshots.php:104
 msgid "Columns"
 msgstr "Spalten"
@@ -173,7 +173,7 @@ msgstr "Spalten können gedroppt werden."
 msgid "Compile pgAdmin III."
 msgstr "pgAdmin III kompilieren."
 
-#: ../cnt/cnt_index.php:122
+#: ../cnt/cnt_index.php:128
 #: ../cnt/cnt_screenshots.php:105
 msgid "Constraints"
 msgstr "Constraints"
@@ -183,7 +183,7 @@ msgstr "Constraints"
 msgid "Contribute a translation"
 msgstr "Übersetzung beisteuern"
 
-#: ../cnt/cnt_index.php:123
+#: ../cnt/cnt_index.php:129
 #: ../cnt/cnt_screenshots.php:106
 msgid "Conversions"
 msgstr "Konversionen"
@@ -209,13 +209,13 @@ msgstr "Derzeit nicht gepflegte Übersetzungen (%d Sprachen)"
 msgid "Currently, this is the only version we support."
 msgstr "Zur Zeit ist dies die einzige Version die von uns unterstützt wird."
 
-#: ../cnt/cnt_index.php:103
+#: ../cnt/cnt_index.php:109
 #: ../cnt/cnt_screenshots.php:5
-#: ../cnt/cnt_screenshots.php:177
+#: ../cnt/cnt_screenshots.php:187
 msgid "Data access"
 msgstr "Datenzugriff"
 
-#: ../cnt/cnt_index.php:124
+#: ../cnt/cnt_index.php:130
 #: ../cnt/cnt_screenshots.php:107
 msgid "Databases"
 msgstr "Datenbanken"
@@ -237,12 +237,12 @@ msgstr "Debian packages"
 msgid "Description"
 msgstr "Beschreibung"
 
-#: ../cnt/cnt_index.php:85
+#: ../cnt/cnt_index.php:91
 msgid "Designed for PostgreSQL latest versions"
 msgstr "Designed für die neuesten PostgreSQL-Versionen"
 
 #: ../cnt/cnt_development.php:2
-#: ../cnt/cnt_index.php:183
+#: ../cnt/cnt_index.php:189
 #: ../tpl/menu.php:32
 msgid "Development"
 msgstr "Entwicklung"
@@ -252,7 +252,7 @@ msgstr "Entwicklung"
 msgid "Development team"
 msgstr "Entwicklungsteam"
 
-#: ../cnt/cnt_index.php:181
+#: ../cnt/cnt_index.php:187
 msgid "Do not hesitate to get involved."
 msgstr "Du bist herzlich eingeladen, mitzuwirken."
 
@@ -264,7 +264,7 @@ msgstr "Du bist herzlich eingeladen, die Übersetzungen zu prüfen und zu ergän
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: ../cnt/cnt_index.php:125
+#: ../cnt/cnt_index.php:131
 #: ../cnt/cnt_screenshots.php:108
 msgid "Domains"
 msgstr "Domänen"
@@ -316,7 +316,7 @@ msgstr "Download der pgAdmin3 Sourcen von  unserem <a href='%s'>Mirrorserver</a>
 msgid "Download wxWidgets from the <a href='%s'>wxWidgets</a> download area."
 msgstr "Download der wxWidgets Sourcen aus dem <a href='%s'>wxWidgets</a> Downloadbereich."
 
-#: ../cnt/cnt_screenshots.php:214
+#: ../cnt/cnt_screenshots.php:224
 msgid "EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique optimisation features."
 msgstr "Die Abfragen können mit EXPLAIN und/oder ANALYZE untersucht werden um von den hochentwickelten PostgreSQL Optimierungen zu profitieren."
 
@@ -334,7 +334,7 @@ msgid "Everyone can participate, please refer to the translation howto for more 
 msgstr "Jeder kann mitwirken, das Translation Howto liefert die dazu benötigten Informationen."
 
 #: ../cnt/cnt_index.php:6
-#: ../cnt/cnt_index.php:75
+#: ../cnt/cnt_index.php:81
 msgid "Features"
 msgstr "Features"
 
@@ -363,7 +363,7 @@ msgid "For example, for France, you can try:"
 msgstr "Zum Beispiel kann für Französisch ausprobiert werden:"
 
 #: ../cnt/cnt_download.php:6
-#: ../cnt/cnt_index.php:81
+#: ../cnt/cnt_index.php:87
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
@@ -372,7 +372,7 @@ msgstr "FreeBSD"
 msgid "Frequently asked questions"
 msgstr "Häufig gestellte Fragen"
 
-#: ../cnt/cnt_index.php:126
+#: ../cnt/cnt_index.php:132
 #: ../cnt/cnt_screenshots.php:109
 msgid "Functions"
 msgstr "Funktionen"
@@ -381,7 +381,7 @@ msgstr "Funktionen"
 msgid "Fuzzy"
 msgstr "Fuzzy"
 
-#: ../cnt/cnt_index.php:80
+#: ../cnt/cnt_index.php:86
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
@@ -389,7 +389,7 @@ msgstr "GNU/Linux"
 msgid "GNU/Linux, FreeBSD and other *nixes."
 msgstr "GNU/Linux, FreeBSD und andere *nixe."
 
-#: ../cnt/cnt_index.php:127
+#: ../cnt/cnt_index.php:133
 #: ../cnt/cnt_screenshots.php:110
 msgid "Groups"
 msgstr "Gruppen"
@@ -400,7 +400,7 @@ msgid "Home"
 msgstr "Home"
 
 #: ../cnt/cnt_index.php:7
-#: ../cnt/cnt_index.php:178
+#: ../cnt/cnt_index.php:184
 msgid "How to contribute"
 msgstr "Selber beitragen"
 
@@ -425,24 +425,20 @@ msgstr "Wenn Du der Übersetzer/Verantwortliche der Übersetzung bist und die Ar
 msgid "If you like to continue the work, don't hesiate to contact us!"
 msgstr "Wer die Arbeit fortsetzen möchte, ist herzlich eingeladen sich zu melden!"
 
-#: ../cnt/cnt_index.php:185
+#: ../cnt/cnt_index.php:191
 #, c-format
 msgid "If you think you can contribute new features and/or bug fixes, please visit the <a href='%s'>Development</a> page."
 msgstr "Wenn Du meinst mit neuen Features und/oder Bugfixes beitragen zu können, bitte besuche die Seite <a href='%s'>Development</a>."
 
-#: ../cnt/cnt_index.php:193
+#: ../cnt/cnt_index.php:199
 #, c-format
 msgid "If you think you can help us, please visit the <a href='%s'>Translation</a> page."
 msgstr "Wenn Du meinst uns helfen zu können, besuche die Seite <a href='%s'>Translation</a>."
 
-#: ../cnt/cnt_index.php:68
+#: ../cnt/cnt_index.php:74
 #, c-format
 msgid "If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."
 msgstr "Wenn Du bei der Entwicklung mitwirken willst, kannst Du auch unsere <a href='%s'>täglichen Snapshots</a> benutzen."
-
-#: ../cnt/cnt_screenshots.php:277
-msgid "In a near future, we would like to transform this utility into a full-featured PostgreSQL server configuration utility."
-msgstr "Wir planen, pgAdmin3 durch ein PostgreSQL Serverkonfigurationstool zu ergänzen."
 
 #: ../cnt/cnt_translation.php:39
 msgid "In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language."
@@ -456,7 +452,7 @@ msgstr "Wenn Du auf eine unerwartete Verhaltensweise stößt, bitte erst auf die
 msgid "In every environment, pgAdmin III is a native application."
 msgstr "pgAdmin III wird in jeder Umgebung als native Anwendung ausgeführt."
 
-#: ../cnt/cnt_index.php:186
+#: ../cnt/cnt_index.php:192
 msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
 msgstr "Wir benötigen insbesondere für die Portierung auf MacOsX und SunOS Unterstützung."
 
@@ -468,7 +464,7 @@ msgstr "In Arbeit"
 msgid "In the left pane of pgAdmin III, a navigation tree allow to browse database objects."
 msgstr "Der Navigationsbaum auf der linken Seite von pgAdmin III erlaubt das Verfolgen der Datenbankobjekte."
 
-#: ../cnt/cnt_index.php:128
+#: ../cnt/cnt_index.php:134
 #: ../cnt/cnt_screenshots.php:111
 msgid "Indexes"
 msgstr "Indizes"
@@ -532,11 +528,11 @@ msgid "Location"
 msgstr "Ort"
 
 #: ../cnt/cnt_download.php:292
-#: ../cnt/cnt_index.php:79
+#: ../cnt/cnt_index.php:85
 msgid "MS Windows 2000 & XP"
 msgstr "MS Windows 2000 & XP"
 
-#: ../cnt/cnt_index.php:82
+#: ../cnt/cnt_index.php:88
 msgid "MacOsX and SunOS ports are under development."
 msgstr "MacOsX und SunOS Portierungen sind in Entwicklung."
 
@@ -567,25 +563,25 @@ msgstr "MS Windows"
 msgid "Multibyte & i18n"
 msgstr "Multibyte & i18n"
 
-#: ../cnt/cnt_screenshots.php:239
+#: ../cnt/cnt_screenshots.php:249
 msgid "Multibyte and Internationalisation (i18n) support"
 msgstr "Multibyte und Internationalisation (i18n) Unterstützung"
 
-#: ../cnt/cnt_index.php:154
+#: ../cnt/cnt_index.php:160
 msgid "Multibyte support"
 msgstr "Multibyte Unterstützung"
 
-#: ../cnt/cnt_index.php:97
+#: ../cnt/cnt_index.php:103
 msgid "Multilingual interface"
 msgstr "Mehrsprachige Benutzeroberfläche"
 
-#: ../cnt/cnt_index.php:77
+#: ../cnt/cnt_index.php:83
 #: ../cnt/cnt_screenshots.php:3
 #: ../cnt/cnt_screenshots.php:13
 msgid "Multiplatform"
 msgstr "Multiplattform"
 
-#: ../cnt/cnt_index.php:105
+#: ../cnt/cnt_index.php:111
 msgid "Native PostgreSQL acccess (no ODBC layer needed)"
 msgstr "Nativer PostgreSQL-Zugriff (kein ODBC erforderlich)"
 
@@ -609,24 +605,24 @@ msgstr "Die Reiter erlauben den Zugriff auf Eigenschaften, Parameter, Sicherheit
 msgid "Now, depending on your operation system, follow these steps:"
 msgstr "In Abhängigkeit vom verwendeten Betriebssystem bitte folgenden Schritten folgen:"
 
-#: ../cnt/cnt_index.php:113
+#: ../cnt/cnt_index.php:119
 msgid "Objects are displayed with their SQL definition."
 msgstr "Objekte werden zusammen mit ihrer SQL-Definition dargestellt."
 
-#: ../cnt/cnt_screenshots.php:224
+#: ../cnt/cnt_screenshots.php:234
 msgid "On-line documentation"
 msgstr "Online Dokumentation"
 
-#: ../cnt/cnt_index.php:91
+#: ../cnt/cnt_index.php:97
 msgid "On-line help"
 msgstr "Online Hilfe"
 
-#: ../cnt/cnt_index.php:134
+#: ../cnt/cnt_index.php:140
 #: ../cnt/cnt_screenshots.php:117
 msgid "Operator classes"
 msgstr "Operator-Klassen"
 
-#: ../cnt/cnt_index.php:135
+#: ../cnt/cnt_index.php:141
 #: ../cnt/cnt_screenshots.php:118
 msgid "Operators"
 msgstr "Operatoren"
@@ -654,13 +650,13 @@ msgstr "Bitte <B>keine</B> Email direkt an einen der Entwicker senden; sie könn
 msgid "Please refer to our <a href='%s'>installation instructions</a>."
 msgstr "Bitte die <a href='%s'>Installationsanweisungen</a> beachten."
 
-#: ../cnt/cnt_index.php:53
+#: ../cnt/cnt_index.php:59
 #, c-format
 msgid "Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."
 msgstr "Die neuesten Informationen über Änderungen an pgAdmin sind im<A href='%s'>Change log</A> zu finden.."
 
-#: ../cnt/cnt_index.php:39
-#: ../cnt/cnt_index.php:46
+#: ../cnt/cnt_index.php:45
+#: ../cnt/cnt_index.php:52
 #, c-format
 msgid "Please visit the pgAdmin <a href='%s'>Beta release</a> page to learn more about this exciting new version."
 msgstr "Bitte besuchen sie die pgAdmin <a href='%s'>Beta Release</a> Seite um weitere Details zu erfahren."
@@ -670,24 +666,24 @@ msgstr "Bitte besuchen sie die pgAdmin <a href='%s'>Beta Release</a> Seite um we
 msgid "PostgreSQL %s with libpq for data access."
 msgstr "PostgreSQL %s mit libpq für den Datenzugriff."
 
-#: ../cnt/cnt_index.php:87
+#: ../cnt/cnt_index.php:93
 msgid "PostgreSQL 7.3"
 msgstr "PostgreSQL 7.3"
 
-#: ../cnt/cnt_index.php:88
+#: ../cnt/cnt_index.php:94
 msgid "PostgreSQL 7.4"
 msgstr "PostgreSQL 7.4"
 
-#: ../cnt/cnt_index.php:93
+#: ../cnt/cnt_index.php:99
 msgid "PostgreSQL documentation (on-line and off-line)"
 msgstr "PostgreSQL-Dokumentation (online und offline)"
 
-#: ../cnt/cnt_index.php:136
+#: ../cnt/cnt_index.php:142
 #: ../cnt/cnt_screenshots.php:119
 msgid "PostgreSQL servers"
 msgstr "PostgreSQL-Server"
 
-#: ../cnt/cnt_index.php:106
+#: ../cnt/cnt_index.php:112
 msgid "Powerful query tool with color syntax highlight"
 msgstr "Leistungsfähiges Abfragetool mit farblicher Syntaxhervorhebung."
 
@@ -724,7 +720,7 @@ msgstr "Unser Team wurde kürzlich durch Entwickler verstärkt, die mehr als 10 
 msgid "Requirements"
 msgstr "Anforderungen"
 
-#: ../cnt/cnt_index.php:137
+#: ../cnt/cnt_index.php:143
 #: ../cnt/cnt_screenshots.php:120
 msgid "Rules"
 msgstr "Regeln"
@@ -733,11 +729,11 @@ msgstr "Regeln"
 msgid "Run the following commands as root:"
 msgstr "Folgende Kommandos as root absetzen:"
 
-#: ../cnt/cnt_index.php:94
+#: ../cnt/cnt_index.php:100
 msgid "SQL command guide"
 msgstr "SQL-Kommando Handbuch"
 
-#: ../cnt/cnt_index.php:138
+#: ../cnt/cnt_index.php:144
 #: ../cnt/cnt_screenshots.php:121
 msgid "Schemas"
 msgstr "Schemata"
@@ -747,17 +743,17 @@ msgstr "Schemata"
 msgid "Screenshots"
 msgstr "Screenshots"
 
-#: ../cnt/cnt_index.php:139
+#: ../cnt/cnt_index.php:145
 #: ../cnt/cnt_screenshots.php:122
 msgid "Sequences"
 msgstr "Sequenzen"
 
 #: ../cnt/cnt_screenshots.php:8
-#: ../cnt/cnt_screenshots.php:268
+#: ../cnt/cnt_screenshots.php:278
 msgid "Server status"
 msgstr "Server-Status"
 
-#: ../cnt/cnt_index.php:129
+#: ../cnt/cnt_index.php:135
 #: ../cnt/cnt_screenshots.php:112
 msgid "Server-side languages (like PLpgsql, PLpython, PLperl, etc...)"
 msgstr "Serverseitige Sprachen (wie PLpgsql, PLpython, PLperl, etc...)"
@@ -780,7 +776,7 @@ msgstr "Status"
 msgid "Support"
 msgstr "Support"
 
-#: ../cnt/cnt_index.php:140
+#: ../cnt/cnt_index.php:146
 #: ../cnt/cnt_screenshots.php:123
 msgid "Tables"
 msgstr "Tabellen"
@@ -789,7 +785,7 @@ msgstr "Tabellen"
 msgid "The FAQ page is also accessible via the pgAdmin III help menu."
 msgstr "Die FAQ-Seite kann auch aus dem pgAdmin III Hilfemenü heraus aufgerufen werden."
 
-#: ../cnt/cnt_screenshots.php:200
+#: ../cnt/cnt_screenshots.php:210
 msgid "The SQL definition of any object can be transfered to the query tool."
 msgstr "Die SQL-Definition von jedem Objekt kann in das Querytool übernommen werden."
 
@@ -817,11 +813,11 @@ msgstr "Die Anwendung läuft unter GNU/Linux, FreeBSD und Windows 2000/XP."
 msgid "The best solution is to use a recent distribution."
 msgstr "Die beste Lösung ist es, eine aktuelle Distribution zu verwenden."
 
-#: ../cnt/cnt_screenshots.php:188
+#: ../cnt/cnt_screenshots.php:198
 msgid "The data is retrieved on-demand when it needs to be displayed."
 msgstr "Die Daten werden erst abgerufen, wenn sie auch tatsächlich dargestellt werden sollen."
 
-#: ../cnt/cnt_screenshots.php:233
+#: ../cnt/cnt_screenshots.php:243
 msgid "The documentation can be viewed off-line or on-line."
 msgstr "Die Dokumentation kann online oder offline verwendet werden."
 
@@ -844,15 +840,20 @@ msgstr "Die Mailadresse ist die desjenigen, der die Übersetzung bisher gepflegt
 msgid "The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."
 msgstr "Die Mirror werden freundlicherweise von dem <a href='%s'>PostgreSQL</a> Projekt zur Verfügung gestellt."
 
-#: ../cnt/cnt_index.php:45
+#: ../cnt/cnt_index.php:51
 msgid "The pgAdmin Development Team are pleased to announce the first Beta version of pgAdmin III v1.2.0, the well-known GUI administration tool for the PostgreSQL database system."
 msgstr "Das pgAdmin Development Team ist stolz, die Freigabe der ersten Betaversion von pgAdmin III v1.2.0, dem bekannten GUI Administrationstool für Postgresql Datenbanksysteme, bekanntgeben zu können."
 
-#: ../cnt/cnt_index.php:38
+#: ../cnt/cnt_index.php:32
+#, c-format
+msgid "The pgAdmin Development Team are proud to announce the release candidate of pgAdmin III v1.2.0, the well-known GUI administration tool for the PostgreSQL database system. For details, please  visit the pgAdmin <a href='%s'>Beta release</a> page."
+msgstr "Das pgAdmin Development Team ist stolz, die Freigabe den Releasekandidaten von pgAdmin III v1.2.0, dem bekannten GUI Administrationstool für Postgresql Datenbanksysteme, bekanntgeben zu können. Weitere Informationen sind auf unserer <a href='%s'>Beta-Seite</a> zu finden."
+
+#: ../cnt/cnt_index.php:44
 msgid "The pgAdmin Development Team has released the second Beta version of pgAdmin III v1.2.0. This fixes many issues that have been reported by our beta testers all around the world. Thanks for your feedback!"
 msgstr "Das pgAdmin Development Team hat die zweite Betaversion von pgAdmin III v1.2.0 freigegeben. Diese Version fixt etliche Probleme die durch unsere Betatester rund um die Welt lokalisiert wurden. Danke für das Feedback!"
 
-#: ../cnt/cnt_index.php:180
+#: ../cnt/cnt_index.php:186
 #: ../cnt/cnt_translation.php:65
 msgid "The project can only live and develop with your help."
 msgstr "Das Projekt kann nur mit Deiner Hilfe leben und sich weiterentwickeln."
@@ -870,7 +871,7 @@ msgstr "Die zum Checkout erforderlichen Kommandozeilen sind folgende:"
 msgid "The software is available in source and binary format from our <a href='%s'>mirrors</a>."
 msgstr "Die Software ist als Source und im Binärformat von unseren <a href='%s'>Mirrors</a> abrufbar."
 
-#: ../cnt/cnt_index.php:67
+#: ../cnt/cnt_index.php:73
 #, c-format
 msgid "The software is available in source and binary format from the <a href='%s'>Download</a> page."
 msgstr "Die Software ist als Source und im Binärformat von unserer <a href='%s'>Downloadseite</a> abrufbar."
@@ -879,12 +880,12 @@ msgstr "Die Software ist als Source und im Binärformat von unserer <a href='%s'
 msgid "The software is written in C++ and uses the excellent wxWindows cross platform toolkit."
 msgstr "Die Software ist in C++ geschrieben und benutzt das exzellente wxWindows Cross-Platform Toolkit."
 
-#: ../cnt/cnt_index.php:32
+#: ../cnt/cnt_index.php:38
 #, c-format
 msgid "The third Beta version of  pgAdmin III v1.2.0 is out! Again, many bugs have been fixed. For details, look at our <a href='%s'>change log</a> and visit the pgAdmin <a href='%s'>Beta release</a> page."
 msgstr "Die dritte Betaversion von pgAdmin III v1.2.0 ist draußen! Wiederum konnten viele Fehler ausgemerzt werden. Details können dem <a href='%s'>Changelog</a> entnommen werden, weitere Informationen stehen auf der pgAdmin <a href='%s'>Beta release</a> Seite."
 
-#: ../cnt/cnt_screenshots.php:205
+#: ../cnt/cnt_screenshots.php:215
 msgid "The tool displays execution times of queries."
 msgstr "Das Tool zeigt die Ausführungszeiten der Abfrage an."
 
@@ -918,7 +919,7 @@ msgstr "Diese Seite ist nur in Englisch verfügbar."
 msgid "This section is available in English only."
 msgstr "Diese Sektion ist nur in Englisch verfügbar."
 
-#: ../cnt/cnt_screenshots.php:189
+#: ../cnt/cnt_screenshots.php:199
 msgid "This technical choice allows to browse very large tables without problem."
 msgstr "Diese technische Vorkehrung erlaubt das Anzeigen auch sehr großer Tabellen ohne Probleme."
 
@@ -950,7 +951,7 @@ msgstr "Übersetze den Text und sende uns die *.po Datei."
 msgid "Translated"
 msgstr "Übersetzt"
 
-#: ../cnt/cnt_index.php:190
+#: ../cnt/cnt_index.php:196
 #: ../cnt/cnt_translation.php:26
 #: ../tpl/menu.php:33
 msgid "Translation"
@@ -970,12 +971,12 @@ msgstr "aktualisierte Übersetzungen"
 msgid "Translations in progress (%d languages)"
 msgstr "Übersetzung in Arbeit (%d Sprachen)"
 
-#: ../cnt/cnt_index.php:141
+#: ../cnt/cnt_index.php:147
 #: ../cnt/cnt_screenshots.php:124
 msgid "Trigger function"
 msgstr "Triggerfunktion"
 
-#: ../cnt/cnt_index.php:142
+#: ../cnt/cnt_index.php:148
 #: ../cnt/cnt_screenshots.php:125
 msgid "Types"
 msgstr "Typen"
@@ -1007,7 +1008,7 @@ msgstr "Nicht übersetzt"
 msgid "User interface"
 msgstr "Benutzerschnittstelle"
 
-#: ../cnt/cnt_index.php:143
+#: ../cnt/cnt_index.php:149
 #: ../cnt/cnt_screenshots.php:126
 msgid "Users"
 msgstr "Benutzer"
@@ -1016,24 +1017,24 @@ msgstr "Benutzer"
 msgid "Using the mailing list guarantees that your request isn't lost and will be answered in a timely fashion."
 msgstr "Die Benutzung der Mailing Listen garantiert, daß Anfragen nicht verlorengehen und zeitnah und kompetent beantwortet werden."
 
-#: ../cnt/cnt_index.php:107
+#: ../cnt/cnt_index.php:113
 msgid "Very fast datagrid for display/entry of data"
 msgstr "Sehr schnelles Datengrid für Anzeige/Änderung von Daten"
 
-#: ../cnt/cnt_screenshots.php:276
+#: ../cnt/cnt_screenshots.php:286
 msgid "View the status of PostgreSQL server."
 msgstr "Zeigt den Status des PostgreSQL-Servers an."
 
-#: ../cnt/cnt_index.php:144
+#: ../cnt/cnt_index.php:150
 #: ../cnt/cnt_screenshots.php:127
 msgid "Views"
 msgstr "Sichten"
 
-#: ../cnt/cnt_index.php:64
+#: ../cnt/cnt_index.php:70
 msgid "We can only rely on users to make pgAdmin the best possible software."
 msgstr "Wir benötigen die Unterstützung der Benutzer um pgAdmin zur bestmöglichen Software zu entwickeln."
 
-#: ../cnt/cnt_index.php:192
+#: ../cnt/cnt_index.php:198
 #, c-format
 msgid "We need help to translate pgAdmin III and our website in more than %d languages."
 msgstr "Wir benötigen Unterstützung bei der Übersetzung von pgAdmin III und unserer Website in mehr als %d Sprachen."
@@ -1042,7 +1043,7 @@ msgstr "Wir benötigen Unterstützung bei der Übersetzung von pgAdmin III und u
 msgid "We need your help to translate pgAdmin III into additional languages."
 msgstr "Wir benötigen Unterstützung, um pgAdmin III in weitere Sprachen zu übersetzen."
 
-#: ../cnt/cnt_screenshots.php:258
+#: ../cnt/cnt_screenshots.php:268
 #, c-format
 msgid "We plan to reach %d languages soon."
 msgstr "Wir hoffen bald %d Sprachen zu erreichen."
@@ -1051,7 +1052,7 @@ msgstr "Wir hoffen bald %d Sprachen zu erreichen."
 msgid "We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows 2000 & XP. MacOsX and SunOS ports are in preparation."
 msgstr "Wir stellen Source und Binärpackages für GNU/Linux, FreeBSD und MS Windows2000/SP zur Verfügung. MacOsX und SunOS Portierungen sind in Vorbereitung."
 
-#: ../cnt/cnt_index.php:60
+#: ../cnt/cnt_index.php:66
 msgid "We would like to thank our developer and translator community who contributed to the project."
 msgstr "Wir möchten unserer Entwickler- und Übersetzer Community danken, die zu diesem Projekt beitragen."
 
@@ -1077,15 +1078,16 @@ msgstr "Du bist herzlich willkommen zu die Liste zu abonnieren, aber benutze bit
 msgid "You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox."
 msgstr "Eventuell muß die Sprachbeschreibungsdatei von <A HREF='%s'>ui/pgadmin3.lng</A> aktualisiert werden, damit die neue Sprache in der Sprachauswahl auftaucht."
 
-#: ../cnt/cnt_screenshots.php:216
+#: ../cnt/cnt_screenshots.php:226
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr "PostgreSQL kann dadurch seine Stärken als eines der leistungsfähigsten erhältlichen Datenbanksysteme voll ausspielen."
 
 #: ../cnt/cnt_index.php:30
 #: ../cnt/cnt_index.php:36
-#: ../cnt/cnt_index.php:43
-#: ../cnt/cnt_index.php:50
-#: ../cnt/cnt_index.php:57
+#: ../cnt/cnt_index.php:42
+#: ../cnt/cnt_index.php:49
+#: ../cnt/cnt_index.php:56
+#: ../cnt/cnt_index.php:63
 #, c-format
 msgid "pgAdmin III %s released"
 msgstr "pgAdmin III %s ist freigegeben."
@@ -1117,7 +1119,7 @@ msgstr "pgAdmin III kann von vielen Mirrors weltweit heruntergeladen werden."
 msgid "pgAdmin III can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library."
 msgstr "pgAdmin III kann zu jedem PostgreSQL 7.3/7.4 Datenbankserver mit der eingebunden nativen libpq Library verbinden."
 
-#: ../cnt/cnt_screenshots.php:232
+#: ../cnt/cnt_screenshots.php:242
 msgid "pgAdmin III includes PostgreSQL full documentation."
 msgstr "pgAdmin III enthält die komplette PostgreSQL 7.4 Dokumentation."
 
@@ -1125,12 +1127,16 @@ msgstr "pgAdmin III enthält die komplette PostgreSQL 7.4 Dokumentation."
 msgid "pgAdmin III includes a table editor."
 msgstr "pgAdmin III enthält einen Tabelleneditor."
 
-#: ../cnt/cnt_screenshots.php:257
+#: ../cnt/cnt_screenshots.php:178
+msgid "pgAdmin III includes a wizard that supports granting rights to multiple objects."
+msgstr "pgAdmin III beinhaltet einen Assistenten der das Zuweisen von Rechten an mehrere Objekte auf einmal erleichtert."
+
+#: ../cnt/cnt_screenshots.php:267
 #, c-format
 msgid "pgAdmin III interface is translated in more than %d languages."
 msgstr "Die pgAdmin III Benutzeroberfläche ist in mehr als %d Sprachen übersetzt."
 
-#: ../cnt/cnt_screenshots.php:259
+#: ../cnt/cnt_screenshots.php:269
 msgid "pgAdmin III interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic."
 msgstr "pgAdmin III unterstützt alle Unicode Schreibweisen, sogar Rechts-nach-Links-Schreibweisen (RTL) wie z.B. Arabisch."
 
@@ -1139,7 +1145,7 @@ msgid "pgAdmin III is a comprehensive design and management interface for Postgr
 msgstr "pgAdmin III ist ein umfassendes Design- und Wartungsinterface für das PostgreSQL Datenbanksystem, entwickelt um auf den meisten Betriebssystemen zu laufen."
 
 #: ../cnt/cnt_download.php:15
-#: ../cnt/cnt_index.php:66
+#: ../cnt/cnt_index.php:72
 #, c-format
 msgid "pgAdmin III is a free software project released under the <a href='%s'>Artistic licence</a>."
 msgstr "pgAdmin III ist ein Freies Softwareprojekt, freigegeben unter der <a href='%s'>Artistic Licence</a>."
@@ -1173,7 +1179,7 @@ msgstr "pgAdmin III ist im offiziellen Debian Unstable repository veröffentlich
 msgid "pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server."
 msgstr "pgAdmin III ist mit einem Installer freigegeben und benötigt keinerlei weitere Treiber, um mit dem Datenbankserver zu kommunizieren."
 
-#: ../cnt/cnt_index.php:61
+#: ../cnt/cnt_index.php:67
 #, c-format
 msgid "pgAdmin III is the result of a joint effort of a team of more than %d contributors from %d different countries."
 msgstr "pgAdmin III ist das Ergebnis der gemeinsamen Anstrengungen eines Teams von mehr als %d Mitwirkenden aus %d verschiedenen Ländern."
@@ -1190,20 +1196,20 @@ msgstr "pgAdmin III sind für %s erhältlich."
 msgid "pgAdmin III packages are available for <a href='%s'>GNU/Linux Debian</a> stable, testing and unstable distributions."
 msgstr "pgAdmin III packages sind für <a href='%s'>GNU/Linux Debian</a> stable, testing und unstable Distributionen erhältlich."
 
-#: ../cnt/cnt_screenshots.php:248
+#: ../cnt/cnt_screenshots.php:258
 msgid "pgAdmin III supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte encodings."
 msgstr "pgAdmin III unterstützt alle PostgreSQL serverseitigen Kodierungen, inklusive Unicode UTF-8 und andere Multibyte-Kodierungen."
 
-#: ../cnt/cnt_index.php:156
+#: ../cnt/cnt_index.php:162
 msgid "pgAdmin III supports most PostgreSQL server-side encodings:"
 msgstr "pgAdmin III unterstützt alle PostgreSQL serverseitigen Kodierungen:"
 
-#: ../cnt/cnt_index.php:99
+#: ../cnt/cnt_index.php:105
 #, c-format
 msgid "pgAdmin III user interface is translated in more than %d languages."
 msgstr "Die pgAdmin III Benutzeroberfläche ist in mehr als %d Sprachen übersetzt."
 
-#: ../cnt/cnt_index.php:179
+#: ../cnt/cnt_index.php:185
 msgid "pgAdmin is a project created and managed by contributors from the whole world."
 msgstr "pgAdmin ist ein Projekt, zu dem Entwickler aus der ganzen Welt ihre Beiträge leisten."
 

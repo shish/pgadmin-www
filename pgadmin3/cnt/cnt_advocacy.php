@@ -137,6 +137,7 @@ en (English)
     <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.download32.com/proghtml/533/53391.htm'>Download 32</a></li>
     <li><a href='http://www.downloaddatabase.com'>Download Database</a> (pending)</li>
+    <li><a href='http://www.downloadfreetrial.com'>Downloadfreetrial</a> (pending)</li>
     <li><a href='http://www.finaldownload.com/developer_tools_databases_networks_pgadmin_iii_for_postgresql.html'>Final download</a></li>
     <li><a href='http://www.freedownloadscenter.com'>Free Downloads Center</a> (pending)</li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>

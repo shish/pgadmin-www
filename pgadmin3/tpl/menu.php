@@ -14,6 +14,7 @@
               <option value="en_US" selected><?php echo _("Choose a language"); ?></option>
               <option value="none">---------------------------</option>
               <option value="en_US">English</option>
+              <option value="fa_IR">فارسی</option>
               <option value="fr_FR">Français</option>
               <option value="de_DE">Deutsch</option>
               <option value="id_ID">Indonesia</option>

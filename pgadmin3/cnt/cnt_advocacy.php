@@ -98,7 +98,7 @@
 	pgadmin pgadmin2 pgdmin3 PostgreSQL postgresql postgres sql database development gui administration tool software free pg pg-admin
 	</td></tr>
       </table></li>
-	<li><b>Information in PAD format</b>: PAD is an XML format from the <a href='http://www.asp-shareware.org/pad'>Association of Shareware Profesionals</a> designed for registration of freeware and sharewares. pgAdmin III pad file is available here: <a href='http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml</a>. Furthermore, the <a href='http://www.padring.com'>PadRing</a> extension enables the creation of links between PAD files. Using this feature, our PAD file points at several PostgreSQL administration software. This way, there are chances that pgAdmin III be published on the same sites automatically.</li>
+	<li><b>Information in PAD format</b>: PAD is an XML format from the <a href='http://www.asp-shareware.org/pad'>Association of Shareware Profesionals</a> designed for registration of freeware and sharewares. pgAdmin III pad file is available here: <a href='http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml</a>. Furthermore, the <a href='http://www.padring.com'>PadRing</a> extension enables the creation of links between PAD files. Using this feature, our <a href='http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>PAD file</a> points at several PostgreSQL administration software. This way, there are chances that pgAdmin III be published on the same sites automatically.</li>
     </ul>
   </dd>
 

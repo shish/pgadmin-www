@@ -13,14 +13,14 @@
             <select size="1" name="locale" id="locale" title="">
               <option value="en_US" selected><?php echo _("Choose a language"); ?></option>
               <option value="none">---------------------------</option>
+              <option value="de_DE">Deutsch</option>
               <option value="en_US">English</option>
               <option value="fa_IR">فارسی</option>
               <option value="fr_FR">Français</option>
-              <option value="de_DE">Deutsch</option>
               <option value="id_ID">Indonesia</option>
               <option value="ja_JP">日本</option>
-              <option value="zh_CN">中文 (简体)</option>
               <option value="tr_TR">Türkçe</option>
+              <option value="zh_CN">中文 (简体)</option>
             </select>
 
             <input type="submit" value="Go" />

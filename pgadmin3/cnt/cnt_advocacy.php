@@ -163,6 +163,7 @@ en (English)
     <li><a href='http://www.theopencd.org'>The Open CD</a> (pending)</li>
     <li><a href='http://www.topdownloads.net/software/view.php?id=14174'>Top Downloads Net</a></li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
+    <li><a href='http://www.webmasterfree.com'>Webmaster Free</a> (pending)</li>
     <li><a href='http://www.winpicks.com/ShowDetailsRed.asp?title=pgAdmin+III'>WinPick</a></li>
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a></li>
     <li><a href='http://zeoslib.sourceforge.net/modules.php?name=Web_Links&l_op=search&query=pgadmin'>Zeos Library</a></li>

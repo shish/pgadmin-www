@@ -304,14 +304,16 @@
   <h1 id="win32"><?php echo _("MS Windows 2000 & XP");?></h1>
 
   <dl>
-    <dt><?php echo  sprintf(_("Packager: %s"), "Andreas Pflug");?></dt>
+    <dt><?php echo  sprintf(_("Packager: %s"), "Dave Page");?></dt>
 
     <dd>
       <?php echo sprintf(_("pgAdmin III packages are available for %s."), "MS Windows 2000/XP");?>
+      <br><br>
+      <?php echo echo _("Note that the <a href=\"http://www.postgresql.org/ftp/win32/\">pgInstaller distribution of PostgreSQL for Windows</a> comes with pgAdmin.");?>
     </dd>
   <dd>
         <?php echo sprintf(_("Download pgAdmin III package from our <a href='%s'>mirrors</a>."), "#mirrors");?>
-	<?php echo "On each mirror, the packages are located in:";?>
+	<?php echo _("On each mirror, the packages are located in:");?>
   </dd>
     <dd>
 

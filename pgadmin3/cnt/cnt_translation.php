@@ -27,6 +27,7 @@
   <a href="#update">&rsaquo;  <?php echo _("Translation updates");?></a>
   <a href="#contribute">&rsaquo; <?php echo _("Contribute a translation");?></a>
   <a href="#published">&rsaquo;  <?php echo _("Published");?></a>
+  <a href="#vacant">&rsaquo;  <?php echo _("Unmaintained");?></a>
   <a href="#progress">&rsaquo;  <?php echo _("In progress");?></a>
   <a href="#howto">&rsaquo; <?php echo _("Howto");?></a>
 </div>
@@ -77,7 +78,7 @@
     ?>
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
-  <h1 id="progress"><?php echo sprintf(_("Currently unmaintained Translations (%d languages)"), $vacant->getNbLanguages());?></h1>
+  <h1 id="vacant"><?php echo sprintf(_("Currently unmaintained Translations (%d languages)"), $vacant->getNbLanguages());?></h1>
 	<?php echo sprintf(_("The mail address it that of the translator who contributed previously, but couldn't continue any more."));?></h1>
 	<?php echo sprintf(_("If you like to continue the work, don't hesiate to contact us!"));?></h1>
     <?php

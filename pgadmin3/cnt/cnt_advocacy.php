@@ -134,7 +134,7 @@ en (English)
     <li><a href='http://www.dirfile.com'>Dir file.com</a> (pending)</li>
     <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.download32.com/proghtml/533/53391.htm'>Download 32</a></li>
-    <li><a href='http://www.downloaddatabase.co/'>Download Database</a> (pending)</li>
+    <li><a href='http://www.downloaddatabase.com'>Download Database</a> (pending)</li>
     <li><a href='http://www.finaldownload.com'>Final download</a> (pending)</li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://www.freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
@@ -189,20 +189,6 @@ fr (French)
     <li><a href='http://www.framasoft.net/article2239.html'>Framasoft</a></li>
     <li><a href='http://gnuwin.epfl.ch/fr/index.html'>GNU Win</a> (pending)</li>
     <li><a href='http://telecharger.01net.com/windows/Programmation/base_de_donne'>Telecharger.com</a> (pending)</li>
-  </ul>
-</dd>
-
-<dd>
-hu (Hungarian)
-  <ul>
-    <li><a href='http://www.fsn.hu'>Free Software Nation</a> (pending)</li>
-  </ul>
-</dd>
-
-<dd>
-pl (Polish)
-  <ul>
-    <li><a href='http://www.idg.pl'>IDG</a> (reminder to register)</li>
   </ul>
 </dd>
 

@@ -76,6 +76,10 @@ class po_status {
 				$this->sortByLanguage($_sort_order);
         break;
 
+      case "status":
+				$this->sortByStatus($_sort_order);
+        break;
+
       default:
        $this->sortByLocale($_sort_order);
 		}

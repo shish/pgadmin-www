@@ -27,36 +27,37 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
-  [2004-11-16] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Release Candidate 2");?></dt>
+  [2004-12-01] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2.0");?></dt>
   <dd>
-    <?php echo sprintf(_("In reaction to a major flaw in the GTK version, and to support a recent change in the PostgreSQL 8.0 server, the pgAdmin Development Team decided to roll a second Release Candidate. For details, please  visit the pgAdmin <a href='%s'>Beta release</a> page."), "beta.php");?>
-  </dd>
-</dl>
-<h1 id="news"><?php echo _("Latest news");?></h1>
-<dl>
-  [2004-11-03] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Release Candidate");?></dt>
-  <dd>
-    <?php echo sprintf(_("The pgAdmin Development Team are proud to announce the release candidate of pgAdmin III v1.2.0, the well-known GUI administration tool for the PostgreSQL database system. For details, please  visit the pgAdmin <a href='%s'>Beta release</a> page."), "beta.php");?>
-  </dd>
-</dl>
-<dl>
-  [2004-10-18] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Beta-3");?></dt>
-  <dd>
-    <?php echo sprintf(_("The third Beta version of  pgAdmin III v1.2.0 is out! Again, many bugs have been fixed. For details, look at our <a href='%s'>change log</a> and visit the pgAdmin <a href='%s'>Beta release</a> page."),"development.php#changelog", "beta.php");?>
-  </dd>
-</dl>
-<dl>
-  [2004-09-24] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Beta-2");?></dt>
-  <dd>
-    <?php echo _("The pgAdmin Development Team has released the second Beta version of pgAdmin III v1.2.0. This fixes many issues that have been reported by our beta testers all around the world. Thanks for your feedback!");?>
-    <?php echo sprintf(_("Please visit the pgAdmin <a href='%s'>Beta release</a> page to learn more about this exciting new version."), "beta.php");?>
-  </dd>
-</dl>
-<dl>
-  [2004-09-10] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Beta-1");?></dt>
-  <dd>
-    <?php echo _("The pgAdmin Development Team are pleased to announce the first Beta version of pgAdmin III v1.2.0, the well-known GUI administration tool for the PostgreSQL database system.");?>
-    <?php echo sprintf(_("Please visit the pgAdmin <a href='%s'>Beta release</a> page to learn more about this exciting new version."), "beta.php");?>
+    <?php echo _(" The pgAdmin Development Team are proud to announce the release of pgAdmin III v1.2.0. This is a major new release of pgAdmin following a year of development work by various contributors."); ?>
+    <br><b><?php echo _("Summary of major changes:"); ?></b><br><br>
+    <ul>
+      <li><?php echo _("PostgreSQL 8.0.0 Support."); ?></li>
+      <li><?php echo _("Improved dialogue sizing based on font metrics."); ?></li>
+      <li><?php echo _("Server status windows now displays locks."); ?></li>
+      <li><?php echo _("The query tool can output results directly to a file."); ?></li>
+      <li><?php echo _("Data may be sorted and filtered in the Edit Grid."); ?></li>
+      <li><?php echo _("Column statistics are now supported."); ?></li>
+      <li><?php echo _("Refencing/referenced objects for each object may be viewed."); ?></li>
+      <li><?php echo _("Functions can be viewed and created with class datatypes."); ?></li>
+      <li><?php echo _("Lost database connections are now handled more gracefully."); ?></li>
+      <li><?php echo _("Added the ability to control local database services."); ?></li>
+      <li><?php echo _("Tablespace support."); ?></li>
+      <li><?php echo _("Added a permissions GRANT tool."); ?></li>
+      <li><?php echo _("Display of server logfiles (with server contrib package)."); ?></li>
+      <li><?php echo _("Rows from the edit grid and query tool may be copied to the clipboard."); ?></li>
+      <li><?php echo _("Database backup and restore."); ?></li>
+      <li><?php echo _("Countless other bug fixes and minor improvements."); ?></li>
+    </ul>
+    
+    <?php echo sprintf(_("For a complete list of changes, please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."), "development.php#changelog");?>
+    <br><br>
+    <?php echo _("I would like to take this opportunity to thank all the developers, testers, packagers and translators for their hard work over the last year."); ?>
+    <br><br>
+    <?php echo _("Dave Page"); ?>
+    <br>
+    <?php echo _("pgAdmin Project."); ?>
+
   </dd>
 </dl>
 <dl>

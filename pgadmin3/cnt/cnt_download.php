@@ -118,50 +118,77 @@
           <ul>
             <li>
             <?php echo _("For Debian WOODY:");?>
-            <pre>
-            &nbsp;deb [MIRROR URL]/release/debian woody pgadmin
-            </pre>
+            <br>
+            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+              <tr><td>
+								deb [MIRROR URL]/release/debian woody pgadmin
+              </td></tr>
+            </table>
+            <br>
 
             <li>
             <?php echo _("For Debian TESTING:");?>
-            <pre>
-            &nbsp;deb [MIRROR URL]/release/debian testing pgadmin
-            </pre>
+            <br>
+            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+              <tr><td>
+								deb [MIRROR URL]/release/debian testing pgadmin
+              </td></tr>
+            </table>
+            <br>
 
             <li>
             <?php echo _("For Debian UNSTABLE:");?>
-            <pre>
-            &nbsp;deb [MIRROR URL]/release/debian unstable pgadmin
-            </pre>
+            <br>
+            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+              <tr><td>
+								deb [MIRROR URL]/release/debian unstable pgadmin
+              </td></tr>
+            </table>
+            <br>
 					</ul>
 
           <?php echo _("For example, for France, you can try:");?>
           <ul>
             <li>
             <?php echo _("For Debian WOODY:");?>
-            <pre>
-            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian woody pgadmin
-            </pre>
+            <br>
+            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+              <tr><td>
+								ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian woody pgadmin
+              </td></tr>
+            </table>
+            <br>
 
             <li>
             <?php echo _("For Debian TESTING:");?>
-            <pre>
-            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian testing pgadmin
-            </pre>
+            <br>
+            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+              <tr><td>
+								deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian testing pgadmin
+              </td></tr>
+            </table>
+            <br>
 
             <li>
             <?php echo _("For Debian UNSTABLE:");?>
-            <pre>
-            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian unstable pgadmin
-            </pre>
+            <br>
+            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+              <tr><td>
+								deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian unstable pgadmin
+              </td></tr>
+            </table>
+            <br>
 					</ul>
 
 				<li>
         <?php echo _("Run the following commands as root:");?>
-        <pre>
-        # apt-get update
-        # apt-get install pgadmin3
-        </pre>
+        <br>
+          <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+            <tr><td>
+              apt-get update<br>
+        			apt-get install pgadmin3
+            </td></tr>
+          </table>
      </ol>
     </dd>
 	</dl>
@@ -176,9 +203,12 @@
         <?php echo _("Download pgAdmin RPM package.");?>
         <li>
         <?php echo _("Install using the following command:");?>
-        <pre>
-        # rpm -Uvh pgadmin*.rpm
-        </pre>
+        <br>
+          <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+            <tr><td>
+              rpm -Uvh pgadmin*.rpm
+            </td></tr>
+          </table>
       </ol>
 		</dd>
 	</dl>
@@ -205,18 +235,31 @@
     	<ol>
         <li><?php echo _("Download pgAdmin FreeBSD package.");?>
         <li><?php echo _("Install using the following command:");?>
-        <pre>
-        # pkg_add pgadmin3-yyyymmdd.tgz
-        </pre>
+        <br>
+          <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+            <tr><td>
+              pkg_add pgadmin3-yyyymmdd.tgz
+            </td></tr>
+          </table>
+        <br>
+
         <li><?php echo _("Create a symlink to pgAdmin binary.");?>
-        <pre>
-        # ln -sf /usr/local/pgadmin3/bin/pgadmin3 /usr/local/bin/pgadmin3
-				</pre>
+        <br>
+          <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+            <tr><td>
+              ln -sf /usr/local/pgadmin3/bin/pgadmin3 /usr/local/bin/pgadmin3
+            </td></tr>
+          </table>
+        <br>
+
         <li><?php echo _("Check that pgAdmin executable is in the path.");?>
-        <pre>
-        # which pgadmin3
+        <br>
+          <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+            <tr><td>
+              which pgadmin3
         # /usr/local/bin/pgadmin3
-        </pre>
+            </td></tr>
+          </table>
       </ol>
 		</dd>
 	</dl>
@@ -262,40 +305,68 @@
 
   <dt><?php echo _("Installing wxWindows libraries");?></dt>
   <dd>
-  	<ol>
-    	<li>
-      	<?php echo _("Download our supported wxWindows 2.5 CVS version.");?>
-        <?php echo _("The libraries can be downloaded from our mirrors in the 'wxWindows' directory.")?>
-      	<?php echo _("Unpack as follows:");?><br>
-      <pre>
-      # tar -xzf wxWindows*.tar.gz
-      </pre>
+      <?php echo _("Download our supported wxWindows 2.5 CVS version.");?>
+      <?php echo _("The libraries can be downloaded from our mirrors in the 'wxWindows' directory.")?>
+      <br><br>
+      <?php echo _("Unpack as follows:");?>
+      <br>
+      <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+        <tr><td>
+        tar -xzf wxWindows*.tar.gz
+        </td></tr>
+      </table>
 
-      <li><?php echo _("Install wxWindows from source.");?>
-      <PRE>
-      # cd wxWindows*;
-      # ./configure --with-gtk --enable-gtk2 --enable-unicode --disable-shared --enable-debug
-      # make
-      # make install
-      # ldconfig
-      </PRE>
+			<br>
+      <?php echo _("Now, depending on your operation system, follow these steps:");?>
 
-      <li><?php echo _("Install wxWindows STC (Styled Text Control).");?>
-      <PRE>
-      # cd contrib/src/stc
-      # make
-      # make install
-      # ldconfig
-      </PRE>
+      <ul>
 
-      <li><?php echo _("Install wxWindows XRC (Xml Resource Control).");?>
-      <PRE>
-      # cd ../xrc
-      # make
-      # make install
-      # ldconfig
-      </PRE>
-  	</ol>
+    	<li>GNU/Linux or FreeBSD
+      <br>
+      <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+        <tr><td>
+					cd wxWindows*<br>
+          ./configure --with-gtk --enable-gtk2 \<br>
+          --enable-unicode --disable-shared --enable-debug<br>
+          make<br>
+      		sudo make install<br><br>
+          # <?php echo _("Install wxWindows STC (Styled Text Control).");?><br>
+          cd contrib/src/stc<br>
+      		make<br>
+      		sudo make install<br><br>
+          # <?php echo _("Install wxWindows XRC (Xml Resource Control).");?><br>
+          cd ../xrc/<br>
+      		make<br>
+      		sudo make install
+        </td></tr>
+      </table>
+
+      <br>
+    	<li>MacOsX
+      <br>
+      <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+        <tr><td>
+          # Warning: MacOsX port is completely experimental.<br>
+          # This information is intended for pgAdmin team only.<br>
+          # Please checkout wxWindows and pgAdmin from CVS only.<br>
+          # To coordinate efforts, please contact us on the mailing list<br>
+          <br>
+					cd wxWindows*<br>
+          ../configure --with-mac --disable-shared --enable-debug<br>
+          make<br>
+          sudo make install<br><br>
+					# <?php echo _("Install wxWindows STC (Styled Text Control).");?><br>
+          cd contrib/src/stc/<br>
+          make<br>
+          sudo make install<br><br>
+          # <?php echo _("Install wxWindows XRC (Xml Resource Control).");?><br>
+          cd ../xrc/<br>
+          make<br>
+          sudo make install<br>
+        </td></tr>
+      </table>
+		</ul>
+
 	</dd>
 
 	<dt><?php echo _("Installing pgAdmin");?></dt>
@@ -308,25 +379,22 @@
       <br><br>
 
       <li><?php echo _("Unpack as follows:");?><br>
-      <pre>
-      # tar -xzf pgadmin3*.tar.gz
-      </pre>
+      	<table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+        	<tr><td>
+    			tar -xzf pgadmin3*.tar.gz
+    			</td></tr>
+      </table>
+      <br>
 
-      <li><?php echo _("Alternatively, you can use a CVS client.");?>
-      <pre>
-      # CVSROOT=:pserver:anonymous@cvs.pgadmin.org:/disk1/cvsroot export CVSROOT
-      # cvs login
-      # cvs -z9 checkout pgadmin3
-      # cd pgadmin3
-      # sh bootstrap
-      </pre>
-
-      <li><?php echo _("Compile pgAdmin.");?>
-      <pre>
-      # ./configure --enable-static --enable-debug
-      # make all
-      # make install
-      </pre>
+      <li><?php echo _("Compile pgAdmin.");?><br>
+        <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+            <tr><td>
+            ./configure --enable-static --enable-debug<br>
+            make all<br>
+      			sudo make install
+            </td></tr>
+        </table>
+      <br>
 		</ol>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>

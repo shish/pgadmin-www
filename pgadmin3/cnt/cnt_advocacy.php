@@ -82,9 +82,9 @@
     <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="lightyellow" dir='ltr'>
       <tr><td>
 	      <ol>
-	        <li><?php echo _("Powerfull administration and development tools for PostgreSQL, free for any use.")?></li>
+	        <li><?php echo _("Graphical administration interface for the PostgreSQL database, free for any use.")?></li>
 	        <li>
-		  <?php echo _("pgAdmin III is a powerfull administration and development platform for the PostgreSQL database, free for any use.")?>
+		  <?php echo _("pgAdmin III is a powerfull administration and development interface for the PostgreSQL database, free for any use.")?>
 		  <?php echo _("Available in more than 30 languages for Windows 2000/XP, GNU/Linux and FreeBSD.")?>
 		  <?php echo _("Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more.")?></li>
 	        <li>

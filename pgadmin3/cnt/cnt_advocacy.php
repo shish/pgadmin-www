@@ -61,7 +61,7 @@ en (English)
     <li><a href='http://www.hotscripts.com/Tools_and_Utilities/Database_Tools'>Hotscripts</a> (pending)
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)
     <li><a href='http://www.nonags.com'>Nonags</a> (pending)
-    <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)
+    <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>ProgramFiles.com</a>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a> (pending)
   </ul>

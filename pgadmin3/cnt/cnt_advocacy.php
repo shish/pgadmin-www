@@ -54,7 +54,7 @@
 en (English)
 <dd>
   <ul>
-    <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL/'>dmoz Open Directory (needs updating)</a>
+    <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL/'>dmoz</a> (updating pending)
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>
     <li><a href='http://www.hotscripts.com/Tools_and_Utilities/Database_Tools'>Hotscripts</a> (pending)

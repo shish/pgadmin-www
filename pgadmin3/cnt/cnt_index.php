@@ -35,7 +35,9 @@
   </dd>
 
 </dl>
+
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
 
 <h1 id="features"><?php echo _("Features");?></h1>
 <dl>
@@ -136,7 +138,9 @@
   </TABLE>
 
 	</dl>
+
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
 
 <h1 id="contribute"><?php echo _("How to contribute");?></h1>
   <?php echo _("pgAdmin is a project created and managed by contributors from the whole world.");?>
@@ -155,6 +159,9 @@
   	<?php echo sprintf(_("We need help to translate pgAdmin3 and our website in more than %d languages."), 20);?>
   	<?php echo sprintf(_("If you think you can help us, please visit the <a href='%s'>Translation</a> page."), "translation.php");?>
   </dd>
+
 </dl>
+
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
 </div>

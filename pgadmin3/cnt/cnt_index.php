@@ -51,7 +51,7 @@
       <li><?php echo _("Database backup and restore."); ?></li>
       <li><?php echo _("Countless other bug fixes and minor improvements."); ?></li>
     </ul>
-    <br>
+    <br><br>
     <?php echo sprintf(_("For a complete list of changes, please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."), "development.php#changelog");?>
     <br><br>
     <?php echo _("I would like to take this opportunity to thank all the developers, testers, packagers and translators for their hard work over the last year."); ?>

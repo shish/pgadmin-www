@@ -56,7 +56,7 @@ en_US (English)
   <ul>
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>
-    <li>Tucows (pending)
+    <li><a href='http://www.tucows.com/'>Tucows</a> (pending)
   </ul>
 </dd>
 
@@ -64,6 +64,7 @@ fr_FR (French)
 <dd>
   <ul>
     <li><a href='http://www.jesuislibre.org/applications/Bases_de_Donnees/Gestionnaire/pgAdmin_III.php3'>Je suis libre</a>
+    <li><a href='http://www.framasoft.net/rubrique2.html'>Framasoft</a> (pending)
   </ul>
 </dd>
 </dl>

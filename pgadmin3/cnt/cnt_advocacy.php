@@ -174,7 +174,7 @@ fr (French)
   <ul>
     <li><a href='http://www.anshare.com/fiche.asp?I=14713'>Anshare</a></li>
     <li><a href='http://www.jesuislibre.org/applications/Bases_de_Donnees/Gestionnaire/pgAdmin_III.php3'>Je suis libre</a></li>
-    <li><a href='http://www.framasoft.net/rubrique2.html'>Framasoft</a> (pending)</li>
+    <li><a href='http://www.framasoft.net/article2239.html'>Framasoft</a></li>
     <li><a href='http://gnuwin.epfl.ch/fr/index.html'>GNU Win</a> (pending)</li>
     <li><a href='http://telecharger.01net.com/windows/Programmation/base_de_donne'>Telecharger.com</a> (pending)</li>
   </ul>

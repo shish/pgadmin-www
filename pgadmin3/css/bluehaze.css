@@ -4,31 +4,6 @@
  * MODIF: 2003-01-05 1608 +0800                                *
  ***************************************************************/
 
-<?php
- if (!isset($_SESSION['pgadmin']['locale'])) {
-      $_css_locale=$_SESSION['pgadmin']['locale'];
-
-      switch ($_css_locale){
-        case "en_US":
-          $_css_font = "FONT-FAMILY: verdana, helvetica, sans-serif;";
-          break;
-
-        case "de_DE":
-          $_css_font = "FONT-FAMILY: verdana, helvetica, sans-serif;";
-          break;
-
-        case "fr_FR":
-          $_css_font = "FONT-FAMILY: verdana, helvetica, sans-serif;";
-          break;
-
-        default:
-          $_css_font = "";
-      }
-    } else {
-			$_css_font = "";
-    }
-?>
-
 /* ###### Browser-specific Styles ###### */
 
 /* For IE & Mozilla-based browsers: */
@@ -61,7 +36,6 @@
 body {
   background-color: white;
   color: black;
-  <?php echo $_css_font; ?>
   font-size: 95%;
   margin: 0;
   background-repeat: no-repeat;
@@ -69,7 +43,6 @@ body {
 }
 
 h1, h2, h3 {
-  <?php echo $_css_font; ?>
 }
 
 h1 {
@@ -85,7 +58,6 @@ img {
 }
 
 q {
-  <?php echo $_css_font; ?>
   font-weight: bold;
   border-style: dotted;
   border-width: 2px;

@@ -203,7 +203,7 @@ pt (Portuguese/Brazilian)
 <dd>
 ro (Romanian)
   <ul>
-    <li><a href='http://www.softpedia.com/public/scripts/romanianhero/10-8-6-71'>Softpedia</a> (both Englih and Romanian)</li>
+    <li><a href='http://www.softpedia.com/public/scripts/romanianhero/10-8-6-71'>Softpedia</a></li>
   </ul>
 </dd>
 

@@ -117,7 +117,7 @@
 
   <li>
       When this is done, you will receive an email. Connect to <a href="translation.php#progress">Translation in progress</a> page and download the *.po file corresponding to your language.
-      The <?php echo sprintf("<a href='%s'>pgAdmin language template</h>", $pending->getLanguageTemplate());?>
+      The <?php echo sprintf("<a href='%s'>pgAdmin language template</a>", $pending->getLanguageTemplate());?>
       serves as empty template for a new language source file.
       <br><br>
 

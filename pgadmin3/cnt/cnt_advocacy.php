@@ -55,7 +55,7 @@
 cs (Czech)
 <dd>
   <ul>
-    <li><a href='http://postgresql.ok.cz'>PostgreSQL</a>
+    <li><a href='http://postgresql.ok.cz'>PostgreSQL CZ</a>
   </ul>
 </dd>
 
@@ -101,6 +101,13 @@ pt (Portuguese/Brazilian)
     <li><a href='http://www.postgresql.org.br/index.php?corpo=links'>PostgreSQL Brazil</a> (pending)
   </ul>
 </dd>
+
+zh (Chines)
+<dd>
+  <ul>
+    <li><a href='http://www.pgsqldb.org'>PostgreSQL China</a> (pending)
+  </ul>
+</d
 
 </dl>
 

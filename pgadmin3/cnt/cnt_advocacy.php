@@ -138,7 +138,7 @@ pt (Portuguese/Brazilian)
 ro (Romanian)
 <dd>
   <ul>
-    <li><a href='http://www.softpedia.com/public/scripts/romanianhero/10-8-6-71'>Softpedia</a> (both Ensglih and Romanian)</li>
+    <li><a href='http://www.softpedia.com/public/scripts/romanianhero/10-8-6-71'>Softpedia</a> (both Englih and Romanian)</li>
   </ul>
 </dd>
 

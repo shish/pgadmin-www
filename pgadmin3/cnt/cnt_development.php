@@ -61,32 +61,35 @@
   <?php echo _("This section is available in English only.");?><br><br>
   Version 1.2, 22 August 2001
   <ol>
-    <li>Purpose<br>
-    The pgAdmin Development Team exists for 2 reasons:
+    <li>Purpose<br><br>
+    The pgAdmin Development Team exists for 2 reasons:<br>
     <ul>
       <li>To manage and maintain the pgAdmin Project
       <li>To ensure that pgAdmin remains freely available to anyone that wants it, but to prevent non-standard distribution or rebadging by hostile or predatory commercial companies.
-		</ul>
-
-    <li>Structure<br>
-    The foundation consists of the Project Leader, core developers and members.
+  </ul><br>
+    
+    <li>Structure<br><br>
+    The foundation consists of the Project Leader, core developers and members.<br>
     <ul>
       <li>Project Leader: The Project Leader is Dave Page, founder and primary developer of the software. The Project Leader is also considered a Core Developer.
       <li>Core Developers: The Core Developers are Members of the Team that in the opinion of the Project Leader have made significant contributions to the Project.
       <li>Members: Members can be any contributor to the project who accepts an invitation from the Core Developers.
-    </ul>
+    </ul><br>
 
-    <li>Division of Responsibilities<br>
+    <li>Division of Responsibilities<br><br>
     Any major decision regarding the Project must be voted on by the Core Developers. This would include, but is not limited to the granting of permission to a Commercial Company to rebadge or redistribute the Project or any part thereof in a non-standard form. Any vote will be made via email through the relevant mailling list. Responses not received within 2 weeks will be discounted from the vote. In the case of a hung vote, the Project Leader shall cast the deciding vote. Members of the Development Team have no voting right. Their membership is granted as recognition of their work.
-
-    <li>People<br>
+   <br>
+    <li>People<br><br>
     The pgAdmin Development Team includes the following people:
     <ul>
-      <li><a href='mailto:dpage@vale-housing.co.uk'>Dave Page</a> (Project Leader): Project founder & primary developer.
+      <li><a href='mailto:dpage@vale-housing.co.uk'>Dave Page</a> (Project Leader): Project founder & primary developer.<br>&nbsp;
+      
       <li><a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> (Core Developer): translations & web site management.
       <li><a href='mailto:myeatman@vale-housing.co.uk'>Mark Yeatman</a> (Core Developer): Works on controls and consults on UI design.
       <li><a href='mailto:pgadmin@pse-consulting.de'>Andreas Pflug</a> (Core Developer): Has written vast amounts of pgAdmin III code and is responsible for much of its design.
-      <li><a href='mailto:frank_lupo@email.it'>Frank Lupo</a> (Core Developer): Has made countless improvements to the pgAdmin II code from minor bug fixes to major enhancements.
+      <li><a href='mailto:frank_lupo@email.it'>Frank Lupo</a> (Core Developer): Has made countless improvements to the pgAdmin II code from minor bug fixes to major enhancements.<br>&nbsp;
+
+      <li><a href='mailto:saito@inetrt.skcapi.co.jpe'>Hiroshi Saito</a> (Member): Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.
     </ul>
   </ol>
 </dd>

@@ -72,7 +72,10 @@
   <?php echo _("This section is available in English only.");?><br><br>
   <dt id="started">Getting started</dt>
   <dd>
-    Anyone can translate pgAdmin into his/her mother tongue. You don't need to be a programmer. We made sure that all strings could be translated, even into non-European and non-Asian languages. The required steps for translation are the followings:
+    Anyone can translate pgAdmin into his her mother tongue.
+    You do not need to be a programmer.
+    We made sure that all strings could be translated, even into non-European and non-Asian languages.
+    The required steps for translation are the followings:
 
   <ol>
     <li>
@@ -92,7 +95,7 @@
     <br><br>
 
     <li>
-      Send us the English and translated names of your language: "French" and "Français", "German" and "Deutsch", etc.. This will allow us to modify pgAdmin src/ui/pgadmin3.lng file to display the language name in pgAdmin. We will also create a directory according to your locale canonical name under /usr/share/pgadmin3/ui (GNU/Linux and other Unixes) or c:\program files\pgadmi3\ui (Win32). The list of language codes can be found on <a href="http://www.debian.org/international/l10n/po">Debian site</a>.
+      Send us the English and translated names of your language: 'French' and 'Français', 'German"' and 'Deutsch', etc.. This will allow us to modify pgAdmin src/ui/pgadmin3.lng file to display the language name in pgAdmin. We will also create a directory according to your locale canonical name under /usr/share/pgadmin3/ui (GNU/Linux and other Unixes) or c:\program files\pgadmi3\ui (Win32). The list of language codes can be found on <a href='http://www.debian.org/international/l10n/po'>Debian site</a>.
       <br><br>
 
   <li>
@@ -148,11 +151,11 @@
       <br><br>
 
       <li>
-      Stick as much as possible to words which are close to the original SQL syntax. For example, in French, you may use 'vue' for 'view', because both words start with the letter 'v'. Do not choose distant words, like 'déclencheur' for 'trigger', because some users may not be able to make a good use of the SQL syntax ... and ultimately switch to the English version. Sometimes it's better to simply leave these keywords untranslated, instead of creating a fancy word nobody will recognize.
+      Stick as much as possible to words which are close to the original SQL syntax. For example, in French, you may use 'vue' for 'view', because both words start with the letter 'v'. Do not choose distant words, like 'déclencheur' for 'trigger', because some users may not be able to make a good use of the SQL syntax ... and ultimately switch to the English version. Sometimes it is better to simply leave these keywords untranslated, instead of creating a fancy word nobody will recognize.
       <br><br>
 
       <li>
-      Please take special care about including all %s and %d variable placeholders correctly. If you make a typo error, the application might crash. On some occasions, it might be necessary to reorder placeholders. In the following (fictive) example, both parameter positions are exchanged: 'Server %s user %s is logged in' could be translated by 'L'utilisateur s%2$s est connecté au serveur %1$s.'. At the moment, pgAdmin does not require any reorder placehorders, but it might change in the future. Just be aware of it!
+      Please take special care about including all %s and %d variable placeholders correctly. If you make a typo error, the application might crash. On some occasions, it might be necessary to reorder placeholders. In the following (fictive) example, both parameter positions are exchanged: 'Server %s user %s is logged in' could be translated by 'L\'utilisateur s%2$s est connecté au serveur %1$s.'. At the moment, pgAdmin does not require any reorder placehorders, but it might change in the future. Just be aware of it!
       <br><br>
 
     	<li>

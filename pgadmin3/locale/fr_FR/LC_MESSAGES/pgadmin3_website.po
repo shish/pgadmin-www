@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-08-22 14:53+0100\n"
+"PO-Revision-Date: 2003-08-26 14:54+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../cnt/cnt_download.php:300
+#: ../cnt/cnt_download.php:299
 #, c-format
 msgid "<a href='%s'>Daily snapshot</a>."
 msgstr "<a href='%s'>Snapshot quotidien</a>."
@@ -33,16 +33,11 @@ msgstr "Une liste détaillée des langues proposées est disponible à la page <
 msgid "A double-click in the navigation tree opens the selected object in a separate dialog."
 msgstr "Un double-clic dans l'arborescence de navigation ouvre l'objet sélectionné dans une fenêtre de dialogue séparée."
 
-#: ../cnt/cnt_development.php:45
-#, c-format
-msgid "A list of team members is available on the <a href='%s'>team</a> page."
-msgstr "Une liste détaillé des membres de l'équipe est disponible à la page <a href='%s'>équipe</a>."
-
 #: ../cnt/cnt_screenshots.php:187
 msgid "A query tool with colour syntax highlight allows to run custom queries."
 msgstr "Un outil de requêtage avec syntaxe colorisée permet de lancer des requêtes."
 
-#: ../cnt/cnt_download.php:226
+#: ../cnt/cnt_download.php:225
 msgid "A recent development environment."
 msgstr "Un environnement de développement récent"
 
@@ -54,7 +49,7 @@ msgstr "Il est possible d'annuler une requête en cours d'exécution en cliquant
 msgid "A short guided tour of the interface:"
 msgstr "Un rapide aperçu de l'interface:"
 
-#: ../cnt/cnt_download.php:99
+#: ../cnt/cnt_download.php:98
 msgid "APT Configuration"
 msgstr "Configuration APT"
 
@@ -71,7 +66,7 @@ msgstr "Après une année de développement, nous sommes heureux d'annoncer la d
 msgid "Aggregates"
 msgstr "Aggrégats"
 
-#: ../cnt/cnt_download.php:311
+#: ../cnt/cnt_download.php:310
 msgid "Alternatively, you can use a CVS client."
 msgstr "Alternativement, vous pouvez utiliser un client CVS."
 
@@ -83,7 +78,7 @@ msgstr "Bien que concentrant tous nos efforts sur pgAdmin3, nous allons continue
 msgid "Anonymous read access is available using a CVS client."
 msgstr "L'accès anonyme en lecture seule est possible via un client CVS."
 
-#: ../cnt/cnt_download.php:304
+#: ../cnt/cnt_download.php:303
 #, c-format
 msgid "Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"
 msgstr "Authentifier le code source à l'aide de la <a href='%s'>clé PGP de Dave Page's</a>."
@@ -97,7 +92,7 @@ msgstr "Auteur"
 msgid "Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."
 msgstr "Sachant que la compilation du <a href='%s'>code source</a> requiert des connaissances techniques, il est recommandé d'utiliser les <a href='%s'>binaires précompilés</a>."
 
-#: ../cnt/cnt_development.php:54
+#: ../cnt/cnt_development.php:85
 msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."
 msgstr "Sachant que la compilation du code source requiert des connaissances techniques, il est recommandé d'utiliser les binaires précompilés."
 
@@ -124,7 +119,7 @@ msgstr "Le dépot CVS est accessible via une <a href='%s'>interface web</a> ou e
 msgid "Casts"
 msgstr "Casts"
 
-#: ../cnt/cnt_download.php:200
+#: ../cnt/cnt_download.php:199
 msgid "Check that pgAdmin executable is in the path."
 msgstr "Vérifier que l'exécutable de pgAdmin est dans le path."
 
@@ -149,7 +144,7 @@ msgstr "Colonnes"
 msgid "Columns can be dropped."
 msgstr "Les colonnes peuvent être supprimées."
 
-#: ../cnt/cnt_download.php:320
+#: ../cnt/cnt_download.php:319
 msgid "Compile pgAdmin."
 msgstr "Compiler pgAdmin"
 
@@ -171,16 +166,16 @@ msgstr "Impossible de se connecter à la base de données des miroirs."
 msgid "Could not connect to the mirror table."
 msgstr "Impossible de se connecter à la table des miroirs."
 
-#: ../cnt/cnt_download.php:196
+#: ../cnt/cnt_download.php:195
 msgid "Create a symlink to pgAdmin binary."
 msgstr "Créer un raccourci vers l'exécutable de pgAdmin."
 
 #: ../cnt/cnt_development.php:6
-#: ../cnt/cnt_development.php:50
+#: ../cnt/cnt_development.php:81
 msgid "Daily snapshots"
 msgstr "Snapshots quotidiens"
 
-#: ../cnt/cnt_development.php:52
+#: ../cnt/cnt_development.php:83
 msgid "Daily snapshots are packages compiled from CVS nearly everyday."
 msgstr "Les snapshots quotidiens sont des packages compilés chaque jour ou presque à partir du CVS."
 
@@ -205,7 +200,7 @@ msgstr "Conçu pour les versions de PostgreSQL les plus récentes"
 
 #: ../cnt/cnt_development.php:2
 #: ../cnt/cnt_index.php:142
-#: ../tpl/menu.php:33
+#: ../tpl/menu.php:34
 msgid "Development"
 msgstr "Développement"
 
@@ -231,12 +226,12 @@ msgstr "Documentation"
 msgid "Domains"
 msgstr "Domaines"
 
-#: ../cnt/cnt_download.php:216
+#: ../cnt/cnt_download.php:215
 msgid "Double-clic on the installer and follow the instructions."
 msgstr "Double-cliquer sur l'installeur et suivre les instructions."
 
 #: ../cnt/cnt_download.php:2
-#: ../tpl/menu.php:35
+#: ../tpl/menu.php:36
 msgid "Download"
 msgstr "Téléchargement"
 
@@ -248,39 +243,39 @@ msgstr "Téléchargement langue"
 msgid "Download Template"
 msgstr "Téléchargement modèle"
 
-#: ../cnt/cnt_download.php:298
+#: ../cnt/cnt_download.php:297
 msgid "Download from 'beta/source' directory on a mirror."
 msgstr "Télécharger depuis le répertoire 'beta/source' du miroir."
 
-#: ../cnt/cnt_download.php:294
+#: ../cnt/cnt_download.php:293
 msgid "Download from 'stable/source' directory on a mirror."
 msgstr "Télécharger depuis le répertoire 'stable/source\" du miroir."
 
-#: ../cnt/cnt_download.php:252
+#: ../cnt/cnt_download.php:251
 msgid "Download our supported wxWindows 2.5 CVS version."
 msgstr "Télécharger notre version de wxWindows 2.5 CVS recommandée pour pgAdmin."
 
-#: ../cnt/cnt_download.php:191
+#: ../cnt/cnt_download.php:190
 msgid "Download pgAdmin FreeBSD package."
 msgstr "Télécharger le package FreeBSD de pgAdmin."
 
-#: ../cnt/cnt_download.php:161
+#: ../cnt/cnt_download.php:160
 msgid "Download pgAdmin RPM package."
 msgstr "Télécharger le package RPM de pgAdmin."
 
-#: ../cnt/cnt_download.php:178
+#: ../cnt/cnt_download.php:177
 msgid "Download pgAdmin Slackware package."
 msgstr "Télécharger le package Slackware de pgAdmin."
 
-#: ../cnt/cnt_download.php:215
+#: ../cnt/cnt_download.php:214
 msgid "Download pgAdmin installer."
 msgstr "Télécharger l'installeur de pgAdmin."
 
-#: ../cnt/cnt_download.php:290
+#: ../cnt/cnt_download.php:289
 msgid "Download pgAdmin source code from a mirror."
 msgstr "Télécharger pgAdmin depuis un miroir."
 
-#: ../cnt/cnt_development.php:55
+#: ../cnt/cnt_development.php:86
 msgid "Download pgAdmin3 snapshots here:"
 msgstr "Télécharger les snapshots pgAdmin3 ici :"
 
@@ -288,7 +283,7 @@ msgstr "Télécharger les snapshots pgAdmin3 ici :"
 msgid "EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique optimisation features."
 msgstr "Analysez vos requêtes grâce aux fonctions EXPLAIN et/ou ANALYSE et décrouvrez les fonctionnalités uniques de PostgreSQL concernant l'optimisation."
 
-#: ../cnt/cnt_download.php:101
+#: ../cnt/cnt_download.php:100
 msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr "Editer le fichier /etc/apt/sources.list et ajouter la ligne suivante :"
 
@@ -312,22 +307,22 @@ msgstr "Fonctionnalités"
 msgid "Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</a>."
 msgstr "Veuillez télécharger pgAdmin depuis le <a href='%s'>site principal de PostgreSQL</a>."
 
-#: ../cnt/cnt_download.php:111
-#: ../cnt/cnt_download.php:132
+#: ../cnt/cnt_download.php:110
+#: ../cnt/cnt_download.php:131
 msgid "For Debian TESTING:"
 msgstr "Pour Debian TESTING:"
 
-#: ../cnt/cnt_download.php:117
-#: ../cnt/cnt_download.php:138
+#: ../cnt/cnt_download.php:116
+#: ../cnt/cnt_download.php:137
 msgid "For Debian UNSTABLE:"
 msgstr "Pour Debian UNSTABLE:"
 
-#: ../cnt/cnt_download.php:105
-#: ../cnt/cnt_download.php:126
+#: ../cnt/cnt_download.php:104
+#: ../cnt/cnt_download.php:125
 msgid "For Debian WOODY:"
 msgstr "Pour Debian WOODY:"
 
-#: ../cnt/cnt_download.php:123
+#: ../cnt/cnt_download.php:122
 msgid "For example, for France, you can try:"
 msgstr "Par exemple, en France, vous pouvez utiliser :"
 
@@ -335,7 +330,7 @@ msgstr "Par exemple, en France, vous pouvez utiliser :"
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../cnt/cnt_download.php:187
+#: ../cnt/cnt_download.php:186
 #, c-format
 msgid "FreeBSD %s"
 msgstr "FreeBSD %s"
@@ -357,17 +352,17 @@ msgstr "GNU/Linux"
 msgid "GNU/Linux Debian"
 msgstr "GNU/Linux Debian"
 
-#: ../cnt/cnt_download.php:156
+#: ../cnt/cnt_download.php:155
 #, c-format
 msgid "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
 msgstr "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
 
-#: ../cnt/cnt_download.php:173
+#: ../cnt/cnt_download.php:172
 #, c-format
 msgid "GNU/Linux Slackware %s"
 msgstr "GNU/Linux Slackware %s"
 
-#: ../cnt/cnt_download.php:229
+#: ../cnt/cnt_download.php:228
 msgid "GNU/Linux, FreeBSD and other *nixes."
 msgstr "GNU/Linux, FreeBSD et autres *nixes."
 
@@ -377,7 +372,7 @@ msgid "Groups"
 msgstr "Groupes"
 
 #: ../cnt/cnt_index.php:2
-#: ../tpl/menu.php:31
+#: ../tpl/menu.php:32
 msgid "Home"
 msgstr "Accueil"
 
@@ -392,8 +387,8 @@ msgstr "Guide howto"
 
 #: ../cnt/cnt_translation.php:32
 #, c-format
-msgid "If you are interested by the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."
-msgstr "Si vous êtes intéressés par la traduction des messages du serveur PostgreSQL, veuillez visiter la page du projet <a href='%s'>PostgreSQL National Language Support</a>."
+msgid "If you are interested in the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."
+msgstr "Si vous êtes intéréssé(e) par la traduction des messages du serveur PostgreSQL, veuillez visiter la page du projet <a href='%s'>PostgreSQL National Language Support</a>."
 
 #: ../cnt/cnt_index.php:29
 #, c-format
@@ -401,11 +396,11 @@ msgid "If you are interested, please visit <a href='%s'>pgAdmin2</a> site."
 msgstr "Si vous vous intéressez à pgAdmin2, veuillez visiter le site de <a href='%s'>pgAdmin2</a>."
 
 #: ../cnt/cnt_translation.php:42
-msgid "If you are not the author/maintainer of a translation and whish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator."
+msgid "If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator."
 msgstr "Si vous êtes l'auteur ou le responsable de la traduction et souhaitez soumettre un correctif : téléchargez le fichier correpondant à votre langue (extension *.po), faites les corrections nécessaires et renvoyez-nous le fichier en mettant le traducteur en CC."
 
 #: ../cnt/cnt_translation.php:38
-msgid "If you are the author/maintainer of a translation and whish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command."
+msgid "If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command."
 msgstr "Si vous êtes l'auteur ou le responsable de la traduction et souhaitez soumettre un correctif : téléchargez le fichier correpondant à votre langue (extension *.po), lancer poEdit et utiliser la commande 'Mettre à jour à partir du fichier modèle'."
 
 #: ../cnt/cnt_index.php:144
@@ -448,24 +443,24 @@ msgstr "Dans la partie gauche de pgAdmin3, une arborescence de navigation permet
 msgid "Indexes"
 msgstr "Index"
 
-#: ../cnt/cnt_download.php:180
+#: ../cnt/cnt_download.php:179
 msgid "Install the downloaded package using Slackware pkgtool or installpkg."
 msgstr "Installer le package téléchargé en utilisant les outils pkgtool et installpkg de Slackware."
 
-#: ../cnt/cnt_download.php:163
-#: ../cnt/cnt_download.php:192
+#: ../cnt/cnt_download.php:162
+#: ../cnt/cnt_download.php:191
 msgid "Install using the following command:"
 msgstr "Installer à l'aide de la commande suivante :"
 
-#: ../cnt/cnt_download.php:268
+#: ../cnt/cnt_download.php:267
 msgid "Install wxWindows STC (Styled Text Control)."
 msgstr "Installer wxWindows STC (Styled Text Control)."
 
-#: ../cnt/cnt_download.php:276
+#: ../cnt/cnt_download.php:275
 msgid "Install wxWindows XRC (Xml Resource Control)."
 msgstr "Installer wxWindows XRC (Xml Resource Control)."
 
-#: ../cnt/cnt_download.php:259
+#: ../cnt/cnt_download.php:258
 msgid "Install wxWindows from source."
 msgstr "Installer wxWindows à partir du code source."
 
@@ -473,15 +468,15 @@ msgstr "Installer wxWindows à partir du code source."
 msgid "Installing binary packages"
 msgstr "Installation des packages binaires"
 
-#: ../cnt/cnt_download.php:222
+#: ../cnt/cnt_download.php:221
 msgid "Installing from source"
 msgstr "Installation à partir du code source"
 
-#: ../cnt/cnt_download.php:286
+#: ../cnt/cnt_download.php:285
 msgid "Installing pgAdmin"
 msgstr "Installation de pgAdmin"
 
-#: ../cnt/cnt_download.php:248
+#: ../cnt/cnt_download.php:247
 msgid "Installing wxWindows libraries"
 msgstr "Installation des librairies wxWindows"
 
@@ -521,7 +516,7 @@ msgstr "Locale"
 msgid "Location on mirror"
 msgstr "Emplacement sur le miroir"
 
-#: ../cnt/cnt_download.php:211
+#: ../cnt/cnt_download.php:210
 #: ../cnt/cnt_index.php:40
 msgid "MS Windows 2000 & XP"
 msgstr "MS Windows 2000 & XP"
@@ -579,7 +574,7 @@ msgstr "Il est possible de visualiser, de créer, de modifier ou de supprimer la
 msgid "No mirrors could be found."
 msgstr "Aucun miroir n'a été trouvé."
 
-#: ../cnt/cnt_download.php:295
+#: ../cnt/cnt_download.php:294
 msgid "Not yet available."
 msgstr "Pas encore disponible."
 
@@ -618,20 +613,20 @@ msgid "Operators"
 msgstr "Opérateurs"
 
 #: ../cnt/cnt_download.php:94
-#: ../cnt/cnt_download.php:157
-#: ../cnt/cnt_download.php:174
-#: ../cnt/cnt_download.php:188
-#: ../cnt/cnt_download.php:212
+#: ../cnt/cnt_download.php:156
+#: ../cnt/cnt_download.php:173
+#: ../cnt/cnt_download.php:187
+#: ../cnt/cnt_download.php:211
 #, c-format
 msgid "Packager: %s"
 msgstr "Responsable package : %s"
 
-#: ../cnt/cnt_development.php:61
+#: ../cnt/cnt_development.php:92
 #, c-format
 msgid "Please refer to our <a href='%s'>installation instructions</a>."
 msgstr "Veuillez vous référer à nos <a href='%s'>instructions d'installation</a>."
 
-#: ../cnt/cnt_download.php:244
+#: ../cnt/cnt_download.php:243
 #, c-format
 msgid "PostgreSQL %s with libpq for data access."
 msgstr "PostgreSQL %s avec libpq pour l'accès aux données."
@@ -670,11 +665,11 @@ msgstr "Traduction publiées (%d langues)"
 msgid "Recently, our team was joined by developers with an experience of more than 10 years in the design of database tools."
 msgstr "Récemment, notre équipe s'est enrichie de développeurs ayant une expérience de plus de 10 années dans la création d'outils de base de données."
 
-#: ../cnt/cnt_download.php:230
+#: ../cnt/cnt_download.php:229
 msgid "Recents versions of GTK2.2, automake, autoconf and gcc are needed."
 msgstr "Il est nécessaire d'utiliser des versions récentes de GTK2.2, de automake, de autoconf et de gcc."
 
-#: ../cnt/cnt_download.php:223
+#: ../cnt/cnt_download.php:222
 msgid "Requirements"
 msgstr "Prérequis"
 
@@ -683,7 +678,7 @@ msgstr "Prérequis"
 msgid "Rules"
 msgstr "Règles"
 
-#: ../cnt/cnt_download.php:145
+#: ../cnt/cnt_download.php:144
 msgid "Run the following commands as root:"
 msgstr "Lancer les commandes suivantes sous l'utilisateur root :"
 
@@ -697,7 +692,7 @@ msgid "Schemas"
 msgstr "Schémas"
 
 #: ../cnt/cnt_screenshots.php:2
-#: ../tpl/menu.php:32
+#: ../tpl/menu.php:33
 msgid "Screenshots"
 msgstr "Copies d'écran"
 
@@ -720,7 +715,7 @@ msgstr "Langages de programmation server-side (i.e. PLpgSQL, PLpython, PLperl, e
 msgid "Source code"
 msgstr "Code source"
 
-#: ../cnt/cnt_download.php:293
+#: ../cnt/cnt_download.php:292
 msgid "Stable release."
 msgstr "Version stable."
 
@@ -729,7 +724,7 @@ msgid "Status"
 msgstr "Avancement"
 
 #: ../cnt/cnt_support.php:2
-#: ../tpl/menu.php:36
+#: ../tpl/menu.php:37
 msgid "Support"
 msgstr "Support"
 
@@ -750,7 +745,7 @@ msgstr "L'application fonctionne sans faire appel à une couche ODBC."
 msgid "The application is executed in binary code, not in a virtual machine, therefore offering very good performance."
 msgstr "L'application s'exécute sous forme d'un code binaire et non dans une machine virtuelle, offrant ainsi de réelles performances."
 
-#: ../cnt/cnt_download.php:231
+#: ../cnt/cnt_download.php:230
 msgid "The best solution is to use a recent distribution."
 msgstr "La meilleure solution est d'utiliser une distribution récente."
 
@@ -762,13 +757,13 @@ msgstr "Les données sont extraites à la demande, au fur et à mesure de l'affi
 msgid "The documentation can be viewed off-line or on-line."
 msgstr "La documentation peut être consultée on-line ou off-line."
 
-#: ../cnt/cnt_development.php:68
+#: ../cnt/cnt_development.php:99
 #: ../cnt/cnt_support.php:20
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
 msgstr "Les informations affichées sont extraites automatiquement du CVS de pgAdmin."
 
-#: ../cnt/cnt_download.php:240
-#: ../cnt/cnt_download.php:253
+#: ../cnt/cnt_download.php:239
+#: ../cnt/cnt_download.php:252
 msgid "The libraries can be downloaded from our mirrors in the 'wxWindows' directory."
 msgstr "Les librairies peuvent être téléchargées directement depuis nos miroirs dans le répertoire 'wxWindows'."
 
@@ -812,7 +807,7 @@ msgstr "L'outil affiche la durée d'exécution des requêtes."
 msgid "The updated translations are published in daily snapshots automatically."
 msgstr "Les traductions mises à jour sont publiées automatiquement dans les snapshots quotidiens."
 
-#: ../cnt/cnt_development.php:53
+#: ../cnt/cnt_development.php:84
 msgid "There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development."
 msgstr "Il n'est apporté aucune garantie que ces packages fonctionnent d'une quelconque manière : il s'agit d'un logiciel de qualité alpha destiné aux développeurs pour leurs besoins de test et de développement."
 
@@ -820,11 +815,8 @@ msgstr "Il n'est apporté aucune garantie que ces packages fonctionnent d'une qu
 msgid "This makes learning SQL more easy..."
 msgstr "Apprendre le langage SQL est ainsi plus aisé..."
 
-#: ../cnt/cnt_development.php:46
-msgid "This page is available in English only."
-msgstr "Cette page est disponible uniquement en langue anglaise."
-
-#: ../cnt/cnt_development.php:67
+#: ../cnt/cnt_development.php:45
+#: ../cnt/cnt_development.php:98
 #: ../cnt/cnt_support.php:19
 #: ../cnt/cnt_translation.php:72
 msgid "This section is available in English only."
@@ -850,7 +842,7 @@ msgid "To subscribe to the mailing list, send an email to %s with the word 'subs
 msgstr "Pour vous inscrire sur la liste de diffusion, veuillez envoyer un courriel à l'adresse %s en indiquant le mot 'subscribe', sans quillemet, dans le corps de votre message."
 
 #: ../cnt/cnt_development.php:7
-#: ../cnt/cnt_development.php:65
+#: ../cnt/cnt_development.php:96
 msgid "Todo list"
 msgstr "Liste des todo."
 
@@ -868,7 +860,7 @@ msgstr "Traduit"
 
 #: ../cnt/cnt_index.php:149
 #: ../cnt/cnt_translation.php:20
-#: ../tpl/menu.php:34
+#: ../tpl/menu.php:35
 msgid "Translation"
 msgstr "Traduction"
 
@@ -900,8 +892,8 @@ msgstr "Sous GNU/Linux, il existe de nombreux clients en mode graphique ou ligne
 msgid "Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free software."
 msgstr "Sous Windows, nous recommandons l'utilisation de <a href='%s'>WinCVS</a>, qui est un logiciel libre."
 
-#: ../cnt/cnt_download.php:254
-#: ../cnt/cnt_download.php:306
+#: ../cnt/cnt_download.php:253
+#: ../cnt/cnt_download.php:305
 msgid "Unpack as follows:"
 msgstr "Extraire l'archive comme indiqué ci-dessous:"
 
@@ -950,7 +942,7 @@ msgstr "Nous espérons atteindre %d langues rapidement."
 msgid "We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows 2000 & XP. MacOsX and SunOS ports are in preparation."
 msgstr "Le code source et des packages pré-compilés sont disponibles pour les plates-formes GNU/Linux, FreeBSD et Ms Windows 2000 & XP. Les portages MacOsX et SunOS sont en préparation."
 
-#: ../cnt/cnt_download.php:239
+#: ../cnt/cnt_download.php:238
 msgid "We provide wxWindows 2.5 source and binary packages."
 msgstr "Nous fournissons des packages source et binaire de wxWindows 2.5."
 
@@ -962,7 +954,7 @@ msgstr "Nous tenons à remercier notre communauté de développeurs et de traduc
 msgid "When configured server-side, it is possible to connect using encrypted password or SSL authentication."
 msgstr "Lorsque configuré côté serveur, il est possible de se connecter en utilisant un mot de passe crypté ou une authentification SSL."
 
-#: ../cnt/cnt_download.php:233
+#: ../cnt/cnt_download.php:232
 msgid "Windows 2000 & XP."
 msgstr "Windows 2000 & XP."
 
@@ -998,7 +990,7 @@ msgstr "Package binaire pgAdmin pour %s"
 msgid "pgAdmin is a project created and managed by contributors from the whole world."
 msgstr "pgAdmin est un projet créé et animé par des participants du monde entier."
 
-#: ../cnt/cnt_download.php:291
+#: ../cnt/cnt_download.php:290
 msgid "pgAdmin is available in several qualities: stable, beta, daily snapshot."
 msgstr "pgAdmin est disponible sous plusieurs versions : stable, bêta, snapshot quotidien."
 
@@ -1085,7 +1077,7 @@ msgid "pgAdmin3 user interface is translated in more than %d languages."
 msgstr "L'interface utilisateur de pgAdmin3 est traduire vers %d langues."
 
 #: ../cnt/cnt_development.php:32
-msgid "pgadmin-hackers list is intended for developers who whish to contribute to pgAdmin project."
+msgid "pgadmin-hackers list is intended for developers who wish to contribute to pgAdmin project."
 msgstr "La liste de diffusion pgadmin-hackers est destinée aux développeurs désirant participer au projet pgAdmin."
 
 #: ../cnt/cnt_development.php:30
@@ -1100,11 +1092,11 @@ msgstr "pgadmin-support est une liste de diffusion destinée au support techniqu
 msgid "pgadmin-support mailing list"
 msgstr "Liste de diffusion pgadmin-support"
 
-#: ../cnt/cnt_download.php:238
+#: ../cnt/cnt_download.php:237
 msgid "wxWindows 2.4 will not work because of Unicode problems."
 msgstr "wxWindows 2.4 ne fonctionne pas en raison de problèmes Unicode."
 
-#: ../cnt/cnt_download.php:237
+#: ../cnt/cnt_download.php:236
 msgid "wxWindows 2.5 compiled from CVS with additional patches."
 msgstr "wxWindows 2.5 compilé à partir de CVS avec quelques correctifs additionnels."
 

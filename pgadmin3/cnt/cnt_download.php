@@ -5,8 +5,8 @@
   <a href="#slackware">&rsaquo; <?php echo _("Slackware")?></a>
   <a href="#freebsd">&rsaquo; <?php echo _("FreeBSD")?></a>
   <a href="#win32">&rsaquo; <?php echo _("Ms Windows")?>
-  <a href="#source">&rsaquo; <?php echo _("Source")?></a>
-  <a href="#snapshots">&rsaquo; <?php echo _("Daily snapshots");?></a>
+  <a href="#source">&rsaquo; <?php echo _("Source code")?></a>
+  <a href="#snapshots">&rsaquo; <?php echo _("Binary snapshots");?></a>
   <a href="#mirrors">&rsaquo; <?php echo _("Mirrors")?></a>
 </div>
 
@@ -326,7 +326,7 @@
 	</dl>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
-  <h1 id="source"><?php echo _("Installing from source")?></h1>
+  <h1 id="source"><?php echo _("Installing pgAdmin from source code")?></h1>
   <dt><?php echo _("Requirements");?></dt>
   <dd>
   	<ul>
@@ -448,9 +448,9 @@
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
-      <h1 id="snapshots"><?php echo _("Daily snapshots");?></h1>
+      <h1 id="snapshots"><?php echo _("Installing pgAdmin from binary snapshots");?></h1>
   <dd>
-    <?php echo sprintf(_("Daily snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."), "development.php#cvs");?>
+    <?php echo sprintf(_("Binary snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."), "development.php#cvs");?>
     <?php echo _("There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development.");?>
     <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
     <?php echo _("Download pgAdmin3 snapshots here:");?>

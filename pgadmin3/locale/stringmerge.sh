@@ -11,7 +11,7 @@
 #
 #######################################################################
 
-cd /home/jmpoure/project/pgadmin/www/pgadmin3
+cd /home/jmpoure/projects/pgadmin/www/pgadmin3
 cvs update -C -P -d
 cd locale
 if test -f pgadmin3_website.pot; then

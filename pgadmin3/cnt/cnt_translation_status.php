@@ -9,7 +9,7 @@
 //       considered published. If you added or remove any, please
 //       ensure that src/Makefile.am in the pgAdmin3 source tree is
 //       updated to reflect the changes.
-//       Any translated language should have an enty in 
+//       Any translated language should have an entry in 
 //       docs/en_US/translation_team.html as well.
 //
 
@@ -51,6 +51,7 @@
   $pending->addLanguage ("lt_LT", "Lithuanian", "Linas Jankauskas", "linas.jankauskas@eniro.lt", "pgadmin3.po", "src/ui/lt_LT/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("tl_PH", "Filipino/Tagalog", "Howard Bagcat", "howard@mu.edu.ph", "pgadmin3.po","src/ui/tl_PH/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("uk_UA", "Ukrainian", "Алексей Поторжинский (Alex Potorzhinsky)", "alp@kengu.ru", "pgadmin3.po","src/ui/uk_UA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $pending->addLanguage ("ur_PK", "Urdu", "Zaeem Arshad", "zaeem.arshad@gmail.com", "pgadmin3.po","src/ui/ur_PK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("vi_VN", "Vietnamese", "Victor Ngoc Duc Vu", "vuducngocus@yahoo.com", "pgadmin3.po","src/ui/vi_VN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
 
 

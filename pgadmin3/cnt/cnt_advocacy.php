@@ -164,6 +164,7 @@ en (English)
     <li><a href='http://www.theopencd.org'>The Open CD</a> (pending)</li>
     <li><a href='http://www.thesoftwarebank.com/soft.aspx?id=23109'>The Software bank</a></li>
     <li><a href='http://www.topdownloads.net/software/view.php?id=14174'>Top Downloads Net</a></li>
+    <li><a href='http://www.topshareware.com'>TopShareware</a> (pending)</li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
     <li><a href='http://www.webmasterfree.com'>Webmaster Free</a> (pending)</li>
     <li><a href='http://www.winpicks.com/ShowDetailsRed.asp?title=pgAdmin+III'>WinPick</a></li>

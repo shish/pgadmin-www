@@ -1,10 +1,20 @@
 <div class="sideBox LHS">
   <div><?php echo _("Support")?></div>
+  <a href="#FAQ">&rsaquo; <?php echo _("Frequently asked questions")?></a>
   <a href="#support_list">&rsaquo; <?php echo _("Mailing list")?></a>
   <a href="#bugs">&rsaquo; <?php echo _("Known bugs")?></a>
 </div>
 
 <div id="bodyText">
+  <h1 id="FAQ"><?php echo _("Frequently asked questions")?></h1>
+	<dd>
+  	<?php echo sprintf(_("Our <a href=%s>FAQ</a> document contains some known caveats."), "/pgadmin3/faq")?>
+    <?php echo _("In case you encounter an unexpected behaviour, you should have a look at that page.")?>
+    <br><br>
+    <?php echo _("The FAQ page is also accessible via the pgAdmin III help menu.")?>
+  </dd>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
   <h1 id="support_list"><?php echo _("pgadmin-support mailing list")?></h1>
 	<dd>
   	<?php echo _("pgadmin-support is a support list intended for end user support and bug reports.")?>

@@ -57,6 +57,7 @@
   <dd>
     <?php echo _("The project can only live and develop with your help.");?>
     <?php echo _("Do not hesitate to review or update a translation.");?>
+    <BR>
   </dd>
 
   <dd><?php echo _("The updated translations are published in daily snapshots automatically.");?>

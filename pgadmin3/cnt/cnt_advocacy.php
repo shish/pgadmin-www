@@ -105,6 +105,7 @@ de (German)
 <dd>
 en (English)
   <ul>
+    <li><a href='http://www.acm.org/sigmod/databaseSoftware/nonprofit'>Association for Computing Machinery</a> (pending)</li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/recent1.html'>Database Journal</a> (pending)</li>
     <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
@@ -156,6 +157,7 @@ hu (Hungarian)
 <dd>
 pt (Portuguese/Brazilian)
   <ul>
+    <li><a href='http://www.mhavila.com.br/link'>Hyperlink</a> (pending)</li>
     <li><a href='http://www.postgresql.org.br/index.php?corpo=links'>PostgreSQL Brazil</a> (pending)</li>
   </ul>
 </dd>

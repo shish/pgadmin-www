@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2004-02-11 00:29+0100\n"
-"PO-Revision-Date: 2004-09-12 12:24+0100\n"
+"PO-Revision-Date: 2004-09-15 13:37+0100\n"
 "Last-Translator:  <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -178,8 +178,8 @@ msgstr "pgAdmin III kompilieren."
 msgid "Constraints"
 msgstr "Constraints"
 
-#: ../cnt/cnt_translation.php:22
-#: ../cnt/cnt_translation.php:37
+#: ../cnt/cnt_translation.php:28
+#: ../cnt/cnt_translation.php:43
 msgid "Contribute a translation"
 msgstr "Übersetzung beisteuern"
 
@@ -199,6 +199,11 @@ msgstr "Konnte keine Verbindung zur Mirror-Tabelle herstellen."
 #: ../cnt/cnt_download.php:265
 msgid "Create a symlink to pgAdmin III binary."
 msgstr "Erzeugen eines symbolischen Links zum pgAdmin III-Programm."
+
+#: ../cnt/cnt_translation.php:80
+#, c-format
+msgid "Currently unmaintained Translations (%d languages)"
+msgstr "Derzeit nicht gepflegte Übersetzungen (%d Sprachen)"
 
 #: ../cnt/cnt_index.php:89
 #: ../cnt/cnt_screenshots.php:5
@@ -247,7 +252,7 @@ msgstr "Entwicklungsteam"
 msgid "Do not hesitate to get involved."
 msgstr "Du bist herzlich eingeladen, mitzuwirken."
 
-#: ../cnt/cnt_translation.php:59
+#: ../cnt/cnt_translation.php:65
 msgid "Do not hesitate to review or update a translation."
 msgstr "Du bist herzlich eingeladen, die Übersetzungen zu prüfen und zu ergänzen."
 
@@ -319,7 +324,7 @@ msgstr "Die Datei /etc/apt/sources.list editieren und folgende Zeile anfügen:"
 msgid "Every time you manipulate objects graphically, pgAdmin III writes the corresponding SQL code."
 msgstr "Wenn ein Objekt mit einem Dialog geändert wird, erzeugt pgAdmin III den dazugehörigen SQL Code."
 
-#: ../cnt/cnt_translation.php:40
+#: ../cnt/cnt_translation.php:46
 msgid "Everyone can participate, please refer to the translation howto for more information."
 msgstr "Jeder kann mitwirken, das Translation Howto liefert die dazu benötigten Informationen."
 
@@ -394,22 +399,26 @@ msgstr "Home"
 msgid "How to contribute"
 msgstr "Selber beitragen"
 
-#: ../cnt/cnt_translation.php:25
+#: ../cnt/cnt_translation.php:31
 msgid "Howto"
 msgstr "Howto"
 
-#: ../cnt/cnt_translation.php:42
+#: ../cnt/cnt_translation.php:48
 #, c-format
 msgid "If you are interested in the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."
 msgstr "Bei Interesse an der Übersetzung von PostgreSQL Servermeldungen finden sich die erforderlichen Informationen auf der Projektseite <a href='%s'>PostgreSQL National Language Support</a>."
 
-#: ../cnt/cnt_translation.php:53
+#: ../cnt/cnt_translation.php:59
 msgid "If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator."
 msgstr "Wenn Du nicht der Autor/Verantwortliche der Übersetzung bist und einen Text korrigieren möchtest: Die Sprachdatei (*.po Endung) herunterladen, die Änderung durchführen und uns zurücksenden, mit CC an den Übersetzer."
 
-#: ../cnt/cnt_translation.php:49
+#: ../cnt/cnt_translation.php:55
 msgid "If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command."
 msgstr "Wenn Du der Übersetzer/Verantwortliche der Übersetzung bist und die Arbeit ergänzen möchtest: Die Vorlagedatei (*.pot Endung) herunterladen, mit poEdit und dem Kommando 'Update aus Vorlage' erweitern."
+
+#: ../cnt/cnt_translation.php:82
+msgid "If you like to continue the work, don't hesiate to contact us!"
+msgstr "Wer die Arbeit fortsetzen möchte, ist herzlich eingeladen sich zu melden!"
 
 #: ../cnt/cnt_index.php:171
 #, c-format
@@ -430,7 +439,7 @@ msgstr "Wenn Du bei der Entwicklung mitwirken willst, kannst Du auch unsere <a h
 msgid "In a near future, we would like to transform this utility into a full-featured PostgreSQL server configuration utility."
 msgstr "Wir planen, pgAdmin3 durch ein PostgreSQL Serverkonfigurationstool zu ergänzen."
 
-#: ../cnt/cnt_translation.php:32
+#: ../cnt/cnt_translation.php:38
 msgid "In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language."
 msgstr "Eine zusätzliche Sprache die nicht in der Distribution vorhanden war kan sehr einfach zur Installation hinzugefügt werden."
 
@@ -446,7 +455,7 @@ msgstr "pgAdmin III wird in jeder Umgebung als native Anwendung ausgeführt."
 msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
 msgstr "Wir benötigen insbesondere für die Portierung auf MacOsX und SunOS Unterstützung."
 
-#: ../cnt/cnt_translation.php:24
+#: ../cnt/cnt_translation.php:30
 msgid "In progress"
 msgstr "In Arbeit"
 
@@ -680,11 +689,11 @@ msgstr "Vorstellung"
 msgid "Presentation of pgAdmin III"
 msgstr "Vorstellung von pgAdmin III"
 
-#: ../cnt/cnt_translation.php:23
+#: ../cnt/cnt_translation.php:29
 msgid "Published"
 msgstr "Veröffentlicht"
 
-#: ../cnt/cnt_translation.php:47
+#: ../cnt/cnt_translation.php:53
 #, c-format
 msgid "Published Translations (%d languages)"
 msgstr "Veröffentlichte Übersetzungen (%d Sprachen)"
@@ -743,7 +752,7 @@ msgstr "Server-Status"
 msgid "Server-side languages (like PLpgsql, PLpython, PLperl, etc...)"
 msgstr "Serverseitige Sprachen (wie PLpgsql, PLpython, PLperl, etc...)"
 
-#: ../cnt/cnt_translation.php:33
+#: ../cnt/cnt_translation.php:39
 #, c-format
 msgid "Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section, create a subdirectory in your installation's ui directory with a name corresponding to the locale code,  and copy the new translation file into that directory."
 msgstr "Die benötigte Übersetzungsdatei (pgadmin3.mo) in der <A HREF='%s'>Übersetzungssektion</A> lokalisieren, ein Verzeichnis im Unterverzeichnis ui der Installation mit dem Namen des Sprachcodes erzeugen, und die neue Übersetzungsdatei in das Verzeichnis kopieren."
@@ -821,17 +830,21 @@ msgstr "Die angezeigte Information wird automatisch aus dem pgAdmin CVS extrahie
 msgid "The libraries can be downloaded from our mirrors in the 'wxWindows' directory."
 msgstr "Die Libraries können von unseren Mirrors aus dem 'wxWindows' Verzeichnis heruntergeladen werden."
 
+#: ../cnt/cnt_translation.php:81
+msgid "The mail address it that of the translator who contributed previously, but couldn't continue any more."
+msgstr "Die Mailadresse ist die desjenigen, der die Übersetzung bisher gepflegt hatte, dies jedoch derzeit nicht fortsetzen kann."
+
 #: ../cnt/cnt_download.php:468
 #, c-format
 msgid "The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."
 msgstr "Die Mirror werden freundlicherweise von dem <a href='%s'>PostgreSQL</a> Projekt zur Verfügung gestellt."
 
 #: ../cnt/cnt_index.php:31
-msgid "The pgAdmin Development Team is pleased to announce the first Beta version of pgAdmin III v1.2.0, the well-known GUI administration tool for the PostgreSQL database system."
+msgid "The pgAdmin Development Team are pleased to announce the first Beta version of pgAdmin III v1.2.0, the well-known GUI administration tool for the PostgreSQL database system."
 msgstr "Das pgAdmin Development Team ist stolz, die Freigabe der ersten Betaversion von pgAdmin III v1.2.0, dem bekannten GUI Administrationstool für Postgresql Datenbanksysteme, bekanntgeben zu können."
 
 #: ../cnt/cnt_index.php:166
-#: ../cnt/cnt_translation.php:58
+#: ../cnt/cnt_translation.php:64
 msgid "The project can only live and develop with your help."
 msgstr "Das Projekt kann nur mit Deiner Hilfe leben und sich weiterentwickeln."
 
@@ -861,7 +874,7 @@ msgstr "Die Software ist in C++ geschrieben und benutzt das exzellente wxWindows
 msgid "The tool displays execution times of queries."
 msgstr "Das Tool zeigt die Ausführungszeiten der Abfrage an."
 
-#: ../cnt/cnt_translation.php:63
+#: ../cnt/cnt_translation.php:69
 msgid "The updated translations are published in daily snapshots automatically."
 msgstr "Die aktualisierten Übersetzungen werden automatisch in den täglichen Snapshots verteilt."
 
@@ -887,7 +900,7 @@ msgstr "Diese Seite ist nur in Englisch verfügbar."
 #: ../cnt/cnt_development.php:100
 #: ../cnt/cnt_development.php:116
 #: ../cnt/cnt_support.php:35
-#: ../cnt/cnt_translation.php:85
+#: ../cnt/cnt_translation.php:101
 msgid "This section is available in English only."
 msgstr "Diese Sektion ist nur in Englisch verfügbar."
 
@@ -895,7 +908,7 @@ msgstr "Diese Sektion ist nur in Englisch verfügbar."
 msgid "This technical choice allows to browse very large tables without problem."
 msgstr "Diese technische Vorkehrung erlaubt das Anzeigen auch sehr großer Tabellen ohne Probleme."
 
-#: ../cnt/cnt_translation.php:41
+#: ../cnt/cnt_translation.php:47
 #, c-format
 msgid "This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."
 msgstr "Auch diese Website kann mithilfe von <a href='%s'>pgadmin3_website.pot</a> übersetzt werden."
@@ -915,7 +928,7 @@ msgstr "TODO Liste"
 msgid "Total"
 msgstr "Gesamt"
 
-#: ../cnt/cnt_translation.php:50
+#: ../cnt/cnt_translation.php:56
 msgid "Translate the text and send us the *.po file."
 msgstr "Übersetze den Text und sende uns die *.po Datei."
 
@@ -924,21 +937,21 @@ msgid "Translated"
 msgstr "Übersetzt"
 
 #: ../cnt/cnt_index.php:176
-#: ../cnt/cnt_translation.php:20
+#: ../cnt/cnt_translation.php:26
 #: ../tpl/menu.php:33
 msgid "Translation"
 msgstr "Übersetzung"
 
-#: ../cnt/cnt_translation.php:83
+#: ../cnt/cnt_translation.php:99
 msgid "Translation howto"
 msgstr "Übersetzungs-HOWTO"
 
-#: ../cnt/cnt_translation.php:21
-#: ../cnt/cnt_translation.php:29
+#: ../cnt/cnt_translation.php:27
+#: ../cnt/cnt_translation.php:35
 msgid "Translation updates"
 msgstr "aktualisierte Übersetzungen"
 
-#: ../cnt/cnt_translation.php:74
+#: ../cnt/cnt_translation.php:90
 #, c-format
 msgid "Translations in progress (%d languages)"
 msgstr "Übersetzung in Arbeit (%d Sprachen)"
@@ -1007,7 +1020,7 @@ msgstr "Wir benötigen die Unterstützung der Benutzer um pgAdmin zur bestmögli
 msgid "We need help to translate pgAdmin III and our website in more than %d languages."
 msgstr "Wir benötigen Unterstützung bei der Übersetzung von pgAdmin III und unserer Website in mehr als %d Sprachen."
 
-#: ../cnt/cnt_translation.php:39
+#: ../cnt/cnt_translation.php:45
 msgid "We need your help to translate pgAdmin III into additional languages."
 msgstr "Wir benötigen Unterstützung, um pgAdmin III in weitere Sprachen zu übersetzen."
 
@@ -1045,7 +1058,7 @@ msgstr "Mit der Hilfe und den Anregungen der Benutzer haben wird die Verwendbark
 msgid "You are more than welcome to subscribe, but please remember to use <a href='%s'>pgadmin-support</a> list for end user support issues."
 msgstr "Du bist herzlich willkommen zu die Liste zu abonnieren, aber benutze bitte <a href='%s'>pgadmin-support</a> für Endbenutzer-Supportanfragen."
 
-#: ../cnt/cnt_translation.php:34
+#: ../cnt/cnt_translation.php:40
 #, c-format
 msgid "You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox."
 msgstr "Eventuell muß die Sprachbeschreibungsdatei von <A HREF='%s'>ui/pgadmin3.lng</A> aktualisiert werden, damit die neue Sprache in der Sprachauswahl auftaucht."
@@ -1118,7 +1131,7 @@ msgstr "pgAdmin III ist ein Freies Softwareprojekt, freigegeben unter der <a hre
 msgid "pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use."
 msgstr "pgAdmin III ist eine mächtige Administrations- und Entwicklungsplattform für das PostgreSQL Datenbanksystem, frei für jede Benutzung."
 
-#: ../cnt/cnt_translation.php:31
+#: ../cnt/cnt_translation.php:37
 #, c-format
 msgid "pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."
 msgstr "pgAdmin III ist bereits in %d Sprachen übersetzt worden, und Übersetzer rund um die Welt erzeugen weitere Sprachoptionen."

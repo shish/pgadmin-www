@@ -7,17 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-26 14:51+0200\n"
-"PO-Revision-Date: 2003-10-04 09:20+0100\n"
+"PO-Revision-Date: 2003-10-07 10:40+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../cnt/cnt_download.php:299
-#, c-format
-msgid "<a href='%s'>Daily snapshot</a>."
-msgstr "<a href='%s'>每日快照</a>."
 
 #: ../cnt/cnt_screenshots.php:175
 msgid "A data grid allows to insert, modify and drop data easily."
@@ -37,7 +32,7 @@ msgstr "於瀏覽樹中雙擊可開啟所選物件的獨立對話窗。"
 msgid "A query tool with colour syntax highlight allows to run custom queries."
 msgstr "提供色彩標記的查詢工具可執行自訂查詢。"
 
-#: ../cnt/cnt_download.php:225
+#: ../cnt/cnt_download.php:241
 msgid "A recent development environment."
 msgstr "先進的開發環境。"
 
@@ -49,7 +44,7 @@ msgstr "點擊紅色方形按紐可即刻取消進行中的查詢。"
 msgid "A short guided tour of the interface:"
 msgstr "對使用者介面提供簡明的導覽。"
 
-#: ../cnt/cnt_download.php:98
+#: ../cnt/cnt_download.php:114
 msgid "APT Configuration"
 msgstr "APT組態設定"
 
@@ -66,7 +61,7 @@ msgstr "經過一年的開發，我們很高興地發表pgAdmin3，這是pgAdmin
 msgid "Aggregates"
 msgstr "集合"
 
-#: ../cnt/cnt_download.php:310
+#: ../cnt/cnt_download.php:315
 msgid "Alternatively, you can use a CVS client."
 msgstr "您也可以使用CVS客戶端軟體。"
 
@@ -74,7 +69,7 @@ msgstr "您也可以使用CVS客戶端軟體。"
 msgid "Although we concentrate on pgAdmin3, we will continue to support pgAdmin2."
 msgstr "雖然我們主要的精力將用於pgAdmin3，我們仍將持續支援pgAdmin2。"
 
-#: ../cnt/cnt_development.php:17
+#: ../cnt/cnt_development.php:16
 msgid "Anonymous read access is available using a CVS client."
 msgstr "可使用CVS用戶端軟體匿名讀取。"
 
@@ -82,7 +77,7 @@ msgstr "可使用CVS用戶端軟體匿名讀取。"
 msgid "As usual your feedback is highly appreciated and required."
 msgstr "如同以往一樣，我們非常重視您的意見回應。"
 
-#: ../cnt/cnt_download.php:303
+#: ../cnt/cnt_download.php:307
 #, c-format
 msgid "Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"
 msgstr "要確認原始碼未受竄改請用<a href=\"%s'>Dave Page's PGP key</a>驗證。"
@@ -91,29 +86,25 @@ msgstr "要確認原始碼未受竄改請用<a href=\"%s'>Dave Page's PGP key</a
 msgid "Author"
 msgstr "作者"
 
-#: ../cnt/cnt_download.php:11
+#: ../cnt/cnt_download.php:12
 #, c-format
 msgid "Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."
 msgstr "由於編譯<a href='%s'>原始碼</a>需要編譯相關的技術和知識，我們建議安裝<a href='%s'>可執行檔封裝</a>。"
 
-#: ../cnt/cnt_development.php:35
+#: ../cnt/cnt_download.php:95
 msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."
 msgstr "由於編譯原始碼需要編譯相關的技術和知識，我們建議使用可執行檔封裝。"
-
-#: ../cnt/cnt_download.php:4
-msgid "Binary packages"
-msgstr "可執行檔封裝"
 
 #: ../cnt/cnt_index.php:32
 msgid "Both pgAdmin2 and pgAdmin3 can coexist on the same system."
 msgstr "您可同時安裝pgAdmin2和pgAdmin3於同一個系統。"
 
 #: ../cnt/cnt_development.php:3
-#: ../cnt/cnt_development.php:13
+#: ../cnt/cnt_development.php:12
 msgid "CVS access"
 msgstr "CVS存取"
 
-#: ../cnt/cnt_development.php:16
+#: ../cnt/cnt_development.php:15
 #, c-format
 msgid "CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."
 msgstr "CVS程式庫可經由<a href='%s'>網頁介面</a>取得，或是使用您偏好的CVS 用戶端程式存取。"
@@ -123,12 +114,12 @@ msgstr "CVS程式庫可經由<a href='%s'>網頁介面</a>取得，或是使用�
 msgid "Casts"
 msgstr "轉換"
 
-#: ../cnt/cnt_development.php:8
-#: ../cnt/cnt_development.php:113
+#: ../cnt/cnt_development.php:7
+#: ../cnt/cnt_development.php:101
 msgid "Change log"
 msgstr "更改日誌"
 
-#: ../cnt/cnt_download.php:199
+#: ../cnt/cnt_download.php:215
 msgid "Check that pgAdmin executable is in the path."
 msgstr "檢查pgAdmind執行檔是否在預設路徑內。"
 
@@ -153,7 +144,7 @@ msgstr "資料行"
 msgid "Columns can be dropped."
 msgstr "資料行可被刪除。"
 
-#: ../cnt/cnt_download.php:319
+#: ../cnt/cnt_download.php:324
 msgid "Compile pgAdmin."
 msgstr "編譯pgAdmin。"
 
@@ -175,17 +166,18 @@ msgstr "無法連接到鏡像資料庫。"
 msgid "Could not connect to the mirror table."
 msgstr "無法連接到鏡像資料表。"
 
-#: ../cnt/cnt_download.php:195
+#: ../cnt/cnt_download.php:211
 msgid "Create a symlink to pgAdmin binary."
 msgstr "建立一個連結符到pgAdmin二元可執行檔。"
 
-#: ../cnt/cnt_development.php:4
-#: ../cnt/cnt_development.php:31
+#: ../cnt/cnt_download.php:4
+#: ../cnt/cnt_download.php:91
 msgid "Daily snapshots"
 msgstr "每日快照"
 
-#: ../cnt/cnt_development.php:33
-msgid "Daily snapshots are packages compiled from CVS nearly everyday."
+#: ../cnt/cnt_download.php:93
+#, c-format
+msgid "Daily snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."
 msgstr "每日快照是每日由CVS直接封裝而成。"
 
 #: ../cnt/cnt_index.php:68
@@ -199,7 +191,7 @@ msgstr "資料存取"
 msgid "Databases"
 msgstr "資料庫"
 
-#: ../cnt/cnt_download.php:25
+#: ../cnt/cnt_download.php:26
 msgid "Description"
 msgstr "描述"
 
@@ -209,11 +201,12 @@ msgstr "設計用於最新版本的PostgreSQL"
 
 #: ../cnt/cnt_development.php:2
 #: ../cnt/cnt_index.php:146
-#: ../tpl/menu.php:36
+#: ../tpl/menu.php:37
 msgid "Development"
 msgstr "開發"
 
-#: ../cnt/cnt_development.php:6
+#: ../cnt/cnt_development.php:5
+#: ../cnt/cnt_development.php:43
 msgid "Development team"
 msgstr "發展團隊"
 
@@ -234,12 +227,12 @@ msgstr "文件"
 msgid "Domains"
 msgstr "領域"
 
-#: ../cnt/cnt_download.php:215
+#: ../cnt/cnt_download.php:231
 msgid "Double-clic on the installer and follow the instructions."
 msgstr "僅需雙擊安裝檔並依循其指示。"
 
 #: ../cnt/cnt_download.php:2
-#: ../tpl/menu.php:38
+#: ../tpl/menu.php:39
 msgid "Download"
 msgstr "下載"
 
@@ -251,39 +244,31 @@ msgstr "下載語言檔"
 msgid "Download Template"
 msgstr "下載模版"
 
-#: ../cnt/cnt_download.php:297
-msgid "Download from 'beta/source' directory on a mirror."
-msgstr "由鏡像伺服器的'beta/source'目錄下載。"
-
-#: ../cnt/cnt_download.php:293
-msgid "Download from 'stable/source' directory on a mirror."
-msgstr "由鏡像伺服器的'stable/source'目錄下載。"
-
-#: ../cnt/cnt_download.php:251
+#: ../cnt/cnt_download.php:267
 msgid "Download our supported wxWindows 2.5 CVS version."
 msgstr "下載我們所支援的wxWindows 2.5 CVS版本。"
 
-#: ../cnt/cnt_download.php:190
+#: ../cnt/cnt_download.php:206
 msgid "Download pgAdmin FreeBSD package."
 msgstr "下載pgAdmin的FreeBSD封裝。"
 
-#: ../cnt/cnt_download.php:160
+#: ../cnt/cnt_download.php:176
 msgid "Download pgAdmin RPM package."
 msgstr "下載pgAdmin 的RPM封裝。"
 
-#: ../cnt/cnt_download.php:177
+#: ../cnt/cnt_download.php:193
 msgid "Download pgAdmin Slackware package."
 msgstr "下載pgAdmin的Slackware封裝。"
 
-#: ../cnt/cnt_download.php:214
+#: ../cnt/cnt_download.php:230
 msgid "Download pgAdmin installer."
 msgstr "下載pgAdmin安裝檔。"
 
-#: ../cnt/cnt_download.php:289
+#: ../cnt/cnt_download.php:304
 msgid "Download pgAdmin source code from a mirror."
 msgstr "由鏡像伺服器下載pgAdmin原始檔。"
 
-#: ../cnt/cnt_development.php:36
+#: ../cnt/cnt_download.php:96
 msgid "Download pgAdmin3 snapshots here:"
 msgstr "於此下載pgAmin3每日快照:"
 
@@ -291,7 +276,7 @@ msgstr "於此下載pgAmin3每日快照:"
 msgid "EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique optimisation features."
 msgstr "闡明和/或分析您的查詢以利用PostgreSQL獨有的最佳化特長。"
 
-#: ../cnt/cnt_download.php:100
+#: ../cnt/cnt_download.php:116
 msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr "修改/etc/apt/sources.list檔加入下行:"
 
@@ -315,22 +300,22 @@ msgstr "特點"
 msgid "Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</a>."
 msgstr "請由<a href='%s'>PostgreSQL主要FTP伺服器</a>自由下載pgAdmin。"
 
-#: ../cnt/cnt_download.php:110
-#: ../cnt/cnt_download.php:131
+#: ../cnt/cnt_download.php:126
+#: ../cnt/cnt_download.php:147
 msgid "For Debian TESTING:"
-msgstr "供Debian 測試:"
+msgstr "Debian測試版本(TESTING)請加入:"
 
-#: ../cnt/cnt_download.php:116
-#: ../cnt/cnt_download.php:137
+#: ../cnt/cnt_download.php:132
+#: ../cnt/cnt_download.php:153
 msgid "For Debian UNSTABLE:"
-msgstr "供Debian不穩定:"
+msgstr "Debian發展版本(UNSTABLE)請加入:"
 
-#: ../cnt/cnt_download.php:104
-#: ../cnt/cnt_download.php:125
+#: ../cnt/cnt_download.php:120
+#: ../cnt/cnt_download.php:141
 msgid "For Debian WOODY:"
-msgstr "供DebianWOODY:"
+msgstr "Debian穩定版本(WOODY)請加入:"
 
-#: ../cnt/cnt_download.php:122
+#: ../cnt/cnt_download.php:138
 msgid "For example, for France, you can try:"
 msgstr "例如在法國，您可以試試:"
 
@@ -338,7 +323,7 @@ msgstr "例如在法國，您可以試試:"
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../cnt/cnt_download.php:186
+#: ../cnt/cnt_download.php:202
 #, c-format
 msgid "FreeBSD %s"
 msgstr "FreeBSD %s"
@@ -356,21 +341,21 @@ msgstr "模糊翻譯"
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: ../cnt/cnt_download.php:93
+#: ../cnt/cnt_download.php:109
 msgid "GNU/Linux Debian"
 msgstr "GNU/Linux Debian"
 
-#: ../cnt/cnt_download.php:155
+#: ../cnt/cnt_download.php:171
 #, c-format
 msgid "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
 msgstr "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
 
-#: ../cnt/cnt_download.php:172
+#: ../cnt/cnt_download.php:188
 #, c-format
 msgid "GNU/Linux Slackware %s"
 msgstr "GNU/Linux Slackware %s"
 
-#: ../cnt/cnt_download.php:228
+#: ../cnt/cnt_download.php:244
 msgid "GNU/Linux, FreeBSD and other *nixes."
 msgstr "GNU/Linux, FreeBSD和其它*nixes。"
 
@@ -380,7 +365,7 @@ msgid "Groups"
 msgstr "群組"
 
 #: ../cnt/cnt_index.php:2
-#: ../tpl/menu.php:34
+#: ../tpl/menu.php:35
 msgid "Home"
 msgstr "首頁"
 
@@ -409,7 +394,7 @@ msgstr "若您要提供某個譯文的修正，但您不是該譯文的作者或
 
 #: ../cnt/cnt_translation.php:38
 msgid "If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command."
-msgstr "若您是某項譯文的作者或維護人而您想更新您的譯文: 下載模版檔 (*.pot 副檔名)，使用 poEdit 並執行 'update from POT file...' 功能。"
+msgstr "若您是某項譯文的作者或維護人而您想更新您的譯文: 下載模版檔 (*.pot 副檔名)，使用poEdit並執行'update from POT file...'功能。"
 
 #: ../cnt/cnt_index.php:148
 #, c-format
@@ -451,40 +436,42 @@ msgstr "pgAdmin3的左窗格提供導引樹可用來瀏覽資料庫的所有物�
 msgid "Indexes"
 msgstr "索引"
 
-#: ../cnt/cnt_download.php:179
+#: ../cnt/cnt_download.php:195
 msgid "Install the downloaded package using Slackware pkgtool or installpkg."
 msgstr "用Slackware的pkgtool或installpkg工具來安裝所下載的封裝。"
 
-#: ../cnt/cnt_download.php:162
-#: ../cnt/cnt_download.php:191
+#: ../cnt/cnt_download.php:178
+#: ../cnt/cnt_download.php:207
 msgid "Install using the following command:"
 msgstr "安裝可用下列指令:"
 
-#: ../cnt/cnt_download.php:267
+#: ../cnt/cnt_download.php:283
 msgid "Install wxWindows STC (Styled Text Control)."
 msgstr "安裝wxWindows STC (Styled Text Control)。"
 
-#: ../cnt/cnt_download.php:275
+#: ../cnt/cnt_download.php:291
 msgid "Install wxWindows XRC (Xml Resource Control)."
 msgstr "安裝wxWindows XRC (Xml Resource Control)。"
 
-#: ../cnt/cnt_download.php:258
+#: ../cnt/cnt_download.php:274
 msgid "Install wxWindows from source."
 msgstr "以原始碼安裝wxWindows。"
 
-#: ../cnt/cnt_download.php:91
+#: ../cnt/cnt_download.php:5
+#: ../cnt/cnt_download.php:107
 msgid "Installing binary packages"
 msgstr "安裝二元碼封裝"
 
-#: ../cnt/cnt_download.php:221
+#: ../cnt/cnt_download.php:6
+#: ../cnt/cnt_download.php:237
 msgid "Installing from source"
 msgstr "以原始碼安裝"
 
-#: ../cnt/cnt_download.php:285
+#: ../cnt/cnt_download.php:301
 msgid "Installing pgAdmin"
 msgstr "安裝pgAdmin"
 
-#: ../cnt/cnt_download.php:247
+#: ../cnt/cnt_download.php:263
 msgid "Installing wxWindows libraries"
 msgstr "安裝wxWindows函式庫。"
 
@@ -506,34 +493,29 @@ msgstr "語言:"
 msgid "Latest news"
 msgstr "最新消息"
 
-#: ../cnt/cnt_download.php:79
+#: ../cnt/cnt_download.php:80
 #, c-format
 msgid "Latest wxWindows %s source and binary packages needed for pgAdmin"
 msgstr "pgAdmin所需的最新wxWindows %s原始碼和二元碼封裝"
-
-#: ../cnt/cnt_download.php:3
-#: ../cnt/cnt_download.php:13
-msgid "List of mirrors"
-msgstr "鏡像伺服器列表"
 
 #: ../class/pgadmin_po.php:239
 msgid "Locale"
 msgstr "地區"
 
-#: ../cnt/cnt_download.php:23
+#: ../cnt/cnt_download.php:24
 msgid "Location on mirror"
 msgstr "於鏡像伺服器上的位置"
 
-#: ../cnt/cnt_download.php:210
+#: ../cnt/cnt_download.php:226
 #: ../cnt/cnt_index.php:44
 msgid "MS Windows 2000 & XP"
 msgstr "微軟視窗2000和XP"
 
 #: ../cnt/cnt_index.php:47
 msgid "MacOsX and SunOS ports are under development."
-msgstr "MacOsX和SunOS的支援正在開發中。"
+msgstr "MacOsX和SunOS的移植計劃正在開發中。"
 
-#: ../cnt/cnt_development.php:5
+#: ../cnt/cnt_development.php:4
 #: ../cnt/cnt_support.php:3
 msgid "Mailing list"
 msgstr "郵件列表"
@@ -542,7 +524,7 @@ msgstr "郵件列表"
 msgid "Maintainer"
 msgstr "維護人"
 
-#: ../cnt/cnt_development.php:52
+#: ../cnt/cnt_development.php:36
 #: ../cnt/cnt_support.php:13
 #, c-format
 msgid "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a href='%s'>mail-archive.com</a>."
@@ -582,10 +564,6 @@ msgstr "可觀看、建立、修改和刪除幾乎所有的PostgreSQL物件，�
 msgid "No mirrors could be found."
 msgstr "找不到任何鏡像伺服器。"
 
-#: ../cnt/cnt_download.php:294
-msgid "Not yet available."
-msgstr "尚不可取得。"
-
 #: ../cnt/cnt_screenshots.php:133
 msgid "Notice the display of the SQL definition with colour syntax highlight."
 msgstr "請注意SQL定義的顯示含有多色強調標示功能。 "
@@ -598,7 +576,7 @@ msgstr "請注意此標記可存取特性、參數、安全性和SQL定義。"
 msgid "Objects are displayed with their SQL definition."
 msgstr "物件顯示包含其SQL定義。"
 
-#: ../cnt/cnt_download.php:17
+#: ../cnt/cnt_download.php:18
 msgid "On each mirror, the files can be found in the following directories:"
 msgstr "在每一個鏡像伺服器，所需的檔案存放於下列目錄中:"
 
@@ -620,16 +598,16 @@ msgstr "運算子類別"
 msgid "Operators"
 msgstr "運算子"
 
-#: ../cnt/cnt_download.php:94
-#: ../cnt/cnt_download.php:156
-#: ../cnt/cnt_download.php:173
-#: ../cnt/cnt_download.php:187
-#: ../cnt/cnt_download.php:211
+#: ../cnt/cnt_download.php:110
+#: ../cnt/cnt_download.php:172
+#: ../cnt/cnt_download.php:189
+#: ../cnt/cnt_download.php:203
+#: ../cnt/cnt_download.php:227
 #, c-format
 msgid "Packager: %s"
 msgstr "封裝提供者: %s"
 
-#: ../cnt/cnt_development.php:42
+#: ../cnt/cnt_download.php:102
 #, c-format
 msgid "Please refer to our <a href='%s'>installation instructions</a>."
 msgstr "請參照我們的<a href='%s'>安裝指引</a>。"
@@ -639,7 +617,7 @@ msgstr "請參照我們的<a href='%s'>安裝指引</a>。"
 msgid "Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."
 msgstr "請前往<a href='%s'>更新日誌</a>網頁以了解最新修正的相關資訊。"
 
-#: ../cnt/cnt_download.php:243
+#: ../cnt/cnt_download.php:259
 #, c-format
 msgid "PostgreSQL %s with libpq for data access."
 msgstr "PostgreSQL %s及libpq供資料存取。"
@@ -678,11 +656,11 @@ msgstr "已發行的譯文(%d語言)"
 msgid "Recently, our team was joined by developers with an experience of more than 10 years in the design of database tools."
 msgstr "最近本團隊有新成員加入，而他們有超過十年以上設計資料庫工具的經驗。"
 
-#: ../cnt/cnt_download.php:229
+#: ../cnt/cnt_download.php:245
 msgid "Recents versions of GTK2.2, automake, autoconf and gcc are needed."
 msgstr "需要最新的版本的GTK2.2, automake, autoconf和gcc。"
 
-#: ../cnt/cnt_download.php:222
+#: ../cnt/cnt_download.php:238
 msgid "Requirements"
 msgstr "需求"
 
@@ -691,7 +669,7 @@ msgstr "需求"
 msgid "Rules"
 msgstr "則規"
 
-#: ../cnt/cnt_download.php:144
+#: ../cnt/cnt_download.php:160
 msgid "Run the following commands as root:"
 msgstr "以root身分執行以下指令:"
 
@@ -705,7 +683,7 @@ msgid "Schemas"
 msgstr "模式"
 
 #: ../cnt/cnt_screenshots.php:2
-#: ../tpl/menu.php:35
+#: ../tpl/menu.php:36
 msgid "Screenshots"
 msgstr "畫面快照"
 
@@ -724,12 +702,9 @@ msgstr "伺服器狀態"
 msgid "Server-side languages (like PLpgsql, PLpython, PLperl, etc...)"
 msgstr "伺服器端語言(如PLpgsql, PLpython, PLperl…等)"
 
-#: ../cnt/cnt_download.php:5
-msgid "Source code"
-msgstr "原始碼"
-
-#: ../cnt/cnt_download.php:292
-msgid "Stable release."
+#: ../cnt/cnt_download.php:3
+#: ../cnt/cnt_download.php:14
+msgid "Stable release"
 msgstr "穩定版本。"
 
 #: ../class/pgadmin_po.php:247
@@ -737,7 +712,7 @@ msgid "Status"
 msgstr "狀態"
 
 #: ../cnt/cnt_support.php:2
-#: ../tpl/menu.php:39
+#: ../tpl/menu.php:40
 msgid "Support"
 msgstr "支援"
 
@@ -758,7 +733,7 @@ msgstr "此工具程式不需任何ODBC層。"
 msgid "The application is executed in binary code, not in a virtual machine, therefore offering very good performance."
 msgstr "此應用程式以二元碼執行，不經任何虛擬機器，因此有很好的效能。"
 
-#: ../cnt/cnt_download.php:230
+#: ../cnt/cnt_download.php:246
 msgid "The best solution is to use a recent distribution."
 msgstr "最好的解決方案是使用最新的發行。"
 
@@ -770,18 +745,18 @@ msgstr "資料只在需要被顯示的時才由伺服提取。"
 msgid "The documentation can be viewed off-line or on-line."
 msgstr "本文件可在線上瀏覽或下載使用。"
 
-#: ../cnt/cnt_development.php:102
-#: ../cnt/cnt_development.php:116
+#: ../cnt/cnt_development.php:90
+#: ../cnt/cnt_development.php:104
 #: ../cnt/cnt_support.php:20
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
 msgstr "下列訊息是自動由pgAdmin CVS程式庫伺服器擷取顯示。"
 
-#: ../cnt/cnt_download.php:239
-#: ../cnt/cnt_download.php:252
+#: ../cnt/cnt_download.php:255
+#: ../cnt/cnt_download.php:268
 msgid "The libraries can be downloaded from our mirrors in the 'wxWindows' directory."
 msgstr "此函式庫可由鏡像伺服器的'wxWindows'目錄下載。"
 
-#: ../cnt/cnt_download.php:16
+#: ../cnt/cnt_download.php:17
 #, c-format
 msgid "The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."
 msgstr "這些鏡像伺服器是由<a href='%s'>PostgreSQL</a>計劃所提供。"
@@ -795,11 +770,11 @@ msgstr "此計畫需要您的協助才能不斷持續開發下去。"
 msgid "The properties and statistics of the selected object are displayed in the right pane of pgAdmin3."
 msgstr "所選物件的屬性和統計資訊顯示在pgAdmin3的右窗格。"
 
-#: ../cnt/cnt_development.php:20
+#: ../cnt/cnt_development.php:19
 msgid "The required command lines needed for checkout are as follows:"
 msgstr "checkout所需的指令如下所示:"
 
-#: ../cnt/cnt_download.php:10
+#: ../cnt/cnt_download.php:11
 #, c-format
 msgid "The software is available in source and binary format from our <a href='%s'>mirrors</a>."
 msgstr "本軟體可由<a href='%s'>鏡像伺服器</a>網頁取得原始碼或二元碼。"
@@ -821,7 +796,7 @@ msgstr "此工具可顯示查詢所花費的時間。"
 msgid "The updated translations are published in daily snapshots automatically."
 msgstr "更新的譯文將隨每日快照自動更新。"
 
-#: ../cnt/cnt_development.php:34
+#: ../cnt/cnt_download.php:94
 msgid "There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development."
 msgstr "恕無法對此封裝提供任何型式的保證: 這是一個alpha軟體供開發者測試和開發用。"
 
@@ -829,9 +804,9 @@ msgstr "恕無法對此封裝提供任何型式的保證: 這是一個alpha軟�
 msgid "This makes learning SQL more easy..."
 msgstr "這將有助於學習SQL..."
 
-#: ../cnt/cnt_development.php:61
-#: ../cnt/cnt_development.php:101
-#: ../cnt/cnt_development.php:115
+#: ../cnt/cnt_development.php:45
+#: ../cnt/cnt_development.php:89
+#: ../cnt/cnt_development.php:103
 #: ../cnt/cnt_support.php:19
 #: ../cnt/cnt_translation.php:72
 msgid "This section is available in English only."
@@ -850,14 +825,14 @@ msgstr "此技術允許處理非常大的資料表而不致出錯。"
 msgid "This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."
 msgstr "此網站也可以經由<a href='%s'>pgadmin3_website.pot</a>檔翻譯為您的語言。"
 
-#: ../cnt/cnt_development.php:50
+#: ../cnt/cnt_development.php:34
 #: ../cnt/cnt_support.php:11
 #, c-format
 msgid "To subscribe to the mailing list, send an email to %s with the word 'subscribe', without quotes, as the body of message."
 msgstr "要訂閱此信件列表，寄一封電子郵件到%s，信件本文包含subscribe這個單字即可。"
 
-#: ../cnt/cnt_development.php:7
-#: ../cnt/cnt_development.php:99
+#: ../cnt/cnt_development.php:6
+#: ../cnt/cnt_development.php:87
 msgid "Todo list"
 msgstr "預定工作列表"
 
@@ -875,7 +850,7 @@ msgstr "已翻譯"
 
 #: ../cnt/cnt_index.php:153
 #: ../cnt/cnt_translation.php:20
-#: ../tpl/menu.php:37
+#: ../tpl/menu.php:38
 msgid "Translation"
 msgstr "翻譯"
 
@@ -898,17 +873,17 @@ msgstr "觸發器函數"
 msgid "Types"
 msgstr "類型"
 
-#: ../cnt/cnt_development.php:19
+#: ../cnt/cnt_development.php:18
 msgid "Under GNU/Linux, there are several command line and graphical clients available."
 msgstr "在GNU/Linux環境下有數種指令列或是圖像化的用戶端工具可取得。"
 
-#: ../cnt/cnt_development.php:18
+#: ../cnt/cnt_development.php:17
 #, c-format
 msgid "Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free software."
 msgstr "在視窗系統，我們建議用<a href='%s'>WinCVS</a>這一個自由軟體。"
 
-#: ../cnt/cnt_download.php:253
-#: ../cnt/cnt_download.php:305
+#: ../cnt/cnt_download.php:269
+#: ../cnt/cnt_download.php:310
 msgid "Unpack as follows:"
 msgstr "依下列指令解壓縮:"
 
@@ -961,7 +936,7 @@ msgstr "我們計畫最近達成 %d 種譯文。"
 msgid "We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows 2000 & XP. MacOsX and SunOS ports are in preparation."
 msgstr "我們提供原始碼和二元可執行封裝可用於GNU/Linux, FreeBSD及微軟的視窗2000和XP。MacOsX和SunOS平台的移植計劃也正進行中。"
 
-#: ../cnt/cnt_download.php:238
+#: ../cnt/cnt_download.php:254
 msgid "We provide wxWindows 2.5 source and binary packages."
 msgstr "我們提供wxWindows 2.5的原始碼和二元可執行檔封裝。"
 
@@ -973,38 +948,34 @@ msgstr "我們非常感謝我們的開發者和翻譯社群成員對本計畫的
 msgid "When configured server-side, it is possible to connect using encrypted password or SSL authentication."
 msgstr "當伺服器經適當設定後，可以使用加密的密碼或是SSL連線。"
 
-#: ../cnt/cnt_download.php:232
+#: ../cnt/cnt_download.php:248
 msgid "Windows 2000 & XP."
 msgstr "視窗2000和XP。"
 
 #: ../cnt/cnt_screenshots.php:63
 msgid "With the help and suggestions of users, we have been constantly improving the usability of pgAdmin."
-msgstr "藉由用戶的協助和建議，我們楚持續的改進pgAdmin的可用性。"
+msgstr "藉由用戶的協助和建議，我們持續地改進pgAdmin的可用性。"
 
 #: ../cnt/cnt_index.php:31
 msgid "With the rapid advancement of the project, we recommand upgrading to pgAdmin3."
 msgstr "由於這個計畫的進展十分迅速，我們建議升級到pgAdmin3。"
 
-#: ../cnt/cnt_development.php:49
+#: ../cnt/cnt_development.php:33
 #, c-format
 msgid "You are more than welcome to subscribe, but please remember to use <a href='%s'>pgadmin-support</a> list for end user support issues."
-msgstr "我們非常歡迎您的訂閱，但是這牢記<a href='%s'>pgadmin-支援</a>信件列表才提供一般用戶的支援。"
+msgstr "我們非常歡迎您的訂閱，但是這牢記<a href='%s'>pgadmin-support</a>信件列表才提供一般用戶的支援。"
 
 #: ../cnt/cnt_screenshots.php:205
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr "很快您將發現PostgreSQL是最快的資料庫伺服器。"
 
-#: ../cnt/cnt_development.php:59
-msgid "pgAdmin Team"
-msgstr "pgAdmin團隊"
-
-#: ../cnt/cnt_download.php:37
-#: ../cnt/cnt_download.php:43
-#: ../cnt/cnt_download.php:49
-#: ../cnt/cnt_download.php:55
-#: ../cnt/cnt_download.php:61
-#: ../cnt/cnt_download.php:67
-#: ../cnt/cnt_download.php:73
+#: ../cnt/cnt_download.php:38
+#: ../cnt/cnt_download.php:44
+#: ../cnt/cnt_download.php:50
+#: ../cnt/cnt_download.php:56
+#: ../cnt/cnt_download.php:62
+#: ../cnt/cnt_download.php:68
+#: ../cnt/cnt_download.php:74
 #, c-format
 msgid "pgAdmin binary packages for %s"
 msgstr "pgAdmin二元碼封裝用於%s"
@@ -1013,11 +984,7 @@ msgstr "pgAdmin二元碼封裝用於%s"
 msgid "pgAdmin is a project created and managed by contributors from the whole world."
 msgstr "pgAdmin是一個集合全世界的貢獻者共同建立和開發而成的計畫。"
 
-#: ../cnt/cnt_download.php:290
-msgid "pgAdmin is available in several qualities: stable, beta, daily snapshot."
-msgstr "pgAdmin提供數種等級: 穩定、beta測試、及每日快照。"
-
-#: ../cnt/cnt_development.php:15
+#: ../cnt/cnt_development.php:14
 msgid "pgAdmin is available subject to the terms of the Artistic Licence."
 msgstr "pgAdmin可依Artistic授權條款取得。"
 
@@ -1030,7 +997,7 @@ msgstr "pgAdmin在全世界已有超過%d位用戶。"
 msgid "pgAdmin project started five years ago."
 msgstr "pgAdmin計畫開始於五年前。"
 
-#: ../cnt/cnt_download.php:31
+#: ../cnt/cnt_download.php:32
 msgid "pgAdmin source code"
 msgstr "pgAdmin原始碼"
 
@@ -1043,7 +1010,7 @@ msgstr "我們仍然樂於支援pgAdmin2"
 msgid "pgAdmin3 %s released"
 msgstr "pgadmin3 %s已發行"
 
-#: ../cnt/cnt_download.php:15
+#: ../cnt/cnt_download.php:16
 msgid "pgAdmin3 can be downloaded from a large number of mirrors."
 msgstr "pgAdmin3可於許多鏡像伺服器內下載。"
 
@@ -1072,7 +1039,7 @@ msgstr "pgAdmin3的介面支援所有的萬國碼語文，即使是由右向左�
 msgid "pgAdmin3 is a comprehensive design and management interface for PostgreSQL database, designed to run on most Operating Systems."
 msgstr "pgAdmin3是十分易於了解和使用一個的PostgreSQL資料庫的設計和管理工具，並可在大多數的作業系統上運行。"
 
-#: ../cnt/cnt_download.php:9
+#: ../cnt/cnt_download.php:10
 #: ../cnt/cnt_index.php:22
 #, c-format
 msgid "pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."
@@ -1094,29 +1061,29 @@ msgstr "pgAdmin3支援大多數PostgreSQL伺服端編碼:"
 #: ../cnt/cnt_index.php:64
 #, c-format
 msgid "pgAdmin3 user interface is translated in more than %d languages."
-msgstr "pgAdmin3使用者介面已被譯為超過%d語言。"
+msgstr "pgAdmin3使用者介面已被譯為超過%d種語言。"
 
-#: ../cnt/cnt_development.php:48
+#: ../cnt/cnt_development.php:32
 msgid "pgadmin-hackers list is intended for developers who wish to contribute to pgAdmin project."
-msgstr "pgadmin-駭客信件列表提供給有意加入pgAdmin計畫的開發人員一個管道。"
+msgstr "pgadmin-hackers信件列表提供給有意加入pgAdmin計畫的開發人員一個管道。"
 
-#: ../cnt/cnt_development.php:46
+#: ../cnt/cnt_development.php:30
 msgid "pgadmin-hackers mailing list"
-msgstr "pgadmin-駭客信件列表"
+msgstr "pgadmin-hackers信件列表"
 
 #: ../cnt/cnt_support.php:10
 msgid "pgadmin-support is a support list intended for end user support and bug reports."
-msgstr "pgadmin-支援是一個信件列表用來幫助我們的用戶和供報告臭蟲用。"
+msgstr "pgadmin-support是一個信件列表用來幫助我們的用戶和供報告臭蟲用。"
 
 #: ../cnt/cnt_support.php:8
 msgid "pgadmin-support mailing list"
-msgstr "pgadmin-支援信件列表"
+msgstr "pgadmin-support信件列表"
 
-#: ../cnt/cnt_download.php:237
+#: ../cnt/cnt_download.php:253
 msgid "wxWindows 2.4 will not work because of Unicode problems."
 msgstr "wxWindows 2.4因為萬國碼的問題而無法使用。"
 
-#: ../cnt/cnt_download.php:236
+#: ../cnt/cnt_download.php:252
 msgid "wxWindows 2.5 compiled from CVS with additional patches."
 msgstr "由wxWindows 2.5 CVS加上額外的附加檔編譯而成。"
 

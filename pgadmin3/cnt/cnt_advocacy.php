@@ -138,6 +138,7 @@ en (English)
     <li><a href='http://www.download32.com/proghtml/533/53391.htm'>Download 32</a></li>
     <li><a href='http://www.downloaddatabase.com'>Download Database</a> (pending)</li>
     <li><a href='http://www.finaldownload.com/developer_tools_databases_networks_pgadmin_iii_for_postgresql.html'>Final download</a></li>
+    <li><a href='http://www.freedownloadscenter.com'>Free Downloads Center</a> (pending)</li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://www.freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
@@ -159,6 +160,7 @@ en (English)
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>
     <li><a href='http://www.soft411.com/software/postgresql.html'>Soft 411</a> (pending)</li>
     <li><a href='http://www.softempire.com/pgadmin-iii-for-postgresql.html'>Softempire</a> (pending)</li>
+    <li><a href='http://www.softpile.com'>Softpile</a> (pending)</li>
     <li><a href='http://www.theopencd.org'>The Open CD</a> (pending)</li>
     <li><a href='http://www.thesoftwarebank.com/soft.aspx?id=23109'>The Software bank</a></li>
     <li><a href='http://www.topdownloads.net/software/view.php?id=14174'>Top Downloads Net</a></li>

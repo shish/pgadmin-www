@@ -115,7 +115,7 @@
   <li>Compile pgadmin3.po file into pgadmin3.mo binary file.<br><br>
       <ul>
         <li>In <a href="http://poedit.sourceforge.net">poEdit</a>, clicking on the save button will automatically compile pgadmin3.po into an pgadmin3.mo file. <br><br>
-        <li>In Kbabel, you will need to run the following script manually:
+        <li>Alternatively, you can run the following script manually:
         <pre>
         # msgfmt -o pgadmin3.mo pgadmin3.po
         </pre>
@@ -130,7 +130,10 @@
 	<br><br>
 
 
-	<li>From time to time, new strings which need translation are added to the application. Download/update the new pgadmin3.pot and merge the new file with your language file using <a href='http://poedit.sourceforge.net'>poEdit</a> "Catalog/Update from POT file.." function.
+	<li>From time to time, new strings which need translation are added to the application. Download/update the new pgadmin3.pot and merge the new file with your language file using <a href='http://poedit.sourceforge.net'>poEdit</a> "Catalog/Update from POT file.." function. Alternatively, you can run the following script manually:
+  <pre>
+  # msgmerge --update pgadmin3.po pgadmin3.pot
+  </pre>
   </li>
 </ol>
 </dd>

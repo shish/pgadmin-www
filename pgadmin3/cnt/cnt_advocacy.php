@@ -147,6 +147,7 @@ en (English)
     <li><a href='http://www.linuxlinks.com/Web/Databases'>Linux Links</a></li>
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linux Gurus</a> (pending)</li>
     <li><a href='http://www.linuxarchives.com/database.html'>Linux Archives</a> (pending)</li>
+    <li><a href='http://www.madpenguin.org'>Mad Penguin</a> (pending)</li>
     <li><a href='http://www.needscripts.com'>NeedScripts</a> (reminder to register)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
     <li><a href='http://www.padring.com'>Pad Ring</a> (reminder to register)</li>

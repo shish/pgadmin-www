@@ -15,7 +15,7 @@
 <dl>
   <dt>Why promote pgAdmin?</dt>
   <dd>
-  Promotion is essential for the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers, who may bring exciting new features to pgAdmin and possibly to PostgreSQL too.
+  Promotion is essential for the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers, who may bring exciting new features to pgAdmin and PostgreSQL.
   </dd>
   <dd>On the long run, promoting free software is essential for economical development and civil liberties.
   PostgreSQL and pgAdmin free software are used worldwide by a large number of end-users, companies, governments and institutions. Therefore, helping us promote pgAdmin is certainly not a loss of time.
@@ -40,7 +40,7 @@
         You are free to publish any technical information about pgAdmin. Here are some guidelines, mainly about links and localization.
         <ul>
           <li><b>Include a language information in the URL</b>: pgAdmin web site is not (yet) able to guess the default language of your browser. To display a page in your language, just click on your country flag. For example, the URL of the French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>. You can notice that the end of the URL <b>"?locale=xx_XX"</b> forces display in a given language.
-          <li><b>Downloading links</b>: do not publish downloading links pointing to our mirrors (as mirrors may change or be down at certain times). Always publish links pointing directly to pgAdmin pages.
+          <li><b>Downloading links</b>: do not publish downloading links pointing to our mirrors (as mirrors may change or be down at certain times). Always publish links pointing directly to pgAdmin web site pages.
           <li><b>Description of pgAdmin</b>: any technical description is suitable. For the lazy, just translate "pgAdmin III is a comprehensive design and management graphical user interface for the PostgreSQL database. It communicates with the DBMS using the native protocol and supports all major features and specialties of the latest PostgreSQL generations.". Any comments are welcome.
         </ul>
   </dd>

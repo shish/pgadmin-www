@@ -47,20 +47,26 @@ ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2
 	</td></tr>
       </table>
 
-          <li><b>Description of pgAdmin</b>: any technical description is suitable. If you are not sure what to write, just translate
+          <li><b>Description of pgAdmin</b>: any technical description is suitable. If you are not sure what to write, just translate one of the following descriptions:
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
-        <tr><td>
-	pgAdmin III is a comprehensive administration interface for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and MS Windows. It is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases, with support of the latest PostgreSQL features. The software is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin is developed by a community of database specialists around the world and is available in more than 30 languages.
+	<tr><td>
+	<ul>
+	<li>7 words: Powerfull administration and development tools for PostgreSQL</li>
+	<li>22 words: A completely free administration and development platform for the PostgreSQL database. Available in more than 30 languages for Win/NT/2000/XP, GNU/Linux and FreeBSD.</li>
+	<li>98 words: pgAdmin III is a comprehensive administration interface for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and MS Windows. It is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases, with support of the latest PostgreSQL features. The software is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin is developed by a community of database specialists around the world and is available in more than 30 languages. It is a Free Software realeased under the Artistic licence.</li>
+	</ul>
 	</td></tr>
+
+	</tr>
       </table>
-      Any comments are welcome.
+      Any comments are welcome.</li>
 
 	  <li><b>Keywords</b>: when visiting a web site, users may not find "pgAdmin" directly, but query  keywords like "PostgreSQL database" or "free administration tools", etc... During registration, you may be asked to enter keywords. My personal choice is to register these keywords:
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
 	PostgreSQL postgresql postgres sql database administration admin free pgadmin pg mysql migration
 	</td></tr>
-      </table>
+      </table></li>
         </ul>
   </dd>
 

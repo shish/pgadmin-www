@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2004-02-01 22:46+0100\n"
+"PO-Revision-Date: 2004-02-01 22:48+0100\n"
 "Last-Translator: Jean-Michel Pouré <jm@poure.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -995,7 +995,7 @@ msgstr "Vous découvrirez rapidement que PostgreSQL est la base de données la p
 
 #: ../cnt/cnt_download.php:144
 #, c-format
-msgid "pgAdmin RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s, SuSE %s"
+msgid "pgAdmin RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."
 msgstr "Des paquets RPM sont disponibles pour plusieurs distributions GNU/Linux, y compris Fedora %s, Mandrake %s, RedHat %s et SuSE %s."
 
 #: ../cnt/cnt_download.php:46

@@ -369,6 +369,7 @@
       <br/>
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
         <tr><td>
+          # <?php echo _("Note - release builds should be configured without the --enable-debug option.");?><br/><br/>
 					cd wxWidgets*<br/>
           ./configure --with-gtk --enable-gtk2 \<br/>
           --enable-unicode --disable-shared --enable-debug --enable-mimetype=no<br/>
@@ -391,6 +392,7 @@
           # Please checkout wxWindows and pgAdmin from CVS only.<br/>
           # To coordinate efforts, please contact us on the mailing list<br/>
           <br/>
+          # <?php echo _("Note - release builds should be configured without the --enable-debug option.");?><br/><br/>
 					cd wxWidgets*<br/>
           ../configure --with-mac --disable-shared --enable-debug<br/>
           make<br/>
@@ -425,6 +427,7 @@
       <li><?php echo _("Compile pgAdmin III.");?><br/>
         <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
             <tr><td>
+            # <?php echo _("Note - release builds should be configured without the --enable-debug option.");?><br/><br/>
             ./configure --enable-static --enable-debug<br/>
             make all<br/>
             sudo make install

@@ -142,7 +142,7 @@ en (English)
     <li><a href='http://www.madpenguin.org'>Mad Penguin</a> (pending)</li>
     <li><a href='http://www.needscripts.com'>NeedScripts</a> (reminder to register)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
-    <li><a href='http://www.osdir.org'>OSDir O'Reilly</a> (pending)</li>
+    <li><a href='http://www.osdir.org'>OSDir O\'Reilly</a> (pending)</li>
     <li><a href='http://www.padring.com'>Pad Ring</a> (pending)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>

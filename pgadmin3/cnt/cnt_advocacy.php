@@ -58,7 +58,6 @@ en (English)
     <li><a href='http://www.freewarefiles.com'>Freewarefiles</a> (pending)
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>
-    <li><a href='http://gnuwin.epfl.ch/fr/index.html'>GNU Win</a> (pending)
     <li><a href='http://www.hotscripts.com/Tools_and_Utilities/Database_Tools'>Hotscripts</a> (pending)
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)
     <li><a href='http://www.tucows.com/'>Tucows</a> (pending)
@@ -78,6 +77,7 @@ fr (French)
   <ul>
     <li><a href='http://www.jesuislibre.org/applications/Bases_de_Donnees/Gestionnaire/pgAdmin_III.php3'>Je suis libre</a>
     <li><a href='http://www.framasoft.net/rubrique2.html'>Framasoft</a> (pending)
+        <li><a href='http://gnuwin.epfl.ch/fr/index.html'>GNU Win</a> (pending)
   </ul>
 </dd>
 </dl>

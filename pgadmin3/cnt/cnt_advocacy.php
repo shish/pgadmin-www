@@ -94,6 +94,7 @@ de (German)
 en (English)
 <dd>
   <ul>
+    <li><a href='http://products.databasejournal.com/dbtools/mgmt/recent1.html'>Database Journal</a></li>
     <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>

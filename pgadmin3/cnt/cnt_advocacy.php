@@ -2,7 +2,6 @@
 <div><?php echo _("Advocacy");?></div>
 <a href="#introduction">&rsaquo; Introduction</a>
 <a href="#list">&rsaquo; Web sites</a>
-<a href="#press">&rsaquo; Press articles</a>
 </div>
 
 <div id="bodyText">
@@ -49,10 +48,10 @@
       </table>
       Any comments are welcome.
 
-	  <li><b>Keywords</b>: when visiting a web site, most users may not query "pgAdmin" but "PostgreSQL database" or "free administration tools", etc... To answer these search requests, you may be asked to enter additional keywords. My personal choice is to enter:
+	  <li><b>Keywords</b>: when visiting a web site, users may not query "pgAdmin" but "PostgreSQL database" or "free administration tools", etc... During registration, you may be asked to enter additional keywords. My personal choice is to enter:
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
-	PostgreSQL postgresql postgres sql database administration admin free pgadmin pg
+	PostgreSQL postgresql postgres sql database administration admin free pgadmin pg mysql migration
 	</td></tr>
       </table>
         </ul>
@@ -62,37 +61,37 @@
 
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
-<h1 id="list">Web sites pointing to pgAdmin</h1>
+<h1 id="list">Web sites promoting pgAdmin</h1>
 <dl>
 
 cs (Czech)
 <dd>
   <ul>
-    <li><a href='http://postgresql.ok.cz'>PostgreSQL CZ</a>
+    <li><a href='http://postgresql.ok.cz'>PostgreSQL CZ</a></li>
   </ul>
 </dd>
 
 de (German)
 <dd>
   <ul>
-    <li><a href='http://dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a>
+    <li><a href='http://dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a></li>
   </ul>
 </dd>
 
 en (English)
 <dd>
   <ul>
-    <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a> (updating pending)
-    <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a>
-    <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
-    <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>
-    <li><a href='http://www.hotscripts.com/Tools_and_Utilities/Database_Tools'>Hotscripts</a> (pending)
-    <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)
-    <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)
-    <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)
-    <li><a href='http://www.softpedia.com/public/cat/10/8/6'>Softpedia</a> (pending)
-    <li><a href='http://www.tucows.com'>Tucows</a> (pending)
-    <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a>
+    <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a> (updating pending)</li>
+    <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
+    <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
+    <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
+    <li><a href='http://www.hotscripts.com/Tools_and_Utilities/Database_Tools'>Hotscripts</a> (pending)</li>
+    <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)</li>
+    <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
+    <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
+    <li><a href='http://www.softpedia.com/public/cat/10/8/6'>Softpedia</a> (pending)</li>
+    <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
+    <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a></li>
   </ul>
 </dd>
 
@@ -101,47 +100,41 @@ en (English)
 es (Spanish)
 <dd>
   <ul>
-    <li><a href='http://www.postgresql.cl/'>PostgreSQL Chile</a>
+    <li><a href='http://www.postgresql.cl/'>PostgreSQL Chile</a></li>
   </ul>
 </dd>
 
 fr (French)
 <dd>
   <ul>
-    <li><a href='http://www.jesuislibre.org/applications/Bases_de_Donnees/Gestionnaire/pgAdmin_III.php3'>Je suis libre</a>
-    <li><a href='http://www.framasoft.net/rubrique2.html'>Framasoft</a> (pending)
-    <li><a href='http://gnuwin.epfl.ch/fr/index.html'>GNU Win</a> (pending)
-    <li><a href='http://www.lunerouge.org/gnu/applis_f.ht'>Lune Rouge</a> (pending)
+    <li><a href='http://www.jesuislibre.org/applications/Bases_de_Donnees/Gestionnaire/pgAdmin_III.php3'>Je suis libre</a></li>
+    <li><a href='http://www.framasoft.net/rubrique2.html'>Framasoft</a> (pending)</li>
+    <li><a href='http://gnuwin.epfl.ch/fr/index.html'>GNU Win</a> (pending)</li>
+    <li><a href='http://www.lunerouge.org/gnu/applis_f.ht'>Lune Rouge</a> (pending)</li>
   </ul>
 </dd>
 
 pt (Portuguese/Brazilian)
 <dd>
   <ul>
-    <li><a href='http://www.postgresql.org.br/index.php?corpo=links'>PostgreSQL Brazil</a> (pending)
+    <li><a href='http://www.postgresql.org.br/index.php?corpo=links'>PostgreSQL Brazil</a> (pending)</li>
   </ul>
 </dd>
 
 ru (Russian Federation)
 <dd>
   <ul>
-    <li><a href='http://www.linuxshare.ru/docs/software/SQL/postgresql/index.html'>PostgreSQL Russia</a>
+    <li><a href='http://www.linuxshare.ru/docs/software/SQL/postgresql/index.html'>PostgreSQL Russia</a></li>
   </ul>
 </dd>
 
 zh (Chinese)
 <dd>
   <ul>
-    <li><a href='http://www.pgsqldb.org'>PostgreSQL China</a> (pending)
+    <li><a href='http://www.pgsqldb.org'>PostgreSQL China</a> (pending)</li>
   </ul>
 </d
 
-</dl>
-
-<a class="topOfPage" href="#top" title="Top Of Page">top</a>
-
-<h1 id="press">Press articles</h1>
-<dl>
 </dl>
 
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>

@@ -15,7 +15,7 @@
 <dl>
   <dt>Why promote pgAdmin?</dt>
   <dd>
-  Reaching new users can help pgAdmin project get in touch with talented developers, who will in turn bring exciting new features to pgAdmin and possibly to PostgreSQL too.
+  Promotion is essential in the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers, who may bring exciting new features to pgAdmin and possibly to PostgreSQL too.
   </dd>
   <dd>On the long run, promoting free software is essential for economical development and civil liberties.
   PostgreSQL and pgAdmin free software are used worldwide by a large number of end-users, companies, governments and institutions. Therefore, helping us promote pgAdmin is certainly not a loss of time.

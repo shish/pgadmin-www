@@ -22,7 +22,10 @@
     <?php echo sprintf(_("To subscribe to the mailing list, send an email to %s with the word 'subscribe', without quotes, as the body of message."), "<a href='mailto:pgadmin-support-request@postgresql.org'>pgadmin-support-request@postgresql.org</a>")?>
   <br><br>
   <?php echo sprintf(_("Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a href='%s'>mail-archive.com</a>."), "http://archives.postgresql.org/pgadmin-support", "http://www.mail-archive.com/pgadmin-support@postgresql.org")?>
-  </dd>
+  <br><br>
+  <?php echo _("Please do <B>not</B> send an email directly to one of the programmers; they might miss it, or even be the wrong person at all.")?>
+  <?php echo _("Using the mailing list guarantees that your request isn't lost and will be answered in a timely fashion.")?>
+    </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
   <h1 id="bugs"><?php echo _("Known bugs")?></h1>

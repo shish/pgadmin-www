@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-04 12:36+0100\n"
+"POT-Creation-Date: 2004-02-07 15:44+0100\n"
 "PO-Revision-Date: 2003-09-02 11:16+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: chinese <laser@zhengmai.com.cn>\n"
@@ -68,7 +68,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "After one year of development, we are happy to announce the availability of "
-"pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and "
+"pgAdmin III, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and "
 "FreeBSD."
 msgstr ""
 "经过一年的开发, 我们很高兴的发布 pgAdmin3 beta 版本, 完全重写了 Ms Windows, "
@@ -79,8 +79,10 @@ msgid "Aggregates"
 msgstr "聚集"
 
 #: ../cnt/cnt_index.php:51
+#, fuzzy
 msgid ""
-"Although we concentrate on pgAdmin3, we will continue to support pgAdmin2."
+"Although we concentrate on pgAdmin III, we will continue to support pgAdmin "
+"II."
 msgstr "尽管我们主要集中精力在 pgAdmin3 上, 但我们仍然继续支持 pgAdmin2."
 
 #: ../cnt/cnt_development.php:16
@@ -101,7 +103,7 @@ msgstr "pgAdmin 源代码的签名使用了 <a href='%s'>Dave Page PGP key</a>."
 msgid "Author"
 msgstr "作者"
 
-#: ../cnt/cnt_advocacy.php:88
+#: ../cnt/cnt_advocacy.php:78
 msgid ""
 "Available in more than 30 languages for Windows 2000/XP, GNU/Linux and "
 "FreeBSD."
@@ -140,7 +142,8 @@ msgid ""
 msgstr "每日快照就是几乎每天以 CVS 中源码编译的包."
 
 #: ../cnt/cnt_index.php:53
-msgid "Both pgAdmin2 and pgAdmin3 can coexist on the same system."
+#, fuzzy
+msgid "Both pgAdmin II and pgAdmin III can coexist on the same system."
 msgstr "pgAdmin2 和 pgAdmin3 可以同时共存于同一个系统上."
 
 #: ../cnt/cnt_development.php:3 ../cnt/cnt_development.php:12
@@ -164,7 +167,8 @@ msgid "Change log"
 msgstr ""
 
 #: ../cnt/cnt_download.php:282
-msgid "Check that pgAdmin executable is in the path."
+#, fuzzy
+msgid "Check that pgAdmin III executable is in the path."
 msgstr "检查 pgAdmin 的可执行文件是否在路径中."
 
 #: ../cnt/cnt_screenshots.php:202
@@ -184,7 +188,7 @@ msgid "Columns can be dropped."
 msgstr "可以删除字段."
 
 #: ../cnt/cnt_download.php:438
-msgid "Compile pgAdmin."
+msgid "Compile pgAdmin III."
 msgstr ""
 
 #: ../cnt/cnt_index.php:110 ../cnt/cnt_screenshots.php:105
@@ -204,7 +208,8 @@ msgid "Could not connect to the mirror table."
 msgstr ""
 
 #: ../cnt/cnt_download.php:273
-msgid "Create a symlink to pgAdmin binary."
+#, fuzzy
+msgid "Create a symlink to pgAdmin III binary."
 msgstr "创建一个 pgAdmin 二进制文件的符号链接."
 
 #: ../cnt/cnt_index.php:91 ../cnt/cnt_screenshots.php:5
@@ -259,7 +264,8 @@ msgid "Domains"
 msgstr "域"
 
 #: ../cnt/cnt_download.php:324
-msgid "Double-clic on the installer and follow the instructions."
+#, fuzzy
+msgid "Double-click on the installer and follow the instructions."
 msgstr "双击安装文件, 再按照说明继续."
 
 #: ../cnt/cnt_download.php:2 ../tpl/menu.php:35
@@ -285,20 +291,26 @@ msgstr "下载 "
 msgid "Download our supported wxWindows 2.5 CVS version."
 msgstr ""
 
-#: ../cnt/cnt_download.php:148 ../cnt/cnt_download.php:208
-#: ../cnt/cnt_download.php:244 ../cnt/cnt_download.php:303
+#: ../cnt/cnt_download.php:208 ../cnt/cnt_download.php:244
+#: ../cnt/cnt_download.php:303
 #, fuzzy, c-format
-msgid "Download pgAdmin package from our <a href='%s'>mirrors</a>."
-msgstr "从 PostgreSQL 的镜像站点下载 pgAdmin:"
-
-#: ../cnt/cnt_download.php:424
-#, fuzzy
-msgid "Download pgAdmin source code from a mirror."
+msgid "Download pgAdmin III package from our <a href='%s'>mirrors</a>."
 msgstr "从 PostgreSQL 的镜像站点下载 pgAdmin:"
 
 #: ../cnt/cnt_download.php:456
-msgid "Download pgAdmin3 snapshots here:"
+#, fuzzy
+msgid "Download pgAdmin III snapshots here:"
 msgstr "在这儿下载 pgAdmin3 的快照:"
+
+#: ../cnt/cnt_download.php:424
+#, fuzzy
+msgid "Download pgAdmin III source code from a mirror."
+msgstr "从 PostgreSQL 的镜像站点下载 pgAdmin:"
+
+#: ../cnt/cnt_download.php:148
+#, fuzzy, c-format
+msgid "Download pgAdmin package from our <a href='%s'>mirrors</a>."
+msgstr "从 PostgreSQL 的镜像站点下载 pgAdmin:"
 
 #: ../cnt/cnt_screenshots.php:214
 msgid ""
@@ -311,8 +323,9 @@ msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr "编辑 /etc/apt/sources.list 文件并加入下面一行:"
 
 #: ../cnt/cnt_screenshots.php:141
+#, fuzzy
 msgid ""
-"Every time you manipulate objects graphically, pgAdmin3 writes the "
+"Every time you manipulate objects graphically, pgAdmin III writes the "
 "corresponding SQL code."
 msgstr "任何时候你以图形方式操作对象, pgAdmin3 将写出对应的 SQL 代码."
 
@@ -374,7 +387,7 @@ msgstr "GNU/Linux"
 msgid "GNU/Linux, FreeBSD and other *nixes."
 msgstr ""
 
-#: ../cnt/cnt_advocacy.php:85
+#: ../cnt/cnt_advocacy.php:75
 msgid ""
 "Graphical administration interface for the PostgreSQL database, free for any "
 "use."
@@ -466,7 +479,8 @@ msgid ""
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:45
-msgid "In every environment, pgAdmin3 is a native application."
+#, fuzzy
+msgid "In every environment, pgAdmin III is a native application."
 msgstr "在每个环境下, pgAdmin3 都是本地应用程序."
 
 #: ../cnt/cnt_index.php:174
@@ -478,12 +492,13 @@ msgid "In progress"
 msgstr "进度"
 
 #: ../cnt/cnt_screenshots.php:93
+#, fuzzy
 msgid ""
-"In the left pane of pgAdmin3, a navigation tree allow to browse database "
+"In the left pane of pgAdmin III, a navigation tree allow to browse database "
 "objects."
 msgstr "在 pgAdmin3 的左边区域中, 导航树允许浏览数据库对象."
 
-#: ../cnt/cnt_advocacy.php:89
+#: ../cnt/cnt_advocacy.php:79
 msgid ""
 "Includes a graphical administration interface, a query builder, an sql "
 "editor, a server-side code editor and much more."
@@ -503,17 +518,17 @@ msgstr "使用下面的命令安装:"
 
 #: ../cnt/cnt_download.php:421
 #, fuzzy
-msgid "Installing pgAdmin"
+msgid "Installing pgAdmin III"
 msgstr "使用 pgAdmin3 二进制包安装"
 
 #: ../cnt/cnt_download.php:451
 #, fuzzy
-msgid "Installing pgAdmin from binary snapshots"
+msgid "Installing pgAdmin III from binary snapshots"
 msgstr "使用 pgAdmin3 二进制包安装"
 
 #: ../cnt/cnt_download.php:329
 #, fuzzy
-msgid "Installing pgAdmin from source code"
+msgid "Installing pgAdmin III from source code"
 msgstr "使用 pgAdmin3 源码安装"
 
 #: ../cnt/cnt_download.php:355
@@ -697,7 +712,8 @@ msgid "PostgreSQL servers"
 msgstr "PostgreSQL 服务器"
 
 #: ../cnt/cnt_index.php:94
-msgid "Powerfull query tool with color syntax highlight"
+#, fuzzy
+msgid "Powerful query tool with color syntax highlight"
 msgstr "带语法高亮的强大查询工具"
 
 #: ../cnt/cnt_index.php:3
@@ -722,15 +738,15 @@ msgstr "翻译公告 (%d 种语言)"
 msgid "RPM"
 msgstr ""
 
+#: ../cnt/cnt_download.php:337
+msgid "Recent versions of GTK2.2, automake, autoconf and gcc are needed."
+msgstr ""
+
 #: ../cnt/cnt_screenshots.php:65
 msgid ""
 "Recently, our team was joined by developers with an experience of more than "
 "10 years in the design of database tools."
 msgstr "最近, 我们的团队加入了些具有超过 10 年数据库工具设计经验的开发人员."
-
-#: ../cnt/cnt_download.php:337
-msgid "Recents versions of GTK2.2, automake, autoconf and gcc are needed."
-msgstr ""
 
 #: ../cnt/cnt_download.php:330
 msgid "Requirements"
@@ -801,7 +817,7 @@ msgstr "任何对象的 SQL 定义都能转换到查询工具."
 msgid "The advocacy page is intended for the promotion of pgAdmin."
 msgstr ""
 
-#: ../cnt/cnt_advocacy.php:95 ../cnt/cnt_index.php:18
+#: ../cnt/cnt_advocacy.php:85 ../cnt/cnt_index.php:18
 msgid ""
 "The application also includes a query builder, an SQL editor, a server-side "
 "code editor and much more."
@@ -818,7 +834,7 @@ msgid ""
 msgstr ""
 "应用程序是以二进制编码格式执行的, 没在虚拟机中, 因此能提供非常好的性能."
 
-#: ../cnt/cnt_advocacy.php:92 ../cnt/cnt_index.php:13
+#: ../cnt/cnt_advocacy.php:82 ../cnt/cnt_index.php:13
 msgid ""
 "The application is running under GNU/Linux, FreeBSD and Windows 2000/XP."
 msgstr ""
@@ -835,7 +851,7 @@ msgstr "当需要显示时, 数据能恢复."
 msgid "The documentation can be viewed off-line or on-line."
 msgstr "文档可以在线或离线浏览."
 
-#: ../cnt/cnt_advocacy.php:94 ../cnt/cnt_index.php:17
+#: ../cnt/cnt_advocacy.php:84 ../cnt/cnt_index.php:17
 msgid ""
 "The graphical interface supports all PostgreSQL features and makes "
 "administration easy."
@@ -863,9 +879,10 @@ msgid "The project can only live and develop with your help."
 msgstr "项目能够存在和发展是靠你们的帮助. 别犹豫了, 加入吧."
 
 #: ../cnt/cnt_screenshots.php:138
+#, fuzzy
 msgid ""
 "The properties and statistics of the selected object are displayed in the "
-"right pane of pgAdmin3."
+"right pane of pgAdmin III."
 msgstr "选中对象的属性和统计在 pgAdmin3 的右边区域显示."
 
 #: ../cnt/cnt_development.php:19
@@ -1043,19 +1060,25 @@ msgid "We can only rely on users to make pgAdmin the best possible software."
 msgstr ""
 
 #: ../cnt/cnt_index.php:180
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"We need help to translate pgAdmin3 and our website in more than %d languages."
+"We need help to translate pgAdmin III and our website in more than %d "
+"languages."
 msgstr "我们需要帮助, 把 pgAdmin3 和我们的网页翻译成超过 %d 种语言."
 
 #: ../cnt/cnt_translation.php:29
-msgid "We need your help to translate pgAdmin3 into several languages."
+#, fuzzy
+msgid "We need your help to translate pgAdmin III into several languages."
 msgstr "我们需要你的帮助, 把 pgAdmin3 翻译成多种不同的语言."
 
 #: ../cnt/cnt_screenshots.php:258
 #, c-format
 msgid "We plan to reach %d languages soon."
 msgstr "我们计划即将到 %d 种语言."
+
+#: ../cnt/cnt_download.php:346
+msgid "We provide modified wxWindows 2.5 source and binary packages."
+msgstr ""
 
 #: ../cnt/cnt_screenshots.php:47
 msgid ""
@@ -1064,10 +1087,6 @@ msgid ""
 msgstr ""
 "我们为 GNU/Linux, FreeBSD 和 MS Windows 2000 & XP 提供源码和二进制包. MacOsX "
 "和 SunOS 的移植准备中."
-
-#: ../cnt/cnt_download.php:346
-msgid "We provide wxWindows 2.5 source and binary packages."
-msgstr ""
 
 #: ../cnt/cnt_index.php:37
 msgid ""
@@ -1093,9 +1112,10 @@ msgid ""
 msgstr "在用户的帮助及建议下, 我们已经不断的提高 pgAdmin 的可用性."
 
 #: ../cnt/cnt_index.php:52
+#, fuzzy
 msgid ""
-"With the rapid advancement of the project, we recommand upgrading to "
-"pgAdmin3."
+"With the rapid advancement of the project, we recommand upgrading to pgAdmin "
+"III."
 msgstr "虽着项目的快速发展, 我们建议升级到 pgAdmin3."
 
 #: ../cnt/cnt_development.php:38
@@ -1111,44 +1131,15 @@ msgstr ""
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr "你将注意到 PostgreSQL 是最快的数据库."
 
-#: ../cnt/cnt_advocacy.php:87
-#, fuzzy
-msgid ""
-"pgAdmin III is a powerfull administration and development interface for the "
-"PostgreSQL database, free for any use."
-msgstr ""
-"pgAdmin3 是为 PostgreSQL 数据库做的一个广泛的设计和管理接口, 被设计在大多数操"
-"作系统平台上运行."
-
-#: ../cnt/cnt_advocacy.php:91 ../cnt/cnt_index.php:12
-msgid ""
-"pgAdmin III is a powerfull administration and development platform for the "
-"PostgreSQL database, free for any use."
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:93 ../cnt/cnt_index.php:16
-msgid ""
-"pgAdmin III is designed to answer the needs of all users, from writing "
-"simple SQL queries to developing complex databases."
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:97 ../cnt/cnt_index.php:22
-msgid ""
-"pgAdmin III is developed by a community of database specialists around the "
-"world and is available in more than 30 languages. It is Free Software "
-"released under the Artistic License."
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:96 ../cnt/cnt_index.php:19
-msgid ""
-"pgAdmin III is released with an installer and does not require any "
-"additional driver to communicate with the database server."
-msgstr ""
+#: ../cnt/cnt_index.php:27 ../cnt/cnt_index.php:34
+#, fuzzy, c-format
+msgid "pgAdmin III %s released"
+msgstr "pgAdmin3 beta 发布了"
 
 #: ../cnt/cnt_download.php:144
 #, c-format
 msgid ""
-"pgAdmin RPM packages are available for several GNU/Linux distributions, "
+"pgAdmin III RPM packages are available for several GNU/Linux distributions, "
 "including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."
 msgstr ""
 
@@ -1156,9 +1147,129 @@ msgstr ""
 #: ../cnt/cnt_download.php:168 ../cnt/cnt_download.php:174
 #: ../cnt/cnt_download.php:180 ../cnt/cnt_download.php:223
 #: ../cnt/cnt_download.php:259 ../cnt/cnt_download.php:318
-#, c-format
-msgid "pgAdmin binary packages for %s"
+#, fuzzy, c-format
+msgid "pgAdmin III binary packages for %s"
 msgstr "%s 下的 pgAdmin 的二进制包"
+
+#: ../cnt/cnt_screenshots.php:78
+#, fuzzy
+msgid ""
+"pgAdmin III can connect to any PostgreSQL 7.3/7.4 database using the "
+"embedded libpq native library."
+msgstr "pgAdmin3 使用 libpq 函数库能够联接任何 PostgreSQL 7.3/7.4 数据库."
+
+#: ../cnt/cnt_screenshots.php:232
+#, fuzzy
+msgid "pgAdmin III includes PostgreSQL full documentation."
+msgstr "pgAdmin3 包括完整的 PostgreSQL 文档."
+
+#: ../cnt/cnt_screenshots.php:166
+#, fuzzy
+msgid "pgAdmin III includes a table editor."
+msgstr "pgAdmin3 包括一个表编辑器."
+
+#: ../cnt/cnt_screenshots.php:257
+#, fuzzy, c-format
+msgid "pgAdmin III interface is translated in more than %d languages."
+msgstr "pgAdmin3 的接口的翻译超过 %d 种语言."
+
+#: ../cnt/cnt_screenshots.php:259
+#, fuzzy
+msgid ""
+"pgAdmin III interface supports all known Unicode scripts, even Right to Left "
+"(RTL) scripts like Arabic."
+msgstr ""
+"pgAdmin3 的接口支持所有已知的 Unicode 脚本, 甚至包括阿拉伯从右到左 (RTL) 的脚"
+"本."
+
+#: ../cnt/cnt_screenshots.php:43
+#, fuzzy
+msgid ""
+"pgAdmin III is a comprehensive design and management interface for "
+"PostgreSQL database, designed to run on most Operating Systems."
+msgstr ""
+"pgAdmin3 是为 PostgreSQL 数据库做的一个广泛的设计和管理接口, 被设计在大多数操"
+"作系统平台上运行."
+
+#: ../cnt/cnt_download.php:14 ../cnt/cnt_index.php:43
+#, fuzzy, c-format
+msgid ""
+"pgAdmin III is a free software project released under the <a href='%"
+"s'>Artistic licence</a>."
+msgstr "pgAdmin3 是基于艺术 (Artistic) 许可证下的自由软件项目."
+
+#: ../cnt/cnt_advocacy.php:77 ../cnt/cnt_advocacy.php:81
+#: ../cnt/cnt_index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin III is a powerful administration and development platform for the "
+"PostgreSQL database, free for any use."
+msgstr ""
+"pgAdmin3 是为 PostgreSQL 数据库做的一个广泛的设计和管理接口, 被设计在大多数操"
+"作系统平台上运行."
+
+#: ../cnt/cnt_development.php:14
+#, fuzzy
+msgid "pgAdmin III is available subject to the terms of the Artistic Licence."
+msgstr "pgAdmin 源代码是基于艺术 (Artistic) 许可协议下的."
+
+#: ../cnt/cnt_advocacy.php:83 ../cnt/cnt_index.php:16
+msgid ""
+"pgAdmin III is designed to answer the needs of all users, from writing "
+"simple SQL queries to developing complex databases."
+msgstr ""
+
+#: ../cnt/cnt_advocacy.php:87 ../cnt/cnt_index.php:22
+msgid ""
+"pgAdmin III is developed by a community of database specialists around the "
+"world and is available in more than 30 languages. It is Free Software "
+"released under the Artistic License."
+msgstr ""
+
+#: ../cnt/cnt_advocacy.php:86 ../cnt/cnt_index.php:19
+msgid ""
+"pgAdmin III is released with an installer and does not require any "
+"additional driver to communicate with the database server."
+msgstr ""
+
+#: ../cnt/cnt_index.php:38
+#, fuzzy, c-format
+msgid ""
+"pgAdmin III is the result of a joint effort of a team of more than %d "
+"contributors from %d different countries."
+msgstr "pgAdmin3 是来自 %2$d 个不同国家超过 %1$d 名参与者团队的共通努力的结果."
+
+#: ../cnt/cnt_download.php:204 ../cnt/cnt_download.php:240
+#: ../cnt/cnt_download.php:300
+#, fuzzy, c-format
+msgid "pgAdmin III packages are available for %s."
+msgstr "%s 下的 pgAdmin 的二进制包"
+
+#: ../cnt/cnt_download.php:26
+#, c-format
+msgid ""
+"pgAdmin III packages are available for <a href='%s'>GNU/Linux Debian</a> "
+"stable, testing and unstable distributions."
+msgstr ""
+
+#: ../cnt/cnt_screenshots.php:248
+#, fuzzy
+msgid ""
+"pgAdmin III supports most PostgreSQL server-side encodings including Unicode "
+"UTF-8 and other multi-byte encodings."
+msgstr ""
+"pgAdmin3 支持大多数 PostgreSQL 服务端的编码, 包括 Unicode UTF-8 和其它一些多"
+"字节编码."
+
+#: ../cnt/cnt_index.php:144
+#, fuzzy
+msgid "pgAdmin III supports most PostgreSQL server-side encodings:"
+msgstr "pgAdmin3 支持大多数 PostgreSQL 服务端的编码:"
+
+#: ../cnt/cnt_index.php:87
+#, fuzzy, c-format
+msgid "pgAdmin III user interface is translated in more than %d languages."
+msgstr "pgAdmin3 的用户接口已经翻译了超过 %d 种语言."
 
 #: ../cnt/cnt_index.php:167
 msgid ""
@@ -1166,28 +1277,10 @@ msgid ""
 "world."
 msgstr "pgAdmin 是来自全世界的参与者创建和管理的."
 
-#: ../cnt/cnt_development.php:14
-#, fuzzy
-msgid "pgAdmin is available subject to the terms of the Artistic Licence."
-msgstr "pgAdmin 源代码是基于艺术 (Artistic) 许可协议下的."
-
 #: ../cnt/cnt_screenshots.php:63
 #, c-format
 msgid "pgAdmin is used by more than %d users worldwide."
 msgstr "pgAdmin 在全世界的用户超过 %d 名."
-
-#: ../cnt/cnt_download.php:204 ../cnt/cnt_download.php:240
-#: ../cnt/cnt_download.php:300
-#, fuzzy, c-format
-msgid "pgAdmin packages are available for %s."
-msgstr "%s 下的 pgAdmin 的二进制包"
-
-#: ../cnt/cnt_download.php:26
-#, c-format
-msgid ""
-"pgAdmin packages are available for <a href='%s'>GNU/Linux Debian</a> stable, "
-"testing and unstable distributions."
-msgstr ""
 
 #: ../cnt/cnt_screenshots.php:62
 msgid "pgAdmin project started five years ago."
@@ -1197,80 +1290,9 @@ msgstr "pgAdmin 项目开始于 5 年前."
 msgid "pgAdmin2 is still supported"
 msgstr "仍支持 pgAdmin2"
 
-#: ../cnt/cnt_index.php:27 ../cnt/cnt_index.php:34
-#, fuzzy, c-format
-msgid "pgAdmin3 %s released"
-msgstr "pgAdmin3 beta 发布了"
-
 #: ../cnt/cnt_download.php:475
 msgid "pgAdmin3 can be downloaded from a large number of mirrors."
 msgstr ""
-
-#: ../cnt/cnt_screenshots.php:78
-msgid ""
-"pgAdmin3 can connect to any PostgreSQL 7.3/7.4 database using the embedded "
-"libpq native library."
-msgstr "pgAdmin3 使用 libpq 函数库能够联接任何 PostgreSQL 7.3/7.4 数据库."
-
-#: ../cnt/cnt_screenshots.php:232
-msgid "pgAdmin3 includes PostgreSQL full documentation."
-msgstr "pgAdmin3 包括完整的 PostgreSQL 文档."
-
-#: ../cnt/cnt_screenshots.php:166
-msgid "pgAdmin3 includes a table editor."
-msgstr "pgAdmin3 包括一个表编辑器."
-
-#: ../cnt/cnt_screenshots.php:257
-#, c-format
-msgid "pgAdmin3 interface is translated in more than %d languages."
-msgstr "pgAdmin3 的接口的翻译超过 %d 种语言."
-
-#: ../cnt/cnt_screenshots.php:259
-msgid ""
-"pgAdmin3 interface supports all known Unicode scripts, even Right to Left "
-"(RTL) scripts like Arabic."
-msgstr ""
-"pgAdmin3 的接口支持所有已知的 Unicode 脚本, 甚至包括阿拉伯从右到左 (RTL) 的脚"
-"本."
-
-#: ../cnt/cnt_screenshots.php:43
-msgid ""
-"pgAdmin3 is a comprehensive design and management interface for PostgreSQL "
-"database, designed to run on most Operating Systems."
-msgstr ""
-"pgAdmin3 是为 PostgreSQL 数据库做的一个广泛的设计和管理接口, 被设计在大多数操"
-"作系统平台上运行."
-
-#: ../cnt/cnt_download.php:14 ../cnt/cnt_index.php:43
-#, fuzzy, c-format
-msgid ""
-"pgAdmin3 is a free software project released under the <a href='%s'>Artistic "
-"licence</a>."
-msgstr "pgAdmin3 是基于艺术 (Artistic) 许可证下的自由软件项目."
-
-#: ../cnt/cnt_index.php:38
-#, c-format
-msgid ""
-"pgAdmin3 is the result of a joint effort of a team of more than %d "
-"contributors from %d different countries."
-msgstr "pgAdmin3 是来自 %2$d 个不同国家超过 %1$d 名参与者团队的共通努力的结果."
-
-#: ../cnt/cnt_screenshots.php:248
-msgid ""
-"pgAdmin3 supports most PostgreSQL server-side encodings including Unicode "
-"UTF-8 and other multi-byte encodings."
-msgstr ""
-"pgAdmin3 支持大多数 PostgreSQL 服务端的编码, 包括 Unicode UTF-8 和其它一些多"
-"字节编码."
-
-#: ../cnt/cnt_index.php:144
-msgid "pgAdmin3 supports most PostgreSQL server-side encodings:"
-msgstr "pgAdmin3 支持大多数 PostgreSQL 服务端的编码:"
-
-#: ../cnt/cnt_index.php:87
-#, c-format
-msgid "pgAdmin3 user interface is translated in more than %d languages."
-msgstr "pgAdmin3 的用户接口已经翻译了超过 %d 种语言."
 
 #: ../cnt/cnt_development.php:37
 #, fuzzy

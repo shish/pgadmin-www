@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website.fa\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-04 12:36+0100\n"
+"POT-Creation-Date: 2004-02-07 15:44+0100\n"
 "PO-Revision-Date: 2003-08-25 09:35+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: Persian <>\n"
@@ -76,7 +76,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "After one year of development, we are happy to announce the availability of "
-"pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and "
+"pgAdmin III, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and "
 "FreeBSD."
 msgstr ""
 "بعد از یک سال برنامه سازی، خوشحال هستیم که وجود pgAdmin3 beta را اعلام "
@@ -87,8 +87,10 @@ msgid "Aggregates"
 msgstr "Aggregates"
 
 #: ../cnt/cnt_index.php:51
+#, fuzzy
 msgid ""
-"Although we concentrate on pgAdmin3, we will continue to support pgAdmin2."
+"Although we concentrate on pgAdmin III, we will continue to support pgAdmin "
+"II."
 msgstr ""
 "هرچند تمرکز ما بر روی pgAdmin3 می‌باشد ولی ما پشتیبانی از pgAdmin2 را ادامه "
 "خواهیم داد."
@@ -110,7 +112,7 @@ msgstr "اعتبارسنجی کد منبع با استفاده از <a href='%s'
 msgid "Author"
 msgstr "نگارنده"
 
-#: ../cnt/cnt_advocacy.php:88
+#: ../cnt/cnt_advocacy.php:78
 msgid ""
 "Available in more than 30 languages for Windows 2000/XP, GNU/Linux and "
 "FreeBSD."
@@ -154,7 +156,8 @@ msgid ""
 msgstr "بسته‌های فوری روزانه بسته‌های تألیف شده‌ی روزانه از CVS می‌باشند."
 
 #: ../cnt/cnt_index.php:53
-msgid "Both pgAdmin2 and pgAdmin3 can coexist on the same system."
+#, fuzzy
+msgid "Both pgAdmin II and pgAdmin III can coexist on the same system."
 msgstr ""
 "هر دوی pgAdmin2 و pgAdmin3 می‌توانند همزمان بر روی یک سیستم وجود داشته باشند."
 
@@ -180,7 +183,8 @@ msgid "Change log"
 msgstr ""
 
 #: ../cnt/cnt_download.php:282
-msgid "Check that pgAdmin executable is in the path."
+#, fuzzy
+msgid "Check that pgAdmin III executable is in the path."
 msgstr "بررسی نمایید که مجریان pgAdmin در مسیر قرار دارند."
 
 #: ../cnt/cnt_screenshots.php:202
@@ -200,7 +204,8 @@ msgid "Columns can be dropped."
 msgstr "ستون ها می‌توانند انداخته شوند."
 
 #: ../cnt/cnt_download.php:438
-msgid "Compile pgAdmin."
+#, fuzzy
+msgid "Compile pgAdmin III."
 msgstr "تألیف pgAdmin."
 
 #: ../cnt/cnt_index.php:110 ../cnt/cnt_screenshots.php:105
@@ -220,7 +225,8 @@ msgid "Could not connect to the mirror table."
 msgstr "نتوانستم با آینه جدول ارتباط برقرار نمایم."
 
 #: ../cnt/cnt_download.php:273
-msgid "Create a symlink to pgAdmin binary."
+#, fuzzy
+msgid "Create a symlink to pgAdmin III binary."
 msgstr "ایجاد یک پیوند نمادی به دوگانی pgAdmin."
 
 #: ../cnt/cnt_index.php:91 ../cnt/cnt_screenshots.php:5
@@ -276,7 +282,8 @@ msgid "Domains"
 msgstr "دامنه‌ها"
 
 #: ../cnt/cnt_download.php:324
-msgid "Double-clic on the installer and follow the instructions."
+#, fuzzy
+msgid "Double-click on the installer and follow the instructions."
 msgstr "بر نصب‌گر کلیک-دوگانه کرده و دستورات را دنبال نمایید."
 
 #: ../cnt/cnt_download.php:2 ../tpl/menu.php:35
@@ -302,19 +309,26 @@ msgstr "بارگیری"
 msgid "Download our supported wxWindows 2.5 CVS version."
 msgstr "نسخه‌ی wxWindows 2.5 CVS پشتیبانی شده‌ی ما را بارگیری نمایید."
 
-#: ../cnt/cnt_download.php:148 ../cnt/cnt_download.php:208
-#: ../cnt/cnt_download.php:244 ../cnt/cnt_download.php:303
+#: ../cnt/cnt_download.php:208 ../cnt/cnt_download.php:244
+#: ../cnt/cnt_download.php:303
 #, fuzzy, c-format
-msgid "Download pgAdmin package from our <a href='%s'>mirrors</a>."
-msgstr "بارگیری کد منبع pgAdmin از یک آینه."
-
-#: ../cnt/cnt_download.php:424
-msgid "Download pgAdmin source code from a mirror."
+msgid "Download pgAdmin III package from our <a href='%s'>mirrors</a>."
 msgstr "بارگیری کد منبع pgAdmin از یک آینه."
 
 #: ../cnt/cnt_download.php:456
-msgid "Download pgAdmin3 snapshots here:"
+#, fuzzy
+msgid "Download pgAdmin III snapshots here:"
 msgstr "بارگیری بسته‌های فوری pgAdmin در اینجا:"
+
+#: ../cnt/cnt_download.php:424
+#, fuzzy
+msgid "Download pgAdmin III source code from a mirror."
+msgstr "بارگیری کد منبع pgAdmin از یک آینه."
+
+#: ../cnt/cnt_download.php:148
+#, fuzzy, c-format
+msgid "Download pgAdmin package from our <a href='%s'>mirrors</a>."
+msgstr "بارگیری کد منبع pgAdmin از یک آینه."
 
 #: ../cnt/cnt_screenshots.php:214
 msgid ""
@@ -331,8 +345,9 @@ msgstr ""
 "کنید:"
 
 #: ../cnt/cnt_screenshots.php:141
+#, fuzzy
 msgid ""
-"Every time you manipulate objects graphically, pgAdmin3 writes the "
+"Every time you manipulate objects graphically, pgAdmin III writes the "
 "corresponding SQL code."
 msgstr ""
 "هروقت شما اشیای تصویری را دستکاری می‌کنید، pgAdmin3 کد SQL مربوط به آن را "
@@ -400,7 +415,7 @@ msgstr "GNU/Linux"
 msgid "GNU/Linux, FreeBSD and other *nixes."
 msgstr "GNU/Linux, FreeBSD و دیگر *nixes."
 
-#: ../cnt/cnt_advocacy.php:85
+#: ../cnt/cnt_advocacy.php:75
 msgid ""
 "Graphical administration interface for the PostgreSQL database, free for any "
 "use."
@@ -502,7 +517,8 @@ msgid ""
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:45
-msgid "In every environment, pgAdmin3 is a native application."
+#, fuzzy
+msgid "In every environment, pgAdmin III is a native application."
 msgstr "در هر محیطی، pgAdmin3 یک برنامه‌ی بومی می‌باشد."
 
 #: ../cnt/cnt_index.php:174
@@ -514,14 +530,15 @@ msgid "In progress"
 msgstr "در فراروند"
 
 #: ../cnt/cnt_screenshots.php:93
+#, fuzzy
 msgid ""
-"In the left pane of pgAdmin3, a navigation tree allow to browse database "
+"In the left pane of pgAdmin III, a navigation tree allow to browse database "
 "objects."
 msgstr ""
 "در جام سمت چپ pgAdmin3، یک درخت صفحه‌نورد اجازه‌ی مرور اشیای بانک اطلاعات را "
 "می‌دهد."
 
-#: ../cnt/cnt_advocacy.php:89
+#: ../cnt/cnt_advocacy.php:79
 msgid ""
 "Includes a graphical administration interface, a query builder, an sql "
 "editor, a server-side code editor and much more."
@@ -541,17 +558,18 @@ msgid "Install using the following command:"
 msgstr "نصب کردن با استفاده از فرمان بدنبال:"
 
 #: ../cnt/cnt_download.php:421
-msgid "Installing pgAdmin"
+#, fuzzy
+msgid "Installing pgAdmin III"
 msgstr "نصب کردن pgAdmin"
 
 #: ../cnt/cnt_download.php:451
 #, fuzzy
-msgid "Installing pgAdmin from binary snapshots"
+msgid "Installing pgAdmin III from binary snapshots"
 msgstr "نصب کردن pgAdmin"
 
 #: ../cnt/cnt_download.php:329
 #, fuzzy
-msgid "Installing pgAdmin from source code"
+msgid "Installing pgAdmin III from source code"
 msgstr "نصب کردن از منبع"
 
 #: ../cnt/cnt_download.php:355
@@ -738,7 +756,8 @@ msgid "PostgreSQL servers"
 msgstr "کارگزارهای PostgreSQL"
 
 #: ../cnt/cnt_index.php:94
-msgid "Powerfull query tool with color syntax highlight"
+#, fuzzy
+msgid "Powerful query tool with color syntax highlight"
 msgstr "ابزار پرسش قدرتمند با پرنوری ترکیب رنگی"
 
 #: ../cnt/cnt_index.php:3
@@ -763,6 +782,11 @@ msgstr "انتشارات ترجمه‌ها (%d زبان)"
 msgid "RPM"
 msgstr ""
 
+#: ../cnt/cnt_download.php:337
+#, fuzzy
+msgid "Recent versions of GTK2.2, automake, autoconf and gcc are needed."
+msgstr "نسخه‌های اخیر GTK2.2, automake, autoconf و gcc لازم می‌باشند."
+
 #: ../cnt/cnt_screenshots.php:65
 msgid ""
 "Recently, our team was joined by developers with an experience of more than "
@@ -770,10 +794,6 @@ msgid ""
 msgstr ""
 "اخیراً، برنامه‌سازان با تجربه‌ی بیش از ۱۰ سال در طراحی ابزارهای بانک اطلاعات به "
 "تیم ما پیوسته‌اند."
-
-#: ../cnt/cnt_download.php:337
-msgid "Recents versions of GTK2.2, automake, autoconf and gcc are needed."
-msgstr "نسخه‌های اخیر GTK2.2, automake, autoconf و gcc لازم می‌باشند."
 
 #: ../cnt/cnt_download.php:330
 msgid "Requirements"
@@ -843,7 +863,7 @@ msgstr "تعریف SQL هر شیئ می‌تواند به ابزار پرسش م
 msgid "The advocacy page is intended for the promotion of pgAdmin."
 msgstr ""
 
-#: ../cnt/cnt_advocacy.php:95 ../cnt/cnt_index.php:18
+#: ../cnt/cnt_advocacy.php:85 ../cnt/cnt_index.php:18
 msgid ""
 "The application also includes a query builder, an SQL editor, a server-side "
 "code editor and much more."
@@ -861,7 +881,7 @@ msgstr ""
 "برنامه در کد دوگانی اجرا می‌شود و نه در یک ماشین مجازی، بنابرین اجرای بسیار "
 "خوبی را عرضه می‌دارد."
 
-#: ../cnt/cnt_advocacy.php:92 ../cnt/cnt_index.php:13
+#: ../cnt/cnt_advocacy.php:82 ../cnt/cnt_index.php:13
 msgid ""
 "The application is running under GNU/Linux, FreeBSD and Windows 2000/XP."
 msgstr ""
@@ -878,7 +898,7 @@ msgstr "داده‌ها وقتی لازم است که نمایش داده شون
 msgid "The documentation can be viewed off-line or on-line."
 msgstr "نوشتارها می‌توانند در اینترنت یا همراه برنامه مطالعه شوند."
 
-#: ../cnt/cnt_advocacy.php:94 ../cnt/cnt_index.php:17
+#: ../cnt/cnt_advocacy.php:84 ../cnt/cnt_index.php:17
 msgid ""
 "The graphical interface supports all PostgreSQL features and makes "
 "administration easy."
@@ -905,9 +925,10 @@ msgid "The project can only live and develop with your help."
 msgstr "این پروژه فقط می‌تواند با کمک شما ادامه و پیشرفت کند."
 
 #: ../cnt/cnt_screenshots.php:138
+#, fuzzy
 msgid ""
 "The properties and statistics of the selected object are displayed in the "
-"right pane of pgAdmin3."
+"right pane of pgAdmin III."
 msgstr ""
 "مشخصات و آمارهای شیئ انتخاب شده در جام سمت راست pgAdmin3 نشان داده می‌شوند."
 
@@ -1095,20 +1116,27 @@ msgid "We can only rely on users to make pgAdmin the best possible software."
 msgstr ""
 
 #: ../cnt/cnt_index.php:180
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"We need help to translate pgAdmin3 and our website in more than %d languages."
+"We need help to translate pgAdmin III and our website in more than %d "
+"languages."
 msgstr ""
 "ما برای ترجمه pgAdmin3 و وب‌گاه خود به بیش از %d زبان به کمک نیاز داریم."
 
 #: ../cnt/cnt_translation.php:29
-msgid "We need your help to translate pgAdmin3 into several languages."
+#, fuzzy
+msgid "We need your help to translate pgAdmin III into several languages."
 msgstr "ما به کمک شما برای ترجمه pgAdmin3 به چندین زبان احتیاج داریم."
 
 #: ../cnt/cnt_screenshots.php:258
 #, c-format
 msgid "We plan to reach %d languages soon."
 msgstr "ما برای رسیدن به %d زبان نقشه کشیده‌ایم."
+
+#: ../cnt/cnt_download.php:346
+#, fuzzy
+msgid "We provide modified wxWindows 2.5 source and binary packages."
+msgstr "ما بسته‌های دوگانی و منبع wxWindows 2.5 را عرضه می‌کنیم."
 
 #: ../cnt/cnt_screenshots.php:47
 msgid ""
@@ -1117,10 +1145,6 @@ msgid ""
 msgstr ""
 "ما بستته‌های دوگانی و منبع را برای GNU/Linux, FreeBSD و Ms Windows 2000 & XP "
 "عرضه می‌کنیم. درگاه‌های MacOsX و SunOS در حال آماده شدن می‌باشند."
-
-#: ../cnt/cnt_download.php:346
-msgid "We provide wxWindows 2.5 source and binary packages."
-msgstr "ما بسته‌های دوگانی و منبع wxWindows 2.5 را عرضه می‌کنیم."
 
 #: ../cnt/cnt_index.php:37
 msgid ""
@@ -1151,9 +1175,10 @@ msgstr ""
 "بخشیده‌ایم."
 
 #: ../cnt/cnt_index.php:52
+#, fuzzy
 msgid ""
-"With the rapid advancement of the project, we recommand upgrading to "
-"pgAdmin3."
+"With the rapid advancement of the project, we recommand upgrading to pgAdmin "
+"III."
 msgstr "با پیشرفت سریع پروژه، پیشنهاد می‌کنیم که به pgAdmin3 ارتقا دهید."
 
 #: ../cnt/cnt_development.php:38
@@ -1171,44 +1196,15 @@ msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr ""
 "شما بزودی متوجه خواهید شد که PostgreSQL سریعترین بانک اطلاعات موجود می‌باشد."
 
-#: ../cnt/cnt_advocacy.php:87
-#, fuzzy
-msgid ""
-"pgAdmin III is a powerfull administration and development interface for the "
-"PostgreSQL database, free for any use."
-msgstr ""
-"pgAdmin3 یک طراحی گسترده و واسط مدیریت برای بانک اطلاعات PostgreSQL بوده و "
-"برای اجرا بر بیشتر سیستم‌های عامل طراحی شده است."
-
-#: ../cnt/cnt_advocacy.php:91 ../cnt/cnt_index.php:12
-msgid ""
-"pgAdmin III is a powerfull administration and development platform for the "
-"PostgreSQL database, free for any use."
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:93 ../cnt/cnt_index.php:16
-msgid ""
-"pgAdmin III is designed to answer the needs of all users, from writing "
-"simple SQL queries to developing complex databases."
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:97 ../cnt/cnt_index.php:22
-msgid ""
-"pgAdmin III is developed by a community of database specialists around the "
-"world and is available in more than 30 languages. It is Free Software "
-"released under the Artistic License."
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:96 ../cnt/cnt_index.php:19
-msgid ""
-"pgAdmin III is released with an installer and does not require any "
-"additional driver to communicate with the database server."
-msgstr ""
+#: ../cnt/cnt_index.php:27 ../cnt/cnt_index.php:34
+#, fuzzy, c-format
+msgid "pgAdmin III %s released"
+msgstr "انتشار بتا pgAdmin3 "
 
 #: ../cnt/cnt_download.php:144
 #, c-format
 msgid ""
-"pgAdmin RPM packages are available for several GNU/Linux distributions, "
+"pgAdmin III RPM packages are available for several GNU/Linux distributions, "
 "including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."
 msgstr ""
 
@@ -1216,9 +1212,135 @@ msgstr ""
 #: ../cnt/cnt_download.php:168 ../cnt/cnt_download.php:174
 #: ../cnt/cnt_download.php:180 ../cnt/cnt_download.php:223
 #: ../cnt/cnt_download.php:259 ../cnt/cnt_download.php:318
-#, c-format
-msgid "pgAdmin binary packages for %s"
+#, fuzzy, c-format
+msgid "pgAdmin III binary packages for %s"
 msgstr "بسته‌های دوگانی pgAdmin برای %s"
+
+#: ../cnt/cnt_screenshots.php:78
+#, fuzzy
+msgid ""
+"pgAdmin III can connect to any PostgreSQL 7.3/7.4 database using the "
+"embedded libpq native library."
+msgstr ""
+"pgAdmin3 می‌تواندبا هر بانک اطلاعات PostgreSQL 7.3/7.4 با استفاده ازکتابخانه "
+"بومی libpq در بستری ارتباط برقرار کند. "
+
+#: ../cnt/cnt_screenshots.php:232
+#, fuzzy
+msgid "pgAdmin III includes PostgreSQL full documentation."
+msgstr "pgAdmin3 تمام نوشتارهای PostgreSQL را در بر دارد."
+
+#: ../cnt/cnt_screenshots.php:166
+#, fuzzy
+msgid "pgAdmin III includes a table editor."
+msgstr "pgAdmin3 شامل یک ویرایشگر جدول می‌باشد."
+
+#: ../cnt/cnt_screenshots.php:257
+#, fuzzy, c-format
+msgid "pgAdmin III interface is translated in more than %d languages."
+msgstr "واسط pgAdmin3 به بیش از %d زبان ترجمه شده است."
+
+#: ../cnt/cnt_screenshots.php:259
+#, fuzzy
+msgid ""
+"pgAdmin III interface supports all known Unicode scripts, even Right to Left "
+"(RTL) scripts like Arabic."
+msgstr ""
+"واسط pgAdmin3 همه دست‌نویس‌های یونی‌کد شناخته شده را پشتیبانی می‌کند، حتی "
+"دست‌نویس‌های از راست به چپ (RTL) مانند عربی را."
+
+#: ../cnt/cnt_screenshots.php:43
+#, fuzzy
+msgid ""
+"pgAdmin III is a comprehensive design and management interface for "
+"PostgreSQL database, designed to run on most Operating Systems."
+msgstr ""
+"pgAdmin3 یک طراحی گسترده و واسط مدیریت برای بانک اطلاعات PostgreSQL بوده و "
+"برای اجرا بر بیشتر سیستم‌های عامل طراحی شده است."
+
+#: ../cnt/cnt_download.php:14 ../cnt/cnt_index.php:43
+#, fuzzy, c-format
+msgid ""
+"pgAdmin III is a free software project released under the <a href='%"
+"s'>Artistic licence</a>."
+msgstr ""
+"pgAdmin3 یک پروژه‌ی نرم‌افزار آزاد بوده و تحت <a href='%s'>اجازه‌نامه‌ی هنری</a> "
+"پخش شده است."
+
+#: ../cnt/cnt_advocacy.php:77 ../cnt/cnt_advocacy.php:81
+#: ../cnt/cnt_index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin III is a powerful administration and development platform for the "
+"PostgreSQL database, free for any use."
+msgstr ""
+"pgAdmin3 یک طراحی گسترده و واسط مدیریت برای بانک اطلاعات PostgreSQL بوده و "
+"برای اجرا بر بیشتر سیستم‌های عامل طراحی شده است."
+
+#: ../cnt/cnt_development.php:14
+#, fuzzy
+msgid "pgAdmin III is available subject to the terms of the Artistic Licence."
+msgstr "pgAdmin تحت اجازه‌نامه‌ی هنری در دسترس می‌باشد."
+
+#: ../cnt/cnt_advocacy.php:83 ../cnt/cnt_index.php:16
+msgid ""
+"pgAdmin III is designed to answer the needs of all users, from writing "
+"simple SQL queries to developing complex databases."
+msgstr ""
+
+#: ../cnt/cnt_advocacy.php:87 ../cnt/cnt_index.php:22
+msgid ""
+"pgAdmin III is developed by a community of database specialists around the "
+"world and is available in more than 30 languages. It is Free Software "
+"released under the Artistic License."
+msgstr ""
+
+#: ../cnt/cnt_advocacy.php:86 ../cnt/cnt_index.php:19
+msgid ""
+"pgAdmin III is released with an installer and does not require any "
+"additional driver to communicate with the database server."
+msgstr ""
+
+#: ../cnt/cnt_index.php:38
+#, fuzzy, c-format
+msgid ""
+"pgAdmin III is the result of a joint effort of a team of more than %d "
+"contributors from %d different countries."
+msgstr ""
+"pgAdmin3 نتیجه‌ی تلاش مشترک از یک تیم بیش ار %d یاری دهندگان از %d کشور مختلف "
+"می‌باشد."
+
+#: ../cnt/cnt_download.php:204 ../cnt/cnt_download.php:240
+#: ../cnt/cnt_download.php:300
+#, fuzzy, c-format
+msgid "pgAdmin III packages are available for %s."
+msgstr "بسته‌های دوگانی pgAdmin برای %s"
+
+#: ../cnt/cnt_download.php:26
+#, c-format
+msgid ""
+"pgAdmin III packages are available for <a href='%s'>GNU/Linux Debian</a> "
+"stable, testing and unstable distributions."
+msgstr ""
+
+#: ../cnt/cnt_screenshots.php:248
+#, fuzzy
+msgid ""
+"pgAdmin III supports most PostgreSQL server-side encodings including Unicode "
+"UTF-8 and other multi-byte encodings."
+msgstr ""
+"pgAdmin3 بیشتر کدگذاری‌های قسمت-کارگزار PostgreSQL همچنین یونی‌کد و کدگذاری‌های "
+"چندبایتی دیگر را پشتیبانی می‌کند."
+
+#: ../cnt/cnt_index.php:144
+#, fuzzy
+msgid "pgAdmin III supports most PostgreSQL server-side encodings:"
+msgstr "pgAdmin3 بیشتر کدگذاری‌هایقسمت-کارگزار PostgreSQL را پشتیبانی می‌کند:"
+
+#: ../cnt/cnt_index.php:87
+#, fuzzy, c-format
+msgid "pgAdmin III user interface is translated in more than %d languages."
+msgstr "واسط کاربر pgAdmin3 به بیشتر از %d زبان ترجمه شده است."
 
 #: ../cnt/cnt_index.php:167
 msgid ""
@@ -1228,27 +1350,10 @@ msgstr ""
 "pgAdmin یک پروژه‌ی ایجاد شده و اداره شده بوسیله یاری دهندگان از تمام جهان "
 "می‌باشد."
 
-#: ../cnt/cnt_development.php:14
-msgid "pgAdmin is available subject to the terms of the Artistic Licence."
-msgstr "pgAdmin تحت اجازه‌نامه‌ی هنری در دسترس می‌باشد."
-
 #: ../cnt/cnt_screenshots.php:63
 #, c-format
 msgid "pgAdmin is used by more than %d users worldwide."
 msgstr "pgAdmin بوسیله‌ی بیش از %d کاربر در تمام جهان استفاده می‌شود."
-
-#: ../cnt/cnt_download.php:204 ../cnt/cnt_download.php:240
-#: ../cnt/cnt_download.php:300
-#, fuzzy, c-format
-msgid "pgAdmin packages are available for %s."
-msgstr "بسته‌های دوگانی pgAdmin برای %s"
-
-#: ../cnt/cnt_download.php:26
-#, c-format
-msgid ""
-"pgAdmin packages are available for <a href='%s'>GNU/Linux Debian</a> stable, "
-"testing and unstable distributions."
-msgstr ""
 
 #: ../cnt/cnt_screenshots.php:62
 msgid "pgAdmin project started five years ago."
@@ -1258,86 +1363,9 @@ msgstr "پروژه‌ی pgAdmin پنج سال پیش آغاز شده است."
 msgid "pgAdmin2 is still supported"
 msgstr "pgAdmin2 هنوز پشتیبانی می‌شود."
 
-#: ../cnt/cnt_index.php:27 ../cnt/cnt_index.php:34
-#, fuzzy, c-format
-msgid "pgAdmin3 %s released"
-msgstr "انتشار بتا pgAdmin3 "
-
 #: ../cnt/cnt_download.php:475
 msgid "pgAdmin3 can be downloaded from a large number of mirrors."
 msgstr "می‌توان pgAdmin3 را از تعداد زیادی از آینه‌ها بارگیری نمود."
-
-#: ../cnt/cnt_screenshots.php:78
-msgid ""
-"pgAdmin3 can connect to any PostgreSQL 7.3/7.4 database using the embedded "
-"libpq native library."
-msgstr ""
-"pgAdmin3 می‌تواندبا هر بانک اطلاعات PostgreSQL 7.3/7.4 با استفاده ازکتابخانه "
-"بومی libpq در بستری ارتباط برقرار کند. "
-
-#: ../cnt/cnt_screenshots.php:232
-msgid "pgAdmin3 includes PostgreSQL full documentation."
-msgstr "pgAdmin3 تمام نوشتارهای PostgreSQL را در بر دارد."
-
-#: ../cnt/cnt_screenshots.php:166
-msgid "pgAdmin3 includes a table editor."
-msgstr "pgAdmin3 شامل یک ویرایشگر جدول می‌باشد."
-
-#: ../cnt/cnt_screenshots.php:257
-#, c-format
-msgid "pgAdmin3 interface is translated in more than %d languages."
-msgstr "واسط pgAdmin3 به بیش از %d زبان ترجمه شده است."
-
-#: ../cnt/cnt_screenshots.php:259
-msgid ""
-"pgAdmin3 interface supports all known Unicode scripts, even Right to Left "
-"(RTL) scripts like Arabic."
-msgstr ""
-"واسط pgAdmin3 همه دست‌نویس‌های یونی‌کد شناخته شده را پشتیبانی می‌کند، حتی "
-"دست‌نویس‌های از راست به چپ (RTL) مانند عربی را."
-
-#: ../cnt/cnt_screenshots.php:43
-msgid ""
-"pgAdmin3 is a comprehensive design and management interface for PostgreSQL "
-"database, designed to run on most Operating Systems."
-msgstr ""
-"pgAdmin3 یک طراحی گسترده و واسط مدیریت برای بانک اطلاعات PostgreSQL بوده و "
-"برای اجرا بر بیشتر سیستم‌های عامل طراحی شده است."
-
-#: ../cnt/cnt_download.php:14 ../cnt/cnt_index.php:43
-#, c-format
-msgid ""
-"pgAdmin3 is a free software project released under the <a href='%s'>Artistic "
-"licence</a>."
-msgstr ""
-"pgAdmin3 یک پروژه‌ی نرم‌افزار آزاد بوده و تحت <a href='%s'>اجازه‌نامه‌ی هنری</a> "
-"پخش شده است."
-
-#: ../cnt/cnt_index.php:38
-#, c-format
-msgid ""
-"pgAdmin3 is the result of a joint effort of a team of more than %d "
-"contributors from %d different countries."
-msgstr ""
-"pgAdmin3 نتیجه‌ی تلاش مشترک از یک تیم بیش ار %d یاری دهندگان از %d کشور مختلف "
-"می‌باشد."
-
-#: ../cnt/cnt_screenshots.php:248
-msgid ""
-"pgAdmin3 supports most PostgreSQL server-side encodings including Unicode "
-"UTF-8 and other multi-byte encodings."
-msgstr ""
-"pgAdmin3 بیشتر کدگذاری‌های قسمت-کارگزار PostgreSQL همچنین یونی‌کد و کدگذاری‌های "
-"چندبایتی دیگر را پشتیبانی می‌کند."
-
-#: ../cnt/cnt_index.php:144
-msgid "pgAdmin3 supports most PostgreSQL server-side encodings:"
-msgstr "pgAdmin3 بیشتر کدگذاری‌هایقسمت-کارگزار PostgreSQL را پشتیبانی می‌کند:"
-
-#: ../cnt/cnt_index.php:87
-#, c-format
-msgid "pgAdmin3 user interface is translated in more than %d languages."
-msgstr "واسط کاربر pgAdmin3 به بیشتر از %d زبان ترجمه شده است."
 
 #: ../cnt/cnt_development.php:37
 #, fuzzy

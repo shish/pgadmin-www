@@ -75,7 +75,7 @@ ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2
 	PostgreSQL postgresql postgres sql database administration admin free pgadmin pg
 	</td></tr>
       </table></li>
-        </ul>
+    </ul>
   </dd>
 
 </dl>
@@ -84,6 +84,9 @@ ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2
 
 <h1 id="list">Web sites promoting pgAdmin</h1>
 <dl>
+<dd>
+We would like to thank the web sites promoting pgAdmin. To our knowledge, pgAdmin was registered on the following web sites:
+</dd>
 
 <dd>
 cs (Czech)
@@ -92,8 +95,8 @@ cs (Czech)
   </ul>
 </dd>
 
-de (German)
 <dd>
+de (German)
   <ul>
     <li><a href='http://dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a></li>
   </ul>
@@ -140,6 +143,13 @@ fr (French)
     <li><a href='http://www.framasoft.net/rubrique2.html'>Framasoft</a> (pending)</li>
     <li><a href='http://gnuwin.epfl.ch/fr/index.html'>GNU Win</a> (pending)</li>
     <li><a href='http://telecharger.01net.com/windows/Programmation/base_de_donne'>Telecharger.com</a> (pending)</li>
+  </ul>
+</dd>
+
+<dd>
+hu (Hungarian)
+  <ul>
+    <li><a href='http://www.fsn.hu'>Free Software Nation</a> (pending)</li>
   </ul>
 </dd>
 

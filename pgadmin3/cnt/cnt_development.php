@@ -29,7 +29,7 @@
 
   <h1 id="dev_list"><?php echo _("pgadmin-hackers mailing list");?></h1>
   <dd>
-  <?php echo _("pgadmin-hackers list is intended for developers who whish to contribute to pgAdmin project.");?>
+  <?php echo _("pgadmin-hackers list is intended for developers who wish to contribute to pgAdmin project.");?>
   <?php echo sprintf(_("You are more than welcome to subscribe, but please remember to use <a href='%s'>pgadmin-support</a> list for end user support issues."), "support.php#support_list");?>
   <?php echo sprintf(_("To subscribe to the mailing list, send an email to %s with the word 'subscribe', without quotes, as the body of message."), "<a href='mailto:pgadmin-hackers-request@postgresql.org'>pgadmin-hackers-request@postgresql.org</a>");?>
   <br><br>

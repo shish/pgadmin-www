@@ -29,17 +29,17 @@
     <?php echo _("We need your help to translate pgAdmin3 into several languages.");?>
     <?php echo _("Everyone can participate, please refer to the translation howto for more information.");?>
     <?php echo sprintf(_("This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."), "locale/pgadmin3_website.pot");?>
-    <?php echo sprintf(_("If you are interested by the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."), "http://webmail.postgresql.org/~petere/nls.php");?>
+    <?php echo sprintf(_("If you are interested in the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."), "http://webmail.postgresql.org/~petere/nls.php");?>
   </dd>
 
 
   <h1 id="published"><?php echo sprintf(_("Published Translations (%d languages)"), $translated->getNbLanguages());?></h1>
   <dd>
-  	<?php echo _("If you are the author/maintainer of a translation and whish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command.");?>
+  	<?php echo _("If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command.");?>
     <?php echo _("Translate the text and send us the *.po file.");?>
 
   <dd>
-  	<?php echo _("If you are not the author/maintainer of a translation and whish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator.");?>
+  	<?php echo _("If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator.");?>
   </dd>
 
   <dd>
@@ -99,7 +99,7 @@
       When this is done, you will receive an email. Connect to <a href="translation.php#progress">Translation in progress</a> page and download the *.po file corresponding to your language.
       <br><br>
 
-    <li>Edit pgadmin.po file. The steps described are related to <a href="http://poedit.sourceforge.net">poEdit</a> only.<br><br>
+    <li>Edit pgAdmin *.po file. The steps described are related to <a href="http://poedit.sourceforge.net">poEdit</a> only.<br><br>
       <ul>
         <li>As a first action, please edit the file properties (Catalog/Settings).  Select correct language and country, Charset to utf-8. Project name is pgAdmin3, Team is pgAdmin Developers, email address should be pgadmin-hackers@postgresql.org.
         <br><br>

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /usr/local/www/pgadmin.postgresql.org/cvsroot/pgadmin3
+/usr/bin/cvs -z9 update -d
+cd /usr/local/www/pgadmin.postgresql.org
+/usr/bin/cvs -z9 update -d
+

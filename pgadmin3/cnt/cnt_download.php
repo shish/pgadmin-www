@@ -8,17 +8,41 @@
 <div id="bodyText">
   <h1 id="pgadmin3"><?php echo _("pgAdmin3 beta")?></h1>
   <dd>
-		<?php echo sprintf(_("pgAdmin3 source code can be downloaded <a href='%s'>here</a>."), "http://www.pgadmin.org/snapshots/src")?>
-    <?php echo _("Because compiling source code requires technical knowledge, we recommand using precompiled binaries.")?>
-    <br><br>
-
-    <?php echo _("Download pgAdmin3 binaries here:")?>
-    <ul>
-      <li>GNU Linux <a href="http://www.pgadmin.org/snapshots/linux/debian">Debian</a> | <a href="http://www.pgadmin.org/snapshots/linux/redhat9">RedHat 9</a> | <a href="http://www.pgadmin.org/snapshots/linux/suse82">SuSE 8.2</a> | <a href="http://www.pgadmin.org/snapshots/linux/mandrake91">Mandrake 9.1</a> | <a href="http://www.pgadmin.org/snapshots/linux/slackware90">Slackware 9.0</a><br>
-      <li><a href="http://www.pgadmin.org/snapshots/freeBSD">FreeBSD 5.1</a><br>
-      <li><a href="http://www.pgadmin.org/snapshots/windows">Microsoft Windows 2000 & XP</a><br>
-  	</ul>
+		<?php echo _("pgAdmin3  is available in source and binary format.")?>
+    <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
+		<?php echo _("After downloading, please read our installation insructions.")?>
+    <?php echo _("On each mirror, the files can be found in the following directories:")?>
   </dd>
+
+	<dd>
+		<table width= '100%' cellspacing=0 cellpadding=10 border=0>
+			<tr bgcolor=lightgray>
+        <td><?php echo _("Location on mirror")?></td>
+        <td></td>
+        <td><?php echo _("Description")?></td>
+      </tr>
+    	<tr bgcolor=lightyellow>
+        <td>beta/src</td>
+        <td></td>
+        <td><?php echo _("pgAdmin source code")?></td>
+      </tr>
+      <tr bgcolor=beige>
+        <td>beta/win32</td>
+        <td></td>
+        <td><?php echo _("Binary binary packages for Windows 2000 & XP")?></td>
+      </tr>
+      <tr bgcolor=lightyellow>
+        <td>beta/slackware9</td>
+        <td></td>
+        <td><?php echo _("Binary binary packages for GNU/Linux Slackware 9.0")?></td>
+      </tr>
+    </table>
+  </dd>
+
+  <dd>
+		<?php include_once ("cnt/cnt_mirrors.php"); ?>
+  </dd>
+
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
 

@@ -146,9 +146,10 @@ en (English)
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
     <li><a href='http://www.hotscripts.com/Detailed/30672.html'>Hotscripts</a></li>
     <li><a href='http://www.icewalkers.com'>IceWalkers</a> (pending)</li>
-    <li><a href='http://www.linuxdownloads.org'>Linuxdownloads</a> (pending)</li>
-    <li><a href='http://www.linuxlinks.com/Web/Databases'>Linuxlinks</a></li>
-    <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)</li>
+    <li><a href='http://www.linuxdownloads.org'>Linux Downloads</a> (pending)</li>
+    <li><a href='http://www.linuxlinks.com/Web/Databases'>Linux Links</a></li>
+    <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linux Gurus</a> (pending)</li>
+    <li><a href='http://www.linuxarchives.com/database.htm'>Linux Archives</a> (pending)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>

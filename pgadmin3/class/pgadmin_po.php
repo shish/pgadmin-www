@@ -324,9 +324,10 @@ class po_status {
   	$_pathinfo = pathinfo($_po_file_path);
     $_dir      = $_pathinfo["dirname"];
 
-  	$_command = "cd $_dir; export LANGUAGE=en_US; msgfmt --statistics $_po_file_path 2>&1";
+    $_command = "cd $_dir; export LANGUAGE=en_US; /usr/local/bin/msgfmt --statistics $_po_file_path 2>&1";
     $_command_result = shell_exec ($_command);
-    //echo $_command_result."<br>";
+
+    // echo $_command_result."<br>";
 
 		$_po_stat = array();
     $_po_stat = explode(",", $_command_result);

@@ -107,9 +107,9 @@ We would like to thank the web sites registering pgAdmin. To our knowledge, pgAd
 <dd>
 cs (Czech)
   <ul>
+    <li><a href='http://www.linuxsoft.cz'>Linux software</a> (pending)</li>
     <li><a href='http://postgresql.ok.cz'>PostgreSQL CZ</a></li>
     <li><a href='http://www.prospector.cz/Software/Development_Tools/Databases'>Prospector</a></li>
-    <li><a href='http://www.stahuj.cz'>Stahuj</a> (reminder to register)</li>
   </ul>
 </dd>
 
@@ -145,7 +145,6 @@ en (English)
     <li><a href='http://www.linuxdownloads.org'>Linux Downloads</a> (pending)</li>
     <li><a href='http://www.linuxlinks.com/Web/Databases'>Linux Links</a></li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
-    <li><a href='http://www.osdir.com'>OSDir OReilly</a> (pending)</li>
     <li><a href='http://www.padring.com'>Pad Ring</a> (pending)</li>
     <li><a href='http://www.pcworlddownload.com/development-tools/database/pgadmin-iii-for-postgresql.htm'>PC World Download</a></li>
     <li><a href='http://www.perfectdownloads.com/software-development/databases-networks/pgadmin-iii-for-postgresql.htm'>Perfect Downloads</a></li>
@@ -155,7 +154,7 @@ en (English)
     <li><a href='http://www.sharewareisland.com/application.asp?fileid=22278'>Shareware Island</a></li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>
-    <li><a href='http://www.soft411.com/software/postgresql.html'>Soft 411</a> (pending)</li>
+    <li><a href='http://www.soft411.com/company/pgAdmin-Team/pgAdmin-III-for-PostgreSQL.htm'>Soft 411</a></li>
     <li><a href='http://www.softempire.com/pgadmin-iii-for-postgresql.html'>Soft Empire</a></li>
     <li><a href='http://www.softpile.com/Development/Databases_and_Networks/Review_33046_index.html'>Softpile</a></li>
     <li><a href='http://www.theopencd.org'>The Open CD</a> (pending)</li>

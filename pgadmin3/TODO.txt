@@ -3,6 +3,7 @@ High priority
 - FAQ should be in CVS, with automatic update to the FAQ site.
 - Compilation howto. Otherwise, developpers will contact us with a "I can't compile using wxGTK2.4"...
 - Link to the Artistic licence.
+- use PostgreSQL php class to generate the list of mirrors.
 
 Low priority
 - Translation howto.

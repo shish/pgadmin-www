@@ -84,7 +84,8 @@
 			<Char_Desc_45>Administration Centre for PostgreSQL</Char_Desc_45>
 			<Char_Desc_80>Administration Centre for the PostgreSQL database, free for any use</Char_Desc_80>
 			<Char_Desc_250>Administration Centre for the PostgreSQL database, free for any use. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. Designed to answer the needs of all users.</Char_Desc_250>
-			<Char_Desc_450>Administration Centre for the PostgreSQL database, free for any use. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. <br/>pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. Available in more than 30 languages and for several operating systems.</Char_Desc_450>
+			<Char_Desc_450>Administration Centre for the PostgreSQL database, free for any use. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. Available in more than 30 languages and for several operating systems.</Char_Desc_450>
+			<Char_Desc_2000>Administration Centre for the PostgreSQL database, free for any use. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. Available in more than 30 languages and for several operating systems.</Char_Desc_2000>
 		</English>
 
 		<French>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 //
 // Copyright pgAdmin Team 2003
 // Released under the BSD licence
@@ -33,6 +33,7 @@
   $translated->addLanguage ("ja_JP", "Japanese", "斉藤　浩 (Hiroshi Saito)", "saito@inetrt.skcapi.co.jp", "pgadmin3.po", "src/ui/ja_JP/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("lt_LT", "Lithuanian", "Linas Jankauskas", "linas.jankauskas@eniro.lt", "pgadmin3.po", "src/ui/lt_LT/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("lv_LV", "Latvian", "Lauris Bukšis", "lauris@nix.lv", "pgadmin3.po", "src/ui/lv_LV/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $outofdate->addLanguage ("mk_MK", "Macedonian", "Валентин Ѓорѓиоски", "tinodj@on.net.mk", "pgadmin3.po", "src/ui/mk_MK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("nb_NO", "Norwegian Bokmål", "Brage Førland", "brage@sisyfos.zoo.uib.no", "pgadmin3.po","src/ui/nb_NO/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("nl_NL", "Dutch", "Fred van Bemmel", "f.van.bemmel@hccnet.nl", "pgadmin3.po", "src/ui/nl_NL/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("pl_PL", "Polish", "Slawomir Sudnik", "slawek@icpnet.pl", "pgadmin3.po", "src/ui/pl_PL/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

@@ -72,10 +72,17 @@ cs (Czech)
   </ul>
 </dd>
 
+de (German)
+<dd>
+  <ul>
+    <li><a href='http://dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a>
+  </ul>
+</dd>
+
 en (English)
 <dd>
   <ul>
-    <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>dmoz</a> (updating pending)
+    <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a> (updating pending)
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a>
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>

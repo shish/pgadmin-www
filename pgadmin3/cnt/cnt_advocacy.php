@@ -55,13 +55,13 @@ en (English)
 <dd>
   <ul>
     <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>dmoz</a> (updating pending)
-    <li><a href='http://www.freewarefiles.com'>Freewarefiles</a> (pending)
+    <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a>
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>
     <li><a href='http://www.hotscripts.com/Tools_and_Utilities/Database_Tools'>Hotscripts</a> (pending)
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)
     <li><a href='http://www.nonags.com'>Nonags</a> (pending)
-    <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>ProgramFiles.com</a>
+    <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a> (pending)
   </ul>

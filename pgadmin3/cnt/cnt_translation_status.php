@@ -9,6 +9,8 @@
 //       considered published. If you added or remove any, please
 //       ensure that src/Makefile.am in the pgAdmin3 source tree is
 //       updated to reflect the changes.
+//       Any translated language should have an enty in 
+//       docs/en_US/translation_team.html as well.
 //
 
   $translated->addLanguage ("af_ZA", "Afrikaans", "Petri Jooste", "rkwjpj@puknet.puk.ac.za", "pgadmin3.po","src/ui/af_ZA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

@@ -3,8 +3,6 @@ High priority
 - Define a default font for Latin1 languages.
 - Link section in Support page.
 - Calculate statistics from .pot template file.
-
-Low priority
 - Website translation status.
 - Team members
 

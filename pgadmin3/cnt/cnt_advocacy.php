@@ -128,7 +128,6 @@ en (English)
     <li><a href='http://www.acm.org/sigmod/databaseSoftware/nonprofit'>Association for Computing Machinery</a></li>
     <li><a href='http://www.afreego.com'>AFreeGo</a> (pending)</li>
     <li><a href='http://www.asp-shareware.org/pad/showinfo.asp?xmlfile=http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>Association of Shareware Professionals</a></li>
-    <li><a href='http://www.aspin.com/home/webapps/database'>ASP Resource index</a> (pending)</li>
     <li><a href='http://www.bloodshed.net/c'>Bloodshed</a></li>
     <li><a href='http://www.bykeyword.com'>By Keyword</a> (pending)</li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/1075383313.html'>Database Journal</a></li>
@@ -156,7 +155,7 @@ en (English)
     <li><a href='http://www.perfectdownloads.com/software-development/databases-networks/pgadmin-iii-for-postgresql.htm'>Perfect Downloads</a></li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
     <li><a href='http://www.programmersheaven.com/search/download.asp?FileID=32608'>Programmers Heaven</a></li>
-    <li><a href='http://www.sharewareconnection.com'>Shareware connection</a> (pending)</li>
+    <li><a href='http://www.sharewareconnection.com/pgadmin-iii-for-postgresql.htm'>Shareware connection</a></li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>
     <li><a href='http://www.snapfiles.com/freeware/freeware.html'>Snapfiles</a> (Reminder to register)</li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>

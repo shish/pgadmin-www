@@ -15,29 +15,41 @@
 <dl>
   <dt>Why promote pgAdmin?</dt>
   <dd>
-  Promotion is essential for the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers, who may in turn bring exciting new features to pgAdmin and possibly to PostgreSQL too.
+  Promotion is essential for the life and development of the pgAdmin project. Reaching new users can help pgAdmin project get in touch with talented developers, who may bring exciting new features to pgAdmin and possibly to PostgreSQL too.
   </dd>
   <dd>On the long run, promoting free software is essential for economical development and civil liberties.
   PostgreSQL and pgAdmin free software are used worldwide by a large number of end-users, companies, governments and institutions. Therefore, helping us promote pgAdmin is certainly not a loss of time.
   </dd>
 
 
-    <dt>Promotion strategies</dt>
+  <dt>Promotion strategies</dt>
   <dd>
         The proposed strategy is quite simple :
         <ul>
-          <li>Translate pgAdmin software and pgAdmin web site in your language as explained on the <a href='translation.php'>translation page</a>.
-          <li>Register pgAdmin on free software web sites in your country. We are highly interested in community web sites designed by 'opinion leaders'. For example, Troels Arvin registered pgAdmin on Freshmeat <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>here</a>. Each country has one or two major web sites for free software.
-          <li>pgAdmin web site si not (yet) able to guess the default language of your browser. Therefore, the default language is English. For registration in your language, use the address of pgAdmin web site returned after clicking on your country flag. For example, the French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>.
-          <li>Contact the press and write short articles about pgAdmin (if you are bold enough!). Whever you are contacted by journalists, we can help write a short article.
-          <li>Every month, analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 web site in your country, which reflect the overall interest in pgAdmin. Some countries have a real interest in pgAdmin, like the Russian Federation, Japan or Brazil. There is plenty of room for other countries. We need your help.
+          <li>It is better to start translating pgAdmin software and pgAdmin web site in your language as explained on the <a href='translation.php'>translation page</a>.
+          <li>Then, try to register pgAdmin on free software web sites in your country. We are highly interested in community web sites designed by 'opinion leaders'. Each country has one or two major web sites for free software. For example, pgAdmin was registered on <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>.
+          <li>You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members. For information purpose, after each registration, please drop us an email to add a new entry to the Registration list.
+          <li>If you are bold enough, contact the press and write short articles about pgAdmin.
+          <li>Every month, analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 web site, which reflect the overall interest in pgAdmin. You may be interested in studying the number of connections from your country.
+          <li>Cross your fingers and wait until PostgreSQL becomes the #1 database.
         </ul>
   </dd>
+
+    <dt>Information published</dt>
+  <dd>
+        You are free to publish any technical information about pgAdmin. Here are some guidelines, mainly about links and localization.
+        <ul>
+          <li><b>Include a language information in the URL</b>: pgAdmin web site is not (yet) able to guess the default language of your browser. To display a page in your language, just click on your country flag. For example, the URL of the French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>. You can notice that the end of the URL <b>"?locale=xx_XX"</b> forces display in a given language.
+          <li><b>Downloading links</b>: do not publish downloading links pointing to our mirrors (as mirrors may change or be down at certain times). Always publish links pointing directly to pgAdmin pages.
+          <li><b>Description of pgAdmin</b>: any technical description is suitable. For the lazy, just translate "pgAdmin III is a comprehensive design and management graphical user interface for the PostgreSQL database. It communicates with the DBMS using the native protocol and supports all major features and specialties of the latest PostgreSQL generations.". Any comments are welcome.
+        </ul>
+  </dd>
+
 </dl>
 
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
-<h1 id="list">Registration list</h1>
+<h1 id="list">Web sites pointing to pgAdmin</h1>
 <dl>
 </dl>
 

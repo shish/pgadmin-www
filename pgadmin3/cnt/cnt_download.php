@@ -10,7 +10,7 @@
   <dd>
 		<?php echo _("pgAdmin3  is available in source and binary format.")?>
     <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
-		<?php echo _("After downloading, please read our installation insructions.")?>
+		<?php echo _("After downloading, please read our installation instructions.")?>
     <?php echo _("On each mirror, the files can be found in the following directories:")?>
   </dd>
 

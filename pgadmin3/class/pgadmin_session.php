@@ -47,9 +47,9 @@
 
 	// RTL languages
     if ($_locale == 'fa_IR') {
-		$_SESSION['LANG_DIRECTION']=" dir='rtl'";
+		$_SESSION['LANG_DIRECTION']="rtl";
     } else {
-		$_SESSION['LANG_DIRECTION']="";
+		$_SESSION['LANG_DIRECTION']="ltr";
     }
 
   }

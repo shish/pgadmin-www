@@ -2,13 +2,13 @@
   require "tpl/include.php";
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" dir='<?php echo $_SESSION['LANG_DIRECTION'] ?>'>
   <head>
 		<?php require_once "tpl/head.php"; ?>
     <title>pgAdmin screenshots</title>
   </head>
 
- <body <?php echo $_SESSION['LANG_DIRECTION'] ?>>
+ <body>
 		<?php
       require_once "tpl/menu.php";
       require_once "cnt/cnt_support.php";

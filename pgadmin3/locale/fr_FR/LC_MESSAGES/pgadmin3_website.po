@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2004-02-03 10:47+0100\n"
+"PO-Revision-Date: 2004-02-03 10:53+0100\n"
 "Last-Translator: Jean-Michel Pouré <jm@poure.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -48,10 +48,6 @@ msgstr "Il est possible d'annuler une requête en cours d'exécution en cliquant
 msgid "A short guided tour of the interface:"
 msgstr "Un rapide aperçu de l'interface:"
 
-#: ../cnt/cnt_advocacy.php:86
-msgid "A versatile administration and development platform for the PostgreSQL database, free for any use. Available in more than 30 languages for Win/NT/2000/XP, GNU/Linux and FreeBSD. Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more."
-msgstr "Plate-forme complète d'administration et de développement pour la base de données PostgreSQL, libre et gratuite pour toutes utilisations. Disponible dans plus de 30 langues pour Win/NT/2000/XP, GNU/linux et FreeBSD. Comprend une interface graphique d'administration, un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore."
-
 #: ../cnt/cnt_index.php:94
 msgid "Access to all PostgreSQL objects"
 msgstr "Accès à la majorité des objets PostgreSQL"
@@ -90,6 +86,10 @@ msgstr "Authentifier le code source à l'aide de la <a href='%s'>clé PGP de Dav
 #: ../class/pgadmin_po.php:251
 msgid "Author"
 msgstr "Auteur"
+
+#: ../cnt/cnt_advocacy.php:88
+msgid "Available in more than 30 languages for Windows 2000/XP, GNU/Linux and FreeBSD."
+msgstr "Disponible dans plus de 30 langues pour Windows 2000/XP, GNU/Linux et FreeBSD."
 
 #: ../cnt/cnt_download.php:16
 #, c-format
@@ -436,6 +436,10 @@ msgstr "En cours de réalisation"
 msgid "In the left pane of pgAdmin3, a navigation tree allow to browse database objects."
 msgstr "Dans la partie gauche de pgAdmin3, une arborescence de navigation permet à l'utilisateur de naviguer au sein des objets de la base de données."
 
+#: ../cnt/cnt_advocacy.php:89
+msgid "Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more."
+msgstr "Comprend une interface graphique d'administration, un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore."
+
 #: ../cnt/cnt_index.php:112
 #: ../cnt/cnt_screenshots.php:111
 msgid "Indexes"
@@ -759,7 +763,7 @@ msgstr "L'application fonctionne sans faire appel à une couche ODBC."
 msgid "The application is executed in binary code, not in a virtual machine, therefore offering very good performance."
 msgstr "L'application s'exécute sous forme d'un code binaire et non dans une machine virtuelle, offrant ainsi de réelles performances."
 
-#: ../cnt/cnt_advocacy.php:89
+#: ../cnt/cnt_advocacy.php:92
 #: ../cnt/cnt_index.php:13
 msgid "The application is running under GNU/Linux, FreeBSD and Windows 2000/XP."
 msgstr "L'application fonctionne sous GNU/Linux, FreeBSD et Windows 2000/XP."
@@ -776,7 +780,7 @@ msgstr "Les données sont extraites à la demande, au fur et à mesure de l'affi
 msgid "The documentation can be viewed off-line or on-line."
 msgstr "La documentation peut être consultée on-line ou off-line."
 
-#: ../cnt/cnt_advocacy.php:91
+#: ../cnt/cnt_advocacy.php:94
 #: ../cnt/cnt_index.php:15
 msgid "The graphical interface supports all PostgreSQL features and makes administration easy."
 msgstr "L'interface graphique donne accès aux fonctionnalités de PostgreSQL les plus récentes, faisant de l'administration un véritable jeu d'enfant."
@@ -1019,27 +1023,28 @@ msgstr "Vous êtes les bienvenus sur la liste, mais pensez à utiliser la liste 
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr "Vous découvrirez rapidement que PostgreSQL est la base de données la plus rapide."
 
-#: ../cnt/cnt_advocacy.php:92
+#: ../cnt/cnt_advocacy.php:95
 #: ../cnt/cnt_index.php:16
-msgid "pgAdmin III also includes a query builder, an sql editor, a server-side code editor and much more."
+msgid "pgAdmin III also includes a query builder, an SQL editor, a server-side code editor and much more."
 msgstr "pgAdmin III comprend également un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore."
 
-#: ../cnt/cnt_advocacy.php:88
+#: ../cnt/cnt_advocacy.php:87
+#: ../cnt/cnt_advocacy.php:91
 #: ../cnt/cnt_index.php:12
-msgid "pgAdmin III is a completely free administration and development platform for the PostgreSQL database."
+msgid "pgAdmin III is a powerfull administration and development platform for the PostgreSQL database, free for any use."
 msgstr "pgAdmin III est une plate-forme complète d'admistration et de développement pour la base de données PostgreSQL, libre et gratuite pour tous usages."
 
-#: ../cnt/cnt_advocacy.php:90
+#: ../cnt/cnt_advocacy.php:93
 #: ../cnt/cnt_index.php:14
 msgid "pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases."
 msgstr "pgAdmin III a été conçu pour répondre aux besoins de tous les utilisateurs, depuis l'écriture de requêtes simples jusqu'au développement de bases de données complexes."
 
-#: ../cnt/cnt_advocacy.php:94
+#: ../cnt/cnt_advocacy.php:97
 #: ../cnt/cnt_index.php:18
 msgid "pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License."
 msgstr "pgAdmin III est le fruit d'un projet collaboratif international réunissant des spécialistes des bases de données. L'application est disponible dans plus de 30 langues sous licence libre \"Artistic licence\"."
 
-#: ../cnt/cnt_advocacy.php:93
+#: ../cnt/cnt_advocacy.php:96
 #: ../cnt/cnt_index.php:17
 msgid "pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server."
 msgstr "pgAdmin III est disponible sous forme d'un installeur ne nécessitant aucun driver additionnel pour communiquer avec la base de données."

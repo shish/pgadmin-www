@@ -9,11 +9,11 @@
 <div id="bodyText">
 <h1 id="presentation"><?php echo _("Presentation of pgAdmin III");?></h1>
 <dd>
-  <?php echo _("pgAdmin III is a completely free administration and development platform for the PostgreSQL database.")?>
+  <?php echo _("pgAdmin III is a powerfull administration and development platform for the PostgreSQL database, free for any use.")?>
   <?php echo _("The application is running under GNU/Linux, FreeBSD and Windows 2000/XP.")?>
   <?php echo _("pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases.")?>
   <?php echo _("The graphical interface supports all PostgreSQL features and makes administration easy.")?>
-  <?php echo _("pgAdmin III also includes a query builder, an sql editor, a server-side code editor and much more.")?>
+  <?php echo _("pgAdmin III also includes a query builder, an SQL editor, a server-side code editor and much more.")?>
   <?php echo _("pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server.")?>
   <?php echo _("pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.")?>
 </dd>

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-08-19 11:26+0200\n"
+"POT-Creation-Date: 2003-08-19 11:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1090,8 +1090,10 @@ msgid ""
 msgstr ""
 
 #: ../cnt/cnt_download.php:9 ../cnt/cnt_index.php:17
+#, c-format
 msgid ""
-"pgAdmin3 is a free software project released under the Artistic licence."
+"pgAdmin3 is a free software project released under the <a href='%s'>Artistic "
+"licence</a>."
 msgstr ""
 
 #: ../cnt/cnt_index.php:16

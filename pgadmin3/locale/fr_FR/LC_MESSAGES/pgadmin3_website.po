@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-08-19 11:28+0100\n"
+"PO-Revision-Date: 2003-08-19 11:51+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1053,8 +1053,9 @@ msgstr "pgAdmin3 est une interface de conception et de gestion pour la base de d
 
 #: ../cnt/cnt_download.php:9
 #: ../cnt/cnt_index.php:17
-msgid "pgAdmin3 is a free software project released under the Artistic licence."
-msgstr "pgAdmin3 est un logiciel libre distribué sous licence Artistic licence."
+#, c-format
+msgid "pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."
+msgstr "pgAdmin3 est un logiciel libre distribué sous <a href='%s'>licence artistique</a>."
 
 #: ../cnt/cnt_index.php:16
 #, c-format

@@ -6,7 +6,7 @@
 </div>
 
 <div id="bodyText">
-  <?php echo _("pgAdmin3 is a free software project released under the Artistic licence.");?>
+  <?php echo sprintf(_("pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
   <?php echo sprintf(_("The software is available in source and binary format from our <a href='%s'>mirrors</a>."), "#mirrors")?>
   <?php echo sprintf(_("Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing <a href='%s'>binary packages</a>."), "#source", "#binaries")?>
 

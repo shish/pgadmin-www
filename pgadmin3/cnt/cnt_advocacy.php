@@ -140,11 +140,12 @@ en (English)
   <ul>
     <li><a href='http://www.acm.org/sigmod/databaseSoftware/nonprofit'>Association for Computing Machinery</a></li>
     <li><a href='http://products.databasejournal.com/dbtools/mgmt/recent1.html'>Database Journal</a> (pending)</li>
-    <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
+    <li><a href='http://www.dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
-    <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
+    <li><a href='http://www.freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
     <li><a href='http://www.hotscripts.com/Detailed/30672.html'>Hotscripts</a></li>
+    <li><a href='http://www.icewalkers.com'>IceWalkers</a> (pending)</li>
     <li><a href='http://www.linuxdownloads.org'>Linuxdownloads</a> (pending)</li>
     <li><a href='http://www.linuxlinks.com/Web/Databases'>Linuxlinks</a></li>
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)</li>

@@ -8,7 +8,7 @@
       </td>
 
       <td align="right" valign="bottom">
-      	Language:
+      	Languages:
         <a href="?locale=de_DE"><img src="img/flags/Germany.gif" alt="German">
         <a href="?locale=en_US"><img src="img/flags/UK.gif" alt="English">
         <a href="?locale=fa_IR"><img src="img/flags/Persian.gif" alt="Persian">

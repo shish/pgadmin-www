@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-07 15:44+0100\n"
+"POT-Creation-Date: 2004-02-10 10:50+0100\n"
 "PO-Revision-Date: 2003-09-02 11:16+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: chinese <laser@zhengmai.com.cn>\n"
@@ -421,7 +421,7 @@ msgstr ""
 
 #: ../cnt/cnt_index.php:54
 #, fuzzy, c-format
-msgid "If you are interested, please visit <a href='%s'>pgAdmin2</a> site."
+msgid "If you are interested, please visit <a href='%s'>pgAdmin II</a> site."
 msgstr "如果你对 pgAdmin2 有兴趣, 请访问 <a href='%s'>pgAdmin2 下载</a>页面."
 
 #: ../cnt/cnt_translation.php:42
@@ -1131,6 +1131,11 @@ msgstr ""
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr "你将注意到 PostgreSQL 是最快的数据库."
 
+#: ../cnt/cnt_index.php:49
+#, fuzzy
+msgid "pgAdmin II is still supported"
+msgstr "仍支持 pgAdmin2"
+
 #: ../cnt/cnt_index.php:27 ../cnt/cnt_index.php:34
 #, fuzzy, c-format
 msgid "pgAdmin III %s released"
@@ -1150,6 +1155,11 @@ msgstr ""
 #, fuzzy, c-format
 msgid "pgAdmin III binary packages for %s"
 msgstr "%s 下的 pgAdmin 的二进制包"
+
+#: ../cnt/cnt_download.php:475
+#, fuzzy
+msgid "pgAdmin III can be downloaded from a large number of mirrors."
+msgstr "从 PostgreSQL 的镜像站点下载 pgAdmin:"
 
 #: ../cnt/cnt_screenshots.php:78
 #, fuzzy
@@ -1285,14 +1295,6 @@ msgstr "pgAdmin 在全世界的用户超过 %d 名."
 #: ../cnt/cnt_screenshots.php:62
 msgid "pgAdmin project started five years ago."
 msgstr "pgAdmin 项目开始于 5 年前."
-
-#: ../cnt/cnt_index.php:49
-msgid "pgAdmin2 is still supported"
-msgstr "仍支持 pgAdmin2"
-
-#: ../cnt/cnt_download.php:475
-msgid "pgAdmin3 can be downloaded from a large number of mirrors."
-msgstr ""
 
 #: ../cnt/cnt_development.php:37
 #, fuzzy

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website.fa\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-07 15:44+0100\n"
+"POT-Creation-Date: 2004-02-10 10:50+0100\n"
 "PO-Revision-Date: 2003-08-25 09:35+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: Persian <>\n"
@@ -448,8 +448,8 @@ msgstr ""
 "پروژه‌ی <a href='%s'>پشتیبانی زبان ملیPostgreSQL </a> مراجعه نمایید."
 
 #: ../cnt/cnt_index.php:54
-#, c-format
-msgid "If you are interested, please visit <a href='%s'>pgAdmin2</a> site."
+#, fuzzy, c-format
+msgid "If you are interested, please visit <a href='%s'>pgAdmin II</a> site."
 msgstr ""
 "اگر مایل هستید، لطفاً به پایگاه <a href='%s'>pgAdmin2</a> مراجعه نمایید."
 
@@ -1196,6 +1196,11 @@ msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr ""
 "شما بزودی متوجه خواهید شد که PostgreSQL سریعترین بانک اطلاعات موجود می‌باشد."
 
+#: ../cnt/cnt_index.php:49
+#, fuzzy
+msgid "pgAdmin II is still supported"
+msgstr "pgAdmin2 هنوز پشتیبانی می‌شود."
+
 #: ../cnt/cnt_index.php:27 ../cnt/cnt_index.php:34
 #, fuzzy, c-format
 msgid "pgAdmin III %s released"
@@ -1215,6 +1220,11 @@ msgstr ""
 #, fuzzy, c-format
 msgid "pgAdmin III binary packages for %s"
 msgstr "بسته‌های دوگانی pgAdmin برای %s"
+
+#: ../cnt/cnt_download.php:475
+#, fuzzy
+msgid "pgAdmin III can be downloaded from a large number of mirrors."
+msgstr "می‌توان pgAdmin3 را از تعداد زیادی از آینه‌ها بارگیری نمود."
 
 #: ../cnt/cnt_screenshots.php:78
 #, fuzzy
@@ -1358,14 +1368,6 @@ msgstr "pgAdmin بوسیله‌ی بیش از %d کاربر در تمام جها
 #: ../cnt/cnt_screenshots.php:62
 msgid "pgAdmin project started five years ago."
 msgstr "پروژه‌ی pgAdmin پنج سال پیش آغاز شده است."
-
-#: ../cnt/cnt_index.php:49
-msgid "pgAdmin2 is still supported"
-msgstr "pgAdmin2 هنوز پشتیبانی می‌شود."
-
-#: ../cnt/cnt_download.php:475
-msgid "pgAdmin3 can be downloaded from a large number of mirrors."
-msgstr "می‌توان pgAdmin3 را از تعداد زیادی از آینه‌ها بارگیری نمود."
 
 #: ../cnt/cnt_development.php:37
 #, fuzzy

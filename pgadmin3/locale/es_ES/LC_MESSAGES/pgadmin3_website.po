@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-07 15:44+0100\n"
+"POT-Creation-Date: 2004-02-10 10:50+0100\n"
 "PO-Revision-Date: 2004-01-20 08:43+0100\n"
 "Last-Translator: Miguel González Castaños\n"
 "Language-Team: pgAdmin Developers <pgadmin-hackers@postgresql.org>\n"
@@ -455,8 +455,8 @@ msgstr ""
 "a>."
 
 #: ../cnt/cnt_index.php:54
-#, c-format
-msgid "If you are interested, please visit <a href='%s'>pgAdmin2</a> site."
+#, fuzzy, c-format
+msgid "If you are interested, please visit <a href='%s'>pgAdmin II</a> site."
 msgstr ""
 "Si está interesado, por favor visite la página de <a href='%s'>pgAdmin2</a>."
 
@@ -1240,6 +1240,11 @@ msgstr ""
 "Pronto se dará cuenta que PostgreSQL es la base de datos más rápida "
 "disponible."
 
+#: ../cnt/cnt_index.php:49
+#, fuzzy
+msgid "pgAdmin II is still supported"
+msgstr "pgAdmin2 es soportado todavía"
+
 #: ../cnt/cnt_index.php:27 ../cnt/cnt_index.php:34
 #, fuzzy, c-format
 msgid "pgAdmin III %s released"
@@ -1259,6 +1264,11 @@ msgstr ""
 #, fuzzy, c-format
 msgid "pgAdmin III binary packages for %s"
 msgstr "paquetes binarios de pgAdmin para %s"
+
+#: ../cnt/cnt_download.php:475
+#, fuzzy
+msgid "pgAdmin III can be downloaded from a large number of mirrors."
+msgstr "pgAdmin3 puede descargarse de numerosos mirrors."
 
 #: ../cnt/cnt_screenshots.php:78
 #, fuzzy
@@ -1408,14 +1418,6 @@ msgstr "pgAdmin es usado por más de %d usuarios a lo largo del mundo."
 #: ../cnt/cnt_screenshots.php:62
 msgid "pgAdmin project started five years ago."
 msgstr "El proyecto pgAdmin comenzó hace cinco años."
-
-#: ../cnt/cnt_index.php:49
-msgid "pgAdmin2 is still supported"
-msgstr "pgAdmin2 es soportado todavía"
-
-#: ../cnt/cnt_download.php:475
-msgid "pgAdmin3 can be downloaded from a large number of mirrors."
-msgstr "pgAdmin3 puede descargarse de numerosos mirrors."
 
 #: ../cnt/cnt_development.php:37
 msgid ""

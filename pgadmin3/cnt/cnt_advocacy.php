@@ -58,6 +58,7 @@ en (English)
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>
     <li><a href='http://www.hotscripts.com/Tools_and_Utilities/Database_Tools'>Hotscripts</a> (pending)
+    <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)
     <li><a href='http://www.tucows.com/'>Tucows</a> (pending)
   </ul>
 </dd>

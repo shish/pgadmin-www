@@ -105,8 +105,8 @@
 		</Download_URLs>
 	</Web_Info>
 	<Permissions>
-		<Distribution_Permissions></Distribution_Permissions>
-		<EULA></EULA>
+		<Distribution_Permissions>pgAdmin cab be distributed under the terms of the <a href='http://www.pgadmin.org/pgadmin3/cnt/licence.txt'>Artistic licence</a></Distribution_Permissions>
+		<EULA>pgAdmin is a free software project released under the <a href='http://www.pgadmin.org/pgadmin3/cnt/licence.txt'>Artistic licence</a></EULA>
 	</Permissions>
 	<ASP>
 		<ASP_Member>N</ASP_Member>

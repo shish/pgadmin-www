@@ -101,12 +101,12 @@
 		<?php echo  sprintf(_("Packager: %s"), "斉藤　浩 (Hiroshi Saito)");?>
     <dd>
     	<ol>
-        <li><?php echo _("Download pgadmin FreeBSD package.");?>
+        <li><?php echo _("Download pgAdmin FreeBSD package.");?>
         <li><?php echo _("Install using the following command:");?><br>
             # pkg_add pgadmin3-yyyymmdd.tgz
-        <li><?php echo _("Create a symlink to pgadmin binary.");?><br>
+        <li><?php echo _("Create a symlink to pgAdmin binary.");?><br>
             # ln -sf /usr/local/pgadmin3/bin/pgadmin3 /usr/local/bin/pgadmin3
-        <li><?php echo _("Check that pgadmin executable is in the path.");?><br>
+        <li><?php echo _("Check that pgAdmin executable is in the path.");?><br>
             # which pgadmin3 # /usr/local/bin/pgadmin3
       </ol>
 		</dd>
@@ -118,7 +118,7 @@
 		<?php echo  sprintf(_("Packager: %s"), "Andreas Pflug");?>
     <dd>
     	<ol>
-        <li><?php echo _("Download pgadmin installer.");?>
+        <li><?php echo _("Download pgAdmin installer.");?>
         <li><?php echo _("Double-clic on the installer and follow the instructions.");?><br>
       </ol>
 		</dd>

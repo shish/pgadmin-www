@@ -160,7 +160,7 @@ ru (Russian)
 zh (Chinese)
 <dd>
   <ul>
-    <li><a href='http://www.pgsqldb.org'>PostgreSQL China</a> (pending)</li>
+    <li><a href='http://www.pgsqldb.org'>PostgreSQL China</a></li>
   </ul>
 </d
 

@@ -44,7 +44,7 @@
 		<Program_Release_Status>New Release</Program_Release_Status>
 		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
 		<Program_OS_Support>WinXP,WinNT4.x,Windows2000,Unix,Linux</Program_OS_Support>
-		<Program_Language>Arabic,Chinese,Czech,Danish,English,French,German,Greek,Hungarian,Italian,Japanese,Polish,Portuguese,Russian,Spanish,Swedish,Turkish</Program_Language>
+		<Program_Language>Afrikaans,Arabic,Chinese,Czech,Danish,English,French,German,Greek,Hungarian,Italian,Japanese,Polish,Portuguese,Russian,Spanish,Swedish,Taiwanese,Turkish</Program_Language>
 		<Program_Change_Info/>
 		<Program_System_Requirements/>
 		<Program_Specific_Category>Development Tools</Program_Specific_Category>
@@ -72,22 +72,41 @@
 		<Includes_DirectX>N</Includes_DirectX>
 	</Program_Info>
 	<Program_Descriptions>
+		<Afrikaans>
+			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
+			<Char_Desc_45>Grafiese administrasiekoppelvlak vir die PostgreSQL databasis, vry vir enige gebruik.</Char_Desc_45>
+			<Char_Desc_80>pgAdmin III is 'n kragtige administrasie- en ontwikkelingsplatform vir die PostgreSQL databasis, vrye vir enige gebruik. Beskikbaar is meer as 30 tale vir Windows 2000/XP, GNU/Linux en FreeBSD. Dit sluit in 'n grafiese administrasiekoppelvlak, navraagbouer, SQL-redigeerder, bedienerkode redigeerder en vele meer.</Char_Desc_80>
+			<Char_Desc_250>pgAdmin III is 'n kragtige administrasie- en ontwikkelingsplatform vir die PostgreSQL databasis, vrye vir enige gebruik. Die toepassing loop op GNU/Linux, FreeBSD en Windows 2000/XP. pgAdmin III is ontwerp vir die behoeftes van alle gebruikers, van die skryf van eenvoudige SQL navrae tot die ontwikkeling van komplekse databasisse. Die grafiese koppelvlak ondersteun alle PostgreSQL-eienskappe en dit maak administrasie maklik. Die toepassing sluit in 'n navraagbouer, SQL-redigeerder, bedienerkode redigeerder en vele meer. pgAdmin III word verpak met 'n installsieprogram en benodig ook geen addisionele drywers om met die databasisbediener te kommunikeer nie. pgAdmin III word ontwikkel deur 'n gemeenskap van databasisspesialiste van regoor die wêreld en is beskikbaar in meer as 30 tale. Dit is vry sagteware wat vrygestel word onder die 'Artistic License'. </Char_Desc_250>
+			<Char_Desc_450></Char_Desc_450>
+			<Char_Desc_2000></Char_Desc_2000>
+		</Afrikaans>
+
 		<English>
-			<Keywords>PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,admin,tool software,free,pg</Keywords>
+			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
 			<Char_Desc_45>Graphical administration interface for the PostgreSQL database, free for any use.</Char_Desc_45>
 			<Char_Desc_80>pgAdmin III is a powerful administration and development interface for the PostgreSQL database, free for any use. Available in more than 30 languages for Windows 2000/XP, GNU/Linux and FreeBSD. Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more. pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.</Char_Desc_80>
 			<Char_Desc_250>pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use. The application is running under GNU/Linux, FreeBSD and Windows 2000/XP. pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. The application also includes a query builder, an SQL editor, a server-side code editor and much more. pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.</Char_Desc_250>
 			<Char_Desc_450></Char_Desc_450>
 			<Char_Desc_2000></Char_Desc_2000>
 		</English>
+		
 		<French>
-			<Keywords>pgadmin,pgadmin3,pg,pg-admin,postgresql,postgres,sql,database,development,gui,administration,admin,tool,free</Keywords>
+			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
 			<Char_Desc_45>Interface graphique d'admistration pour la base de données PostgreSQL, libre et gratuite pour tous usages.</Char_Desc_45>
 			<Char_Desc_80>pgAdmin III est une plate-forme puissante d'admistration et de développement pour la base de données PostgreSQL, libre et gratuite pour tous usages. Disponible dans plus de 30 langues pour Windows 2000/XP, GNU/Linux et FreeBSD. Comprend une interface graphique d'administration, un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore. pgAdmin III est le fruit d'un projet collaboratif international réunissant des spécialistes des bases de données. L'application est disponible dans plus de 30 langues sous licence libre "Artistic licence".</Char_Desc_80>
 			<Char_Desc_250>pgAdmin III est une plate-forme complète d'admistration et de développement pour la base de données PostgreSQL, libre et gratuite pour tous usages. L'application fonctionne sous GNU/Linux, FreeBSD et Windows 2000/XP. pgAdmin III est conçu pour répondre aux besoins de tous les utilisateurs, depuis l'écriture de requêtes simples jusqu'au développement de bases de données complexes. L'interface graphique donne accès aux fonctionnalités de PostgreSQL les plus récentes, faisant de l'administration un véritable jeu d'enfant. L'application comprend également un constructeur de requêtes, un éditeur SQL, un éditeur de code server-side et bien plus encore. pgAdmin III est disponible sous forme d'un installeur ne nécessitant aucun driver additionnel pour communiquer avec la base de données. pgAdmin III est le fruit d'un projet collaboratif international réunissant des spécialistes des bases de données. L'application est disponible dans plus de 30 langues sous licence libre "Artistic licence". </Char_Desc_250>
 			<Char_Desc_450></Char_Desc_450>
 			<Char_Desc_2000></Char_Desc_2000>
 		</French>
+
+		<Taiwanese>
+			<Keywords>pgadmin,pgadmin2,pgdmin3,PostgreSQL,postgresql,postgres,sql,database,development,gui,administration,tool,software,free,pg,pg-admin</Keywords>
+			<Char_Desc_45>提供PostgreSQL資料庫系統使用的圖形化管理介面，不需任何費用。</Char_Desc_45>
+			<Char_Desc_80>pgAdmin III是一個供PostgreSQL資料庫使用的強大發展平台，不需任何費用。 可支援30種以上的語言，並相容於Windows 2000/XP，GNU/Linux和FreeBSD。 整合了圖形化的管理介面、查詢建立器、SQL編輯器、伺服器端的程式編輯器和更多其它的功能。</Char_Desc_80>
+			<Char_Desc_250>pgAdmin III是一個供PostgreSQL資料庫使用的強大發展平台，不需任何費用。 此程式可執行於GNU/Linux、FreeBSD及Windows 2000/XP系統。 pgAdmin III的設計回應了使用者的需求，從寫簡單的SQL查詢到發展複雜的資料庫系統。 它的圖形化介面支援了所有PostgreSQL的特性而使得管理工作變得十分容易。 此程式也包含了查詢建立器、SQL編輯器、伺服器端程式碼編輯器和更多其它功能。 pgAdmin III包含了自動安裝程式，不需要額外的驅動程式就可以資料庫伺服器溝通。 pgAdmin III是由一個資料庫專家組成的社群所開發，成員來自於全世界，已被翻譯為30種以上的語言。它是依Artistic授權條款發行的免費軟體。
+			<Char_Desc_450></Char_Desc_450>
+			<Char_Desc_2000></Char_Desc_2000>
+		</Taiwanese>
 	</Program_Descriptions>
 	<Web_Info>
 		<Application_URLs>

@@ -51,7 +51,7 @@
 
 <h1 id="list">Web sites pointing to pgAdmin</h1>
 <dl>
-en_US (English)
+en (English)
 <dd>
   <ul>
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
@@ -60,7 +60,14 @@ en_US (English)
   </ul>
 </dd>
 
-fr_FR (French)
+es (Spanish)
+<dd>
+  <ul>
+    <li><a href='http://www.postgresql.cl/'>PostgreSQL Chile</a>
+  </ul>
+</dd>
+
+fr (French)
 <dd>
   <ul>
     <li><a href='http://www.jesuislibre.org/applications/Bases_de_Donnees/Gestionnaire/pgAdmin_III.php3'>Je suis libre</a>

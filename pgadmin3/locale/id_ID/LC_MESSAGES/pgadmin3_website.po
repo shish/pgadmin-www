@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2003-08-07 12:02+0100\n"
+"PO-Revision-Date: 2003-08-07 12:19+0100\n"
 "Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
 "Language-Team: pgAdmin Developers <pgadmin-hackers@postgresql.org>\n"
 "MIME-Version: 1.0\n"
@@ -169,7 +169,7 @@ msgstr "Didesain untuk versi PostgreSQL yang terbaru"
 #: ../cnt/cnt_index.php:137
 #: ../tpl/menu.php:32
 msgid "Development"
-msgstr "DEvelopment"
+msgstr "Development"
 
 #: ../cnt/cnt_development.php:34
 msgid "Development team"

@@ -5,8 +5,8 @@
   <a href="#slackware">&rsaquo; <?php echo _("Slackware")?></a>
   <a href="#freebsd">&rsaquo; <?php echo _("FreeBSD")?></a>
   <a href="#win32">&rsaquo; <?php echo _("Ms Windows")?>
-  <a href="#source">&rsaquo; <?php echo _("Source code")?></a>
-  <a href="#snapshots">&rsaquo; <?php echo _("Binary snapshots");?></a>
+  <a href="#source">&rsaquo; <?php echo _("Installing pgAdmin III from source code")?></a>
+  <a href="#snapshots">&rsaquo; <?php echo _("Installing pgAdmin III from binary snapshots");?></a>
   <a href="#mirrors">&rsaquo; <?php echo _("Download mirrors")?></a>
 </div>
 

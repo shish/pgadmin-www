@@ -14,6 +14,7 @@
 //
 
   $translated->addLanguage ("af_ZA", "Afrikaans", "Petri Jooste", "rkwjpj@puknet.puk.ac.za", "pgadmin3.po","src/ui/af_ZA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $translated->addLanguage ("ar_SA", "Arabic", "أسامة محمّد خيّاط (Ossama Mohammad Khayat)", "okhayat@yahoo.com", "pgadmin3.po","src/ui/ar_SA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("bg_BG", "Bulgarian", "Latchezar Kostov", "lkostov_hobby@yahoo.co.uk", "pgadmin3.po","src/ui/bg_BG/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("cs_CZ", "Czech", "Daniel Horák", "dan.horak@email.cz", "pgadmin3.po","src/ui/cs_CZ/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("da_DK", "Danish", "Troels Arvin", "troels@arvin.dk", "pgadmin3.po","src/ui/da_DK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
@@ -44,7 +45,6 @@
   $translated->addLanguage ("zh_CN", "Chinese simplified", "何伟平 (Weiping He)", "laser@zhengmai.com.cn", "pgadmin3.po", "src/ui/zh_CN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("zh_TW", "Chinese traditional", "李枝新 (Chih-Hsin Lee)", "chlee@mail.femh.org.tw", "pgadmin3.po", "src/ui/zh_TW/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
 
-  $pending->addLanguage ("ar_SA", "Arabic", "أسامة محمّد خيّاط (Ossama Mohammad Khayat)", "okhayat@yahoo.com", "pgadmin3.po","src/ui/ar_SA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("ca_ES", "Catalan", "Carlos Saltos", "csaltos@netscape.net", "pgadmin3.po","src/ui/ca_ES/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("de_CH", "German (Switzerland)", "Marc Balmer", "marc@msys.ch", "pgadmin3.po", "src/ui/de_CH/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("gu_IN", "Gujarati", "Bhavin Choksi", "bhavinchoksi2k@yahoo.com", "pgadmin3.po", "src/ui/gu_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

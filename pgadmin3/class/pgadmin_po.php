@@ -96,10 +96,30 @@ class po_status {
 
     $_po_stat = array();
     $_po_stat = $this->getStatistics ($this->_cvsroot . "/src/ui/" . $_locale . "/pgadmin3.po");
-    $this->_content['po_total'][$this->_size]        = $_po_stat['total'];
+  
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    // DJP 2004-08-12
+    // The correct total comes from the pot file
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    // $this->_content['po_total'][$this->_size]        = $_po_stat['total'];
+    $this->_content['po_total'][$this->_size]        = $_pot_stat['total'];
+
     $this->_content['po_translated'][$this->_size]   = $_po_stat['translated'];
     $this->_content['po_untranslated'][$this->_size] = $_po_stat['untranslated'] + $_po_stat['fuzzy'];
-    $this->_content['po_status'][$this->_size]       = $_po_stat['status'];
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    // DJP 2004-08-12
+    // The correct total comes from the pot file so recalc the status
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    // $this->_content['po_status'][$this->_size]       = $_po_stat['status'];
+    if ($_pot_stat['total'] > 0) {
+      $this->_content['po_status'][$this->_size] =  round ($_po_stat['translated']/$_pot_stat['total'], 2) * 100;
+    } else {
+      $this->_content['po_status'][$this->_size] = 0;
+    }
+
+
+
     $this->_size++;
   }
 

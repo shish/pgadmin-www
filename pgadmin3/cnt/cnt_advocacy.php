@@ -116,6 +116,7 @@ We would like to thank the web sites registering pgAdmin. To our knowledge, pgAd
 cs (Czech)
   <ul>
     <li><a href='http://postgresql.ok.cz'>PostgreSQL CZ</a></li>
+    <li><a href='http://www.stahuj.cz'>Stahuj</a> (reminder to register)</li>
   </ul>
 </dd>
 

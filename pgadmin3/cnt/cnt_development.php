@@ -4,7 +4,6 @@
   <a href="#dev_list">&rsaquo; <?php echo _("Mailing list");?></a>
   <a href="#dev_team">&rsaquo; <?php echo _("Development team");?></a>
   <a href="#dev_snap">&rsaquo; <?php echo _("Daily snapshots");?></a>
-  <a href="#bugs">&rsaquo; <?php echo _("Known bugs")?></a>
   <a href="#todo">&rsaquo; <?php echo _("Todo list")?></a>
 </div>
 
@@ -12,7 +11,7 @@
 
   <h1 id="dev_cvs"><?php echo _("CVS access");?></h1>
   <dd>
-  	<?php echo _("pgAdmin source code is available subject to the terms of the Artistic Licence.");?>
+  	<?php echo _("pgAdmin is available subject to the terms of the Artistic Licence.");?>
     <?php echo sprintf(_("CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."), "http://cvs.pgadmin.org");?>
     <?php echo _("Anonymous read access is available using a CVS client.");?>
     <pre>
@@ -57,20 +56,6 @@
     <li><a href="http://www.pgadmin.org/snapshots/windows">Microsoft Windows 2000 & XP</a><br>
   </ul>
   <?php echo sprintf(_("Please refer to our <a href='%s'>installation instructions</a>."), "download.php#installation");?>
-  </dd>
-  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
-
-  <h1 id="bugs"><?php echo _("Known bugs")?></h1>
-  <dd>
-    <?php echo _("This section is available in English only.");?>
-    <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
-    <?php
-    	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/BUGS.txt";
-    	if (file_exists($_file)) {
-        echo ("<br><br>");
-    		include_once ($_file);
-      }
-    ?>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 

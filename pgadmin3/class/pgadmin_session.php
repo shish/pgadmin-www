@@ -36,15 +36,21 @@
     }
 
     $_locale = $_SESSION['pgadmin']['locale'];
-    //$_locale = $_SESSION['pgadmin']['locale'].".UTF-8";
     $_domain = 'pgadmin3_website';
 
     putenv("LANG=$_locale");
     $_ENV['LANG']=$_locale;
-		setlocale(LC_ALL, $_locale);
+    setlocale(LC_ALL, $_locale);
     bind_textdomain_codeset ($_domain,"UTF-8");
     bindtextdomain($_domain, "locale");
-		textdomain($_domain);
+    textdomain($_domain);
+
+	// RTL languages
+    if ($_locale == 'fa_IR') {
+		$_SESSION['LANG_DIRECTION']=" dir='rtl'";
+    } else {
+		$_SESSION['LANG_DIRECTION']="";
+    }
 
   }
 }

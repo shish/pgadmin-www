@@ -8,7 +8,7 @@
     <title>pgAdmin screenshots</title>
   </head>
 
-  <body>
+ <body <?php echo $_SESSION['LANG_DIRECTION'] ?>>
 		<?php
       require_once "tpl/menu.php";
       require_once "cnt/cnt_support.php";

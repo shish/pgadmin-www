@@ -2,7 +2,6 @@
   require_once "class/pgadmin_po.php";
   $translated = new po_status();
   $vacant = new po_status();
-  $pending = new po_status();
 
   $translated->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
   $translated->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
@@ -10,16 +9,11 @@
   $vacant->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
   $vacant->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
 
-  $pending->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-  $pending->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
-
   $_cache_translated = "cache/cache_translated.txt";
   $_cache_vacant     = "cache/cache_vacant.txt";
-  $_cache_pending    = "cache/cache_pending.txt";
 
   $translated->_cache_load($_cache_translated);
   $vacant->_cache_load($_cache_vacant);
-  $pending->_cache_load($_cache_pending);
 ?>
 
 <div class="sideBox LHS">
@@ -28,7 +22,6 @@
   <a href="#contribute">&rsaquo; <?php echo _("Contribute a translation");?></a>
   <a href="#published">&rsaquo;  <?php echo _("Published");?></a>
   <a href="#vacant">&rsaquo;  <?php echo _("Unmaintained");?></a>
-  <a href="#progress">&rsaquo;  <?php echo _("In progress");?></a>
   <a href="#howto">&rsaquo; <?php echo _("Howto");?></a>
 </div>
 
@@ -79,7 +72,7 @@
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
   <h1 id="vacant"><?php echo sprintf(_("Currently unmaintained Translations (%d languages)"), $vacant->getNbLanguages());?></h1>
-	<?php echo sprintf(_("The mail address it that of the translator who contributed previously, but couldn't continue any more."));?></h1>
+	<?php echo sprintf(_("The mail address is that of the translator who contributed previously, but couldn't or hasn't continued for some reason."));?></h1>
 	<?php echo sprintf(_("If you like to continue the work, don't hesiate to contact us!"));?></h1>
     <?php
     	$_sortBy = $_SESSION['pgadmin']['d3456_poSortBy'];
@@ -87,13 +80,6 @@
       $vacant->display("d3456");
     ?>
 
-  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
-  <h1 id="progress"><?php echo sprintf(_("Translations in progress (%d languages)"), $pending->getNbLanguages());?></h1>
-    <?php
-    	$_sortBy = $_SESSION['pgadmin']['d2943_poSortBy'];
-      $pending->sortBy($_sortBy, SORT_ASC);
-      $pending->display("d2943");
-    ?>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
   <br>
 

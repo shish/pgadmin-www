@@ -11,6 +11,7 @@
 <A HREF="#UserPrivileges">User privileges</A><BR>
 <A HREF="#ConstraintTrigger">Foreign key constraints not shown</A><BR>
 <A HREF="#ColChange">Problem after changing column type</A><BR>
+<A HREF="#CantRestore">Can't restore backup file created with pgAdmin III</A><BR>
 <A HREF="#datpath">ERROR: column &quot;datpath&quot; does not exist</A><BR>
 <A HREF="#Win9x">Win9x problems</A><BR>
 <A HREF="#HangWin9x">Query tool hangs on Win9x</A><BR>
@@ -88,6 +89,19 @@ Currently, pgAdmin III does not recreate depending objects automatically for 7.3
 have to do that manually if you encounter execution errors. pgAdmin III V1.3 and later are planned to do 
 that automatically. This is not necessary on PostgreSQL 8.+ servers, because these versions support altering
 a column type instrinsically.
+<H3><A Name="CantRestore">Can't restore backup file created with pgAdmin III</A></H3>
+<p>
+I created a backup file using pgAdmin III, but when I try to restore it using pgAdmin III
+the OK button will stay grayed.
+<p></p>
+pgAdmin III uses PostgreSQL's pg_restore tool, which supports only the COMRESS and TAR options of pg_dump
+which is used for backup creation. The PLAIN format can't be interpreted by pgAdmin III and pg_restore
+(it can be edited manually, and executed with psql and pgAdmin III's query tool in many cases), and thus 
+isn't accepted as valid file.
+</p><p>
+We recommend using the COMPRESS format for daily backup tasks. The PLAIN format is for advanced manual
+processing before executing as SQL script, and has some restrictions (no blobs) which makes it less usable
+for standard backup tasks.
 </p><br>
 <H3><A Name="datpath">ERROR: column &quot;datpath&quot; does not exist</A></H3>
 <p>

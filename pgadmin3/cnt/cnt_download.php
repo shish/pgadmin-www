@@ -1,7 +1,8 @@
 <div class="sideBox LHS">
   <div><?php echo _("Download")?></div>
   <a href="#pgadmin3">&rsaquo; <?php echo _("pgAdmin3 beta")?></a>
-  <a href="#installation">&rsaquo; <?php echo _("Installation")?></a>
+  <a href="#installation">&rsaquo; <?php echo _("Installing binaries")?></a>
+  <a href="#source">&rsaquo; <?php echo _("Installing from source")?></a>
   <a href="#pgadmin2">&rsaquo; pgAdmin2</a>
 </div>
 
@@ -79,7 +80,7 @@
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
 
-  <h1 id="installation"><?php echo _("pgAdmin3 installation instructions")?></h1>
+  <h1 id="installation"><?php echo _("Installing pgAdmin3 binaries")?></h1>
   <dl>
     <dt><?php echo _("GNU/Linux Debian");?></dt>
     <?php echo  sprintf(_("Packager: %s"), "Raphaël Enrici");?>
@@ -201,6 +202,13 @@
       </ol>
 		</dd>
 	</dl>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
+  <h1 id="source"><?php echo _("Installing pgAdmin3 from source")?></h1>
+    <dd>
+      <?php echo _("The detailed compilation steps will be explained shortly.")?>
+      <?php echo sprintf(_("pgAdmin source code is signed using <a href='%s'>Dave Page PGP key</a>."), "pgp/davepage.pgp")?>
+    </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
 

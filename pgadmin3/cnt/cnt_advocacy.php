@@ -48,7 +48,7 @@
       </table>
       Any comments are welcome.
 
-	  <li><b>Keywords</b>: when visiting a web site, users may not query "pgAdmin" but "PostgreSQL database" or "free administration tools", etc... During registration, you may be asked to enter additional keywords. My personal choice is to enter:
+	  <li><b>Keywords</b>: when visiting a web site, users may not find "pgAdmin" directly, but query  keywords like "PostgreSQL database" or "free administration tools", etc... During registration, you may be asked to enter keywords. My personal choice is to register these keywords:
 	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
 	PostgreSQL postgresql postgres sql database administration admin free pgadmin pg mysql migration

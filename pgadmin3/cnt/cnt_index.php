@@ -46,12 +46,12 @@
   </dd>
 </dl>
 <dl>
-  <dt><?php echo _("pgAdmin2 is still supported");?></dt>
+  <dt><?php echo _("pgAdmin II is still supported");?></dt>
   <dd>
     <?php echo _("Although we concentrate on pgAdmin III, we will continue to support pgAdmin II.");?>
     <?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin III.");?>
     <?php echo _("Both pgAdmin II and pgAdmin III can coexist on the same system.");?>
-    <?php echo sprintf(_("If you are interested, please visit <a href='%s'>pgAdmin2</a> site."), "http://www.pgadmin.org/pgadmin2")?>
+    <?php echo sprintf(_("If you are interested, please visit <a href='%s'>pgAdmin II</a> site."), "http://www.pgadmin.org/pgadmin2")?>
     <?php echo _("This site is available in English only.")?>
   </dd>
 

@@ -234,14 +234,14 @@
             <?php echo "A recent version of Mingw compiler can be used."?>
         </ul>
 
-    	<li><?php echo _("wxWindows 2.5 compiled from CVS is required with additional patches.")?>
+    	<li><?php echo _("wxWindows 2.5 compiled from CVS with additional patches.")?>
         <?php echo _("wxWindows 2.4 will not work because of Unicode problems.")?>
         <?php echo _("We provide wxWindows 2.5 source and binary packages.")?>
         <?php echo _("The packages can be downloaded from our mirrors in the 'wxWindows' directory.")?>
 
 
 
-			<li><?php echo sprintf(_("PostgreSQL %s with libpq for data access are needed."), "7.3+") ?>
+			<li><?php echo sprintf(_("PostgreSQL %s with libpq for data access."), "7.3+") ?>
     </ul>
   </dd>
 

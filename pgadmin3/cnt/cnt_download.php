@@ -166,7 +166,7 @@
 
   <dl>
     <dt><?php echo _("MS Windows 2000 & XP");?></dt>
-		<?php echo  sprintf(_("Packager: %s"), "Andreas Pflug");?>
+		<?php echo  sprintf(_("Packager: %s"), "Dave Page");?>
     <dd>
     	<ol>
         <li><?php echo _("Download pgAdmin installer.");?>
@@ -180,7 +180,7 @@
   <h1 id="pgadmin2"><?php echo _("pgAdmin2 stable")?></h1>
     <dd>
       <?php echo _("pgAdmin2 is available for Ms Windows only.")?>
-      <?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin3.");?>
+      <?php echo _("With the rapid advancement of the project, we recommend upgrading to pgAdmin3.");?>
       <?php echo sprintf(_("If you are interested in pgAdmin2, please visit <a href='%s'>pgAdmin2 downloading</a> page."), "http://www.pgadmin.org/pgadmin2/downloads")?>
       <?php echo _("This page is available in English only.")?>
     </dd>

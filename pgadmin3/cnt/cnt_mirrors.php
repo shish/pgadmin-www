@@ -8,7 +8,7 @@
   // Create a connexion
 	//
   if(!$conn) {
-    echo _("Could not connect to the mirror database.")."<br>";
+    echo _("Could not connect to the mirror database.")."<br><br>";
     echo sprintf(_("Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</a>."), "http://www.postgresql.org/ftpsite")."<br>";
     $_error = true;
   }
@@ -25,7 +25,7 @@
 
 
     if(!$res) {
-      echo _("Could not connect to the mirror table.")."<br>";
+      echo _("Could not connect to the mirror table.")."<br><br>";
       echo sprintf(_("Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</a>."), "http://www.postgresql.org/ftpsite")."<br>";
       $_error = true;
     }
@@ -41,7 +41,7 @@ if (!$_error) {
   //
   $ii = pg_num_rows($res);
   if($ii == 0) {
-    echo _("No mirrors could be found.")."<br>";
+    echo _("No mirrors could be found.")."<br><br>";
     echo sprintf(_("Feel free to download pgAdmin from <a href='%s'>PostgreSQL primary FTP site</a>."), "http://www.postgresql.org/ftpsite/pgadmin3/")."<br>";
   } else {
     $content = "<table width='100%'><tr><td colspan=$numcells align=left><font size=4>$prompt<br><br></font></td>\n";

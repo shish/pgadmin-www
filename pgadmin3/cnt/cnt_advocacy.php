@@ -26,9 +26,10 @@
         The proposed strategy is quite simple :
         <ul>
           <li>Translate pgAdmin software and pgAdmin web site in your language as explained on the <a href='translation.php'>translation page</a>.
-          <li>Register pgAdmin on free software web site in your country. We are highly interested in community websites designed by 'opinion leaders'. For example, Troels Arvin registered pgAdmin on Freshmeat <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>here</a>. Each country has one or two major web sites for free software.
+          <li>Register pgAdmin on free software web sites in your country. We are highly interested in community websites designed by 'opinion leaders'. For example, Troels Arvin registered pgAdmin on Freshmeat <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>here</a>. Each country has one or two major web sites for free software.
+          <li>pgAdmin web site si not (yet) programmed to guess the default language of your browser. For registration, use the address of pgAdmin website returned after clicking on your country flag. For example, French homepage is <a href='http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR'>http://www.pgadmin.org/pgadmin3/index.php?locale=fr_FR</a>.
           <li>Contact the press and write short articles about pgAdmin (if you are bold enough!). Whever you are contacted by journalists, we can help write a short article.
-          <li>Analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 web site in your country, which reflect the overall interest in pgAdmin. Some countries have a real interest in pgAdmin, like the Russian Federation, Japan or Brazil. There is plenty of room for other countries. We need your help.
+          <li>Every month, analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 web site in your country, which reflect the overall interest in pgAdmin. Some countries have a real interest in pgAdmin, like the Russian Federation, Japan or Brazil. There is plenty of room for other countries. We need your help.
         </ul>
   </dd>
 </dl>

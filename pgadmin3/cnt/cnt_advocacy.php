@@ -155,7 +155,7 @@ en (English)
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
     <li><a href='http://www.programmersheaven.com/search/download.asp?FileID=32608'>Programmers Heaven</a></li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>
-    <li><a href='http://www.snapfiles.com/freeware/freeware.html'> Snapfiles</a> (Reminder to register)</li>
+    <li><a href='http://www.snapfiles.com/freeware/freeware.html'>Snapfiles</a> (Reminder to register)</li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>
     <li><a href='http://www.theopencd.org'>The Open CD</a> (reminder to register)</li>
     <li><a href='http://www.topdownloads.net/software/view.php?id=14174'>Top Downloads Net</a></li>

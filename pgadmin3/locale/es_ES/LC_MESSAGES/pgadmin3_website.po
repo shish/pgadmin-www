@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3\n"
 "POT-Creation-Date: 2004-02-11 00:29+0100\n"
-"PO-Revision-Date: 2004-03-08 14:23+0100\n"
+"PO-Revision-Date: 2004-03-09 10:44+0100\n"
 "Last-Translator: Miguel González Castaños\n"
 "Language-Team: pgAdmin Developers <pgadmin-hackers@postgresql.org>\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,6 @@ msgid "Advocacy"
 msgstr "Promoción"
 
 #: ../cnt/cnt_index.php:36
-#, fuzzy
 msgid "After one year of development, we are happy to announce the availability of pgAdmin III, a complete rewrite of pgAdmin II for Ms Windows, GNU/Linux and FreeBSD."
 msgstr "Después de un año de desarrollo, estamos felices de anunciar la disponibilidad de pgAdmin3, una completa revisión de pgAdmin2 para Ms Windows, GNU/Linux y FreeBSD."
 
@@ -88,7 +87,6 @@ msgid "Aggregates"
 msgstr "Agregados"
 
 #: ../cnt/cnt_index.php:51
-#, fuzzy
 msgid "Although we concentrate on pgAdmin III, we will continue to support pgAdmin II."
 msgstr "Aunque nos concentramos en pgAdmin3, continuaremos dando soporte a pgAdmin2."
 
@@ -110,7 +108,7 @@ msgid "Author"
 msgstr "Autor"
 
 #: ../cnt/cnt_download.php:16
-#, fuzzy, c-format
+#, c-format
 msgid "Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing binary packages."
 msgstr "Como compilar desde los <a href='%s'>fuentes</a> requiere ciertos conocimientos técnicos, recomendamos instalar <a href='%s'>los paquetes binarios</a>."
 
@@ -119,22 +117,20 @@ msgid "Because compiling from source requires technical knowledge, we recommand 
 msgstr "Como compilar desde los fuentes requiere ciertos conocimientos técnicos, recomendamos el uso de los paquetes binarios."
 
 #: ../cnt/cnt_download.php:32
-#, fuzzy, c-format
+#, c-format
 msgid "Before you start installation, please choose a mirror in the list of our <a href='%s'>mirrors</a>."
 msgstr "El programa esta disponible en código fuente y binario desde nuestros <a href='%s'>mirrors</a>."
 
 #: ../cnt/cnt_download.php:9
-#, fuzzy
 msgid "Binary snapshots"
 msgstr "Snapshots diarios"
 
 #: ../cnt/cnt_download.php:453
-#, fuzzy, c-format
+#, c-format
 msgid "Binary snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."
 msgstr "Los snapshots diarios son paquetes compilados de <a href='%s'>CVS</a> prácticamente a diario."
 
 #: ../cnt/cnt_index.php:53
-#, fuzzy
 msgid "Both pgAdmin II and pgAdmin III can coexist on the same system."
 msgstr "Ambos pgAdmin2 y pgAdmin3 pueden coexistir en el mismo sistema."
 
@@ -159,7 +155,6 @@ msgid "Change log"
 msgstr "Lista de Cambios."
 
 #: ../cnt/cnt_download.php:282
-#, fuzzy
 msgid "Check that pgAdmin III executable is in the path."
 msgstr "Compruebe que el ejecutable de pgAdmin se encuentra en la ruta de acceso."
 
@@ -181,7 +176,6 @@ msgid "Columns can be dropped."
 msgstr "Las columnas se pueden borrar."
 
 #: ../cnt/cnt_download.php:438
-#, fuzzy
 msgid "Compile pgAdmin III."
 msgstr "Compilar pgAdmin."
 
@@ -204,7 +198,6 @@ msgid "Could not connect to the mirror table."
 msgstr "No se pudo conectar con el mirror de la tabla."
 
 #: ../cnt/cnt_download.php:273
-#, fuzzy
 msgid "Create a symlink to pgAdmin III binary."
 msgstr "Crear un enlace simbólico al binario de pgAdmin."
 
@@ -268,7 +261,6 @@ msgid "Domains"
 msgstr "Dominios"
 
 #: ../cnt/cnt_download.php:324
-#, fuzzy
 msgid "Double-click on the installer and follow the instructions."
 msgstr "Haga doble clic en el instalador y siga las instrucciones."
 
@@ -287,7 +279,6 @@ msgstr "Descargar Traducción"
 
 #: ../cnt/cnt_download.php:10
 #: ../cnt/cnt_download.php:473
-#, fuzzy
 msgid "Download mirrors"
 msgstr "Descargar Fuentes"
 
@@ -298,22 +289,20 @@ msgstr "Bajar nuestra versión de CVS de wxWindows 2.5."
 #: ../cnt/cnt_download.php:208
 #: ../cnt/cnt_download.php:244
 #: ../cnt/cnt_download.php:303
-#, fuzzy, c-format
+#, c-format
 msgid "Download pgAdmin III package from our <a href='%s'>mirrors</a>."
 msgstr "Bajar el código fuente de pgAdmin desde un mirror."
 
 #: ../cnt/cnt_download.php:456
-#, fuzzy
 msgid "Download pgAdmin III snapshots here:"
 msgstr "Bajar los snapshots de pgAdmin aqui:"
 
 #: ../cnt/cnt_download.php:424
-#, fuzzy
 msgid "Download pgAdmin III source code from a mirror."
 msgstr "Bajar el código fuente de pgAdmin desde un mirror."
 
 #: ../cnt/cnt_download.php:148
-#, fuzzy, c-format
+#, c-format
 msgid "Download pgAdmin package from our <a href='%s'>mirrors</a>."
 msgstr "Bajar el código fuente de pgAdmin desde un mirror."
 
@@ -326,7 +315,6 @@ msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr "Edite el fichero /etc/apt/sources.list y añada la siguiente línea:"
 
 #: ../cnt/cnt_screenshots.php:141
-#, fuzzy
 msgid "Every time you manipulate objects graphically, pgAdmin III writes the corresponding SQL code."
 msgstr "Cada vez que manipula objetos gráficamente, pgAdmin3 escribe el código SQL correspondiente."
 
@@ -417,7 +405,7 @@ msgid "If you are interested in the translation of PostgreSQL server messages, p
 msgstr "Si está interesado en la traducción de los mensajes del servidor PostgreSQL, por favor visite la página de <a href='%s'>Soporte de Idiomas de PostgreSQL</a>."
 
 #: ../cnt/cnt_index.php:54
-#, fuzzy, c-format
+#, c-format
 msgid "If you are interested, please visit <a href='%s'>pgAdmin II</a> site."
 msgstr "Si está interesado, por favor visite la página de <a href='%s'>pgAdmin2</a>."
 
@@ -453,7 +441,6 @@ msgid "In case you encounter an unexpected behaviour, you should have a look at 
 msgstr "En caso de que encuentre un comportamiento no esperado, debería darle un vistazo a esa página."
 
 #: ../cnt/cnt_screenshots.php:45
-#, fuzzy
 msgid "In every environment, pgAdmin III is a native application."
 msgstr "En todos los entornos, pgAdmin3 es una aplicación nativa."
 
@@ -466,7 +453,6 @@ msgid "In progress"
 msgstr "En curso"
 
 #: ../cnt/cnt_screenshots.php:93
-#, fuzzy
 msgid "In the left pane of pgAdmin III, a navigation tree allow to browse database objects."
 msgstr "En el panel izquierdo de pgAdmin3, un árbol de navegación permite ver los objetos de la base de datos."
 
@@ -485,17 +471,14 @@ msgid "Install using the following command:"
 msgstr "Instalarlo usando el siguiente comando:"
 
 #: ../cnt/cnt_download.php:421
-#, fuzzy
 msgid "Installing pgAdmin III"
 msgstr "Instalar pgAdmin"
 
 #: ../cnt/cnt_download.php:451
-#, fuzzy
 msgid "Installing pgAdmin III from binary snapshots"
 msgstr "Instalar pgAdmin"
 
 #: ../cnt/cnt_download.php:329
-#, fuzzy
 msgid "Installing pgAdmin III from source code"
 msgstr "Instalar desde los fuentes "
 
@@ -526,7 +509,6 @@ msgstr "Locale"
 #: ../cnt/cnt_download.php:215
 #: ../cnt/cnt_download.php:251
 #: ../cnt/cnt_download.php:310
-#, fuzzy
 msgid "Location"
 msgstr "Documentación"
 
@@ -555,7 +537,6 @@ msgid "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and
 msgstr "Los mensajes envíados a la lista están archivados en <a href='%s'>PostgreSQL</a> y <a href='%s'>mail-archive.com</a>."
 
 #: ../cnt/cnt_download.php:7
-#, fuzzy
 msgid "Ms Windows"
 msgstr "MS Windows 2000 y XP"
 
@@ -678,12 +659,10 @@ msgid "PostgreSQL servers"
 msgstr "Servidores PostgreSQL "
 
 #: ../cnt/cnt_index.php:94
-#, fuzzy
 msgid "Powerful query tool with color syntax highlight"
 msgstr "Potente herramienta de consulta con "
 
 #: ../cnt/cnt_index.php:3
-#, fuzzy
 msgid "Presentation"
 msgstr "Documentación"
 
@@ -705,7 +684,6 @@ msgid "RPM"
 msgstr "RPM"
 
 #: ../cnt/cnt_download.php:337
-#, fuzzy
 msgid "Recent versions of GTK2.2, automake, autoconf and gcc are needed."
 msgstr "Se necesitan versiones recientes de GTK2.2, automake, autoconf y gcc"
 
@@ -760,7 +738,6 @@ msgid "Slackware"
 msgstr "Slackware"
 
 #: ../cnt/cnt_download.php:8
-#, fuzzy
 msgid "Source code"
 msgstr "Código fuente de pgAdmin"
 
@@ -844,7 +821,6 @@ msgid "The project can only live and develop with your help."
 msgstr "El proyecto solo puede sobrevivir y evolucionar con su ayuda."
 
 #: ../cnt/cnt_screenshots.php:138
-#, fuzzy
 msgid "The properties and statistics of the selected object are displayed in the right pane of pgAdmin III."
 msgstr "Las propiedades y las estadísticas del objeto seleccionado se muestran en el panel de la derecha de pgAdmin3."
 
@@ -1011,12 +987,11 @@ msgid "We can only rely on users to make pgAdmin the best possible software."
 msgstr "Solamente podemos confiar en los usuarios para hacer de pgAdmin el mejor programa posible."
 
 #: ../cnt/cnt_index.php:180
-#, fuzzy, c-format
+#, c-format
 msgid "We need help to translate pgAdmin III and our website in more than %d languages."
 msgstr "Necesitamos ayuda para traducir pgAdmin3 y nuestra página web en más de %d idiomas."
 
 #: ../cnt/cnt_translation.php:29
-#, fuzzy
 msgid "We need your help to translate pgAdmin III into several languages."
 msgstr "Necesitamos ayuda para traducir pgAdmin3 en varios idiomas."
 
@@ -1026,7 +1001,6 @@ msgid "We plan to reach %d languages soon."
 msgstr "Planeamos llegar a los %d idiomas pronto."
 
 #: ../cnt/cnt_download.php:346
-#, fuzzy
 msgid "We provide modified wxWindows 2.5 source and binary packages."
 msgstr "Proporcionamos los fuentes de WxWindows 2.5 y los binarios."
 
@@ -1051,7 +1025,6 @@ msgid "With the help and suggestions of users, we have been constantly improving
 msgstr "Con la ayuda y las sugerencias de los usuarios, hemos mejorado constantemente la usabilidad de pgAdmin."
 
 #: ../cnt/cnt_index.php:52
-#, fuzzy
 msgid "With the rapid advancement of the project, we recommand upgrading to pgAdmin III."
 msgstr "Con el rápido desarrollo del proyecto, recomendamos la actualización a pgAdmin3."
 
@@ -1065,13 +1038,12 @@ msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr "Pronto se dará cuenta que PostgreSQL es la base de datos más rápida disponible."
 
 #: ../cnt/cnt_index.php:49
-#, fuzzy
 msgid "pgAdmin II is still supported"
 msgstr "pgAdmin2 es soportado todavía"
 
 #: ../cnt/cnt_index.php:27
 #: ../cnt/cnt_index.php:34
-#, fuzzy, c-format
+#, c-format
 msgid "pgAdmin III %s released"
 msgstr "publicación de pgAdmin3 %s"
 
@@ -1088,27 +1060,23 @@ msgstr "Los paquetes RPM de pgAdmin III RPM estan disponibles para varias distri
 #: ../cnt/cnt_download.php:223
 #: ../cnt/cnt_download.php:259
 #: ../cnt/cnt_download.php:318
-#, fuzzy, c-format
+#, c-format
 msgid "pgAdmin III binary packages for %s"
 msgstr "paquetes binarios de pgAdmin para %s"
 
 #: ../cnt/cnt_download.php:475
-#, fuzzy
 msgid "pgAdmin III can be downloaded from a large number of mirrors."
 msgstr "pgAdmin3 puede descargarse de numerosos mirrors."
 
 #: ../cnt/cnt_screenshots.php:78
-#, fuzzy
 msgid "pgAdmin III can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library."
 msgstr "pgAdmin3 puede conectarse a cualquier base de datos PostgreSQL 7.3/7.4 usando la librería empotrada nativa libpq."
 
 #: ../cnt/cnt_screenshots.php:232
-#, fuzzy
 msgid "pgAdmin III includes PostgreSQL full documentation."
 msgstr "pgAdmin3 incluye documentación completa de PostgreSQL."
 
 #: ../cnt/cnt_screenshots.php:166
-#, fuzzy
 msgid "pgAdmin III includes a table editor."
 msgstr "pgAdmin3 incluye un editor de tablas."
 
@@ -1118,28 +1086,24 @@ msgid "pgAdmin III interface is translated in more than %d languages."
 msgstr "La interfaz de pgAdmin3 está traducida a más de %d idiomas."
 
 #: ../cnt/cnt_screenshots.php:259
-#, fuzzy
 msgid "pgAdmin III interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic."
 msgstr "El interfaz de pgAdmin3 soporta todos los scripts Unicode, incluyendo los scripts de Izquierda a Derecha (RTL) como el Árabe."
 
 #: ../cnt/cnt_screenshots.php:43
-#, fuzzy
 msgid "pgAdmin III is a comprehensive design and management interface for PostgreSQL database, designed to run on most Operating Systems."
 msgstr "pgAdmin3 es una interfaz comprensible para el diseño y administración de una base de datos PostgreSQL, diseñada para ejecutarse en la mayoria de los Sistemas Operativos."
 
 #: ../cnt/cnt_download.php:14
 #: ../cnt/cnt_index.php:43
-#, fuzzy, c-format
+#, c-format
 msgid "pgAdmin III is a free software project released under the <a href='%s'>Artistic licence</a>."
 msgstr "pgAdmin3 es un proyecto de software gratuito liberado bajo la <a href='%s'>Licencia Artistica</a>."
 
 #: ../cnt/cnt_index.php:12
-#, fuzzy
 msgid "pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use."
 msgstr "pgAdmin3 es una interfaz comprensible para el diseño y administración de una base de datos PostgreSQL, diseñada para ejecutarse en la mayoria de los Sistemas Operativos."
 
 #: ../cnt/cnt_development.php:14
-#, fuzzy
 msgid "pgAdmin III is available subject to the terms of the Artistic Licence."
 msgstr "pgAdmin esta disponible sujeto a los términos de la Licencia Artistica."
 
@@ -1156,14 +1120,14 @@ msgid "pgAdmin III is released with an installer and does not require any additi
 msgstr "pgAdmin III se distribuye con un instalador y no requiere ningún driver adicional para comunicarse con la base de datos."
 
 #: ../cnt/cnt_index.php:38
-#, fuzzy, c-format
+#, c-format
 msgid "pgAdmin III is the result of a joint effort of a team of more than %d contributors from %d different countries."
 msgstr "pgAdmin3 es el resultado de la unión de esfuerzos de un equipo de más de %d colaboradores de %d paises diferentes."
 
 #: ../cnt/cnt_download.php:204
 #: ../cnt/cnt_download.php:240
 #: ../cnt/cnt_download.php:300
-#, fuzzy, c-format
+#, c-format
 msgid "pgAdmin III packages are available for %s."
 msgstr "paquetes binarios de pgAdmin para %s"
 
@@ -1173,17 +1137,15 @@ msgid "pgAdmin III packages are available for <a href='%s'>GNU/Linux Debian</a> 
 msgstr "Los paquetes de pgAdmin III estan disponibles para <a href='%s'>GNU/Linux Debian</a> las distribuciones stable, testing y unstable."
 
 #: ../cnt/cnt_screenshots.php:248
-#, fuzzy
 msgid "pgAdmin III supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte encodings."
 msgstr "pgAdmin3 soporta la mayoría de los códigos del lado del servidor de PostgreSQL incluyendo UTF-8 y otrós códigos multi-byte."
 
 #: ../cnt/cnt_index.php:144
-#, fuzzy
 msgid "pgAdmin III supports most PostgreSQL server-side encodings:"
 msgstr "pgAdmin3 soporta la mayoría de las codificaciones del lado del servidor de PostgreSQL:"
 
 #: ../cnt/cnt_index.php:87
-#, fuzzy, c-format
+#, c-format
 msgid "pgAdmin III user interface is translated in more than %d languages."
 msgstr "La interfaz de usuario de pgAdmin3 está traducida en más de %d idiomas."
 

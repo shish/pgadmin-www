@@ -131,7 +131,10 @@ cs (Czech)
 <dd>
 de (German)
   <ul>
-    <li><a href='http://dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a></li>
+    <li><a href='http://www.apps4linux.org'></a>Apps4Linux (reminder to register)</li>
+    <li><a href='http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a></li>
+    <li><a href='http://www.links2linux.de'></a>links2linux.de (reminder to register)</li>
+    <li><a href='http://www.linuxsoftboard.de/viewforum.php?f=29'></a>LinuxSoftBoard (reminder to register)</li>
   </ul>
 </dd>
 

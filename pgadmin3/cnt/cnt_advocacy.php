@@ -39,15 +39,15 @@
           <li><b>Downloading links</b>: whenever possible, publish links pointing to pgAdmin <a href='http://www.pgadmin.org/pgadmin3/download.php'>downloading page</a>.</li>
             <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
               <tr><td>
-              Main: http://www.pgadmin.org/pgadmin3/download.php<br/>
-              Debian: http://www.pgadmin.org/pgadmin3/download.php#debian<br/>
-              RPM: http://www.pgadmin.org/pgadmin3/download.php#rpm<br/>
-              Slackware: http://www.pgadmin.org/pgadmin3/download.php#slackware<br/>
-              FreeBSD: http://www.pgadmin.org/pgadmin3/download.php#freebsd<br/>
-              MS Windows: http://www.pgadmin.org/pgadmin3/download.php#win32<br/>
-              Source: http://www.pgadmin.org/pgadmin3/download.php#source<br/>
-              Snapshots: http://www.pgadmin.org/pgadmin3/download.php#snapshots<br/>
-              Mirrors: http://www.pgadmin.org/pgadmin3/download.php#mirrors<br/>
+              Main: <a href='http://www.pgadmin.org/pgadmin3/download.php'>http://www.pgadmin.org/pgadmin3/download.php</a><br/>
+              Debian: <a href='http://www.pgadmin.org/pgadmin3/download.php#debian'>http://www.pgadmin.org/pgadmin3/download.php#debian</a><br/>
+              RPM: <a href='http://www.pgadmin.org/pgadmin3/download.php#rpm'>http://www.pgadmin.org/pgadmin3/download.php#rpm</a><br/>
+              Slackware: <a href='http://www.pgadmin.org/pgadmin3/download.php#slackware'>http://www.pgadmin.org/pgadmin3/download.php#slackware</a><br/>
+              FreeBSD: <a href='http://www.pgadmin.org/pgadmin3/download.php#freebsd'>http://www.pgadmin.org/pgadmin3/download.php#freebsd</a><br/>
+              MS Windows: <a href='http://www.pgadmin.org/pgadmin3/download.php#win32'>http://www.pgadmin.org/pgadmin3/download.php#win32</a><br/>
+              Source: <a href='http://www.pgadmin.org/pgadmin3/download.php#source'>http://www.pgadmin.org/pgadmin3/download.php#source</a><br/>
+              Snapshots: <a href='http://www.pgadmin.org/pgadmin3/download.php#snapshots'>http://www.pgadmin.org/pgadmin3/download.php#snapshots</a><br/>
+              Mirrors: <a href='http://www.pgadmin.org/pgadmin3/download.php#mirrors'>http://www.pgadmin.org/pgadmin3/download.php#mirrors</a><br/>
               </td></tr>
             </table>
               You may add the locale too in order to display in your language. Example:</br>
@@ -68,17 +68,16 @@ ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2
       </table>
 
           <li><b>Description of pgAdmin</b>: any technical description is suitable. If you are not sure what to write, just translate one of the following descriptions:
-	  <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
-	<tr><td>
-	<ul>
-	<li>7 words: Powerfull administration and development tools for PostgreSQL</li>
-	<li>22 words: A completely free administration and development platform for the PostgreSQL database. Available in more than 30 languages for Win/NT/2000/XP, GNU/Linux and FreeBSD.</li>
-	<li>98 words: pgAdmin III is a comprehensive administration interface for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and MS Windows. It is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases, with support of the latest PostgreSQL features. The software is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.</li>
-	</ul>
-	</td></tr>
-
-	</tr>
-      </table>
+    <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
+      <tr><td>
+	      <ul>
+	        <li>Powerfull administration and development tools for PostgreSQL, free for any use.</li>
+	        <li>A powerfull administration and development platform for the PostgreSQL database, free for any use. Available in more than 30 languages for Win/NT/2000/XP, GNU/Linux and FreeBSD. Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more.</li>
+	        <li>pgAdmin III is a completely free administration and development platform for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and MS Windows. It is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. pgAdmin also includes a query builder, an sql editor, a server-side code editor and much more. pgAdmin is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.</li>
+	      </ul>
+	      </td></tr>
+	    </tr>
+    </table>
       Any comments are welcome.</li>
 
 	  <li><b>Keywords</b>: when visiting a web site, users may not find "pgAdmin" directly, but query  keywords like "PostgreSQL database" or "free administration tools", etc... During registration, you may be asked to enter keywords. My personal choice is to register these keywords:

@@ -5,7 +5,7 @@
 
   // Some seriously nasty nested code...
 
-  if(!conn) {
+  if(!$conn) {
     $content = _("<p>Couldn't connect to the database!</p><p>In the meantime, please feel free to download pgAdmin from the primary PostgreSQL FTP site <a href=\"http://www.postgresql.org/ftpsite/\">here</a></p>");
   } else {
     $prompt = 'Please select a download mirror: ';

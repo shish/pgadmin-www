@@ -91,7 +91,7 @@
 
       <li><a href='mailto:saito@inetrt.skcapi.co.jp'>Hiroshi Saito</a> (Member): Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.
       <li><a href='mailto:fmonkey@fmonkey.net'>Adam H. Pendleton</a> (Member): Developed and maintains the build system, and helps with various porting issues.
-      <li><a href='mailto:blacknoz@club-internet.fr'>Raphaël Enrici</a> (Member): Maintains the Debian port, and helps with numerous other issues.
+      <li><a href='mailto:blacknoz@club-internet.fr'>Rapha&#235;l Enrici</a> (Member): Maintains the Debian port, and helps with numerous other issues.
     </ul>
   </ol>
 </dd>

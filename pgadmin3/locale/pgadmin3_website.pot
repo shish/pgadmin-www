@@ -7,18 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-09-26 09:55+0200\n"
+"POT-Creation-Date: 2003-10-01 13:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../cnt/cnt_download.php:299
-#, c-format
-msgid "<a href='%s'>Daily snapshot</a>."
-msgstr ""
 
 #: ../cnt/cnt_screenshots.php:175
 msgid "A data grid allows to insert, modify and drop data easily."
@@ -74,7 +69,7 @@ msgstr ""
 msgid "Aggregates"
 msgstr ""
 
-#: ../cnt/cnt_download.php:310
+#: ../cnt/cnt_download.php:299
 msgid "Alternatively, you can use a CVS client."
 msgstr ""
 
@@ -91,7 +86,7 @@ msgstr ""
 msgid "As usual your feedback is highly appreciated and required."
 msgstr ""
 
-#: ../cnt/cnt_download.php:303
+#: ../cnt/cnt_download.php:291
 #, c-format
 msgid "Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"
 msgstr ""
@@ -113,10 +108,6 @@ msgid ""
 "using binary packages."
 msgstr ""
 
-#: ../cnt/cnt_download.php:4
-msgid "Binary packages"
-msgstr ""
-
 #: ../cnt/cnt_index.php:32
 msgid "Both pgAdmin2 and pgAdmin3 can coexist on the same system."
 msgstr ""
@@ -136,7 +127,7 @@ msgstr ""
 msgid "Casts"
 msgstr ""
 
-#: ../cnt/cnt_development.php:8 ../cnt/cnt_development.php:113
+#: ../cnt/cnt_development.php:8 ../cnt/cnt_development.php:117
 msgid "Change log"
 msgstr ""
 
@@ -164,7 +155,7 @@ msgstr ""
 msgid "Columns can be dropped."
 msgstr ""
 
-#: ../cnt/cnt_download.php:319
+#: ../cnt/cnt_download.php:308
 msgid "Compile pgAdmin."
 msgstr ""
 
@@ -213,11 +204,11 @@ msgstr ""
 msgid "Designed for PostgreSQL latest versions"
 msgstr ""
 
-#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:146 ../tpl/menu.php:36
+#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:146 ../tpl/menu.php:37
 msgid "Development"
 msgstr ""
 
-#: ../cnt/cnt_development.php:6
+#: ../cnt/cnt_development.php:6 ../cnt/cnt_development.php:59
 msgid "Development team"
 msgstr ""
 
@@ -241,7 +232,7 @@ msgstr ""
 msgid "Double-clic on the installer and follow the instructions."
 msgstr ""
 
-#: ../cnt/cnt_download.php:2 ../tpl/menu.php:38
+#: ../cnt/cnt_download.php:2 ../tpl/menu.php:39
 msgid "Download"
 msgstr ""
 
@@ -251,14 +242,6 @@ msgstr ""
 
 #: ../class/pgadmin_po.php:242
 msgid "Download Template"
-msgstr ""
-
-#: ../cnt/cnt_download.php:297
-msgid "Download from 'beta/source' directory on a mirror."
-msgstr ""
-
-#: ../cnt/cnt_download.php:293
-msgid "Download from 'stable/source' directory on a mirror."
 msgstr ""
 
 #: ../cnt/cnt_download.php:251
@@ -281,7 +264,7 @@ msgstr ""
 msgid "Download pgAdmin installer."
 msgstr ""
 
-#: ../cnt/cnt_download.php:289
+#: ../cnt/cnt_download.php:288
 msgid "Download pgAdmin source code from a mirror."
 msgstr ""
 
@@ -382,7 +365,7 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-#: ../cnt/cnt_index.php:2 ../tpl/menu.php:34
+#: ../cnt/cnt_index.php:2 ../tpl/menu.php:35
 msgid "Home"
 msgstr ""
 
@@ -490,11 +473,11 @@ msgstr ""
 msgid "Install wxWindows from source."
 msgstr ""
 
-#: ../cnt/cnt_download.php:91
+#: ../cnt/cnt_download.php:4 ../cnt/cnt_download.php:91
 msgid "Installing binary packages"
 msgstr ""
 
-#: ../cnt/cnt_download.php:221
+#: ../cnt/cnt_download.php:5 ../cnt/cnt_download.php:221
 msgid "Installing from source"
 msgstr ""
 
@@ -595,10 +578,6 @@ msgstr ""
 
 #: ../cnt/cnt_mirrors.php:44
 msgid "No mirrors could be found."
-msgstr ""
-
-#: ../cnt/cnt_download.php:294
-msgid "Not yet available."
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:133
@@ -718,7 +697,7 @@ msgstr ""
 msgid "Schemas"
 msgstr ""
 
-#: ../cnt/cnt_screenshots.php:2 ../tpl/menu.php:35
+#: ../cnt/cnt_screenshots.php:2 ../tpl/menu.php:36
 msgid "Screenshots"
 msgstr ""
 
@@ -734,19 +713,11 @@ msgstr ""
 msgid "Server-side languages (like PLpgsql, PLpython, PLperl, etc...)"
 msgstr ""
 
-#: ../cnt/cnt_download.php:5
-msgid "Source code"
-msgstr ""
-
-#: ../cnt/cnt_download.php:292
-msgid "Stable release."
-msgstr ""
-
 #: ../class/pgadmin_po.php:247
 msgid "Status"
 msgstr ""
 
-#: ../cnt/cnt_support.php:2 ../tpl/menu.php:39
+#: ../cnt/cnt_support.php:2 ../tpl/menu.php:40
 msgid "Support"
 msgstr ""
 
@@ -780,7 +751,7 @@ msgstr ""
 msgid "The documentation can be viewed off-line or on-line."
 msgstr ""
 
-#: ../cnt/cnt_development.php:102 ../cnt/cnt_development.php:116
+#: ../cnt/cnt_development.php:106 ../cnt/cnt_development.php:120
 #: ../cnt/cnt_support.php:20
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
 msgstr ""
@@ -849,8 +820,8 @@ msgstr ""
 msgid "This makes learning SQL more easy..."
 msgstr ""
 
-#: ../cnt/cnt_development.php:61 ../cnt/cnt_development.php:101
-#: ../cnt/cnt_development.php:115 ../cnt/cnt_support.php:19
+#: ../cnt/cnt_development.php:61 ../cnt/cnt_development.php:105
+#: ../cnt/cnt_development.php:119 ../cnt/cnt_support.php:19
 #: ../cnt/cnt_translation.php:72
 msgid "This section is available in English only."
 msgstr ""
@@ -878,7 +849,7 @@ msgid ""
 "'subscribe', without quotes, as the body of message."
 msgstr ""
 
-#: ../cnt/cnt_development.php:7 ../cnt/cnt_development.php:99
+#: ../cnt/cnt_development.php:7 ../cnt/cnt_development.php:103
 msgid "Todo list"
 msgstr ""
 
@@ -894,7 +865,7 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../cnt/cnt_index.php:153 ../cnt/cnt_translation.php:20 ../tpl/menu.php:37
+#: ../cnt/cnt_index.php:153 ../cnt/cnt_translation.php:20 ../tpl/menu.php:38
 msgid "Translation"
 msgstr ""
 
@@ -928,7 +899,7 @@ msgid ""
 "software."
 msgstr ""
 
-#: ../cnt/cnt_download.php:253 ../cnt/cnt_download.php:305
+#: ../cnt/cnt_download.php:253 ../cnt/cnt_download.php:294
 msgid "Unpack as follows:"
 msgstr ""
 
@@ -1024,10 +995,6 @@ msgstr ""
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr ""
 
-#: ../cnt/cnt_development.php:59
-msgid "pgAdmin Team"
-msgstr ""
-
 #: ../cnt/cnt_download.php:37 ../cnt/cnt_download.php:43
 #: ../cnt/cnt_download.php:49 ../cnt/cnt_download.php:55
 #: ../cnt/cnt_download.php:61 ../cnt/cnt_download.php:67
@@ -1040,11 +1007,6 @@ msgstr ""
 msgid ""
 "pgAdmin is a project created and managed by contributors from the whole "
 "world."
-msgstr ""
-
-#: ../cnt/cnt_download.php:290
-msgid ""
-"pgAdmin is available in several qualities: stable, beta, daily snapshot."
 msgstr ""
 
 #: ../cnt/cnt_development.php:15

@@ -88,7 +88,8 @@ My database contains foreign key constraints, but these are not visible with pgA
 If you convert a database prior to 7.3 to a newer one, some dependency information isn't created
 because it didn't exist in PostgreSQL 7.2 and older. When restoring such a pg_dump file, the foreign
 keys are generated with CREATE CONSTRAINT TRIGGER instead of an ADD 
-CONSTRAINT command. pgAdmin III considers constraint triggers as an internal implementation detail,
+CONSTRAINT command.
+<br>pgAdmin III considers constraint triggers as an internal implementation detail,
 not interesting for the common administrator. In fact, CREATE CONSTRAINT TRIGGER is for backward 
 compatibility only, and shouldn't be used in newer scripts any more. Some tools (e.g. pgAdmin II) imply this, 
 by showing a ADD CONSTRAINT when reverse engineering, while actually the constraint information in 

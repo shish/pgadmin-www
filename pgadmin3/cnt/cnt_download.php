@@ -201,8 +201,8 @@
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
   <dl>
-    <dt><?php echo sprintf(_("GNU/Linux Mandrake %s, RedHat %s, SuSE %s"), "9.1", "9", "8.2");?></dt>
-    <?php echo  sprintf(_("Packager: %s"), "Jean-Michel Pouré");?>
+    <dt><?php echo sprintf(_("GNU/Linux Fedora %s, Mandrake %s, RedHat %s, SuSE %s"), "RC1", "9.1", "9", "8.2");?></dt>
+    <?php echo  sprintf(_("Packager: %s"), "<a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> / <a href='mailto:devrim@gunduz.org'>Devrim GUNDUZ</a> ");?>
     <dd>
       <ol>
         <li>

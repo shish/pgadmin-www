@@ -15,7 +15,7 @@
 <dl>
   <dt>Why promote pgAdmin?</dt>
   <dd>Promoting free software is essential for economical development and civil liberties.
-  PostgreSQL and pgAdmin free software are used worldwide by a large number of end-users, companies and institutions. If you can spend an hour or more promoting us, it is certainly not a loss of time.
+  PostgreSQL and pgAdmin free software are used worldwide by a large number of end-users, companies, governments and institutions. Therefore, helping us promote pgAdmin is certainly not a loss of time.
   </dd>
  <dd>
   On the long run, reaching new users can help pgAdmin project get in touch with talented developers, who will in turn bring exciting new features to pgAdmin and possibly to PostgreSQL too.
@@ -25,10 +25,9 @@
   <dd>
         The proposed strategy is quite simple :
         <ul>
-          <li>Enhance the number of web sites pointing at pgAdmin web site. We are highly interested in registrating pgAdmin on free sofware websites. Every country has one or two major websites designed by free software 'opinion leaders'. To give an example, just visit <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat entry</a> for pgAdmin.
-          <li>Contact the press and ask journalists to write short articles about pgAdmin.
-          <li>Help us a few hours every month, but constantly during years.
-          <li>Analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 website in your country, which reflect the overall interest for pgAdmin.
+          <li>Try to register pgAdmin on free software web site in your country. We are highly interested in community websites designed by 'opinion leaders'. For example, Troels Arvin registered pgAdmin on Freshmeat <a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>here</a>. Each country has one or two major websites for free software.
+          <li>Contact the press and write short articles about pgAdmin (if you are bold enough!). Whever you are contacted by journalists, we can help write a short article.
+          <li>Analyse the <a href='http://www.pgadmin.org/stats/webalizer/'>statistics</a> of pgAdmin3 website in your country, which reflect the overall interest for pgAdmin. Some countries have a real interest in pgAdmin, like the Russian Federation or Brazil. Why not your country?
         </ul>
   </dd>
 </dl>

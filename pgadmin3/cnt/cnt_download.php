@@ -26,99 +26,90 @@
     <dd>
       <?php echo sprintf(_("pgAdmin III packages are available for <a href='%s'>GNU/Linux Debian</a> stable, testing and unstable distributions."), "http://www.debian.org");?>
       <?php echo sprintf(_("These packages are also well-suited for <a href='%s'>Knoppix</a> and other Debian based distributions."), "http://www.knoppix.net");?>
-      <?php echo ("An APT repository is provided to ease installation.");?>
     </dd>
 
     <dd>
-	  <?php echo sprintf(_("Before you start installation, please choose a mirror in the list of our <a href='%s'>mirrors</a>."), "#mirrors");?>
-	  <?php echo "You only need to right-click on a mirror and copy its URL.";?>
-	  <?php echo "On each mirror, the packages are located in:";?>
-
-	   <table width= '100%' cellspacing=0 cellpadding=10 border=0>
-      <tr bgcolor=beige>
-        <td><?php echo _("Location")?></td>
-        <td></td>
-        <td><?php echo _("Description")?></td>
-      </tr>
-
-      <tr bgcolor=lightyellow>
-        <td>[MIRROR URL]/pgadmin3/release/debian</td>
-        <td></td>
-        <td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Debian");?></td>
-      </tr>
-      </tr>
-    </table>
-    </dd>
-
-    <dd>
-
-          <?php echo _("Edit /etc/apt/sources.list file and add the following line:");?>
-
           <ul>
-            <li>
-            <?php echo _("For Debian WOODY:");?>
+		<li>
+		<?php echo _("For Debian WOODY:");?>
+		<br/>
+		<?php echo ("An APT repository is provided to ease installation.");?>
+		<?php echo sprintf(_("Before you start installation, please choose a mirror in the list of our <a href='%s'>mirrors</a>."), "#mirrors");?>
+		<?php echo "You only need to right-click on a mirror and copy its URL.";?>
+			<?php echo "On each mirror, the packages are located in:";?>
+		
+			<table width= '100%' cellspacing=0 cellpadding=10 border=0>
+		<tr bgcolor=beige>
+			<td><?php echo _("Location")?></td>
+			<td></td>
+			<td><?php echo _("Description")?></td>
+		</tr>
+		
+		<tr bgcolor=lightyellow>
+			<td>[MIRROR URL]/pgadmin3/release/debian</td>
+			<td></td>
+			<td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Debian");?></td>
+		</tr>
+		</table>
+    
+	    <?php echo _("Edit /etc/apt/sources.list file and add the following line:");?>
             <br/>
             <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
               <tr><td>
                 deb [MIRROR URL]/pgadmin3/release/debian woody pgadmin
               </td></tr>
             </table>
-            <br/>
+	    <?php echo _("For example, for France, you can try:");?>
+            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+              <tr><td>
+		deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian woody pgadmin
+              </td></tr>
+            </table>
+	    <br/>
 
             <li>
             <?php echo _("For Debian TESTING:");?>
-            <br/>
-            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
-              <tr><td>
-                deb [MIRROR URL]/pgadmin3/release/debian testing pgadmin
-              </td></tr>
-            </table>
-            <br/>
+	    <br/>
+	    <?php echo ("An APT repository is provided to ease installation.");?>
+      <?php echo sprintf(_("Before you start installation, please choose a mirror in the list of our <a href='%s'>mirrors</a>."), "#mirrors");?>
+      <?php echo "You only need to right-click on a mirror and copy its URL.";?>
+	  <?php echo "On each mirror, the packages are located in:";?>
 
+		<table width= '100%' cellspacing=0 cellpadding=10 border=0>
+		<tr bgcolor=beige>
+		<td><?php echo _("Location")?></td>
+		<td></td>
+		<td><?php echo _("Description")?></td>
+		</tr>
+		
+		<tr bgcolor=lightyellow>
+		<td>[MIRROR URL]/pgadmin3/release/debian</td>
+		<td></td>
+		<td><?php echo sprintf(_("pgAdmin III binary packages for %s"), "GNU/Linux Debian");?></td>
+		</tr>
+		</table>
+		
+		<?php echo _("Edit /etc/apt/sources.list file and add the following line:");?>
+		<br/>
+		<table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+		<tr><td>
+		deb [MIRROR URL]/pgadmin3/release/debian testing pgadmin
+		</td></tr>
+		</table>
+		<?php echo _("For example, for France, you can try:");?>
+		<table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+		<tr><td>
+		deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian testing pgadmin
+		</td></tr>
+		</table>
+		<br/>
+	    
             <li>
             <?php echo _("For Debian UNSTABLE:");?>
-            <br/>
-            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
-              <tr><td>
-                deb [MIRROR URL]/pgadmin3/release/debian unstable pgadmin
-              </td></tr>
-            </table>
-            <br/>
-					</ul>
-
-          <?php echo _("For example, for France, you can try:");?>
-          <ul>
-            <li>
-            <?php echo _("For Debian WOODY:");?>
-            <br/>
-            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
-              <tr><td>
-								deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian woody pgadmin
-              </td></tr>
-            </table>
-            <br/>
-
-            <li>
-            <?php echo _("For Debian TESTING:");?>
-            <br/>
-            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
-              <tr><td>
-								deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian testing pgadmin
-              </td></tr>
-            </table>
-            <br/>
-
-            <li>
-            <?php echo _("For Debian UNSTABLE:");?>
-            <br/>
-            <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
-              <tr><td>
-								deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian unstable pgadmin
-              </td></tr>
-            </table>
-            <br/>
-           </ul>
-
+	    <br/>
+	    <?php echo _("pgAdmin III is published on the official Debian Unstable repository.");?>
+            <br/>
+	</ul>
     </dd>
 
     <dd>

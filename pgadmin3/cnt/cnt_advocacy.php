@@ -136,7 +136,6 @@ en (English)
     <li><a href='http://www.download32.com/proghtml/533/53391.htm'>Download 32</a></li>
     <li><a href='http://www.downseek.com/download/26344.asp'>Downseek</a></li>
     <li><a href='http://www.finaldownload.com/developer_tools_databases_networks_pgadmin_iii_for_postgresql.html'>Final download</a></li>
-    <li><a href='http://www.fileguru.com'>File Guru</a> (pending)</li>
     <li><a href='http://www.freedownloadscenter.com/Programming/Databases_and_Networks/pgAdmin_III_for_PostgreSQL.html'>Free Downloads Center</a></li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://www.freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
@@ -164,7 +163,6 @@ en (English)
     <li><a href='http://www.topdownloads.net/software/view.php?id=14174'>Top Downloads Net</a></li>
     <li><a href='http://www.topshareware.com/pgAdmin-III-for-PostgreSQL-download-12418.htm'>TopShareware</a></li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
-    <li><a href='http://www.webmasterfree.com'>Webmaster Free</a> (pending)</li>
     <li><a href='http://www.winpicks.com/ShowDetailsRed.asp?title=pgAdmin+III'>WinPick</a></li>
     <li><a href='http://www.worldssp.net/detailview.asp?proid=12563'>WorldSSP</a></li>
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a></li>

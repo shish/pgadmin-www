@@ -71,6 +71,7 @@
     ?>
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+  <br>
   <h1 id="vacant"><?php echo sprintf(_("Out of date Translations (%d languages)"), $outofdate->getNbLanguages());?></h1>
 	<?php echo sprintf(_("The translations below are not considered complete enough for inclusion in current releases."));?></h1>
 	<?php echo sprintf(_("If you like to continue the work, please don't hesitate to contact the current maintainer (please CC pgadmin-hackers@pgadmin.org)!"));?></h1>

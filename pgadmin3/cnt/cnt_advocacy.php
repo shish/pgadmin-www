@@ -67,18 +67,7 @@
 	</td></tr>
       </table>
 
-          <li><b>Description of pgAdmin</b>: any technical description is suitable. If you are not sure what to write, just translate one of the following descriptions:
-    <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
-      <tr><td>
-	      <ol>
-	        <li>Graphical administration interface for the PostgreSQL database, free for any use.</li>
-	        <li>pgAdmin III is a powerfull administration and development platform for the PostgreSQL database, free for any use. Available in more than 30 languages for Windows 2000/XP, GNU/Linux and FreeBSD. Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more.</li>
-	        <li>pgAdmin III is a completely free administration and development platform for the PostgreSQL database. The application is running under GNU/Linux, FreeBSD and Windows 2000/XP. pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. pgAdmin III also includes a query builder, an sql editor, a server-side code editor and much more. pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server. pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.</li>
-	      </ol>
-	      </td></tr>
-	    </tr>
-    </table>
-      </br>If the translation of our website is up-to-date, this description can be translated as follows:
+          <li><b>Description of pgAdmin</b>: any technical description is suitable. If you are not sure what to write, just use one of the following descriptions (may be translated in your language):
     <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
       <tr><td>
 	      <ol>
@@ -108,6 +97,7 @@
 	PostgreSQL postgresql postgres sql database development gui administration tool software free pg
 	</td></tr>
       </table></li>
+	<li><b>Information in pad format</b>: pad format is an XML format designed for registration of freeware and sharewares. The pad format for pgAdmin III is available here: <a href='http://developer.pgadmin.org/pgadmin3/cnt/pgadmin.pad'>http://developer.pgadmin.org/pgadmin3/cnt/pgadmin.pad</a></li>
     </ul>
   </dd>
 
@@ -157,6 +147,7 @@ en (English)
     <li><a href='http://www.linuxarchives.com/database.html'>Linux Archives</a> (pending)</li>
     <li><a href='http://www.needscripts.com'>NeedScripts</a> (reminder to register)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
+    <li><a href='http://www.padring.com'>Pad Ring</a> (reminder to register)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
     <li><a href='http://www.scriptz.com'>Scriptz</a> (reminder to register)</li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>

@@ -157,10 +157,11 @@ en (English)
     <li><a href='http://www.programfiles.com/Default.asp?LinkId=31982'>ProgramFiles.com</a></li>
     <li><a href='http://www.programmersheaven.com/search/download.asp?FileID=32608'>Programmers Heaven</a></li>
     <li><a href='http://www.sharewareconnection.com/pgadmin-iii-for-postgresql.htm'>Shareware connection</a></li>
+    <li><a href='http://www.sharewareisland.com/application.asp?fileid=22278'>Shareware Island</a></li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>
     <li><a href='http://www.soft411.com/software/postgresql.html'>Soft 411</a> (pending)</li>
-    <li><a href='http://www.softempire.com/pgadmin-iii-for-postgresql.html'>Softempire</a></li>
+    <li><a href='http://www.softempire.com/pgadmin-iii-for-postgresql.html'>Soft Empire</a></li>
     <li><a href='http://www.softpile.com'>Softpile</a> (pending)</li>
     <li><a href='http://www.theopencd.org'>The Open CD</a> (pending)</li>
     <li><a href='http://www.thesoftwarebank.com/soft.aspx?id=23109'>The Software bank</a></li>

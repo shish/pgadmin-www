@@ -1,3 +1,4 @@
+
 <div class="sideBox LHS">
 <div><?php echo _("Home");?></div>
 <a href="#presentation">&rsaquo; <?php echo _("Presentation");?></a>
@@ -25,6 +26,19 @@
 </dd>
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
+<dl>
+  [2004-10-18] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Beta-3");?></dt>
+  <dd>
+    <?php echo sprintf(_("The third Beta version of  pgAdmin III v1.2.0 is out! Again, many bugs have been fixed. For details, look at our <a href='%s'>change log</a> and visit the pgAdmin <a href='%s'>Beta release</a> page."),"development.php#changelog", "beta.php");?>
+  </dd>
+</dl>
+<dl>
+  [2004-09-24] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Beta-2");?></dt>
+  <dd>
+    <?php echo _("The pgAdmin Development Team has released the second Beta version of pgAdmin III v1.2.0. This fixes many issues that have been reported by our beta testers all around the world. Thanks for your feedback!");?>
+    <?php echo sprintf(_("Please visit the pgAdmin <a href='%s'>Beta release</a> page to learn more about this exciting new version."), "beta.php");?>
+  </dd>
+</dl>
 <dl>
   [2004-09-10] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Beta-1");?></dt>
   <dd>

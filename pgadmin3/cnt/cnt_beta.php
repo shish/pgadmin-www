@@ -1,8 +1,75 @@
 <div class="sideBox LHS">
-<div><?php echo _("Beta");?></div>
+<div><?php echo _("Beta versions");?></div>
+<a href="#beta3">Beta-3</a>
+<a href="#beta2">Beta-2</a>
+<a href="#beta1">Beta-1</a>
 </div>
 <div id="bodyText">
-<h1 id="beta"><?php echo _("Beta-1 of pgAdmin III V1.2 released");?></h1>
+<h1 id="beta3"><?php echo _("Beta-3 of pgAdmin III V1.2 released");?></h1>
+2004-10-18
+<p>
+The pgAdmin Development Team are pleased to announce the third Beta
+version of pgAdmin III v1.2.0, the well-known GUI administration tool
+for the PostgreSQL database system.
+</p>
+<p>
+Again, we were able to fix a lot of issues that have been discovered by our diligent beta testers. Thanks to all of you!
+Here's an excerpt from the changelog covering all changes since Beta-2:
+<ul>
+<li>use wxWidgets 2.5.3
+<li>change unsigned conversion for oids
+<li>Prevent StatusBar from being overwritten by Toolbar
+<li>Connect to databases with special names
+<li>review object owner code regarding pgsql versions
+<li>remove maximize button on MSW
+<li>Fix new server ssl option duplication on connect failure
+<li>Fix cast property crash
+<li>Use PostgreSQL's list of keywords for syntax highlighting
+<li>Fix adding columns with constraints using table properties on 7.3 and 7.4
+<li>Drop rows correctly when selected in reverse in the edit grid. Also, confirm drop first.
+<li>Dynamically link libpq/OpenSSL for sensible installation with Win32 PostgreSQL
+</ul>
+We've been planning to release RC1 right now, but the pgAdmin Development Team decided to have this third beta to make sure that the switch to the official wxWidgets 2.5.3 doesn't invent additional problems. This move from our own wxWidgets snapshot to the official version is a big advantage in terms of linux distribution integration of pgAdmin III, so we took this step now instead of delaying it for the next major version.
+</p>
+<p>
+Please, give it a try and report any/all problems to the <a href="mailto:pgadmin-support@postgresql.org">pgAdmin-support mailing list</a>.
+</p>
+<p>
+<h1 id="beta2"><?php echo _("Beta-2 of pgAdmin III V1.2 released");?></h1>
+2004-09-24
+<p>
+The pgAdmin Development Team are pleased to announce the second Beta
+version of pgAdmin III v1.2.0, the well-known GUI administration tool
+for the PostgreSQL database system.
+</p>
+<p>
+Congratulations to all of you! It seems you are fantastic bug hunters! Since the first beta announcement on 10 September 2004, some well hidden bugs were discovered and fixed thanks to some really high quality reports from users and hackers.
+Here is an abstract of the changelog which summarize the issues fixed in this particular release:
+<ul>
+<li>Prevent dropped servers reappearing after View System Objects change.
+<li>GRANT for functions in reengineered SQL window
+<li>Fix Database creation for 7.3/7.4 [Jona]
+<li>Resources: use wxID_xxx IDs to enable GTK wxStockButtons
+<li>Resources: use 12d height for comboboxes (GTK positioning issue)
+<li>Rewrite of properties actions
+<li>Mask passwords on dlgServer [Ivan Nejgebauer]
+<li>Fix function return type quoting
+<li>Fix GrantWizard for sequence and view
+<li>Fix type quoting
+<li>Fix OnAdd server property positioning
+</ul>
+</p><p>
+You can find detailed download instructions at
+<a href="download.php">http://www.pgadmin.org/pgadmin3/download.php</a>.
+</p>
+<p>
+As this is still a beta release and although you killed many bugs during these past 15 days, there may be more well hidden bugs to be found... Should this be the last beta or not before stable release? Let's take a look at it together! The more you can find bugs, the better the final release will be - so let the hunt go on!
+</p><p>
+Please, give it a try and report any/all problems to the <a href="mailto:pgadmin-support@postgresql.org">pgAdmin-support mailing list</a>.
+</p>
+<p>
+
+<h1 id="beta1"><?php echo _("Beta-1 of pgAdmin III V1.2 released");?></h1>
 2004-09-10
 <p>
 The pgAdmin Development Team are pleased to announce the first Beta

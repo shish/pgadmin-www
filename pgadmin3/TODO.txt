@@ -5,10 +5,9 @@ High priority
 - Link section in Support page. Exchanging links is the only way of getting high results on search engines like Google.
 - Website translation status.
 
-
 Done
 - Expose pgadmin3 TODO.txtt and BUGS.txt to the users, so they can be checked and referenced for bug reporting.
-- Compilation howto for both pgAdmin and wxGTK2ud 2.5. Otherwise, developpers will contact us with a "I can't compile pgAdmin using wxGTK2.4"...
+- Compilation howto for both pgAdmin and wxGTK2ud 2.5 cvs version.
 - Link to the Artistic licence.
 - Use PostgreSQL php class to generate the list of mirrors.
 - Translation howto including "getting started" and "guidelines" sections.

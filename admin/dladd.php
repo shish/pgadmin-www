@@ -2,7 +2,7 @@
 
 <head>
 <title>Add Download</title>
-<link rel="stylesheet" href="/pgadmin2.css" type="text/css">
+<link rel="stylesheet" href="../pgadmin2/pgadmin2.css" type="text/css">
 </head>
 
 <body>
@@ -10,7 +10,7 @@
 <h3>Add Download</h3>
 
 <?php
-require("../globals.php");
+require("../pgadmin2/globals.php");
 
   if ($Action == "Add") {
     $db = pg_connect("$dbConn");      

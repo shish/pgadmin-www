@@ -2,7 +2,7 @@
 
 <head>
 <title>Download Management</title>
-<link rel="stylesheet" href="/pgadmin2.css" type="text/css">
+<link rel="stylesheet" href="../pgadmin2/pgadmin2.css" type="text/css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@ Click <a href="dladd.php">here</a> to add a new download.<br><br>
 </tr>
 
 <?php
-require("../globals.php");
+require("../pgadmin2/globals.php");
 
   // Connect to the database
   $db = pg_connect("$dbConn");

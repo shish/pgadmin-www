@@ -2,7 +2,7 @@
 
 <head>
 <title>Content Editor</title>
-<link rel="stylesheet" href="/pgadmin2.css" type="text/css">
+<link rel="stylesheet" href="../pgadmin2/pgadmin2.css" type="text/css">
 </head>
 
 <body>
@@ -10,7 +10,7 @@
 <h3>Content Editor</h3>
 
 <?php
-require("../globals.php");
+require("../pgadmin2/globals.php");
 
   if ($Action == "Delete") {
     if ($Confirm == "Yes") {

@@ -76,7 +76,7 @@
 			<Keywords>pgadmin PostgreSQL postgresql postgres administration admin</Keywords>
 			<Char_Desc_45>Administration tools for PostgreSQL</Char_Desc_45>
 			<Char_Desc_80></Char_Desc_80>
-			<Char_Desc_250>pgAdmin III is a comprehensive design and management graphical user interface for the PostgreSQL database. It communicates with the DBMS using the native protocol and supports all major features and specialties of the latest PostgreSQL generations.</Char_Desc_250>
+			<Char_Desc_250>pgAdmin III is the best administration interface for the PostgreSQL database. It supports all major features of the latest PostgreSQL generations and does not require any driver to connect.</Char_Desc_250>
 			<Char_Desc_450></Char_Desc_450>
 			<Char_Desc_2000></Char_Desc_2000>
 		</English>

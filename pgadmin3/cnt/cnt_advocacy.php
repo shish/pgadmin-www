@@ -107,8 +107,15 @@ en (English)
 es (Spanish)
 <dd>
   <ul>
-    <li><a href='http://www.postgresql.cl/'>PostgreSQL Chile</a></li>
-    <li><a href='http://linux.bankhacker.com/software/pgAdmin3/'>Linux Bankhacker</a> (pending)</li>
+    <li><a href='http://www.postgresql.cl'>PostgreSQL Chile</a></li>
+    <li><a href='http://linux.bankhacker.com/software/pgAdmin3'>Linux Bankhacker</a> (pending)</li>
+  </ul>
+</dd>
+
+fa (Persian)
+<dd>
+  <ul>
+    <li><a href='http://www.linuxiran.org/modules/mylinks'>Linux Iran</a></li>
   </ul>
 </dd>
 

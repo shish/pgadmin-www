@@ -33,7 +33,7 @@
      <?php  echo sprintf(_("Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section and copy it into your ui directory."), "#published");?>
      <?php  echo sprintf(_("You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox.<BR>"), "http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/pgadmin3/src/ui/pgadmin3.lng?rev=HEAD&content-type=text/lng");?>
 </dd>
-<h1 id="contribute"><?php echo _(""Contribute a translation");?></h1>
+<h1 id="contribute"><?php echo _("Contribute a translation");?></h1>
   <dd>
     <?php echo _("We need your help to translate pgAdmin III into several languages.");?>
     <?php echo _("Everyone can participate, please refer to the translation howto for more information.");?>

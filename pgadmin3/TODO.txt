@@ -1,0 +1,11 @@
+High priority
+- Expose pgadmin3 TODO.txtt and BUGS.txt to the users, so they can be checked and referenced for bug reporting.
+- FAQ should be in CVS, with automatic update to the FAQ site.
+- Compilation howto. Otherwise, developpers will contact us with a "I can't compile using wxGTK2.4"...
+- Link to the Artistic licence.
+
+Low priority
+- Translation howto.
+- Website translation status.
+- Team members
+

@@ -454,10 +454,10 @@
     <?php echo _("Download pgAdmin III snapshots here:");?>
     <ul>
       <li>GNU Linux <a href="http://www.pgadmin.org/snapshots/linux/debian">Debian</a> |
-      <a href="http://www.pgadmin.org/snapshots/linux/FC1">Fedora FC1</a> |
+      <a href="http://www.pgadmin.org/snapshots/linux/FC2">Fedora FC2</a> |
       <a href="http://www.pgadmin.org/snapshots/linux/mandrake91">Mandrake 9.1</a> |
       <a href="http://www.pgadmin.org/snapshots/linux/redhat9">RedHat 9</a> |
-      <a href="http://www.pgadmin.org/snapshots/linux/slackware9">Slackware 9.0</a> |
+      <a href="http://www.pgadmin.org/snapshots/linux/slackware91">Slackware 9.1</a> |
       <a href="http://www.pgadmin.org/snapshots/linux/suse82">SuSE 8.2</a>
       <br/>
       <li><a href="http://www.pgadmin.org/snapshots/freeBSD">FreeBSD 5.1</a><br/>

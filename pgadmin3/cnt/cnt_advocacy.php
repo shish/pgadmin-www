@@ -118,8 +118,7 @@ de (German)
   <ul>
     <li><a href='http://www.apps4linux.org/showapps.php3?id=702&detail=1'>Apps4Linux</a></li>
     <li><a href='http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a></li>
-    <li><a href='http://www.links2linux.de'>links2linux.de</a> (reminder to register)</li>
-    <li><a href='http://www.linuxsoftboard.de/viewforum.php?f=29'>LinuxSoftBoard</a> (reminder to register)</li>
+    <li><a href='http://www.links2linux.de/search.php4?words=pgadmin&x=3&y=13'>links2linux.de</a></li>
   </ul>
 </dd>
 
@@ -154,7 +153,7 @@ en (English)
     <li><a href='http://www.osdir.com'>OSDir OReilly</a> (pending)</li>
     <li><a href='http://www.padring.com'>Pad Ring</a> (pending)</li>
     <li><a href='http://www.pcworlddownload.com'>PC World Download</a> (pending)</li>
-    <li><a href='http://www.perfectdownloads.com'>Perfect Downloads</a> (pending)</li>
+    <li><a href='http://www.perfectdownloads.com/software-development/databases-networks/pgadmin-iii-for-postgresql.htm'>Perfect Downloads</a></li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
     <li><a href='http://www.programmersheaven.com/search/download.asp?FileID=32608'>Programmers Heaven</a></li>
     <li><a href='http://www.sharewareconnection.com'>Shareware connection</a> (pending)</li>

@@ -9,26 +9,32 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
+  <dt><?php echo sprintf(_("pgAdmin3 %s released"), "v1.0.2");?></dt>
+  </dd>
+    <?php echo _("A new release of pgAdmin is available, including bug fixes for some problems that have been reported by users.");?>
+    <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."), "development.php#changelog");?>
+  </dd>
+</dl>
+<dl>
   <dt><?php echo sprintf(_("pgAdmin3 %s released"), "v1.0.0");?></dt>
   <dd>
-  	<?php echo _("After one year of development, we are happy to announce the availability of pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD.");?>
+    <?php echo _("After one year of development, we are happy to announce the availability of pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD.");?>
     <?php echo _("We would like to thank our developer and translator community who contributed to the project.");?>
     <?php echo sprintf(_("pgAdmin3 is the result of a joint effort of a team of more than %d contributors from %d different countries."), 100, 38);?>
     <br><br>
     <?php echo _("As usual your feedback is highly appreciated and required.");?>
     <?php echo _("We can only rely on users to make pgAdmin the best possible software.");?>
-    <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."), "development.php#changelog");?>
     <br><br>
-  	<?php echo sprintf(_("pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
-  	<?php echo sprintf(_("The software is available in source and binary format from the <a href='%s'>Download</a> page."), "download.php");?>
-  	<?php echo sprintf(_("If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."), "download.php#snapshots");?>
+    <?php echo sprintf(_("pgAdmin3 is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
+    <?php echo sprintf(_("The software is available in source and binary format from the <a href='%s'>Download</a> page."), "download.php");?>
+    <?php echo sprintf(_("If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."), "download.php#snapshots");?>
   </dd>
 </dl>
 <dl>
   <dt><?php echo _("pgAdmin2 is still supported");?></dt>
   <dd>
-  	<?php echo _("Although we concentrate on pgAdmin3, we will continue to support pgAdmin2.");?>
-  	<?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin3.");?>
+    <?php echo _("Although we concentrate on pgAdmin3, we will continue to support pgAdmin2.");?>
+    <?php echo _("With the rapid advancement of the project, we recommand upgrading to pgAdmin3.");?>
     <?php echo _("Both pgAdmin2 and pgAdmin3 can coexist on the same system.");?>
     <?php echo sprintf(_("If you are interested, please visit <a href='%s'>pgAdmin2</a> site."), "http://www.pgadmin.org/pgadmin2")?>
     <?php echo _("This site is available in English only.")?>
@@ -46,7 +52,7 @@
     	<li><?php echo _("MS Windows 2000 & XP");?><br>
     	<li><?php echo _("GNU/Linux");?><br>
     	<li><?php echo _("FreeBSD");?><br>
-			<?php echo _("MacOsX and SunOS ports are under development.");?>
+        <?php echo _("MacOsX and SunOS ports are under development.");?>
   </dd>
 
   <dt><?php echo _("Designed for PostgreSQL latest versions");?></dt>
@@ -69,9 +75,9 @@
 
   <dt><?php echo _("Data access");?></dt>
   <dd>
-    	<li><?php echo _("Native PostgreSQL acccess (no ODBC layer needed)");?>
-    	<li><?php echo _("Powerfull query tool with color syntax highlight");?>
-      <li><?php echo _("Very fast datagrid for display/entry of data");?>
+    <li><?php echo _("Native PostgreSQL acccess (no ODBC layer needed)");?>
+    <li><?php echo _("Powerfull query tool with color syntax highlight");?>
+    <li><?php echo _("Very fast datagrid for display/entry of data");?>
   </dd>
 
   <dt><?php echo _("Access to all PostgreSQL objects");?></dt>

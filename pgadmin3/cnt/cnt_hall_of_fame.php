@@ -19,6 +19,8 @@
   <p>
         <a href='mailto:dpage@vale-housing.co.uk'><img src="img/dave.jpg" alt="mail Dave Page"/></a>
   </p><p>
+  Dave was born in 1973 and lives in Oxfordshire with his wife, 3 kids, 2 cats, a variety of fish and a couple of Bonsai trees. 
+  He is the IT manager of a local Housing Association and is currently spending most of his free time working on an MSc in IT.
   </p>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
       

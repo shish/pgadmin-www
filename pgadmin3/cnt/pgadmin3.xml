@@ -94,7 +94,7 @@
 			<Application_Info_URL>http://www.pgadmin.org</Application_Info_URL>
 			<Application_Order_URL></Application_Order_URL>
 			<Application_Screenshot_URL>http://www.pgadmin.org/pgadmin3/shots/pgadmin3_win32.png</Application_Screenshot_URL>
-			<Application_Icon_URL>http://pgadmin.postgresql.org/pgadmin3/shots/pgadmin3.png</Application_Icon_URL>
+			<Application_Icon_URL>http://www.pgadmin.org/pgadmin3/shots/pgadmin3.png</Application_Icon_URL>
 			<Application_XML_File_URL></Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>

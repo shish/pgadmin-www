@@ -3,6 +3,8 @@
 <a href="#news">&rsaquo; <?php echo _("Latest news");?></a>
 <a href="#features">&rsaquo; <?php echo _("Features");?></a>
 <a href="#contribute">&rsaquo; <?php echo _("How to contribute");?></a>
+<br>
+<i>On the first day of public release, Friday 26th September, it may take a few hours to deliver binary packages and update mirrors. <br><br>Be patient until mirrors are updated...<i>
 </div>
 
 <div id="bodyText">
@@ -11,7 +13,7 @@
 <dl>
   <dt><?php echo sprintf(_("pgAdmin3 %s released"), "1.0");?></dt>
   <dd>
-  	<?php echo ("After one year of development, we are happy to announce the availability of pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD.");?>
+  	<?php echo _("After one year of development, we are happy to announce the availability of pgAdmin3, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD.");?>
     <?php echo _("We would like to thank our developer and translator community who contributed to the project.");?>
     <?php echo sprintf(_("pgAdmin3 is the result of a joint effort of a team of more than %d contributors from %d different countries."), 100, 38);?>
     <br><br>

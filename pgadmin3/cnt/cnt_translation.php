@@ -95,7 +95,7 @@
     <br><br>
 
     <li>
-      Send us the English and translated names of your language: 'French' and 'Français', 'German"' and 'Deutsch', etc.. This will allow us to modify pgAdmin src/ui/pgadmin3.lng file to display the language name in pgAdmin. We will also create a directory according to your locale canonical name under /usr/share/pgadmin3/ui (GNU/Linux and other Unixes) or c:\program files\pgadmi3\ui (Win32). The list of language codes can be found on <a href='http://www.debian.org/international/l10n/po'>Debian site</a>. You also check the more detailed Library of Congress <a href='http://www.loc.gov/standards/iso639-2/englangn.html'>Codes for the Representation of Names of Languages</a>.
+      Send us the English and translated names of your language: 'French' and 'Français', 'German"' and 'Deutsch', etc.. This will allow us to modify pgAdmin src/ui/pgadmin3.lng file to display the language name in pgAdmin. We will also create a directory according to your locale canonical name under /usr/share/pgadmin3/ui (GNU/Linux and other Unixes) or c:\program files\pgadmi3\ui (Win32). The list of language codes can be found on <a href='http://www.debian.org/international/l10n/po'>Debian site</a>. You also check the more detailed <a href='http://www.loc.gov/standards/iso639-2/englangn.html'>ISO 639.2 Codes for the Representation of Names of Languages</a>.
      <br><br>
 
   <li>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-11-27 21:36+0100\n"
+"POT-Creation-Date: 2003-11-27 21:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -487,7 +487,7 @@ msgstr ""
 msgid "Installing wxWindows libraries"
 msgstr ""
 
-#: ../cnt/cnt_support.php:5 ../cnt/cnt_support.php:27
+#: ../cnt/cnt_support.php:5 ../cnt/cnt_support.php:28
 msgid "Known bugs"
 msgstr ""
 
@@ -532,7 +532,7 @@ msgstr ""
 msgid "Maintainer"
 msgstr ""
 
-#: ../cnt/cnt_development.php:41 ../cnt/cnt_support.php:23
+#: ../cnt/cnt_development.php:41 ../cnt/cnt_support.php:24
 #, c-format
 msgid ""
 "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a "
@@ -763,7 +763,7 @@ msgid "The documentation can be viewed off-line or on-line."
 msgstr ""
 
 #: ../cnt/cnt_development.php:95 ../cnt/cnt_development.php:109
-#: ../cnt/cnt_support.php:30
+#: ../cnt/cnt_support.php:31
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
 msgstr ""
 
@@ -831,8 +831,12 @@ msgstr ""
 msgid "This makes learning SQL more easy..."
 msgstr ""
 
+#: ../cnt/cnt_support.php:15
+msgid "This page is available in English only."
+msgstr ""
+
 #: ../cnt/cnt_development.php:50 ../cnt/cnt_development.php:94
-#: ../cnt/cnt_development.php:108 ../cnt/cnt_support.php:29
+#: ../cnt/cnt_development.php:108 ../cnt/cnt_support.php:30
 #: ../cnt/cnt_translation.php:72
 msgid "This section is available in English only."
 msgstr ""
@@ -853,7 +857,7 @@ msgid ""
 "pot</a> file."
 msgstr ""
 
-#: ../cnt/cnt_development.php:39 ../cnt/cnt_support.php:21
+#: ../cnt/cnt_development.php:39 ../cnt/cnt_support.php:22
 #, c-format
 msgid ""
 "To subscribe to the mailing list, send an email to %s with the word "
@@ -1120,13 +1124,13 @@ msgstr ""
 msgid "pgadmin-hackers mailing list"
 msgstr ""
 
-#: ../cnt/cnt_support.php:20
+#: ../cnt/cnt_support.php:21
 msgid ""
 "pgadmin-support is a support list intended for end user support and bug "
 "reports."
 msgstr ""
 
-#: ../cnt/cnt_support.php:18
+#: ../cnt/cnt_support.php:19
 msgid "pgadmin-support mailing list"
 msgstr ""
 

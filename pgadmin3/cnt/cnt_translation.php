@@ -33,11 +33,13 @@
 
 <div id="bodyText">
 
-  <p>
+  <dd>
     <?php echo _("We need your help to translate pgAdmin3 into several languages.");?>
     <?php echo _("Everyone can participate, please refer to the translation howto for more information.");?>
+    <?php echo sprintf(_("This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."), "locale/pgadmin3_website.pot");?>
     <?php echo sprintf(_("If you are interested by the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."), "http://webmail.postgresql.org/~petere/nls.php");?>
-  </p>
+  </dd>
+
 
   <h1 id="trans_published"><?php echo sprintf(_("Published Translations (%d languages)"), $translated->getNbLanguages());?></h1>
   <dd>

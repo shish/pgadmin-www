@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2004-02-01 22:48+0100\n"
+"PO-Revision-Date: 2004-02-02 15:41+0100\n"
 "Last-Translator: Jean-Michel Pouré <jm@poure.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -101,6 +101,15 @@ msgstr "Sachant que la compilation du code source requiert des connaissances tec
 msgid "Before you start installation, please choose a mirror in the list of our <a href='%s'>mirrors</a>."
 msgstr "Avant de commencer l'installation, veuillez choisir un mirroir dans la liste de nos <a href='%s'>mirroirs</a>."
 
+#: ../cnt/cnt_download.php:9
+msgid "Binary snapshots"
+msgstr "Snapshots binaires"
+
+#: ../cnt/cnt_download.php:453
+#, c-format
+msgid "Binary snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."
+msgstr "Les snapshots binaires sont des paquets compilés chaque jour ou presque à partir du dépôt <a href='%s'>CVS</a>."
+
 #: ../cnt/cnt_index.php:38
 msgid "Both pgAdmin2 and pgAdmin3 can coexist on the same system."
 msgstr "Les deux versions pgAdmin2 et pgAdmin3 peuvent coexister sur un même ordinateur."
@@ -171,16 +180,6 @@ msgstr "Impossible de se connecter à la table des miroirs."
 #: ../cnt/cnt_download.php:273
 msgid "Create a symlink to pgAdmin binary."
 msgstr "Créer un raccourci vers l'exécutable de pgAdmin."
-
-#: ../cnt/cnt_download.php:9
-#: ../cnt/cnt_download.php:451
-msgid "Daily snapshots"
-msgstr "Snapshots quotidiens"
-
-#: ../cnt/cnt_download.php:453
-#, c-format
-msgid "Daily snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."
-msgstr "Les snapshots quotidiens sont des packages compilés chaque jour ou presque à partir du dépôt <a href='%s'>CVS</a>."
 
 #: ../cnt/cnt_index.php:76
 #: ../cnt/cnt_screenshots.php:5
@@ -446,13 +445,17 @@ msgstr "Installer le package téléchargé en utilisant les outils pkgtool et in
 msgid "Install using the following command:"
 msgstr "Installer à l'aide de la commande suivante :"
 
-#: ../cnt/cnt_download.php:329
-msgid "Installing from source"
-msgstr "Installation à partir du code source"
-
 #: ../cnt/cnt_download.php:421
 msgid "Installing pgAdmin"
 msgstr "Installation de pgAdmin"
+
+#: ../cnt/cnt_download.php:451
+msgid "Installing pgAdmin from binary snapshots"
+msgstr "Installer pgAdmin à partir des snapshots binaires"
+
+#: ../cnt/cnt_download.php:329
+msgid "Installing pgAdmin from source code"
+msgstr "Installer pgAdmin à partir du code source"
 
 #: ../cnt/cnt_download.php:355
 msgid "Installing wxWindows libraries"
@@ -706,8 +709,8 @@ msgid "Slackware"
 msgstr "Slackware"
 
 #: ../cnt/cnt_download.php:8
-msgid "Source"
-msgstr "Source"
+msgid "Source code"
+msgstr "Code source"
 
 #: ../class/pgadmin_po.php:257
 msgid "Status"

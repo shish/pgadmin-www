@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-01 22:25+0100\n"
+"POT-Creation-Date: 2004-02-02 14:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,6 +118,17 @@ msgid ""
 "href='%s'>mirrors</a>."
 msgstr ""
 
+#: ../cnt/cnt_download.php:9
+msgid "Binary snapshots"
+msgstr ""
+
+#: ../cnt/cnt_download.php:453
+#, c-format
+msgid ""
+"Binary snapshots are packages compiled from <a href='%s'>CVS</a> nearly "
+"everyday."
+msgstr ""
+
 #: ../cnt/cnt_index.php:38
 msgid "Both pgAdmin2 and pgAdmin3 can coexist on the same system."
 msgstr ""
@@ -183,17 +194,6 @@ msgstr ""
 
 #: ../cnt/cnt_download.php:273
 msgid "Create a symlink to pgAdmin binary."
-msgstr ""
-
-#: ../cnt/cnt_download.php:9 ../cnt/cnt_download.php:451
-msgid "Daily snapshots"
-msgstr ""
-
-#: ../cnt/cnt_download.php:453
-#, c-format
-msgid ""
-"Daily snapshots are packages compiled from <a href='%s'>CVS</a> nearly "
-"everyday."
 msgstr ""
 
 #: ../cnt/cnt_index.php:76 ../cnt/cnt_screenshots.php:5
@@ -465,12 +465,16 @@ msgstr ""
 msgid "Install using the following command:"
 msgstr ""
 
-#: ../cnt/cnt_download.php:329
-msgid "Installing from source"
-msgstr ""
-
 #: ../cnt/cnt_download.php:421
 msgid "Installing pgAdmin"
+msgstr ""
+
+#: ../cnt/cnt_download.php:451
+msgid "Installing pgAdmin from binary snapshots"
+msgstr ""
+
+#: ../cnt/cnt_download.php:329
+msgid "Installing pgAdmin from source code"
 msgstr ""
 
 #: ../cnt/cnt_download.php:355
@@ -720,7 +724,7 @@ msgid "Slackware"
 msgstr ""
 
 #: ../cnt/cnt_download.php:8
-msgid "Source"
+msgid "Source code"
 msgstr ""
 
 #: ../class/pgadmin_po.php:257

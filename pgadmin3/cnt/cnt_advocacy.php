@@ -71,22 +71,13 @@
           <li><b>Description of pgAdmin</b>: any technical description is suitable. If you are not sure what to write, just use one of the following descriptions (may be translated in your language):
     <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
       <tr><td>
-	      <ol>
-	        <li><?php echo _("Graphical administration interface for the PostgreSQL database, free for any use.")?></li>
-	        <li>
-		  	<?php echo _("pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use.")?>
-		  	<?php echo _("Available in more than 30 languages for Windows 2000/XP, GNU/Linux and FreeBSD.")?>
-		  	<?php echo _("Includes a graphical administration interface, a query builder, an sql editor, a server-side code editor and much more.")?></li>
-	        <li>
-			<?php echo _("pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use.")?>
-  			<?php echo _("The application is running under GNU/Linux, FreeBSD and Windows 2000/XP.")?>
-			<?php echo _("pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases.")?>
-			<?php echo _("The graphical interface supports all PostgreSQL features and makes administration easy.")?>
-			<?php echo _("The application also includes a query builder, an SQL editor, a server-side code editor and much more.")?>
-			<?php echo _("pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server.")?>
-			<?php echo _("pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.")?>
-		</li>
-	      </ol>
+	      <ul>
+		<li>(45 chars) <?php echo _("<Char_Desc_45>Administration Centre for PostgreSQL</Char_Desc_45>")?></li>
+	        <li>80 chars: <?php echo _("<Char_Desc_80>Free Administration Centre for the PostgreSQL database</Char_Desc_80>")?></li>
+		<li>250 chars: <?php echo _("<Char_Desc_250>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. Designed to answer the needs of most users.</Char_Desc_250>")?></li>
+		<li>450 chars: <?php echo _("<Char_Desc_450>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. Available in more than 30 languages and for several operating systems.</Char_Desc_450>")?></li>
+		<li>2000 chars: <?php echo _("<Char_Desc_2000>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. Available in more than 30 languages and for several operating systems, including MS Windows, GNU/Linux and FreeBSD.</Char_Desc_2000>")?></li>
+	      </ul>
 	      </td></tr>
 	    </tr>
     </table>

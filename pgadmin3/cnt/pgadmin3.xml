@@ -17,13 +17,13 @@
 			<Author_First_Name>pgAdmin</Author_First_Name>
 			<Author_Last_Name>Team</Author_Last_Name>
 			<Author_Email></Author_Email>
-			<Contact_First_Name>pgAdmin</Contact_First_Name>
-			<Contact_Last_Name>Team</Contact_Last_Name>
-			<Contact_Email>jm@poure.com</Contact_Email>
+			<Contact_First_Name></Contact_First_Name>
+			<Contact_Last_Name></Contact_Last_Name>
+			<Contact_Email>pgadmin-support@postgresql.org</Contact_Email>
 		</Contact_Info>
 		<Support_Info>
 			<Sales_Email></Sales_Email>
-			<Support_Email></Support_Email>
+			<Support_Email>pgadmin-support@postgresql.org</Support_Email>
 			<General_Email></General_Email>
 			<Sales_Phone></Sales_Phone>
 			<Support_Phone></Support_Phone>

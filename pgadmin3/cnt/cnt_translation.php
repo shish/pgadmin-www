@@ -86,11 +86,29 @@
 
     <li>
     Download <a href="http://poedit.sourceforge.net">poEdit</a> and install it under MS Windows or GNU/Linux. <br><br>
-    <a href="http://poedit.sourceforge.net">poEdit</a> is our recommended choice, as it makes it really easy to maintain your translation. An MS Windows installer is available on <a href="http://poedit.sourceforge.net">poEdit</a> web site. For GNU/Linux users, we provide packages built against GTK2 with Unicode support. Only our packages enable the translation of Right-To-Left (RTL) languages like Arabic or Persian. Download them from:<br>
-      <a href="http://www.pgadmin.org/snapshots/linux/mandrake91/poEdit">http://www.pgadmin.org/snapshots/linux/mandrake91/poEdit</a><br>
-      <a href="http://www.pgadmin.org/snapshots/linux/redhat9/poEdit">http://www.pgadmin.org/snapshots/linux/redhat9/poEdit</a>.<br>
-      <a href="http://www.pgadmin.org/snapshots/linux/suse82/poEdit">http://www.pgadmin.org/snapshots/linux/suse82/poEdit</a>.<br>
-    <br><br>
+    <a href="http://poedit.sourceforge.net">poEdit</a> is our recommended choice, as it makes it really easy to maintain your translation. An MS Windows installer is available on <a href="http://poedit.sourceforge.net">poEdit</a> web site. For GNU/Linux and FreeBSD users, we provide packages built against GTK2 with Unicode support. At the moment, only our packages support Unicode and enable the translation of Right-To-Left (RTL) languages like Arabic or Persian. We are in the process of submitting the packages back to poEdit team. Download precompiled poEdit binaries for:<br>
+    <ul>
+      <li><a href="http://snake.pgadmin.org/snapshots/freeBSD/5.1/poEdit/">FreeBSD 5.1</a>
+      <li>GNU/Linux
+      <a href="http://www.pgadmin.org/snapshots/linux/mandrake91/poEdit">Mandrake 9.1</a>
+      - <a href="http://www.pgadmin.org/snapshots/linux/redhat9/poEdit">RedHat 9</a>
+      - <a href="http://www.pgadmin.org/snapshots/linux/suse82/poEdit">Suse 8.2</a>
+      <li>Debian users can install poEdit from this repository:
+    <br>
+        <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+          <tr><td>
+            deb http://www.pgadmin.org/snapshots/linux/debian unstable pgadmin
+          </td></tr>
+        </table>
+    <br>
+    entering the following command:
+    <br>
+        <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
+          <tr><td>
+            apt-get update; apt-get install pgadmin3-poedit
+          </td></tr>
+        </table>
+    </ul>
     Alternatively, you may also run <a href="http://i18n.kde.org/tools/kbabel/">Kbabel</a> which can be found in recent GNU/Linux distributions.
     <br><br>
 
@@ -122,7 +140,7 @@
           <li>In <a href="http://poedit.sourceforge.net">poEdit</a>, clicking on the save button will automatically compile pgadmin3.po into an pgadmin3.mo file. <br><br>
           <li>Alternatively, you can run the following script manually:
           <pre>
-          # msgfmt -o pgadmin3.mo pgadmin3.po
+          msgfmt -o pgadmin3.mo pgadmin3.po
           </pre>
         </ul>
       <br><br>

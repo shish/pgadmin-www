@@ -88,7 +88,7 @@
   	<br><br>
 
  <li>
-    When this is done, you will receive an email. Connect to <a href="translation.php#trans_progress">Translation in progress</a> page and download the *.po file.
+    When this is done, you will receive an email. Connect to <a href="translation.php#trans_progress">Translation in progress</a> page and download the *.po file corresponding to your language.
     <br><br>
 
   <li>Edit pgadmin.po file. The steps described are related to <a href="http://poedit.sourceforge.net">poEdit</a> only.<br><br>

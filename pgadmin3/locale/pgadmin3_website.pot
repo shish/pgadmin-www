@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-05 23:59+0100\n"
+"POT-Creation-Date: 2004-02-06 00:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1073,13 +1073,7 @@ msgstr ""
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr ""
 
-#: ../cnt/cnt_advocacy.php:77
-msgid ""
-"pgAdmin III is a powerful administration and development interface for the "
-"PostgreSQL database, free for any use."
-msgstr ""
-
-#: ../cnt/cnt_advocacy.php:81
+#: ../cnt/cnt_advocacy.php:77 ../cnt/cnt_advocacy.php:81
 msgid ""
 "pgAdmin III is a powerful administration and development platform for the "
 "PostgreSQL database, free for any use."

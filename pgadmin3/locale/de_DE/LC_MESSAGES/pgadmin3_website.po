@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-22 14:51+0200\n"
-"PO-Revision-Date: 2003-09-05 19:06+0100\n"
+"PO-Revision-Date: 2003-09-06 00:02+0100\n"
 "Last-Translator: Andreas Pflug <Andreas.Pflug@web.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -442,10 +442,6 @@ msgstr "In Arbeit"
 #: ../cnt/cnt_screenshots.php:89
 msgid "In the left pane of pgAdmin3, a navigation tree allow to browse database objects."
 msgstr "Der Navigationsbaum auf der linken Seite von pgAdmin3 erlaubt das Verfolgen der Datenbankobjekte."
-
-#: ../cnt/cnt_index.php:17
-msgid "In the meantime, we released a Beta-2 version, which includes many fixes for bugs that where found from Beta-1 reviews."
-msgstr "In der Zwischenzeit haben wir die Beta-2 Version freigegeben, die viele Korrekturen für Fehler enthält, die bei der Prüfung von Beta-1 aufgefallen waren."
 
 #: ../cnt/cnt_index.php:91
 #: ../cnt/cnt_screenshots.php:106
@@ -1030,9 +1026,15 @@ msgstr "pgAdmin2 ist nur für Windows verfügbar."
 msgid "pgAdmin2 is still supported"
 msgstr "pgAdmin2 wird nach wie vor unterstützt."
 
+#: ../cnt/cnt_index.php:17
+#, c-format
+msgid "pgAdmin3 Beta-%d fixes several bugs listed on the <a href='%s'>Change log</a> page."
+msgstr "pgAdmin3 Beta-%d korrigiert etliche Bugs, die auf der <A href='%s'>Änderungen</A> Seite gelistet sind."
+
 #: ../cnt/cnt_index.php:12
-msgid "pgAdmin3 Beta-2 released"
-msgstr "pgAdmin3 Beta-2 ist freigegeben."
+#, c-format
+msgid "pgAdmin3 Beta-%d released"
+msgstr "pgAdmin3 Beta-%d ist freigegeben."
 
 #: ../cnt/cnt_download.php:15
 msgid "pgAdmin3 can be downloaded from a large number of mirrors."

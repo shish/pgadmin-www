@@ -22,13 +22,13 @@
 			<Contact_Email>pgadmin-support@postgresql.org</Contact_Email>
 		</Contact_Info>
 		<Support_Info>
-			<Sales_Email><Sales_Email/>
+			<Sales_Email/>
 			<Support_Email>pgadmin-support@postgresql.org</Support_Email>
 			<General_Email/>
 			<Sales_Phone/>
-			<Support_Phone><Support_Phone/>
-			<General_Phone><General_Phone/>
-			<Fax_Phone><Fax_Phone/>
+			<Support_Phone/>
+			<General_Phone/>
+			<Fax_Phone/>
 		</Support_Info>
 	</Company_Info>
 	<Program_Info>

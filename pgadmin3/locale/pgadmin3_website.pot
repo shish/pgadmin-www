@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-02-07 15:44+0100\n"
+"POT-Creation-Date: 2004-02-10 10:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -403,7 +403,7 @@ msgstr ""
 
 #: ../cnt/cnt_index.php:54
 #, c-format
-msgid "If you are interested, please visit <a href='%s'>pgAdmin2</a> site."
+msgid "If you are interested, please visit <a href='%s'>pgAdmin II</a> site."
 msgstr ""
 
 #: ../cnt/cnt_translation.php:42
@@ -1080,6 +1080,10 @@ msgstr ""
 msgid "You will soon notice that PostgreSQL is the fastest database available."
 msgstr ""
 
+#: ../cnt/cnt_index.php:49
+msgid "pgAdmin II is still supported"
+msgstr ""
+
 #: ../cnt/cnt_index.php:27 ../cnt/cnt_index.php:34
 #, c-format
 msgid "pgAdmin III %s released"
@@ -1098,6 +1102,10 @@ msgstr ""
 #: ../cnt/cnt_download.php:259 ../cnt/cnt_download.php:318
 #, c-format
 msgid "pgAdmin III binary packages for %s"
+msgstr ""
+
+#: ../cnt/cnt_download.php:475
+msgid "pgAdmin III can be downloaded from a large number of mirrors."
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:78
@@ -1216,14 +1224,6 @@ msgstr ""
 
 #: ../cnt/cnt_screenshots.php:62
 msgid "pgAdmin project started five years ago."
-msgstr ""
-
-#: ../cnt/cnt_index.php:49
-msgid "pgAdmin2 is still supported"
-msgstr ""
-
-#: ../cnt/cnt_download.php:475
-msgid "pgAdmin3 can be downloaded from a large number of mirrors."
 msgstr ""
 
 #: ../cnt/cnt_development.php:37

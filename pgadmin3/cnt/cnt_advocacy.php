@@ -58,6 +58,13 @@ en_US (English)
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>
   </ul>
 </dd>
+
+fr_FR (French)
+<dd>
+  <ul>
+    <li><a href='http://www.jesuislibre.org/applications/Bases_de_Donnees/Gestionnaire/pgAdmin_III.php3'>Je suis libre</a>
+  </ul>
+</dd>
 </dl>
 
 <a class="topOfPage" href="#top" title="Top Of Page">top</a>

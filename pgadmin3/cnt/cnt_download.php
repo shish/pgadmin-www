@@ -92,8 +92,7 @@
   <dl>
     <dt><?php echo _("GNU/Linux Debian");?></dt>
     <?php echo  sprintf(_("Packager: %s"), "Raphaël Enrici");?>
-    <br>
-
+    <dd>
 			<ol>
 				<li>
           <?php echo _("APT Configuration");?>

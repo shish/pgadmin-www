@@ -67,12 +67,12 @@
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
   <dl>
-    <dt><?php echo sprintf(_("GNU/Linux Mandrake %s, RedHat %s, SuSE %s RPM packages"), "9.1", "9", "8.2");?></dt>
+    <dt><?php echo sprintf(_("GNU/Linux Mandrake %s, RedHat %s, SuSE %s"), "9.1", "9", "8.2");?></dt>
     <?php echo  sprintf(_("Packager: %s"), "Jean-Michel Pouré");?>
     <dd>
       <ol>
         <li>
-        	<?php echo _("Download pgAdmin rpm.");?>
+        	<?php echo _("Download pgAdmin RPM package.");?>
         <li>
         	<?php echo _("Install using the following command:");?>
           <BR>
@@ -114,7 +114,7 @@
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
   <dl>
-    <dt><?php echo _("Ms Windows 2000 & XP");?></dt>
+    <dt><?php echo _("MS Windows 2000 & XP");?></dt>
 		<?php echo  sprintf(_("Packager: %s"), "Andreas Pflug");?>
     <dd>
     	<ol>

@@ -18,6 +18,10 @@
     $_SESSION['pgadmin']['css'] = "bluehaze-latin1.css";
     break;
 
+  case "fa_IR":
+    $_SESSION['pgadmin']['css'] = "bluehaze-rtl.css";
+    break;
+
   default:
     $_SESSION['pgadmin']['css'] = "bluehaze.css";
   }

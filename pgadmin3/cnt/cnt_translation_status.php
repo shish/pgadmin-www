@@ -20,7 +20,7 @@
   $outofdate->addLanguage ("cs_CZ", "Czech", "Daniel Horák", "dan.horak@email.cz", "pgadmin3.po","src/ui/cs_CZ/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("da_DK", "Danish", "Troels Arvin", "troels@arvin.dk", "pgadmin3.po","src/ui/da_DK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("de_DE", "German", "Andreas Pflug", "pgadmin@pse-consulting.de", "pgadmin3.po", "src/ui/de_DE/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $outofdate->addLanguage ("el_GR", "Greek", "Γιάννης Παΐλας (Yiannis Pailas)", "yiannis_pailas@yahoo.gr", "pgadmin3.po","src/ui/el_GR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $translated->addLanguage ("el_GR", "Greek", "Γιάννης Παΐλας (Yiannis Pailas)", "yiannis_pailas@yahoo.gr", "pgadmin3.po","src/ui/el_GR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("es_ES", "Spanish", "Diego A. Gil", "diego@adminsa.com", "pgadmin3.po","src/ui/es_ES/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("fa_IR", "Farsi", "Abbas Izad", "abbasizad@hotmail.com", "pgadmin3.po", "src/ui/fa_IR/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("fi_FI", "Finnish", "Jori Luoto", "psql@jorch.net", "pgadmin3.po","src/ui/fi_FI/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2003-08-01 11:32+0200\n"
-"PO-Revision-Date: 2003-11-27 21:42+0100\n"
+"PO-Revision-Date: 2003-11-27 21:44+0100\n"
 "Last-Translator: Jean-Michel Pouré <jm@poure.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -469,7 +469,7 @@ msgid "Installing wxWindows libraries"
 msgstr "Installation des librairies wxWindows"
 
 #: ../cnt/cnt_support.php:5
-#: ../cnt/cnt_support.php:27
+#: ../cnt/cnt_support.php:28
 msgid "Known bugs"
 msgstr "Bugs répertoriés"
 
@@ -518,7 +518,7 @@ msgid "Maintainer"
 msgstr "Responsable"
 
 #: ../cnt/cnt_development.php:41
-#: ../cnt/cnt_support.php:23
+#: ../cnt/cnt_support.php:24
 #, c-format
 msgid "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a href='%s'>mail-archive.com</a>."
 msgstr "Les message de la liste de diffusion sont archivés chez <a href='%s'>PostgreSQL</a> et <a href='%s'>mail-archive.com</a>."
@@ -753,7 +753,7 @@ msgstr "La documentation peut être consultée on-line ou off-line."
 
 #: ../cnt/cnt_development.php:95
 #: ../cnt/cnt_development.php:109
-#: ../cnt/cnt_support.php:30
+#: ../cnt/cnt_support.php:31
 msgid "The information displayed is extracted automatically from pgAdmin CVS."
 msgstr "Les informations affichées sont extraites automatiquement du CVS de pgAdmin."
 
@@ -810,10 +810,14 @@ msgstr "Il n'est apporté aucune garantie que ces packages fonctionnent d'une qu
 msgid "This makes learning SQL more easy..."
 msgstr "Apprendre le langage SQL est ainsi plus aisé..."
 
+#: ../cnt/cnt_support.php:15
+msgid "This page is available in English only."
+msgstr "Cette page est disponible uniquement en langue anglaise."
+
 #: ../cnt/cnt_development.php:50
 #: ../cnt/cnt_development.php:94
 #: ../cnt/cnt_development.php:108
-#: ../cnt/cnt_support.php:29
+#: ../cnt/cnt_support.php:30
 #: ../cnt/cnt_translation.php:72
 msgid "This section is available in English only."
 msgstr "Cette section est disponible uniquement en langue anglaise."
@@ -832,7 +836,7 @@ msgid "This web site can also be translated using <a href='%s'>pgadmin3_website.
 msgstr "Nous signalons que ce site web peut également être traduit à l'aide du fichier <a href='%s'>pgadmin3_website.pot</a>."
 
 #: ../cnt/cnt_development.php:39
-#: ../cnt/cnt_support.php:21
+#: ../cnt/cnt_support.php:22
 #, c-format
 msgid "To subscribe to the mailing list, send an email to %s with the word 'subscribe', without quotes, as the body of message."
 msgstr "Pour vous inscrire sur la liste de diffusion, veuillez envoyer un courriel à l'adresse %s en indiquant le mot 'subscribe', sans quillemet, dans le corps de votre message."
@@ -1078,11 +1082,11 @@ msgstr "La liste de diffusion pgadmin-hackers est destinée aux développeurs d�
 msgid "pgadmin-hackers mailing list"
 msgstr "Liste de diffusion pgadmin-hackers"
 
-#: ../cnt/cnt_support.php:20
+#: ../cnt/cnt_support.php:21
 msgid "pgadmin-support is a support list intended for end user support and bug reports."
 msgstr "pgadmin-support est une liste de diffusion destinée au support technique des utilisateurs et aux rapports de bugs."
 
-#: ../cnt/cnt_support.php:18
+#: ../cnt/cnt_support.php:19
 msgid "pgadmin-support mailing list"
 msgstr "Liste de diffusion pgadmin-support"
 

@@ -52,6 +52,13 @@
 <h1 id="list">Web sites pointing to pgAdmin</h1>
 <dl>
 
+cs (Czech)
+<dd>
+  <ul>
+    <li><a href='http://postgresql.ok.cz'>PostgreSQL</a>
+  </ul>
+</dd>
+
 en (English)
 <dd>
   <ul>

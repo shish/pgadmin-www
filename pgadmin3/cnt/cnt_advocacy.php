@@ -85,7 +85,7 @@ ftp://ftp.br.postgresql.org/pub/PostgreSQL/pgadmin3/release/win32/pgadmin3-1_0_2
 <h1 id="list">Web sites promoting pgAdmin</h1>
 <dl>
 <dd>
-We would like to thank the web sites promoting pgAdmin. To our knowledge, pgAdmin was registered on the following web sites:
+We would like to thank the web sites registering pgAdmin. To our knowledge, pgAdmin was registered on the following web sites:
 </dd>
 
 <dd>

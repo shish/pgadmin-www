@@ -7,8 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-09-05 19:03+0200\n"
+"POT-Creation-Date: 2003-09-05 19:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -461,12 +460,6 @@ msgstr ""
 msgid ""
 "In the left pane of pgAdmin3, a navigation tree allow to browse database "
 "objects."
-msgstr ""
-
-#: ../cnt/cnt_index.php:17
-msgid ""
-"In the meantime, we released a Beta-2 version, which includes many fixes for "
-"bugs that where found from Beta-1 reviews."
 msgstr ""
 
 #: ../cnt/cnt_index.php:91 ../cnt/cnt_screenshots.php:106
@@ -1060,8 +1053,16 @@ msgstr ""
 msgid "pgAdmin2 is still supported"
 msgstr ""
 
+#: ../cnt/cnt_index.php:17
+#, c-format
+msgid ""
+"pgAdmin3 Beta-%d fixes several bugs listed on the <a href='%s'>Change log</"
+"a> page."
+msgstr ""
+
 #: ../cnt/cnt_index.php:12
-msgid "pgAdmin3 Beta-2 released"
+#, c-format
+msgid "pgAdmin3 Beta-%d released"
 msgstr ""
 
 #: ../cnt/cnt_download.php:15

@@ -157,7 +157,7 @@ en (English)
     <li><a href='http://www.theopencd.org'>The Open CD</a> (reminder to register)</li>
     <li><a href='http://www.topdownloads.net/software/view.php?id=14174'>Top Downloads Net</a></li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
-    <li><a href='http://www.winpicks.com'>WinPick</a> (pending)</li>
+    <li><a href='http://www.winpicks.com/ShowDetailsRed.asp?title=pgAdmin+III'>WinPick</a></li>
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a></li>
   </ul>
 </dd>

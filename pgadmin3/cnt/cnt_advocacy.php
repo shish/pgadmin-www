@@ -14,12 +14,13 @@
 <h1 id="introduction">Introduction</h1>
 <dl>
   <dt>Why promote pgAdmin?</dt>
-  <dd>Promoting free software is essential for economical development and civil liberties.
+  <dd>
+  Reaching new users can help pgAdmin project get in touch with talented developers, who will in turn bring exciting new features to pgAdmin and possibly to PostgreSQL too.
+  </dd>
+  <dd>On the long run, promoting free software is essential for economical development and civil liberties.
   PostgreSQL and pgAdmin free software are used worldwide by a large number of end-users, companies, governments and institutions. Therefore, helping us promote pgAdmin is certainly not a loss of time.
   </dd>
- <dd>
-  On the long run, reaching new users can help pgAdmin project get in touch with talented developers, who will in turn bring exciting new features to pgAdmin and possibly to PostgreSQL too.
-  </dd>
+
 
     <dt>Promotion strategies</dt>
   <dd>

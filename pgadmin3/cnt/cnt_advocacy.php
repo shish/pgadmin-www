@@ -141,7 +141,7 @@ ro (Romanian)
   </ul>
 </dd>
 
-ru (Russian Federation)
+ru (Russian)
 <dd>
   <ul>
     <li><a href='http://www.linuxshare.ru/docs/software/SQL/postgresql/index.html'>PostgreSQL Russia</a></li>

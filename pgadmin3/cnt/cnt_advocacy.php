@@ -88,7 +88,7 @@ de (German)
 en (English)
 <dd>
   <ul>
-    <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a> (updating pending)</li>
+    <li><a href='http://dmoz.org/Computers/Software/Databases/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.freewarefiles.com/programs.php?ProgramID=8323&categoryid=10&subcategoryid=109'>Freewarefiles</a></li>
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a></li>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a></li>
@@ -96,7 +96,7 @@ en (English)
     <li><a href='http://www.linuxguruz.com/z.php?id=95'>Linuxgurus</a> (pending)</li>
     <li><a href='http://www.nonags.com/nonags/officet.html'>Nonags</a> (update pending)</li>
     <li><a href='http://www.programfiles.com/Default.asp?CatId=962'>ProgramFiles.com</a> (pending)</li>
-    <li><a href='http://www.softpedia.com/public/cat/10/8/6'>Softpedia</a> (pending)</li>
+    <li><a href='http://www.softpedia.com/public/cat/10/8/6/10-8-6-71.shtml'>Softpedia</a></li>
     <li><a href='http://www.tucows.com'>Tucows</a> (pending)</li>
     <li><a href='http://www.zend.com/apps.php?CID=56'>Zend</a></li>
   </ul>
@@ -133,6 +133,13 @@ pt (Portuguese/Brazilian)
 <dd>
   <ul>
     <li><a href='http://www.postgresql.org.br/index.php?corpo=links'>PostgreSQL Brazil</a> (pending)</li>
+  </ul>
+</dd>
+
+ro (Romanian)
+<dd>
+  <ul>
+    <li><a href='http://www.softpedia.com/public/scripts/romanianhero/10-8-6-71'>Softpedia</a></li>
   </ul>
 </dd>
 

@@ -1,11 +1,28 @@
 <div class="sideBox LHS">
 <div><?php echo _("Beta versions");?></div>
-<a href="#rc1">Release Candidate</a>
+<a href="#rc2">Release Candidate 2</a>
+<a href="#rc1">Release Candidate 1</a>
 <a href="#beta3">Beta-3</a>
 <a href="#beta2">Beta-2</a>
 <a href="#beta1">Beta-1</a>
 </div>
 <div id="bodyText">
+<h1 id="rc2"><?php echo _("Release Candidate 2 of pgAdmin III V1.2 released");?></h1>
+2004-11-16
+<p>
+Shortly after releasing the Release Candidate of pgAdmin III v1.2.0, 
+we noticed a problem on GTK using it quite uncomfortable. Additionally, the PostgreSQL 8.0 server had a change
+in a system table shortly after its Beta-4 version, which prevents it from being accessed by pgAdmin III versions
+prior to RC2. Consequently, the pgAdmin Development Team decided to roll a second Release Candidate to fix this.
+for the PostgreSQL database system. 
+</p>
+<p>
+Additionally, some minor fixes that have been included in this release, this can be checked in our <a href="development.php#changelog">changelog</a>.
+</p>
+<p>
+If you still find bugs or problems, report them immediately to the <a href="mailto:pgadmin-support@postgresql.org">pgAdmin-support mailing list</a>, so we can fix them for the final V1.2.0.
+</p>
+<p>
 <h1 id="rc1"><?php echo _("Release Candidate of pgAdmin III V1.2 released");?></h1>
 2004-11-03
 <p>

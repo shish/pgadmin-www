@@ -27,6 +27,13 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
+  [2004-11-16] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Release Candidate 2");?></dt>
+  <dd>
+    <?php echo sprintf(_("In reaction to a major flaw in the GTK version, and to support a recent change in the PostgreSQL 8.0 server, the pgAdmin Development Team decided to roll a second Release Candidate. For details, please  visit the pgAdmin <a href='%s'>Beta release</a> page."), "beta.php");?>
+  </dd>
+</dl>
+<h1 id="news"><?php echo _("Latest news");?></h1>
+<dl>
   [2004-11-03] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2 Release Candidate");?></dt>
   <dd>
     <?php echo sprintf(_("The pgAdmin Development Team are proud to announce the release candidate of pgAdmin III v1.2.0, the well-known GUI administration tool for the PostgreSQL database system. For details, please  visit the pgAdmin <a href='%s'>Beta release</a> page."), "beta.php");?>
@@ -90,8 +97,9 @@
 
   <dt><?php echo _("Designed for PostgreSQL latest versions");?></dt>
   <dd>
-    	<li><?php echo _("PostgreSQL 7.3");?><br>
-    	<li><?php echo _("PostgreSQL 7.4");?><br>
+    	<li><?php echo "PostgreSQL 7.3";?><br>
+    	<li><?php echo "PostgreSQL 7.4";?><br>
+    	<li><?php echo "PostgreSQL 8.0";?><br>
   </dd>
 
   <dt><?php echo _("On-line help");?></dt>
@@ -102,7 +110,7 @@
 
   <dt><?php echo _("Multilingual interface");?></dt>
   <dd>
-    <?php echo sprintf(_("pgAdmin III user interface is translated in more than %d languages."), 20);?>
+    <?php echo sprintf(_("pgAdmin III user interface is translated in more than %d languages."), 30);?>
     <?php echo sprintf(_("A detailed list of supported languages is available on the <a href='%s'>Translation</a> page."), "translation.php");?>
   </dd>
 
@@ -122,7 +130,7 @@
     	<tr valign='top'>
       	<td width='50%'>
           	<ul>
-            	<li><?php echo _("Aggregates");?>
+              <li><?php echo _("Aggregates");?>
               <li><?php echo _("Casts");?>
               <li><?php echo _("Columns");?>
               <li><?php echo _("Constraints");?>
@@ -132,6 +140,7 @@
               <li><?php echo _("Functions");?>
               <li><?php echo _("Groups");?>
               <li><?php echo _("Indexes");?>
+              <li><?php echo _("Tablespaces");?>
               <li><?php echo _("Server-side languages (like PLpgsql, PLpython, PLperl, etc...)");?>
             </ul>
         </td>

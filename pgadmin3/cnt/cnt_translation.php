@@ -44,7 +44,7 @@
   </dd>
 
 
-  <h1 id="published"><?php echo sprintf(_("Published Translations (%d languages)"), $translated->getNbLanguages()+$vacant->getNbLanguages());?></h1>
+  <h1 id="published"><?php echo sprintf(_("Published Translations (%d languages)"), $translated->getNbLanguages());?></h1>
   <dd>
   	<?php echo _("If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command.");?>
     <?php echo _("Translate the text and send us the *.po file.");?>

@@ -66,14 +66,14 @@
 	</dl>
 
   <dl>
-    <dt><?php echo sprintf(_("RPM packages for GNU/Linux Mandrake %s, RedHat %s, SuSE %s"), "9.1", "9", "8.2");?></dt>
+    <dt><?php echo sprintf(_("GNU/Linux Mandrake %s, RedHat %s, SuSE %s RPM packages"), "9.1", "9", "8.2");?></dt>
     <?php echo  sprintf(_("Packager: %s"), "Jean-Michel Pouré");?>
     <dd>
       <ol>
         <li>
         	<?php echo _("Download pgAdmin rpm.");?>
         <li>
-        	<?php echo _("Install the downloaded RPM using the following command:");?>
+        	<?php echo _("Install using the following command:");?>
           <BR>
           # rpm -Uvh pgadmin*.rpm
       </ol>
@@ -99,12 +99,12 @@
 		<?php echo  sprintf(_("Packager: %s"), "斉藤　浩 (Hiroshi Saito)");?>
     <dd>
     	<ol>
-        <li>Download pgadmin3-yyyymmdd.tgz
-        <li>Install using pkg_add
+        <li><?php echo _("Download pgadmin FreeBSD package.");?>
+        <li><?php echo _("Install using the following command:");?><br>
             # pkg_add pgadmin3-yyyymmdd.tgz
-        <li>Create a symlink to pgadmin3 binary<br>
+        <li><?php echo _("Create a symlink to pgadmin binary.");?><br>
             # ln -sf /usr/local/pgadmin3/bin/pgadmin3 /usr/local/bin/pgadmin3
-        <li>Check that pgadmin3 is in the path<br>
+        <li><?php echo _("Check that pgadmin executable is in the path.");?><br>
             # which pgadmin3 # /usr/local/bin/pgadmin3
       </ol>
 		</dd>

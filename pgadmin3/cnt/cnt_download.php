@@ -309,7 +309,7 @@
     <dd>
       <?php echo sprintf(_("pgAdmin III packages are available for %s."), "MS Windows 2000/XP");?>
       <br><br>
-      <?php echo echo _("Note that the <a href=\"http://www.postgresql.org/ftp/win32/\">pgInstaller distribution of PostgreSQL for Windows</a> comes with pgAdmin.");?>
+      <?php echo sprintf(_("Note that the <a href='%s'>pgInstaller distribution of PostgreSQL for Windows</a> comes with pgAdmin."), "http://www.postgresql.org/ftp/win32");?>
     </dd>
   <dd>
         <?php echo sprintf(_("Download pgAdmin III package from our <a href='%s'>mirrors</a>."), "#mirrors");?>

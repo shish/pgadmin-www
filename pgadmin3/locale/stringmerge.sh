@@ -16,7 +16,7 @@ cvs update -C -P -d
 cd locale
 if test -f pgadmin3_website.pot; then
 
-  for GETTEXTDIR in locale/*_*/LC_MESSAGES/ ; do
+  for GETTEXTDIR in *_*/LC_MESSAGES/ ; do
     echo "Entering $GETTEXTDIR."
     cd $GETTEXTDIR
     echo "Merging pgadmin3_website.pot into pgadmin3_website.po"

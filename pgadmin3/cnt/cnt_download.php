@@ -26,49 +26,49 @@
       </tr>
 
     	<tr bgcolor=lightyellow>
-        <td>beta/src</td>
+        <td>pgadmin3/release/src</td>
         <td></td>
         <td><?php echo _("pgAdmin source code")?></td>
       </tr>
 
       <tr bgcolor=beige>
-        <td>beta/win32</td>
+        <td>pgadmin3/release/win32</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "Windows 2000 & XP")?></td>
       </tr>
 
       <tr bgcolor=lightyellow>
-        <td>beta/freebsd51</td>
+        <td>pgadmin3/release/freebsd51</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "FreeBSD 5.1")?></td>
       </tr>
 
 			<tr bgcolor=beige>
-        <td>beta/debian</td>
+        <td>pgadmin3/release/debian</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Debian")?></td>
       </tr>
 
       <tr bgcolor=beige>
-        <td>beta/mandrake91</td>
+        <td>pgadmin3/release/mandrake91</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Mandrake 9.1")?></td>
       </tr>
 
       <tr bgcolor=beige>
-        <td>beta/redhat9</td>
+        <td>pgadmin3/release/redhat9</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux RedHat 9")?></td>
       </tr>
 
       <tr bgcolor=beige>
-        <td>beta/slackware9</td>
+        <td>pgadmin3/release/slackware9</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux Slackware 9.0")?></td>
       </tr>
 
 			<tr bgcolor=beige>
-        <td>beta/suse82</td>
+        <td>pgadmin3/release/suse82</td>
         <td></td>
         <td><?php echo sprintf(_("pgAdmin binary packages for %s"), "GNU/Linux SuSE 8.2")?></td>
       </tr>
@@ -103,19 +103,19 @@
             <li>
             <?php echo _("For Debian WOODY:");?>
             <pre>
-            &nbsp;deb [MIRROR URL]/beta/debian woody pgadmin
+            &nbsp;deb [MIRROR URL]/release/debian woody pgadmin
             </pre>
 
             <li>
             <?php echo _("For Debian TESTING:");?>
             <pre>
-            &nbsp;deb [MIRROR URL]/beta/debian testing pgadmin
+            &nbsp;deb [MIRROR URL]/release/debian testing pgadmin
             </pre>
 
             <li>
             <?php echo _("For Debian UNSTABLE:");?>
             <pre>
-            &nbsp;deb [MIRROR URL]/beta/debian unstable pgadmin
+            &nbsp;deb [MIRROR URL]/release/debian unstable pgadmin
             </pre>
 					</ul>
 
@@ -124,19 +124,19 @@
             <li>
             <?php echo _("For Debian WOODY:");?>
             <pre>
-            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian woody pgadmin
+            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian woody pgadmin
             </pre>
 
             <li>
             <?php echo _("For Debian TESTING:");?>
             <pre>
-            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian testing pgadmin
+            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian testing pgadmin
             </pre>
 
             <li>
             <?php echo _("For Debian UNSTABLE:");?>
             <pre>
-            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/beta/debian unstable pgadmin
+            &nbsp;deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian unstable pgadmin
             </pre>
 					</ul>
 

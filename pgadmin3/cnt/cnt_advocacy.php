@@ -127,7 +127,7 @@ de (German)
 en (English)
   <ul>
     <li><a href='http://www.acm.org/sigmod/databaseSoftware/nonprofit'>Association for Computing Machinery</a></li>
-    <li><a href='http://www.afreego.com'>AFreeGo</a> (pending)</li>
+    <li><a href='http://www.afreego.com/Categories/Business_and_Productivity/Database_Management/019104.php'>AFreeGo</a></li>
     <li><a href='http://www.asp-shareware.org/pad/showinfo.asp?xmlfile=http://www.pgadmin.org/pgadmin3/cnt/pgadmin3.xml'>Association of Shareware Professionals</a></li>
     <li><a href='http://www.bloodshed.net/c'>Bloodshed</a></li>
     <li><a href='http://www.brothersoft.com'>Brothersoft</a> (pending)</li>

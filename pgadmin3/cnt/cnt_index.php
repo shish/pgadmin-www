@@ -33,7 +33,7 @@
 <dl>
   <dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.0.0");?></dt>
   <dd>
-    <?php echo _("After one year of development, we are happy to announce the availability of pgAdmin III, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD.");?>
+    <?php echo _("After one year of development, we are happy to announce the availability of pgAdmin III, a complete rewrite of pgAdmin II for Ms Windows, GNU/Linux and FreeBSD.");?>
     <?php echo _("We would like to thank our developer and translator community who contributed to the project.");?>
     <?php echo sprintf(_("pgAdmin III is the result of a joint effort of a team of more than %d contributors from %d different countries."), 100, 38);?>
     <br><br>

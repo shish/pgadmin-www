@@ -44,7 +44,7 @@
   $translated->addLanguage ("zh_CN", "Chinese simplified", "何伟平 (Weiping He)", "laser@zhengmai.com.cn", "pgadmin3.po", "src/ui/zh_CN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("zh_TW", "Chinese traditional", "李枝新 (Chih-Hsin Lee)", "chlee@femh.org.tw", "pgadmin3.po", "src/ui/zh_TW/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
 
-  $pending->addLanguage ("ar_SA", "Arabic", "Ossama Khayat", "okhayat@yahoo.com", "pgadmin3.po","src/ui/ar_SA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $pending->addLanguage ("ar_SA", "Arabic", "أسامة محمّد خيّاط (Ossama Mohammad Khayat)", "okhayat@yahoo.com", "pgadmin3.po","src/ui/ar_SA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("ca_ES", "Catalan", "Carlos Saltos", "csaltos@netscape.net", "pgadmin3.po","src/ui/ca_ES/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("de_CH", "German (Switzerland)", "Marc Balmer", "marc@msys.ch", "pgadmin3.po", "src/ui/de_CH/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $pending->addLanguage ("gu_IN", "Gujarati", "Bhavin Choksi", "bhavinchoksi2k@yahoo.com", "pgadmin3.po", "src/ui/gu_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

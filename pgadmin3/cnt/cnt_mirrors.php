@@ -1,7 +1,7 @@
 <?php
 
   $numcells = 5;
-  $conn = @pg_pconnect("dbname=186_portal host=jupiter.hub.org user=186_pgsql");
+  $conn = @pg_pconnect("dbname=186_portal host=pgsql74.hub.org user=186_pgsql");
 	$_error = false;
 
   //

@@ -97,7 +97,7 @@
 	PostgreSQL postgresql postgres sql database development gui administration tool software free pg
 	</td></tr>
       </table></li>
-	<li><b>Information in pad format</b>: pad format is an XML format designed for registration of freeware and sharewares. The pad format for pgAdmin III is available here: <a href='http://developer.pgadmin.org/pgadmin3/cnt/pgadmin.pad'>http://developer.pgadmin.org/pgadmin3/cnt/pgadmin.pad</a></li>
+	<li><b>Information in pad format</b>: pad format is an XML format designed for registration of freeware and sharewares. pgAdmin III pad file is available here: <a href='http://developer.pgadmin.org/pgadmin3/cnt/pgadmin.pad'>http://developer.pgadmin.org/pgadmin3/cnt/pgadmin.pad</a></li>
     </ul>
   </dd>
 

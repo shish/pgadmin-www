@@ -57,7 +57,6 @@
     ?>
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
-
   <h1 id="progress"><?php echo sprintf(_("Translations in progress (%d languages)"), $pending->getNbLanguages());?></h1>
     <?php
     	$_sortBy = $_SESSION['pgadmin']['d2943_poSortBy'];
@@ -118,6 +117,8 @@
 
   <li>
       When this is done, you will receive an email. Connect to <a href="translation.php#progress">Translation in progress</a> page and download the *.po file corresponding to your language.
+      The <?php echo sprintf("<a href='%s'>pgAdmin language template</h>", $pending->getLanguageTemplate());?>
+      serves as empty template for a new language source file.
       <br><br>
 
     <li>Edit pgAdmin *.po file. The steps described are related to <a href="http://poedit.sourceforge.net">poEdit</a> only.<br><br>

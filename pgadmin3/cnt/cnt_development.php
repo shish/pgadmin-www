@@ -1,6 +1,6 @@
 <div class="sideBox LHS">
   <div><?php echo _("Development");?></div>
-  <a href="#dev_cvs">&rsaquo; <?php echo _("CVS access");?></a>
+  <a href="#cvs">&rsaquo; <?php echo _("CVS access");?></a>
   <a href="#dev_list">&rsaquo; <?php echo _("Mailing list");?></a>
   <a href="#team">&rsaquo; <?php echo _("Development team");?></a>
   <a href="#todo">&rsaquo; <?php echo _("Todo list")?></a>
@@ -9,7 +9,7 @@
 
 <div id="bodyText">
 
-  <h1 id="dev_cvs"><?php echo _("CVS access");?></h1>
+  <h1 id="cvs"><?php echo _("CVS access");?></h1>
   <dd>
   	<?php echo _("pgAdmin is available subject to the terms of the Artistic Licence.");?>
     <?php echo sprintf(_("CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."), "http://cvs.pgadmin.org");?>

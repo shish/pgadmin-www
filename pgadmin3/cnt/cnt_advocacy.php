@@ -158,7 +158,6 @@ en (English)
     <li><a href='http://www.programmersheaven.com/search/download.asp?FileID=32608'>Programmers Heaven</a></li>
     <li><a href='http://www.sharewareconnection.com/pgadmin-iii-for-postgresql.htm'>Shareware connection</a></li>
     <li><a href='http://www.scriptz.com/details/12264.html'>Scriptz</a></li>
-    <li><a href='http://www.snapfiles.com/freeware/freeware.html'>Snapfiles</a> (Reminder to register)</li>
     <li><a href='http://www.sofotex.com/pgAdmin-III-for-PostgreSQL-download_L17399.html'>Sofotex</a></li>
     <li><a href='http://www.soft411.com/software/postgresql.html'>Soft 411</a> (pending)</li>
     <li><a href='http://www.softempire.com/pgadmin-iii-for-postgresql.html'>Softempire</a> (pending)</li>

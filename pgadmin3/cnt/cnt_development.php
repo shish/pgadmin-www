@@ -14,6 +14,9 @@
   	<?php echo _("pgAdmin is available subject to the terms of the Artistic Licence.");?>
     <?php echo sprintf(_("CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."), "http://cvs.pgadmin.org");?>
     <?php echo _("Anonymous read access is available using a CVS client.");?>
+    <?php echo sprintf(_("Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free software."), "http://www.wincvs.org");?>
+     <?php echo _("Under GNU/Linux, there are several command line and graphical clients available.");?>
+     <?php echo _("The required command lines needed for checkout are as follows:");?>
     <pre>
     # CVSROOT=:pserver:anonymous@cvs.pgadmin.org:/disk1/cvsroot export CVSROOT
     # cvs login

@@ -227,17 +227,17 @@
       	<ul>
         	<li>
           	<?php echo _("GNU/Linux, FreeBSD and other *nixes.")?>
-        		<?php echo _("Recents versions of GTK2.2, automake,  autoconf and gcc are needed.")?>
+        		<?php echo _("Recents versions of GTK2.2, automake, autoconf and gcc are needed.")?>
             <?php echo _("The best solution is to use a recent distribution.")?>
 					<li>
           	<?php echo _("Windows 2000 & XP.")?>
-            <?php echo "A recent version of Mingw compiler can be used."?>
+            <?php echo "A recent version of MinGW compiler can be used."?>
         </ul>
 
     	<li><?php echo _("wxWindows 2.5 compiled from CVS with additional patches.")?>
         <?php echo _("wxWindows 2.4 will not work because of Unicode problems.")?>
         <?php echo _("We provide wxWindows 2.5 source and binary packages.")?>
-        <?php echo _("The packages can be downloaded from our mirrors in the 'wxWindows' directory.")?>
+        <?php echo _("The libraries can be downloaded from our mirrors in the 'wxWindows' directory.")?>
 
 
 
@@ -303,7 +303,7 @@
 
       <li><?php echo sprintf(_("Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"), "pgp/davepage.pgp");?><br><br>
 
-      <li><?php echo _("Unpack pgAdmin tarball.");?><br>
+      <li><?php echo _("Unpack as follows:");?><br>
       <pre>
       # tar -xzf pgadmin3*.tar.gz
       </pre>

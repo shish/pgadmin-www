@@ -10,7 +10,7 @@
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
   <dt><?php echo sprintf(_("pgAdmin3 %s released"), "v1.0.2");?></dt>
-  </dd>
+  <dd>
     <?php echo _("A new release of pgAdmin is available, including bug fixes for some problems that have been reported by users.");?>
     <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."), "development.php#changelog");?>
   </dd>

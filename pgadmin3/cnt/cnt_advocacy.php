@@ -115,7 +115,7 @@ cs (Czech)
 <dd>
 de (German)
   <ul>
-    <li><a href='http://www.apps4linux.org'>Apps4Linux</a> (pending)</li>
+    <li><a href='http://www.apps4linux.org/showapps.php3?id=702&detail=1'>Apps4Linux</a></li>
     <li><a href='http://www.dmoz.org/World/Deutsch/Computer/Software/Datenbanken/PostgreSQL'>DMOZ</a></li>
     <li><a href='http://www.links2linux.de'>links2linux.de</a> (reminder to register)</li>
     <li><a href='http://www.linuxsoftboard.de/viewforum.php?f=29'>LinuxSoftBoard</a> (reminder to register)</li>

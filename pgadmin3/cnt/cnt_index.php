@@ -30,7 +30,9 @@
   [2004-12-01] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2.0");?></dt>
   <dd>
     <?php echo _(" The pgAdmin Development Team are proud to announce the release of pgAdmin III v1.2.0. This is a major new release of pgAdmin following a year of development work by various contributors."); ?>
-    <br><b><?php echo _("Summary of major changes:"); ?></b><br><br>
+    <br><br>
+    <b><?php echo _("Summary of major changes:"); ?></b>
+    <br><br>
     <ul>
       <li><?php echo _("PostgreSQL 8.0.0 Support."); ?></li>
       <li><?php echo _("Improved dialogue sizing based on font metrics."); ?></li>

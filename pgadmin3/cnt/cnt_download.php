@@ -1,8 +1,8 @@
 <div class="sideBox LHS">
   <div><?php echo _("Download")?></div>
   <a href="#mirrors">&rsaquo; <?php echo _("List of mirrors")?></a>
-  <a href="#binaries">&rsaquo; <?php echo _("Binary packages")?></a>
-  <a href="#source">&rsaquo; <?php echo _("Source code")?></a>
+  <a href="#binaries">&rsaquo; <?php echo _("Installing binary packages")?></a>
+  <a href="#source">&rsaquo; <?php echo _("Installing from source")?></a>
 </div>
 
 <div id="bodyText">

@@ -56,6 +56,7 @@ en_US (English)
   <ul>
     <li><a href='http://freshmeat.net/projects/pgadmin3/?topic_id=68'>Freshmeat</a>
     <li><a href='http://gborg.postgresql.org/project/pgadmin3/projdisplay.php'>Gborg</a>
+    <li>Tucows (pending)
   </ul>
 </dd>
 

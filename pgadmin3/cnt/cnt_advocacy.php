@@ -1,7 +1,7 @@
 <div class="sideBox LHS">
 <div><?php echo _("Advocacy");?></div>
 <a href="#introduction">&rsaquo; Introduction</a>
-<a href="#list">&rsaquo; Web sites pointing to pgAdmin</a>
+<a href="#list">&rsaquo; Web sites</a>
 <a href="#press">&rsaquo; Press articles</a>
 </div>
 

@@ -8,7 +8,7 @@
 <div id="bodyText">
   <h1 id="pgadmin3"><?php echo _("pgAdmin3 beta")?></h1>
   <dd>
-		<?php echo _("pgAdmin3  is available in source and binary format.")?>
+		<?php echo _("pgAdmin  is available in source and binary format.")?>
     <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
 		<?php echo sprintf(_("After downloading, please read our <a href='%s'>installation instructions</a>."), "#installation")?>
     <?php echo _("On each mirror, the files can be found in the following directories:")?>

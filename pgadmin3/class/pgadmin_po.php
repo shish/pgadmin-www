@@ -7,11 +7,51 @@
 class po_status {
 	var $_cvsroot;
 	var $_webroot;
-
 	var $_content = array();
 	var $_size = 0;
-
   var $_error;
+
+  function _cache_save($_filename) {
+    reset ($this->_content);
+    $_serialize = serialize($this->_content);
+
+    if (file_exists($_filename.'.new')) {
+			exec ("rm -f $_filename.new");
+    }
+
+    if (!$_handle = fopen($_filename.'.new', 'wb')) {
+        print "Cannot open file ($_filename)";
+        exit;
+    }
+
+    if (!fwrite($_handle, $_serialize)) {
+        print "Cannot write to file ($_filename)";
+        exit;
+    }
+    fclose($_handle);
+
+    if (file_exists($_filename.'.new')) {
+      exec ("rm -f $_filename");
+      if (copy($_filename.'.new', $_filename)) {
+      	exec ("rm -f $_filename.new");
+      }
+    }
+  }
+
+  function _cache_load($_filename) {
+    if (!$_handle = fopen($_filename, 'rb')) {
+        print "Cannot open file ($_filename)";
+        exit;
+    }
+
+    $_serialize = fread ($_handle, filesize ($_filename));
+		fclose ($_handle);
+
+    $this->_content = array();
+    $this->_content = unserialize($_serialize);
+   	reset ($this->_content);
+		$this->_size = count ($this->_content['locale']);
+  }
 
   function setWebRoot ($_webroot) {
 		$this->_webroot = $_webroot;
@@ -22,7 +62,6 @@ class po_status {
 			$this->_cvsroot = $_cvsroot;
     } else {
     	$this->_error = "Error: $_cvsroot is not a CVS repository.";
-      //echo $this->_error."<br>";
     }
   }
 

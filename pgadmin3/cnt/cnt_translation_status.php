@@ -4,20 +4,6 @@
 // Released under the BSD licence
 //
 
-  require_once "class/pgadmin_po.php";
-  $translated = new po_status();
-  $pending = new po_status();
-
-  //$translated->setWebRoot("/var/www/html");
-  //$translated->setCvsRoot("/var/www/html/cvsroot/pgadmin3");
-  //$pending->setWebRoot("/var/www/html");
-  //$pending->setCvsRoot("/var/www/html/cvsroot/pgadmin3");
-
-  $translated->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-  $translated->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
-  $pending->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-  $pending->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
-
   $translated->addLanguage ("ar_SA", "Arabic", "Motaz	Abuthiab", "moty66@yahoo.com", "pgadmin3.po","src/ui/ar_SA/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("da_DK", "Danish", "Troels Arvin", "troels@arvin.dk", "pgadmin3.po","src/ui/da_DK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $translated->addLanguage ("de_DE", "German", "Andreas Plug", "pgadmin@pse-consulting.de", "pgadmin3.po", "src/ui/de_DE/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

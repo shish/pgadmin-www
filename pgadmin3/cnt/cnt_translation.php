@@ -1,5 +1,27 @@
 <?php
-  require_once "cnt/cnt_translation_status.php";
+  require_once "class/pgadmin_po.php";
+  $translated = new po_status();
+  $pending = new po_status();
+
+  $translated->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
+  $translated->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
+
+  $pending->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
+  $pending->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
+
+  $_cache_translated = $_SERVER["SCRIPT_FILENAME"]."_cache_translated";
+  $_cache_pending    = $_SERVER["SCRIPT_FILENAME"]."_cache_pending";
+
+  if ((time() - filemtime($_cache_translated)) > 300) {
+    require_once "cnt/cnt_translation_status.php";
+
+    $translated->_cache_save($_cache_translated);
+    $pending->_cache_save($_cache_pending);
+		//echo "Updating cache<br>";
+	}
+
+  $translated->_cache_load($_cache_translated);
+  $pending->_cache_load($_cache_pending);
 ?>
 
 <div class="sideBox LHS">

@@ -19,6 +19,7 @@
               <option value="de_DE">Deutsch</option>
               <option value="id_ID">Indonesia</option>
               <option value="ja_JP">日本</option>
+              <option value="zh_CN">中文 (简体)</option>
             </select>
 
             <input type="submit" value="Go" />

@@ -1,0 +1,955 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pgadmin 3.0\n"
+"POT-Creation-Date: 2003-08-11 14:32+0200\n"
+"PO-Revision-Date: 2003-09-02 11:05+0100\n"
+"Last-Translator: Jean-Michel POURE <jm.poure@freesurf.fr>\n"
+"Language-Team: chinese <laser@zhengmai.com.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../cnt/cnt_screenshots.php:175
+msgid "A data grid allows to insert, modify and drop data easily."
+msgstr "数据格允许方便的插入, 修改和删除数据."
+
+#: ../cnt/cnt_index.php:55
+#: ../cnt/cnt_screenshots.php:250
+#, c-format
+msgid "A detailed list of supported languages is available on the <a href='%s'>Translation</a> page."
+msgstr "已支持语言的详细列表在<a href='%s'>翻译</a>页面."
+
+#: ../cnt/cnt_screenshots.php:145
+msgid "A double-click in the navigation tree opens the selected object in a separate dialog."
+msgstr "在导航树上双击将在一个分离的对话框中打开选中的对象."
+
+#: ../cnt/cnt_development.php:38
+#, c-format
+msgid "A list of team members is available on the <a href='%s'>team</a> page."
+msgstr "团队成员列表在<a href='%s'>这儿</a>."
+
+#: ../cnt/cnt_screenshots.php:187
+msgid "A query tool with colour syntax highlight allows to run custom queries."
+msgstr "带语法高亮的查询工具允许运行定制查询."
+
+#: ../cnt/cnt_screenshots.php:192
+msgid "A running query can be cancelled on the fly by clicking on the red square button."
+msgstr "一个正在运行的查询可以通过快速按红色方块按钮取消."
+
+#: ../cnt/cnt_screenshots.php:66
+msgid "A short guided tour of the interface:"
+msgstr "接口的一个简短的向导演示:"
+
+#: ../cnt/cnt_download.php:91
+msgid "APT Configuration"
+msgstr "APT 配置"
+
+#: ../cnt/cnt_index.php:65
+msgid "Access to all PostgreSQL objects"
+msgstr "处理所有的 PostgreSQL 对象"
+
+#: ../cnt/cnt_download.php:14
+#, c-format
+msgid "After downloading, please read our <a href='%s'>installation instructions</a>."
+msgstr "下载后, 请阅读我们的<a href='%s'>安装说明</a>."
+
+#: ../cnt/cnt_index.php:14
+msgid "After one year of development, we are happy to announce the availability of pgAdmin3 beta, a complete rewrite of pgAdmin2 for Ms Windows, GNU/Linux and FreeBSD."
+msgstr "经过一年的开发, 我们很高兴的发布 pgAdmin3 beta 版本, 完全重写了 Ms Windows, GNU/Linux 和 FreeBSD 平台下的 pgAdmin2."
+
+#: ../cnt/cnt_index.php:74
+#: ../cnt/cnt_screenshots.php:97
+msgid "Aggregates"
+msgstr "聚集"
+
+#: ../cnt/cnt_index.php:24
+msgid "Although we concentrate on pgAdmin3, we will continue to support pgAdmin2."
+msgstr "尽管我们主要集中精力在 pgAdmin3 上, 但我们仍然继续支持 pgAdmin2."
+
+#: ../cnt/cnt_development.php:17
+msgid "Anonymous read access is available at the following CVSRoot without password from:"
+msgstr "使用下面的 CVSRoot 匿名用户无需口令就可以读取:"
+
+#: ../class/pgadmin_po.php:241
+msgid "Author"
+msgstr "作者"
+
+#: ../cnt/cnt_development.php:47
+#: ../cnt/cnt_download.php:13
+msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."
+msgstr "因为编译源码需要一些技术知识, 所以我们还是建议使用二进制包."
+
+#: ../cnt/cnt_index.php:26
+msgid "Both pgAdmin2 and pgAdmin3 can coexist on the same system."
+msgstr "pgAdmin2 和 pgAdmin3 可以同时共存于同一个系统上."
+
+#: ../cnt/cnt_development.php:3
+#: ../cnt/cnt_development.php:13
+msgid "CVS access"
+msgstr "使用 CVS"
+
+#: ../cnt/cnt_development.php:16
+#, c-format
+msgid "CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."
+msgstr "可以通过 <a href='%s'>WEB 接口</a>或自己喜欢的 CVS 客户端使用 CVS 仓库."
+
+#: ../cnt/cnt_index.php:75
+#: ../cnt/cnt_screenshots.php:98
+msgid "Casts"
+msgstr "类型转换"
+
+#: ../cnt/cnt_download.php:188
+msgid "Check that pgAdmin executable is in the path."
+msgstr "检查 pgAdmin 的可执行文件是否在路径中."
+
+#: ../tpl/menu.php:14
+msgid "Choose a language"
+msgstr "选择语言"
+
+#: ../cnt/cnt_screenshots.php:191
+msgid "Click on the green arrow button to run a query."
+msgstr "点击绿色箭头按钮运行查询."
+
+#: ../cnt/cnt_screenshots.php:158
+msgid "Column data types can be modified in certain conditions."
+msgstr "在确认条件下可以修改字段数据类型."
+
+#: ../cnt/cnt_index.php:76
+#: ../cnt/cnt_screenshots.php:99
+msgid "Columns"
+msgstr "字段"
+
+#: ../cnt/cnt_screenshots.php:157
+msgid "Columns can be dropped."
+msgstr "可以删除字段."
+
+#: ../cnt/cnt_index.php:77
+#: ../cnt/cnt_screenshots.php:100
+msgid "Constraints"
+msgstr "约束"
+
+#: ../cnt/cnt_index.php:78
+#: ../cnt/cnt_screenshots.php:101
+msgid "Conversions"
+msgstr "编码转换"
+
+#: ../cnt/cnt_download.php:186
+msgid "Create a symlink to pgAdmin binary."
+msgstr "创建一个 pgAdmin 二进制文件的符号链接."
+
+#: ../cnt/cnt_development.php:6
+#: ../cnt/cnt_development.php:43
+msgid "Daily snapshots"
+msgstr "每日快照"
+
+#: ../cnt/cnt_development.php:45
+msgid "Daily snapshots are packages compiled from CVS nearly everyday."
+msgstr "每日快照就是几乎每天以 CVS 中源码编译的包."
+
+#: ../cnt/cnt_index.php:58
+#: ../cnt/cnt_screenshots.php:5
+#: ../cnt/cnt_screenshots.php:166
+msgid "Data access"
+msgstr "数据处理"
+
+#: ../cnt/cnt_index.php:79
+#: ../cnt/cnt_screenshots.php:102
+msgid "Databases"
+msgstr "数据库"
+
+#: ../cnt/cnt_download.php:23
+msgid "Description"
+msgstr "描述"
+
+#: ../cnt/cnt_index.php:40
+msgid "Designed for PostgreSQL latest versions"
+msgstr "为 PostgreSQL 最新版本设计"
+
+#: ../cnt/cnt_development.php:2
+#: ../cnt/cnt_index.php:137
+#: ../tpl/menu.php:33
+msgid "Development"
+msgstr "开发"
+
+#: ../cnt/cnt_development.php:5
+#: ../cnt/cnt_development.php:36
+msgid "Development team"
+msgstr "开发团队"
+
+#: ../cnt/cnt_screenshots.php:7
+msgid "Documentation"
+msgstr "文档"
+
+#: ../cnt/cnt_index.php:80
+#: ../cnt/cnt_screenshots.php:103
+msgid "Domains"
+msgstr "域"
+
+#: ../cnt/cnt_download.php:201
+msgid "Double-clic on the installer and follow the instructions."
+msgstr "双击安装文件, 再按照说明继续."
+
+#: ../cnt/cnt_download.php:2
+#: ../tpl/menu.php:35
+msgid "Download"
+msgstr "下载 "
+
+#: ../class/pgadmin_po.php:243
+msgid "Download Language"
+msgstr "下载语言"
+
+#: ../class/pgadmin_po.php:242
+msgid "Download Template"
+msgstr "下载模板"
+
+#: ../cnt/cnt_download.php:183
+msgid "Download pgAdmin FreeBSD package."
+msgstr "下载 pgAdmin 的 FreeBSD 包."
+
+#: ../cnt/cnt_download.php:154
+msgid "Download pgAdmin RPM package."
+msgstr "下载 pgAdmin 的 RPM 包."
+
+#: ../cnt/cnt_download.php:170
+msgid "Download pgAdmin Slackware package."
+msgstr "下载 pgAdmin 的 Slackware 包."
+
+#: ../cnt/cnt_mirrors.php:1
+msgid "Download pgAdmin from one of PostgreSQL mirrors:"
+msgstr "从 PostgreSQL 的镜像站点下载 pgAdmin:"
+
+#: ../cnt/cnt_download.php:200
+msgid "Download pgAdmin installer."
+msgstr "下载 pgAdmin 的安装程序."
+
+#: ../cnt/cnt_development.php:48
+msgid "Download pgAdmin3 snapshots here:"
+msgstr "在这儿下载 pgAdmin3 的快照:"
+
+#: ../cnt/cnt_screenshots.php:203
+msgid "EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique optimisation features."
+msgstr "充分利用 PostgreSQL 独特的优化功能来解释和/或分析你的查询."
+
+#: ../cnt/cnt_download.php:93
+msgid "Edit /etc/apt/sources.list file and add the following line:"
+msgstr "编辑 /etc/apt/sources.list 文件并加入下面一行:"
+
+#: ../cnt/cnt_screenshots.php:135
+msgid "Every time you manipulate objects graphically, pgAdmin3 writes the corresponding SQL code."
+msgstr "任何时候你以图形方式操作对象, pgAdmin3 将写出对应的 SQL 代码."
+
+#: ../cnt/cnt_translation.php:38
+msgid "Everyone can participate, please refer to the translation howto for more information."
+msgstr "任何人都可以参加, 请参照翻译帮助获得更多的信息."
+
+#: ../cnt/cnt_index.php:4
+#: ../cnt/cnt_index.php:30
+msgid "Features"
+msgstr "功能"
+
+#: ../cnt/cnt_download.php:103
+#: ../cnt/cnt_download.php:124
+msgid "For Debian TESTING:"
+msgstr "Debian TESTING:"
+
+#: ../cnt/cnt_download.php:109
+#: ../cnt/cnt_download.php:130
+msgid "For Debian UNSTABLE:"
+msgstr "Debian UNSTABLE:"
+
+#: ../cnt/cnt_download.php:97
+#: ../cnt/cnt_download.php:118
+msgid "For Debian WOODY:"
+msgstr "Debian WOODY:"
+
+#: ../cnt/cnt_download.php:115
+msgid "For example, for France, you can try:"
+msgstr "举例, 如法国, 你可以试试:"
+
+#: ../cnt/cnt_index.php:36
+msgid "FreeBSD"
+msgstr "FreeBSD"
+
+#: ../cnt/cnt_download.php:179
+#, c-format
+msgid "FreeBSD %s"
+msgstr "FreeBSD %s"
+
+#: ../cnt/cnt_index.php:81
+#: ../cnt/cnt_screenshots.php:104
+msgid "Functions"
+msgstr "函数"
+
+#: ../class/pgadmin_po.php:246
+msgid "Fuzzy"
+msgstr "Fuzzy"
+
+#: ../cnt/cnt_index.php:35
+msgid "GNU/Linux"
+msgstr "GNU/Linux"
+
+#: ../cnt/cnt_download.php:85
+msgid "GNU/Linux Debian"
+msgstr "GNU/Linux Debian"
+
+#: ../cnt/cnt_download.php:149
+#, c-format
+msgid "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
+msgstr "GNU/Linux Mandrake %s, RedHat %s, SuSE %s"
+
+#: ../cnt/cnt_download.php:165
+#, c-format
+msgid "GNU/Linux Slackware %s"
+msgstr "GNU/Linux Slackware %s"
+
+#: ../cnt/cnt_index.php:82
+#: ../cnt/cnt_screenshots.php:105
+msgid "Groups"
+msgstr "组"
+
+#: ../cnt/cnt_index.php:2
+#: ../tpl/menu.php:31
+msgid "Home"
+msgstr "首页"
+
+#: ../cnt/cnt_index.php:5
+#: ../cnt/cnt_index.php:131
+msgid "How to contribute"
+msgstr "如何参加"
+
+#: ../cnt/cnt_translation.php:31
+msgid "Howto"
+msgstr "帮助"
+
+#: ../cnt/cnt_translation.php:40
+#, c-format
+msgid "If you are interested by the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."
+msgstr "如果你有兴趣翻译 PostgreSQL 服务端, 请访问 <a href='%s'>PostgreSQL 国际语言支持</a>项目页面."
+
+#: ../cnt/cnt_download.php:219
+#, c-format
+msgid "If you are interested in pgAdmin2, please visit <a href='%s'>pgAdmin2 downloading</a> page."
+msgstr "如果你对 pgAdmin2 有兴趣, 请访问 <a href='%s'>pgAdmin2 下载</a>页面."
+
+#: ../cnt/cnt_translation.php:49
+msgid "If you are not the author/maintainer of a translation and whish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator."
+msgstr "如果你不是翻译的作者/维护人员并且希望提交翻译修复: 下载语言文件 (扩展名为 *.po), 更新后发送给我们, 并且抄送一份给原翻译人员."
+
+#: ../cnt/cnt_translation.php:46
+msgid "If you are the author/maintainer of a translation and whish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command."
+msgstr "如果你是翻译的作者/维护人员并且更新你的工作: 下载模板文件 (扩展名为 *.pot), 执行 poEdit, 再使用 'update from template' 命令."
+
+#: ../cnt/cnt_index.php:139
+#, c-format
+msgid "If you think you can contribute new features and/or bug fixes, please visit the <a href='%s'>Development</a> page."
+msgstr "如果你认为你可以参加新功能开发和/或臭虫修复, 请访问<a href='%s'>开发</a>页面."
+
+#: ../cnt/cnt_index.php:147
+#, c-format
+msgid "If you think you can help us, please visit the <a href='%s'>Translation</a> page."
+msgstr "如果你认为你可以帮助我们, 请访问<a href='%s'>翻译</a>页面."
+
+#: ../cnt/cnt_index.php:19
+#, c-format
+msgid "If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."
+msgstr "如果你想加入开发, 你也可以每天编译我们的<a href='%s'>每日快照</a>."
+
+#: ../cnt/cnt_screenshots.php:266
+msgid "In a near future, we would like to transform this utility into a full-featured PostgreSQL server configuration utility."
+msgstr "在不久的将来, 我将把此工具变成全功能的 PostgreSQL 服务器配置工具."
+
+#: ../cnt/cnt_screenshots.php:45
+msgid "In every environment, pgAdmin3 is a native application."
+msgstr "在每个环境下, pgAdmin3 都是本地应用程序."
+
+#: ../cnt/cnt_index.php:140
+msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
+msgstr "我们特别需要往 MacOsX 和 SunOS 平台移植的帮助."
+
+#: ../cnt/cnt_translation.php:30
+msgid "In progress"
+msgstr "进度"
+
+#: ../cnt/cnt_screenshots.php:89
+msgid "In the left pane of pgAdmin3, a navigation tree allow to browse database objects."
+msgstr "在 pgAdmin3 的左边区域中, 导航树允许浏览数据库对象."
+
+#: ../cnt/cnt_index.php:83
+#: ../cnt/cnt_screenshots.php:106
+msgid "Indexes"
+msgstr "索引"
+
+#: ../cnt/cnt_download.php:172
+msgid "Install the downloaded package using Slackware pkgtool or installpkg."
+msgstr "使用 Slackware 的 pkgtool 或 installpkg 工具安装下载的包."
+
+#: ../cnt/cnt_download.php:156
+#: ../cnt/cnt_download.php:184
+msgid "Install using the following command:"
+msgstr "使用下面的命令安装:"
+
+#: ../cnt/cnt_download.php:4
+msgid "Installing binaries"
+msgstr "使用二进制包安装"
+
+#: ../cnt/cnt_download.php:5
+msgid "Installing from source"
+msgstr "使用源码安装"
+
+#: ../cnt/cnt_download.php:83
+msgid "Installing pgAdmin3 binaries"
+msgstr "使用 pgAdmin3 二进制包安装"
+
+#: ../cnt/cnt_download.php:207
+msgid "Installing pgAdmin3 from source"
+msgstr "使用 pgAdmin3 源码安装"
+
+#: ../cnt/cnt_development.php:7
+#: ../cnt/cnt_development.php:58
+msgid "Known bugs"
+msgstr "已知臭虫"
+
+#: ../class/pgadmin_po.php:240
+msgid "Language"
+msgstr "语言"
+
+#: ../tpl/menu.php:12
+msgid "Language:"
+msgstr "语言:"
+
+#: ../cnt/cnt_index.php:3
+#: ../cnt/cnt_index.php:10
+msgid "Latest news"
+msgstr "最新消息"
+
+#: ../class/pgadmin_po.php:239
+msgid "Locale"
+msgstr "本地"
+
+#: ../cnt/cnt_download.php:196
+#: ../cnt/cnt_index.php:34
+msgid "MS Windows 2000 & XP"
+msgstr "MS Windows 2000 & XP"
+
+#: ../cnt/cnt_index.php:37
+msgid "MacOsX and SunOS ports are under development."
+msgstr "MacOsX 和 SunOS 的移植正在开发中."
+
+#: ../cnt/cnt_development.php:4
+#: ../cnt/cnt_support.php:3
+msgid "Mailing list"
+msgstr "邮件列表"
+
+#: ../class/pgadmin_po.php:241
+msgid "Maintainer"
+msgstr "维护者"
+
+#: ../cnt/cnt_development.php:29
+#: ../cnt/cnt_support.php:13
+#, c-format
+msgid "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a href='%s'>mail-archive.com</a>."
+msgstr "发送到列表的邮件归档在 <a href='%s'>PostgreSQL</a> 和 <a href='%s'>mail-archive.com</a>."
+
+#: ../cnt/cnt_screenshots.php:6
+msgid "Multibyte & i18n"
+msgstr "多字节 & i18n"
+
+#: ../cnt/cnt_screenshots.php:228
+msgid "Multibyte and Internationalisation (i18n) support"
+msgstr "多字节和国际化 (i18n) 支持"
+
+#: ../cnt/cnt_index.php:109
+msgid "Multibyte support"
+msgstr "多字节支持"
+
+#: ../cnt/cnt_index.php:52
+msgid "Multilingual interface"
+msgstr "多语言接口"
+
+#: ../cnt/cnt_index.php:32
+#: ../cnt/cnt_screenshots.php:3
+#: ../cnt/cnt_screenshots.php:13
+msgid "Multiplatform"
+msgstr "多平台"
+
+#: ../cnt/cnt_index.php:60
+msgid "Native PostgreSQL acccess (no ODBC layer needed)"
+msgstr "直接 PostgreSQL 处理 (无需 ODBC 层)"
+
+#: ../cnt/cnt_screenshots.php:90
+msgid "Nearly all PostgreSQL objects can be viewed, created, modified and dropped, including:"
+msgstr "几乎所有的 PostgreSQL 对象都可以查看, 创建, 修改和删除, 包括:"
+
+#: ../cnt/cnt_screenshots.php:133
+msgid "Notice the display of the SQL definition with colour syntax highlight."
+msgstr "注意带语法高亮的 SQL 定义语句的显示."
+
+#: ../cnt/cnt_screenshots.php:147
+msgid "Notice the tabs giving access to Properties, Parameters, Security and SQL definition."
+msgstr "注意 tabs 提供的属性, 参数, 安全和 SQL 定义."
+
+#: ../cnt/cnt_index.php:68
+msgid "Objects are displayed with their SQL definition."
+msgstr "对象和它们的 SQL 定义语句一起显示."
+
+#: ../cnt/cnt_download.php:15
+msgid "On each mirror, the files can be found in the following directories:"
+msgstr "在每个镜像站点上, 能在下面的目录里找到文件:"
+
+#: ../cnt/cnt_screenshots.php:213
+msgid "On-line documentation"
+msgstr "在线文档"
+
+#: ../cnt/cnt_index.php:46
+msgid "On-line help"
+msgstr "在线帮助"
+
+#: ../cnt/cnt_index.php:89
+#: ../cnt/cnt_screenshots.php:112
+msgid "Operator classes"
+msgstr "操作符类"
+
+#: ../cnt/cnt_index.php:90
+#: ../cnt/cnt_screenshots.php:113
+msgid "Operators"
+msgstr "操作符"
+
+#: ../cnt/cnt_download.php:86
+#: ../cnt/cnt_download.php:150
+#: ../cnt/cnt_download.php:166
+#: ../cnt/cnt_download.php:180
+#: ../cnt/cnt_download.php:197
+#, c-format
+msgid "Packager: %s"
+msgstr "包制作者: %s"
+
+#: ../cnt/cnt_support.php:7
+#, c-format
+msgid "Please note that a list of <a href='%s'>known bugs</a> and a <a href='%s'>to do list</a> are also available on the <a href='%s'>Development</a> page."
+msgstr "请注意<a href='%s'>已知臭虫</a>列表和 <a href='%s'>TODO</a> 列表同样也<a href='%s'>开发</a>页面."
+
+#: ../cnt/cnt_development.php:54
+#, c-format
+msgid "Please refer to our <a href='%s'>installation instructions</a>."
+msgstr "请参照我们的<a href='%s'>安装说明</a>."
+
+#: ../cnt/cnt_index.php:42
+msgid "PostgreSQL 7.3"
+msgstr "PostgreSQL 7.3"
+
+#: ../cnt/cnt_index.php:43
+msgid "PostgreSQL 7.4"
+msgstr "PostgreSQL 7.4"
+
+#: ../cnt/cnt_index.php:48
+msgid "PostgreSQL documentation (on-line and off-line)"
+msgstr "PostgreSQL 文档 (在线和离线)"
+
+#: ../cnt/cnt_index.php:91
+#: ../cnt/cnt_screenshots.php:114
+msgid "PostgreSQL servers"
+msgstr "PostgreSQL 服务器"
+
+#: ../cnt/cnt_index.php:61
+msgid "Powerfull query tool with color syntax highlight"
+msgstr "带语法高亮的强大查询工具"
+
+#: ../cnt/cnt_translation.php:29
+msgid "Published"
+msgstr "公告"
+
+#: ../cnt/cnt_translation.php:44
+#, c-format
+msgid "Published Translations (%d languages)"
+msgstr "翻译公告 (%d 种语言)"
+
+#: ../cnt/cnt_screenshots.php:64
+msgid "Recently, our team was joined by developers with an experience of more than 10 years in the design of database tools."
+msgstr "最近, 我们的团队加入了些具有超过 10 年数据库工具设计经验的开发人员."
+
+#: ../cnt/cnt_index.php:92
+#: ../cnt/cnt_screenshots.php:115
+msgid "Rules"
+msgstr "规则"
+
+#: ../cnt/cnt_download.php:137
+msgid "Run the following commands as root:"
+msgstr "以 root 身份运行下面的命令:"
+
+#: ../cnt/cnt_index.php:49
+msgid "SQL command guide"
+msgstr "SQL 命令向导"
+
+#: ../cnt/cnt_index.php:93
+#: ../cnt/cnt_screenshots.php:116
+msgid "Schemas"
+msgstr "大纲"
+
+#: ../cnt/cnt_screenshots.php:2
+#: ../tpl/menu.php:32
+msgid "Screenshots"
+msgstr "屏幕快照"
+
+#: ../cnt/cnt_index.php:94
+#: ../cnt/cnt_screenshots.php:117
+msgid "Sequences"
+msgstr "序列"
+
+#: ../cnt/cnt_screenshots.php:8
+#: ../cnt/cnt_screenshots.php:257
+msgid "Server status"
+msgstr "服务器状态"
+
+#: ../cnt/cnt_index.php:84
+#: ../cnt/cnt_screenshots.php:107
+msgid "Server-side languages (like PLpgsql, PLpython, PLperl, etc...)"
+msgstr "服务端语言 (如 PLpgsql, PLpython, PLperl, 等...)"
+
+#: ../class/pgadmin_po.php:247
+msgid "Status"
+msgstr "状态"
+
+#: ../cnt/cnt_support.php:2
+#: ../tpl/menu.php:36
+msgid "Support"
+msgstr "支持"
+
+#: ../cnt/cnt_index.php:95
+#: ../cnt/cnt_screenshots.php:118
+msgid "Tables"
+msgstr "表"
+
+#: ../cnt/cnt_screenshots.php:189
+msgid "The SQL definition of any object can be transfered to the query tool."
+msgstr "任何对象的 SQL 定义都能转换到查询工具."
+
+#: ../cnt/cnt_screenshots.php:77
+msgid "The application does not need any ODBC layer."
+msgstr "应用程序不需要任何 ODBC 层."
+
+#: ../cnt/cnt_screenshots.php:46
+msgid "The application is executed in binary code, not in a virtual machine, therefore offering very good performance."
+msgstr "应用程序是以二进制编码格式执行的, 没在虚拟机中, 因此能提供非常好的性能."
+
+#: ../cnt/cnt_screenshots.php:177
+msgid "The data is retrieved on-demand when it needs to be displayed."
+msgstr "当需要显示时, 数据能恢复."
+
+#: ../cnt/cnt_download.php:209
+msgid "The detailed compilation steps will be explained shortly."
+msgstr "简短的解释一下详细的编译步骤."
+
+#: ../cnt/cnt_screenshots.php:222
+msgid "The documentation can be viewed off-line or on-line."
+msgstr "文档可以在线或离线浏览."
+
+#: ../cnt/cnt_development.php:61
+#: ../cnt/cnt_development.php:75
+msgid "The information displayed is extracted automatically from pgAdmin CVS."
+msgstr "此信息的显示是自动摘录自 pgAdmin 的 CVS 仓库."
+
+#: ../cnt/cnt_index.php:134
+msgid "The project can only live and develop with your help. Do not hesitate to get involved."
+msgstr "项目能够存在和发展是靠你们的帮助. 别犹豫了, 加入吧."
+
+#: ../cnt/cnt_screenshots.php:132
+msgid "The properties and statistics of the selected object are displayed in the right pane of pgAdmin3."
+msgstr "选中对象的属性和统计在 pgAdmin3 的右边区域显示."
+
+#: ../cnt/cnt_index.php:18
+#, c-format
+msgid "The software is available in source and binary format from the <a href='%s'>Download</a> page."
+msgstr "此软件的源码和二进制包在<a href='%s'>下载</a>页面."
+
+#: ../cnt/cnt_screenshots.php:44
+msgid "The software is written in C++ and uses the excellent wxWindows cross platform toolkit."
+msgstr "此软件是用 C++ 和非常好的 wxWindows 跨平台工具写的."
+
+#: ../cnt/cnt_screenshots.php:194
+msgid "The tool displays execution times of queries."
+msgstr "此工具显示查询执行的时间."
+
+#: ../cnt/cnt_translation.php:52
+msgid "The updated translations are published in daily snapshots automatically."
+msgstr "更新的翻译将自动和每日快照一起发布."
+
+#: ../cnt/cnt_development.php:46
+msgid "There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development."
+msgstr "不保证这些包一定正常运行: 用来给测试和开发的."
+
+#: ../cnt/cnt_screenshots.php:136
+msgid "This makes learning SQL more easy..."
+msgstr "这使得学习 SQL 变得更容易..."
+
+#: ../cnt/cnt_development.php:39
+#: ../cnt/cnt_download.php:220
+msgid "This page is available in English only."
+msgstr "此页只显示英语."
+
+#: ../cnt/cnt_development.php:60
+#: ../cnt/cnt_development.php:74
+msgid "This section is available in English only."
+msgstr "此章节只显示英语."
+
+#: ../cnt/cnt_screenshots.php:178
+msgid "This technical choice allows to browse very large tables without problem."
+msgstr "允许选择浏览非常大的表, 没有任何问题."
+
+#: ../cnt/cnt_translation.php:39
+#, c-format
+msgid "This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."
+msgstr "此网页也可以使用 <a href='%s'>pgadmin3_website.pot</a> 文件翻译."
+
+#: ../cnt/cnt_development.php:27
+#: ../cnt/cnt_support.php:11
+#, c-format
+msgid "To subscribe to the mailing list, send an email to %s with the word 'subscribe', without quotes, as the body of message."
+msgstr "如要订阅邮件列表, 发送一封带 'subscribe' 字样为消息正文的电子邮件到 %s,不需要引号."
+
+#: ../cnt/cnt_development.php:8
+#: ../cnt/cnt_development.php:72
+msgid "Todo list"
+msgstr "TODO 列表"
+
+#: ../class/pgadmin_po.php:244
+msgid "Total"
+msgstr "总计"
+
+#: ../cnt/cnt_translation.php:47
+msgid "Translate the text and send us the *.po file."
+msgstr "翻译文本并且把 *.po 文件发送给我们."
+
+#: ../class/pgadmin_po.php:245
+msgid "Translated"
+msgstr "已翻译"
+
+#: ../cnt/cnt_index.php:144
+#: ../cnt/cnt_translation.php:28
+#: ../tpl/menu.php:34
+msgid "Translation"
+msgstr "翻译"
+
+#: ../cnt/cnt_translation.php:72
+msgid "Translation howto"
+msgstr "翻译帮助"
+
+#: ../cnt/cnt_translation.php:63
+#, c-format
+msgid "Translations in progress (%d languages)"
+msgstr "翻译进度 (%d 种语言)"
+
+#: ../cnt/cnt_index.php:96
+#: ../cnt/cnt_screenshots.php:119
+msgid "Trigger function"
+msgstr "触发器函数"
+
+#: ../cnt/cnt_index.php:97
+#: ../cnt/cnt_screenshots.php:120
+msgid "Types"
+msgstr "类型"
+
+#: ../class/pgadmin_po.php:246
+msgid "Untranslated"
+msgstr "未翻译"
+
+#: ../cnt/cnt_screenshots.php:4
+#: ../cnt/cnt_screenshots.php:56
+msgid "User interface"
+msgstr "用户接口"
+
+#: ../cnt/cnt_index.php:98
+#: ../cnt/cnt_screenshots.php:121
+msgid "Users"
+msgstr "用户"
+
+#: ../cnt/cnt_index.php:62
+msgid "Very fast datagrid for display/entry of data"
+msgstr "非常快的显示/录入数据的数据格"
+
+#: ../cnt/cnt_screenshots.php:265
+msgid "View the status of PostgreSQL server."
+msgstr "查看 PostgreSQL 服务器的状态."
+
+#: ../cnt/cnt_index.php:99
+#: ../cnt/cnt_screenshots.php:122
+msgid "Views"
+msgstr "视图"
+
+#: ../cnt/cnt_index.php:146
+#, c-format
+msgid "We need help to translate pgAdmin3 and our website in more than %d languages."
+msgstr "我们需要帮助, 把 pgAdmin3 和我们的网页翻译成超过 %d 种语言."
+
+#: ../cnt/cnt_translation.php:37
+msgid "We need your help to translate pgAdmin3 into several languages."
+msgstr "我们需要你的帮助, 把 pgAdmin3 翻译成多种不同的语言."
+
+#: ../cnt/cnt_screenshots.php:247
+#, c-format
+msgid "We plan to reach %d languages soon."
+msgstr "我们计划即将到 %d 种语言."
+
+#: ../cnt/cnt_screenshots.php:47
+msgid "We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows 2000 & XP. MacOsX and SunOS ports are in preparation."
+msgstr "我们为 GNU/Linux, FreeBSD 和 MS Windows 2000 & XP 提供源码和二进制包. MacOsX 和 SunOS 的移植准备中."
+
+#: ../cnt/cnt_index.php:15
+msgid "We would like to thank our developer and translator community who contributed to the project."
+msgstr "我们非常感谢那些参与项目的开发人员和翻译人员."
+
+#: ../cnt/cnt_screenshots.php:79
+msgid "When configured server-side, it is possible to connect using encrypted password or SSL authentication."
+msgstr "当配置了服务端, 联接可能使用加密口令或 SSL 认证."
+
+#: ../cnt/cnt_screenshots.php:63
+msgid "With the help and suggestions of users, we have been constantly improving the usability of pgAdmin."
+msgstr "在用户的帮助及建议下, 我们已经不断的提高 pgAdmin 的可用性."
+
+#: ../cnt/cnt_download.php:218
+#: ../cnt/cnt_index.php:25
+msgid "With the rapid advancement of the project, we recommand upgrading to pgAdmin3."
+msgstr "虽着项目的快速发展, 我们建议升级到 pgAdmin3."
+
+#: ../cnt/cnt_development.php:26
+#, c-format
+msgid "You are more than welcome to subscribe, but please remember to use <a href='%s'>pgadmin-support</a> list for end user support issues."
+msgstr "欢迎订阅, 但是请记住使用 <a href='%s'>pgadmin-support</a> 列表给最终用户支持, 解决问题."
+
+#: ../cnt/cnt_screenshots.php:205
+msgid "You will soon notice that PostgreSQL is the fastest database available."
+msgstr "你将注意到 PostgreSQL 是最快的数据库."
+
+#: ../cnt/cnt_download.php:12
+msgid "pgAdmin  is available in source and binary format."
+msgstr "pgAdmin 有源码和二进制格式的."
+
+#: ../cnt/cnt_download.php:35
+#: ../cnt/cnt_download.php:41
+#: ../cnt/cnt_download.php:47
+#: ../cnt/cnt_download.php:53
+#: ../cnt/cnt_download.php:59
+#: ../cnt/cnt_download.php:65
+#: ../cnt/cnt_download.php:71
+#, c-format
+msgid "pgAdmin binary packages for %s"
+msgstr "%s 下的 pgAdmin 的二进制包"
+
+#: ../cnt/cnt_index.php:133
+msgid "pgAdmin is a project created and managed by contributors from the whole world."
+msgstr "pgAdmin 是来自全世界的参与者创建和管理的."
+
+#: ../cnt/cnt_screenshots.php:62
+#, c-format
+msgid "pgAdmin is used by more than %d users worldwide."
+msgstr "pgAdmin 在全世界的用户超过 %d 名."
+
+#: ../cnt/cnt_download.php:21
+msgid "pgAdmin location on mirror"
+msgstr "在镜像站点上 pgAdmin 的位置"
+
+#: ../cnt/cnt_screenshots.php:61
+msgid "pgAdmin project started five years ago."
+msgstr "pgAdmin 项目开始于 5 年前."
+
+#: ../cnt/cnt_download.php:29
+msgid "pgAdmin source code"
+msgstr "pgAdmin 源代码"
+
+#: ../cnt/cnt_development.php:15
+msgid "pgAdmin source code is available subject to the terms of the Artistic Licence."
+msgstr "pgAdmin 源代码是基于艺术 (Artistic) 许可协议下的."
+
+#: ../cnt/cnt_download.php:210
+#, c-format
+msgid "pgAdmin source code is signed using <a href='%s'>Dave Page PGP key</a>."
+msgstr "pgAdmin 源代码的签名使用了 <a href='%s'>Dave Page PGP key</a>."
+
+#: ../cnt/cnt_download.php:217
+msgid "pgAdmin2 is available for Ms Windows only."
+msgstr "pgAdmin2 只有 Ms Windows 平台下的."
+
+#: ../cnt/cnt_index.php:23
+msgid "pgAdmin2 is still supported"
+msgstr "仍支持 pgAdmin2"
+
+#: ../cnt/cnt_download.php:215
+msgid "pgAdmin2 stable"
+msgstr "pgAdmin2 稳定版本"
+
+#: ../cnt/cnt_download.php:3
+#: ../cnt/cnt_download.php:10
+msgid "pgAdmin3 beta"
+msgstr "pgAdmin3 beta 版本"
+
+#: ../cnt/cnt_index.php:12
+msgid "pgAdmin3 beta released"
+msgstr "pgAdmin3 beta 发布了"
+
+#: ../cnt/cnt_screenshots.php:76
+msgid "pgAdmin3 can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library."
+msgstr "pgAdmin3 使用 libpq 函数库能够联接任何 PostgreSQL 7.3/7.4 数据库."
+
+#: ../cnt/cnt_screenshots.php:221
+msgid "pgAdmin3 includes PostgreSQL full documentation."
+msgstr "pgAdmin3 包括完整的 PostgreSQL 文档."
+
+#: ../cnt/cnt_screenshots.php:156
+msgid "pgAdmin3 includes a table editor."
+msgstr "pgAdmin3 包括一个表编辑器."
+
+#: ../cnt/cnt_screenshots.php:246
+#, c-format
+msgid "pgAdmin3 interface is translated in more than %d languages."
+msgstr "pgAdmin3 的接口的翻译超过 %d 种语言."
+
+#: ../cnt/cnt_screenshots.php:248
+msgid "pgAdmin3 interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic."
+msgstr "pgAdmin3 的接口支持所有已知的 Unicode 脚本, 甚至包括阿拉伯从右到左 (RTL) 的脚本."
+
+#: ../cnt/cnt_screenshots.php:43
+msgid "pgAdmin3 is a comprehensive design and management interface for PostgreSQL database, designed to run on most Operating Systems."
+msgstr "pgAdmin3 是为 PostgreSQL 数据库做的一个广泛的设计和管理接口, 被设计在大多数操作系统平台上运行."
+
+#: ../cnt/cnt_index.php:17
+msgid "pgAdmin3 is a free software project released under the Artistic licence."
+msgstr "pgAdmin3 是基于艺术 (Artistic) 许可证下的自由软件项目."
+
+#: ../cnt/cnt_index.php:16
+#, c-format
+msgid "pgAdmin3 is the result of a joint effort of a team of more than %d contributors from %d different countries."
+msgstr "pgAdmin3 是来自 %2$d 个不同国家超过 %1$d 名参与者团队的共通努力的结果."
+
+#: ../cnt/cnt_screenshots.php:237
+msgid "pgAdmin3 supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte encodings."
+msgstr "pgAdmin3 支持大多数 PostgreSQL 服务端的编码, 包括 Unicode UTF-8 和其它一些多字节编码."
+
+#: ../cnt/cnt_index.php:111
+msgid "pgAdmin3 supports most PostgreSQL server-side encodings:"
+msgstr "pgAdmin3 支持大多数 PostgreSQL 服务端的编码:"
+
+#: ../cnt/cnt_index.php:54
+#, c-format
+msgid "pgAdmin3 user interface is translated in more than %d languages."
+msgstr "pgAdmin3 的用户接口已经翻译了超过 %d 种语言."
+
+#: ../cnt/cnt_development.php:25
+msgid "pgadmin-hackers list is intended for developers who whish to contribute to pgAdmin project."
+msgstr "pgadmin-hackers 是用来给那些想加入到 pgAdmin 项目中来的开发者的列表."
+
+#: ../cnt/cnt_development.php:23
+msgid "pgadmin-hackers mailing list"
+msgstr "pgadmin-hackers 邮件列表"
+
+#: ../cnt/cnt_support.php:10
+msgid "pgadmin-support is a support list intended for end user support and bug reports."
+msgstr "pgadmin-support 是用来给最终用户支持和臭虫报告的列表."
+
+#: ../cnt/cnt_support.php:8
+msgid "pgadmin-support mailing list"
+msgstr "pgadmin-support 邮件列表"
+

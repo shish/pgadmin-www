@@ -30,15 +30,17 @@
 <dd>
      <?php  echo sprintf(_("pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."), $translated->getNbLanguages());?>
      <?php  echo _("In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language.");?>
-     <?php  echo sprintf(_("Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section and copy it into your ui directory."), "#published");?>
-     <?php  echo sprintf(_("You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox.<BR>"), "http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/pgadmin3/src/ui/pgadmin3.lng?rev=HEAD&content-type=text/lng");?>
+     <?php  echo sprintf(_("Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section, create a subdirectory in your installation's ui directory with a name corresponding to the locale code,  and copy the new translation file into that directory."), "#published");?>
+     <?php  echo sprintf(_("You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox."), "http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/pgadmin3/src/ui/pgadmin3.lng?rev=HEAD&content-type=text/lng");?>
+     <br>
 </dd>
 <h1 id="contribute"><?php echo _("Contribute a translation");?></h1>
   <dd>
-    <?php echo _("We need your help to translate pgAdmin III into several languages.");?>
+    <?php echo _("We need your help to translate pgAdmin III into additional languages.");?>
     <?php echo _("Everyone can participate, please refer to the translation howto for more information.");?>
     <?php echo sprintf(_("This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."), "locale/pgadmin3_website.pot");?>
     <?php echo sprintf(_("If you are interested in the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."), "http://webmail.postgresql.org/~petere/nls.php");?>
+    <br>
   </dd>
 
 
@@ -46,9 +48,10 @@
   <dd>
   	<?php echo _("If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command.");?>
     <?php echo _("Translate the text and send us the *.po file.");?>
-
+  <br>
   <dd>
   	<?php echo _("If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator.");?>
+        <br>
   </dd>
 
   <dd>
@@ -57,6 +60,7 @@
   </dd>
 
   <dd><?php echo _("The updated translations are published in daily snapshots automatically.");?>
+  <br>
   </dd>
 
     <?php

@@ -201,7 +201,7 @@
     <dt><?php echo  sprintf(_("Packager: %s"), "Dave Page");?></dt>
 
   <dd>
-    <?php echo sprintf(_("pgAdmin packages are available for GNU/Linux Slackware %s."), "9.0");?>
+    <?php echo sprintf(_("pgAdmin packages are available for %s."), "GNU/Linux Slackware 9.0");?>
   </dd>
 
   <dd>
@@ -297,7 +297,7 @@
     <dt><?php echo  sprintf(_("Packager: %s"), "Andreas Pflug");?></dt>
 
     <dd>
-      <?php echo sprintf(_("pgAdmin packages are available for MS Windows %s."), "2000/XP");?>
+      <?php echo sprintf(_("pgAdmin packages are available for %s."), "MS Windows 2000/XP");?>
     </dd>
   <dd>
         <?php echo sprintf(_("Download pgAdmin package from our <a href='%s'>mirrors</a>."), "#mirrors");?>

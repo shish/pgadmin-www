@@ -11,7 +11,6 @@
 
 .LHS {
   direction: rtl;
-  unicode-bidi: bidi-override;
   margin-top: 0;
   margin-right: 5;
   margin-bottom: 0px;
@@ -23,7 +22,6 @@
 
 .RHS {
   direction: rtl;
-  unicode-bidi: bidi-override;
   margin-top: 0;
  margin-right: 15mm;
     margin-bottom: 0px;
@@ -40,7 +38,6 @@
 
 body {
   direction: rtl;
-  unicode-bidi: bidi-override;
   background-color: white;
   color: black;
   font-size: 95%;
@@ -51,7 +48,6 @@ body {
 
 h1, h2, h3 {
   direction: rtl;
-  unicode-bidi: bidi-override;
 }
 
 h1 {
@@ -87,20 +83,17 @@ code {
 
 dt {
   direction: rtl;
-  unicode-bidi: bidi-override;
   font-weight: bold;
 
 }
 
 dd {
   direction: rtl;
-  unicode-bidi: bidi-override;
   padding-bottom: 1.5em;
 }
 
 #bodyText {
   direction: rtl;
-  unicode-bidi: bidi-override;
   text-align: justify;
   line-height: 1.5em;
   #margin: 10mm 5mm 0 14em;
@@ -110,13 +103,11 @@ dd {
 
 #bodyText p {
   direction: rtl;
-  unicode-bidi: bidi-override;
   padding-bottom: 2ex;
 }
 
 #bodyText a {
   direction: rtl;
-  unicode-bidi: bidi-override;
   text-decoration: none;
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -124,7 +115,6 @@ dd {
 
 #bodyText a:hover {
   direction: rtl;
-  unicode-bidi: bidi-override;
   border-bottom: none;
 }
 
@@ -141,7 +131,6 @@ dd {
 
 .smallCaps {
   direction: rtl;
-  unicode-bidi: bidi-override;
   font-variant: small-caps;
 }
 
@@ -150,7 +139,6 @@ dd {
 
 #header {
   direction: rtl;
-  unicode-bidi: bidi-override;
   border-top-style: solid;
   border-bottom-style: solid;
   border-top-width: 1px;
@@ -163,23 +151,19 @@ dd {
 
 .headerTitle {
   direction: rtl;
-  unicode-bidi: bidi-override;
   border: none;
 }
 
 .menuBar {
   direction: rtl;
-  unicode-bidi: bidi-override;
 }
 
 .locBar {
   direction: rtl;
-  unicode-bidi: bidi-override;
 }
 
 .menuBar *, .locBar * {
   direction: rtl;
-  unicode-bidi: bidi-override;
   text-decoration: none;
   font-weight: bold;
   padding-left: 1ex;
@@ -188,7 +172,6 @@ dd {
 
 .menuBar a:hover, .locBar a:hover {
   direction: rtl;
-  unicode-bidi: bidi-override;
   text-decoration: underline;
 }
 
@@ -197,7 +180,6 @@ dd {
 
 .sideBox {
   direction: rtl;
-  unicode-bidi: bidi-override;
   border-style: solid none solid none;
   border-width: 2px 0 2px 0;
   width: 11em;
@@ -206,7 +188,6 @@ dd {
 
 .sideBox div {
   direction: rtl;
-  unicode-bidi: bidi-override;
   font-weight: bold;
   border-bottom-style: dashed;
   border-bottom-width: 1px;
@@ -215,7 +196,6 @@ dd {
 
 .sideBox a, .sideBox a:hover, .sideBox span {
   direction: rtl;
-  unicode-bidi: bidi-override;
   color: black;
   text-decoration: none;
   line-height: 1.25em;
@@ -225,7 +205,6 @@ dd {
 
 .sideBox .thisPage {
   direction: rtl;
-  unicode-bidi: bidi-override;
   font-weight: bold;
 }
 

@@ -389,8 +389,12 @@
           --enable-unicode --disable-shared --enable-debug --enable-mimetype=no<br/>
           make<br/>
       		sudo make install<br/><br/>
-          # <?php echo _("Install wxWindows STC (Styled Text Control).");?><br/>
+          # <?php echo _("Install wxWidgets STC (Styled Text Control).");?><br/>
           cd contrib/src/stc<br/>
+      		make<br/>
+      		sudo make install<br/><br/>
+          # <?php echo _("Install wxWidgets OGL (Object Graphics Library).");?><br/>
+          cd ../ogl<br/>
       		make<br/>
       		sudo make install<br/><br/>
         </td></tr>
@@ -411,10 +415,14 @@
           ../configure --with-mac --disable-shared --enable-debug<br/>
           make<br/>
           sudo make install<br/><br/>
-					# <?php echo _("Install wxWindows STC (Styled Text Control).");?><br/>
+					# <?php echo _("Install wxWidgets STC (Styled Text Control).");?><br/>
           cd contrib/src/stc/<br/>
           make<br/>
           sudo make install<br/><br/>
+          # <?php echo _("Install wxWidgets OGL (Object Graphics Library).");?><br/>
+          cd ../ogl<br/>
+      		make<br/>
+      		sudo make install<br/><br/>
         </td></tr>
       </table>
 		</ul>
@@ -476,12 +484,9 @@
 
     <h1 id="mirrors"><?php echo _("Download mirrors")?></h1>
   <dd>
-    <?php echo _("pgAdmin III can be downloaded from a large number of mirrors.")?>
-    <?php echo sprintf(_("The mirrors are kindly provided by <a href='%s'>PostgreSQL</a> project."), "http://www.postgresql.org")?><br>
-  </dd>
-
-  <dd>
-    <?php include_once ("cnt/cnt_mirrors.php"); ?>
+    <?php echo sprintf(_('pgAdmin III can be downloaded from a <a href="%s">large number of mirrors</a>.'), 'http://www.postgresql.org/ftp/pgadmin3/')?>
+    
+    <?php echo sprintf(_('The mirrors are kindly provided by the <a href="%s">PostgreSQL</a> project.'), 'http://www.postgresql.org/')?><br>
   </dd>
 
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>

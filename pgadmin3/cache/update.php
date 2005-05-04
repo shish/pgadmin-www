@@ -6,10 +6,10 @@
     $outofdate = new po_status();
 
     $translated->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-    $translated->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
+    $translated->setSvnRoot($_SERVER["DOCUMENT_ROOT"]."/svnrepo");
 
     $outofdate->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-    $outofdate->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
+    $outofdate->setSvnRoot($_SERVER["DOCUMENT_ROOT"]."/svnrepo");
 
     require_once "../cnt/cnt_translation_status.php";
 

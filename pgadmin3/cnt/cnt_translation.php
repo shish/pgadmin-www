@@ -4,10 +4,10 @@
   $outofdate = new po_status();
 
   $translated->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-  $translated->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
+  $translated->setSvnRoot($_SERVER["DOCUMENT_ROOT"]."/svnrepo");
 
   $outofdate->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
-  $outofdate->setCvsRoot($_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3");
+  $outofdate->setSvnRoot($_SERVER["DOCUMENT_ROOT"]."/svnrepo");
 
   $_cache_translated = "cache/cache_translated.txt";
   $_cache_outofdate     = "cache/cache_outofdate.txt";
@@ -31,7 +31,7 @@
      <?php  echo sprintf(_("pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."), $translated->getNbLanguages() + $outofdate->getNbLanguages());?>
      <?php  echo _("In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language.");?>
      <?php  echo sprintf(_("Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section, create a subdirectory in your installation's ui directory with a name corresponding to the locale code,  and copy the new translation file into that directory."), "#published");?>
-     <?php  echo sprintf(_("You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox."), "http://cvs.pgadmin.org/cgi-bin/viewcvs.cgi/pgadmin3/src/ui/pgadmin3.lng?rev=HEAD&content-type=text/lng");?>
+     <?php  echo sprintf(_("You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox."), "http://svn.pgadmin.org/cgi-bin/viewcvs.cgi/*checkout*/trunk/pgadmin3/src/ui/pgadmin3.lng");?>
      <br>
 </dd>
 <h1 id="contribute"><?php echo _("Contribute a translation");?></h1>

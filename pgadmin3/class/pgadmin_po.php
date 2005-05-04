@@ -5,7 +5,7 @@
 //
 
 class po_status {
-	var $_cvsroot;
+	var $_svnrepo;
 	var $_webroot;
 	var $_content = array();
 	var $_size = 0;
@@ -57,16 +57,16 @@ class po_status {
 		$this->_webroot = $_webroot;
   }
 
-  function setCvsRoot ($_cvsroot) {
-    if (file_exists($_cvsroot."/CVS/Repository")) {
-	$this->_cvsroot = $_cvsroot;
+  function setSvnRoot ($_svnrepo) {
+    if (file_exists($_svnrepo."/.svn/format")) {
+	$this->_svnrepo = $_svnrepo;
     } else {
-    	$this->_error = "Error: $_cvsroot is not a CVS repository.";
+    	$this->_error = "Error: $_svnrepo is not a Subversion repository.";
     }
   }
 
   function getLanguageTemplate() {
-    return "../" .str_replace ($this->_webroot ."/", "", $this->_cvsroot) . "/pgadmin3.pot";
+    return "../" .str_replace ($this->_webroot ."/", "", $this->_svnrepo) . "/pgadmin3.pot";
   }
   
   function getLanguageTotal() {
@@ -88,15 +88,15 @@ class po_status {
     $this->_content['pot_path'][$this->_size]  = "unused";      //$_pot_path;
 
     $_pot_stat = array();
-    $_pot_stat = $this->getStatistics ($this->_cvsroot . "/pgadmin3.pot");
+    $_pot_stat = $this->getStatistics ($this->_svnrepo . "/pgadmin3.pot");
     $this->_content['pot_total'][$this->_size] = $_pot_stat['total'];
 
     $this->_content['po_name'][$this->_size]   = "unused";      //$_po_name;
     $this->_content['po_path'][$this->_size]   = "unused";      // $_po_path;
 
     $_po_stat = array();
-    $_po_stat = $this->getStatistics ($this->_cvsroot . "/src/ui/" . $_locale . "/pgadmin3.po");
-  
+    $_po_stat = $this->getStatistics ($this->_svnrepo . "/src/ui/" . $_locale . "/pgadmin3.po");
+
     $this->_content['po_total'][$this->_size]        = $_po_stat['total'];
 
     $this->_content['po_translated'][$this->_size]   = $_po_stat['translated'];
@@ -285,8 +285,8 @@ class po_status {
 
       $_mo_name  = $_locale . "/pgadmin3.mo";
       $_po_name  = $_locale . "/pgadmin3.po";
-      $_mo_path = "../" .str_replace ($this->_webroot ."/", "", $this->_cvsroot) . "/src/ui/" . $_locale . "/pgadmin3.mo";
-      $_po_path = "../" .str_replace ($this->_webroot ."/", "", $this->_cvsroot) . "/src/ui/" . $_locale . "/pgadmin3.po";
+      $_mo_path = "../" .str_replace ($this->_webroot ."/", "", $this->_svnrepo) . "/src/ui/" . $_locale . "/pgadmin3.mo";
+      $_po_path = "../" .str_replace ($this->_webroot ."/", "", $this->_svnrepo) . "/src/ui/" . $_locale . "/pgadmin3.po";
 
       $_result = $_result . "<tr bgcolor=$_colour>" .
       "<td>$_locale</td>" .
@@ -308,7 +308,7 @@ class po_status {
   	$_pathinfo = pathinfo($_po_file_path);
     $_dir      = $_pathinfo["dirname"];
 
-    $_command = "cd $_dir; export LANGUAGE=en_US; /usr/local/bin/msgfmt --statistics $_po_file_path 2>&1";
+    $_command = "cd $_dir; export LANGUAGE=en_US; /usr/bin/msgfmt --statistics $_po_file_path 2>&1";
     $_command_result = shell_exec ($_command);
 
     // echo $_command_result."<br>";

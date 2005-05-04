@@ -9,7 +9,7 @@
 
 <div id="bodyText">
 
-  <h1 id="cvs"><?php echo _("SVN access");?></h1>
+  <h1 id="svn"><?php echo _("SVN access");?></h1>
   <dd>
   	<?php echo _("pgAdmin III is available subject to the terms of the Artistic Licence.");?>
     <?php echo sprintf(_("pgAdmin III is developed using a Subversion or SVN repository to hold the source code. Access to the repository is available through a <a href='%s'>web interface</a> or using your favourite SVN client."), "http://svn.pgadmin.org");?>
@@ -111,7 +111,7 @@
    <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
       <tr><td>
     <?php echo _("This section is available in English only.");?><br><br>
-    <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
+    <?php echo _("The information displayed is extracted automatically from pgAdmin SVN.");?>
     <?php
     	$_file=$_SERVER["DOCUMENT_ROOT"]."/svnrepo/CHANGELOG.txt";
     	if (file_exists($_file)) {

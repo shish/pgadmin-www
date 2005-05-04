@@ -1,6 +1,6 @@
 <div class="sideBox LHS">
   <div><?php echo _("Development");?></div>
-  <a href="#cvs">&rsaquo; <?php echo _("CVS access");?></a>
+  <a href="#svn">&rsaquo; <?php echo _("SVN access");?></a>
   <a href="#dev_list">&rsaquo; <?php echo _("Mailing list");?></a>
   <a href="#team">&rsaquo; <?php echo _("Development team");?></a>
   <a href="#todo">&rsaquo; <?php echo _("Todo list")?></a>
@@ -9,21 +9,18 @@
 
 <div id="bodyText">
 
-  <h1 id="cvs"><?php echo _("CVS access");?></h1>
+  <h1 id="cvs"><?php echo _("SVN access");?></h1>
   <dd>
   	<?php echo _("pgAdmin III is available subject to the terms of the Artistic Licence.");?>
-    <?php echo sprintf(_("CVS access to the repository is available through a <a href='%s'>web interface</a> or using your favourite CVS client."), "http://cvs.pgadmin.org");?>
-    <?php echo _("Anonymous read access is available using a CVS client.");?>
-    <?php echo sprintf(_("Under Windows, we recommend using <a href='%s'>WinCVS</a>, which is a free software."), "http://www.wincvs.org");?>
+    <?php echo sprintf(_("pgAdmin III is developed using a Subversion or SVN repository to hold the source code. Access to the repository is available through a <a href='%s'>web interface</a> or using your favourite SVN client."), "http://svn.pgadmin.org");?>
+    <?php echo _("Anonymous read access is available using an SVN client.");?>
+    <?php echo sprintf(_("Under Windows, we recommend using <a href='%s'>TortoiseSVN</a>, which is a free software."), "http://www.tortoisesvn.org");?>
      <?php echo _("Under GNU/Linux, there are several command line and graphical clients available.");?>
-     <?php echo _("The required command lines needed for checkout are as follows:");?>
+     <?php echo _("The commands needed for checkout are as follows:");?>
       <br><br>
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
         <tr><td>
-          CVSROOT=:pserver:anonymous@cvs.pgadmin.org:/projects<br>
-          export CVSROOT<br>
-          cvs login<br>
-          cvs -z9 checkout pgadmin3<br>
+          svn co svn://svn.pgadmin.org/trunk/pgadmin3 pgadmin3<br>
           cd pgadmin3<br>
           sh bootstrap
         </td></tr>
@@ -98,9 +95,9 @@
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
       <tr><td>
     <?php echo _("This section is available in English only.");?><br><br>
-    <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
+    <?php echo _("The information displayed is extracted automatically from pgAdmin SVN.");?>
     <?php
-    	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/TODO.txt";
+    	$_file=$_SERVER["DOCUMENT_ROOT"]."/svnrepo/TODO.txt";
     	if (file_exists($_file)) {
       	echo ("<br><br>");
     		include_once ($_file);
@@ -116,7 +113,7 @@
     <?php echo _("This section is available in English only.");?><br><br>
     <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
     <?php
-    	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/CHANGELOG.txt";
+    	$_file=$_SERVER["DOCUMENT_ROOT"]."/svnrepo/CHANGELOG.txt";
     	if (file_exists($_file)) {
       	echo ("<br><br>");
     		include_once ($_file);

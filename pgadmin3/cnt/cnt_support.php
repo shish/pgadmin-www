@@ -33,9 +33,9 @@
   <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
       <tr><td>
     <?php echo _("This section is available in English only.");?><br><br>
-    <?php echo _("The information displayed is extracted automatically from pgAdmin CVS.");?>
+    <?php echo _("The information displayed is extracted automatically from the pgAdmin SVN.");?>
     <?php
-    	$_file=$_SERVER["DOCUMENT_ROOT"]."/cvsroot/pgadmin3/BUGS.txt";
+    	$_file=$_SERVER["DOCUMENT_ROOT"]."/svnrepo/BUGS.txt";
     	if (file_exists($_file)) {
         echo ("<br><br>");
     		include_once ($_file);

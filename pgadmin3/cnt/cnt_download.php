@@ -407,7 +407,7 @@
         <tr><td>
           # Warning: MacOsX port is completely experimental.<br/>
           # This information is intended for pgAdmin team only.<br/>
-          # Please checkout wxWindows and pgAdmin from CVS only.<br/>
+          # Please checkout wxWindows and pgAdmin from CVS/SVN only.<br/>
           # To coordinate efforts, please contact us on the mailing list<br/>
           <br/>
           # <?php echo _("Note - release builds should be configured without the --enable-debug option.");?><br/><br/>
@@ -462,7 +462,7 @@
 
       <h1 id="snapshots"><?php echo _("Installing pgAdmin III from binary snapshots");?></h1>
   <dd>
-    <?php echo sprintf(_("Binary snapshots are packages compiled from <a href='%s'>CVS</a> nearly everyday."), "development.php#cvs");?>
+    <?php echo sprintf(_("Binary snapshots are packages compiled from <a href='%s'>SVN</a> nearly everyday."), "development.php#svn");?>
     <?php echo _("There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development.");?>
     <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
     <?php echo _("Download pgAdmin III snapshots here:");?>

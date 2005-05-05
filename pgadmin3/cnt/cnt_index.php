@@ -22,7 +22,7 @@
   <br>
     </dd>
   <dd>
-  <?php echo _("pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the Artistic License.")?>
+  <?php echo sprintf(_("pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the <A HREF='%s'>Artistic License</A>."), "cnt/licence.txt");?>
 </dd>
 
 <h1 id="news"><?php echo _("Latest news");?></h1>

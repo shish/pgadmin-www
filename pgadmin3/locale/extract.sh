@@ -2,7 +2,6 @@ xgettext    -s --keyword=_ --language=C --output=pgadmin3_website.pot ../cnt/cnt
 xgettext -j -s --keyword=_ --language=C --output=pgadmin3_website.pot ../cnt/cnt_development.php
 xgettext -j -s --keyword=_ --language=C --output=pgadmin3_website.pot ../cnt/cnt_download.php
 xgettext -j -s --keyword=_ --language=C --output=pgadmin3_website.pot ../cnt/cnt_index.php
-xgettext -j -s --keyword=_ --language=C --output=pgadmin3_website.pot ../cnt/cnt_mirrors.php
 xgettext -j -s --keyword=_ --language=C --output=pgadmin3_website.pot ../cnt/cnt_screenshots.php
 xgettext -j -s --keyword=_ --language=C --output=pgadmin3_website.pot ../cnt/cnt_support.php
 xgettext -j -s --keyword=_ --language=C --output=pgadmin3_website.pot ../cnt/cnt_translation.php

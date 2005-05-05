@@ -75,7 +75,7 @@
   <h1 id="vacant"><?php echo sprintf(_("Out of date Translations (%d languages)"), $outofdate->getNbLanguages());?></h1>
   <dd>
 	<?php echo sprintf(_("The translations below are not considered complete enough for inclusion in current releases."));?>
-	<?php echo sprintf(_("If you like to continue the work, please don't hesitate to contact the current maintainer (please C pgadmin-hackers@pgadmin.org)!"));?>
+	<?php echo sprintf(_("If you like to continue the work, please don't hesitate to contact the current maintainer (please CC %s)!"), "pgsql-hackers@postgresql.org");?>
   <br>
   </dd>
     <?php

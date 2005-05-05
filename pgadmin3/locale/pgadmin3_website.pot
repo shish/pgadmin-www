@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-05-05 20:17+0200\n"
+"POT-Creation-Date: 2005-05-05 20:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,22 +170,6 @@ msgstr ""
 msgid ""
 "Before you start installation, please choose a mirror in the list of our <a "
 "href='%s'>mirrors</a>."
-msgstr ""
-
-#: ../cnt/cnt_beta.php:2
-msgid "Beta versions"
-msgstr ""
-
-#: ../cnt/cnt_beta.php:111
-msgid "Beta-1 of pgAdmin III V1.2 released"
-msgstr ""
-
-#: ../cnt/cnt_beta.php:77
-msgid "Beta-2 of pgAdmin III V1.2 released"
-msgstr ""
-
-#: ../cnt/cnt_beta.php:47
-msgid "Beta-3 of pgAdmin III V1.2 released"
 msgstr ""
 
 #: ../cnt/cnt_download.php:465
@@ -490,7 +474,7 @@ msgstr ""
 #: ../cnt/cnt_translation.php:78
 msgid ""
 "If you like to continue the work, please don't hesitate to contact the "
-"current maintainer (please C pgadmin-hackers@pgadmin.org)!"
+"current maintainer (please CC pgadmin-hackers@pgadmin.org)!"
 msgstr ""
 
 #: ../cnt/cnt_index.php:203
@@ -803,14 +787,6 @@ msgstr ""
 
 #: ../cnt/cnt_index.php:43
 msgid "Refencing/referenced objects for each object may be viewed."
-msgstr ""
-
-#: ../cnt/cnt_beta.php:10
-msgid "Release Candidate 2 of pgAdmin III V1.2 released"
-msgstr ""
-
-#: ../cnt/cnt_beta.php:26
-msgid "Release Candidate of pgAdmin III V1.2 released"
 msgstr ""
 
 #: ../cnt/cnt_download.php:342

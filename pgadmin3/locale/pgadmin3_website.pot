@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-05-05 20:25+0200\n"
+"POT-Creation-Date: 2005-05-05 20:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -472,9 +472,10 @@ msgid ""
 msgstr ""
 
 #: ../cnt/cnt_translation.php:78
+#, c-format
 msgid ""
 "If you like to continue the work, please don't hesitate to contact the "
-"current maintainer (please CC pgadmin-hackers@pgadmin.org)!"
+"current maintainer (please CC %s)!"
 msgstr ""
 
 #: ../cnt/cnt_index.php:203

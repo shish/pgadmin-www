@@ -31,7 +31,7 @@
      <?php  echo sprintf(_("pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."), $translated->getNbLanguages() + $outofdate->getNbLanguages());?>
      <?php  echo _("In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language.");?>
      <?php  echo sprintf(_("Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section, create a subdirectory in your installation's ui directory with a name corresponding to the locale code,  and copy the new translation file into that directory."), "#published");?>
-     <?php  echo sprintf(_("You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox."), "http://svn.pgadmin.org/cgi-bin/viewcvs.cgi/*checkout*/trunk/pgadmin3/src/ui/pgadmin3.lng");?>
+     <?php  echo sprintf(_("You might need to update the language description file from <A HREF='%s'>i18n/pgadmin3.lng</A> to let the new language appear in the language selection combobox."), "http://svn.pgadmin.org/cgi-bin/viewcvs.cgi/*checkout*/trunk/pgadmin3/i18n/pgadmin3.lng");?>
      <br>
 </dd>
 <h1 id="contribute"><?php echo _("Contribute a translation");?></h1>
@@ -111,7 +111,7 @@
     <br><br>
 
     <li>
-      Send us the English and translated names of your language: 'French' and 'Français', 'German"' and 'Deutsch', etc.. This will allow us to modify pgAdmin src/ui/pgadmin3.lng file to display the language name in pgAdmin. We will also create a directory according to your locale canonical name under /usr/share/pgadmin3/ui (GNU/Linux and other Unixes) or c:\program files\pgadmi3\ui (Win32). The list of language codes can be found on <a href='http://www.debian.org/international/l10n/po'>Debian site</a>. You also check the more detailed <a href='http://www.loc.gov/standards/iso639-2/englangn.html'>ISO 639.2 Codes for the Representation of Names of Languages</a>.
+      Send us the English and translated names of your language: 'French' and 'Français', 'German"' and 'Deutsch', etc.. This will allow us to modify pgAdmin i18n/pgadmin3.lng file to display the language name in pgAdmin. We will also create a directory according to your locale canonical name under /usr/share/pgadmin3/ui (GNU/Linux and other Unixes) or c:\program files\pgadmi3\ui (Win32). The list of language codes can be found on <a href='http://www.debian.org/international/l10n/po'>Debian site</a>. You also check the more detailed <a href='http://www.loc.gov/standards/iso639-2/englangn.html'>ISO 639.2 Codes for the Representation of Names of Languages</a>.
      <br><br>
 
   <li>
@@ -149,7 +149,7 @@
       <br><br>
 
     <li>Review your translation carefully. <br><br>
-      You should be able to add the appropriate ui/language_Country/pgadmin3.mo file under an existing binary installation of pgAdmin. Then, just select the language under the File -> Options menu. Review is an important step, because somes strings do not have a real context. You will only be able to correct entries by using pgAdmin yourself...
+      You should be able to add the appropriate i18n/language_Country/pgadmin3.mo file under an existing binary installation of pgAdmin. Then, just select the language under the File -> Options menu. Review is an important step, because somes strings do not have a real context. You will only be able to correct entries by using pgAdmin yourself...
     <br><br>
 
     <li>When the translation is finished and reviewed, send pgadmin3.po and pgadmin3.mo files to

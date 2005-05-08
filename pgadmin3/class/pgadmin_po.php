@@ -95,7 +95,7 @@ class po_status {
     $this->_content['po_path'][$this->_size]   = "unused";      // $_po_path;
 
     $_po_stat = array();
-    $_po_stat = $this->getStatistics ($this->_svnrepo . "/src/ui/" . $_locale . "/pgadmin3.po");
+    $_po_stat = $this->getStatistics ($this->_svnrepo . "/i18n/" . $_locale . "/pgadmin3.po");
 
     $this->_content['po_total'][$this->_size]        = $_po_stat['total'];
 
@@ -285,8 +285,8 @@ class po_status {
 
       $_mo_name  = $_locale . "/pgadmin3.mo";
       $_po_name  = $_locale . "/pgadmin3.po";
-      $_mo_path = "../" .str_replace ($this->_webroot ."/", "", $this->_svnrepo) . "/src/ui/" . $_locale . "/pgadmin3.mo";
-      $_po_path = "../" .str_replace ($this->_webroot ."/", "", $this->_svnrepo) . "/src/ui/" . $_locale . "/pgadmin3.po";
+      $_mo_path = "../" .str_replace ($this->_webroot ."/", "", $this->_svnrepo) . "/i18n/" . $_locale . "/pgadmin3.mo";
+      $_po_path = "../" .str_replace ($this->_webroot ."/", "", $this->_svnrepo) . "/i18n/" . $_locale . "/pgadmin3.po";
 
       $_result = $_result . "<tr bgcolor=$_colour>" .
       "<td>$_locale</td>" .

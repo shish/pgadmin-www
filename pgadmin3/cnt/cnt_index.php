@@ -27,6 +27,13 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
+  [2005-03-29]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.2.1");?></dt>
+  <dd>
+    <?php echo _("A new release of pgAdmin is available, including bug fixes for some problems that have been reported by users.");?>
+    <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."), "development.php#changelog");?>
+  </dd>
+</dl>
+<dl>
   [2004-12-01] <dt> <?php echo sprintf(_("pgAdmin III %s released"), "v1.2.0");?></dt>
   <dd>
     <?php echo _(" The pgAdmin Development Team are proud to announce the release of pgAdmin III v1.2.0. This is a major new release of pgAdmin following a year of development work by various contributors."); ?>

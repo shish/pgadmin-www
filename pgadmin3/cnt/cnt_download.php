@@ -31,7 +31,13 @@
     <dd>
           <ul>
 		<li>
-		<?php echo _("For Debian WOODY:");?>
+		<?php echo _("For Debian Woody (oldstable):");?>
+		<br/>
+		We don't support this Debian version anymore. However you can refer to <a href="http://www.backports.org/"> for the latest version we've packaged for Debian/woody.
+		<br/>
+
+		<li>
+		<?php echo _("For Debian Sarge (stable):");?>
 		<br/>
 		<?php echo ("An APT repository is provided to ease installation.");?>
 		<?php echo sprintf(_("Before you start installation, please choose a mirror in the list of our <a href='%s'>mirrors</a>."), "#mirrors");?>
@@ -56,19 +62,19 @@
             <br/>
             <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
               <tr><td>
-                deb [MIRROR URL]/pgadmin3/release/debian woody pgadmin
+                deb [MIRROR URL]/pgadmin3/release/debian sarge pgadmin
               </td></tr>
             </table>
 	    <?php echo _("For example, for France, you can try:");?>
             <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
               <tr><td>
-		deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian woody pgadmin
+		deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian sarge pgadmin
               </td></tr>
             </table>
 	    <br/>
 
             <li>
-            <?php echo _("For Debian TESTING:");?>
+            <?php echo _("For Debian Etch (testing):");?>
 	    <br/>
 	    <?php echo ("An APT repository is provided to ease installation.");?>
       <?php echo sprintf(_("Before you start installation, please choose a mirror in the list of our <a href='%s'>mirrors</a>."), "#mirrors");?>
@@ -105,9 +111,10 @@
 		<br/>
 	    
             <li>
-            <?php echo _("For Debian UNSTABLE:");?>
+            <?php echo _("For Debian Sid (unstable):");?>
 	    <br/>
 	    <?php echo _("pgAdmin III is published on the official Debian Unstable repository.");?>
+	    However, from time to time unstable may become broken, you can try to check for packages from our mirrors as described above for Debian/testing. You only need to change testing to unstable in the sources.list lines.
             <br/>
 	</ul>
     </dd>
@@ -353,7 +360,7 @@
             <?php echo _("Microsoft Visual C++ 6.0 or newer.")?>
         </ul>
 
-    	<li><?php echo sprintf(_("wxWidgets %s."), "2.5.3")?>
+    	<li><?php echo sprintf(_("wxWidgets %s."), "2.6.0")?>
         <?php echo _("Currently, this is the only version we support.")?>
 
 

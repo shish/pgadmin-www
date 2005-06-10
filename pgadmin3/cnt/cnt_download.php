@@ -33,7 +33,7 @@
 		<li>
 		<?php echo _("For Debian Woody (oldstable):");?>
 		<br/>
-		We don't support this Debian version anymore. However you can refer to <a href="http://www.backports.org/"> for the latest version we've packaged for Debian/woody.
+		We don't support this Debian version anymore. However you can refer to <a href="http://www.backports.org/">www.backports.org</a> for the latest version we've packaged for Debian/woody.
 		<br/>
 
 		<li>

@@ -139,7 +139,7 @@
         <dt><?php echo  sprintf(_("Packager: %s"), "<a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> / <a href='mailto:devrim@gunduz.org'>Devrim Gündüz</a> ");?></dt>
 
         <dd>
-            <?php echo _("pgAdmin III RPM packages are available for several GNU/Linux distributions from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
+            <?php echo sprintf(_("pgAdmin III RPM packages are available for several GNU/Linux distributions from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
         </dd>
 
         <dd>
@@ -161,7 +161,7 @@
         <dt><?php echo  sprintf(_("Packager: %s"), "Dave Page");?></dt>
 
         <dd>
-            <?php echo _("pgAdmin III packages for Slackware 9.0, 9.1 & -current are available from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
+            <?php echo sprintf(_("pgAdmin III packages for Slackware 9.0, 9.1 & -current are available from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
         </dd>
 
         <dd>
@@ -176,7 +176,7 @@
     <dl>
         <dt><?php echo  sprintf(_("Packager: %s"), "斉藤　浩 (Hiroshi Saito)");?></dt>
         <dd>
-            <?php echo _("pgAdmin III packages for FreeBSD are available from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
+            <?php echo sprintf(_("pgAdmin III packages for FreeBSD are available from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
         </dd>
 
         <dd>

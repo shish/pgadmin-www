@@ -232,7 +232,7 @@
     <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 
 
-    <h1 id="win32"><?php echo _("Mac OSX (Panther/Tiger)");?></h1>
+    <h1 id="osx"><?php echo _("Mac OSX (Panther/Tiger)");?></h1>
 
     <dl>
         <dt><?php echo  sprintf(_("Packager: %s"), "Adam H. Pendleton");?></dt><br />

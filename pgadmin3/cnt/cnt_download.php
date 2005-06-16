@@ -5,7 +5,7 @@
     <a href="#slackware">&rsaquo; <?php echo _("Slackware")?></a>
     <a href="#freebsd">&rsaquo; <?php echo _("FreeBSD")?></a>
     <a href="#win32">&rsaquo; <?php echo _("Ms Windows")?>
-    <a href="#osx">&rsaquo; <?php echo _("Mac OSX")?>
+    <a href="#osx">&rsaquo; <?php echo _("Mac OSX (Panther/Tiger)")?>
     <a href="#source">&rsaquo; <?php echo _("Installing pgAdmin III from source code")?></a>
     <a href="#snapshots">&rsaquo; <?php echo _("Installing pgAdmin III from binary snapshots");?></a>
     <a href="#languages">&rsaquo;<?php echo _("Additional languages")?></a>
@@ -13,7 +13,7 @@
 
 <div id="bodyText">
   <?php echo sprintf(_("pgAdmin III is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
-  <?php echo sprintf(_("The software is available in source and binary format from our <a href='%s'>mirrors</a>."), "#mirrors")?>
+  <?php echo sprintf(_("The software is available in source and binary format from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
   <?php echo sprintf(_("Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing binary packages."), "#source")?>
 
 
@@ -381,7 +381,7 @@
       <a href="http://www.pgadmin.org/snapshots/linux/suse82">SuSE 8.2</a>
       <br/>
       <li><a href="http://www.pgadmin.org/snapshots/freeBSD">FreeBSD 5.1</a><br/>
-      <li><a href="http://www.pgadmin.org/snapshots/win32">Microsoft Windows 2000 & XP</a><br/>
+      <li><a href="http://www.pgadmin.org/snapshots/win32">Microsoft Windows 2000 &amp; XP</a><br/>
     </ul>
     <?php echo sprintf(_("Please refer to our <a href='%s'>installation instructions</a>."), "#binaries");?>
   </dd>

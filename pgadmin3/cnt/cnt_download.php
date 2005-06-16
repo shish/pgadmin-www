@@ -20,7 +20,7 @@
   <h1 id="debian"><?php echo _("Debian packages")?></h1>
   <dl>
     <dt>
-      <?php echo  sprintf(_("Packager: %s"), "<a href='mailto:blacknoz@club-internet.fr'>Raphaël Enrici</A>");?>
+      <?php echo  sprintf(_("Packager: %s"), "<a href='mailto:blacknoz@club-internet.fr'>Raphaël Enrici</A>");?><br />
     </dt>
 
     <dd>
@@ -136,7 +136,7 @@
 
     <h1 id="rpm"><?php echo "RPM packages";?></h1>
     <dl>
-        <dt><?php echo  sprintf(_("Packager: %s"), "<a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> / <a href='mailto:devrim@gunduz.org'>Devrim Gündüz</a> ");?></dt>
+        <dt><?php echo  sprintf(_("Packager: %s"), "<a href='mailto:jm@poure.com'>Jean-Michel Pouré</a> / <a href='mailto:devrim@gunduz.org'>Devrim Gündüz</a> ");?></dt><br />
 
         <dd>
             <?php echo sprintf(_("pgAdmin III RPM packages are available for several GNU/Linux distributions from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
@@ -158,7 +158,7 @@
 
     <h1 id="slackware"><?php echo "Slackware packages";?></h1>
     <dl>
-        <dt><?php echo  sprintf(_("Packager: %s"), "Dave Page");?></dt>
+        <dt><?php echo  sprintf(_("Packager: %s"), "Dave Page");?></dt><br />
 
         <dd>
             <?php echo sprintf(_("pgAdmin III packages for Slackware 9.0, 9.1 & -current are available from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
@@ -174,7 +174,7 @@
     <h1 id="freebsd"><?php echo "FreeBSD packages";?></h1>
 
     <dl>
-        <dt><?php echo  sprintf(_("Packager: %s"), "斉藤　浩 (Hiroshi Saito)");?></dt>
+        <dt><?php echo  sprintf(_("Packager: %s"), "斉藤　浩 (Hiroshi Saito)");?></dt><br />
         <dd>
             <?php echo sprintf(_("pgAdmin III packages for FreeBSD are available from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
         </dd>
@@ -217,7 +217,7 @@
     <h1 id="win32"><?php echo _("MS Windows 2000 & XP");?></h1>
 
     <dl>
-        <dt><?php echo  sprintf(_("Packager: %s"), "Dave Page");?></dt>
+        <dt><?php echo  sprintf(_("Packager: %s"), "Dave Page");?></dt><br />
 
         <dd>
             <?php echo sprintf(_("pgAdmin III packages are available for %s from the <a href=\"%s\">PostgreSQL mirror network</a>."), "MS Windows 2000/XP", "http://www.postgresql.org/ftp/pgadmin3/release/");?>
@@ -235,14 +235,14 @@
     <h1 id="win32"><?php echo _("Mac OSX (Panther/Tiger)");?></h1>
 
     <dl>
-        <dt><?php echo  sprintf(_("Packager: %s"), "Adam H. Pendleton");?></dt>
+        <dt><?php echo  sprintf(_("Packager: %s"), "Adam H. Pendleton");?></dt><br />
 
         <dd>
             <?php echo sprintf(_("pgAdmin III packages are available for %s from the <a href=\"%s\">PostgreSQL mirror network</a>."), "Mac OSX (Panther/Tiger)", "http://www.postgresql.org/ftp/pgadmin3/release/");?>
         </dd>
 
         <dd>
-            <li><?php echo _("Double-click on the installer and follow the instructions.");?>
+            <li><?php echo _("The package is distributed as an app bundle, and should be installed in the normal way.");?>
         </dd>
     </dl>
     <a class="topOfPage" href="#top" title="Top Of Page">top</a>
@@ -250,7 +250,6 @@
   
   <h1 id="source"><?php echo _("Installing pgAdmin III from source code")?></h1>
   <dt><?php echo _("Requirements");?></dt>
-  <dd>
   	<ul>
       <li><?php echo _("A recent development environment.")?>
       	<ul>
@@ -265,12 +264,11 @@
 
     	<li><?php echo sprintf(_("wxWidgets %s."), "2.6.0")?>
         <?php echo _("Currently, this is the only version we support.")?>
-
+    
 
 
 			<li><?php echo sprintf(_("PostgreSQL %s with libpq for data access."), "7.3+") ?>
     </ul>
-  </dd>
 
   <dt><?php echo _("Installing wxWindows libraries");?></dt>
   <dd>

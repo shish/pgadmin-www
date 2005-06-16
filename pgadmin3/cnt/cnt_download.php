@@ -20,7 +20,7 @@
   <h1 id="debian"><?php echo _("Debian packages")?></h1>
   <dl>
     <dt>
-      <?php echo  sprintf(_("Packager: %s"), "<a href='mailto:blacknoz@club-internet.fr'>Raphaël Enrici</A>");?><br />
+      <?php echo  sprintf(_("Packager: %s"), "<a href='mailto:blacknoz@club-internet.fr'>Raphaël Enrici</A>");?><br /><br />
     </dt>
 
     <dd>

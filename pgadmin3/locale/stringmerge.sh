@@ -11,8 +11,8 @@
 #
 #######################################################################
 
-cd /home/jmpoure/projects/pgadmin/www/pgadmin3
-cvs update -C -P -d
+cd /var/www/www.pgadmin.org
+svn update
 cd locale
 if test -f pgadmin3_website.pot; then
 
@@ -23,9 +23,9 @@ if test -f pgadmin3_website.pot; then
     msgmerge --update pgadmin3_website.po ../../pgadmin3_website.pot
     echo "Compiling pgadmin3.mo"
     msgfmt -o pgadmin3_website.mo pgadmin3_website.po
-    echo "Committing changes to CVS."
-    cvs commit -m "Automatic merge using stringmerge script." pgadmin3_website.po
-    cvs commit -m "Automatic merge using stringmerge script." pgadmin3_website.mo
+    echo "Committing changes to SVN."
+    svn commit -m "Automatic merge using stringmerge script." pgadmin3_website.po
+    svn commit -m "Automatic merge using stringmerge script." pgadmin3_website.mo
     cd ../..
   done
 fi

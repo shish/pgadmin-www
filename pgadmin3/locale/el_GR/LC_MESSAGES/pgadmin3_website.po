@@ -1,67 +1,138 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-05-05 20:39+0200\n"
 "PO-Revision-Date: 2005-05-05 20:43+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../cnt/cnt_index.php:32
-msgid " The pgAdmin Development Team are proud to announce the release of pgAdmin III v1.2.0. This is a major new release of pgAdmin following a year of development work by various contributors."
+msgid ""
+" The pgAdmin Development Team are proud to announce the release of pgAdmin "
+"III v1.2.0. This is a major new release of pgAdmin following a year of "
+"development work by various contributors."
 msgstr ""
 
 #: ../cnt/cnt_advocacy.php:82
-msgid "<Char_Desc_2000>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. Available in more than 30 languages and for several operating systems, including MS Windows, GNU/Linux and FreeBSD.</Char_Desc_2000>"
-msgstr "<Char_Desc_2000>Δωρεάν πρόγραμμα διαχείρισης της βάσης δεδομένων PostgreSQL. Περιλαμβάνει γραφικό περιβάλλον διαχείρισης, εργαλείο δημιουργίας και εκτέλεσης SQL εντολών, επεξεργαστή κώδικα διαδικασιών (procedural code editor) και πολλά ακόμη εργαλεία. Το pgAdmin III έχει σχεδιαστεί για να ικανοποιήσει τις ανάγκες όλων των χρηστών, από αυτούς που εκτελούν απλές SQL εντολές έως αυτούς που αναπτύσουν πολύπλοκες βάσεις δεδομένων. Το γραφικό περιβάλλον υποστηρίζει όλα τα χαρακτηριστικά της PostgreSQL και κάνει τη διαχείρισή της εύκολη. Είναι διαθέσιμο σε περισσότερες από 30 γλώσσες και για αρκετά λειτουργικά συστήματα, συμπερλιμβανομένων των MS Windows, GNU/Linux και FreeBSD.</Char_Desc_2000>"
+msgid ""
+"<Char_Desc_2000>Free Administration Centre for the PostgreSQL database. "
+"Includes a graphical administration interface, an SQL query tool, a "
+"procedural code editor and much more. pgAdmin III is designed to answer the "
+"needs of most users, from writing simple SQL queries to developing complex "
+"databases. The graphical interface supports all PostgreSQL features and "
+"makes administration easy. Available in more than 30 languages and for "
+"several operating systems, including MS Windows, GNU/Linux and FreeBSD.</"
+"Char_Desc_2000>"
+msgstr ""
+"<Char_Desc_2000>Δωρεάν πρόγραμμα διαχείρισης της βάσης δεδομένων PostgreSQL. "
+"Περιλαμβάνει γραφικό περιβάλλον διαχείρισης, εργαλείο δημιουργίας και "
+"εκτέλεσης SQL εντολών, επεξεργαστή κώδικα διαδικασιών (procedural code "
+"editor) και πολλά ακόμη εργαλεία. Το pgAdmin III έχει σχεδιαστεί για να "
+"ικανοποιήσει τις ανάγκες όλων των χρηστών, από αυτούς που εκτελούν απλές SQL "
+"εντολές έως αυτούς που αναπτύσουν πολύπλοκες βάσεις δεδομένων. Το γραφικό "
+"περιβάλλον υποστηρίζει όλα τα χαρακτηριστικά της PostgreSQL και κάνει τη "
+"διαχείρισή της εύκολη. Είναι διαθέσιμο σε περισσότερες από 30 γλώσσες και "
+"για αρκετά λειτουργικά συστήματα, συμπερλιμβανομένων των MS Windows, GNU/"
+"Linux και FreeBSD.</Char_Desc_2000>"
 
 #: ../cnt/cnt_advocacy.php:78
-msgid "<Char_Desc_250>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. Designed to answer the needs of most users.</Char_Desc_250>"
-msgstr "<Char_Desc_250>Δωρεάν πρόγραμμα διαχείρισης για την βάση δεδομένων PostgreSQL. Περιλαμβάνει γραφικό περιβάλλον διαχείρισης, εργαλείο δημιουργίας και εκτέλεσης SQL εντολών, και πολλά ακόμη εργαλεία. Έχει σχεδιασθεί για να ικανοποιήσει τις ανάγκες των περισσότερων χρηστών.</Char_Desc_250>"
+msgid ""
+"<Char_Desc_250>Free Administration Centre for the PostgreSQL database. "
+"Includes a graphical administration interface, an SQL query tool, a "
+"procedural code editor and much more. Designed to answer the needs of most "
+"users.</Char_Desc_250>"
+msgstr ""
+"<Char_Desc_250>Δωρεάν πρόγραμμα διαχείρισης για την βάση δεδομένων "
+"PostgreSQL. Περιλαμβάνει γραφικό περιβάλλον διαχείρισης, εργαλείο "
+"δημιουργίας και εκτέλεσης SQL εντολών, και πολλά ακόμη εργαλεία. Έχει "
+"σχεδιασθεί για να ικανοποιήσει τις ανάγκες των περισσότερων χρηστών.</"
+"Char_Desc_250>"
 
 #: ../cnt/cnt_advocacy.php:80
-msgid "<Char_Desc_450>Free Administration Centre for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. Available in more than 30 languages and for several operating systems.</Char_Desc_450>"
-msgstr "<Char_Desc_450>Δωρεάν πρόγραμμα διαχείρισης της βάσης δεδομένων PostgreSQL. Περιλαμβάνει γραφικό περιβάλλον διαχείρισης, εργαλείο δημιουργίας και εκτέλεσης SQL εντολών, επεξεργαστή κώδικα διαδικασιών (procedural code editor) και πολλά ακόμη εργαλεία. Το pgAdmin III έχει σχεδιαστεί για να ικανοποιήσει τις ανάγκες όλων των χρηστών, από αυτούς που εκτελούν απλές SQL εντολές έως αυτούς που αναπτύσουν πολύπλοκες βάσεις δεδομένων. Είναι διαθέσιμο σε περισσότερες από 30 γλώσσες και για αρκετά λειτουργικά συστήματα, συμπερλιμβανομένων των MS Windows, GNU/Linux και FreeBSD.</Char_Desc_450>"
+msgid ""
+"<Char_Desc_450>Free Administration Centre for the PostgreSQL database. "
+"Includes a graphical administration interface, an SQL query tool, a "
+"procedural code editor and much more. pgAdmin III is designed to answer the "
+"needs of most users, from writing simple SQL queries to developing complex "
+"databases. Available in more than 30 languages and for several operating "
+"systems.</Char_Desc_450>"
+msgstr ""
+"<Char_Desc_450>Δωρεάν πρόγραμμα διαχείρισης της βάσης δεδομένων PostgreSQL. "
+"Περιλαμβάνει γραφικό περιβάλλον διαχείρισης, εργαλείο δημιουργίας και "
+"εκτέλεσης SQL εντολών, επεξεργαστή κώδικα διαδικασιών (procedural code "
+"editor) και πολλά ακόμη εργαλεία. Το pgAdmin III έχει σχεδιαστεί για να "
+"ικανοποιήσει τις ανάγκες όλων των χρηστών, από αυτούς που εκτελούν απλές SQL "
+"εντολές έως αυτούς που αναπτύσουν πολύπλοκες βάσεις δεδομένων. Είναι "
+"διαθέσιμο σε περισσότερες από 30 γλώσσες και για αρκετά λειτουργικά "
+"συστήματα, συμπερλιμβανομένων των MS Windows, GNU/Linux και FreeBSD.</"
+"Char_Desc_450>"
 
 #: ../cnt/cnt_advocacy.php:74
 msgid "<Char_Desc_45>Administration Centre for PostgreSQL</Char_Desc_45>"
-msgstr "<Char_Desc_45>Πρόγραμμα διαχείρισης για τη βάση δεδομένων PostgreSQL</Char_Desc_45>"
+msgstr ""
+"<Char_Desc_45>Πρόγραμμα διαχείρισης για τη βάση δεδομένων PostgreSQL</"
+"Char_Desc_45>"
 
 #: ../cnt/cnt_advocacy.php:76
-msgid "<Char_Desc_80>Free Administration Centre for the PostgreSQL database</Char_Desc_80>"
-msgstr "<Char_Desc_80>Δωρεάν πρόγραμμα διαχείρισης της βάσης δεδομένων PostgreSQL.</Char_Desc_80>"
+msgid ""
+"<Char_Desc_80>Free Administration Centre for the PostgreSQL database</"
+"Char_Desc_80>"
+msgstr ""
+"<Char_Desc_80>Δωρεάν πρόγραμμα διαχείρισης της βάσης δεδομένων PostgreSQL.</"
+"Char_Desc_80>"
 
 #: ../cnt/cnt_screenshots.php:196
 msgid "A data grid allows to insert, modify and drop data easily."
-msgstr "Το πλέγμα-πίνακας επιτρέπει την εισαγωγή, αλλαγή και διαγραφή των δεδομένων εύκολα."
+msgstr ""
+"Το πλέγμα-πίνακας επιτρέπει την εισαγωγή, αλλαγή και διαγραφή των δεδομένων "
+"εύκολα."
 
-#: ../cnt/cnt_index.php:117
-#: ../cnt/cnt_screenshots.php:271
+#: ../cnt/cnt_index.php:117 ../cnt/cnt_screenshots.php:271
 #, c-format
-msgid "A detailed list of supported languages is available on the <a href='%s'>Translation</a> page."
-msgstr "Λεπτομερής λίστα των υποστηριζόμενων γλωσσών είναι διαθέσιμη από τη σελίδα των <a href='%s'>Μεταφράσεων</a>"
+msgid ""
+"A detailed list of supported languages is available on the <a href='%"
+"s'>Translation</a> page."
+msgstr ""
+"Λεπτομερής λίστα των υποστηριζόμενων γλωσσών είναι διαθέσιμη από τη σελίδα "
+"των <a href='%s'>Μεταφράσεων</a>"
 
 #: ../cnt/cnt_screenshots.php:153
-msgid "A double-click in the navigation tree opens the selected object in a separate dialog."
-msgstr "Το διπλό κλικ στη δενδιρκή δομή των αντικειμένων ανοίγει το επιλεγμένο αντικείμενο σε ξεχωριστό διάλογο."
+msgid ""
+"A double-click in the navigation tree opens the selected object in a "
+"separate dialog."
+msgstr ""
+"Το διπλό κλικ στη δενδιρκή δομή των αντικειμένων ανοίγει το επιλεγμένο "
+"αντικείμενο σε ξεχωριστό διάλογο."
 
 #: ../cnt/cnt_index.php:68
-msgid "A new release of pgAdmin is available, including bug fixes for some problems that have been reported by users."
-msgstr "Μια νέα έκδοση του pgAdmin είναι διαθέσιμη, και περιέχει λύσεις σε προβλήματα που αναφέρθηκαν από τους χρήστες."
+msgid ""
+"A new release of pgAdmin is available, including bug fixes for some problems "
+"that have been reported by users."
+msgstr ""
+"Μια νέα έκδοση του pgAdmin είναι διαθέσιμη, και περιέχει λύσεις σε "
+"προβλήματα που αναφέρθηκαν από τους χρήστες."
 
 #: ../cnt/cnt_screenshots.php:208
 msgid "A query tool with colour syntax highlight allows to run custom queries."
-msgstr "Το εργαλέιο δημιουργίας και εκτέλεσης των query που χρωματίζει τον κώδικα, σας δίνει τη δυνατότητα να εκτελέσετε πολύπλοκα query."
+msgstr ""
+"Το εργαλέιο δημιουργίας και εκτέλεσης των query που χρωματίζει τον κώδικα, "
+"σας δίνει τη δυνατότητα να εκτελέσετε πολύπλοκα query."
 
 #: ../cnt/cnt_download.php:345
 msgid "A recent development environment."
 msgstr "Ένα σύγχρονο περιβάλλον ανάπτυξης."
 
 #: ../cnt/cnt_screenshots.php:213
-msgid "A running query can be cancelled on the fly by clicking on the red square button."
-msgstr "Το query που εκτελείτε μπορεί να ακυρωθεί αμέσως κάνοντας κλικ στο κόκκινο τετράγωνο."
+msgid ""
+"A running query can be cancelled on the fly by clicking on the red square "
+"button."
+msgstr ""
+"Το query που εκτελείτε μπορεί να ακυρωθεί αμέσως κάνοντας κλικ στο κόκκινο "
+"τετράγωνο."
 
 #: ../cnt/cnt_screenshots.php:67
 msgid "A short guided tour of the interface:"
@@ -79,22 +150,26 @@ msgstr ""
 msgid "Added the ability to control local database services."
 msgstr ""
 
-#: ../cnt/cnt_download.php:11
-#: ../cnt/cnt_download.php:494
+#: ../cnt/cnt_download.php:11 ../cnt/cnt_download.php:494
 msgid "Additional languages"
 msgstr "Επιπλέον γλώσσες"
 
-#: ../cnt/cnt_advocacy.php:2
-#: ../tpl/menu.php:35
+#: ../cnt/cnt_advocacy.php:2 ../tpl/menu.php:35
 msgid "Advocacy"
 msgstr "Προώθηση"
 
 #: ../cnt/cnt_index.php:75
-msgid "After one year of development, we are happy to announce the availability of pgAdmin III, a complete rewrite of pgAdmin II for Ms Windows, GNU/Linux and FreeBSD."
-msgstr "Μετά από ένα χρόνο ανάπτυξης, είμαστε στην ευχάριστη θέση να ανακοινώσουμε τη διαθεσιμότητα του pgAdmin III, μιας εντελώς καινούργιας εφαρμογής σε σχέση με το pgAdmin II που είναι διαθέσιμη για τα Ms Windows, GNU/Linux και FreeBSD."
+msgid ""
+"After one year of development, we are happy to announce the availability of "
+"pgAdmin III, a complete rewrite of pgAdmin II for Ms Windows, GNU/Linux and "
+"FreeBSD."
+msgstr ""
+"Μετά από ένα χρόνο ανάπτυξης, είμαστε στην ευχάριστη θέση να ανακοινώσουμε "
+"τη διαθεσιμότητα του pgAdmin III, μιας εντελώς καινούργιας εφαρμογής σε "
+"σχέση με το pgAdmin II που είναι διαθέσιμη για τα Ms Windows, GNU/Linux και "
+"FreeBSD."
 
-#: ../cnt/cnt_index.php:136
-#: ../cnt/cnt_screenshots.php:102
+#: ../cnt/cnt_index.php:136 ../cnt/cnt_screenshots.php:102
 msgid "Aggregates"
 msgstr "Σύνολα"
 
@@ -104,12 +179,15 @@ msgstr "Ανώνυμη πρόσβαση είναι διαθέσιμη χρησι
 
 #: ../cnt/cnt_index.php:79
 msgid "As usual your feedback is highly appreciated and required."
-msgstr "Να μας ενημερώνετε για  ό,τι έχει να κάνει με τη λειτουργία του προγράμματος."
+msgstr ""
+"Να μας ενημερώνετε για  ό,τι έχει να κάνει με τη λειτουργία του προγράμματος."
 
 #: ../cnt/cnt_download.php:438
 #, c-format
 msgid "Authenticate source code using <a href='%s'>Dave Page's PGP key.</a>"
-msgstr "Κάντε έλεγχο αυθεντικότητας του πηγαίου κώδικα χρησιμοποιώντας το <a href='%s'>PGP κλειδί του Dave Page.</a>"
+msgstr ""
+"Κάντε έλεγχο αυθεντικότητας του πηγαίου κώδικα χρησιμοποιώντας το <a href='%"
+"s'>PGP κλειδί του Dave Page.</a>"
 
 #: ../class/pgadmin_po.php:255
 msgid "Author"
@@ -117,52 +195,70 @@ msgstr "Συγγραφέας"
 
 #: ../cnt/cnt_download.php:17
 #, c-format
-msgid "Because compiling from <a href='%s'>source</a> requires technical knowledge, we recommand installing binary packages."
-msgstr "Επειδή το να κάνετε μεταγλώτισση από τον <a href='%s'>πηγαίο κώδικα</a> απαιτεί τεχνικές γνώσεις, συστήνουμε η εγκατάσταση να γίνεται χρησιμοποιώντας τα εκτελέσιμα αρχεία εγκατάστασης (binary)."
+msgid ""
+"Because compiling from <a href='%s'>source</a> requires technical knowledge, "
+"we recommand installing binary packages."
+msgstr ""
+"Επειδή το να κάνετε μεταγλώτισση από τον <a href='%s'>πηγαίο κώδικα</a> "
+"απαιτεί τεχνικές γνώσεις, συστήνουμε η εγκατάσταση να γίνεται "
+"χρησιμοποιώντας τα εκτελέσιμα αρχεία εγκατάστασης (binary)."
 
 #: ../cnt/cnt_download.php:467
-msgid "Because compiling from source requires technical knowledge, we recommand using binary packages."
-msgstr "Επειδή το να κάνετε μεταγλώτισση από τον πηγαίο κώδικα απαιτεί τεχνικε΄ς γνώσεις, συστήνουμε να χρησιμοποιήσετε τα δυαδικά προγράμματα εγκατάστασης (binaries)."
+msgid ""
+"Because compiling from source requires technical knowledge, we recommand "
+"using binary packages."
+msgstr ""
+"Επειδή το να κάνετε μεταγλώτισση από τον πηγαίο κώδικα απαιτεί τεχνικε΄ς "
+"γνώσεις, συστήνουμε να χρησιμοποιήσετε τα δυαδικά προγράμματα εγκατάστασης "
+"(binaries)."
 
-#: ../cnt/cnt_download.php:37
-#: ../cnt/cnt_download.php:74
+#: ../cnt/cnt_download.php:37 ../cnt/cnt_download.php:74
 #, c-format
-msgid "Before you start installation, please choose a mirror in the list of our <a href='%s'>mirrors</a>."
-msgstr "Πριν ξεκινήσετε την εγκατάσταση, επιλέξτε κάποιο mirror από τη λίστα των <a href='%s'>mirror</a> μας."
+msgid ""
+"Before you start installation, please choose a mirror in the list of our <a "
+"href='%s'>mirrors</a>."
+msgstr ""
+"Πριν ξεκινήσετε την εγκατάσταση, επιλέξτε κάποιο mirror από τη λίστα των <a "
+"href='%s'>mirror</a> μας."
 
 #: ../cnt/cnt_download.php:465
 #, c-format
-msgid "Binary snapshots are packages compiled from <a href='%s'>SVN</a> nearly everyday."
-msgstr "Δυαδικά εκτελέσιμα αρχεία (binaries) είναι τα πακέτα που μεταγλωτίζονται από τα αρχείου πηγαίου κώδικα του <a href='%s'>SVN</a> σχεδόν κάθε μέρα"
+msgid ""
+"Binary snapshots are packages compiled from <a href='%s'>SVN</a> nearly "
+"everyday."
+msgstr ""
+"Δυαδικά εκτελέσιμα αρχεία (binaries) είναι τα πακέτα που μεταγλωτίζονται από "
+"τα αρχείου πηγαίου κώδικα του <a href='%s'>SVN</a> σχεδόν κάθε μέρα"
 
-#: ../cnt/cnt_index.php:137
-#: ../cnt/cnt_screenshots.php:103
+#: ../cnt/cnt_index.php:137 ../cnt/cnt_screenshots.php:103
 msgid "Casts"
 msgstr "Casts"
 
-#: ../cnt/cnt_development.php:7
-#: ../cnt/cnt_development.php:110
+#: ../cnt/cnt_development.php:7 ../cnt/cnt_development.php:110
 msgid "Change log"
 msgstr "Αρχείο αλλαγών"
 
 #: ../cnt/cnt_download.php:292
 msgid "Check that pgAdmin III executable is in the path."
-msgstr "Ελέγξτε ότι το εκτελέσιμο αρχείο του pgAdmin III είναι στο μονοπάτι (path)."
+msgstr ""
+"Ελέγξτε ότι το εκτελέσιμο αρχείο του pgAdmin III είναι στο μονοπάτι (path)."
 
 #: ../cnt/cnt_screenshots.php:212
 msgid "Click on the green arrow button to run a query."
-msgstr "Κάντε κλικ στο κουμπί με το πράσινο βελάκι για να εκτελέσετε ένα query."
+msgstr ""
+"Κάντε κλικ στο κουμπί με το πράσινο βελάκι για να εκτελέσετε ένα query."
 
 #: ../cnt/cnt_screenshots.php:168
 msgid "Column data types can be modified in certain conditions."
-msgstr "Οι τύποι δεδομένων των πεδίων μπορούν να τροποποιηθούν υπό συγκεκριμένες προϋποθέσεις."
+msgstr ""
+"Οι τύποι δεδομένων των πεδίων μπορούν να τροποποιηθούν υπό συγκεκριμένες "
+"προϋποθέσεις."
 
 #: ../cnt/cnt_index.php:42
 msgid "Column statistics are now supported."
 msgstr ""
 
-#: ../cnt/cnt_index.php:138
-#: ../cnt/cnt_screenshots.php:104
+#: ../cnt/cnt_index.php:138 ../cnt/cnt_screenshots.php:104
 msgid "Columns"
 msgstr "Πεδία"
 
@@ -174,18 +270,15 @@ msgstr "Τα πεδία μπορεί να απορριφθούν (dropped)."
 msgid "Compile pgAdmin III."
 msgstr "Μεταγλώτιση του pgAdmin III."
 
-#: ../cnt/cnt_index.php:139
-#: ../cnt/cnt_screenshots.php:105
+#: ../cnt/cnt_index.php:139 ../cnt/cnt_screenshots.php:105
 msgid "Constraints"
 msgstr "Constraints"
 
-#: ../cnt/cnt_translation.php:22
-#: ../cnt/cnt_translation.php:37
+#: ../cnt/cnt_translation.php:22 ../cnt/cnt_translation.php:37
 msgid "Contribute a translation"
 msgstr "Συνεισφέρετε μια μετάφραση"
 
-#: ../cnt/cnt_index.php:140
-#: ../cnt/cnt_screenshots.php:106
+#: ../cnt/cnt_index.php:140 ../cnt/cnt_screenshots.php:106
 msgid "Conversions"
 msgstr "Conversions"
 
@@ -195,14 +288,14 @@ msgstr ""
 
 #: ../cnt/cnt_download.php:283
 msgid "Create a symlink to pgAdmin III binary."
-msgstr "Δημιουργήστε συμβολικό σύνδεσμο (symlink) στο εκτελέσιμο του pgAdmin III."
+msgstr ""
+"Δημιουργήστε συμβολικό σύνδεσμο (symlink) στο εκτελέσιμο του pgAdmin III."
 
 #: ../cnt/cnt_download.php:357
 msgid "Currently, this is the only version we support."
 msgstr "Προς το παρών, είναι η μόνη έκδοση που υποστηρίζουμε."
 
-#: ../cnt/cnt_index.php:120
-#: ../cnt/cnt_screenshots.php:5
+#: ../cnt/cnt_index.php:120 ../cnt/cnt_screenshots.php:5
 #: ../cnt/cnt_screenshots.php:187
 msgid "Data access"
 msgstr "Πρόσβαση στα δεδομένα"
@@ -215,8 +308,7 @@ msgstr ""
 msgid "Database backup and restore."
 msgstr ""
 
-#: ../cnt/cnt_index.php:141
-#: ../cnt/cnt_screenshots.php:107
+#: ../cnt/cnt_index.php:141 ../cnt/cnt_screenshots.php:107
 msgid "Databases"
 msgstr "Βάσεις Δεδομένων"
 
@@ -232,12 +324,9 @@ msgstr "Debian"
 msgid "Debian packages"
 msgstr "Πακέτα του Debian"
 
-#: ../cnt/cnt_download.php:45
-#: ../cnt/cnt_download.php:82
-#: ../cnt/cnt_download.php:148
-#: ../cnt/cnt_download.php:221
-#: ../cnt/cnt_download.php:263
-#: ../cnt/cnt_download.php:324
+#: ../cnt/cnt_download.php:45 ../cnt/cnt_download.php:82
+#: ../cnt/cnt_download.php:148 ../cnt/cnt_download.php:221
+#: ../cnt/cnt_download.php:263 ../cnt/cnt_download.php:324
 msgid "Description"
 msgstr "Περιγραφή"
 
@@ -245,14 +334,11 @@ msgstr "Περιγραφή"
 msgid "Designed for PostgreSQL latest versions"
 msgstr "Σχεδιασμένο για τις τελευταίες εκδόσεις της PostgreSQL."
 
-#: ../cnt/cnt_development.php:2
-#: ../cnt/cnt_index.php:201
-#: ../tpl/menu.php:33
+#: ../cnt/cnt_development.php:2 ../cnt/cnt_index.php:201 ../tpl/menu.php:33
 msgid "Development"
 msgstr "Ανάπτυξη"
 
-#: ../cnt/cnt_development.php:5
-#: ../cnt/cnt_development.php:45
+#: ../cnt/cnt_development.php:5 ../cnt/cnt_development.php:45
 msgid "Development team"
 msgstr "Ομάδα ανάπτυξης"
 
@@ -272,17 +358,16 @@ msgstr "Μη διστάσετε να ξαναελέγξετε ή να ανανε
 msgid "Documentation"
 msgstr "Τεκμηρίωση"
 
-#: ../cnt/cnt_index.php:142
-#: ../cnt/cnt_screenshots.php:108
+#: ../cnt/cnt_index.php:142 ../cnt/cnt_screenshots.php:108
 msgid "Domains"
 msgstr "Domains"
 
 #: ../cnt/cnt_download.php:336
 msgid "Double-click on the installer and follow the instructions."
-msgstr "Κάντε διπλό κλικ στο πρόγραμμα εγκατάστασης και ακολουθήστε τις οδηγίες."
+msgstr ""
+"Κάντε διπλό κλικ στο πρόγραμμα εγκατάστασης και ακολουθήστε τις οδηγίες."
 
-#: ../cnt/cnt_download.php:2
-#: ../tpl/menu.php:36
+#: ../cnt/cnt_download.php:2 ../tpl/menu.php:36
 msgid "Download"
 msgstr "Download"
 
@@ -294,13 +379,11 @@ msgstr "Download πηγαίου κώδικα"
 msgid "Download Translation"
 msgstr "Download Μετάφρασης"
 
-#: ../cnt/cnt_download.php:10
-#: ../cnt/cnt_download.php:485
+#: ../cnt/cnt_download.php:10 ../cnt/cnt_download.php:485
 msgid "Download mirrors"
 msgstr "Mirror για Download"
 
-#: ../cnt/cnt_download.php:212
-#: ../cnt/cnt_download.php:254
+#: ../cnt/cnt_download.php:212 ../cnt/cnt_download.php:254
 #: ../cnt/cnt_download.php:315
 #, c-format
 msgid "Download pgAdmin III package from our <a href='%s'>mirrors</a>."
@@ -325,24 +408,37 @@ msgid "Download wxWidgets from the <a href='%s'>wxWidgets</a> download area."
 msgstr "Κατεβάστε το wxWidgets από την <a href='%s'>wxWidgets</a> περιοχή."
 
 #: ../cnt/cnt_screenshots.php:224
-msgid "EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique optimisation features."
-msgstr "Τρέχοντας τα EXPLAIN και/ή ANALYSE τα quer, σας επιτρέπουν να κάνετε χρήση των μοναδικών χαρακτηριστικών της PostgreSQL για βελτιστοποίηση."
+msgid ""
+"EXPLAIN and/or ANALYSE your queries to take advantage of PostgreSQL unique "
+"optimisation features."
+msgstr ""
+"Τρέχοντας τα EXPLAIN και/ή ANALYSE τα quer, σας επιτρέπουν να κάνετε χρήση "
+"των μοναδικών χαρακτηριστικών της PostgreSQL για βελτιστοποίηση."
 
-#: ../cnt/cnt_download.php:55
-#: ../cnt/cnt_download.php:92
+#: ../cnt/cnt_download.php:55 ../cnt/cnt_download.php:92
 msgid "Edit /etc/apt/sources.list file and add the following line:"
-msgstr "Επεξεργαστείτε το αρχείο /etc/apt/sources.list και προσθέστε την ακόλουθη γραμμή:"
+msgstr ""
+"Επεξεργαστείτε το αρχείο /etc/apt/sources.list και προσθέστε την ακόλουθη "
+"γραμμή:"
 
 #: ../cnt/cnt_screenshots.php:141
-msgid "Every time you manipulate objects graphically, pgAdmin III writes the corresponding SQL code."
-msgstr "Κάθε φορά που μεταχειρίζεστε τα αντικείμενα της βάσης δεδομένων από το γραφικό περιβάλλον, το pgAdmin III δημιουργεί και εκτελεί τον αντίστοιχο SQL κώδικα."
+msgid ""
+"Every time you manipulate objects graphically, pgAdmin III writes the "
+"corresponding SQL code."
+msgstr ""
+"Κάθε φορά που μεταχειρίζεστε τα αντικείμενα της βάσης δεδομένων από το "
+"γραφικό περιβάλλον, το pgAdmin III δημιουργεί και εκτελεί τον αντίστοιχο SQL "
+"κώδικα."
 
 #: ../cnt/cnt_translation.php:40
-msgid "Everyone can participate, please refer to the translation howto for more information."
-msgstr "Ο καθένας μπορεί να συμμετάσχει, παρακαλώ αναφερθείτε στο howto της μετάφρασης για περισσότερες πληροφορίες."
+msgid ""
+"Everyone can participate, please refer to the translation howto for more "
+"information."
+msgstr ""
+"Ο καθένας μπορεί να συμμετάσχει, παρακαλώ αναφερθείτε στο howto της "
+"μετάφρασης για περισσότερες πληροφορίες."
 
-#: ../cnt/cnt_index.php:6
-#: ../cnt/cnt_index.php:91
+#: ../cnt/cnt_index.php:6 ../cnt/cnt_index.php:91
 msgid "Features"
 msgstr "Χαρακτηριστικά"
 
@@ -360,26 +456,26 @@ msgstr "Για το Debian WOODY:"
 
 #: ../cnt/cnt_index.php:55
 #, c-format
-msgid "For a complete list of changes, please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."
-msgstr "Μπορείτε να επισκευθείτε το <a href='%s'>Αρχείο αλλαγών</a> του pgAdmin για να μάθετε για τις τελευταίες διορθώσεις."
+msgid ""
+"For a complete list of changes, please visit pgAdmin <a href='%s'>Change "
+"log</a> page to learn more about the latest fixes."
+msgstr ""
+"Μπορείτε να επισκευθείτε το <a href='%s'>Αρχείο αλλαγών</a> του pgAdmin για "
+"να μάθετε για τις τελευταίες διορθώσεις."
 
-#: ../cnt/cnt_download.php:62
-#: ../cnt/cnt_download.php:99
+#: ../cnt/cnt_download.php:62 ../cnt/cnt_download.php:99
 msgid "For example, for France, you can try:"
 msgstr "Π.χ, για τη Γαλλία μπορείτε να δοκιμάσετε:"
 
-#: ../cnt/cnt_download.php:6
-#: ../cnt/cnt_index.php:97
+#: ../cnt/cnt_download.php:6 ../cnt/cnt_index.php:97
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../cnt/cnt_support.php:3
-#: ../cnt/cnt_support.php:9
+#: ../cnt/cnt_support.php:3 ../cnt/cnt_support.php:9
 msgid "Frequently asked questions"
 msgstr "Συχνές ερωτήσεις (FAQ)"
 
-#: ../cnt/cnt_index.php:143
-#: ../cnt/cnt_screenshots.php:109
+#: ../cnt/cnt_index.php:143 ../cnt/cnt_screenshots.php:109
 msgid "Functions"
 msgstr "Functions"
 
@@ -399,18 +495,15 @@ msgstr "GNU/Linux"
 msgid "GNU/Linux, FreeBSD and other *nixes."
 msgstr "GNU/Linux, FreeBSD και άλλα *nix-οειδή."
 
-#: ../cnt/cnt_index.php:144
-#: ../cnt/cnt_screenshots.php:110
+#: ../cnt/cnt_index.php:144 ../cnt/cnt_screenshots.php:110
 msgid "Groups"
 msgstr "Groups"
 
-#: ../cnt/cnt_index.php:3
-#: ../tpl/menu.php:31
+#: ../cnt/cnt_index.php:3 ../tpl/menu.php:31
 msgid "Home"
 msgstr "Αρχική"
 
-#: ../cnt/cnt_index.php:7
-#: ../cnt/cnt_index.php:196
+#: ../cnt/cnt_index.php:7 ../cnt/cnt_index.php:196
 msgid "How to contribute"
 msgstr "Πώς να συνεισφέρετε"
 
@@ -419,77 +512,133 @@ msgid "Howto"
 msgstr "Howto"
 
 #: ../cnt/cnt_index.php:57
-msgid "I would like to take this opportunity to thank all the developers, testers, packagers and translators for their hard work over the last year."
+msgid ""
+"I would like to take this opportunity to thank all the developers, testers, "
+"packagers and translators for their hard work over the last year."
 msgstr ""
 
 #: ../cnt/cnt_translation.php:42
 #, c-format
-msgid "If you are interested in the translation of PostgreSQL server messages, please visit <a href='%s'>PostgreSQL National Language Support</a> project page."
-msgstr "Αν ενδιαφέρεστε για τη μετάφραση των μηνυμάτων του εξυπηρετητή PostgreSQL, επισκεφτείτε τη σελίδα της <a href='%s'>Υποστήριξης διεθνών γλωσσών PostgreSQL</a>."
+msgid ""
+"If you are interested in the translation of PostgreSQL server messages, "
+"please visit <a href='%s'>PostgreSQL National Language Support</a> project "
+"page."
+msgstr ""
+"Αν ενδιαφέρεστε για τη μετάφραση των μηνυμάτων του εξυπηρετητή PostgreSQL, "
+"επισκεφτείτε τη σελίδα της <a href='%s'>Υποστήριξης διεθνών γλωσσών "
+"PostgreSQL</a>."
 
 #: ../cnt/cnt_translation.php:53
-msgid "If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us with CC to the translator."
-msgstr "Αν δεν είστε ο δημιουργός/συντηρητής μιας μετάφρασης και ενδιαφέρεστε να προσφέρετε μια διόρθωση μετάφρασης: κατεβάστε το αρχείο γλώσσας (*.po extension), κάντε τις απαραίτητες διορθώσεις και στείλτε το πίσω σε εμάς στέλνοντας και ένα αντίγραφο στο μεταφραστή."
+msgid ""
+"If you are not the author/maintainer of a translation and wish to submit a "
+"translation fix: download the language file (*.po extension), make the "
+"necessary corrections and send it back to us with CC to the translator."
+msgstr ""
+"Αν δεν είστε ο δημιουργός/συντηρητής μιας μετάφρασης και ενδιαφέρεστε να "
+"προσφέρετε μια διόρθωση μετάφρασης: κατεβάστε το αρχείο γλώσσας (*.po "
+"extension), κάντε τις απαραίτητες διορθώσεις και στείλτε το πίσω σε εμάς "
+"στέλνοντας και ένα αντίγραφο στο μεταφραστή."
 
 #: ../cnt/cnt_translation.php:49
-msgid "If you are the author/maintainer of a translation and wish to update you work: download the template file (*.pot extension), execute poEdit and use the 'update from template' command."
-msgstr "Αν είστε ο δημιουργός/συντηρητής μιας μετάφρασης και ενδιαφέρεστε να ανανεώσετε τη μετάφραση: κατεβάστε το πρότυπο αρχείο γλώσσας (*.pot extension), εκτελέστε το poEdit και χρησιμοποιήστε την επιλογή \"update from template\"."
+msgid ""
+"If you are the author/maintainer of a translation and wish to update you "
+"work: download the template file (*.pot extension), execute poEdit and use "
+"the 'update from template' command."
+msgstr ""
+"Αν είστε ο δημιουργός/συντηρητής μιας μετάφρασης και ενδιαφέρεστε να "
+"ανανεώσετε τη μετάφραση: κατεβάστε το πρότυπο αρχείο γλώσσας (*.pot "
+"extension), εκτελέστε το poEdit και χρησιμοποιήστε την επιλογή \"update from "
+"template\"."
 
 #: ../cnt/cnt_translation.php:78
 #, fuzzy, c-format
-msgid "If you like to continue the work, please don't hesitate to contact the current maintainer (please CC %s)!"
-msgstr "Αν επιθυμείτε να συνεχίσετε την εργασία, μη διστάσετε να επικοινωνήσετε μαζί μας!"
+msgid ""
+"If you like to continue the work, please don't hesitate to contact the "
+"current maintainer (please CC %s)!"
+msgstr ""
+"Αν επιθυμείτε να συνεχίσετε την εργασία, μη διστάσετε να επικοινωνήσετε μαζί "
+"μας!"
 
 #: ../cnt/cnt_index.php:203
 #, c-format
-msgid "If you think you can contribute new features and/or bug fixes, please visit the <a href='%s'>Development</a> page."
-msgstr "Αν πιστεύετε ότι μπορείτε να συνεισφέρετε νέα χαρακτηριστικά ή/και διορθώσεις προβλημάτων, επισκευθείτε τη σελίδα <a href='%s'>Ανάπτυξης</a>."
+msgid ""
+"If you think you can contribute new features and/or bug fixes, please visit "
+"the <a href='%s'>Development</a> page."
+msgstr ""
+"Αν πιστεύετε ότι μπορείτε να συνεισφέρετε νέα χαρακτηριστικά ή/και "
+"διορθώσεις προβλημάτων, επισκευθείτε τη σελίδα <a href='%s'>Ανάπτυξης</a>."
 
 #: ../cnt/cnt_index.php:211
 #, c-format
-msgid "If you think you can help us, please visit the <a href='%s'>Translation</a> page."
-msgstr "Αν πιστεύετε ότι μπορείτε να μας βοηθήσετε, τότε επισκευθείτε τη σελίδα της<a href='%s'>Μετάφρασης</a>."
+msgid ""
+"If you think you can help us, please visit the <a href='%s'>Translation</a> "
+"page."
+msgstr ""
+"Αν πιστεύετε ότι μπορείτε να μας βοηθήσετε, τότε επισκευθείτε τη σελίδα "
+"της<a href='%s'>Μετάφρασης</a>."
 
 #: ../cnt/cnt_index.php:84
 #, c-format
-msgid "If you want to contribute to development, you can also use our <a href='%s'>daily snapshots</a> compiled almost everyday."
-msgstr "Αν θέλετε να συνεισφέρετε στην ανάπτυξη του προγράμματος, μπορείτε να χρησιμοποιήσετε τα <a href='%s'>καθημερινά snapshots</a> που μεταγλωτίζονται σχεδόν κάθε μέρα."
+msgid ""
+"If you want to contribute to development, you can also use our <a href='%"
+"s'>daily snapshots</a> compiled almost everyday."
+msgstr ""
+"Αν θέλετε να συνεισφέρετε στην ανάπτυξη του προγράμματος, μπορείτε να "
+"χρησιμοποιήσετε τα <a href='%s'>καθημερινά snapshots</a> που μεταγλωτίζονται "
+"σχεδόν κάθε μέρα."
 
 #: ../cnt/cnt_index.php:38
 msgid "Improved dialogue sizing based on font metrics."
 msgstr ""
 
 #: ../cnt/cnt_translation.php:32
-msgid "In case a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional language."
-msgstr "Σε περίπτωση που μια γλώσσα δεν περιλαμβάνεται στο πρόγραμμα που χρησιμοποιείτε, μπορείτε πολύ εύκολα να κάνετε αναβάθμιση εγκατάστασης για να υποστηρίζετε αυτή την επιπρόσθετη γλώσσα."
+msgid ""
+"In case a language you find here isn't included in your distribution "
+"package, you can easily upgrade your installation to support that additional "
+"language."
+msgstr ""
+"Σε περίπτωση που μια γλώσσα δεν περιλαμβάνεται στο πρόγραμμα που "
+"χρησιμοποιείτε, μπορείτε πολύ εύκολα να κάνετε αναβάθμιση εγκατάστασης για "
+"να υποστηρίζετε αυτή την επιπρόσθετη γλώσσα."
 
 #: ../cnt/cnt_support.php:12
-msgid "In case you encounter an unexpected behaviour, you should have a look at that page."
-msgstr "Αν συναντήσετε μη αναμενόμενη συμπεριφορά, τότε πρέπει να κοιτάξετε αυτή τη σελίδα."
+msgid ""
+"In case you encounter an unexpected behaviour, you should have a look at "
+"that page."
+msgstr ""
+"Αν συναντήσετε μη αναμενόμενη συμπεριφορά, τότε πρέπει να κοιτάξετε αυτή τη "
+"σελίδα."
 
 #: ../cnt/cnt_screenshots.php:45
 msgid "In every environment, pgAdmin III is a native application."
-msgstr "Το pgAdmin III είναι καθαρή-εγγενής (native) εφαρμογή σε κάθε πλατφόρμα."
+msgstr ""
+"Το pgAdmin III είναι καθαρή-εγγενής (native) εφαρμογή σε κάθε πλατφόρμα."
 
 #: ../cnt/cnt_index.php:204
 msgid "In particular, we need help for the upcoming MacOsX and SunOS ports."
-msgstr "Συγκεκριμένα, χρειαζόμαστε βοήθεια για τις επερχόμενες εκδόσεις των MacOsX and SunOS."
+msgstr ""
+"Συγκεκριμένα, χρειαζόμαστε βοήθεια για τις επερχόμενες εκδόσεις των MacOsX "
+"and SunOS."
 
 #: ../cnt/cnt_screenshots.php:93
-msgid "In the left pane of pgAdmin III, a navigation tree allow to browse database objects."
-msgstr "Στο αριστερό πλαίσιο του pgAdmin III, μια δεντρική δομή επιτρέπει την πλοήγηση στα αντικείμενα της βάσης δεδομένων."
+msgid ""
+"In the left pane of pgAdmin III, a navigation tree allow to browse database "
+"objects."
+msgstr ""
+"Στο αριστερό πλαίσιο του pgAdmin III, μια δεντρική δομή επιτρέπει την "
+"πλοήγηση στα αντικείμενα της βάσης δεδομένων."
 
-#: ../cnt/cnt_index.php:145
-#: ../cnt/cnt_screenshots.php:111
+#: ../cnt/cnt_index.php:145 ../cnt/cnt_screenshots.php:111
 msgid "Indexes"
 msgstr "Indexes"
 
 #: ../cnt/cnt_download.php:240
 msgid "Install the downloaded package using Slackware pkgtool or installpkg."
-msgstr "Εγκαταστήστε το πακέτο που κατεβάσατε χρησιμοποιώντας το Slackware pkgtool ή installpkg."
+msgstr ""
+"Εγκαταστήστε το πακέτο που κατεβάσατε χρησιμοποιώντας το Slackware pkgtool ή "
+"installpkg."
 
-#: ../cnt/cnt_download.php:191
-#: ../cnt/cnt_download.php:275
+#: ../cnt/cnt_download.php:191 ../cnt/cnt_download.php:275
 msgid "Install using the following command:"
 msgstr "Εγκατάσταση χρησιμοποιώντας την ακόλουθη εντολή:"
 
@@ -497,13 +646,11 @@ msgstr "Εγκατάσταση χρησιμοποιώντας την ακόλο�
 msgid "Installing pgAdmin III"
 msgstr "Η εγκατάσταση του pgAdmin III"
 
-#: ../cnt/cnt_download.php:9
-#: ../cnt/cnt_download.php:463
+#: ../cnt/cnt_download.php:9 ../cnt/cnt_download.php:463
 msgid "Installing pgAdmin III from binary snapshots"
 msgstr "Εγκαθιστώντας το pgAdmin III από τα έτοιμα binary πακέτα"
 
-#: ../cnt/cnt_download.php:8
-#: ../cnt/cnt_download.php:341
+#: ../cnt/cnt_download.php:8 ../cnt/cnt_download.php:341
 msgid "Installing pgAdmin III from source code"
 msgstr "Εγκατάσταση του pgAdmin III από τον πηγαίο κώδικα"
 
@@ -511,8 +658,7 @@ msgstr "Εγκατάσταση του pgAdmin III από τον πηγαίο κ�
 msgid "Installing wxWindows libraries"
 msgstr "Εγκαθιστώντας τις βιβλιοθήκες wxWindows"
 
-#: ../cnt/cnt_support.php:5
-#: ../cnt/cnt_support.php:31
+#: ../cnt/cnt_support.php:5 ../cnt/cnt_support.php:31
 msgid "Known bugs"
 msgstr "Γνωστά bugs"
 
@@ -521,11 +667,14 @@ msgid "Language"
 msgstr "Γλώσσα"
 
 #: ../cnt/cnt_download.php:496
-msgid "Languages not included in the distribution package may be added at a later time."
-msgstr "Γλώσσες που δεν συμπεριλαμβάνονται στη διανομή μπορούν να προστεθούν αργότερα."
+msgid ""
+"Languages not included in the distribution package may be added at a later "
+"time."
+msgstr ""
+"Γλώσσες που δεν συμπεριλαμβάνονται στη διανομή μπορούν να προστεθούν "
+"αργότερα."
 
-#: ../cnt/cnt_index.php:5
-#: ../cnt/cnt_index.php:28
+#: ../cnt/cnt_index.php:5 ../cnt/cnt_index.php:28
 msgid "Latest news"
 msgstr "Τελευταία νέα"
 
@@ -533,12 +682,9 @@ msgstr "Τελευταία νέα"
 msgid "Locale"
 msgstr "Locale"
 
-#: ../cnt/cnt_download.php:43
-#: ../cnt/cnt_download.php:80
-#: ../cnt/cnt_download.php:146
-#: ../cnt/cnt_download.php:219
-#: ../cnt/cnt_download.php:261
-#: ../cnt/cnt_download.php:322
+#: ../cnt/cnt_download.php:43 ../cnt/cnt_download.php:80
+#: ../cnt/cnt_download.php:146 ../cnt/cnt_download.php:219
+#: ../cnt/cnt_download.php:261 ../cnt/cnt_download.php:322
 msgid "Location"
 msgstr "Τοποθεσία"
 
@@ -546,8 +692,7 @@ msgstr "Τοποθεσία"
 msgid "Lost database connections are now handled more gracefully."
 msgstr ""
 
-#: ../cnt/cnt_download.php:304
-#: ../cnt/cnt_index.php:95
+#: ../cnt/cnt_download.php:304 ../cnt/cnt_index.php:95
 msgid "MS Windows 2000 & XP"
 msgstr "MS Windows 2000 & XP"
 
@@ -555,8 +700,7 @@ msgstr "MS Windows 2000 & XP"
 msgid "MacOsX and SunOS ports are under development."
 msgstr "Εκδόσεις για τα MacOsX και SunOS είναι υπό ανάπτυξη."
 
-#: ../cnt/cnt_development.php:4
-#: ../cnt/cnt_support.php:4
+#: ../cnt/cnt_development.php:4 ../cnt/cnt_support.php:4
 msgid "Mailing list"
 msgstr "Λίστα ηλεκτρονικού ταχυδρομείου"
 
@@ -564,11 +708,14 @@ msgstr "Λίστα ηλεκτρονικού ταχυδρομείου"
 msgid "Maintainer"
 msgstr "Διαχειριστής"
 
-#: ../cnt/cnt_development.php:38
-#: ../cnt/cnt_support.php:24
+#: ../cnt/cnt_development.php:38 ../cnt/cnt_support.php:24
 #, c-format
-msgid "Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a href='%s'>mail-archive.com</a>."
-msgstr "Τα μηνύματα που στέλνονται στην ηλεκτρονική λίστα αρχειοθετούνται από τη <a href='%s'>PostgreSQL</a> και το <a href='%s'>mail-archive.com</a>."
+msgid ""
+"Messages sent to the list are archived at <a href='%s'>PostgreSQL</a> and <a "
+"href='%s'>mail-archive.com</a>."
+msgstr ""
+"Τα μηνύματα που στέλνονται στην ηλεκτρονική λίστα αρχειοθετούνται από τη <a "
+"href='%s'>PostgreSQL</a> και το <a href='%s'>mail-archive.com</a>."
 
 #: ../cnt/cnt_download.php:353
 msgid "Microsoft Visual C++ 6.0 or newer."
@@ -594,8 +741,7 @@ msgstr "Υποστήριξη Multibyte"
 msgid "Multilingual interface"
 msgstr "Πολυγλωσσικό περιβάλλον"
 
-#: ../cnt/cnt_index.php:93
-#: ../cnt/cnt_screenshots.php:3
+#: ../cnt/cnt_index.php:93 ../cnt/cnt_screenshots.php:3
 #: ../cnt/cnt_screenshots.php:13
 msgid "Multiplatform"
 msgstr "Πολλαπλών πλατφορμών"
@@ -605,12 +751,18 @@ msgid "Native PostgreSQL acccess (no ODBC layer needed)"
 msgstr "Απευθείας πρόσβαση στην PostgreSQL (δε χρειάζεται ODBC)"
 
 #: ../cnt/cnt_screenshots.php:94
-msgid "Nearly all PostgreSQL objects can be viewed, created, modified and dropped, including:"
-msgstr "Σχεδόν όλα τα αντικείμενα της PostgreSQL μπορούν να δημιουργηθούν, προβληθούν, αλλαχθούν, διαγραφούν, συμπεριλαμβανωμένων:"
+msgid ""
+"Nearly all PostgreSQL objects can be viewed, created, modified and dropped, "
+"including:"
+msgstr ""
+"Σχεδόν όλα τα αντικείμενα της PostgreSQL μπορούν να δημιουργηθούν, "
+"προβληθούν, αλλαχθούν, διαγραφούν, συμπεριλαμβανωμένων:"
 
 #: ../cnt/cnt_download.php:312
 #, c-format
-msgid "Note that the <a href='%s'>pgInstaller distribution of PostgreSQL for Windows</a> comes with pgAdmin."
+msgid ""
+"Note that the <a href='%s'>pgInstaller distribution of PostgreSQL for "
+"Windows</a> comes with pgAdmin."
 msgstr ""
 
 #: ../cnt/cnt_screenshots.php:139
@@ -618,12 +770,17 @@ msgid "Notice the display of the SQL definition with colour syntax highlight."
 msgstr "Παρατηρήστε την προβολή του κώδικα της SQL με το χρωματισμό."
 
 #: ../cnt/cnt_screenshots.php:155
-msgid "Notice the tabs giving access to Properties, Parameters, Security and SQL definition."
-msgstr "Παρατηρήστε τις καρτέλες που δίνουν πρόσβαση στις Ιδιότητες, Παραμέτρους, Ασφάλεια και ορισμό SQL."
+msgid ""
+"Notice the tabs giving access to Properties, Parameters, Security and SQL "
+"definition."
+msgstr ""
+"Παρατηρήστε τις καρτέλες που δίνουν πρόσβαση στις Ιδιότητες, Παραμέτρους, "
+"Ασφάλεια και ορισμό SQL."
 
 #: ../cnt/cnt_download.php:378
 msgid "Now, depending on your operation system, follow these steps:"
-msgstr "Τώρα, ανάλογα με το λειτουργικό σας σύστημα, ακολουθήστε τα ακόλουθα βήματα:"
+msgstr ""
+"Τώρα, ανάλογα με το λειτουργικό σας σύστημα, ακολουθήστε τα ακόλουθα βήματα:"
 
 #: ../cnt/cnt_index.php:130
 msgid "Objects are displayed with their SQL definition."
@@ -641,38 +798,42 @@ msgstr "Τεκμηρίωση On-line"
 msgid "On-line help"
 msgstr "Βοήθεια On-line"
 
-#: ../cnt/cnt_index.php:152
-#: ../cnt/cnt_screenshots.php:117
+#: ../cnt/cnt_index.php:152 ../cnt/cnt_screenshots.php:117
 msgid "Operator classes"
 msgstr "Operator classes"
 
-#: ../cnt/cnt_index.php:153
-#: ../cnt/cnt_screenshots.php:118
+#: ../cnt/cnt_index.php:153 ../cnt/cnt_screenshots.php:118
 msgid "Operators"
 msgstr "Τελεστές"
 
 #: ../cnt/cnt_support.php:11
 #, c-format
-msgid "Our <a href='%s' target='_blank'>FAQ</a> document contains some known caveats."
-msgstr "To <a href='%s' target='_blank'>FAQ</a> περιέχει μερικές χρήσιμες πληροφορίες."
+msgid ""
+"Our <a href='%s' target='_blank'>FAQ</a> document contains some known "
+"caveats."
+msgstr ""
+"To <a href='%s' target='_blank'>FAQ</a> περιέχει μερικές χρήσιμες "
+"πληροφορίες."
 
 #: ../cnt/cnt_translation.php:75
 #, fuzzy, c-format
 msgid "Out of date Translations (%d languages)"
 msgstr "Δημοσιευμένες Μεταφράσεις (%d γλώσσες)"
 
-#: ../cnt/cnt_download.php:23
-#: ../cnt/cnt_download.php:133
-#: ../cnt/cnt_download.php:205
-#: ../cnt/cnt_download.php:248
+#: ../cnt/cnt_download.php:23 ../cnt/cnt_download.php:133
+#: ../cnt/cnt_download.php:205 ../cnt/cnt_download.php:248
 #: ../cnt/cnt_download.php:307
 #, c-format
 msgid "Packager: %s"
 msgstr "Υπεύθυνος δημιουργίας πακέτου: %s"
 
 #: ../cnt/cnt_support.php:26
-msgid "Please do <B>not</B> send an email directly to one of the programmers; they might miss it, or even be the wrong person at all."
-msgstr "Παρακαλούμε  <B>μη</B> στείλετε email απευθείας σε κάποιο προγραμματιστή. Πιθανόν να το χάσει ή να είναι το λάθος άτομο."
+msgid ""
+"Please do <B>not</B> send an email directly to one of the programmers; they "
+"might miss it, or even be the wrong person at all."
+msgstr ""
+"Παρακαλούμε  <B>μη</B> στείλετε email απευθείας σε κάποιο προγραμματιστή. "
+"Πιθανόν να το χάσει ή να είναι το λάθος άτομο."
 
 #: ../cnt/cnt_download.php:480
 #, c-format
@@ -681,8 +842,12 @@ msgstr "Μπορείτε να ανατρέξετε στις <a href='%s'>Οδη�
 
 #: ../cnt/cnt_index.php:69
 #, c-format
-msgid "Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about the latest fixes."
-msgstr "Μπορείτε να επισκευθείτε το <a href='%s'>Αρχείο αλλαγών</a> του pgAdmin για να μάθετε για τις τελευταίες διορθώσεις."
+msgid ""
+"Please visit pgAdmin <a href='%s'>Change log</a> page to learn more about "
+"the latest fixes."
+msgstr ""
+"Μπορείτε να επισκευθείτε το <a href='%s'>Αρχείο αλλαγών</a> του pgAdmin για "
+"να μάθετε για τις τελευταίες διορθώσεις."
 
 #: ../cnt/cnt_download.php:361
 #, c-format
@@ -698,14 +863,14 @@ msgstr "PostgreSQL 8.0.0"
 msgid "PostgreSQL documentation (on-line and off-line)"
 msgstr "Τεκμηρίσωση της PostgreSQL (on-line and off-line)"
 
-#: ../cnt/cnt_index.php:154
-#: ../cnt/cnt_screenshots.php:119
+#: ../cnt/cnt_index.php:154 ../cnt/cnt_screenshots.php:119
 msgid "PostgreSQL servers"
 msgstr "Εξυπηρετητές PostgreSQL"
 
 #: ../cnt/cnt_index.php:123
 msgid "Powerful query tool with color syntax highlight"
-msgstr "Πανίσχυρο εργαλείο δημιουργίας και εκτέλεσης query με χρωματισμό του κώδικα"
+msgstr ""
+"Πανίσχυρο εργαλείο δημιουργίας και εκτέλεσης query με χρωματισμό του κώδικα"
 
 #: ../cnt/cnt_index.php:4
 msgid "Presentation"
@@ -733,8 +898,12 @@ msgid "Recent versions of GTK2.2, automake, autoconf and gcc are needed."
 msgstr "Χρειάζονται πρόσφατες εκδόσεις των GTK2.2, automake, autoconf και gcc."
 
 #: ../cnt/cnt_screenshots.php:65
-msgid "Recently, our team was joined by developers with an experience of more than 10 years in the design of database tools."
-msgstr "Πρόσφατα, μπήκαν στην ομάδα ανάπτυξης προγραμματιστές με πάνω από 10 χρόνια εμπειρία στην ανάπτυξη εργαλείων βάσεων δεδομένων."
+msgid ""
+"Recently, our team was joined by developers with an experience of more than "
+"10 years in the design of database tools."
+msgstr ""
+"Πρόσφατα, μπήκαν στην ομάδα ανάπτυξης προγραμματιστές με πάνω από 10 χρόνια "
+"εμπειρία στην ανάπτυξη εργαλείων βάσεων δεδομένων."
 
 #: ../cnt/cnt_index.php:43
 msgid "Refencing/referenced objects for each object may be viewed."
@@ -748,8 +917,7 @@ msgstr "Προαπαιτούμενα"
 msgid "Rows from the edit grid and query tool may be copied to the clipboard."
 msgstr ""
 
-#: ../cnt/cnt_index.php:155
-#: ../cnt/cnt_screenshots.php:120
+#: ../cnt/cnt_index.php:155 ../cnt/cnt_screenshots.php:120
 msgid "Rules"
 msgstr "Rules"
 
@@ -761,28 +929,23 @@ msgstr "Τρέξτε τις ακόλουθες εντολές συνδεδεμέ
 msgid "SQL command guide"
 msgstr "Οδηγός εντολών SQL"
 
-#: ../cnt/cnt_development.php:3
-#: ../cnt/cnt_development.php:12
+#: ../cnt/cnt_development.php:3 ../cnt/cnt_development.php:12
 msgid "SVN access"
 msgstr "Πρόσβαση SVN"
 
-#: ../cnt/cnt_index.php:156
-#: ../cnt/cnt_screenshots.php:121
+#: ../cnt/cnt_index.php:156 ../cnt/cnt_screenshots.php:121
 msgid "Schemas"
 msgstr "Schemas"
 
-#: ../cnt/cnt_screenshots.php:2
-#: ../tpl/menu.php:32
+#: ../cnt/cnt_screenshots.php:2 ../tpl/menu.php:32
 msgid "Screenshots"
 msgstr "Φωτογραφίες"
 
-#: ../cnt/cnt_index.php:157
-#: ../cnt/cnt_screenshots.php:122
+#: ../cnt/cnt_index.php:157 ../cnt/cnt_screenshots.php:122
 msgid "Sequences"
 msgstr "Sequences"
 
-#: ../cnt/cnt_screenshots.php:8
-#: ../cnt/cnt_screenshots.php:278
+#: ../cnt/cnt_screenshots.php:8 ../cnt/cnt_screenshots.php:278
 msgid "Server status"
 msgstr "Κατάσταση εξυπηρετητή"
 
@@ -790,15 +953,24 @@ msgstr "Κατάσταση εξυπηρετητή"
 msgid "Server status windows now displays locks."
 msgstr ""
 
-#: ../cnt/cnt_index.php:147
-#: ../cnt/cnt_screenshots.php:112
+#: ../cnt/cnt_index.php:147 ../cnt/cnt_screenshots.php:112
 msgid "Server-side languages (like PLpgsql, PLpython, PLperl, etc...)"
-msgstr "Γλώσσες προγραμματισμού στην πλευρά του εξυπηρετητή (όπως PLpgsql, PLpython, PLperl, κ.α.)"
+msgstr ""
+"Γλώσσες προγραμματισμού στην πλευρά του εξυπηρετητή (όπως PLpgsql, PLpython, "
+"PLperl, κ.α.)"
 
 #: ../cnt/cnt_translation.php:33
 #, c-format
-msgid "Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%s'>Translation</A> section, create a subdirectory in your installation's ui directory with a name corresponding to the locale code,  and copy the new translation file into that directory."
-msgstr "Απλά εντοπίστε το σχετικό αρχείο γλώσσας (pgadmin3.mo) στο τμήμα της <A HREF='%s'>Μετάφρασης</A>, δημιουργήστε ένα υποκατάλογο στον κατάλογο ui με το όνομα του locale σας (π.χ. για την Ελλάδα el_GR), και αντιγράψτε το νέο αρχείο μετάφρασης σε αυτό τον υποκατάλογο."
+msgid ""
+"Simply locate the appropriate language file (pgadmin3.mo) in the <A HREF='%"
+"s'>Translation</A> section, create a subdirectory in your installation's ui "
+"directory with a name corresponding to the locale code,  and copy the new "
+"translation file into that directory."
+msgstr ""
+"Απλά εντοπίστε το σχετικό αρχείο γλώσσας (pgadmin3.mo) στο τμήμα της <A "
+"HREF='%s'>Μετάφρασης</A>, δημιουργήστε ένα υποκατάλογο στον κατάλογο ui με "
+"το όνομα του locale σας (π.χ. για την Ελλάδα el_GR), και αντιγράψτε το νέο "
+"αρχείο μετάφρασης σε αυτό τον υποκατάλογο."
 
 #: ../cnt/cnt_download.php:5
 msgid "Slackware"
@@ -812,13 +984,11 @@ msgstr "Κατάσταση"
 msgid "Summary of major changes:"
 msgstr ""
 
-#: ../cnt/cnt_support.php:2
-#: ../tpl/menu.php:37
+#: ../cnt/cnt_support.php:2 ../tpl/menu.php:37
 msgid "Support"
 msgstr "Υποστήριξη"
 
-#: ../cnt/cnt_index.php:158
-#: ../cnt/cnt_screenshots.php:123
+#: ../cnt/cnt_index.php:158 ../cnt/cnt_screenshots.php:123
 msgid "Tables"
 msgstr "Tables"
 
@@ -833,30 +1003,42 @@ msgstr "Tables"
 
 #: ../cnt/cnt_support.php:14
 msgid "The FAQ page is also accessible via the pgAdmin III help menu."
-msgstr "Η σελίδα των FAQ είναι διαθέσιμη και από το μενού βοηθείας του pgAdmin III."
+msgstr ""
+"Η σελίδα των FAQ είναι διαθέσιμη και από το μενού βοηθείας του pgAdmin III."
 
 #: ../cnt/cnt_screenshots.php:210
 msgid "The SQL definition of any object can be transfered to the query tool."
-msgstr "Ο SQL ορισμός κάθε αντικειμένου μπορεί να μεταφερθεί στο εργαλείο των query."
+msgstr ""
+"Ο SQL ορισμός κάθε αντικειμένου μπορεί να μεταφερθεί στο εργαλείο των query."
 
 #: ../cnt/cnt_advocacy.php:9
 msgid "The advocacy page is intended for the promotion of pgAdmin."
 msgstr "Η σελίδα της προώθησης σκοπεύει στην προβολή του pgAdmin."
 
 #: ../cnt/cnt_index.php:20
-msgid "The application also includes a query builder, an SQL editor, a server-side code editor and much more."
-msgstr "Η εφαρμογή εριλαμβάνει επίσης γραφικό περιβάλλον διαχείρισης, εργαλείο δημιουργίας και εκτέλεσης SQL εντολών, επεξεργαστή κώδικα διαδικασιών (procedural code editor) και πολλά ακόμη εργαλεία."
+msgid ""
+"The application also includes a query builder, an SQL editor, a server-side "
+"code editor and much more."
+msgstr ""
+"Η εφαρμογή εριλαμβάνει επίσης γραφικό περιβάλλον διαχείρισης, εργαλείο "
+"δημιουργίας και εκτέλεσης SQL εντολών, επεξεργαστή κώδικα διαδικασιών "
+"(procedural code editor) και πολλά ακόμη εργαλεία."
 
 #: ../cnt/cnt_screenshots.php:79
 msgid "The application does not need any ODBC layer."
 msgstr "Η εφαρμογή δεν χρειάζεται κάποιο ODBC οδηγό."
 
 #: ../cnt/cnt_screenshots.php:46
-msgid "The application is executed in binary code, not in a virtual machine, therefore offering very good performance."
-msgstr "Η εφαρμογή εκτελείτε απευθείας σε εκτελέσιμο κώδικα και όχι μέσα σε virtual machine. Προσφέρει λοιπόν πολύ καλή απόδοση."
+msgid ""
+"The application is executed in binary code, not in a virtual machine, "
+"therefore offering very good performance."
+msgstr ""
+"Η εφαρμογή εκτελείτε απευθείας σε εκτελέσιμο κώδικα και όχι μέσα σε virtual "
+"machine. Προσφέρει λοιπόν πολύ καλή απόδοση."
 
 #: ../cnt/cnt_index.php:14
-msgid "The application is running under GNU/Linux, FreeBSD and Windows 2000/XP."
+msgid ""
+"The application is running under GNU/Linux, FreeBSD and Windows 2000/XP."
 msgstr "Το πρόγραμμα τρέχει κάτω από GNU/Linux, FreeBSD και Windows 2000/XP."
 
 #: ../cnt/cnt_download.php:350
@@ -866,7 +1048,9 @@ msgstr "Η καλύτερη λύση είναι να χρησιμοποιήσε�
 #: ../cnt/cnt_development.php:19
 #, fuzzy
 msgid "The commands needed for checkout are as follows:"
-msgstr "Οι απαιτούμενες command lines που απαιτούνται για το checkout είναι ως ακολούθως:"
+msgstr ""
+"Οι απαιτούμενες command lines που απαιτούνται για το checkout είναι ως "
+"ακολούθως:"
 
 #: ../cnt/cnt_screenshots.php:198
 msgid "The data is retrieved on-demand when it needs to be displayed."
@@ -877,26 +1061,36 @@ msgid "The documentation can be viewed off-line or on-line."
 msgstr "Η τεκμηρίωση μπορεί να διαβαστεί off-line ή on-line."
 
 #: ../cnt/cnt_index.php:19
-msgid "The graphical interface supports all PostgreSQL features and makes administration easy."
-msgstr "Το γραφικό περιβάλλον εργασία υποστηρίζει όλα τα χρακτηριστικά της PostgreSQL και κάνει της διαχείρισή της εύκολη. "
+msgid ""
+"The graphical interface supports all PostgreSQL features and makes "
+"administration easy."
+msgstr ""
+"Το γραφικό περιβάλλον εργασία υποστηρίζει όλα τα χρακτηριστικά της "
+"PostgreSQL και κάνει της διαχείρισή της εύκολη. "
 
-#: ../cnt/cnt_development.php:98
-#: ../cnt/cnt_development.php:114
+#: ../cnt/cnt_development.php:98 ../cnt/cnt_development.php:114
 msgid "The information displayed is extracted automatically from pgAdmin SVN."
-msgstr "Οι πληροφορίες που εμφανίζονται έρχονται απευθείας από το SVN του pgAdmin."
+msgstr ""
+"Οι πληροφορίες που εμφανίζονται έρχονται απευθείας από το SVN του pgAdmin."
 
 #: ../cnt/cnt_support.php:36
-msgid "The information displayed is extracted automatically from the pgAdmin SVN."
-msgstr "Οι πληροφορίες που εμφανίζονται έρχονται απευθείας από το SVN του pgAdmin."
+msgid ""
+"The information displayed is extracted automatically from the pgAdmin SVN."
+msgstr ""
+"Οι πληροφορίες που εμφανίζονται έρχονται απευθείας από το SVN του pgAdmin."
 
-#: ../cnt/cnt_index.php:198
-#: ../cnt/cnt_translation.php:58
+#: ../cnt/cnt_index.php:198 ../cnt/cnt_translation.php:58
 msgid "The project can only live and develop with your help."
-msgstr "Το πρόγραμμα μπορεί να υπάρξει και να βελτιωθεί μόνο με τη δική σας βοήθεια."
+msgstr ""
+"Το πρόγραμμα μπορεί να υπάρξει και να βελτιωθεί μόνο με τη δική σας βοήθεια."
 
 #: ../cnt/cnt_screenshots.php:138
-msgid "The properties and statistics of the selected object are displayed in the right pane of pgAdmin III."
-msgstr "Οι ιδιότητες και τα στατιστικά του επιλεγμένου αντικειμένου προβάλλονται στο δεξί πλαίσιο του pgAdmin III."
+msgid ""
+"The properties and statistics of the selected object are displayed in the "
+"right pane of pgAdmin III."
+msgstr ""
+"Οι ιδιότητες και τα στατιστικά του επιλεγμένου αντικειμένου προβάλλονται στο "
+"δεξί πλαίσιο του pgAdmin III."
 
 #: ../cnt/cnt_index.php:40
 msgid "The query tool can output results directly to a file."
@@ -904,73 +1098,104 @@ msgstr ""
 
 #: ../cnt/cnt_download.php:16
 #, c-format
-msgid "The software is available in source and binary format from our <a href='%s'>mirrors</a>."
-msgstr "Αυτό το πρόγραμμα είναι διαθέσιμο τόσο σε μορφή πηγαίου κώδικα όσο και σε δυαδικά εκτελέσιμα αρχεία από τα <a href='%s'>mirror</a> μας."
+msgid ""
+"The software is available in source and binary format from our <a href='%"
+"s'>mirrors</a>."
+msgstr ""
+"Αυτό το πρόγραμμα είναι διαθέσιμο τόσο σε μορφή πηγαίου κώδικα όσο και σε "
+"δυαδικά εκτελέσιμα αρχεία από τα <a href='%s'>mirror</a> μας."
 
 #: ../cnt/cnt_index.php:83
 #, c-format
-msgid "The software is available in source and binary format from the <a href='%s'>Download</a> page."
-msgstr "Αυτό το πρόγραμμα είναι διαθέσιμο τόσο σε πηγαίο κώδικα όσο και σε μορφή εκτελέσιμου αρχίου (binary) από τη σελίδα a href='%s'>Μεταφόρτωσης</a>."
+msgid ""
+"The software is available in source and binary format from the <a href='%"
+"s'>Download</a> page."
+msgstr ""
+"Αυτό το πρόγραμμα είναι διαθέσιμο τόσο σε πηγαίο κώδικα όσο και σε μορφή "
+"εκτελέσιμου αρχίου (binary) από τη σελίδα a href='%s'>Μεταφόρτωσης</a>."
 
 #: ../cnt/cnt_screenshots.php:44
-msgid "The software is written in C++ and uses the excellent wxWindows cross platform toolkit."
-msgstr "Το πρόγραμμα είναι γραμμένο σε C++ και χρησιμοποιεί το καταπληκτικό εργαλείο ανάπτυξης σε πολλές διαφορετικές πλατφόρμες wxWindows ."
+msgid ""
+"The software is written in C++ and uses the excellent wxWindows cross "
+"platform toolkit."
+msgstr ""
+"Το πρόγραμμα είναι γραμμένο σε C++ και χρησιμοποιεί το καταπληκτικό εργαλείο "
+"ανάπτυξης σε πολλές διαφορετικές πλατφόρμες wxWindows ."
 
 #: ../cnt/cnt_screenshots.php:215
 msgid "The tool displays execution times of queries."
 msgstr "Το εργαλείο εμφανίζει τους χρόνους εκτέλεσης των queries."
 
 #: ../cnt/cnt_translation.php:77
-msgid "The translations below are not considered complete enough for inclusion in current releases."
+msgid ""
+"The translations below are not considered complete enough for inclusion in "
+"current releases."
 msgstr ""
 
 #: ../cnt/cnt_translation.php:63
-msgid "The updated translations are published in daily snapshots automatically."
-msgstr "Οι ανανεωμένες μεταφράσεις δημοσιεύονται στα πακέτα που μεταγλωτίζονται καθημερινά αυτόματα."
+msgid ""
+"The updated translations are published in daily snapshots automatically."
+msgstr ""
+"Οι ανανεωμένες μεταφράσεις δημοσιεύονται στα πακέτα που μεταγλωτίζονται "
+"καθημερινά αυτόματα."
 
 #: ../cnt/cnt_download.php:466
-msgid "There is no guarantee that these packages work in any way: it is alpha developer software intended for testing and development."
-msgstr "Δεν δίνεται εγγύηση ότι τα πακέτα αυτά θα δουλεύουν απρόσκοπτα: Είναι λογισμικό σε δοκιμαστική έκδοση (alpha) προορισμένο για έλεγχο και ανάπτυξη."
+msgid ""
+"There is no guarantee that these packages work in any way: it is alpha "
+"developer software intended for testing and development."
+msgstr ""
+"Δεν δίνεται εγγύηση ότι τα πακέτα αυτά θα δουλεύουν απρόσκοπτα: Είναι "
+"λογισμικό σε δοκιμαστική έκδοση (alpha) προορισμένο για έλεγχο και ανάπτυξη."
 
 #: ../cnt/cnt_download.php:28
 #, c-format
-msgid "These packages are also well-suited for <a href='%s'>Knoppix</a> and other Debian based distributions."
-msgstr "Αυτά τα πακέτα είναι επίσης καλά για το <a href='%s'>Knoppix</a> αλλά και για κάθε διανομή που βασίζεται στο Debian."
+msgid ""
+"These packages are also well-suited for <a href='%s'>Knoppix</a> and other "
+"Debian based distributions."
+msgstr ""
+"Αυτά τα πακέτα είναι επίσης καλά για το <a href='%s'>Knoppix</a> αλλά και "
+"για κάθε διανομή που βασίζεται στο Debian."
 
 #: ../cnt/cnt_screenshots.php:142
 msgid "This makes learning SQL more easy..."
 msgstr "Αυτό κάνει την εκμάθηση της SQL πολύ εύκολη..."
 
-#: ../cnt/cnt_advocacy.php:10
-#: ../cnt/cnt_support.php:15
+#: ../cnt/cnt_advocacy.php:10 ../cnt/cnt_support.php:15
 msgid "This page is available in English only."
 msgstr "Η σελίδα είναι διαθέσιμη μόνο στα Αγγλικά."
 
-#: ../cnt/cnt_development.php:49
-#: ../cnt/cnt_development.php:97
-#: ../cnt/cnt_development.php:113
-#: ../cnt/cnt_support.php:35
+#: ../cnt/cnt_development.php:49 ../cnt/cnt_development.php:97
+#: ../cnt/cnt_development.php:113 ../cnt/cnt_support.php:35
 #: ../cnt/cnt_translation.php:92
 msgid "This section is available in English only."
 msgstr "Αυτό το τμήμα είναι διαθέσιμο μόνο στα Αγγλικά."
 
 #: ../cnt/cnt_screenshots.php:199
-msgid "This technical choice allows to browse very large tables without problem."
-msgstr "Αυτή η τεχνική εκλογή επιτρέπει την εμφάνιση πολύ μεγάλων πινάκων χωρίς πρόβλημα."
+msgid ""
+"This technical choice allows to browse very large tables without problem."
+msgstr ""
+"Αυτή η τεχνική εκλογή επιτρέπει την εμφάνιση πολύ μεγάλων πινάκων χωρίς "
+"πρόβλημα."
 
 #: ../cnt/cnt_translation.php:41
 #, c-format
-msgid "This web site can also be translated using <a href='%s'>pgadmin3_website.pot</a> file."
-msgstr "Ο ιστοχώρος μπορεί ακόμη να μεταφραστεί χρησιμοποιώντας το αρχείο <a href='%s'>pgadmin3_website.pot</a>."
+msgid ""
+"This web site can also be translated using <a href='%s'>pgadmin3_website."
+"pot</a> file."
+msgstr ""
+"Ο ιστοχώρος μπορεί ακόμη να μεταφραστεί χρησιμοποιώντας το αρχείο <a href='%"
+"s'>pgadmin3_website.pot</a>."
 
-#: ../cnt/cnt_development.php:36
-#: ../cnt/cnt_support.php:22
+#: ../cnt/cnt_development.php:36 ../cnt/cnt_support.php:22
 #, c-format
-msgid "To subscribe to the mailing list, send an email to %s with the word 'subscribe', without quotes, as the body of message."
-msgstr "Για να εγγραφείτε στην ηλεκτρονική λίστα στείλτε μας email στο %s με τη λέξη \"subscribe\", χωρίς τα εισαγωγικά, στο κυρίως σώμα του μηνύματος."
+msgid ""
+"To subscribe to the mailing list, send an email to %s with the word "
+"'subscribe', without quotes, as the body of message."
+msgstr ""
+"Για να εγγραφείτε στην ηλεκτρονική λίστα στείλτε μας email στο %s με τη λέξη "
+"\"subscribe\", χωρίς τα εισαγωγικά, στο κυρίως σώμα του μηνύματος."
 
-#: ../cnt/cnt_development.php:6
-#: ../cnt/cnt_development.php:93
+#: ../cnt/cnt_development.php:6 ../cnt/cnt_development.php:93
 msgid "Todo list"
 msgstr "Λίστα προγραμματισμένων ενεργειών"
 
@@ -986,9 +1211,7 @@ msgstr "Μεταφράστε το κείμενο και στείλτε μας τ
 msgid "Translated"
 msgstr "Μεταφρασμένο"
 
-#: ../cnt/cnt_index.php:208
-#: ../cnt/cnt_translation.php:20
-#: ../tpl/menu.php:34
+#: ../cnt/cnt_index.php:208 ../cnt/cnt_translation.php:20 ../tpl/menu.php:34
 msgid "Translation"
 msgstr "Μετάφραση"
 
@@ -996,36 +1219,40 @@ msgstr "Μετάφραση"
 msgid "Translation howto"
 msgstr "Howto μετάφρασης"
 
-#: ../cnt/cnt_translation.php:21
-#: ../cnt/cnt_translation.php:29
+#: ../cnt/cnt_translation.php:21 ../cnt/cnt_translation.php:29
 msgid "Translation updates"
 msgstr "Ανανεώσεις μεταφράσεων"
 
-#: ../cnt/cnt_index.php:159
-#: ../cnt/cnt_screenshots.php:124
+#: ../cnt/cnt_index.php:159 ../cnt/cnt_screenshots.php:124
 msgid "Trigger function"
 msgstr "Trigger function"
 
-#: ../cnt/cnt_index.php:160
-#: ../cnt/cnt_screenshots.php:125
+#: ../cnt/cnt_index.php:160 ../cnt/cnt_screenshots.php:125
 msgid "Types"
 msgstr "Types"
 
 #: ../cnt/cnt_development.php:18
-msgid "Under GNU/Linux, there are several command line and graphical clients available."
-msgstr "Στο GNU/Linux, υπάρχουν αρκετοί πελάτες, τόσο σε κατάσταση γραμμής εντολών όσο και σε γραφικό περιβάλλον."
+msgid ""
+"Under GNU/Linux, there are several command line and graphical clients "
+"available."
+msgstr ""
+"Στο GNU/Linux, υπάρχουν αρκετοί πελάτες, τόσο σε κατάσταση γραμμής εντολών "
+"όσο και σε γραφικό περιβάλλον."
 
 #: ../cnt/cnt_development.php:17
 #, c-format
-msgid "Under Windows, we recommend using <a href='%s'>TortoiseSVN</a>, which is a free software."
-msgstr "Στα Windows, προτείνουμε να χρησιμοποιήσετε το <a href='%s'>TortoiseSVN</a>, που είναι δωρεάν πρόγραμμα."
+msgid ""
+"Under Windows, we recommend using <a href='%s'>TortoiseSVN</a>, which is a "
+"free software."
+msgstr ""
+"Στα Windows, προτείνουμε να χρησιμοποιήσετε το <a href='%s'>TortoiseSVN</a>, "
+"που είναι δωρεάν πρόγραμμα."
 
 #: ../cnt/cnt_translation.php:24
 msgid "Unmaintained"
 msgstr "Μη συντηρούμενο"
 
-#: ../cnt/cnt_download.php:369
-#: ../cnt/cnt_download.php:441
+#: ../cnt/cnt_download.php:369 ../cnt/cnt_download.php:441
 msgid "Unpack as follows:"
 msgstr "Ξεπακετάρετε ως ακολούθως:"
 
@@ -1033,19 +1260,21 @@ msgstr "Ξεπακετάρετε ως ακολούθως:"
 msgid "Untranslated"
 msgstr "Με μεταφρασμένο"
 
-#: ../cnt/cnt_screenshots.php:4
-#: ../cnt/cnt_screenshots.php:56
+#: ../cnt/cnt_screenshots.php:4 ../cnt/cnt_screenshots.php:56
 msgid "User interface"
 msgstr "Διεπαφή χρήστη"
 
-#: ../cnt/cnt_index.php:161
-#: ../cnt/cnt_screenshots.php:126
+#: ../cnt/cnt_index.php:161 ../cnt/cnt_screenshots.php:126
 msgid "Users"
 msgstr "Χρήστες"
 
 #: ../cnt/cnt_support.php:27
-msgid "Using the mailing list guarantees that your request isn't lost and will be answered in a timely fashion."
-msgstr "Χρησιμοποιώντας τη λίστα ηλεκτρονικού ταχυδρομείου εξασφαλίζετε ότι η αίτησή σας δε θα χαθεί και θα απαντηθεί σε εύλογο χρονικό διάστημα."
+msgid ""
+"Using the mailing list guarantees that your request isn't lost and will be "
+"answered in a timely fashion."
+msgstr ""
+"Χρησιμοποιώντας τη λίστα ηλεκτρονικού ταχυδρομείου εξασφαλίζετε ότι η αίτησή "
+"σας δε θα χαθεί και θα απαντηθεί σε εύλογο χρονικό διάστημα."
 
 #: ../cnt/cnt_index.php:124
 msgid "Very fast datagrid for display/entry of data"
@@ -1055,23 +1284,30 @@ msgstr "Πολύ γρήγορο πλέγμα-πίνακας για προβολ�
 msgid "View the status of PostgreSQL server."
 msgstr "Προβολή της κατάστασης του εξυπηρετητή PostgreSQL."
 
-#: ../cnt/cnt_index.php:162
-#: ../cnt/cnt_screenshots.php:127
+#: ../cnt/cnt_index.php:162 ../cnt/cnt_screenshots.php:127
 msgid "Views"
 msgstr "Views"
 
 #: ../cnt/cnt_index.php:80
 msgid "We can only rely on users to make pgAdmin the best possible software."
-msgstr "Βασιζόμαστε αποκλειστικά στους χρήστες για να κάνουμε το pgAdmin όσο το δυνατόν καλύτερο πρόγραμμα."
+msgstr ""
+"Βασιζόμαστε αποκλειστικά στους χρήστες για να κάνουμε το pgAdmin όσο το "
+"δυνατόν καλύτερο πρόγραμμα."
 
 #: ../cnt/cnt_index.php:210
 #, c-format
-msgid "We need help to translate pgAdmin III and our website in more than %d languages."
-msgstr "Χρειαζόμαστε βοήθεια για να μεταφράσουμε το pgAdmin III αλλά και τον ιστοτόπο μας σε %d γλώσσες."
+msgid ""
+"We need help to translate pgAdmin III and our website in more than %d "
+"languages."
+msgstr ""
+"Χρειαζόμαστε βοήθεια για να μεταφράσουμε το pgAdmin III αλλά και τον "
+"ιστοτόπο μας σε %d γλώσσες."
 
 #: ../cnt/cnt_translation.php:39
 msgid "We need your help to translate pgAdmin III into additional languages."
-msgstr "Χρειαζόμαστε τη βοήθειά σας για να μεταφράσετε το pgAdmin III και σε άλλες γλώσσες."
+msgstr ""
+"Χρειαζόμαστε τη βοήθειά σας για να μεταφράσετε το pgAdmin III και σε άλλες "
+"γλώσσες."
 
 #: ../cnt/cnt_screenshots.php:268
 #, c-format
@@ -1079,70 +1315,100 @@ msgid "We plan to reach %d languages soon."
 msgstr "Σκοπεύουμε σύντομα να φθάσουμε τις %d γλώσσες"
 
 #: ../cnt/cnt_screenshots.php:47
-msgid "We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows 2000 & XP. MacOsX and SunOS ports are in preparation."
-msgstr "Προσφέρουμε τον πηγαίο κώδικα καθώς και τα δυαδικά αρχεία εγκατάστασης (binaries) για τα GNU/Linux, FreeBSD και Ms Windows 2000 & XP. Εκδόσεις για τα MacOsX και SunOS βρίσκονται σε ανάπτυξη."
+msgid ""
+"We provide source and binary packages for GNU/Linux, FreeBSD and Ms Windows "
+"2000 & XP. MacOsX and SunOS ports are in preparation."
+msgstr ""
+"Προσφέρουμε τον πηγαίο κώδικα καθώς και τα δυαδικά αρχεία εγκατάστασης "
+"(binaries) για τα GNU/Linux, FreeBSD και Ms Windows 2000 & XP. Εκδόσεις για "
+"τα MacOsX και SunOS βρίσκονται σε ανάπτυξη."
 
 #: ../cnt/cnt_index.php:76
-msgid "We would like to thank our developer and translator community who contributed to the project."
-msgstr "Θα θέλαμε να ευχαριστήσουμε την κοινότητα των προγραμματιστών και μεταφραστών που συνεισέφερε σε αυτό το πρόγραμμα."
+msgid ""
+"We would like to thank our developer and translator community who "
+"contributed to the project."
+msgstr ""
+"Θα θέλαμε να ευχαριστήσουμε την κοινότητα των προγραμματιστών και "
+"μεταφραστών που συνεισέφερε σε αυτό το πρόγραμμα."
 
 #: ../cnt/cnt_screenshots.php:81
-msgid "When configured server-side, it is possible to connect using encrypted password or SSL authentication."
-msgstr "Είναι δυνατόν να συνδεθείτε με κρυπτογραφημένο κωδικό πρόσβασης ή SSL. Αρκεί να είναι σωστά ρυθμισμένος ο εξυπηρετητής."
+msgid ""
+"When configured server-side, it is possible to connect using encrypted "
+"password or SSL authentication."
+msgstr ""
+"Είναι δυνατόν να συνδεθείτε με κρυπτογραφημένο κωδικό πρόσβασης ή SSL. Αρκεί "
+"να είναι σωστά ρυθμισμένος ο εξυπηρετητής."
 
 #: ../cnt/cnt_download.php:352
 msgid "Windows 2000 & XP."
 msgstr "Windows 2000 & XP."
 
 #: ../cnt/cnt_screenshots.php:64
-msgid "With the help and suggestions of users, we have been constantly improving the usability of pgAdmin."
-msgstr "Με τη βοήθεια αλλά και τις προτάσεις των χρηστών, βελτιώνουμε συνεχώς τη χρηστικότητα του pgAdmin."
+msgid ""
+"With the help and suggestions of users, we have been constantly improving "
+"the usability of pgAdmin."
+msgstr ""
+"Με τη βοήθεια αλλά και τις προτάσεις των χρηστών, βελτιώνουμε συνεχώς τη "
+"χρηστικότητα του pgAdmin."
 
 #: ../cnt/cnt_development.php:35
 #, c-format
-msgid "You are more than welcome to subscribe, but please remember to use <a href='%s'>pgadmin-support</a> list for end user support issues."
-msgstr "Είστε ευπρόσδεκτοι να εγγραφείτε και εσείς, θυμηθείτε όμως να χρησιμοποιείτε την ηλεκτρονική λίστα <a href='%s'>pgadmin-support</a> για θέματα υποστήριξης."
+msgid ""
+"You are more than welcome to subscribe, but please remember to use <a href='%"
+"s'>pgadmin-support</a> list for end user support issues."
+msgstr ""
+"Είστε ευπρόσδεκτοι να εγγραφείτε και εσείς, θυμηθείτε όμως να χρησιμοποιείτε "
+"την ηλεκτρονική λίστα <a href='%s'>pgadmin-support</a> για θέματα "
+"υποστήριξης."
 
 #: ../cnt/cnt_translation.php:34
 #, c-format
-msgid "You might need to update the language description file from <A HREF='%s'>ui/pgadmin3.lng</A> to let the new language appear in the language selection combobox."
-msgstr "Μπορεί να χρειάζετε να ανανεώσετε το αρχείο περιγραφής γλώσσας από το <A HREF='%s'>ui/pgadmin3.lng</A> για να εμφανιστεί η νέα γλώσσα στη λίστα επιλογής γλώσσας."
+msgid ""
+"You might need to update the language description file from <A HREF='%s'>ui/"
+"pgadmin3.lng</A> to let the new language appear in the language selection "
+"combobox."
+msgstr ""
+"Μπορεί να χρειάζετε να ανανεώσετε το αρχείο περιγραφής γλώσσας από το <A "
+"HREF='%s'>ui/pgadmin3.lng</A> για να εμφανιστεί η νέα γλώσσα στη λίστα "
+"επιλογής γλώσσας."
 
 #: ../cnt/cnt_screenshots.php:226
 msgid "You will soon notice that PostgreSQL is the fastest database available."
-msgstr "Σύντομα θα διαπιστώσετε ότι η PostgreSQL είναι η πιο γρήγορη βάση δεδομένων."
+msgstr ""
+"Σύντομα θα διαπιστώσετε ότι η PostgreSQL είναι η πιο γρήγορη βάση δεδομένων."
 
-#: ../cnt/cnt_index.php:30
-#: ../cnt/cnt_index.php:66
-#: ../cnt/cnt_index.php:73
+#: ../cnt/cnt_index.php:30 ../cnt/cnt_index.php:66 ../cnt/cnt_index.php:73
 #, c-format
 msgid "pgAdmin III %s released"
 msgstr "pgAdmin III %s κυκλοφόρησε"
 
 #: ../cnt/cnt_download.php:136
 #, c-format
-msgid "pgAdmin III RPM packages are available for several GNU/Linux distributions, including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."
-msgstr "Το pgAdmin III είναι διαθέσιμο σε μορφή RPM για διάφορες διανομές  GNU/Linux, συμπεριλαμανομένης της Fedora %s, του Mandrake %s, του RedHat %s και του SuSE %s."
+msgid ""
+"pgAdmin III RPM packages are available for several GNU/Linux distributions, "
+"including Fedora %s, Mandrake %s, RedHat %s and SuSE %s."
+msgstr ""
+"Το pgAdmin III είναι διαθέσιμο σε μορφή RPM για διάφορες διανομές  GNU/"
+"Linux, συμπεριλαμανομένης της Fedora %s, του Mandrake %s, του RedHat %s και "
+"του SuSE %s."
 
-#: ../cnt/cnt_download.php:51
-#: ../cnt/cnt_download.php:88
-#: ../cnt/cnt_download.php:154
-#: ../cnt/cnt_download.php:160
-#: ../cnt/cnt_download.php:166
-#: ../cnt/cnt_download.php:172
-#: ../cnt/cnt_download.php:178
-#: ../cnt/cnt_download.php:184
-#: ../cnt/cnt_download.php:227
-#: ../cnt/cnt_download.php:233
-#: ../cnt/cnt_download.php:269
-#: ../cnt/cnt_download.php:330
+#: ../cnt/cnt_download.php:51 ../cnt/cnt_download.php:88
+#: ../cnt/cnt_download.php:154 ../cnt/cnt_download.php:160
+#: ../cnt/cnt_download.php:166 ../cnt/cnt_download.php:172
+#: ../cnt/cnt_download.php:178 ../cnt/cnt_download.php:184
+#: ../cnt/cnt_download.php:227 ../cnt/cnt_download.php:233
+#: ../cnt/cnt_download.php:269 ../cnt/cnt_download.php:330
 #, c-format
 msgid "pgAdmin III binary packages for %s"
 msgstr "pgAdmin III δυαδικά, άμεσα εκτελέσιμα πακέτα για %s"
 
 #: ../cnt/cnt_screenshots.php:78
-msgid "pgAdmin III can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library."
-msgstr "Το pgAdmin III μπορεί να συνδεθεί σε οποιαδήποτε βάση δεδομένων PostgreSQL 7.3/7.4 χρησιμοποιώντας την ενσωματωμένη libpq native library."
+msgid ""
+"pgAdmin III can connect to any PostgreSQL 7.3/7.4 database using the "
+"embedded libpq native library."
+msgstr ""
+"Το pgAdmin III μπορεί να συνδεθεί σε οποιαδήποτε βάση δεδομένων PostgreSQL "
+"7.3/7.4 χρησιμοποιώντας την ενσωματωμένη libpq native library."
 
 #: ../cnt/cnt_screenshots.php:242
 msgid "pgAdmin III includes PostgreSQL full documentation."
@@ -1153,8 +1419,12 @@ msgid "pgAdmin III includes a table editor."
 msgstr "Το pgAdmin III περιλαμβάνει επεξεργαστή πινάκων."
 
 #: ../cnt/cnt_screenshots.php:178
-msgid "pgAdmin III includes a wizard that supports granting rights to multiple objects."
-msgstr "Το pgAdmin III περιλαμβάνει οδηγό που δίνει τη δυνατότητα να γίνει ανάθεση δικαιωμάτων (grant rights) σε πολλαπλά αντικείμενα."
+msgid ""
+"pgAdmin III includes a wizard that supports granting rights to multiple "
+"objects."
+msgstr ""
+"Το pgAdmin III περιλαμβάνει οδηγό που δίνει τη δυνατότητα να γίνει ανάθεση "
+"δικαιωμάτων (grant rights) σε πολλαπλά αντικείμενα."
 
 #: ../cnt/cnt_screenshots.php:267
 #, c-format
@@ -1162,61 +1432,106 @@ msgid "pgAdmin III interface is translated in more than %d languages."
 msgstr "H διεπαφή του pgAdmin III έχει μεταφραστεί σε %d γλώσσες."
 
 #: ../cnt/cnt_screenshots.php:269
-msgid "pgAdmin III interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic."
-msgstr "Η διεπαφή του pgAdmin III υποστηρίζει όλες τις γνωστές γραφές Unicode, ακόμα και την από Δεξιά προς Αριστερά (RTL) γραφή όπως τα Αραβικά."
+msgid ""
+"pgAdmin III interface supports all known Unicode scripts, even Right to Left "
+"(RTL) scripts like Arabic."
+msgstr ""
+"Η διεπαφή του pgAdmin III υποστηρίζει όλες τις γνωστές γραφές Unicode, ακόμα "
+"και την από Δεξιά προς Αριστερά (RTL) γραφή όπως τα Αραβικά."
 
 #: ../cnt/cnt_screenshots.php:43
-msgid "pgAdmin III is a comprehensive design and management interface for PostgreSQL database, designed to run on most Operating Systems."
-msgstr "Το pgAdmin III είναι ένα πρόγραμμα που προσφέρει σε σχεδίαση και διαχείριση σε προχωρημένο βαθμό για τη βάση δεδομένων PostgreSQL, και είναι σχεδιασμένο για να τρέχει σε πάρα πολλά Λειτουργικά Συστήματα."
+msgid ""
+"pgAdmin III is a comprehensive design and management interface for "
+"PostgreSQL database, designed to run on most Operating Systems."
+msgstr ""
+"Το pgAdmin III είναι ένα πρόγραμμα που προσφέρει σε σχεδίαση και διαχείριση "
+"σε προχωρημένο βαθμό για τη βάση δεδομένων PostgreSQL, και είναι σχεδιασμένο "
+"για να τρέχει σε πάρα πολλά Λειτουργικά Συστήματα."
 
-#: ../cnt/cnt_download.php:15
-#: ../cnt/cnt_index.php:82
+#: ../cnt/cnt_download.php:15 ../cnt/cnt_index.php:82
 #, c-format
-msgid "pgAdmin III is a free software project released under the <a href='%s'>Artistic licence</a>."
-msgstr "Το pgAdmin III είναι δωρεάν λογισμικό ανοικτού κώδικα που διανέμεται υπό την <a href='%s'>Artistic licence</a>."
+msgid ""
+"pgAdmin III is a free software project released under the <a href='%"
+"s'>Artistic licence</a>."
+msgstr ""
+"Το pgAdmin III είναι δωρεάν λογισμικό ανοικτού κώδικα που διανέμεται υπό την "
+"<a href='%s'>Artistic licence</a>."
 
 #: ../cnt/cnt_index.php:13
-msgid "pgAdmin III is a powerful administration and development platform for the PostgreSQL database, free for any use."
-msgstr "Το pgAdmin III είναι μια δυνατή πλατφόρμα ανάπτυξης και διαχείρισης για τη βάση δεδομένων PostgreSQL, ελεύθερο για κάθε χρήση."
+msgid ""
+"pgAdmin III is a powerful administration and development platform for the "
+"PostgreSQL database, free for any use."
+msgstr ""
+"Το pgAdmin III είναι μια δυνατή πλατφόρμα ανάπτυξης και διαχείρισης για τη "
+"βάση δεδομένων PostgreSQL, ελεύθερο για κάθε χρήση."
 
 #: ../cnt/cnt_translation.php:31
 #, c-format
-msgid "pgAdmin III is already translated in %d languages, and translators all around the world are adding more and more language options."
-msgstr "Το pgAdmin III έχει ήδη μεταφραστεί σε %d γλώσσες, και μεταφραστές από όλο τον κόσμο προσθέτουν σιγά σιγά και άλλες."
+msgid ""
+"pgAdmin III is already translated in %d languages, and translators all "
+"around the world are adding more and more language options."
+msgstr ""
+"Το pgAdmin III έχει ήδη μεταφραστεί σε %d γλώσσες, και μεταφραστές από όλο "
+"τον κόσμο προσθέτουν σιγά σιγά και άλλες."
 
 #: ../cnt/cnt_development.php:14
 msgid "pgAdmin III is available subject to the terms of the Artistic Licence."
 msgstr "Το pgAdmin III διανέμεται με τους όρους της Artistic License."
 
 #: ../cnt/cnt_index.php:18
-msgid "pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases."
-msgstr "Το pgAdmin III έχει σχεδιαστεί για να ικανοποιήσει τις ανάγκες όλων των χρηστών, από αυτούς που εκτελούν απλές SQL εντολές έως αυτούς που αναπτύσουν πολύπλοκες βάσεις δεδομένων."
+msgid ""
+"pgAdmin III is designed to answer the needs of all users, from writing "
+"simple SQL queries to developing complex databases."
+msgstr ""
+"Το pgAdmin III έχει σχεδιαστεί για να ικανοποιήσει τις ανάγκες όλων των "
+"χρηστών, από αυτούς που εκτελούν απλές SQL εντολές έως αυτούς που αναπτύσουν "
+"πολύπλοκες βάσεις δεδομένων."
 
 #: ../cnt/cnt_index.php:25
 #, c-format
-msgid "pgAdmin III is developed by a community of database specialists around the world and is available in more than 30 languages. It is Free Software released under the <A HREF='%s'>Artistic License</A>."
-msgstr "Το pgAdmin III αναπτύσεται από μια κοινότητα ειδικών στις βάσεις δεδομένων που βρίσκεται σε κατανεμημένη σε όλο τον κόσμο και είναι διαθέσιμο σε περισσότερες από 30 γλώσσες. Είναι δωρεάν λογισμικό και διανέμεται υπό την <A HREF='%s'>Artistic License</A>."
+msgid ""
+"pgAdmin III is developed by a community of database specialists around the "
+"world and is available in more than 30 languages. It is Free Software "
+"released under the <A HREF='%s'>Artistic License</A>."
+msgstr ""
+"Το pgAdmin III αναπτύσεται από μια κοινότητα ειδικών στις βάσεις δεδομένων "
+"που βρίσκεται σε κατανεμημένη σε όλο τον κόσμο και είναι διαθέσιμο σε "
+"περισσότερες από 30 γλώσσες. Είναι δωρεάν λογισμικό και διανέμεται υπό την "
+"<A HREF='%s'>Artistic License</A>."
 
 #: ../cnt/cnt_development.php:15
 #, fuzzy, c-format
-msgid "pgAdmin III is developed using a Subversion or SVN repository to hold the source code. Access to the repository is available through a <a href='%s'>web interface</a> or using your favourite SVN client."
-msgstr "Η πρόσβαση στο CVS είναι διαθέσιμη μέσω του <a href='%s'>web</a> ή χρησιμοποιώντας κάποιο πελάτη CVS."
+msgid ""
+"pgAdmin III is developed using a Subversion or SVN repository to hold the "
+"source code. Access to the repository is available through a <a href='%"
+"s'>web interface</a> or using your favourite SVN client."
+msgstr ""
+"Η πρόσβαση στο CVS είναι διαθέσιμη μέσω του <a href='%s'>web</a> ή "
+"χρησιμοποιώντας κάποιο πελάτη CVS."
 
 #: ../cnt/cnt_download.php:110
 msgid "pgAdmin III is published on the official Debian Unstable repository."
 msgstr "To pgAdmin III παράγεται στο επίσημο Debian Unstable repository."
 
 #: ../cnt/cnt_index.php:21
-msgid "pgAdmin III is released with an installer and does not require any additional driver to communicate with the database server."
-msgstr "Το pgAdmin III διανέμεται μαζί με πρόγραμμα εγκατάστασης και δε χρειάζεται κάποιον ιδιαίτερο driver για επικοινωνήσει με την εξυπηρετητή βάσεων δεδομένων."
+msgid ""
+"pgAdmin III is released with an installer and does not require any "
+"additional driver to communicate with the database server."
+msgstr ""
+"Το pgAdmin III διανέμεται μαζί με πρόγραμμα εγκατάστασης και δε χρειάζεται "
+"κάποιον ιδιαίτερο driver για επικοινωνήσει με την εξυπηρετητή βάσεων "
+"δεδομένων."
 
 #: ../cnt/cnt_index.php:77
 #, c-format
-msgid "pgAdmin III is the result of a joint effort of a team of more than %d contributors from %d different countries."
-msgstr "Το pgAdmin III είναι το αποτέλεσμα συντονισμένης προσπάθειας μιας ομάδας που αποτελείται από %d και πλέον μέλη που βρίσκονται σε %d διαφορετικές χώρες."
+msgid ""
+"pgAdmin III is the result of a joint effort of a team of more than %d "
+"contributors from %d different countries."
+msgstr ""
+"Το pgAdmin III είναι το αποτέλεσμα συντονισμένης προσπάθειας μιας ομάδας που "
+"αποτελείται από %d και πλέον μέλη που βρίσκονται σε %d διαφορετικές χώρες."
 
-#: ../cnt/cnt_download.php:208
-#: ../cnt/cnt_download.php:250
+#: ../cnt/cnt_download.php:208 ../cnt/cnt_download.php:250
 #: ../cnt/cnt_download.php:310
 #, c-format
 msgid "pgAdmin III packages are available for %s."
@@ -1224,50 +1539,76 @@ msgstr "Τα pgAdmin III παγέτα είναι διαθέσιμα για %s."
 
 #: ../cnt/cnt_download.php:27
 #, c-format
-msgid "pgAdmin III packages are available for <a href='%s'>GNU/Linux Debian</a> stable, testing and unstable distributions."
-msgstr "Τα πακέτα του pgAdmin III είναι διαθέσιμα για τη διανομή <a href='%s'>GNU/Linux Debian</a> stable, όσο και για τις testing και unstable."
+msgid ""
+"pgAdmin III packages are available for <a href='%s'>GNU/Linux Debian</a> "
+"stable, testing and unstable distributions."
+msgstr ""
+"Τα πακέτα του pgAdmin III είναι διαθέσιμα για τη διανομή <a href='%s'>GNU/"
+"Linux Debian</a> stable, όσο και για τις testing και unstable."
 
 #: ../cnt/cnt_screenshots.php:258
-msgid "pgAdmin III supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte encodings."
-msgstr "Το pgAdmin III υποστηρίζει από την πλευρά του εξυπηρετητή PostgreSQL τα περισσότερα σετ χαρακτήρων συμπεριλμβανομένων των Unicode UTF-8 και ISO 8859-7 καθώς και άλλες κωδικωποιήσεις πολλών byte."
+msgid ""
+"pgAdmin III supports most PostgreSQL server-side encodings including Unicode "
+"UTF-8 and other multi-byte encodings."
+msgstr ""
+"Το pgAdmin III υποστηρίζει από την πλευρά του εξυπηρετητή PostgreSQL τα "
+"περισσότερα σετ χαρακτήρων συμπεριλμβανομένων των Unicode UTF-8 και ISO 8859-"
+"7 καθώς και άλλες κωδικωποιήσεις πολλών byte."
 
 #: ../cnt/cnt_index.php:174
 msgid "pgAdmin III supports most PostgreSQL server-side encodings:"
-msgstr "Το pgAdmin III υποστηρίζει από την πλευρά του εξυπηρετητή PostgreSQL τα περισσότερα σετ χαρακτήρων:"
+msgstr ""
+"Το pgAdmin III υποστηρίζει από την πλευρά του εξυπηρετητή PostgreSQL τα "
+"περισσότερα σετ χαρακτήρων:"
 
 #: ../cnt/cnt_index.php:116
 #, c-format
 msgid "pgAdmin III user interface is translated in more than %d languages."
-msgstr "Το περιβάλλον εργασίας του pgAdmin III έχει μεταφραστεί σε περισσότερες από %d γλώσσες. "
+msgstr ""
+"Το περιβάλλον εργασίας του pgAdmin III έχει μεταφραστεί σε περισσότερες από %"
+"d γλώσσες. "
 
 #: ../cnt/cnt_index.php:61
 msgid "pgAdmin Project."
 msgstr ""
 
 #: ../cnt/cnt_index.php:197
-msgid "pgAdmin is a project created and managed by contributors from the whole world."
-msgstr "Το pgAdmin είναι ένα πρόγραμμα που δημιουργήθηκε και αναπτύσεται από προγραμματιστές που βρίσκονται σε ολόκληρο τον κόσμο."
+msgid ""
+"pgAdmin is a project created and managed by contributors from the whole "
+"world."
+msgstr ""
+"Το pgAdmin είναι ένα πρόγραμμα που δημιουργήθηκε και αναπτύσεται από "
+"προγραμματιστές που βρίσκονται σε ολόκληρο τον κόσμο."
 
 #: ../cnt/cnt_screenshots.php:63
 #, c-format
 msgid "pgAdmin is used by more than %d users worldwide."
-msgstr "Το pgAdmin το χρησιμοποιούν περισσότεροι από %d χρήστες σε όλο τον κόσμο."
+msgstr ""
+"Το pgAdmin το χρησιμοποιούν περισσότεροι από %d χρήστες σε όλο τον κόσμο."
 
 #: ../cnt/cnt_screenshots.php:62
 msgid "pgAdmin project started five years ago."
 msgstr "Το πρόγραμμα pgAdmin ξεκίνησε πριν πέντε χρόνια."
 
 #: ../cnt/cnt_development.php:34
-msgid "pgadmin-hackers list is intended for developers who wish to contribute to pgAdmin project."
-msgstr "Η λίστα ηλεκτρονικού ταχυδρομείου pgadmin-hackers αναφέρεται σε προγραμματιστές που επιθυμούν να συνεισφέρουν ενεργά στο πρόγραμμα pgAdmin."
+msgid ""
+"pgadmin-hackers list is intended for developers who wish to contribute to "
+"pgAdmin project."
+msgstr ""
+"Η λίστα ηλεκτρονικού ταχυδρομείου pgadmin-hackers αναφέρεται σε "
+"προγραμματιστές που επιθυμούν να συνεισφέρουν ενεργά στο πρόγραμμα pgAdmin."
 
 #: ../cnt/cnt_development.php:32
 msgid "pgadmin-hackers mailing list"
 msgstr "Λίστα ηλεκτρονικού ταχυδρομείου pgadmin-hackers"
 
 #: ../cnt/cnt_support.php:21
-msgid "pgadmin-support is a support list intended for end user support and bug reports."
-msgstr "Η λίστα ηλεκτρονικού ταχυδρομείου pgadmin-support αναφέρεται στην υποστήριξη των τελικών χρηστών και στην κατάθεση σφαλμάτων."
+msgid ""
+"pgadmin-support is a support list intended for end user support and bug "
+"reports."
+msgstr ""
+"Η λίστα ηλεκτρονικού ταχυδρομείου pgadmin-support αναφέρεται στην υποστήριξη "
+"των τελικών χρηστών και στην κατάθεση σφαλμάτων."
 
 #: ../cnt/cnt_support.php:19
 msgid "pgadmin-support mailing list"
@@ -1277,4 +1618,3 @@ msgstr "Λίστα ηλεκτρονικού ταχυδρομείου pgadmin-sup
 #, c-format
 msgid "wxWidgets %s."
 msgstr ""
-

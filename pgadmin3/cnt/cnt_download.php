@@ -292,7 +292,7 @@
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
         <tr><td>
           # <?php echo _("Note - you may need to use the --enable-debug option if attempting to track down a crash.");?><br/>
-          # <?php echo _("Note - the --enable-mimetype=no option is broken on wxWidgets versions earlier than 2.6.2 and should be omitted.");?><br/><br/>
+          # <?php echo _("Note - the --enable-mimetype=no option is broken on wxWidgets versions earlier than 2.6.2 and should be omitted.");?><br/>
           # <?php echo _("Note - wxWidgets versions 2.6.2 and below are broken on Solaris. A CVS snapshot from the stable branch dated 2005-09-26 or later should be used until 2.6.3 is available.");?><br/><br/>
 	  cd wxWidgets*<br/>
           ./configure --with-gtk --enable-gtk2 --enable-unicode --enable-mimetype=no<br/>

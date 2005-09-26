@@ -262,7 +262,7 @@
             <?php echo _("Microsoft Visual C++ 6.0 or newer.")?>
         </ul>
 
-    	<li><?php echo sprintf(_("wxWidgets %s."), "2.6.0")?>
+    	<li><?php echo sprintf(_("wxWidgets %s."), "2.6.x")?>
         <?php echo _("Currently, this is the only version we support.")?>
     
 
@@ -270,7 +270,7 @@
 			<li><?php echo sprintf(_("PostgreSQL %s with libpq for data access."), "7.3+") ?>
     </ul>
 
-  <dt><?php echo _("Installing wxWindows libraries");?></dt>
+  <dt><?php echo _("Installing wxWidgets libraries");?></dt>
   <dd>
       <?php echo sprintf(_("Download wxWidgets from the <a href='%s'>wxWidgets</a> download area."), "http://www.wxwidgets.org");?>
       <br/><br/>
@@ -287,24 +287,21 @@
 
       <ul>
 
-    	<li>GNU/Linux or FreeBSD
+    	<li>GNU/Linux, FreeBSD or Solaris
       <br/>
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
         <tr><td>
-          # <?php echo _("Note - release builds should be configured without the --enable-debug option.");?><br/><br/>
-					cd wxWidgets*<br/>
-          ./configure --with-gtk --enable-gtk2 \<br/>
-          --enable-unicode --disable-shared --enable-debug --enable-mimetype=no<br/>
+          # <?php echo _("Note - you may need to use the --enable-debug option if attempting to track down a crash.");?><br/>
+          # <?php echo _("Note - the --enable-mimetype=no option is broken on wxWidgets versions earlier than 2.6.2 and should be omitted.");?><br/><br/>
+          # <?php echo _("Note - wxWidgets versions 2.6.2 and below are broken on Solaris. A CVS snapshot from the stable branch dated 2005-09-26 or later should be used until 2.6.3 is available.");?><br/><br/>
+	  cd wxWidgets*<br/>
+          ./configure --with-gtk --enable-gtk2 --enable-unicode --enable-mimetype=no<br/>
           make<br/>
-      		sudo make install<br/><br/>
-          # <?php echo _("Install wxWidgets STC (Styled Text Control).");?><br/>
-          cd contrib/src/stc<br/>
-      		make<br/>
-      		sudo make install<br/><br/>
-          # <?php echo _("Install wxWidgets OGL (Object Graphics Library).");?><br/>
-          cd ../ogl<br/>
-      		make<br/>
-      		sudo make install<br/><br/>
+      	  sudo make install<br/><br/>
+          # <?php echo _("Install wxWidgets 'contrib' modules.");?><br/>
+          cd contrib/<br/>
+          make<br/>
+      	  sudo make install<br/><br/>
         </td></tr>
       </table>
 
@@ -313,19 +310,15 @@
       <br/>
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
         <tr><td>
-          # <?php echo _("Note - release builds should be configured without the --enable-debug option.");?><br/><br/>
-					cd wxWidgets*<br/>
-          ../configure --with-mac --disable-shared --enable-debug<br/>
+          # <?php echo _("Note - you may need to use the --enable-debug option if attempting to track down a crash.");?><br/><br/>
+	  cd wxWidgets*<br/>
+          ../configure --with-mac<br/>
           make<br/>
           sudo make install<br/><br/>
-					# <?php echo _("Install wxWidgets STC (Styled Text Control).");?><br/>
-          cd contrib/src/stc/<br/>
+	  # <?php echo _("Install wxWidgets 'contrib' modules.");?><br/>
+          cd contrib/<br/>
           make<br/>
           sudo make install<br/><br/>
-          # <?php echo _("Install wxWidgets OGL (Object Graphics Library).");?><br/>
-          cd ../ogl<br/>
-      		make<br/>
-      		sudo make install<br/><br/>
         </td></tr>
       </table>
 		</ul>
@@ -352,9 +345,9 @@
       <li><?php echo _("Compile pgAdmin III.");?><br/>
         <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
             <tr><td>
-            # <?php echo _("Note - release builds should be configured without the --enable-debug option.");?><br/>
+            # <?php echo _("Note - you may need to use the --enable-debug option if attempting to track down a crash.");?><br/>
             # <?php echo _("Note - When building on Mac OSX, you should also include the --enable-appbundle option.");?><br/><br/>
-            ./configure --enable-static --enable-debug<br/>
+            ./configure<br/>
             make all<br/>
             sudo make install
             </td></tr>

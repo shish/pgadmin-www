@@ -306,13 +306,13 @@
       </table>
 
       <br/>
-    	<li>MacOsX
+    	<li>Mac OS X
       <br/>
       <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef">
         <tr><td>
           # <?php echo _("Note - you may need to use the --enable-debug option if attempting to track down a crash.");?><br/><br/>
 	  cd wxWidgets*<br/>
-          ../configure --with-mac<br/>
+          ../configure --with-mac --enable-unicode --enable-mimetype=no<br/>
           make<br/>
           sudo make install<br/><br/>
 	  # <?php echo _("Install wxWidgets 'contrib' modules.");?><br/>

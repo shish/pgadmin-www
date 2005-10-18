@@ -60,7 +60,7 @@
       	<td COLSPAN=3>
         <p>
         	<?php echo _("pgAdmin project started five years ago.");?>
-          <?php echo sprintf(_("pgAdmin is used by more than %d users worldwide."), 50000);?>
+          <?php echo sprintf(_("pgAdmin is used by more than %d users worldwide."), 500000);?>
           <?php echo _("With the help and suggestions of users, we have been constantly improving the usability of pgAdmin.");?>
           <?php echo _("Recently, our team was joined by developers with an experience of more than 10 years in the design of database tools.");?>
           <br><br>
@@ -75,7 +75,7 @@
         </td>
         <td COLSPAN=2 valign='top'>
         <p>
-        	<?php echo _("pgAdmin III can connect to any PostgreSQL 7.3/7.4 database using the embedded libpq native library.");?>
+        	<?php echo _("pgAdmin III can connect to any PostgreSQL 7.3/7.4 and 8.x database using the embedded libpq native library.");?>
           <?php echo _("The application does not need any ODBC layer.");?>
           <br><br>
           <?php echo _("When configured server-side, it is possible to connect using encrypted password or SSL authentication.");?>
@@ -117,10 +117,12 @@
               <li><?php echo _("Operator classes");?>
               <li><?php echo _("Operators");?>
               <li><?php echo _("PostgreSQL servers");?>
+              <li><?php echo _("Roles");?>
               <li><?php echo _("Rules");?>
               <li><?php echo _("Schemas");?>
               <li><?php echo _("Sequences");?>
               <li><?php echo _("Tables");?>
+              <li><?php echo _("Tablespaces");?>
               <li><?php echo _("Trigger function");?>
               <li><?php echo _("Types");?>
               <li><?php echo _("Users");?>

@@ -8,7 +8,7 @@
 2005-10-12
 <p>
 Beta-2 of pgAdmin 1.4, the graphical PostgreSQL administration tool for Windows, Linux, FreeBSD and Solaris is now available for download from
- <a href='"http://www.postgresql.org/ftp/pgadmin3/beta'>postgresql.org download center</a>.
+ <a href="http://www.postgresql.org/ftp/pgadmin3/beta">postgresql.org download center</a>.
 </p><p>
 This new beta version is made available publicly together with PostgreSQL 8.1 Beta-3, and includes some minor fixes to annoying bugs, esp. a crash when
 showing a table's properties.
@@ -17,7 +17,7 @@ showing a table's properties.
 2004-10-05
 <p>
 Beta-1 of pgAdmin 1.4, the graphical PostgreSQL administration tool for Windows, Linux, FreeBSD and Solaris is now available for download from
- <a href='"http://www.postgresql.org/ftp/pgadmin3/beta'>postgresql.org download center</a>.
+ <a href="http://www.postgresql.org/ftp/pgadmin3/beta">postgresql.org download center</a>.
 </p><p>
 V1.4.0 contains a number of new features including:
 <ul>

@@ -4,6 +4,15 @@
 <a href="#beta1">Beta-1</a>
 </div>
 <div id="bodyText">
+<h1 id="beta2"><?php echo _("Beta-3 of pgAdmin III V1.4 released");?></h1>
+2005-10-20
+<p>
+Beta-3 of pgAdmin 1.4, the graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris is now available for download from
+ <a href="http://www.postgresql.org/ftp/pgadmin3/beta">postgresql.org download center</a>.
+</p><p>
+This new beta version fixes various issues in the *nix build system and includes much tighter configuration error detection than previous releases. In 
+addition a number of Mac related fixes are included.
+</p>
 <h1 id="beta2"><?php echo _("Beta-2 of pgAdmin III V1.4 released");?></h1>
 2005-10-12
 <p>

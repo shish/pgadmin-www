@@ -170,6 +170,8 @@
           msgmerge --update pgadmin3.po pgadmin3.pot
         </td></tr>
       </table>
+    <br><br>
+    <li>There are more texts that can be translated. In the docs directory, the file tips.txt contains tips that are displayed on pgAdmin startup. The HTML files used by the Guru to notify users of special issues are located in the docs/hints directory. Both tips.txt and guru hint HTML files are translated without tools, just use your favourite text editor.
       <br>
   </ol>
 	</dd>

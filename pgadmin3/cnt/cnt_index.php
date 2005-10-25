@@ -27,6 +27,13 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
+  [2005-10-20]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4 Beta-3");?></dt>
+  <dd>
+    <?php echo sprintf(_("Beta-3 of pgAdmin 1.4, the graphical PostgreSQL administration tool for Windows, Linux, FreeBSD and Solaris is now available for download from <a href='%s'>postgresql.org download center</a>."), "http://www.postgresql.org/ftp/pgadmin3/beta/");?>
+    <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Beta</a> page to learn more about this exciting new version."), "beta.php");?>
+  </dd>
+</dl>
+<dl>
   [2005-10-12]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4 Beta-2");?></dt>
   <dd>
     <?php echo sprintf(_("Beta-2 of pgAdmin 1.4, the graphical PostgreSQL administration tool for Windows, Linux, FreeBSD and Solaris is now available for download from <a href='%s'>postgresql.org download center</a>."), "http://www.postgresql.org/ftp/pgadmin3/beta/");?>

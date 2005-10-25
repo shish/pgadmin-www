@@ -1,10 +1,11 @@
 <div class="sideBox LHS">
 <div><?php echo _("Beta versions");?></div>
+<a href="#beta3">Beta-3</a>
 <a href="#beta2">Beta-2</a>
 <a href="#beta1">Beta-1</a>
 </div>
 <div id="bodyText">
-<h1 id="beta2"><?php echo _("Beta-3 of pgAdmin III V1.4 released");?></h1>
+<h1 id="beta3"><?php echo _("Beta-3 of pgAdmin III V1.4 released");?></h1>
 2005-10-20
 <p>
 Beta-3 of pgAdmin 1.4, the graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris is now available for download from

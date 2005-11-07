@@ -32,7 +32,7 @@
     <?php echo _("I'm pleased to announce the release of pgAdmin 1.4.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"); ?>
     <br><br><center>
     <?php echo sprintf(_("<a href=\"%s\">%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.0/", "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.0/"); ?>
-    </center><br><br>
+    </center><br>
     <?php echo _("V1.4.0 contains a number of new features over previous releases, including:"); ?>
     <br><br>
     <ul>

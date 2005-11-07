@@ -27,24 +27,43 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
-  [2005-10-20]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4 Beta-3");?></dt>
+  [2005-11-07]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4.0");?></dt>
   <dd>
-    <?php echo sprintf(_("Beta-3 of pgAdmin 1.4, the graphical PostgreSQL administration tool for Windows, Linux, FreeBSD and Solaris is now available for download from <a href='%s'>postgresql.org download center</a>."), "http://www.postgresql.org/ftp/pgadmin3/beta/");?>
-    <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Beta</a> page to learn more about this exciting new version."), "beta.php");?>
-  </dd>
-</dl>
-<dl>
-  [2005-10-12]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4 Beta-2");?></dt>
-  <dd>
-    <?php echo sprintf(_("Beta-2 of pgAdmin 1.4, the graphical PostgreSQL administration tool for Windows, Linux, FreeBSD and Solaris is now available for download from <a href='%s'>postgresql.org download center</a>."), "http://www.postgresql.org/ftp/pgadmin3/beta/");?>
-    <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Beta</a> page to learn more about this exciting new version."), "beta.php");?>
-  </dd>
-</dl>
-<dl>
-  [2005-10-05]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4 Beta-1");?></dt>
-  <dd>
-    <?php echo sprintf(_("Beta-1 of pgAdmin 1.4, the graphical PostgreSQL administration tool for Windows, Linux, FreeBSD and Solaris is now available for download from <a href='%s'>postgresql.org download center</a>."), "http://www.postgresql.org/ftp/pgadmin3/beta/");?>
-    <?php echo sprintf(_("Please visit pgAdmin <a href='%s'>Beta</a> page to learn more about this exciting new version."), "beta.php");?>
+    <?php echo _("I'm pleased to announce the release of pgAdmin 1.4.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"); ?>
+    <br><br><center>
+    <?php echo sprintf(_("<a href=\"%s\">%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.0/", "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.0/"); ?>
+    </center><br><br>
+    <?php echo _("V1.4.0 contains a number of new features over previous releases, including:"); ?>
+    <br><br>
+    <ul>
+      <li><?php echo _("Slony-I support."); ?></li>
+      <li><?php echo _("An SQL/shell job scheduling agent."); ?></li>
+      <li><?php echo _("PostgreSQL 8.1 support:"); ?>
+        <ul>
+          <li><?php echo _("Autovacuum administration."); ?></li>
+          <li><?php echo _("Roles."); ?></li>
+          <li><?php echo _("Stored procedures (ie. Functions with OUT parameters)."); ?></li>
+          <li><?php echo _("Prepared transactions."); ?></li>
+        </ul></li>
+      <li><?php echo _("Allow server registration without connect."); ?></li>
+      <li><?php echo _("Allow connection selection in the query tool."); ?></li>
+      <li><?php echo _("Major source tree and architecture overhaul to allow further extensibility."); ?></li>
+      <li><?php echo _("Unix domain socket support."); ?></li>
+      <li><?php echo _("'Guru Hints' to help new users."); ?></li>
+      <li><?php echo _("Password can be stored in .pgass/pgpass.conf files."); ?></li>
+      <li><?php echo _("New graphics throughout."); ?></li>
+      <li><?php echo _("Alert the user when a query finishes in the query tool if the window is not active."); ?></li>
+      <li><?php echo _("Graphical EXPLAIN."); ?></li>
+      <li><?php echo _("Support for Asynchronous Notifications in the query tool."); ?></li>
+    </ul>
+    <br>
+    <?php echo _("As well as many other tweaks, improvements and bug fixes."); ?>
+    <br><br>
+    <?php echo _("I would like to take this opportunity to thank all those who gave their time to help with the development, testing, translation and packaging of this release."); ?>
+    <br><br>
+    <?php echo _("Dave Page"); ?>
+    <br>
+    <?php echo _("pgAdmin Development Team"); ?>
   </dd>
 </dl>
 <dl>

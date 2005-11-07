@@ -57,7 +57,7 @@
       <li><?php echo _("Support for Asynchronous Notifications in the query tool."); ?></li>
     </ul>
     <br>
-    <?php echo _("As well as many other tweaks, improvements and bug fixes."); ?>
+    <?php echo sprintf(_("As well as many other tweaks, improvements and bug fixes, details of which may be found on the <a href=\"%\">changelog</a>."), http://www.pgadmin.org/development.php#changelog); ?>
     <br><br>
     <?php echo _("I would like to take this opportunity to thank all those who gave their time to help with the development, testing, translation and packaging of this release."); ?>
     <br><br>

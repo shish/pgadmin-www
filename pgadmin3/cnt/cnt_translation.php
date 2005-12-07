@@ -62,6 +62,7 @@
 
   <dd><?php echo _("The updated translations are published in daily snapshots automatically.");?>
   <br>
+  <br>
   </dd>
 
     <?php
@@ -75,7 +76,10 @@
   <h1 id="vacant"><?php echo sprintf(_("Out of date Translations (%d languages)"), $outofdate->getNbLanguages());?></h1>
   <dd>
 	<?php echo sprintf(_("The translations below are not considered complete enough for inclusion in current releases."));?>
+	<?php echo sprintf(_("Around 750 translated strings indicate V1.0 support, 1000 strings V1.2, and 1500 strings are good for V1.4."));?>
+	<?php echo sprintf(_("When using an incomplete translation on a newer pgAdmin version, you will get a mixture of translated and untranslated dialogs (usually on less frequently used ones), but general usability shouldn't be affected."));?>
 	<?php echo sprintf(_("If you like to continue the work, please don't hesitate to contact the current maintainer (please CC %s)!"), "pgsql-hackers@postgresql.org");?>
+  <br>
   <br>
   </dd>
     <?php
@@ -109,11 +113,6 @@
     <a href="http://poedit.sourceforge.net">poEdit</a> is our recommended choice, as it makes it really easy to maintain your translation. An MS Windows installer is available on the <a href="http://poedit.sourceforge.net">poEdit</a> web site. 
     Alternatively, you may also run <a href="http://i18n.kde.org/tools/kbabel/">Kbabel</a> which can be found in recent GNU/Linux distributions.
 
-    <br><br>
-	<li>
-    Use the translation debug mode of pgAdmin III (command line option -t) to review your translation in all dialogs. You won't need a database connection
-    in that mode, but all dialog resource files (*.xrc) are required, copies to the ui directory. If you compiled in debug mode, this will be the case
-    automatically.
     <br><br>
     <li>
       Send us the English and translated names of your language: 'French' and 'Français', 'German"' and 'Deutsch', etc.. This will allow us to modify pgAdmin i18n/pgadmin3.lng file to display the language name in pgAdmin. We will also create a directory according to your locale canonical name under /usr/share/pgadmin3/ui (GNU/Linux and other Unixes) or c:\program files\pgadmi3\ui (Win32). The list of language codes can be found on <a href='http://www.debian.org/international/l10n/po'>Debian site</a>. You also check the more detailed <a href='http://www.loc.gov/standards/iso639-2/englangn.html'>ISO 639.2 Codes for the Representation of Names of Languages</a>.
@@ -155,6 +154,10 @@
 
     <li>Review your translation carefully. <br><br>
       You should be able to add the appropriate i18n/language_Country/pgadmin3.mo file under an existing binary installation of pgAdmin. Then, just select the language under the File -> Options menu. Review is an important step, because somes strings do not have a real context. You will only be able to correct entries by using pgAdmin yourself...
+    <br>
+    Use the translation debug mode of pgAdmin III (command line option -t) to review your translation in all dialogs. You won't need a database connection
+    in that mode, but all dialog resource files (*.xrc) are required, copied to the ui directory. If you compiled in debug mode, this will be the case
+    automatically.
     <br><br>
 
     <li>When the translation is finished and reviewed, send pgadmin3.po and pgadmin3.mo files to
@@ -202,7 +205,7 @@
       Menu strings also contain hard coded shortcuts (Ctrl-X) or function keys (F5). These can be identified by a preceding \t (tab). If appropriate, the modifier key name may be translated (Ctrl-), but the key combination must remain the same in any case, because the behaviour is coded in pgAdmin source.
       <br><br>
 
-    	<li>Most forms are not designed with resizing capabilities, because this is quite hard work. The only resizing forms are the function, view and rule property windows. Therefore, you may need to shrink the translated text to the English size. In general, we tried to leave enough space for translation texts, but if you believe there are certain places we should spend more space please let us know.
+    	<li>Most forms are not designed with resizing capabilities, because this is quite hard work; in addition, most dialog contents isn't sizeable in a meaningful way. The only resizing forms are the function, view and rule property windows. Therefore, you may need to shrink the translated text to the English size. In general, we tried to leave enough space for translation texts, but if you believe there are certain places we should spend more space please let us know.
       <br><br>
     </ol>
   </dd>

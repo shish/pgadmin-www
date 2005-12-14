@@ -27,6 +27,37 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
+  [2005-11-07]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4.1");?></dt>
+  <dd>
+    <?php echo _("I'm pleased to announce the release of pgAdmin 1.4.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"); ?>
+    <br><br><center>
+    <?php echo sprintf(_("<a href=\"%s\">%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.1/", "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.1/"); ?>
+    </center><br>
+    <?php echo _("v1.4.1 is primarily a bug fix release, including the following changes:"); ?>
+    <br><br>
+    <ul>
+      <li><?php echo _("Default the encoding of new databases to the cluster encoding."); ?></li>
+      <li><?php echo _("Sort encoding names in dlgDatabase."); ?></li>
+      <li><?php echo _("Store UTF8 connect info in pgpass.conf if necessary."); ?>
+      <li><?php echo _("Major fix for wx2.6.2 API changes (comboboxes)."); ?></li>
+      <li><?php echo _("Drop constraints on columns before the columns themselves."); ?></li>
+      <li><?php echo _("Graphical explain: distinct scan images."); ?></li>
+      <li><?php echo _("Fix the server status SQL query."); ?></li>
+      <li><?php echo _("Include pg_dump/pg_restore in the Mac OSX bundle."); ?></li>
+      <li><?php echo _("Use a proper 'Save As' style dialogue for selecting backup files."); ?></li>
+      <li><?php echo _("Don't show primary key hint when editing views."); ?></li>
+      <li><?php echo _("Add missing NO ACTION FK constraint."); ?></li>
+      <li><?php echo _("Fix procedure/triggerFunc collection list."); ?></li>
+      <li><?php echo _("Allow all 8.x column changes."); ?></li>
+      <li><?php echo _("Fix param name quoting for procedures."); ?></li>
+    </ul>
+    <br><br>
+    <?php echo _("Dave Page"); ?>
+    <br>
+    <?php echo _("pgAdmin Development Team"); ?>
+  </dd>
+</dl>
+<dl>
   [2005-11-07]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4.0");?></dt>
   <dd>
     <?php echo _("I'm pleased to announce the release of pgAdmin 1.4.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"); ?>

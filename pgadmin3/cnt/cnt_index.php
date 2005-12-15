@@ -27,7 +27,7 @@
 
 <h1 id="news"><?php echo _("Latest news");?></h1>
 <dl>
-  [2005-11-07]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4.1");?></dt>
+  [2005-12-14]<dt><?php echo sprintf(_("pgAdmin III %s released"), "v1.4.1");?></dt>
   <dd>
     <?php echo _("I'm pleased to announce the release of pgAdmin 1.4.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"); ?>
     <br><br><center>

@@ -9,6 +9,7 @@
     <a href="#source">&rsaquo; <?php echo _("Installing pgAdmin III from source code")?></a>
     <a href="#snapshots">&rsaquo; <?php echo _("Installing pgAdmin III from binary snapshots");?></a>
     <a href="#languages">&rsaquo;<?php echo _("Additional languages")?></a>
+    <a href="#adminpack">&rsaquo;<?php echo _("Admin package")?></a>
 </div>
 
 <div id="bodyText">
@@ -382,6 +383,12 @@
   <dd>
       <?php echo _("Languages not included in the distribution package may be added at a later time.");?>
      <?php echo sprintf("Please check the <a HREF='%s'>Translation</a> page whether your preferred language is available already.", "translation.php#update");?>
+  </dd>
+  <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+
+  <h1 id="adminpack"><?php echo _("Admin package");?></h1>
+  <dd>
+      <?php echo sprintf(_("The admin packages to enable server instrumentation on PostgreSQL 8.x servers can be found in the adminpacks directory on the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>
   </dd>
   <a class="topOfPage" href="#top" title="Top Of Page">top</a>
 </div>

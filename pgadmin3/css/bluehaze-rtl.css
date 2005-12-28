@@ -235,3 +235,12 @@ dd {
   padding-right: 3mm;
   padding-left: 3mm;
 }
+
+/* ##### googleAd ##### */
+
+.googleAd {
+  width: 11em;
+  padding-right: 1mm;
+  padding-top: 3mm;
+}
+

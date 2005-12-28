@@ -12,6 +12,25 @@
     <a href="#adminpack">&rsaquo;<?php echo _("Admin package")?></a>
 </div>
 
+<div class="googleAd LHS">
+<script type="text/javascript"><!--
+google_ad_client = "pub-7509009547019933";
+google_ad_width = 160;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_type = "text";
+google_ad_channel ="";
+google_color_border = "0080FF";
+google_color_bg = "CDDDEB";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
 <div id="bodyText">
   <?php echo sprintf(_("pgAdmin III is a free software project released under the <a href='%s'>Artistic licence</a>."), "cnt/licence.txt");?>
   <?php echo sprintf(_("The software is available in source and binary format from the <a href=\"%s\">PostgreSQL mirror network</a>."), "http://www.postgresql.org/ftp/pgadmin3/release/");?>

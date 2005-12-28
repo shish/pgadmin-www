@@ -215,3 +215,11 @@ dd {
   clear: left;
   padding-left: 3mm;
 }
+
+/* ##### googleAd ##### */
+
+.googleAd {
+  width: 11em;
+  padding-left: 0.75mm;
+  padding-top: 3mm;
+}

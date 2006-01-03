@@ -384,15 +384,11 @@ google_color_text = "000000";
     <?php echo _("Because compiling from source requires technical knowledge, we recommand using binary packages.")?>
     <?php echo _("Download pgAdmin III snapshots here:");?>
     <ul>
-      <li>GNU Linux <a href="http://www.pgadmin.org/snapshots/linux/debian">Debian</a> |
-      <a href="http://www.pgadmin.org/snapshots/linux/FC2">Fedora FC2</a> |
-      <a href="http://www.pgadmin.org/snapshots/linux/mandrake91">Mandrake 9.1</a> |
-      <a href="http://www.pgadmin.org/snapshots/linux/redhat9">RedHat 9</a> |
-      <a href="http://www.pgadmin.org/snapshots/linux/slackware91">Slackware 9.1</a> |
-      <a href="http://www.pgadmin.org/snapshots/linux/suse82">SuSE 8.2</a>
+      <li>Linux <a href="/snapshots/linux/debian">Debian</a> |
+      <a href="/snapshots/linux/slackware">Slackware</a> |
       <br/>
-      <li><a href="http://www.pgadmin.org/snapshots/freeBSD">FreeBSD 5.1</a><br/>
-      <li><a href="http://www.pgadmin.org/snapshots/win32">Microsoft Windows 2000 &amp; XP</a><br/>
+      <li><a href="/snapshots/osx">Mac OSX</a><br/>
+      <li><a href="/snapshots/win32">Microsoft Windows 2000 &amp; XP &amp; 2003</a><br/>
     </ul>
     <?php echo sprintf(_("Please refer to our <a href='%s'>installation instructions</a>."), "#binaries");?>
   </dd>

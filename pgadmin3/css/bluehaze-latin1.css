@@ -139,6 +139,10 @@ dd {
   background-repeat: no-repeat;
 }
 
+#header form {
+  margin-bottom: 0px;
+}
+
 .headerTitle {
 	border: none;
 }
@@ -223,3 +227,4 @@ dd {
   padding-left: 0.75mm;
   padding-top: 3mm;
 }
+

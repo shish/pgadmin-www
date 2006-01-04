@@ -149,6 +149,10 @@ dd {
   background-repeat: no-repeat;
 }
 
+#header form {
+  margin-bottom: 0px;
+}
+
 .headerTitle {
   direction: rtl;
   border: none;

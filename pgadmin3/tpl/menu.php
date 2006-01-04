@@ -2,10 +2,50 @@
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr id="header">
-      <td >
+      <td rowspan="2">
         <img src="img/elephant.png" alt="pgAdmin III for PostgreSQL">
       </td>
 
+      <td align="<?php echo $_SESSION['pgadmin']['locale_right']?>" valign="top">
+<!-- SiteSearch Google -->
+<form method="get" action="http://www.google.com/custom" target="_top">
+<table border="0" bgcolor="#CDDDEB">
+<tr><td nowrap="nowrap" valign="top" align="left" height="32">
+
+</td>
+<td nowrap="nowrap">
+<input type="hidden" name="domains" value="pgadmin.org"></input>
+<input type="text" name="q" size="12" maxlength="255" value=""></input>
+<input type="submit" name="sa" value="Google Search"></input>
+</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td nowrap="nowrap">
+<table>
+<tr>
+<td>
+<input type="radio" name="sitesearch" value="" checked="checked"></input>
+<font size="-1" color="#000000">Web</font>
+</td>
+<td>
+<input type="radio" name="sitesearch" value="pgadmin.org"></input>
+<font size="-1" color="#000000">pgadmin.org</font>
+</td>
+</tr>
+</table>
+<input type="hidden" name="client" value="pub-7509009547019933"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#0080FF;VLC:663399;AH:center;BGC:CDDDEB;LBGC:CDDDEB;ALC:0000FF;LC:0000FF;T:000000;GFNT:0080FF;GIMP:0080FF;LH:100;LW:100;L:http://www.pgadmin.org/img/elephant2.png;S:http://www.pgadmin.org/;LP:1;FORID:1;"></input>
+<input type="hidden" name="hl" value="en"></input>
+</td></tr></table>
+</form>
+<!-- SiteSearch Google -->
+      </td>
+
+    </tr>
+    <tr id="header">
       <td align="<?php echo $_SESSION['pgadmin']['locale_right']?>" valign="bottom">
       	Languages:
 	<a href="?locale=af_ZA"><img src="img/flags/SouthAfrica.gif" alt="Afrikaans"></img></a>

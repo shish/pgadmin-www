@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Rewrite requests for documentation images
+RewriteRule ^docs/dev/(.*)\.(png|jpg|gif)$ /svnrepo/pgadmin3/docs/en_US/$1\.$2 [QSA,L]
+RewriteRule ^docs/1.4/(.*)\.(png|jpg|gif)$ /svnrepo/pgadmin3-1.4/docs/en_US/$1\.$2 [QSA,L]
+
+# Requests like /docs/xx/yy need to be rewritten to /include/page.php?docset=xx&docpage=yy
+RewriteRule ^docs/(.[a-zA-Z0-9.]*)/(.*)$ /include/page.php?docset=$1&docpage=$2 [QSA,L]
+

@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <p>' . sprintf(_("pgAdmin III is available subject to the terms of the <a href=\"%s\">Artistic Licence</a>. pgAdmin III is developed using a Subversion or SVN repository to hold the source code. Access to the repository is available through a <a href=\"%s\">web interface</a> or using your favourite SVN client. Anonymous read access is available using an SVN client. Under Windows, we recommend using <a href=\"%s\">TortoiseSVN</a>, which is free software. Under Linux, there are several command line and graphical clients available."), "../licence.php", "http://svn.pgadmin.org", "http://tortoisesvn.tigris.org/") . '</p>
 
-<p>' . sprintf(_("To checkout the source from the command line and get started, you might use commands such as shown below on a Linux or Unix system. For further details, please see the <a href=\"%s\">Source code</a> build instructions."), "../download/source.php") . '</p>
+<p>' . sprintf(_("To checkout the source from the command line and get started, you might use commands such as shown below on a Linux or Unix system. For further details, please see the <a href=\"%s\">source code</a> build instructions."), "../download/source.php") . '</p>
 
 <div class="pgaCode">
 svn co svn://svn.pgadmin.org/trunk/pgadmin3 pgadmin3<br />

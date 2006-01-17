@@ -232,6 +232,11 @@ body
   color: #009ace;
 }
 
+.pgaSectionMenuOption a:visited
+{
+  color: #009ace;
+}
+
 .pgaSectionMenuOption a:hover
 {
   background-color: #999999;

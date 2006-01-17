@@ -1,6 +1,6 @@
 <?php
 
-    require_once "../class/po_status.php";
+    require_once "../include/po_status.php";
 
     $translated = new po_status();
     $outofdate = new po_status();

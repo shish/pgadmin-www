@@ -7,7 +7,7 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Features") . '</h1>
 
-<p>' . sprintf(_("pgAdmin has a huge array of features and by far the best way to see them all is to <a href=\"%s\">Download</a> a copy and give it a try. Here's a brief list to give you an idea of it's capabilities though."), "downloads/") . '</p>
+<p>' . sprintf(_("pgAdmin has a huge array of features and by far the best way to see them all is to <a href=\"%s\">Download</a> a copy and give it a try. Here's a brief list to give you an idea of it's capabilities though."), "download/") . '</p>
 
 <h2>' . _("Multiplatform") . '</h2>
 <ul>

@@ -13,7 +13,7 @@ $PAGE_CONTENT = '
 
 '; 
 
-$file = "../faq/index.php";
+$file = "../pgadmin3/faq/index.php";
 if (file_exists($file))
   $PAGE_CONTENT .= file_get_contents($file);
 

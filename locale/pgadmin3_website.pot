@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-17 13:09+0000\n"
+"POT-Creation-Date: 2006-01-17 13:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,11 +172,11 @@ msgstr ""
 msgid "Admin packs"
 msgstr ""
 
-#: ../include/page.php:187
+#: ../include/page.php:191
 msgid "Advocacy"
 msgstr ""
 
-#: ../include/page.php:165
+#: ../include/page.php:167
 msgid "Afrikaans"
 msgstr ""
 
@@ -406,7 +406,7 @@ msgstr ""
 msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr ""
 
-#: ../contribute.php:12 ../include/page.php:20 ../include/page.php:188
+#: ../contribute.php:12 ../include/page.php:20 ../include/page.php:192
 msgid "Development"
 msgstr ""
 
@@ -423,7 +423,7 @@ msgstr ""
 msgid "Document not found"
 msgstr ""
 
-#: ../include/page.php:189 ../screenshots/documentation.php:8
+#: ../include/page.php:193 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr ""
@@ -436,7 +436,7 @@ msgstr ""
 msgid "Don't show primary key hint when editing views."
 msgstr ""
 
-#: ../include/page.php:190 ../include/po_status.php:256
+#: ../include/page.php:194 ../include/po_status.php:256
 msgid "Download"
 msgstr ""
 
@@ -475,7 +475,7 @@ msgstr ""
 msgid "Edit the *.po file. The steps described are related to poEdit only."
 msgstr ""
 
-#: ../include/page.php:166
+#: ../include/page.php:168
 msgid "English"
 msgstr ""
 
@@ -495,7 +495,7 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
-#: ../include/page.php:167
+#: ../include/page.php:169
 msgid "Farsi"
 msgstr ""
 
@@ -524,7 +524,7 @@ msgstr ""
 msgid "FreeBSD"
 msgstr ""
 
-#: ../include/page.php:168
+#: ../include/page.php:170
 msgid "French"
 msgstr ""
 
@@ -550,7 +550,7 @@ msgstr ""
 msgid "Fuzzy"
 msgstr ""
 
-#: ../include/page.php:169
+#: ../include/page.php:171
 msgid "German"
 msgstr ""
 
@@ -566,7 +566,7 @@ msgstr ""
 msgid "Graphical explain: distinct scan images."
 msgstr ""
 
-#: ../include/page.php:170
+#: ../include/page.php:172
 msgid "Greek"
 msgstr ""
 
@@ -582,7 +582,7 @@ msgstr ""
 msgid "Guru Hints to help less experienced users"
 msgstr ""
 
-#: ../include/page.php:186
+#: ../include/page.php:190
 msgid "Home"
 msgstr ""
 
@@ -683,7 +683,7 @@ msgstr ""
 msgid "Indexes"
 msgstr ""
 
-#: ../include/page.php:171
+#: ../include/page.php:173
 msgid "Indonesian"
 msgstr ""
 
@@ -730,7 +730,7 @@ msgstr ""
 msgid "JOHAB"
 msgstr ""
 
-#: ../include/page.php:172
+#: ../include/page.php:174
 msgid "Japanese"
 msgstr ""
 
@@ -763,7 +763,7 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: ../include/page.php:164
+#: ../include/page.php:166
 msgid "Language:"
 msgstr ""
 
@@ -1140,7 +1140,7 @@ msgstr ""
 msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 
-#: ../include/page.php:173
+#: ../include/page.php:175
 msgid "Russian"
 msgstr ""
 
@@ -1164,7 +1164,7 @@ msgstr ""
 msgid "Schemas"
 msgstr ""
 
-#: ../include/page.php:191
+#: ../include/page.php:195
 msgid "Screenshots"
 msgstr ""
 
@@ -1198,7 +1198,7 @@ msgstr ""
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr ""
 
-#: ../include/page.php:174
+#: ../include/page.php:176
 msgid "Simplified Chinese"
 msgstr ""
 
@@ -1305,7 +1305,7 @@ msgid ""
 "make sure two translators do not work at the same time on the same language."
 msgstr ""
 
-#: ../include/page.php:192
+#: ../include/page.php:196
 msgid "Support"
 msgstr ""
 
@@ -1624,7 +1624,7 @@ msgid ""
 "To add a new language, follow the update procedure, but create the lc_CC "
 "directory if required and save the new message catalogue in it. You may also "
 "need to update the <i>i18n/pgadmin3.lng</i> file which is also available "
-"from the <a href=\"%s\">translation status</a>."
+"from the <a href=\"%s\">translation status</a> page."
 msgstr ""
 
 #: ../development/svn.php:12
@@ -1677,7 +1677,7 @@ msgid ""
 "found in the <a href=\"%s\">online documentation</a>."
 msgstr ""
 
-#: ../include/page.php:175
+#: ../include/page.php:177
 msgid "Tradition Chinese"
 msgstr ""
 
@@ -1685,7 +1685,7 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../contribute.php:16 ../include/page.php:193
+#: ../contribute.php:16 ../include/page.php:197
 msgid "Translation"
 msgstr ""
 
@@ -1701,7 +1701,7 @@ msgid ""
 "\">Information</a> page."
 msgstr ""
 
-#: ../include/page.php:176
+#: ../include/page.php:178
 msgid "Turkish"
 msgstr ""
 

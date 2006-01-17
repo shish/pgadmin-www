@@ -1,3 +1,24 @@
+# Redirect requests for files that have long since moved
+Redirect permanent /pgadmin3/advocacy.php http://www.pgadmin.org/advocacy/
+Redirect permanent /advocacy.php http://www.pgadmin.org/advocacy/
+
+Redirect permanent /pgadmin3/development.php http://www.pgadmin.org/development/
+Redirect permanent /development.php http://www.pgadmin.org/development/
+
+Redirect permanent /download.php http://www.pgadmin.org/download/
+Redirect permanent /pgadmin3/download.php http://www.pgadmin.org/download/
+
+Redirect permanent /screenshots.php http://www.pgadmin.org/screenshots/
+Redirect permanent /pgadmin3/screenshots.php http://www.pgadmin.org/screenshots/
+
+Redirect permanent /support.php http://www.pgadmin.org/support/
+Redirect permanent /pgadmin3/support.php http://www.pgadmin.org/support/
+
+Redirect permanent /pgadmin3/translation.php http://www.pgadmin.org/translation/status.php
+Redirect permanent /translation.php http://www.pgadmin.org/translation/status.php
+
+Redirect permanent /faq/ http://www.pgadmin.org/pgadmin3/faq/
+
 RewriteEngine On
 
 # Rewrite requests for documentation images. On developer.pgadmin.org, the following works

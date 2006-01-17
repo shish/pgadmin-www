@@ -149,7 +149,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true)
 <input type="hidden" name="forid" value="1"></input>
 <input type="hidden" name="ie" value="ISO-8859-1"></input>
 <input type="hidden" name="oe" value="ISO-8859-1"></input>
-<input type="hidden" name="cof" value="GALT:#222222;GL:1;DIV:#999999;VLC:663399;AH:center;BGC:009ACE;LBGC:CDDDEB;ALC:FFFFFF;LC:FFFFFF;T:EEEEEE;GFNT:000000;GIMP:000000;LH:100;LW:100;L:http://www.pgadmin.org/images/search.jpg;S:http://www.pgadmin.org/;LP:1;FORID:1;"></input>
+<input type="hidden" name="cof" value="GALT:#999999;GL:1;DIV:#009ACE;VLC:555555;AH:center;BGC:FFFFFF;LBGC:CDDDEB;ALC:009ACE;LC:009ACE;T:000000;GFNT:000000;GIMP:000000;LH:100;LW:100;L:http://www.pgadmin.org/images/search.jpg;S:http://www.pgadmin.org/;LP:1;FORID:1;"></input>
 <input type="hidden" name="hl" value="en"></input>
 </td></tr></table>
 </form>

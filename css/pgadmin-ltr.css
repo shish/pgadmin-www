@@ -51,6 +51,7 @@ img
 
 body
 {
+  font-size: 90%;
   font-family: verdana, helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -58,13 +59,21 @@ body
 
 .pgaCode
 {
+  font-family: "lucida console", monospace;
   background-color: #eeeeee;
   padding: 5px;
 }
 
+.pgaBanner
+{
+  background-color: #eeeeee;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .pgaTranslationTable
 {
-  font-size: 90%;
   border-style: solid;
   border-width: 1px;
   border-color: #999999;
@@ -200,7 +209,6 @@ body
   line-height: 2.0;
   white-space: nowrap;
   padding-left: 5px;
-  font-size: 95%;
   font-weight: bold;
   color: #999999;
 }

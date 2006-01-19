@@ -171,6 +171,31 @@ body
   padding: 0px;
 }
 
+#pgaSVN
+{
+  float: right;
+  text-align: right;
+  padding-right: 5px;
+  color: #ffffff;
+}
+
+#pgaSVN a
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#pgaSVN a:visited
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#pgaSVN a:hover
+{
+  text-decoration: underline;
+}
+
 #pgaSearch
 {
   float: right;
@@ -256,6 +281,14 @@ body
   vertical-align: top;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+#pgaSVNContent
+{
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+  align: center;
 }
 
 #pgaAd

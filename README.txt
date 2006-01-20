@@ -119,7 +119,7 @@ scheduled.
 
 # Run the translation cache update script:
 
-32 * * * * /usr/bin/wget -q -O /tmp/update.txt http://www.pgadmin.org/cache/update.php
+32 * * * * /usr/bin/wget -q -O /tmp/update.txt http://www.pgadmin.org/translation/update.php
 
 # Update the snapshots tree:
 

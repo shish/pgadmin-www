@@ -299,67 +299,52 @@ class po_status {
   }
 
   function getStatistics ($_po_file_path) {
-  	$_pathinfo = pathinfo($_po_file_path);
+    $_pathinfo = pathinfo($_po_file_path);
     $_dir      = $_pathinfo["dirname"];
 
     $_command = "cd $_dir; export LANGUAGE=en_US; /usr/bin/msgfmt --statistics $_po_file_path 2>&1";
     $_command_result = shell_exec ($_command);
 
-    // echo $_command_result."<br>";
-
-		$_po_stat = array();
+    $_po_stat = array();
     $_po_stat = explode(",", $_command_result);
-		$_size = count ($_po_stat);
+    $_size = count ($_po_stat);
 
     $_result = array();
 
     if ($_size>0) {
-    	for ($_count=0; $_count < $_size; $_count++) {
-        reset($_po_stat);
-        if (preg_match ("/(\d+) translated/", trim($_po_stat[$_count]), $_match)) {
-					$_result['translated'] = (int) $_match[1];
+        $_result['translated']=0;
+        $_result['untranslated']=0;
+        $_result['fuzzy']=0;
+
+
+        for ($_count=0; $_count < $_size; $_count++) {
+            reset($_po_stat);
+            if (preg_match ("/(\d+) translated/", trim($_po_stat[$_count]), $_match)) 
+                $_result['translated'] = (int) $_match[1];
+
+            if (preg_match ("/(\d+) untranslated/", $_po_stat[$_count], $_match))
+                $_result['untranslated'] = (int) $_match[1];
+
+            if (preg_match ("/(\d+) fuzzy/", trim($_po_stat[$_count]), $_match))
+                $_result['fuzzy'] = (int) $_match[1];
         }
 
-        if (preg_match ("/(\d+) untranslated/", $_po_stat[$_count], $_match)) {
-					$_result['untranslated'] = (int) $_match[1];
-        }
+        $_result['total'] = $_result['translated']+$_result['untranslated']+$_result['fuzzy'];
 
-        if (preg_match ("/(\d+) fuzzy/", trim($_po_stat[$_count]), $_match)) {
-					$_result['fuzzy'] = (int) $_match[1];
-        }
-				//echo $_count.trim($_po_stat[$_count])."FIN<br>";
-			}
+        if ($_result['total'] > 0)
+            $_result['status'] =  round ($_result['translated']/$_result['total'], 2) * 100;
+        else
+            $_result['status'] = 0;
 
-			if (!$_result['translated']) {
-				$_result['translated']=0;
-      }
+        if (($_result['status'] == 100) && ($_result['total'] != $_result['translated']))
+            $_result['status'] = 99;
 
-      if (!$_result['untranslated']) {
-				$_result['untranslated']=0;
-      }
+        return $_result;
 
-      if (!$_result['fuzzy']) {
-				$_result['fuzzy']=0;
-      }
-
-      $_result['total'] = $_result['translated']+$_result['untranslated']+$_result['fuzzy'];
-
-      if ($_result['total'] > 0) {
-      	$_result['status'] =  round ($_result['translated']/$_result['total'], 2) * 100;
-      } else {
-				$_result['status'] = 0;
-      }
-
-      if (($_result['status'] == 100) && ($_result['total'] != $_result['translated'])) {
-				$_result['status'] = 99;
-      }
-
-
-      return $_result;
     } else {
     	$this_error = "Error: no statistics available for $_po_file_path";
-      return false;
-		}
+        return false;
+    }
   }
 }
 

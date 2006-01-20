@@ -13,8 +13,8 @@ $translated->setSvnRoot($_SERVER["DOCUMENT_ROOT"]."/svnrepo/pgadmin3");
 $outofdate->setWebRoot($_SERVER["DOCUMENT_ROOT"]);
 $outofdate->setSvnRoot($_SERVER["DOCUMENT_ROOT"]."/svnrepo/pgadmin3");
 
-$cache_translated = "../cache/cache_translated.txt";
-$cache_outofdate  = "../cache/cache_outofdate.txt";
+$cache_translated = "/tmp/pgadmin_translated_cache.txt";
+$cache_outofdate  = "/tmp/pgadmin_outofdate_cache.txt";
 
 $translated->_cache_load($cache_translated);
 $outofdate->_cache_load($cache_outofdate);

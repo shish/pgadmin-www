@@ -86,9 +86,7 @@ directly instead. Under some circumstances, the query plan that was stored when 
 containing that column, have to be replanned using the new type information.
 </p><p>
 Currently, pgAdmin III does not recreate depending objects automatically for 7.3 and 7.4 servers; you will 
-have to do that manually if you encounter execution errors. pgAdmin III V1.3 and later are planned to do 
-that automatically. This is not necessary on PostgreSQL 8.+ servers, because these versions support altering
-a column type instrinsically.
+have to do that manually if you encounter execution errors. This is not necessary on PostgreSQL 8.+ servers, because these versions support altering a column type instrinsically.
 <H3><A Name="CantRestore">Can't restore backup file created with pgAdmin III</A></H3>
 <p>
 I created a backup file using pgAdmin III, but when I try to restore it using pgAdmin III
@@ -110,7 +108,7 @@ I'm using pgAdmin III V1.0.x and try to connect to a PostgreSQL 8.0.x server. I 
 </p><p>
 pgAdmin III V1.0.x does not work on PostgreSQL 8.0.x, because some system structure changed.
 </p><p>
-Use pgAdmin III V1.2.x instead, which supports PostgreSQL 7.3.x, 7.4.x and 8.0.x.
+Use pgAdmin III V1.2.x or later instead, which supports PostgreSQL 7.3.x, 7.4.x and 8.0.x.
 [AP]
 </p><br>
 <H3><A Name="Win9x">Win9x problems</A></H3>

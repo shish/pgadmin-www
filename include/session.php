@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-if (!isset($_SESSION['xCMS'])) 
+if (!isset($_SESSION['xPGA'])) 
 {
     $_SESSION['xPGA']['active'] = 1;
     $_SESSION['xPGA']['hits'] = 1;

@@ -1,6 +1,6 @@
 <?php 
 
-include $GLOBALS["_SERVER"]["DOCUMENT_ROOT"] . "/include/page.php"; 
+include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
 $PAGE_TITLE = _("pgAdmin III: Translation - Howto");
 $PAGE_CONTENT = '
@@ -18,7 +18,7 @@ $PAGE_CONTENT = '
 
   <li>' . sprintf(_("Download <a href=\"%s\">poEdit</a> and install it under MS Windows or GNU/Linux."), "http://poedit.sourceforge.net/") . '<br />&nbsp;</li>
 
-      ' . sprintf(_("poEdit is our recommended choice, as it makes it very easy to maintain your translation. An Windows installer is available on the poEdit web site. Alternatively, you may also run <a href=\"%s\">Kbabel</a> which can be found in many popular Linux distributions."), "http://i18n.kde.org/tools/kbabel/") . '<br />&nbsp;</li>
+      ' . sprintf(_("poEdit is our recommended choice, as it makes it very easy to maintain your translation. A Windows installer is available on the poEdit web site. Alternatively, you may also run <a href=\"%s\">Kbabel</a> which can be found in many popular Linux distributions."), "http://i18n.kde.org/tools/kbabel/") . '<br />&nbsp;</li>
 
   <li>' . sprintf(_("Send us the English and translated names of your language: 'French' and 'Fran&ccedil;ais', 'German' and 'Deutsch', etc. This will allow us to modify pgAdmin's <i>i18n/pgadmin3.lng</i> file to display the language properly in the application. We will also create a directory according to your locale canonical name under <i>/usr/share/pgadmin3/i18n</i> (Linux and other Unixes) or <i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i> (Windows). The list of language codes can be found on the <a href=\"%s\">Debian site</a>. You may also want to check the more detailed <a href=\"%s\">ISO 639.2 Codes for the Representation of Names of Languages</a>."), "http://www.debian.org/international/l10n/po", "http://www.loc.gov/standards/iso639-2/englangn.html") . '<br />&nbsp;</li>
 

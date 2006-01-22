@@ -1,6 +1,6 @@
 <?php 
 
-include $GLOBALS["_SERVER"]["DOCUMENT_ROOT"] . "/include/page.php"; 
+include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
 // Translation status caches
 require_once "../include/po_status.php";

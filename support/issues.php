@@ -1,6 +1,6 @@
 <?php 
 
-include $GLOBALS["_SERVER"]["DOCUMENT_ROOT"] . "/include/page.php"; 
+include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
 $PAGE_TITLE = _("pgAdmin III: Support - Known issues");
 $PAGE_CONTENT = '

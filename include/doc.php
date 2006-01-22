@@ -1,6 +1,6 @@
 <?php
 
-require $GLOBALS["_SERVER"]["DOCUMENT_ROOT"] . "/include/page.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/include/page.php";
 
 // If this is a docpage, then generate our own content and title.
 if (isset($_GET['docset']))

@@ -1,6 +1,6 @@
 <?php
 
-require $GLOBALS["_SERVER"]["DOCUMENT_ROOT"] . "/include/page.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/include/page.php";
 
 if (isset($_GET['list']))
 {

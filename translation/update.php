@@ -1,6 +1,6 @@
 <?php
 
-include $GLOBALS["_SERVER"]["DOCUMENT_ROOT"] . "/include/po_status.php";
+include $_SERVER['DOCUMENT_ROOT'] . "/include/po_status.php";
 
 $translated = new po_status();
 $outofdate = new po_status();

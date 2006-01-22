@@ -1,7 +1,7 @@
 <?php
 
 // Startup the session and setup the gettext stuff
-require $GLOBALS["_SERVER"]["DOCUMENT_ROOT"] . "/include/session.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/include/session.php";
 
 function www_current_menu_section($SECTION)
 {

@@ -158,9 +158,11 @@ if ($HAS_MENU == true)
 $output .= '
 
 <td id="pgaContent">
+<!-- google_ad_section_start -->
 
 ' . $PAGE_CONTENT . '
 
+<!-- google_ad_section_end -->
 </td>
 
 <td id="pgaAd">

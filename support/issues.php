@@ -13,9 +13,9 @@ $PAGE_CONTENT = '
 
 '; 
 
-$file = "../svnrepo/pgadmin3/BUGS.txt";
+$file = "../svnrepo/pgadmin3/BUGS";
 if (file_exists($file))
-  $PAGE_CONTENT .= file_get_contents($file);
+  $PAGE_CONTENT .= "<pre>" . file_get_contents($file) . "</pre>";
 
 // Display the page
 www_page($PAGE_TITLE, $PAGE_CONTENT);

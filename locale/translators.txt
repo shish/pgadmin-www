@@ -1,0 +1,13 @@
+Current translators
+===================
+
+fr_FR (French)
+--------------
+
+Guillaume Lelarge [guillaume.lelarge at gmail.com]
+
+
+ru_RU (Russian)
+---------------
+
+Serguei A. Mokhov [mokhov at cs.concordia.ca]

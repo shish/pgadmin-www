@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-18 00:02+0100\n"
+"POT-Creation-Date: 2006-01-25 16:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,11 +172,11 @@ msgstr ""
 msgid "Admin packs"
 msgstr ""
 
-#: ../include/page.php:191
+#: ../include/page.php:131
 msgid "Advocacy"
 msgstr ""
 
-#: ../include/page.php:167
+#: ../include/page.php:107
 msgid "Afrikaans"
 msgstr ""
 
@@ -303,7 +303,7 @@ msgstr ""
 msgid "Casts"
 msgstr ""
 
-#: ../development/changelog.php:8 ../development/menu.php:11
+#: ../development/changelog.php:8 ../development/menu.php:13
 msgid "Change log"
 msgstr ""
 
@@ -344,7 +344,11 @@ msgstr ""
 msgid "Conversions"
 msgstr ""
 
-#: ../include/page.php:59
+#: ../include/archives.php:54
+msgid "Couldn't find the archive content!"
+msgstr ""
+
+#: ../include/doc.php:58
 msgid "Couldn't find the document content!"
 msgstr ""
 
@@ -406,7 +410,7 @@ msgstr ""
 msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr ""
 
-#: ../contribute.php:12 ../include/page.php:20 ../include/page.php:192
+#: ../contribute.php:12 ../include/doc.php:19 ../include/page.php:132
 msgid "Development"
 msgstr ""
 
@@ -419,11 +423,12 @@ msgstr ""
 msgid "Development team"
 msgstr ""
 
-#: ../include/page.php:25 ../include/page.php:39
+#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:24
+#: ../include/doc.php:38
 msgid "Document not found"
 msgstr ""
 
-#: ../include/page.php:193 ../screenshots/documentation.php:8
+#: ../include/page.php:133 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr ""
@@ -436,7 +441,7 @@ msgstr ""
 msgid "Don't show primary key hint when editing views."
 msgstr ""
 
-#: ../include/page.php:194 ../include/po_status.php:256
+#: ../include/page.php:134 ../include/po_status.php:256
 msgid "Download"
 msgstr ""
 
@@ -475,7 +480,7 @@ msgstr ""
 msgid "Edit the *.po file. The steps described are related to poEdit only."
 msgstr ""
 
-#: ../include/page.php:168
+#: ../include/page.php:108
 msgid "English"
 msgstr ""
 
@@ -495,7 +500,7 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
-#: ../include/page.php:169
+#: ../include/page.php:109
 msgid "Farsi"
 msgstr ""
 
@@ -520,11 +525,11 @@ msgid "For example, for France, you can try:"
 msgstr ""
 
 #: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:9
-#: ../screenshots/index.php:19
+#: ../screenshots/index.php:16
 msgid "FreeBSD"
 msgstr ""
 
-#: ../include/page.php:170
+#: ../include/page.php:110
 msgid "French"
 msgstr ""
 
@@ -550,7 +555,7 @@ msgstr ""
 msgid "Fuzzy"
 msgstr ""
 
-#: ../include/page.php:171
+#: ../include/page.php:111
 msgid "German"
 msgstr ""
 
@@ -566,7 +571,7 @@ msgstr ""
 msgid "Graphical explain: distinct scan images."
 msgstr ""
 
-#: ../include/page.php:172
+#: ../include/page.php:112
 msgid "Greek"
 msgstr ""
 
@@ -582,7 +587,7 @@ msgstr ""
 msgid "Guru Hints to help less experienced users"
 msgstr ""
 
-#: ../include/page.php:190
+#: ../include/page.php:130
 msgid "Home"
 msgstr ""
 
@@ -683,7 +688,7 @@ msgstr ""
 msgid "Indexes"
 msgstr ""
 
-#: ../include/page.php:173
+#: ../include/page.php:113
 msgid "Indonesian"
 msgstr ""
 
@@ -730,7 +735,7 @@ msgstr ""
 msgid "JOHAB"
 msgstr ""
 
-#: ../include/page.php:174
+#: ../include/page.php:114
 msgid "Japanese"
 msgstr ""
 
@@ -749,7 +754,7 @@ msgid ""
 "creating new shortcuts if you cannot choose the same letter."
 msgstr ""
 
-#: ../support/issues.php:8 ../support/menu.php:9
+#: ../support/issues.php:8 ../support/menu.php:10
 msgid "Known issues"
 msgstr ""
 
@@ -763,7 +768,7 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: ../include/page.php:166
+#: ../include/page.php:106
 msgid "Language:"
 msgstr ""
 
@@ -793,7 +798,7 @@ msgstr ""
 msgid "Licence"
 msgstr ""
 
-#: ../features.php:15 ../screenshots/index.php:16
+#: ../features.php:15 ../screenshots/index.php:19
 msgid "Linux"
 msgstr ""
 
@@ -810,6 +815,10 @@ msgstr ""
 
 #: ../download/source.php:32
 msgid "Linux, FreeBSD or Solaris"
+msgstr ""
+
+#: ../development/menu.php:10 ../support/menu.php:9
+msgid "List archives"
 msgstr ""
 
 #: ../include/po_status.php:253
@@ -830,6 +839,7 @@ msgstr ""
 
 #: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
 #: ../download/source.php:57 ../download/source.php:104
+#: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr ""
 
@@ -845,7 +855,7 @@ msgid ""
 "also be required if building from SVN."
 msgstr ""
 
-#: ../development/list.php:8 ../development/menu.php:8 ../support/list.php:8
+#: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
 msgid "Mailing list"
 msgstr ""
@@ -886,8 +896,9 @@ msgstr ""
 #: ../development/list.php:12 ../support/list.php:22
 #, php-format
 msgid ""
-"Messages sent to the list are archived at <a href=\"%s\">PostgreSQL</a> and  "
-"<a href=\"%s\">mail-archive.com</a>."
+"Messages sent to the list may be browsed <a href=\"%s\">here</a> and are "
+"archived at <a href=\"%s\">PostgreSQL</a> and  <a href=\"%s\">mail-archive."
+"com</a>."
 msgstr ""
 
 #: ../features.php:14
@@ -1140,7 +1151,7 @@ msgstr ""
 msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 
-#: ../include/page.php:175
+#: ../include/page.php:115
 msgid "Russian"
 msgstr ""
 
@@ -1160,11 +1171,15 @@ msgstr ""
 msgid "SVN access"
 msgstr ""
 
+#: ../development/menu.php:8
+msgid "SVN browser"
+msgstr ""
+
 #: ../features.php:77
 msgid "Schemas"
 msgstr ""
 
-#: ../include/page.php:195
+#: ../include/page.php:135
 msgid "Screenshots"
 msgstr ""
 
@@ -1198,7 +1213,7 @@ msgstr ""
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr ""
 
-#: ../include/page.php:176
+#: ../include/page.php:116
 msgid "Simplified Chinese"
 msgstr ""
 
@@ -1305,7 +1320,7 @@ msgid ""
 "make sure two translators do not work at the same time on the same language."
 msgstr ""
 
-#: ../include/page.php:196
+#: ../include/page.php:136
 msgid "Support"
 msgstr ""
 
@@ -1317,7 +1332,7 @@ msgstr ""
 msgid "TCVN"
 msgstr ""
 
-#: ../development/menu.php:10 ../development/todo.php:8
+#: ../development/menu.php:12 ../development/todo.php:8
 msgid "TODO list"
 msgstr ""
 
@@ -1329,7 +1344,7 @@ msgstr ""
 msgid "Tablespaces"
 msgstr ""
 
-#: ../development/menu.php:9
+#: ../development/menu.php:11
 msgid "Team"
 msgstr ""
 
@@ -1408,7 +1423,8 @@ msgstr ""
 msgid "The database connection dialogue"
 msgstr ""
 
-#: ../include/page.php:25 ../include/page.php:39
+#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:24
+#: ../include/doc.php:38
 msgid "The document requested does not exist!"
 msgstr ""
 
@@ -1677,7 +1693,7 @@ msgid ""
 "found in the <a href=\"%s\">online documentation</a>."
 msgstr ""
 
-#: ../include/page.php:177
+#: ../include/page.php:117
 msgid "Tradition Chinese"
 msgstr ""
 
@@ -1685,7 +1701,7 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../contribute.php:16 ../include/page.php:197
+#: ../contribute.php:16 ../include/page.php:137
 msgid "Translation"
 msgstr ""
 
@@ -1701,7 +1717,7 @@ msgid ""
 "\">information</a> page."
 msgstr ""
 
-#: ../include/page.php:178
+#: ../include/page.php:118
 msgid "Turkish"
 msgstr ""
 
@@ -1815,7 +1831,7 @@ msgstr ""
 
 #: ../screenshots/index.php:14
 msgid ""
-"We provide source and binary packages for Linux, FreeBSD, Mac OSX and "
+"We provide source and binary packages for FreeBSD, Linux, Mac OSX and "
 "Microsoft Windows &trade;. Solaris binaries may also be compiled from the "
 "source code."
 msgstr ""
@@ -1844,11 +1860,8 @@ msgstr ""
 msgid "Why promote pgAdmin?"
 msgstr ""
 
-#: ../screenshots/index.php:22
-msgid "Windows"
-msgstr ""
-
 #: ../download/menu.php:16 ../download/windows.php:8
+#: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr ""
 
@@ -1898,7 +1911,7 @@ msgid ""
 "yourself."
 msgstr ""
 
-#: ../include/page.php:15 ../include/page.php:20
+#: ../include/doc.php:14 ../include/doc.php:19
 #, php-format
 msgid "pgAdmin %s online documentation"
 msgstr ""
@@ -2042,19 +2055,23 @@ msgid ""
 "built on FreeBSD 6.0."
 msgstr ""
 
-#: ../screenshots/index.php:20
+#: ../screenshots/index.php:17
 msgid "pgAdmin III running on FreeBSD"
 msgstr ""
 
-#: ../screenshots/index.php:17
+#: ../screenshots/index.php:20
 msgid "pgAdmin III running on Linux"
+msgstr ""
+
+#: ../screenshots/index.php:23
+msgid "pgAdmin III running on Mac OSX"
 msgstr ""
 
 #: ../screenshots/index.php:26
 msgid "pgAdmin III running on Solaris"
 msgstr ""
 
-#: ../screenshots/index.php:23
+#: ../screenshots/index.php:29
 msgid "pgAdmin III running on Windows"
 msgstr ""
 
@@ -2183,7 +2200,7 @@ msgstr ""
 msgid "pgAdmin III: Licence"
 msgstr ""
 
-#: ../include/page.php:117
+#: ../include/page.php:57
 msgid "pgAdmin III: PostgreSQL Tools"
 msgstr ""
 
@@ -2270,7 +2287,11 @@ msgid ""
 "not hesitate to get involved."
 msgstr ""
 
-#: ../include/page.php:53
+#: ../include/archives.php:49
+msgid "pgAdmin: Archives - Couldn't find the archive title!"
+msgstr ""
+
+#: ../include/doc.php:52
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr ""
 
@@ -2278,7 +2299,7 @@ msgstr ""
 #, php-format
 msgid ""
 "poEdit is our recommended choice, as it makes it very easy to maintain your "
-"translation. An Windows installer is available on the poEdit web site. "
+"translation. A Windows installer is available on the poEdit web site. "
 "Alternatively, you may also run <a href=\"%s\">Kbabel</a> which can be found "
 "in many popular Linux distributions."
 msgstr ""

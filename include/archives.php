@@ -46,7 +46,7 @@ if (isset($_GET['list']))
   if (preg_match("/<title[^>]*>(.*)<\/title>/is", $dociconvcontent, $matches) > 0)
     $doctitle = $matches[1]; 
   else
-    $doctitle = _("pgAdmin: Archives - Couldn't find the archive title!");
+    $doctitle = _("pgAdmin: Archives");
 
   if (preg_match("/\?>(.*)<\?/is", $dociconvcontent, $matches) > 0)
     $doccontent = $matches[1];

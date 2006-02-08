@@ -22,6 +22,8 @@ $PAGE_CONTENT = '
 
   <li>' . sprintf(_("<a href=\"%s\">wxWidgets 2.6.x</a>. Currently, this is the only version we support."), "http://www.wxwidgets.org") . '<br />&nbsp;</li>
 
+  <li>' . sprintf(_("<a href=\"%s\">libxml2 2.5.x</a> or above."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
+
   <li>' . sprintf(_("<a href=\"%s\">PostgreSQL 7.3</a> or above."), "http://www.postgresql.org/ftp/latest/") . '<br />&nbsp;</li>
 </ul>
 

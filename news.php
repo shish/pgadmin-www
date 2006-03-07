@@ -7,11 +7,44 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-03-07", "1.4.2") . '</h2>
+
+<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.4.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
+
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
+
+<p>' . _("v1.4.2 is primarily a bug fix release, including the following changes:") . '</p>
+<ul>
+  <li>' . _("Fix a typo in the admin pack README [August Zajonc].") . '</li>
+  <li>' . _("Fix serial column detection for 8.1 per Kris Jurka.") . '</li>
+  <li>' . _("Mask the password when logging the connection string.") . '</li>
+  <li>' . _("Properly escape single quotes in connection strings.") . '</li>
+  <li>' . _("Re-arrange the Win32 dependencies so that iconv, libxml2 and wxwidgets are located in $PGADIR/../pgadmin3-deps/.") . '</li>
+  <li>' . _("Properly enable the redo button in the Query Tool when appropriate, per PromoTrade.") . '</li>
+  <li>' . _("Add missing files to the Unix tarball, per Andrus - xtra/wxbuild/*, src/utils/precomp.cpp, src/main/pgAdmin3.rc.") . '</li>
+  <li>' . _("Read config files in the local encoding scheme.") . '</li>
+  <li>' . _("Display the definition of set returning procedures correctly.") . '</li>
+  <li>' . _("Fix drop procedure by including IN/OUT parameter flags in the name.") . '</li>
+  <li>' . _("Fix role SQL - correctly define CREATEROLE/NOCREATEROLE per Andrus.") . '</li>
+  <li>' . _("Honour the copy quoting setting properly in the SQL results pane.") . '</li>
+  <li>' . _("Set the initial Unicode/Local charset options correctly in the Export dialogue.") . '</li>
+  <li>' . _("Fix PK detection in EditGrid per Andrus Moor.") . '</li>
+  <li>' . _("Fix Bitmap Index explain per Alexander Kirpa.") . '</li>
+  <li>' . _("Use ELSIF not ELSEIF in pgagent.sql for compatibility with 7.x servers [Glen Sasek].") . '</li>
+  <li>' . _("Exclude system schemas by name rather than OID, so that 'public' can be safely renamed.") . '</li>
+  <li>' . _("fix slony node statistics.") . '</li>
+  <li>' . _("Fix: Unsubscribe set on receiver.") . '</li>
+  <li>' . _("Another wxComboBox(2.6.2) related fix.") . '</li>
+</ul>
+
+<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
+
+
 <h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2005-12-14", "1.4.1") . '</h2>
 
 <p>' . _("I'm pleased to announce the release of pgAdmin 1.4.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
 
-<p><a href="http://www.postgresql.org/ftp/pgadmin3/release/v1.4.1/">http://www.postgresql.org/ftp/pgadmin3/release/v1.4.1/</a></p>
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
 
 <p>' . _("v1.4.1 is primarily a bug fix release, including the following changes:") . '</p>
 <ul>
@@ -37,7 +70,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("I'm pleased to announce the release of pgAdmin 1.4.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
 
-<p><a href="http://www.postgresql.org/ftp/pgadmin3/release/v1.4.0/">http://www.postgresql.org/ftp/pgadmin3/release/v1.4.0/</a></p>
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
 
 <p>' . _("v1.4.0 contains a number of new features over previous releases, including:") . '</p>
 <ul>

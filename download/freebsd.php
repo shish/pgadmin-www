@@ -11,6 +11,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("pgAdmin III packages are available for download. These packages have been built on FreeBSD 6.0.") . '</p>
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.2/freebsd", "1.4.2") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.1/freebsd", "1.4.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.0/freebsd", "1.4.0") . '<br />&nbsp;</li>
 </ul>

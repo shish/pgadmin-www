@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-01-25 16:17+0000\n"
+"POT-Creation-Date: 2006-03-07 09:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,32 +16,40 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../news.php:10 ../news.php:36
+#: ../news.php:10 ../news.php:43 ../news.php:69
 #, php-format
 msgid "%s - pgAdmin III v%s released"
 msgstr ""
 
-#: ../news.php:57
+#: ../news.php:90
 msgid "'Guru Hints' to help new users."
 msgstr ""
 
 #: ../download/adminpacks.php:12 ../download/adminpacks.php:13
+#: ../download/adminpacks.php:14
 #, php-format
 msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s"
 msgstr ""
 
-#: ../download/source.php:25
+#: ../download/source.php:27
 #, php-format
 msgid "<a href=\"%s\">PostgreSQL 7.3</a> or above."
 msgstr ""
 
+#: ../download/source.php:25
+#, php-format
+msgid "<a href=\"%s\">libxml2 2.5.x</a> or above."
+msgstr ""
+
 #: ../download/freebsd.php:14 ../download/freebsd.php:15
-#: ../download/macosx.php:14 ../download/macosx.php:15
-#: ../download/macosx.php:16 ../download/rpm.php:14 ../download/rpm.php:15
+#: ../download/freebsd.php:16 ../download/macosx.php:14
+#: ../download/macosx.php:15 ../download/macosx.php:16
+#: ../download/macosx.php:17 ../download/rpm.php:14 ../download/rpm.php:15
 #: ../download/rpm.php:16 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19
+#: ../download/slackware.php:17 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
@@ -64,11 +72,11 @@ msgstr ""
 #, php-format
 msgid ""
 "<b>Download links:</b> Whenever possible, publish links pointing to the "
-"pgAdmin <a href=\"%s\">Download</a> page. Remember to include language "
-"information if required - for example <a href=\"%s\">%s</a>.<br /><br />Some "
-"sites (especially Windows shareware/freeware sites) may require direct links "
-"to files. Be very careful before submitting direct links, because you may "
-"have to upgrade them when pgAdmin new versions are released. When direct "
+"pgAdmin <a href=\"%s\">Download</a> page. <!-- Remember to include language "
+"information if required - for example <a href=\"%s\">%s</a>. --><br /><br /"
+">Some sites (especially Windows shareware/freeware sites) may require direct "
+"links to files. Be very careful before submitting direct links, because you "
+"may have to upgrade them when pgAdmin new versions are released. When direct "
 "links are required, choose several PostgreSQL mirrors from the download "
 "page. Some sites may ask for up to 5 links."
 msgstr ""
@@ -102,7 +110,7 @@ msgid ""
 "homepage is: <a href=\"%s\">%s</a>."
 msgstr ""
 
-#: ../download/source.php:55
+#: ../download/source.php:57
 msgid ""
 "A Visual Studio 6.0 project workspace file is in the <i>xtra/wx-build</i> "
 "directory of the pgAdmin source tarball, along with a suitable <i>setup.h</"
@@ -112,7 +120,7 @@ msgid ""
 "To save time, you can omit all \"Universal\" and \"DLL\" builds."
 msgstr ""
 
-#: ../download/source.php:102
+#: ../download/source.php:104
 msgid ""
 "A Visual Studio project file for pgAdmin may be found in the <i>src/</i> "
 "subdirectory of the pgAdmin source tree. Load the project into Visual Studio "
@@ -164,8 +172,14 @@ msgstr ""
 msgid "Access to all PostgreSQL objects"
 msgstr ""
 
-#: ../news.php:28
+#: ../news.php:61
 msgid "Add missing NO ACTION FK constraint."
+msgstr ""
+
+#: ../news.php:24
+msgid ""
+"Add missing files to the Unix tarball, per Andrus - xtra/wxbuild/*, src/"
+"utils/precomp.cpp, src/main/pgAdmin3.rc."
 msgstr ""
 
 #: ../download/adminpacks.php:8 ../download/menu.php:7
@@ -184,21 +198,21 @@ msgstr ""
 msgid "Aggregates"
 msgstr ""
 
-#: ../news.php:60
+#: ../news.php:93
 msgid ""
 "Alert the user when a query finishes in the query tool if the window is not "
 "active."
 msgstr ""
 
-#: ../news.php:30
+#: ../news.php:63
 msgid "Allow all 8.x column changes."
 msgstr ""
 
-#: ../news.php:54
+#: ../news.php:87
 msgid "Allow connection selection in the query tool."
 msgstr ""
 
-#: ../news.php:53
+#: ../news.php:86
 msgid "Allow server registration without connect."
 msgstr ""
 
@@ -233,8 +247,12 @@ msgid ""
 "release/debian</i>"
 msgstr ""
 
-#: ../news.php:45
+#: ../news.php:78
 msgid "An SQL/shell job scheduling agent."
+msgstr ""
+
+#: ../news.php:37
+msgid "Another wxComboBox(2.6.2) related fix."
 msgstr ""
 
 #: ../translation/howto.php:12
@@ -262,14 +280,14 @@ msgid ""
 "line or in scripts."
 msgstr ""
 
-#: ../news.php:66
+#: ../news.php:99
 #, php-format
 msgid ""
 "As well as many other tweaks, improvements and bug fixes, details of which "
 "may be found in the <a href=\"%s\">changelog</a>."
 msgstr ""
 
-#: ../download/source.php:83 ../download/source.php:108
+#: ../download/source.php:85 ../download/source.php:110
 #, php-format
 msgid ""
 "Authenticate the source code using Dave Page's <a href=\"%s\">PGP key</a>. "
@@ -279,7 +297,7 @@ msgstr ""
 msgid "Auto-vacuum management (PostgreSQL 8.1 and above)"
 msgstr ""
 
-#: ../news.php:48
+#: ../news.php:81
 msgid "Autovacuum administration."
 msgstr ""
 
@@ -307,7 +325,7 @@ msgstr ""
 msgid "Change log"
 msgstr ""
 
-#: ../download/freebsd.php:30
+#: ../download/freebsd.php:31
 msgid "Check that the pgAdmin III executable is in the path:"
 msgstr ""
 
@@ -352,7 +370,7 @@ msgstr ""
 msgid "Couldn't find the document content!"
 msgstr ""
 
-#: ../download/freebsd.php:24
+#: ../download/freebsd.php:25
 msgid "Create a symlink to the pgAdmin III binary:"
 msgstr ""
 
@@ -378,7 +396,7 @@ msgstr ""
 msgid "Databases"
 msgstr ""
 
-#: ../news.php:34 ../news.php:70
+#: ../news.php:40 ../news.php:67 ../news.php:103
 msgid "Dave Page"
 msgstr ""
 
@@ -402,7 +420,7 @@ msgstr ""
 msgid "Debian Woody (oldstable)"
 msgstr ""
 
-#: ../news.php:18
+#: ../news.php:51
 msgid "Default the encoding of new databases to the cluster encoding."
 msgstr ""
 
@@ -423,6 +441,10 @@ msgstr ""
 msgid "Development team"
 msgstr ""
 
+#: ../news.php:26
+msgid "Display the definition of set returning procedures correctly."
+msgstr ""
+
 #: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:24
 #: ../include/doc.php:38
 msgid "Document not found"
@@ -437,7 +459,7 @@ msgstr ""
 msgid "Domains"
 msgstr ""
 
-#: ../news.php:27
+#: ../news.php:60
 msgid "Don't show primary key hint when editing views."
 msgstr ""
 
@@ -452,12 +474,12 @@ msgid ""
 "Linux."
 msgstr ""
 
-#: ../download/source.php:82 ../download/source.php:107
+#: ../download/source.php:84 ../download/source.php:109
 #, php-format
 msgid "Download the pgAdmin III <a href=\"%s\">source code</a> from a mirror. "
 msgstr ""
 
-#: ../news.php:22
+#: ../news.php:55
 msgid "Drop constraints on columns before the columns themselves."
 msgstr ""
 
@@ -492,6 +514,12 @@ msgstr ""
 msgid "EnterpriseDB"
 msgstr ""
 
+#: ../news.php:34
+msgid ""
+"Exclude system schemas by name rather than OID, so that 'public' can be "
+"safely renamed."
+msgstr ""
+
 #: ../features.php:29
 msgid "Extensive documentation"
 msgstr ""
@@ -508,16 +536,44 @@ msgstr ""
 msgid "Features"
 msgstr ""
 
+#: ../news.php:32
+msgid "Fix Bitmap Index explain per Alexander Kirpa."
+msgstr ""
+
 #: ../news.php:31
+msgid "Fix PK detection in EditGrid per Andrus Moor."
+msgstr ""
+
+#: ../news.php:18
+msgid "Fix a typo in the admin pack README [August Zajonc]."
+msgstr ""
+
+#: ../news.php:27
+msgid "Fix drop procedure by including IN/OUT parameter flags in the name."
+msgstr ""
+
+#: ../news.php:64
 msgid "Fix param name quoting for procedures."
 msgstr ""
 
-#: ../news.php:29
+#: ../news.php:62
 msgid "Fix procedure/triggerFunc collection list."
 msgstr ""
 
-#: ../news.php:24
+#: ../news.php:28
+msgid "Fix role SQL - correctly define CREATEROLE/NOCREATEROLE per Andrus."
+msgstr ""
+
+#: ../news.php:19
+msgid "Fix serial column detection for 8.1 per Kris Jurka."
+msgstr ""
+
+#: ../news.php:57
 msgid "Fix the server status SQL query."
+msgstr ""
+
+#: ../news.php:36
+msgid "Fix: Unsubscribe set on receiver."
 msgstr ""
 
 #: ../download/debian.php:28 ../download/debian.php:45
@@ -563,11 +619,11 @@ msgstr ""
 msgid "Getting started"
 msgstr ""
 
-#: ../news.php:61
+#: ../news.php:94
 msgid "Graphical EXPLAIN."
 msgstr ""
 
-#: ../news.php:23
+#: ../news.php:56
 msgid "Graphical explain: distinct scan images."
 msgstr ""
 
@@ -591,6 +647,10 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
+#: ../news.php:29
+msgid "Honour the copy quoting setting properly in the SQL results pane."
+msgstr ""
+
 #: ../contribute.php:8
 msgid "How to contribute"
 msgstr ""
@@ -599,14 +659,14 @@ msgstr ""
 msgid "Howto"
 msgstr ""
 
-#: ../news.php:68
+#: ../news.php:101
 msgid ""
 "I would like to take this opportunity to thank all those who gave their time "
 "to help with the development, testing, translation and packaging of this "
 "release."
 msgstr ""
 
-#: ../news.php:38
+#: ../news.php:71
 msgid ""
 "I'm pleased to announce the release of pgAdmin 1.4.0, the Open Source "
 "graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS "
@@ -614,7 +674,7 @@ msgid ""
 "formats from:"
 msgstr ""
 
-#: ../news.php:12
+#: ../news.php:45
 msgid ""
 "I'm pleased to announce the release of pgAdmin 1.4.1, the Open Source "
 "graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS "
@@ -680,7 +740,7 @@ msgid ""
 "po."
 msgstr ""
 
-#: ../news.php:25
+#: ../news.php:58
 msgid "Include pg_dump/pg_restore in the Mac OSX bundle."
 msgstr ""
 
@@ -696,7 +756,7 @@ msgstr ""
 msgid "Information"
 msgstr ""
 
-#: ../download/adminpacks.php:16
+#: ../download/adminpacks.php:17
 msgid ""
 "Install the appropriate admin pack for the version of pgAdmin that you use, "
 "and the server you are running. pgInstaller distributions of PostgreSQL for "
@@ -707,11 +767,11 @@ msgstr ""
 msgid "Installation"
 msgstr ""
 
-#: ../download/source.php:77
+#: ../download/source.php:79
 msgid "Installing pgAdmin III"
 msgstr ""
 
-#: ../download/source.php:28
+#: ../download/source.php:30
 msgid "Installing wxWidgets"
 msgstr ""
 
@@ -802,7 +862,7 @@ msgstr ""
 msgid "Linux"
 msgstr ""
 
-#: ../download/source.php:79
+#: ../download/source.php:81
 msgid "Linux, FreeBSD and Solaris"
 msgstr ""
 
@@ -813,7 +873,7 @@ msgid ""
 "distribution."
 msgstr ""
 
-#: ../download/source.php:32
+#: ../download/source.php:34
 msgid "Linux, FreeBSD or Solaris"
 msgstr ""
 
@@ -838,7 +898,7 @@ msgid "MULE_INTERNAL"
 msgstr ""
 
 #: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
-#: ../download/source.php:57 ../download/source.php:104
+#: ../download/source.php:59 ../download/source.php:106
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr ""
@@ -871,17 +931,21 @@ msgstr ""
 msgid "Maintainer: %s"
 msgstr ""
 
-#: ../news.php:21
+#: ../news.php:54
 msgid "Major fix for wx2.6.2 API changes (comboboxes)."
 msgstr ""
 
-#: ../news.php:55
+#: ../news.php:88
 msgid ""
 "Major source tree and architecture overhaul to allow further extensibility."
 msgstr ""
 
 #: ../advocacy/information.php:20
 msgid "Management tools for PostgreSQL"
+msgstr ""
+
+#: ../news.php:20
+msgid "Mask the password when logging the connection string."
 msgstr ""
 
 #: ../translation/howto.php:80
@@ -905,7 +969,7 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr ""
 
-#: ../download/source.php:100
+#: ../download/source.php:102
 msgid "Microsoft Windows 2000, XP & 2003"
 msgstr ""
 
@@ -944,7 +1008,7 @@ msgstr ""
 msgid "Native PostgreSQL acccess (no ODBC layer needed)"
 msgstr ""
 
-#: ../news.php:59
+#: ../news.php:92
 msgid "New graphics throughout."
 msgstr ""
 
@@ -959,8 +1023,8 @@ msgid ""
 "Windows includes a bundled copy of pgAdmin."
 msgstr ""
 
-#: ../download/source.php:34 ../download/source.php:59
-#: ../download/source.php:85 ../download/source.php:110
+#: ../download/source.php:36 ../download/source.php:61
+#: ../download/source.php:87 ../download/source.php:112
 msgid "Note:"
 msgstr ""
 
@@ -1029,7 +1093,7 @@ msgid ""
 "\">translation status</a> page."
 msgstr ""
 
-#: ../news.php:58
+#: ../news.php:91
 msgid "Password can be stored in .pgass/pgpass.conf files."
 msgstr ""
 
@@ -1076,7 +1140,7 @@ msgstr ""
 msgid "PostgreSQL 7.3 and above"
 msgstr ""
 
-#: ../news.php:46
+#: ../news.php:79
 msgid "PostgreSQL 8.1 support:"
 msgstr ""
 
@@ -1092,7 +1156,7 @@ msgstr ""
 msgid "Powerful query tool with colour syntax highlighting"
 msgstr ""
 
-#: ../news.php:51
+#: ../news.php:84
 msgid "Prepared transactions."
 msgstr ""
 
@@ -1109,6 +1173,16 @@ msgid ""
 "to allow the Mac OSX port to be properly developed and maintained."
 msgstr ""
 
+#: ../news.php:23
+msgid ""
+"Properly enable the redo button in the Query Tool when appropriate, per "
+"PromoTrade."
+msgstr ""
+
+#: ../news.php:21
+msgid "Properly escape single quotes in connection strings."
+msgstr ""
+
 #: ../translation/status.php:33
 #, php-format
 msgid "Published translations (%d)"
@@ -1116,6 +1190,10 @@ msgstr ""
 
 #: ../download/menu.php:12 ../download/rpm.php:8
 msgid "RPM"
+msgstr ""
+
+#: ../news.php:25
+msgid "Read config files in the local encoding scheme."
 msgstr ""
 
 #: ../docs/menu.php:8
@@ -1135,7 +1213,7 @@ msgstr ""
 msgid "Roles"
 msgstr ""
 
-#: ../news.php:49
+#: ../news.php:82
 msgid "Roles."
 msgstr ""
 
@@ -1213,6 +1291,12 @@ msgstr ""
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr ""
 
+#: ../news.php:30
+msgid ""
+"Set the initial Unicode/Local charset options correctly in the Export "
+"dialogue."
+msgstr ""
+
 #: ../include/page.php:116
 msgid "Simplified Chinese"
 msgstr ""
@@ -1236,7 +1320,7 @@ msgstr ""
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr ""
 
-#: ../news.php:44
+#: ../news.php:77
 msgid "Slony-I support."
 msgstr ""
 
@@ -1259,7 +1343,7 @@ msgid ""
 "translated as <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
 msgstr ""
 
-#: ../news.php:19
+#: ../news.php:52
 msgid "Sort encoding names in dlgDatabase."
 msgstr ""
 
@@ -1299,11 +1383,11 @@ msgid ""
 "nobody will recognise. Otherwise, users may switch to the English version."
 msgstr ""
 
-#: ../news.php:20
+#: ../news.php:53
 msgid "Store UTF8 connect info in pgpass.conf if necessary."
 msgstr ""
 
-#: ../news.php:50
+#: ../news.php:83
 msgid "Stored procedures (ie. Functions with OUT parameters)."
 msgstr ""
 
@@ -1324,7 +1408,7 @@ msgstr ""
 msgid "Support"
 msgstr ""
 
-#: ../news.php:62
+#: ../news.php:95
 msgid "Support for Asynchronous Notifications in the query tool."
 msgstr ""
 
@@ -1348,7 +1432,7 @@ msgstr ""
 msgid "Team"
 msgstr ""
 
-#: ../download/source.php:37 ../download/source.php:62
+#: ../download/source.php:39 ../download/source.php:64
 msgid ""
 "The --enable-mimetype=no option is broken on wxWidgets versions earlier than "
 "2.6.2 and should be omitted."
@@ -1493,6 +1577,14 @@ msgid ""
 "a> and the  <a href=\"%s\">change log</a>."
 msgstr ""
 
+#: ../news.php:12
+msgid ""
+"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
+"1.4.2, the Open Source graphical PostgreSQL administration tool for Windows, "
+"Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
+"and a variety of binary formats from:"
+msgstr ""
+
 #: ../screenshots/mb_i18n.php:14
 msgid ""
 "The pgAdmin III interface has been translated into more than a dozen "
@@ -1628,7 +1720,7 @@ msgid ""
 "i>, etc."
 msgstr ""
 
-#: ../download/macosx.php:19
+#: ../download/macosx.php:20
 msgid ""
 "These packages are Mac OSX appbundles. To install them, simply unpack the "
 "archive, and move the appbundle into the desired location."
@@ -1651,7 +1743,7 @@ msgid ""
 "please see the <a href=\"%s\">source code</a> build instructions."
 msgstr ""
 
-#: ../download/windows.php:22
+#: ../download/windows.php:23
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -1660,11 +1752,11 @@ msgid ""
 "can be installed on the same machine at the same time."
 msgstr ""
 
-#: ../download/freebsd.php:18 ../download/rpm.php:19
+#: ../download/freebsd.php:19 ../download/rpm.php:19
 msgid "To install these packages, use a command such as:"
 msgstr ""
 
-#: ../download/slackware.php:19
+#: ../download/slackware.php:20
 msgid ""
 "To install these packages, use the Slackware <i>pkgtool</i> or "
 "<i>installpkg</i> utilities."
@@ -1749,21 +1841,27 @@ msgstr ""
 msgid "Under 80 characters"
 msgstr ""
 
-#: ../news.php:56
+#: ../news.php:89
 msgid "Unix domain socket support."
 msgstr ""
 
-#: ../download/source.php:30
+#: ../download/source.php:32
 msgid ""
 "Unpack the wxWidgets tarball or zip file and follow the appropriate set of "
 "instruction below."
 msgstr ""
 
-#: ../download/source.php:84 ../download/source.php:109
+#: ../download/source.php:86 ../download/source.php:111
 msgid "Unpack, build and install the source code:"
 msgstr ""
 
-#: ../news.php:26
+#: ../news.php:33
+msgid ""
+"Use ELSIF not ELSEIF in pgagent.sql for compatibility with 7.x servers [Glen "
+"Sasek]."
+msgstr ""
+
+#: ../news.php:59
 msgid "Use a proper 'Save As' style dialogue for selecting backup files."
 msgstr ""
 
@@ -1865,7 +1963,7 @@ msgstr ""
 msgid "Windows &trade;"
 msgstr ""
 
-#: ../download/source.php:53
+#: ../download/source.php:55
 msgid "Windows 2000, XP and 2003"
 msgstr ""
 
@@ -1894,8 +1992,8 @@ msgid ""
 "mode, this will be the case automatically."
 msgstr ""
 
-#: ../download/source.php:36 ../download/source.php:61
-#: ../download/source.php:87 ../download/source.php:112
+#: ../download/source.php:38 ../download/source.php:63
+#: ../download/source.php:89 ../download/source.php:114
 msgid ""
 "You may need to use the --enable-debug option if attempting to track down a "
 "crash."
@@ -1911,12 +2009,16 @@ msgid ""
 "yourself."
 msgstr ""
 
+#: ../news.php:35
+msgid "fix slony node statistics."
+msgstr ""
+
 #: ../include/doc.php:14 ../include/doc.php:19
 #, php-format
 msgid "pgAdmin %s online documentation"
 msgstr ""
 
-#: ../news.php:34 ../news.php:70
+#: ../news.php:40 ../news.php:67 ../news.php:103
 msgid "pgAdmin Development Team"
 msgstr ""
 
@@ -2035,10 +2137,11 @@ msgid ""
 "pgAdmin III is the most popular and feature rich Open Source administration "
 "and development platform for <a href=\"%s\">PostgreSQL</a>, the most "
 "advanced Open Source database in the world. The application may be used on "
-"Linux, FreeBSD Solaris, Mac OSX and Windows platforms to manage PostgreSQL "
+"Linux, FreeBSD, Solaris, Mac OSX and Windows platforms to manage PostgreSQL "
 "7.3 and above running on any platform, as well as commercial versions of "
 "PostgreSQL such as <a href=\"%s\">Pervasive Postgres</a>, <a href=\"%s"
-"\">EnterpriseDB</a> and <a href=\"%s\">SRA PowerGres</a>."
+"\">EnterpriseDB</a>, <a href=\"%s\">Mammoth PostgreSQL</a> and <a href=\"%s"
+"\">SRA PowerGres</a>."
 msgstr ""
 
 #: ../download/debian.php:12
@@ -2288,7 +2391,7 @@ msgid ""
 msgstr ""
 
 #: ../include/archives.php:49
-msgid "pgAdmin: Archives - Couldn't find the archive title!"
+msgid "pgAdmin: Archives"
 msgstr ""
 
 #: ../include/doc.php:52
@@ -2304,16 +2407,20 @@ msgid ""
 "in many popular Linux distributions."
 msgstr ""
 
-#: ../news.php:42
+#: ../news.php:75
 msgid ""
 "v1.4.0 contains a number of new features over previous releases, including:"
 msgstr ""
 
-#: ../news.php:16
+#: ../news.php:49
 msgid "v1.4.1 is primarily a bug fix release, including the following changes:"
 msgstr ""
 
-#: ../download/source.php:38
+#: ../news.php:16
+msgid "v1.4.2 is primarily a bug fix release, including the following changes:"
+msgstr ""
+
+#: ../download/source.php:40
 msgid ""
 "wxWidgets versions 2.6.2 and below are broken on Solaris. A CVS snapshot "
 "from the stable branch dated 2005-09-26 or later should be used until 2.6.3 "

@@ -10,9 +10,9 @@ $PAGE_CONTENT = '
 <p>' . _("You are free to publish any technical information about pgAdmin. Here are some guidelines, primarily about links and localization.") . '</p>
 
 <ul>
-  <li>' . sprintf(_("<b>Website language:</b> The pgAdmin web site is not able to detect the language of your browser. To display a page in your language, just select it from the drop-down list in the header. For example, the URL of the French homepage is: <a href=\"%s\">%s</a>."), "http://www.pgadmin.org/index.php?lang=fr_FR", "http://www.pgadmin.org/index.php?lang=fr_FR") . '<br />&nbsp;</li>
+<!--  <li>' . sprintf(_("<b>Website language:</b> The pgAdmin web site is not able to detect the language of your browser. To display a page in your language, just select it from the drop-down list in the header. For example, the URL of the French homepage is: <a href=\"%s\">%s</a>."), "http://www.pgadmin.org/index.php?lang=fr_FR", "http://www.pgadmin.org/index.php?lang=fr_FR") . '<br />&nbsp;</li> -->
 
-  <li>' . sprintf(_("<b>Download links:</b> Whenever possible, publish links pointing to the pgAdmin <a href=\"%s\">Download</a> page. Remember to include language information if required - for example <a href=\"%s\">%s</a>.<br /><br />Some sites (especially Windows shareware/freeware sites) may require direct links to files. Be very careful before submitting direct links, because you may have to upgrade them when pgAdmin new versions are released. When direct links are required, choose several PostgreSQL mirrors from the download page. Some sites may ask for up to 5 links."), "../download/index.php", "../download/index.php?lang=ja_JP", "http://www.pgadmin.org/download/index.php?lang=ja_JP") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<b>Download links:</b> Whenever possible, publish links pointing to the pgAdmin <a href=\"%s\">Download</a> page. <!-- Remember to include language information if required - for example <a href=\"%s\">%s</a>. --><br /><br />Some sites (especially Windows shareware/freeware sites) may require direct links to files. Be very careful before submitting direct links, because you may have to upgrade them when pgAdmin new versions are released. When direct links are required, choose several PostgreSQL mirrors from the download page. Some sites may ask for up to 5 links."), "../download/index.php", "../download/index.php?lang=ja_JP", "http://www.pgadmin.org/download/index.php?lang=ja_JP") . '<br />&nbsp;</li>
 
   <li>' . _("<b>Description of pgAdmin:</b> Any technical description is suitable, though for consistency or, if you are not sure what to write, you may wish to use one of the following, translated into your language if required:") . '
 
@@ -33,7 +33,7 @@ $PAGE_CONTENT = '
 
   <li>' . _("<b>Keywords:</b> When visiting a web site, users may not find pgAdmin directly, but query keywords like \"PostgreSQL database\" or \"free administration tools\", etc. During registration, you may be asked to enter keywords. These should reflect any aspect of what pgAdmin does, and what it works with. <b>Under no circumstances should you include competitors company or product names in keywords</b>. Our proposal for a keyword list is:") . '<br />&nbsp;<br />
 
-  <i>postgresql, postgres, pgsql, psql, postgre, pginstaller, pervasive postgres, enterprisedb, powergres, pgadmin, pgadmin iii, pgadmin ii, pgadmin3, pgadmin2, windows, linux, solaris, mac osx, freebsd, administration, managment, tools</i></li>
+  <i>postgresql, postgres, pgsql, psql, postgre, pginstaller, pervasive postgres, enterprisedb, mammoth, powergres, pgadmin, pgadmin iii, pgadmin ii, pgadmin3, pgadmin2, windows, linux, solaris, mac osx, freebsd, administration, managment, tools</i></li>
 </ul>
 '; 
 

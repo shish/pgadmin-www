@@ -57,7 +57,7 @@
   $outofdate->addLanguage ("ur_PK", "Urdu", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po","i18n/ur_PK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("vi_VN", "Vietnamese", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po", "i18n/vi_VN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("zh_CN", "Chinese simplified", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po", "i18n/zh_CN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $outofdate->addLanguage ("zh_TW", "Chinese traditional", "Kuo ChaoYi", "kuo.chaoyi@gmail.com", "pgadmin3.po", "i18n/zh_TW/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $translated->addLanguage ("zh_TW", "Chinese traditional", "Kuo ChaoYi", "kuo.chaoyi@gmail.com", "pgadmin3.po", "i18n/zh_TW/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
 
 
 ?>

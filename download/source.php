@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -23,9 +23,13 @@ $PAGE_CONTENT = '
   <li>' . sprintf(_("<a href=\"%s\">wxWidgets 2.6.x</a>. Currently, this is the only version we support."), "http://www.wxwidgets.org") . '<br />&nbsp;</li>
 
   <li>' . sprintf(_("<a href=\"%s\">libxml2 2.5.x</a> or above."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
+  
+  <li>' . sprintf(_("<a href=\"%s\">libxslt 1.1.x</a> or above."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
 
   <li>' . sprintf(_("<a href=\"%s\">PostgreSQL 7.3</a> or above."), "http://www.postgresql.org/ftp/latest/") . '<br />&nbsp;</li>
 </ul>
+
+<p>' . sprintf(_("Precompiled XML/XSLT and dependency packages for Windows can be found at <a href=\"%s\">zlatkovic.com</a>. You probably need iconv 1.9.x and zlib 1.2.x"), "http://www.zlatkovic.com/pub/libxml/") . '</p>
 
 <h3>' . _("Installing wxWidgets") . '</h3>
 

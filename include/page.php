@@ -99,28 +99,14 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true)
 </tr><tr>
 <td id="pgaLanguages">
 
-<!-- 
-
 <form method="GET" name="langform">
 <select name="lang" onchange="javascript:document.langform.submit();">
 <option selected value="">' . _("Language:") . '</option>
-<option value="af_ZA">' . _("Afrikaans") . '</option>
 <option value="en_US">' . _("English") . '</option>
-<option value="fa_IR">' . _("Farsi") . '</option>
 <option value="fr_FR">' . _("French") . '</option>
-<option value="de_DE">' . _("German") . '</option>
-<option value="el_GR">' . _("Greek") . '</option>
-<option value="id_ID">' . _("Indonesian") . '</option>
-<option value="ja_JP">' . _("Japanese") . '</option>
-<option value="ru_RU">' . _("Russian") . '</option>
-<option value="zh_CN">' . _("Simplified Chinese") . '</option>
-<option value="zh_TW">' . _("Tradition Chinese") . '</option>
-<option value="tr_TR">' . _("Turkish") . '</option>
 </select>
 <input type="submit" value="Go">
 </form>
-
--->
 
 </td>
 </tr><tr>

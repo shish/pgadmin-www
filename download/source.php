@@ -12,9 +12,9 @@ $PAGE_CONTENT = '
 <ul>
   <li>' . _("A recent development environment:") . '<br />&nbsp;<br />
     <ul>
-      <li>' . _("Linux, FreeBSD and other *nixes: Recent versions of GTK2.2, automake, autoconf and gcc are needed. The best solution is to use a recent distribution.") . '</li>
+      <li>' . _("Linux, FreeBSD and other *nixes: Recent versions of GTK2.2, automake, autoconf and gcc are needed. The best solution is to use a recent distribution.") . '<br />&nbsp;</li>
 
-      <li>' . _("Windows 2000, XP, 2003: Microsoft Visual C++ 2005.") . '</li>
+      <li>' . _("Windows 2000, XP, 2003: Microsoft Visual C++ 2005.") . '<br />&nbsp;</li>
 
       <li>' . _("Mac OSX: XCode 2.0 or above. Recent versions of autoconf and automake may also be required if building from SVN.") . '</li>
     </ul>

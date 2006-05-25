@@ -26,7 +26,7 @@ msgstr "%s - pgAdmin III v%s disponible"
 
 #: ../news.php:90
 msgid "'Guru Hints' to help new users."
-msgstr "Astuce du gourou pour aider les nouveaux usagers."
+msgstr "Astuce du gourou pour aider les nouveaux utilisateurs."
 
 #: ../download/adminpacks.php:12
 #: ../download/adminpacks.php:13
@@ -74,25 +74,25 @@ msgstr "<a href=\"%s\">wxWidgets 2.6.x</a>. C'est la seule version que nous supp
 
 #: ../advocacy/information.php:17
 msgid "<b>Description of pgAdmin:</b> Any technical description is suitable, though for consistency or, if you are not sure what to write, you may wish to use one of the following, translated into your language if required:"
-msgstr "<b>Description de pgAdmin:</b> toute description technique convient bien que, pour une certaine cohérence ou si vous ne savez pas quoi écrire, vous pouvez utiliser ce qui suit en le traduisant dans votre langue :"
+msgstr "<b>Description de pgAdmin:</b> toute description technique convient bien que, pour une certaine cohérence ou si vous ne savez pas quoi écrire, vous pouvez utiliser ce qui suit en le traduisant dans votre langue&nbsp;:"
 
 #: ../advocacy/information.php:15
 #, php-format
 msgid "<b>Download links:</b> Whenever possible, publish links pointing to the pgAdmin <a href=\"%s\">Download</a> page. <!-- Remember to include language information if required - for example <a href=\"%s\">%s</a>. --><br /><br />Some sites (especially Windows shareware/freeware sites) may require direct links to files. Be very careful before submitting direct links, because you may have to upgrade them when pgAdmin new versions are released. When direct links are required, choose several PostgreSQL mirrors from the download page. Some sites may ask for up to 5 links."
-msgstr "<b>Liens de téléchargement :</b> Autant que possible, ajouter des liens pointant sur la page de <a href=\"%s\">Téléchargement</a> de pgAdmin. N'oubliez pas d'inclure l'information de langue s'il y a lieu - par exemple <a href=\"%s\">%s</a>.<br /><br />Certains sites (spécialement les sites de shareware et freeware Windows) peuvent exiger des liens pointant directement sur les fichiers. Soyez très prudent avant de soumettre des liens directs parce que vous aurez à les mettre à jour lorsqu'une nouvelle version de pgAdmin sera disponible. Quand les liens directs sont exigés, choisissez plusieurs sites miroirs PostgreSQL de la page de téléchargement. Certains sites peuvent demander jusqu'à cinq liens."
+msgstr "<b>Liens de téléchargement&nbsp;:</b> Autant que possible, ajoutez des liens pointant sur la page de <a href=\"%s\">téléchargement</a> de pgAdmin. N'oubliez pas d'inclure l'information de langue s'il y a lieu - par exemple <a href=\"%s\">%s</a>.<br /><br />Certains sites (spécialement les sites de shareware et freeware Windows) peuvent exiger des liens pointant directement sur les fichiers. Soyez très prudent avant de soumettre des liens directs parce que vous aurez à les mettre à jour lorsqu'une nouvelle version de pgAdmin sera disponible. Quand les liens directs sont exigés, choisissez plusieurs sites miroirs PostgreSQL de la page de téléchargement. Certains sites peuvent demander jusqu'à cinq liens."
 
 #: ../advocacy/information.php:34
 msgid "<b>Keywords:</b> When visiting a web site, users may not find pgAdmin directly, but query keywords like \"PostgreSQL database\" or \"free administration tools\", etc. During registration, you may be asked to enter keywords. These should reflect any aspect of what pgAdmin does, and what it works with. <b>Under no circumstances should you include competitors company or product names in keywords</b>. Our proposal for a keyword list is:"
-msgstr "<b>Mots-clés :</b> Lors de la visite d'un site web, les usagers peuvent ne pas trouver pgAdmin directement, mais plutôt rechercher des mots-clés comme « Base de données PostgreSQL » ou « outils d'administration gratuit », etc. Pendant l'enregistrement, vous pouvez être invités à écrire des mots-clés. Ceux-ci devront refléter tous les aspects de pgAdmin, et avec quoi il fonctionne. <b>Dans aucune circonstance vous ne pouvez inclure des noms de sociétés ou de produit de concurrents dans les mots-clés</b>. Notre proposition pour une liste de mot-clé est :"
+msgstr "<b>Mots-clés&nbsp;:</b> Lors de la visite d'un site web, les utilisateurs peuvent ne pas trouver pgAdmin directement, mais plutôt rechercher des mots-clés comme «&nbsp;Base de données PostgreSQL&nbsp;» ou «&nbsp;outils d'administration gratuits&nbsp;», etc. Pendant l'enregistrement, vous pouvez être invités à écrire des mots-clés. Ceux-ci devront refléter tous les aspects de pgAdmin, et avec quoi il fonctionne. <b>Sous aucune circonstance vous ne pouvez inclure des noms de sociétés ou de produit de concurrents dans les mots-clés</b>. Notre proposition pour une liste de mot-clé est&nbsp;:"
 
 #: ../download/snapshots.php:12
 msgid "<b>WARNING:</b> Development snapshots have had little or no testing, and in some cases may not even run. It is only recommended that you use a snapshot if you are sure you know what you are doing, or are testing a specific bug fix or new feature on the direction of one of the developers. Please report any bugs or issue you may have with the development snapshots, but do remember that they are 'works in progress'."
-msgstr "<b>ATTENTION :</b> Les « images » de développement n'ont pratiquement pas été testés et, dans certains cas, ils peuvent même ne pas fonctionner. Il est recommendé d'utiliser les « images » seulement si vous êtes sûr de savoir ce que vous faites ou si vous testez une correction spécifique, ou une nouvelle fonction sous la direction d'un des développeurs. Veuillez s'il vous plait rapporter tout bogue ou problème rencontré avec l'utilisation des « images » de développement mais souvenez-vous qu'ils sont un travail en cours."
+msgstr "<b>ATTENTION&nbsp;:</b> Les «&nbsp;images&nbsp;» de développement n'ont pratiquement pas été testés et, dans certains cas, ellles peuvent même ne pas fonctionner. Il est recommendé d'utiliser les «&nbsp;images&nbsp;» seulement si vous êtes sûr de savoir ce que vous faites ou si vous testez une correction spécifique, ou une nouvelle fonction sous la direction d'un des développeurs. Veuillez s'il vous plait rapporter tout bogue ou problème rencontré avec l'utilisation des «&nbsp;images&nbsp;» de développement mais souvenez-vous qu'ils représentent un travail en cours."
 
 #: ../advocacy/information.php:13
 #, php-format
 msgid "<b>Website language:</b> The pgAdmin web site is not able to detect the language of your browser. To display a page in your language, just select it from the drop-down list in the header. For example, the URL of the French homepage is: <a href=\"%s\">%s</a>."
-msgstr "<b>Langue du site web :</b> Le site web de pgAdmin est incapable de détecter la langue de votre navigateur. Pour afficher une page dans votre langue, sélectionnez-la dans la liste déroulante de l'entête. Par exemple, l'URL de la page d'accueil française est : <a href=\"%s\">%s</a>."
+msgstr "<b>Langue du site web&nbsp;:</b> Le site web de pgAdmin est incapable de détecter la langue de votre navigateur. Pour afficher une page dans votre langue, sélectionnez-la dans la liste déroulante de l'entête. Par exemple, l'URL de la page d'accueil française est&nbsp;: <a href=\"%s\">%s</a>."
 
 #: ../download/source.php:57
 msgid "A Visual Studio 6.0 project workspace file is in the <i>xtra/wx-build</i> directory of the pgAdmin source tarball, along with a suitable <i>setup.h</i> file. Copy these to the appropriate <i>build/</i> and <i>include/wx/</i> directories in your wxWidgets source tree, and open the workspace in Visual Studio. Use the batch build facility to build all the wxWidgets libraries. To save time, you can omit all \"Universal\" and \"DLL\" builds."
@@ -104,12 +104,12 @@ msgstr "Un fichier de projet Visual Studio peut être trouvé dans le sous répe
 
 #: ../screenshots/data.php:10
 msgid "A data grid allows to insert, modify and drop data easily. The data is retrieved on-demand when it needs to be displayed. This allows the user to browse very large tables quickly and efficiently."
-msgstr "Une grille de données permet d'insérer, de modifier et de supprimer les données facilement. Les données sont retrouvées sur demande lorsqu'il y a un besoin de les affichées. Cela permet à l'utilisateur de parcourir de très grosses tables rapidement et efficacement."
+msgstr "Une grille de données permet d'insérer, de modifier et de supprimer les données facilement. Les données sont retrouvées sur demande lorsqu'il y a un besoin de les afficher. Cela permet à l'utilisateur de parcourir de très grosses tables rapidement et efficacement."
 
 #: ../screenshots/mb_i18n.php:16
 #, php-format
 msgid "A detailed list of supported languages is available in the <a href=\"%s\">Translation</a> section of the website."
-msgstr "Une liste détaillé des langues supportées est disponible dans la section <a href=\"%s\">Traduction</a> du site web."
+msgstr "Une liste détaillée des langues supportées est disponible dans la section <a href=\"%s\">traduction</a> du site web."
 
 #: ../screenshots/ui.php:22
 msgid "A double-click in the navigation tree opens the selected object in a separate dialogue, or the user may opt to create a new object.  Notice the tabs giving access to Properties, Parameters, Security and the SQL used to create the object."
@@ -121,7 +121,7 @@ msgstr "Un outil de requêtage avec coloration syntaxique permet aux utilisateur
 
 #: ../download/source.php:13
 msgid "A recent development environment:"
-msgstr "Un environnement de développement récent :"
+msgstr "Un environnement de développement récent&nbsp;:"
 
 #: ../features.php:101
 msgid "ALT"
@@ -129,11 +129,11 @@ msgstr "ALT"
 
 #: ../features.php:59
 msgid "Access to all PostgreSQL objects"
-msgstr "Accès à tous les objects PostgreSQL"
+msgstr "Accès à tous les objets PostgreSQL"
 
 #: ../news.php:61
 msgid "Add missing NO ACTION FK constraint."
-msgstr "Ajoutez la contrainte NO ACTION FK manquante."
+msgstr "Ajout de la contrainte NO ACTION FK manquante."
 
 #: ../news.php:24
 msgid "Add missing files to the Unix tarball, per Andrus - xtra/wxbuild/*, src/utils/precomp.cpp, src/main/pgAdmin3.rc."
@@ -142,7 +142,7 @@ msgstr "Ajout des fichiers manquants dans l'archive tar Unix par Andrus - xtra/w
 #: ../download/adminpacks.php:8
 #: ../download/menu.php:7
 msgid "Admin packs"
-msgstr "Admin packs"
+msgstr "Paquets d'administration"
 
 #: ../include/page.php:131
 msgid "Advocacy"
@@ -158,11 +158,11 @@ msgstr "Agrégats"
 
 #: ../news.php:93
 msgid "Alert the user when a query finishes in the query tool if the window is not active."
-msgstr "Alertez l'utilisateur quand une requête finit dans l'outil de requête si la fenêtre n'est pas active."
+msgstr "Alerte de l'utilisateur quand une requête finit dans l'outil de requête si la fenêtre n'est pas active."
 
 #: ../news.php:63
 msgid "Allow all 8.x column changes."
-msgstr "Permet tous les changements de colonne 8.x"
+msgstr "Autorise tous les changements de colonne en 8.x."
 
 #: ../news.php:87
 msgid "Allow connection selection in the query tool."
@@ -187,12 +187,12 @@ msgid ""
 "flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"
 msgstr ""
 "Un dépôt APT est fourni pour faciliter l'installation. Avant que vous commenciez l'installation, choisissez un miroir de la liste des <a href=\"%s\">miroirs PostgreSQL</a>.\n"
-" Cliquez sur un des marqueurs et copiez l'URL de redirection. Sur chaque miroir, les paquets sont localisés dans : <i>[URL MIROIR]/pgadmin3/release/debian</i>"
+" Cliquez sur un des marqueurs et copiez l'URL de redirection. Sur chaque miroir, les paquets sont localisés dans&nbsp;: <i>[URL MIROIR]/pgadmin3/release/debian</i>"
 
 #: ../download/debian.php:20
 #, php-format
 msgid "An APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/debian</i>"
-msgstr "Un dépôt APT est fourni pour faciliter l'installation. Avant que vous commenciez l'installation, choisissez un miroir dans la liste des <a href=\"%s\">miroirs PostgreSQL</a>. Cliquez sur un des marqueurs et copiez l'URL de redirection. Sur chaque miroir, les paquets sont localisés dans : <i>/pgadmin3/release/debian</i>"
+msgstr "Un dépôt APT est fourni pour faciliter l'installation. Avant que vous commenciez l'installation, choisissez un miroir dans la liste des <a href=\"%s\">miroirs PostgreSQL</a>. Cliquez sur un des marqueurs et copiez l'URL de redirection. Sur chaque miroir, les paquets sont localisés dans&nbsp;: <i>/pgadmin3/release/debian</i>"
 
 #: ../news.php:78
 msgid "An SQL/shell job scheduling agent."
@@ -204,7 +204,7 @@ msgstr "Une autre correction relative à wxComboBox(2.6.2)."
 
 #: ../translation/howto.php:12
 msgid "Anyone can translate pgAdmin into his or her mother tongue - you do not need to be a programmer. We try to make sure that all strings could be translated, even into non-European and non-Asian languages. The required steps for translation are as follows:"
-msgstr "N'importe qui peut traduire pgAdmin dans sa langue maternelle - vous n'avez pas besoin d'être un programmeur.  Nous essayons de nous assurer que toutes les chaînes de caractères pourraient être traduites, même dans des langues non-européennes et non-asiatiques.  Les étapes exigées pour la traduction sont les suivantes :"
+msgstr "N'importe qui peut traduire pgAdmin dans sa langue maternelle - vous n'avez pas besoin d'être un programmeur.  Nous essayons de nous assurer que toutes les chaînes de caractères pourraient être traduites, même dans des langues non-européennes et non-asiatiques.  Les étapes exigées pour la traduction sont les suivantes&nbsp;:"
 
 #: ../translation/howto.php:29
 msgid "As a first step, please edit the file properties (Catalog/Settings). Select correct language and country, and set the charset to <b>utf-8</b>. The project name is <b>pgadmin3</b>, team is <b>The pgAdmin Development Team</b>, and the email address should be <b>pgadmin-hackers@postgresql.org</b>."
@@ -212,12 +212,12 @@ msgstr "Dans un premier temps, éditez les propriétés du fichier (Catalogue/Co
 
 #: ../screenshots/ui.php:18
 msgid "As objects are created and modified, pgAdmin will show the user the code used to make the modifications, as well as the reverse-engineered SQL definition of the selected object. This helps the user learn and understand the SQL easily allowing them to work productively in the GUI and the command line or in scripts."
-msgstr "Au fur et a mesure que des objets sont créés et modifiés, pgAdmin montrera à l'utilisateur le code employé pour faire les modifications, tout comme de l'ingénierie inverse de l'objet SQL sélectionné.  Ceci aide l'utilisateur à apprendre et comprendre le SQL leur permettant facilement de travailler productivement dans le GUI, en ligne de commande ou en scripts."
+msgstr "Au fur et a mesure que des objets sont créés et modifiés, pgAdmin montrera à l'utilisateur le code employé pour faire les modifications, tout comme de l'ingénierie inverse de l'objet SQL sélectionné.  Ceci aide l'utilisateur à apprendre et comprendre le SQL leur permettant facilement de travailler de façon productive dans le GUI, en ligne de commande ou en scripts."
 
 #: ../news.php:99
 #, php-format
 msgid "As well as many other tweaks, improvements and bug fixes, details of which may be found in the <a href=\"%s\">changelog</a>."
-msgstr "Tout comme plusieurs autres peaufinages, améliorations et corrections de bogues, des détails peuvent être trouvés dans le <a href=\"%s\">journal des modifications</a>."
+msgstr "Tout comme plusieurs autres peaufinages, améliorations et corrections de bogues, des détails sont disponibles dans le <a href=\"%s\">journal des modifications</a>."
 
 #: ../download/source.php:85
 #: ../download/source.php:110
@@ -231,12 +231,12 @@ msgstr "Gestion par auto-vacuum  (PostgreSQL 8.1 et plus)"
 
 #: ../news.php:81
 msgid "Autovacuum administration."
-msgstr "Administration de l'autovacuum"
+msgstr "Administration de l'autovacuum."
 
 #: ../advocacy/strategy.php:13
 #, php-format
 msgid "Before you start, it is recommended that you translate pgAdmin III and the web site in your language if it hasn't already been done. Just visit the <a href=\"%s\">translation</a> page for details on how to get started."
-msgstr "Avant que vous commenciez, il est recommander que vous traduisiez pgAdmin III et le site web dans votre langue si ce n'est pas déjà fait. Visitez la page de href=\"%s\">traduction</a> pour des détails sur la façon de commencer."
+msgstr "Avant que vous commenciez, il est recommandé que vous traduisiez pgAdmin III et le site web dans votre langue si ce n'est pas déjà fait. Visitez la page de <a href=\"%s\">traduction</a> pour toutes les informations concernant la traduction."
 
 #: ../support/issues.php:10
 msgid "Bugs and other issues in pgAdmin are almost always fixed within a very short time once they have been reported to us. There are some issues that may be out of our control, or may take significant effort to resolve, often more effort than the issue warrants."
@@ -253,7 +253,7 @@ msgstr "Journal des modifications"
 
 #: ../download/freebsd.php:31
 msgid "Check that the pgAdmin III executable is in the path:"
-msgstr "Vérifiez que l'exécutable de pgAdmin III est dans le chemin des applications (PATH) :"
+msgstr "Vérifiez que l'exécutable de pgAdmin III est dans le chemin des applications (PATH)&nbsp;:"
 
 #: ../translation/howto.php:31
 msgid "Check the <i>Automatically compile .mo file on save</i> option in Properties."
@@ -289,15 +289,15 @@ msgstr "Conversions"
 
 #: ../include/archives.php:54
 msgid "Couldn't find the archive content!"
-msgstr "N'a pas pu trouver le contenu de l'archive !"
+msgstr "N'a pas pu trouver le contenu de l'archive&nbsp;!"
 
 #: ../include/doc.php:58
 msgid "Couldn't find the document content!"
-msgstr "N'a pas pu trouver le contenu du document !"
+msgstr "N'a pas pu trouver le contenu du document&nbsp;!"
 
 #: ../download/freebsd.php:25
 msgid "Create a symlink to the pgAdmin III binary:"
-msgstr "Créez un lien sympbolique vers l'exécutable de pgAdmin III :"
+msgstr "Créez un lien sympbolique vers l'exécutable de pgAdmin III&nbsp;:"
 
 #: ../advocacy/strategy.php:23
 msgid "Cross your fingers and wait until PostgreSQL becomes the world's number one database."
@@ -350,7 +350,7 @@ msgstr "Debian Woody (oldstable)"
 
 #: ../news.php:51
 msgid "Default the encoding of new databases to the cluster encoding."
-msgstr "Transférer le jeux de caractères des nouvelles bases de données sur le jeu de caractère du cluster."
+msgstr "Transfert du jeux de caractères des nouvelles bases de données sur le jeu de caractère du cluster."
 
 #: ../features.php:21
 msgid "Designed for multiple PostgreSQL versions and derivatives"
@@ -373,7 +373,7 @@ msgstr "Équipe de développement"
 
 #: ../news.php:26
 msgid "Display the definition of set returning procedures correctly."
-msgstr "Affiche correctement la définition des procédures renvoyant des ensembles."
+msgstr "Amélioration de l'affichage de la définition des procédures renvoyant des ensembles."
 
 #: ../include/archives.php:21
 #: ../include/archives.php:36
@@ -394,7 +394,7 @@ msgstr "Domaines"
 
 #: ../news.php:60
 msgid "Don't show primary key hint when editing views."
-msgstr "Ne pas afficher l'astuce de la clé primaire en éditant des vues."
+msgstr "Suppression de l'affichage de l'astuce de la clé primaire lors de l'édition des vues."
 
 #: ../include/page.php:134
 #: ../include/po_status.php:256
@@ -414,7 +414,7 @@ msgstr "Téléchargez le <a href=\"%s\">code source</a> de pgAdmin III à partir
 
 #: ../news.php:55
 msgid "Drop constraints on columns before the columns themselves."
-msgstr "Détruire les contraintes sur les colonnes avant les colonnes elles-mêmes."
+msgstr "Destruction des contraintes sur les colonnes avant les colonnes elles-mêmes."
 
 #: ../features.php:93
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
@@ -422,7 +422,7 @@ msgstr "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 
 #: ../screenshots/data.php:18
 msgid "EXPLAIN and/or ANALYZE your queries to take advantage of PostgreSQL unique optimisation features. You will soon realise that PostgreSQL is amongst the fastest enterprise class databases available."
-msgstr "EXPLAIN et/ou ANALYZE vos requêtes pour profiter des avantages d'optimisation unique de PostgreSQL. Vous allez rapidement réaliser que PostgreSQL fait parti des bases de données les plus rapides pour entreprise."
+msgstr "Utiliser EXPLAIN et/ou ANALYZE sur vos requêtes pour profiter des avantages d'optimisation uniques de PostgreSQL. Vous allez rapidement réaliser que PostgreSQL fait parti des bases de données les plus rapides pour entreprise."
 
 #: ../download/debian.php:22
 #: ../download/debian.php:39
@@ -447,7 +447,7 @@ msgstr "EnterpriseDB"
 
 #: ../news.php:34
 msgid "Exclude system schemas by name rather than OID, so that 'public' can be safely renamed."
-msgstr "Exclut les schémas système par nom plutôt que par OID de façon à ce que 'public' puisse être renommé en toute tranquillité."
+msgstr "Exclusion des schémas système par nom plutôt que par OID de façon à ce que 'public' puisse être renommé en toute tranquillité."
 
 #: ../features.php:29
 msgid "Extensive documentation"
@@ -480,7 +480,7 @@ msgstr "Correction d'une faute de frappe dans le README du pack admin [August Za
 
 #: ../news.php:27
 msgid "Fix drop procedure by including IN/OUT parameter flags in the name."
-msgstr "Correction de la suppression d'une procédure en incluant les paramètres IN/OUT dans le nom."
+msgstr "Correction d'un bogue sur la suppression d'une procédure en incluant les paramètres IN/OUT dans le nom."
 
 #: ../news.php:64
 msgid "Fix param name quoting for procedures."
@@ -492,7 +492,7 @@ msgstr "Correction de la liste des procédures/fonctions trigger."
 
 #: ../news.php:28
 msgid "Fix role SQL - correctly define CREATEROLE/NOCREATEROLE per Andrus."
-msgstr "Correction du SQL pour les rôle - définit correctement CREATEROLE/NOCREATEROLE par Andrus."
+msgstr "Correction de la requête SQL pour les rôle - définit correctement CREATEROLE/NOCREATEROLE par Andrus."
 
 #: ../news.php:19
 msgid "Fix serial column detection for 8.1 per Kris Jurka."
@@ -504,12 +504,12 @@ msgstr "Correction de la requête SQL de statut du serveur."
 
 #: ../news.php:36
 msgid "Fix: Unsubscribe set on receiver."
-msgstr "Correction : ensemble de désabonnement sur le récepteur."
+msgstr "Correction&nbsp;: ensemble de désabonnement sur le récepteur."
 
 #: ../download/debian.php:28
 #: ../download/debian.php:45
 msgid "For example, for France, you can try:"
-msgstr "Par exemple, pour la France, vous pouvez essayer :"
+msgstr "Par exemple, pour la France, vous pouvez essayer&nbsp;:"
 
 #: ../features.php:16
 #: ../download/freebsd.php:8
@@ -529,7 +529,7 @@ msgstr "Foire Aux Questions"
 #: ../translation/howto.php:55
 #, php-format
 msgid "From time to time, new strings which need translation are added to the application. Download/update the new <a href=\"%s\">pgadmin3.pot</a> and merge the new file with your language file using the poEdit <i>Catalog/Update from POT file</i> function. Alternatively, you can run the following command manually:"
-msgstr "De temps en temps, de nouvelles chaînes de caractères qui ont besoin d'être traduites sont ajoutées à l'application. Téléchargez/mettez à jour le nouveau <a href=\"%s\">pgadmin3.pot</a> et fusionnez le nouveau fichier avec votre fichier de langue en utilisant la fonction de poEdit <i>Catalogue/Mettre à jour depuis fichier POT...</i>. Autrement, vous pouvez exécuter manuellement la commande suivante :"
+msgstr "De temps en temps, de nouvelles chaînes de caractères qui ont besoin d'être traduites sont ajoutées à l'application. Téléchargez/mettez à jour le nouveau <a href=\"%s\">pgadmin3.pot</a> et fusionnez le nouveau fichier avec votre fichier de langue en utilisant la fonction de poEdit <i>Catalogue/Mettre à jour depuis fichier POT...</i>. Autrement, vous pouvez exécuter manuellement la commande suivante&nbsp;:"
 
 #: ../features.php:69
 msgid "Functions"
@@ -549,11 +549,11 @@ msgstr "Pour commencer"
 
 #: ../news.php:94
 msgid "Graphical EXPLAIN."
-msgstr "EXPLAIN graphique"
+msgstr "EXPLAIN graphique."
 
 #: ../news.php:56
 msgid "Graphical explain: distinct scan images."
-msgstr "EXPLAIN graphique : images des parcours distincts."
+msgstr "EXPLAIN graphique&nbsp;: images des parcours distincts."
 
 #: ../include/page.php:112
 msgid "Greek"
@@ -569,7 +569,7 @@ msgstr "Lignes directrices"
 
 #: ../features.php:32
 msgid "Guru Hints to help less experienced users"
-msgstr "Astuces du Guru pour aider les utilisateurs moins expérimentés."
+msgstr "Astuces du gourou pour aider les utilisateurs moins expérimentés."
 
 #: ../include/page.php:130
 msgid "Home"
@@ -577,7 +577,7 @@ msgstr "Accueil"
 
 #: ../news.php:29
 msgid "Honour the copy quoting setting properly in the SQL results pane."
-msgstr "Respecte le paramètrage de la mise entre guillemets après une copie du panneau des résultats d'une commande SQL."
+msgstr "Respect du paramétrage de la mise entre guillemets après une copie du panneau des résultats d'une commande SQL."
 
 #: ../contribute.php:8
 msgid "How to contribute"
@@ -586,7 +586,7 @@ msgstr "Comment contribuer"
 #: ../translation/howto.php:8
 #: ../translation/menu.php:8
 msgid "Howto"
-msgstr "Howto"
+msgstr "Guide pratique"
 
 #: ../news.php:101
 msgid "I would like to take this opportunity to thank all those who gave their time to help with the development, testing, translation and packaging of this release."
@@ -594,11 +594,11 @@ msgstr "J'aimerais profiter de cette opportunité pour remercier tous ceux qui o
 
 #: ../news.php:71
 msgid "I'm pleased to announce the release of pgAdmin 1.4.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"
-msgstr "Je suis heureux d'annoncer la sortie de pgAdmin 1.4.0, l'outil Open Source d'administration graphique de PostgreSQL pour Windows, Linux, FreeBSD, Mac OS X et Solaris, présentement disponible pour télécharger en fichiers sources et en une variété de formats binaires comme:"
+msgstr "Je suis heureux d'annoncer la sortie de pgAdmin 1.4.0, l'outil libre d'administration graphique de PostgreSQL pour Windows, Linux, FreeBSD, Mac OS X et Solaris, actuellement disponible au téléchargement en fichiers sources et en une variété de formats binaires comme&nbsp;:"
 
 #: ../news.php:45
 msgid "I'm pleased to announce the release of pgAdmin 1.4.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"
-msgstr "Je suis heureux d'annoncer la sortie de pgAdmin 1.4.1, l'outil Open Source d'administration graphique de PostgreSQL pour Windows, Linux, FreeBSD, Mac OS X et Solaris, présentement disponible pour télécharger en fichiers sources et en une variété de formats binaires comme:"
+msgstr "Je suis heureux d'annoncer la sortie de pgAdmin 1.4.1, l'outil libre d'administration graphique de PostgreSQL pour Windows, Linux, FreeBSD, Mac OS X et Solaris, actuellement disponible au téléchargement en fichiers sources et en une variété de formats binaires comme:"
 
 #: ../features.php:96
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
@@ -607,29 +607,29 @@ msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 #: ../development/index.php:14
 #, php-format
 msgid "If you are not a programmer, you can still get involved in the project if you wish - as a <a href=\"%s\">translator</a>, or <a href=\"%s\">promoting</a> pgAdmin."
-msgstr "Si vous n'êtes pas un programmeur, vous pouvez quand même vous impliquer dans le projet si vous le désirez - Comme un <a href=\"%s\">traducteur</a>, ou <a href=\"%s\">promouvoir</a> pgAdmin."
+msgstr "Si vous n'êtes pas un programmeur, vous pouvez quand même vous impliquer dans le projet si vous le désirez - comme <a href=\"%s\">traducteur</a> ou <a href=\"%s\">promotteur</a> de pgAdmin."
 
 #: ../translation/status.php:29
 msgid "If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us CC'd to the translator."
-msgstr "Si vous n'êtes pas l'auteur/mainteneur d'une traduction et vous désirez soumettre une correction : téléchargez le fichier de langue (extention *.po), faites les corrections nécessaires et réenvoyez le nous et en CC au traducteur."
+msgstr "Si vous n'êtes pas l'auteur/mainteneur d'une traduction et que vous désirez soumettre une correction&nbsp;: téléchargez le fichier de langue (extention *.po), faites les corrections nécessaires et envoyez-le nous et en CC au traducteur."
 
 #: ../support/list.php:12
 msgid "If you are posting a bug report, please include the following information where possible:"
-msgstr "Si vous rapportez un bogue, veuillez inclure les informations suivantes lorsque c'est possible :"
+msgstr "Si vous rapportez un bogue, veuillez inclure les informations suivantes lorsque c'est possible&nbsp;:"
 
 #: ../translation/status.php:27
 msgid "If you are the maintainer of a translation and wish to update your work, download the template file (*.pot extension), execute poEdit and use the 'update from template' command. Translate the text and send us the *.po file."
-msgstr "Si vous êtes le mainteneur d'une traduction et vous désirez mettre à jour votre travail, téléchargez le fichier modèle (extension *.pot), exécuter poEdit et utilisez la commande « Mettre à jour depuis fichier POT ». Traduisez le texte et envoyez nous le fichier *.po."
+msgstr "Si vous êtes le mainteneur d'une traduction et vous désirez mettre à jour votre travail, téléchargez le fichier modèle (extension *.pot), exécutez poEdit et utilisez la commande «&nbsp;Mettre à jour depuis fichier POT&nbsp;». Traduisez le texte et envoyez nous le fichier *.po."
 
 #: ../support/index.php:12
 #, php-format
 msgid "If you have a problem that you need help with, please make sure you check the <a href=\"%s\">Frequently Asked Questions</a> list as well as the pgAdmin documentation for a solution first. If you cannot find the answer you need there, then please try searching Google (a Google search facility is provided at the top of the page) next. Make sure you include any relevant error messages in your query. If you still cannot find the answer you need, then please post a message to the <a href=\"%s\">pgadmin-support</a> mailing list."
-msgstr "Si vous avez un problème et que vous avez besoin d'aide, s'il-vous-plait, assurez-vous de vérifier en premier la <a href=\"%s\">Foire Aux Questions</a> ainsi que la documentation de pgAdmin pour une solution. Si vous ne pouvez pas la réponse que vous recherchez ici, alors essayez ensuite de chercher sur Google (un engin de recherche Google est disponible dans le haut de la page). Assurez-vous d'inclure tous messages d'erreurs dans votre requête. Si vous ne trouvez toujours pas la réponse dont vous avez besoin, alors envoyez un message à la liste href=\"%s\">pgadmin-support</a>"
+msgstr "Si vous avez un problème et que vous avez besoin d'aide, s'il-vous-plait, assurez-vous de vérifier en premier la <a href=\"%s\">Foire Aux Questions</a> ainsi que la documentation de pgAdmin pour une solution. Si vous ne trouvez pas la réponse que vous recherchez ici, alors essayez ensuite de chercher sur Google (un engin de recherche Google est disponible dans le haut de la page). Assurez-vous d'inclure tous les messages d'erreurs dans votre requête. Si vous ne trouvez toujours pas la réponse dont vous avez besoin, alors envoyez un message à la liste <a href=\"%s\">pgadmin-support</a>"
 
 #: ../contribute.php:14
 #, php-format
 msgid "If you think you can contribute new features and/or bug fixes, please visit the <a href=\"%s\">development</a> page."
-msgstr "Si vous pensez pouvoir contribuer à de nouvelles fonctionnalités et/ou réparer des bogues, veuillez visiter la page <a href=\"%s\">développement</a>."
+msgstr "Si vous pensez pouvoir contribuer à de nouvelles fonctionnalités et/ou réparer des bogues, veuillez visiter la page dédiée au <a href=\"%s\">développement</a>."
 
 #: ../translation/howto.php:40
 msgid "In poEdit, clicking on the save button will automatically compile pgadmin3.po."
@@ -637,7 +637,7 @@ msgstr "Dans poEdit, cliquer sur le bouton enregistrer va automatiquement compil
 
 #: ../news.php:58
 msgid "Include pg_dump/pg_restore in the Mac OSX bundle."
-msgstr "Inclut pg_dump/pg_restore dans le paquet pour Mac OSX."
+msgstr "Ajout de pg_dump/pg_restore dans le paquet pour Mac OSX."
 
 #: ../features.php:71
 msgid "Indexes"
@@ -654,7 +654,7 @@ msgstr "Information"
 
 #: ../download/adminpacks.php:17
 msgid "Install the appropriate admin pack for the version of pgAdmin that you use, and the server you are running. pgInstaller distributions of PostgreSQL for Windows include the admin packs."
-msgstr "Installez le pack admin approprié pour la version de pgAdmin et celle du serveur que vous utilisez. Les distributions de pgInstaller pour Windows incluent les packs admin."
+msgstr "Installez le pack admin approprié pour la version de pgAdmin et celle du serveur que vous utilisez. Les distributions de pgInstaller pour Windows incluent les paquets d'administration."
 
 #: ../download/debian.php:55
 msgid "Installation"
@@ -723,7 +723,7 @@ msgstr "Langue"
 
 #: ../include/page.php:106
 msgid "Language:"
-msgstr "Langue :"
+msgstr "Langue&nbsp;:"
 
 #: ../download/languages.php:8
 #: ../download/menu.php:10
@@ -738,7 +738,7 @@ msgstr "Les langues non incluses dans la distribution peuvent l'être plus tard.
 #: ../licence.php:10
 #, php-format
 msgid "Last update: %s"
-msgstr "Dernière mise à jour : %s"
+msgstr "Dernière mise à jour&nbsp;: %s"
 
 #: ../news.php:8
 msgid "Latest news"
@@ -760,7 +760,7 @@ msgstr "Linux, FreeBSD et Solaris"
 
 #: ../download/source.php:15
 msgid "Linux, FreeBSD and other *nixes: Recent versions of GTK2.2, automake, autoconf and gcc are needed. The best solution is to use a recent distribution."
-msgstr "Linux, FreeBSD et les autres Unix : des versions récentes de GTK2.2, automake, autoconf et gcc sont nécessaires. La meilleure solution est d'utiliser une distribution récente."
+msgstr "Linux, FreeBSD et les autres Unix&nbsp;: des versions récentes de GTK2.2, automake, autoconf et gcc sont nécessaires. La meilleure solution est d'utiliser une distribution récente."
 
 #: ../download/source.php:34
 msgid "Linux, FreeBSD or Solaris"
@@ -802,7 +802,7 @@ msgstr "Des paquets Mac OSX construits sur Panther sont disponibles jusqu'à pgA
 
 #: ../download/source.php:19
 msgid "Mac OSX: XCode 2.0 or above. Recent versions of autoconf and automake may also be required if building from SVN."
-msgstr "Mac OSX : XCode 2.0 ou supérieur. Des versions récentes d'autoconf et d'automake peuvent aussi être requises si vous construisez à partir du code du SVN."
+msgstr "Mac OSX&nbsp;: XCode 2.0 ou supérieur. Des versions récentes d'autoconf et d'automake peuvent aussi être requises si vous construisez à partir du code du SVN."
 
 #: ../development/list.php:8
 #: ../development/menu.php:9
@@ -823,7 +823,7 @@ msgstr "Mainteneur"
 #: ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
-msgstr "Mainteneur : %s"
+msgstr "Mainteneur&nbsp;: %s"
 
 #: ../news.php:54
 msgid "Major fix for wx2.6.2 API changes (comboboxes)."
@@ -839,7 +839,7 @@ msgstr "Outils de gestion pour PostgreSQL"
 
 #: ../news.php:20
 msgid "Mask the password when logging the connection string."
-msgstr "Masque le mot de passe lors du traçage de la chaîne de connexion."
+msgstr "Masquage du mot de passe dans les traces de la chaîne de connexion."
 
 #: ../translation/howto.php:80
 msgid "Menu strings also contain hard coded shortcuts (Ctrl-X) or function keys (F5). These can be identified by a preceding \\t (tab). If appropriate, the modifier key name may be translated (Ctrl-), but the key combination must remain the same in all cases because the behaviour is hardcoded in the pgAdmin source."
@@ -849,11 +849,11 @@ msgstr "Les chaînes du menu contiennent aussi des raccourcis codés en dur (Ctr
 #: ../support/list.php:22
 #, php-format
 msgid "Messages sent to the list may be browsed <a href=\"%s\">here</a> and are archived at <a href=\"%s\">PostgreSQL</a> and  <a href=\"%s\">mail-archive.com</a>."
-msgstr "Les messages envoyés sur la liste peuvent être lues <a href=\"%s\">ici</a> et sont archivés sur <a href=\"%s\">PostgreSQL</a> et sur <a href=\"%s\">mail-archive.com</a>."
+msgstr "Les messages envoyés sur la liste peuvent être lus <a href=\"%s\">ici</a> et sont archivés sur <a href=\"%s\">PostgreSQL</a> et sur <a href=\"%s\">mail-archive.com</a>."
 
 #: ../features.php:14
 msgid "Microsoft Windows &trade; 2000 and above"
-msgstr "Microsoft Windows &trade; 2000 et ultérieure"
+msgstr "Microsoft Windows &trade; 2000 et ultérieur"
 
 #: ../download/source.php:102
 msgid "Microsoft Windows 2000, XP & 2003"
@@ -905,7 +905,7 @@ msgstr "Notez que la distribution <a href=\"%s\">pgInstaller</a> de PostgreSQL s
 #: ../download/source.php:87
 #: ../download/source.php:112
 msgid "Note:"
-msgstr "Note :"
+msgstr "Note&nbsp;:"
 
 #: ../features.php:60
 msgid "Objects are displayed with their SQL definition, and a user friendly list of properties. Dependent, and dependency objects may also be browsed, and object statistics viewed where appropriate."
@@ -913,19 +913,19 @@ msgstr "Les objets sont affichés avec leur définition SQL et une liste amélio
 
 #: ../advocacy/information.php:32
 msgid "Open Source administration and management tools for the PostgreSQL database and derivative products such as EnterpriseDB, Pervasive Postgres and SRA PowerGres. Includes a graphical administration interface, an SQL query tool with grahical EXPLAIN, a procedural code editor, an SQL/shell/batch scheduling agent, Slony-I management and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. Available in more than a dozen languages and for several operating systems, including Microsoft Windows &trade;, Linux, FreeBSD, Mac OSX and Solaris."
-msgstr "Outils d'administration et de gestion Open Source pour le serveur de bases de données PostgreSQL et les produits dérivés comme EnterpriseDB, Pervasive Postgres et SRA PowerGres. Inclut une interface graphique d'administration, un outil de requêtage SQL avec un EXPLAIN graphique, un éditeur de code, un agent de planification SQL/shell/batch, une gestion de Slony-I et bien plus encore. pgAdmin III est conçu pour répondre aux besoins de la majorité des utilisateurs, ceci allant de l'écriture de simples requêtes SQL au développement de bases de données complexes. L'interface graphique supporte toutes les fonctionnalités de PostgreSQL et facilite l'administration. Disponible dans plus d'une douzaine de langue et pour plusieurs systèmes d'exploitation, comme Microsoft Windows &trade;, Linux, FreeBSD, Mac OSX et Solaris."
+msgstr "Outils d'administration et de gestion libre pour le serveur de bases de données PostgreSQL et les produits dérivés comme EnterpriseDB, Pervasive Postgres et SRA PowerGres. Inclut une interface graphique d'administration, un outil de requêtage SQL avec un EXPLAIN graphique, un éditeur de code, un agent de planification SQL/shell/batch, une gestion de Slony-I et bien plus encore. pgAdmin III est conçu pour répondre aux besoins de la majorité des utilisateurs, ceci allant de l'écriture de simples requêtes SQL au développement de bases de données complexes. L'interface graphique supporte toutes les fonctionnalités de PostgreSQL et facilite l'administration. Disponible dans plus d'une douzaine de langue et pour plusieurs systèmes d'exploitation, comme Microsoft Windows &trade;, Linux, FreeBSD, Mac OSX et Solaris."
 
 #: ../advocacy/information.php:26
 msgid "Open Source administration and management tools for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. Designed to answer the needs of most users."
-msgstr "Outils d'administration et de gestion Open Source pour le serveur de bases de données PostgreSQL. Inclut une interface d'administration graphique, un outil de requêtage SQL, un éditeur de code pour les procédures. Conçu pour répondre aux besoins de la majorité des utilisateurs."
+msgstr "Outils d'administration et de gestion libre pour le serveur de bases de données PostgreSQL. Inclut une interface d'administration graphique, un outil de requêtage SQL, un éditeur de code pour les procédures. Conçu pour répondre aux besoins de la majorité des utilisateurs."
 
 #: ../advocacy/information.php:29
 msgid "Open Source administration and management tools for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. Available in more than a dozen languages and for most common operating systems."
-msgstr "Outils d'administration et de gestion Open Source pour le serveur de bases de données PostgreSQL. Inclut une interface d'administration graphique, un outil de requêtage SQL, un éditeur de code pour les procédures et bien plus. pgAdmin III est conçu pour répondre aux besoins de la majorité des utilisateurs, ceux-ci allant de l'écriture de simples requêtes SQL au développement de bases de données complexes. Disponible dans plus d'une douzaine de langues et pour la plupart des systèmes d'exploitation communs."
+msgstr "Outils d'administration et de gestion libre pour le serveur de bases de données PostgreSQL. Inclut une interface d'administration graphique, un outil de requêtage SQL, un éditeur de code pour les procédures et bien plus. pgAdmin III est conçu pour répondre aux besoins de la majorité des utilisateurs, ceux-ci allant de l'écriture de simples requêtes SQL au développement de bases de données complexes. Disponible dans plus d'une douzaine de langues et pour la plupart des systèmes d'exploitation communs."
 
 #: ../advocacy/information.php:23
 msgid "Open Source management and administration tools for the PostgreSQL database."
-msgstr "Outils de gestion et d'administration Open Source pour le serveur de bases de données PostgreSQL."
+msgstr "Outils de gestion et d'administration libre pour le serveur de bases de données PostgreSQL."
 
 #: ../features.php:72
 msgid "Operator classes"
@@ -943,7 +943,7 @@ msgstr "Traductions obsolètes (%d)"
 #: ../features.php:39
 #, php-format
 msgid "Over a dozen supported translations and over 25 partial translations. A detailed list of supported languages is available on the <a href=\"%s\">translation status</a> page."
-msgstr "Plus d'une douzaine de traductions supportées et plus de 25 traductions partielles. Une liste détaillée des langues supportées est disponible sur la page d'<a href=\"%s\">état des traductions</a>."
+msgstr "Plus d'une douzaine de traductions maintenues et plus de 25 traductions partielles. Une liste détaillée des langues supportées est disponible sur la page d'<a href=\"%s\">état des traductions</a>."
 
 #: ../news.php:91
 msgid "Password can be stored in .pgass/pgpass.conf files."
@@ -955,12 +955,12 @@ msgstr "Pervasive Postgres"
 
 #: ../support/list.php:24
 msgid "Please <b>do not</b> send an email directly to one of the programmers; they might miss it, or even be the wrong person at all. Using the mailing list guarantees that your request isn't lost and will be answered in a timely fashion."
-msgstr "Merci de <b>ne pas</b> envoyer un courrier électronique directement à un des développeurs ; ils pourraient l'oublier ou pourraient ne pas concerner cette personne. L'utilisation des listes de discussion garantie que votre requête ne sera pas perdue et qu'elle obtiendra une réponse le plus rapidement possible."
+msgstr "Merci de <b>ne pas</b> envoyer un courrier électronique directement à un des développeurs&nbsp;; ils pourraient l'oublier ou pourraient ne pas concerner cette personne. L'utilisation des listes de discussion garantie que votre requête ne sera pas perdue et qu'elle obtiendra une réponse le plus rapidement possible."
 
 #: ../support/index.php:14
 #, php-format
 msgid "Please <b>do not</b> send an email directly to one of the programmers; they might miss it, or even be the wrong person at all. Using the mailing list guarantees that your request isn't lost and will be answered in a timely fashion. Dave Page's <a href=\"%s\">blog</a> includes a frank posting describing why this is a bad idea, whilst Eric Raymond's paper <a href=\"%s\">'How to ask questions the smart way'</a> describes the best way to get the help you need."
-msgstr "Merci de <b>ne pas</b> envoyer un courrier électronique directement à un des développeurs ; ils pourraient l'oublier ou pourraient ne pas concerner cette personne. L'utilisation des listes de discussion garantie que votre requête ne sera pas perdue et qu'elle obtiendra une réponse le plus rapidement possible. Le <a href=\"%s\">blog</a> de Dave Page inclut un billet franc décrivant pourquoi c'est une mauvaise idée alors que le papier d'Éric Raymond sur la façon de poser une question de façon intelligente (<a href=\"%s\">'How to ask questions the smart way'</a>) décrit la meilleure façon pour obtenir l'aide dont vous avez besoin."
+msgstr "Merci de <b>ne pas</b> envoyer un courrier électronique directement à un des développeurs&nbsp;; ils pourraient l'oublier ou pourraient ne pas concerner cette personne. L'utilisation des listes de discussion garantie que votre requête ne sera pas perdue et qu'elle obtiendra une réponse le plus rapidement possible. Le <a href=\"%s\">blog</a> de Dave Page inclut un billet franc décrivant pourquoi c'est une mauvaise idée alors que le papier d'Éric Raymond sur la façon de poser une question de façon intelligente (<a href=\"%s\">'How to ask questions the smart way'</a>) décrit la meilleure façon pour obtenir l'aide dont vous avez besoin."
 
 #: ../advocacy/strategy.php:19
 msgid "Please note that the official spelling is <b>pgAdmin</b> for the project, with <b>pgAdmin III</b> being the recent version of the administration tool itself. For filename or other canonical purposes, the spelling <b>pgadmin3</b> is used."
@@ -973,11 +973,11 @@ msgstr "Merci de vous référer aux lignes de conduite pour la traduction ci-des
 
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
-msgstr "PostgreSQL 7.3 et ultérieures"
+msgstr "PostgreSQL 7.3 et ultérieur"
 
 #: ../news.php:79
 msgid "PostgreSQL 8.1 support:"
-msgstr "Support de PostgreSQL 8.1 :"
+msgstr "Support de PostgreSQL 8.1&nbsp;:"
 
 #: ../features.php:33
 msgid "PostgreSQL documentation (on-line and off-line)"
@@ -997,15 +997,15 @@ msgstr "Transactions préparés."
 
 #: ../advocacy/index.php:12
 msgid "Promotion is essential for the life and development of the pgAdmin project. As the project gains more and more users it attracts additional developers who contribute new features and bug fixes and helping improve pgAdmin to the benefit of all it's users. As the project has grown even more popular, it has attracted the attention of PostgreSQL companies in addition to the users. Some of these companies have invested in the development of pgAdmin - for example, a Japanese company called SKC sponsored the development of the Slony-I management features, whilst EnterpriseDB provided an Apple Powerbook to allow the Mac OSX port to be properly developed and maintained."
-msgstr "La promotion est essentiel pour la vie et le développement du projet pgAdmin. Avec un projet gagnant de plus en plus d'utilisateurs, il peut attirer des développeurs supplémentaires qui contribuent aux nouvelles fonctionnalités et aux corrections de bogues aidant ainsi à l'amélioration de pgAdmin au bénéfice de tous ses utilisateurs. Avec un projet devenant de plus en plus populaire, il a attiré l'attention de sociétés relatives à PostgreSQL. Certaines de ces sociétés ont investi dans le développement de pgAdmin - par exemple, une société japonaise nommée SKC a sponsorisé le développement des fonctionnalités de gestion de Slony-I alors qu'EnterpriseDB a fourni un Apple Powerbook pour permettre de développer et de maintenir correctement le port Mac OSX."
+msgstr "La promotion est essentiel pour la vie et le développement du projet pgAdmin. Un projet gagnant de plus en plus d'utilisateurs attire des développeurs supplémentaires qui contribuent aux nouvelles fonctionnalités et aux corrections de bogues aidant ainsi à l'amélioration de pgAdmin au bénéfice de tous ses utilisateurs. Ce projet devenant de plus en plus populaire, il a attiré l'attention de sociétés relatives à PostgreSQL. Certaines de ces sociétés ont investi dans le développement de pgAdmin - par exemple, une société japonaise nommée SKC a sponsorisé le développement des fonctionnalités de gestion de Slony-I alors qu'EnterpriseDB a fourni un Apple Powerbook pour permettre de développer et de maintenir correctement le port Mac OSX."
 
 #: ../news.php:23
 msgid "Properly enable the redo button in the Query Tool when appropriate, per PromoTrade."
-msgstr "Active correctement le bouton redo dans l'outil de requêtage si approprié, suivant PromoTrade."
+msgstr "Amélioration de l'activation du bouton redo dans l'outil de requêtage si approprié, suivant PromoTrade."
 
 #: ../news.php:21
 msgid "Properly escape single quotes in connection strings."
-msgstr "Échappe correctement les guillemets simples dans les chaînes de connexion."
+msgstr "Amélioration de l'échappement des guillemets simples dans les chaînes de connexion."
 
 #: ../translation/status.php:33
 #, php-format
@@ -1019,7 +1019,7 @@ msgstr "RPM"
 
 #: ../news.php:25
 msgid "Read config files in the local encoding scheme."
-msgstr "Lire les fichiers de configuration dans le schéma de codage local."
+msgstr "Lecture des fichiers de configuration dans le schéma de codage local."
 
 #: ../docs/menu.php:8
 #, php-format
@@ -1032,7 +1032,7 @@ msgstr "Pré-requis"
 
 #: ../translation/howto.php:47
 msgid "Review your translation carefully:"
-msgstr "Relisez votre traduction avec attention :"
+msgstr "Relisez votre traduction avec attention&nbsp;:"
 
 #: ../features.php:75
 msgid "Roles"
@@ -1090,7 +1090,7 @@ msgstr "Captures"
 #: ../translation/howto.php:23
 #, php-format
 msgid "Send us the English and translated names of your language: 'French' and 'Fran&ccedil;ais', 'German' and 'Deutsch', etc. This will allow us to modify pgAdmin's <i>i18n/pgadmin3.lng</i> file to display the language properly in the application. We will also create a directory according to your locale canonical name under <i>/usr/share/pgadmin3/i18n</i> (Linux and other Unixes) or <i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i> (Windows). The list of language codes can be found on the <a href=\"%s\">Debian site</a>. You may also want to check the more detailed <a href=\"%s\">ISO 639.2 Codes for the Representation of Names of Languages</a>."
-msgstr "Envoyez-nous les noms anglais et traduits de votre langue : 'French' et 'Fran&ccedil;ais', 'German' et 'Deutsch', etc. Ceci nous permettra de modifier le fichier <i>i18n/pgadmin3.lng</i> de pgAdmin pour afficher correctement la langue dans l'application. Nous créerons aussi un répertoire suivant l nom canonique de votre langue sous <i>/usr/share/pgadmin3/i18n</i> (Linux et autres Unix) ou <i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i> (Windows). La liste des codes des langues se trouve sur le <a href=\"%s\">site de Debian</a>. Vous pouvez aussi vérifier une liste plus détaillée, celle des <a href=\"%s\">codes ISO 639.2 pour la représentation des noms de langues</a>."
+msgstr "Envoyez-nous les noms anglais et traduits de votre langue&nbsp;: 'French' et 'Fran&ccedil;ais', 'German' et 'Deutsch', etc. Ceci nous permettra de modifier le fichier <i>i18n/pgadmin3.lng</i> de pgAdmin pour afficher correctement la langue dans l'application. Nous créerons aussi un répertoire suivant l nom canonique de votre langue sous <i>/usr/share/pgadmin3/i18n</i> (Linux et autres Unix) ou <i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i> (Windows). La liste des codes des langues se trouve sur le <a href=\"%s\">site de Debian</a>. Vous pouvez aussi vérifier une liste plus détaillée, celle des <a href=\"%s\">codes ISO 639.2 pour la représentation des noms de langues</a>."
 
 #: ../features.php:78
 msgid "Sequences"
@@ -1111,7 +1111,7 @@ msgstr "Langages côté serveur (comme pl/pgsql, pl/perl, pl/python, etc.)"
 
 #: ../news.php:30
 msgid "Set the initial Unicode/Local charset options correctly in the Export dialogue."
-msgstr "Configure les options de l'ensemble de caractères initial Unicode/Local correctement dans le dialogue Export."
+msgstr "Bonne configuration des options de l'ensemble de caractères initial Unicode/Local dans le dialogue Export."
 
 #: ../include/page.php:116
 msgid "Simplified Chinese"
@@ -1150,11 +1150,11 @@ msgstr "Solaris"
 
 #: ../translation/howto.php:76
 msgid "Some messages include %s or %d variables placeholders. During execution, %s will be replaced by a string and %d by a decimal number. Please take special care to include all %s and %d variable placeholders correctly, otherwise pgAdmin may crash. On some occasions, it might be necessary to reorder placeholders. In the following (ficticious) example, both parameter positions are exchanged: <i>Server %s user %s is logged in</i> could be translated as <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
-msgstr "Certains messages incluent des emplacements pour variables comme %s ou %d. Lors de l'exécution, %s sera remplacé par une chaîne et %d par un nombre décimal. Merci de faire très attention à inclure tous ces emplacements correctement, sinon pgAdmin pourrait avoir des arrêts brutaux. Dans certains cas, il pourrait être nécessaire de réordonner les placements. Dans l'exemple (fictif) suivant, les positions des paramètres sont échangés : <i>Server %s user %s is logged in</i> pourrait être traduit par <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
+msgstr "Certains messages incluent des emplacements pour variables comme %s ou %d. Lors de l'exécution, %s sera remplacé par une chaîne et %d par un nombre décimal. Merci de faire très attention à inclure tous ces emplacements correctement, sinon pgAdmin pourrait avoir des arrêts brutaux. Dans certains cas, il pourrait être nécessaire de réordonner les placements. Dans l'exemple (fictif) suivant, les positions des paramètres sont échangés&nbsp;: <i>Server %s user %s is logged in</i> pourrait être traduit par <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
 
 #: ../news.php:52
 msgid "Sort encoding names in dlgDatabase."
-msgstr "Tri les noms dans dlgDatabase."
+msgstr "Tri des noms dans dlgDatabase."
 
 #: ../download/menu.php:15
 #: ../download/source.php:8
@@ -1174,15 +1174,15 @@ msgstr "Statut"
 
 #: ../support/list.php:19
 msgid "Steps required to reproduce the problem. Please include a simple scheme with optional data if required. This may be sent privately <b>upon request from a developer</b> if you are concerned about posting sample code or data to a public mailing list."
-msgstr "Les étapes requises pour reproduire le problème. Merci d'inclure un schéma simple avec des données supplémentaires si nécessaires. Ceci peut être envoyé en privé<b>à la demande d'un développeur</b> si vous ne voulez pas envoyer un code d'exemple ou des données sur une liste de discussion privée."
+msgstr "Les étapes requises pour reproduire le problème. Merci d'inclure un schéma simple avec des données supplémentaires si nécessaires. Ceci peut être envoyé en privé <b>à la demande d'un développeur</b> si vous ne voulez pas envoyer un code d'exemple ou des données sur une liste de discussion privée."
 
 #: ../translation/howto.php:74
 msgid "Stick as much as possible to words which are close to the original SQL syntax. For example, in French, you may use <i>vue</i> for <i>view</i> because both words start with the letter 'v'. Do not choose distant words like <i>d&eacute;clencheur</i> for <i>trigger</i>, because some users may not be able to make a good use of the SQL syntax. Sometimes it is better to simply leave these keywords untranslated, instead of creating a fancy word nobody will recognise. Otherwise, users may switch to the English version."
-msgstr "Tenez-vous le plus possible à des mots proches de la syntaxe originale SQL. Par exemple, en français, vous pouvez utiliser <i>vue</i> pour <i>view</i> parce que les deux mots commencent par la lettre « v ». Ne choisissez pas des mots distants comme <i>d&eacute;clencheur</i> pour <i>trigger</i> car certains utilisateurs pourraient ne pas être capable de faire un bon usage de la syntaxe SQL. Quelquefois, il est préférable de laisser ces mots clés non traduits au lieu de créer un mot fantaisiste que personne ne reconnaîtra. Sinon, les utilisateurs pourraient basculer sur la version anglaise."
+msgstr "Tenez-vous le plus possible à des mots proches de la syntaxe originale SQL. Par exemple, en français, vous pouvez utiliser <i>vue</i> pour <i>view</i> parce que les deux mots commencent par la lettre «&nbsp;v&nbsp;». Ne choisissez pas des mots distants comme <i>d&eacute;clencheur</i> pour <i>trigger</i> car certains utilisateurs pourraient ne pas être capable de faire un bon usage de la syntaxe SQL. Quelquefois, il est préférable de laisser ces mots clés non traduits au lieu de créer un mot fantaisiste que personne ne reconnaîtra. Sinon, les utilisateurs pourraient basculer sur la version anglaise."
 
 #: ../news.php:53
 msgid "Store UTF8 connect info in pgpass.conf if necessary."
-msgstr "Stocke les informations de connexion en UTF8 dans pgpass.conf si nécessaire."
+msgstr "Stockage des informations de connexion en UTF8 dans pgpass.conf si nécessaire."
 
 #: ../news.php:83
 msgid "Stored procedures (ie. Functions with OUT parameters)."
@@ -1235,7 +1235,7 @@ msgstr "L'option --enable-mimetype=no est cassé sur les versions 2.6.2 et anté
 #: ../translation/howto.php:68
 #, php-format
 msgid "The <a href=\"%s\">pgadmin3.pot</a> template file contains many SQL keywords (like 'ACL', 'AFTER', 'ANALYSE', etc.) which should not be translated. Some translators pointed out this issue, which cannot be fixed at present. Here is a short explanation: The pgadmin3.pot template file is generated by the <a href=\"%s\">stringextract script</a>, which extracts text from XRC dialogues using a wxWidgets utility called 'wxrc'. The problem stems from wxrc, which extracts all text entries in dialogues even SQL entries which should not be translated."
-msgstr "Le modèle <a href=\"%s\">pgadmin3.pot</a> contient plusieurs mots-clés SQL (comme 'ACL', 'AFTER', 'ANALYSE', etc.) qui ne devraient pas être traduits. Certains traducteurs pointent ce problème qui ne peut pas être corrigé pour l'instant. Voici une courte explication. Le fichier pgadmin3.pot est généré par le <a href=\"%s\">script stringextract</a>, qui extrait le texte des dialogues XRC en utilisant un outil wxWidgets appelé « wxrc ». Le problème vient de wxrc, qui extrait toutes les entrées texte des dialogues, y compris les entrées SQL qui ne doivent pas être traduites."
+msgstr "Le modèle <a href=\"%s\">pgadmin3.pot</a> contient plusieurs mots-clés SQL (comme 'ACL', 'AFTER', 'ANALYSE', etc.) qui ne devraient pas être traduits. Certains traducteurs pointent ce problème qui ne peut pas être corrigé pour l'instant. Voici une courte explication. Le fichier pgadmin3.pot est généré par le <a href=\"%s\">script stringextract</a>, qui extrait le texte des dialogues XRC en utilisant un outil wxWidgets appelé «&nbsp;wxrc&nbsp;». Le problème vient de wxrc, qui extrait toutes les entrées texte des dialogues, y compris les entrées SQL qui ne doivent pas être traduites."
 
 #: ../support/faq.php:10
 #, php-format
@@ -1249,7 +1249,7 @@ msgstr "La version de PostgreSQL et les options de configure (si compilé à par
 #: ../development/todo.php:10
 #, php-format
 msgid "The TODO list is a record of potential changes to pgAdmin that have been noted by the developers over the years. If an item appears on the list it does not necessarily mean that it is or even will be worked on, just that someone thought it would be a good idea. If you want to work on an item, please email the <a href=\"%s\">pgadmin-hackers</a> list first."
-msgstr "La « TODO list » est un enregistrement des modifications potentielles de pgAdmin notées par les développeurs. Si un élément apparaît dans la liste, cela ne signifie pas nécessairement qu'il est, voire même qu'il sera, réalisé. Cela signifie seulement que quelqu'un a pensé que cela serait une bonne idée. Si vous voulez travailler sur un élément, merci d'envoyer tout d'abord un courrier électronique sur la liste <a href=\"%s\">pgadmin-hackers</a>."
+msgstr "La «&nbsp;TODO list&nbsp;» est un enregistrement des modifications potentielles de pgAdmin notées par les développeurs. Si un élément apparaît dans la liste, cela ne signifie pas nécessairement qu'il est, voire même qu'il sera, réalisé. Cela signifie seulement que quelqu'un a pensé que cela serait une bonne idée. Si vous voulez travailler sur un élément, merci d'envoyer tout d'abord un courrier électronique sur la liste <a href=\"%s\">pgadmin-hackers</a>."
 
 #: ../download/adminpacks.php:10
 msgid "The admin packs to enable server instrumentation on PostgreSQL 8.x servers can be found in the <i>adminpacks</i> directory on the mirror network."
@@ -1258,7 +1258,7 @@ msgstr "Les paquets d'administrations pour activer l'instrumentation du serveur 
 #: ../development/changelog.php:10
 #, php-format
 msgid "The change log is a record of the notable changes made to pgAdmin by the various developers. It is a manually maintained list, and as such may not include details of every minor change that has ever been made. If you need that level of detail, please check the commit messages in the <a href=\"%s\">SVN repository</a>."
-msgstr "La liste des modifications est un enregistrement de toutes modifications notables réalisées sur pgAdmin par les différents développeurs. C'est une liste maintenue manuellement et, du coup, elle pourrait ne pas inclure les détails de toutes les modifications mineures qui ont été réalisées. Si vous avez besoin de ce niveau de détails, consultez les messages de validation dans le <a href=\"%s\">dépôt SVN</a>."
+msgstr "La liste des modifications est un enregistrement de toutes les modifications notables réalisées sur pgAdmin par les différents développeurs. C'est une liste maintenue manuellement et, du coup, elle pourrait ne pas inclure les détails de toutes les modifications mineures qui ont été réalisées. Si vous avez besoin de ce niveau de détails, consultez les messages de validation dans le <a href=\"%s\">dépôt SVN</a>."
 
 #: ../support/list.php:15
 msgid "The configure options used (if compiled from source)"
@@ -1282,7 +1282,7 @@ msgstr "Le dialogue de connexion à la base de donnée"
 #: ../include/doc.php:24
 #: ../include/doc.php:38
 msgid "The document requested does not exist!"
-msgstr "Le document requis n'existe pas !"
+msgstr "Le document requis n'existe pas&nbsp;!"
 
 #: ../docs/index.php:12
 #, php-format
@@ -1316,7 +1316,7 @@ msgstr "La trace ci-dessous est automatiquement extraite du dépôt SVN et est s
 
 #: ../support/list.php:16
 msgid "The operating system and version details - e.g. Windows XP Pro, SP2, or Slackware Linux 10, kernel 2.4.21"
-msgstr "Détails du système d'exploitation et des versions, par exemple Windows XP Pro, SP2 ou Slackware Linux 10, kernel 2.4.21"
+msgstr "Les détails du système d'exploitation et des versions, par exemple Windows XP Pro, SP2 ou Slackware Linux 10, kernel 2.4.21"
 
 #: ../download/index.php:12
 msgid "The pages in this section give additional details about each binary package available as well as more direct download links. In addition, you can download source tarballs, additional language translations and admin packs for you servers to enable additional functionality."
@@ -1329,7 +1329,7 @@ msgstr "Les pages de cette section du site web devrait vous fournir toutes les i
 
 #: ../news.php:12
 msgid "The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.4.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"
-msgstr "L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de pgAdmin 1.4.2, l'outil d'administration graphique libre de PostgreSQL pour Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès maintenant en téléchargement pour les sources et une grande variété de formats binaires :"
+msgstr "L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de pgAdmin 1.4.2, l'outil d'administration graphique libre de PostgreSQL pour Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès maintenant en téléchargement pour les sources et une grande variété de formats binaires&nbsp;:"
 
 #: ../screenshots/mb_i18n.php:14
 msgid "The pgAdmin III interface has been translated into more than a dozen languages, and partially translated into another 25 more. The interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic."
@@ -1350,12 +1350,12 @@ msgstr "Le projet pgAdmin a commencé en 1997 et l'application est utilisée par
 #: ../development/list.php:10
 #, php-format
 msgid "The pgadmin-hackers mailing list is intended for developers who wish to contribute to pgAdmin project. You are more than welcome to subscribe, but please remember to use <a href=\"%s\">pgadmin-support</a> list for end user support issues. To subscribe to the mailing list, send an email to <a href=\"%s\">%s</a> with the word 'subscribe', without quotes, as the body of message."
-msgstr "La liste de discussion pgadmin-hackers a pour cible les développeurs souhaitant contribuer au projet pgAdmin. Vous êtes plus que bienvenu pour souscrire mais rappelez-vous d'utiliser <a href=\"%s\">pgadmin-support</a> pour les questions d'utilisation. Pour souscrire à cette liste de discussion, envoyez un courrier électronique à <a href=\"%s\">%s</a> avec le mot « subscribe » sans guillemets dans le corps du message."
+msgstr "La liste de discussion pgadmin-hackers a pour cible les développeurs souhaitant contribuer au projet pgAdmin. Vous êtes plus que bienvenu pour souscrire mais rappelez-vous d'utiliser <a href=\"%s\">pgadmin-support</a> pour les questions d'utilisation. Pour souscrire à cette liste de discussion, envoyez un courrier électronique à <a href=\"%s\">%s</a> avec le mot «&nbsp;subscribe&nbsp;» sans guillemets dans le corps du message."
 
 #: ../support/list.php:10
 #, php-format
 msgid "The pgadmin-support mailing list is intended for end user support and bug reports. To subscribe to the mailing list, send an email to <a href=\"%s\">%s</a> with the word 'subscribe', without quotes, as the body of message."
-msgstr "La liste de discussion pgadmin-support a pour but d'aider les utilisateurs dans l'utilisation de pgAdmin et l'envoi des rapports de bogues. Pour souscrire à la liste de discussion, envoyez un courrier électronique à <a href=\"%s\">%s</a> avec le mot « subscribe » sans les guillemets dans le corps du message."
+msgstr "La liste de discussion pgadmin-support a pour but d'aider les utilisateurs dans l'utilisation de pgAdmin et l'envoi des rapports de bogues. Pour souscrire à la liste de discussion, envoyez un courrier électronique à <a href=\"%s\">%s</a> avec le mot «&nbsp;subscribe&nbsp;» sans les guillemets dans le corps du message."
 
 #: ../screenshots/ui.php:16
 msgid "The properties and statistics of the selected object are displayed in the right pane of pgAdmin III. Notice the display of the SQL definition with colour syntax highlighting."
@@ -1367,7 +1367,7 @@ msgstr "Les propriétés de l'objet sélectionné."
 
 #: ../advocacy/strategy.php:10
 msgid "The proposed strategy is quite simple:"
-msgstr "La stratégie proposée est assez simple :"
+msgstr "La stratégie proposée est assez simple&nbsp;:"
 
 #: ../screenshots/data.php:16
 msgid "The query tool"
@@ -1387,7 +1387,7 @@ msgstr "Le dialogue des propriétés"
 
 #: ../translation/status.php:47
 msgid "The translations below are not considered complete enough for inclusion in current releases. Around 750 translated strings indicate v1.0 support, 1000 strings v1.2, and 1500 strings for v1.4. When using an incomplete translation on a newer pgAdmin version, you will get a mixture of translated and untranslated dialogs (usually on less frequently used ones), but general usability shouldn't be affected. If you would like to continue the work, please don't hesitate to contact the current maintainer (please CC pgsql-hackers@postgresql.org)!"
-msgstr "Les traductions ci-dessous ne sont pas considérées comme suffisamment complètes pour être incluses dans les versions actuelles. Environ 750 chaînes traduites indiquent un support de la version 1.0, 1000 chaînes pour la 1.2 et 1500 pour la 1.4. Lors de l'utilisation d'un traduction partielle sur une version pgAdmin plus récente, vous obtiendrez un mixe de chaînes traduites et originales mais l'utilisation générale ne devrait pas se voir affecter. Si vous souhaitez continuer le travail, n'hésitez surtout pas à contacter le mainteneur actuel (merci de contacter aussi pgsql-hackers@postgresql.org) !"
+msgstr "Les traductions ci-dessous ne sont pas considérées comme suffisamment complètes pour être incluses dans les versions actuelles. Environ 750 chaînes traduites indiquent un support de la version 1.0, 1000 chaînes pour la 1.2 et 1500 pour la 1.4. Lors de l'utilisation d'un traduction partielle sur une version pgAdmin plus récente, vous obtiendrez un mixe de chaînes traduites et originales mais l'utilisation générale ne devrait pas se voir affecter. Si vous souhaitez continuer le travail, n'hésitez surtout pas à contacter le mainteneur actuel (merci de contacter aussi pgsql-hackers@postgresql.org)&nbsp;!"
 
 #: ../translation/status.php:31
 msgid "The updated translations are published in daily snapshots automatically."
@@ -1395,16 +1395,16 @@ msgstr "Les traductions mises à jour sont publiées automatiquement dans des im
 
 #: ../support/list.php:14
 msgid "The version of pgAdmin you are running. If it is a development snapshot, please include the build date from the Help -&gt; About screen, and SVN repository version if known."
-msgstr "La version de pgAdmin que vous utilisez. S'il s'agit d'une image de développement, merci d'inclure la date de construction disponible dans l'écran Aide -&gt; À propos de screen, et la version du dépôt SVN si vous la connaissez."
+msgstr "La version de pgAdmin que vous utilisez. S'il s'agit d'une image de développement, merci d'inclure la date de construction disponible dans l'écran Aide -&gt; À propos de, et la version du dépôt SVN si vous la connaissez."
 
 #: ../support/list.php:17
 msgid "The wxWidgets version and configure options used (if compiled from source)"
-msgstr "Version de wxWidgets et options utilisées pour configure (si compilé à partir des sources)"
+msgstr "La version de wxWidgets et options utilisées pour configure (si compilé à partir des sources)"
 
 #: ../advocacy/strategy.php:15
 #, php-format
 msgid "Then, register pgAdmin on free software web sites in your country. We are highly interested in community web sites. Some countries have one or two major web sites for free software. For example, pgAdmin was registered on <a href=\"%s\">Freshmeat</a>."
-msgstr "Ensuite, enregistrez pgAdmin sur des sites de logiciels libres de votre pays. Nous sommes très intéressés par les sites web communautaires. Certains pays ont un ou deux sites web majeurs pour les logiciels libres. Par exemple,pgAdmin a été enregistré sur <a href=\"%s\">Freshmeat</a>."
+msgstr "Ensuite, enregistrez pgAdmin sur des sites de logiciels libres de votre pays. Nous sommes très intéressés par les sites web communautaires. Certains pays ont un ou deux sites web majeurs pour les logiciels libres. Par exemple, pgAdmin a été enregistré sur <a href=\"%s\">Freshmeat</a>."
 
 #: ../translation/howto.php:61
 msgid "There are more texts that can be translated. In the <i>docs</i> directory, the file <i>tips.txt</i> contains tips that are displayed on pgAdmin startup. The HTML files used by the Guru to notify users of special issues are located in the <i>docs/hints</i> directory. Both <i>tips.txt</i> and the Guru Hint HTML files are translated without tools, just use your favourite text editor. "
@@ -1412,16 +1412,16 @@ msgstr "D'autres textes peuvent être traduits. Dans le répertoire <i>docs</i>,
 
 #: ../translation/howto.php:72
 msgid "Therefore, never translate entries written in upper-case letters. In some cases you might even break pgAdmin if you do! To reach a 100% translation status, just copy these strings using the poEdit Alt+C Copy command. For example: translate <i>ACL</i> into <i>ACL</i>, <i>AFTER</i> into <i>AFTER</i>, etc."
-msgstr "Du coup, ne traduisez jamais les entrées écrites en majuscule. Dans certains cas, vous pouvez même casser pgAdmin si vous le faites ! Pour atteindre 100% de traduction, copiez ces chaînes en utilisant la commande de copie Alt+C de poEdit. Par exemple, traduisez <i>ACL</i> en <i>ACL</i>, <i>AFTER</i> en <i>AFTER</i>, etc."
+msgstr "Du coup, ne traduisez jamais les entrées écrites en majuscule. Dans certains cas, vous pouvez même casser pgAdmin si vous le faites&nbsp;! Pour atteindre 100% de traduction, copiez ces chaînes en utilisant la commande de copie Alt+C de poEdit. Par exemple, traduisez <i>ACL</i> en <i>ACL</i>, <i>AFTER</i> en <i>AFTER</i>, etc."
 
 #: ../download/macosx.php:20
 msgid "These packages are Mac OSX appbundles. To install them, simply unpack the archive, and move the appbundle into the desired location."
-msgstr "Ces paquets sont pour Mac OSX. Pour les installez, déballez simplement l'archive et déplacez le paquet dans le répertoire désiré."
+msgstr "Ces paquets sont pour Mac OSX. Pour les installer, déballez simplement l'archive et déplacez le paquet dans le répertoire désiré."
 
 #: ../download/languages.php:14
 #, php-format
 msgid "To add a new language, follow the update procedure, but create the lc_CC directory if required and save the new message catalogue in it. You may also need to update the <i>i18n/pgadmin3.lng</i> file which is also available from the <a href=\"%s\">translation status</a> page."
-msgstr "Pour ajouter une nouvelle langue, suivez la procédure de mise à jour mais créez le répertoire lc_CC si nécessaire et sauvegardez le nouveau catalogue de messages dedans. Vous pouvez aussi avoir besoin de mettre à jour le fichier<i>i18n/pgadmin3.lng</i> qui est aussi disponible à partir de la paged'<a href=\"%s\">état des traductions</a>."
+msgstr "Pour ajouter une nouvelle langue, suivez la procédure de mise à jour mais créez le répertoire lc_CC si nécessaire et sauvegardez le nouveau catalogue de messages dedans. Vous pouvez aussi avoir besoin de mettre à jour le fichier <i>i18n/pgadmin3.lng</i> qui est aussi disponible à partir de la page d'<a href=\"%s\">état des traductions</a>."
 
 #: ../development/svn.php:12
 #, php-format
@@ -1435,11 +1435,11 @@ msgstr "Pour installer ces paquets, décompressez le fichier téléchargé, doub
 #: ../download/freebsd.php:19
 #: ../download/rpm.php:19
 msgid "To install these packages, use a command such as:"
-msgstr "Pour installer ces paquets, utilisez une commande comme :"
+msgstr "Pour installer ces paquets, utilisez une commande comme&nbsp;:"
 
 #: ../download/slackware.php:20
 msgid "To install these packages, use the Slackware <i>pkgtool</i> or <i>installpkg</i> utilities."
-msgstr "Pour installer ces paquets, utilisez les outils Slackware <i>pkgtool</i> ou<i>installpkg</i>."
+msgstr "Pour installer ces paquets, utilisez les outils Slackware <i>pkgtool</i> ou <i>installpkg</i>."
 
 #: ../translation/howto.php:70
 msgid "To make it easier, all SQL keywords are written in capital letters. Conversely, all capital letters entries are SQL keywords."
@@ -1474,7 +1474,7 @@ msgstr "Fonctions déclencheurs"
 #: ../advocacy/strategy.php:21
 #, php-format
 msgid "Try to publish 'standard' information about pgAdmin to help ensure accuracy and consistency of information. Some examples are shown on the <a href=\"%s\">information</a> page."
-msgstr "Essayez de publier des informations « standards » sur pgAdmin pour s'assurer de la précision et de la cohérence de l'information. Quelques exemples sont disponibles sur la page d'<a href=\"%s\">information</a>."
+msgstr "Essayez de publier des informations «&nbsp;standards&nbsp;» sur pgAdmin pour s'assurer de la précision et de la cohérence de l'information. Quelques exemples sont disponibles sur la page d'<a href=\"%s\">information</a>."
 
 #: ../include/page.php:118
 msgid "Turkish"
@@ -1490,7 +1490,7 @@ msgstr "UNICODE/UTF-8"
 
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
-msgstr "Sous 200 caractères"
+msgstr "Sous 2000 caractères"
 
 #: ../advocacy/information.php:25
 msgid "Under 250 characters"
@@ -1519,7 +1519,7 @@ msgstr "Déballez l'archive tar ou du fichier zip de wxWidgets et suivez l'ensem
 #: ../download/source.php:86
 #: ../download/source.php:111
 msgid "Unpack, build and install the source code:"
-msgstr "Déballez, construisez et installez le code source :"
+msgstr "Déballez, construisez et installez le code source&nbsp;:"
 
 #: ../news.php:33
 msgid "Use ELSIF not ELSEIF in pgagent.sql for compatibility with 7.x servers [Glen Sasek]."
@@ -1527,7 +1527,7 @@ msgstr "Utilisez ELSIF, et non pas ELSEIF, dans pgagent.sql pour la compatibilit
 
 #: ../news.php:59
 msgid "Use a proper 'Save As' style dialogue for selecting backup files."
-msgstr "Utilisez le bon dialogue 'Save As' pour sélectionner des fichiers de sauvegarde."
+msgstr "Utilisation du bon dialogue «&nbsp;Enregistrer sous...&nbsp;» pour sélectionner des fichiers de sauvegarde."
 
 #: ../screenshots/menu.php:7
 #: ../screenshots/ui.php:8
@@ -1579,7 +1579,7 @@ msgstr "Nous avons besoin de votre aide pour traduire pgAdmin III dans d'autres 
 
 #: ../screenshots/index.php:14
 msgid "We provide source and binary packages for FreeBSD, Linux, Mac OSX and Microsoft Windows &trade;. Solaris binaries may also be compiled from the source code."
-msgstr "Nous fournissons les paquets source et exécutables pour FreeBSD, Linux, Mac OSX et Microsoft Windows &trade;. les exécutables Solaris pourraient être compilés à partir du code source."
+msgstr "Nous fournissons les paquets source et exécutables pour FreeBSD, Linux, Mac OSX et Microsoft Windows &trade;. Les exécutables Solaris pourraient être compilés à partir du code source."
 
 #: ../translation/howto.php:53
 #, php-format
@@ -1593,7 +1593,7 @@ msgstr "Quand ceci se fait, vous recevrez un courrier électronique. Naviguez ju
 
 #: ../advocacy/index.php:10
 msgid "Why promote pgAdmin?"
-msgstr "Pourquoi promouvoir pgAdmin ?"
+msgstr "Pourquoi promouvoir pgAdmin&nbsp;?"
 
 #: ../download/menu.php:16
 #: ../download/windows.php:8
@@ -1607,7 +1607,7 @@ msgstr "Windows 2000, XP et 2003"
 
 #: ../download/source.php:17
 msgid "Windows 2000, XP, 2003: Microsoft Visual C++ 6.0 or newer."
-msgstr "Windows 2000, XP, 2003 : Microsoft Visual C++ 6.0 ou plus récent."
+msgstr "Windows 2000, XP, 2003&nbsp;: Microsoft Visual C++ 6.0 ou plus récent."
 
 #: ../advocacy/information.php:10
 msgid "You are free to publish any technical information about pgAdmin. Here are some guidelines, primarily about links and localization."
@@ -1615,7 +1615,7 @@ msgstr "Vous êtes libre de publier toute information technique sur pgAdmin. Voi
 
 #: ../advocacy/strategy.php:17
 msgid "You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members."
-msgstr "You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members."
+msgstr "Vous êtes libre d'enregistrer le site partout tant que les conditions d'enregistrement n'empiètent pas sur les droits des membres de l'équipe de pgAdmin."
 
 #: ../translation/howto.php:51
 msgid "You can also use the translation debug mode of pgAdmin III (command line option -t) to review your translation in all dialogues. You won't need a database connection in that mode, but all dialogue resource files (*.xrc) are required, copied to the <i>ui</i> directory. If you compiled in debug mode, this will be the case automatically."
@@ -1634,7 +1634,7 @@ msgstr "Vous devez être capable d'ajouter le bon fichier <i>i18n/langue_Pays/pg
 
 #: ../news.php:35
 msgid "fix slony node statistics."
-msgstr "correction des statistiques du noeud slony."
+msgstr "Correction des statistiques du noeud slony."
 
 #: ../include/doc.php:14
 #: ../include/doc.php:19
@@ -1658,7 +1658,7 @@ msgstr "Les paquets RPM de pgAdmin III sont disponibles pour de nombreuses distr
 
 #: ../screenshots/ui.php:12
 msgid "pgAdmin III can connect to any PostgreSQL 7.3/7.4 and 8.x database using the embedded libpq native library. The application does not need any ODBC, .NET or JDBC layer. When configured server-side, it is possible to connect using encrypted password or SSL authentication."
-msgstr "pgAdmin III peut se connecter à toute base de données PostgreSQL 7.3/7.4 et 8.xen utilisant la bibliothèque native libpq. L'application n'a pas besoin d'une couche ODBC, .NET ou JDBC layer. Lorsque cela est configuré du côté serveur, il est possible d'utiliser les mots de passe chiffrés ou l'authentification SSL."
+msgstr "pgAdmin III peut se connecter à toute base de données PostgreSQL 7.3/7.4 et 8.x en utilisant la bibliothèque native libpq. L'application n'a pas besoin d'une couche ODBC, .NET ou JDBC. Lorsque cela est configuré du côté serveur, il est possible d'utiliser les mots de passe chiffrés ou l'authentification SSL."
 
 #: ../download/snapshots.php:14
 #, php-format
@@ -1667,7 +1667,7 @@ msgstr "Les images de développement de pgAdmin III sont téléchargeables <a hr
 
 #: ../screenshots/ui.php:26
 msgid "pgAdmin III includes a table editor. Columns can be dropped. Column data types can be modified in certain conditions as allowed by the server version."
-msgstr "pgAdmin III inclut un éditeur de tables. Les colonnes peuvent être supprimées, Les types des données peuvent être modifiés sous certaines conditions, suivant ce que permet la version du serveur."
+msgstr "pgAdmin III inclut un éditeur de tables. Les colonnes peuvent être supprimées, les types des données peuvent être modifiés sous certaines conditions, suivant ce que permet la version du serveur."
 
 #: ../screenshots/documentation.php:10
 msgid "pgAdmin III includes full PostgreSQL and Slony-I documentation, in addition to it's own."
@@ -1675,12 +1675,12 @@ msgstr "pgAdmin III inclut la documentation complète de PostgreSQL et de Slony-
 
 #: ../support/index.php:10
 msgid "pgAdmin III is a community project comprising of a number of volunteers from around the world. We do not provide 'paid for' support for pgAdmin, although we do aim to fix bugs and help out wherever possible. Obviously we cannot guarantee to fix every problem or help every user though we always try to."
-msgstr "pgAdmin III est un projet communautaire comprenant un grand nombre de bénévoles tout autour du monde. Nous ne fournissons pas de support payant pour pgAdmin bien que nous avons pour but de corriger les bogues et d'aider autant que possible. Évidemment, nous ne pouvons pas vous garantir de corriger tout probl_me et d'aider tout utilisateur bien que nous essayons de le faire à chaque fois."
+msgstr "pgAdmin III est un projet communautaire comprenant un grand nombre de bénévoles tout autour du monde. Nous ne fournissons pas de support payant pour pgAdmin bien que nous avons pour but de corriger les bogues et d'aider autant que possible. Évidemment, nous ne pouvons pas vous garantir de corriger tout problème et d'aider tout utilisateur bien que nous essayons de le faire à chaque fois."
 
 #: ../screenshots/index.php:10
 #, php-format
 msgid "pgAdmin III is a comprehensive design and management interface for PostgreSQL database, designed to run on most operating systems. The software is written in C++ and uses the excellent <a href=\"%s\">wxWidgets</a> cross platform toolkit. In every environment, pgAdmin III is a native application. The application is executed in binary code, not in a virtual machine, therefore offering excellent performance."
-msgstr "pgAdmin III est une interface de conception et de gestion pour les bases de données PostgreSQL, conçue pour fonctionner sur la plupart des systèmes d'exploitation. Ce logiciel est écrit en C++ et utilise l'excellent ensemble de composants inter-plateformes <a href=\"%s\">wxWidgets</a>. Dans chaque environnement,pgAdmin III est une application native. Elle est exécutée en code binaire, pas en interprété dans une machine virtuelle et offre donc des performances excellentes."
+msgstr "pgAdmin III est une interface de conception et de gestion pour les bases de données PostgreSQL, conçue pour fonctionner sur la plupart des systèmes d'exploitation. Ce logiciel est écrit en C++ et utilise l'excellent ensemble de composants inter-plateformes <a href=\"%s\">wxWidgets</a>. Dans chaque environnement, pgAdmin III est une application native. Elle est exécutée en code binaire, pas en interprété dans une machine virtuelle et offre donc des performances excellentes."
 
 #: ../download/index.php:10
 #, php-format
@@ -1699,12 +1699,12 @@ msgstr "pgAdmin III est disponible suivant les termes de la license <a href=\"%s
 #: ../index.php:12
 #, php-format
 msgid "pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. The application also includes a syntax highlighting SQL editor, a server-side code editor, an SQL/batch/shell job scheduling agent, support for the <a href=\"%s\">Slony-I</a> replication engine and much more. Server connection may be made using TCP/IP or Unix Domain Sockets (on *nix platforms), and may be SSL encrypted for security. No additional drivers are required to communicate with the database server."
-msgstr "pgAdmin III est conçu pour répondre aux besoins de tous les utilisateurs, de l'écriture de requêtes SQL simples aux développement de bases de données complexes. L'interface graphique supporte toutes les fonctionnalités de PostgreSQL et simplifie l'administration. L'application inclut aussi un éditeur SQL avec coloration syntaxique, un éditeur de code côté serveur, un agent de planification de job SQL/batch/shell, le support du moteur de réplication<a href=\"%s\">Slony-I</a> et bien plus encore. La connexion serveur peut se faire en utilisant TCP/IP ou les sockets de domaine Unix (sur les plateformes *nix), et pourrait être chiffrée via SSL pour la sécurité. Aucun pilote supplémentaire n'est requis pour communiquer avec le serveur de bases de données."
+msgstr "pgAdmin III est conçu pour répondre aux besoins de tous les utilisateurs, de l'écriture de requêtes SQL simples aux développements de bases de données complexes. L'interface graphique supporte toutes les fonctionnalités de PostgreSQL et simplifie l'administration. L'application inclut aussi un éditeur SQL avec coloration syntaxique, un éditeur de code côté serveur, un agent de planification de job SQL/batch/shell, le support du moteur de réplication <a href=\"%s\">Slony-I</a> et bien plus encore. La connexion serveur peut se faire en utilisant TCP/IP ou les sockets de domaine Unix (sur les plateformes *nix), et pourrait être chiffrée via SSL pour la sécurité. Aucun pilote supplémentaire n'est requis pour communiquer avec le serveur de bases de données."
 
 #: ../index.php:14
 #, php-format
 msgid "pgAdmin III is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the <a href=\"%s\">Artistic License</a>."
-msgstr "pgAdmin III est développé par une communauté d'experts de PostgreSQL répartis tout autour du monde et est disponible dans plus de douze langues. C'est un logiciel libre proposé sous la license <a href=\"%s\">Artistic License</a>."
+msgstr "pgAdmin III est développé par une communauté d'experts de PostgreSQL répartis tout autour du monde et est disponible dans plus d'une douzaine de langues. C'est un logiciel libre proposé sous la license <a href=\"%s\">Artistic License</a>."
 
 #: ../download/debian.php:53
 msgid "pgAdmin III is published on the official Debian Unstable repository. However, from time to time unstable may become broken, you can try to check for packages from our mirrors as described above for Debian/testing. You only need to change testing to unstable in the sources.list lines."
@@ -1750,182 +1750,182 @@ msgstr "pgAdmin III supporte la plupart des codages côté serveur de PostgreSQL
 
 #: ../features.php:90
 msgid "pgAdmin III supports most PostgreSQL server-side encodings:"
-msgstr "pgAdmin III supporte la plupart des codages PostgreSQL côté serveur :"
+msgstr "pgAdmin III supporte la plupart des codages PostgreSQL côté serveur&nbsp;:"
 
 #: ../translation/index.php:10
 #, php-format
 msgid "pgAdmin III v1.4 was released with over a dozen language options and more than another 25 translations are in various states of completion. If a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional translation. Simply locate the appropriate language file (pgadmin3.mo) in the <a href=\"%s\">translation status</a> section, create a subdirectory in your installation's i18n directory with a name corresponding to the locale code, and copy the new translation file into that directory. You might need to update the language description file <a href=\"%s\">i18n/pgadmin3.lng</a> to allow the new translation to appear in the language selection combobox."
-msgstr "pgAdmin III v1.4 est sorti traduit en douze langues et avec plus de 25 autres traductions dans des états plus ou moins avancés. Si une langue disponible ici n'est pas incluse dans votre distribution, vous pouvez facilement mettre à jour votre installation pour supporter cette traduction supplémentaire. Localisez simplement le fichier de langue approprié (pgadmin3.mo) dans la section de l'<a href=\"%s\">état de la traduction</a>, créez un sous-répertoire dans le répertoire i18n de votre installation avec un nom correspondant à votre code de locale et copiez le nouveau fichier de traduction dans ce répertoire. Vous pourriez avoir besoin de mettre à jour le fichier de description de la langue (<a href=\"%s\">i18n/pgadmin3.lng</a>) pour permettre à la nouvelle traduction d'apparaître dans la liste déroulante de sélection de la langue."
+msgstr "pgAdmin III v1.4 est disponible en douze langues et avec plus de 25 autres traductions dans des états plus ou moins avancés. Si une langue disponible ici n'est pas incluse dans votre distribution, vous pouvez facilement mettre à jour votre installation pour supporter cette traduction supplémentaire. Localisez simplement le fichier de langue approprié (pgadmin3.mo) dans la section de l'<a href=\"%s\">état de la traduction</a>, créez un sous-répertoire dans le répertoire i18n de votre installation avec un nom correspondant à votre code de locale et copiez le nouveau fichier de traduction dans ce répertoire. Vous pourriez avoir besoin de mettre à jour le fichier de description de la langue (<a href=\"%s\">i18n/pgadmin3.lng</a>) pour permettre à la nouvelle traduction d'apparaître dans la liste déroulante de sélection de la langue."
 
 #: ../advocacy/information.php:5
 msgid "pgAdmin III: Advocacy - Information"
-msgstr "pgAdmin III : Promotion - Information"
+msgstr "pgAdmin III&nbsp;: Promotion - Information"
 
 #: ../advocacy/index.php:5
 msgid "pgAdmin III: Advocacy - Introduction"
-msgstr "pgAdmin III : Promotion - Introduction"
+msgstr "pgAdmin III&nbsp;: Promotion - Introduction"
 
 #: ../advocacy/strategy.php:5
 msgid "pgAdmin III: Advocacy - Strategy"
-msgstr "pgAdmin III : Promotion - Stratégie"
+msgstr "pgAdmin III&nbsp;: Promotion - Stratégie"
 
 #: ../development/changelog.php:5
 msgid "pgAdmin III: Development - Change log"
-msgstr "pgAdmin III : Développement - Liste des modifications"
+msgstr "pgAdmin III&nbsp;: Développement - Liste des modifications"
 
 #: ../development/team.php:5
 msgid "pgAdmin III: Development - Development team"
-msgstr "pgAdmin III : Développement - Équipe de développement"
+msgstr "pgAdmin III&nbsp;: Développement - Équipe de développement"
 
 #: ../development/index.php:5
 msgid "pgAdmin III: Development - Introduction"
-msgstr "pgAdmin III : Développement - Introduction"
+msgstr "pgAdmin III&nbsp;: Développement - Introduction"
 
 #: ../development/list.php:5
 msgid "pgAdmin III: Development - Mailing list"
-msgstr "pgAdmin III : Développement - Liste de discussion"
+msgstr "pgAdmin III&nbsp;: Développement - Liste de discussion"
 
 #: ../development/svn.php:5
 msgid "pgAdmin III: Development - SVN access"
-msgstr "pgAdmin III : Développement - Accès SVN"
+msgstr "pgAdmin III&nbsp;: Développement - Accès SVN"
 
 #: ../development/todo.php:5
 msgid "pgAdmin III: Development - TODO list"
-msgstr "pgAdmin III : Développement - TODO list"
+msgstr "pgAdmin III&nbsp;: Développement - TODO list"
 
 #: ../docs/index.php:5
 msgid "pgAdmin III: Documentation"
-msgstr "pgAdmin III : Documentation"
+msgstr "pgAdmin III&nbsp;: Documentation"
 
 #: ../download/adminpacks.php:5
 msgid "pgAdmin III: Download - Admin packs"
-msgstr "pgAdmin III : Téléchargement - Paquets d'administration"
+msgstr "pgAdmin III&nbsp;: Téléchargement - Paquets d'administration"
 
 #: ../download/debian.php:5
 msgid "pgAdmin III: Download - Debian"
-msgstr "pgAdmin III : Téléchargement - Debian"
+msgstr "pgAdmin III&nbsp;: Téléchargement - Debian"
 
 #: ../download/freebsd.php:5
 msgid "pgAdmin III: Download - FreeBSD"
-msgstr "pgAdmin III : Téléchargement - FreeBSD"
+msgstr "pgAdmin III&nbsp;: Téléchargement - FreeBSD"
 
 #: ../download/index.php:5
 msgid "pgAdmin III: Download - Introduction"
-msgstr "pgAdmin III : Téléchargement - Introduction"
+msgstr "pgAdmin III&nbsp;: Téléchargement - Introduction"
 
 #: ../download/languages.php:5
 msgid "pgAdmin III: Download - Languages"
-msgstr "pgAdmin III : Téléchargement - Langages"
+msgstr "pgAdmin III&nbsp;: Téléchargement - Langages"
 
 #: ../download/macosx.php:5
 msgid "pgAdmin III: Download - Mac OSX"
-msgstr "pgAdmin III : Téléchargement - Mac OSX"
+msgstr "pgAdmin III&nbsp;: Téléchargement - Mac OSX"
 
 #: ../download/rpm.php:5
 msgid "pgAdmin III: Download - RPM"
-msgstr "pgAdmin III : Téléchargement - RPM"
+msgstr "pgAdmin III&nbsp;: Téléchargement - RPM"
 
 #: ../download/slackware.php:5
 msgid "pgAdmin III: Download - Slackware"
-msgstr "pgAdmin III : Téléchargement - Slackware"
+msgstr "pgAdmin III&nbsp;: Téléchargement - Slackware"
 
 #: ../download/snapshots.php:5
 msgid "pgAdmin III: Download - Snapshots"
-msgstr "pgAdmin III : Téléchargement - Images"
+msgstr "pgAdmin III&nbsp;: Téléchargement - Images"
 
 #: ../download/source.php:5
 msgid "pgAdmin III: Download - Source code"
-msgstr "pgAdmin III : Téléchargement - Code source"
+msgstr "pgAdmin III&nbsp;: Téléchargement - Code source"
 
 #: ../download/windows.php:5
 msgid "pgAdmin III: Download - Windows &trade;"
-msgstr "pgAdmin III : Téléchargement - Windows &trade;"
+msgstr "pgAdmin III&nbsp;: Téléchargement - Windows &trade;"
 
 #: ../features.php:5
 msgid "pgAdmin III: Feature"
-msgstr "pgAdmin III : Fonctionnalités"
+msgstr "pgAdmin III&nbsp;: Fonctionnalités"
 
 #: ../contribute.php:5
 msgid "pgAdmin III: How to contribute"
-msgstr "pgAdmin III : Comment contribuer"
+msgstr "pgAdmin III&nbsp;: Comment contribuer"
 
 #: ../news.php:5
 msgid "pgAdmin III: Latest news"
-msgstr "pgAdmin III : Nouvelles"
+msgstr "pgAdmin III&nbsp;: Nouvelles"
 
 #: ../licence.php:5
 msgid "pgAdmin III: Licence"
-msgstr "pgAdmin III : License"
+msgstr "pgAdmin III&nbsp;: License"
 
 #: ../include/page.php:57
 msgid "pgAdmin III: PostgreSQL Tools"
-msgstr "pgAdmin III : Outils PostgreSQL"
+msgstr "pgAdmin III&nbsp;: Outils PostgreSQL"
 
 #: ../index.php:5
 msgid "pgAdmin III: PostgreSQL administration and management tools"
-msgstr "pgAdmin III : Outils d'administration et de gestion pour PostgreSQL"
+msgstr "pgAdmin III&nbsp;: Outils d'administration et de gestion pour PostgreSQL"
 
 #: ../screenshots/data.php:5
 msgid "pgAdmin III: Screenshots - Data"
-msgstr "pgAdmin III : Captures - Données"
+msgstr "pgAdmin III&nbsp;: Captures - Données"
 
 #: ../screenshots/documentation.php:5
 msgid "pgAdmin III: Screenshots - Documentation"
-msgstr "pgAdmin III : Captures - Documentation"
+msgstr "pgAdmin III&nbsp;: Captures - Documentation"
 
 #: ../screenshots/index.php:5
 msgid "pgAdmin III: Screenshots - Introduction"
-msgstr "pgAdmin III : Captures - Introduction"
+msgstr "pgAdmin III&nbsp;: Captures - Introduction"
 
 #: ../screenshots/mb_i18n.php:5
 msgid "pgAdmin III: Screenshots - Multibyte and i18n"
-msgstr "pgAdmin III : Captures - Multibyte et internationalisation"
+msgstr "pgAdmin III&nbsp;: Captures - Multibyte et internationalisation"
 
 #: ../screenshots/serverstatus.php:5
 msgid "pgAdmin III: Screenshots - Server status"
-msgstr "pgAdmin III : Captures - État du serveur"
+msgstr "pgAdmin III&nbsp;: Captures - État du serveur"
 
 #: ../screenshots/ui.php:5
 msgid "pgAdmin III: Screenshots - User interface"
-msgstr "pgAdmin III : Captures - Interface utilisateur"
+msgstr "pgAdmin III&nbsp;: Captures - Interface utilisateur"
 
 #: ../support/faq.php:5
 msgid "pgAdmin III: Support - Frequently Asked Questions"
-msgstr "pgAdmin III : Support - Foire Aux Questions"
+msgstr "pgAdmin III&nbsp;: Support - Foire Aux Questions"
 
 #: ../support/index.php:5
 msgid "pgAdmin III: Support - Introduction"
-msgstr "pgAdmin III : Support - Introduction"
+msgstr "pgAdmin III&nbsp;: Support - Introduction"
 
 #: ../support/issues.php:5
 msgid "pgAdmin III: Support - Known issues"
-msgstr "pgAdmin III : Support - Problèmes connus"
+msgstr "pgAdmin III&nbsp;: Support - Problèmes connus"
 
 #: ../support/list.php:5
 msgid "pgAdmin III: Support - Mailing list"
-msgstr "pgAdmin III : Support - Liste de discussion"
+msgstr "pgAdmin III&nbsp;: Support - Liste de discussion"
 
 #: ../translation/howto.php:5
 msgid "pgAdmin III: Translation - Howto"
-msgstr "pgAdmin III : Traduction - Guide pratique"
+msgstr "pgAdmin III&nbsp;: Traduction - Guide pratique"
 
 #: ../translation/index.php:5
 msgid "pgAdmin III: Translation - Introduction"
-msgstr "pgAdmin III : Traduction - Introduction"
+msgstr "pgAdmin III&nbsp;: Traduction - Introduction"
 
 #: ../translation/status.php:22
 msgid "pgAdmin III: Translation - Status"
-msgstr "pgAdmin III : État de la traduction"
+msgstr "pgAdmin III&nbsp;: État de la traduction"
 
 #: ../features.php:10
 #, php-format
 msgid "pgAdmin has a huge array of features and by far the best way to see them all is to <a href=\"%s\">download</a> a copy and give it a try. Here's a brief list to give you an idea of it's capabilities:"
-msgstr "pgAdmin comprend un grand ensemble de fonctionnalités et la meilleure façon de s'en rendre compte est de le <a href=\"%s\">télécharger</a> et de l'essayer. Voici une brève liste pour vous donner une idée de ses capacités :"
+msgstr "pgAdmin comprend un grand ensemble de fonctionnalités et la meilleure façon de s'en rendre compte est de le <a href=\"%s\">télécharger</a> et de l'essayer. Voici une brève liste pour vous donner une idée de ses capacités&nbsp;:"
 
 #: ../development/index.php:10
 #, php-format
 msgid "pgAdmin is a community project, relying on contributions from developers around the world for bug fixes and new features. Anyone is welcome to join the project and contribute as much or as little as they like. pgAdmin is written in C++ using the <a href=\"%s\">wxWidgets</a> cross platform framework, so at the least you will want to be familiar with C/C++ to hack the code. The more experienced pgAdmin developers will also be able to lend a guiding hand to new developers, so don't be afraid to get stuck in!"
-msgstr "pgAdmin est un projet communautaire, reposant sur les contributions de développeurs pour les corrections et les nouvelles fonctionnalités. Nous sommes heureux d'accueillir tout personne souhaitant rejoindre le projet et contribuer autant que cette personne le peut. pgAdmin est écrit en C++ et utilise l'environnement <a href=\"%s\">wxWidgets</a> inter-plateformes, donc vous devez au moins être familier avec C/C++ pour contribuer au code. Les développeurs les plus expérimentés de pgAdmin seront capables de guider les nouveaux développeurs, donc n'ayez pas peur de vous perdre !"
+msgstr "pgAdmin est un projet communautaire reposant sur les contributions de développeurs pour les corrections et les nouvelles fonctionnalités. Nous sommes heureux d'accueillir toute personne souhaitant rejoindre le projet et contribuer autant que cette personne le peut. pgAdmin est écrit en C++ et utilise l'environnement <a href=\"%s\">wxWidgets</a> inter-plateformes, donc vous devez au moins être familier avec C/C++ pour contribuer au code. Les développeurs les plus expérimentés de pgAdmin seront capables de guider les nouveaux développeurs, donc n'ayez pas peur de vous perdre&nbsp;!"
 
 #: ../contribute.php:10
 msgid "pgAdmin is a voluntary project created and managed by contributors from around the world. The project can only live and develop with your help. Do not hesitate to get involved."
@@ -1933,11 +1933,11 @@ msgstr "pgAdmin est un projet bénévole créé et géré par des contributeurs 
 
 #: ../include/archives.php:49
 msgid "pgAdmin: Archives"
-msgstr "pgAdmin : Archives"
+msgstr "pgAdmin&nbsp;: Archives"
 
 #: ../include/doc.php:52
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
-msgstr "pgAdmin : Documentation - N'a pas pu trouver le titre du document !"
+msgstr "pgAdmin&nbsp;: Documentation - N'a pas pu trouver le titre du document&nbsp;!"
 
 #: ../translation/howto.php:21
 #, php-format
@@ -1946,15 +1946,15 @@ msgstr "Nous recommandons poEdit car il facilite la maintenance de votre traduct
 
 #: ../news.php:75
 msgid "v1.4.0 contains a number of new features over previous releases, including:"
-msgstr "La version 1.4.0 contient de nouvelles fonctionnalités, incluant :"
+msgstr "La version 1.4.0 contient de nouvelles fonctionnalités, incluant&nbsp;:"
 
 #: ../news.php:49
 msgid "v1.4.1 is primarily a bug fix release, including the following changes:"
-msgstr "La version 1.4.1 est principalement une version de corrections de bogues incluant les modifications suivantes :"
+msgstr "La version 1.4.1 est principalement une version de corrections de bogues incluant les modifications suivantes&nbsp;:"
 
 #: ../news.php:16
 msgid "v1.4.2 is primarily a bug fix release, including the following changes:"
-msgstr "La version 1.4.2 est principalement une version de corrections de bogues incluant les modifications suivantes :"
+msgstr "La version 1.4.2 est principalement une version de corrections de bogues incluant les modifications suivantes&nbsp;:"
 
 #: ../download/source.php:40
 msgid "wxWidgets versions 2.6.2 and below are broken on Solaris. A CVS snapshot from the stable branch dated 2005-09-26 or later should be used until 2.6.3 is available."

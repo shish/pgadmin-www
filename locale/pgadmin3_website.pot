@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-07 09:58+0000\n"
+"POT-Creation-Date: 2006-05-25 10:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,14 +31,19 @@ msgstr ""
 msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s"
 msgstr ""
 
-#: ../download/source.php:27
+#: ../download/source.php:29
 #, php-format
-msgid "<a href=\"%s\">PostgreSQL 7.3</a> or above."
+msgid "<a href=\"%s\">PostgreSQL 7.4</a> or above (8.0 or above on Windows)."
 msgstr ""
 
 #: ../download/source.php:25
 #, php-format
-msgid "<a href=\"%s\">libxml2 2.5.x</a> or above."
+msgid "<a href=\"%s\">libxml2 2.5.x</a> or above (for pgAdmin 1.5+)."
+msgstr ""
+
+#: ../download/source.php:27
+#, php-format
+msgid "<a href=\"%s\">libxslt 1.1.x</a> or above (for pgAdmin 1.5+)."
 msgstr ""
 
 #: ../download/freebsd.php:14 ../download/freebsd.php:15
@@ -110,7 +115,7 @@ msgid ""
 "homepage is: <a href=\"%s\">%s</a>."
 msgstr ""
 
-#: ../download/source.php:57
+#: ../download/source.php:61
 msgid ""
 "A Visual Studio 6.0 project workspace file is in the <i>xtra/wx-build</i> "
 "directory of the pgAdmin source tarball, along with a suitable <i>setup.h</"
@@ -118,13 +123,6 @@ msgid ""
 "directories in your wxWidgets source tree, and open the workspace in Visual "
 "Studio. Use the batch build facility to build all the wxWidgets libraries. "
 "To save time, you can omit all \"Universal\" and \"DLL\" builds."
-msgstr ""
-
-#: ../download/source.php:104
-msgid ""
-"A Visual Studio project file for pgAdmin may be found in the <i>src/</i> "
-"subdirectory of the pgAdmin source tree. Load the project into Visual Studio "
-"and build the desired targets."
 msgstr ""
 
 #: ../screenshots/data.php:10
@@ -186,12 +184,8 @@ msgstr ""
 msgid "Admin packs"
 msgstr ""
 
-#: ../include/page.php:131
+#: ../include/page.php:117
 msgid "Advocacy"
-msgstr ""
-
-#: ../include/page.php:107
-msgid "Afrikaans"
 msgstr ""
 
 #: ../features.php:62
@@ -287,7 +281,7 @@ msgid ""
 "may be found in the <a href=\"%s\">changelog</a>."
 msgstr ""
 
-#: ../download/source.php:85 ../download/source.php:110
+#: ../download/source.php:91 ../download/source.php:126
 #, php-format
 msgid ""
 "Authenticate the source code using Dave Page's <a href=\"%s\">PGP key</a>. "
@@ -315,6 +309,14 @@ msgid ""
 "time once they have been reported to us. There are some issues that may be "
 "out of our control, or may take significant effort to resolve, often more "
 "effort than the issue warrants."
+msgstr ""
+
+#: ../download/source.php:85
+msgid "Building pgAdmin III"
+msgstr ""
+
+#: ../download/source.php:34
+msgid "Building wxWidgets"
 msgstr ""
 
 #: ../features.php:63
@@ -428,7 +430,7 @@ msgstr ""
 msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr ""
 
-#: ../contribute.php:12 ../include/doc.php:19 ../include/page.php:132
+#: ../contribute.php:12 ../include/doc.php:19 ../include/page.php:118
 msgid "Development"
 msgstr ""
 
@@ -450,7 +452,7 @@ msgstr ""
 msgid "Document not found"
 msgstr ""
 
-#: ../include/page.php:133 ../screenshots/documentation.php:8
+#: ../include/page.php:119 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr ""
@@ -463,7 +465,7 @@ msgstr ""
 msgid "Don't show primary key hint when editing views."
 msgstr ""
 
-#: ../include/page.php:134 ../include/po_status.php:256
+#: ../include/page.php:120 ../include/po_status.php:256
 msgid "Download"
 msgstr ""
 
@@ -474,7 +476,7 @@ msgid ""
 "Linux."
 msgstr ""
 
-#: ../download/source.php:84 ../download/source.php:109
+#: ../download/source.php:90 ../download/source.php:125
 #, php-format
 msgid "Download the pgAdmin III <a href=\"%s\">source code</a> from a mirror. "
 msgstr ""
@@ -502,7 +504,7 @@ msgstr ""
 msgid "Edit the *.po file. The steps described are related to poEdit only."
 msgstr ""
 
-#: ../include/page.php:108
+#: ../include/page.php:105
 msgid "English"
 msgstr ""
 
@@ -526,10 +528,6 @@ msgstr ""
 
 #: ../support/menu.php:7
 msgid "FAQ"
-msgstr ""
-
-#: ../include/page.php:109
-msgid "Farsi"
 msgstr ""
 
 #: ../features.php:8 ../menu.php:8
@@ -585,7 +583,7 @@ msgstr ""
 msgid "FreeBSD"
 msgstr ""
 
-#: ../include/page.php:110
+#: ../include/page.php:106
 msgid "French"
 msgstr ""
 
@@ -611,10 +609,6 @@ msgstr ""
 msgid "Fuzzy"
 msgstr ""
 
-#: ../include/page.php:111
-msgid "German"
-msgstr ""
-
 #: ../translation/howto.php:10
 msgid "Getting started"
 msgstr ""
@@ -625,10 +619,6 @@ msgstr ""
 
 #: ../news.php:56
 msgid "Graphical explain: distinct scan images."
-msgstr ""
-
-#: ../include/page.php:112
-msgid "Greek"
 msgstr ""
 
 #: ../features.php:70
@@ -643,7 +633,7 @@ msgstr ""
 msgid "Guru Hints to help less experienced users"
 msgstr ""
 
-#: ../include/page.php:130
+#: ../include/page.php:116
 msgid "Home"
 msgstr ""
 
@@ -734,6 +724,13 @@ msgid ""
 "the <a href=\"%s\">development</a> page."
 msgstr ""
 
+#: ../download/source.php:118
+msgid ""
+"In addition, libxml2/libxslt may also require iconv and zlib. If you are "
+"building the pgAdmin installer, these must be installed into $BUILD_ROOT/"
+"pgadmin3-deps/iconv and $BUILD_ROOT/pgadmin3-deps/zlib respectively."
+msgstr ""
+
 #: ../translation/howto.php:40
 msgid ""
 "In poEdit, clicking on the save button will automatically compile pgadmin3."
@@ -746,10 +743,6 @@ msgstr ""
 
 #: ../features.php:71
 msgid "Indexes"
-msgstr ""
-
-#: ../include/page.php:113
-msgid "Indonesian"
 msgstr ""
 
 #: ../advocacy/information.php:8 ../advocacy/menu.php:8
@@ -765,14 +758,6 @@ msgstr ""
 
 #: ../download/debian.php:55
 msgid "Installation"
-msgstr ""
-
-#: ../download/source.php:79
-msgid "Installing pgAdmin III"
-msgstr ""
-
-#: ../download/source.php:30
-msgid "Installing wxWidgets"
 msgstr ""
 
 #: ../index.php:8 ../menu.php:6 ../advocacy/index.php:8 ../advocacy/menu.php:6
@@ -793,10 +778,6 @@ msgstr ""
 
 #: ../features.php:94
 msgid "JOHAB"
-msgstr ""
-
-#: ../include/page.php:114
-msgid "Japanese"
 msgstr ""
 
 #: ../features.php:99
@@ -828,7 +809,7 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: ../include/page.php:106
+#: ../include/page.php:104
 msgid "Language:"
 msgstr ""
 
@@ -862,7 +843,7 @@ msgstr ""
 msgid "Linux"
 msgstr ""
 
-#: ../download/source.php:81
+#: ../download/source.php:87
 msgid "Linux, FreeBSD and Solaris"
 msgstr ""
 
@@ -873,7 +854,7 @@ msgid ""
 "distribution."
 msgstr ""
 
-#: ../download/source.php:34
+#: ../download/source.php:38
 msgid "Linux, FreeBSD or Solaris"
 msgstr ""
 
@@ -898,7 +879,7 @@ msgid "MULE_INTERNAL"
 msgstr ""
 
 #: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
-#: ../download/source.php:59 ../download/source.php:106
+#: ../download/source.php:65 ../download/source.php:122
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr ""
@@ -969,7 +950,7 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr ""
 
-#: ../download/source.php:102
+#: ../download/source.php:108
 msgid "Microsoft Windows 2000, XP & 2003"
 msgstr ""
 
@@ -1016,6 +997,15 @@ msgstr ""
 msgid "News"
 msgstr ""
 
+#: ../download/source.php:63
+#, php-format
+msgid ""
+"Note that as of mid May 2006, the development environment for pgAdmin 1.5+ "
+"was upgraded to Visual C++ 2005. You must compile wxWidgets with this "
+"version of Visual C++ as well. You can download the Visual Studio Express "
+"editions free of charge from <a href=\"%s\">Microsoft</a>&trade;."
+msgstr ""
+
 #: ../download/windows.php:14
 #, php-format
 msgid ""
@@ -1023,8 +1013,8 @@ msgid ""
 "Windows includes a bundled copy of pgAdmin."
 msgstr ""
 
-#: ../download/source.php:36 ../download/source.php:61
-#: ../download/source.php:87 ../download/source.php:112
+#: ../download/source.php:40 ../download/source.php:67
+#: ../download/source.php:93 ../download/source.php:128
 msgid "Note:"
 msgstr ""
 
@@ -1144,6 +1134,12 @@ msgstr ""
 msgid "PostgreSQL 8.1 support:"
 msgstr ""
 
+#: ../download/source.php:112
+msgid ""
+"PostgreSQL 8.1, installed into the default location from the official "
+"PostgreSQL installer (pgInstaller)."
+msgstr ""
+
 #: ../features.php:33
 msgid "PostgreSQL documentation (on-line and off-line)"
 msgstr ""
@@ -1154,6 +1150,14 @@ msgstr ""
 
 #: ../features.php:45
 msgid "Powerful query tool with colour syntax highlighting"
+msgstr ""
+
+#: ../download/source.php:32
+#, php-format
+msgid ""
+"Precompiled XML/XSLT and dependency packages for Windows can be found at <a "
+"href=\"%s\">zlatkovic.com</a>. You probably need iconv 1.9.x and zlib 1.2.x "
+"as well as libxml2 and libxslt."
 msgstr ""
 
 #: ../news.php:84
@@ -1229,10 +1233,6 @@ msgstr ""
 msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 
-#: ../include/page.php:115
-msgid "Russian"
-msgstr ""
-
 #: ../features.php:56
 msgid "SQL/shell/batch job scheduling agent"
 msgstr ""
@@ -1257,7 +1257,7 @@ msgstr ""
 msgid "Schemas"
 msgstr ""
 
-#: ../include/page.php:135
+#: ../include/page.php:121
 msgid "Screenshots"
 msgstr ""
 
@@ -1295,10 +1295,6 @@ msgstr ""
 msgid ""
 "Set the initial Unicode/Local charset options correctly in the Export "
 "dialogue."
-msgstr ""
-
-#: ../include/page.php:116
-msgid "Simplified Chinese"
 msgstr ""
 
 #: ../download/menu.php:13 ../download/slackware.php:8
@@ -1404,7 +1400,7 @@ msgid ""
 "make sure two translators do not work at the same time on the same language."
 msgstr ""
 
-#: ../include/page.php:136
+#: ../include/page.php:122
 msgid "Support"
 msgstr ""
 
@@ -1432,7 +1428,7 @@ msgstr ""
 msgid "Team"
 msgstr ""
 
-#: ../download/source.php:39 ../download/source.php:64
+#: ../download/source.php:43 ../download/source.php:70
 msgid ""
 "The --enable-mimetype=no option is broken on wxWidgets versions earlier than "
 "2.6.2 and should be omitted."
@@ -1593,6 +1589,12 @@ msgid ""
 "Arabic."
 msgstr ""
 
+#: ../download/source.php:110
+msgid ""
+"The pgAdmin dependencies must first be installed in the appropriate "
+"locations on your system:"
+msgstr ""
+
 #: ../docs/index.php:10
 msgid ""
 "The pgAdmin documentation for the current development code, and recent major "
@@ -1651,6 +1653,16 @@ msgstr ""
 
 #: ../screenshots/serverstatus.php:12
 msgid "The server status dialogue"
+msgstr ""
+
+#: ../download/source.php:120
+msgid ""
+"The source tree should be unpacked into $BUILD_ROOT. The directory can be "
+"called whatever you like, as long as its at the right directory level - for "
+"example, you might have $BUILD_ROOT/pgadmin3-deps, $BUILD_ROOT/pgadmin3-dev "
+"and $BUILD_ROOT/pgadmin3-1.4. A Visual Studio/C++ 2005 solution file for "
+"pgAdmin may be found in the root of the source tree. Load the project into "
+"Visual C++ and build the desired targets."
 msgstr ""
 
 #: ../screenshots/serverstatus.php:10
@@ -1785,15 +1797,15 @@ msgid ""
 "found in the <a href=\"%s\">online documentation</a>."
 msgstr ""
 
-#: ../include/page.php:117
-msgid "Tradition Chinese"
+#: ../include/page.php:179
+msgid "Top Of Page"
 msgstr ""
 
 #: ../include/po_status.php:257
 msgid "Translated"
 msgstr ""
 
-#: ../contribute.php:16 ../include/page.php:137
+#: ../contribute.php:16 ../include/page.php:123
 msgid "Translation"
 msgstr ""
 
@@ -1807,10 +1819,6 @@ msgid ""
 "Try to publish 'standard' information about pgAdmin to help ensure accuracy "
 "and consistency of information. Some examples are shown on the <a href=\"%s"
 "\">information</a> page."
-msgstr ""
-
-#: ../include/page.php:118
-msgid "Turkish"
 msgstr ""
 
 #: ../features.php:84
@@ -1845,13 +1853,13 @@ msgstr ""
 msgid "Unix domain socket support."
 msgstr ""
 
-#: ../download/source.php:32
+#: ../download/source.php:36
 msgid ""
 "Unpack the wxWidgets tarball or zip file and follow the appropriate set of "
 "instruction below."
 msgstr ""
 
-#: ../download/source.php:86 ../download/source.php:111
+#: ../download/source.php:92 ../download/source.php:127
 msgid "Unpack, build and install the source code:"
 msgstr ""
 
@@ -1963,12 +1971,12 @@ msgstr ""
 msgid "Windows &trade;"
 msgstr ""
 
-#: ../download/source.php:55
+#: ../download/source.php:59
 msgid "Windows 2000, XP and 2003"
 msgstr ""
 
 #: ../download/source.php:17
-msgid "Windows 2000, XP, 2003: Microsoft Visual C++ 6.0 or newer."
+msgid "Windows 2000, XP, 2003: Microsoft Visual C++ 2005."
 msgstr ""
 
 #: ../advocacy/information.php:10
@@ -1992,8 +2000,8 @@ msgid ""
 "mode, this will be the case automatically."
 msgstr ""
 
-#: ../download/source.php:38 ../download/source.php:63
-#: ../download/source.php:89 ../download/source.php:114
+#: ../download/source.php:42 ../download/source.php:69
+#: ../download/source.php:95 ../download/source.php:130
 msgid ""
 "You may need to use the --enable-debug option if attempting to track down a "
 "crash."
@@ -2011,6 +2019,14 @@ msgstr ""
 
 #: ../news.php:35
 msgid "fix slony node statistics."
+msgstr ""
+
+#: ../download/source.php:114
+msgid "libxml2 2.5, installed into $BUILD_ROOT/pgadmin3-deps/libxml2."
+msgstr ""
+
+#: ../download/source.php:115
+msgid "libxslt 1.1, installed into $BUILD_ROOT/pgadmin3-deps/libxslt."
 msgstr ""
 
 #: ../include/doc.php:14 ../include/doc.php:19
@@ -2140,7 +2156,7 @@ msgid ""
 "Linux, FreeBSD, Solaris, Mac OSX and Windows platforms to manage PostgreSQL "
 "7.3 and above running on any platform, as well as commercial versions of "
 "PostgreSQL such as <a href=\"%s\">Pervasive Postgres</a>, <a href=\"%s"
-"\">EnterpriseDB</a>, <a href=\"%s\">Mammoth PostgreSQL</a> and <a href=\"%s"
+"\">EnterpriseDB</a>, <a href=\"%s\">Mammoth Replicator</a> and <a href=\"%s"
 "\">SRA PowerGres</a>."
 msgstr ""
 
@@ -2407,6 +2423,10 @@ msgid ""
 "in many popular Linux distributions."
 msgstr ""
 
+#: ../include/page.php:179
+msgid "top"
+msgstr ""
+
 #: ../news.php:75
 msgid ""
 "v1.4.0 contains a number of new features over previous releases, including:"
@@ -2420,7 +2440,11 @@ msgstr ""
 msgid "v1.4.2 is primarily a bug fix release, including the following changes:"
 msgstr ""
 
-#: ../download/source.php:40
+#: ../download/source.php:113
+msgid "wxWidgets 2.6, installed into $BUILD_ROOT/pgadmin3-deps/wxwidgets."
+msgstr ""
+
+#: ../download/source.php:44
 msgid ""
 "wxWidgets versions 2.6.2 and below are broken on Solaris. A CVS snapshot "
 "from the stable branch dated 2005-09-26 or later should be used until 2.6.3 "

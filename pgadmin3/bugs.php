@@ -13,10 +13,11 @@
   </table>
 
 <?php
-  $_file=$_SERVER["DOCUMENT_ROOT"]."/svnrepo/pgadmin3/BUGS.txt";
+  $_file=$_SERVER["DOCUMENT_ROOT"]."/svnrepo/pgadmin3/BUGS";
   if (file_exists($_file)) {
-    echo "<br />";
+    echo "<br /><pre>";
     include_once ($_file);
+    echo "</pre>";
   }
   else
   {

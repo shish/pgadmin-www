@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -11,6 +11,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("pgAdmin III RPM packages are available for several Linux distributions.") . '</p>
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.2/", "1.4.2") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.1/", "1.4.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.0/", "1.4.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.2.2/", "1.2.2") . '<br />&nbsp;</li>

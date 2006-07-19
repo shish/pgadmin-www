@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -14,7 +14,7 @@ $PAGE_CONTENT = '
 <p>' . sprintf(_("pgAdmin III is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the <a href=\"%s\">Artistic License</a>."), "licence.php") . '</p>
 
 <div class="pgaBanner">
-' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.4.2") . '
+' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.4.3") . '
 </div>
 
 '; 

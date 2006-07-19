@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -6,6 +6,30 @@ $PAGE_TITLE = _("pgAdmin III: Latest news");
 $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
+
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-07-19", "1.4.3") . '</h2>
+
+<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.4.3, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
+
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
+
+<p>' . _("v1.4.3 is primarily a bug fix release, including the following changes:") . '</p>
+<ul>
+  <li>' . _("Display job steps and schedules properly in the Job dialogue, per Eric Shuman.") . '</li>
+  <li>' . _("Display interval precision properly, per Walter Haslbeck") . '</li>
+  <li>' . _("Return the script return value when executing shell scripts from pgAgent, per Eric Shuman") . '</li>
+  <li>' . _("Use a slider instead of a spin control to avoid a wxGTK bug on the status form, per Peter Eisentraut.") . '</li>
+  <li>' . _("Allow non-superusers to edit roles where appropriate [Thomas Sondag]") . '</li>
+  <li>' . _("Allow non-superuser roles with the appropriate permissions to create roles and DBs.") . '</li>
+  <li>' . _("Fix a bug in the pgpass save code that could damage files.") . '</li>
+  <li>' . _("Use the correct encoding in the View Data filter options per Ferenc.") . '</li>
+  <li>' . _("Add an accelerator key (Delete) for deleting rows in the edit grid, per Emil Nowak.") . '</li>
+  <li>' . _("Ensure the user is warned if files cannot be written.") . '</li>
+  <li>' . _("Install PkgInfo into the Contents directory in the OSX appbundle, per John DeSoi.") . '</li>
+  <li>' . _("Detect and correctly use GNU vs. BSD xargs when completing an appbundle install, per John DeSoi.") . '</li>
+</ul>
+
+<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
 
 <h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-03-07", "1.4.2") . '</h2>
 

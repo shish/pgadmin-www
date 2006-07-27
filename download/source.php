@@ -28,7 +28,7 @@ $PAGE_CONTENT = '
 
   <li>' . sprintf(_("<a href=\"%s\">PostgreSQL 7.4</a> or above (8.0 or above on Windows)."), "http://www.postgresql.org/ftp/latest/") . '<br />&nbsp;</li>
   
-  <li>' . sprintf(_("<a href=\"%s\">wxAUI 0.9.2</a> or above (for pgAdmin 1.5+)."), "http://www.kirix.com/community/wxaui.html") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">wxAUI (pgAdmin)</a> for pgAdmin 1.5+."), "http://developer.pgadmin.org/ftp/dependencies/1.5/") . '<br />&nbsp;</li>
 </ul>
 
 <p>' . sprintf(_("Precompiled XML/XSLT and dependency packages for Windows can be found at <a href=\"%s\">zlatkovic.com</a>. You probably need iconv 1.9.x and zlib 1.2.x as well as libxml2 and libxslt."), "http://www.zlatkovic.com/pub/libxml/") . '</p>
@@ -95,7 +95,7 @@ sudo make install
       ' . _("Note:") . '<br />&nbsp;<br />
       <ul>
         <li>' . _("You may need to use the --enable-debug option if attempting to track down a crash.") . '</li>
-        <li>' . _("To work around limitations in the wxAUI build system, pgAdmin compiles wxAUI itself. Simply unpack the source code into /usr/local/src/wxaui-0.9.2. This directory can be overridden with the --with-wxaui=DIR configure option in pgAdmin.") . '</li>
+        <li>' . _("To work around limitations in the wxAUI build system, pgAdmin compiles wxAUI itself. Simply unpack the source code into /usr/local/src/wxaui-pgadmin. This directory can be overridden with the --with-wxaui=DIR configure option in pgAdmin.") . '</li>
       </ul>&nbsp;<br />
 
 <div class="pgaCode">
@@ -114,7 +114,7 @@ sudo make install<br />
 <ol>
   <li>' . _("PostgreSQL 8.1, installed into the default location from the official PostgreSQL installer (pgInstaller).") . '<br />&nbsp;</li>
   <li>' . _("wxWidgets 2.6, installed into \$BUILD_ROOT/pgadmin3-deps/wxwidgets.") . '<br />&nbsp;</li>
-  <li>' . _("wxAUI 0.9.2, installed into \$BUILD_ROOT/pgadmin3-deps/wxaui.") . '<br />&nbsp;</li>
+  <li>' . _("wxAUI 0.9.2, installed into \$BUILD_ROOT/pgadmin3-deps/wxaui-pgadmin.") . '<br />&nbsp;</li>
   <li>' . _("libxml2 2.5, installed into \$BUILD_ROOT/pgadmin3-deps/libxml2.") . '<br />&nbsp;</li>
   <li>' . _("libxslt 1.1, installed into \$BUILD_ROOT/pgadmin3-deps/libxslt.") . '</li>
 </ol>
@@ -132,6 +132,7 @@ sudo make install<br />
       ' . _("Note:") . '<br />&nbsp;<br />
       <ul>
         <li>' . _("You may need to use the --enable-debug option if attempting to track down a crash.") . '</li>
+        <li>' . _("To work around limitations in the wxAUI build system, pgAdmin compiles wxAUI itself. Simply unpack the source code into /usr/local/src/wxaui-pgadmin. This directory can be overridden with the --with-wxaui=DIR configure option in pgAdmin.") . '</li>
       </ul>&nbsp;<br />
 
 <div class="pgaCode">

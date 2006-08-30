@@ -20,15 +20,13 @@ $PAGE_CONTENT = '
     </ul>
   <br />&nbsp;</li>
 
-  <li>' . sprintf(_("<a href=\"%s\">wxWidgets 2.6.x</a>. Currently, this is the only version we support."), "http://www.wxwidgets.org") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">wxWidgets 2.6.x (for pgAdmin 1.4.x) or wxWidgets 2.7.x (for pgAdmin 1.5+)</a>. Currently, this is the only version we support."), "http://www.wxwidgets.org") . '<br />&nbsp;</li>
 
   <li>' . sprintf(_("<a href=\"%s\">libxml2 2.5.x</a> or above (for pgAdmin 1.5+)."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
   
   <li>' . sprintf(_("<a href=\"%s\">libxslt 1.1.x</a> or above (for pgAdmin 1.5+)."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
 
   <li>' . sprintf(_("<a href=\"%s\">PostgreSQL 7.4</a> or above (8.0 or above on Windows)."), "http://www.postgresql.org/ftp/latest/") . '<br />&nbsp;</li>
-  
-  <li>' . sprintf(_("<a href=\"%s\">wxAUI (pgAdmin)</a> for pgAdmin 1.5+."), "http://developer.pgadmin.org/ftp/dependencies/1.5/") . '<br />&nbsp;</li>
 </ul>
 
 <p>' . sprintf(_("Precompiled XML/XSLT and dependency packages for Windows can be found at <a href=\"%s\">zlatkovic.com</a>. You probably need iconv 1.9.x and zlib 1.2.x as well as libxml2 and libxslt."), "http://www.zlatkovic.com/pub/libxml/") . '</p>
@@ -60,7 +58,7 @@ sudo make install
 
 <h4>' . _("Windows 2000, XP and 2003") . '</h4>
 
-<p>' . _("A Visual Studio 6.0 project workspace file is in the <i>xtra/wx-build</i> directory of the pgAdmin source tarball, along with a suitable <i>setup.h</i> file. Copy these to the appropriate <i>build/</i> and <i>include/wx/</i> directories in your wxWidgets source tree, and open the workspace in Visual Studio. Use the batch build facility to build all the wxWidgets libraries. To save time, you can omit all \"Universal\" and \"DLL\" builds.") . '</p>
+<p>' . _("A suitable <i>setup.h</i> file. Copy this to the appropriate <i>include/wx/</i> and <i>include/wx/msw</i> directories in your wxWidgets source tree, and open the wxWidgets project in Visual Studio. Use the batch build facility to build all the wxWidgets libraries. To save time, you can omit all \"Universal\" and \"DLL\" builds. You will also need to build the <i>ogl</i> and <i>stc</i> contrib modules.") . '</p>
 
 <p>' . sprintf(_("Note that as of mid May 2006, the development environment for pgAdmin 1.5+ was upgraded to Visual C++ 2005. You must compile wxWidgets with this version of Visual C++ as well. You can download the Visual Studio Express editions free of charge from <a href=\"%s\">Microsoft</a>&trade;."), "http://msdn.microsoft.com/vstudio/express/default.aspx") . '</p>
 
@@ -95,7 +93,6 @@ sudo make install
       ' . _("Note:") . '<br />&nbsp;<br />
       <ul>
         <li>' . _("You may need to use the --enable-debug option if attempting to track down a crash.") . '</li>
-        <li>' . _("To work around limitations in the wxAUI build system, pgAdmin compiles wxAUI itself. Simply unpack the source code into /usr/local/src/wxaui-pgadmin. This directory can be overridden with the --with-wxaui=DIR configure option in pgAdmin.") . '</li>
       </ul>&nbsp;<br />
 
 <div class="pgaCode">
@@ -113,8 +110,7 @@ sudo make install<br />
 <p>' . _("The pgAdmin dependencies must first be installed in the appropriate locations on your system:") . '</p>
 <ol>
   <li>' . _("PostgreSQL 8.1, installed into the default location from the official PostgreSQL installer (pgInstaller).") . '<br />&nbsp;</li>
-  <li>' . _("wxWidgets 2.6, installed into \$BUILD_ROOT/pgadmin3-deps/wxwidgets.") . '<br />&nbsp;</li>
-  <li>' . _("wxAUI 0.9.2, installed into \$BUILD_ROOT/pgadmin3-deps/wxaui-pgadmin.") . '<br />&nbsp;</li>
+  <li>' . _("wxWidgets 2.7 (2.6 for pgAdmin 1.4.x), installed into \$BUILD_ROOT/pgadmin3-deps/wxwidgets.") . '<br />&nbsp;</li>
   <li>' . _("libxml2 2.5, installed into \$BUILD_ROOT/pgadmin3-deps/libxml2.") . '<br />&nbsp;</li>
   <li>' . _("libxslt 1.1, installed into \$BUILD_ROOT/pgadmin3-deps/libxslt.") . '</li>
 </ol>
@@ -132,7 +128,6 @@ sudo make install<br />
       ' . _("Note:") . '<br />&nbsp;<br />
       <ul>
         <li>' . _("You may need to use the --enable-debug option if attempting to track down a crash.") . '</li>
-        <li>' . _("To work around limitations in the wxAUI build system, pgAdmin compiles wxAUI itself. Simply unpack the source code into /usr/local/src/wxaui-pgadmin. This directory can be overridden with the --with-wxaui=DIR configure option in pgAdmin.") . '</li>
       </ul>&nbsp;<br />
 
 <div class="pgaCode">

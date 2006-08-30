@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-07-20 08:32+0100\n"
+"POT-Creation-Date: 2006-08-30 17:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,25 +51,21 @@ msgstr ""
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18 ../download/rpm.php:14
 #: ../download/rpm.php:15 ../download/rpm.php:16 ../download/rpm.php:17
-#: ../download/slackware.php:14 ../download/slackware.php:15
-#: ../download/slackware.php:16 ../download/slackware.php:17
-#: ../download/slackware.php:18 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/rpm.php:18 ../download/slackware.php:14
+#: ../download/slackware.php:15 ../download/slackware.php:16
+#: ../download/slackware.php:17 ../download/slackware.php:18
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
-msgstr ""
-
-#: ../download/source.php:31
-#, php-format
-msgid "<a href=\"%s\">wxAUI 0.9.2</a> or above (for pgAdmin 1.5+)."
 msgstr ""
 
 #: ../download/source.php:23
 #, php-format
 msgid ""
-"<a href=\"%s\">wxWidgets 2.6.x</a>. Currently, this is the only version we "
-"support."
+"<a href=\"%s\">wxWidgets 2.6.x (for pgAdmin 1.4.x) or wxWidgets 2.7.x (for "
+"pgAdmin 1.5+)</a>. Currently, this is the only version we support."
 msgstr ""
 
 #: ../advocacy/information.php:17
@@ -121,16 +117,6 @@ msgid ""
 "homepage is: <a href=\"%s\">%s</a>."
 msgstr ""
 
-#: ../download/source.php:63
-msgid ""
-"A Visual Studio 6.0 project workspace file is in the <i>xtra/wx-build</i> "
-"directory of the pgAdmin source tarball, along with a suitable <i>setup.h</"
-"i> file. Copy these to the appropriate <i>build/</i> and <i>include/wx/</i> "
-"directories in your wxWidgets source tree, and open the workspace in Visual "
-"Studio. Use the batch build facility to build all the wxWidgets libraries. "
-"To save time, you can omit all \"Universal\" and \"DLL\" builds."
-msgstr ""
-
 #: ../screenshots/data.php:10
 msgid ""
 "A data grid allows to insert, modify and drop data easily. The data is "
@@ -166,6 +152,16 @@ msgstr ""
 
 #: ../download/source.php:13
 msgid "A recent development environment:"
+msgstr ""
+
+#: ../download/source.php:61
+msgid ""
+"A suitable <i>setup.h</i> file. Copy this to the appropriate <i>include/wx/</"
+"i> and <i>include/wx/msw</i> directories in your wxWidgets source tree, and "
+"open the wxWidgets project in Visual Studio. Use the batch build facility to "
+"build all the wxWidgets libraries. To save time, you can omit all \"Universal"
+"\" and \"DLL\" builds. You will also need to build the <i>ogl</i> and "
+"<i>stc</i> contrib modules."
 msgstr ""
 
 #: ../features.php:101
@@ -303,7 +299,7 @@ msgid ""
 "may be found in the <a href=\"%s\">changelog</a>."
 msgstr ""
 
-#: ../download/source.php:93 ../download/source.php:130
+#: ../download/source.php:91 ../download/source.php:126
 #, php-format
 msgid ""
 "Authenticate the source code using Dave Page's <a href=\"%s\">PGP key</a>. "
@@ -333,11 +329,11 @@ msgid ""
 "effort than the issue warrants."
 msgstr ""
 
-#: ../download/source.php:87
+#: ../download/source.php:85
 msgid "Building pgAdmin III"
 msgstr ""
 
-#: ../download/source.php:36
+#: ../download/source.php:34
 msgid "Building wxWidgets"
 msgstr ""
 
@@ -514,7 +510,7 @@ msgid ""
 "Linux."
 msgstr ""
 
-#: ../download/source.php:92 ../download/source.php:129
+#: ../download/source.php:90 ../download/source.php:125
 #, php-format
 msgid "Download the pgAdmin III <a href=\"%s\">source code</a> from a mirror. "
 msgstr ""
@@ -770,7 +766,7 @@ msgid ""
 "the <a href=\"%s\">development</a> page."
 msgstr ""
 
-#: ../download/source.php:122
+#: ../download/source.php:118
 msgid ""
 "In addition, libxml2/libxslt may also require iconv and zlib. If you are "
 "building the pgAdmin installer, these must be installed into $BUILD_ROOT/"
@@ -895,7 +891,7 @@ msgstr ""
 msgid "Linux"
 msgstr ""
 
-#: ../download/source.php:89
+#: ../download/source.php:87
 msgid "Linux, FreeBSD and Solaris"
 msgstr ""
 
@@ -906,7 +902,7 @@ msgid ""
 "distribution."
 msgstr ""
 
-#: ../download/source.php:40
+#: ../download/source.php:38
 msgid "Linux, FreeBSD or Solaris"
 msgstr ""
 
@@ -931,7 +927,7 @@ msgid "MULE_INTERNAL"
 msgstr ""
 
 #: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
-#: ../download/source.php:67 ../download/source.php:126
+#: ../download/source.php:65 ../download/source.php:122
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr ""
@@ -1002,7 +998,7 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr ""
 
-#: ../download/source.php:111
+#: ../download/source.php:108
 msgid "Microsoft Windows 2000, XP & 2003"
 msgstr ""
 
@@ -1049,7 +1045,7 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../download/source.php:65
+#: ../download/source.php:63
 #, php-format
 msgid ""
 "Note that as of mid May 2006, the development environment for pgAdmin 1.5+ "
@@ -1065,8 +1061,8 @@ msgid ""
 "Windows includes a bundled copy of pgAdmin."
 msgstr ""
 
-#: ../download/source.php:42 ../download/source.php:69
-#: ../download/source.php:95 ../download/source.php:132
+#: ../download/source.php:40 ../download/source.php:67
+#: ../download/source.php:93 ../download/source.php:128
 msgid "Note:"
 msgstr ""
 
@@ -1186,7 +1182,7 @@ msgstr ""
 msgid "PostgreSQL 8.1 support:"
 msgstr ""
 
-#: ../download/source.php:115
+#: ../download/source.php:112
 msgid ""
 "PostgreSQL 8.1, installed into the default location from the official "
 "PostgreSQL installer (pgInstaller)."
@@ -1204,7 +1200,7 @@ msgstr ""
 msgid "Powerful query tool with colour syntax highlighting"
 msgstr ""
 
-#: ../download/source.php:34
+#: ../download/source.php:32
 #, php-format
 msgid ""
 "Precompiled XML/XSLT and dependency packages for Windows can be found at <a "
@@ -1466,6 +1462,10 @@ msgstr ""
 msgid "Support for Asynchronous Notifications in the query tool."
 msgstr ""
 
+#: ../screenshots/menu.php:12 ../screenshots/xgl.php:8
+msgid "Suse 10 XGL"
+msgstr ""
+
 #: ../features.php:103
 msgid "TCVN"
 msgstr ""
@@ -1486,7 +1486,7 @@ msgstr ""
 msgid "Team"
 msgstr ""
 
-#: ../download/source.php:45 ../download/source.php:72
+#: ../download/source.php:43 ../download/source.php:70
 msgid ""
 "The --enable-mimetype=no option is broken on wxWidgets versions earlier than "
 "2.6.2 and should be omitted."
@@ -1655,7 +1655,7 @@ msgid ""
 "Arabic."
 msgstr ""
 
-#: ../download/source.php:113
+#: ../download/source.php:110
 msgid ""
 "The pgAdmin dependencies must first be installed in the appropriate "
 "locations on your system:"
@@ -1721,7 +1721,7 @@ msgstr ""
 msgid "The server status dialogue"
 msgstr ""
 
-#: ../download/source.php:124
+#: ../download/source.php:120
 msgid ""
 "The source tree should be unpacked into $BUILD_ROOT. The directory can be "
 "called whatever you like, as long as its at the right directory level - for "
@@ -1830,7 +1830,7 @@ msgid ""
 "can be installed on the same machine at the same time."
 msgstr ""
 
-#: ../download/freebsd.php:19 ../download/rpm.php:20
+#: ../download/freebsd.php:19 ../download/rpm.php:21
 msgid "To install these packages, use a command such as:"
 msgstr ""
 
@@ -1861,14 +1861,6 @@ msgid ""
 "To view a full size version of any screenshot, simply click on it. In "
 "addition to the those found in this section additional images can also be "
 "found in the <a href=\"%s\">online documentation</a>."
-msgstr ""
-
-#: ../download/source.php:98
-msgid ""
-"To work around limitations in the wxAUI build system, pgAdmin compiles wxAUI "
-"itself. Simply unpack the source code into /usr/local/src/wxaui-0.9.2. This "
-"directory can be overridden with the --with-wxaui=DIR configure option in "
-"pgAdmin."
 msgstr ""
 
 #: ../include/page.php:179
@@ -1927,13 +1919,13 @@ msgstr ""
 msgid "Unix domain socket support."
 msgstr ""
 
-#: ../download/source.php:38
+#: ../download/source.php:36
 msgid ""
 "Unpack the wxWidgets tarball or zip file and follow the appropriate set of "
 "instruction below."
 msgstr ""
 
-#: ../download/source.php:94 ../download/source.php:131
+#: ../download/source.php:92 ../download/source.php:127
 msgid "Unpack, build and install the source code:"
 msgstr ""
 
@@ -2055,7 +2047,7 @@ msgstr ""
 msgid "Windows &trade;"
 msgstr ""
 
-#: ../download/source.php:61
+#: ../download/source.php:59
 msgid "Windows 2000, XP and 2003"
 msgstr ""
 
@@ -2084,8 +2076,8 @@ msgid ""
 "mode, this will be the case automatically."
 msgstr ""
 
-#: ../download/source.php:44 ../download/source.php:71
-#: ../download/source.php:97 ../download/source.php:134
+#: ../download/source.php:42 ../download/source.php:69
+#: ../download/source.php:95 ../download/source.php:130
 msgid ""
 "You may need to use the --enable-debug option if attempting to track down a "
 "crash."
@@ -2105,11 +2097,11 @@ msgstr ""
 msgid "fix slony node statistics."
 msgstr ""
 
-#: ../download/source.php:118
+#: ../download/source.php:114
 msgid "libxml2 2.5, installed into $BUILD_ROOT/pgadmin3-deps/libxml2."
 msgstr ""
 
-#: ../download/source.php:119
+#: ../download/source.php:115
 msgid "libxslt 1.1, installed into $BUILD_ROOT/pgadmin3-deps/libxslt."
 msgstr ""
 
@@ -2142,6 +2134,10 @@ msgstr ""
 #, php-format
 msgid ""
 "pgAdmin III development snapshots may be downloaded <a href=\"%s\">here</a>."
+msgstr ""
+
+#: ../screenshots/xgl.php:10
+msgid "pgAdmin III even works in 3D!!."
 msgstr ""
 
 #: ../screenshots/ui.php:26
@@ -2431,6 +2427,10 @@ msgstr ""
 msgid "pgAdmin III: Screenshots - Server status"
 msgstr ""
 
+#: ../screenshots/xgl.php:5
+msgid "pgAdmin III: Screenshots - Suse 10 XGL"
+msgstr ""
+
 #: ../screenshots/ui.php:5
 msgid "pgAdmin III: Screenshots - User interface"
 msgstr ""
@@ -2490,6 +2490,10 @@ msgid ""
 "not hesitate to get involved."
 msgstr ""
 
+#: ../screenshots/xgl.php:12
+msgid "pgAdmin running on Suse 10 XGL"
+msgstr ""
+
 #: ../include/archives.php:49
 msgid "pgAdmin: Archives"
 msgstr ""
@@ -2528,15 +2532,13 @@ msgstr ""
 msgid "v1.4.3 is primarily a bug fix release, including the following changes:"
 msgstr ""
 
-#: ../download/source.php:117
-msgid "wxAUI 0.9.2, installed into $BUILD_ROOT/pgadmin3-deps/wxaui."
+#: ../download/source.php:113
+msgid ""
+"wxWidgets 2.7 (2.6 for pgAdmin 1.4.x), installed into $BUILD_ROOT/pgadmin3-"
+"deps/wxwidgets."
 msgstr ""
 
-#: ../download/source.php:116
-msgid "wxWidgets 2.6, installed into $BUILD_ROOT/pgadmin3-deps/wxwidgets."
-msgstr ""
-
-#: ../download/source.php:46
+#: ../download/source.php:44
 msgid ""
 "wxWidgets versions 2.6.2 and below are broken on Solaris. A CVS snapshot "
 "from the stable branch dated 2005-09-26 or later should be used until 2.6.3 "

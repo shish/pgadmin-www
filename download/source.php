@@ -68,6 +68,7 @@ sudo make install
 <ul>
   <li>' . _("You may need to use the --enable-debug option if attempting to track down a crash.") . '</li>
   <li>' . _("The --enable-mimetype=no option is broken on wxWidgets versions earlier than 2.6.2 and should be omitted.") . '<br />&nbsp;</li>
+  <li>' . _("You may also specify the --enable-universal_binary option to build Mac Universal binaries.") . '<br />&nbsp;</li>
 </ul>
 
 <div class="pgaCode">
@@ -128,6 +129,7 @@ sudo make install<br />
       ' . _("Note:") . '<br />&nbsp;<br />
       <ul>
         <li>' . _("You may need to use the --enable-debug option if attempting to track down a crash.") . '</li>
+        <li>' . _("If building Universal binaries you must add the --disable-dependency-tracking option to the configure command line.") . '</li>
       </ul>&nbsp;<br />
 
 <div class="pgaCode">

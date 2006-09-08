@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -50,7 +50,7 @@ $PAGE_CONTENT = '
 
       ' . _("You can also use the translation debug mode of pgAdmin III (command line option -t) to review your translation in all dialogues. You won't need a database connection in that mode, but all dialogue resource files (*.xrc) are required, copied to the <i>ui</i> directory. If you compiled in debug mode, this will be the case automatically.") . '<br />&nbsp;</li> 
 
-  <li>' . sprintf(_("When the translation is finished and reviewed, send the pgadmin3.po and pgadmin3.mo files to <a href=\"%s\">Dave Page</a> or <a href=\"%s\">Andreas Pflug</a> after zipping/taring them. We will do our best to publish your files immediately. The translations are published in the <a href=\"%s\">snapshot builds</a> once they have been committed to the source repository."), "mailto:dpage@pgadmin.org", "mailto:pgadmin@pse-consulting.de", "/download/snapshots.php") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("When the translation is finished and reviewed, send the pgadmin3.po and pgadmin3.mo files to <a href=\"%s\">Dave Page</a> or <a href=\"%s\">Hiroshi Saito</a> after zipping/taring them. We will do our best to publish your files immediately. The translations are published in the <a href=\"%s\">snapshot builds</a> once they have been committed to the source repository."), "mailto:dpage@pgadmin.org", "mailto:z-saito@guitar.ocn.ne.jp", "/download/snapshots.php") . '<br />&nbsp;</li>
 
   <li>' . sprintf(_("From time to time, new strings which need translation are added to the application. Download/update the new <a href=\"%s\">pgadmin3.pot</a> and merge the new file with your language file using the poEdit <i>Catalog/Update from POT file</i> function. Alternatively, you can run the following command manually:"), "/svnrepo/pgadmin3/pgadmin3.pot") . '<br />&nbsp;<br />
     <div class="pgaCode">

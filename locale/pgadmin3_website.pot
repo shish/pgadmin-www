@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-08-30 17:16+0100\n"
+"POT-Creation-Date: 2006-09-08 14:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -299,7 +299,7 @@ msgid ""
 "may be found in the <a href=\"%s\">changelog</a>."
 msgstr ""
 
-#: ../download/source.php:91 ../download/source.php:126
+#: ../download/source.php:92 ../download/source.php:127
 #, php-format
 msgid ""
 "Authenticate the source code using Dave Page's <a href=\"%s\">PGP key</a>. "
@@ -329,7 +329,7 @@ msgid ""
 "effort than the issue warrants."
 msgstr ""
 
-#: ../download/source.php:85
+#: ../download/source.php:86
 msgid "Building pgAdmin III"
 msgstr ""
 
@@ -510,7 +510,7 @@ msgid ""
 "Linux."
 msgstr ""
 
-#: ../download/source.php:90 ../download/source.php:125
+#: ../download/source.php:91 ../download/source.php:126
 #, php-format
 msgid "Download the pgAdmin III <a href=\"%s\">source code</a> from a mirror. "
 msgstr ""
@@ -718,6 +718,12 @@ msgstr ""
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr ""
 
+#: ../download/source.php:132
+msgid ""
+"If building Universal binaries you must add the --disable-dependency-"
+"tracking option to the configure command line."
+msgstr ""
+
 #: ../development/index.php:14
 #, php-format
 msgid ""
@@ -766,7 +772,7 @@ msgid ""
 "the <a href=\"%s\">development</a> page."
 msgstr ""
 
-#: ../download/source.php:118
+#: ../download/source.php:119
 msgid ""
 "In addition, libxml2/libxslt may also require iconv and zlib. If you are "
 "building the pgAdmin installer, these must be installed into $BUILD_ROOT/"
@@ -891,7 +897,7 @@ msgstr ""
 msgid "Linux"
 msgstr ""
 
-#: ../download/source.php:87
+#: ../download/source.php:88
 msgid "Linux, FreeBSD and Solaris"
 msgstr ""
 
@@ -927,7 +933,7 @@ msgid "MULE_INTERNAL"
 msgstr ""
 
 #: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
-#: ../download/source.php:65 ../download/source.php:122
+#: ../download/source.php:65 ../download/source.php:123
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr ""
@@ -998,7 +1004,7 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr ""
 
-#: ../download/source.php:108
+#: ../download/source.php:109
 msgid "Microsoft Windows 2000, XP & 2003"
 msgstr ""
 
@@ -1062,7 +1068,7 @@ msgid ""
 msgstr ""
 
 #: ../download/source.php:40 ../download/source.php:67
-#: ../download/source.php:93 ../download/source.php:128
+#: ../download/source.php:94 ../download/source.php:129
 msgid "Note:"
 msgstr ""
 
@@ -1182,7 +1188,7 @@ msgstr ""
 msgid "PostgreSQL 8.1 support:"
 msgstr ""
 
-#: ../download/source.php:112
+#: ../download/source.php:113
 msgid ""
 "PostgreSQL 8.1, installed into the default location from the official "
 "PostgreSQL installer (pgInstaller)."
@@ -1655,7 +1661,7 @@ msgid ""
 "Arabic."
 msgstr ""
 
-#: ../download/source.php:110
+#: ../download/source.php:111
 msgid ""
 "The pgAdmin dependencies must first be installed in the appropriate "
 "locations on your system:"
@@ -1721,7 +1727,7 @@ msgstr ""
 msgid "The server status dialogue"
 msgstr ""
 
-#: ../download/source.php:120
+#: ../download/source.php:121
 msgid ""
 "The source tree should be unpacked into $BUILD_ROOT. The directory can be "
 "called whatever you like, as long as its at the right directory level - for "
@@ -1925,7 +1931,7 @@ msgid ""
 "instruction below."
 msgstr ""
 
-#: ../download/source.php:92 ../download/source.php:127
+#: ../download/source.php:93 ../download/source.php:128
 msgid "Unpack, build and install the source code:"
 msgstr ""
 
@@ -2022,8 +2028,8 @@ msgstr ""
 #, php-format
 msgid ""
 "When the translation is finished and reviewed, send the pgadmin3.po and "
-"pgadmin3.mo files to <a href=\"%s\">Dave Page</a> or <a href=\"%s\">Andreas "
-"Pflug</a> after zipping/taring them. We will do our best to publish your "
+"pgadmin3.mo files to <a href=\"%s\">Dave Page</a> or <a href=\"%s\">Hiroshi "
+"Saito</a> after zipping/taring them. We will do our best to publish your "
 "files immediately. The translations are published in the <a href=\"%s"
 "\">snapshot builds</a> once they have been committed to the source "
 "repository."
@@ -2076,8 +2082,14 @@ msgid ""
 "mode, this will be the case automatically."
 msgstr ""
 
+#: ../download/source.php:71
+msgid ""
+"You may also specify the --enable-universal_binary option to build Mac "
+"Universal binaries."
+msgstr ""
+
 #: ../download/source.php:42 ../download/source.php:69
-#: ../download/source.php:95 ../download/source.php:130
+#: ../download/source.php:96 ../download/source.php:131
 msgid ""
 "You may need to use the --enable-debug option if attempting to track down a "
 "crash."
@@ -2097,11 +2109,11 @@ msgstr ""
 msgid "fix slony node statistics."
 msgstr ""
 
-#: ../download/source.php:114
+#: ../download/source.php:115
 msgid "libxml2 2.5, installed into $BUILD_ROOT/pgadmin3-deps/libxml2."
 msgstr ""
 
-#: ../download/source.php:115
+#: ../download/source.php:116
 msgid "libxslt 1.1, installed into $BUILD_ROOT/pgadmin3-deps/libxslt."
 msgstr ""
 
@@ -2532,7 +2544,7 @@ msgstr ""
 msgid "v1.4.3 is primarily a bug fix release, including the following changes:"
 msgstr ""
 
-#: ../download/source.php:113
+#: ../download/source.php:114
 msgid ""
 "wxWidgets 2.7 (2.6 for pgAdmin 1.4.x), installed into $BUILD_ROOT/pgadmin3-"
 "deps/wxwidgets."

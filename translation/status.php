@@ -44,7 +44,7 @@ $PAGE_CONTENT .= '</center>
 
 <h2>' . sprintf(_("Out of date translations (%d)"), $outofdate->getNbLanguages()) . '</h2>
 
-<p>' . _("The translations below are not considered complete enough for inclusion in current releases. Around 750 translated strings indicate v1.0 support, 1000 strings v1.2, and 1500 strings for v1.4. When using an incomplete translation on a newer pgAdmin version, you will get a mixture of translated and untranslated dialogs (usually on less frequently used ones), but general usability shouldn't be affected. If you would like to continue the work, please don't hesitate to contact the current maintainer (please CC pgsql-hackers@postgresql.org)!") . '</p>
+<p>' . _("The translations below are not considered complete enough for inclusion in current releases. Around 750 translated strings indicate v1.0 support, 1000 strings v1.2, 1500 strings for v1.4 and 1850 for v1.6. When using an incomplete translation on a newer pgAdmin version, you will get a mixture of translated and untranslated dialogs (usually on less frequently used ones), but general usability shouldn't be affected. If you would like to continue the work, please don't hesitate to contact the current maintainer (please CC pgsql-hackers@postgresql.org)!") . '</p>
 
 <center>';
 

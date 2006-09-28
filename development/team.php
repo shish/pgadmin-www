@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -36,14 +36,18 @@ $PAGE_CONTENT = '
     <ul>
       <li><a href="mailto:dpage@vale-housing.co.uk">Dave Page</a> (Project Leader): Project founder & primary developer.<br />&nbsp;</li>
 
-      <li><a href="mailto:jm@poure.com">Jean-Michel Pour&#233;</a> (Core Developer): translations & web site management.</li>
       <li><a href="mailto:myeatman@vale-housing.co.uk">Mark Yeatman</a> (Core Developer): Works on controls and consults on UI design.</li>
-      <li><a href="mailto:pgadmin@pse-consulting.de">Andreas Pflug</a> (Core Developer): Has written vast amounts of pgAdmin III code and is responsible for much of its design.</li>
       <li><a href="mailto:frank_lupo@email.it">Frank Lupo</a> (Core Developer): Has made countless improvements to the pgAdmin II code from minor bug fixes to major enhancements.<br />&nbsp;</li>
 
       <li><a href="mailto:saito@inetrt.skcapi.co.jp">Hiroshi Saito</a> (Member): Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.</li>
       <li><a href="mailto:fmonkey@fmonkey.net">Adam H. Pendleton</a> (Member): Developed and maintains the build system, and helps with various porting issues.</li>
       <li><a href="mailto:blacknoz@club-internet.fr">Rapha&#235;l Enrici</a> (Member): Maintains the Debian port, and helps with numerous other issues.</li>
+    </ul>
+    <br />&nbsp;</li>
+    The following people no longer work on the project, but we remain grateful for their past contributions:<br />&nbsp;<br />
+    <ul>
+      <li><a href="mailto:jm@poure.com">Jean-Michel Pour&#233;</a>: Managed translations & the web site.</li>
+      <li><a href="mailto:pgadmin@pse-consulting.de">Andreas Pflug</a>: Wrote vast amounts of pgAdmin III code and is responsible for much of its design.</li>
     </ul>
   <br />&nbsp;</li>
 </ol>

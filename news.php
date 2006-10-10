@@ -43,7 +43,7 @@ $PAGE_CONTENT = '
   <li>' . _("Fix serial column detection for 8.1 per Kris Jurka.") . '</li>
   <li>' . _("Mask the password when logging the connection string.") . '</li>
   <li>' . _("Properly escape single quotes in connection strings.") . '</li>
-  <li>' . _("Re-arrange the Win32 dependencies so that iconv, libxml2 and wxwidgets are located in $PGADIR/../pgadmin3-deps/.") . '</li>
+  <li>' . _("Re-arrange the Win32 dependencies so that iconv, libxml2 and wxwidgets are located in \$PGADIR/../pgadmin3-deps/.") . '</li>
   <li>' . _("Properly enable the redo button in the Query Tool when appropriate, per PromoTrade.") . '</li>
   <li>' . _("Add missing files to the Unix tarball, per Andrus - xtra/wxbuild/*, src/utils/precomp.cpp, src/main/pgAdmin3.rc.") . '</li>
   <li>' . _("Read config files in the local encoding scheme.") . '</li>

@@ -17,6 +17,10 @@ $file = "../svnrepo/pgadmin3/CHANGELOG";
 if (file_exists($file))
   $PAGE_CONTENT .= "<pre>" .  iconv("", "UTF-8//TRANSLIT", file_get_contents($file)) . "</pre>";
 
+// Override the last modified date
+$lastmod = filemtime($file);
+header("Last-Modified: " . date("D, d M Y H:i:s", $lastmod) . " GMT", true);
+
 // Display the page
 www_page($PAGE_TITLE, $PAGE_CONTENT);
 

@@ -3,6 +3,11 @@
 // Startup the session and setup the gettext stuff
 require $_SERVER['DOCUMENT_ROOT'] . "/include/session.php";
 
+// Get and output the last modified date
+// This might be overridden later
+$lastmod = filemtime($_SERVER['SCRIPT_FILENAME']);
+header("Last-Modified: " . date("D, d M Y H:i:s", $lastmod) . " GMT");
+
 function www_current_menu_section($SECTION)
 {
   if (dirname($_SERVER['SCRIPT_NAME']) == $SECTION || dirname($_SERVER['SCRIPT_NAME']) . "/" == $SECTION)

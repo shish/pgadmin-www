@@ -49,9 +49,13 @@ if (isset($_GET['list']))
     $doctitle = _("pgAdmin: Archives");
 
   if (preg_match("/\?>(.*)<\?/is", $dociconvcontent, $matches) > 0)
-    $doccontent = $matches[1];
+    $doccontent = "<div id=\"pgaArchiveContent\">" . $matches[1] . "</div>";
   else
     $doccontent = sprintf("<p>%s</p>", _("Couldn't find the archive content!"));
+
+  // Override the last modified date
+  $lastmod = filemtime($docfile);
+  header("Last-Modified: " . date("D, d M Y H:i:s", $lastmod) . " GMT", true);
   
   www_page($doctitle, $doccontent, false);
 }

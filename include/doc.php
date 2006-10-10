@@ -56,6 +56,10 @@ if (isset($_GET['docset']))
     $doccontent .= $matches[1];
   else
     $doccontent .= sprintf("<p>%s</p>", _("Couldn't find the document content!"));
+
+  // Override the last modified date
+  $lastmod = filemtime($docfile);
+  header("Last-Modified: " . date("D, d M Y H:i:s", $lastmod) . " GMT", true);
   
   www_page($doctitle, $doccontent, false);
 }

@@ -55,8 +55,7 @@ if (isset($_GET['list']))
 
   // Override the last modified date
   $lastmod = filemtime($docfile);
-  header("Last-Modified: " . date("D, d M Y H:i:s", $lastmod) . " GMT", true);
   
-  www_page($doctitle, $doccontent, false);
+  www_page($doctitle, $doccontent, false, $lastmod);
 }
 

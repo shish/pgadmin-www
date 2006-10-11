@@ -2,11 +2,7 @@
 
 // Startup the session and setup the gettext stuff
 require $_SERVER['DOCUMENT_ROOT'] . "/include/session.php";
-
-// Get and output the last modified date
-// This might be overridden later
-$lastmod = filemtime($_SERVER['SCRIPT_FILENAME']);
-header("Last-Modified: " . date("D, d M Y H:i:s", $lastmod) . " GMT");
+require $_SERVER['DOCUMENT_ROOT'] . "/include/lastmod.php";
 
 function www_current_menu_section($SECTION)
 {
@@ -28,8 +24,13 @@ function www_current_menu_page($PAGE)
 
 
 
-function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true)
+function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 {
+  // Handle the last page modification stuff
+  if ($lastmod == 0)
+    $lastmod = filemtime($_SERVER['SCRIPT_FILENAME']);
+
+  handleModHeaders($lastmod);
 
   if ($HAS_MENU == true)
     require dirname($_SERVER["SCRIPT_FILENAME"]) . "/menu.php";

@@ -19,9 +19,8 @@ if (file_exists($file))
 
 // Override the last modified date
 $lastmod = filemtime($file);
-header("Last-Modified: " . date("D, d M Y H:i:s", $lastmod) . " GMT", true);
 
 // Display the page
-www_page($PAGE_TITLE, $PAGE_CONTENT);
+www_page($PAGE_TITLE, $PAGE_CONTENT, true, $lastmod);
 
 ?>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -15,6 +15,7 @@ $PAGE_CONTENT = '
   <li>' . _("Linux") . '</li>
   <li>' . _("FreeBSD") . '</li>
   <li>' . _("Mac OSX") . '</li>
+  <li>' . _("OpenBSD") . '</li>
   <li>' . _("Solaris") . '</li>
 </ul>
 

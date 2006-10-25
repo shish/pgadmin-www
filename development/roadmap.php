@@ -12,41 +12,41 @@ $PAGE_CONTENT = '
 <p>' . _("It is expected that this development cycle will be around 6 months in length, in order to coincide with the release of PostgreSQL 8.3. This cycle will focus on cleanup type work to make the codebase more maintainable and more reliable than ever before.") . '</p>
 
 <ul>
-  <li>' . _("PostgreSQL 8.3 compatibility (these items are subject to change)") . '
+  <li>' . _("PostgreSQL 8.3 compatibility (these items are subject to change)") . '<br />&nbsp;
     <ul>
-      <li>' . _("Enum support.") . '</li>
+      <li>' . _("Enum support.") . '<br />&nbsp;</li>
     </ul>
   </li>
   
-  <li>' . _("Larger projects") . '
+  <li>' . _("Larger projects") . '<br />&nbsp;
     <ul>
-      <li>' . _("Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger, as a standalone app under /xtra. Include appropriate hooks into it from pgAdmin.") . '</li>
+      <li>' . _("Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger, as a standalone app under /xtra. Include appropriate hooks into it from pgAdmin.") . '<br />&nbsp;</li>
     </ul>
   </li>
   
-  <li>' . _("Code housekeeping") . '
+  <li>' . _("Code housekeeping") . '<br />&nbsp;
     <ul>
-      <li>' . _("Remove macros and code to support non-Unicode builds.") . '</li>
-      <li>' . _("Remove macros and code to support wxWidgets 2.6 and older.") . '</li>
-      <li>' . _("Refactor to remove base classes that offer no real benefit - e.g. pgSet/pgQueryThread which only have a couple of members between them.") . '</li>
-      <li>' . _("Consider breaking out some larger classes into their own files - e.g. sqlTable from frmEditGrid, and pgQueryThread from pgSetBase.") . '</li>
+      <li>' . _("Remove macros and code to support non-Unicode builds.") . '<br />&nbsp;</li>
+      <li>' . _("Remove macros and code to support wxWidgets 2.6 and older.") . '<br />&nbsp;</li>
+      <li>' . _("Refactor to remove base classes that offer no real benefit - e.g. pgSet/pgQueryThread which only have a couple of members between them.") . '<br />&nbsp;</li>
+      <li>' . _("Consider breaking out some larger classes into their own files - e.g. sqlTable from frmEditGrid, and pgQueryThread from pgSetBase.") . '<br />&nbsp;</li>
     </ul>
   </li>
   
-  <li>' . _("Build system") . '
+  <li>' . _("Build system") . '<br />&nbsp;
     <ul>
-      <li>' . _("Don't install .xrc files with non-debug builds from the *nix build system.") . '</li>
-      <li>' . _("Cleanup the Visual Studio project structure to match the actual directory layout.") . '</li>
-      <li>' . _("XCode project files for building on Mac.") . '</li>      
-      <li>' . _("Restructure header files into a more organised directory layout.") . '</li>
-      <li>' . _("Consider auto-generation of the *nix/XCode project files from the VC++ project files.") . '</li>
+      <li>' . _("Don't install .xrc files with non-debug builds from the *nix build system.") . '<br />&nbsp;</li>
+      <li>' . _("Cleanup the Visual Studio project structure to match the actual directory layout.") . '<br />&nbsp;</li>
+      <li>' . _("XCode project files for building on Mac.") . '<br />&nbsp;</li>      
+      <li>' . _("Restructure header files into a more organised directory layout.") . '<br />&nbsp;</li>
+      <li>' . _("Consider auto-generation of the *nix/XCode project files from the VC++ project files.") . '<br />&nbsp;</li>
     </ul>
   </li>
   
-  <li>' . _("Miscellaneous tweaks") . '
+  <li>' . _("Miscellaneous tweaks") . '<br />&nbsp;
     <ul>
-      <li>' . _("Allow use of Command-W to close dialogues and windows on Mac.") . '</li>
-      <li>' . _("Allow backup of roles, or the entire database cluster.") . '</li>
+      <li>' . _("Allow use of Command-W to close dialogues and windows on Mac.") . '<br />&nbsp;</li>
+      <li>' . _("Allow backup of roles, or the entire database cluster.") . '<br />&nbsp;</li>
     </ul>
   </li>
 

@@ -47,6 +47,8 @@ $PAGE_CONTENT = '
     <ul>
       <li>' . _("Allow use of Command-W to close dialogues and windows on Mac.") . '<br />&nbsp;</li>
       <li>' . _("Allow backup of roles, or the entire database cluster.") . '<br />&nbsp;</li>
+      <li>' . _("Differentiate between empty strings and NULLs in the query tool.") . '<br />&nbsp;</li>
+      <li>' . _("Retain the clipboard contents when closing the application.") . '<br />&nbsp;</li>
     </ul>
   </li>
 

@@ -50,7 +50,8 @@ $PAGE_CONTENT = '
       <li>' . _("Differentiate between empty strings and NULLs in the query tool.") . '<br />&nbsp;</li>
       <li>' . _("Retain the clipboard contents when closing the application.") . '<br />&nbsp;</li>
       <li>' . _("Add pgstattuple support. [GL]") . '<br />&nbsp;</li>
-      <li>' . _("Togfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Add a 'Run now' context menu option for Jobs.") . '<br />&nbsp;</li>
     </ul>
   </li>
 

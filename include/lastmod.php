@@ -29,9 +29,16 @@ function handleModHeaders($timestamp) {
         return; // etag is there but doesn't match
     }
 
-    if ($if_modified_since && $if_modified_since != $last_modified) {
-        return; // if-modified-since is there but doesn't match
+    if (!$if_modified_since) {
+        return; // if-modified-since is not there
     }
+
+    $lm = strtotime($last_modified);
+    $ims = strtotime($if_modified_since);
+    if (!$lm || !$ims || $lm > $ims) {
+       return; // one of the dates unparsable, or file is changed
+    }
+    
 
     // Nothing has changed since their last request - serve a 304 and exit
     header('HTTP/1.0 304 Not Modified');

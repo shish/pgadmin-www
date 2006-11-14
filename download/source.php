@@ -141,7 +141,7 @@ make install<br />
 </div></li>
 </ol>
 
-<p>' . _("This final step will build an OSX appbundle called pgAdmin3.app in the root of your source tree. As this can take a minute or two, if debugging the <i>pkg/mac/debug-bundle.sh</i> script may be used to build a non-relocatable 'fake' appbundle using symbolic links directly to the executable files. This appbundle is called pgAdmin3-debug.app.") . '</p>
+<p>' . _("This final step will build an OSX appbundle called pgAdmin3.app in the root of your source tree. As this can take a minute or two, the <i>pkg/mac/debug-bundle.sh</i> script may be used to build a non-relocatable 'fake' appbundle using symbolic links directly to the executable files. This appbundle is called pgAdmin3-debug.app, and doesn't need to be rebuilt when pgAdmin is recompiled.") . '</p>
 
 '; 
 

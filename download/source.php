@@ -22,7 +22,7 @@ $PAGE_CONTENT = '
 
   <li>' . sprintf(_("<a href=\"%s\">wxWidgets 2.6.x (for pgAdmin 1.4.x) or wxWidgets 2.7.x (for pgAdmin 1.5+)</a>. Currently, this is the only version we support."), "http://www.wxwidgets.org") . '<br />&nbsp;</li>
 
-  <li>' . sprintf(_("<a href=\"%s\">libxml2 2.5.x</a> or above (for pgAdmin 1.5+)."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">libxml2 2.6.18</a> or above (for pgAdmin 1.5+)."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
   
   <li>' . sprintf(_("<a href=\"%s\">libxslt 1.1.x</a> or above (for pgAdmin 1.5+)."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
 
@@ -137,10 +137,11 @@ tar -zvxf pgadmin3*.tar.gz<br />
 cd pgadmin3*<br />
 ./configure --enable-appbundle<br />
 make all<br />
-sudo make install<br />
+make install<br />
 </div></li>
-
 </ol>
+
+<p>' . _("This final step will build an OSX appbundle called pgAdmin3.app in the root of your source tree. As this can take a minute or two, if debugging the <i>pkg/mac/debug-bundle.sh</i> script may be used to build a non-relocatable 'fake' appbundle using symbolic links directly to the executable files. This appbundle is called pgAdmin3-debug.app.") . '</p>
 
 '; 
 

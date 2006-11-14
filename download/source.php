@@ -112,7 +112,7 @@ sudo make install<br />
 <ol>
   <li>' . _("PostgreSQL 8.1, installed into the default location from the official PostgreSQL installer (pgInstaller).") . '<br />&nbsp;</li>
   <li>' . _("wxWidgets 2.7 (2.6 for pgAdmin 1.4.x), installed into \$BUILD_ROOT/pgadmin3-deps/wxwidgets.") . '<br />&nbsp;</li>
-  <li>' . _("libxml2 2.5, installed into \$BUILD_ROOT/pgadmin3-deps/libxml2.") . '<br />&nbsp;</li>
+  <li>' . _("libxml2 2.6.18 (or above), installed into \$BUILD_ROOT/pgadmin3-deps/libxml2.") . '<br />&nbsp;</li>
   <li>' . _("libxslt 1.1, installed into \$BUILD_ROOT/pgadmin3-deps/libxslt.") . '</li>
 </ol>
 

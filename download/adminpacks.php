@@ -16,6 +16,8 @@ $PAGE_CONTENT = '
 </ul>
 
 <p>' . _("Install the appropriate admin pack for the version of pgAdmin that you use, and the server you are running. pgInstaller distributions of PostgreSQL for Windows include the admin packs.") . '</p>
+
+<p>' . _("Note: PostgreSQL 8.2 and above include the adminpack as a Contrib module.") . '</p>
 '; 
 
 // Display the page

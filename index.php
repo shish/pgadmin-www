@@ -5,6 +5,12 @@ include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php";
 $PAGE_TITLE = _("pgAdmin III: PostgreSQL administration and management tools");
 $PAGE_CONTENT = '
 
+<h1>' . _("Latest news") . '</h1>
+
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-11-16", "1.6.0") . '</h2>
+
+<p>' . _("After 12 months of development and testing, pgAdmin 1.6.0 has now been released. Please see <a href=\"/news.php\">the news page</a> for details of what's changed in this release, and <a href=\"/download/\">the download page</a> to download.") . '</a></p>
+
 <h1>' . _("Introduction") . '</h1>
 
 <p>' . sprintf(_("pgAdmin III is the most popular and feature rich Open Source administration and development platform for <a href=\"%s\">PostgreSQL</a>, the most advanced Open Source database in the world. The application may be used on Linux, FreeBSD, Solaris, Mac OSX and Windows platforms to manage PostgreSQL 7.3 and above running on any platform, as well as commercial versions of PostgreSQL such as <a href=\"%s\">Pervasive Postgres</a>, <a href=\"%s\">EnterpriseDB</a>, <a href=\"%s\">Mammoth Replicator</a> and <a href=\"%s\">SRA PowerGres</a>."), "http://www.postgresql.org/", "http://www.pervasive-postgres.com/", "http://www.enterprisedb.com", "http://www.commandprompt.com/", "http://sraapowergres.com/en/") . '</p>
@@ -14,7 +20,7 @@ $PAGE_CONTENT = '
 <p>' . sprintf(_("pgAdmin III is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the <a href=\"%s\">Artistic License</a>."), "licence.php") . '</p>
 
 <div class="pgaBanner">
-' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.4.3") . '
+' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.6.0") . '
 </div>
 
 '; 

@@ -7,6 +7,75 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-11-16", "1.6.0") . '</h2>
+
+<p>' . _("I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
+
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
+
+<p>' . _("v1.6.0 represents over a year of development and testing to bring you a host of new features and improvements including:") . '</p>
+<ul>
+  <li>' . _("PostgreSQL 8.2 support:") . '
+  <ul>
+    <li>' . _("Concurrent index builds.") . '</li>
+    <li>' . _("Privilege changes (database CONNECT, and sequence USAGE).") . '</li>
+    <li>' . _("Use E'' style escape string syntax when required.") . '</li>
+    <li>' . _("Shared database comments.") . '</li>
+  </ul></li>
+  <li>' . _("Overhaul of server config settings.") . '</li>
+  <li>' . _("Allow database and schema display to be restricted.") . '</li>
+  <li>' . _("Configurable indents in the SQL editor.") . '</li>  
+  <li>' . _("Support for language templates.") . '</li> 
+  <li>' . _("Add -a and -q command line options to auto connect to a server and open a query window respectively.") . '</li> 
+  <li>' . _("Allow result copy quoting configuration to be set explicitly rather than using the result export settings.") . '</li>
+  <li>' . _("Allow set returning functions to be created.") . '</li> 
+  <li>' . _("Display the client start time on the status dialogue with PostgreSQL 8.1+") . '</li> 
+  <li>' . _("Add a password file editor.") . '</li> 
+  <li>' . _("Prevent deletion of the blank item in config editors, and ensure undo will only work on the appropriate line.") . '</li> 
+  <li>' . _("Allow the number of rows shown in the Edit Grid to be limited and add a 'View top 100 rows' option to the table/view context menus.") . '</li>
+  <li>' . _("Add autocompletion to the Query Tool, based on the logic used by psql. Triggered with Control+Space, and optionally the Tab key as well.") . '</li> 
+  <li>' . _("Allow selection and copy of subsets of the columns and rows in the Edit Grid.") . '</li> 
+  <li>' . _("Add a 'Favourites' query organiser to the Query Tool.") . '</li> 
+  <li>' . _("Display column dependencies.") . '</li> 
+  <li>' . _("Minimal linking for pgAgent under *nix.") . '</li> 
+  <li>' . _("Reject invalid command line options in pgAgent.") . '</li> 
+  <li>' . _("Allow the admin modules to be built with PGXS if required.") . '</li> 
+  <li>' . _("Enhance the query tool to allow copy/paste of arbitrary groups of columns, rows or individual cells.") . '</li> 
+  <li>' . _("Allow the tab character to be used as the clipboard column separator to allow pasting of query results straight into apps like Excel, or OOo Calc.") . '</li> 
+  <li>' . _("Use virtual data table for Query Tool, to eliminate retrieval time.") . '</li> 
+  <li>' . _("Add CREATE/INSERT/UPDATE/SELECT script menu options for various object types to create script templates.") . '</li> 
+  <li>' . _("Pre-encrypt passwords before sending them down the wire, or displaying them in SQL statements.") . '</li> 
+  <li>' . _("Add an internal XML reporting API, HTML XSL stylesheet with XSLT processing capabilities and selection of schema/object/data reports.") . '</li> 
+  <li>' . _("Allow pasting of entire rows in the View Data tool.") . '</li> 
+  <li>' . _("Allow the user to choose whether or not to restore the environment when reconnecting to a particular server.") . '</li> 
+  <li>' . _("Detect and warn the user of concurrent edits of functions, views and job steps.") . '</li> 
+  <li>' . _("Add brace highlighting to the SQL Text Box control.") . '</li> 
+  <li>' . _("Add a word wrap option to the query tool editor.") . '</li> 
+  <li>' . _("Add options to show line ends and whitespaces in the query tool.") . '</li> 
+  <li>' . _("Highlight the error word in the query tool if a syntax error is reported by the database.") . '</li> 
+  <li>' . _("Display, and allow null values to be set in boolean columns in the Edit Grid.") . '</li> 
+  <li>' . _("Retain values in the edit grid following a failed insert or update.") . '</li> 
+  <li>' . _("Display non-default op classes in index definitions.") . '</li> 
+  <li>' . _("Add a pgAgent option to log to a file on *nix.") . '</li> 
+  <li>' . _("Add a new Find & Replace dialogue to the query tool, implementing all the normal Find & Replace options as well as a powerful regular expression search mode.") . '</li> 
+  <li>' . _("Add 'scratch pads' to the Edit Grid and Query Tool windows to use when copying and pasting data back and forth.") . '</li> 
+  <li>' . _("Make elements of the main windows dockable for maximum configurability.") . '</li> 
+  <li>' . _("Add -qc switch to open query tool and autoconnect using a connection string.") . '</li> 
+  <li>' . _("Add support for building Mac Universal Binaries.") . '</li> 
+  <li>' . _("Use SQL standard type names where appropriate. Show them as 'aliases' in the browser.") . '</li> 
+  <li>' . _("Hide binary data (bytea) in the edit grid.") . '</li> 
+</ul>
+
+
+<p>' . sprintf(_("As well as many other tweaks, improvements and bug fixes, details of which may be found in the <a href=\"%s\">changelog</a>."), "development/changelog.php") . '</p>
+
+<p>' . _("I would like to take this opportunity to thank all those who gave their time to help with the development, testing, translation and packaging of this release.") . '</p>
+
+<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
+
+
+
+
 <h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-07-19", "1.4.3") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.4.3, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
@@ -30,101 +99,6 @@ $PAGE_CONTENT = '
 </ul>
 
 <p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
-
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-03-07", "1.4.2") . '</h2>
-
-<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.4.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
-
-<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
-
-<p>' . _("v1.4.2 is primarily a bug fix release, including the following changes:") . '</p>
-<ul>
-  <li>' . _("Fix a typo in the admin pack README [August Zajonc].") . '</li>
-  <li>' . _("Fix serial column detection for 8.1 per Kris Jurka.") . '</li>
-  <li>' . _("Mask the password when logging the connection string.") . '</li>
-  <li>' . _("Properly escape single quotes in connection strings.") . '</li>
-  <li>' . _("Re-arrange the Win32 dependencies so that iconv, libxml2 and wxwidgets are located in \$PGADIR/../pgadmin3-deps/.") . '</li>
-  <li>' . _("Properly enable the redo button in the Query Tool when appropriate, per PromoTrade.") . '</li>
-  <li>' . _("Add missing files to the Unix tarball, per Andrus - xtra/wxbuild/*, src/utils/precomp.cpp, src/main/pgAdmin3.rc.") . '</li>
-  <li>' . _("Read config files in the local encoding scheme.") . '</li>
-  <li>' . _("Display the definition of set returning procedures correctly.") . '</li>
-  <li>' . _("Fix drop procedure by including IN/OUT parameter flags in the name.") . '</li>
-  <li>' . _("Fix role SQL - correctly define CREATEROLE/NOCREATEROLE per Andrus.") . '</li>
-  <li>' . _("Honour the copy quoting setting properly in the SQL results pane.") . '</li>
-  <li>' . _("Set the initial Unicode/Local charset options correctly in the Export dialogue.") . '</li>
-  <li>' . _("Fix PK detection in EditGrid per Andrus Moor.") . '</li>
-  <li>' . _("Fix Bitmap Index explain per Alexander Kirpa.") . '</li>
-  <li>' . _("Use ELSIF not ELSEIF in pgagent.sql for compatibility with 7.x servers [Glen Sasek].") . '</li>
-  <li>' . _("Exclude system schemas by name rather than OID, so that 'public' can be safely renamed.") . '</li>
-  <li>' . _("fix slony node statistics.") . '</li>
-  <li>' . _("Fix: Unsubscribe set on receiver.") . '</li>
-  <li>' . _("Another wxComboBox(2.6.2) related fix.") . '</li>
-</ul>
-
-<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
-
-
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2005-12-14", "1.4.1") . '</h2>
-
-<p>' . _("I'm pleased to announce the release of pgAdmin 1.4.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
-
-<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
-
-<p>' . _("v1.4.1 is primarily a bug fix release, including the following changes:") . '</p>
-<ul>
-  <li>' . _("Default the encoding of new databases to the cluster encoding.") . '</li>
-  <li>' . _("Sort encoding names in dlgDatabase.") . '</li>
-  <li>' . _("Store UTF8 connect info in pgpass.conf if necessary.") . '</li>
-  <li>' . _("Major fix for wx2.6.2 API changes (comboboxes).") . '</li>
-  <li>' . _("Drop constraints on columns before the columns themselves.") . '</li>
-  <li>' . _("Graphical explain: distinct scan images.") . '</li>
-  <li>' . _("Fix the server status SQL query.") . '</li>
-  <li>' . _("Include pg_dump/pg_restore in the Mac OSX bundle.") . '</li>
-  <li>' . _("Use a proper 'Save As' style dialogue for selecting backup files.") . '</li>
-  <li>' . _("Don't show primary key hint when editing views.") . '</li>
-  <li>' . _("Add missing NO ACTION FK constraint.") . '</li>
-  <li>' . _("Fix procedure/triggerFunc collection list.") . '</li>
-  <li>' . _("Allow all 8.x column changes.") . '</li>
-  <li>' . _("Fix param name quoting for procedures.") . '</li>
-</ul>
-
-<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
-
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2005-11-07", "1.4.0") . '</h2>
-
-<p>' . _("I'm pleased to announce the release of pgAdmin 1.4.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
-
-<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
-
-<p>' . _("v1.4.0 contains a number of new features over previous releases, including:") . '</p>
-<ul>
-  <li>' . _("Slony-I support.") . '</li>
-  <li>' . _("An SQL/shell job scheduling agent.") . '</li>
-  <li>' . _("PostgreSQL 8.1 support:") . '
-  <ul>
-    <li>' . _("Autovacuum administration.") . '</li>
-    <li>' . _("Roles.") . '</li>
-    <li>' . _("Stored procedures (ie. Functions with OUT parameters).") . '</li>
-    <li>' . _("Prepared transactions.") . '</li>
-  </ul></li>
-  <li>' . _("Allow server registration without connect.") . '</li>
-  <li>' . _("Allow connection selection in the query tool.") . '</li>
-  <li>' . _("Major source tree and architecture overhaul to allow further extensibility.") . '</li>
-  <li>' . _("Unix domain socket support.") . '</li>
-  <li>' . _("'Guru Hints' to help new users.") . '</li>
-  <li>' . _("Password can be stored in .pgass/pgpass.conf files.") . '</li>
-  <li>' . _("New graphics throughout.") . '</li>
-  <li>' . _("Alert the user when a query finishes in the query tool if the window is not active.") . '</li>
-  <li>' . _("Graphical EXPLAIN.") . '</li>
-  <li>' . _("Support for Asynchronous Notifications in the query tool.") . '</li>
-</ul>
-
-
-<p>' . sprintf(_("As well as many other tweaks, improvements and bug fixes, details of which may be found in the <a href=\"%s\">changelog</a>."), "development/changelog.php") . '</p>
-
-<p>' . _("I would like to take this opportunity to thank all those who gave their time to help with the development, testing, translation and packaging of this release.") . '</p>
-
-<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p
 
 '; 
 

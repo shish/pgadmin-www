@@ -52,6 +52,7 @@ $PAGE_CONTENT = '
       <li>' . _("Add pgstattuple support. [GL]") . '<br />&nbsp;</li>
       <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
       <li>' . _("Add a 'Run now' context menu option for Jobs.") . '<br />&nbsp;</li>
+      <li>' . _("Retain column sizes in the Query Tool results grid when a query is re-run.") . '<br />&nbsp;</li>
     </ul>
   </li>
 

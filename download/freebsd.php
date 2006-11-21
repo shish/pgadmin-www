@@ -9,8 +9,9 @@ $PAGE_CONTENT = '
 
 <h4>' . sprintf(_("Maintainer: %s"), "Hiroshi Saito") . '</h4>
 
-<p>' . _("pgAdmin III packages are available for download. These packages have been built on FreeBSD 6.0.") . '</p>
+<p>' . _("pgAdmin III packages are available for download. These packages have been built on FreeBSD.") . '</p>
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.6.0/FreeBSD61", "1.6.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.2/freebsd", "1.4.2") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.1/freebsd", "1.4.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.0/freebsd", "1.4.0") . '<br />&nbsp;</li>
@@ -19,7 +20,7 @@ $PAGE_CONTENT = '
 <p>' . _("To install these packages, use a command such as:") . '</p>
 
 <div class="pgaCode">
-# pkg_add pgadmin3-1.4.1.tgz
+# pkg_add pgadmin3-x.x.x.tgz
 </div><br />&nbsp;
 
 <p>' . _("Create a symlink to the pgAdmin III binary:") . '</p>

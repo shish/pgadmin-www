@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <h4>' . sprintf(_("Maintainer: %s"), "Hiroshi Saito") . '</h4>
 
-<p>' . _("pgAdmin III packages are available for download. These packages have been built on FreeBSD.") . '</p>
+<p>' . _("pgAdmin III packages are available for download. These packages have been built on FreeBSD 6.") . '</p>
 <ul>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.6.0/FreeBSD61", "1.6.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.4.2/freebsd", "1.4.2") . '<br />&nbsp;</li>

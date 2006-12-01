@@ -7,6 +7,34 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-12-01", "1.6.1") . '</h2>
+
+<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
+
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
+
+<p>' . _("v1.6.1 is primarily a bug fix release, including the following changes:") . '</p>
+<ul>
+  <li>' . _("Prevent a crash if the 'View Filtered Data' filter dialog is cancelled. Per Erwin Brandstetter.") . '</li>
+  <li>' . _("Enable the OK button on the Database properties dialog when the owner is changed, per Jim Cullison") . '</li>
+  <li>' . _("Rework the Find/Replace code to fix a couple of minor bugs and improve readability.") . '</li>
+  <li>' . _("Fix deletion of stored procedures, Per Erwin.") . '</li>
+  <li>' . _("Include IN/OUT/INOUT keywords in procedure identifiers in the treeview.") . '</li>
+  <li>' . _("When checking the position & size of windows, use the dimensions of the current display, not the primary.") . '</li>
+  <li>' . _("Only enable the 'Include SQL' checkbox on the report dialog if there is SQL to include, Per Ezequias Rodrigues da Rocha") . '</li>
+  <li>' . _("Fix a minor bug in the index reverse engineering when using non-default operator classes per Andrus.") . '</li>
+  <li>' . _("Don't display index constraints under the Indexes node as well as the Contraints node, per Erwin.") . '</li>
+  <li>' . _("Properly quote function parameter names, per Ken Priest.") . '</li>
+  <li>' . _("Fix some portability issues in the configure code [Max Khon]") . '</li>
+  <li>' . _("Guard against permission denied errors in the edit grid per Howard Wang") . '</li>
+  <li>' . _("Don't paste into empty edit grids, per Howard Wang") . '</li>
+  <li>' . _("Prevent a crash from the query too when using File -> Exit on GTK") . '</li>
+  <li>' . _("Ensure backup and restore options are enabled when appropriate (this is a wxWidgets bug, fixed in wxWidgets 2.8.0rc1)") . '</li>
+</ul>
+
+<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
+
+
 <h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-11-16", "1.6.0") . '</h2>
 
 <p>' . _("I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
@@ -72,7 +100,6 @@ $PAGE_CONTENT = '
 <p>' . _("I would like to take this opportunity to thank all those who gave their time to help with the development, testing, translation and packaging of this release.") . '</p>
 
 <p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
-
 
 
 

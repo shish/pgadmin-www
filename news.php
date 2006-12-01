@@ -28,7 +28,7 @@ $PAGE_CONTENT = '
   <li>' . _("Fix some portability issues in the configure code [Max Khon]") . '</li>
   <li>' . _("Guard against permission denied errors in the edit grid per Howard Wang") . '</li>
   <li>' . _("Don't paste into empty edit grids, per Howard Wang") . '</li>
-  <li>' . _("Prevent a crash from the query too when using File -> Exit on GTK") . '</li>
+  <li>' . _("Prevent a crash from the query tool when using File -> Exit on GTK") . '</li>
   <li>' . _("Ensure backup and restore options are enabled when appropriate (this is a wxWidgets bug, fixed in wxWidgets 2.8.0rc1)") . '</li>
 </ul>
 

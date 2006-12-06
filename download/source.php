@@ -93,6 +93,7 @@ sudo make install
   <li>' . _("Unpack, build and install the source code:") . '<br />&nbsp;<br />
       ' . _("Note:") . '<br />&nbsp;<br />
       <ul>
+        <li>' . _("pgAdmin 1.6.0 and 1.6.1 need --with-wx-version=2.8 added to the configure command line to build against wxWidgets 2.8. pgAdmin 1.6.2 and above will default to 2.8.") . '</li>
         <li>' . _("You may need to use the --enable-debug option if attempting to track down a crash.") . '</li>
       </ul>&nbsp;<br />
 

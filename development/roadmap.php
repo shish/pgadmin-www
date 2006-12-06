@@ -27,8 +27,8 @@ $PAGE_CONTENT = '
   <li>' . _("Code housekeeping") . '<br />&nbsp;
     <ul>
       <li><del>' . _("Remove macros and code to support non-Unicode builds.") . '</del><br />&nbsp;</li>
-      <li>' . _("Remove macros and code to support wxWidgets 2.6 and older.") . '<br />&nbsp;</li>
-      <li>' . _("Refactor to remove base classes that offer no real benefit - e.g. pgSet/pgQueryThread which only have a couple of members between them.") . '<br />&nbsp;</li>
+      <li><del>' . _("Remove macros and code to support wxWidgets 2.6 and older.") . '</del><br />&nbsp;</li>
+      <li><del>' . _("Refactor to remove base classes that offer no real benefit - e.g. pgSet/pgQueryThread which only have a couple of members between them.") . '</del><br />&nbsp;</li>
       <li>' . _("Consider breaking out some larger classes into their own files - e.g. sqlTable from frmEditGrid, and pgQueryThread from pgSetBase.") . '<br />&nbsp;</li>
     </ul>
   </li>

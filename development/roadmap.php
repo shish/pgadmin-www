@@ -36,9 +36,9 @@ $PAGE_CONTENT = '
   <li>' . _("Build system") . '<br />&nbsp;
     <ul>
       <li>' . _("Don't install .xrc files with non-debug builds from the *nix build system.") . '<br />&nbsp;</li>
-      <li>' . _("Cleanup the Visual Studio project structure to match the actual directory layout.") . '<br />&nbsp;</li>
+      <li><del>' . _("Cleanup the Visual Studio project structure to match the actual directory layout.") . '</del><br />&nbsp;</li>
       <li>' . _("XCode project files for building on Mac.") . '<br />&nbsp;</li>      
-      <li>' . _("Restructure header files into a more organised directory layout.") . '<br />&nbsp;</li>
+      <li><del>' . _("Restructure header files into a more organised directory layout.") . '</del><br />&nbsp;</li>
       <li>' . _("Consider auto-generation of the *nix/XCode project files from the VC++ project files.") . '<br />&nbsp;</li>
     </ul>
   </li>

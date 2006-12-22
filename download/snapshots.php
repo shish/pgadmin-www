@@ -7,7 +7,7 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Snapshots") . '</h1>
 
-<p>' . sprintf(_("Source tarballs and binary snapshots for a variety of platforms are built from <a href=\"%s\">SVN trunk</a> daily. Other snapshots are built on a less regular basis, following programming milestones."), "http://svn.pgadmin.org/trunk/pgadmin3/") . '</p>
+<p>' . sprintf(_("Source tarballs and binary snapshots for a variety of platforms are built from <a href=\"%s\">SVN trunk</a> daily. Other snapshots are built on a less regular basis, following programming milestones."), "http://svn.pgadmin.org/cgi-bin/viewcvs.cgi/trunk/pgadmin3/") . '</p>
 
 <p>' . _("<b>WARNING:</b> Development snapshots have had little or no testing, and in some cases may not even run. It is only recommended that you use a snapshot if you are sure you know what you are doing, or are testing a specific bug fix or new feature on the direction of one of the developers. Please report any bugs or issue you may have with the development snapshots, but do remember that they are 'works in progress'.") . '</p>
 

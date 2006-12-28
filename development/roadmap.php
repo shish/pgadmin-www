@@ -53,7 +53,7 @@ $PAGE_CONTENT = '
       <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
       <li>' . _("Add a 'Run now' context menu option for Jobs.") . '<br />&nbsp;</li>
       <li>' . _("Retain column sizes in the Query Tool results grid when a query is re-run.") . '<br />&nbsp;</li>
-      <li>' . _("Ensure all file open/save dialogues remember their last location.") . '<br />&nbsp;</li>
+      <li><del>' . _("Ensure all file open/save dialogues remember their last location.") . '</del><br />&nbsp;</li>
     </ul>
   </li>
 

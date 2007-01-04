@@ -20,7 +20,7 @@ $PAGE_CONTENT = '
     </ul>
   <br />&nbsp;</li>
 
-  <li>' . sprintf(_("<a href=\"%s\">wxWidgets 2.6.x (for pgAdmin 1.4.x) or wxWidgets 2.7.x (for pgAdmin 1.5+)</a>. Currently, this is the only version we support."), "http://www.wxwidgets.org") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">wxWidgets</a> 2.6.x (for pgAdmin 1.4.x), wxWidgets 2.7.x (for pgAdmin 1.5 - 1.6.1) or wxWidgets 2.8.x (for pgAdmin 1.6.2 and above). Currently, this is the only version we support."), "http://www.wxwidgets.org") . '<br />&nbsp;</li>
 
   <li>' . sprintf(_("<a href=\"%s\">libxml2 2.6.18</a> or above (for pgAdmin 1.5+)."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
   

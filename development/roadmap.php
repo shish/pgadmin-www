@@ -20,7 +20,7 @@ $PAGE_CONTENT = '
   
   <li>' . _("Larger projects") . '<br />&nbsp;
     <ul>
-      <li>' . _("Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger. Include appropriate hooks into it from pgAdmin.") . '<br />&nbsp;</li>
+      <li>' . _("Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger. Include appropriate hooks into it from pgAdmin. [HS]") . '<br />&nbsp;</li>
     </ul>
   </li>
   

@@ -7,6 +7,33 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2007-01-08", "1.6.2") . '</h2>
+
+<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
+
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
+
+<p>' . _("v1.6.2 is primarily a bug fix release, including the following changes:") . '</p>
+<ul>
+  <li>' . _("Prevent the filter/sort options dialogue being opened when data is being refreshed, per Erwin Brandstetter.") . '</li>
+  <li>' . _("Fix per-table autovacuum settings for PostgreSQL >= 8.2 per Devrim Gunduz.") . '</li>
+  <li>' . _("Fix some oddities in the way current per-table vacuum settings are displayed.") . '</li>  
+  <li>' . _("Build against PostgreSQL 8.2 on Windows.") . '</li>	  
+  <li>' . _("Restore dialog sizes correctly.") . '</li>  
+  <li>' . _("Ensure column headers and the insert row are shown in the edit grid when no rows exist in the table being editted, per Bob Pawley.") . '</li>    
+  <li>' . _("Properly size the backup dialog, per Patrick Headley.") . '</li>    
+  <li>' . _("Add '...' to truncated column comments in table SQL, per Erwin Brandstetter.") . '</li>    
+  <li>' . _("Reverse engineer columns with multi-word names (like 'timestamp with timezone') correctly so that precision and array modifiers are included properly. Per Erwin Brandstetter.") . '</li>  
+  <li>' . _("Avoid a crash when closing the query tool on Solaris [Dhanaraj M].") . '</li>   
+  <li>' . _("Properly drop foreign keys in schemas whose names require quoting, per M S.") . '</li>  
+  <li>' . _("Avoid displaying multi line data in single line list controls, per Clodoaldo Pinto Neto.") . '</li> 
+  <li>' . _("Refresh database objects correctly, per Guy Rouillier.") . '</li>  
+  <li>' . _("Enable the OK button on the database properties dialog when variables are changed.") . '</li>  
+</ul>
+
+<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
+
+
 <h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-12-01", "1.6.1") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>

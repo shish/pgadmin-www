@@ -15,6 +15,7 @@ $PAGE_CONTENT = '
   <li>' . _("PostgreSQL 8.3 compatibility (these items are subject to change)") . '<br />&nbsp;
     <ul>
       <li>' . _("Enum support.") . '<br />&nbsp;</li>
+      <li>' . _("Operator family support.") . '<br />&nbsp;</li>
     </ul>
   </li>
   
@@ -54,6 +55,7 @@ $PAGE_CONTENT = '
       <li><del>' . _("Add a 'Run now' context menu option for Jobs.") . '</del><br />&nbsp;</li>
       <li>' . _("Retain column sizes in the Query Tool results grid when a query is re-run.") . '<br />&nbsp;</li>
       <li><del>' . _("Ensure all file open/save dialogues remember their last location.") . '</del><br />&nbsp;</li>
+      <li>' . _("Add line-ending conversion options to the query tool.") . '<br />&nbsp;</li>
     </ul>
   </li>
 

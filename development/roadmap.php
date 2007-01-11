@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -15,7 +15,7 @@ $PAGE_CONTENT = '
   <li>' . _("PostgreSQL 8.3 compatibility (these items are subject to change)") . '<br />&nbsp;
     <ul>
       <li>' . _("Enum support.") . '<br />&nbsp;</li>
-      <li>' . _("Operator family support.") . '<br />&nbsp;</li>
+      <li><del>' . _("Operator family support.") . '</del><br />&nbsp;</li>
     </ul>
   </li>
   

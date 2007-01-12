@@ -50,7 +50,7 @@ $PAGE_CONTENT = '
       <li>' . _("Allow backup of roles, or the entire database cluster.") . '<br />&nbsp;</li>
       <li><del>' . _("Differentiate between empty strings and NULLs in the query tool.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Retain the clipboard contents when closing the application.") . '</del><br />&nbsp;</li>
-      <li>' . _("Add pgstattuple support. [GL]") . '<br />&nbsp;</li>
+      <li><del>' . _("Add pgstattuple support. [GL]") . '</del><br />&nbsp;</li>
       <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
       <li><del>' . _("Add a 'Run now' context menu option for Jobs.") . '</del><br />&nbsp;</li>
       <li>' . _("Retain column sizes in the Query Tool results grid when a query is re-run.") . '<br />&nbsp;</li>

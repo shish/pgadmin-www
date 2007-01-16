@@ -51,6 +51,10 @@ $PAGE_CONTENT = '
       <li><del>' . _("Differentiate between empty strings and NULLs in the query tool.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Retain the clipboard contents when closing the application.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Add pgstattuple support. [GL]") . '</del><br />&nbsp;</li>
+      <li>' . _("Add index information from 8.2 pgstattuple. [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Add index information from pgstattuple. [GL]") . '<br />&nbsp;</li>
       <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
       <li><del>' . _("Add a 'Run now' context menu option for Jobs.") . '</del><br />&nbsp;</li>
       <li>' . _("Retain column sizes in the Query Tool results grid when a query is re-run.") . '<br />&nbsp;</li>

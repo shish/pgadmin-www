@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-11 07:52+0100\n"
+"POT-Creation-Date: 2007-02-14 09:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,15 +52,15 @@ msgstr ""
 #: ../download/macosx.php:18 ../download/macosx.php:19
 #: ../download/macosx.php:20 ../download/macosx.php:21 ../download/rpm.php:14
 #: ../download/rpm.php:15 ../download/rpm.php:16 ../download/rpm.php:17
-#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
-#: ../download/slackware.php:15 ../download/slackware.php:16
-#: ../download/slackware.php:17 ../download/slackware.php:18
-#: ../download/slackware.php:19 ../download/slackware.php:20
-#: ../download/slackware.php:21 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24
+#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/rpm.php:20
+#: ../download/slackware.php:14 ../download/slackware.php:15
+#: ../download/slackware.php:16 ../download/slackware.php:17
+#: ../download/slackware.php:18 ../download/slackware.php:19
+#: ../download/slackware.php:20 ../download/slackware.php:21
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
@@ -199,17 +199,25 @@ msgid ""
 "Add -qc switch to open query tool and autoconnect using a connection string."
 msgstr ""
 
+#: ../development/roadmap.php:56
+msgid "Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]"
+msgstr ""
+
 #: ../news.php:101
 msgid ""
 "Add CREATE/INSERT/UPDATE/SELECT script menu options for various object types "
 "to create script templates."
 msgstr ""
 
+#: ../development/roadmap.php:57
+msgid "Add DROP/REASSIGN OWNED support. [GL]"
+msgstr ""
+
 #: ../news.php:93
 msgid "Add a 'Favourites' query organiser to the Query Tool."
 msgstr ""
 
-#: ../development/roadmap.php:55
+#: ../development/roadmap.php:59
 msgid "Add a 'Run now' context menu option for Jobs."
 msgstr ""
 
@@ -254,7 +262,11 @@ msgstr ""
 msgid "Add brace highlighting to the SQL Text Box control."
 msgstr ""
 
-#: ../development/roadmap.php:58
+#: ../development/roadmap.php:55
+msgid "Add index information from 8.2 pgstattuple. [GL]"
+msgstr ""
+
+#: ../development/roadmap.php:62
 msgid "Add line-ending conversion options to the query tool."
 msgstr ""
 
@@ -262,12 +274,16 @@ msgstr ""
 msgid "Add options to show line ends and whitespaces in the query tool."
 msgstr ""
 
-#: ../development/roadmap.php:53
+#: ../development/roadmap.php:54
 msgid "Add pgstattuple support. [GL]"
 msgstr ""
 
 #: ../news.php:119
 msgid "Add support for building Mac Universal Binaries."
+msgstr ""
+
+#: ../development/roadmap.php:19
+msgid "Add support for function row and cost estimations."
 msgstr ""
 
 #: ../download/adminpacks.php:8 ../download/menu.php:7
@@ -282,7 +298,7 @@ msgstr ""
 msgid "Aggregates"
 msgstr ""
 
-#: ../development/roadmap.php:50
+#: ../development/roadmap.php:51
 msgid "Allow backup of roles, or the entire database cluster."
 msgstr ""
 
@@ -341,7 +357,7 @@ msgid ""
 "reconnecting to a particular server."
 msgstr ""
 
-#: ../development/roadmap.php:49
+#: ../development/roadmap.php:50
 msgid "Allow use of Command-W to close dialogues and windows on Mac."
 msgstr ""
 
@@ -448,7 +464,7 @@ msgstr ""
 msgid "Build against PostgreSQL 8.2 on Windows."
 msgstr ""
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:38
 msgid "Build system"
 msgstr ""
 
@@ -477,13 +493,13 @@ msgid ""
 "Check the <i>Automatically compile .mo file on save</i> option in Properties."
 msgstr ""
 
-#: ../development/roadmap.php:40
+#: ../development/roadmap.php:41
 msgid ""
 "Cleanup the Visual Studio project structure to match the actual directory "
 "layout."
 msgstr ""
 
-#: ../development/roadmap.php:28
+#: ../development/roadmap.php:29
 msgid "Code housekeeping"
 msgstr ""
 
@@ -507,13 +523,13 @@ msgstr ""
 msgid "Configuration file editing"
 msgstr ""
 
-#: ../development/roadmap.php:43
+#: ../development/roadmap.php:44
 msgid ""
 "Consider auto-generation of the *nix/XCode project files from the VC++ "
 "project files."
 msgstr ""
 
-#: ../development/roadmap.php:33
+#: ../development/roadmap.php:34
 msgid ""
 "Consider breaking out some larger classes into their own files - e.g. "
 "sqlTable from frmEditGrid, and pgQueryThread from pgSetBase."
@@ -593,6 +609,10 @@ msgstr ""
 msgid "Debian Woody (oldstable)"
 msgstr ""
 
+#: ../privacypolicy.php:18
+msgid "Demographic data"
+msgstr ""
+
 #: ../features.php:22
 msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr ""
@@ -622,7 +642,7 @@ msgstr ""
 msgid "Development team"
 msgstr ""
 
-#: ../development/roadmap.php:51
+#: ../development/roadmap.php:52
 msgid "Differentiate between empty strings and NULLs in the query tool."
 msgstr ""
 
@@ -674,7 +694,7 @@ msgid ""
 "Contraints node, per Erwin."
 msgstr ""
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:40
 msgid ""
 "Don't install .xrc files with non-debug builds from the *nix build system."
 msgstr ""
@@ -740,7 +760,7 @@ msgid ""
 "rows or individual cells."
 msgstr ""
 
-#: ../development/roadmap.php:57
+#: ../development/roadmap.php:61
 msgid "Ensure all file open/save dialogues remember their last location."
 msgstr ""
 
@@ -849,6 +869,10 @@ msgstr ""
 
 #: ../translation/howto.php:10
 msgid "Getting started"
+msgstr ""
+
+#: ../privacypolicy.php:22
+msgid "Google analytics"
 msgstr ""
 
 #: ../features.php:71
@@ -1004,7 +1028,7 @@ msgstr ""
 msgid "Installation"
 msgstr ""
 
-#: ../development/roadmap.php:24
+#: ../development/roadmap.php:25
 msgid ""
 "Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger. Include "
 "appropriate hooks into it from pgAdmin. [HS]"
@@ -1085,7 +1109,7 @@ msgid ""
 "message catalogue."
 msgstr ""
 
-#: ../development/roadmap.php:22
+#: ../development/roadmap.php:23
 msgid "Larger projects"
 msgstr ""
 
@@ -1137,7 +1161,7 @@ msgstr ""
 msgid "Logfile browser"
 msgstr ""
 
-#: ../development/roadmap.php:54
+#: ../development/roadmap.php:58
 msgid ""
 "Logfile tab on server status window : multiple columns and filtering. [GL]"
 msgstr ""
@@ -1218,7 +1242,7 @@ msgstr ""
 msgid "Minimal linking for pgAgent under *nix."
 msgstr ""
 
-#: ../development/roadmap.php:47
+#: ../development/roadmap.php:48
 msgid "Miscellaneous tweaks"
 msgstr ""
 
@@ -1370,6 +1394,10 @@ msgstr ""
 msgid "Overhaul of server config settings."
 msgstr ""
 
+#: ../privacypolicy.php:14
+msgid "Personal data"
+msgstr ""
+
 #: ../features.php:25
 msgid "Pervasive Postgres"
 msgstr ""
@@ -1475,6 +1503,10 @@ msgid ""
 "refreshed, per Erwin Brandstetter."
 msgstr ""
 
+#: ../menu.php:11 ../privacypolicy.php:8
+msgid "Privacy policy"
+msgstr ""
+
 #: ../news.php:76
 msgid "Privilege changes (database CONNECT, and sequence USAGE)."
 msgstr ""
@@ -1514,7 +1546,7 @@ msgstr ""
 msgid "RPM"
 msgstr ""
 
-#: ../development/roadmap.php:32
+#: ../development/roadmap.php:33
 msgid ""
 "Refactor to remove base classes that offer no real benefit - e.g. pgSet/"
 "pgQueryThread which only have a couple of members between them."
@@ -1533,11 +1565,11 @@ msgstr ""
 msgid "Release %s"
 msgstr ""
 
-#: ../development/roadmap.php:30
+#: ../development/roadmap.php:31
 msgid "Remove macros and code to support non-Unicode builds."
 msgstr ""
 
-#: ../development/roadmap.php:31
+#: ../development/roadmap.php:32
 msgid "Remove macros and code to support wxWidgets 2.6 and older."
 msgstr ""
 
@@ -1549,16 +1581,16 @@ msgstr ""
 msgid "Restore dialog sizes correctly."
 msgstr ""
 
-#: ../development/roadmap.php:42
+#: ../development/roadmap.php:43
 msgid "Restructure header files into a more organised directory layout."
 msgstr ""
 
-#: ../development/roadmap.php:56
+#: ../development/roadmap.php:60
 msgid ""
 "Retain column sizes in the Query Tool results grid when a query is re-run."
 msgstr ""
 
-#: ../development/roadmap.php:52
+#: ../development/roadmap.php:53
 msgid "Retain the clipboard contents when closing the application."
 msgstr ""
 
@@ -1719,6 +1751,10 @@ msgid ""
 "Source tarballs and binary snapshots for a variety of platforms are built "
 "from <a href=\"%s\">SVN trunk</a> daily. Other snapshots are built on a less "
 "regular basis, following programming milestones."
+msgstr ""
+
+#: ../privacypolicy.php:10
+msgid "Standard logging"
 msgstr ""
 
 #: ../include/po_status.php:259 ../translation/menu.php:7
@@ -2133,6 +2169,27 @@ msgid ""
 "development cycle for release in version %s of pgAdmin."
 msgstr ""
 
+#: ../privacypolicy.php:24
+msgid ""
+"This website uses Google Analytics, a web analytics service provided by "
+"Google, Inc. (\"Google\"). Google Analytics uses \"cookies\", which are text "
+"files placed on your computer, to help the website analyze how users use the "
+"site. The information generated by the cookie about your use of the website "
+"(including your IP address) will be transmitted to and stored by Google on "
+"servers in the United States. Google will use this information for the "
+"purpose of evaluating your use of the website, compiling reports on website "
+"activity for website operators and providing other services relating to "
+"website activity and internet usage. Google may also transfer this "
+"information to third parties where required to do so by law, or where such "
+"third parties process the information on Google's behalf. Google will not "
+"associate your IP address with any other data held by Google. You may refuse "
+"the use of cookies by selecting the appropriate settings on your browser, "
+"however please note that if you do this you may not be able to use the full "
+"functionality of this website. By using this website, you consent to the "
+"processing of data about you by Google in the manner and for the purposes "
+"set out above."
+msgstr ""
+
 #: ../download/languages.php:14
 #, php-format
 msgid ""
@@ -2159,7 +2216,7 @@ msgid ""
 "can be installed on the same machine at the same time."
 msgstr ""
 
-#: ../download/freebsd.php:20 ../download/rpm.php:22
+#: ../download/freebsd.php:20 ../download/rpm.php:23
 msgid "To install these packages, use a command such as:"
 msgstr ""
 
@@ -2317,6 +2374,17 @@ msgid ""
 "Debian/Woody."
 msgstr ""
 
+#: ../privacypolicy.php:20
+msgid ""
+"We may collect demographic and interest category information from people via "
+"surveys, volunteered information, suggestions from members, and other means. "
+"Our members may voluntarily provide information, including that regarding "
+"personal, interests, geography, and demographics. The purpose of this data "
+"collection is to ensure we continue to understand the needs and wants of the "
+"PostgreSQL community, and therefore can provide the most relevant "
+"information, guides, and content."
+msgstr ""
+
 #: ../contribute.php:18
 #, php-format
 msgid ""
@@ -2341,6 +2409,16 @@ msgid ""
 "We provide source and binary packages for FreeBSD, Linux, Mac OSX and "
 "Microsoft Windows &trade;. Solaris binaries may also be compiled from the "
 "source code."
+msgstr ""
+
+#: ../privacypolicy.php:16
+msgid ""
+"We store information such as your email address, name and locality only if "
+"you decide to send us such information by completing a survey, or "
+"registering as a user on one of our sites. We collect this information to "
+"help us improve the content of our sites, customize the layout of our web "
+"pages and to contact people for technical and support purposes. We will not "
+"share your email address with other organizations unless required by law."
 msgstr ""
 
 #: ../news.php:50
@@ -2369,6 +2447,12 @@ msgid ""
 "template for a new language source file."
 msgstr ""
 
+#: ../privacypolicy.php:12
+msgid ""
+"When you visit our website, our servers automatically log your IP address "
+"and/or host name."
+msgstr ""
+
 #: ../advocacy/index.php:10
 msgid "Why promote pgAdmin?"
 msgstr ""
@@ -2386,7 +2470,7 @@ msgstr ""
 msgid "Windows 2000, XP, 2003: Microsoft Visual C++ 2005."
 msgstr ""
 
-#: ../development/roadmap.php:41
+#: ../development/roadmap.php:42
 msgid "XCode project files for building on Mac."
 msgstr ""
 
@@ -2761,6 +2845,10 @@ msgstr ""
 
 #: ../index.php:5
 msgid "pgAdmin III: PostgreSQL administration and management tools"
+msgstr ""
+
+#: ../privacypolicy.php:5
+msgid "pgAdmin III: Privacy policy"
 msgstr ""
 
 #: ../screenshots/data.php:5

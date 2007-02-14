@@ -176,6 +176,13 @@ google_color_text = "000000";
   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
+<!-- Google Analytics -->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">_uacct = "UA-1345454-3";urchinTracker();</script>
+
+<!-- End Google Analytics -->
+
 </td>
 </tr>
 </table>

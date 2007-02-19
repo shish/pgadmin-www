@@ -26,7 +26,7 @@ $PAGE_CONTENT = '
   
   <li>' . sprintf(_("<a href=\"%s\">libxslt 1.1.x</a> or above (for pgAdmin 1.5+)."), "http://www.xmlsoft.org") . '<br />&nbsp;</li>
 
-  <li>' . sprintf(_("<a href=\"%s\">PostgreSQL 7.4</a> or above (8.0 or above on Windows)."), "http://www.postgresql.org/ftp/latest/") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">PostgreSQL 8.0</a> or above."), "http://www.postgresql.org/ftp/latest/") . '<br />&nbsp;</li>
 </ul>
 
 <p>' . sprintf(_("Precompiled XML/XSLT and dependency packages for Windows can be found at <a href=\"%s\">zlatkovic.com</a>. You probably need iconv 1.9.x and zlib 1.2.x as well as libxml2 and libxslt."), "http://www.zlatkovic.com/pub/libxml/") . '</p>

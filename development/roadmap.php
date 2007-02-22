@@ -48,12 +48,12 @@ $PAGE_CONTENT = '
   <li>' . _("Miscellaneous tweaks") . '<br />&nbsp;
     <ul>
       <li>' . _("Allow use of Command-W to close dialogues and windows on Mac.") . '<br />&nbsp;</li>
-      <li>' . _("Allow backup of roles, or the entire database cluster.") . '<br />&nbsp;</li>
+      <li><del>' . _("Allow backup of roles, or the entire database cluster.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Differentiate between empty strings and NULLs in the query tool.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Retain the clipboard contents when closing the application.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Add pgstattuple support. [GL]") . '</del><br />&nbsp;</li>
-      <li>' . _("Add index information from 8.2 pgstattuple. [GL]") . '<br />&nbsp;</li>
-      <li>' . _("Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]") . '<br />&nbsp;</li>
+      <li><del>' . _("Add index information from 8.2 pgstattuple. [GL]") . '</del><br />&nbsp;</li>
+      <li><del>' . _("Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]") . '</del><br />&nbsp;</li>
       <li>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '<br />&nbsp;</li>
       <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
       <li><del>' . _("Add a 'Run now' context menu option for Jobs.") . '</del><br />&nbsp;</li>

@@ -47,7 +47,7 @@
   $outofdate->addLanguage ("ru_RU", "Russian", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po","i18n/ru_RU/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("sk_SK", "Slovak", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po","i18n/sk_SK/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("sl_SI", "Slovenian", "Miha Radej", "miha.radej@siix.com", "pgadmin3.po","i18n/sl_SI/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
-  $translated->addLanguage ("sr_YU", "Serbian", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po","i18n/sr_YU/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
+  $translated->addLanguage ("sr_YU", "Serbian", "Bojan Skaljac", "skaljac@gmail.com", "pgadmin3.po","i18n/sr_YU/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("sv_SE", "Swedish", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po","i18n/sv_SE/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("te_IN", "Telugu", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po","i18n/te_IN/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");
   $outofdate->addLanguage ("tl_PH", "Filipino/Tagalog", "Unmaintained", "pgadmin-hackers@postgresql.org", "pgadmin3.po","i18n/tl_PH/pgadmin3.po", "pgadmin3.pot", "pgadmin3.pot");

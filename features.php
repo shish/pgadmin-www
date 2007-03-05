@@ -22,9 +22,8 @@ $PAGE_CONTENT = '
 <h2>' . _("Designed for multiple PostgreSQL versions and derivatives") . '</h2>
 <ul>
   <li>' . _("PostgreSQL 7.3 and above") . '</li>
-  <li>' . _("Pervasive Postgres") . '</li>
   <li>' . _("EnterpriseDB") . '</li>
-  <li>' . _("SRA PowerGres") . '</li>
+  <li>' . _("Mammoth PostgreSQL") . '</li>
 </ul>
 
 <h2>' . _("Extensive documentation") . '</h2>

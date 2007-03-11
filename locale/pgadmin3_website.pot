@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-05 08:58+0000\n"
+"POT-Creation-Date: 2007-03-12 01:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,20 +47,22 @@ msgstr ""
 
 #: ../download/freebsd.php:14 ../download/freebsd.php:15
 #: ../download/freebsd.php:16 ../download/freebsd.php:17
-#: ../download/macosx.php:14 ../download/macosx.php:15
-#: ../download/macosx.php:16 ../download/macosx.php:17
-#: ../download/macosx.php:18 ../download/macosx.php:19
-#: ../download/macosx.php:20 ../download/macosx.php:21 ../download/rpm.php:14
-#: ../download/rpm.php:15 ../download/rpm.php:16 ../download/rpm.php:17
-#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/rpm.php:20
-#: ../download/slackware.php:14 ../download/slackware.php:15
-#: ../download/slackware.php:16 ../download/slackware.php:17
-#: ../download/slackware.php:18 ../download/slackware.php:19
-#: ../download/slackware.php:20 ../download/slackware.php:21
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/freebsd.php:18 ../download/macosx.php:14
+#: ../download/macosx.php:15 ../download/macosx.php:16
+#: ../download/macosx.php:17 ../download/macosx.php:18
+#: ../download/macosx.php:19 ../download/macosx.php:20
+#: ../download/macosx.php:21 ../download/opensuse.php:14
+#: ../download/rpm.php:14 ../download/rpm.php:15 ../download/rpm.php:16
+#: ../download/rpm.php:17 ../download/rpm.php:18 ../download/rpm.php:19
+#: ../download/rpm.php:20 ../download/slackware.php:14
+#: ../download/slackware.php:15 ../download/slackware.php:16
+#: ../download/slackware.php:17 ../download/slackware.php:18
+#: ../download/slackware.php:19 ../download/slackware.php:20
+#: ../download/slackware.php:21 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
@@ -484,7 +486,7 @@ msgstr ""
 msgid "Change log"
 msgstr ""
 
-#: ../download/freebsd.php:32
+#: ../download/freebsd.php:33
 msgid "Check that the pgAdmin III executable is in the path:"
 msgstr ""
 
@@ -559,7 +561,7 @@ msgstr ""
 msgid "Couldn't find the document content!"
 msgstr ""
 
-#: ../download/freebsd.php:26
+#: ../download/freebsd.php:27
 msgid "Create a symlink to the pgAdmin III binary:"
 msgstr ""
 
@@ -1199,8 +1201,9 @@ msgid "Maintainer"
 msgstr ""
 
 #: ../download/debian.php:10 ../download/freebsd.php:10
-#: ../download/macosx.php:10 ../download/rpm.php:10
-#: ../download/slackware.php:10 ../download/windows.php:10
+#: ../download/macosx.php:10 ../download/opensuse.php:10
+#: ../download/rpm.php:10 ../download/slackware.php:10
+#: ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr ""
@@ -1339,7 +1342,7 @@ msgid ""
 "developing complex databases. The graphical interface supports all "
 "PostgreSQL features and makes administration easy. Available in more than a "
 "dozen languages and for several operating systems, including Microsoft "
-"Windows &trade;, Linux, FreeBSD, Mac OSX and Solaris."
+"Windows &trade;, Linux, FreeBSD, OpenSUSE, Mac OSX and Solaris."
 msgstr ""
 
 #: ../advocacy/information.php:26
@@ -1367,6 +1370,17 @@ msgstr ""
 
 #: ../features.php:18
 msgid "OpenBSD"
+msgstr ""
+
+#: ../download/menu.php:14 ../download/opensuse.php:8
+msgid "OpenSUSE"
+msgstr ""
+
+#: ../download/opensuse.php:12
+msgid ""
+"OpenSUSE packages built on a server periodically updated to -current are "
+"available for download. These builds should run on most recent versions of "
+"OpenSUSE."
 msgstr ""
 
 #: ../features.php:72
@@ -1718,7 +1732,7 @@ msgstr ""
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr ""
 
-#: ../download/menu.php:14 ../download/snapshots.php:8
+#: ../download/menu.php:15 ../download/snapshots.php:8
 msgid "Snapshots"
 msgstr ""
 
@@ -1737,7 +1751,7 @@ msgid ""
 "translated as <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
 msgstr ""
 
-#: ../download/menu.php:15 ../download/source.php:8
+#: ../download/menu.php:16 ../download/source.php:8
 msgid "Source code"
 msgstr ""
 
@@ -2212,8 +2226,14 @@ msgid ""
 "can be installed on the same machine at the same time."
 msgstr ""
 
-#: ../download/freebsd.php:20 ../download/rpm.php:23
+#: ../download/freebsd.php:21 ../download/rpm.php:23
 msgid "To install these packages, use a command such as:"
+msgstr ""
+
+#: ../download/opensuse.php:17
+msgid ""
+"To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
+"i> utilities."
 msgstr ""
 
 #: ../download/slackware.php:24
@@ -2452,7 +2472,7 @@ msgstr ""
 msgid "Why promote pgAdmin?"
 msgstr ""
 
-#: ../download/menu.php:16 ../download/windows.php:8
+#: ../download/menu.php:17 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr ""
@@ -2664,10 +2684,10 @@ msgid ""
 "pgAdmin III is the most popular and feature rich Open Source administration "
 "and development platform for <a href=\"%s\">PostgreSQL</a>, the most "
 "advanced Open Source database in the world. The application may be used on "
-"Linux, FreeBSD, Solaris, Mac OSX and Windows platforms to manage PostgreSQL "
-"7.3 and above running on any platform, as well as commercial versions of "
-"PostgreSQL such as <a href=\"%s\">EnterpriseDB</a> and <a href=\"%s"
-"\">Mammoth PostgreSQL</a>."
+"Linux, FreeBSD, OpenSUSE, Solaris, Mac OSX and Windows platforms to manage "
+"PostgreSQL 7.3 and above running on any platform, as well as commercial "
+"versions of PostgreSQL such as <a href=\"%s\">EnterpriseDB</a> and <a href="
+"\"%s\">Mammoth PostgreSQL</a>."
 msgstr ""
 
 #: ../download/debian.php:12
@@ -2795,6 +2815,10 @@ msgstr ""
 
 #: ../download/macosx.php:5
 msgid "pgAdmin III: Download - Mac OSX"
+msgstr ""
+
+#: ../download/opensuse.php:5
+msgid "pgAdmin III: Download - OpenSUSE"
 msgstr ""
 
 #: ../download/rpm.php:5

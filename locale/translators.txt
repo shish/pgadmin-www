@@ -11,3 +11,8 @@ ru_RU (Russian)
 ---------------
 
 Serguei A. Mokhov [mokhov at cs.concordia.ca]
+
+zh_CN (Simplified Chinese)
+--------------------------
+
+Quan Zongliang [quanzongliang at hotmail.com]

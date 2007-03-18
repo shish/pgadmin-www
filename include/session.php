@@ -36,9 +36,9 @@ switch ($lang){
     break;
 
   case "zh_CN":
-    $_SESSION['xPGA']['css'] = "pgadmin-rtl.css";
+    $_SESSION['xPGA']['css'] = "pgadmin-ltr.css";
     $_SESSION['xPGA']['lang'] = $lang;
-    $_SESSION['xPGA']['direction'] = "rtl";
+    $_SESSION['xPGA']['direction'] = "ltr";
     break;
 
   default:

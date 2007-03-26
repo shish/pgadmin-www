@@ -7,6 +7,43 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2007-03-26", "1.6.3") . '</h2>
+
+<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.3, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD
+, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
+
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
+
+<p>' . _("v1.6.3 is primarily a bug fix release, including the following changes:") . '</p>
+<ul>
+  <li>' . _("Fix an overflow bug in pgAgent, per report from Sabin Coanda") . '</li>
+  <li>' . _("Fix a bug that prevented adding new nodes to a Slony cluster, per Duncan Beeby.") . '</li>
+  <li>' . _("Remember the server's SSL mode property correctly.") . '</li>
+  <li>' . _("Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL 8.2+, per Erwin.") . '</li>
+  <li>' . _("Minor fix for edb/spl functions.") . '</li>
+  <li>' . _("Fix procedure support on EnterpriseDB AS81.") . '</li>
+  <li>' . _("Fix a rare bug in the Edit Grid which could cause a crash when editting data in tables with deleted columns and a primary key that isn;t at the beginning of the table. Thanks to Patrick De Visschere for the test case.") . '</li>
+  <li>' . _("Use the correct version of the Slony scripts when creating a new cluster, per Duncan Beeby.") . '</li>
+  <li>' . _("Prevent the Edit Grid Filter causing a crash if an invalid filter containing a % is used, per Erwin.") . '</li>
+  <li>' . _("Fix a minor bug in app bundle creation for Mac [Florian G. Pflug]") . '</li>
+  <li>' . _("Fix the graphical explain to properly display backwards index scan nodes, per Brendan O'Shea.") . '</li>
+  <li>' . _("Fix default perspective names, per Ezequias.") . '</li>
+  <li>' . _("Monitor the streams again whilst backing up on Mac - this no longer crashes in wx2.8. Per Dave Livesay.") . '</li>
+  <li>' . _("Fix a crash on Mac that occurred when using some combo boxes, per David Lowry.") . '</li>
+  <li>' . _("Fix menu icon for Gnome [Nathan Egge]") . '</li>
+  <li>' . _("Allow users with SUPERUSER but no other privilege flags to create roles and databases etc. per Andy Shellam.") . '</li>
+  <li>' . _("Handle non-default schema paths properly in the Foreign Key dialogue, per Philipp Specht") . '</li>
+  <li>' . _("Fix localisation of 'Tab' as a copy delimiter.") . '</li>
+  <li>' . _("Update to support the changed syntax of pg_dump 8.2+.") . '</li>
+  <li>' . _("Add support for Sun's compiler [Dhanaraj M]") . '</li>
+  <li>' . _("Fix an issue in the Query Tool export option that could result in blank lines in the export file, per Mathias Durst and Mike.") . '</li>
+  <li>' . _("Truncate comments containing \\r\\n correctly, per Erwin.") . '</li>
+  <li>' . _("Fix query tool title which was unfortunately broken by an earlier fix for another bug.") . '</li>
+</ul>
+
+<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
+
+
 <h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2007-01-08", "1.6.2") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>

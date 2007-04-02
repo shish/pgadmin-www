@@ -109,15 +109,25 @@ sudo make install<br />
 
 <h4>' . _("Microsoft Windows 2000, XP & 2003") . '</h4>
 
-<p>' . _("The pgAdmin dependencies must first be installed in the appropriate locations on your system:") . '</p>
+<p>' . _("For versions from 1.7 (2007-04-02), the dependencies must first be installed:") . '</p>
 <ol>
-  <li>' . _("PostgreSQL 8.1, installed into the default location from the official PostgreSQL installer (pgInstaller).") . '<br />&nbsp;</li>
-  <li>' . _("wxWidgets 2.7 (2.6 for pgAdmin 1.4.x), installed into \$BUILD_ROOT/pgadmin3-deps/wxwidgets.") . '<br />&nbsp;</li>
-  <li>' . _("libxml2 2.6.18 (or above), installed into \$BUILD_ROOT/pgadmin3-deps/libxml2.") . '<br />&nbsp;</li>
-  <li>' . _("libxslt 1.1, installed into \$BUILD_ROOT/pgadmin3-deps/libxslt.") . '</li>
+  <li>' . _("PostgreSQL 8.x, installed into a directory pointed to by %PGDIR%") . '<br />&nbsp;</li>
+  <li>' . _("wxWidgets 2.8.x, installed into a directory pointed to by %WXWIN%") . '<br />&nbsp;</li>
+  <li>' . _("libxml2 2.6.18 or above, installed into a directory pointed to by %PGBUILD%\libxml2") . '<br />&nbsp;</li>
+  <li>' . _("libxslt 1.1.x, installed into a directory pointed to by %PGBUILD%\libxslt") . '<br />&nbsp;</li>
+  <li>' . _("iconv 1.9.x, installed into a directory pointed to by %PGBUILD%\iconv") . '</li>
 </ol>
 
-<p>' . _("In addition, libxml2/libxslt may also require iconv and zlib. If you are building the pgAdmin installer, these must be installed into \$BUILD_ROOT/pgadmin3-deps/iconv and \$BUILD_ROOT/pgadmin3-deps/zlib respectively.") . '</p>
+<p>' . _("For versions prior to 1.7 (2007-04-02), the dependencies must first be installed in the appropriate locations on your system:") . '</p>
+<ol>
+  <li>' . _("PostgreSQL 8.1, installed into the default location from the official PostgreSQL installer (pgInstaller).") . '<br />&nbsp;</li>
+  <li>' . _("wxWidgets 2.8 (2.6 for pgAdmin 1.4.x), installed into \$BUILD_ROOT/pgadmin3-deps/wxwidgets.") . '<br />&nbsp;</li>
+  <li>' . _("libxml2 2.6.18 (or above), installed into \$BUILD_ROOT/pgadmin3-deps/libxml2.") . '<br />&nbsp;</li>
+  <li>' . _("libxslt 1.1, installed into \$BUILD_ROOT/pgadmin3-deps/libxslt.") . '</li>
+  <li>' . _("iconv 1.9, installed into \$BUILD_ROOT/pgadmin3-deps/iconv.") . '</li>
+</ol>
+
+<p>' . _("In addition, libxml2/libxslt may also require  zlib. If you are building the pgAdmin installer, these must be installed into %PGBUILD%\zlib (or \$BUILD_ROOT/pgadmin3-deps/zlib for the older builds) respectively.") . '</p>
 
 <p>' . _("The source tree should be unpacked into \$BUILD_ROOT. The directory can be called whatever you like, as long as its at the right directory level - for example, you might have \$BUILD_ROOT/pgadmin3-deps, \$BUILD_ROOT/pgadmin3-dev and \$BUILD_ROOT/pgadmin3-1.4. A Visual Studio/C++ 2005 solution file for pgAdmin may be found in the root of the source tree. Load the project into Visual C++ and build the desired targets.") . '</p>
 

@@ -14,9 +14,9 @@ $PAGE_CONTENT = '
 <ul>
   <li>' . _("PostgreSQL 8.3 compatibility (these items are subject to change)") . '<br />&nbsp;
     <ul>
-      <li>' . _("Enum support.") . '<br />&nbsp;</li>
+      <li><del>' . _("Enum support.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Operator family support.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Add support for function row and cost estimations.") . '<br />&nbsp;</li>
+      <li>' . _("Add support for function row and cost estimations.") . '<br />&nbsp;</li>
     </ul>
   </li>
   
@@ -31,7 +31,7 @@ $PAGE_CONTENT = '
       <li><del>' . _("Remove macros and code to support non-Unicode builds.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Remove macros and code to support wxWidgets 2.6 and older.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Refactor to remove base classes that offer no real benefit - e.g. pgSet/pgQueryThread which only have a couple of members between them.") . '</del><br />&nbsp;</li>
-      <li>' . _("Consider breaking out some larger classes into their own files - e.g. sqlTable from frmEditGrid, and pgQueryThread from pgSetBase.") . '<br />&nbsp;</li>
+      <li><del>' . _("Consider breaking out some larger classes into their own files - e.g. sqlTable from frmEditGrid, and pgQueryThread from pgSetBase.") . '</del><br />&nbsp;</li>
     </ul>
   </li>
   

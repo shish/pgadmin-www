@@ -16,7 +16,7 @@ $PAGE_CONTENT = '
     <ul>
       <li><del>' . _("Enum support.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Operator family support.") . '</del><br />&nbsp;</li>
-      <li>' . _("Add support for function row and cost estimations.") . '<br />&nbsp;</li>
+      <li><del>' . _("Add support for function row and cost estimations.") . '<del><br />&nbsp;</li>
     </ul>
   </li>
   

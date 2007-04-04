@@ -39,23 +39,23 @@ $PAGE_CONTENT = '
     <ul>
       <li>' . _("Don't install .xrc files with non-debug builds from the *nix build system.") . '<br />&nbsp;</li>
       <li><del>' . _("Cleanup the Visual Studio project structure to match the actual directory layout.") . '</del><br />&nbsp;</li>
-      <li>' . _("XCode project files for building on Mac.") . '<br />&nbsp;</li>      
+      <li><del>' . _("XCode project files for building on Mac.") . '</del> ' . _("A procedure for debugging using XCode has been documented in xtra/wx-build/readme.txt.") . '<br />&nbsp;</li>      
       <li><del>' . _("Restructure header files into a more organised directory layout.") . '</del><br />&nbsp;</li>
-      <li>' . _("Consider auto-generation of the *nix/XCode project files from the VC++ project files.") . '<br />&nbsp;</li>
+      <li><del>' . _("Consider auto-generation of the *nix/XCode project files from the VC++ project files.") . '</del> ' . _("This item does not seem practical at present.") . '<br />&nbsp;</li>
     </ul>
   </li>
   
   <li>' . _("Miscellaneous tweaks") . '<br />&nbsp;
     <ul>
-      <li>' . _("Allow use of Command-W to close dialogues and windows on Mac.") . '<br />&nbsp;</li>
+      <li><del>' . _("Allow use of Command-W to close dialogues and windows on Mac.") . '</del> ' . _("This item has been moved to the BUGS list.") . '<br />&nbsp;</li>
       <li><del>' . _("Allow backup of roles, or the entire database cluster.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Differentiate between empty strings and NULLs in the query tool.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Retain the clipboard contents when closing the application.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Add pgstattuple support. [GL]") . '</del><br />&nbsp;</li>
       <li><del>' . _("Add index information from 8.2 pgstattuple. [GL]") . '</del><br />&nbsp;</li>
       <li><del>' . _("Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]") . '</del><br />&nbsp;</li>
-      <li>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '<br />&nbsp;</li>
-      <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
+      <li><del>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '</del> ' . _("This item has been deferred for the next version.") . '<br />&nbsp;</li>
+      <li><del>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '</del> ' . _("This item has been deferred for the next version.") . '<br />&nbsp;</li>
       <li><del>' . _("Add a 'Run now' context menu option for Jobs.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Retain column sizes in the Query Tool results grid when a query is re-run.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Ensure all file open/save dialogues remember their last location.") . '</del><br />&nbsp;</li>

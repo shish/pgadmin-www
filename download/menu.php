@@ -9,10 +9,11 @@ function www_menu()
 <div' . www_current_menu_page("freebsd.php") . '><a href="freebsd.php">&rsaquo; ' . _("FreeBSD") . '</a></div>
 <div' . www_current_menu_page("languages.php") . '><a href="languages.php">&rsaquo; ' . _("Languages") . '</a></div>
 <div' . www_current_menu_page("macosx.php") . '><a href="macosx.php">&rsaquo; ' . _("Mac OSX") . '</a></div>
+<div' . www_current_menu_page("opensuse.php") . '><a href="opensuse.php">&rsaquo; ' . _("OpenSUSE") . '</a></div>
 <div' . www_current_menu_page("rpm.php") . '><a href="rpm.php">&rsaquo; ' . _("RPM") . '</a></div>
 <div' . www_current_menu_page("slackware.php") . '><a href="slackware.php">&rsaquo; ' . _("Slackware") . '</a></div>
-<div' . www_current_menu_page("opensuse.php") . '><a href="opensuse.php">&rsaquo; ' . _("OpenSUSE") . '</a></div>
 <div' . www_current_menu_page("snapshots.php") . '><a href="snapshots.php">&rsaquo; ' . _("Snapshots") . '</a></div>
+<div' . www_current_menu_page("solaris.php") . '><a href="solaris.php">&rsaquo; ' . _("Solaris") . '</a></div>
 <div' . www_current_menu_page("source.php") . '><a href="source.php">&rsaquo; ' . _("Source code") . '</a></div>
 <div' . www_current_menu_page("windows.php") . '><a href="windows.php">&rsaquo; ' . _("Windows &trade;") . '</a></div>
 ';

@@ -16,16 +16,16 @@ $PAGE_CONTENT = '
     <ul>
       <li><del>' . _("Enum support.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Operator family support.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Add support for function row and cost estimations.") . '<del><br />&nbsp;</li>
+      <li><del>' . _("Add support for function row and cost estimations.") . '</del><br />&nbsp;</li>
     </ul>
   </li>
-  
+
   <li>' . _("Larger projects") . '<br />&nbsp;
     <ul>
-      <li>' . _("Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger. Include appropriate hooks into it from pgAdmin. [HS]") . '<br />&nbsp;</li>
+      <li><del>' . _("Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger. Include appropriate hooks into it from pgAdmin. [HS]") . '</del><br />&nbsp;</li>
     </ul>
   </li>
-  
+
   <li>' . _("Code housekeeping") . '<br />&nbsp;
     <ul>
       <li><del>' . _("Remove macros and code to support non-Unicode builds.") . '</del><br />&nbsp;</li>
@@ -34,17 +34,17 @@ $PAGE_CONTENT = '
       <li><del>' . _("Consider breaking out some larger classes into their own files - e.g. sqlTable from frmEditGrid, and pgQueryThread from pgSetBase.") . '</del><br />&nbsp;</li>
     </ul>
   </li>
-  
+
   <li>' . _("Build system") . '<br />&nbsp;
     <ul>
       <li>' . _("Don't install .xrc files with non-debug builds from the *nix build system.") . '<br />&nbsp;</li>
       <li><del>' . _("Cleanup the Visual Studio project structure to match the actual directory layout.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("XCode project files for building on Mac.") . '</del> ' . _("A procedure for debugging using XCode has been documented in xtra/wx-build/readme.txt.") . '<br />&nbsp;</li>      
+      <li><del>' . _("XCode project files for building on Mac.") . '</del> ' . _("A procedure for debugging using XCode has been documented in xtra/wx-build/readme.txt.") . '<br />&nbsp;</li>
       <li><del>' . _("Restructure header files into a more organised directory layout.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Consider auto-generation of the *nix/XCode project files from the VC++ project files.") . '</del> ' . _("This item does not seem practical at present.") . '<br />&nbsp;</li>
     </ul>
   </li>
-  
+
   <li>' . _("Miscellaneous tweaks") . '<br />&nbsp;
     <ul>
       <li><del>' . _("Allow use of Command-W to close dialogues and windows on Mac.") . '</del> ' . _("This item has been moved to the BUGS list.") . '<br />&nbsp;</li>

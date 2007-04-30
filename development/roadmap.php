@@ -59,7 +59,7 @@ $PAGE_CONTENT = '
       <li><del>' . _("Add a 'Run now' context menu option for Jobs.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Retain column sizes in the Query Tool results grid when a query is re-run.") . '</del><br />&nbsp;</li>
       <li><del>' . _("Ensure all file open/save dialogues remember their last location.") . '</del><br />&nbsp;</li>
-      <li>' . _("Add line-ending conversion options to the query tool.") . '<br />&nbsp;</li>
+      <li><del>' . _("Add line-ending conversion options to the query tool.") . '</del><br />&nbsp;</li>
     </ul>
   </li>
 

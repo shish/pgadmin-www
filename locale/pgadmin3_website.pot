@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-26 10:20+0000\n"
+"POT-Creation-Date: 2007-05-08 14:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,22 +47,24 @@ msgstr ""
 
 #: ../download/freebsd.php:14 ../download/freebsd.php:15
 #: ../download/freebsd.php:16 ../download/freebsd.php:17
-#: ../download/freebsd.php:18 ../download/macosx.php:14
-#: ../download/macosx.php:15 ../download/macosx.php:16
-#: ../download/macosx.php:17 ../download/macosx.php:18
-#: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/macosx.php:22
-#: ../download/opensuse.php:14 ../download/rpm.php:14 ../download/rpm.php:15
+#: ../download/freebsd.php:18 ../download/freebsd.php:19
+#: ../download/macosx.php:14 ../download/macosx.php:15
+#: ../download/macosx.php:16 ../download/macosx.php:17
+#: ../download/macosx.php:18 ../download/macosx.php:19
+#: ../download/macosx.php:20 ../download/macosx.php:21
+#: ../download/macosx.php:22 ../download/opensuse.php:14
+#: ../download/opensuse.php:15 ../download/rpm.php:14 ../download/rpm.php:15
 #: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
 #: ../download/rpm.php:19 ../download/rpm.php:20 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/slackware.php:18
 #: ../download/slackware.php:19 ../download/slackware.php:20
-#: ../download/slackware.php:21 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
+#: ../download/slackware.php:21 ../download/solaris.php:14
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
@@ -144,6 +146,12 @@ msgid ""
 "separate dialogue, or the user may opt to create a new object.  Notice the "
 "tabs giving access to Properties, Parameters, Security and the SQL used to "
 "create the object."
+msgstr ""
+
+#: ../development/roadmap.php:42
+msgid ""
+"A procedure for debugging using XCode has been documented in xtra/wx-build/"
+"readme.txt."
 msgstr ""
 
 #: ../screenshots/data.php:14
@@ -436,7 +444,7 @@ msgid ""
 "may be found in the <a href=\"%s\">changelog</a>."
 msgstr ""
 
-#: ../download/source.php:92 ../download/source.php:128
+#: ../download/source.php:92 ../download/source.php:138
 #, php-format
 msgid ""
 "Authenticate the source code using Dave Page's <a href=\"%s\">PGP key</a>. "
@@ -496,7 +504,7 @@ msgstr ""
 msgid "Change log"
 msgstr ""
 
-#: ../download/freebsd.php:33
+#: ../download/freebsd.php:34
 msgid "Check that the pgAdmin III executable is in the path:"
 msgstr ""
 
@@ -571,7 +579,7 @@ msgstr ""
 msgid "Couldn't find the document content!"
 msgstr ""
 
-#: ../download/freebsd.php:27
+#: ../download/freebsd.php:28
 msgid "Create a symlink to the pgAdmin III binary:"
 msgstr ""
 
@@ -727,7 +735,7 @@ msgid ""
 "Linux."
 msgstr ""
 
-#: ../download/source.php:91 ../download/source.php:127
+#: ../download/source.php:91 ../download/source.php:137
 #, php-format
 msgid "Download the pgAdmin III <a href=\"%s\">source code</a> from a mirror. "
 msgstr ""
@@ -910,6 +918,17 @@ msgstr ""
 msgid "For example, for France, you can try:"
 msgstr ""
 
+#: ../download/source.php:112
+msgid ""
+"For versions from 1.7 (2007-04-02), the dependencies must first be installed:"
+msgstr ""
+
+#: ../download/source.php:121
+msgid ""
+"For versions prior to 1.7 (2007-04-02), the dependencies must first be "
+"installed in the appropriate locations on your system:"
+msgstr ""
+
 #: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:9
 #: ../screenshots/index.php:16
 msgid "FreeBSD"
@@ -1012,7 +1031,7 @@ msgstr ""
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr ""
 
-#: ../download/source.php:133
+#: ../download/source.php:143
 msgid ""
 "If building Universal binaries you must add the --disable-dependency-"
 "tracking option to the configure command line."
@@ -1066,11 +1085,11 @@ msgid ""
 "the <a href=\"%s\">development</a> page."
 msgstr ""
 
-#: ../download/source.php:120
+#: ../download/source.php:130
 msgid ""
-"In addition, libxml2/libxslt may also require iconv and zlib. If you are "
-"building the pgAdmin installer, these must be installed into $BUILD_ROOT/"
-"pgadmin3-deps/iconv and $BUILD_ROOT/pgadmin3-deps/zlib respectively."
+"In addition, libxml2/libxslt may also require  zlib. If you are building the "
+"pgAdmin installer, these must be installed into %PGBUILD%\\zlib (or "
+"$BUILD_ROOT/pgadmin3-deps/zlib for the older builds) respectively."
 msgstr ""
 
 #: ../translation/howto.php:40
@@ -1251,7 +1270,7 @@ msgid "MULE_INTERNAL"
 msgstr ""
 
 #: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
-#: ../download/source.php:65 ../download/source.php:124
+#: ../download/source.php:65 ../download/source.php:134
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr ""
@@ -1281,7 +1300,7 @@ msgstr ""
 #: ../download/debian.php:10 ../download/freebsd.php:10
 #: ../download/macosx.php:10 ../download/opensuse.php:10
 #: ../download/rpm.php:10 ../download/slackware.php:10
-#: ../download/windows.php:10
+#: ../download/solaris.php:10 ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr ""
@@ -1397,7 +1416,7 @@ msgid ""
 msgstr ""
 
 #: ../download/source.php:40 ../download/source.php:67
-#: ../download/source.php:94 ../download/source.php:130
+#: ../download/source.php:94 ../download/source.php:140
 msgid "Note:"
 msgstr ""
 
@@ -1460,7 +1479,7 @@ msgstr ""
 msgid "OpenBSD"
 msgstr ""
 
-#: ../download/menu.php:14 ../download/opensuse.php:8
+#: ../download/menu.php:12 ../download/opensuse.php:8
 msgid "OpenSUSE"
 msgstr ""
 
@@ -1498,6 +1517,12 @@ msgstr ""
 
 #: ../news.php:117
 msgid "Overhaul of server config settings."
+msgstr ""
+
+#: ../download/solaris.php:12
+msgid ""
+"Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
+"Microsystems."
 msgstr ""
 
 #: ../privacypolicy.php:14
@@ -1543,7 +1568,7 @@ msgstr ""
 msgid "PostgreSQL 7.3 and above"
 msgstr ""
 
-#: ../download/source.php:114
+#: ../download/source.php:123
 msgid ""
 "PostgreSQL 8.1, installed into the default location from the official "
 "PostgreSQL installer (pgInstaller)."
@@ -1555,6 +1580,10 @@ msgstr ""
 
 #: ../development/roadmap.php:15
 msgid "PostgreSQL 8.3 compatibility (these items are subject to change)"
+msgstr ""
+
+#: ../download/source.php:114
+msgid "PostgreSQL 8.x, installed into a directory pointed to by %PGDIR%"
 msgstr ""
 
 #: ../features.php:33
@@ -1656,7 +1685,7 @@ msgstr ""
 msgid "Published translations (%d)"
 msgstr ""
 
-#: ../download/menu.php:12 ../download/rpm.php:8
+#: ../download/menu.php:13 ../download/rpm.php:8
 msgid "RPM"
 msgstr ""
 
@@ -1821,7 +1850,7 @@ msgstr ""
 msgid "Simplified Chinese"
 msgstr ""
 
-#: ../download/menu.php:13 ../download/slackware.php:8
+#: ../download/menu.php:14 ../download/slackware.php:8
 msgid "Slackware"
 msgstr ""
 
@@ -1844,7 +1873,8 @@ msgstr ""
 msgid "Snapshots"
 msgstr ""
 
-#: ../features.php:19 ../screenshots/index.php:25
+#: ../features.php:19 ../download/menu.php:16 ../download/solaris.php:8
+#: ../screenshots/index.php:25
 msgid "Solaris"
 msgstr ""
 
@@ -1859,7 +1889,7 @@ msgid ""
 "translated as <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
 msgstr ""
 
-#: ../download/menu.php:16 ../download/source.php:8
+#: ../download/menu.php:17 ../download/source.php:8
 msgid "Source code"
 msgstr ""
 
@@ -2130,12 +2160,6 @@ msgid ""
 "Arabic."
 msgstr ""
 
-#: ../download/source.php:112
-msgid ""
-"The pgAdmin dependencies must first be installed in the appropriate "
-"locations on your system:"
-msgstr ""
-
 #: ../docs/index.php:10
 msgid ""
 "The pgAdmin documentation for the current development code, and recent major "
@@ -2162,7 +2186,7 @@ msgid ""
 "please remember to use <a href=\"%s\">pgadmin-support</a> list for end user "
 "support issues. To subscribe to the mailing list, send an email to <a href="
 "\"%s\">%s</a> with the word 'subscribe', without quotes, as the body of "
-"message."
+"message. To unsubscribe, send the word 'unsubscribe'."
 msgstr ""
 
 #: ../support/list.php:10
@@ -2170,7 +2194,8 @@ msgstr ""
 msgid ""
 "The pgadmin-support mailing list is intended for end user support and bug "
 "reports. To subscribe to the mailing list, send an email to <a href=\"%s\">%"
-"s</a> with the word 'subscribe', without quotes, as the body of message."
+"s</a> with the word 'subscribe', without quotes, as the body of message. To "
+"unsubscribe, send the word 'unsubscribe'."
 msgstr ""
 
 #: ../screenshots/ui.php:16
@@ -2196,7 +2221,7 @@ msgstr ""
 msgid "The server status dialogue"
 msgstr ""
 
-#: ../download/source.php:122
+#: ../download/source.php:132
 msgid ""
 "The source tree should be unpacked into $BUILD_ROOT. The directory can be "
 "called whatever you like, as long as its at the right directory level - for "
@@ -2275,11 +2300,12 @@ msgstr ""
 
 #: ../download/macosx.php:25
 msgid ""
-"These packages are Mac OSX appbundles. To install them, simply unpack the "
+"These packages are Mac OSX appbundles. To install the 1.6 series, unpack the "
+"archive, and run the installer package. For earlier versions, unpack the "
 "archive, and move the appbundle into the desired location."
 msgstr ""
 
-#: ../download/source.php:145
+#: ../download/source.php:155
 msgid ""
 "This final step will build an OSX appbundle called pgAdmin3.app in the root "
 "of your source tree. As this can take a minute or two, the <i>pkg/mac/debug-"
@@ -2287,6 +2313,18 @@ msgid ""
 "using symbolic links directly to the executable files. This appbundle is "
 "called pgAdmin3-debug.app, and doesn't need to be rebuilt when pgAdmin is "
 "recompiled."
+msgstr ""
+
+#: ../development/roadmap.php:44
+msgid "This item does not seem practical at present."
+msgstr ""
+
+#: ../development/roadmap.php:57 ../development/roadmap.php:58
+msgid "This item has been deferred for the next version."
+msgstr ""
+
+#: ../development/roadmap.php:50
+msgid "This item has been moved to the BUGS list."
 msgstr ""
 
 #: ../development/roadmap.php:10
@@ -2343,11 +2381,11 @@ msgid ""
 "can be installed on the same machine at the same time."
 msgstr ""
 
-#: ../download/freebsd.php:21 ../download/rpm.php:23
+#: ../download/freebsd.php:22 ../download/rpm.php:23
 msgid "To install these packages, use a command such as:"
 msgstr ""
 
-#: ../download/opensuse.php:17
+#: ../download/opensuse.php:18
 msgid ""
 "To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
 "i> utilities."
@@ -2440,7 +2478,7 @@ msgid ""
 "instruction below."
 msgstr ""
 
-#: ../download/source.php:93 ../download/source.php:129
+#: ../download/source.php:93 ../download/source.php:139
 msgid "Unpack, build and install the source code:"
 msgstr ""
 
@@ -2603,7 +2641,7 @@ msgstr ""
 msgid "Why promote pgAdmin?"
 msgstr ""
 
-#: ../download/menu.php:17 ../download/windows.php:8
+#: ../download/menu.php:18 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr ""
@@ -2648,7 +2686,7 @@ msgid ""
 msgstr ""
 
 #: ../download/source.php:42 ../download/source.php:69
-#: ../download/source.php:97 ../download/source.php:132
+#: ../download/source.php:97 ../download/source.php:142
 msgid ""
 "You may need to use the --enable-debug option if attempting to track down a "
 "crash."
@@ -2664,13 +2702,32 @@ msgid ""
 "yourself."
 msgstr ""
 
-#: ../download/source.php:116
+#: ../download/source.php:127
+msgid "iconv 1.9, installed into $BUILD_ROOT/pgadmin3-deps/iconv."
+msgstr ""
+
+#: ../download/source.php:118
+msgid "iconv 1.9.x, installed into a directory pointed to by %PGBUILD%\\iconv"
+msgstr ""
+
+#: ../download/source.php:125
 msgid ""
 "libxml2 2.6.18 (or above), installed into $BUILD_ROOT/pgadmin3-deps/libxml2."
 msgstr ""
 
-#: ../download/source.php:117
+#: ../download/source.php:116
+msgid ""
+"libxml2 2.6.18 or above, installed into a directory pointed to by %PGBUILD%"
+"\\libxml2"
+msgstr ""
+
+#: ../download/source.php:126
 msgid "libxslt 1.1, installed into $BUILD_ROOT/pgadmin3-deps/libxslt."
+msgstr ""
+
+#: ../download/source.php:117
+msgid ""
+"libxslt 1.1.x, installed into a directory pointed to by %PGBUILD%\\libxslt"
 msgstr ""
 
 #: ../include/doc.php:14 ../include/doc.php:19 ../include/doc.php:24
@@ -2965,6 +3022,10 @@ msgstr ""
 msgid "pgAdmin III: Download - Snapshots"
 msgstr ""
 
+#: ../download/solaris.php:5
+msgid "pgAdmin III: Download - Solaris"
+msgstr ""
+
 #: ../download/source.php:5
 msgid "pgAdmin III: Download - Source code"
 msgstr ""
@@ -3127,10 +3188,14 @@ msgstr ""
 msgid "v1.6.3 is primarily a bug fix release, including the following changes:"
 msgstr ""
 
-#: ../download/source.php:115
+#: ../download/source.php:124
 msgid ""
-"wxWidgets 2.7 (2.6 for pgAdmin 1.4.x), installed into $BUILD_ROOT/pgadmin3-"
+"wxWidgets 2.8 (2.6 for pgAdmin 1.4.x), installed into $BUILD_ROOT/pgadmin3-"
 "deps/wxwidgets."
+msgstr ""
+
+#: ../download/source.php:115
+msgid "wxWidgets 2.8.x, installed into a directory pointed to by %WXWIN%"
 msgstr ""
 
 #: ../download/source.php:44

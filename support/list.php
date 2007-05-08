@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -7,7 +7,7 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Mailing list") . '</h1>
 
-<p>' . sprintf(_("The pgadmin-support mailing list is intended for end user support and bug reports. To subscribe to the mailing list, send an email to <a href=\"%s\">%s</a> with the word 'subscribe', without quotes, as the body of message."), "mailto:pgadmin-support-request@postgresql.org", "pgadmin-support-request@postgresql.org") . '</p>
+<p>' . sprintf(_("The pgadmin-support mailing list is intended for end user support and bug reports. To subscribe to the mailing list, send an email to <a href=\"%s\">%s</a> with the word 'subscribe', without quotes, as the body of message. To unsubscribe, send the word 'unsubscribe'."), "mailto:pgadmin-support-request@postgresql.org", "pgadmin-support-request@postgresql.org") . '</p>
 
 <p>' . _("If you are posting a bug report, please include the following information where possible:") . '</p>
 <ul>

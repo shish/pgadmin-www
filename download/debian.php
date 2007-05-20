@@ -11,27 +11,33 @@ $PAGE_CONTENT = '
 
 <p>' . sprintf(_("pgAdmin III packages are available for <a href=\"%s\">Debian</a> stable, testing and unstable distributions. These packages are also well-suited for <a href=\"%s\">Knoppix</a> and other Debian based distributions"), "http://www.debian.org/", "http://www.knoppix.net/") . '</p>
 
-<h4>' . _("Debian Woody (oldstable)") . '</h4>
+<h4>' . _("Debian Woody") . '</h4>
 
-<p>' . sprintf(_("We don't support this Debian version anymore, however you can refer to <a href=\"%s\">www.backports.org</a> for the latest version we've packaged for Debian/Woody."), "http://www.backports.org/") . '</p>
+<p>' . _("We don't support this Debian version anymore.") . '</p>
 
-<h4>' . _("Debian Sarge (stable)") . '</h4>
+<h4>' . _("Debian Sarge (oldstable)") . '</h4>
 
-<p>' . sprintf(_("An APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/debian</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>
+<p>' . _("We don't support this Debian version anymore.") . '</p>
+
+<h4>' . _("Debian Etch (stable)") . '</h4>
+
+<p>' . _("pgAdmin III 1.4.3 is available directly from Debian. You can install pgAdmin III just as you would do with any other Debian package (apt-get install pgadmin3).") . '</p>
+
+<p>' . sprintf(_("If you need a more up to date version of pgAdmin III, an APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/debian</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>
 
 <p>' . _("Edit /etc/apt/sources.list file and add the following line:") . '</p>
 
 <div class="pgaCode">
-deb [MIRROR URL]/pgadmin3/release/debian sarge pgadmin
+deb [MIRROR URL]/pgadmin3/release/debian etch pgadmin
 </div>
 
 <p>' . _("For example, for France, you can try:") . '</p>
 
 <div class="pgaCode">
-deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian sarge pgadmin
+deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian etch pgadmin
 </div>
 
-<h4>' . _("Debian Etch (testing)") . '</h4>
+<h4>' . _("Debian Lenny (testing)") . '</h4>
 
 <p>' . sprintf(_("An APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the
 flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>
@@ -39,13 +45,13 @@ flags, and copy the URL you are redirected to. On each mirror, the packages are 
 <p>' . _("Edit /etc/apt/sources.list file and add the following line:") . '</p>
 
 <div class="pgaCode">
-deb [MIRROR URL]/pgadmin3/release/debian testing pgadmin
+deb [MIRROR URL]/pgadmin3/release/debian lenny pgadmin
 </div>
 
 <p>' . _("For example, for France, you can try:") . '</p>
 
 <div class="pgaCode">
-deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian testing pgadmin
+deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian lenny pgadmin
 </div>
 
 <h4>' . _("Debian Sid (unstable)") . '</h4>

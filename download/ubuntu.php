@@ -15,7 +15,9 @@ $PAGE_CONTENT = '
 
 <p>' . sprintf(_("An APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/ubuntu</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>
 
-<p>' . _("Edit /etc/apt/sources.list file and add the following line:") . '</p>
+<p>' . _("Please, note that you need to ENABLE THE UNIVVERSE COMPONENT as wxWidgets2.8 is available from universe only at the moment. To do so, check the Ubuntu documentation or at least try to launch the update-manager configuration from the System/Administration Gnome menu.") . '</p>
+
+<p>' . _("Then, edit /etc/apt/sources.list file and add the following line:") . '</p>
 
 <div class="pgaCode">
 deb [MIRROR URL]/pgadmin3/release/ubuntu feisty pgadmin
@@ -27,7 +29,7 @@ deb [MIRROR URL]/pgadmin3/release/ubuntu feisty pgadmin
 deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/ubuntu feisty pgadmin
 </div>
 
-<p>' . _("Simply use Synaptic to install pgAdmin III as you would do with any other package or run the following command from the command prompt") . '</p>
+<p>' . _("Simply use Synaptic to install pgAdmin III as you would do with any other package or run the following command from the command prompt:") . '</p>
 
 <div class="pgaCode">
 sudo apt-get update<br />

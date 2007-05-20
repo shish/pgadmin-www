@@ -15,6 +15,7 @@ function www_menu()
 <div' . www_current_menu_page("snapshots.php") . '><a href="snapshots.php">&rsaquo; ' . _("Snapshots") . '</a></div>
 <div' . www_current_menu_page("solaris.php") . '><a href="solaris.php">&rsaquo; ' . _("Solaris") . '</a></div>
 <div' . www_current_menu_page("source.php") . '><a href="source.php">&rsaquo; ' . _("Source code") . '</a></div>
+<div' . www_current_menu_page("ubuntu.php") . '><a href="ubuntu.php">&rsaquo; ' . _("Ubuntu") . '</a></div>
 <div' . www_current_menu_page("windows.php") . '><a href="windows.php">&rsaquo; ' . _("Windows &trade;") . '</a></div>
 ';
 

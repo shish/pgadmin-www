@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-05-08 14:14+0000\n"
+"POT-Creation-Date: 2007-05-24 09:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -392,7 +392,7 @@ msgid ""
 "English) outlines the structure of the team and how it operates."
 msgstr ""
 
-#: ../download/debian.php:36
+#: ../download/debian.php:42
 #, php-format
 msgid ""
 "An APT repository is provided to ease installation. Before you start "
@@ -402,14 +402,14 @@ msgid ""
 "are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"
 msgstr ""
 
-#: ../download/debian.php:20
+#: ../download/ubuntu.php:16
 #, php-format
 msgid ""
 "An APT repository is provided to ease installation. Before you start "
 "installation, please choose a mirror from the list of <a href=\"%s"
 "\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are "
 "redirected to. On each mirror, the packages are located in: <i>/pgadmin3/"
-"release/debian</i>"
+"release/ubuntu</i>"
 msgstr ""
 
 #: ../translation/howto.php:12
@@ -614,20 +614,24 @@ msgstr ""
 msgid "Debian"
 msgstr ""
 
-#: ../download/debian.php:34
-msgid "Debian Etch (testing)"
+#: ../download/debian.php:22
+msgid "Debian Etch (stable)"
+msgstr ""
+
+#: ../download/debian.php:40
+msgid "Debian Lenny (testing)"
 msgstr ""
 
 #: ../download/debian.php:18
-msgid "Debian Sarge (stable)"
+msgid "Debian Sarge (oldstable)"
 msgstr ""
 
-#: ../download/debian.php:51
+#: ../download/debian.php:57
 msgid "Debian Sid (unstable)"
 msgstr ""
 
 #: ../download/debian.php:14
-msgid "Debian Woody (oldstable)"
+msgid "Debian Woody"
 msgstr ""
 
 #: ../privacypolicy.php:18
@@ -751,7 +755,7 @@ msgid ""
 "fastest enterprise class databases available."
 msgstr ""
 
-#: ../download/debian.php:22 ../download/debian.php:39
+#: ../download/debian.php:28 ../download/debian.php:45
 msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr ""
 
@@ -914,7 +918,8 @@ msgid ""
 "per Brendan O'Shea."
 msgstr ""
 
-#: ../download/debian.php:28 ../download/debian.php:45
+#: ../download/debian.php:34 ../download/debian.php:51
+#: ../download/ubuntu.php:26
 msgid "For example, for France, you can try:"
 msgstr ""
 
@@ -1078,6 +1083,16 @@ msgid ""
 "list."
 msgstr ""
 
+#: ../download/debian.php:26
+#, php-format
+msgid ""
+"If you need a more up to date version of pgAdmin III, an APT repository is "
+"provided to ease installation. Before you start installation, please choose "
+"a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one "
+"of the flags, and copy the URL you are redirected to. On each mirror, the "
+"packages are located in: <i>/pgadmin3/release/debian</i>"
+msgstr ""
+
 #: ../contribute.php:14
 #, php-format
 msgid ""
@@ -1123,7 +1138,7 @@ msgid ""
 "Windows include the admin packs."
 msgstr ""
 
-#: ../download/debian.php:55
+#: ../download/debian.php:61
 msgid "Installation"
 msgstr ""
 
@@ -1300,7 +1315,8 @@ msgstr ""
 #: ../download/debian.php:10 ../download/freebsd.php:10
 #: ../download/macosx.php:10 ../download/opensuse.php:10
 #: ../download/rpm.php:10 ../download/slackware.php:10
-#: ../download/solaris.php:10 ../download/windows.php:10
+#: ../download/solaris.php:10 ../download/ubuntu.php:10
+#: ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr ""
@@ -1564,6 +1580,14 @@ msgid ""
 "and %d) and keyboard shortcuts entries (&amp;)."
 msgstr ""
 
+#: ../download/ubuntu.php:18
+msgid ""
+"Please, note that you need to ENABLE THE UNIVERSE COMPONENT as wxWidgets2.8 "
+"is available from universe only at the moment. To do so, check the Ubuntu "
+"documentation or at least try to launch the update-manager configuration "
+"from the System/Administration Gnome menu."
+msgstr ""
+
 #: ../features.php:24
 msgid "PostgreSQL 7.3 and above"
 msgstr ""
@@ -1784,7 +1808,7 @@ msgstr ""
 msgid "Rules"
 msgstr ""
 
-#: ../download/debian.php:57
+#: ../download/debian.php:63
 msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 
@@ -1848,6 +1872,12 @@ msgstr ""
 
 #: ../include/page.php:113
 msgid "Simplified Chinese"
+msgstr ""
+
+#: ../download/ubuntu.php:32
+msgid ""
+"Simply use Synaptic to install pgAdmin III as you would do with any other "
+"package or run the following command from the command prompt:"
 msgstr ""
 
 #: ../download/menu.php:14 ../download/slackware.php:8
@@ -2270,6 +2300,10 @@ msgid ""
 "The wxWidgets version and configure options used (if compiled from source)"
 msgstr ""
 
+#: ../download/ubuntu.php:20
+msgid "Then, edit /etc/apt/sources.list file and add the following line:"
+msgstr ""
+
 #: ../advocacy/strategy.php:15
 #, php-format
 msgid ""
@@ -2452,6 +2486,14 @@ msgstr ""
 msgid "UNICODE/UTF-8"
 msgstr ""
 
+#: ../download/menu.php:18 ../download/ubuntu.php:8
+msgid "Ubuntu"
+msgstr ""
+
+#: ../download/ubuntu.php:14
+msgid "Ubuntu Feisty"
+msgstr ""
+
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
 msgstr ""
@@ -2551,12 +2593,8 @@ msgstr ""
 msgid "WIN874"
 msgstr ""
 
-#: ../download/debian.php:16
-#, php-format
-msgid ""
-"We don't support this Debian version anymore, however you can refer to <a "
-"href=\"%s\">www.backports.org</a> for the latest version we've packaged for "
-"Debian/Woody."
+#: ../download/debian.php:16 ../download/debian.php:20
+msgid "We don't support this Debian version anymore."
 msgstr ""
 
 #: ../privacypolicy.php:20
@@ -2641,7 +2679,7 @@ msgstr ""
 msgid "Why promote pgAdmin?"
 msgstr ""
 
-#: ../download/menu.php:18 ../download/windows.php:8
+#: ../download/menu.php:19 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr ""
@@ -2758,6 +2796,13 @@ msgstr ""
 msgid "pgAdmin Documentation"
 msgstr ""
 
+#: ../download/debian.php:24
+msgid ""
+"pgAdmin III 1.4.3 is available directly from Debian. You can install pgAdmin "
+"III just as you would do with any other Debian package (apt-get install "
+"pgadmin3)."
+msgstr ""
+
 #: ../download/rpm.php:12
 msgid "pgAdmin III RPM packages are available for several Linux distributions."
 msgstr ""
@@ -2859,7 +2904,7 @@ msgid ""
 "released under the <a href=\"%s\">Artistic License</a>."
 msgstr ""
 
-#: ../download/debian.php:53
+#: ../download/debian.php:59
 msgid ""
 "pgAdmin III is published on the official Debian Unstable repository. "
 "However, from time to time unstable may become broken, you can try to check "
@@ -2891,6 +2936,13 @@ msgstr ""
 msgid ""
 "pgAdmin III packages are available for download. These packages have been "
 "built on FreeBSD 6."
+msgstr ""
+
+#: ../download/ubuntu.php:12
+#, php-format
+msgid ""
+"pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> feisty "
+"distribution."
 msgstr ""
 
 #: ../screenshots/index.php:17
@@ -3028,6 +3080,10 @@ msgstr ""
 
 #: ../download/source.php:5
 msgid "pgAdmin III: Download - Source code"
+msgstr ""
+
+#: ../download/ubuntu.php:5
+msgid "pgAdmin III: Download - Ubuntu"
 msgstr ""
 
 #: ../download/windows.php:5

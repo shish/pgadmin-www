@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-05-08 14:14+0000\n"
+"POT-Creation-Date: 2007-05-24 09:54+0200\n"
 "PO-Revision-Date: 2007-03-30 00:16+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -440,7 +440,7 @@ msgstr ""
 "尽管任何人都可以参与pgAdmin项目，这个项目仍然是由开发组来运作和管理的，下边的"
 "文档显示了开发组的框架结构，以及它是如何运作的。"
 
-#: ../download/debian.php:36
+#: ../download/debian.php:42
 #, php-format
 msgid ""
 "An APT repository is provided to ease installation. Before you start "
@@ -453,14 +453,14 @@ msgstr ""
 "</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装"
 "包放在：<i>[MIRROR URL]/pgadmin3/release/debian</i>"
 
-#: ../download/debian.php:20
-#, php-format
+#: ../download/ubuntu.php:16
+#, fuzzy, php-format
 msgid ""
 "An APT repository is provided to ease installation. Before you start "
 "installation, please choose a mirror from the list of <a href=\"%s"
 "\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are "
 "redirected to. On each mirror, the packages are located in: <i>/pgadmin3/"
-"release/debian</i>"
+"release/ubuntu</i>"
 msgstr ""
 "为了更方便的安装，提供一个APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜像"
 "</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装"
@@ -684,21 +684,29 @@ msgstr "Dave Page"
 msgid "Debian"
 msgstr "Debian"
 
-#: ../download/debian.php:34
-msgid "Debian Etch (testing)"
+#: ../download/debian.php:22
+#, fuzzy
+msgid "Debian Etch (stable)"
+msgstr "Debian Etch（测试版）"
+
+#: ../download/debian.php:40
+#, fuzzy
+msgid "Debian Lenny (testing)"
 msgstr "Debian Etch（测试版）"
 
 #: ../download/debian.php:18
-msgid "Debian Sarge (stable)"
+#, fuzzy
+msgid "Debian Sarge (oldstable)"
 msgstr "Debian Sarge（正式版本）"
 
-#: ../download/debian.php:51
+#: ../download/debian.php:57
 msgid "Debian Sid (unstable)"
 msgstr "Debian Sid（非正式版本）"
 
 #: ../download/debian.php:14
-msgid "Debian Woody (oldstable)"
-msgstr "Debian Woody（以前的正式版）"
+#, fuzzy
+msgid "Debian Woody"
+msgstr "Debian"
 
 #: ../privacypolicy.php:18
 msgid "Demographic data"
@@ -823,7 +831,7 @@ msgstr ""
 "使用EXPLAIN 和/或 ANALYZE分析你的查询可以充分利用PostgreSQL独有的优化特性，不"
 "久你就意识到PostgreSQL是最快的企业级数据库之一。"
 
-#: ../download/debian.php:22 ../download/debian.php:39
+#: ../download/debian.php:28 ../download/debian.php:45
 msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr "编辑/etc/apt/sources.list文件追加如下行："
 
@@ -993,7 +1001,8 @@ msgid ""
 "per Brendan O'Shea."
 msgstr "修正图形化解释器，正确向后显示索引扫描节点，Brendan O'Shea修改。"
 
-#: ../download/debian.php:28 ../download/debian.php:45
+#: ../download/debian.php:34 ../download/debian.php:51
+#: ../download/ubuntu.php:26
 msgid "For example, for France, you can try:"
 msgstr "例如，在法国，你可以试一下："
 
@@ -1175,6 +1184,19 @@ msgstr ""
 "一个快捷Google搜索）并确认你的查询条件包含所有的相关错误信息。如果依然不能找"
 "到你需要的答案，请向<a href=\"%s\">pgadmin-support</a>邮件列表发送信息。"
 
+#: ../download/debian.php:26
+#, fuzzy, php-format
+msgid ""
+"If you need a more up to date version of pgAdmin III, an APT repository is "
+"provided to ease installation. Before you start installation, please choose "
+"a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one "
+"of the flags, and copy the URL you are redirected to. On each mirror, the "
+"packages are located in: <i>/pgadmin3/release/debian</i>"
+msgstr ""
+"为了更方便的安装，提供一个APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜像"
+"</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装"
+"包放在：<i>/pgadmin3/release/debian</i>"
+
 #: ../contribute.php:14
 #, php-format
 msgid ""
@@ -1228,7 +1250,7 @@ msgstr ""
 "安装你正在使用的pgAdmin和数据库服务器相应的管理工具包。Windows版PostgreSQL安"
 "装包中已经包含管理工具包。"
 
-#: ../download/debian.php:55
+#: ../download/debian.php:61
 msgid "Installation"
 msgstr "安装"
 
@@ -1425,7 +1447,8 @@ msgstr "维护者"
 #: ../download/debian.php:10 ../download/freebsd.php:10
 #: ../download/macosx.php:10 ../download/opensuse.php:10
 #: ../download/rpm.php:10 ../download/slackware.php:10
-#: ../download/solaris.php:10 ../download/windows.php:10
+#: ../download/solaris.php:10 ../download/ubuntu.php:10
+#: ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr "维护者：%s"
@@ -1733,6 +1756,14 @@ msgid ""
 "and %d) and keyboard shortcuts entries (&amp;)."
 msgstr "准确反映变量（%s和%d）以及键盘快捷方式（&amp;）"
 
+#: ../download/ubuntu.php:18
+msgid ""
+"Please, note that you need to ENABLE THE UNIVERSE COMPONENT as wxWidgets2.8 "
+"is available from universe only at the moment. To do so, check the Ubuntu "
+"documentation or at least try to launch the update-manager configuration "
+"from the System/Administration Gnome menu."
+msgstr ""
+
 #: ../features.php:24
 msgid "PostgreSQL 7.3 and above"
 msgstr "PostgreSQL 7.3以及更高版本"
@@ -1969,7 +2000,7 @@ msgstr "日常维护"
 msgid "Rules"
 msgstr "规则"
 
-#: ../download/debian.php:57
+#: ../download/debian.php:63
 msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr "在<i>root</i>用户下运行下边的命令安装pgAdmin III"
 
@@ -2041,6 +2072,12 @@ msgstr "共享的数据库注释。"
 #: ../include/page.php:113
 msgid "Simplified Chinese"
 msgstr "简体中文"
+
+#: ../download/ubuntu.php:32
+msgid ""
+"Simply use Synaptic to install pgAdmin III as you would do with any other "
+"package or run the following command from the command prompt:"
+msgstr ""
 
 #: ../download/menu.php:14 ../download/slackware.php:8
 msgid "Slackware"
@@ -2549,6 +2586,11 @@ msgid ""
 "The wxWidgets version and configure options used (if compiled from source)"
 msgstr "wxWidgets版本和编译选项（如果是从源代码编译的话）"
 
+#: ../download/ubuntu.php:20
+#, fuzzy
+msgid "Then, edit /etc/apt/sources.list file and add the following line:"
+msgstr "编辑/etc/apt/sources.list文件追加如下行："
+
 #: ../advocacy/strategy.php:15
 #, php-format
 msgid ""
@@ -2772,6 +2814,14 @@ msgstr "类型"
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
 
+#: ../download/menu.php:18 ../download/ubuntu.php:8
+msgid "Ubuntu"
+msgstr ""
+
+#: ../download/ubuntu.php:14
+msgid "Ubuntu Feisty"
+msgstr ""
+
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
 msgstr "300字以内"
@@ -2874,15 +2924,9 @@ msgstr "WIN1256"
 msgid "WIN874"
 msgstr "WIN874"
 
-#: ../download/debian.php:16
-#, php-format
-msgid ""
-"We don't support this Debian version anymore, however you can refer to <a "
-"href=\"%s\">www.backports.org</a> for the latest version we've packaged for "
-"Debian/Woody."
+#: ../download/debian.php:16 ../download/debian.php:20
+msgid "We don't support this Debian version anymore."
 msgstr ""
-"我们不再支持这个Debian版本，参考<a href=\"%s\">www.backports.org</a>网站查找"
-"基于Debian/Woody的最终版本。"
 
 #: ../privacypolicy.php:20
 msgid ""
@@ -2987,7 +3031,7 @@ msgstr "当你访问我们的网页时，我们的服务器将自动记录你的
 msgid "Why promote pgAdmin?"
 msgstr "为什么要推广pgAdmin？"
 
-#: ../download/menu.php:18 ../download/windows.php:8
+#: ../download/menu.php:19 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr "Windows &trade;"
@@ -3121,6 +3165,13 @@ msgstr "pgAdmin开发组"
 msgid "pgAdmin Documentation"
 msgstr "pgAdmin文档"
 
+#: ../download/debian.php:24
+msgid ""
+"pgAdmin III 1.4.3 is available directly from Debian. You can install pgAdmin "
+"III just as you would do with any other Debian package (apt-get install "
+"pgadmin3)."
+msgstr ""
+
 #: ../download/rpm.php:12
 msgid "pgAdmin III RPM packages are available for several Linux distributions."
 msgstr "pgAdmin III的RPM包针对多种Linux分发有效。"
@@ -3248,7 +3299,7 @@ msgstr ""
 "pgAdmin III由世界范围的PostgreSQL专家团体开发，可以支持多种语言，是一个基于"
 "<a href=\"%s\">Artistic协议</a>的自由软件。"
 
-#: ../download/debian.php:53
+#: ../download/debian.php:59
 msgid ""
 "pgAdmin III is published on the official Debian Unstable repository. "
 "However, from time to time unstable may become broken, you can try to check "
@@ -3291,6 +3342,13 @@ msgid ""
 "pgAdmin III packages are available for download. These packages have been "
 "built on FreeBSD 6."
 msgstr "pgAdmin III 包目前可以下载，这个包是在FreeBSD 6之下制作的。"
+
+#: ../download/ubuntu.php:12
+#, fuzzy, php-format
+msgid ""
+"pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> feisty "
+"distribution."
+msgstr "pgAdmin III的RPM包针对多种Linux分发有效。"
 
 #: ../screenshots/index.php:17
 msgid "pgAdmin III running on FreeBSD"
@@ -3437,6 +3495,11 @@ msgstr "pgAdmin III：下载 - Slackware"
 #: ../download/source.php:5
 msgid "pgAdmin III: Download - Source code"
 msgstr "pgAdmin III：下载 - 源代码"
+
+#: ../download/ubuntu.php:5
+#, fuzzy
+msgid "pgAdmin III: Download - Ubuntu"
+msgstr "pgAdmin III：下载 - Debian"
 
 #: ../download/windows.php:5
 msgid "pgAdmin III: Download - Windows &trade;"
@@ -3627,3 +3690,14 @@ msgid ""
 msgstr ""
 "wxWidgets 2.6.2以及之前的版本无法在Solaris下使用，可以使用CVS上2005-09-26或者"
 "之后的健壮分支，直到2.6.3发布。"
+
+#~ msgid "Debian Woody (oldstable)"
+#~ msgstr "Debian Woody（以前的正式版）"
+
+#~ msgid ""
+#~ "We don't support this Debian version anymore, however you can refer to <a "
+#~ "href=\"%s\">www.backports.org</a> for the latest version we've packaged "
+#~ "for Debian/Woody."
+#~ msgstr ""
+#~ "我们不再支持这个Debian版本，参考<a href=\"%s\">www.backports.org</a>网站查"
+#~ "找基于Debian/Woody的最终版本。"

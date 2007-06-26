@@ -7,59 +7,38 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Roadmap") . '</h1>
 
-<p>' . sprintf(_("This roadmap outlines the work that is hoped will be done in the %s development cycle for release in version %s of pgAdmin."), "1.7", "1.8") . '</p>
-
-<p>' . _("It is expected that this development cycle will be around 6 months in length, in order to coincide with the release of PostgreSQL 8.3. This cycle will focus on cleanup type work to make the codebase more maintainable and more reliable than ever before.") . '</p>
+<p>' . sprintf(_("This roadmap outlines the work that is hoped will be done in the %s development cycle for release in version %s of pgAdmin."), "1.9", "1.10") . '</p>
 
 <ul>
-  <li>' . _("PostgreSQL 8.3 compatibility (these items are subject to change)") . '<br />&nbsp;
+  <li>' . _("PostgreSQL 8.4 compatibility (these items are subject to change)") . '<br />&nbsp;
     <ul>
-      <li><del>' . _("Enum support.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Operator family support.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Add support for function row and cost estimations.") . '</del><br />&nbsp;</li>
-    </ul>
-  </li>
-
-  <li>' . _("Larger projects") . '<br />&nbsp;
-    <ul>
-      <li><del>' . _("Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger. Include appropriate hooks into it from pgAdmin. [HS]") . '</del><br />&nbsp;</li>
+      <li>' . _("To be determined...") . '<br />&nbsp;</li>
     </ul>
   </li>
 
   <li>' . _("Code housekeeping") . '<br />&nbsp;
     <ul>
-      <li><del>' . _("Remove macros and code to support non-Unicode builds.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Remove macros and code to support wxWidgets 2.6 and older.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Refactor to remove base classes that offer no real benefit - e.g. pgSet/pgQueryThread which only have a couple of members between them.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Consider breaking out some larger classes into their own files - e.g. sqlTable from frmEditGrid, and pgQueryThread from pgSetBase.") . '</del><br />&nbsp;</li>
+      <li>' . _("Check for and remove any custom controls that are now implemented in wxWidgets.") . '<br />&nbsp;</li>
+      <li>' . _("Move pgAgent into a standalone package that can be released on it's own schedule.") . '<br />&nbsp;</li>
     </ul>
   </li>
 
   <li>' . _("Build system") . '<br />&nbsp;
     <ul>
-      <li><del>' . _("Don't install .xrc files with non-debug builds from the *nix build system.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Cleanup the Visual Studio project structure to match the actual directory layout.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("XCode project files for building on Mac.") . '</del> ' . _("A procedure for debugging using XCode has been documented in xtra/wx-build/readme.txt.") . '<br />&nbsp;</li>
-      <li><del>' . _("Restructure header files into a more organised directory layout.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Consider auto-generation of the *nix/XCode project files from the VC++ project files.") . '</del> ' . _("This item does not seem practical at present.") . '<br />&nbsp;</li>
+      <li><del>' . _("Consider cross-platform build systems such as cmake to generate the build system for all platforms") . '<br />&nbsp;</li>
     </ul>
   </li>
 
-  <li>' . _("Miscellaneous tweaks") . '<br />&nbsp;
+  <li>' . _("Functionality") . '<br />&nbsp;
     <ul>
-      <li><del>' . _("Allow use of Command-W to close dialogues and windows on Mac.") . '</del> ' . _("This item has been moved to the BUGS list.") . '<br />&nbsp;</li>
-      <li><del>' . _("Allow backup of roles, or the entire database cluster.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Differentiate between empty strings and NULLs in the query tool.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Retain the clipboard contents when closing the application.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Add pgstattuple support. [GL]") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Add index information from 8.2 pgstattuple. [GL]") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '</del> ' . _("This item has been deferred for the next version.") . '<br />&nbsp;</li>
-      <li><del>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '</del> ' . _("This item has been deferred for the next version.") . '<br />&nbsp;</li>
-      <li><del>' . _("Add a 'Run now' context menu option for Jobs.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Retain column sizes in the Query Tool results grid when a query is re-run.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Ensure all file open/save dialogues remember their last location.") . '</del><br />&nbsp;</li>
-      <li><del>' . _("Add line-ending conversion options to the query tool.") . '</del><br />&nbsp;</li>
+      <li>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
+      <li>' . _("ER diagramming tool (Google SoC project). [Euler Taveira de Oliveira]") . '<br />&nbsp;</li>
+      <li>' . _("Query Tool SQL macros [ksmigrod]") . '<br />&nbsp;</li>
+      <li>' . _("Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [DP]") . '<br />&nbsp;</li>
+      <li>' . _("Support for integrated tsearch configuration in PG 8.3+") . '<br />&nbsp;</li>
+      <li>' . _("Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
+      <li>' . _("pgsql-performance report tool for problematic queries (requires XML EXPLAIN in PG 8.4 [DP])") . '<br />&nbsp;</li>
     </ul>
   </li>
 

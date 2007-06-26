@@ -25,7 +25,7 @@ $PAGE_CONTENT = '
 
   <li>' . _("Build system") . '<br />&nbsp;
     <ul>
-      <li><del>' . _("Consider cross-platform build systems such as cmake to generate the build system for all platforms") . '<br />&nbsp;</li>
+      <li>' . _("Consider cross-platform build systems such as cmake to generate the build system for all platforms") . '<br />&nbsp;</li>
     </ul>
   </li>
 
@@ -38,7 +38,7 @@ $PAGE_CONTENT = '
       <li>' . _("Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [DP]") . '<br />&nbsp;</li>
       <li>' . _("Support for integrated tsearch configuration in PG 8.3+") . '<br />&nbsp;</li>
       <li>' . _("Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
-      <li>' . _("pgsql-performance report tool for problematic queries (requires XML EXPLAIN in PG 8.4 [DP])") . '<br />&nbsp;</li>
+      <li>' . _("pgsql-performance report tool for problematic queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
     </ul>
   </li>
 

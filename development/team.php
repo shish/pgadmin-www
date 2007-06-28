@@ -39,7 +39,7 @@ $PAGE_CONTENT = '
       <li><a href="mailto:myeatman@vale-housing.co.uk">Mark Yeatman</a> (Core Developer): Works on controls and consults on UI design.</li>
       <li><a href="mailto:frank_lupo@email.it">Frank Lupo</a> (Core Developer): Has made countless improvements to the pgAdmin II code from minor bug fixes to major enhancements.<br />&nbsp;</li>
 
-      <li><a href="mailto:saito@inetrt.skcapi.co.jp">Hiroshi Saito</a> (Member): Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.</li>
+      <li><a href="mailto:z-saito@guitar.ocn.ne.jp">Hiroshi Saito</a> (Member): Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.</li>
       <li><a href="mailto:fmonkey@fmonkey.net">Adam H. Pendleton</a> (Member): Developed and maintains the build system, and helps with various porting issues.</li>
       <li><a href="mailto:blacknoz@club-internet.fr">Rapha&#235;l Enrici</a> (Member): Maintains the Debian port, and helps with numerous other issues.</li>
     </ul>

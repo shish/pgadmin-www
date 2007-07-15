@@ -11,6 +11,16 @@ $PAGE_CONTENT = '
 
 <p>' . sprintf(_("pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> feisty distribution."), "http://www.ubuntu.com/") . '</p>
 
+<h4>' . _("Before you try to install") . '</h4>
+
+<p>The archive files are signed with a dedicated GPG Key. Before trying to install the pgAdmin III packages, you should add the corresponding public key to your apt keyring this way (as root):</p>
+
+<div class="pgaCode">
+wget -q -O - http://www.pgadmin.org/pgp/archive_key_debian_ubuntu.gpg | apt-key add -
+</div>
+
+<p>Then follow the instructions below.</p>
+
 <h4>' . _("Ubuntu Feisty") . '</h4>
 
 <p>' . sprintf(_("An APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/ubuntu</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>

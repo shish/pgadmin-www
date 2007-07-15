@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <h4>' . sprintf(_("Maintainer: %s"), "Rapha&euml;l Enrici") . '</h4>
 
-<p>' . sprintf(_("pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> feisty distribution."), "http://www.ubuntu.com/") . '</p>
+<p>' . sprintf(_("pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> dapper and feisty distributions."), "http://www.ubuntu.com/") . '</p>
 
 <h4>' . _("Before you try to install") . '</h4>
 
@@ -19,15 +19,23 @@ $PAGE_CONTENT = '
 wget -q -O - http://www.pgadmin.org/pgp/archive_key_debian_ubuntu.gpg | apt-key add -
 </div>
 
-<p>Then follow the instructions below.</p>
+<p>' . sprintf(_("Once the key added, you need to choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/ubuntu</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>
 
-<h4>' . _("Ubuntu Feisty") . '</h4>
+<p>Then follow the specific instructions below.</p>
 
-<p>' . sprintf(_("An APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/ubuntu</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>
+<h4>' . _("Ubuntu Dapper configuration") . '</h4>
 
-<p>' . _("Please, note that you need to ENABLE THE UNIVERSE COMPONENT as wxWidgets2.8 is available from universe only at the moment. To do so, check the Ubuntu documentation or at least try to launch the update-manager configuration from the System/Administration Gnome menu.") . '</p>
 
-<p>' . _("Then, edit /etc/apt/sources.list file and add the following line:") . '</p>
+<p>' . _("Choose your mirror as mentioned above and edit /etc/apt/sources.list file and add the following line:") . '</p>
+
+<div class="pgaCode">
+deb [MIRROR URL]/pgadmin3/release/ubuntu dapper pgadmin
+</div>
+
+
+<h4>' . _("Ubuntu Feisty configuration") . '</h4>
+
+<p>' . _("Choose your mirror as mentioned above and edit /etc/apt/sources.list file and add the following line:") . '</p>
 
 <div class="pgaCode">
 deb [MIRROR URL]/pgadmin3/release/ubuntu feisty pgadmin
@@ -38,6 +46,11 @@ deb [MIRROR URL]/pgadmin3/release/ubuntu feisty pgadmin
 <div class="pgaCode">
 deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/ubuntu feisty pgadmin
 </div>
+
+<p>' . _("Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as wxWidgets2.8 is available from universe only at the moment. To do so, check the Ubuntu documentation or at least try to launch the update-manager configuration from the System/Administration Gnome menu.") . '</p>
+
+
+<h4>' . _("Proceed to installation") . '</h4>
 
 <p>' . _("Simply use Synaptic to install pgAdmin III as you would do with any other package or run the following command from the command prompt:") . '</p>
 

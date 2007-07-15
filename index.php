@@ -7,9 +7,9 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2007-03-26", "1.6.3") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2007-07-15", "1.8.0 BETA") . '</h2>
 
-<p>' . _("pgAdmin 1.6.3 has been released. Please see <a href=\"/news.php\">the news page</a> for details of what's changed in this version, and <a href=\"/download/\">the download page</a> to download.") . '</a></p>
+<p>' . _("pgAdmin 1.8.0 has reached the beta phase of the release cycle. Please visit <a href=\"/download/\">the download page</a> to get a copy and help with the testing! Any bug reports should be sent to <a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-spport@postgresql.org</a>.") . '</a></p>
 
 <h1>' . _("Introduction") . '</h1>
 

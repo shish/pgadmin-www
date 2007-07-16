@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-05-24 09:54+0200\n"
+"POT-Creation-Date: 2007-07-16 08:27+0200\n"
 "PO-Revision-Date: 2007-03-30 00:16+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -54,19 +54,21 @@ msgstr "<a href=\"%s\">libxslt 1.1.x</a> 或者更高版本 (用于pgAdmin 1.5+)
 #: ../download/macosx.php:16 ../download/macosx.php:17
 #: ../download/macosx.php:18 ../download/macosx.php:19
 #: ../download/macosx.php:20 ../download/macosx.php:21
-#: ../download/macosx.php:22 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/rpm.php:14 ../download/rpm.php:15
-#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
-#: ../download/rpm.php:19 ../download/rpm.php:20 ../download/slackware.php:14
+#: ../download/macosx.php:22 ../download/macosx.php:23
+#: ../download/opensuse.php:14 ../download/opensuse.php:15
+#: ../download/rpm.php:14 ../download/rpm.php:15 ../download/rpm.php:16
+#: ../download/rpm.php:17 ../download/rpm.php:18 ../download/rpm.php:19
+#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/slackware.php:18
 #: ../download/slackware.php:19 ../download/slackware.php:20
-#: ../download/slackware.php:21 ../download/solaris.php:14
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
-#: ../download/windows.php:25
+#: ../download/slackware.php:21 ../download/slackware.php:22
+#: ../download/solaris.php:14 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24 ../download/windows.php:25
+#: ../download/windows.php:26
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
@@ -174,12 +176,6 @@ msgstr ""
 "双击树状图中的选中对象或者选择新建对象打开单独的对话框，注意这里有多个标签用"
 "来创建对象，属性、参数、安全或者SQL等等等。"
 
-#: ../development/roadmap.php:42
-msgid ""
-"A procedure for debugging using XCode has been documented in xtra/wx-build/"
-"readme.txt."
-msgstr ""
-
 #: ../screenshots/data.php:14
 msgid ""
 "A query tool with colour syntax highlighting allows users to run custom "
@@ -243,27 +239,19 @@ msgid ""
 "Add -qc switch to open query tool and autoconnect using a connection string."
 msgstr "增加-qc命令行选项打开查询工具并且连接到数据库。"
 
-#: ../development/roadmap.php:56
-msgid "Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]"
-msgstr "增加对ALTER TABLE ENABLE/DISABLE TRIGGER命令的支持。[GL]"
-
 #: ../news.php:138
 msgid ""
 "Add CREATE/INSERT/UPDATE/SELECT script menu options for various object types "
 "to create script templates."
 msgstr "为不同对象增加创建/插入/修改/查询脚本菜单选项，用来创建脚本模板。"
 
-#: ../development/roadmap.php:57
+#: ../development/roadmap.php:34
 msgid "Add DROP/REASSIGN OWNED support. [GL]"
 msgstr "增加对DROP/REASSIGN OWNED命令的支持。[GL]"
 
 #: ../news.php:130
 msgid "Add a 'Favourites' query organiser to the Query Tool."
 msgstr "为查询工具增加一个‘收藏’功能菜单。"
-
-#: ../development/roadmap.php:59
-msgid "Add a 'Run now' context menu option for Jobs."
-msgstr "为Jobs增加一个\"马上运行\"的功能菜单。"
 
 #: ../news.php:152
 msgid ""
@@ -312,21 +300,9 @@ msgstr ""
 msgid "Add brace highlighting to the SQL Text Box control."
 msgstr "在SQL文本框增加高亮显示支持。"
 
-#: ../development/roadmap.php:55
-msgid "Add index information from 8.2 pgstattuple. [GL]"
-msgstr "增加8.2版pgstattuple的索引信息。[GL]"
-
-#: ../development/roadmap.php:62
-msgid "Add line-ending conversion options to the query tool."
-msgstr "在查询工具增加行结束转换选项。"
-
 #: ../news.php:146
 msgid "Add options to show line ends and whitespaces in the query tool."
 msgstr "在查询工具增加行结束和空格显示选项。"
-
-#: ../development/roadmap.php:54
-msgid "Add pgstattuple support. [GL]"
-msgstr "增加对pgstattuple的支持。[GL]"
 
 #: ../news.php:38
 msgid "Add support for Sun's compiler [Dhanaraj M]"
@@ -335,10 +311,6 @@ msgstr "增加对Sun的编译器的支持。[Dhanaraj M]"
 #: ../news.php:156
 msgid "Add support for building Mac Universal Binaries."
 msgstr "增加对制作Mac Universal Binaries的支持。"
-
-#: ../development/roadmap.php:19
-msgid "Add support for function row and cost estimations."
-msgstr "增加函数行和成本评估。"
 
 #: ../download/adminpacks.php:8 ../download/menu.php:7
 msgid "Admin packs"
@@ -351,10 +323,6 @@ msgstr "倡议"
 #: ../features.php:62
 msgid "Aggregates"
 msgstr "集合函数"
-
-#: ../development/roadmap.php:51
-msgid "Allow backup of roles, or the entire database cluster."
-msgstr "允许备份角色和整个数据库聚簇。"
 
 #: ../news.php:118
 msgid "Allow database and schema display to be restricted."
@@ -415,10 +383,6 @@ msgid ""
 "reconnecting to a particular server."
 msgstr "当重新连接到特定数据库时，允许用户选择是否恢复环境。"
 
-#: ../development/roadmap.php:50
-msgid "Allow use of Command-W to close dialogues and windows on Mac."
-msgstr "在Mac上允许使用Command-W关闭对话框和窗口。"
-
 #: ../news.php:34
 msgid ""
 "Allow users with SUPERUSER but no other privilege flags to create roles and "
@@ -452,19 +416,6 @@ msgstr ""
 "为了更方便的安装，提供一个APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜像"
 "</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装"
 "包放在：<i>[MIRROR URL]/pgadmin3/release/debian</i>"
-
-#: ../download/ubuntu.php:16
-#, fuzzy, php-format
-msgid ""
-"An APT repository is provided to ease installation. Before you start "
-"installation, please choose a mirror from the list of <a href=\"%s"
-"\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are "
-"redirected to. On each mirror, the packages are located in: <i>/pgadmin3/"
-"release/ubuntu</i>"
-msgstr ""
-"为了更方便的安装，提供一个APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜像"
-"</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装"
-"包放在：<i>/pgadmin3/release/debian</i>"
 
 #: ../translation/howto.php:12
 msgid ""
@@ -538,6 +489,10 @@ msgstr ""
 "在开始之前，希望你能够使用自己的母语翻译pgAdmin III以及网站，如果还没有人做这"
 "个工作的话。请访问<a href=\"%s\">翻译</a>网页了解更多信息以及如何开始。"
 
+#: ../download/ubuntu.php:14
+msgid "Before you try to install"
+msgstr ""
+
 #: ../support/issues.php:10
 msgid ""
 "Bugs and other issues in pgAdmin are almost always fixed within a very short "
@@ -552,7 +507,7 @@ msgstr ""
 msgid "Build against PostgreSQL 8.2 on Windows."
 msgstr "基于Windows版的PostgreSQL 8.2制作。"
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:26
 msgid "Build system"
 msgstr "制作系统"
 
@@ -572,6 +527,12 @@ msgstr "类型转换"
 msgid "Change log"
 msgstr "更新日志"
 
+#: ../development/roadmap.php:21
+msgid ""
+"Check for and remove any custom controls that are now implemented in "
+"wxWidgets."
+msgstr ""
+
 #: ../download/freebsd.php:34
 msgid "Check that the pgAdmin III executable is in the path:"
 msgstr "确认pgAdmin III在系统路径中是可以正确执行的："
@@ -581,13 +542,14 @@ msgid ""
 "Check the <i>Automatically compile .mo file on save</i> option in Properties."
 msgstr "在（文件/首选/编辑器）选中<i>保存时自动编译.mo文件</i>选项"
 
-#: ../development/roadmap.php:41
+#: ../download/ubuntu.php:29 ../download/ubuntu.php:38
+#, fuzzy
 msgid ""
-"Cleanup the Visual Studio project structure to match the actual directory "
-"layout."
-msgstr "整理Visual Studio工程结构使它符合真实的目录结构。"
+"Choose your mirror as mentioned above and edit /etc/apt/sources.list file "
+"and add the following line:"
+msgstr "编辑/etc/apt/sources.list文件追加如下行："
 
-#: ../development/roadmap.php:29
+#: ../development/roadmap.php:19
 msgid "Code housekeeping"
 msgstr "代码整理"
 
@@ -611,19 +573,11 @@ msgstr "可以设置SQL编辑器的缩进位置。"
 msgid "Configuration file editing"
 msgstr "配置文件编辑"
 
-#: ../development/roadmap.php:44
+#: ../development/roadmap.php:28
 msgid ""
-"Consider auto-generation of the *nix/XCode project files from the VC++ "
-"project files."
-msgstr "考虑从VC++工程文件中自动生成*nix/XCode工程文件。"
-
-#: ../development/roadmap.php:34
-msgid ""
-"Consider breaking out some larger classes into their own files - e.g. "
-"sqlTable from frmEditGrid, and pgQueryThread from pgSetBase."
+"Consider cross-platform build systems such as cmake to generate the build "
+"system for all platforms"
 msgstr ""
-"考虑把一些比较大的类放到它们自己的文件中，比如：frmEditGrid中取出sqlTable、"
-"pgSetBase中取出pgQueryThread。"
 
 #: ../features.php:65
 msgid "Constraints"
@@ -666,6 +620,11 @@ msgstr "数据"
 #: ../features.php:42 ../screenshots/menu.php:8
 msgid "Data access"
 msgstr "数据存取"
+
+#: ../development/roadmap.php:40
+msgid ""
+"Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
+msgstr ""
 
 #: ../screenshots/mb_i18n.php:12 ../screenshots/mb_i18n.php:18
 msgid "Database encoding selection"
@@ -741,10 +700,6 @@ msgstr "正在开发的%s版本"
 msgid "Development team"
 msgstr "开发组"
 
-#: ../development/roadmap.php:52
-msgid "Differentiate between empty strings and NULLs in the query tool."
-msgstr "在查询工具中区别空字符串和NULL的不同。"
-
 #: ../news.php:131
 msgid "Display column dependencies."
 msgstr "显示字段依赖对象。"
@@ -793,11 +748,6 @@ msgid ""
 "Contraints node, per Erwin."
 msgstr "在索引节点和约束节点上不显示索引约束，Erwin修改。"
 
-#: ../development/roadmap.php:40
-msgid ""
-"Don't install .xrc files with non-debug builds from the *nix build system."
-msgstr "从*nix制作系统使用非debug模式时不拷贝.xrc文件。"
-
 #: ../news.php:94
 msgid "Don't paste into empty edit grids, per Howard Wang"
 msgstr "禁止粘贴到空的编辑网格，Howard Wang修改。"
@@ -817,6 +767,10 @@ msgstr "下载<a href=\"%s\">poEdit</a>安装到MS Windows或者GNU/Linux中。"
 #, php-format
 msgid "Download the pgAdmin III <a href=\"%s\">source code</a> from a mirror. "
 msgstr "从一个镜像下载pgAdmin III的<a href=\"%s\">源代码</a>。"
+
+#: ../development/roadmap.php:36
+msgid "ER diagramming tool (Google SoC project). [Euler Taveira de Oliveira]"
+msgstr ""
 
 #: ../features.php:93
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
@@ -862,10 +816,6 @@ msgid ""
 "rows or individual cells."
 msgstr "增强查询工具，允许拷贝/粘贴任意行和列以及任意单元格。"
 
-#: ../development/roadmap.php:61
-msgid "Ensure all file open/save dialogues remember their last location."
-msgstr "所有文件 打开/保存 对话框可以记住它们最后的位置。"
-
 #: ../news.php:96
 msgid ""
 "Ensure backup and restore options are enabled when appropriate (this is a "
@@ -891,10 +841,6 @@ msgstr "输入你的翻译字符串"
 #: ../features.php:25
 msgid "EnterpriseDB"
 msgstr "EnterpriseDB"
-
-#: ../development/roadmap.php:17
-msgid "Enum support."
-msgstr "支持枚举。"
 
 #: ../features.php:29
 msgid "Extensive documentation"
@@ -1002,7 +948,7 @@ msgid ""
 msgstr "修正图形化解释器，正确向后显示索引扫描节点，Brendan O'Shea修改。"
 
 #: ../download/debian.php:34 ../download/debian.php:51
-#: ../download/ubuntu.php:26
+#: ../download/ubuntu.php:44
 msgid "For example, for France, you can try:"
 msgstr "例如，在法国，你可以试一下："
 
@@ -1043,6 +989,11 @@ msgstr ""
 "有时新的需要翻译的字符串会被添加到程序中，下载新的<a href=\"%s\">pgadmin3."
 "pot</a>文件，使用poEdit的<i>类目/从POT文件更新</i>功能与你的语言文件结合。另"
 "外也可以手动运行下边的命令："
+
+#: ../development/roadmap.php:32
+#, fuzzy
+msgid "Functionality"
+msgstr "函数"
 
 #: ../features.php:69
 msgid "Functions"
@@ -1254,14 +1205,6 @@ msgstr ""
 msgid "Installation"
 msgstr "安装"
 
-#: ../development/roadmap.php:25
-msgid ""
-"Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger. Include "
-"appropriate hooks into it from pgAdmin. [HS]"
-msgstr ""
-"整合EnterpriseDB基于pl/pgSQL debugger的wxWidgets，将合适的钩子（hook）包含到"
-"pgAdmin。[HS]"
-
 #: ../index.php:14 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
@@ -1270,16 +1213,6 @@ msgstr ""
 #: ../translation/menu.php:6
 msgid "Introduction"
 msgstr "介绍"
-
-#: ../development/roadmap.php:12
-msgid ""
-"It is expected that this development cycle will be around 6 months in "
-"length, in order to coincide with the release of PostgreSQL 8.3. This cycle "
-"will focus on cleanup type work to make the codebase more maintainable and "
-"more reliable than ever before."
-msgstr ""
-"为了与PostgreSQL 8.3的发布时间相符，开发周期期望在6个月以内，这个周期致力于整"
-"理工作，使代码比以前具有更高的可维护性和更强的健壮性。"
 
 #: ../advocacy/index.php:14
 #, php-format
@@ -1349,10 +1282,6 @@ msgstr ""
 "分发包中没有包含其他语种，以后可能会追加。检查<a href=\"%s\">翻译状态</a>页面"
 "查看你首选的语言是否有效，然后下载message条目。"
 
-#: ../development/roadmap.php:23
-msgid "Larger projects"
-msgstr "更大的项目"
-
 #: ../licence.php:10
 #, php-format
 msgid "Last update: %s"
@@ -1403,7 +1332,7 @@ msgstr "锁查看器"
 msgid "Logfile browser"
 msgstr "日志文件浏览器"
 
-#: ../development/roadmap.php:58
+#: ../development/roadmap.php:35
 msgid ""
 "Logfile tab on server status window : multiple columns and filtering. [GL]"
 msgstr "服务器状态窗口的日志标签项：更多的列和过滤器。[GL]"
@@ -1503,10 +1432,6 @@ msgstr "pgAgent在*nix系统下最小的连接制作。"
 msgid "Minor fix for edb/spl functions."
 msgstr "针对edb/spl 函数的微小调整。"
 
-#: ../development/roadmap.php:48
-msgid "Miscellaneous tweaks"
-msgstr "杂项调整"
-
 #: ../news.php:31
 msgid ""
 "Monitor the streams again whilst backing up on Mac - this no longer crashes "
@@ -1528,6 +1453,12 @@ msgstr ""
 "内容尺寸是不可变的，只有函数、视图和规则属性窗口尺寸可变。因此，可能需要根据"
 "英文长度缩短翻译后的字符串，通常我们会给翻译后的字符串预留足够的空间，但是如"
 "果确定某个特定位置需要更多的预留空间，请联系我们。"
+
+#: ../development/roadmap.php:22
+msgid ""
+"Move pgAgent into a standalone package that can be released on it's own "
+"schedule."
+msgstr ""
 
 #: ../screenshots/menu.php:10
 msgid "Multibyte &amp; i18n"
@@ -1594,6 +1525,18 @@ msgid ""
 msgstr ""
 "数据库对象被显示为SQL定义以及用户友好方式的属性列表，还可以显示依存和从属对"
 "象，对象的统计信息也可以在适当的位置看到。"
+
+#: ../download/ubuntu.php:22
+#, fuzzy, php-format
+msgid ""
+"Once the key added, you need to choose a mirror from the list of <a href=\"%s"
+"\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the "
+"flags, and copy the URL you are redirected to. On each mirror, the packages "
+"are located in: <i>/pgadmin3/release/ubuntu</i>"
+msgstr ""
+"为了更方便的安装，提供一个APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜像"
+"</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装"
+"包放在：<i>/pgadmin3/release/debian</i>"
 
 #: ../news.php:88
 msgid ""
@@ -1674,10 +1617,6 @@ msgstr ""
 msgid "Operator classes"
 msgstr "运算符类"
 
-#: ../development/roadmap.php:18
-msgid "Operator family support."
-msgstr "操作符族的支持。"
-
 #: ../features.php:73
 msgid "Operators"
 msgstr "运算符"
@@ -1756,12 +1695,12 @@ msgid ""
 "and %d) and keyboard shortcuts entries (&amp;)."
 msgstr "准确反映变量（%s和%d）以及键盘快捷方式（&amp;）"
 
-#: ../download/ubuntu.php:18
+#: ../download/ubuntu.php:50
 msgid ""
-"Please, note that you need to ENABLE THE UNIVERSE COMPONENT as wxWidgets2.8 "
-"is available from universe only at the moment. To do so, check the Ubuntu "
-"documentation or at least try to launch the update-manager configuration "
-"from the System/Administration Gnome menu."
+"Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as "
+"wxWidgets2.8 is available from universe only at the moment. To do so, check "
+"the Ubuntu documentation or at least try to launch the update-manager "
+"configuration from the System/Administration Gnome menu."
 msgstr ""
 
 #: ../features.php:24
@@ -1779,8 +1718,9 @@ msgstr ""
 msgid "PostgreSQL 8.2 support:"
 msgstr "PostgreSQL 8.2支持："
 
-#: ../development/roadmap.php:15
-msgid "PostgreSQL 8.3 compatibility (these items are subject to change)"
+#: ../development/roadmap.php:13
+#, fuzzy
+msgid "PostgreSQL 8.4 compatibility (these items are subject to change)"
 msgstr "兼容PostgreSQL 8.3（可能经常发生变化）"
 
 #: ../download/source.php:114
@@ -1860,6 +1800,11 @@ msgstr "隐私保护"
 msgid "Privilege changes (database CONNECT, and sequence USAGE)."
 msgstr "权限变更（数据库的CONNECT和序列号的USAG）"
 
+#: ../download/ubuntu.php:53
+#, fuzzy
+msgid "Proceed to installation"
+msgstr "安装"
+
 #: ../advocacy/index.php:12
 msgid ""
 "Promotion is essential for the life and development of the pgAdmin project. "
@@ -1897,17 +1842,19 @@ msgstr "备份对话框使用更加合适的尺寸，Patrick Headley修改。"
 msgid "Published translations (%d)"
 msgstr "已经发布的翻译（%d）"
 
+#: ../development/roadmap.php:37
+msgid "Query Tool SQL macros [ksmigrod]"
+msgstr ""
+
 #: ../download/menu.php:13 ../download/rpm.php:8
 msgid "RPM"
 msgstr "RPM包"
 
-#: ../development/roadmap.php:33
+#: ../development/roadmap.php:38
 msgid ""
-"Refactor to remove base classes that offer no real benefit - e.g. pgSet/"
-"pgQueryThread which only have a couple of members between them."
+"Redesign Table dialogue to remove sub-dialogues where possible and replace "
+"with grid style UI [DP]"
 msgstr ""
-"重新构建去掉没有实际用途的基类，比如pgSet/pgQueryThread，在它们之间仅有一些成"
-"员。"
 
 #: ../news.php:67
 msgid "Refresh database objects correctly, per Guy Rouillier."
@@ -1926,14 +1873,6 @@ msgstr "%s版本"
 msgid "Remember the server's SSL mode property correctly."
 msgstr "正确保存服务器的SSL模式属性。"
 
-#: ../development/roadmap.php:31
-msgid "Remove macros and code to support non-Unicode builds."
-msgstr "删除支持非Unicode编译的宏和代码。"
-
-#: ../development/roadmap.php:32
-msgid "Remove macros and code to support wxWidgets 2.6 and older."
-msgstr "删除支持wxWidgets 2.6以及更旧版本的宏和代码。"
-
 #: ../download/source.php:10
 msgid "Requirements"
 msgstr "需求"
@@ -1941,19 +1880,6 @@ msgstr "需求"
 #: ../news.php:59
 msgid "Restore dialog sizes correctly."
 msgstr "正确的恢复对话框尺寸"
-
-#: ../development/roadmap.php:43
-msgid "Restructure header files into a more organised directory layout."
-msgstr "把头文件重新组织到更合理的目录结构中。"
-
-#: ../development/roadmap.php:60
-msgid ""
-"Retain column sizes in the Query Tool results grid when a query is re-run."
-msgstr "当重新运行查询时，保持结果表格列的尺寸不变。"
-
-#: ../development/roadmap.php:53
-msgid "Retain the clipboard contents when closing the application."
-msgstr "关闭程序时保留剪贴板的内容。"
 
 #: ../news.php:149
 msgid "Retain values in the edit grid following a failed insert or update."
@@ -2073,7 +1999,7 @@ msgstr "共享的数据库注释。"
 msgid "Simplified Chinese"
 msgstr "简体中文"
 
-#: ../download/ubuntu.php:32
+#: ../download/ubuntu.php:55
 msgid ""
 "Simply use Synaptic to install pgAdmin III as you would do with any other "
 "package or run the following command from the command prompt:"
@@ -2193,6 +2119,10 @@ msgstr ""
 #: ../include/page.php:129
 msgid "Support"
 msgstr "技术支持"
+
+#: ../development/roadmap.php:39
+msgid "Support for integrated tsearch configuration in PG 8.3+"
+msgstr ""
 
 #: ../news.php:120
 msgid "Support for language templates."
@@ -2586,11 +2516,6 @@ msgid ""
 "The wxWidgets version and configure options used (if compiled from source)"
 msgstr "wxWidgets版本和编译选项（如果是从源代码编译的话）"
 
-#: ../download/ubuntu.php:20
-#, fuzzy
-msgid "Then, edit /etc/apt/sources.list file and add the following line:"
-msgstr "编辑/etc/apt/sources.list文件追加如下行："
-
 #: ../advocacy/strategy.php:15
 #, php-format
 msgid ""
@@ -2628,7 +2553,7 @@ msgstr ""
 "行！为了达到100%的翻译状态，只要把这些字符串使用poEdit的Alt+C命令拷贝即可，例"
 "如<i>ACL</i>翻译为<i>ACL</i>、<i>AFTER</i>翻译为<i>AFTER</i>诸如此类。"
 
-#: ../download/macosx.php:25
+#: ../download/macosx.php:26
 #, fuzzy
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.6 series, unpack the "
@@ -2649,18 +2574,6 @@ msgstr ""
 "这个最终步骤将在源代码目录树的根下创建一个叫做pgAdmin3.app的OSX包，<i>pkg/"
 "mac/debug-bundle.sh</i>脚本可以用来创建一个使用标识符直接指向可执行文件的非重"
 "定向假包，这可能会花费一到两分钟时间。"
-
-#: ../development/roadmap.php:44
-msgid "This item does not seem practical at present."
-msgstr ""
-
-#: ../development/roadmap.php:57 ../development/roadmap.php:58
-msgid "This item has been deferred for the next version."
-msgstr ""
-
-#: ../development/roadmap.php:50
-msgid "This item has been moved to the BUGS list."
-msgstr ""
 
 #: ../development/roadmap.php:10
 #, php-format
@@ -2711,6 +2624,10 @@ msgstr ""
 "保存在这里，另外也需要更新从<a href=\"%s\">翻译状态</a>页面获取的<i>i18n/"
 "pgadmin3.lng</i>文件。"
 
+#: ../development/roadmap.php:15
+msgid "To be determined..."
+msgstr ""
+
 #: ../development/svn.php:12
 #, php-format
 msgid ""
@@ -2721,7 +2638,7 @@ msgstr ""
 "由命令行获取源程序然后开始，例如在Linux或者Unix系统可以使用下边的命令。更多的"
 "细节请查看<a href=\"%s\">源代码</a>build指令。"
 
-#: ../download/windows.php:28
+#: ../download/windows.php:29
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -2733,7 +2650,7 @@ msgstr ""
 "装。小版本号的升级（例如，从1.4.0到1.4.1），可以运行<i>upgrade.bat</i>脚本。"
 "大版本号的发布，例如1.2.2和1.4.1，可以在同一台计算机上同时安装。"
 
-#: ../download/freebsd.php:22 ../download/rpm.php:23
+#: ../download/freebsd.php:22 ../download/rpm.php:24
 msgid "To install these packages, use a command such as:"
 msgstr "运行如下命令安装这个包："
 
@@ -2743,7 +2660,7 @@ msgid ""
 "i> utilities."
 msgstr "使用OpenSUSE的<i>pkgtool</i>或者<i>installpkg</i>工具安装这些包。"
 
-#: ../download/slackware.php:24
+#: ../download/slackware.php:25
 msgid ""
 "To install these packages, use the Slackware <i>pkgtool</i> or "
 "<i>installpkg</i> utilities."
@@ -2818,8 +2735,12 @@ msgstr "UNICODE/UTF-8"
 msgid "Ubuntu"
 msgstr ""
 
-#: ../download/ubuntu.php:14
-msgid "Ubuntu Feisty"
+#: ../download/ubuntu.php:26
+msgid "Ubuntu Dapper configuration"
+msgstr ""
+
+#: ../download/ubuntu.php:36
+msgid "Ubuntu Feisty configuration"
 msgstr ""
 
 #: ../advocacy/information.php:31
@@ -3044,10 +2965,6 @@ msgstr "Windows 2000, XP and 2003"
 msgid "Windows 2000, XP, 2003: Microsoft Visual C++ 2005."
 msgstr "Windows 2000、XP、2003系统：Microsoft Visual C++ 2005。"
 
-#: ../development/roadmap.php:42
-msgid "XCode project files for building on Mac."
-msgstr "XCode工程文件针对MAC下的制作。"
-
 #: ../advocacy/information.php:10
 msgid ""
 "You are free to publish any technical information about pgAdmin. Here are "
@@ -3149,12 +3066,11 @@ msgstr ""
 
 #: ../index.php:12
 msgid ""
-"pgAdmin 1.6.3 has been released. Please see <a href=\"/news.php\">the news "
-"page</a> for details of what's changed in this version, and <a href=\"/"
-"download/\">the download page</a> to download."
+"pgAdmin 1.8.0 has reached the beta phase of the release cycle. Please visit "
+"<a href=\"/download/\">the download page</a> to get a copy and help with the "
+"testing! Any bug reports should be sent to <a href=\"mailto:pgadmin-"
+"support@postgresql.org\">pgadmin-spport@postgresql.org</a>."
 msgstr ""
-"pgAdmin 1.6.3已经发布，请查阅<a href=\"/news.php\">新闻</a>页面以获得关于这个"
-"版本详细的更新说明，同时可以在<a href=\"/download/\">下载</a>页面下载到它。"
 
 #: ../news.php:44 ../news.php:71 ../news.php:99 ../news.php:166
 #: ../news.php:192
@@ -3346,8 +3262,8 @@ msgstr "pgAdmin III 包目前可以下载，这个包是在FreeBSD 6之下制作
 #: ../download/ubuntu.php:12
 #, fuzzy, php-format
 msgid ""
-"pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> feisty "
-"distribution."
+"pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> dapper "
+"and feisty distributions."
 msgstr "pgAdmin III的RPM包针对多种Linux分发有效。"
 
 #: ../screenshots/index.php:17
@@ -3636,6 +3552,12 @@ msgstr "pgAdmin：归档"
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr "pgAdmin：文档 - 无法找到文档标题！"
 
+#: ../development/roadmap.php:41
+msgid ""
+"pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
+"in PG 8.4) [DP]"
+msgstr ""
+
 #: ../translation/howto.php:21
 #, php-format
 msgid ""
@@ -3690,6 +3612,120 @@ msgid ""
 msgstr ""
 "wxWidgets 2.6.2以及之前的版本无法在Solaris下使用，可以使用CVS上2005-09-26或者"
 "之后的健壮分支，直到2.6.3发布。"
+
+#~ msgid "Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]"
+#~ msgstr "增加对ALTER TABLE ENABLE/DISABLE TRIGGER命令的支持。[GL]"
+
+#~ msgid "Add a 'Run now' context menu option for Jobs."
+#~ msgstr "为Jobs增加一个\"马上运行\"的功能菜单。"
+
+#~ msgid "Add index information from 8.2 pgstattuple. [GL]"
+#~ msgstr "增加8.2版pgstattuple的索引信息。[GL]"
+
+#~ msgid "Add line-ending conversion options to the query tool."
+#~ msgstr "在查询工具增加行结束转换选项。"
+
+#~ msgid "Add pgstattuple support. [GL]"
+#~ msgstr "增加对pgstattuple的支持。[GL]"
+
+#~ msgid "Add support for function row and cost estimations."
+#~ msgstr "增加函数行和成本评估。"
+
+#~ msgid "Allow backup of roles, or the entire database cluster."
+#~ msgstr "允许备份角色和整个数据库聚簇。"
+
+#~ msgid "Allow use of Command-W to close dialogues and windows on Mac."
+#~ msgstr "在Mac上允许使用Command-W关闭对话框和窗口。"
+
+#~ msgid ""
+#~ "Cleanup the Visual Studio project structure to match the actual directory "
+#~ "layout."
+#~ msgstr "整理Visual Studio工程结构使它符合真实的目录结构。"
+
+#~ msgid ""
+#~ "Consider auto-generation of the *nix/XCode project files from the VC++ "
+#~ "project files."
+#~ msgstr "考虑从VC++工程文件中自动生成*nix/XCode工程文件。"
+
+#~ msgid ""
+#~ "Consider breaking out some larger classes into their own files - e.g. "
+#~ "sqlTable from frmEditGrid, and pgQueryThread from pgSetBase."
+#~ msgstr ""
+#~ "考虑把一些比较大的类放到它们自己的文件中，比如：frmEditGrid中取出"
+#~ "sqlTable、pgSetBase中取出pgQueryThread。"
+
+#~ msgid "Differentiate between empty strings and NULLs in the query tool."
+#~ msgstr "在查询工具中区别空字符串和NULL的不同。"
+
+#~ msgid ""
+#~ "Don't install .xrc files with non-debug builds from the *nix build system."
+#~ msgstr "从*nix制作系统使用非debug模式时不拷贝.xrc文件。"
+
+#~ msgid "Ensure all file open/save dialogues remember their last location."
+#~ msgstr "所有文件 打开/保存 对话框可以记住它们最后的位置。"
+
+#~ msgid "Enum support."
+#~ msgstr "支持枚举。"
+
+#~ msgid ""
+#~ "Integrate EnterpriseDB's wxWidgets based pl/pgSQL debugger. Include "
+#~ "appropriate hooks into it from pgAdmin. [HS]"
+#~ msgstr ""
+#~ "整合EnterpriseDB基于pl/pgSQL debugger的wxWidgets，将合适的钩子（hook）包含"
+#~ "到pgAdmin。[HS]"
+
+#~ msgid ""
+#~ "It is expected that this development cycle will be around 6 months in "
+#~ "length, in order to coincide with the release of PostgreSQL 8.3. This "
+#~ "cycle will focus on cleanup type work to make the codebase more "
+#~ "maintainable and more reliable than ever before."
+#~ msgstr ""
+#~ "为了与PostgreSQL 8.3的发布时间相符，开发周期期望在6个月以内，这个周期致力"
+#~ "于整理工作，使代码比以前具有更高的可维护性和更强的健壮性。"
+
+#~ msgid "Larger projects"
+#~ msgstr "更大的项目"
+
+#~ msgid "Miscellaneous tweaks"
+#~ msgstr "杂项调整"
+
+#~ msgid "Operator family support."
+#~ msgstr "操作符族的支持。"
+
+#~ msgid ""
+#~ "Refactor to remove base classes that offer no real benefit - e.g. pgSet/"
+#~ "pgQueryThread which only have a couple of members between them."
+#~ msgstr ""
+#~ "重新构建去掉没有实际用途的基类，比如pgSet/pgQueryThread，在它们之间仅有一"
+#~ "些成员。"
+
+#~ msgid "Remove macros and code to support non-Unicode builds."
+#~ msgstr "删除支持非Unicode编译的宏和代码。"
+
+#~ msgid "Remove macros and code to support wxWidgets 2.6 and older."
+#~ msgstr "删除支持wxWidgets 2.6以及更旧版本的宏和代码。"
+
+#~ msgid "Restructure header files into a more organised directory layout."
+#~ msgstr "把头文件重新组织到更合理的目录结构中。"
+
+#~ msgid ""
+#~ "Retain column sizes in the Query Tool results grid when a query is re-run."
+#~ msgstr "当重新运行查询时，保持结果表格列的尺寸不变。"
+
+#~ msgid "Retain the clipboard contents when closing the application."
+#~ msgstr "关闭程序时保留剪贴板的内容。"
+
+#~ msgid "XCode project files for building on Mac."
+#~ msgstr "XCode工程文件针对MAC下的制作。"
+
+#~ msgid ""
+#~ "pgAdmin 1.6.3 has been released. Please see <a href=\"/news.php\">the "
+#~ "news page</a> for details of what's changed in this version, and <a href="
+#~ "\"/download/\">the download page</a> to download."
+#~ msgstr ""
+#~ "pgAdmin 1.6.3已经发布，请查阅<a href=\"/news.php\">新闻</a>页面以获得关于"
+#~ "这个版本详细的更新说明，同时可以在<a href=\"/download/\">下载</a>页面下载"
+#~ "到它。"
 
 #~ msgid "Debian Woody (oldstable)"
 #~ msgstr "Debian Woody（以前的正式版）"

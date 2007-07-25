@@ -21,7 +21,7 @@ $PAGE_CONTENT = '
   </ul><br />&nbsp;</li>
     
   <li>Structure<br />&nbsp;<br />
-    The foundation consists of the Project Leader, core developers and members.<br />&nbsp;<br />
+    The foundation consists of the Project Leader and Members.<br />&nbsp;<br />
     <ul>
       <li>Project Leader: The Project Leader is Dave Page, founder and primary 
           developer of the software.
@@ -38,7 +38,7 @@ $PAGE_CONTENT = '
   <li>People<br />&nbsp;<br />
     The pgAdmin Development Team includes the following people:<br />&nbsp;<br />
     <ul>
-      <li><a href="mailto:dpage@vale-housing.co.uk">Dave Page</a> (Project Leader): Project founder & primary developer.<br />&nbsp;</li>
+      <li><a href="mailto:dpage@postgresql.org">Dave Page</a> (Project Leader): Project founder & primary developer.<br />&nbsp;</li>
       <li><a href="mailto:z-saito@guitar.ocn.ne.jp">Hiroshi Saito</a>: Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.</li>
       <li><a href="mailto:fmonkey@fmonkey.net">Adam H. Pendleton</a>: Developed and maintains the build system, and helps with various porting issues.</li>
       <li><a href="mailto:blacknoz@club-internet.fr">Rapha&#235;l Enrici</a>: Maintains the Debian port, and helps with numerous other issues.</li>

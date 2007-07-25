@@ -43,7 +43,7 @@ $PAGE_CONTENT = '
       <li><a href="mailto:fmonkey@fmonkey.net">Adam H. Pendleton</a>: Developed and maintains the build system, and helps with various porting issues.</li>
       <li><a href="mailto:blacknoz@club-internet.fr">Rapha&#235;l Enrici</a>: Maintains the Debian port, and helps with numerous other issues.</li>
       <li><a href="mailto:guillaume@lelarge.info">Guillaume Lelarge</a>: Manages the pgAdmin application and website translations, and has added a number of enhancements to pgAdmin.</li>
-      <li><a href="mailto:brandstetter@falter.at">Erwin Brandstetter</a>: Spends significant amounts of time testing new releases and helping us track down bugs and behavioural issues</li>.
+      <li><a href="mailto:brandstetter@falter.at">Erwin Brandstetter</a>: Spends significant amounts of time testing new releases and helping us track down bugs and behavioural issues.</li>
     </ul>
     <br />&nbsp;</li>
     The following people no longer work on the project, but we remain grateful for their past contributions:<br />&nbsp;<br />

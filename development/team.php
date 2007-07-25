@@ -47,7 +47,7 @@ $PAGE_CONTENT = '
     The following people no longer work on the project, but we remain grateful for their past contributions:<br />&nbsp;<br />
     <ul>
       <li><a href="mailto:myeatman@vale-housing.co.uk">Mark Yeatman</a>: Works on controls and consults on UI design.</li>
-      <li><a href="mailto:frank_lupo@email.it">Frank Lupo</a>: Has made countless improvements to the pgAdmin II code from minor bug fixes to major enhancements.<br />&nbsp;</li>
+      <li><a href="mailto:frank_lupo@email.it">Frank Lupo</a>: Has made countless improvements to the pgAdmin II code from minor bug fixes to major enhancements.</li>
       <li><a href="mailto:jm@poure.com">Jean-Michel Pour&#233;</a>: Managed translations & the web site.</li>
       <li><a href="mailto:pgadmin@pse-consulting.de">Andreas Pflug</a>: Wrote vast amounts of pgAdmin III code and is responsible for much of its design.</li>
     </ul>

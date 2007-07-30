@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-16 08:27+0200\n"
+"POT-Creation-Date: 2007-07-30 18:49+0200\n"
 "PO-Revision-Date: 2007-03-30 00:16+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -621,7 +621,7 @@ msgstr "数据"
 msgid "Data access"
 msgstr "数据存取"
 
-#: ../development/roadmap.php:40
+#: ../development/roadmap.php:39
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
@@ -1640,6 +1640,12 @@ msgstr ""
 msgid "Overhaul of server config settings."
 msgstr "检查服务器配置"
 
+#: ../development/roadmap.php:41
+msgid ""
+"Overhaul settings management. Save settings on the fly rather than at exit. "
+"Take default values from an external file [DP]"
+msgstr ""
+
 #: ../download/solaris.php:12
 msgid ""
 "Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
@@ -1842,15 +1848,11 @@ msgstr "备份对话框使用更加合适的尺寸，Patrick Headley修改。"
 msgid "Published translations (%d)"
 msgstr "已经发布的翻译（%d）"
 
-#: ../development/roadmap.php:37
-msgid "Query Tool SQL macros [ksmigrod]"
-msgstr ""
-
 #: ../download/menu.php:13 ../download/rpm.php:8
 msgid "RPM"
 msgstr "RPM包"
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:37
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
 "with grid style UI [DP]"
@@ -2120,7 +2122,7 @@ msgstr ""
 msgid "Support"
 msgstr "技术支持"
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:38
 msgid "Support for integrated tsearch configuration in PG 8.3+"
 msgstr ""
 
@@ -3069,7 +3071,7 @@ msgid ""
 "pgAdmin 1.8.0 has reached the beta phase of the release cycle. Please visit "
 "<a href=\"/download/\">the download page</a> to get a copy and help with the "
 "testing! Any bug reports should be sent to <a href=\"mailto:pgadmin-"
-"support@postgresql.org\">pgadmin-spport@postgresql.org</a>."
+"support@postgresql.org\">pgadmin-support@postgresql.org</a>."
 msgstr ""
 
 #: ../news.php:44 ../news.php:71 ../news.php:99 ../news.php:166
@@ -3552,7 +3554,7 @@ msgstr "pgAdmin：归档"
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr "pgAdmin：文档 - 无法找到文档标题！"
 
-#: ../development/roadmap.php:41
+#: ../development/roadmap.php:40
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"

@@ -39,6 +39,7 @@ $PAGE_CONTENT = '
       <li>' . _("Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
       <li>' . _("pgsql-performance report tool for problematic queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
       <li>' . _("Overhaul settings management. Save settings on the fly rather than at exit. Take default values from an external file [DP]") . '<br />&nbsp;</li>
+      <li>' . _("Add a dialog to allow the user to set a global breakpoint in a specific backend process [DP]") . '<br />&nbsp;</li>
     </ul>
   </li>
 

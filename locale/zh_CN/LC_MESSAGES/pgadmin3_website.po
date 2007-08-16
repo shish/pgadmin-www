@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-30 18:49+0200\n"
+"POT-Creation-Date: 2007-08-16 11:47+0200\n"
 "PO-Revision-Date: 2007-03-30 00:16+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -58,17 +58,17 @@ msgstr "<a href=\"%s\">libxslt 1.1.x</a> 或者更高版本 (用于pgAdmin 1.5+)
 #: ../download/opensuse.php:14 ../download/opensuse.php:15
 #: ../download/rpm.php:14 ../download/rpm.php:15 ../download/rpm.php:16
 #: ../download/rpm.php:17 ../download/rpm.php:18 ../download/rpm.php:19
-#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/slackware.php:14
-#: ../download/slackware.php:15 ../download/slackware.php:16
-#: ../download/slackware.php:17 ../download/slackware.php:18
-#: ../download/slackware.php:19 ../download/slackware.php:20
-#: ../download/slackware.php:21 ../download/slackware.php:22
-#: ../download/solaris.php:14 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
-#: ../download/windows.php:26
+#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/rpm.php:22
+#: ../download/slackware.php:14 ../download/slackware.php:15
+#: ../download/slackware.php:16 ../download/slackware.php:17
+#: ../download/slackware.php:18 ../download/slackware.php:19
+#: ../download/slackware.php:20 ../download/slackware.php:21
+#: ../download/slackware.php:22 ../download/solaris.php:14
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25 ../download/windows.php:26
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
@@ -252,6 +252,18 @@ msgstr "增加对DROP/REASSIGN OWNED命令的支持。[GL]"
 #: ../news.php:130
 msgid "Add a 'Favourites' query organiser to the Query Tool."
 msgstr "为查询工具增加一个‘收藏’功能菜单。"
+
+#: ../development/roadmap.php:42
+msgid ""
+"Add a dialog to allow the user to set a global breakpoint in a specific "
+"backend process [DP]"
+msgstr ""
+
+#: ../development/roadmap.php:43
+msgid ""
+"Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected "
+"lines in the query tool [DP]"
+msgstr ""
 
 #: ../news.php:152
 msgid ""
@@ -2652,7 +2664,7 @@ msgstr ""
 "装。小版本号的升级（例如，从1.4.0到1.4.1），可以运行<i>upgrade.bat</i>脚本。"
 "大版本号的发布，例如1.2.2和1.4.1，可以在同一台计算机上同时安装。"
 
-#: ../download/freebsd.php:22 ../download/rpm.php:24
+#: ../download/freebsd.php:22 ../download/rpm.php:25
 msgid "To install these packages, use a command such as:"
 msgstr "运行如下命令安装这个包："
 

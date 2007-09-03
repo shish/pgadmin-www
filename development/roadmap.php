@@ -41,6 +41,7 @@ $PAGE_CONTENT = '
       <li>' . _("Overhaul settings management. Save settings on the fly rather than at exit. Take default values from an external file [DP]") . '<br />&nbsp;</li>
       <li>' . _("Add a dialog to allow the user to set a global breakpoint in a specific backend process [DP]") . '<br />&nbsp;</li>
       <li>' . _("Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected lines in the query tool [DP]") . '<br />&nbsp;</li>
+      <li>' . _("Add support for the -c (clean) pg_restore option") . '<br />&nbsp;</li>
     </ul>
   </li>
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-16 08:27+0200\n"
+"POT-Creation-Date: 2007-08-16 11:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,17 +56,17 @@ msgstr ""
 #: ../download/opensuse.php:14 ../download/opensuse.php:15
 #: ../download/rpm.php:14 ../download/rpm.php:15 ../download/rpm.php:16
 #: ../download/rpm.php:17 ../download/rpm.php:18 ../download/rpm.php:19
-#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/slackware.php:14
-#: ../download/slackware.php:15 ../download/slackware.php:16
-#: ../download/slackware.php:17 ../download/slackware.php:18
-#: ../download/slackware.php:19 ../download/slackware.php:20
-#: ../download/slackware.php:21 ../download/slackware.php:22
-#: ../download/solaris.php:14 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
-#: ../download/windows.php:26
+#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/rpm.php:22
+#: ../download/slackware.php:14 ../download/slackware.php:15
+#: ../download/slackware.php:16 ../download/slackware.php:17
+#: ../download/slackware.php:18 ../download/slackware.php:19
+#: ../download/slackware.php:20 ../download/slackware.php:21
+#: ../download/slackware.php:22 ../download/solaris.php:14
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25 ../download/windows.php:26
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
@@ -217,6 +217,18 @@ msgstr ""
 
 #: ../news.php:130
 msgid "Add a 'Favourites' query organiser to the Query Tool."
+msgstr ""
+
+#: ../development/roadmap.php:42
+msgid ""
+"Add a dialog to allow the user to set a global breakpoint in a specific "
+"backend process [DP]"
+msgstr ""
+
+#: ../development/roadmap.php:43
+msgid ""
+"Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected "
+"lines in the query tool [DP]"
 msgstr ""
 
 #: ../news.php:152
@@ -555,7 +567,7 @@ msgstr ""
 msgid "Data access"
 msgstr ""
 
-#: ../development/roadmap.php:40
+#: ../development/roadmap.php:39
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
@@ -1478,6 +1490,12 @@ msgstr ""
 msgid "Overhaul of server config settings."
 msgstr ""
 
+#: ../development/roadmap.php:41
+msgid ""
+"Overhaul settings management. Save settings on the fly rather than at exit. "
+"Take default values from an external file [DP]"
+msgstr ""
+
 #: ../download/solaris.php:12
 msgid ""
 "Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
@@ -1656,15 +1674,11 @@ msgstr ""
 msgid "Published translations (%d)"
 msgstr ""
 
-#: ../development/roadmap.php:37
-msgid "Query Tool SQL macros [ksmigrod]"
-msgstr ""
-
 #: ../download/menu.php:13 ../download/rpm.php:8
 msgid "RPM"
 msgstr ""
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:37
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
 "with grid style UI [DP]"
@@ -1906,7 +1920,7 @@ msgstr ""
 msgid "Support"
 msgstr ""
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:38
 msgid "Support for integrated tsearch configuration in PG 8.3+"
 msgstr ""
 
@@ -2337,7 +2351,7 @@ msgid ""
 "can be installed on the same machine at the same time."
 msgstr ""
 
-#: ../download/freebsd.php:22 ../download/rpm.php:24
+#: ../download/freebsd.php:22 ../download/rpm.php:25
 msgid "To install these packages, use a command such as:"
 msgstr ""
 
@@ -2707,7 +2721,7 @@ msgid ""
 "pgAdmin 1.8.0 has reached the beta phase of the release cycle. Please visit "
 "<a href=\"/download/\">the download page</a> to get a copy and help with the "
 "testing! Any bug reports should be sent to <a href=\"mailto:pgadmin-"
-"support@postgresql.org\">pgadmin-spport@postgresql.org</a>."
+"support@postgresql.org\">pgadmin-support@postgresql.org</a>."
 msgstr ""
 
 #: ../news.php:44 ../news.php:71 ../news.php:99 ../news.php:166
@@ -3136,7 +3150,7 @@ msgstr ""
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr ""
 
-#: ../development/roadmap.php:41
+#: ../development/roadmap.php:40
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"

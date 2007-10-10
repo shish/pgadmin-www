@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-08-16 11:47+0200\n"
+"POT-Creation-Date: 2007-10-10 20:22+0200\n"
 "PO-Revision-Date: 2007-03-30 00:16+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -323,6 +323,10 @@ msgstr "增加对Sun的编译器的支持。[Dhanaraj M]"
 #: ../news.php:156
 msgid "Add support for building Mac Universal Binaries."
 msgstr "增加对制作Mac Universal Binaries的支持。"
+
+#: ../development/roadmap.php:44
+msgid "Add support for the -c (clean) pg_restore option"
+msgstr ""
 
 #: ../download/adminpacks.php:8 ../download/menu.php:7
 msgid "Admin packs"
@@ -3080,10 +3084,10 @@ msgstr ""
 
 #: ../index.php:12
 msgid ""
-"pgAdmin 1.8.0 has reached the beta phase of the release cycle. Please visit "
-"<a href=\"/download/\">the download page</a> to get a copy and help with the "
-"testing! Any bug reports should be sent to <a href=\"mailto:pgadmin-"
-"support@postgresql.org\">pgadmin-support@postgresql.org</a>."
+"pgAdmin 1.8.0 has reached the Release Candidate phase of the release cycle. "
+"Please visit <a href=\"/download/\">the download page</a> to get a copy and "
+"help with the last minute testing! Any bug reports should be sent to <a href="
+"\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</a>."
 msgstr ""
 
 #: ../news.php:44 ../news.php:71 ../news.php:99 ../news.php:166

@@ -11,7 +11,6 @@ $PAGE_CONTENT = '
 
 <p>' . _("pgAdmin III RPM packages are available for several Linux distributions.") . '</p>
 <ul>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.8.0-beta3/fedora-core-7/", "1.8.0 Beta 3") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.6.3/", "1.6.3") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.6.2/", "1.6.2") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.6.1/", "1.6.1") . '<br />&nbsp;</li>

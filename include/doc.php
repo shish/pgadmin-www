@@ -19,6 +19,11 @@ if (isset($_GET['docset']))
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.6");
       break;
 
+    case "1.8":
+      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.8/docs/en_US";
+      $docheader = sprintf(_("pgAdmin %s online documentation"), "1.8");
+      break;
+
     case "dev":
       $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), _("Development"));

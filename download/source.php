@@ -22,6 +22,7 @@ $PAGE_CONTENT = '
 <p>' . _("Build instructions are included in the tarballs, and are available online:") . '</p>
 
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://svn.pgadmin.org/cgi-bin/viewcvs.cgi/branches/REL-1_8_0_PATCHES/pgadmin3/INSTALL?view=markup", "1.8.x") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://svn.pgadmin.org/cgi-bin/viewcvs.cgi/branches/REL-1_6_0_PATCHES/pgadmin3/INSTALL?view=markup", "1.6.x") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://svn.pgadmin.org/cgi-bin/viewcvs.cgi/branches/REL-1_4_0_PATCHES/pgadmin3/INSTALL.txt?view=markup", "1.4.x") . '<br />&nbsp;</li>
 </ul>

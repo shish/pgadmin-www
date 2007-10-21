@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-10-10 20:22+0200\n"
+"POT-Creation-Date: 2007-10-21 10:53+0200\n"
 "PO-Revision-Date: 2007-03-30 00:16+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -32,21 +32,6 @@ msgstr "%s - pgAdmin III %s版本发布"
 msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s"
 msgstr "<a href=\"%s\">Admin pack</a> 用于pgAdmin %s版本"
 
-#: ../download/source.php:29
-#, php-format
-msgid "<a href=\"%s\">PostgreSQL 8.0</a> or above."
-msgstr "<a href=\"%s\">PostgreSQL 8.0</a> 或者更高版本。"
-
-#: ../download/source.php:25
-#, php-format
-msgid "<a href=\"%s\">libxml2 2.6.18</a> or above (for pgAdmin 1.5+)."
-msgstr "<a href=\"%s\">libxml2 2.6.18</a> 或者更高版本 (用于pgAdmin 1.5+)。"
-
-#: ../download/source.php:27
-#, php-format
-msgid "<a href=\"%s\">libxslt 1.1.x</a> or above (for pgAdmin 1.5+)."
-msgstr "<a href=\"%s\">libxslt 1.1.x</a> 或者更高版本 (用于pgAdmin 1.5+)。"
-
 #: ../download/freebsd.php:14 ../download/freebsd.php:15
 #: ../download/freebsd.php:16 ../download/freebsd.php:17
 #: ../download/freebsd.php:18 ../download/freebsd.php:19
@@ -58,12 +43,14 @@ msgstr "<a href=\"%s\">libxslt 1.1.x</a> 或者更高版本 (用于pgAdmin 1.5+)
 #: ../download/opensuse.php:14 ../download/opensuse.php:15
 #: ../download/rpm.php:14 ../download/rpm.php:15 ../download/rpm.php:16
 #: ../download/rpm.php:17 ../download/rpm.php:18 ../download/rpm.php:19
-#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/rpm.php:22
-#: ../download/slackware.php:14 ../download/slackware.php:15
-#: ../download/slackware.php:16 ../download/slackware.php:17
-#: ../download/slackware.php:18 ../download/slackware.php:19
-#: ../download/slackware.php:20 ../download/slackware.php:21
-#: ../download/slackware.php:22 ../download/solaris.php:14
+#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/slackware.php:14
+#: ../download/slackware.php:15 ../download/slackware.php:16
+#: ../download/slackware.php:17 ../download/slackware.php:18
+#: ../download/slackware.php:19 ../download/slackware.php:20
+#: ../download/slackware.php:21 ../download/slackware.php:22
+#: ../download/solaris.php:14 ../download/source.php:15
+#: ../download/source.php:16 ../download/source.php:17
+#: ../download/source.php:18 ../download/source.php:19
 #: ../download/windows.php:17 ../download/windows.php:18
 #: ../download/windows.php:19 ../download/windows.php:20
 #: ../download/windows.php:21 ../download/windows.php:22
@@ -73,16 +60,10 @@ msgstr "<a href=\"%s\">libxslt 1.1.x</a> 或者更高版本 (用于pgAdmin 1.5+)
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
 
-#: ../download/source.php:23
-#, php-format
-msgid ""
-"<a href=\"%s\">wxWidgets</a> 2.6.x (for pgAdmin 1.4.x), wxWidgets 2.7.x (for "
-"pgAdmin 1.5 - 1.6.1) or wxWidgets 2.8.x (for pgAdmin 1.6.2 and above). "
-"Currently, this is the only version we support."
-msgstr ""
-"<a href=\"%s\">wxWidgets</a> 2.6.x (针对 pgAdmin 1.4.x)、 wxWidgets 2.7.x (针"
-"对 pgAdmin 1.5 - 1.6.1) 或者 wxWidgets 2.8.x (针对 pgAdmin 1.6.2 以及更高)， "
-"这是目前我们能够支持的版本。"
+#: ../download/source.php:25 ../download/source.php:26
+#, fuzzy, php-format
+msgid "<a href=\"%s\">v%s instructions</a>"
+msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
 
 #: ../advocacy/information.php:17
 msgid ""
@@ -190,24 +171,6 @@ msgstr ""
 "从对象浏览器传送到查询工具，用户也可以手工得编写简单或者复杂的脚本。长时间运"
 "行的查询如果需要的话可以通过点击红色方块按钮中断。查询工具可以显示查询的执行"
 "时间帮助用户去优化它们，全面支持PostgreSQL的异步通知系统。"
-
-#: ../download/source.php:13
-msgid "A recent development environment:"
-msgstr "最近的开发环境："
-
-#: ../download/source.php:61
-msgid ""
-"A suitable <i>setup.h</i> file. Copy this to the appropriate <i>include/wx/</"
-"i> and <i>include/wx/msw</i> directories in your wxWidgets source tree, and "
-"open the wxWidgets project in Visual Studio. Use the batch build facility to "
-"build all the wxWidgets libraries. To save time, you can omit all \"Universal"
-"\" and \"DLL\" builds. You will also need to build the <i>ogl</i> and "
-"<i>stc</i> contrib modules."
-msgstr ""
-"在wxWidgets源代码里边，把适用的setup.h文件拷贝到相应的<i>include/wx/</i>和"
-"<i>include/wx/msw</i>目录下，然后在Visual Studio里打开wxWidgets项目。使用"
-"batch build工具制作所有的wxWidgets库，为节省时间可以忽略\"Universal\"和\"DLL"
-"\" 的制作，另外还需要编译<i>ogl</i>和<i>stc</i> contrib模块。"
 
 #: ../features.php:101
 msgid "ALT"
@@ -475,12 +438,6 @@ msgid ""
 msgstr ""
 "其他的一些调整、提升和bug修正的细节可以在<a href=\"%s\">更新日志</a>找到。"
 
-#: ../download/source.php:92 ../download/source.php:138
-#, php-format
-msgid ""
-"Authenticate the source code using Dave Page's <a href=\"%s\">PGP key</a>. "
-msgstr "使用Dave Page的<a href=\"%s\">PGP key</a>认证源代码。"
-
 #: ../features.php:52
 msgid "Auto-vacuum management (PostgreSQL 8.1 and above)"
 msgstr "自动空间回收管理（(PostgreSQL 8.1以及更高版本）"
@@ -523,17 +480,14 @@ msgstr ""
 msgid "Build against PostgreSQL 8.2 on Windows."
 msgstr "基于Windows版的PostgreSQL 8.2制作。"
 
+#: ../download/source.php:22
+msgid ""
+"Build instructions are included in the tarballs, and are available online:"
+msgstr ""
+
 #: ../development/roadmap.php:26
 msgid "Build system"
 msgstr "制作系统"
-
-#: ../download/source.php:86
-msgid "Building pgAdmin III"
-msgstr "制作pgAdmin III"
-
-#: ../download/source.php:34
-msgid "Building wxWidgets"
-msgstr "制作wxWidgets开发包"
 
 #: ../features.php:63
 msgid "Casts"
@@ -615,7 +569,7 @@ msgstr "编码转换"
 msgid "Couldn't find the archive content!"
 msgstr "无法找到归档内容"
 
-#: ../include/doc.php:63
+#: ../include/doc.php:68
 msgid "Couldn't find the document content!"
 msgstr "无法找到文档内容"
 
@@ -703,7 +657,7 @@ msgid ""
 "steps."
 msgstr "检测用户对函数、视图和工作计划的并发编辑并发出警告。"
 
-#: ../contribute.php:12 ../include/doc.php:24 ../include/page.php:125
+#: ../contribute.php:12 ../include/doc.php:29 ../include/page.php:125
 msgid "Development"
 msgstr "开发"
 
@@ -744,8 +698,8 @@ msgid ""
 "Display, and allow null values to be set in boolean columns in the Edit Grid."
 msgstr "在编辑网格中显示并允许空值赋值到布尔型字段。"
 
-#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:29
-#: ../include/doc.php:43
+#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
+#: ../include/doc.php:48
 msgid "Document not found"
 msgstr "无法找到文档"
 
@@ -778,11 +732,6 @@ msgid ""
 "Download <a href=\"%s\">poEdit</a> and install it under MS Windows or GNU/"
 "Linux."
 msgstr "下载<a href=\"%s\">poEdit</a>安装到MS Windows或者GNU/Linux中。"
-
-#: ../download/source.php:91 ../download/source.php:137
-#, php-format
-msgid "Download the pgAdmin III <a href=\"%s\">source code</a> from a mirror. "
-msgstr "从一个镜像下载pgAdmin III的<a href=\"%s\">源代码</a>。"
 
 #: ../development/roadmap.php:36
 msgid "ER diagramming tool (Google SoC project). [Euler Taveira de Oliveira]"
@@ -968,18 +917,6 @@ msgstr "修正图形化解释器，正确向后显示索引扫描节点，Brenda
 msgid "For example, for France, you can try:"
 msgstr "例如，在法国，你可以试一下："
 
-#: ../download/source.php:112
-msgid ""
-"For versions from 1.7 (2007-04-02), the dependencies must first be installed:"
-msgstr ""
-
-#: ../download/source.php:121
-#, fuzzy
-msgid ""
-"For versions prior to 1.7 (2007-04-02), the dependencies must first be "
-"installed in the appropriate locations on your system:"
-msgstr "开发pgAdmin使用的其他软件必须被安装到系统的合适位置："
-
 #: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:9
 #: ../screenshots/index.php:16
 msgid "FreeBSD"
@@ -1094,12 +1031,6 @@ msgstr ""
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 
-#: ../download/source.php:143
-msgid ""
-"If building Universal binaries you must add the --disable-dependency-"
-"tracking option to the configure command line."
-msgstr "制作Universal二进制必须在命令行添加--disable-dependency-tracking选项。"
-
 #: ../development/index.php:14
 #, php-format
 msgid ""
@@ -1172,17 +1103,6 @@ msgid ""
 msgstr ""
 "如果你认为可以协助开发新特性和/或bug修正，请访问 <a href=\"%s\">开发</a> 页"
 "面。"
-
-#: ../download/source.php:130
-#, fuzzy
-msgid ""
-"In addition, libxml2/libxslt may also require  zlib. If you are building the "
-"pgAdmin installer, these must be installed into %PGBUILD%\\zlib (or "
-"$BUILD_ROOT/pgadmin3-deps/zlib for the older builds) respectively."
-msgstr ""
-"另外，libxml2/libxslt也可能需要iconv和zlib。如果想制作pgAdmin安装程序，它们必"
-"须要安装到$BUILD_ROOT/pgadmin3-deps/iconv和$BUILD_ROOT/pgadmin3-deps/zlib之"
-"下。"
 
 #: ../translation/howto.php:40
 msgid ""
@@ -1315,23 +1235,6 @@ msgstr "协议"
 msgid "Linux"
 msgstr "Linux"
 
-#: ../download/source.php:88
-msgid "Linux, FreeBSD and Solaris"
-msgstr "Linux、FreeBSD和Solaris"
-
-#: ../download/source.php:15
-msgid ""
-"Linux, FreeBSD and other *nixes: Recent versions of GTK2.2, automake, "
-"autoconf and gcc are needed. The best solution is to use a recent "
-"distribution."
-msgstr ""
-"Linux、FreeBSD以及其他*nixes系统：需要GTK2.2、automake、autoconf以及gcc的新近"
-"版本，最好的方案是使用最近的发布。"
-
-#: ../download/source.php:38
-msgid "Linux, FreeBSD or Solaris"
-msgstr "Linux、FreeBSD或者Solaris"
-
 #: ../development/menu.php:10 ../support/menu.php:9
 msgid "List archives"
 msgstr "归档列表"
@@ -1358,7 +1261,6 @@ msgid "MULE_INTERNAL"
 msgstr "MULE_INTERNAL"
 
 #: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
-#: ../download/source.php:65 ../download/source.php:134
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr "Mac OSX"
@@ -1372,14 +1274,6 @@ msgstr ""
 "基于Panther制作的Mac OSX包最高至pgAdmin 1.4.1版，更新的版本基于Tiger制作，1.6"
 "以及更高版本基于针对Intel and PPC架构的Mac Universal制作。"
 
-#: ../download/source.php:19
-msgid ""
-"Mac OSX: XCode 2.0 or above. Recent versions of autoconf and automake may "
-"also be required if building from SVN."
-msgstr ""
-"Mac OSX系统：XCode 2.0或者更高版本。如果从SVN制作的话，也可能需要autoconf和"
-"automake最新版本。"
-
 #: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
 msgid "Mailing list"
@@ -1392,8 +1286,8 @@ msgstr "维护者"
 #: ../download/debian.php:10 ../download/freebsd.php:10
 #: ../download/macosx.php:10 ../download/opensuse.php:10
 #: ../download/rpm.php:10 ../download/slackware.php:10
-#: ../download/solaris.php:10 ../download/ubuntu.php:10
-#: ../download/windows.php:10
+#: ../download/solaris.php:10 ../download/source.php:10
+#: ../download/ubuntu.php:10 ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr "维护者：%s"
@@ -1435,10 +1329,6 @@ msgstr ""
 #: ../features.php:14
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr "Microsoft Windows &trade; 2000和更高版本"
-
-#: ../download/source.php:110
-msgid "Microsoft Windows 2000, XP & 2003"
-msgstr "Microsoft Windows 2000, XP & 2003"
 
 #: ../news.php:132
 msgid "Minimal linking for pgAgent under *nix."
@@ -1504,29 +1394,12 @@ msgstr "系统本地化的PostgreSQL连接（不需要ODBC层）"
 msgid "News"
 msgstr "新闻"
 
-#: ../download/source.php:63
-#, php-format
-msgid ""
-"Note that as of mid May 2006, the development environment for pgAdmin 1.5+ "
-"was upgraded to Visual C++ 2005. You must compile wxWidgets with this "
-"version of Visual C++ as well. You can download the Visual Studio Express "
-"editions free of charge from <a href=\"%s\">Microsoft</a>&trade;."
-msgstr ""
-"注意在2006年5月中旬的时候，pgAdmin 1.5+开发环境升级到Visual C++ 2005，必须也"
-"使用这个版本的Visual C++编译wxWidgets。可以从<a href=\"%s\">Microsoft</"
-"a>&trade免费下载到Visual Studio Express。"
-
 #: ../download/windows.php:14
 #, php-format
 msgid ""
 "Note that the <a href=\"%s\">pgInstaller</a> distribution of PostgreSQL for "
 "Windows includes a bundled copy of pgAdmin."
 msgstr "注意Windows版PostgreSQL的<a href=\"%s\">安装包</a>中已经包含pgAdmin。"
-
-#: ../download/source.php:40 ../download/source.php:67
-#: ../download/source.php:94 ../download/source.php:140
-msgid "Note:"
-msgstr "注意："
 
 #: ../download/adminpacks.php:24
 msgid ""
@@ -1729,13 +1602,6 @@ msgstr ""
 msgid "PostgreSQL 7.3 and above"
 msgstr "PostgreSQL 7.3以及更高版本"
 
-#: ../download/source.php:123
-msgid ""
-"PostgreSQL 8.1, installed into the default location from the official "
-"PostgreSQL installer (pgInstaller)."
-msgstr ""
-"使用官方的PostgreSQL安装程序（pgInstaller）将PostgreSQL 8.1安装到缺省位置。"
-
 #: ../news.php:110
 msgid "PostgreSQL 8.2 support:"
 msgstr "PostgreSQL 8.2支持："
@@ -1744,10 +1610,6 @@ msgstr "PostgreSQL 8.2支持："
 #, fuzzy
 msgid "PostgreSQL 8.4 compatibility (these items are subject to change)"
 msgstr "兼容PostgreSQL 8.3（可能经常发生变化）"
-
-#: ../download/source.php:114
-msgid "PostgreSQL 8.x, installed into a directory pointed to by %PGDIR%"
-msgstr ""
 
 #: ../features.php:33
 msgid "PostgreSQL documentation (on-line and off-line)"
@@ -1766,16 +1628,6 @@ msgid ""
 "Pre-encrypt passwords before sending them down the wire, or displaying them "
 "in SQL statements."
 msgstr "在SQL语句中显示和修改前将密码重新加密。"
-
-#: ../download/source.php:32
-#, php-format
-msgid ""
-"Precompiled XML/XSLT and dependency packages for Windows can be found at <a "
-"href=\"%s\">zlatkovic.com</a>. You probably need iconv 1.9.x and zlib 1.2.x "
-"as well as libxml2 and libxslt."
-msgstr ""
-"预编译XML/XSLT和针对Windows需要的开发包可以在<a href=\"%s\">zlatkovic.com</a>"
-"找到，你也可能需要iconv 1.9.x和zlib 1.2.x作为libxml2和libxslt使用。"
 
 #: ../news.php:95
 msgid "Prevent a crash from the query tool when using File -> Exit on GTK"
@@ -1882,7 +1734,7 @@ msgstr "正确刷新数据库对象，Guy Rouillier修改。"
 msgid "Reject invalid command line options in pgAgent."
 msgstr "pgAgent中拒绝无效的命令行参数。"
 
-#: ../docs/menu.php:8 ../docs/menu.php:9
+#: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
 #, php-format
 msgid "Release %s"
 msgstr "%s版本"
@@ -1890,10 +1742,6 @@ msgstr "%s版本"
 #: ../news.php:21
 msgid "Remember the server's SSL mode property correctly."
 msgstr "正确保存服务器的SSL模式属性。"
-
-#: ../download/source.php:10
-msgid "Requirements"
-msgstr "需求"
 
 #: ../news.php:59
 msgid "Restore dialog sizes correctly."
@@ -2083,6 +1931,13 @@ msgstr ""
 "针对多种平台的源代码tar包和二进制快照每日从<a href=\"%s\">SVN trunk</a>中制"
 "作，其他的快照按照程序员们的进度以更慢的频度制作。"
 
+#: ../download/source.php:12
+msgid ""
+"Source tarballs are available for users wishing to compile their own copy of "
+"pgAdmin, or those using platforms for which we do not supply prebuilt "
+"packages."
+msgstr ""
+
 #: ../privacypolicy.php:10
 msgid "Standard logging"
 msgstr "标准日志"
@@ -2170,12 +2025,6 @@ msgstr "表空间"
 msgid "Team"
 msgstr "开发组"
 
-#: ../download/source.php:43 ../download/source.php:70
-msgid ""
-"The --enable-mimetype=no option is broken on wxWidgets versions earlier than "
-"2.6.2 and should be omitted."
-msgstr "wxWidgets的--enable-mimetype=no选项在2.6.2之前是无法使用的，应该忽略。"
-
 #: ../translation/howto.php:68
 #, php-format
 msgid ""
@@ -2260,8 +2109,8 @@ msgstr "数据网格"
 msgid "The database connection dialogue"
 msgstr "数据库连接对话框"
 
-#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:29
-#: ../include/doc.php:43
+#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
+#: ../include/doc.php:48
 msgid "The document requested does not exist!"
 msgstr "查找的文档不存在！"
 
@@ -2471,21 +2320,6 @@ msgstr "查询工具"
 msgid "The server status dialogue"
 msgstr "服务器状态对话框"
 
-#: ../download/source.php:132
-msgid ""
-"The source tree should be unpacked into $BUILD_ROOT. The directory can be "
-"called whatever you like, as long as its at the right directory level - for "
-"example, you might have $BUILD_ROOT/pgadmin3-deps, $BUILD_ROOT/pgadmin3-dev "
-"and $BUILD_ROOT/pgadmin3-1.4. A Visual Studio/C++ 2005 solution file for "
-"pgAdmin may be found in the root of the source tree. Load the project into "
-"Visual C++ and build the desired targets."
-msgstr ""
-"源代码目录树应该被解包到$BUILD_ROOT，只要具备正确的目录结构层次，这个目录可以"
-"是你喜欢的任何名字。例如：你可以使用$BUILD_ROOT/pgadmin3-deps、$BUILD_ROOT/"
-"pgadmin3-dev和$BUILD_ROOT/pgadmin3-1.4。一个pgAdmin的Visual Studio/C++ "
-"solution文件必须放置到源程序目录树的根下，然后将工程装载到Visual C++中制作预"
-"期的目标。"
-
 #: ../screenshots/serverstatus.php:10
 msgid ""
 "The status of each server process may be viewed, along with summaries of "
@@ -2580,19 +2414,6 @@ msgid ""
 msgstr ""
 "这些都是Mac OSX appbundles，想安装它，仅仅需要解包然后拷贝到期望的位置即可。"
 
-#: ../download/source.php:155
-msgid ""
-"This final step will build an OSX appbundle called pgAdmin3.app in the root "
-"of your source tree. As this can take a minute or two, the <i>pkg/mac/debug-"
-"bundle.sh</i> script may be used to build a non-relocatable 'fake' appbundle "
-"using symbolic links directly to the executable files. This appbundle is "
-"called pgAdmin3-debug.app, and doesn't need to be rebuilt when pgAdmin is "
-"recompiled."
-msgstr ""
-"这个最终步骤将在源代码目录树的根下创建一个叫做pgAdmin3.app的OSX包，<i>pkg/"
-"mac/debug-bundle.sh</i>脚本可以用来创建一个使用标识符直接指向可执行文件的非重"
-"定向假包，这可能会花费一到两分钟时间。"
-
 #: ../development/roadmap.php:10
 #, php-format
 msgid ""
@@ -2668,7 +2489,7 @@ msgstr ""
 "装。小版本号的升级（例如，从1.4.0到1.4.1），可以运行<i>upgrade.bat</i>脚本。"
 "大版本号的发布，例如1.2.2和1.4.1，可以在同一台计算机上同时安装。"
 
-#: ../download/freebsd.php:22 ../download/rpm.php:25
+#: ../download/freebsd.php:22 ../download/rpm.php:24
 msgid "To install these packages, use a command such as:"
 msgstr "运行如下命令安装这个包："
 
@@ -2780,16 +2601,6 @@ msgstr "150字以内"
 #: ../advocacy/information.php:22
 msgid "Under 80 characters"
 msgstr "30字以内"
-
-#: ../download/source.php:36
-msgid ""
-"Unpack the wxWidgets tarball or zip file and follow the appropriate set of "
-"instruction below."
-msgstr "将wxWidgets的tar文件包或者zip文件解包，然后按照下边的相应步骤安装。"
-
-#: ../download/source.php:93 ../download/source.php:139
-msgid "Unpack, build and install the source code:"
-msgstr "解包、编译、安装源代码："
 
 #: ../news.php:37
 msgid "Update to support the changed syntax of pg_dump 8.2+."
@@ -2975,14 +2786,6 @@ msgstr "为什么要推广pgAdmin？"
 msgid "Windows &trade;"
 msgstr "Windows &trade;"
 
-#: ../download/source.php:59
-msgid "Windows 2000, XP and 2003"
-msgstr "Windows 2000, XP and 2003"
-
-#: ../download/source.php:17
-msgid "Windows 2000, XP, 2003: Microsoft Visual C++ 2005."
-msgstr "Windows 2000、XP、2003系统：Microsoft Visual C++ 2005。"
-
 #: ../advocacy/information.php:10
 msgid ""
 "You are free to publish any technical information about pgAdmin. Here are "
@@ -3009,19 +2812,6 @@ msgstr ""
 "译，在这个模式下不需要数据库联接，但是需要将所有的对话框资源文件（*.xrc）拷贝"
 "到<i>ui</i>目录。如果你是用debug模式编译的，这将是自动进行的。"
 
-#: ../download/source.php:71
-msgid ""
-"You may also specify the --enable-universal_binary option to build Mac "
-"Universal binaries."
-msgstr "可是使用--enable-universal_binary选项来制作Mac Universal二进制文件。"
-
-#: ../download/source.php:42 ../download/source.php:69
-#: ../download/source.php:97 ../download/source.php:142
-msgid ""
-"You may need to use the --enable-debug option if attempting to track down a "
-"crash."
-msgstr "如果试图跟踪程序崩溃，可能需要使用--enable-debug选项。"
-
 #: ../translation/howto.php:49
 msgid ""
 "You should be able to add the appropriate <i>i18n/language_Country/pgadmin3."
@@ -3036,51 +2826,11 @@ msgstr ""
 "骤，因为一些字符串在编辑的时候没有真实的上下文作参照，你只能自己在使用pgAdmin"
 "的时候校正它。"
 
-#: ../download/source.php:127
-#, fuzzy
-msgid "iconv 1.9, installed into $BUILD_ROOT/pgadmin3-deps/iconv."
-msgstr "libxslt 1.1安装到$BUILD_ROOT/pgadmin3-deps/libxslt目录。"
-
-#: ../download/source.php:118
-msgid "iconv 1.9.x, installed into a directory pointed to by %PGBUILD%\\iconv"
-msgstr ""
-
-#: ../download/source.php:125
-msgid ""
-"libxml2 2.6.18 (or above), installed into $BUILD_ROOT/pgadmin3-deps/libxml2."
-msgstr ""
-"libxml2 2.6.18（或更高版本）安装到$BUILD_ROOT/pgadmin3-deps/libxml2目录。"
-
-#: ../download/source.php:116
-#, fuzzy
-msgid ""
-"libxml2 2.6.18 or above, installed into a directory pointed to by %PGBUILD%"
-"\\libxml2"
-msgstr ""
-"libxml2 2.6.18（或更高版本）安装到$BUILD_ROOT/pgadmin3-deps/libxml2目录。"
-
-#: ../download/source.php:126
-msgid "libxslt 1.1, installed into $BUILD_ROOT/pgadmin3-deps/libxslt."
-msgstr "libxslt 1.1安装到$BUILD_ROOT/pgadmin3-deps/libxslt目录。"
-
-#: ../download/source.php:117
-msgid ""
-"libxslt 1.1.x, installed into a directory pointed to by %PGBUILD%\\libxslt"
-msgstr ""
-
 #: ../include/doc.php:14 ../include/doc.php:19 ../include/doc.php:24
+#: ../include/doc.php:29
 #, php-format
 msgid "pgAdmin %s online documentation"
 msgstr "pgAdmin %s在线文档"
-
-#: ../download/source.php:96
-msgid ""
-"pgAdmin 1.6.0 and 1.6.1 need --with-wx-version=2.8 added to the configure "
-"command line to build against wxWidgets 2.8. pgAdmin 1.6.2 and above will "
-"default to 2.8."
-msgstr ""
-"pgAdmin 1.6.0和1.6.1版本在使用wxWidgets 2.8编译时需要将--with-wx-version=2.8"
-"添加到设置命令行，pgAdmin 1.6.2以及更高版本缺省值是2.8。"
 
 #: ../index.php:12
 msgid ""
@@ -3566,7 +3316,7 @@ msgstr "运行于Suse 10 XGL之上的pgAdmin"
 msgid "pgAdmin: Archives"
 msgstr "pgAdmin：归档"
 
-#: ../include/doc.php:57
+#: ../include/doc.php:62
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr "pgAdmin：文档 - 无法找到文档标题！"
 
@@ -3609,27 +3359,232 @@ msgstr "1.6.2版本主要用来进行bug修正，包括如下更新："
 msgid "v1.6.3 is primarily a bug fix release, including the following changes:"
 msgstr "1.6.3版本主要用来进行bug修正，包括如下更新："
 
-#: ../download/source.php:124
+#~ msgid "<a href=\"%s\">PostgreSQL 8.0</a> or above."
+#~ msgstr "<a href=\"%s\">PostgreSQL 8.0</a> 或者更高版本。"
+
+#~ msgid "<a href=\"%s\">libxml2 2.6.18</a> or above (for pgAdmin 1.5+)."
+#~ msgstr "<a href=\"%s\">libxml2 2.6.18</a> 或者更高版本 (用于pgAdmin 1.5+)。"
+
+#~ msgid "<a href=\"%s\">libxslt 1.1.x</a> or above (for pgAdmin 1.5+)."
+#~ msgstr "<a href=\"%s\">libxslt 1.1.x</a> 或者更高版本 (用于pgAdmin 1.5+)。"
+
+#~ msgid ""
+#~ "<a href=\"%s\">wxWidgets</a> 2.6.x (for pgAdmin 1.4.x), wxWidgets 2.7.x "
+#~ "(for pgAdmin 1.5 - 1.6.1) or wxWidgets 2.8.x (for pgAdmin 1.6.2 and "
+#~ "above). Currently, this is the only version we support."
+#~ msgstr ""
+#~ "<a href=\"%s\">wxWidgets</a> 2.6.x (针对 pgAdmin 1.4.x)、 wxWidgets 2.7.x "
+#~ "(针对 pgAdmin 1.5 - 1.6.1) 或者 wxWidgets 2.8.x (针对 pgAdmin 1.6.2 以及更"
+#~ "高)， 这是目前我们能够支持的版本。"
+
+#~ msgid "A recent development environment:"
+#~ msgstr "最近的开发环境："
+
+#~ msgid ""
+#~ "A suitable <i>setup.h</i> file. Copy this to the appropriate <i>include/"
+#~ "wx/</i> and <i>include/wx/msw</i> directories in your wxWidgets source "
+#~ "tree, and open the wxWidgets project in Visual Studio. Use the batch "
+#~ "build facility to build all the wxWidgets libraries. To save time, you "
+#~ "can omit all \"Universal\" and \"DLL\" builds. You will also need to "
+#~ "build the <i>ogl</i> and <i>stc</i> contrib modules."
+#~ msgstr ""
+#~ "在wxWidgets源代码里边，把适用的setup.h文件拷贝到相应的<i>include/wx/</i>和"
+#~ "<i>include/wx/msw</i>目录下，然后在Visual Studio里打开wxWidgets项目。使用"
+#~ "batch build工具制作所有的wxWidgets库，为节省时间可以忽略\"Universal\"和"
+#~ "\"DLL\" 的制作，另外还需要编译<i>ogl</i>和<i>stc</i> contrib模块。"
+
+#~ msgid ""
+#~ "Authenticate the source code using Dave Page's <a href=\"%s\">PGP key</"
+#~ "a>. "
+#~ msgstr "使用Dave Page的<a href=\"%s\">PGP key</a>认证源代码。"
+
+#~ msgid "Building pgAdmin III"
+#~ msgstr "制作pgAdmin III"
+
+#~ msgid "Building wxWidgets"
+#~ msgstr "制作wxWidgets开发包"
+
+#~ msgid ""
+#~ "Download the pgAdmin III <a href=\"%s\">source code</a> from a mirror. "
+#~ msgstr "从一个镜像下载pgAdmin III的<a href=\"%s\">源代码</a>。"
+
 #, fuzzy
-msgid ""
-"wxWidgets 2.8 (2.6 for pgAdmin 1.4.x), installed into $BUILD_ROOT/pgadmin3-"
-"deps/wxwidgets."
-msgstr ""
-"wxWidgets 2.7 （或者2.6版本，针对pgAdmin 1.4.x）安装到$BUILD_ROOT/pgadmin3-"
-"deps/wxwidgets目录。"
+#~ msgid ""
+#~ "For versions prior to 1.7 (2007-04-02), the dependencies must first be "
+#~ "installed in the appropriate locations on your system:"
+#~ msgstr "开发pgAdmin使用的其他软件必须被安装到系统的合适位置："
 
-#: ../download/source.php:115
-msgid "wxWidgets 2.8.x, installed into a directory pointed to by %WXWIN%"
-msgstr ""
+#~ msgid ""
+#~ "If building Universal binaries you must add the --disable-dependency-"
+#~ "tracking option to the configure command line."
+#~ msgstr ""
+#~ "制作Universal二进制必须在命令行添加--disable-dependency-tracking选项。"
 
-#: ../download/source.php:44
-msgid ""
-"wxWidgets versions 2.6.2 and below are broken on Solaris. A CVS snapshot "
-"from the stable branch dated 2005-09-26 or later should be used until 2.6.3 "
-"is available."
-msgstr ""
-"wxWidgets 2.6.2以及之前的版本无法在Solaris下使用，可以使用CVS上2005-09-26或者"
-"之后的健壮分支，直到2.6.3发布。"
+#, fuzzy
+#~ msgid ""
+#~ "In addition, libxml2/libxslt may also require  zlib. If you are building "
+#~ "the pgAdmin installer, these must be installed into %PGBUILD%\\zlib (or "
+#~ "$BUILD_ROOT/pgadmin3-deps/zlib for the older builds) respectively."
+#~ msgstr ""
+#~ "另外，libxml2/libxslt也可能需要iconv和zlib。如果想制作pgAdmin安装程序，它"
+#~ "们必须要安装到$BUILD_ROOT/pgadmin3-deps/iconv和$BUILD_ROOT/pgadmin3-deps/"
+#~ "zlib之下。"
+
+#~ msgid "Linux, FreeBSD and Solaris"
+#~ msgstr "Linux、FreeBSD和Solaris"
+
+#~ msgid ""
+#~ "Linux, FreeBSD and other *nixes: Recent versions of GTK2.2, automake, "
+#~ "autoconf and gcc are needed. The best solution is to use a recent "
+#~ "distribution."
+#~ msgstr ""
+#~ "Linux、FreeBSD以及其他*nixes系统：需要GTK2.2、automake、autoconf以及gcc的"
+#~ "新近版本，最好的方案是使用最近的发布。"
+
+#~ msgid "Linux, FreeBSD or Solaris"
+#~ msgstr "Linux、FreeBSD或者Solaris"
+
+#~ msgid ""
+#~ "Mac OSX: XCode 2.0 or above. Recent versions of autoconf and automake may "
+#~ "also be required if building from SVN."
+#~ msgstr ""
+#~ "Mac OSX系统：XCode 2.0或者更高版本。如果从SVN制作的话，也可能需要autoconf"
+#~ "和automake最新版本。"
+
+#~ msgid "Microsoft Windows 2000, XP & 2003"
+#~ msgstr "Microsoft Windows 2000, XP & 2003"
+
+#~ msgid ""
+#~ "Note that as of mid May 2006, the development environment for pgAdmin 1.5"
+#~ "+ was upgraded to Visual C++ 2005. You must compile wxWidgets with this "
+#~ "version of Visual C++ as well. You can download the Visual Studio Express "
+#~ "editions free of charge from <a href=\"%s\">Microsoft</a>&trade;."
+#~ msgstr ""
+#~ "注意在2006年5月中旬的时候，pgAdmin 1.5+开发环境升级到Visual C++ 2005，必须"
+#~ "也使用这个版本的Visual C++编译wxWidgets。可以从<a href=\"%s\">Microsoft</"
+#~ "a>&trade免费下载到Visual Studio Express。"
+
+#~ msgid "Note:"
+#~ msgstr "注意："
+
+#~ msgid ""
+#~ "PostgreSQL 8.1, installed into the default location from the official "
+#~ "PostgreSQL installer (pgInstaller)."
+#~ msgstr ""
+#~ "使用官方的PostgreSQL安装程序（pgInstaller）将PostgreSQL 8.1安装到缺省位"
+#~ "置。"
+
+#~ msgid ""
+#~ "Precompiled XML/XSLT and dependency packages for Windows can be found at "
+#~ "<a href=\"%s\">zlatkovic.com</a>. You probably need iconv 1.9.x and zlib "
+#~ "1.2.x as well as libxml2 and libxslt."
+#~ msgstr ""
+#~ "预编译XML/XSLT和针对Windows需要的开发包可以在<a href=\"%s\">zlatkovic."
+#~ "com</a>找到，你也可能需要iconv 1.9.x和zlib 1.2.x作为libxml2和libxslt使用。"
+
+#~ msgid "Requirements"
+#~ msgstr "需求"
+
+#~ msgid ""
+#~ "The --enable-mimetype=no option is broken on wxWidgets versions earlier "
+#~ "than 2.6.2 and should be omitted."
+#~ msgstr ""
+#~ "wxWidgets的--enable-mimetype=no选项在2.6.2之前是无法使用的，应该忽略。"
+
+#~ msgid ""
+#~ "The source tree should be unpacked into $BUILD_ROOT. The directory can be "
+#~ "called whatever you like, as long as its at the right directory level - "
+#~ "for example, you might have $BUILD_ROOT/pgadmin3-deps, $BUILD_ROOT/"
+#~ "pgadmin3-dev and $BUILD_ROOT/pgadmin3-1.4. A Visual Studio/C++ 2005 "
+#~ "solution file for pgAdmin may be found in the root of the source tree. "
+#~ "Load the project into Visual C++ and build the desired targets."
+#~ msgstr ""
+#~ "源代码目录树应该被解包到$BUILD_ROOT，只要具备正确的目录结构层次，这个目录"
+#~ "可以是你喜欢的任何名字。例如：你可以使用$BUILD_ROOT/pgadmin3-deps、"
+#~ "$BUILD_ROOT/pgadmin3-dev和$BUILD_ROOT/pgadmin3-1.4。一个pgAdmin的Visual "
+#~ "Studio/C++ solution文件必须放置到源程序目录树的根下，然后将工程装载到"
+#~ "Visual C++中制作预期的目标。"
+
+#~ msgid ""
+#~ "This final step will build an OSX appbundle called pgAdmin3.app in the "
+#~ "root of your source tree. As this can take a minute or two, the <i>pkg/"
+#~ "mac/debug-bundle.sh</i> script may be used to build a non-relocatable "
+#~ "'fake' appbundle using symbolic links directly to the executable files. "
+#~ "This appbundle is called pgAdmin3-debug.app, and doesn't need to be "
+#~ "rebuilt when pgAdmin is recompiled."
+#~ msgstr ""
+#~ "这个最终步骤将在源代码目录树的根下创建一个叫做pgAdmin3.app的OSX包，<i>pkg/"
+#~ "mac/debug-bundle.sh</i>脚本可以用来创建一个使用标识符直接指向可执行文件的"
+#~ "非重定向假包，这可能会花费一到两分钟时间。"
+
+#~ msgid ""
+#~ "Unpack the wxWidgets tarball or zip file and follow the appropriate set "
+#~ "of instruction below."
+#~ msgstr "将wxWidgets的tar文件包或者zip文件解包，然后按照下边的相应步骤安装。"
+
+#~ msgid "Unpack, build and install the source code:"
+#~ msgstr "解包、编译、安装源代码："
+
+#~ msgid "Windows 2000, XP and 2003"
+#~ msgstr "Windows 2000, XP and 2003"
+
+#~ msgid "Windows 2000, XP, 2003: Microsoft Visual C++ 2005."
+#~ msgstr "Windows 2000、XP、2003系统：Microsoft Visual C++ 2005。"
+
+#~ msgid ""
+#~ "You may also specify the --enable-universal_binary option to build Mac "
+#~ "Universal binaries."
+#~ msgstr ""
+#~ "可是使用--enable-universal_binary选项来制作Mac Universal二进制文件。"
+
+#~ msgid ""
+#~ "You may need to use the --enable-debug option if attempting to track down "
+#~ "a crash."
+#~ msgstr "如果试图跟踪程序崩溃，可能需要使用--enable-debug选项。"
+
+#, fuzzy
+#~ msgid "iconv 1.9, installed into $BUILD_ROOT/pgadmin3-deps/iconv."
+#~ msgstr "libxslt 1.1安装到$BUILD_ROOT/pgadmin3-deps/libxslt目录。"
+
+#~ msgid ""
+#~ "libxml2 2.6.18 (or above), installed into $BUILD_ROOT/pgadmin3-deps/"
+#~ "libxml2."
+#~ msgstr ""
+#~ "libxml2 2.6.18（或更高版本）安装到$BUILD_ROOT/pgadmin3-deps/libxml2目录。"
+
+#, fuzzy
+#~ msgid ""
+#~ "libxml2 2.6.18 or above, installed into a directory pointed to by %PGBUILD"
+#~ "%\\libxml2"
+#~ msgstr ""
+#~ "libxml2 2.6.18（或更高版本）安装到$BUILD_ROOT/pgadmin3-deps/libxml2目录。"
+
+#~ msgid "libxslt 1.1, installed into $BUILD_ROOT/pgadmin3-deps/libxslt."
+#~ msgstr "libxslt 1.1安装到$BUILD_ROOT/pgadmin3-deps/libxslt目录。"
+
+#~ msgid ""
+#~ "pgAdmin 1.6.0 and 1.6.1 need --with-wx-version=2.8 added to the configure "
+#~ "command line to build against wxWidgets 2.8. pgAdmin 1.6.2 and above will "
+#~ "default to 2.8."
+#~ msgstr ""
+#~ "pgAdmin 1.6.0和1.6.1版本在使用wxWidgets 2.8编译时需要将--with-wx-"
+#~ "version=2.8添加到设置命令行，pgAdmin 1.6.2以及更高版本缺省值是2.8。"
+
+#, fuzzy
+#~ msgid ""
+#~ "wxWidgets 2.8 (2.6 for pgAdmin 1.4.x), installed into $BUILD_ROOT/"
+#~ "pgadmin3-deps/wxwidgets."
+#~ msgstr ""
+#~ "wxWidgets 2.7 （或者2.6版本，针对pgAdmin 1.4.x）安装到$BUILD_ROOT/"
+#~ "pgadmin3-deps/wxwidgets目录。"
+
+#~ msgid ""
+#~ "wxWidgets versions 2.6.2 and below are broken on Solaris. A CVS snapshot "
+#~ "from the stable branch dated 2005-09-26 or later should be used until "
+#~ "2.6.3 is available."
+#~ msgstr ""
+#~ "wxWidgets 2.6.2以及之前的版本无法在Solaris下使用，可以使用CVS上2005-09-26"
+#~ "或者之后的健壮分支，直到2.6.3发布。"
 
 #~ msgid "Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]"
 #~ msgstr "增加对ALTER TABLE ENABLE/DISABLE TRIGGER命令的支持。[GL]"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-08-16 11:47+0200\n"
+"POT-Creation-Date: 2007-10-21 10:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,21 +30,6 @@ msgstr ""
 msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s"
 msgstr ""
 
-#: ../download/source.php:29
-#, php-format
-msgid "<a href=\"%s\">PostgreSQL 8.0</a> or above."
-msgstr ""
-
-#: ../download/source.php:25
-#, php-format
-msgid "<a href=\"%s\">libxml2 2.6.18</a> or above (for pgAdmin 1.5+)."
-msgstr ""
-
-#: ../download/source.php:27
-#, php-format
-msgid "<a href=\"%s\">libxslt 1.1.x</a> or above (for pgAdmin 1.5+)."
-msgstr ""
-
 #: ../download/freebsd.php:14 ../download/freebsd.php:15
 #: ../download/freebsd.php:16 ../download/freebsd.php:17
 #: ../download/freebsd.php:18 ../download/freebsd.php:19
@@ -56,12 +41,14 @@ msgstr ""
 #: ../download/opensuse.php:14 ../download/opensuse.php:15
 #: ../download/rpm.php:14 ../download/rpm.php:15 ../download/rpm.php:16
 #: ../download/rpm.php:17 ../download/rpm.php:18 ../download/rpm.php:19
-#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/rpm.php:22
-#: ../download/slackware.php:14 ../download/slackware.php:15
-#: ../download/slackware.php:16 ../download/slackware.php:17
-#: ../download/slackware.php:18 ../download/slackware.php:19
-#: ../download/slackware.php:20 ../download/slackware.php:21
-#: ../download/slackware.php:22 ../download/solaris.php:14
+#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/slackware.php:14
+#: ../download/slackware.php:15 ../download/slackware.php:16
+#: ../download/slackware.php:17 ../download/slackware.php:18
+#: ../download/slackware.php:19 ../download/slackware.php:20
+#: ../download/slackware.php:21 ../download/slackware.php:22
+#: ../download/solaris.php:14 ../download/source.php:15
+#: ../download/source.php:16 ../download/source.php:17
+#: ../download/source.php:18 ../download/source.php:19
 #: ../download/windows.php:17 ../download/windows.php:18
 #: ../download/windows.php:19 ../download/windows.php:20
 #: ../download/windows.php:21 ../download/windows.php:22
@@ -71,12 +58,9 @@ msgstr ""
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
 
-#: ../download/source.php:23
+#: ../download/source.php:25 ../download/source.php:26
 #, php-format
-msgid ""
-"<a href=\"%s\">wxWidgets</a> 2.6.x (for pgAdmin 1.4.x), wxWidgets 2.7.x (for "
-"pgAdmin 1.5 - 1.6.1) or wxWidgets 2.8.x (for pgAdmin 1.6.2 and above). "
-"Currently, this is the only version we support."
+msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr ""
 
 #: ../advocacy/information.php:17
@@ -159,20 +143,6 @@ msgid ""
 "required by clicking on the red square button. The tool displays execution "
 "times of queries to help the user optimise them, and fully supports "
 "PostgreSQL's asynchronous notification system."
-msgstr ""
-
-#: ../download/source.php:13
-msgid "A recent development environment:"
-msgstr ""
-
-#: ../download/source.php:61
-msgid ""
-"A suitable <i>setup.h</i> file. Copy this to the appropriate <i>include/wx/</"
-"i> and <i>include/wx/msw</i> directories in your wxWidgets source tree, and "
-"open the wxWidgets project in Visual Studio. Use the batch build facility to "
-"build all the wxWidgets libraries. To save time, you can omit all \"Universal"
-"\" and \"DLL\" builds. You will also need to build the <i>ogl</i> and "
-"<i>stc</i> contrib modules."
 msgstr ""
 
 #: ../features.php:101
@@ -282,6 +252,10 @@ msgstr ""
 
 #: ../news.php:156
 msgid "Add support for building Mac Universal Binaries."
+msgstr ""
+
+#: ../development/roadmap.php:44
+msgid "Add support for the -c (clean) pg_restore option"
 msgstr ""
 
 #: ../download/adminpacks.php:8 ../download/menu.php:7
@@ -410,12 +384,6 @@ msgid ""
 "may be found in the <a href=\"%s\">changelog</a>."
 msgstr ""
 
-#: ../download/source.php:92 ../download/source.php:138
-#, php-format
-msgid ""
-"Authenticate the source code using Dave Page's <a href=\"%s\">PGP key</a>. "
-msgstr ""
-
 #: ../features.php:52
 msgid "Auto-vacuum management (PostgreSQL 8.1 and above)"
 msgstr ""
@@ -454,16 +422,13 @@ msgstr ""
 msgid "Build against PostgreSQL 8.2 on Windows."
 msgstr ""
 
+#: ../download/source.php:22
+msgid ""
+"Build instructions are included in the tarballs, and are available online:"
+msgstr ""
+
 #: ../development/roadmap.php:26
 msgid "Build system"
-msgstr ""
-
-#: ../download/source.php:86
-msgid "Building pgAdmin III"
-msgstr ""
-
-#: ../download/source.php:34
-msgid "Building wxWidgets"
 msgstr ""
 
 #: ../features.php:63
@@ -545,7 +510,7 @@ msgstr ""
 msgid "Couldn't find the archive content!"
 msgstr ""
 
-#: ../include/doc.php:63
+#: ../include/doc.php:68
 msgid "Couldn't find the document content!"
 msgstr ""
 
@@ -629,7 +594,7 @@ msgid ""
 "steps."
 msgstr ""
 
-#: ../contribute.php:12 ../include/doc.php:24 ../include/page.php:125
+#: ../contribute.php:12 ../include/doc.php:29 ../include/page.php:125
 msgid "Development"
 msgstr ""
 
@@ -670,8 +635,8 @@ msgid ""
 "Display, and allow null values to be set in boolean columns in the Edit Grid."
 msgstr ""
 
-#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:29
-#: ../include/doc.php:43
+#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
+#: ../include/doc.php:48
 msgid "Document not found"
 msgstr ""
 
@@ -703,11 +668,6 @@ msgstr ""
 msgid ""
 "Download <a href=\"%s\">poEdit</a> and install it under MS Windows or GNU/"
 "Linux."
-msgstr ""
-
-#: ../download/source.php:91 ../download/source.php:137
-#, php-format
-msgid "Download the pgAdmin III <a href=\"%s\">source code</a> from a mirror. "
 msgstr ""
 
 #: ../development/roadmap.php:36
@@ -885,17 +845,6 @@ msgstr ""
 msgid "For example, for France, you can try:"
 msgstr ""
 
-#: ../download/source.php:112
-msgid ""
-"For versions from 1.7 (2007-04-02), the dependencies must first be installed:"
-msgstr ""
-
-#: ../download/source.php:121
-msgid ""
-"For versions prior to 1.7 (2007-04-02), the dependencies must first be "
-"installed in the appropriate locations on your system:"
-msgstr ""
-
 #: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:9
 #: ../screenshots/index.php:16
 msgid "FreeBSD"
@@ -1002,12 +951,6 @@ msgstr ""
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr ""
 
-#: ../download/source.php:143
-msgid ""
-"If building Universal binaries you must add the --disable-dependency-"
-"tracking option to the configure command line."
-msgstr ""
-
 #: ../development/index.php:14
 #, php-format
 msgid ""
@@ -1064,13 +1007,6 @@ msgstr ""
 msgid ""
 "If you think you can contribute new features and/or bug fixes, please visit "
 "the <a href=\"%s\">development</a> page."
-msgstr ""
-
-#: ../download/source.php:130
-msgid ""
-"In addition, libxml2/libxslt may also require  zlib. If you are building the "
-"pgAdmin installer, these must be installed into %PGBUILD%\\zlib (or "
-"$BUILD_ROOT/pgadmin3-deps/zlib for the older builds) respectively."
 msgstr ""
 
 #: ../translation/howto.php:40
@@ -1192,21 +1128,6 @@ msgstr ""
 msgid "Linux"
 msgstr ""
 
-#: ../download/source.php:88
-msgid "Linux, FreeBSD and Solaris"
-msgstr ""
-
-#: ../download/source.php:15
-msgid ""
-"Linux, FreeBSD and other *nixes: Recent versions of GTK2.2, automake, "
-"autoconf and gcc are needed. The best solution is to use a recent "
-"distribution."
-msgstr ""
-
-#: ../download/source.php:38
-msgid "Linux, FreeBSD or Solaris"
-msgstr ""
-
 #: ../development/menu.php:10 ../support/menu.php:9
 msgid "List archives"
 msgstr ""
@@ -1233,7 +1154,6 @@ msgid "MULE_INTERNAL"
 msgstr ""
 
 #: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
-#: ../download/source.php:65 ../download/source.php:134
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr ""
@@ -1243,12 +1163,6 @@ msgid ""
 "Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Newer "
 "versions are being built on Tiger. v1.6 and above are built as Mac Universal "
 "binaries for Intel and PPC architectures."
-msgstr ""
-
-#: ../download/source.php:19
-msgid ""
-"Mac OSX: XCode 2.0 or above. Recent versions of autoconf and automake may "
-"also be required if building from SVN."
 msgstr ""
 
 #: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
@@ -1263,8 +1177,8 @@ msgstr ""
 #: ../download/debian.php:10 ../download/freebsd.php:10
 #: ../download/macosx.php:10 ../download/opensuse.php:10
 #: ../download/rpm.php:10 ../download/slackware.php:10
-#: ../download/solaris.php:10 ../download/ubuntu.php:10
-#: ../download/windows.php:10
+#: ../download/solaris.php:10 ../download/source.php:10
+#: ../download/ubuntu.php:10 ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr ""
@@ -1300,10 +1214,6 @@ msgstr ""
 
 #: ../features.php:14
 msgid "Microsoft Windows &trade; 2000 and above"
-msgstr ""
-
-#: ../download/source.php:110
-msgid "Microsoft Windows 2000, XP & 2003"
 msgstr ""
 
 #: ../news.php:132
@@ -1365,25 +1275,11 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../download/source.php:63
-#, php-format
-msgid ""
-"Note that as of mid May 2006, the development environment for pgAdmin 1.5+ "
-"was upgraded to Visual C++ 2005. You must compile wxWidgets with this "
-"version of Visual C++ as well. You can download the Visual Studio Express "
-"editions free of charge from <a href=\"%s\">Microsoft</a>&trade;."
-msgstr ""
-
 #: ../download/windows.php:14
 #, php-format
 msgid ""
 "Note that the <a href=\"%s\">pgInstaller</a> distribution of PostgreSQL for "
 "Windows includes a bundled copy of pgAdmin."
-msgstr ""
-
-#: ../download/source.php:40 ../download/source.php:67
-#: ../download/source.php:94 ../download/source.php:140
-msgid "Note:"
 msgstr ""
 
 #: ../download/adminpacks.php:24
@@ -1553,22 +1449,12 @@ msgstr ""
 msgid "PostgreSQL 7.3 and above"
 msgstr ""
 
-#: ../download/source.php:123
-msgid ""
-"PostgreSQL 8.1, installed into the default location from the official "
-"PostgreSQL installer (pgInstaller)."
-msgstr ""
-
 #: ../news.php:110
 msgid "PostgreSQL 8.2 support:"
 msgstr ""
 
 #: ../development/roadmap.php:13
 msgid "PostgreSQL 8.4 compatibility (these items are subject to change)"
-msgstr ""
-
-#: ../download/source.php:114
-msgid "PostgreSQL 8.x, installed into a directory pointed to by %PGDIR%"
 msgstr ""
 
 #: ../features.php:33
@@ -1587,14 +1473,6 @@ msgstr ""
 msgid ""
 "Pre-encrypt passwords before sending them down the wire, or displaying them "
 "in SQL statements."
-msgstr ""
-
-#: ../download/source.php:32
-#, php-format
-msgid ""
-"Precompiled XML/XSLT and dependency packages for Windows can be found at <a "
-"href=\"%s\">zlatkovic.com</a>. You probably need iconv 1.9.x and zlib 1.2.x "
-"as well as libxml2 and libxslt."
 msgstr ""
 
 #: ../news.php:95
@@ -1692,17 +1570,13 @@ msgstr ""
 msgid "Reject invalid command line options in pgAgent."
 msgstr ""
 
-#: ../docs/menu.php:8 ../docs/menu.php:9
+#: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
 #, php-format
 msgid "Release %s"
 msgstr ""
 
 #: ../news.php:21
 msgid "Remember the server's SSL mode property correctly."
-msgstr ""
-
-#: ../download/source.php:10
-msgid "Requirements"
 msgstr ""
 
 #: ../news.php:59
@@ -1875,6 +1749,13 @@ msgid ""
 "regular basis, following programming milestones."
 msgstr ""
 
+#: ../download/source.php:12
+msgid ""
+"Source tarballs are available for users wishing to compile their own copy of "
+"pgAdmin, or those using platforms for which we do not supply prebuilt "
+"packages."
+msgstr ""
+
 #: ../privacypolicy.php:10
 msgid "Standard logging"
 msgstr ""
@@ -1952,12 +1833,6 @@ msgstr ""
 msgid "Team"
 msgstr ""
 
-#: ../download/source.php:43 ../download/source.php:70
-msgid ""
-"The --enable-mimetype=no option is broken on wxWidgets versions earlier than "
-"2.6.2 and should be omitted."
-msgstr ""
-
 #: ../translation/howto.php:68
 #, php-format
 msgid ""
@@ -2027,8 +1902,8 @@ msgstr ""
 msgid "The database connection dialogue"
 msgstr ""
 
-#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:29
-#: ../include/doc.php:43
+#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
+#: ../include/doc.php:48
 msgid "The document requested does not exist!"
 msgstr ""
 
@@ -2199,16 +2074,6 @@ msgstr ""
 msgid "The server status dialogue"
 msgstr ""
 
-#: ../download/source.php:132
-msgid ""
-"The source tree should be unpacked into $BUILD_ROOT. The directory can be "
-"called whatever you like, as long as its at the right directory level - for "
-"example, you might have $BUILD_ROOT/pgadmin3-deps, $BUILD_ROOT/pgadmin3-dev "
-"and $BUILD_ROOT/pgadmin3-1.4. A Visual Studio/C++ 2005 solution file for "
-"pgAdmin may be found in the root of the source tree. Load the project into "
-"Visual C++ and build the desired targets."
-msgstr ""
-
 #: ../screenshots/serverstatus.php:10
 msgid ""
 "The status of each server process may be viewed, along with summaries of "
@@ -2283,16 +2148,6 @@ msgid ""
 "archive, and move the appbundle into the desired location."
 msgstr ""
 
-#: ../download/source.php:155
-msgid ""
-"This final step will build an OSX appbundle called pgAdmin3.app in the root "
-"of your source tree. As this can take a minute or two, the <i>pkg/mac/debug-"
-"bundle.sh</i> script may be used to build a non-relocatable 'fake' appbundle "
-"using symbolic links directly to the executable files. This appbundle is "
-"called pgAdmin3-debug.app, and doesn't need to be rebuilt when pgAdmin is "
-"recompiled."
-msgstr ""
-
 #: ../development/roadmap.php:10
 #, php-format
 msgid ""
@@ -2351,7 +2206,7 @@ msgid ""
 "can be installed on the same machine at the same time."
 msgstr ""
 
-#: ../download/freebsd.php:22 ../download/rpm.php:25
+#: ../download/freebsd.php:22 ../download/rpm.php:24
 msgid "To install these packages, use a command such as:"
 msgstr ""
 
@@ -2452,16 +2307,6 @@ msgstr ""
 
 #: ../advocacy/information.php:22
 msgid "Under 80 characters"
-msgstr ""
-
-#: ../download/source.php:36
-msgid ""
-"Unpack the wxWidgets tarball or zip file and follow the appropriate set of "
-"instruction below."
-msgstr ""
-
-#: ../download/source.php:93 ../download/source.php:139
-msgid "Unpack, build and install the source code:"
 msgstr ""
 
 #: ../news.php:37
@@ -2624,14 +2469,6 @@ msgstr ""
 msgid "Windows &trade;"
 msgstr ""
 
-#: ../download/source.php:59
-msgid "Windows 2000, XP and 2003"
-msgstr ""
-
-#: ../download/source.php:17
-msgid "Windows 2000, XP, 2003: Microsoft Visual C++ 2005."
-msgstr ""
-
 #: ../advocacy/information.php:10
 msgid ""
 "You are free to publish any technical information about pgAdmin. Here are "
@@ -2653,19 +2490,6 @@ msgid ""
 "mode, this will be the case automatically."
 msgstr ""
 
-#: ../download/source.php:71
-msgid ""
-"You may also specify the --enable-universal_binary option to build Mac "
-"Universal binaries."
-msgstr ""
-
-#: ../download/source.php:42 ../download/source.php:69
-#: ../download/source.php:97 ../download/source.php:142
-msgid ""
-"You may need to use the --enable-debug option if attempting to track down a "
-"crash."
-msgstr ""
-
 #: ../translation/howto.php:49
 msgid ""
 "You should be able to add the appropriate <i>i18n/language_Country/pgadmin3."
@@ -2676,52 +2500,18 @@ msgid ""
 "yourself."
 msgstr ""
 
-#: ../download/source.php:127
-msgid "iconv 1.9, installed into $BUILD_ROOT/pgadmin3-deps/iconv."
-msgstr ""
-
-#: ../download/source.php:118
-msgid "iconv 1.9.x, installed into a directory pointed to by %PGBUILD%\\iconv"
-msgstr ""
-
-#: ../download/source.php:125
-msgid ""
-"libxml2 2.6.18 (or above), installed into $BUILD_ROOT/pgadmin3-deps/libxml2."
-msgstr ""
-
-#: ../download/source.php:116
-msgid ""
-"libxml2 2.6.18 or above, installed into a directory pointed to by %PGBUILD%"
-"\\libxml2"
-msgstr ""
-
-#: ../download/source.php:126
-msgid "libxslt 1.1, installed into $BUILD_ROOT/pgadmin3-deps/libxslt."
-msgstr ""
-
-#: ../download/source.php:117
-msgid ""
-"libxslt 1.1.x, installed into a directory pointed to by %PGBUILD%\\libxslt"
-msgstr ""
-
 #: ../include/doc.php:14 ../include/doc.php:19 ../include/doc.php:24
+#: ../include/doc.php:29
 #, php-format
 msgid "pgAdmin %s online documentation"
 msgstr ""
 
-#: ../download/source.php:96
-msgid ""
-"pgAdmin 1.6.0 and 1.6.1 need --with-wx-version=2.8 added to the configure "
-"command line to build against wxWidgets 2.8. pgAdmin 1.6.2 and above will "
-"default to 2.8."
-msgstr ""
-
 #: ../index.php:12
 msgid ""
-"pgAdmin 1.8.0 has reached the beta phase of the release cycle. Please visit "
-"<a href=\"/download/\">the download page</a> to get a copy and help with the "
-"testing! Any bug reports should be sent to <a href=\"mailto:pgadmin-"
-"support@postgresql.org\">pgadmin-support@postgresql.org</a>."
+"pgAdmin 1.8.0 has reached the Release Candidate phase of the release cycle. "
+"Please visit <a href=\"/download/\">the download page</a> to get a copy and "
+"help with the last minute testing! Any bug reports should be sent to <a href="
+"\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</a>."
 msgstr ""
 
 #: ../news.php:44 ../news.php:71 ../news.php:99 ../news.php:166
@@ -3146,7 +2936,7 @@ msgstr ""
 msgid "pgAdmin: Archives"
 msgstr ""
 
-#: ../include/doc.php:57
+#: ../include/doc.php:62
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr ""
 
@@ -3185,21 +2975,4 @@ msgstr ""
 
 #: ../news.php:17
 msgid "v1.6.3 is primarily a bug fix release, including the following changes:"
-msgstr ""
-
-#: ../download/source.php:124
-msgid ""
-"wxWidgets 2.8 (2.6 for pgAdmin 1.4.x), installed into $BUILD_ROOT/pgadmin3-"
-"deps/wxwidgets."
-msgstr ""
-
-#: ../download/source.php:115
-msgid "wxWidgets 2.8.x, installed into a directory pointed to by %WXWIN%"
-msgstr ""
-
-#: ../download/source.php:44
-msgid ""
-"wxWidgets versions 2.6.2 and below are broken on Solaris. A CVS snapshot "
-"from the stable branch dated 2005-09-26 or later should be used until 2.6.3 "
-"is available."
 msgstr ""

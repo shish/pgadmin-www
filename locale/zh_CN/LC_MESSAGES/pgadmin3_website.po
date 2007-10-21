@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-10-21 10:53+0200\n"
+"POT-Creation-Date: 2007-10-21 22:47+0200\n"
 "PO-Revision-Date: 2007-03-30 00:16+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -18,49 +18,40 @@ msgstr ""
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: CHINA\n"
 
-#: ../index.php:10 ../news.php:10 ../news.php:47 ../news.php:74
-#: ../news.php:102 ../news.php:170
+#: ../index.php:10 ../news.php:10 ../news.php:114 ../news.php:151
+#: ../news.php:178 ../news.php:206
 #, php-format
 msgid "%s - pgAdmin III v%s released"
 msgstr "%s - pgAdmin III %s版本发布"
 
-#: ../download/adminpacks.php:12 ../download/adminpacks.php:13
-#: ../download/adminpacks.php:14 ../download/adminpacks.php:15
-#: ../download/adminpacks.php:16 ../download/adminpacks.php:17
-#: ../download/adminpacks.php:18 ../download/adminpacks.php:19
+#: ../download/adminpacks.php:13
 #, php-format
 msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s"
 msgstr "<a href=\"%s\">Admin pack</a> 用于pgAdmin %s版本"
 
+#: ../download/adminpacks.php:12
+#, fuzzy, php-format
+msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s and above"
+msgstr "<a href=\"%s\">Admin pack</a> 用于pgAdmin %s版本"
+
 #: ../download/freebsd.php:14 ../download/freebsd.php:15
-#: ../download/freebsd.php:16 ../download/freebsd.php:17
-#: ../download/freebsd.php:18 ../download/freebsd.php:19
 #: ../download/macosx.php:14 ../download/macosx.php:15
 #: ../download/macosx.php:16 ../download/macosx.php:17
-#: ../download/macosx.php:18 ../download/macosx.php:19
-#: ../download/macosx.php:20 ../download/macosx.php:21
-#: ../download/macosx.php:22 ../download/macosx.php:23
-#: ../download/opensuse.php:14 ../download/opensuse.php:15
-#: ../download/rpm.php:14 ../download/rpm.php:15 ../download/rpm.php:16
-#: ../download/rpm.php:17 ../download/rpm.php:18 ../download/rpm.php:19
-#: ../download/rpm.php:20 ../download/rpm.php:21 ../download/slackware.php:14
+#: ../download/opensuse.php:14 ../download/rpm.php:14 ../download/rpm.php:15
+#: ../download/rpm.php:16 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
-#: ../download/slackware.php:17 ../download/slackware.php:18
-#: ../download/slackware.php:19 ../download/slackware.php:20
-#: ../download/slackware.php:21 ../download/slackware.php:22
-#: ../download/solaris.php:14 ../download/source.php:15
-#: ../download/source.php:16 ../download/source.php:17
-#: ../download/source.php:18 ../download/source.php:19
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
-#: ../download/windows.php:25 ../download/windows.php:26
+#: ../download/slackware.php:17 ../download/solaris.php:14
+#: ../download/source.php:15 ../download/source.php:16
+#: ../download/source.php:17 ../download/source.php:18
+#: ../download/source.php:19 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
 
 #: ../download/source.php:25 ../download/source.php:26
+#: ../download/source.php:27
 #, fuzzy, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
@@ -180,29 +171,29 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "访问所有PostgreSQL对象"
 
-#: ../news.php:62
+#: ../news.php:166
 msgid ""
 "Add '...' to truncated column comments in table SQL, per Erwin Brandstetter."
 msgstr "在表属性的注释列后边增加'...'缩短显示长度，Erwin Brandstetter修改"
 
-#: ../news.php:153
+#: ../news.php:257
 msgid ""
 "Add 'scratch pads' to the Edit Grid and Query Tool windows to use when "
 "copying and pasting data back and forth."
 msgstr "在数据编辑网格和查询工具中增加一个'scratch pads'用来拷贝和粘贴数据"
 
-#: ../news.php:121
+#: ../news.php:225
 msgid ""
 "Add -a and -q command line options to auto connect to a server and open a "
 "query window respectively."
 msgstr "增加-a和-q命令行选项用来自动连接到数据库和打开一个查询窗口。"
 
-#: ../news.php:155
+#: ../news.php:259
 msgid ""
 "Add -qc switch to open query tool and autoconnect using a connection string."
 msgstr "增加-qc命令行选项打开查询工具并且连接到数据库。"
 
-#: ../news.php:138
+#: ../news.php:242
 msgid ""
 "Add CREATE/INSERT/UPDATE/SELECT script menu options for various object types "
 "to create script templates."
@@ -212,9 +203,14 @@ msgstr "为不同对象增加创建/插入/修改/查询脚本菜单选项，用
 msgid "Add DROP/REASSIGN OWNED support. [GL]"
 msgstr "增加对DROP/REASSIGN OWNED命令的支持。[GL]"
 
-#: ../news.php:130
+#: ../news.php:234
 msgid "Add a 'Favourites' query organiser to the Query Tool."
 msgstr "为查询工具增加一个‘收藏’功能菜单。"
+
+#: ../news.php:68
+#, fuzzy
+msgid "Add a 'Run Now' options for pgAgent jobs."
+msgstr "为Jobs增加一个\"马上运行\"的功能菜单。"
 
 #: ../development/roadmap.php:42
 msgid ""
@@ -222,13 +218,23 @@ msgid ""
 "backend process [DP]"
 msgstr ""
 
+#: ../news.php:65
+msgid ""
+"Add a guru hint to warn the user of the consequences of storing passwords."
+msgstr ""
+
+#: ../news.php:24
+#, fuzzy
+msgid "Add a macro facility to the Query Tool."
+msgstr "为查询工具增加一个‘收藏’功能菜单。"
+
 #: ../development/roadmap.php:43
 msgid ""
 "Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected "
 "lines in the query tool [DP]"
 msgstr ""
 
-#: ../news.php:152
+#: ../news.php:256
 msgid ""
 "Add a new Find & Replace dialogue to the query tool, implementing all the "
 "normal Find & Replace options as well as a powerful regular expression "
@@ -237,25 +243,38 @@ msgstr ""
 "为查询工具增加一个新的查找替换对话框，实现所有常规的查找和替换功能并且支持强"
 "大的正则表达式模式。"
 
-#: ../news.php:125
+#: ../news.php:44
+msgid ""
+"Add a new command line option (-f ) to open an SQL script automatically when "
+"using -q or -qc."
+msgstr ""
+
+#: ../news.php:46
+msgid ""
+"Add a new command line options (-cp ) to allow direct editing of pgpass "
+"files."
+msgstr ""
+
+#: ../news.php:229
 msgid "Add a password file editor."
 msgstr "增加一个密码文件编辑器。"
 
-#: ../news.php:151
+#: ../news.php:255
 msgid "Add a pgAgent option to log to a file on *nix."
 msgstr "增加一个pgAgent选项用来在*nix系统生成日志文件。"
 
-#: ../news.php:145
+#: ../news.php:31
+msgid ""
+"Add a set of options to allow the user to hide selected object types from "
+"the treeview. Note that the new default settings will hide less commonly "
+"used objects such as casts, languages, aggregates, operators etc."
+msgstr ""
+
+#: ../news.php:249
 msgid "Add a word wrap option to the query tool editor."
 msgstr "在查询工具编辑器增加一个自动换行选项。"
 
-#: ../news.php:186
-msgid ""
-"Add an accelerator key (Delete) for deleting rows in the edit grid, per Emil "
-"Nowak."
-msgstr "在数据编辑网格中为删除多行功能增加一个加速器，Emil Nowak修改。"
-
-#: ../news.php:140
+#: ../news.php:244
 msgid ""
 "Add an internal XML reporting API, HTML XSL stylesheet with XSLT processing "
 "capabilities and selection of schema/object/data reports."
@@ -263,7 +282,28 @@ msgstr ""
 "在生成schema/object/data报表时增加内置的XML报表API、带有XSLT的HTML XSL表单的"
 "处理和选择。"
 
-#: ../news.php:128
+#: ../news.php:70
+#, fuzzy
+msgid "Add an option to show NULLs as  in the Query Tool."
+msgstr "在查询工具增加行结束和空格显示选项。"
+
+#: ../news.php:48
+#, fuzzy
+msgid "Add an option to show indent guides in the query tool."
+msgstr "在查询工具增加行结束和空格显示选项。"
+
+#: ../news.php:39
+msgid ""
+"Add an option to the Report Tool to open the output file in the default "
+"browser."
+msgstr ""
+
+#: ../news.php:47
+#, fuzzy
+msgid "Add auto-indent to the query tool."
+msgstr "在查询工具增加行结束转换选项。"
+
+#: ../news.php:232
 msgid ""
 "Add autocompletion to the Query Tool, based on the logic used by psql. "
 "Triggered with Control+Space, and optionally the Tab key as well."
@@ -271,20 +311,57 @@ msgstr ""
 "基于psql使用的逻辑在查询工具增加自动完成功能，用Control+Space和任意的Tab键触"
 "发。"
 
-#: ../news.php:144
+#: ../news.php:248
 msgid "Add brace highlighting to the SQL Text Box control."
 msgstr "在SQL文本框增加高亮显示支持。"
 
-#: ../news.php:146
+#: ../news.php:45
+msgid "Add fillfactor support on tables and indexes."
+msgstr ""
+
+#: ../news.php:40
+msgid "Add keyboard shortcuts to show and hide UI elements."
+msgstr ""
+
+#: ../news.php:66
+msgid ""
+"Add options to enable/disable triggers, both individually and per-table."
+msgstr ""
+
+#: ../news.php:250
 msgid "Add options to show line ends and whitespaces in the query tool."
 msgstr "在查询工具增加行结束和空格显示选项。"
 
-#: ../news.php:38
+#: ../news.php:142
 msgid "Add support for Sun's compiler [Dhanaraj M]"
 msgstr "增加对Sun的编译器的支持。[Dhanaraj M]"
 
-#: ../news.php:156
+#: ../news.php:260
 msgid "Add support for building Mac Universal Binaries."
+msgstr "增加对制作Mac Universal Binaries的支持。"
+
+#: ../news.php:28
+msgid "Add support for enums in PostgreSQL 8.3+."
+msgstr ""
+
+#: ../news.php:51
+#, fuzzy
+msgid "Add support for function cost and row estimations in PostgreSQL 8.3+."
+msgstr "增加函数行和成本评估。"
+
+#: ../news.php:25
+#, fuzzy
+msgid "Add support for multi-parameter aggregates."
+msgstr "增加对制作Mac Universal Binaries的支持。"
+
+#: ../news.php:58
+#, fuzzy
+msgid "Add support for packages on EnterpriseDB."
+msgstr "修正EnterpriseDB AS81之上的存储过程支持。"
+
+#: ../news.php:59
+#, fuzzy
+msgid "Add support for public synonyms on EnterpriseDB."
 msgstr "增加对制作Mac Universal Binaries的支持。"
 
 #: ../development/roadmap.php:44
@@ -303,44 +380,69 @@ msgstr "倡议"
 msgid "Aggregates"
 msgstr "集合函数"
 
-#: ../news.php:118
+#: ../news.php:33
+msgid "Allow GUC variables to be preset on functions in PostgreSQL 8.3."
+msgstr ""
+
+#: ../news.php:73
+msgid "Allow GUCs to be set on users, roles and databases at create time."
+msgstr ""
+
+#: ../news.php:222
 msgid "Allow database and schema display to be restricted."
 msgstr "允许限制显示数据库和方案。"
 
-#: ../news.php:183
+#: ../news.php:50
+#, fuzzy
+msgid "Allow detection and conversion of line ending format in the query tool."
+msgstr "在查询工具增加行结束转换选项。"
+
+#: ../news.php:63
+msgid "Allow entire servers to be backed up."
+msgstr ""
+
+#: ../news.php:64
+msgid "Allow global objects to be backed up."
+msgstr ""
+
+#: ../news.php:61
 msgid ""
-"Allow non-superuser roles with the appropriate permissions to create roles "
-"and DBs."
-msgstr "允许具有相应权限的非超级用户创建角色和数据库。"
+"Allow install time re-branding. This allows rebranded versions of pgAdmin to "
+"be distributed without code modifications, but with references to the "
+"original pgAdmin being displayed instead. Also add support for shaped splash "
+"screens."
+msgstr ""
 
-#: ../news.php:182
-msgid "Allow non-superusers to edit roles where appropriate [Thomas Sondag]"
-msgstr "允许非超级用户在适当的地方编辑角色。[Thomas Sondag]"
-
-#: ../news.php:141
+#: ../news.php:245
 msgid "Allow pasting of entire rows in the View Data tool."
 msgstr "在数据查看工具中允许传送整个行。"
 
-#: ../news.php:122
+#: ../news.php:226
 msgid ""
 "Allow result copy quoting configuration to be set explicitly rather than "
 "using the result export settings."
 msgstr "允许显式设置结果拷贝的引用配置，而不是使用结果导出设置。"
 
-#: ../news.php:129
+#: ../news.php:233
 msgid ""
 "Allow selection and copy of subsets of the columns and rows in the Edit Grid."
 msgstr "在数据网格中允许选择拷贝列和行的子集。"
 
-#: ../news.php:123
+#: ../news.php:227
 msgid "Allow set returning functions to be created."
 msgstr "创建时允许设置返回函数。"
 
-#: ../news.php:134
+#: ../news.php:49
+msgid ""
+"Allow spaces to be used instead of tabs in SQL editors, and ensure the width "
+"can be set sensibly."
+msgstr ""
+
+#: ../news.php:238
 msgid "Allow the admin modules to be built with PGXS if required."
 msgstr "允许admin模块与PGXS在需要的时候一起编译。"
 
-#: ../news.php:127
+#: ../news.php:231
 msgid ""
 "Allow the number of rows shown in the Edit Grid to be limited and add a "
 "'View top 100 rows' option to the table/view context menus."
@@ -348,7 +450,7 @@ msgstr ""
 "允许在数据网格中限制显示行数，并且在表/查看功能菜单中增加'View top 100 "
 "rows'选项。"
 
-#: ../news.php:136
+#: ../news.php:240
 msgid ""
 "Allow the tab character to be used as the clipboard column separator to "
 "allow pasting of query results straight into apps like Excel, or OOo Calc."
@@ -356,13 +458,13 @@ msgstr ""
 "允许使用tab符作为剪贴板的列分隔符，以便直接将查询结果传送到Excel、OOo Calc之"
 "类的应用程序。"
 
-#: ../news.php:142
+#: ../news.php:246
 msgid ""
 "Allow the user to choose whether or not to restore the environment when "
 "reconnecting to a particular server."
 msgstr "当重新连接到特定数据库时，允许用户选择是否恢复环境。"
 
-#: ../news.php:34
+#: ../news.php:138
 msgid ""
 "Allow users with SUPERUSER but no other privilege flags to create roles and "
 "databases etc. per Andy Shellam."
@@ -430,7 +532,7 @@ msgstr ""
 "SQL定义。同时在命令行或脚本和GUI中运行它们，能够帮助用户更容易得学习和理解"
 "SQL。"
 
-#: ../news.php:162
+#: ../news.php:266
 #, php-format
 msgid ""
 "As well as many other tweaks, improvements and bug fixes, details of which "
@@ -438,15 +540,27 @@ msgid ""
 msgstr ""
 "其他的一些调整、提升和bug修正的细节可以在<a href=\"%s\">更新日志</a>找到。"
 
+#: ../news.php:106
+#, fuzzy
+msgid "As well as many other tweaks, improvements and bug fixes."
+msgstr ""
+"其他的一些调整、提升和bug修正的细节可以在<a href=\"%s\">更新日志</a>找到。"
+
 #: ../features.php:52
 msgid "Auto-vacuum management (PostgreSQL 8.1 and above)"
 msgstr "自动空间回收管理（(PostgreSQL 8.1以及更高版本）"
 
-#: ../news.php:64
+#: ../news.php:168
 msgid "Avoid a crash when closing the query tool on Solaris [Dhanaraj M]."
 msgstr "消除当在Solaris中关闭查询工具时崩溃的问题。[Dhanaraj M]"
 
-#: ../news.php:66
+#: ../news.php:90
+msgid ""
+"Avoid creating graphical explain nodes for triggers as they aren't part of "
+"the plan and mess up the layout."
+msgstr ""
+
+#: ../news.php:170
 msgid ""
 "Avoid displaying multi line data in single line list controls, per Clodoaldo "
 "Pinto Neto."
@@ -466,6 +580,10 @@ msgstr ""
 msgid "Before you try to install"
 msgstr ""
 
+#: ../news.php:32
+msgid "Browser support for Operator Families in PostgreSQL 8.3."
+msgstr ""
+
 #: ../support/issues.php:10
 msgid ""
 "Bugs and other issues in pgAdmin are almost always fixed within a very short "
@@ -476,7 +594,7 @@ msgstr ""
 "pgAdmin的bug和问题在报告给我们之后几乎都能够很快的修正，但是有时一些问题会超"
 "出我们的控制，或者解决它会带来重大的影响，而通常这种影响比问题本身更加重要。"
 
-#: ../news.php:58
+#: ../news.php:162
 msgid "Build against PostgreSQL 8.2 on Windows."
 msgstr "基于Windows版的PostgreSQL 8.2制作。"
 
@@ -503,7 +621,7 @@ msgid ""
 "wxWidgets."
 msgstr ""
 
-#: ../download/freebsd.php:34
+#: ../download/freebsd.php:30
 msgid "Check that the pgAdmin III executable is in the path:"
 msgstr "确认pgAdmin III在系统路径中是可以正确执行的："
 
@@ -531,11 +649,11 @@ msgstr "字段"
 msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr "将pgadmin3.po编译为pgadmin3.mo二进制文件。"
 
-#: ../news.php:112
+#: ../news.php:216
 msgid "Concurrent index builds."
 msgstr "并发建立索引。"
 
-#: ../news.php:119
+#: ../news.php:223
 msgid "Configurable indents in the SQL editor."
 msgstr "可以设置SQL编辑器的缩进位置。"
 
@@ -565,6 +683,10 @@ msgstr "分发翻译"
 msgid "Conversions"
 msgstr "编码转换"
 
+#: ../news.php:89
+msgid "Copy and paste data correctly when in a cell editor in the edit grid."
+msgstr ""
+
 #: ../include/archives.php:54
 msgid "Couldn't find the archive content!"
 msgstr "无法找到归档内容"
@@ -573,9 +695,14 @@ msgstr "无法找到归档内容"
 msgid "Couldn't find the document content!"
 msgstr "无法找到文档内容"
 
-#: ../download/freebsd.php:28
+#: ../download/freebsd.php:24
 msgid "Create a symlink to the pgAdmin III binary:"
 msgstr "创建一个指向pgAdmin III的符号连接："
+
+#: ../news.php:55
+msgid ""
+"Create and reverse engineer edbspl procedures using Oracle compatible syntax."
+msgstr ""
 
 #: ../advocacy/strategy.php:23
 msgid ""
@@ -604,10 +731,16 @@ msgstr "数据库语言编码选择"
 msgid "Databases"
 msgstr "数据库"
 
-#: ../news.php:44 ../news.php:71 ../news.php:99 ../news.php:166
-#: ../news.php:192
+#: ../news.php:148 ../news.php:175 ../news.php:203 ../news.php:270
 msgid "Dave Page"
 msgstr "Dave Page"
+
+#: ../news.php:111
+#, fuzzy
+msgid ""
+"Dave Page<br />\n"
+"pgAdmin Development Team"
+msgstr "pgAdmin开发组"
 
 #: ../download/debian.php:8 ../download/menu.php:8
 msgid "Debian"
@@ -645,13 +778,7 @@ msgstr "人员分布"
 msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr "为多个PostgreSQL版本及其派生设计"
 
-#: ../news.php:189
-msgid ""
-"Detect and correctly use GNU vs. BSD xargs when completing an appbundle "
-"install, per John DeSoi."
-msgstr "完成appbundle安装后，检查校正使用GNU还是BSD。"
-
-#: ../news.php:143
+#: ../news.php:247
 msgid ""
 "Detect and warn the user of concurrent edits of functions, views and job "
 "steps."
@@ -670,30 +797,45 @@ msgstr "正在开发的%s版本"
 msgid "Development team"
 msgstr "开发组"
 
-#: ../news.php:131
+#: ../news.php:29
+msgid ""
+"Display catalogs separately from schemas, and don't treat them as system "
+"objects any longer (they can be hidden using the display options). Show only "
+"tables & views (as 'catalog objects') in pseudo-system catalogs such as "
+"information_schema and EDB's sys and dbo catalogs. Lock down functionality "
+"to prevent create/edit/drop options being offered."
+msgstr ""
+
+#: ../news.php:235
 msgid "Display column dependencies."
 msgstr "显示字段依赖对象。"
 
-#: ../news.php:179
-msgid "Display interval precision properly, per Walter Haslbeck"
-msgstr "正确地显示间隔精度，Walter Haslbeck修改。"
-
-#: ../news.php:178
-msgid ""
-"Display job steps and schedules properly in the Job dialogue, per Eric "
-"Shuman."
-msgstr "在工作计划对话框中正常显示工作步骤和进度。"
-
-#: ../news.php:150
+#: ../news.php:254
 msgid "Display non-default op classes in index definitions."
 msgstr "在索引定义中显示非缺省定义的运算符类。"
 
-#: ../news.php:124
+#: ../news.php:228
 msgid ""
 "Display the client start time on the status dialogue with PostgreSQL 8.1+"
 msgstr "连同PostgreSQL 8.1+使用时，在状态对话框中显示客户端的开始时间。"
 
-#: ../news.php:148
+#: ../news.php:87
+msgid ""
+"Display the constraint OID for index constraints, not the index OID. Add the "
+"index OID as a new property."
+msgstr ""
+
+#: ../news.php:52
+msgid "Display the is_called sequence flag."
+msgstr ""
+
+#: ../news.php:41
+msgid ""
+"Display the output pane in the query tool at query completion if it's "
+"currently hidden."
+msgstr ""
+
+#: ../news.php:252
 msgid ""
 "Display, and allow null values to be set in boolean columns in the Edit Grid."
 msgstr "在编辑网格中显示并允许空值赋值到布尔型字段。"
@@ -712,15 +854,19 @@ msgstr "文档"
 msgid "Domains"
 msgstr "域"
 
-#: ../news.php:90
+#: ../news.php:194
 msgid ""
 "Don't display index constraints under the Indexes node as well as the "
 "Contraints node, per Erwin."
 msgstr "在索引节点和约束节点上不显示索引约束，Erwin修改。"
 
-#: ../news.php:94
+#: ../news.php:198
 msgid "Don't paste into empty edit grids, per Howard Wang"
 msgstr "禁止粘贴到空的编辑网格，Howard Wang修改。"
+
+#: ../news.php:86
+msgid "Don't try to detect if integrated autovacuum is running on &lt; 8.1."
+msgstr ""
 
 #: ../include/page.php:127 ../include/po_status.php:256
 msgid "Download"
@@ -758,14 +904,14 @@ msgstr "编辑/etc/apt/sources.list文件追加如下行："
 msgid "Edit the *.po file. The steps described are related to poEdit only."
 msgstr "编辑*.po文件，下面描述的步骤仅对poEdit有效。"
 
-#: ../news.php:83
+#: ../news.php:187
 msgid ""
 "Enable the OK button on the Database properties dialog when the owner is "
 "changed, per Jim Cullison"
 msgstr ""
 "在数据库属性对话框中当所有者变化时，使OK按钮变得可用，Jim Cullison修改。"
 
-#: ../news.php:68
+#: ../news.php:172
 msgid ""
 "Enable the OK button on the database properties dialog when variables are "
 "changed."
@@ -775,13 +921,13 @@ msgstr "当数据库属性对话框的变量被修改时使OK按钮有效。"
 msgid "English"
 msgstr "英语"
 
-#: ../news.php:135
+#: ../news.php:239
 msgid ""
 "Enhance the query tool to allow copy/paste of arbitrary groups of columns, "
 "rows or individual cells."
 msgstr "增强查询工具，允许拷贝/粘贴任意行和列以及任意单元格。"
 
-#: ../news.php:96
+#: ../news.php:200
 msgid ""
 "Ensure backup and restore options are enabled when appropriate (this is a "
 "wxWidgets bug, fixed in wxWidgets 2.8.0rc1)"
@@ -789,15 +935,35 @@ msgstr ""
 "在适当的时候使备份和恢复选项可用。（这是一个wxWidgets的bug，在2.8.0rc1中修"
 "正）"
 
-#: ../news.php:60
+#: ../news.php:164
 msgid ""
 "Ensure column headers and the insert row are shown in the edit grid when no "
 "rows exist in the table being editted, per Bob Pawley."
 msgstr "当表被编辑时即使当前没有数据行也能显示表头和插入数据，Bob Pawley修改。"
 
-#: ../news.php:187
-msgid "Ensure the user is warned if files cannot be written."
-msgstr "文件不可写时让用户收到一个警告。"
+#: ../news.php:78
+msgid "Ensure files can be converted to the required encoding before saving."
+msgstr ""
+
+#: ../news.php:80
+msgid ""
+"Ensure logfiles and pgpass files can be correctly saved on Windows when the "
+"username contains non-ASCII chars."
+msgstr ""
+
+#: ../news.php:94
+msgid "Ensure pgAgent jobs can be managed on Greenplum database."
+msgstr ""
+
+#: ../news.php:88
+msgid "Ensure the password change dialog works with stored passwords."
+msgstr ""
+
+#: ../news.php:81
+msgid ""
+"Ensure we always allow the maximum string length possible to be entered in "
+"the Edit Grid."
+msgstr ""
 
 #: ../translation/howto.php:33
 msgid "Enter your translation strings."
@@ -819,33 +985,35 @@ msgstr "常见问题"
 msgid "Features"
 msgstr "特性"
 
-#: ../news.php:184
-msgid "Fix a bug in the pgpass save code that could damage files."
-msgstr "修正一个在pgpass中保存代码可能破坏文件的bug。"
-
-#: ../news.php:20
+#: ../news.php:124
 msgid ""
 "Fix a bug that prevented adding new nodes to a Slony cluster, per Duncan "
 "Beeby."
 msgstr "修正一个在Slony聚簇中阻止增加新节点的bug，Duncan Beeby修改。"
 
-#: ../news.php:32
+#: ../news.php:83
+msgid ""
+"Fix a crash in the Edit Grid which occured if Delete was pressed whilst "
+"editing a boolean."
+msgstr ""
+
+#: ../news.php:136
 msgid ""
 "Fix a crash on Mac that occurred when using some combo boxes, per David "
 "Lowry."
 msgstr "修正一个在Mac中使用某些下拉列表引发的崩溃，David Lowry修改。"
 
-#: ../news.php:28
+#: ../news.php:132
 msgid "Fix a minor bug in app bundle creation for Mac [Florian G. Pflug]"
 msgstr "修正一个制作MAC程序包过程中的微小bug。"
 
-#: ../news.php:89
+#: ../news.php:193
 msgid ""
 "Fix a minor bug in the index reverse engineering when using non-default "
 "operator classes per Andrus."
 msgstr "修正一个索引反转引擎使用非缺省操作符类时的镜像bug，Andrus修改。"
 
-#: ../news.php:25
+#: ../news.php:129
 msgid ""
 "Fix a rare bug in the Edit Grid which could cause a crash when editting data "
 "in tables with deleted columns and a primary key that isn;t at the beginning "
@@ -854,7 +1022,7 @@ msgstr ""
 "修正一个很难出现的bug，当在编辑网格中删除字段并且主键不是数据表的第一个字段时"
 "引发的崩溃，感谢Patrick De Visschere提供测试案例。"
 
-#: ../news.php:39
+#: ../news.php:143
 msgid ""
 "Fix an issue in the Query Tool export option that could result in blank "
 "lines in the export file, per Mathias Durst and Mike."
@@ -862,55 +1030,73 @@ msgstr ""
 "修正查询工具导出选项时可能会在导出文件中带来空行的问题，Mathias Durst and "
 "Mike修改。"
 
-#: ../news.php:19
+#: ../news.php:123
 msgid "Fix an overflow bug in pgAgent, per report from Sabin Coanda"
 msgstr "修正由Sabin Coanda报告的pgAgent中的溢出bug。"
 
-#: ../news.php:30
+#: ../news.php:134
 msgid "Fix default perspective names, per Ezequias."
 msgstr "修正缺省的窗口布局，Ezequias修改。"
 
-#: ../news.php:85
+#: ../news.php:189
 msgid "Fix deletion of stored procedures, Per Erwin."
 msgstr "修正一个误删除存储过程的错误，Erwin修改。"
 
-#: ../news.php:36
+#: ../news.php:140
 msgid "Fix localisation of 'Tab' as a copy delimiter."
 msgstr "修正'Tab'作为拷贝分隔符时的定位问题。"
 
-#: ../news.php:33
+#: ../news.php:137
 msgid "Fix menu icon for Gnome [Nathan Egge]"
 msgstr "修正Gnome下的菜单图标。[Nathan Egge]"
 
-#: ../news.php:56
+#: ../news.php:160
 msgid ""
 "Fix per-table autovacuum settings for PostgreSQL >= 8.2 per Devrim Gunduz."
 msgstr "修正PostgreSQL 8.2以及更高版本每个表的自动空间回收设置。"
 
-#: ../news.php:24
+#: ../news.php:128
 msgid "Fix procedure support on EnterpriseDB AS81."
 msgstr "修正EnterpriseDB AS81之上的存储过程支持。"
 
-#: ../news.php:41
+#: ../news.php:145
 msgid ""
 "Fix query tool title which was unfortunately broken by an earlier fix for "
 "another bug."
 msgstr "修正早些时候另一个bug的修正造成的查询工具标题不正确问题。"
 
-#: ../news.php:57
+#: ../news.php:91
+msgid ""
+"Fix reverse engineering of data types with a size of 0, such as \"timestamp"
+"(0) without timezone\"."
+msgstr ""
+
+#: ../news.php:161
 msgid ""
 "Fix some oddities in the way current per-table vacuum settings are displayed."
 msgstr "修正显示当前每个表的空间回收设置时的几个不合理现象。"
 
-#: ../news.php:92
+#: ../news.php:196
 msgid "Fix some portability issues in the configure code [Max Khon]"
 msgstr "修正配置代码的一些潜在问题。[Max Khon]"
 
-#: ../news.php:29
+#: ../news.php:133
 msgid ""
 "Fix the graphical explain to properly display backwards index scan nodes, "
 "per Brendan O'Shea."
 msgstr "修正图形化解释器，正确向后显示索引扫描节点，Brendan O'Shea修改。"
+
+#: ../news.php:95
+msgid ""
+"Fix the table, index and index constraint tablespace property combo boxes to "
+"allow changes to tablespace."
+msgstr ""
+
+#: ../news.php:77
+msgid ""
+"Fixed UTF8 option was not effective by file reading and writing of a query "
+"and fixed crash at the time of file save."
+msgstr ""
 
 #: ../download/debian.php:34 ../download/debian.php:51
 #: ../download/ubuntu.php:44
@@ -943,6 +1129,12 @@ msgstr ""
 "pot</a>文件，使用poEdit的<i>类目/从POT文件更新</i>功能与你的语言文件结合。另"
 "外也可以手动运行下边的命令："
 
+#: ../news.php:93
+msgid ""
+"Function/procedure signatures do not include OUT params. Fix this oversight, "
+"and cleanup much of the related code."
+msgstr ""
+
 #: ../development/roadmap.php:32
 #, fuzzy
 msgid "Functionality"
@@ -968,7 +1160,7 @@ msgstr "Google Analytics（分析）"
 msgid "Groups"
 msgstr "组"
 
-#: ../news.php:93
+#: ../news.php:197
 msgid "Guard against permission denied errors in the edit grid per Howard Wang"
 msgstr "在数据网格中防止许可拒绝错误，Howard Wang修改。"
 
@@ -980,17 +1172,21 @@ msgstr "指导方针"
 msgid "Guru Hints to help less experienced users"
 msgstr "指导建议能够帮助经验比较少的用户。"
 
-#: ../news.php:35
+#: ../news.php:139
 msgid ""
 "Handle non-default schema paths properly in the Foreign Key dialogue, per "
 "Philipp Specht"
 msgstr "在外键对话框中正确地处理非缺省的schema路径，Philipp Specht修改。"
 
-#: ../news.php:158
+#: ../news.php:92
+msgid "Handle resetting of sequence values more consistently."
+msgstr ""
+
+#: ../news.php:262
 msgid "Hide binary data (bytea) in the edit grid."
 msgstr "在编辑表格隐藏二进制数据（bytea）。"
 
-#: ../news.php:147
+#: ../news.php:251
 msgid ""
 "Highlight the error word in the query tool if a syntax error is reported by "
 "the database."
@@ -1008,7 +1204,16 @@ msgstr "如何捐助"
 msgid "Howto"
 msgstr "如何去做"
 
-#: ../news.php:164
+#: ../news.php:108
+#, fuzzy
+msgid ""
+"I would like to take this opportunity to thank all those who gave their \n"
+"time to help with the development, testing, translation and packaging of "
+"this release."
+msgstr ""
+"借这个机会，向所有在这个版本的开发、测试、翻译和打包中提供帮助的人表示感谢。"
+
+#: ../news.php:268
 msgid ""
 "I would like to take this opportunity to thank all those who gave their time "
 "to help with the development, testing, translation and packaging of this "
@@ -1016,7 +1221,7 @@ msgid ""
 msgstr ""
 "借这个机会，向所有在这个版本的开发、测试、翻译和打包中提供帮助的人表示感谢。"
 
-#: ../news.php:104
+#: ../news.php:208
 msgid ""
 "I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source "
 "graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS "
@@ -1110,7 +1315,7 @@ msgid ""
 "po."
 msgstr "poEdit在保存时会自动生成pgadmin3.po。"
 
-#: ../news.php:86
+#: ../news.php:190
 msgid "Include IN/OUT/INOUT keywords in procedure identifiers in the treeview."
 msgstr "在树状视图中显示存储过程的IN/OUT/INOUT关键字。"
 
@@ -1122,13 +1327,7 @@ msgstr "索引"
 msgid "Information"
 msgstr "信息"
 
-#: ../news.php:188
-msgid ""
-"Install PkgInfo into the Contents directory in the OSX appbundle, per John "
-"DeSoi."
-msgstr "在OSX包中将PkgInfo安装到Contents目录，John DeSoi修改。"
-
-#: ../download/adminpacks.php:22
+#: ../download/adminpacks.php:16
 msgid ""
 "Install the appropriate admin pack for the version of pgAdmin that you use, "
 "and the server you are running. pgInstaller distributions of PostgreSQL for "
@@ -1140,6 +1339,10 @@ msgstr ""
 #: ../download/debian.php:61
 msgid "Installation"
 msgstr "安装"
+
+#: ../news.php:27
+msgid "Integrate the EnterpriseDB pl/pgsql and EDB-SPL debugger with pgAdmin."
+msgstr ""
 
 #: ../index.php:14 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
@@ -1239,6 +1442,12 @@ msgstr "Linux"
 msgid "List archives"
 msgstr "归档列表"
 
+#: ../news.php:84
+msgid ""
+"Load second and subsequent postgresql.conf files into the config editor "
+"correctly."
+msgstr ""
+
 #: ../include/po_status.php:253
 msgid "Locale"
 msgstr "地域"
@@ -1292,7 +1501,7 @@ msgstr "维护者"
 msgid "Maintainer: %s"
 msgstr "维护者：%s"
 
-#: ../news.php:154
+#: ../news.php:258
 msgid "Make elements of the main windows dockable for maximum configurability."
 msgstr "使主窗口的组件在最大化配置时是可停靠的。"
 
@@ -1330,15 +1539,15 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr "Microsoft Windows &trade; 2000和更高版本"
 
-#: ../news.php:132
+#: ../news.php:236
 msgid "Minimal linking for pgAgent under *nix."
 msgstr "pgAgent在*nix系统下最小的连接制作。"
 
-#: ../news.php:23
+#: ../news.php:127
 msgid "Minor fix for edb/spl functions."
 msgstr "针对edb/spl 函数的微小调整。"
 
-#: ../news.php:31
+#: ../news.php:135
 msgid ""
 "Monitor the streams again whilst backing up on Mac - this no longer crashes "
 "in wx2.8. Per Dave Livesay."
@@ -1401,10 +1610,18 @@ msgid ""
 "Windows includes a bundled copy of pgAdmin."
 msgstr "注意Windows版PostgreSQL的<a href=\"%s\">安装包</a>中已经包含pgAdmin。"
 
-#: ../download/adminpacks.php:24
+#: ../download/adminpacks.php:18
 msgid ""
 "Note: PostgreSQL 8.2 and above include the adminpack as a Contrib module."
 msgstr "注意：PostgreSQL 8.2以及更新版本已经将管理工具包作为一个分发组件。"
+
+#: ../news.php:38
+msgid ""
+"Numerous changes to the database browser code to ensure changes to objects "
+"are properly reflected in the main window. In addition, the expanded/"
+"collapsed states of child nodes are retained wherever possible during "
+"refresh operations."
+msgstr ""
 
 #: ../features.php:60
 msgid ""
@@ -1427,7 +1644,7 @@ msgstr ""
 "</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装"
 "包放在：<i>/pgadmin3/release/debian</i>"
 
-#: ../news.php:88
+#: ../news.php:192
 msgid ""
 "Only enable the 'Include SQL' checkbox on the report dialog if there is SQL "
 "to include, Per Ezequias Rodrigues da Rocha"
@@ -1525,7 +1742,7 @@ msgstr ""
 "支持超过一打的语种，另外还有25种正在翻译中，在<a href=\"%s\">翻译状态</a>页面"
 "可以看到语种支持的更详细信息。"
 
-#: ../news.php:117
+#: ../news.php:221
 msgid "Overhaul of server config settings."
 msgstr "检查服务器配置"
 
@@ -1598,11 +1815,17 @@ msgid ""
 "configuration from the System/Administration Gnome menu."
 msgstr ""
 
+#: ../news.php:53
+msgid ""
+"Position the cursor at the error position when an error occurs in the Query "
+"Tool. Ensure the line is visible."
+msgstr ""
+
 #: ../features.php:24
 msgid "PostgreSQL 7.3 and above"
 msgstr "PostgreSQL 7.3以及更高版本"
 
-#: ../news.php:110
+#: ../news.php:214
 msgid "PostgreSQL 8.2 support:"
 msgstr "PostgreSQL 8.2支持："
 
@@ -1623,17 +1846,22 @@ msgstr "PostgreSQL服务器"
 msgid "Powerful query tool with colour syntax highlighting"
 msgstr "支持语法彩色高亮显示的强大查询工具"
 
-#: ../news.php:139
+#: ../news.php:243
 msgid ""
 "Pre-encrypt passwords before sending them down the wire, or displaying them "
 "in SQL statements."
 msgstr "在SQL语句中显示和修改前将密码重新加密。"
 
-#: ../news.php:95
+#: ../news.php:56
+#, fuzzy
+msgid "Preserve column widths between queries in the query tool."
+msgstr "在查询工具中区别空字符串和NULL的不同。"
+
+#: ../news.php:199
 msgid "Prevent a crash from the query tool when using File -> Exit on GTK"
 msgstr "修正一个在GTK中使用查询工具的 文件->退出 导致崩溃的bug。"
 
-#: ../news.php:82
+#: ../news.php:186
 msgid ""
 "Prevent a crash if the 'View Filtered Data' filter dialog is cancelled. Per "
 "Erwin Brandstetter."
@@ -1641,26 +1869,26 @@ msgstr ""
 "防止当“查看过滤后的数据”对话框被取消以后引起的程序崩溃，Erwin Brandstetter修"
 "改。"
 
-#: ../news.php:126
+#: ../news.php:230
 msgid ""
 "Prevent deletion of the blank item in config editors, and ensure undo will "
 "only work on the appropriate line."
 msgstr "在配置编辑器中防止删除空项目，保证undo操作只作用在合适的行上。"
 
-#: ../news.php:27
+#: ../news.php:131
 msgid ""
 "Prevent the Edit Grid Filter causing a crash if an invalid filter containing "
 "a % is used, per Erwin."
 msgstr ""
 "防止当使用一个包含%的无效过滤条件时由编辑网格过滤器引发的崩溃，Erwin修改。"
 
-#: ../news.php:22
+#: ../news.php:126
 msgid ""
 "Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL 8.2"
 "+, per Erwin."
 msgstr "防止RULE权限在PostgreSQL 8.2+下重新变得可用，Erwin修正。"
 
-#: ../news.php:55
+#: ../news.php:159
 msgid ""
 "Prevent the filter/sort options dialogue being opened when data is being "
 "refreshed, per Erwin Brandstetter."
@@ -1670,7 +1898,7 @@ msgstr "防止当数据正在被传送时打开过滤排序对话框，Erwin Bra
 msgid "Privacy policy"
 msgstr "隐私保护"
 
-#: ../news.php:113
+#: ../news.php:217
 msgid "Privilege changes (database CONNECT, and sequence USAGE)."
 msgstr "权限变更（数据库的CONNECT和序列号的USAG）"
 
@@ -1698,16 +1926,22 @@ msgstr ""
 "Slony-I，与此同时EnterpriseDB提供了一台苹果笔记本电脑以便对OSX部分进行维护和"
 "开发。"
 
-#: ../news.php:65
+#: ../news.php:85
+msgid ""
+"Prompt the user to save changes before opening a file from the recent files "
+"menu on the Query Tool."
+msgstr ""
+
+#: ../news.php:169
 msgid ""
 "Properly drop foreign keys in schemas whose names require quoting, per M S."
 msgstr "正确地在schemas中拖动需要引用名字的外键，M S修改。"
 
-#: ../news.php:91
+#: ../news.php:195
 msgid "Properly quote function parameter names, per Ken Priest."
 msgstr "正确引用函数的参数名，Ken Priest修改。"
 
-#: ../news.php:61
+#: ../news.php:165
 msgid "Properly size the backup dialog, per Patrick Headley."
 msgstr "备份对话框使用更加合适的尺寸，Patrick Headley修改。"
 
@@ -1726,11 +1960,27 @@ msgid ""
 "with grid style UI [DP]"
 msgstr ""
 
-#: ../news.php:67
+#: ../news.php:102
+msgid "Refactor code to remove database base classes."
+msgstr ""
+
+#: ../news.php:101
+msgid ""
+"Refactor code to remove support for building the Query Tool with a listview "
+"rather than a grid."
+msgstr ""
+
+#: ../news.php:96
+msgid ""
+"Refactor the Query Tool's execQuery function to prevent pgAdmin freezing "
+"while two long running queries are executing simultaneously."
+msgstr ""
+
+#: ../news.php:171
 msgid "Refresh database objects correctly, per Guy Rouillier."
 msgstr "正确刷新数据库对象，Guy Rouillier修改。"
 
-#: ../news.php:133
+#: ../news.php:237
 msgid "Reject invalid command line options in pgAgent."
 msgstr "pgAgent中拒绝无效的命令行参数。"
 
@@ -1739,25 +1989,62 @@ msgstr "pgAgent中拒绝无效的命令行参数。"
 msgid "Release %s"
 msgstr "%s版本"
 
-#: ../news.php:21
+#: ../news.php:72
+msgid "Remember last used backup/restore filenames."
+msgstr ""
+
+#: ../news.php:71
+msgid "Remember last used save definition filename."
+msgstr ""
+
+#: ../news.php:125
 msgid "Remember the server's SSL mode property correctly."
 msgstr "正确保存服务器的SSL模式属性。"
 
-#: ../news.php:59
+#: ../news.php:100
+msgid "Remove a lot debugging code of little or no use."
+msgstr ""
+
+#: ../news.php:43
+msgid ""
+"Remove bundled copies of PostgreSQL/Slony docs to make it easier to localise "
+"the rest. Instead allow the use of local or online copies of the PostgreSQL, "
+"EnterpriseDB or Slony docs, each independently of the other."
+msgstr ""
+
+#: ../news.php:103
+msgid ""
+"Remove code specific to versions of wxWidgets that we no longer support."
+msgstr ""
+
+#: ../news.php:104
+#, fuzzy
+msgid "Remove obsolete support for non-Unicode builds."
+msgstr "删除支持非Unicode编译的宏和代码。"
+
+#: ../news.php:62
+msgid ""
+"Replace the Mac installer with code to create a distribution disk image."
+msgstr ""
+
+#: ../news.php:163
 msgid "Restore dialog sizes correctly."
 msgstr "正确的恢复对话框尺寸"
 
-#: ../news.php:149
+#: ../news.php:42
+msgid "Retain column widths when refreshing the edit grid."
+msgstr ""
+
+#: ../news.php:69
+#, fuzzy
+msgid "Retain the clipboard contents on app exit."
+msgstr "关闭程序时保留剪贴板的内容。"
+
+#: ../news.php:253
 msgid "Retain values in the edit grid following a failed insert or update."
 msgstr "插入和更新数据发生错误时保留在数据网格中的值。"
 
-#: ../news.php:180
-msgid ""
-"Return the script return value when executing shell scripts from pgAgent, "
-"per Eric Shuman"
-msgstr "从pgAgent中执行shell脚本时返回脚本的返回值，Eric Shuman修改。"
-
-#: ../news.php:63
+#: ../news.php:167
 msgid ""
 "Reverse engineer columns with multi-word names (like 'timestamp with "
 "timezone') correctly so that precision and array modifiers are included "
@@ -1770,7 +2057,7 @@ msgstr ""
 msgid "Review your translation carefully:"
 msgstr "仔细检查你的翻译"
 
-#: ../news.php:84
+#: ../news.php:188
 msgid ""
 "Rework the Find/Replace code to fix a couple of minor bugs and improve "
 "readability."
@@ -1857,7 +2144,7 @@ msgstr "服务器状态/进程查看器"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "服务器端语言（例如：pl/pgsql、pl/perl、pl/python等等）"
 
-#: ../news.php:115
+#: ../news.php:219
 msgid "Shared database comments."
 msgstr "共享的数据库注释。"
 
@@ -1917,6 +2204,10 @@ msgstr ""
 "is logged in</i>可以被翻译为<i>L'utilisateur s%2$s est connect&eacute; au "
 "serveur %1$s</i>"
 
+#: ../news.php:82
+msgid "Sort server list alphabetically."
+msgstr ""
+
 #: ../download/menu.php:17 ../download/source.php:8
 msgid "Source code"
 msgstr "源代码"
@@ -1936,6 +2227,12 @@ msgid ""
 "Source tarballs are available for users wishing to compile their own copy of "
 "pgAdmin, or those using platforms for which we do not supply prebuilt "
 "packages."
+msgstr ""
+
+#: ../news.php:37
+msgid ""
+"Speed up loading of functions and procedures by rewriting some horribly "
+"inefficient code."
 msgstr ""
 
 #: ../privacypolicy.php:10
@@ -1997,7 +2294,7 @@ msgstr "技术支持"
 msgid "Support for integrated tsearch configuration in PG 8.3+"
 msgstr ""
 
-#: ../news.php:120
+#: ../news.php:224
 msgid "Support for language templates."
 msgstr "支持语言模板。"
 
@@ -2191,18 +2488,21 @@ msgstr ""
 "发组</a>的结构、<a href=\"%s\">工作计划列表</a>以及<a href=\"%s\">更新日志</"
 "a>。"
 
-#: ../news.php:172
+#: ../news.php:12
+#, fuzzy
 msgid ""
-"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
-"1.4.3, the Open Source graphical PostgreSQL administration tool for Windows, "
-"Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
-"and a variety of binary formats from:"
+"The pgAdmin Development Team are pleased to announce the release of \n"
+"pgAdmin 1.8.0, the Open Source graphical PostgreSQL administration tool "
+"for \n"
+"Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download "
+"in \n"
+"source and a variety of binary formats from:"
 msgstr ""
 "pgAdmin开发组高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的"
 "PostgreSQL的图形化管理工具，pgAdmin 1.4.3版本正式发布，可以从这里下载源代码和"
 "各种二进制格式："
 
-#: ../news.php:76
+#: ../news.php:180
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.6.1, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -2213,7 +2513,7 @@ msgstr ""
 "PostgreSQL的图形化管理工具，pgAdmin 1.6.1版本正式发布，可以从这里下载源代码和"
 "各种二进制格式："
 
-#: ../news.php:49
+#: ../news.php:153
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.6.2, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -2224,7 +2524,7 @@ msgstr ""
 "PostgreSQL的图形化管理工具，pgAdmin 1.6.2版本正式发布，可以从这里下载源代码和"
 "各种二进制格式："
 
-#: ../news.php:12
+#: ../news.php:116
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.6.3, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -2405,12 +2705,14 @@ msgstr ""
 "行！为了达到100%的翻译状态，只要把这些字符串使用poEdit的Alt+C命令拷贝即可，例"
 "如<i>ACL</i>翻译为<i>ACL</i>、<i>AFTER</i>翻译为<i>AFTER</i>诸如此类。"
 
-#: ../download/macosx.php:26
+#: ../download/macosx.php:20
 #, fuzzy
 msgid ""
-"These packages are Mac OSX appbundles. To install the 1.6 series, unpack the "
-"archive, and run the installer package. For earlier versions, unpack the "
-"archive, and move the appbundle into the desired location."
+"These packages are Mac OSX appbundles. To install the 1.8 series, mount the "
+"disk image using the finder, and drag the pgAdmin appbundle to the desired "
+"location. To install the 1.6 series, unpack the archive, and run the "
+"installer package. For earlier versions, unpack the archive, and move the "
+"appbundle into the desired location."
 msgstr ""
 "这些都是Mac OSX appbundles，想安装它，仅仅需要解包然后拷贝到期望的位置即可。"
 
@@ -2477,11 +2779,12 @@ msgstr ""
 "由命令行获取源程序然后开始，例如在Linux或者Unix系统可以使用下边的命令。更多的"
 "细节请查看<a href=\"%s\">源代码</a>build指令。"
 
-#: ../download/windows.php:29
+#: ../download/windows.php:23
+#, fuzzy
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
-"Minor upgrades (e.g. from 1.4.0 to 1.4.1) can be performaed using the "
+"Minor upgrades (e.g. from 1.4.0 to 1.4.1) can be performed using the "
 "<i>upgrade.bat</i> script. Differing major releases, e.g. 1.2.2 and 1.4.1, "
 "can be installed on the same machine at the same time."
 msgstr ""
@@ -2489,17 +2792,17 @@ msgstr ""
 "装。小版本号的升级（例如，从1.4.0到1.4.1），可以运行<i>upgrade.bat</i>脚本。"
 "大版本号的发布，例如1.2.2和1.4.1，可以在同一台计算机上同时安装。"
 
-#: ../download/freebsd.php:22 ../download/rpm.php:24
+#: ../download/freebsd.php:18 ../download/rpm.php:19
 msgid "To install these packages, use a command such as:"
 msgstr "运行如下命令安装这个包："
 
-#: ../download/opensuse.php:18
+#: ../download/opensuse.php:17
 msgid ""
 "To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
 "i> utilities."
 msgstr "使用OpenSUSE的<i>pkgtool</i>或者<i>installpkg</i>工具安装这些包。"
 
-#: ../download/slackware.php:25
+#: ../download/slackware.php:20
 msgid ""
 "To install these packages, use the Slackware <i>pkgtool</i> or "
 "<i>installpkg</i> utilities."
@@ -2544,11 +2847,25 @@ msgstr "翻译完毕"
 msgid "Translation"
 msgstr "翻译"
 
+#: ../news.php:30
+msgid ""
+"Treat all functions & procedures as 'Functions' in PostgreSQL, and class "
+"only EnterpriseDB edbspl functions returning void as 'Procedures'."
+msgstr ""
+
+#: ../news.php:26
+msgid ""
+"Treat view columns as first class citizens. Show them on the treeview, and "
+"allow their properties page to be viewed. Allow editting of the default "
+"value and comment, and reflect this in the reverse engineered SQL for the "
+"view."
+msgstr ""
+
 #: ../features.php:83
 msgid "Trigger functions"
 msgstr "触发器函数"
 
-#: ../news.php:40
+#: ../news.php:144
 msgid "Truncate comments containing \\r\\n correctly, per Erwin."
 msgstr "正确截断含有 \\r\\n 的注释，Erwin修改。"
 
@@ -2602,39 +2919,49 @@ msgstr "150字以内"
 msgid "Under 80 characters"
 msgstr "30字以内"
 
-#: ../news.php:37
+#: ../news.php:141
 msgid "Update to support the changed syntax of pg_dump 8.2+."
 msgstr "支持pg_dump 8.2+的语法改变。"
 
-#: ../news.php:114
+#: ../news.php:218
 msgid "Use E'' style escape string syntax when required."
 msgstr "必要的时候使用E风格逃逸符字符串。"
 
-#: ../news.php:157
+#: ../news.php:57
+msgid ""
+"Use EnterpriseDB's utilities for dump and restore EDB databases to ensure "
+"non-PG extensions can be handled."
+msgstr ""
+
+#: ../news.php:54
+msgid "Use Oracle style syntax for edbspl triggers."
+msgstr ""
+
+#: ../news.php:261
 msgid ""
 "Use SQL standard type names where appropriate. Show them as 'aliases' in the "
 "browser."
 msgstr "在适当的位置使用SQL标准类型名，浏览时用别名显示它们。"
 
-#: ../news.php:181
+#: ../news.php:60
 msgid ""
-"Use a slider instead of a spin control to avoid a wxGTK bug on the status "
-"form, per Peter Eisentraut."
+"Use pg_statindex (if available) to optionally display additional index "
+"statistics on a per-table basis. Also works for index-constraints."
 msgstr ""
-"在状态模块中使用slider控件而不是spin，以避免一个wxGTK的bug，Peter Eisentraut"
-"修改。"
 
-#: ../news.php:185
-msgid "Use the correct encoding in the View Data filter options per Ferenc."
-msgstr "在查看数据的过滤器选项中使用正确的字符编码，Ferenc修改。"
+#: ../news.php:67
+msgid ""
+"Use pg_stattuple (if available) to optionally display additional table "
+"statistics on a per-table basis."
+msgstr ""
 
-#: ../news.php:26
+#: ../news.php:130
 msgid ""
 "Use the correct version of the Slony scripts when creating a new cluster, "
 "per Duncan Beeby."
 msgstr "创建一个新的聚簇时使用当前版本的Slony脚本，Duncan Beeby修改。"
 
-#: ../news.php:137
+#: ../news.php:241
 msgid "Use virtual data table for Query Tool, to eliminate retrieval time."
 msgstr "在查询工具中使用真实数据表，消除再次查询的耗时。"
 
@@ -2673,6 +3000,13 @@ msgstr "WIN1256"
 #: ../features.php:104
 msgid "WIN874"
 msgstr "WIN874"
+
+#: ../news.php:79
+msgid ""
+"Warn the user and allow her to abort before re-running a backup or restore "
+"to or from the same file, in the same session (can occur if the first "
+"attempt returns an error or warning)."
+msgstr ""
 
 #: ../download/debian.php:16 ../download/debian.php:20
 msgid "We don't support this Debian version anymore."
@@ -2740,7 +3074,7 @@ msgstr ""
 "内容、定制网页版面、出于技术和支持目的进行联系，除非法律要求，我们不会与其他"
 "人分享你的邮件地址。"
 
-#: ../news.php:87
+#: ../news.php:191
 msgid ""
 "When checking the position & size of windows, use the dimensions of the "
 "current display, not the primary."
@@ -2834,14 +3168,14 @@ msgstr "pgAdmin %s在线文档"
 
 #: ../index.php:12
 msgid ""
-"pgAdmin 1.8.0 has reached the Release Candidate phase of the release cycle. "
-"Please visit <a href=\"/download/\">the download page</a> to get a copy and "
-"help with the last minute testing! Any bug reports should be sent to <a href="
-"\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</a>."
+"pgAdmin 1.8.0 has now been released! Please see the <a href=\"news.php"
+"\">news page</a> for further details, and <a href=\"/download/\">the "
+"download page</a> to get your copy. Any questions or other support issues "
+"should be sent to <a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-"
+"support@postgresql.org</a>."
 msgstr ""
 
-#: ../news.php:44 ../news.php:71 ../news.php:99 ../news.php:166
-#: ../news.php:192
+#: ../news.php:148 ../news.php:175 ../news.php:203 ../news.php:270
 msgid "pgAdmin Development Team"
 msgstr "pgAdmin开发组"
 
@@ -2995,15 +3329,16 @@ msgstr ""
 "的testing改为unstable。"
 
 #: ../index.php:16
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "pgAdmin III is the most popular and feature rich Open Source administration "
 "and development platform for <a href=\"%s\">PostgreSQL</a>, the most "
 "advanced Open Source database in the world. The application may be used on "
 "Linux, FreeBSD, OpenSUSE, Solaris, Mac OSX and Windows platforms to manage "
-"PostgreSQL 7.3 and above running on any platform, as well as commercial "
-"versions of PostgreSQL such as <a href=\"%s\">EnterpriseDB</a> and <a href="
-"\"%s\">Mammoth PostgreSQL</a>."
+"PostgreSQL 7.3 and above running on any platform, as well as commercial and "
+"derived versions of PostgreSQL such as <a href=\"%s\">EnterpriseDB</a>, <a "
+"href=\"%s\">Mammoth PostgreSQL</a>, <a href=\"%s\">Bizgres</a> and <a href="
+"\"%s\">Greenplum database</a>."
 msgstr ""
 "pgAdmin III是一个针对<a href=\"%s\">PostgreSQL</a>（世界上非常先进的开放源码"
 "数据库）的非常流行并且具有丰富特性的开放源码管理和开发工具，可以被用在Linux、"
@@ -3337,27 +3672,86 @@ msgstr ""
 "我们推荐使用poEdit，它可以让翻译工作更加简便。poEdit网站可以找到Windows的安装"
 "包，另外也可以使用大多数Linux中可以找到的<a href=\"%s\">Kbabel</a>。"
 
-#: ../news.php:176
-msgid "v1.4.3 is primarily a bug fix release, including the following changes:"
-msgstr "1.4.3版本主要用来进行bug修正，包括如下更新："
-
-#: ../news.php:108
+#: ../news.php:212
 msgid ""
 "v1.6.0 represents over a year of development and testing to bring you a host "
 "of new features and improvements including:"
 msgstr "1.6.0版经历超过一年的开发和测试，包含许多新特性和改进，包括："
 
-#: ../news.php:80
+#: ../news.php:184
 msgid "v1.6.1 is primarily a bug fix release, including the following changes:"
 msgstr "1.6.1版本主要用来进行bug修正，包括如下更新："
 
-#: ../news.php:53
+#: ../news.php:157
 msgid "v1.6.2 is primarily a bug fix release, including the following changes:"
 msgstr "1.6.2版本主要用来进行bug修正，包括如下更新："
 
-#: ../news.php:17
+#: ../news.php:121
 msgid "v1.6.3 is primarily a bug fix release, including the following changes:"
 msgstr "1.6.3版本主要用来进行bug修正，包括如下更新："
+
+#: ../news.php:19
+#, fuzzy
+msgid ""
+"v1.8.0 represents nearly a year of development and testing to bring you \n"
+"a host of new features and improvements including:"
+msgstr "1.6.0版经历超过一年的开发和测试，包含许多新特性和改进，包括："
+
+#~ msgid ""
+#~ "Add an accelerator key (Delete) for deleting rows in the edit grid, per "
+#~ "Emil Nowak."
+#~ msgstr "在数据编辑网格中为删除多行功能增加一个加速器，Emil Nowak修改。"
+
+#~ msgid ""
+#~ "Allow non-superuser roles with the appropriate permissions to create "
+#~ "roles and DBs."
+#~ msgstr "允许具有相应权限的非超级用户创建角色和数据库。"
+
+#~ msgid "Allow non-superusers to edit roles where appropriate [Thomas Sondag]"
+#~ msgstr "允许非超级用户在适当的地方编辑角色。[Thomas Sondag]"
+
+#~ msgid ""
+#~ "Detect and correctly use GNU vs. BSD xargs when completing an appbundle "
+#~ "install, per John DeSoi."
+#~ msgstr "完成appbundle安装后，检查校正使用GNU还是BSD。"
+
+#~ msgid "Display interval precision properly, per Walter Haslbeck"
+#~ msgstr "正确地显示间隔精度，Walter Haslbeck修改。"
+
+#~ msgid ""
+#~ "Display job steps and schedules properly in the Job dialogue, per Eric "
+#~ "Shuman."
+#~ msgstr "在工作计划对话框中正常显示工作步骤和进度。"
+
+#~ msgid "Ensure the user is warned if files cannot be written."
+#~ msgstr "文件不可写时让用户收到一个警告。"
+
+#~ msgid "Fix a bug in the pgpass save code that could damage files."
+#~ msgstr "修正一个在pgpass中保存代码可能破坏文件的bug。"
+
+#~ msgid ""
+#~ "Install PkgInfo into the Contents directory in the OSX appbundle, per "
+#~ "John DeSoi."
+#~ msgstr "在OSX包中将PkgInfo安装到Contents目录，John DeSoi修改。"
+
+#~ msgid ""
+#~ "Return the script return value when executing shell scripts from pgAgent, "
+#~ "per Eric Shuman"
+#~ msgstr "从pgAgent中执行shell脚本时返回脚本的返回值，Eric Shuman修改。"
+
+#~ msgid ""
+#~ "Use a slider instead of a spin control to avoid a wxGTK bug on the status "
+#~ "form, per Peter Eisentraut."
+#~ msgstr ""
+#~ "在状态模块中使用slider控件而不是spin，以避免一个wxGTK的bug，Peter "
+#~ "Eisentraut修改。"
+
+#~ msgid "Use the correct encoding in the View Data filter options per Ferenc."
+#~ msgstr "在查看数据的过滤器选项中使用正确的字符编码，Ferenc修改。"
+
+#~ msgid ""
+#~ "v1.4.3 is primarily a bug fix release, including the following changes:"
+#~ msgstr "1.4.3版本主要用来进行bug修正，包括如下更新："
 
 #~ msgid "<a href=\"%s\">PostgreSQL 8.0</a> or above."
 #~ msgstr "<a href=\"%s\">PostgreSQL 8.0</a> 或者更高版本。"
@@ -3589,20 +3983,11 @@ msgstr "1.6.3版本主要用来进行bug修正，包括如下更新："
 #~ msgid "Add ALTER TABLE ENABLE/DISABLE TRIGGER support. [GL]"
 #~ msgstr "增加对ALTER TABLE ENABLE/DISABLE TRIGGER命令的支持。[GL]"
 
-#~ msgid "Add a 'Run now' context menu option for Jobs."
-#~ msgstr "为Jobs增加一个\"马上运行\"的功能菜单。"
-
 #~ msgid "Add index information from 8.2 pgstattuple. [GL]"
 #~ msgstr "增加8.2版pgstattuple的索引信息。[GL]"
 
-#~ msgid "Add line-ending conversion options to the query tool."
-#~ msgstr "在查询工具增加行结束转换选项。"
-
 #~ msgid "Add pgstattuple support. [GL]"
 #~ msgstr "增加对pgstattuple的支持。[GL]"
-
-#~ msgid "Add support for function row and cost estimations."
-#~ msgstr "增加函数行和成本评估。"
 
 #~ msgid "Allow backup of roles, or the entire database cluster."
 #~ msgstr "允许备份角色和整个数据库聚簇。"
@@ -3626,9 +4011,6 @@ msgstr "1.6.3版本主要用来进行bug修正，包括如下更新："
 #~ msgstr ""
 #~ "考虑把一些比较大的类放到它们自己的文件中，比如：frmEditGrid中取出"
 #~ "sqlTable、pgSetBase中取出pgQueryThread。"
-
-#~ msgid "Differentiate between empty strings and NULLs in the query tool."
-#~ msgstr "在查询工具中区别空字符串和NULL的不同。"
 
 #~ msgid ""
 #~ "Don't install .xrc files with non-debug builds from the *nix build system."
@@ -3672,9 +4054,6 @@ msgstr "1.6.3版本主要用来进行bug修正，包括如下更新："
 #~ "重新构建去掉没有实际用途的基类，比如pgSet/pgQueryThread，在它们之间仅有一"
 #~ "些成员。"
 
-#~ msgid "Remove macros and code to support non-Unicode builds."
-#~ msgstr "删除支持非Unicode编译的宏和代码。"
-
 #~ msgid "Remove macros and code to support wxWidgets 2.6 and older."
 #~ msgstr "删除支持wxWidgets 2.6以及更旧版本的宏和代码。"
 
@@ -3684,9 +4063,6 @@ msgstr "1.6.3版本主要用来进行bug修正，包括如下更新："
 #~ msgid ""
 #~ "Retain column sizes in the Query Tool results grid when a query is re-run."
 #~ msgstr "当重新运行查询时，保持结果表格列的尺寸不变。"
-
-#~ msgid "Retain the clipboard contents when closing the application."
-#~ msgstr "关闭程序时保留剪贴板的内容。"
 
 #~ msgid "XCode project files for building on Mac."
 #~ msgstr "XCode工程文件针对MAC下的制作。"

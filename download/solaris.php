@@ -11,6 +11,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("Packages built for Solaris on Sparc and Intel are available, courtesy of Sun Microsystems.") . '</p>
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.8.0/solaris/", "1.8.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.6.3/solaris/", "1.6.3") . '<br />&nbsp;</li>
 </ul>
 ';

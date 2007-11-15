@@ -24,6 +24,7 @@ $PAGE_CONTENT = '
   <li>' . _("PostgreSQL 7.3 and above") . '</li>
   <li>' . _("EnterpriseDB") . '</li>
   <li>' . _("Mammoth PostgreSQL") . '</li>
+  <li>' . _("Greenplum Database") . '</li>
 </ul>
 
 <h2>' . _("Extensive documentation") . '</h2>

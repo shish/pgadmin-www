@@ -7,232 +7,368 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-05 08:58+0000\n"
+"POT-Creation-Date: 2007-12-03 11:28+0100\n"
 "PO-Revision-Date: 2007-11-27 20:44+0900\n"
 "Last-Translator: \n"
-"Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql.org>\n"
+"Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
+"org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: CHINA\n"
 
-#: ../index.php:10
-#: ../news.php:10
-#: ../news.php:47
-#: ../news.php:74
-#: ../news.php:102
-#: ../news.php:170
+#: ../index.php:10 ../news.php:10 ../news.php:114 ../news.php:151
+#: ../news.php:178 ../news.php:206
 #, php-format
 msgid "%s - pgAdmin III v%s released"
 msgstr "%s - pgAdmin III %s版本发布"
 
-#: ../download/adminpacks.php:12
 #: ../download/adminpacks.php:13
-#: ../download/adminpacks.php:14
-#: ../download/adminpacks.php:15
-#: ../download/adminpacks.php:16
-#: ../download/adminpacks.php:17
-#: ../download/adminpacks.php:18
-#: ../download/adminpacks.php:19
 #, php-format
 msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s"
 msgstr "<a href=\"%s\">Admin pack</a> 用于pgAdmin %s版本"
 
-#: ../download/freebsd.php:14
-#: ../download/freebsd.php:15
-#: ../download/freebsd.php:16
-#: ../download/freebsd.php:17
-#: ../download/freebsd.php:18
-#: ../download/freebsd.php:19
-#: ../download/macosx.php:14
-#: ../download/macosx.php:15
-#: ../download/macosx.php:16
-#: ../download/macosx.php:17
-#: ../download/macosx.php:18
-#: ../download/macosx.php:19
-#: ../download/macosx.php:20
-#: ../download/macosx.php:21
-#: ../download/macosx.php:22
-#: ../download/macosx.php:23
-#: ../download/opensuse.php:14
-#: ../download/opensuse.php:15
-#: ../download/rpm.php:14
-#: ../download/rpm.php:15
-#: ../download/rpm.php:16
-#: ../download/rpm.php:17
-#: ../download/rpm.php:18
-#: ../download/rpm.php:19
-#: ../download/rpm.php:20
-#: ../download/rpm.php:21
-#: ../download/slackware.php:14
-#: ../download/slackware.php:15
-#: ../download/slackware.php:16
-#: ../download/slackware.php:17
-#: ../download/slackware.php:18
-#: ../download/slackware.php:19
-#: ../download/slackware.php:20
-#: ../download/slackware.php:21
-#: ../download/slackware.php:22
-#: ../download/solaris.php:14
-#: ../download/source.php:15
-#: ../download/source.php:16
-#: ../download/source.php:17
-#: ../download/source.php:18
-#: ../download/source.php:19
-#: ../download/windows.php:17
-#: ../download/windows.php:18
-#: ../download/windows.php:19
-#: ../download/windows.php:20
-#: ../download/windows.php:21
-#: ../download/windows.php:22
-#: ../download/windows.php:23
-#: ../download/windows.php:24
-#: ../download/windows.php:25
-#: ../download/windows.php:26
+#: ../download/adminpacks.php:12
+#, fuzzy, php-format
+msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s and above"
+msgstr "<a href=\"%s\">Admin pack</a> 用于pgAdmin %s版本"
+
+#: ../download/freebsd.php:14 ../download/freebsd.php:15
+#: ../download/freebsd.php:16 ../download/macosx.php:14
+#: ../download/macosx.php:15 ../download/macosx.php:16
+#: ../download/macosx.php:17 ../download/opensuse.php:14
+#: ../download/opensuse.php:15 ../download/rpm.php:14 ../download/rpm.php:15
+#: ../download/rpm.php:16 ../download/slackware.php:14
+#: ../download/slackware.php:15 ../download/slackware.php:16
+#: ../download/slackware.php:17 ../download/solaris.php:14
+#: ../download/solaris.php:15 ../download/source.php:15
+#: ../download/source.php:16 ../download/source.php:17
+#: ../download/source.php:18 ../download/source.php:19
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
 
-#: ../download/source.php:25
-#: ../download/source.php:26
+#: ../download/source.php:25 ../download/source.php:26
+#: ../download/source.php:27
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">v%s build指导</a>"
 
 #: ../advocacy/information.php:17
-msgid "<b>Description of pgAdmin:</b> Any technical description is suitable, though for consistency or, if you are not sure what to write, you may wish to use one of the following, translated into your language if required:"
-msgstr "<b>pgAdmin描述：</b> 任何适当的技术性描述，如果不能确定写什么，请从下边的列表选择一个翻译成你的母语："
+msgid ""
+"<b>Description of pgAdmin:</b> Any technical description is suitable, though "
+"for consistency or, if you are not sure what to write, you may wish to use "
+"one of the following, translated into your language if required:"
+msgstr ""
+"<b>pgAdmin描述：</b> 任何适当的技术性描述，如果不能确定写什么，请从下边的列表"
+"选择一个翻译成你的母语："
 
 #: ../advocacy/information.php:15
 #, php-format
-msgid "<b>Download links:</b> Whenever possible, publish links pointing to the pgAdmin <a href=\"%s\">Download</a> page. <!-- Remember to include language information if required - for example <a href=\"%s\">%s</a>. --><br /><br />Some sites (especially Windows shareware/freeware sites) may require direct links to files. Be very careful before submitting direct links, because you may have to upgrade them when pgAdmin new versions are released. When direct links are required, choose several PostgreSQL mirrors from the download page. Some sites may ask for up to 5 links."
-msgstr "<b>下载连接：</b>在任何可能的机会，发布指向pgAdmin<a href=\"%s\">下载</a>画面的连接。<!-- 请记住包含语言信息，如果需要的话，比如：<a href=\"%s\">%s</a>。 --><br /><br />一些网站（尤其是Windows的共享/自由软件网站）可能需要直接指向文件的连接，在提交一个直接连接时要特别注意，当pgAdmin发布新版本时你必须去更新这个连接。如果需要使用直接连接，从下载页面多选择几个PostgreSQL镜像，某些网站允许多个连接。"
+msgid ""
+"<b>Download links:</b> Whenever possible, publish links pointing to the "
+"pgAdmin <a href=\"%s\">Download</a> page. <!-- Remember to include language "
+"information if required - for example <a href=\"%s\">%s</a>. --><br /><br /"
+">Some sites (especially Windows shareware/freeware sites) may require direct "
+"links to files. Be very careful before submitting direct links, because you "
+"may have to upgrade them when pgAdmin new versions are released. When direct "
+"links are required, choose several PostgreSQL mirrors from the download "
+"page. Some sites may ask for up to 5 links."
+msgstr ""
+"<b>下载连接：</b>在任何可能的机会，发布指向pgAdmin<a href=\"%s\">下载</a>画面"
+"的连接。<!-- 请记住包含语言信息，如果需要的话，比如：<a href=\"%s\">%s</a>。 "
+"--><br /><br />一些网站（尤其是Windows的共享/自由软件网站）可能需要直接指向文"
+"件的连接，在提交一个直接连接时要特别注意，当pgAdmin发布新版本时你必须去更新这"
+"个连接。如果需要使用直接连接，从下载页面多选择几个PostgreSQL镜像，某些网站允"
+"许多个连接。"
 
 #: ../advocacy/information.php:34
-msgid "<b>Keywords:</b> When visiting a web site, users may not find pgAdmin directly, but query keywords like \"PostgreSQL database\" or \"free administration tools\", etc. During registration, you may be asked to enter keywords. These should reflect any aspect of what pgAdmin does, and what it works with. <b>Under no circumstances should you include competitors company or product names in keywords</b>. Our proposal for a keyword list is:"
-msgstr "<b>关键字：</b>当访问一个网站时，用户可能不能直接找到pgAdmin，而需要去查询关键字诸如\"PostgreSQL数据库\"或者\"免费管理工具\"等等。注册的时候，可能要求你输入关键字，它应该能够反映pgAdmin的所有特征。<b>决不能在关键字中包含竞争对手的公司和产品名称。</b>我们提倡的关键字列表是："
+msgid ""
+"<b>Keywords:</b> When visiting a web site, users may not find pgAdmin "
+"directly, but query keywords like \"PostgreSQL database\" or \"free "
+"administration tools\", etc. During registration, you may be asked to enter "
+"keywords. These should reflect any aspect of what pgAdmin does, and what it "
+"works with. <b>Under no circumstances should you include competitors company "
+"or product names in keywords</b>. Our proposal for a keyword list is:"
+msgstr ""
+"<b>关键字：</b>当访问一个网站时，用户可能不能直接找到pgAdmin，而需要去查询关"
+"键字诸如\"PostgreSQL数据库\"或者\"免费管理工具\"等等。注册的时候，可能要求你"
+"输入关键字，它应该能够反映pgAdmin的所有特征。<b>决不能在关键字中包含竞争对手"
+"的公司和产品名称。</b>我们提倡的关键字列表是："
 
 #: ../download/snapshots.php:12
-msgid "<b>WARNING:</b> Development snapshots have had little or no testing, and in some cases may not even run. It is only recommended that you use a snapshot if you are sure you know what you are doing, or are testing a specific bug fix or new feature on the direction of one of the developers. Please report any bugs or issue you may have with the development snapshots, but do remember that they are 'works in progress'."
-msgstr "<b>警告：</b>每日的开发快照仅仅经过很少或者根本没有测试，有时候甚至是不能运行的，所以建议：在能确定自己要做什么或者为了测试特定bug修正和新特性的时候才使用它。请向我们报告在开发快照中发现的bug和问题，请记住它们一直在进展中。"
+msgid ""
+"<b>WARNING:</b> Development snapshots have had little or no testing, and in "
+"some cases may not even run. It is only recommended that you use a snapshot "
+"if you are sure you know what you are doing, or are testing a specific bug "
+"fix or new feature on the direction of one of the developers. Please report "
+"any bugs or issue you may have with the development snapshots, but do "
+"remember that they are 'works in progress'."
+msgstr ""
+"<b>警告：</b>每日的开发快照仅仅经过很少或者根本没有测试，有时候甚至是不能运行"
+"的，所以建议：在能确定自己要做什么或者为了测试特定bug修正和新特性的时候才使用"
+"它。请向我们报告在开发快照中发现的bug和问题，请记住它们一直在进展中。"
 
 #: ../advocacy/information.php:13
 #, php-format
-msgid "<b>Website language:</b> The pgAdmin web site is not able to detect the language of your browser. To display a page in your language, just select it from the drop-down list in the header. For example, the URL of the French homepage is: <a href=\"%s\">%s</a>."
-msgstr "<b>网站语言：</b>pgAdmin网站不能检测浏览器的语种，可以从标题的下拉列表中选择你要使用的语言。例如：法语主页的URL是<a href=\"%s\">%s</a>。"
+msgid ""
+"<b>Website language:</b> The pgAdmin web site is not able to detect the "
+"language of your browser. To display a page in your language, just select it "
+"from the drop-down list in the header. For example, the URL of the French "
+"homepage is: <a href=\"%s\">%s</a>."
+msgstr ""
+"<b>网站语言：</b>pgAdmin网站不能检测浏览器的语种，可以从标题的下拉列表中选择"
+"你要使用的语言。例如：法语主页的URL是<a href=\"%s\">%s</a>。"
 
 #: ../screenshots/data.php:10
-msgid "A data grid allows to insert, modify and drop data easily. The data is retrieved on-demand when it needs to be displayed. This allows the user to browse very large tables quickly and efficiently."
-msgstr "数据网格可以简单地进行插入、修改、删除等数据操作。数据当需要显示的时候才会检索出来，这样用户可以快速有效地浏览非常大的数据表。"
+msgid ""
+"A data grid allows to insert, modify and drop data easily. The data is "
+"retrieved on-demand when it needs to be displayed. This allows the user to "
+"browse very large tables quickly and efficiently."
+msgstr ""
+"数据网格可以简单地进行插入、修改、删除等数据操作。数据当需要显示的时候才会检"
+"索出来，这样用户可以快速有效地浏览非常大的数据表。"
 
 #: ../screenshots/mb_i18n.php:16
 #, php-format
-msgid "A detailed list of supported languages is available in the <a href=\"%s\">Translation</a> section of the website."
+msgid ""
+"A detailed list of supported languages is available in the <a href=\"%s"
+"\">Translation</a> section of the website."
 msgstr "目前有效支持的语言可以在网站的<a href=\"%s\">翻译</a>部分看到。"
 
 #: ../screenshots/ui.php:22
-msgid "A double-click in the navigation tree opens the selected object in a separate dialogue, or the user may opt to create a new object.  Notice the tabs giving access to Properties, Parameters, Security and the SQL used to create the object."
-msgstr "双击树状图中的选中对象或者选择新建对象打开单独的对话框，注意这里有多个标签用来创建对象，属性、参数、安全或者SQL等等等。"
+msgid ""
+"A double-click in the navigation tree opens the selected object in a "
+"separate dialogue, or the user may opt to create a new object.  Notice the "
+"tabs giving access to Properties, Parameters, Security and the SQL used to "
+"create the object."
+msgstr ""
+"双击树状图中的选中对象或者选择新建对象打开单独的对话框，注意这里有多个标签用"
+"来创建对象，属性、参数、安全或者SQL等等等。"
 
 #: ../screenshots/data.php:14
-msgid "A query tool with colour syntax highlighting allows users to run custom queries. The SQL definition of any object can be automatically transfered to the query tool from the object browser, or the user can author simple queries or complex scripts by hand. Long running queries can be cancelled if required by clicking on the red square button. The tool displays execution times of queries to help the user optimise them, and fully supports PostgreSQL's asynchronous notification system."
-msgstr "语法高亮显示的查询工具可以让用户运行自定义的查询，任何对象的SQL定义能够自动得从对象浏览器传送到查询工具，用户也可以手工得编写简单或者复杂的脚本。长时间运行的查询如果需要的话可以通过点击红色方块按钮中断。查询工具可以显示查询的执行时间帮助用户去优化它们，全面支持PostgreSQL的异步通知系统。"
+msgid ""
+"A query tool with colour syntax highlighting allows users to run custom "
+"queries. The SQL definition of any object can be automatically transfered to "
+"the query tool from the object browser, or the user can author simple "
+"queries or complex scripts by hand. Long running queries can be cancelled if "
+"required by clicking on the red square button. The tool displays execution "
+"times of queries to help the user optimise them, and fully supports "
+"PostgreSQL's asynchronous notification system."
+msgstr ""
+"语法高亮显示的查询工具可以让用户运行自定义的查询，任何对象的SQL定义能够自动得"
+"从对象浏览器传送到查询工具，用户也可以手工得编写简单或者复杂的脚本。长时间运"
+"行的查询如果需要的话可以通过点击红色方块按钮中断。查询工具可以显示查询的执行"
+"时间帮助用户去优化它们，全面支持PostgreSQL的异步通知系统。"
 
-#: ../features.php:101
+#: ../features.php:102
 msgid "ALT"
 msgstr "ALT"
 
-#: ../features.php:59
+#: ../features.php:60
 msgid "Access to all PostgreSQL objects"
 msgstr "访问所有PostgreSQL对象"
 
-#: ../news.php:62
-msgid "Add '...' to truncated column comments in table SQL, per Erwin Brandstetter."
+#: ../news.php:166
+msgid ""
+"Add '...' to truncated column comments in table SQL, per Erwin Brandstetter."
 msgstr "在表属性的注释列后边增加'...'缩短显示长度，Erwin Brandstetter修改"
 
-#: ../news.php:153
-msgid "Add 'scratch pads' to the Edit Grid and Query Tool windows to use when copying and pasting data back and forth."
+#: ../news.php:257
+msgid ""
+"Add 'scratch pads' to the Edit Grid and Query Tool windows to use when "
+"copying and pasting data back and forth."
 msgstr "在数据编辑网格和查询工具中增加一个'scratch pads'用来拷贝和粘贴数据"
 
-#: ../news.php:121
-msgid "Add -a and -q command line options to auto connect to a server and open a query window respectively."
+#: ../news.php:225
+msgid ""
+"Add -a and -q command line options to auto connect to a server and open a "
+"query window respectively."
 msgstr "增加-a和-q命令行选项用来自动连接到数据库和打开一个查询窗口。"
 
-#: ../news.php:155
-msgid "Add -qc switch to open query tool and autoconnect using a connection string."
+#: ../news.php:259
+msgid ""
+"Add -qc switch to open query tool and autoconnect using a connection string."
 msgstr "增加-qc命令行选项打开查询工具并且连接到数据库。"
 
-#: ../news.php:138
-msgid "Add CREATE/INSERT/UPDATE/SELECT script menu options for various object types to create script templates."
+#: ../news.php:242
+msgid ""
+"Add CREATE/INSERT/UPDATE/SELECT script menu options for various object types "
+"to create script templates."
 msgstr "为不同对象增加创建/插入/修改/查询脚本菜单选项，用来创建脚本模板。"
 
 #: ../development/roadmap.php:34
 msgid "Add DROP/REASSIGN OWNED support. [GL]"
 msgstr "增加对DROP/REASSIGN OWNED命令的支持。[GL]"
 
-#: ../news.php:130
+#: ../news.php:234
 msgid "Add a 'Favourites' query organiser to the Query Tool."
 msgstr "为查询工具增加一个‘收藏’功能菜单。"
 
+#: ../news.php:68
+msgid "Add a 'Run Now' options for pgAgent jobs."
+msgstr ""
+
 #: ../development/roadmap.php:42
-msgid "Add a dialog to allow the user to set a global breakpoint in a specific backend process [DP]"
+msgid ""
+"Add a dialog to allow the user to set a global breakpoint in a specific "
+"backend process [DP]"
 msgstr "增加一个对话框允许用户在特殊的后台进程中增加全局断点。[DP]"
 
+#: ../news.php:65
+msgid ""
+"Add a guru hint to warn the user of the consequences of storing passwords."
+msgstr ""
+
+#: ../news.php:24
+#, fuzzy
+msgid "Add a macro facility to the Query Tool."
+msgstr "为查询工具增加一个‘收藏’功能菜单。"
+
 #: ../development/roadmap.php:43
-msgid "Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected lines in the query tool [DP]"
-msgstr "在查询工具中增加一个菜单项和热键（Ctrl -）对所选行进行注释和解除注释。[DP]"
+msgid ""
+"Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected "
+"lines in the query tool [DP]"
+msgstr ""
+"在查询工具中增加一个菜单项和热键（Ctrl -）对所选行进行注释和解除注释。[DP]"
 
-#: ../news.php:152
-msgid "Add a new Find & Replace dialogue to the query tool, implementing all the normal Find & Replace options as well as a powerful regular expression search mode."
-msgstr "为查询工具增加一个新的查找替换对话框，实现所有常规的查找和替换功能并且支持强大的正则表达式模式。"
+#: ../news.php:256
+msgid ""
+"Add a new Find & Replace dialogue to the query tool, implementing all the "
+"normal Find & Replace options as well as a powerful regular expression "
+"search mode."
+msgstr ""
+"为查询工具增加一个新的查找替换对话框，实现所有常规的查找和替换功能并且支持强"
+"大的正则表达式模式。"
 
-#: ../news.php:125
+#: ../news.php:44
+msgid ""
+"Add a new command line option (-f ) to open an SQL script automatically when "
+"using -q or -qc."
+msgstr ""
+
+#: ../news.php:46
+msgid ""
+"Add a new command line options (-cp ) to allow direct editing of pgpass "
+"files."
+msgstr ""
+
+#: ../news.php:229
 msgid "Add a password file editor."
 msgstr "增加一个密码文件编辑器。"
 
-#: ../news.php:151
+#: ../news.php:255
 msgid "Add a pgAgent option to log to a file on *nix."
 msgstr "增加一个pgAgent选项用来在*nix系统生成日志文件。"
 
-#: ../news.php:145
+#: ../news.php:31
+msgid ""
+"Add a set of options to allow the user to hide selected object types from "
+"the treeview. Note that the new default settings will hide less commonly "
+"used objects such as casts, languages, aggregates, operators etc."
+msgstr ""
+
+#: ../news.php:249
 msgid "Add a word wrap option to the query tool editor."
 msgstr "在查询工具编辑器增加一个自动换行选项。"
 
-#: ../news.php:186
-msgid "Add an accelerator key (Delete) for deleting rows in the edit grid, per Emil Nowak."
-msgstr "在数据编辑网格中为删除多行功能增加一个加速器，Emil Nowak修改。"
+#: ../news.php:244
+msgid ""
+"Add an internal XML reporting API, HTML XSL stylesheet with XSLT processing "
+"capabilities and selection of schema/object/data reports."
+msgstr ""
+"在生成schema/object/data报表时增加内置的XML报表API、带有XSLT的HTML XSL表单的"
+"处理和选择。"
 
-#: ../news.php:140
-msgid "Add an internal XML reporting API, HTML XSL stylesheet with XSLT processing capabilities and selection of schema/object/data reports."
-msgstr "在生成schema/object/data报表时增加内置的XML报表API、带有XSLT的HTML XSL表单的处理和选择。"
+#: ../news.php:70
+#, fuzzy
+msgid "Add an option to show NULLs as  in the Query Tool."
+msgstr "在查询工具增加行结束和空格显示选项。"
 
-#: ../news.php:128
-msgid "Add autocompletion to the Query Tool, based on the logic used by psql. Triggered with Control+Space, and optionally the Tab key as well."
-msgstr "基于psql使用的逻辑在查询工具增加自动完成功能，用Control+Space和任意的Tab键触发。"
+#: ../news.php:48
+#, fuzzy
+msgid "Add an option to show indent guides in the query tool."
+msgstr "在查询工具增加行结束和空格显示选项。"
 
-#: ../news.php:144
+#: ../news.php:39
+msgid ""
+"Add an option to the Report Tool to open the output file in the default "
+"browser."
+msgstr ""
+
+#: ../news.php:47
+#, fuzzy
+msgid "Add auto-indent to the query tool."
+msgstr "在查询工具编辑器增加一个自动换行选项。"
+
+#: ../news.php:232
+msgid ""
+"Add autocompletion to the Query Tool, based on the logic used by psql. "
+"Triggered with Control+Space, and optionally the Tab key as well."
+msgstr ""
+"基于psql使用的逻辑在查询工具增加自动完成功能，用Control+Space和任意的Tab键触"
+"发。"
+
+#: ../news.php:248
 msgid "Add brace highlighting to the SQL Text Box control."
 msgstr "在SQL文本框增加高亮显示支持。"
 
-#: ../news.php:146
+#: ../news.php:45
+msgid "Add fillfactor support on tables and indexes."
+msgstr ""
+
+#: ../news.php:40
+msgid "Add keyboard shortcuts to show and hide UI elements."
+msgstr ""
+
+#: ../news.php:66
+msgid ""
+"Add options to enable/disable triggers, both individually and per-table."
+msgstr ""
+
+#: ../news.php:250
 msgid "Add options to show line ends and whitespaces in the query tool."
 msgstr "在查询工具增加行结束和空格显示选项。"
 
-#: ../news.php:38
+#: ../news.php:142
 msgid "Add support for Sun's compiler [Dhanaraj M]"
 msgstr "增加对Sun的编译器的支持。[Dhanaraj M]"
 
-#: ../news.php:156
+#: ../news.php:260
 msgid "Add support for building Mac Universal Binaries."
+msgstr "增加对制作Mac Universal Binaries的支持。"
+
+#: ../news.php:28
+msgid "Add support for enums in PostgreSQL 8.3+."
+msgstr ""
+
+#: ../news.php:51
+msgid "Add support for function cost and row estimations in PostgreSQL 8.3+."
+msgstr ""
+
+#: ../news.php:25
+#, fuzzy
+msgid "Add support for multi-parameter aggregates."
+msgstr "增加对制作Mac Universal Binaries的支持。"
+
+#: ../news.php:58
+#, fuzzy
+msgid "Add support for packages on EnterpriseDB."
+msgstr "修正EnterpriseDB AS81之上的存储过程支持。"
+
+#: ../news.php:59
+#, fuzzy
+msgid "Add support for public synonyms on EnterpriseDB."
 msgstr "增加对制作Mac Universal Binaries的支持。"
 
 #: ../development/roadmap.php:44
 msgid "Add support for the -c (clean) pg_restore option"
 msgstr "增加pg_restore对选项-c(clean)的支持"
 
-#: ../download/adminpacks.php:8
-#: ../download/menu.php:7
+#: ../download/adminpacks.php:8 ../download/menu.php:7
 msgid "Admin packs"
 msgstr "管理工具包"
 
@@ -240,158 +376,271 @@ msgstr "管理工具包"
 msgid "Advocacy"
 msgstr "倡议"
 
-#: ../features.php:62
+#: ../features.php:63
 msgid "Aggregates"
 msgstr "集合函数"
 
-#: ../news.php:118
+#: ../news.php:33
+msgid "Allow GUC variables to be preset on functions in PostgreSQL 8.3."
+msgstr ""
+
+#: ../news.php:73
+msgid "Allow GUCs to be set on users, roles and databases at create time."
+msgstr ""
+
+#: ../news.php:222
 msgid "Allow database and schema display to be restricted."
 msgstr "允许限制显示数据库和方案。"
 
-#: ../news.php:183
-msgid "Allow non-superuser roles with the appropriate permissions to create roles and DBs."
-msgstr "允许具有相应权限的非超级用户创建角色和数据库。"
+#: ../news.php:50
+#, fuzzy
+msgid "Allow detection and conversion of line ending format in the query tool."
+msgstr "在查询工具增加行结束和空格显示选项。"
 
-#: ../news.php:182
-msgid "Allow non-superusers to edit roles where appropriate [Thomas Sondag]"
-msgstr "允许非超级用户在适当的地方编辑角色。[Thomas Sondag]"
+#: ../news.php:63
+msgid "Allow entire servers to be backed up."
+msgstr ""
 
-#: ../news.php:141
+#: ../news.php:64
+msgid "Allow global objects to be backed up."
+msgstr ""
+
+#: ../news.php:61
+msgid ""
+"Allow install time re-branding. This allows rebranded versions of pgAdmin to "
+"be distributed without code modifications, but with references to the "
+"original pgAdmin being displayed instead. Also add support for shaped splash "
+"screens."
+msgstr ""
+
+#: ../news.php:245
 msgid "Allow pasting of entire rows in the View Data tool."
 msgstr "在数据查看工具中允许传送整个行。"
 
-#: ../news.php:122
-msgid "Allow result copy quoting configuration to be set explicitly rather than using the result export settings."
+#: ../news.php:226
+msgid ""
+"Allow result copy quoting configuration to be set explicitly rather than "
+"using the result export settings."
 msgstr "允许显式设置结果拷贝的引用配置，而不是使用结果导出设置。"
 
-#: ../news.php:129
-msgid "Allow selection and copy of subsets of the columns and rows in the Edit Grid."
+#: ../news.php:233
+msgid ""
+"Allow selection and copy of subsets of the columns and rows in the Edit Grid."
 msgstr "在数据网格中允许选择拷贝列和行的子集。"
 
-#: ../news.php:123
+#: ../news.php:227
 msgid "Allow set returning functions to be created."
 msgstr "创建时允许设置返回函数。"
 
-#: ../news.php:134
+#: ../news.php:49
+msgid ""
+"Allow spaces to be used instead of tabs in SQL editors, and ensure the width "
+"can be set sensibly."
+msgstr ""
+
+#: ../news.php:238
 msgid "Allow the admin modules to be built with PGXS if required."
 msgstr "允许admin模块与PGXS在需要的时候一起编译。"
 
-#: ../news.php:127
-msgid "Allow the number of rows shown in the Edit Grid to be limited and add a 'View top 100 rows' option to the table/view context menus."
-msgstr "允许在数据网格中限制显示行数，并且在表/查看功能菜单中增加'View top 100 rows'选项。"
+#: ../news.php:231
+msgid ""
+"Allow the number of rows shown in the Edit Grid to be limited and add a "
+"'View top 100 rows' option to the table/view context menus."
+msgstr ""
+"允许在数据网格中限制显示行数，并且在表/查看功能菜单中增加'View top 100 "
+"rows'选项。"
 
-#: ../news.php:136
-msgid "Allow the tab character to be used as the clipboard column separator to allow pasting of query results straight into apps like Excel, or OOo Calc."
-msgstr "允许使用tab符作为剪贴板的列分隔符，以便直接将查询结果传送到Excel、OOo Calc之类的应用程序。"
+#: ../news.php:240
+msgid ""
+"Allow the tab character to be used as the clipboard column separator to "
+"allow pasting of query results straight into apps like Excel, or OOo Calc."
+msgstr ""
+"允许使用tab符作为剪贴板的列分隔符，以便直接将查询结果传送到Excel、OOo Calc之"
+"类的应用程序。"
 
-#: ../news.php:142
-msgid "Allow the user to choose whether or not to restore the environment when reconnecting to a particular server."
+#: ../news.php:246
+msgid ""
+"Allow the user to choose whether or not to restore the environment when "
+"reconnecting to a particular server."
 msgstr "当重新连接到特定数据库时，允许用户选择是否恢复环境。"
 
-#: ../news.php:34
-msgid "Allow users with SUPERUSER but no other privilege flags to create roles and databases etc. per Andy Shellam."
-msgstr "允许拥有SUPERUSER但是没有其它权限的用户创建角色和数据库等对象，Andy Shellam修改。"
+#: ../news.php:138
+msgid ""
+"Allow users with SUPERUSER but no other privilege flags to create roles and "
+"databases etc. per Andy Shellam."
+msgstr ""
+"允许拥有SUPERUSER但是没有其它权限的用户创建角色和数据库等对象，Andy Shellam修"
+"改。"
 
 #: ../translation/howto.php:41
 msgid "Alternatively, you can run the following command manually:"
 msgstr "或者，可以运行如下命令："
 
 #: ../development/team.php:10
-msgid "Although anyone is welcome to contribute to pgAdmin, the project is managed and run by the Development Team. The document below (available only in English) outlines the structure of the team and how it operates."
-msgstr "尽管任何人都可以参与pgAdmin项目，这个项目仍然是由开发组来运作和管理的，下边的文档显示了开发组的框架结构，以及它是如何运作的。"
+msgid ""
+"Although anyone is welcome to contribute to pgAdmin, the project is managed "
+"and run by the Development Team. The document below (available only in "
+"English) outlines the structure of the team and how it operates."
+msgstr ""
+"尽管任何人都可以参与pgAdmin项目，这个项目仍然是由开发组来运作和管理的，下边的"
+"文档显示了开发组的框架结构，以及它是如何运作的。"
 
 #: ../download/debian.php:42
 #, php-format
 msgid ""
-"An APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the\n"
-"flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"
-msgstr "为了更方便的安装，提供一个APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜像</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装包放在：<i>[MIRROR URL]/pgadmin3/release/debian</i>"
+"An APT repository is provided to ease installation. Before you start "
+"installation, please choose a mirror from the list of <a href=\"%s"
+"\">PostgreSQL mirrors</a>. Click one of the\n"
+"flags, and copy the URL you are redirected to. On each mirror, the packages "
+"are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"
+msgstr ""
+"为了更方便的安装，提供一个APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜像"
+"</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装"
+"包放在：<i>[MIRROR URL]/pgadmin3/release/debian</i>"
 
 #: ../translation/howto.php:12
-msgid "Anyone can translate pgAdmin into his or her mother tongue - you do not need to be a programmer. We try to make sure that all strings could be translated, even into non-European and non-Asian languages. The required steps for translation are as follows:"
-msgstr "任何人都可以将pgAdmin翻译成为他或者她的母语，不需要是一个程序员。我们试图确保所有的字符串能够被翻译，甚至是非亚欧语种。翻译需要的步骤如下："
+msgid ""
+"Anyone can translate pgAdmin into his or her mother tongue - you do not need "
+"to be a programmer. We try to make sure that all strings could be "
+"translated, even into non-European and non-Asian languages. The required "
+"steps for translation are as follows:"
+msgstr ""
+"任何人都可以将pgAdmin翻译成为他或者她的母语，不需要是一个程序员。我们试图确保"
+"所有的字符串能够被翻译，甚至是非亚欧语种。翻译需要的步骤如下："
 
 #: ../translation/howto.php:29
-msgid "As a first step, please edit the file properties (Catalog/Settings). Select correct language and country, and set the charset to <b>utf-8</b>. The project name is <b>pgadmin3</b>, team is <b>The pgAdmin Development Team</b>, and the email address should be <b>pgadmin-hackers@postgresql.org</b>."
-msgstr "第一步，编辑文件属性（类目/设置），选择正确的语言和国家，设置字符集设置为<b>utf-8</b>，项目名称及版本为<b>pgadmin3</b>，团队为<b>The pgAdmin Development Team</b>，团队专用电子邮件为<b>pgadmin-hackers@postgresql.org</b>。"
+msgid ""
+"As a first step, please edit the file properties (Catalog/Settings). Select "
+"correct language and country, and set the charset to <b>utf-8</b>. The "
+"project name is <b>pgadmin3</b>, team is <b>The pgAdmin Development Team</"
+"b>, and the email address should be <b>pgadmin-hackers@postgresql.org</b>."
+msgstr ""
+"第一步，编辑文件属性（类目/设置），选择正确的语言和国家，设置字符集设置为"
+"<b>utf-8</b>，项目名称及版本为<b>pgadmin3</b>，团队为<b>The pgAdmin "
+"Development Team</b>，团队专用电子邮件为<b>pgadmin-hackers@postgresql.org</"
+"b>。"
 
 #: ../screenshots/ui.php:18
-msgid "As objects are created and modified, pgAdmin will show the user the code used to make the modifications, as well as the reverse-engineered SQL definition of the selected object. This helps the user learn and understand the SQL easily allowing them to work productively in the GUI and the command line or in scripts."
-msgstr "创建和修改对象时，pgAdmin会显示用来修改的用户代码，也可以显示选中对象的反向SQL定义。同时在命令行或脚本和GUI中运行它们，能够帮助用户更容易得学习和理解SQL。"
+msgid ""
+"As objects are created and modified, pgAdmin will show the user the code "
+"used to make the modifications, as well as the reverse-engineered SQL "
+"definition of the selected object. This helps the user learn and understand "
+"the SQL easily allowing them to work productively in the GUI and the command "
+"line or in scripts."
+msgstr ""
+"创建和修改对象时，pgAdmin会显示用来修改的用户代码，也可以显示选中对象的反向"
+"SQL定义。同时在命令行或脚本和GUI中运行它们，能够帮助用户更容易得学习和理解"
+"SQL。"
 
-#: ../news.php:162
+#: ../news.php:266
 #, php-format
-msgid "As well as many other tweaks, improvements and bug fixes, details of which may be found in the <a href=\"%s\">changelog</a>."
-msgstr "其他的一些调整、提升和bug修正的细节可以在<a href=\"%s\">更新日志</a>找到。"
+msgid ""
+"As well as many other tweaks, improvements and bug fixes, details of which "
+"may be found in the <a href=\"%s\">changelog</a>."
+msgstr ""
+"其他的一些调整、提升和bug修正的细节可以在<a href=\"%s\">更新日志</a>找到。"
 
-#: ../features.php:52
+#: ../news.php:106
+#, fuzzy
+msgid "As well as many other tweaks, improvements and bug fixes."
+msgstr ""
+"其他的一些调整、提升和bug修正的细节可以在<a href=\"%s\">更新日志</a>找到。"
+
+#: ../features.php:53
 msgid "Auto-vacuum management (PostgreSQL 8.1 and above)"
 msgstr "自动空间回收管理（(PostgreSQL 8.1以及更高版本）"
 
-#: ../news.php:64
+#: ../news.php:168
 msgid "Avoid a crash when closing the query tool on Solaris [Dhanaraj M]."
 msgstr "消除当在Solaris中关闭查询工具时崩溃的问题。[Dhanaraj M]"
 
-#: ../news.php:66
-msgid "Avoid displaying multi line data in single line list controls, per Clodoaldo Pinto Neto."
+#: ../news.php:90
+msgid ""
+"Avoid creating graphical explain nodes for triggers as they aren't part of "
+"the plan and mess up the layout."
+msgstr ""
+
+#: ../news.php:170
+msgid ""
+"Avoid displaying multi line data in single line list controls, per Clodoaldo "
+"Pinto Neto."
 msgstr "防止在单行列表框中显示多行数据，Clodoaldo Pinto Neto修改。"
 
 #: ../advocacy/strategy.php:13
 #, php-format
-msgid "Before you start, it is recommended that you translate pgAdmin III and the web site in your language if it hasn't already been done. Just visit the <a href=\"%s\">translation</a> page for details on how to get started."
-msgstr "在开始之前，希望你能够使用自己的母语翻译pgAdmin III以及网站，如果还没有人做这个工作的话。请访问<a href=\"%s\">翻译</a>网页了解更多信息以及如何开始。"
+msgid ""
+"Before you start, it is recommended that you translate pgAdmin III and the "
+"web site in your language if it hasn't already been done. Just visit the <a "
+"href=\"%s\">translation</a> page for details on how to get started."
+msgstr ""
+"在开始之前，希望你能够使用自己的母语翻译pgAdmin III以及网站，如果还没有人做这"
+"个工作的话。请访问<a href=\"%s\">翻译</a>网页了解更多信息以及如何开始。"
 
 #: ../download/ubuntu.php:14
 msgid "Before you try to install"
 msgstr "安装之前的准备"
 
-#: ../support/issues.php:10
-msgid "Bugs and other issues in pgAdmin are almost always fixed within a very short time once they have been reported to us. There are some issues that may be out of our control, or may take significant effort to resolve, often more effort than the issue warrants."
-msgstr "pgAdmin的bug和问题在报告给我们之后几乎都能够很快的修正，但是有时一些问题会超出我们的控制，或者解决它会带来重大的影响，而通常这种影响比问题本身更加重要。"
+#: ../news.php:32
+msgid "Browser support for Operator Families in PostgreSQL 8.3."
+msgstr ""
 
-#: ../news.php:58
+#: ../support/issues.php:10
+msgid ""
+"Bugs and other issues in pgAdmin are almost always fixed within a very short "
+"time once they have been reported to us. There are some issues that may be "
+"out of our control, or may take significant effort to resolve, often more "
+"effort than the issue warrants."
+msgstr ""
+"pgAdmin的bug和问题在报告给我们之后几乎都能够很快的修正，但是有时一些问题会超"
+"出我们的控制，或者解决它会带来重大的影响，而通常这种影响比问题本身更加重要。"
+
+#: ../news.php:162
 msgid "Build against PostgreSQL 8.2 on Windows."
 msgstr "基于Windows版的PostgreSQL 8.2制作。"
 
 #: ../download/source.php:22
-msgid "Build instructions are included in the tarballs, and are available online:"
+msgid ""
+"Build instructions are included in the tarballs, and are available online:"
 msgstr "tar包中包含build指导，也可以在线阅读："
 
 #: ../development/roadmap.php:26
 msgid "Build system"
 msgstr "制作系统"
 
-#: ../features.php:63
+#: ../features.php:64
 msgid "Casts"
 msgstr "类型转换"
 
-#: ../development/changelog.php:8
-#: ../development/menu.php:13
+#: ../development/changelog.php:8 ../development/menu.php:13
 msgid "Change log"
 msgstr "更新日志"
 
 #: ../development/roadmap.php:21
-msgid "Check for and remove any custom controls that are now implemented in wxWidgets."
+msgid ""
+"Check for and remove any custom controls that are now implemented in "
+"wxWidgets."
 msgstr "检查并移除现在已经在wxWidgets中实现的自定义控件。"
 
-#: ../download/freebsd.php:34
+#: ../download/freebsd.php:31
 msgid "Check that the pgAdmin III executable is in the path:"
 msgstr "确认pgAdmin III在系统路径中是可以正确执行的："
 
 #: ../translation/howto.php:31
-msgid "Check the <i>Automatically compile .mo file on save</i> option in Properties."
+msgid ""
+"Check the <i>Automatically compile .mo file on save</i> option in Properties."
 msgstr "在（文件/首选/编辑器）选中<i>保存时自动编译.mo文件</i>选项"
 
-#: ../download/ubuntu.php:29
-#: ../download/ubuntu.php:38
-msgid "Choose your mirror as mentioned above and edit /etc/apt/sources.list file and add the following line:"
+#: ../download/ubuntu.php:29 ../download/ubuntu.php:38
+msgid ""
+"Choose your mirror as mentioned above and edit /etc/apt/sources.list file "
+"and add the following line:"
 msgstr "选在上边提及的镜像并且编辑/etc/apt/sources.list文件追加如下行："
 
 #: ../development/roadmap.php:19
 msgid "Code housekeeping"
 msgstr "代码整理"
 
-#: ../features.php:64
+#: ../features.php:65
 msgid "Columns"
 msgstr "字段"
 
@@ -399,23 +648,26 @@ msgstr "字段"
 msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr "将pgadmin3.po编译为pgadmin3.mo二进制文件。"
 
-#: ../news.php:112
+#: ../news.php:216
 msgid "Concurrent index builds."
 msgstr "并发建立索引。"
 
-#: ../news.php:119
+#: ../news.php:223
 msgid "Configurable indents in the SQL editor."
 msgstr "可以设置SQL编辑器的缩进位置。"
 
-#: ../features.php:51
+#: ../features.php:52
 msgid "Configuration file editing"
 msgstr "配置文件编辑"
 
 #: ../development/roadmap.php:28
-msgid "Consider cross-platform build systems such as cmake to generate the build system for all platforms"
-msgstr "考虑使用跨平台build systems（例如：cmake）来生成所有平台的build system。"
+msgid ""
+"Consider cross-platform build systems such as cmake to generate the build "
+"system for all platforms"
+msgstr ""
+"考虑使用跨平台build systems（例如：cmake）来生成所有平台的build system。"
 
-#: ../features.php:65
+#: ../features.php:66
 msgid "Constraints"
 msgstr "约束"
 
@@ -427,9 +679,13 @@ msgstr "捐助"
 msgid "Contribute a translation"
 msgstr "分发翻译"
 
-#: ../features.php:66
+#: ../features.php:67
 msgid "Conversions"
 msgstr "编码转换"
+
+#: ../news.php:89
+msgid "Copy and paste data correctly when in a cell editor in the edit grid."
+msgstr ""
 
 #: ../include/archives.php:54
 msgid "Couldn't find the archive content!"
@@ -439,46 +695,54 @@ msgstr "无法找到归档内容"
 msgid "Couldn't find the document content!"
 msgstr "无法找到文档内容"
 
-#: ../download/freebsd.php:28
+#: ../download/freebsd.php:25
 msgid "Create a symlink to the pgAdmin III binary:"
 msgstr "创建一个指向pgAdmin III的符号连接："
 
+#: ../news.php:55
+msgid ""
+"Create and reverse engineer edbspl procedures using Oracle compatible syntax."
+msgstr ""
+
 #: ../advocacy/strategy.php:23
-msgid "Cross your fingers and wait until PostgreSQL becomes the world's number one database."
+msgid ""
+"Cross your fingers and wait until PostgreSQL becomes the world's number one "
+"database."
 msgstr "合上双手祈祷直到PostgreSQL变成世界上最大的数据库 :)。"
 
 #: ../screenshots/data.php:8
 msgid "Data"
 msgstr "数据"
 
-#: ../features.php:42
-#: ../screenshots/menu.php:8
+#: ../features.php:43 ../screenshots/menu.php:8
 msgid "Data access"
 msgstr "数据存取"
 
 #: ../development/roadmap.php:39
-msgid "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
+msgid ""
+"Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr "针对低效率（slow）查询的数据调整（tune-up）选项。[DP]"
 
-#: ../screenshots/mb_i18n.php:12
-#: ../screenshots/mb_i18n.php:18
+#: ../screenshots/mb_i18n.php:12 ../screenshots/mb_i18n.php:18
 msgid "Database encoding selection"
 msgstr "数据库语言编码选择"
 
-#: ../features.php:67
+#: ../features.php:68
 msgid "Databases"
 msgstr "数据库"
 
-#: ../news.php:44
-#: ../news.php:71
-#: ../news.php:99
-#: ../news.php:166
-#: ../news.php:192
+#: ../news.php:148 ../news.php:175 ../news.php:203 ../news.php:270
 msgid "Dave Page"
 msgstr "Dave Page"
 
-#: ../download/debian.php:8
-#: ../download/menu.php:8
+#: ../news.php:111
+#, fuzzy
+msgid ""
+"Dave Page<br />\n"
+"pgAdmin Development Team"
+msgstr "pgAdmin开发组"
+
+#: ../download/debian.php:8 ../download/menu.php:8
 msgid "Debian"
 msgstr "Debian"
 
@@ -510,17 +774,13 @@ msgstr "人员分布"
 msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr "为多个PostgreSQL版本及其派生设计"
 
-#: ../news.php:189
-msgid "Detect and correctly use GNU vs. BSD xargs when completing an appbundle install, per John DeSoi."
-msgstr "完成appbundle安装后，检查校正使用GNU还是BSD。"
-
-#: ../news.php:143
-msgid "Detect and warn the user of concurrent edits of functions, views and job steps."
+#: ../news.php:247
+msgid ""
+"Detect and warn the user of concurrent edits of functions, views and job "
+"steps."
 msgstr "检测用户对函数、视图和工作计划的并发编辑并发出警告。"
 
-#: ../contribute.php:12
-#: ../include/doc.php:29
-#: ../include/page.php:125
+#: ../contribute.php:12 ../include/doc.php:29 ../include/page.php:125
 msgid "Development"
 msgstr "开发"
 
@@ -533,79 +793,106 @@ msgstr "正在开发的%s版本"
 msgid "Development team"
 msgstr "开发组"
 
-#: ../news.php:131
+#: ../news.php:29
+msgid ""
+"Display catalogs separately from schemas, and don't treat them as system "
+"objects any longer (they can be hidden using the display options). Show only "
+"tables & views (as 'catalog objects') in pseudo-system catalogs such as "
+"information_schema and EDB's sys and dbo catalogs. Lock down functionality "
+"to prevent create/edit/drop options being offered."
+msgstr ""
+
+#: ../news.php:235
 msgid "Display column dependencies."
 msgstr "显示字段依赖对象。"
 
-#: ../news.php:179
-msgid "Display interval precision properly, per Walter Haslbeck"
-msgstr "正确地显示间隔精度，Walter Haslbeck修改。"
-
-#: ../news.php:178
-msgid "Display job steps and schedules properly in the Job dialogue, per Eric Shuman."
-msgstr "在工作计划对话框中正常显示工作步骤和进度。"
-
-#: ../news.php:150
+#: ../news.php:254
 msgid "Display non-default op classes in index definitions."
 msgstr "在索引定义中显示非缺省定义的运算符类。"
 
-#: ../news.php:124
-msgid "Display the client start time on the status dialogue with PostgreSQL 8.1+"
+#: ../news.php:228
+msgid ""
+"Display the client start time on the status dialogue with PostgreSQL 8.1+"
 msgstr "连同PostgreSQL 8.1+使用时，在状态对话框中显示客户端的开始时间。"
 
-#: ../news.php:148
-msgid "Display, and allow null values to be set in boolean columns in the Edit Grid."
+#: ../news.php:87
+msgid ""
+"Display the constraint OID for index constraints, not the index OID. Add the "
+"index OID as a new property."
+msgstr ""
+
+#: ../news.php:52
+msgid "Display the is_called sequence flag."
+msgstr ""
+
+#: ../news.php:41
+msgid ""
+"Display the output pane in the query tool at query completion if it's "
+"currently hidden."
+msgstr ""
+
+#: ../news.php:252
+msgid ""
+"Display, and allow null values to be set in boolean columns in the Edit Grid."
 msgstr "在编辑网格中显示并允许空值赋值到布尔型字段。"
 
-#: ../include/archives.php:21
-#: ../include/archives.php:36
-#: ../include/doc.php:34
+#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
 #: ../include/doc.php:48
 msgid "Document not found"
 msgstr "无法找到文档"
 
-#: ../include/page.php:126
-#: ../screenshots/documentation.php:8
+#: ../include/page.php:126 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr "文档"
 
-#: ../features.php:68
+#: ../features.php:69
 msgid "Domains"
 msgstr "域"
 
-#: ../news.php:90
-msgid "Don't display index constraints under the Indexes node as well as the Contraints node, per Erwin."
+#: ../news.php:194
+msgid ""
+"Don't display index constraints under the Indexes node as well as the "
+"Contraints node, per Erwin."
 msgstr "在索引节点和约束节点上不显示索引约束，Erwin修改。"
 
-#: ../news.php:94
+#: ../news.php:198
 msgid "Don't paste into empty edit grids, per Howard Wang"
 msgstr "禁止粘贴到空的编辑网格，Howard Wang修改。"
 
-#: ../include/page.php:127
-#: ../include/po_status.php:256
+#: ../news.php:86
+msgid "Don't try to detect if integrated autovacuum is running on &lt; 8.1."
+msgstr ""
+
+#: ../include/page.php:127 ../include/po_status.php:256
 msgid "Download"
 msgstr "下载"
 
 #: ../translation/howto.php:19
 #, php-format
-msgid "Download <a href=\"%s\">poEdit</a> and install it under MS Windows or GNU/Linux."
+msgid ""
+"Download <a href=\"%s\">poEdit</a> and install it under MS Windows or GNU/"
+"Linux."
 msgstr "下载<a href=\"%s\">poEdit</a>安装到MS Windows或者GNU/Linux中。"
 
 #: ../development/roadmap.php:36
 msgid "ER diagramming tool (Google SoC project). [Euler Taveira de Oliveira]"
 msgstr "ER 图表工具 (Google SoC project)。[Euler Taveira de Oliveira]"
 
-#: ../features.php:93
+#: ../features.php:94
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 msgstr "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 
 #: ../screenshots/data.php:18
-msgid "EXPLAIN and/or ANALYZE your queries to take advantage of PostgreSQL unique optimisation features. You will soon realise that PostgreSQL is amongst the fastest enterprise class databases available."
-msgstr "使用EXPLAIN 和/或 ANALYZE分析你的查询可以充分利用PostgreSQL独有的优化特性，不久你就意识到PostgreSQL是最快的企业级数据库之一。"
+msgid ""
+"EXPLAIN and/or ANALYZE your queries to take advantage of PostgreSQL unique "
+"optimisation features. You will soon realise that PostgreSQL is amongst the "
+"fastest enterprise class databases available."
+msgstr ""
+"使用EXPLAIN 和/或 ANALYZE分析你的查询可以充分利用PostgreSQL独有的优化特性，不"
+"久你就意识到PostgreSQL是最快的企业级数据库之一。"
 
-#: ../download/debian.php:28
-#: ../download/debian.php:45
+#: ../download/debian.php:28 ../download/debian.php:45
 msgid "Edit /etc/apt/sources.list file and add the following line:"
 msgstr "编辑/etc/apt/sources.list文件追加如下行："
 
@@ -613,33 +900,66 @@ msgstr "编辑/etc/apt/sources.list文件追加如下行："
 msgid "Edit the *.po file. The steps described are related to poEdit only."
 msgstr "编辑*.po文件，下面描述的步骤仅对poEdit有效。"
 
-#: ../news.php:83
-msgid "Enable the OK button on the Database properties dialog when the owner is changed, per Jim Cullison"
-msgstr "在数据库属性对话框中当所有者变化时，使OK按钮变得可用，Jim Cullison修改。"
+#: ../news.php:187
+msgid ""
+"Enable the OK button on the Database properties dialog when the owner is "
+"changed, per Jim Cullison"
+msgstr ""
+"在数据库属性对话框中当所有者变化时，使OK按钮变得可用，Jim Cullison修改。"
 
-#: ../news.php:68
-msgid "Enable the OK button on the database properties dialog when variables are changed."
+#: ../news.php:172
+msgid ""
+"Enable the OK button on the database properties dialog when variables are "
+"changed."
 msgstr "当数据库属性对话框的变量被修改时使OK按钮有效。"
 
 #: ../include/page.php:111
 msgid "English"
 msgstr "英语"
 
-#: ../news.php:135
-msgid "Enhance the query tool to allow copy/paste of arbitrary groups of columns, rows or individual cells."
+#: ../news.php:239
+msgid ""
+"Enhance the query tool to allow copy/paste of arbitrary groups of columns, "
+"rows or individual cells."
 msgstr "增强查询工具，允许拷贝/粘贴任意行和列以及任意单元格。"
 
-#: ../news.php:96
-msgid "Ensure backup and restore options are enabled when appropriate (this is a wxWidgets bug, fixed in wxWidgets 2.8.0rc1)"
-msgstr "在适当的时候使备份和恢复选项可用。（这是一个wxWidgets的bug，在2.8.0rc1中修正）"
+#: ../news.php:200
+msgid ""
+"Ensure backup and restore options are enabled when appropriate (this is a "
+"wxWidgets bug, fixed in wxWidgets 2.8.0rc1)"
+msgstr ""
+"在适当的时候使备份和恢复选项可用。（这是一个wxWidgets的bug，在2.8.0rc1中修"
+"正）"
 
-#: ../news.php:60
-msgid "Ensure column headers and the insert row are shown in the edit grid when no rows exist in the table being editted, per Bob Pawley."
+#: ../news.php:164
+msgid ""
+"Ensure column headers and the insert row are shown in the edit grid when no "
+"rows exist in the table being editted, per Bob Pawley."
 msgstr "当表被编辑时即使当前没有数据行也能显示表头和插入数据，Bob Pawley修改。"
 
-#: ../news.php:187
-msgid "Ensure the user is warned if files cannot be written."
-msgstr "文件不可写时让用户收到一个警告。"
+#: ../news.php:78
+msgid "Ensure files can be converted to the required encoding before saving."
+msgstr ""
+
+#: ../news.php:80
+msgid ""
+"Ensure logfiles and pgpass files can be correctly saved on Windows when the "
+"username contains non-ASCII chars."
+msgstr ""
+
+#: ../news.php:94
+msgid "Ensure pgAgent jobs can be managed on Greenplum database."
+msgstr ""
+
+#: ../news.php:88
+msgid "Ensure the password change dialog works with stored passwords."
+msgstr ""
+
+#: ../news.php:81
+msgid ""
+"Ensure we always allow the maximum string length possible to be entered in "
+"the Edit Grid."
+msgstr ""
 
 #: ../translation/howto.php:33
 msgid "Enter your translation strings."
@@ -649,7 +969,7 @@ msgstr "输入你的翻译字符串"
 msgid "EnterpriseDB"
 msgstr "EnterpriseDB"
 
-#: ../features.php:29
+#: ../features.php:30
 msgid "Extensive documentation"
 msgstr "丰富的文档"
 
@@ -657,92 +977,133 @@ msgstr "丰富的文档"
 msgid "FAQ"
 msgstr "常见问题"
 
-#: ../features.php:8
-#: ../menu.php:8
+#: ../features.php:8 ../menu.php:8
 msgid "Features"
 msgstr "特性"
 
-#: ../news.php:184
-msgid "Fix a bug in the pgpass save code that could damage files."
-msgstr "修正一个在pgpass中保存代码可能破坏文件的bug。"
-
-#: ../news.php:20
-msgid "Fix a bug that prevented adding new nodes to a Slony cluster, per Duncan Beeby."
+#: ../news.php:124
+msgid ""
+"Fix a bug that prevented adding new nodes to a Slony cluster, per Duncan "
+"Beeby."
 msgstr "修正一个在Slony聚簇中阻止增加新节点的bug，Duncan Beeby修改。"
 
-#: ../news.php:32
-msgid "Fix a crash on Mac that occurred when using some combo boxes, per David Lowry."
+#: ../news.php:83
+msgid ""
+"Fix a crash in the Edit Grid which occured if Delete was pressed whilst "
+"editing a boolean."
+msgstr ""
+
+#: ../news.php:136
+msgid ""
+"Fix a crash on Mac that occurred when using some combo boxes, per David "
+"Lowry."
 msgstr "修正一个在Mac中使用某些下拉列表引发的崩溃，David Lowry修改。"
 
-#: ../news.php:28
+#: ../news.php:132
 msgid "Fix a minor bug in app bundle creation for Mac [Florian G. Pflug]"
 msgstr "修正一个制作MAC程序包过程中的微小bug。"
 
-#: ../news.php:89
-msgid "Fix a minor bug in the index reverse engineering when using non-default operator classes per Andrus."
+#: ../news.php:193
+msgid ""
+"Fix a minor bug in the index reverse engineering when using non-default "
+"operator classes per Andrus."
 msgstr "修正一个索引反转引擎使用非缺省操作符类时的镜像bug，Andrus修改。"
 
-#: ../news.php:25
-msgid "Fix a rare bug in the Edit Grid which could cause a crash when editting data in tables with deleted columns and a primary key that isn;t at the beginning of the table. Thanks to Patrick De Visschere for the test case."
-msgstr "修正一个很难出现的bug，当在编辑网格中删除字段并且主键不是数据表的第一个字段时引发的崩溃，感谢Patrick De Visschere提供测试案例。"
+#: ../news.php:129
+msgid ""
+"Fix a rare bug in the Edit Grid which could cause a crash when editting data "
+"in tables with deleted columns and a primary key that isn;t at the beginning "
+"of the table. Thanks to Patrick De Visschere for the test case."
+msgstr ""
+"修正一个很难出现的bug，当在编辑网格中删除字段并且主键不是数据表的第一个字段时"
+"引发的崩溃，感谢Patrick De Visschere提供测试案例。"
 
-#: ../news.php:39
-msgid "Fix an issue in the Query Tool export option that could result in blank lines in the export file, per Mathias Durst and Mike."
-msgstr "修正查询工具导出选项时可能会在导出文件中带来空行的问题，Mathias Durst and Mike修改。"
+#: ../news.php:143
+msgid ""
+"Fix an issue in the Query Tool export option that could result in blank "
+"lines in the export file, per Mathias Durst and Mike."
+msgstr ""
+"修正查询工具导出选项时可能会在导出文件中带来空行的问题，Mathias Durst and "
+"Mike修改。"
 
-#: ../news.php:19
+#: ../news.php:123
 msgid "Fix an overflow bug in pgAgent, per report from Sabin Coanda"
 msgstr "修正由Sabin Coanda报告的pgAgent中的溢出bug。"
 
-#: ../news.php:30
+#: ../news.php:134
 msgid "Fix default perspective names, per Ezequias."
 msgstr "修正缺省的窗口布局，Ezequias修改。"
 
-#: ../news.php:85
+#: ../news.php:189
 msgid "Fix deletion of stored procedures, Per Erwin."
 msgstr "修正一个误删除存储过程的错误，Erwin修改。"
 
-#: ../news.php:36
+#: ../news.php:140
 msgid "Fix localisation of 'Tab' as a copy delimiter."
 msgstr "修正'Tab'作为拷贝分隔符时的定位问题。"
 
-#: ../news.php:33
+#: ../news.php:137
 msgid "Fix menu icon for Gnome [Nathan Egge]"
 msgstr "修正Gnome下的菜单图标。[Nathan Egge]"
 
-#: ../news.php:56
-msgid "Fix per-table autovacuum settings for PostgreSQL >= 8.2 per Devrim Gunduz."
+#: ../news.php:160
+msgid ""
+"Fix per-table autovacuum settings for PostgreSQL >= 8.2 per Devrim Gunduz."
 msgstr "修正PostgreSQL 8.2以及更高版本每个表的自动空间回收设置。"
 
-#: ../news.php:24
+#: ../news.php:128
 msgid "Fix procedure support on EnterpriseDB AS81."
 msgstr "修正EnterpriseDB AS81之上的存储过程支持。"
 
-#: ../news.php:41
-msgid "Fix query tool title which was unfortunately broken by an earlier fix for another bug."
+#: ../news.php:145
+msgid ""
+"Fix query tool title which was unfortunately broken by an earlier fix for "
+"another bug."
 msgstr "修正早些时候另一个bug的修正造成的查询工具标题不正确问题。"
 
-#: ../news.php:57
-msgid "Fix some oddities in the way current per-table vacuum settings are displayed."
+#: ../news.php:91
+msgid ""
+"Fix reverse engineering of data types with a size of 0, such as \"timestamp"
+"(0) without timezone\"."
+msgstr ""
+
+#: ../news.php:161
+msgid ""
+"Fix some oddities in the way current per-table vacuum settings are displayed."
 msgstr "修正显示当前每个表的空间回收设置时的几个不合理现象。"
 
-#: ../news.php:92
+#: ../news.php:196
 msgid "Fix some portability issues in the configure code [Max Khon]"
 msgstr "修正配置代码的一些潜在问题。[Max Khon]"
 
-#: ../news.php:29
-msgid "Fix the graphical explain to properly display backwards index scan nodes, per Brendan O'Shea."
+#: ../news.php:133
+msgid ""
+"Fix the graphical explain to properly display backwards index scan nodes, "
+"per Brendan O'Shea."
 msgstr "修正图形化解释器，正确向后显示索引扫描节点，Brendan O'Shea修改。"
 
-#: ../download/debian.php:34
-#: ../download/debian.php:51
-#: ../download/ubuntu.php:44
+#: ../news.php:95
+msgid ""
+"Fix the table, index and index constraint tablespace property combo boxes to "
+"allow changes to tablespace."
+msgstr ""
+
+#: ../news.php:77
+msgid ""
+"Fixed UTF8 option was not effective by file reading and writing of a query "
+"and fixed crash at the time of file save."
+msgstr ""
+
+#: ../download/ubuntu.php:48
+#, fuzzy
+msgid "For example, for France and Gutsy Gibbon, you can try:"
+msgstr "例如，在法国，你可以试一下："
+
+#: ../download/debian.php:34 ../download/debian.php:51
 msgid "For example, for France, you can try:"
 msgstr "例如，在法国，你可以试一下："
 
-#: ../features.php:16
-#: ../download/freebsd.php:8
-#: ../download/menu.php:9
+#: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:9
 #: ../screenshots/index.php:16
 msgid "FreeBSD"
 msgstr "FreeBSD"
@@ -757,14 +1118,28 @@ msgstr "常见问题"
 
 #: ../translation/howto.php:55
 #, php-format
-msgid "From time to time, new strings which need translation are added to the application. Download/update the new <a href=\"%s\">pgadmin3.pot</a> and merge the new file with your language file using the poEdit <i>Catalog/Update from POT file</i> function. Alternatively, you can run the following command manually:"
-msgstr "有时新的需要翻译的字符串会被添加到程序中，下载新的<a href=\"%s\">pgadmin3.pot</a>文件，使用poEdit的<i>类目/从POT文件更新</i>功能与你的语言文件结合。另外也可以手动运行下边的命令："
+msgid ""
+"From time to time, new strings which need translation are added to the "
+"application. Download/update the new <a href=\"%s\">pgadmin3.pot</a> and "
+"merge the new file with your language file using the poEdit <i>Catalog/"
+"Update from POT file</i> function. Alternatively, you can run the following "
+"command manually:"
+msgstr ""
+"有时新的需要翻译的字符串会被添加到程序中，下载新的<a href=\"%s\">pgadmin3."
+"pot</a>文件，使用poEdit的<i>类目/从POT文件更新</i>功能与你的语言文件结合。另"
+"外也可以手动运行下边的命令："
+
+#: ../news.php:93
+msgid ""
+"Function/procedure signatures do not include OUT params. Fix this oversight, "
+"and cleanup much of the related code."
+msgstr ""
 
 #: ../development/roadmap.php:32
 msgid "Functionality"
 msgstr "功能"
 
-#: ../features.php:69
+#: ../features.php:70
 msgid "Functions"
 msgstr "函数"
 
@@ -780,11 +1155,15 @@ msgstr "开始工作"
 msgid "Google analytics"
 msgstr "Google Analytics（分析）"
 
-#: ../features.php:70
+#: ../features.php:27
+msgid "Greenplum Database"
+msgstr ""
+
+#: ../features.php:71
 msgid "Groups"
 msgstr "组"
 
-#: ../news.php:93
+#: ../news.php:197
 msgid "Guard against permission denied errors in the edit grid per Howard Wang"
 msgstr "在数据网格中防止许可拒绝错误，Howard Wang修改。"
 
@@ -792,20 +1171,28 @@ msgstr "在数据网格中防止许可拒绝错误，Howard Wang修改。"
 msgid "Guidelines"
 msgstr "指导方针"
 
-#: ../features.php:32
+#: ../features.php:33
 msgid "Guru Hints to help less experienced users"
 msgstr "指导建议能够帮助经验比较少的用户。"
 
-#: ../news.php:35
-msgid "Handle non-default schema paths properly in the Foreign Key dialogue, per Philipp Specht"
+#: ../news.php:139
+msgid ""
+"Handle non-default schema paths properly in the Foreign Key dialogue, per "
+"Philipp Specht"
 msgstr "在外键对话框中正确地处理非缺省的schema路径，Philipp Specht修改。"
 
-#: ../news.php:158
+#: ../news.php:92
+msgid "Handle resetting of sequence values more consistently."
+msgstr ""
+
+#: ../news.php:262
 msgid "Hide binary data (bytea) in the edit grid."
 msgstr "在编辑表格隐藏二进制数据（bytea）。"
 
-#: ../news.php:147
-msgid "Highlight the error word in the query tool if a syntax error is reported by the database."
+#: ../news.php:251
+msgid ""
+"Highlight the error word in the query tool if a syntax error is reported by "
+"the database."
 msgstr "在查询工具中，如果数据库报告语法错误，高亮显示出错的部分。"
 
 #: ../include/page.php:123
@@ -816,128 +1203,203 @@ msgstr "主页"
 msgid "How to contribute"
 msgstr "如何捐助"
 
-#: ../translation/howto.php:8
-#: ../translation/menu.php:8
+#: ../translation/howto.php:8 ../translation/menu.php:8
 msgid "Howto"
 msgstr "如何去做"
 
-#: ../news.php:164
-msgid "I would like to take this opportunity to thank all those who gave their time to help with the development, testing, translation and packaging of this release."
-msgstr "借这个机会，向所有在这个版本的开发、测试、翻译和打包中提供帮助的人表示感谢。"
+#: ../news.php:108
+#, fuzzy
+msgid ""
+"I would like to take this opportunity to thank all those who gave their \n"
+"time to help with the development, testing, translation and packaging of "
+"this release."
+msgstr ""
+"借这个机会，向所有在这个版本的开发、测试、翻译和打包中提供帮助的人表示感谢。"
 
-#: ../news.php:104
-msgid "I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"
-msgstr "我高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的PostgreSQL的图形化管理工具，pgAdmin 1.6.0版正式发布，现在可以从这里下载源代码和各种二进制格式："
+#: ../news.php:268
+msgid ""
+"I would like to take this opportunity to thank all those who gave their time "
+"to help with the development, testing, translation and packaging of this "
+"release."
+msgstr ""
+"借这个机会，向所有在这个版本的开发、测试、翻译和打包中提供帮助的人表示感谢。"
 
-#: ../features.php:96
+#: ../news.php:208
+msgid ""
+"I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source "
+"graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS "
+"X and Solaris, now available for download in source and a variety of binary "
+"formats from:"
+msgstr ""
+"我高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的PostgreSQL的图"
+"形化管理工具，pgAdmin 1.6.0版正式发布，现在可以从这里下载源代码和各种二进制格"
+"式："
+
+#: ../features.php:97
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 
 #: ../development/index.php:14
 #, php-format
-msgid "If you are not a programmer, you can still get involved in the project if you wish - as a <a href=\"%s\">translator</a>, or <a href=\"%s\">promoting</a> pgAdmin."
-msgstr "如果你不是一个程序员，可以作为<a href=\"%s\">翻译者</a>或者<a href=\"%s\">推广人员</a>加入这个项目。"
+msgid ""
+"If you are not a programmer, you can still get involved in the project if "
+"you wish - as a <a href=\"%s\">translator</a>, or <a href=\"%s\">promoting</"
+"a> pgAdmin."
+msgstr ""
+"如果你不是一个程序员，可以作为<a href=\"%s\">翻译者</a>或者<a href=\"%s\">推"
+"广人员</a>加入这个项目。"
 
 #: ../translation/status.php:29
-msgid "If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us CC'd to the translator."
-msgstr "如果你不是某个语种翻译的维护者或者作者但是希望提交一个翻译修正：下载语言文件（扩展名*.po），修正后发送给我们并且抄送给原作者。"
+msgid ""
+"If you are not the author/maintainer of a translation and wish to submit a "
+"translation fix: download the language file (*.po extension), make the "
+"necessary corrections and send it back to us CC'd to the translator."
+msgstr ""
+"如果你不是某个语种翻译的维护者或者作者但是希望提交一个翻译修正：下载语言文件"
+"（扩展名*.po），修正后发送给我们并且抄送给原作者。"
 
 #: ../support/list.php:12
-msgid "If you are posting a bug report, please include the following information where possible:"
+msgid ""
+"If you are posting a bug report, please include the following information "
+"where possible:"
 msgstr "如果你要发送一个bug报告，请尽可能包含以下信息："
 
 #: ../translation/status.php:27
-msgid "If you are the maintainer of a translation and wish to update your work, download the template file (*.pot extension), execute poEdit and use the 'update from template' command. Translate the text and send us the *.po file."
-msgstr "如果你是某个语种翻译的维护者并且希望升级你的工作，下载模板文件（扩展名*.pot），运行poEdit后使用“从POT文件更新”，翻译完毕后将*.po文件传送给我们。"
+msgid ""
+"If you are the maintainer of a translation and wish to update your work, "
+"download the template file (*.pot extension), execute poEdit and use the "
+"'update from template' command. Translate the text and send us the *.po file."
+msgstr ""
+"如果你是某个语种翻译的维护者并且希望升级你的工作，下载模板文件（扩展名*."
+"pot），运行poEdit后使用“从POT文件更新”，翻译完毕后将*.po文件传送给我们。"
 
 #: ../support/index.php:12
 #, php-format
-msgid "If you have a problem that you need help with, please make sure you check the <a href=\"%s\">Frequently Asked Questions</a> list as well as the pgAdmin documentation for a solution first. If you cannot find the answer you need there, then please try searching Google (a Google search facility is provided at the top of the page) next. Make sure you include any relevant error messages in your query. If you still cannot find the answer you need, then please post a message to the <a href=\"%s\">pgadmin-support</a> mailing list."
-msgstr "如果你有问题需要帮助，请首先翻阅<a href=\"%s\">常见问题</a>列表和pgAdmin文档寻求答案；如果不能找到需要的解答，接下来请尝试用Google搜索（网站页面上部提供一个快捷Google搜索）并确认你的查询条件包含所有的相关错误信息。如果依然不能找到你需要的答案，请向<a href=\"%s\">pgadmin-support</a>邮件列表发送信息。"
+msgid ""
+"If you have a problem that you need help with, please make sure you check "
+"the <a href=\"%s\">Frequently Asked Questions</a> list as well as the "
+"pgAdmin documentation for a solution first. If you cannot find the answer "
+"you need there, then please try searching Google (a Google search facility "
+"is provided at the top of the page) next. Make sure you include any relevant "
+"error messages in your query. If you still cannot find the answer you need, "
+"then please post a message to the <a href=\"%s\">pgadmin-support</a> mailing "
+"list."
+msgstr ""
+"如果你有问题需要帮助，请首先翻阅<a href=\"%s\">常见问题</a>列表和pgAdmin文档"
+"寻求答案；如果不能找到需要的解答，接下来请尝试用Google搜索（网站页面上部提供"
+"一个快捷Google搜索）并确认你的查询条件包含所有的相关错误信息。如果依然不能找"
+"到你需要的答案，请向<a href=\"%s\">pgadmin-support</a>邮件列表发送信息。"
 
 #: ../download/debian.php:26
 #, php-format
-msgid "If you need a more up to date version of pgAdmin III, an APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/debian</i>"
-msgstr "如果你需要比现在更新的版本，我们提供了方便安装的APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜像</a>列表中选择一个镜像，点击某个国旗，拷贝重定向后的URL。在每一个镜像中，安装包放在：<i>/pgadmin3/release/debian</i>"
+msgid ""
+"If you need a more up to date version of pgAdmin III, an APT repository is "
+"provided to ease installation. Before you start installation, please choose "
+"a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one "
+"of the flags, and copy the URL you are redirected to. On each mirror, the "
+"packages are located in: <i>/pgadmin3/release/debian</i>"
+msgstr ""
+"如果你需要比现在更新的版本，我们提供了方便安装的APT库。在安装之前，从<a href="
+"\"%s\">PostgreSQL镜像</a>列表中选择一个镜像，点击某个国旗，拷贝重定向后的"
+"URL。在每一个镜像中，安装包放在：<i>/pgadmin3/release/debian</i>"
 
 #: ../contribute.php:14
 #, php-format
-msgid "If you think you can contribute new features and/or bug fixes, please visit the <a href=\"%s\">development</a> page."
-msgstr "如果你认为可以协助开发新特性和/或bug修正，请访问 <a href=\"%s\">开发</a> 页面。"
+msgid ""
+"If you think you can contribute new features and/or bug fixes, please visit "
+"the <a href=\"%s\">development</a> page."
+msgstr ""
+"如果你认为可以协助开发新特性和/或bug修正，请访问 <a href=\"%s\">开发</a> 页"
+"面。"
 
 #: ../translation/howto.php:40
-msgid "In poEdit, clicking on the save button will automatically compile pgadmin3.po."
+msgid ""
+"In poEdit, clicking on the save button will automatically compile pgadmin3."
+"po."
 msgstr "poEdit在保存时会自动生成pgadmin3.po。"
 
-#: ../news.php:86
+#: ../news.php:190
 msgid "Include IN/OUT/INOUT keywords in procedure identifiers in the treeview."
 msgstr "在树状视图中显示存储过程的IN/OUT/INOUT关键字。"
 
-#: ../features.php:71
+#: ../features.php:72
 msgid "Indexes"
 msgstr "索引"
 
-#: ../advocacy/information.php:8
-#: ../advocacy/menu.php:8
+#: ../advocacy/information.php:8 ../advocacy/menu.php:8
 msgid "Information"
 msgstr "信息"
 
-#: ../news.php:188
-msgid "Install PkgInfo into the Contents directory in the OSX appbundle, per John DeSoi."
-msgstr "在OSX包中将PkgInfo安装到Contents目录，John DeSoi修改。"
-
-#: ../download/adminpacks.php:22
-msgid "Install the appropriate admin pack for the version of pgAdmin that you use, and the server you are running. pgInstaller distributions of PostgreSQL for Windows include the admin packs."
-msgstr "安装你正在使用的pgAdmin和数据库服务器相应的管理工具包。Windows版PostgreSQL安装包中已经包含管理工具包。"
+#: ../download/adminpacks.php:16
+msgid ""
+"Install the appropriate admin pack for the version of pgAdmin that you use, "
+"and the server you are running. pgInstaller distributions of PostgreSQL for "
+"Windows include the admin packs."
+msgstr ""
+"安装你正在使用的pgAdmin和数据库服务器相应的管理工具包。Windows版PostgreSQL安"
+"装包中已经包含管理工具包。"
 
 #: ../download/debian.php:61
 msgid "Installation"
 msgstr "安装"
 
-#: ../index.php:14
-#: ../menu.php:6
-#: ../advocacy/index.php:8
-#: ../advocacy/menu.php:6
-#: ../development/index.php:8
-#: ../development/menu.php:6
-#: ../docs/index.php:8
-#: ../docs/menu.php:6
-#: ../download/index.php:8
-#: ../download/menu.php:6
-#: ../screenshots/index.php:8
-#: ../screenshots/menu.php:6
-#: ../support/index.php:8
-#: ../support/menu.php:6
-#: ../translation/index.php:8
+#: ../news.php:27
+msgid "Integrate the EnterpriseDB pl/pgsql and EDB-SPL debugger with pgAdmin."
+msgstr ""
+
+#: ../index.php:14 ../menu.php:6 ../advocacy/index.php:8
+#: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
+#: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
+#: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
+#: ../support/index.php:8 ../support/menu.php:6 ../translation/index.php:8
 #: ../translation/menu.php:6
 msgid "Introduction"
 msgstr "介绍"
 
 #: ../advocacy/index.php:14
 #, php-format
-msgid "It's easy to see how promoting pgAdmin benefits us all in the long term. Read the <a href=\"%s\">strategy</a> page to see how you might be able to help."
-msgstr "如何推广pgAdmin以便长远得帮助我们是非常简单的事情，请查看<a href=\"%s\">策略</a>网页去了解你应该如何去做。"
+msgid ""
+"It's easy to see how promoting pgAdmin benefits us all in the long term. "
+"Read the <a href=\"%s\">strategy</a> page to see how you might be able to "
+"help."
+msgstr ""
+"如何推广pgAdmin以便长远得帮助我们是非常简单的事情，请查看<a href=\"%s\">策略"
+"</a>网页去了解你应该如何去做。"
 
-#: ../features.php:94
+#: ../features.php:95
 msgid "JOHAB"
 msgstr "JOHAB"
 
-#: ../features.php:99
+#: ../features.php:100
 msgid "KOI8"
 msgstr "KOI8"
 
 #: ../translation/howto.php:78
-msgid "Keyboard shortcuts are denoted by a leading '&amp;'. For example '&amp;Add', which is translated into French by '&amp;Ajouter', can be triggered from keyboard using Alt + A. Be careful when changing letters, to avoid keyboard entry conflicts within one menu. If you deviate from the original shortcut keys, pgAdmin users might have problems remembering shortcuts in both English and translated pgAdmin versions. Therefore, be extra careful when creating new shortcuts if you cannot choose the same letter."
-msgstr "键盘快捷方式以'&amp;'开始，比如'&amp;Add'，翻译为法语是'&amp;Ajouter'，可以用键盘的Alt + A触发。改变这些字母时要小心，避免在同一个菜单下出现冲突，如果不使用本来的快捷键，pgAdmin用户可能会在英文版本和翻译版本之间遇到记忆不同快捷键的问题。因此，当不准备使用本来的字符而选择创建新的快捷键时要特别注意。"
+msgid ""
+"Keyboard shortcuts are denoted by a leading '&amp;'. For example '&amp;Add', "
+"which is translated into French by '&amp;Ajouter', can be triggered from "
+"keyboard using Alt + A. Be careful when changing letters, to avoid keyboard "
+"entry conflicts within one menu. If you deviate from the original shortcut "
+"keys, pgAdmin users might have problems remembering shortcuts in both "
+"English and translated pgAdmin versions. Therefore, be extra careful when "
+"creating new shortcuts if you cannot choose the same letter."
+msgstr ""
+"键盘快捷方式以'&amp;'开始，比如'&amp;Add'，翻译为法语是'&amp;Ajouter'，可以用"
+"键盘的Alt + A触发。改变这些字母时要小心，避免在同一个菜单下出现冲突，如果不使"
+"用本来的快捷键，pgAdmin用户可能会在英文版本和翻译版本之间遇到记忆不同快捷键的"
+"问题。因此，当不准备使用本来的字符而选择创建新的快捷键时要特别注意。"
 
-#: ../support/issues.php:8
-#: ../support/menu.php:10
+#: ../support/issues.php:8 ../support/menu.php:10
 msgid "Known issues"
 msgstr "已知的问题"
 
-#: ../features.php:95
-msgid "LATIN1, LATIN2, LATIN3, LATIN4, LATIN5, LATIN6, LATIN7, LATIN8, LATIN9, LATIN10"
-msgstr "LATIN1, LATIN2, LATIN3, LATIN4, LATIN5, LATIN6, LATIN7, LATIN8, LATIN9, LATIN10"
+#: ../features.php:96
+msgid ""
+"LATIN1, LATIN2, LATIN3, LATIN4, LATIN5, LATIN6, LATIN7, LATIN8, LATIN9, "
+"LATIN10"
+msgstr ""
+"LATIN1, LATIN2, LATIN3, LATIN4, LATIN5, LATIN6, LATIN7, LATIN8, LATIN9, "
+"LATIN10"
 
 #: ../include/po_status.php:254
 msgid "Language"
@@ -947,75 +1409,84 @@ msgstr "语种"
 msgid "Language:"
 msgstr "语种："
 
-#: ../download/languages.php:8
-#: ../download/menu.php:10
+#: ../download/languages.php:8 ../download/menu.php:10
 msgid "Languages"
 msgstr "语种"
 
 #: ../download/languages.php:10
 #, php-format
-msgid "Languages not included in the distribution package may be added at a later time. Please check the <a href=\"%s\">translation status</a> page to see whether your preferred language is available already, and to download the message catalogue."
-msgstr "分发包中没有包含其他语种，以后可能会追加。检查<a href=\"%s\">翻译状态</a>页面查看你首选的语言是否有效，然后下载message条目。"
+msgid ""
+"Languages not included in the distribution package may be added at a later "
+"time. Please check the <a href=\"%s\">translation status</a> page to see "
+"whether your preferred language is available already, and to download the "
+"message catalogue."
+msgstr ""
+"分发包中没有包含其他语种，以后可能会追加。检查<a href=\"%s\">翻译状态</a>页面"
+"查看你首选的语言是否有效，然后下载message条目。"
 
 #: ../licence.php:10
 #, php-format
 msgid "Last update: %s"
 msgstr "最后更新：%s"
 
-#: ../index.php:8
-#: ../news.php:8
+#: ../index.php:8 ../news.php:8
 msgid "Latest news"
 msgstr "最近的新闻"
 
-#: ../licence.php:8
-#: ../menu.php:10
+#: ../licence.php:8 ../menu.php:10
 msgid "Licence"
 msgstr "协议"
 
-#: ../features.php:15
-#: ../screenshots/index.php:19
+#: ../features.php:15 ../screenshots/index.php:19
 msgid "Linux"
 msgstr "Linux"
 
-#: ../development/menu.php:10
-#: ../support/menu.php:9
+#: ../development/menu.php:10 ../support/menu.php:9
 msgid "List archives"
 msgstr "归档列表"
+
+#: ../news.php:84
+msgid ""
+"Load second and subsequent postgresql.conf files into the config editor "
+"correctly."
+msgstr ""
 
 #: ../include/po_status.php:253
 msgid "Locale"
 msgstr "地域"
 
-#: ../features.php:54
+#: ../features.php:55
 msgid "Lock viewer"
 msgstr "锁查看器"
 
-#: ../features.php:53
+#: ../features.php:54
 msgid "Logfile browser"
 msgstr "日志文件浏览器"
 
 #: ../development/roadmap.php:35
-msgid "Logfile tab on server status window : multiple columns and filtering. [GL]"
+msgid ""
+"Logfile tab on server status window : multiple columns and filtering. [GL]"
 msgstr "服务器状态窗口的日志标签项：更多的列和过滤器。[GL]"
 
-#: ../features.php:98
+#: ../features.php:99
 msgid "MULE_INTERNAL"
 msgstr "MULE_INTERNAL"
 
-#: ../features.php:17
-#: ../download/macosx.php:8
-#: ../download/menu.php:11
+#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr "Mac OSX"
 
 #: ../download/macosx.php:12
-msgid "Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Newer versions are being built on Tiger. v1.6 and above are built as Mac Universal binaries for Intel and PPC architectures."
-msgstr "基于Panther制作的Mac OSX包最高至pgAdmin 1.4.1版，更新的版本基于Tiger制作，1.6以及更高版本基于针对Intel and PPC架构的Mac Universal制作。"
+msgid ""
+"Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Newer "
+"versions are being built on Tiger. v1.6 and above are built as Mac Universal "
+"binaries for Intel and PPC architectures."
+msgstr ""
+"基于Panther制作的Mac OSX包最高至pgAdmin 1.4.1版，更新的版本基于Tiger制作，1.6"
+"以及更高版本基于针对Intel and PPC架构的Mac Universal制作。"
 
-#: ../development/list.php:8
-#: ../development/menu.php:9
-#: ../support/list.php:8
+#: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
 msgid "Mailing list"
 msgstr "邮件列表"
@@ -1024,21 +1495,16 @@ msgstr "邮件列表"
 msgid "Maintainer"
 msgstr "维护者"
 
-#: ../download/debian.php:10
-#: ../download/freebsd.php:10
-#: ../download/macosx.php:10
-#: ../download/opensuse.php:10
-#: ../download/rpm.php:10
-#: ../download/slackware.php:10
-#: ../download/solaris.php:10
-#: ../download/source.php:10
-#: ../download/ubuntu.php:10
-#: ../download/windows.php:10
+#: ../download/debian.php:10 ../download/freebsd.php:10
+#: ../download/macosx.php:10 ../download/opensuse.php:10
+#: ../download/rpm.php:10 ../download/slackware.php:10
+#: ../download/solaris.php:10 ../download/source.php:10
+#: ../download/ubuntu.php:10 ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr "维护者：%s"
 
-#: ../news.php:154
+#: ../news.php:258
 msgid "Make elements of the main windows dockable for maximum configurability."
 msgstr "使主窗口的组件在最大化配置时是可停靠的。"
 
@@ -1051,37 +1517,65 @@ msgid "Management tools for PostgreSQL"
 msgstr "针对PostgreSQL的管理工具"
 
 #: ../translation/howto.php:80
-msgid "Menu strings also contain hard coded shortcuts (Ctrl-X) or function keys (F5). These can be identified by a preceding \\t (tab). If appropriate, the modifier key name may be translated (Ctrl-), but the key combination must remain the same in all cases because the behaviour is hardcoded in the pgAdmin source."
-msgstr "菜单字符串也包含固定的快捷键编码（Ctrl-X）或者功能键（F5），他们使用前置的\t（tab）进行识别。控制键名可以翻译，但是\t之后的键组合必须保持原样，因为这些功能已经被写进pgAdmin源代码。"
+msgid ""
+"Menu strings also contain hard coded shortcuts (Ctrl-X) or function keys "
+"(F5). These can be identified by a preceding \\t (tab). If appropriate, the "
+"modifier key name may be translated (Ctrl-), but the key combination must "
+"remain the same in all cases because the behaviour is hardcoded in the "
+"pgAdmin source."
+msgstr ""
+"菜单字符串也包含固定的快捷键编码（Ctrl-X）或者功能键（F5），他们使用前置的\t"
+"（tab）进行识别。控制键名可以翻译，但是\t之后的键组合必须保持原样，因为这些功"
+"能已经被写进pgAdmin源代码。"
 
-#: ../development/list.php:12
-#: ../support/list.php:22
+#: ../development/list.php:12 ../support/list.php:22
 #, php-format
-msgid "Messages sent to the list may be browsed <a href=\"%s\">here</a> and are archived at <a href=\"%s\">PostgreSQL</a> and  <a href=\"%s\">mail-archive.com</a>."
-msgstr "发送到邮件列表的讯息可以从<a href=\"%s\">这里</a>或者归档<a href=\"%s\">PostgreSQL</a>和<a href=\"%s\">mail-archive.com</a>浏览。"
+msgid ""
+"Messages sent to the list may be browsed <a href=\"%s\">here</a> and are "
+"archived at <a href=\"%s\">PostgreSQL</a> and  <a href=\"%s\">mail-archive."
+"com</a>."
+msgstr ""
+"发送到邮件列表的讯息可以从<a href=\"%s\">这里</a>或者归档<a href=\"%s"
+"\">PostgreSQL</a>和<a href=\"%s\">mail-archive.com</a>浏览。"
 
 #: ../features.php:14
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr "Microsoft Windows &trade; 2000和更高版本"
 
-#: ../news.php:132
+#: ../news.php:236
 msgid "Minimal linking for pgAgent under *nix."
 msgstr "pgAgent在*nix系统下最小的连接制作。"
 
-#: ../news.php:23
+#: ../news.php:127
 msgid "Minor fix for edb/spl functions."
 msgstr "针对edb/spl 函数的微小调整。"
 
-#: ../news.php:31
-msgid "Monitor the streams again whilst backing up on Mac - this no longer crashes in wx2.8. Per Dave Livesay."
-msgstr "在Mac上备份的同时监视流活动 - 这样在wx2.8下不再崩溃，Dave Livesay修改。"
+#: ../news.php:135
+msgid ""
+"Monitor the streams again whilst backing up on Mac - this no longer crashes "
+"in wx2.8. Per Dave Livesay."
+msgstr ""
+"在Mac上备份的同时监视流活动 - 这样在wx2.8下不再崩溃，Dave Livesay修改。"
 
 #: ../translation/howto.php:82
-msgid "Most forms are not designed with resizing capabilities, because not only is this quite hard work but most dialogue contents aren't sizeable in a meaningful way anyway. The only resizing property dialogues are the function, view and rule property windows. Therefore, you may need to shrink the translated text to the English size. In general, we tried to leave enough space for translation texts, but if you believe there are certain places we should spend more space please let us know."
-msgstr "大部分窗体没有设计尺寸变更功能，因为这个不仅是非常繁重的工作而且大部分对话框内容尺寸是不可变的，只有函数、视图和规则属性窗口尺寸可变。因此，可能需要根据英文长度缩短翻译后的字符串，通常我们会给翻译后的字符串预留足够的空间，但是如果确定某个特定位置需要更多的预留空间，请联系我们。"
+msgid ""
+"Most forms are not designed with resizing capabilities, because not only is "
+"this quite hard work but most dialogue contents aren't sizeable in a "
+"meaningful way anyway. The only resizing property dialogues are the "
+"function, view and rule property windows. Therefore, you may need to shrink "
+"the translated text to the English size. In general, we tried to leave "
+"enough space for translation texts, but if you believe there are certain "
+"places we should spend more space please let us know."
+msgstr ""
+"大部分窗体没有设计尺寸变更功能，因为这个不仅是非常繁重的工作而且大部分对话框"
+"内容尺寸是不可变的，只有函数、视图和规则属性窗口尺寸可变。因此，可能需要根据"
+"英文长度缩短翻译后的字符串，通常我们会给翻译后的字符串预留足够的空间，但是如"
+"果确定某个特定位置需要更多的预留空间，请联系我们。"
 
 #: ../development/roadmap.php:22
-msgid "Move pgAgent into a standalone package that can be released on it's own schedule."
+msgid ""
+"Move pgAgent into a standalone package that can be released on it's own "
+"schedule."
 msgstr "将pgAgent放入独立包中以便能够按照它自己的计划表发布。"
 
 #: ../screenshots/menu.php:10
@@ -1092,11 +1586,11 @@ msgstr "多字节支持 &amp; 国际化"
 msgid "Multibyte and i18n"
 msgstr "多字节支持和国际化"
 
-#: ../features.php:89
+#: ../features.php:90
 msgid "Multibyte support"
 msgstr "多字节支持"
 
-#: ../features.php:37
+#: ../features.php:38
 msgid "Multilingual interface"
 msgstr "多语言界面"
 
@@ -1104,7 +1598,7 @@ msgstr "多语言界面"
 msgid "Multiplatform"
 msgstr "多平台"
 
-#: ../features.php:44
+#: ../features.php:45
 msgid "Native PostgreSQL acccess (no ODBC layer needed)"
 msgstr "系统本地化的PostgreSQL连接（不需要ODBC层）"
 
@@ -1114,60 +1608,125 @@ msgstr "新闻"
 
 #: ../download/windows.php:14
 #, php-format
-msgid "Note that the <a href=\"%s\">pgInstaller</a> distribution of PostgreSQL for Windows includes a bundled copy of pgAdmin."
+msgid ""
+"Note that the <a href=\"%s\">pgInstaller</a> distribution of PostgreSQL for "
+"Windows includes a bundled copy of pgAdmin."
 msgstr "注意Windows版PostgreSQL的<a href=\"%s\">安装包</a>中已经包含pgAdmin。"
 
-#: ../download/adminpacks.php:24
-msgid "Note: PostgreSQL 8.2 and above include the adminpack as a Contrib module."
+#: ../download/adminpacks.php:18
+msgid ""
+"Note: PostgreSQL 8.2 and above include the adminpack as a Contrib module."
 msgstr "注意：PostgreSQL 8.2以及更新版本已经将管理工具包作为一个分发组件。"
 
-#: ../features.php:60
-msgid "Objects are displayed with their SQL definition, and a user friendly list of properties. Dependent, and dependency objects may also be browsed, and object statistics viewed where appropriate."
-msgstr "数据库对象被显示为SQL定义以及用户友好方式的属性列表，还可以显示依存和从属对象，对象的统计信息也可以在适当的位置看到。"
+#: ../news.php:38
+msgid ""
+"Numerous changes to the database browser code to ensure changes to objects "
+"are properly reflected in the main window. In addition, the expanded/"
+"collapsed states of child nodes are retained wherever possible during "
+"refresh operations."
+msgstr ""
+
+#: ../features.php:61
+msgid ""
+"Objects are displayed with their SQL definition, and a user friendly list of "
+"properties. Dependent, and dependency objects may also be browsed, and "
+"object statistics viewed where appropriate."
+msgstr ""
+"数据库对象被显示为SQL定义以及用户友好方式的属性列表，还可以显示依存和从属对"
+"象，对象的统计信息也可以在适当的位置看到。"
 
 #: ../download/ubuntu.php:22
 #, php-format
-msgid "Once the key added, you need to choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/ubuntu</i>"
-msgstr "增加key之后，从<a href=\"%s\">PostgreSQL镜像列表</a>中选择一个镜像并且设置源代码列表，然后点击其中一个标记，拷贝重定向后的URL。在每一个镜像中，安装包放在：<i>/pgadmin3/release/ubuntu</i>。"
+msgid ""
+"Once the key added, you need to choose a mirror from the list of <a href=\"%s"
+"\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the "
+"flags, and copy the URL you are redirected to. On each mirror, the packages "
+"are located in: <i>/pgadmin3/release/ubuntu</i>"
+msgstr ""
+"增加key之后，从<a href=\"%s\">PostgreSQL镜像列表</a>中选择一个镜像并且设置源"
+"代码列表，然后点击其中一个标记，拷贝重定向后的URL。在每一个镜像中，安装包放"
+"在：<i>/pgadmin3/release/ubuntu</i>。"
 
-#: ../news.php:88
-msgid "Only enable the 'Include SQL' checkbox on the report dialog if there is SQL to include, Per Ezequias Rodrigues da Rocha"
-msgstr "如果包含SQL语句，在报表对话框中仅使'Include SQL'复选框有效，Ezequias Rodrigues da Rocha修改。"
+#: ../news.php:192
+msgid ""
+"Only enable the 'Include SQL' checkbox on the report dialog if there is SQL "
+"to include, Per Ezequias Rodrigues da Rocha"
+msgstr ""
+"如果包含SQL语句，在报表对话框中仅使'Include SQL'复选框有效，Ezequias "
+"Rodrigues da Rocha修改。"
 
 #: ../advocacy/information.php:32
-msgid "Open Source administration and management tools for the PostgreSQL database and derivative products such as EnterpriseDB, Pervasive Postgres and SRA PowerGres. Includes a graphical administration interface, an SQL query tool with grahical EXPLAIN, a procedural code editor, an SQL/shell/batch scheduling agent, Slony-I management and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. Available in more than a dozen languages and for several operating systems, including Microsoft Windows &trade;, Linux, FreeBSD, OpenSUSE, Mac OSX and Solaris."
-msgstr "针对PostgreSQL数据库及其派生产品（例如：EnterpriseDB、Pervasive Postgres和SRA PowerGres）的开放源码管理工具，包括一个图形化的管理界面、一个SQL查询工具、一个存储过程编辑器、Slony-I管理以及其他更多功能。pgAdmin III设计用来应对大多数用户的需求，从写一个简单的SQL语句到开发复杂的数据库。图形化界面支持所有PostgreSQL特性，使数据库管理简易化。有效支持超过一打的本地化语言，支持大多数主流操作系统，包括Microsoft Windows &trade;、Linux、FreeBSD、OpenSUSE、Mac OSX和Solaris。"
+msgid ""
+"Open Source administration and management tools for the PostgreSQL database "
+"and derivative products such as EnterpriseDB, Pervasive Postgres and SRA "
+"PowerGres. Includes a graphical administration interface, an SQL query tool "
+"with grahical EXPLAIN, a procedural code editor, an SQL/shell/batch "
+"scheduling agent, Slony-I management and much more. pgAdmin III is designed "
+"to answer the needs of most users, from writing simple SQL queries to "
+"developing complex databases. The graphical interface supports all "
+"PostgreSQL features and makes administration easy. Available in more than a "
+"dozen languages and for several operating systems, including Microsoft "
+"Windows &trade;, Linux, FreeBSD, OpenSUSE, Mac OSX and Solaris."
+msgstr ""
+"针对PostgreSQL数据库及其派生产品（例如：EnterpriseDB、Pervasive Postgres和"
+"SRA PowerGres）的开放源码管理工具，包括一个图形化的管理界面、一个SQL查询工"
+"具、一个存储过程编辑器、Slony-I管理以及其他更多功能。pgAdmin III设计用来应对"
+"大多数用户的需求，从写一个简单的SQL语句到开发复杂的数据库。图形化界面支持所有"
+"PostgreSQL特性，使数据库管理简易化。有效支持超过一打的本地化语言，支持大多数"
+"主流操作系统，包括Microsoft Windows &trade;、Linux、FreeBSD、OpenSUSE、Mac "
+"OSX和Solaris。"
 
 #: ../advocacy/information.php:26
-msgid "Open Source administration and management tools for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. Designed to answer the needs of most users."
-msgstr "针对PostgreSQL数据库的开放源码管理工具，包括一个图形化的管理界面、一个SQL查询工具、一个存储过程编辑器以及其他更多功能，能够应对大多数用户的需求。"
+msgid ""
+"Open Source administration and management tools for the PostgreSQL database. "
+"Includes a graphical administration interface, an SQL query tool, a "
+"procedural code editor and much more. Designed to answer the needs of most "
+"users."
+msgstr ""
+"针对PostgreSQL数据库的开放源码管理工具，包括一个图形化的管理界面、一个SQL查询"
+"工具、一个存储过程编辑器以及其他更多功能，能够应对大多数用户的需求。"
 
 #: ../advocacy/information.php:29
-msgid "Open Source administration and management tools for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. Available in more than a dozen languages and for most common operating systems."
-msgstr "针对PostgreSQL数据库的开放源码管理工具，包括一个图形化的管理界面、一个SQL查询工具、一个存储过程编辑器以及其他更多功能。pgAdmin III设计用来应对大多数用户的需求，从写一个简单的SQL语句到开发复杂的数据库。有效支持超过一打的本地化语言和大多数主流操作系统。"
+msgid ""
+"Open Source administration and management tools for the PostgreSQL database. "
+"Includes a graphical administration interface, an SQL query tool, a "
+"procedural code editor and much more. pgAdmin III is designed to answer the "
+"needs of most users, from writing simple SQL queries to developing complex "
+"databases. Available in more than a dozen languages and for most common "
+"operating systems."
+msgstr ""
+"针对PostgreSQL数据库的开放源码管理工具，包括一个图形化的管理界面、一个SQL查询"
+"工具、一个存储过程编辑器以及其他更多功能。pgAdmin III设计用来应对大多数用户的"
+"需求，从写一个简单的SQL语句到开发复杂的数据库。有效支持超过一打的本地化语言和"
+"大多数主流操作系统。"
 
 #: ../advocacy/information.php:23
-msgid "Open Source management and administration tools for the PostgreSQL database."
+msgid ""
+"Open Source management and administration tools for the PostgreSQL database."
 msgstr "针对PostgreSQL数据库的开放源码管理工具"
 
 #: ../features.php:18
 msgid "OpenBSD"
 msgstr "OpenBSD"
 
-#: ../download/menu.php:12
-#: ../download/opensuse.php:8
+#: ../download/menu.php:12 ../download/opensuse.php:8
 msgid "OpenSUSE"
 msgstr "OpenSUSE"
 
 #: ../download/opensuse.php:12
-msgid "OpenSUSE packages built on a server periodically updated to -current are available for download. These builds should run on most recent versions of OpenSUSE."
-msgstr "OpenSUSE包在一个服务器上定期制作，当前有效的可用下载不断被更新，它们应该用在OpenSUSE的最新版本上。"
+msgid ""
+"OpenSUSE packages built on a server periodically updated to -current are "
+"available for download. These builds should run on most recent versions of "
+"OpenSUSE."
+msgstr ""
+"OpenSUSE包在一个服务器上定期制作，当前有效的可用下载不断被更新，它们应该用在"
+"OpenSUSE的最新版本上。"
 
-#: ../features.php:72
+#: ../features.php:73
 msgid "Operator classes"
 msgstr "运算符类"
 
-#: ../features.php:73
+#: ../features.php:74
 msgid "Operators"
 msgstr "运算符"
 
@@ -1176,21 +1735,31 @@ msgstr "运算符"
 msgid "Out of date translations (%d)"
 msgstr "过时的翻译（%d）"
 
-#: ../features.php:39
+#: ../features.php:40
 #, php-format
-msgid "Over a dozen supported translations and over 25 partial translations. A detailed list of supported languages is available on the <a href=\"%s\">translation status</a> page."
-msgstr "支持超过一打的语种，另外还有25种正在翻译中，在<a href=\"%s\">翻译状态</a>页面可以看到语种支持的更详细信息。"
+msgid ""
+"Over a dozen supported translations and over 25 partial translations. A "
+"detailed list of supported languages is available on the <a href=\"%s"
+"\">translation status</a> page."
+msgstr ""
+"支持超过一打的语种，另外还有25种正在翻译中，在<a href=\"%s\">翻译状态</a>页面"
+"可以看到语种支持的更详细信息。"
 
-#: ../news.php:117
+#: ../news.php:221
 msgid "Overhaul of server config settings."
 msgstr "检查服务器配置"
 
 #: ../development/roadmap.php:41
-msgid "Overhaul settings management. Save settings on the fly rather than at exit. Take default values from an external file [DP]"
-msgstr "重写设置管理，在运行中保存设置而不是在退出时，从外部文件中取得缺省值。[DP]"
+msgid ""
+"Overhaul settings management. Save settings on the fly rather than at exit. "
+"Take default values from an external file [DP]"
+msgstr ""
+"重写设置管理，在运行中保存设置而不是在退出时，从外部文件中取得缺省值。[DP]"
 
 #: ../download/solaris.php:12
-msgid "Packages built for Solaris on Sparc and Intel are available, courtesy of Sun Microsystems."
+msgid ""
+"Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
+"Microsystems."
 msgstr "在Sun Microsystems的授权下，基于Sparc和Intel的Solaris之上制作。"
 
 #: ../privacypolicy.php:14
@@ -1198,32 +1767,71 @@ msgid "Personal data"
 msgstr "个人信息"
 
 #: ../support/list.php:24
-msgid "Please <b>do not</b> send an email directly to one of the programmers; they might miss it, or even be the wrong person at all. Using the mailing list guarantees that your request isn't lost and will be answered in a timely fashion."
-msgstr "<b>不要</b>直接给开发人员发送邮件，他们可能会忽视掉它，甚至有可能会发错给不相干的人。使用邮件列表提问以保证你的提问题不会丢失，也能获得一个比较及时的回复。"
+msgid ""
+"Please <b>do not</b> send an email directly to one of the programmers; they "
+"might miss it, or even be the wrong person at all. Using the mailing list "
+"guarantees that your request isn't lost and will be answered in a timely "
+"fashion."
+msgstr ""
+"<b>不要</b>直接给开发人员发送邮件，他们可能会忽视掉它，甚至有可能会发错给不相"
+"干的人。使用邮件列表提问以保证你的提问题不会丢失，也能获得一个比较及时的回"
+"复。"
 
 #: ../support/index.php:14
 #, php-format
-msgid "Please <b>do not</b> send an email directly to one of the programmers; they might miss it, or even be the wrong person at all. Using the mailing list guarantees that your request isn't lost and will be answered in a timely fashion. Dave Page's <a href=\"%s\">blog</a> includes a frank posting describing why this is a bad idea, whilst Eric Raymond's paper <a href=\"%s\">'How to ask questions the smart way'</a> describes the best way to get the help you need."
-msgstr "<b>不要</b>直接给开发人员发送邮件，他们可能会忽视掉它，甚至有可能会发错给不相干的人。使用邮件列表提问以保证你的提问不会丢失，也能获得一个比较及时的回复。Dave Page的<a href=\"%s\">blog</a>中提及了为什么说直接发邮件不是个好主意，另外Eric Raymond的主页<a href=\"%s\">'How to ask questions the smart way'</a>描述了获得帮助的最佳途径。"
+msgid ""
+"Please <b>do not</b> send an email directly to one of the programmers; they "
+"might miss it, or even be the wrong person at all. Using the mailing list "
+"guarantees that your request isn't lost and will be answered in a timely "
+"fashion. Dave Page's <a href=\"%s\">blog</a> includes a frank posting "
+"describing why this is a bad idea, whilst Eric Raymond's paper <a href=\"%s"
+"\">'How to ask questions the smart way'</a> describes the best way to get "
+"the help you need."
+msgstr ""
+"<b>不要</b>直接给开发人员发送邮件，他们可能会忽视掉它，甚至有可能会发错给不相"
+"干的人。使用邮件列表提问以保证你的提问不会丢失，也能获得一个比较及时的回复。"
+"Dave Page的<a href=\"%s\">blog</a>中提及了为什么说直接发邮件不是个好主意，另"
+"外Eric Raymond的主页<a href=\"%s\">'How to ask questions the smart way'</a>描"
+"述了获得帮助的最佳途径。"
 
 #: ../advocacy/strategy.php:19
-msgid "Please note that the official spelling is <b>pgAdmin</b> for the project, with <b>pgAdmin III</b> being the recent version of the administration tool itself. For filename or other canonical purposes, the spelling <b>pgadmin3</b> is used."
-msgstr "请注意<b>pgAdmin</b>是本项目的官方拼写方式，而<b>pgAdmin III</b>是管理工具本身最近发行的版本，文件名以及其他命名规范使用<b>pgadmin3</b>。"
+msgid ""
+"Please note that the official spelling is <b>pgAdmin</b> for the project, "
+"with <b>pgAdmin III</b> being the recent version of the administration tool "
+"itself. For filename or other canonical purposes, the spelling <b>pgadmin3</"
+"b> is used."
+msgstr ""
+"请注意<b>pgAdmin</b>是本项目的官方拼写方式，而<b>pgAdmin III</b>是管理工具本"
+"身最近发行的版本，文件名以及其他命名规范使用<b>pgadmin3</b>。"
 
 #: ../translation/howto.php:35
 #, php-format
-msgid "Please refer to the translation guidelines below to translate variables (%s and %d) and keyboard shortcuts entries (&amp;)."
+msgid ""
+"Please refer to the translation guidelines below to translate variables (%s "
+"and %d) and keyboard shortcuts entries (&amp;)."
 msgstr "准确反映变量（%s和%d）以及键盘快捷方式（&amp;）"
 
-#: ../download/ubuntu.php:50
-msgid "Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as wxWidgets2.8 is available from universe only at the moment. To do so, check the Ubuntu documentation or at least try to launch the update-manager configuration from the System/Administration Gnome menu."
-msgstr "请注意，此时另外需要ENABLE THE UNIVERSE COMPONENT以便使wxWidgets2.8有效化，参考Ubuntu文档，或者至少试着从System/Administration Gnome启动update-manager。"
+#: ../download/ubuntu.php:54
+msgid ""
+"Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as "
+"wxWidgets2.8 is available from universe only at the moment. To do so, check "
+"the Ubuntu documentation or at least try to launch the update-manager "
+"configuration from the System/Administration Gnome menu."
+msgstr ""
+"请注意，此时另外需要ENABLE THE UNIVERSE COMPONENT以便使wxWidgets2.8有效化，参"
+"考Ubuntu文档，或者至少试着从System/Administration Gnome启动update-manager。"
+
+#: ../news.php:53
+msgid ""
+"Position the cursor at the error position when an error occurs in the Query "
+"Tool. Ensure the line is visible."
+msgstr ""
 
 #: ../features.php:24
 msgid "PostgreSQL 7.3 and above"
 msgstr "PostgreSQL 7.3以及更高版本"
 
-#: ../news.php:110
+#: ../news.php:214
 msgid "PostgreSQL 8.2 support:"
 msgstr "PostgreSQL 8.2支持："
 
@@ -1231,72 +1839,112 @@ msgstr "PostgreSQL 8.2支持："
 msgid "PostgreSQL 8.4 compatibility (these items are subject to change)"
 msgstr "兼容PostgreSQL 8.4（可能经常发生变化）"
 
-#: ../features.php:33
+#: ../features.php:34
 msgid "PostgreSQL documentation (on-line and off-line)"
 msgstr "PostgreSQL在线与离线文档"
 
-#: ../features.php:74
+#: ../features.php:75
 msgid "PostgreSQL servers"
 msgstr "PostgreSQL服务器"
 
-#: ../features.php:45
+#: ../features.php:46
 msgid "Powerful query tool with colour syntax highlighting"
 msgstr "支持语法彩色高亮显示的强大查询工具"
 
-#: ../news.php:139
-msgid "Pre-encrypt passwords before sending them down the wire, or displaying them in SQL statements."
+#: ../news.php:243
+msgid ""
+"Pre-encrypt passwords before sending them down the wire, or displaying them "
+"in SQL statements."
 msgstr "在SQL语句中显示和修改前将密码重新加密。"
 
-#: ../news.php:95
+#: ../news.php:56
+msgid "Preserve column widths between queries in the query tool."
+msgstr ""
+
+#: ../news.php:199
 msgid "Prevent a crash from the query tool when using File -> Exit on GTK"
 msgstr "修正一个在GTK中使用查询工具的 文件->退出 导致崩溃的bug。"
 
-#: ../news.php:82
-msgid "Prevent a crash if the 'View Filtered Data' filter dialog is cancelled. Per Erwin Brandstetter."
-msgstr "防止当“查看过滤后的数据”对话框被取消以后引起的程序崩溃，Erwin Brandstetter修改。"
+#: ../news.php:186
+msgid ""
+"Prevent a crash if the 'View Filtered Data' filter dialog is cancelled. Per "
+"Erwin Brandstetter."
+msgstr ""
+"防止当“查看过滤后的数据”对话框被取消以后引起的程序崩溃，Erwin Brandstetter修"
+"改。"
 
-#: ../news.php:126
-msgid "Prevent deletion of the blank item in config editors, and ensure undo will only work on the appropriate line."
+#: ../news.php:230
+msgid ""
+"Prevent deletion of the blank item in config editors, and ensure undo will "
+"only work on the appropriate line."
 msgstr "在配置编辑器中防止删除空项目，保证undo操作只作用在合适的行上。"
 
-#: ../news.php:27
-msgid "Prevent the Edit Grid Filter causing a crash if an invalid filter containing a % is used, per Erwin."
-msgstr "防止当使用一个包含%的无效过滤条件时由编辑网格过滤器引发的崩溃，Erwin修改。"
+#: ../news.php:131
+msgid ""
+"Prevent the Edit Grid Filter causing a crash if an invalid filter containing "
+"a % is used, per Erwin."
+msgstr ""
+"防止当使用一个包含%的无效过滤条件时由编辑网格过滤器引发的崩溃，Erwin修改。"
 
-#: ../news.php:22
-msgid "Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL 8.2+, per Erwin."
+#: ../news.php:126
+msgid ""
+"Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL 8.2"
+"+, per Erwin."
 msgstr "防止RULE权限在PostgreSQL 8.2+下重新变得可用，Erwin修正。"
 
-#: ../news.php:55
-msgid "Prevent the filter/sort options dialogue being opened when data is being refreshed, per Erwin Brandstetter."
+#: ../news.php:159
+msgid ""
+"Prevent the filter/sort options dialogue being opened when data is being "
+"refreshed, per Erwin Brandstetter."
 msgstr "防止当数据正在被传送时打开过滤排序对话框，Erwin Brandstetter修改。"
 
-#: ../menu.php:11
-#: ../privacypolicy.php:8
+#: ../menu.php:11 ../privacypolicy.php:8
 msgid "Privacy policy"
 msgstr "隐私保护"
 
-#: ../news.php:113
+#: ../news.php:217
 msgid "Privilege changes (database CONNECT, and sequence USAGE)."
 msgstr "权限变更（数据库的CONNECT和序列号的USAG）"
 
-#: ../download/ubuntu.php:53
+#: ../download/ubuntu.php:57
 msgid "Proceed to installation"
 msgstr "进行安装"
 
 #: ../advocacy/index.php:12
-msgid "Promotion is essential for the life and development of the pgAdmin project. As the project gains more and more users it attracts additional developers who contribute new features and bug fixes and helping improve pgAdmin to the benefit of all it's users. As the project has grown even more popular, it has attracted the attention of PostgreSQL companies in addition to the users. Some of these companies have invested in the development of pgAdmin - for example, a Japanese company called SKC sponsored the development of the Slony-I management features, whilst EnterpriseDB provided an Apple Powerbook to allow the Mac OSX port to be properly developed and maintained."
-msgstr "推广pgAdmin是pgAdmin项目生存和发展的最基本要素。如果pgAdmin赢得越来越多的用户，就能够吸引更多的开发人员去开发新特性和进行bug修复，从而更多得让用户从中获益形成良性循环；如果项目变得越来越受欢迎，就能够吸引用户以外PostgreSQL公司的关注。一些公司已经在pgAdmin项目中投资，例如：一家叫SKC的日本公司发起开发了Slony-I，与此同时EnterpriseDB提供了一台苹果笔记本电脑以便对OSX部分进行维护和开发。"
+msgid ""
+"Promotion is essential for the life and development of the pgAdmin project. "
+"As the project gains more and more users it attracts additional developers "
+"who contribute new features and bug fixes and helping improve pgAdmin to the "
+"benefit of all it's users. As the project has grown even more popular, it "
+"has attracted the attention of PostgreSQL companies in addition to the "
+"users. Some of these companies have invested in the development of pgAdmin - "
+"for example, a Japanese company called SKC sponsored the development of the "
+"Slony-I management features, whilst EnterpriseDB provided an Apple Powerbook "
+"to allow the Mac OSX port to be properly developed and maintained."
+msgstr ""
+"推广pgAdmin是pgAdmin项目生存和发展的最基本要素。如果pgAdmin赢得越来越多的用"
+"户，就能够吸引更多的开发人员去开发新特性和进行bug修复，从而更多得让用户从中获"
+"益形成良性循环；如果项目变得越来越受欢迎，就能够吸引用户以外PostgreSQL公司的"
+"关注。一些公司已经在pgAdmin项目中投资，例如：一家叫SKC的日本公司发起开发了"
+"Slony-I，与此同时EnterpriseDB提供了一台苹果笔记本电脑以便对OSX部分进行维护和"
+"开发。"
 
-#: ../news.php:65
-msgid "Properly drop foreign keys in schemas whose names require quoting, per M S."
+#: ../news.php:85
+msgid ""
+"Prompt the user to save changes before opening a file from the recent files "
+"menu on the Query Tool."
+msgstr ""
+
+#: ../news.php:169
+msgid ""
+"Properly drop foreign keys in schemas whose names require quoting, per M S."
 msgstr "正确地在schemas中拖动需要引用名字的外键，M S修改。"
 
-#: ../news.php:91
+#: ../news.php:195
 msgid "Properly quote function parameter names, per Ken Priest."
 msgstr "正确引用函数的参数名，Ken Priest修改。"
 
-#: ../news.php:61
+#: ../news.php:165
 msgid "Properly size the backup dialog, per Patrick Headley."
 msgstr "备份对话框使用更加合适的尺寸，Patrick Headley修改。"
 
@@ -1305,72 +1953,130 @@ msgstr "备份对话框使用更加合适的尺寸，Patrick Headley修改。"
 msgid "Published translations (%d)"
 msgstr "已经发布的翻译（%d）"
 
-#: ../download/menu.php:13
-#: ../download/rpm.php:8
+#: ../download/menu.php:13 ../download/rpm.php:8
 msgid "RPM"
 msgstr "RPM包"
 
 #: ../development/roadmap.php:37
-msgid "Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [DP]"
+msgid ""
+"Redesign Table dialogue to remove sub-dialogues where possible and replace "
+"with grid style UI [DP]"
 msgstr "重新设计数据表对话框在可能的情况下用grid风格UI替代以移除子对话框[DP]。"
 
-#: ../news.php:67
+#: ../news.php:102
+msgid "Refactor code to remove database base classes."
+msgstr ""
+
+#: ../news.php:101
+msgid ""
+"Refactor code to remove support for building the Query Tool with a listview "
+"rather than a grid."
+msgstr ""
+
+#: ../news.php:96
+msgid ""
+"Refactor the Query Tool's execQuery function to prevent pgAdmin freezing "
+"while two long running queries are executing simultaneously."
+msgstr ""
+
+#: ../news.php:171
 msgid "Refresh database objects correctly, per Guy Rouillier."
 msgstr "正确刷新数据库对象，Guy Rouillier修改。"
 
-#: ../news.php:133
+#: ../news.php:237
 msgid "Reject invalid command line options in pgAgent."
 msgstr "pgAgent中拒绝无效的命令行参数。"
 
-#: ../docs/menu.php:8
-#: ../docs/menu.php:9
-#: ../docs/menu.php:10
+#: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
 #, php-format
 msgid "Release %s"
 msgstr "%s版本"
 
-#: ../news.php:21
+#: ../news.php:72
+msgid "Remember last used backup/restore filenames."
+msgstr ""
+
+#: ../news.php:71
+msgid "Remember last used save definition filename."
+msgstr ""
+
+#: ../news.php:125
 msgid "Remember the server's SSL mode property correctly."
 msgstr "正确保存服务器的SSL模式属性。"
 
-#: ../news.php:59
+#: ../news.php:100
+msgid "Remove a lot debugging code of little or no use."
+msgstr ""
+
+#: ../news.php:43
+msgid ""
+"Remove bundled copies of PostgreSQL/Slony docs to make it easier to localise "
+"the rest. Instead allow the use of local or online copies of the PostgreSQL, "
+"EnterpriseDB or Slony docs, each independently of the other."
+msgstr ""
+
+#: ../news.php:103
+msgid ""
+"Remove code specific to versions of wxWidgets that we no longer support."
+msgstr ""
+
+#: ../news.php:104
+msgid "Remove obsolete support for non-Unicode builds."
+msgstr ""
+
+#: ../news.php:62
+msgid ""
+"Replace the Mac installer with code to create a distribution disk image."
+msgstr ""
+
+#: ../news.php:163
 msgid "Restore dialog sizes correctly."
 msgstr "正确的恢复对话框尺寸"
 
-#: ../news.php:149
+#: ../news.php:42
+msgid "Retain column widths when refreshing the edit grid."
+msgstr ""
+
+#: ../news.php:69
+msgid "Retain the clipboard contents on app exit."
+msgstr ""
+
+#: ../news.php:253
 msgid "Retain values in the edit grid following a failed insert or update."
 msgstr "插入和更新数据发生错误时保留在数据网格中的值。"
 
-#: ../news.php:180
-msgid "Return the script return value when executing shell scripts from pgAgent, per Eric Shuman"
-msgstr "从pgAgent中执行shell脚本时返回脚本的返回值，Eric Shuman修改。"
-
-#: ../news.php:63
-msgid "Reverse engineer columns with multi-word names (like 'timestamp with timezone') correctly so that precision and array modifiers are included properly. Per Erwin Brandstetter."
-msgstr "正确的反转多单词名字（例如'timestamp with timezone'）以完全地包含精度和数组修饰符，Erwin Brandstetter修改。"
+#: ../news.php:167
+msgid ""
+"Reverse engineer columns with multi-word names (like 'timestamp with "
+"timezone') correctly so that precision and array modifiers are included "
+"properly. Per Erwin Brandstetter."
+msgstr ""
+"正确的反转多单词名字（例如'timestamp with timezone'）以完全地包含精度和数组修"
+"饰符，Erwin Brandstetter修改。"
 
 #: ../translation/howto.php:47
 msgid "Review your translation carefully:"
 msgstr "仔细检查你的翻译"
 
-#: ../news.php:84
-msgid "Rework the Find/Replace code to fix a couple of minor bugs and improve readability."
+#: ../news.php:188
+msgid ""
+"Rework the Find/Replace code to fix a couple of minor bugs and improve "
+"readability."
 msgstr "重写查找/替换部分代码修改几个小bug和提高可读性。"
 
-#: ../development/menu.php:14
-#: ../development/roadmap.php:8
+#: ../development/menu.php:14 ../development/roadmap.php:8
 msgid "Roadmap"
 msgstr "开发计划"
 
-#: ../features.php:75
+#: ../features.php:76
 msgid "Roles"
 msgstr "角色"
 
-#: ../features.php:49
+#: ../features.php:50
 msgid "Routine maintenance"
 msgstr "日常维护"
 
-#: ../features.php:76
+#: ../features.php:77
 msgid "Rules"
 msgstr "规则"
 
@@ -1378,16 +2084,15 @@ msgstr "规则"
 msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr "在<i>root</i>用户下运行下边的命令安装pgAdmin III"
 
-#: ../features.php:56
+#: ../features.php:57
 msgid "SQL/shell/batch job scheduling agent"
 msgstr "SQL/shell/批处理 作业调度代理。"
 
-#: ../features.php:92
+#: ../features.php:93
 msgid "SQL_ASCII"
 msgstr "SQL_ASCII"
 
-#: ../development/menu.php:7
-#: ../development/svn.php:8
+#: ../development/menu.php:7 ../development/svn.php:8
 msgid "SVN access"
 msgstr "访问SVN"
 
@@ -1395,7 +2100,7 @@ msgstr "访问SVN"
 msgid "SVN browser"
 msgstr "SVN浏览器"
 
-#: ../features.php:77
+#: ../features.php:78
 msgid "Schemas"
 msgstr "方案"
 
@@ -1405,27 +2110,42 @@ msgstr "屏幕截图"
 
 #: ../translation/howto.php:23
 #, php-format
-msgid "Send us the English and translated names of your language: 'French' and 'Fran&ccedil;ais', 'German' and 'Deutsch', etc. This will allow us to modify pgAdmin's <i>i18n/pgadmin3.lng</i> file to display the language properly in the application. We will also create a directory according to your locale canonical name under <i>/usr/share/pgadmin3/i18n</i> (Linux and other Unixes) or <i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i> (Windows). The list of language codes can be found on the <a href=\"%s\">Debian site</a>. You may also want to check the more detailed <a href=\"%s\">ISO 639.2 Codes for the Representation of Names of Languages</a>."
-msgstr "将语种英文和翻译后的名称发送给我们，比如 'French'和'Fran&ccedil;ais'、'German'和'Deutsch'、等等。我们据此修改pgAdmin的<i>i18n/pgadmin3.lng</i>文件以便能够在程序中正常显示，还会在<i>/usr/share/pgadmin3/i18n</i>（Linux或者其它Unix系统）或者<i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i>（Windows系统）之下创建一个按照地域命名规范命名的子目录。语种编号列表可以在<a href=\"%s\">Debian site</a>找到，也可以查看<a href=\"%s\">ISO 639.2 Codes for the Representation of Names of Languages</a>获得更详细的信息。"
+msgid ""
+"Send us the English and translated names of your language: 'French' and "
+"'Fran&ccedil;ais', 'German' and 'Deutsch', etc. This will allow us to modify "
+"pgAdmin's <i>i18n/pgadmin3.lng</i> file to display the language properly in "
+"the application. We will also create a directory according to your locale "
+"canonical name under <i>/usr/share/pgadmin3/i18n</i> (Linux and other "
+"Unixes) or <i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i> (Windows). The "
+"list of language codes can be found on the <a href=\"%s\">Debian site</a>. "
+"You may also want to check the more detailed <a href=\"%s\">ISO 639.2 Codes "
+"for the Representation of Names of Languages</a>."
+msgstr ""
+"将语种英文和翻译后的名称发送给我们，比如 'French'和'Fran&ccedil;"
+"ais'、'German'和'Deutsch'、等等。我们据此修改pgAdmin的<i>i18n/pgadmin3.lng</"
+"i>文件以便能够在程序中正常显示，还会在<i>/usr/share/pgadmin3/i18n</i>（Linux"
+"或者其它Unix系统）或者<i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i>"
+"（Windows系统）之下创建一个按照地域命名规范命名的子目录。语种编号列表可以在"
+"<a href=\"%s\">Debian site</a>找到，也可以查看<a href=\"%s\">ISO 639.2 Codes "
+"for the Representation of Names of Languages</a>获得更详细的信息。"
 
-#: ../features.php:78
+#: ../features.php:79
 msgid "Sequences"
 msgstr "序列号"
 
-#: ../screenshots/menu.php:11
-#: ../screenshots/serverstatus.php:8
+#: ../screenshots/menu.php:11 ../screenshots/serverstatus.php:8
 msgid "Server status"
 msgstr "服务器状态"
 
-#: ../features.php:55
+#: ../features.php:56
 msgid "Server status/process viewer"
 msgstr "服务器状态/进程查看器"
 
-#: ../features.php:79
+#: ../features.php:80
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "服务器端语言（例如：pl/pgsql、pl/perl、pl/python等等）"
 
-#: ../news.php:115
+#: ../news.php:219
 msgid "Shared database comments."
 msgstr "共享的数据库注释。"
 
@@ -1433,84 +2153,143 @@ msgstr "共享的数据库注释。"
 msgid "Simplified Chinese"
 msgstr "简体中文"
 
-#: ../download/ubuntu.php:55
-msgid "Simply use Synaptic to install pgAdmin III as you would do with any other package or run the following command from the command prompt:"
-msgstr "如同对其他包所做的那样简单地使用Synaptic安装pgAdmin III，或者在命令提示符下使用如下命令："
+#: ../download/ubuntu.php:59
+msgid ""
+"Simply use Synaptic to install pgAdmin III as you would do with any other "
+"package or run the following command from the command prompt:"
+msgstr ""
+"如同对其他包所做的那样简单地使用Synaptic安装pgAdmin III，或者在命令提示符下使"
+"用如下命令："
 
-#: ../download/menu.php:14
-#: ../download/slackware.php:8
+#: ../download/menu.php:14 ../download/slackware.php:8
 msgid "Slackware"
 msgstr "Slackware"
 
 #: ../download/slackware.php:12
-msgid "Slackware packages built on a server periodically updated to -current are available for download. These builds should run on most recent versions of Slackware."
-msgstr "Slackware包在一个服务器上定期制作，当前有效的可用下载不断被更新，它们应该用在Slackware的最新版本上。"
+msgid ""
+"Slackware packages built on a server periodically updated to -current are "
+"available for download. These builds should run on most recent versions of "
+"Slackware."
+msgstr ""
+"Slackware包在一个服务器上定期制作，当前有效的可用下载不断被更新，它们应该用在"
+"Slackware的最新版本上。"
 
-#: ../features.php:34
+#: ../features.php:35
 msgid "Slony-I documentation"
 msgstr "Slony-I文档"
 
-#: ../features.php:80
+#: ../features.php:81
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Slony-I对象（例如节点、聚簇等）"
 
-#: ../download/menu.php:15
-#: ../download/snapshots.php:8
+#: ../download/menu.php:15 ../download/snapshots.php:8
 msgid "Snapshots"
 msgstr "每日快照"
 
-#: ../features.php:19
-#: ../download/menu.php:16
-#: ../download/solaris.php:8
+#: ../features.php:19 ../download/menu.php:16 ../download/solaris.php:8
 #: ../screenshots/index.php:25
 msgid "Solaris"
 msgstr "Solaris"
 
 #: ../translation/howto.php:76
-msgid "Some messages include %s or %d variables placeholders. During execution, %s will be replaced by a string and %d by a decimal number. Please take special care to include all %s and %d variable placeholders correctly, otherwise pgAdmin may crash. On some occasions, it might be necessary to reorder placeholders. In the following (ficticious) example, both parameter positions are exchanged: <i>Server %s user %s is logged in</i> could be translated as <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
-msgstr "一些信息包含%s或者%d变量占位符，执行的时候，%s会被替换为一个字符串而%d会替换为十进制数，要特别注意准确放置%s和%d，否则pgAdmin可能崩溃。必要的时候，可能需要重新排序占位符。下边的例子，两个参数位置都发生变化：<i>Server %s user %s is logged in</i>可以被翻译为<i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>"
+msgid ""
+"Some messages include %s or %d variables placeholders. During execution, %s "
+"will be replaced by a string and %d by a decimal number. Please take special "
+"care to include all %s and %d variable placeholders correctly, otherwise "
+"pgAdmin may crash. On some occasions, it might be necessary to reorder "
+"placeholders. In the following (ficticious) example, both parameter "
+"positions are exchanged: <i>Server %s user %s is logged in</i> could be "
+"translated as <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
+msgstr ""
+"一些信息包含%s或者%d变量占位符，执行的时候，%s会被替换为一个字符串而%d会替换"
+"为十进制数，要特别注意准确放置%s和%d，否则pgAdmin可能崩溃。必要的时候，可能需"
+"要重新排序占位符。下边的例子，两个参数位置都发生变化：<i>Server %s user %s "
+"is logged in</i>可以被翻译为<i>L'utilisateur s%2$s est connect&eacute; au "
+"serveur %1$s</i>"
 
-#: ../download/menu.php:17
-#: ../download/source.php:8
+#: ../news.php:82
+msgid "Sort server list alphabetically."
+msgstr ""
+
+#: ../download/menu.php:17 ../download/source.php:8
 msgid "Source code"
 msgstr "源代码"
 
 #: ../download/snapshots.php:10
 #, php-format
-msgid "Source tarballs and binary snapshots for a variety of platforms are built from <a href=\"%s\">SVN trunk</a> daily. Other snapshots are built on a less regular basis, following programming milestones."
-msgstr "针对多种平台的源代码tar包和二进制快照每日从<a href=\"%s\">SVN trunk</a>中制作，其他的快照按照程序员们的进度以更慢的频度制作。"
+msgid ""
+"Source tarballs and binary snapshots for a variety of platforms are built "
+"from <a href=\"%s\">SVN trunk</a> daily. Other snapshots are built on a less "
+"regular basis, following programming milestones."
+msgstr ""
+"针对多种平台的源代码tar包和二进制快照每日从<a href=\"%s\">SVN trunk</a>中制"
+"作，其他的快照按照程序员们的进度以更慢的频度制作。"
 
 #: ../download/source.php:12
-msgid "Source tarballs are available for users wishing to compile their own copy of pgAdmin, or those using platforms for which we do not supply prebuilt packages."
-msgstr "针对那些想自己编译pgAdmin或者我们的预编译包没有所用平台相应版本的用户，我们也提供了源程序tar包。"
+msgid ""
+"Source tarballs are available for users wishing to compile their own copy of "
+"pgAdmin, or those using platforms for which we do not supply prebuilt "
+"packages."
+msgstr ""
+"针对那些想自己编译pgAdmin或者我们的预编译包没有所用平台相应版本的用户，我们也"
+"提供了源程序tar包。"
+
+#: ../news.php:37
+msgid ""
+"Speed up loading of functions and procedures by rewriting some horribly "
+"inefficient code."
+msgstr ""
 
 #: ../privacypolicy.php:10
 msgid "Standard logging"
 msgstr "标准日志"
 
-#: ../include/po_status.php:259
-#: ../translation/menu.php:7
+#: ../include/po_status.php:259 ../translation/menu.php:7
 #: ../translation/status.php:25
 msgid "Status"
 msgstr "状态"
 
 #: ../support/list.php:19
-msgid "Steps required to reproduce the problem. Please include a simple scheme with optional data if required. This may be sent privately <b>upon request from a developer</b> if you are concerned about posting sample code or data to a public mailing list."
-msgstr "重现问题的步骤，必要的话请附加简单的带有少量数据的scheme。如果不想把自己的代码和数据发送到公共邮件列表，可以<b>应开发人员的要求</b>给他发送一封私有信件。"
+msgid ""
+"Steps required to reproduce the problem. Please include a simple scheme with "
+"optional data if required. This may be sent privately <b>upon request from a "
+"developer</b> if you are concerned about posting sample code or data to a "
+"public mailing list."
+msgstr ""
+"重现问题的步骤，必要的话请附加简单的带有少量数据的scheme。如果不想把自己的代"
+"码和数据发送到公共邮件列表，可以<b>应开发人员的要求</b>给他发送一封私有信件。"
 
 #: ../translation/howto.php:74
-msgid "Stick as much as possible to words which are close to the original SQL syntax. For example, in French, you may use <i>vue</i> for <i>view</i> because both words start with the letter 'v'. Do not choose distant words like <i>d&eacute;clencheur</i> for <i>trigger</i>, because some users may not be able to make a good use of the SQL syntax. Sometimes it is better to simply leave these keywords untranslated, instead of creating a fancy word nobody will recognise. Otherwise, users may switch to the English version."
-msgstr "尽可能的使用接近原始SQL语法的单词，比如法语中，可以使用<i>vue</i>表示<i>view</i>，因为他们都是以'v'开头，而不去选择关系较远的<i>d&eacute;clencheur</i>表示<i>trigger</i>，否则的话可能有些用户不能很好的使用SQL语法。有时简单的保留这些关键字不翻译，用特殊字体标识它是个更好的主意。否则，用户可能宁愿切换到英文版。"
+msgid ""
+"Stick as much as possible to words which are close to the original SQL "
+"syntax. For example, in French, you may use <i>vue</i> for <i>view</i> "
+"because both words start with the letter 'v'. Do not choose distant words "
+"like <i>d&eacute;clencheur</i> for <i>trigger</i>, because some users may "
+"not be able to make a good use of the SQL syntax. Sometimes it is better to "
+"simply leave these keywords untranslated, instead of creating a fancy word "
+"nobody will recognise. Otherwise, users may switch to the English version."
+msgstr ""
+"尽可能的使用接近原始SQL语法的单词，比如法语中，可以使用<i>vue</i>表示"
+"<i>view</i>，因为他们都是以'v'开头，而不去选择关系较远的<i>d&eacute;"
+"clencheur</i>表示<i>trigger</i>，否则的话可能有些用户不能很好的使用SQL语法。"
+"有时简单的保留这些关键字不翻译，用特殊字体标识它是个更好的主意。否则，用户可"
+"能宁愿切换到英文版。"
 
-#: ../advocacy/menu.php:7
-#: ../advocacy/strategy.php:8
+#: ../advocacy/menu.php:7 ../advocacy/strategy.php:8
 msgid "Strategy"
 msgstr "策略"
 
 #: ../translation/howto.php:15
 #, php-format
-msgid "Subscribe to the <a href=\"%s\">pgadmin-hackers</a> mailing list and declare yourself as a translator by sending an email to the list. Upon receipt of your email, we will add you to the <a href=\"%s\">translator list</a> and make sure two translators do not work at the same time on the same language."
-msgstr "订阅<a href=\"%s\">pgadmin-hackers</a>邮件列表并且发送一份邮件声明自己是一个翻译者。根据收到的邮件，我们会把你加入到<a href=\"%s\">翻译者列表</a>中，确保不会有两个翻译者同时在翻译同一种语言。"
+msgid ""
+"Subscribe to the <a href=\"%s\">pgadmin-hackers</a> mailing list and declare "
+"yourself as a translator by sending an email to the list. Upon receipt of "
+"your email, we will add you to the <a href=\"%s\">translator list</a> and "
+"make sure two translators do not work at the same time on the same language."
+msgstr ""
+"订阅<a href=\"%s\">pgadmin-hackers</a>邮件列表并且发送一份邮件声明自己是一个"
+"翻译者。根据收到的邮件，我们会把你加入到<a href=\"%s\">翻译者列表</a>中，确保"
+"不会有两个翻译者同时在翻译同一种语言。"
 
 #: ../include/page.php:129
 msgid "Support"
@@ -1520,29 +2299,27 @@ msgstr "技术支持"
 msgid "Support for integrated tsearch configuration in PG 8.3+"
 msgstr "支持在PG 8.3+中集成的tsearch设置。"
 
-#: ../news.php:120
+#: ../news.php:224
 msgid "Support for language templates."
 msgstr "支持语言模板。"
 
-#: ../screenshots/menu.php:12
-#: ../screenshots/xgl.php:8
+#: ../screenshots/menu.php:12 ../screenshots/xgl.php:8
 msgid "Suse 10 XGL"
 msgstr "Suse 10 XGL"
 
-#: ../features.php:103
+#: ../features.php:104
 msgid "TCVN"
 msgstr "TCVN"
 
-#: ../development/menu.php:12
-#: ../development/todo.php:8
+#: ../development/menu.php:12 ../development/todo.php:8
 msgid "TODO list"
 msgstr "工作计划列表"
 
-#: ../features.php:81
+#: ../features.php:82
 msgid "Tables"
 msgstr "表"
 
-#: ../features.php:82
+#: ../features.php:83
 msgid "Tablespaces"
 msgstr "表空间"
 
@@ -1552,31 +2329,70 @@ msgstr "开发组"
 
 #: ../translation/howto.php:68
 #, php-format
-msgid "The <a href=\"%s\">pgadmin3.pot</a> template file contains many SQL keywords (like 'ACL', 'AFTER', 'ANALYSE', etc.) which should not be translated. Some translators pointed out this issue, which cannot be fixed at present. Here is a short explanation: The pgadmin3.pot template file is generated by the <a href=\"%s\">stringextract script</a>, which extracts text from XRC dialogues using a wxWidgets utility called 'wxrc'. The problem stems from wxrc, which extracts all text entries in dialogues even SQL entries which should not be translated."
-msgstr "<a href=\"%s\">pgadmin3.pot</a>模板文件包含许多不应该翻译的SQL关键字（比如 'ACL'、'AFTER'、'ANALYSE'等等），一些翻译者指出了这个问题，但是目前无法修正。因为pgadmin3.pot模板文件是用<a href=\"%s\">stringextract script</a>生成的，stringextract script使用wxWidgets叫做'wxrc'的小工具从XRC对话框中抽取文本，这个问题源于wxrc，它抽取了所有的对话框文本甚至包括不应该被翻译的SQL条目。"
+msgid ""
+"The <a href=\"%s\">pgadmin3.pot</a> template file contains many SQL keywords "
+"(like 'ACL', 'AFTER', 'ANALYSE', etc.) which should not be translated. Some "
+"translators pointed out this issue, which cannot be fixed at present. Here "
+"is a short explanation: The pgadmin3.pot template file is generated by the "
+"<a href=\"%s\">stringextract script</a>, which extracts text from XRC "
+"dialogues using a wxWidgets utility called 'wxrc'. The problem stems from "
+"wxrc, which extracts all text entries in dialogues even SQL entries which "
+"should not be translated."
+msgstr ""
+"<a href=\"%s\">pgadmin3.pot</a>模板文件包含许多不应该翻译的SQL关键字（比如 "
+"'ACL'、'AFTER'、'ANALYSE'等等），一些翻译者指出了这个问题，但是目前无法修正。"
+"因为pgadmin3.pot模板文件是用<a href=\"%s\">stringextract script</a>生成的，"
+"stringextract script使用wxWidgets叫做'wxrc'的小工具从XRC对话框中抽取文本，这"
+"个问题源于wxrc，它抽取了所有的对话框文本甚至包括不应该被翻译的SQL条目。"
 
 #: ../support/faq.php:10
 #, php-format
-msgid "The Frequently Asked Questions (FAQ) document is a list of commonly asked questions and answers on pgAdmin. Please make sure you have reviewed the FAQ before asking for help on the <a href=\"%s\">pgsql-support</a> mailing list."
-msgstr "常见问题（FAQ）文档列出了关于pgAdmin经常被提及的问题与答案，在使用<a href=\"%s\">pgsql-support</a>邮件列表寻求帮助之前请检查FAQ以确认是否已存在相关答案。"
+msgid ""
+"The Frequently Asked Questions (FAQ) document is a list of commonly asked "
+"questions and answers on pgAdmin. Please make sure you have reviewed the FAQ "
+"before asking for help on the <a href=\"%s\">pgsql-support</a> mailing list."
+msgstr ""
+"常见问题（FAQ）文档列出了关于pgAdmin经常被提及的问题与答案，在使用<a href=\"%"
+"s\">pgsql-support</a>邮件列表寻求帮助之前请检查FAQ以确认是否已存在相关答案。"
 
 #: ../support/list.php:18
-msgid "The PostgreSQL version and configure options used (if compiled from source)"
+msgid ""
+"The PostgreSQL version and configure options used (if compiled from source)"
 msgstr "PostgreSQL版本和编译选项（如果是从源代码编译的话）"
 
 #: ../development/todo.php:10
 #, php-format
-msgid "The TODO list is a record of potential changes to pgAdmin that have been noted by the developers over the years. If an item appears on the list it does not necessarily mean that it is or even will be worked on, just that someone thought it would be a good idea. If you want to work on an item, please email the <a href=\"%s\">pgadmin-hackers</a> list first."
-msgstr "工作计划列表是一段时间之内开发人员们注意到的一些pgAdmin必要的修改，如果一个项目出现在列表中，表示它已经准备开发甚至是已经在开发中。如果想开发其中的一个项目，请首先发送邮件到<a href=\"%s\">pgadmin-hackers</a>。"
+msgid ""
+"The TODO list is a record of potential changes to pgAdmin that have been "
+"noted by the developers over the years. If an item appears on the list it "
+"does not necessarily mean that it is or even will be worked on, just that "
+"someone thought it would be a good idea. If you want to work on an item, "
+"please email the <a href=\"%s\">pgadmin-hackers</a> list first."
+msgstr ""
+"工作计划列表是一段时间之内开发人员们注意到的一些pgAdmin必要的修改，如果一个项"
+"目出现在列表中，表示它已经准备开发甚至是已经在开发中。如果想开发其中的一个项"
+"目，请首先发送邮件到<a href=\"%s\">pgadmin-hackers</a>。"
 
 #: ../download/adminpacks.php:10
-msgid "The admin packs to enable server instrumentation on PostgreSQL 8.x servers can be found in the <i>adminpacks</i> directory on the mirror network."
-msgstr "管理工具包使pgAdmin可以在PostgreSQL 8.x服务器上使用服务器指令，它可以在PostgreSQL镜像网的<i>adminpacks</i>目录下找到。"
+msgid ""
+"The admin packs to enable server instrumentation on PostgreSQL 8.x servers "
+"can be found in the <i>adminpacks</i> directory on the mirror network."
+msgstr ""
+"管理工具包使pgAdmin可以在PostgreSQL 8.x服务器上使用服务器指令，它可以在"
+"PostgreSQL镜像网的<i>adminpacks</i>目录下找到。"
 
 #: ../development/changelog.php:10
 #, php-format
-msgid "The change log is a record of the notable changes made to pgAdmin by the various developers. It is a manually maintained list, and as such may not include details of every minor change that has ever been made. If you need that level of detail, please check the commit messages in the <a href=\"%s\">SVN repository</a>."
-msgstr "更新日志记录了不同开发人员对pgAdmin所作的不明显改动，是一个手工维护的列表，可能没有包含每一个已经做出的修改。如果需要获得更详细的信息，请查看<a href=\"%s\">SVN repository</a>之上的提交信息。"
+msgid ""
+"The change log is a record of the notable changes made to pgAdmin by the "
+"various developers. It is a manually maintained list, and as such may not "
+"include details of every minor change that has ever been made. If you need "
+"that level of detail, please check the commit messages in the <a href=\"%s"
+"\">SVN repository</a>."
+msgstr ""
+"更新日志记录了不同开发人员对pgAdmin所作的不明显改动，是一个手工维护的列表，可"
+"能没有包含每一个已经做出的修改。如果需要获得更详细的信息，请查看<a href=\"%s"
+"\">SVN repository</a>之上的提交信息。"
 
 #: ../support/list.php:15
 msgid "The configure options used (if compiled from source)"
@@ -1595,17 +2411,18 @@ msgstr "数据网格"
 msgid "The database connection dialogue"
 msgstr "数据库连接对话框"
 
-#: ../include/archives.php:21
-#: ../include/archives.php:36
-#: ../include/doc.php:34
+#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
 #: ../include/doc.php:48
 msgid "The document requested does not exist!"
 msgstr "查找的文档不存在！"
 
 #: ../docs/index.php:12
 #, php-format
-msgid "The documentation is automatically imported from the pgAdmin <a href=\"%s\">SVN</a> source code repository, and is only available in English."
-msgstr "文档是从pgAdmin的<a href=\"%s\">SVN</a>代码库中自动抽取的，仅支持英文。"
+msgid ""
+"The documentation is automatically imported from the pgAdmin <a href=\"%s"
+"\">SVN</a> source code repository, and is only available in English."
+msgstr ""
+"文档是从pgAdmin的<a href=\"%s\">SVN</a>代码库中自动抽取的，仅支持英文。"
 
 #: ../screenshots/ui.php:24
 msgid "The function properties dialogue"
@@ -1616,82 +2433,182 @@ msgid "The graphical EXPLAIN tool"
 msgstr "图形化EXPLAIN工具"
 
 #: ../support/issues.php:12
-msgid "The list below is automatically extracted from the SVN repository and is only available in English. The issues listed affect to the current development code and all previous versions of pgAdmin where applicable."
-msgstr "下边的列表显示了对当前开发代码和所有适用的旧版本的影响，由SVN repository中自动抽取并且仅支持英文。"
+msgid ""
+"The list below is automatically extracted from the SVN repository and is "
+"only available in English. The issues listed affect to the current "
+"development code and all previous versions of pgAdmin where applicable."
+msgstr ""
+"下边的列表显示了对当前开发代码和所有适用的旧版本的影响，由SVN repository中自"
+"动抽取并且仅支持英文。"
 
 #: ../development/todo.php:12
 #, php-format
-msgid "The list below is automatically extracted from the pgAdmin <a href=\"%s\">SVN repository</a> and is only available in English."
-msgstr "下边的列表从pgAdmin的<a href=\"%s\">SVN repository</a>自动抽取，仅支持英文。"
+msgid ""
+"The list below is automatically extracted from the pgAdmin <a href=\"%s"
+"\">SVN repository</a> and is only available in English."
+msgstr ""
+"下边的列表从pgAdmin的<a href=\"%s\">SVN repository</a>自动抽取，仅支持英文。"
 
 #: ../support/faq.php:12
-msgid "The list below is automatically imported from the pgAdmin online help resources and is only available in English."
+msgid ""
+"The list below is automatically imported from the pgAdmin online help "
+"resources and is only available in English."
 msgstr "下边的列表是由pgAdmin在线帮助自动抽取，仅支持英文。"
 
 #: ../development/changelog.php:12
-msgid "The log below is automatically extracted from the SVN repository and is only available in English."
+msgid ""
+"The log below is automatically extracted from the SVN repository and is only "
+"available in English."
 msgstr "下边的列表从SVN repository自动抽取，仅支持英文。"
 
 #: ../support/list.php:16
-msgid "The operating system and version details - e.g. Windows XP Pro, SP2, or Slackware Linux 10, kernel 2.4.21"
-msgstr "操作系统和版本信息，比如Windows XP Pro、SP2或者Slackware Linux 10、kernel 2.4.21"
+msgid ""
+"The operating system and version details - e.g. Windows XP Pro, SP2, or "
+"Slackware Linux 10, kernel 2.4.21"
+msgstr ""
+"操作系统和版本信息，比如Windows XP Pro、SP2或者Slackware Linux 10、kernel "
+"2.4.21"
 
 #: ../download/index.php:12
-msgid "The pages in this section give additional details about each binary package available as well as more direct download links. In addition, you can download source tarballs, additional language translations and admin packs for you servers to enable additional functionality."
-msgstr "这个部分的网页给出了更多关于每个二进制包的细节和下载连接。另外，也可以下载源程序的tar文件包、其他的语言翻译以及管理工具包，以便能够具有更多的功能。"
+msgid ""
+"The pages in this section give additional details about each binary package "
+"available as well as more direct download links. In addition, you can "
+"download source tarballs, additional language translations and admin packs "
+"for you servers to enable additional functionality."
+msgstr ""
+"这个部分的网页给出了更多关于每个二进制包的细节和下载连接。另外，也可以下载源"
+"程序的tar文件包、其他的语言翻译以及管理工具包，以便能够具有更多的功能。"
 
 #: ../development/index.php:12
 #, php-format
-msgid "The pages in this section of the website should provide you with all the information you need to get started as a new developer, including <a href=\"%s\">SVN access</a>, the developers <a href=\"%s\">mailing list</a>, the  <a href=\"%s\">Development Team</a> structure, the  <a href=\"%s\">TODO list</a> and the  <a href=\"%s\">change log</a>."
-msgstr "这个部分的页面提供作为一个新进开发人员如何开始工作的所有信息，包括：<a href=\"%s\">访问SVN</a>、开发人员的<a href=\"%s\">邮件列表</a>、<a href=\"%s\">开发组</a>的结构、<a href=\"%s\">工作计划列表</a>以及<a href=\"%s\">更新日志</a>。"
-
-#: ../news.php:172
-msgid "The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.4.3, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"
-msgstr "pgAdmin开发组高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的PostgreSQL的图形化管理工具，pgAdmin 1.4.3版本正式发布，可以从这里下载源代码和各种二进制格式："
-
-#: ../news.php:76
-msgid "The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"
-msgstr "pgAdmin开发组高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的PostgreSQL的图形化管理工具，pgAdmin 1.6.1版本正式发布，可以从这里下载源代码和各种二进制格式："
-
-#: ../news.php:49
-msgid "The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"
-msgstr "pgAdmin开发组高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的PostgreSQL的图形化管理工具，pgAdmin 1.6.2版本正式发布，可以从这里下载源代码和各种二进制格式："
+msgid ""
+"The pages in this section of the website should provide you with all the "
+"information you need to get started as a new developer, including <a href=\"%"
+"s\">SVN access</a>, the developers <a href=\"%s\">mailing list</a>, the  <a "
+"href=\"%s\">Development Team</a> structure, the  <a href=\"%s\">TODO list</"
+"a> and the  <a href=\"%s\">change log</a>."
+msgstr ""
+"这个部分的页面提供作为一个新进开发人员如何开始工作的所有信息，包括：<a href="
+"\"%s\">访问SVN</a>、开发人员的<a href=\"%s\">邮件列表</a>、<a href=\"%s\">开"
+"发组</a>的结构、<a href=\"%s\">工作计划列表</a>以及<a href=\"%s\">更新日志</"
+"a>。"
 
 #: ../news.php:12
+#, fuzzy
 msgid ""
-"The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.3, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD\n"
-", Mac OS X and Solaris, now available for download in source and a variety of binary formats from:"
-msgstr "pgAdmin开发组高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的PostgreSQL的图形化管理工具，pgAdmin 1.6.3版本正式发布，可以从这里下载源代码和各种二进制格式："
+"The pgAdmin Development Team are pleased to announce the release of \n"
+"pgAdmin 1.8.0, the Open Source graphical PostgreSQL administration tool "
+"for \n"
+"Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download "
+"in \n"
+"source and a variety of binary formats from:"
+msgstr ""
+"pgAdmin开发组高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的"
+"PostgreSQL的图形化管理工具，pgAdmin 1.4.3版本正式发布，可以从这里下载源代码和"
+"各种二进制格式："
+
+#: ../news.php:180
+msgid ""
+"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
+"1.6.1, the Open Source graphical PostgreSQL administration tool for Windows, "
+"Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
+"and a variety of binary formats from:"
+msgstr ""
+"pgAdmin开发组高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的"
+"PostgreSQL的图形化管理工具，pgAdmin 1.6.1版本正式发布，可以从这里下载源代码和"
+"各种二进制格式："
+
+#: ../news.php:153
+msgid ""
+"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
+"1.6.2, the Open Source graphical PostgreSQL administration tool for Windows, "
+"Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
+"and a variety of binary formats from:"
+msgstr ""
+"pgAdmin开发组高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的"
+"PostgreSQL的图形化管理工具，pgAdmin 1.6.2版本正式发布，可以从这里下载源代码和"
+"各种二进制格式："
+
+#: ../news.php:116
+msgid ""
+"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
+"1.6.3, the Open Source graphical PostgreSQL administration tool for Windows, "
+"Linux, FreeBSD\n"
+", Mac OS X and Solaris, now available for download in source and a variety "
+"of binary formats from:"
+msgstr ""
+"pgAdmin开发组高兴地宣告，针对Windows、Linux、FreeBSD、Mac OS X和Solaris的"
+"PostgreSQL的图形化管理工具，pgAdmin 1.6.3版本正式发布，可以从这里下载源代码和"
+"各种二进制格式："
 
 #: ../screenshots/mb_i18n.php:14
-msgid "The pgAdmin III interface has been translated into more than a dozen languages, and partially translated into another 25 more. The interface supports all known Unicode scripts, even Right to Left (RTL) scripts like Arabic."
-msgstr "pgAdmin III界面已经被翻译为超过一打的语言，部分的被翻译为其他25种语言甚至更多，界面支持所有已知的Unicode编码，甚至支持像阿拉伯语这种由右向左的（RTL）编码。"
+msgid ""
+"The pgAdmin III interface has been translated into more than a dozen "
+"languages, and partially translated into another 25 more. The interface "
+"supports all known Unicode scripts, even Right to Left (RTL) scripts like "
+"Arabic."
+msgstr ""
+"pgAdmin III界面已经被翻译为超过一打的语言，部分的被翻译为其他25种语言甚至更"
+"多，界面支持所有已知的Unicode编码，甚至支持像阿拉伯语这种由右向左的（RTL）编"
+"码。"
 
 #: ../docs/index.php:10
-msgid "The pgAdmin documentation for the current development code, and recent major releases of the application is available for online browsing. Please select the documentation version you would like to view from the section menu."
-msgstr "正在开发和最近发布的主要版本的文档可以在线浏览，从选择菜单中选取你想查阅的版本。"
+msgid ""
+"The pgAdmin documentation for the current development code, and recent major "
+"releases of the application is available for online browsing. Please select "
+"the documentation version you would like to view from the section menu."
+msgstr ""
+"正在开发和最近发布的主要版本的文档可以在线浏览，从选择菜单中选取你想查阅的版"
+"本。"
 
 #: ../screenshots/documentation.php:12
 msgid "The pgAdmin help system"
 msgstr "pgAdmin帮助系统"
 
 #: ../screenshots/ui.php:10
-msgid "The pgAdmin project started in 1997 and the application is used by tens of thousands of users worldwide. With the help and suggestions of those users, we have been constantly improving the usability of pgAdmin."
-msgstr "pgAdmin开始于1997年，在世界范围内有数万用户，在这些用户的帮助和建议之下，我们在不断地提高pgAdmin的可用性。"
+msgid ""
+"The pgAdmin project started in 1997 and the application is used by tens of "
+"thousands of users worldwide. With the help and suggestions of those users, "
+"we have been constantly improving the usability of pgAdmin."
+msgstr ""
+"pgAdmin开始于1997年，在世界范围内有数万用户，在这些用户的帮助和建议之下，我们"
+"在不断地提高pgAdmin的可用性。"
 
 #: ../development/list.php:10
 #, php-format
-msgid "The pgadmin-hackers mailing list is intended for developers who wish to contribute to pgAdmin project. You are more than welcome to subscribe, but please remember to use <a href=\"%s\">pgadmin-support</a> list for end user support issues. To subscribe to the mailing list, send an email to <a href=\"%s\">%s</a> with the word 'subscribe', without quotes, as the body of message. To unsubscribe, send the word 'unsubscribe'."
-msgstr "pgadmin-hackers邮件列表更倾向于提供给希望投身到pgAdmin项目的开发人员使用，其他人仅仅需要订阅它，获得技术支持请使用针对最终用户的<a href=\"%s\">pgadmin-support</a>邮件列表。订阅邮件列表通过发送内容为'subscribe'（不包括单引号）的邮件到<a href=\"%s\">%s</a>来实现，解除订阅则发送'unsubscribe'。"
+msgid ""
+"The pgadmin-hackers mailing list is intended for developers who wish to "
+"contribute to pgAdmin project. You are more than welcome to subscribe, but "
+"please remember to use <a href=\"%s\">pgadmin-support</a> list for end user "
+"support issues. To subscribe to the mailing list, send an email to <a href="
+"\"%s\">%s</a> with the word 'subscribe', without quotes, as the body of "
+"message. To unsubscribe, send the word 'unsubscribe'."
+msgstr ""
+"pgadmin-hackers邮件列表更倾向于提供给希望投身到pgAdmin项目的开发人员使用，其"
+"他人仅仅需要订阅它，获得技术支持请使用针对最终用户的<a href=\"%s\">pgadmin-"
+"support</a>邮件列表。订阅邮件列表通过发送内容为'subscribe'（不包括单引号）的"
+"邮件到<a href=\"%s\">%s</a>来实现，解除订阅则发送'unsubscribe'。"
 
 #: ../support/list.php:10
 #, php-format
-msgid "The pgadmin-support mailing list is intended for end user support and bug reports. To subscribe to the mailing list, send an email to <a href=\"%s\">%s</a> with the word 'subscribe', without quotes, as the body of message. To unsubscribe, send the word 'unsubscribe'."
-msgstr "pgadmin-support邮件列表用于向最终用户提供支持和报告bug，通过发送内容为'subscribe'（不包括单引号）的邮件至<a href=\"%s\">%s</a>订阅，解除订阅则发送'unsubscribe'。"
+msgid ""
+"The pgadmin-support mailing list is intended for end user support and bug "
+"reports. To subscribe to the mailing list, send an email to <a href=\"%s\">%"
+"s</a> with the word 'subscribe', without quotes, as the body of message. To "
+"unsubscribe, send the word 'unsubscribe'."
+msgstr ""
+"pgadmin-support邮件列表用于向最终用户提供支持和报告bug，通过发送内容"
+"为'subscribe'（不包括单引号）的邮件至<a href=\"%s\">%s</a>订阅，解除订阅则发"
+"送'unsubscribe'。"
 
 #: ../screenshots/ui.php:16
-msgid "The properties and statistics of the selected object are displayed in the right pane of pgAdmin III. Notice the display of the SQL definition with colour syntax highlighting."
-msgstr "选中对象的属性和统计信息显示在pgAdmin III的右边，可以看到SQL定义显示为语法高亮模式。"
+msgid ""
+"The properties and statistics of the selected object are displayed in the "
+"right pane of pgAdmin III. Notice the display of the SQL definition with "
+"colour syntax highlighting."
+msgstr ""
+"选中对象的属性和统计信息显示在pgAdmin III的右边，可以看到SQL定义显示为语法高"
+"亮模式。"
 
 #: ../screenshots/ui.php:20
 msgid "The properties of the selected object."
@@ -1710,59 +2627,150 @@ msgid "The server status dialogue"
 msgstr "服务器状态对话框"
 
 #: ../screenshots/serverstatus.php:10
-msgid "The status of each server process may be viewed, along with summaries of current locks and transactions. Logfiles may also be selected and viewed."
-msgstr "可以看到每个服务器的进程状态，以及当前锁和事务的概要。也可以选择和查看日志文件。"
+msgid ""
+"The status of each server process may be viewed, along with summaries of "
+"current locks and transactions. Logfiles may also be selected and viewed."
+msgstr ""
+"可以看到每个服务器的进程状态，以及当前锁和事务的概要。也可以选择和查看日志文"
+"件。"
 
 #: ../screenshots/ui.php:28
 msgid "The table properties dialogue"
 msgstr "表属性对话框"
 
 #: ../translation/status.php:47
-msgid "The translations below are not considered complete enough for inclusion in current releases. Around 750 translated strings indicate v1.0 support, 1000 strings v1.2, 1500 strings for v1.4 and 1850 for v1.6. When using an incomplete translation on a newer pgAdmin version, you will get a mixture of translated and untranslated dialogs (usually on less frequently used ones), but general usability shouldn't be affected. If you would like to continue the work, please don't hesitate to contact the current maintainer (please CC pgsql-hackers@postgresql.org)!"
-msgstr "下边的语种翻译在当前版本中不再被视为是完整的。1.0版本中大约有750个字符串，1.2版本大约有1000，1.4版本大约有1500，1.6版本大约有1850。在新的pgAdmin版本中使用不完整的翻译，会得到翻译与未翻译信息混杂的对话框（通常是使用频率比较低的），但是不会影响正常使用。如果你想继续这个工作，不要犹豫立刻联系当前的维护者（请顺便抄送一份给pgsql-hackers@postgresql.org）"
+msgid ""
+"The translations below are not considered complete enough for inclusion in "
+"current releases. Around 750 translated strings indicate v1.0 support, 1000 "
+"strings v1.2, 1500 strings for v1.4 and 1850 for v1.6. When using an "
+"incomplete translation on a newer pgAdmin version, you will get a mixture of "
+"translated and untranslated dialogs (usually on less frequently used ones), "
+"but general usability shouldn't be affected. If you would like to continue "
+"the work, please don't hesitate to contact the current maintainer (please CC "
+"pgsql-hackers@postgresql.org)!"
+msgstr ""
+"下边的语种翻译在当前版本中不再被视为是完整的。1.0版本中大约有750个字符串，1.2"
+"版本大约有1000，1.4版本大约有1500，1.6版本大约有1850。在新的pgAdmin版本中使用"
+"不完整的翻译，会得到翻译与未翻译信息混杂的对话框（通常是使用频率比较低的），"
+"但是不会影响正常使用。如果你想继续这个工作，不要犹豫立刻联系当前的维护者（请"
+"顺便抄送一份给pgsql-hackers@postgresql.org）"
 
 #: ../translation/status.php:31
-msgid "The updated translations are published in daily snapshots automatically."
+msgid ""
+"The updated translations are published in daily snapshots automatically."
 msgstr "更新过的翻译会在每天的自动快照中发布。"
 
 #: ../support/list.php:14
-msgid "The version of pgAdmin you are running. If it is a development snapshot, please include the build date from the Help -&gt; About screen, and SVN repository version if known."
-msgstr "正在使用的pgAdmin版本号，如果是一个正在开发中的快照，请包含它的制作日期（可以从Help -&gt; About 找到）和SVN repository版本。"
+msgid ""
+"The version of pgAdmin you are running. If it is a development snapshot, "
+"please include the build date from the Help -&gt; About screen, and SVN "
+"repository version if known."
+msgstr ""
+"正在使用的pgAdmin版本号，如果是一个正在开发中的快照，请包含它的制作日期（可以"
+"从Help -&gt; About 找到）和SVN repository版本。"
 
 #: ../support/list.php:17
-msgid "The wxWidgets version and configure options used (if compiled from source)"
+msgid ""
+"The wxWidgets version and configure options used (if compiled from source)"
 msgstr "wxWidgets版本和编译选项（如果是从源代码编译的话）"
 
 #: ../advocacy/strategy.php:15
 #, php-format
-msgid "Then, register pgAdmin on free software web sites in your country. We are highly interested in community web sites. Some countries have one or two major web sites for free software. For example, pgAdmin was registered on <a href=\"%s\">Freshmeat</a>."
-msgstr "接下来，在你所在国家的自由软件网站注册pgAdmin，我们对这种团体网站非常感兴趣。一些国家已经有了一个或者两个主要的自由软件网站，比如pgAdmin已经注册在<a href=\"%s\">Freshmeat</a>。"
+msgid ""
+"Then, register pgAdmin on free software web sites in your country. We are "
+"highly interested in community web sites. Some countries have one or two "
+"major web sites for free software. For example, pgAdmin was registered on <a "
+"href=\"%s\">Freshmeat</a>."
+msgstr ""
+"接下来，在你所在国家的自由软件网站注册pgAdmin，我们对这种团体网站非常感兴趣。"
+"一些国家已经有了一个或者两个主要的自由软件网站，比如pgAdmin已经注册在<a href="
+"\"%s\">Freshmeat</a>。"
 
 #: ../translation/howto.php:61
-msgid "There are more texts that can be translated. In the <i>docs</i> directory, the file <i>tips.txt</i> contains tips that are displayed on pgAdmin startup. The HTML files used by the Guru to notify users of special issues are located in the <i>docs/hints</i> directory. Both <i>tips.txt</i> and the Guru Hint HTML files are translated without tools, just use your favourite text editor. "
-msgstr "还有其他需要翻译的原文，在<i>docs</i>目录下，<i>tips.txt</i>文件包含在pgAdmin启动时显示的小技巧，<i>docs/hints</i>目录下包含的HTML文件是用来给用户提示的指导建议。这两种文件不需要工具就可以翻译，可以直接使用自己喜欢的文本编辑器。"
+msgid ""
+"There are more texts that can be translated. In the <i>docs</i> directory, "
+"the file <i>tips.txt</i> contains tips that are displayed on pgAdmin "
+"startup. The HTML files used by the Guru to notify users of special issues "
+"are located in the <i>docs/hints</i> directory. Both <i>tips.txt</i> and the "
+"Guru Hint HTML files are translated without tools, just use your favourite "
+"text editor. "
+msgstr ""
+"还有其他需要翻译的原文，在<i>docs</i>目录下，<i>tips.txt</i>文件包含在pgAdmin"
+"启动时显示的小技巧，<i>docs/hints</i>目录下包含的HTML文件是用来给用户提示的指"
+"导建议。这两种文件不需要工具就可以翻译，可以直接使用自己喜欢的文本编辑器。"
 
 #: ../translation/howto.php:72
-msgid "Therefore, never translate entries written in upper-case letters. In some cases you might even break pgAdmin if you do! To reach a 100% translation status, just copy these strings using the poEdit Alt+C Copy command. For example: translate <i>ACL</i> into <i>ACL</i>, <i>AFTER</i> into <i>AFTER</i>, etc."
-msgstr "因此，不要翻译用大写字母书写的条目。有时候如果你这样做可能会导致pgAdmin无法运行！为了达到100%的翻译状态，只要把这些字符串使用poEdit的Alt+C命令拷贝即可，例如<i>ACL</i>翻译为<i>ACL</i>、<i>AFTER</i>翻译为<i>AFTER</i>诸如此类。"
+msgid ""
+"Therefore, never translate entries written in upper-case letters. In some "
+"cases you might even break pgAdmin if you do! To reach a 100% translation "
+"status, just copy these strings using the poEdit Alt+C Copy command. For "
+"example: translate <i>ACL</i> into <i>ACL</i>, <i>AFTER</i> into <i>AFTER</"
+"i>, etc."
+msgstr ""
+"因此，不要翻译用大写字母书写的条目。有时候如果你这样做可能会导致pgAdmin无法运"
+"行！为了达到100%的翻译状态，只要把这些字符串使用poEdit的Alt+C命令拷贝即可，例"
+"如<i>ACL</i>翻译为<i>ACL</i>、<i>AFTER</i>翻译为<i>AFTER</i>诸如此类。"
 
-#: ../download/macosx.php:26
-msgid "These packages are Mac OSX appbundles. To install the 1.6 series, unpack the archive, and run the installer package. For earlier versions, unpack the archive, and move the appbundle into the desired location."
-msgstr "这些都是Mac OSX appbundles。对于1.6系列，解包后运行安装；更早版本，仅仅需要解包然后拷到期望的位置即可。"
+#: ../download/macosx.php:20
+#, fuzzy
+msgid ""
+"These packages are Mac OSX appbundles. To install the 1.8 series, mount the "
+"disk image using the finder, and drag the pgAdmin appbundle to the desired "
+"location. To install the 1.6 series, unpack the archive, and run the "
+"installer package. For earlier versions, unpack the archive, and move the "
+"appbundle into the desired location."
+msgstr ""
+"这些都是Mac OSX appbundles。对于1.6系列，解包后运行安装；更早版本，仅仅需要解"
+"包然后拷到期望的位置即可。"
 
 #: ../development/roadmap.php:10
 #, php-format
-msgid "This roadmap outlines the work that is hoped will be done in the %s development cycle for release in version %s of pgAdmin."
+msgid ""
+"This roadmap outlines the work that is hoped will be done in the %s "
+"development cycle for release in version %s of pgAdmin."
 msgstr "这个开发计划概述了希望在%s版本开发周期内为发布%s版本而需要完成的工作。"
 
 #: ../privacypolicy.php:24
-msgid "This website uses Google Analytics, a web analytics service provided by Google, Inc. (\"Google\"). Google Analytics uses \"cookies\", which are text files placed on your computer, to help the website analyze how users use the site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser, however please note that if you do this you may not be able to use the full functionality of this website. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above."
-msgstr "本网站采用Google公司提供的Google Analytics（分析），利用\"cookies\"（保存在你的电脑中的文本文件）去分析用户怎样使用本网站。cookie采集到的关于你使用本网站的情报（包括IP地址）将被传送到Google在美国的服务器，Google公司利用这些信息去评估你对网站的使用、为网站管理者生成一份网站行为报告、并提供与网站行为和互联网使用相关的其他服务，Google公司可能会在法律要求或者第三方为Google公司进行信息处理的前提下将这些信息传送给第三方，Google公司不会将你的IP地址与Google公司捕获的其他信息进行关联。你可以通过浏览器设置选择拒绝使用cookie，请注意如果这样做可能会不能完全使用本网站提供的全部功能。使用本网站，将视为你同意Google公司使用上面提及的手段去处理你的信息数据。"
+msgid ""
+"This website uses Google Analytics, a web analytics service provided by "
+"Google, Inc. (\"Google\"). Google Analytics uses \"cookies\", which are text "
+"files placed on your computer, to help the website analyze how users use the "
+"site. The information generated by the cookie about your use of the website "
+"(including your IP address) will be transmitted to and stored by Google on "
+"servers in the United States. Google will use this information for the "
+"purpose of evaluating your use of the website, compiling reports on website "
+"activity for website operators and providing other services relating to "
+"website activity and internet usage. Google may also transfer this "
+"information to third parties where required to do so by law, or where such "
+"third parties process the information on Google's behalf. Google will not "
+"associate your IP address with any other data held by Google. You may refuse "
+"the use of cookies by selecting the appropriate settings on your browser, "
+"however please note that if you do this you may not be able to use the full "
+"functionality of this website. By using this website, you consent to the "
+"processing of data about you by Google in the manner and for the purposes "
+"set out above."
+msgstr ""
+"本网站采用Google公司提供的Google Analytics（分析），利用\"cookies\"（保存在你"
+"的电脑中的文本文件）去分析用户怎样使用本网站。cookie采集到的关于你使用本网站"
+"的情报（包括IP地址）将被传送到Google在美国的服务器，Google公司利用这些信息去"
+"评估你对网站的使用、为网站管理者生成一份网站行为报告、并提供与网站行为和互联"
+"网使用相关的其他服务，Google公司可能会在法律要求或者第三方为Google公司进行信"
+"息处理的前提下将这些信息传送给第三方，Google公司不会将你的IP地址与Google公司"
+"捕获的其他信息进行关联。你可以通过浏览器设置选择拒绝使用cookie，请注意如果这"
+"样做可能会不能完全使用本网站提供的全部功能。使用本网站，将视为你同意Google公"
+"司使用上面提及的手段去处理你的信息数据。"
 
 #: ../download/languages.php:14
 #, php-format
-msgid "To add a new language, follow the update procedure, but create the lc_CC directory if required and save the new message catalogue in it. You may also need to update the <i>i18n/pgadmin3.lng</i> file which is also available from the <a href=\"%s\">translation status</a> page."
-msgstr "如果增加一个新的语种，要遵循更新步骤，需要的话创建lc_CC目录并且把新的语言条目保存在这里，另外也需要更新从<a href=\"%s\">翻译状态</a>页面获取的<i>i18n/pgadmin3.lng</i>文件。"
+msgid ""
+"To add a new language, follow the update procedure, but create the lc_CC "
+"directory if required and save the new message catalogue in it. You may also "
+"need to update the <i>i18n/pgadmin3.lng</i> file which is also available "
+"from the <a href=\"%s\">translation status</a> page."
+msgstr ""
+"如果增加一个新的语种，要遵循更新步骤，需要的话创建lc_CC目录并且把新的语言条目"
+"保存在这里，另外也需要更新从<a href=\"%s\">翻译状态</a>页面获取的<i>i18n/"
+"pgadmin3.lng</i>文件。"
 
 #: ../development/roadmap.php:15
 msgid "To be determined..."
@@ -1770,75 +2778,123 @@ msgstr "已经确定"
 
 #: ../development/svn.php:12
 #, php-format
-msgid "To checkout the source from the command line and get started, you might use commands such as shown below on a Linux or Unix system. For further details, please see the <a href=\"%s\">source code</a> build instructions."
-msgstr "由命令行获取源程序然后开始，例如在Linux或者Unix系统可以使用下边的命令。更多的细节请查看<a href=\"%s\">源代码</a>build指令。"
+msgid ""
+"To checkout the source from the command line and get started, you might use "
+"commands such as shown below on a Linux or Unix system. For further details, "
+"please see the <a href=\"%s\">source code</a> build instructions."
+msgstr ""
+"由命令行获取源程序然后开始，例如在Linux或者Unix系统可以使用下边的命令。更多的"
+"细节请查看<a href=\"%s\">源代码</a>build指令。"
 
-#: ../download/windows.php:29
-msgid "To install these packages, unzip the downloaded file, double-click the </i>pgadmin3.msi</i> installer file and follow the on-screen instructions. Minor upgrades (e.g. from 1.4.0 to 1.4.1) can be performaed using the <i>upgrade.bat</i> script. Differing major releases, e.g. 1.2.2 and 1.4.1, can be installed on the same machine at the same time."
-msgstr "下载完毕后解压缩，双击</i>pgadmin3.msi</i>文件，然后按照屏幕上的指令进行安装。小版本号的升级（例如，从1.4.0到1.4.1），可以运行<i>upgrade.bat</i>脚本。大版本号的发布，例如1.2.2和1.4.1，可以在同一台计算机上同时安装。"
+#: ../download/windows.php:23
+#, fuzzy
+msgid ""
+"To install these packages, unzip the downloaded file, double-click the </"
+"i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
+"Minor upgrades (e.g. from 1.4.0 to 1.4.1) can be performed using the "
+"<i>upgrade.bat</i> script. Differing major releases, e.g. 1.2.2 and 1.4.1, "
+"can be installed on the same machine at the same time."
+msgstr ""
+"下载完毕后解压缩，双击</i>pgadmin3.msi</i>文件，然后按照屏幕上的指令进行安"
+"装。小版本号的升级（例如，从1.4.0到1.4.1），可以运行<i>upgrade.bat</i>脚本。"
+"大版本号的发布，例如1.2.2和1.4.1，可以在同一台计算机上同时安装。"
 
-#: ../download/freebsd.php:22
-#: ../download/rpm.php:24
+#: ../download/freebsd.php:19 ../download/rpm.php:19
 msgid "To install these packages, use a command such as:"
 msgstr "运行如下命令安装这个包："
 
 #: ../download/opensuse.php:18
-msgid "To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</i> utilities."
+msgid ""
+"To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
+"i> utilities."
 msgstr "使用OpenSUSE的<i>pkgtool</i>或者<i>installpkg</i>工具安装这些包。"
 
-#: ../download/slackware.php:25
-msgid "To install these packages, use the Slackware <i>pkgtool</i> or <i>installpkg</i> utilities."
+#: ../download/slackware.php:20
+msgid ""
+"To install these packages, use the Slackware <i>pkgtool</i> or "
+"<i>installpkg</i> utilities."
 msgstr "使用Slackware的<i>pkgtool</i>或者<i>installpkg</i>工具安装这些包。"
 
 #: ../translation/howto.php:70
-msgid "To make it easier, all SQL keywords are written in capital letters. Conversely, all capital letters entries are SQL keywords."
-msgstr "为了更简单一些，所有的SQL关键字用大写字母书写，换句话说所有大写字母条目都是SQL关键字。"
+msgid ""
+"To make it easier, all SQL keywords are written in capital letters. "
+"Conversely, all capital letters entries are SQL keywords."
+msgstr ""
+"为了更简单一些，所有的SQL关键字用大写字母书写，换句话说所有大写字母条目都是"
+"SQL关键字。"
 
 #: ../download/languages.php:12
-msgid "To update a language, download the appropriate <i>.mo</i> file, and update your local copy. This is normally stored under <i>/usr/share/pgadmin3/i18n/lc_CC</i> on Linux and other Unixes or <i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n\\lc_CC</i> on Windows, where <i>lc_CC</i> is your language code and country code - e.g. <i>pt_BR</i> for Portuguese as spoken in Brazil"
-msgstr "下载相应的<i>.mo</i>文件然后更新你的本地拷贝，就可以更新语种。通常，在Linux和其他Unixes系统中放在<i>/usr/share/pgadmin3/i18n/lc_CC</i>目录下，而在Windows系统中放在<i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n\\lc_CC</i>目录下，<i>lc_CC</i>是相应的语种和国家编码，例如<i>pt_BR</i>表示巴西葡萄牙语。"
+msgid ""
+"To update a language, download the appropriate <i>.mo</i> file, and update "
+"your local copy. This is normally stored under <i>/usr/share/pgadmin3/i18n/"
+"lc_CC</i> on Linux and other Unixes or <i>C:\\Program Files\\pgAdmin III\\X.Y"
+"\\i18n\\lc_CC</i> on Windows, where <i>lc_CC</i> is your language code and "
+"country code - e.g. <i>pt_BR</i> for Portuguese as spoken in Brazil"
+msgstr ""
+"下载相应的<i>.mo</i>文件然后更新你的本地拷贝，就可以更新语种。通常，在Linux和"
+"其他Unixes系统中放在<i>/usr/share/pgadmin3/i18n/lc_CC</i>目录下，而在Windows"
+"系统中放在<i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n\\lc_CC</i>目录下，"
+"<i>lc_CC</i>是相应的语种和国家编码，例如<i>pt_BR</i>表示巴西葡萄牙语。"
 
 #: ../screenshots/index.php:12
 #, php-format
-msgid "To view a full size version of any screenshot, simply click on it. In addition to the those found in this section additional images can also be found in the <a href=\"%s\">online documentation</a>."
-msgstr "单击图片可以看到完整的屏幕截图，除了本章节使用的图片以外，还可以在<a href=\"%s\">在线文档</a>中找到其他截图。"
+msgid ""
+"To view a full size version of any screenshot, simply click on it. In "
+"addition to the those found in this section additional images can also be "
+"found in the <a href=\"%s\">online documentation</a>."
+msgstr ""
+"单击图片可以看到完整的屏幕截图，除了本章节使用的图片以外，还可以在<a href=\"%"
+"s\">在线文档</a>中找到其他截图。"
 
 #: ../include/po_status.php:257
 msgid "Translated"
 msgstr "翻译完毕"
 
-#: ../contribute.php:16
-#: ../include/page.php:130
+#: ../contribute.php:16 ../include/page.php:130
 msgid "Translation"
 msgstr "翻译"
 
-#: ../features.php:83
+#: ../news.php:30
+msgid ""
+"Treat all functions & procedures as 'Functions' in PostgreSQL, and class "
+"only EnterpriseDB edbspl functions returning void as 'Procedures'."
+msgstr ""
+
+#: ../news.php:26
+msgid ""
+"Treat view columns as first class citizens. Show them on the treeview, and "
+"allow their properties page to be viewed. Allow editting of the default "
+"value and comment, and reflect this in the reverse engineered SQL for the "
+"view."
+msgstr ""
+
+#: ../features.php:84
 msgid "Trigger functions"
 msgstr "触发器函数"
 
-#: ../news.php:40
-msgid ""
-"Truncate comments containing \\r\\n"
-" correctly, per Erwin."
-msgstr ""
-"正确截断含有 \\r\\n"
-" 的注释，Erwin修改。"
+#: ../news.php:144
+msgid "Truncate comments containing \\r\\n correctly, per Erwin."
+msgstr "正确截断含有 \\r\\n 的注释，Erwin修改。"
 
 #: ../advocacy/strategy.php:21
 #, php-format
-msgid "Try to publish 'standard' information about pgAdmin to help ensure accuracy and consistency of information. Some examples are shown on the <a href=\"%s\">information</a> page."
-msgstr "发行关于pgAdmin的“标准”信息以便有助于信息的准确性和完整性，在<a href=\"%s\">信息</a>页面可以看到一些例子。"
+msgid ""
+"Try to publish 'standard' information about pgAdmin to help ensure accuracy "
+"and consistency of information. Some examples are shown on the <a href=\"%s"
+"\">information</a> page."
+msgstr ""
+"发行关于pgAdmin的“标准”信息以便有助于信息的准确性和完整性，在<a href=\"%s\">"
+"信息</a>页面可以看到一些例子。"
 
-#: ../features.php:84
+#: ../features.php:85
 msgid "Types"
 msgstr "类型"
 
-#: ../features.php:97
+#: ../features.php:98
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
 
-#: ../download/menu.php:18
-#: ../download/ubuntu.php:8
+#: ../download/menu.php:18 ../download/ubuntu.php:8
 msgid "Ubuntu"
 msgstr "Ubuntu"
 
@@ -1847,7 +2903,8 @@ msgid "Ubuntu Dapper configuration"
 msgstr "Ubuntu Dapper配置"
 
 #: ../download/ubuntu.php:36
-msgid "Ubuntu Feisty configuration"
+#, fuzzy
+msgid "Ubuntu Feisty or Gutsy configuration"
 msgstr "Ubuntu Feisty配置"
 
 #: ../advocacy/information.php:31
@@ -1870,177 +2927,301 @@ msgstr "150字以内"
 msgid "Under 80 characters"
 msgstr "30字以内"
 
-#: ../news.php:37
+#: ../news.php:141
 msgid "Update to support the changed syntax of pg_dump 8.2+."
 msgstr "支持pg_dump 8.2+的语法改变。"
 
-#: ../news.php:114
+#: ../news.php:218
 msgid "Use E'' style escape string syntax when required."
 msgstr "必要的时候使用E风格逃逸符字符串。"
 
-#: ../news.php:157
-msgid "Use SQL standard type names where appropriate. Show them as 'aliases' in the browser."
+#: ../news.php:57
+msgid ""
+"Use EnterpriseDB's utilities for dump and restore EDB databases to ensure "
+"non-PG extensions can be handled."
+msgstr ""
+
+#: ../news.php:54
+msgid "Use Oracle style syntax for edbspl triggers."
+msgstr ""
+
+#: ../news.php:261
+msgid ""
+"Use SQL standard type names where appropriate. Show them as 'aliases' in the "
+"browser."
 msgstr "在适当的位置使用SQL标准类型名，浏览时用别名显示它们。"
 
-#: ../news.php:181
-msgid "Use a slider instead of a spin control to avoid a wxGTK bug on the status form, per Peter Eisentraut."
-msgstr "在状态模块中使用slider控件而不是spin，以避免一个wxGTK的bug，Peter Eisentraut修改。"
+#: ../news.php:60
+msgid ""
+"Use pg_statindex (if available) to optionally display additional index "
+"statistics on a per-table basis. Also works for index-constraints."
+msgstr ""
 
-#: ../news.php:185
-msgid "Use the correct encoding in the View Data filter options per Ferenc."
-msgstr "在查看数据的过滤器选项中使用正确的字符编码，Ferenc修改。"
+#: ../news.php:67
+msgid ""
+"Use pg_stattuple (if available) to optionally display additional table "
+"statistics on a per-table basis."
+msgstr ""
 
-#: ../news.php:26
-msgid "Use the correct version of the Slony scripts when creating a new cluster, per Duncan Beeby."
+#: ../news.php:130
+msgid ""
+"Use the correct version of the Slony scripts when creating a new cluster, "
+"per Duncan Beeby."
 msgstr "创建一个新的聚簇时使用当前版本的Slony脚本，Duncan Beeby修改。"
 
-#: ../news.php:137
+#: ../news.php:241
 msgid "Use virtual data table for Query Tool, to eliminate retrieval time."
 msgstr "在查询工具中使用真实数据表，消除再次查询的耗时。"
 
-#: ../screenshots/menu.php:7
-#: ../screenshots/ui.php:8
+#: ../screenshots/menu.php:7 ../screenshots/ui.php:8
 msgid "User interface"
 msgstr "用户界面"
 
-#: ../features.php:85
+#: ../features.php:86
 msgid "Users"
 msgstr "用户"
 
 #: ../translation/howto.php:17
-msgid "Usually, we prefer native speakers translate into their mother tongue. In the case of non-European and non-Asian languages, we have no special requirements."
-msgstr "通常，我们更期望由本族语的人翻译为他的母语，而对非亚欧语种没有特别要求。"
+msgid ""
+"Usually, we prefer native speakers translate into their mother tongue. In "
+"the case of non-European and non-Asian languages, we have no special "
+"requirements."
+msgstr ""
+"通常，我们更期望由本族语的人翻译为他的母语，而对非亚欧语种没有特别要求。"
 
-#: ../features.php:46
+#: ../features.php:47
 msgid "Very fast datagrid for display/entry of data"
 msgstr "用来显示存取数据的快速数据表格"
 
-#: ../features.php:86
+#: ../features.php:87
 msgid "Views"
 msgstr "视图"
 
-#: ../features.php:100
+#: ../features.php:101
 msgid "WIN"
 msgstr "WIN"
 
-#: ../features.php:102
+#: ../features.php:103
 msgid "WIN1256"
 msgstr "WIN1256"
 
-#: ../features.php:104
+#: ../features.php:105
 msgid "WIN874"
 msgstr "WIN874"
 
-#: ../download/debian.php:16
-#: ../download/debian.php:20
+#: ../news.php:79
+msgid ""
+"Warn the user and allow her to abort before re-running a backup or restore "
+"to or from the same file, in the same session (can occur if the first "
+"attempt returns an error or warning)."
+msgstr ""
+
+#: ../download/debian.php:16 ../download/debian.php:20
 msgid "We don't support this Debian version anymore."
 msgstr "我们不再支持这个Debian版本"
 
 #: ../privacypolicy.php:20
-msgid "We may collect demographic and interest category information from people via surveys, volunteered information, suggestions from members, and other means. Our members may voluntarily provide information, including that regarding personal, interests, geography, and demographics. The purpose of this data collection is to ensure we continue to understand the needs and wants of the PostgreSQL community, and therefore can provide the most relevant information, guides, and content."
-msgstr "我们可能通过调查、免费信息、会员建议以及其他方式来收集人员分布情况。会员可以无偿提供诸如个人、兴趣、地理和人员分布等信息，收集这些数据的目的是确保我们对PostgreSQL团体的需求能有不断地了解，以便提供最关键的情报、指导以及信息内容。"
+msgid ""
+"We may collect demographic and interest category information from people via "
+"surveys, volunteered information, suggestions from members, and other means. "
+"Our members may voluntarily provide information, including that regarding "
+"personal, interests, geography, and demographics. The purpose of this data "
+"collection is to ensure we continue to understand the needs and wants of the "
+"PostgreSQL community, and therefore can provide the most relevant "
+"information, guides, and content."
+msgstr ""
+"我们可能通过调查、免费信息、会员建议以及其他方式来收集人员分布情况。会员可以"
+"无偿提供诸如个人、兴趣、地理和人员分布等信息，收集这些数据的目的是确保我们对"
+"PostgreSQL团体的需求能有不断地了解，以便提供最关键的情报、指导以及信息内容。"
 
 #: ../contribute.php:18
 #, php-format
-msgid "We need help to translate pgAdmin III and our website to as many languages as possible for the benefit of our worldwide userbase. If you think you can help us, please visit the <a href=\"%s\">translation</a> page."
-msgstr "我们需要你的帮助将pgAdmin III以及我们的网站翻译成多种语言以便让世界范围的用户群收益。如果你可以帮助我们，请访问<a href=\"%s\">翻译</a>页面。"
+msgid ""
+"We need help to translate pgAdmin III and our website to as many languages "
+"as possible for the benefit of our worldwide userbase. If you think you can "
+"help us, please visit the <a href=\"%s\">translation</a> page."
+msgstr ""
+"我们需要你的帮助将pgAdmin III以及我们的网站翻译成多种语言以便让世界范围的用户"
+"群收益。如果你可以帮助我们，请访问<a href=\"%s\">翻译</a>页面。"
 
 #: ../translation/index.php:14
 #, php-format
-msgid "We need your help to translate pgAdmin III into additional languages. Everyone can participate, please refer to the translation <a href=\"%s\">howto</a> for more information. This web site can also be translated using the <a href=\"%s\">pgadmin3_website.pot</a> file. If you are interested in the translation of PostgreSQL server messages, please visit the <a href=\"%s\">PostgreSQL National Language Support</a> project page. "
-msgstr "我们需要你的帮助将pgAdmin III翻译到更多的语种，每一个人都可以参与，请查阅<a href=\"%s\">如何去做</a>了解更多信息。这个网站可以使用<a href=\"%s\">pgadmin3_website.pot</a>模板文件翻译。如果你有兴趣翻译PostgreSQL服务器信息，请访问<a href=\"%s\">PostgreSQL本地化语种支持</a>页面。"
+msgid ""
+"We need your help to translate pgAdmin III into additional languages. "
+"Everyone can participate, please refer to the translation <a href=\"%s"
+"\">howto</a> for more information. This web site can also be translated "
+"using the <a href=\"%s\">pgadmin3_website.pot</a> file. If you are "
+"interested in the translation of PostgreSQL server messages, please visit "
+"the <a href=\"%s\">PostgreSQL National Language Support</a> project page. "
+msgstr ""
+"我们需要你的帮助将pgAdmin III翻译到更多的语种，每一个人都可以参与，请查阅<a "
+"href=\"%s\">如何去做</a>了解更多信息。这个网站可以使用<a href=\"%s"
+"\">pgadmin3_website.pot</a>模板文件翻译。如果你有兴趣翻译PostgreSQL服务器信"
+"息，请访问<a href=\"%s\">PostgreSQL本地化语种支持</a>页面。"
 
 #: ../screenshots/index.php:14
-msgid "We provide source and binary packages for FreeBSD, Linux, Mac OSX and Microsoft Windows &trade;. Solaris binaries may also be compiled from the source code."
-msgstr "我们为FreeBSD、Linux、Mac OSX以及Microsoft Windows &trade;提供了源程序和二进制包，Solaris的二进制程序可以从源代码编译。"
+msgid ""
+"We provide source and binary packages for FreeBSD, Linux, Mac OSX and "
+"Microsoft Windows &trade;. Solaris binaries may also be compiled from the "
+"source code."
+msgstr ""
+"我们为FreeBSD、Linux、Mac OSX以及Microsoft Windows &trade;提供了源程序和二进"
+"制包，Solaris的二进制程序可以从源代码编译。"
 
 #: ../privacypolicy.php:16
-msgid "We store information such as your email address, name and locality only if you decide to send us such information by completing a survey, or registering as a user on one of our sites. We collect this information to help us improve the content of our sites, customize the layout of our web pages and to contact people for technical and support purposes. We will not share your email address with other organizations unless required by law."
-msgstr "只有当你决定将个人信息通过调查和用户注册方式发送给我们，我们才会储存它们，例如你的邮件地址、姓名和地理位置等等。收集这些信息仅仅是为了帮助我们提升网站的内容、定制网页版面、出于技术和支持目的进行联系，除非法律要求，我们不会与其他人分享你的邮件地址。"
+msgid ""
+"We store information such as your email address, name and locality only if "
+"you decide to send us such information by completing a survey, or "
+"registering as a user on one of our sites. We collect this information to "
+"help us improve the content of our sites, customize the layout of our web "
+"pages and to contact people for technical and support purposes. We will not "
+"share your email address with other organizations unless required by law."
+msgstr ""
+"只有当你决定将个人信息通过调查和用户注册方式发送给我们，我们才会储存它们，例"
+"如你的邮件地址、姓名和地理位置等等。收集这些信息仅仅是为了帮助我们提升网站的"
+"内容、定制网页版面、出于技术和支持目的进行联系，除非法律要求，我们不会与其他"
+"人分享你的邮件地址。"
 
-#: ../news.php:87
-msgid "When checking the position & size of windows, use the dimensions of the current display, not the primary."
+#: ../news.php:191
+msgid ""
+"When checking the position & size of windows, use the dimensions of the "
+"current display, not the primary."
 msgstr "检查窗口的位置和尺寸时使用当前显示的尺寸，而不是最初数值。"
 
 #: ../translation/howto.php:53
 #, php-format
-msgid "When the translation is finished and reviewed, send the pgadmin3.po and pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/taring them. We will do our best to publish your files immediately. The translations are published in the <a href=\"%s\">snapshot builds</a> once they have been committed to the source repository."
-msgstr "当翻译完成并且检查完毕后，将pgadmin3.po和pgadmin3.mo文件压缩之后发送到<a href=\"%s\">Guillaume Lelarge</a>，我们会尽快发布它。一旦翻译被提交到源代码库，它会发布在<a href=\"%s\">snapshot builds</a>。"
+msgid ""
+"When the translation is finished and reviewed, send the pgadmin3.po and "
+"pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/"
+"taring them. We will do our best to publish your files immediately. The "
+"translations are published in the <a href=\"%s\">snapshot builds</a> once "
+"they have been committed to the source repository."
+msgstr ""
+"当翻译完成并且检查完毕后，将pgadmin3.po和pgadmin3.mo文件压缩之后发送到<a "
+"href=\"%s\">Guillaume Lelarge</a>，我们会尽快发布它。一旦翻译被提交到源代码"
+"库，它会发布在<a href=\"%s\">snapshot builds</a>。"
 
 #: ../translation/howto.php:25
 #, php-format
-msgid "When this is done, you will receive an email. Browse to the <a href=\"%s\">translation status</a> page and download the *.po file corresponding to your language. The <a href=\"%s\">pgadmin3.pot</a> file serves as empty template for a new language source file."
-msgstr "当作完这些的时候，你会收到一封邮件。浏览<a href=\"%s\">翻译状态</a>网页按照语种下载相应的*.po文件，<a href=\"%s\">pgadmin3.pot</a>文件可以当作新语种的空模板使用。"
+msgid ""
+"When this is done, you will receive an email. Browse to the <a href=\"%s"
+"\">translation status</a> page and download the *.po file corresponding to "
+"your language. The <a href=\"%s\">pgadmin3.pot</a> file serves as empty "
+"template for a new language source file."
+msgstr ""
+"当作完这些的时候，你会收到一封邮件。浏览<a href=\"%s\">翻译状态</a>网页按照语"
+"种下载相应的*.po文件，<a href=\"%s\">pgadmin3.pot</a>文件可以当作新语种的空模"
+"板使用。"
 
 #: ../privacypolicy.php:12
-msgid "When you visit our website, our servers automatically log your IP address and/or host name."
+msgid ""
+"When you visit our website, our servers automatically log your IP address "
+"and/or host name."
 msgstr "当你访问我们的网页时，我们的服务器将自动记录你的IP地址和/或主机名。"
 
 #: ../advocacy/index.php:10
 msgid "Why promote pgAdmin?"
 msgstr "为什么要推广pgAdmin？"
 
-#: ../download/menu.php:19
-#: ../download/windows.php:8
+#: ../download/menu.php:19 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr "Windows &trade;"
 
 #: ../advocacy/information.php:10
-msgid "You are free to publish any technical information about pgAdmin. Here are some guidelines, primarily about links and localization."
-msgstr "你可以自由发布任何关于pgAdmin的技术信息，下边有一些关于发布连接和本地化的策略和资料。"
+msgid ""
+"You are free to publish any technical information about pgAdmin. Here are "
+"some guidelines, primarily about links and localization."
+msgstr ""
+"你可以自由发布任何关于pgAdmin的技术信息，下边有一些关于发布连接和本地化的策略"
+"和资料。"
 
 #: ../advocacy/strategy.php:17
-msgid "You are free to register everywhere as long as the registration conditions do not limit the rights of pgAdmin Team members."
+msgid ""
+"You are free to register everywhere as long as the registration conditions "
+"do not limit the rights of pgAdmin Team members."
 msgstr "在不限制pgAdmin成员注册条件的前提下，你可以在任何地方自由注册网站。"
 
 #: ../translation/howto.php:51
-msgid "You can also use the translation debug mode of pgAdmin III (command line option -t) to review your translation in all dialogues. You won't need a database connection in that mode, but all dialogue resource files (*.xrc) are required, copied to the <i>ui</i> directory. If you compiled in debug mode, this will be the case automatically."
-msgstr "也可以使用pgAdmin III的语言debug模式（命令行参数-t）在所有对话框中检查你的翻译，在这个模式下不需要数据库联接，但是需要将所有的对话框资源文件（*.xrc）拷贝到<i>ui</i>目录。如果你是用debug模式编译的，这将是自动进行的。"
+msgid ""
+"You can also use the translation debug mode of pgAdmin III (command line "
+"option -t) to review your translation in all dialogues. You won't need a "
+"database connection in that mode, but all dialogue resource files (*.xrc) "
+"are required, copied to the <i>ui</i> directory. If you compiled in debug "
+"mode, this will be the case automatically."
+msgstr ""
+"也可以使用pgAdmin III的语言debug模式（命令行参数-t）在所有对话框中检查你的翻"
+"译，在这个模式下不需要数据库联接，但是需要将所有的对话框资源文件（*.xrc）拷贝"
+"到<i>ui</i>目录。如果你是用debug模式编译的，这将是自动进行的。"
 
 #: ../translation/howto.php:49
-msgid "You should be able to add the appropriate <i>i18n/language_Country/pgadmin3.mo</i> file under an existing binary installation of pgAdmin. Then, just select the language under the File -> Options menu. The review is an important step because some strings do not have a real context when viewed in the editor. You will only be able to correct entries by using pgAdmin yourself."
-msgstr "你可以在已经存在的pgAdmin二进制安装中添加相应的<i>i18n/language_Country/pgadmin3.mo</i>文件，接下来在文件->选项中选择相应语言。这个检查是很重要的步骤，因为一些字符串在编辑的时候没有真实的上下文作参照，你只能自己在使用pgAdmin的时候校正它。"
+msgid ""
+"You should be able to add the appropriate <i>i18n/language_Country/pgadmin3."
+"mo</i> file under an existing binary installation of pgAdmin. Then, just "
+"select the language under the File -> Options menu. The review is an "
+"important step because some strings do not have a real context when viewed "
+"in the editor. You will only be able to correct entries by using pgAdmin "
+"yourself."
+msgstr ""
+"你可以在已经存在的pgAdmin二进制安装中添加相应的<i>i18n/language_Country/"
+"pgadmin3.mo</i>文件，接下来在文件->选项中选择相应语言。这个检查是很重要的步"
+"骤，因为一些字符串在编辑的时候没有真实的上下文作参照，你只能自己在使用pgAdmin"
+"的时候校正它。"
 
-#: ../include/doc.php:14
-#: ../include/doc.php:19
-#: ../include/doc.php:24
+#: ../include/doc.php:14 ../include/doc.php:19 ../include/doc.php:24
 #: ../include/doc.php:29
 #, php-format
 msgid "pgAdmin %s online documentation"
 msgstr "pgAdmin %s在线文档"
 
 #: ../index.php:12
-msgid "pgAdmin 1.8.0 has reached the Release Candidate phase of the release cycle. Please visit <a href=\"/download/\">the download page</a> to get a copy and help with the last minute testing! Any bug reports should be sent to <a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</a>."
-msgstr "pgAdmin 1.8.0已经进入发布周期的Candidate阶段，请访问<a href=\"/download/\">下载页面</a>获得一份拷贝进行最后的测试，发现任何bug请报告给<a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-spport@postgresql.org</a>。"
+#, fuzzy
+msgid ""
+"pgAdmin 1.8.0 has now been released! Please see the <a href=\"news.php"
+"\">news page</a> for further details, and <a href=\"/download/\">the "
+"download page</a> to get your copy. Any questions or other support issues "
+"should be sent to <a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-"
+"support@postgresql.org</a>."
+msgstr ""
+"pgAdmin 1.8.0已经进入发布周期的Candidate阶段，请访问<a href=\"/download/\">下"
+"载页面</a>获得一份拷贝进行最后的测试，发现任何bug请报告给<a href=\"mailto:"
+"pgadmin-support@postgresql.org\">pgadmin-spport@postgresql.org</a>。"
 
-#: ../news.php:44
-#: ../news.php:71
-#: ../news.php:99
-#: ../news.php:166
-#: ../news.php:192
+#: ../news.php:148 ../news.php:175 ../news.php:203 ../news.php:270
 msgid "pgAdmin Development Team"
 msgstr "pgAdmin开发组"
 
-#: ../features.php:31
+#: ../features.php:32
 msgid "pgAdmin Documentation"
 msgstr "pgAdmin文档"
 
 #: ../download/debian.php:24
-msgid "pgAdmin III 1.4.3 is available directly from Debian. You can install pgAdmin III just as you would do with any other Debian package (apt-get install pgadmin3)."
-msgstr "pgAdmin III 1.4.3已经直接包含在Debian当中，可以在需要的时候像其他包一样去安装它（apt-get install pgadmin3）。"
+msgid ""
+"pgAdmin III 1.4.3 is available directly from Debian. You can install pgAdmin "
+"III just as you would do with any other Debian package (apt-get install "
+"pgadmin3)."
+msgstr ""
+"pgAdmin III 1.4.3已经直接包含在Debian当中，可以在需要的时候像其他包一样去安装"
+"它（apt-get install pgadmin3）。"
 
 #: ../download/rpm.php:12
 msgid "pgAdmin III RPM packages are available for several Linux distributions."
 msgstr "pgAdmin III的RPM包针对多种Linux分发有效。"
 
 #: ../screenshots/ui.php:12
-msgid "pgAdmin III can connect to any PostgreSQL 7.3/7.4 and 8.x database using the embedded libpq native library. The application does not need any ODBC, .NET or JDBC layer. When configured server-side, it is possible to connect using encrypted password or SSL authentication."
-msgstr "pgAdmin III使用本地化的libpq库连接到PostgreSQL 7.3/7.4以及8.x数据库，不需要任何ODBC、.net或者JDBC层，允许使用加密密码和SSL认证。"
+msgid ""
+"pgAdmin III can connect to any PostgreSQL 7.3/7.4 and 8.x database using the "
+"embedded libpq native library. The application does not need any ODBC, .NET "
+"or JDBC layer. When configured server-side, it is possible to connect using "
+"encrypted password or SSL authentication."
+msgstr ""
+"pgAdmin III使用本地化的libpq库连接到PostgreSQL 7.3/7.4以及8.x数据库，不需要任"
+"何ODBC、.net或者JDBC层，允许使用加密密码和SSL认证。"
 
 #: ../download/snapshots.php:14
 #, php-format
-msgid "pgAdmin III development snapshots may be downloaded <a href=\"%s\">here</a>."
+msgid ""
+"pgAdmin III development snapshots may be downloaded <a href=\"%s\">here</a>."
 msgstr "pgAdmin III的开发快照可以在<a href=\"%s\">这里</a>下载。"
 
 #: ../screenshots/xgl.php:10
@@ -2048,26 +3229,57 @@ msgid "pgAdmin III even works in 3D!!."
 msgstr "pgAdmin III甚至可以在3D模式下运行！！"
 
 #: ../screenshots/ui.php:26
-msgid "pgAdmin III includes a table editor. Columns can be dropped. Column data types can be modified in certain conditions as allowed by the server version."
-msgstr "pgAdmin III包括一个表编辑器，可以用来删除字段或者在服务器允许的特定条件下修改字段类型。"
+msgid ""
+"pgAdmin III includes a table editor. Columns can be dropped. Column data "
+"types can be modified in certain conditions as allowed by the server version."
+msgstr ""
+"pgAdmin III包括一个表编辑器，可以用来删除字段或者在服务器允许的特定条件下修改"
+"字段类型。"
 
 #: ../screenshots/documentation.php:10
-msgid "pgAdmin III includes full PostgreSQL and Slony-I documentation, in addition to it's own."
+msgid ""
+"pgAdmin III includes full PostgreSQL and Slony-I documentation, in addition "
+"to it's own."
 msgstr "pgAdmin III包含完整的PostgreSQL和Slony-I以及它自己的文档。"
 
 #: ../support/index.php:10
-msgid "pgAdmin III is a community project comprising of a number of volunteers from around the world. We do not provide 'paid for' support for pgAdmin, although we do aim to fix bugs and help out wherever possible. Obviously we cannot guarantee to fix every problem or help every user though we always try to."
-msgstr "pgAdmin III是一个由世界范围的志愿者组成的团体项目，热衷于尽可能的修复bug和提供帮助，但是依然不会提供“收费”的pgAdmin技术支持。尽管我们一直在努力，但是很明显不能保证修复每一个bug或者帮助每一个用户。"
+msgid ""
+"pgAdmin III is a community project comprising of a number of volunteers from "
+"around the world. We do not provide 'paid for' support for pgAdmin, although "
+"we do aim to fix bugs and help out wherever possible. Obviously we cannot "
+"guarantee to fix every problem or help every user though we always try to."
+msgstr ""
+"pgAdmin III是一个由世界范围的志愿者组成的团体项目，热衷于尽可能的修复bug和提"
+"供帮助，但是依然不会提供“收费”的pgAdmin技术支持。尽管我们一直在努力，但是很明"
+"显不能保证修复每一个bug或者帮助每一个用户。"
 
 #: ../screenshots/index.php:10
 #, php-format
-msgid "pgAdmin III is a comprehensive design and management interface for PostgreSQL database, designed to run on most operating systems. The software is written in C++ and uses the excellent <a href=\"%s\">wxWidgets</a> cross platform toolkit. In every environment, pgAdmin III is a native application. The application is executed in binary code, not in a virtual machine, therefore offering excellent performance."
-msgstr "pgAdmin III是一个针对PostgreSQL数据库的全面设计和管理接口，可以在大多数操作系统上运行。软件用C++编写，采用了优秀的<a href=\"%s\">wxWidgets</a>跨平台工具包。在每一个环境下，pgAdmin III都是一个本地化的程序，以二进制方式执行，而不是虚拟机，具有很优秀的性能。"
+msgid ""
+"pgAdmin III is a comprehensive design and management interface for "
+"PostgreSQL database, designed to run on most operating systems. The software "
+"is written in C++ and uses the excellent <a href=\"%s\">wxWidgets</a> cross "
+"platform toolkit. In every environment, pgAdmin III is a native application. "
+"The application is executed in binary code, not in a virtual machine, "
+"therefore offering excellent performance."
+msgstr ""
+"pgAdmin III是一个针对PostgreSQL数据库的全面设计和管理接口，可以在大多数操作系"
+"统上运行。软件用C++编写，采用了优秀的<a href=\"%s\">wxWidgets</a>跨平台工具"
+"包。在每一个环境下，pgAdmin III都是一个本地化的程序，以二进制方式执行，而不是"
+"虚拟机，具有很优秀的性能。"
 
 #: ../download/index.php:10
 #, php-format
-msgid "pgAdmin III is a free software project released under the <a href=\"%s\">Artistic licence</a>. The software is available in source and binary format from the <a href=\"%s\">PostgreSQL mirror network</a>. Because compiling from source requires technical knowledge, we recommend installing binary packages whenever possible."
-msgstr "pgAdmin III是一个基于<a href=\"%s\">Artistic 协议</a>发布的自由软件，可以从<a href=\"%s\">PostgreSQL镜像网</a>下载源代码和二进制程序。因为从源代码编译需要一定的技术基础，所以我们推荐尽可能使用已经制作好的二进制包去安装。"
+msgid ""
+"pgAdmin III is a free software project released under the <a href=\"%s"
+"\">Artistic licence</a>. The software is available in source and binary "
+"format from the <a href=\"%s\">PostgreSQL mirror network</a>. Because "
+"compiling from source requires technical knowledge, we recommend installing "
+"binary packages whenever possible."
+msgstr ""
+"pgAdmin III是一个基于<a href=\"%s\">Artistic 协议</a>发布的自由软件，可以从"
+"<a href=\"%s\">PostgreSQL镜像网</a>下载源代码和二进制程序。因为从源代码编译需"
+"要一定的技术基础，所以我们推荐尽可能使用已经制作好的二进制包去安装。"
 
 #: ../download/windows.php:12
 msgid "pgAdmin III is available for Windows &trade; 2000, XP and 2003."
@@ -2075,40 +3287,100 @@ msgstr "pgAdmin III针对Windows &trade; 2000, XP and 2003有效。"
 
 #: ../development/svn.php:10
 #, php-format
-msgid "pgAdmin III is available subject to the terms of the <a href=\"%s\">Artistic Licence</a>. pgAdmin III is developed using a Subversion or SVN repository to hold the source code. Access to the repository is available through a <a href=\"%s\">web interface</a> or using your favourite SVN client. Anonymous read access is available using an SVN client. Under Windows, we recommend using <a href=\"%s\">TortoiseSVN</a>, which is free software. Under Linux, there are several command line and graphical clients available."
-msgstr "pgAdmin III 是基于<a href=\"%s\">Artistic协议</a>的科目，使用Subversion或者SVN repository管理代码，可以通过<a href=\"%s\">web界面</a>或者使用你喜欢的SVN客户端连接，匿名连接仅对SVN客户端有效。Windows下，我们推荐使用免费软件<a href=\"%s\">TortoiseSVN</a>；Linux下，有几种可用的命令行和和图形化客户端。"
+msgid ""
+"pgAdmin III is available subject to the terms of the <a href=\"%s\">Artistic "
+"Licence</a>. pgAdmin III is developed using a Subversion or SVN repository "
+"to hold the source code. Access to the repository is available through a <a "
+"href=\"%s\">web interface</a> or using your favourite SVN client. Anonymous "
+"read access is available using an SVN client. Under Windows, we recommend "
+"using <a href=\"%s\">TortoiseSVN</a>, which is free software. Under Linux, "
+"there are several command line and graphical clients available."
+msgstr ""
+"pgAdmin III 是基于<a href=\"%s\">Artistic协议</a>的科目，使用Subversion或者"
+"SVN repository管理代码，可以通过<a href=\"%s\">web界面</a>或者使用你喜欢的SVN"
+"客户端连接，匿名连接仅对SVN客户端有效。Windows下，我们推荐使用免费软件<a "
+"href=\"%s\">TortoiseSVN</a>；Linux下，有几种可用的命令行和和图形化客户端。"
 
 #: ../index.php:18
 #, php-format
-msgid "pgAdmin III is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. The application also includes a syntax highlighting SQL editor, a server-side code editor, an SQL/batch/shell job scheduling agent, support for the <a href=\"%s\">Slony-I</a> replication engine and much more. Server connection may be made using TCP/IP or Unix Domain Sockets (on *nix platforms), and may be SSL encrypted for security. No additional drivers are required to communicate with the database server."
-msgstr "pgAdmin III被设计来应对所有用户的需求，从写一个简单的SQL语句查询到开发一个复杂的数据库系统，图形化界面可以支持所有PostgreSQL特性并且易于管理。此外还包含一个语法高亮显示的SQL代码编辑器，支持服务器端代码编辑、支持SQL/批处理/shell任务调度代理、支持<a href=\"%s\">Slony-I</a>复制引擎以及其他。可以使用TCP/IP或者Unix Domain Sockets（基于*nix平台）创建服务器连接，也可以使用SSL增强安全性。与数据库服务器交互不需要附加的其他驱动。"
+msgid ""
+"pgAdmin III is designed to answer the needs of all users, from writing "
+"simple SQL queries to developing complex databases. The graphical interface "
+"supports all PostgreSQL features and makes administration easy. The "
+"application also includes a syntax highlighting SQL editor, a server-side "
+"code editor, an SQL/batch/shell job scheduling agent, support for the <a "
+"href=\"%s\">Slony-I</a> replication engine and much more. Server connection "
+"may be made using TCP/IP or Unix Domain Sockets (on *nix platforms), and may "
+"be SSL encrypted for security. No additional drivers are required to "
+"communicate with the database server."
+msgstr ""
+"pgAdmin III被设计来应对所有用户的需求，从写一个简单的SQL语句查询到开发一个复"
+"杂的数据库系统，图形化界面可以支持所有PostgreSQL特性并且易于管理。此外还包含"
+"一个语法高亮显示的SQL代码编辑器，支持服务器端代码编辑、支持SQL/批处理/shell任"
+"务调度代理、支持<a href=\"%s\">Slony-I</a>复制引擎以及其他。可以使用TCP/IP或"
+"者Unix Domain Sockets（基于*nix平台）创建服务器连接，也可以使用SSL增强安全"
+"性。与数据库服务器交互不需要附加的其他驱动。"
 
 #: ../index.php:20
 #, php-format
-msgid "pgAdmin III is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the <a href=\"%s\">Artistic License</a>."
-msgstr "pgAdmin III由世界范围的PostgreSQL专家团体开发，可以支持多种语言，是一个基于<a href=\"%s\">Artistic协议</a>的自由软件。"
+msgid ""
+"pgAdmin III is developed by a community of PostgreSQL experts around the "
+"world and is available in more than a dozen languages. It is Free Software "
+"released under the <a href=\"%s\">Artistic License</a>."
+msgstr ""
+"pgAdmin III由世界范围的PostgreSQL专家团体开发，可以支持多种语言，是一个基于"
+"<a href=\"%s\">Artistic协议</a>的自由软件。"
 
 #: ../download/debian.php:59
-msgid "pgAdmin III is published on the official Debian Unstable repository. However, from time to time unstable may become broken, you can try to check for packages from our mirrors as described above for Debian/testing. You only need to change testing to unstable in the sources.list lines."
-msgstr "pgAdmin III发布在Debian的官方非正式版库中，然而有时非正式版会变得不可用，可以尝试使用上边提及的测试版本中的包。使用非正式版，仅仅需要将sources.list文件中的testing改为unstable。"
+msgid ""
+"pgAdmin III is published on the official Debian Unstable repository. "
+"However, from time to time unstable may become broken, you can try to check "
+"for packages from our mirrors as described above for Debian/testing. You "
+"only need to change testing to unstable in the sources.list lines."
+msgstr ""
+"pgAdmin III发布在Debian的官方非正式版库中，然而有时非正式版会变得不可用，可以"
+"尝试使用上边提及的测试版本中的包。使用非正式版，仅仅需要将sources.list文件中"
+"的testing改为unstable。"
 
 #: ../index.php:16
-#, php-format
-msgid "pgAdmin III is the most popular and feature rich Open Source administration and development platform for <a href=\"%s\">PostgreSQL</a>, the most advanced Open Source database in the world. The application may be used on Linux, FreeBSD, OpenSUSE, Solaris, Mac OSX and Windows platforms to manage PostgreSQL 7.3 and above running on any platform, as well as commercial versions of PostgreSQL such as <a href=\"%s\">EnterpriseDB</a> and <a href=\"%s\">Mammoth PostgreSQL</a>."
-msgstr "pgAdmin III是一个针对<a href=\"%s\">PostgreSQL</a>（世界上非常先进的开放源码数据库）的非常流行并且具有丰富特性的开放源码管理和开发工具，可以被用在Linux、FreeBSD、Solaris、Mac OSX和Windows平台上管理运行于任何平台之上的PostgreSQL 7.3及其以上版本，包括商业版本例如<a href=\"%s\">EnterpriseDB</a>和<a href=\"%s\">Mammoth PostgreSQL</a>。"
+#, fuzzy, php-format
+msgid ""
+"pgAdmin III is the most popular and feature rich Open Source administration "
+"and development platform for <a href=\"%s\">PostgreSQL</a>, the most "
+"advanced Open Source database in the world. The application may be used on "
+"Linux, FreeBSD, OpenSUSE, Solaris, Mac OSX and Windows platforms to manage "
+"PostgreSQL 7.3 and above running on any platform, as well as commercial and "
+"derived versions of PostgreSQL such as <a href=\"%s\">EnterpriseDB</a>, <a "
+"href=\"%s\">Mammoth PostgreSQL</a>, <a href=\"%s\">Bizgres</a> and <a href="
+"\"%s\">Greenplum database</a>."
+msgstr ""
+"pgAdmin III是一个针对<a href=\"%s\">PostgreSQL</a>（世界上非常先进的开放源码"
+"数据库）的非常流行并且具有丰富特性的开放源码管理和开发工具，可以被用在Linux、"
+"FreeBSD、Solaris、Mac OSX和Windows平台上管理运行于任何平台之上的PostgreSQL "
+"7.3及其以上版本，包括商业版本例如<a href=\"%s\">EnterpriseDB</a>和<a href=\"%"
+"s\">Mammoth PostgreSQL</a>。"
 
 #: ../download/debian.php:12
 #, php-format
-msgid "pgAdmin III packages are available for <a href=\"%s\">Debian</a> stable, testing and unstable distributions. These packages are also well-suited for <a href=\"%s\">Knoppix</a> and other Debian based distributions"
-msgstr "pgAdmin III包可以用在<a href=\"%s\">Debian</a>的正式和非正式以及测试版本中，也可以用在<a href=\"%s\">Knoppix</a>和其他基于Debian的分发中。"
+msgid ""
+"pgAdmin III packages are available for <a href=\"%s\">Debian</a> stable, "
+"testing and unstable distributions. These packages are also well-suited for "
+"<a href=\"%s\">Knoppix</a> and other Debian based distributions"
+msgstr ""
+"pgAdmin III包可以用在<a href=\"%s\">Debian</a>的正式和非正式以及测试版本中，"
+"也可以用在<a href=\"%s\">Knoppix</a>和其他基于Debian的分发中。"
 
 #: ../download/freebsd.php:12
-msgid "pgAdmin III packages are available for download. These packages have been built on FreeBSD 6."
+msgid ""
+"pgAdmin III packages are available for download. These packages have been "
+"built on FreeBSD 6."
 msgstr "pgAdmin III 包目前可以下载，这个包是在FreeBSD 6之下制作的。"
 
 #: ../download/ubuntu.php:12
 #, php-format
-msgid "pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> dapper and feisty distributions."
+msgid ""
+"pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> dapper "
+"and feisty distributions."
 msgstr "pgAdmin III包对于<a href=\"%s\">Ubuntu</a>的dapper和feisty分发有效。"
 
 #: ../screenshots/index.php:17
@@ -2132,17 +3404,37 @@ msgid "pgAdmin III running on Windows"
 msgstr "运行于Windows之上的pgAdmin III"
 
 #: ../screenshots/mb_i18n.php:10
-msgid "pgAdmin III supports most PostgreSQL server-side encodings including Unicode UTF-8 and other multi-byte charactersets."
-msgstr "pgAdmin III支持绝大多数的PostgreSQL服务器端编码，包括Unicode UTF-8和其他多字节字符集。"
+msgid ""
+"pgAdmin III supports most PostgreSQL server-side encodings including Unicode "
+"UTF-8 and other multi-byte charactersets."
+msgstr ""
+"pgAdmin III支持绝大多数的PostgreSQL服务器端编码，包括Unicode UTF-8和其他多字"
+"节字符集。"
 
-#: ../features.php:90
+#: ../features.php:91
 msgid "pgAdmin III supports most PostgreSQL server-side encodings:"
 msgstr "pgAdmin III支持绝大多数的PostgreSQL服务器端编码："
 
 #: ../translation/index.php:10
 #, php-format
-msgid "pgAdmin III v1.4 was released with over a dozen language options and more than another 25 translations are in various states of completion. If a language you find here isn't included in your distribution package, you can easily upgrade your installation to support that additional translation. Simply locate the appropriate language file (pgadmin3.mo) in the <a href=\"%s\">translation status</a> section, create a subdirectory in your installation's i18n directory with a name corresponding to the locale code, and copy the new translation file into that directory. You might need to update the language description file <a href=\"%s\">i18n/pgadmin3.lng</a> to allow the new translation to appear in the language selection combobox."
-msgstr "pgAdmin III v1.4使用一打以上的语种发布，并且有另外的25种语种正在翻译中。如果发现某种语言没有包含在分发包中，可以很容易地升级你的安装去支持它。在<a href=\"%s\">翻译状态</a>章节找到相应的语言文件（pgadmin3.mo），然后在安装完毕的i18n目录中用这个语言的地域编号创建一个子目录，将新的翻译文件拷贝到这个新目录。另外可能需要编辑语言描述文件<a href=\"%s\">i18n/pgadmin3.lng</a>让新的翻译出现在语言选择下拉框中。"
+msgid ""
+"pgAdmin III v1.4 was released with over a dozen language options and more "
+"than another 25 translations are in various states of completion. If a "
+"language you find here isn't included in your distribution package, you can "
+"easily upgrade your installation to support that additional translation. "
+"Simply locate the appropriate language file (pgadmin3.mo) in the <a href=\"%s"
+"\">translation status</a> section, create a subdirectory in your "
+"installation's i18n directory with a name corresponding to the locale code, "
+"and copy the new translation file into that directory. You might need to "
+"update the language description file <a href=\"%s\">i18n/pgadmin3.lng</a> to "
+"allow the new translation to appear in the language selection combobox."
+msgstr ""
+"pgAdmin III v1.4使用一打以上的语种发布，并且有另外的25种语种正在翻译中。如果"
+"发现某种语言没有包含在分发包中，可以很容易地升级你的安装去支持它。在<a href="
+"\"%s\">翻译状态</a>章节找到相应的语言文件（pgadmin3.mo），然后在安装完毕的"
+"i18n目录中用这个语言的地域编号创建一个子目录，将新的翻译文件拷贝到这个新目"
+"录。另外可能需要编辑语言描述文件<a href=\"%s\">i18n/pgadmin3.lng</a>让新的翻"
+"译出现在语言选择下拉框中。"
 
 #: ../advocacy/information.php:5
 msgid "pgAdmin III: Advocacy - Information"
@@ -2330,17 +3622,38 @@ msgstr "pgAdmin III：翻译 - 状态"
 
 #: ../features.php:10
 #, php-format
-msgid "pgAdmin has a huge array of features and by far the best way to see them all is to <a href=\"%s\">download</a> a copy and give it a try. Here's a brief list to give you an idea of it's capabilities:"
-msgstr "pgAdmin具有无数的特性，了解它们的最好办法是<a href=\"%s\">下载pgAdmin</a>去尝试一下，这里有一个概要列表来大致了解一下它的功能："
+msgid ""
+"pgAdmin has a huge array of features and by far the best way to see them all "
+"is to <a href=\"%s\">download</a> a copy and give it a try. Here's a brief "
+"list to give you an idea of it's capabilities:"
+msgstr ""
+"pgAdmin具有无数的特性，了解它们的最好办法是<a href=\"%s\">下载pgAdmin</a>去尝"
+"试一下，这里有一个概要列表来大致了解一下它的功能："
 
 #: ../development/index.php:10
 #, php-format
-msgid "pgAdmin is a community project, relying on contributions from developers around the world for bug fixes and new features. Anyone is welcome to join the project and contribute as much or as little as they like. pgAdmin is written in C++ using the <a href=\"%s\">wxWidgets</a> cross platform framework, so at the least you will want to be familiar with C/C++ to hack the code. The more experienced pgAdmin developers will also be able to lend a guiding hand to new developers, so don't be afraid to get stuck in!"
-msgstr "pgAdmin是一个团体项目，依靠世界范围的开发人员来修改bug和开发新特性。欢迎任何人参与到项目中，按自己的喜好为项目做或多或少的事情。pgAdmin用C++编写，使用<a href=\"%s\">wxWidgets</a>跨平台框架，所以你至少要熟悉C++来编写代码。很多富有经验的pgAdmin开发人员也会帮助和指导新进开发人员，所以不必担心。"
+msgid ""
+"pgAdmin is a community project, relying on contributions from developers "
+"around the world for bug fixes and new features. Anyone is welcome to join "
+"the project and contribute as much or as little as they like. pgAdmin is "
+"written in C++ using the <a href=\"%s\">wxWidgets</a> cross platform "
+"framework, so at the least you will want to be familiar with C/C++ to hack "
+"the code. The more experienced pgAdmin developers will also be able to lend "
+"a guiding hand to new developers, so don't be afraid to get stuck in!"
+msgstr ""
+"pgAdmin是一个团体项目，依靠世界范围的开发人员来修改bug和开发新特性。欢迎任何"
+"人参与到项目中，按自己的喜好为项目做或多或少的事情。pgAdmin用C++编写，使用<a "
+"href=\"%s\">wxWidgets</a>跨平台框架，所以你至少要熟悉C++来编写代码。很多富有"
+"经验的pgAdmin开发人员也会帮助和指导新进开发人员，所以不必担心。"
 
 #: ../contribute.php:10
-msgid "pgAdmin is a voluntary project created and managed by contributors from around the world. The project can only live and develop with your help. Do not hesitate to get involved."
-msgstr "pgAdmin是一个由世界范围的志愿者创建和管理的自愿性项目，它只能在大家的帮助下生存和发展，不要犹豫，参与它吧。"
+msgid ""
+"pgAdmin is a voluntary project created and managed by contributors from "
+"around the world. The project can only live and develop with your help. Do "
+"not hesitate to get involved."
+msgstr ""
+"pgAdmin是一个由世界范围的志愿者创建和管理的自愿性项目，它只能在大家的帮助下生"
+"存和发展，不要犹豫，参与它吧。"
 
 #: ../screenshots/xgl.php:12
 msgid "pgAdmin running on Suse 10 XGL"
@@ -2355,31 +3668,99 @@ msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr "pgAdmin：文档 - 无法找到文档标题！"
 
 #: ../development/roadmap.php:40
-msgid "pgsql-performance report tool for problematic queries (requires XML EXPLAIN in PG 8.4) [DP]"
+msgid ""
+"pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
+"in PG 8.4) [DP]"
 msgstr "针对有问题查询的pgsql性能报告工具（需要PG 8.4中的XML EXPLAIN）。[DP]"
 
 #: ../translation/howto.php:21
 #, php-format
-msgid "poEdit is our recommended choice, as it makes it very easy to maintain your translation. A Windows installer is available on the poEdit web site. Alternatively, you may also run <a href=\"%s\">Kbabel</a> which can be found in many popular Linux distributions."
-msgstr "我们推荐使用poEdit，它可以让翻译工作更加简便。poEdit网站可以找到Windows的安装包，另外也可以使用大多数Linux中可以找到的<a href=\"%s\">Kbabel</a>。"
+msgid ""
+"poEdit is our recommended choice, as it makes it very easy to maintain your "
+"translation. A Windows installer is available on the poEdit web site. "
+"Alternatively, you may also run <a href=\"%s\">Kbabel</a> which can be found "
+"in many popular Linux distributions."
+msgstr ""
+"我们推荐使用poEdit，它可以让翻译工作更加简便。poEdit网站可以找到Windows的安装"
+"包，另外也可以使用大多数Linux中可以找到的<a href=\"%s\">Kbabel</a>。"
 
-#: ../news.php:176
-msgid "v1.4.3 is primarily a bug fix release, including the following changes:"
-msgstr "1.4.3版本主要用来进行bug修正，包括如下更新："
-
-#: ../news.php:108
-msgid "v1.6.0 represents over a year of development and testing to bring you a host of new features and improvements including:"
+#: ../news.php:212
+msgid ""
+"v1.6.0 represents over a year of development and testing to bring you a host "
+"of new features and improvements including:"
 msgstr "1.6.0版经历超过一年的开发和测试，包含许多新特性和改进，包括："
 
-#: ../news.php:80
+#: ../news.php:184
 msgid "v1.6.1 is primarily a bug fix release, including the following changes:"
 msgstr "1.6.1版本主要用来进行bug修正，包括如下更新："
 
-#: ../news.php:53
+#: ../news.php:157
 msgid "v1.6.2 is primarily a bug fix release, including the following changes:"
 msgstr "1.6.2版本主要用来进行bug修正，包括如下更新："
 
-#: ../news.php:17
+#: ../news.php:121
 msgid "v1.6.3 is primarily a bug fix release, including the following changes:"
 msgstr "1.6.3版本主要用来进行bug修正，包括如下更新："
 
+#: ../news.php:19
+#, fuzzy
+msgid ""
+"v1.8.0 represents nearly a year of development and testing to bring you \n"
+"a host of new features and improvements including:"
+msgstr "1.6.0版经历超过一年的开发和测试，包含许多新特性和改进，包括："
+
+#~ msgid ""
+#~ "Add an accelerator key (Delete) for deleting rows in the edit grid, per "
+#~ "Emil Nowak."
+#~ msgstr "在数据编辑网格中为删除多行功能增加一个加速器，Emil Nowak修改。"
+
+#~ msgid ""
+#~ "Allow non-superuser roles with the appropriate permissions to create "
+#~ "roles and DBs."
+#~ msgstr "允许具有相应权限的非超级用户创建角色和数据库。"
+
+#~ msgid "Allow non-superusers to edit roles where appropriate [Thomas Sondag]"
+#~ msgstr "允许非超级用户在适当的地方编辑角色。[Thomas Sondag]"
+
+#~ msgid ""
+#~ "Detect and correctly use GNU vs. BSD xargs when completing an appbundle "
+#~ "install, per John DeSoi."
+#~ msgstr "完成appbundle安装后，检查校正使用GNU还是BSD。"
+
+#~ msgid "Display interval precision properly, per Walter Haslbeck"
+#~ msgstr "正确地显示间隔精度，Walter Haslbeck修改。"
+
+#~ msgid ""
+#~ "Display job steps and schedules properly in the Job dialogue, per Eric "
+#~ "Shuman."
+#~ msgstr "在工作计划对话框中正常显示工作步骤和进度。"
+
+#~ msgid "Ensure the user is warned if files cannot be written."
+#~ msgstr "文件不可写时让用户收到一个警告。"
+
+#~ msgid "Fix a bug in the pgpass save code that could damage files."
+#~ msgstr "修正一个在pgpass中保存代码可能破坏文件的bug。"
+
+#~ msgid ""
+#~ "Install PkgInfo into the Contents directory in the OSX appbundle, per "
+#~ "John DeSoi."
+#~ msgstr "在OSX包中将PkgInfo安装到Contents目录，John DeSoi修改。"
+
+#~ msgid ""
+#~ "Return the script return value when executing shell scripts from pgAgent, "
+#~ "per Eric Shuman"
+#~ msgstr "从pgAgent中执行shell脚本时返回脚本的返回值，Eric Shuman修改。"
+
+#~ msgid ""
+#~ "Use a slider instead of a spin control to avoid a wxGTK bug on the status "
+#~ "form, per Peter Eisentraut."
+#~ msgstr ""
+#~ "在状态模块中使用slider控件而不是spin，以避免一个wxGTK的bug，Peter "
+#~ "Eisentraut修改。"
+
+#~ msgid "Use the correct encoding in the View Data filter options per Ferenc."
+#~ msgstr "在查看数据的过滤器选项中使用正确的字符编码，Ferenc修改。"
+
+#~ msgid ""
+#~ "v1.4.3 is primarily a bug fix release, including the following changes:"
+#~ msgstr "1.4.3版本主要用来进行bug修正，包括如下更新："

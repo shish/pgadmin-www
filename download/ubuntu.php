@@ -48,7 +48,7 @@ deb [MIRROR URL]/pgadmin3/release/ubuntu gutsy pgadmin
 <p>' . _("For example, for France and Gutsy Gibbon, you can try:") . '</p>
 
 <div class="pgaCode">
-deb ftp://ftp4.fr.postgresql.org/postgresql/pgadmin3/release/ubuntu gutsy pgadmin
+deb ftp://ftp4.fr.postgresql.org/pub/mirrors/postgresql/pgadmin3/release/ubuntu gutsy pgadmin
 </div>
 
 <p>' . _("Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as wxWidgets2.8 is available from universe only at the moment. To do so, check the Ubuntu documentation or at least try to launch the update-manager configuration from the System/Administration Gnome menu.") . '</p>

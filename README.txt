@@ -65,8 +65,8 @@ the mailing list archives.
 --------
 
 /svnrepo
-  /pgadmin3
-  /pgadmin3-1.4
+   /pgadmin3
+   /pgadmin3-1.4
 ...
 ...
 

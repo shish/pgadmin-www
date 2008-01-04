@@ -7,6 +7,61 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2008-01-04", "1.8.1") . '</h2>
+
+<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.8.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD
+, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
+
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
+
+<p>' . _("v1.8.1 is primarily a bug fix release, including the following changes:") . '</p>
+<ul>
+  <li>' . _("Fix a bug that could cause a crash on GTK when closing the query tool in certain circumstances.") . '</li>
+  <li>' . _("Avoid a crash if the connection is lost and the Functions node is refreshed.") . '</li>
+  <li>' . _("Avoid crashes when working with objects with % characters in the name.") . '</li>
+  <li>' . _("Properly reverse-engineer the SQL for indexes with DESC, NULLS FIRST or NULLS LAST column options.") . '</li>
+  <li>' . _("Only offer the Jobs node if the user can access the pgagent schema.") . '</li>
+  <li>' . _("Ensure the 'Create Rule' context menu option is always offered when appropriate.") . '</li>
+  <li>' . _("Prevent the user from trying to debug catalog objects.") . '</li>
+  <li>' . _("Refresh the tree without erroring after creating a new package on EnterpriseDB.") . '</li>
+  <li>' . _("Fix a crash that occured if an object called '%' was selected in the treeview, per Alexander Steffens.") . '</li>
+  <li>' . _("Fix a line number error in the debugger seen with procedures which start on the same line as the 'CREATE PROCEDURE foo IS ...' Per report from Heikki Linnakangas.") . '</li>
+  <li>' . _("Cleanup the covering index control logic in the Foreign Key dialogue.") . '</li>
+  <li>' . _("Fix to refresh version string and number, and last OID, per a report from Alexander Kirpa.") . '</li>
+  <li>' . _("Disable CREATE FUNCTION etc. under EnterpriseDB packages because they are created as part of the main package body.") . '</li>
+  <li>' . _("Fix some broken references to online help pages.") . '</li>
+  <li>' . _("Don't offer 'Drop Cascaded' unless the user can 'Drop' the object.") . '</li>
+  <li>' . _("Prevent non-superusers from attempting to use the debugger because the plugin API won't let them anyway.") . '</li>
+  <li>' . _("Check that functions exist before debugging or setting global breakpoints on them. Remove them from the treeview if not.") . '</li>
+  <li>' . _("Correct the URL for the EDB public synonym help page") . '</li>
+  <li>' . _("Handle the corner case when a user includes quotes in an object name (backport of 2007-10-26 fix applied to trunk)") . '</li>
+  <li>' . _("Fix the debugger's connection class to ensure database names requiring quotes will work and that is can be used with SSL and Kerberos connections.") . '</li>
+  <li>' . _("Allow the length of array-typed columns to be changed (eg. 'character varying[](100)'), per report from Ferenc Lutischan") . '</li>
+  <li>' . _("Don't allow the user to direct-debug trigger functions, only global breakpoints should be used on them (or the trigger itself).") . '</li>
+  <li>' . _("Don't offer edbspl functions when creating triggers as they should have inline bodies.") . '</li>
+  <li>' . _("Don't quote database names that happen to be keywords when starting the debugger.") . '</li>
+  <li>' . _("Don't offer package names and system schemas as schemas when creating public synonyms.") . '</li>
+  <li>' . _("Fix pgAgent's job query when a host agent is specified so that jobs don't execute every time round the loop regardless of schedule, per Brian Kalbfus.") . '</li>
+  <li>' . _("Add EnterpriseDB's default database (edb) to the Server dialog's default option.") . '</li>
+  <li>' . _("Don't allow the user to debug an EnterpriseDB package function or procedure if the body isn't defined.") . '</li>
+  <li>' . _("Don't offer the user the chance to create new columns on system catalogues.") . '</li>
+  <li>' . _("Fix the debugger to send actual NULL values rather than 'NULL' through the EnterpriseDB callable statement API. Allow parameter values to be NULL or empty strings on both PostgreSQL and EnterpriseDB using the same syntax as the Edit Grid.") . '</li>
+  <li>' . _("Always open the PostgreSQL Help when selecting that menu option, even if connected to EnterpriseDB.") . '</li>
+  <li>' . _("Fix EnterpriseDB public synonym loading so that they aren't considered system objects.") . '</li>
+  <li>' . _("Fix path discovery on Unix so standard installs can be relocated easily.") . '</li>
+  <li>' . _("Fix character number display in the query tool.") . '</li>
+  <li>' . _("Use popen() when testing the versions of helper apps on non-windows platforms to avoid an obscure bug on PPC Macs that could leave wxExecute hanging indefinitely whilst waiting on a zombie process.") . '</li>
+  <li>' . _("When creating a new index and specifying both tablespace and fill factor, make sure the SQL is formulated correctly, per Stefan Wolf") . '</li>
+  <li>' . _("Fix the locks tab on the server status dialogue so it works correctly with PostgreSQL 8.3+.") . '</li>
+  <li>' . _("Properly format the object comments shown in the properties list when a collection node is selected. Per report from Mike Blackwell.") . '</li>
+  <li>' . _("Fix a bug preventing the 'on error' flag of a pgAgent job step being edited, per Jon Roberts.") . '</li>
+  <li>' . _("Properly escape _'s in queries for schemas, per Derek Fonda.") . '</li>
+  <li>' . _("Don't try to enable/disable prepared transaction related controls on pre-8.1 servers, per Karl Zellnig") . '</li>
+</ul>
+
+<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
+
+
 <h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2007-10-22", "1.8.0") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of 

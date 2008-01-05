@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-01-04 10:09+0100\n"
+"POT-Creation-Date: 2008-01-05 22:05+0100\n"
 "PO-Revision-Date: 2007-12-29 13:26+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -610,6 +610,10 @@ msgstr "安装之前的准备"
 msgid "Browser support for Operator Families in PostgreSQL 8.3."
 msgstr "在PostgreSQL 8.3中增加对Operaor系列浏览器的支持。"
 
+#: ../news.php:130
+msgid "Bug fixes"
+msgstr ""
+
 #: ../support/issues.php:10
 msgid ""
 "Bugs and other issues in pgAdmin are almost always fixed within a very short "
@@ -670,6 +674,10 @@ msgstr "选在上边提及的镜像并且编辑/etc/apt/sources.list文件追加
 
 #: ../news.php:29
 msgid "Cleanup the covering index control logic in the Foreign Key dialogue."
+msgstr ""
+
+#: ../news.php:153
+msgid "Code cleanup/maintainability"
 msgstr ""
 
 #: ../development/roadmap.php:19
@@ -1020,6 +1028,10 @@ msgid ""
 "rows or individual cells."
 msgstr "增强查询工具，允许拷贝/粘贴任意行和列以及任意单元格。"
 
+#: ../news.php:90
+msgid "Enhancements"
+msgstr ""
+
 #: ../news.php:255
 msgid ""
 "Ensure backup and restore options are enabled when appropriate (this is a "
@@ -1241,7 +1253,7 @@ msgstr ""
 #: ../news.php:38
 msgid ""
 "Fix the debugger's connection class to ensure database names requiring "
-"quotes will work and that is can be used with SSL and Kerberos connections."
+"quotes will work and that it can be used with SSL and Kerberos connections."
 msgstr ""
 
 #: ../news.php:188
@@ -1689,6 +1701,11 @@ msgstr "维护者"
 #, php-format
 msgid "Maintainer: %s"
 msgstr "维护者：%s"
+
+#: ../news.php:77
+#, fuzzy
+msgid "Major features"
+msgstr "特性"
 
 #: ../news.php:313
 msgid "Make elements of the main windows dockable for maximum configurability."

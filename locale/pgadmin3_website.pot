@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-01-04 10:09+0100\n"
+"POT-Creation-Date: 2008-01-05 22:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -545,6 +545,10 @@ msgstr ""
 msgid "Browser support for Operator Families in PostgreSQL 8.3."
 msgstr ""
 
+#: ../news.php:130
+msgid "Bug fixes"
+msgstr ""
+
 #: ../support/issues.php:10
 msgid ""
 "Bugs and other issues in pgAdmin are almost always fixed within a very short "
@@ -603,6 +607,10 @@ msgstr ""
 
 #: ../news.php:29
 msgid "Cleanup the covering index control logic in the Foreign Key dialogue."
+msgstr ""
+
+#: ../news.php:153
+msgid "Code cleanup/maintainability"
 msgstr ""
 
 #: ../development/roadmap.php:19
@@ -943,6 +951,10 @@ msgid ""
 "rows or individual cells."
 msgstr ""
 
+#: ../news.php:90
+msgid "Enhancements"
+msgstr ""
+
 #: ../news.php:255
 msgid ""
 "Ensure backup and restore options are enabled when appropriate (this is a "
@@ -1157,7 +1169,7 @@ msgstr ""
 #: ../news.php:38
 msgid ""
 "Fix the debugger's connection class to ensure database names requiring "
-"quotes will work and that is can be used with SSL and Kerberos connections."
+"quotes will work and that it can be used with SSL and Kerberos connections."
 msgstr ""
 
 #: ../news.php:188
@@ -1565,6 +1577,10 @@ msgstr ""
 #: ../download/ubuntu.php:10 ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
+msgstr ""
+
+#: ../news.php:77
+msgid "Major features"
 msgstr ""
 
 #: ../news.php:313

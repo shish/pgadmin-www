@@ -74,7 +74,7 @@ source and a variety of binary formats from:") . '</p>
 <p>' . _("v1.8.0 represents nearly a year of development and testing to bring you 
 a host of new features and improvements including:") . '</p>
 
-<b>Major features</b>
+<b>' . _("Major features") . '</b>
 <ul>
 <li>' . _("Add a macro facility to the Query Tool.") . '</li>
 <li>' . _("Add support for multi-parameter aggregates.") . '</li>
@@ -87,7 +87,7 @@ a host of new features and improvements including:") . '</p>
 <li>' . _("Browser support for Operator Families in PostgreSQL 8.3.") . '</li>
 <li>' . _("Allow GUC variables to be preset on functions in PostgreSQL 8.3.") . '</li> 
 </ul>
-<b>Enhancements</b>
+<b>' . _("Enhancements") . '</b>
 <ul>
 <li>' . _("Speed up loading of functions and procedures by rewriting some horribly inefficient code.") . '</li>
 <li>' . _("Numerous changes to the database browser code to ensure changes to objects are properly reflected in the main window. In addition, the expanded/collapsed states of child nodes are retained wherever possible during refresh operations.") . '</li>
@@ -127,7 +127,7 @@ a host of new features and improvements including:") . '</p>
 <li>' . _("Remember last used backup/restore filenames.") . '</li>
 <li>' . _("Allow GUCs to be set on users, roles and databases at create time.") . '</li>
 </ul>
-<b>Bug fixes</b>
+<b>' . _("Bug fixes") . '</b>
 <ul>
 <li>' . _("Fixed UTF8 option was not effective by file reading and writing of a query and fixed crash at the time of file save.") . '</li>
 <li>' . _("Ensure files can be converted to the required encoding before saving.") . '</li>
@@ -150,7 +150,7 @@ a host of new features and improvements including:") . '</p>
 <li>' . _("Fix the table, index and index constraint tablespace property combo boxes to allow changes to tablespace.") . '</li>
 <li>' . _("Refactor the Query Tool's execQuery function to prevent pgAdmin freezing while two long running queries are executing simultaneously.") . '</li>
 </ul>
-<b>Code cleanup/maintainability</b>
+<b>' . _("Code cleanup/maintainability") . '</b>
 <ul>
 <li>' . _("Remove a lot debugging code of little or no use.") . '</li>
 <li>' . _("Refactor code to remove support for building the Query Tool with a listview rather than a grid.") . '</li>

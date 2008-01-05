@@ -35,7 +35,7 @@ $PAGE_CONTENT = '
   <li>' . _("Check that functions exist before debugging or setting global breakpoints on them. Remove them from the treeview if not.") . '</li>
   <li>' . _("Correct the URL for the EDB public synonym help page") . '</li>
   <li>' . _("Handle the corner case when a user includes quotes in an object name (backport of 2007-10-26 fix applied to trunk)") . '</li>
-  <li>' . _("Fix the debugger's connection class to ensure database names requiring quotes will work and that is can be used with SSL and Kerberos connections.") . '</li>
+  <li>' . _("Fix the debugger's connection class to ensure database names requiring quotes will work and that it can be used with SSL and Kerberos connections.") . '</li>
   <li>' . _("Allow the length of array-typed columns to be changed (eg. 'character varying[](100)'), per report from Ferenc Lutischan") . '</li>
   <li>' . _("Don't allow the user to direct-debug trigger functions, only global breakpoints should be used on them (or the trigger itself).") . '</li>
   <li>' . _("Don't offer edbspl functions when creating triggers as they should have inline bodies.") . '</li>

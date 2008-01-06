@@ -14,7 +14,7 @@ $PAGE_CONTENT = '
 <div class="pgaCode">
 svn co svn://svn.pgadmin.org/trunk/pgadmin3 pgadmin3<br />
 cd pgadmin3<br />
-sh bootstrap<br />
+bash bootstrap<br />
 ./configure<br />
 </div>
 

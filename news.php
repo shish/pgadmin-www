@@ -7,6 +7,38 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2008-02-03", "1.8.2") . '</h2>
+
+<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.8.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
+
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
+
+<p>' . _("v1.8.2 is primarily a bug fix release, including the following changes:") . '</p>
+<ul>
+  <li>' . _("Size of the column label of SQLGrid was made variable.") . '</li>
+  <li>' . _("Prevent a crash when viewing databases with % in the name.") . '</li>
+  <li>' . _("Don't try to force new databases into a specific tablespace as this will error as non-superusers default to pg_default.") . '</li>
+  <li>' . _("Correct the SQL generation for EDB inline triggers.") . '</li>
+  <li>' . _("Generate function signatures correctly if the first parameters are OUT only.") . '</li>
+  <li>' . _("Remove the confusing and near-useless sequence combo box from the column dialog per discussion on support list.") . '</li>
+  <li>' . _("Fix the WITH ADMIN membership option when creating roles.") . '</li>
+  <li>' . _("Refresh Views correctly on EnterpriseDB.") . '</li>
+  <li>' . _("Fix the privilege editor on the Language dialogue, per Bborie Park.") . '</li>
+  <li>' . _("Correctly identify the schema of trigger functions that are in system catalogs as can be the case with integrated full text search.") . '</li>
+  <li>' . _("Warn the user if a file cannot be saved in the default encoding.") . '</li>
+  <li>' . _("Undecorated out-param types must be included in EDB-SPL function signatures when altering comments or privileges or dropping functions or procedures.") . '</li>
+  <li>' . _("Ensure enums are offered as datatypes for columns.") . '</li>
+  <li>' . _("Fix column dialogue to allow proper modification of array columns per Erwin.") . '</li>
+  <li>' . _("Newer build of EnterpriseDB consistently strip trailing semi-colons from package headers and bodies. Update reverse engineering allow for this.") . '</li>
+  <li>' . _("Ensure the properties dialogues will work sanely with objects named \" \" (!).") . '</li>
+  <li>' . _("EDB-SPL functions require NULL to be passed in out-params when debugging.") . '</li>
+  <li>' . _("Ensure that EDB-SPL trigger DDL code is appropriately formatted on newer builds of EnterpriseDB.") . '</li>
+  <li>' . _("Ensure the password and confirmed password always match when adding or editing roles or users.") . '</li>
+</ul>
+
+<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
+
+
 <h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2008-01-04", "1.8.1") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.8.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD

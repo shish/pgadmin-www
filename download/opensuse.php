@@ -11,6 +11,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("OpenSUSE packages built on a server periodically updated to -current are available for download. These builds should run on most recent versions of OpenSUSE.") . '</p>
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.8.2/opensuse/", "1.8.2") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.8.1/opensuse/", "1.8.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.8.0/opensuse/", "1.8.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.6.3/opensuse/", "1.6.3") . '<br />&nbsp;</li>

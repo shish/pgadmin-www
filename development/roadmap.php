@@ -31,7 +31,7 @@ $PAGE_CONTENT = '
 
   <li>' . _("Functionality") . '<br />&nbsp;
     <ul>
-      <li>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '<br />&nbsp;</li>
+      <li><s>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '</s><br />&nbsp;</li>
       <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
       <li>' . _("Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [DP]") . '<br />&nbsp;</li>
       <li>' . _("Support for integrated tsearch configuration in PG 8.3+") . '<br />&nbsp;</li>

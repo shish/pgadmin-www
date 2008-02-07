@@ -33,7 +33,6 @@ $PAGE_CONTENT = '
     <ul>
       <li>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '<br />&nbsp;</li>
       <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
-      <li>' . _("ER diagramming tool (Google SoC project). [Euler Taveira de Oliveira]") . '<br />&nbsp;</li>
       <li>' . _("Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [DP]") . '<br />&nbsp;</li>
       <li>' . _("Support for integrated tsearch configuration in PG 8.3+") . '<br />&nbsp;</li>
       <li>' . _("Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>

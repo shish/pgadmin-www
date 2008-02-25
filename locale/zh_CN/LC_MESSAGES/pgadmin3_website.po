@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-02-19 19:16+0100\n"
-"PO-Revision-Date: 2008-02-21 18:42+0900\n"
+"PO-Revision-Date: 2008-02-25 10:37+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql.org>\n"
 "MIME-Version: 1.0\n"
@@ -2526,7 +2526,7 @@ msgstr "pgAdmin %s在线文档"
 
 #: ../index.php:12
 msgid "pgAdmin 1.8.2 has now been released! Please see the <a href=\"news.php\">news page</a> for further details, and <a href=\"/download/\">the download page</a> to get your copy. Any questions or other support issues should be sent to <a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</a>."
-msgstr "pgAdmin 1.8.2已经正式发布，请访问<a href=\"/download/\">新闻页面</a>查看特性细节，从<a href=\"/download/\">下载页面</a>获得一份拷贝。有任何问题或者需要其他支持请发送邮件给<a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-spport@postgresql.org</a>。"
+msgstr "pgAdmin 1.8.2已经正式发布，请访问<a href=\"news.php\">新闻页面</a>查看特性细节，从<a href=\"/download/\">下载页面</a>获得一份拷贝。有任何问题或者需要其他支持请发送邮件给<a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-spport@postgresql.org</a>。"
 
 #: ../news.php:39
 #: ../news.php:94

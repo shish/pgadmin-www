@@ -12,6 +12,7 @@ $PAGE_CONTENT = '
 <ul>
   <li>' . _("PostgreSQL 8.4 compatibility (these items are subject to change)") . '<br />&nbsp;
     <ul>
+      <li><s>' . _("TRUNCATE trigger support") . '</s><br />&nbsp;</li>
       <li>' . _("To be determined...") . '<br />&nbsp;</li>
     </ul>
   </li>
@@ -37,7 +38,7 @@ $PAGE_CONTENT = '
       <li>' . _("Support for integrated tsearch configuration in PG 8.3+") . '<br />&nbsp;</li>
       <li>' . _("Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
       <li>' . _("pgsql-performance report tool for problematic queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
-      <li>' . _("Overhaul settings management. Save settings on the fly rather than at exit. Take default values from an external file [DP]") . '<br />&nbsp;</li>
+      <li><s>' . _("Overhaul settings management. Save settings on the fly rather than at exit. Take default values from an external file [DP]") . '</s><br />&nbsp;</li>
       <li>' . _("Add a dialog to allow the user to set a global breakpoint in a specific backend process [DP]") . '<br />&nbsp;</li>
       <li>' . _("Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected lines in the query tool [DP]") . '<br />&nbsp;</li>
       <li>' . _("Add support for the -c (clean) pg_restore option") . '<br />&nbsp;</li>

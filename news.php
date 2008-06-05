@@ -7,6 +7,61 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2008-06-05", "1.8.4") . '</h2>
+
+<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.8.4, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
+
+<p><a href="http://www.pgadmin.org/download/">http://www.pgadmin.org/download/</a></p>
+
+<p>' . _("v1.8.4 is primarily a bug fix release, including the following changes. Note that v1.8.3 was never announced as a release due to an issue found at the last minute.") . '</p>
+
+<p>' . _("v1.8.4 fixes:") . '</p>
+
+<ul>
+  <li>' . _("Fix potential crash bug in the query tool logging code, per Erwin.") . '</li>
+</ul>
+
+<p>' . _("v1.8.3 fixes:") . '</p>
+  
+<ul>
+  <li>' . _("Allow a debugging session to be cancelled correctly on  windows.") . '</li>
+  <li>' . _("Fix a corner case in which closing the debugger window  following a failed attempt to create a global breakpoint (for example, because of an existing breakpoint) could cause a crash on Windows.") . '</li>
+  <li>' . _("Store pgAgent job step result codes in an int4 column. int2 was proving too small in some cases resulting in an error.") . '</li>
+  <li>' . _("Allow EnterpriseDB packages to be created without bodies.") . '</li>
+  <li>' . _("Always refresh the data when the user clicks OK on the  edit grid options dialogue to ensure the filter/sort is applied to current data.") . '</li>
+  <li>' . _("Prevent unsaved changes in the edit grid being lost if the filter or sorting dialogue is opened.") . '</li>
+  <li>' . _("Update node text when refreshing treeview nodes in case part of the identifier has changed.") . '</li>
+  <li>' . _("Correct config window help paths.") . '</li>
+  <li>' . _("Don't load group roles and old-style groups on the security tab on 8.1 and higher.") . '</li>
+  <li>' . _("Correctly quote role names when reverse engineering ACLs.") . '</li>
+  <li>' . _("Don't allow the user to attempt to remove columns from an existing index or index constraint.") . '</li>
+  <li>' . _("Disable the RULE privilege on 8.2+ for views per Erwin.") . '</li>
+  <li>' . _("Fix the logging system to ensure that errors from the query tool get logged, and notices are only output once.") . '</li>
+  <li>' . _("Cleanup some other minor misbehaviours at the same time. Per report from Erwin.") . '</li>
+  <li>' . _("Ignore the type modifier for domains in function signatures.") . '</li>
+  <li>' . _("If stopping the server service fails after stopping dependent services, wait 5 seconds and try again up to 10 times to allow the dependents time to shutdown fully.") . '</li>
+  <li>' . _("Don't include the -h option when calling pg_dump or pg_restore if there is no hostname to specify.") . '</li>
+  <li>' . _("Convert setting names to lower case so we don't end up with DateStyle and datestyle for example.") . '</li>
+  <li>' . _("Construct SQL used to add columns such that the entire operation happens in one statement to ensure default values and NOT NULL can be set together. Per report from Laurent ROCHE.") . '</li>
+  <li>' . _("Properly quote the maintenance database name when creating a new connection.") . '</li>
+  <li>' . _("Show the schema correctly for EDB public synonyms that point to other synonyms.") . '</li>
+  <li>' . _("Remove long-dead Explain Text option from the Query Tool.") . '</li>
+  <li>' . _("Properly quote synonym names when refreshing.") . '</li>
+  <li>' . _("Parse function parameter names correctly when they contain commas.") . '</li>
+  <li>' . _("FOSDEM fix: Include overriding columns in reverse engineered SQL for child tables, rather than commenting them out and marking as inherited.") . '</li>
+  <li>' . _("Avoid quoting 'text' when used as a type name per Erwin.") . '</li>
+  <li>' . _("Correctly generate table DDL when inherited columns follow the last 'real' column, per Peter Gagarinov.") . '</li>
+  <li>' . _("Hide array variants of table-types in datatype selectors where we already hide the table type itself.") . '</li>
+  <li>' . _("Fix query that tries to apply the schema restriction.") . '</li>
+  <li>' . _("Specify the length correctly when creating columns of 'time with time zone' and friends.") . '</li>
+  <li>' . _("Allow non-superusers to debug their own functions.") . '</li>
+  <li>' . _("Fix query that tries to apply the DB restriction.") . '</li>
+  <li>' . _("Ensure info passed to Guru hints is HTML-safe.") . '</li>
+</ul>
+
+<p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
+
+
 <h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2008-02-03", "1.8.2") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.8.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>

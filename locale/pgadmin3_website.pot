@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-19 19:16+0100\n"
+"POT-Creation-Date: 2008-06-05 17:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,8 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../index.php:10 ../news.php:10 ../news.php:42 ../news.php:97
-#: ../news.php:201 ../news.php:238 ../news.php:265 ../news.php:293
+#: ../index.php:10 ../news.php:10 ../news.php:65 ../news.php:97
+#: ../news.php:152 ../news.php:256 ../news.php:293 ../news.php:320
+#: ../news.php:348
 #, php-format
 msgid "%s - pgAdmin III v%s released"
 msgstr ""
@@ -38,8 +39,8 @@ msgstr ""
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/opensuse.php:14
 #: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/rpm.php:14 ../download/rpm.php:15
-#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/slackware.php:14
+#: ../download/opensuse.php:17 ../download/rpm.php:16 ../download/rpm.php:17
+#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
@@ -147,191 +148,191 @@ msgstr ""
 msgid "Access to all PostgreSQL objects"
 msgstr ""
 
-#: ../news.php:253
+#: ../news.php:308
 msgid ""
 "Add '...' to truncated column comments in table SQL, per Erwin Brandstetter."
 msgstr ""
 
-#: ../news.php:344
+#: ../news.php:399
 msgid ""
 "Add 'scratch pads' to the Edit Grid and Query Tool windows to use when "
 "copying and pasting data back and forth."
 msgstr ""
 
-#: ../news.php:312
+#: ../news.php:367
 msgid ""
 "Add -a and -q command line options to auto connect to a server and open a "
 "query window respectively."
 msgstr ""
 
-#: ../news.php:346
+#: ../news.php:401
 msgid ""
 "Add -qc switch to open query tool and autoconnect using a connection string."
 msgstr ""
 
-#: ../news.php:329
+#: ../news.php:384
 msgid ""
 "Add CREATE/INSERT/UPDATE/SELECT script menu options for various object types "
 "to create script templates."
 msgstr ""
 
-#: ../development/roadmap.php:34
+#: ../development/roadmap.php:35
 msgid "Add DROP/REASSIGN OWNED support. [GL]"
 msgstr ""
 
-#: ../news.php:77
+#: ../news.php:132
 msgid ""
 "Add EnterpriseDB's default database (edb) to the Server dialog's default "
 "option."
 msgstr ""
 
-#: ../news.php:321
+#: ../news.php:376
 msgid "Add a 'Favourites' query organiser to the Query Tool."
 msgstr ""
 
-#: ../news.php:155
+#: ../news.php:210
 msgid "Add a 'Run Now' options for pgAgent jobs."
 msgstr ""
 
-#: ../development/roadmap.php:41
+#: ../development/roadmap.php:42
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
 msgstr ""
 
-#: ../news.php:152
+#: ../news.php:207
 msgid ""
 "Add a guru hint to warn the user of the consequences of storing passwords."
 msgstr ""
 
-#: ../news.php:111
+#: ../news.php:166
 msgid "Add a macro facility to the Query Tool."
 msgstr ""
 
-#: ../development/roadmap.php:42
+#: ../development/roadmap.php:43
 msgid ""
 "Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected "
 "lines in the query tool [DP]"
 msgstr ""
 
-#: ../news.php:343
+#: ../news.php:398
 msgid ""
 "Add a new Find & Replace dialogue to the query tool, implementing all the "
 "normal Find & Replace options as well as a powerful regular expression "
 "search mode."
 msgstr ""
 
-#: ../news.php:131
+#: ../news.php:186
 msgid ""
 "Add a new command line option (-f ) to open an SQL script automatically when "
 "using -q or -qc."
 msgstr ""
 
-#: ../news.php:133
+#: ../news.php:188
 msgid ""
 "Add a new command line options (-cp ) to allow direct editing of pgpass "
 "files."
 msgstr ""
 
-#: ../news.php:316
+#: ../news.php:371
 msgid "Add a password file editor."
 msgstr ""
 
-#: ../news.php:342
+#: ../news.php:397
 msgid "Add a pgAgent option to log to a file on *nix."
 msgstr ""
 
-#: ../news.php:118
+#: ../news.php:173
 msgid ""
 "Add a set of options to allow the user to hide selected object types from "
 "the treeview. Note that the new default settings will hide less commonly "
 "used objects such as casts, languages, aggregates, operators etc."
 msgstr ""
 
-#: ../news.php:336
+#: ../news.php:391
 msgid "Add a word wrap option to the query tool editor."
 msgstr ""
 
-#: ../news.php:331
+#: ../news.php:386
 msgid ""
 "Add an internal XML reporting API, HTML XSL stylesheet with XSLT processing "
 "capabilities and selection of schema/object/data reports."
 msgstr ""
 
-#: ../news.php:157
+#: ../news.php:212
 msgid "Add an option to show NULLs as  in the Query Tool."
 msgstr ""
 
-#: ../news.php:135
+#: ../news.php:190
 msgid "Add an option to show indent guides in the query tool."
 msgstr ""
 
-#: ../news.php:126
+#: ../news.php:181
 msgid ""
 "Add an option to the Report Tool to open the output file in the default "
 "browser."
 msgstr ""
 
-#: ../news.php:134
+#: ../news.php:189
 msgid "Add auto-indent to the query tool."
 msgstr ""
 
-#: ../news.php:319
+#: ../news.php:374
 msgid ""
 "Add autocompletion to the Query Tool, based on the logic used by psql. "
 "Triggered with Control+Space, and optionally the Tab key as well."
 msgstr ""
 
-#: ../news.php:335
+#: ../news.php:390
 msgid "Add brace highlighting to the SQL Text Box control."
 msgstr ""
 
-#: ../news.php:132
+#: ../news.php:187
 msgid "Add fillfactor support on tables and indexes."
 msgstr ""
 
-#: ../news.php:127
+#: ../news.php:182
 msgid "Add keyboard shortcuts to show and hide UI elements."
 msgstr ""
 
-#: ../news.php:153
+#: ../news.php:208
 msgid ""
 "Add options to enable/disable triggers, both individually and per-table."
 msgstr ""
 
-#: ../news.php:337
+#: ../news.php:392
 msgid "Add options to show line ends and whitespaces in the query tool."
 msgstr ""
 
-#: ../news.php:229
+#: ../news.php:284
 msgid "Add support for Sun's compiler [Dhanaraj M]"
 msgstr ""
 
-#: ../news.php:347
+#: ../news.php:402
 msgid "Add support for building Mac Universal Binaries."
 msgstr ""
 
-#: ../news.php:115
+#: ../news.php:170
 msgid "Add support for enums in PostgreSQL 8.3+."
 msgstr ""
 
-#: ../news.php:138
+#: ../news.php:193
 msgid "Add support for function cost and row estimations in PostgreSQL 8.3+."
 msgstr ""
 
-#: ../news.php:112
+#: ../news.php:167
 msgid "Add support for multi-parameter aggregates."
 msgstr ""
 
-#: ../news.php:145
+#: ../news.php:200
 msgid "Add support for packages on EnterpriseDB."
 msgstr ""
 
-#: ../news.php:146
+#: ../news.php:201
 msgid "Add support for public synonyms on EnterpriseDB."
 msgstr ""
 
-#: ../development/roadmap.php:43
+#: ../development/roadmap.php:44
 msgid "Add support for the -c (clean) pg_restore option"
 msgstr ""
 
@@ -347,31 +348,39 @@ msgstr ""
 msgid "Aggregates"
 msgstr ""
 
-#: ../news.php:120
+#: ../news.php:30
+msgid "Allow EnterpriseDB packages to be created without bodies."
+msgstr ""
+
+#: ../news.php:175
 msgid "Allow GUC variables to be preset on functions in PostgreSQL 8.3."
 msgstr ""
 
-#: ../news.php:160
+#: ../news.php:215
 msgid "Allow GUCs to be set on users, roles and databases at create time."
 msgstr ""
 
-#: ../news.php:309
+#: ../news.php:27
+msgid "Allow a debugging session to be cancelled correctly on  windows."
+msgstr ""
+
+#: ../news.php:364
 msgid "Allow database and schema display to be restricted."
 msgstr ""
 
-#: ../news.php:137
+#: ../news.php:192
 msgid "Allow detection and conversion of line ending format in the query tool."
 msgstr ""
 
-#: ../news.php:150
+#: ../news.php:205
 msgid "Allow entire servers to be backed up."
 msgstr ""
 
-#: ../news.php:151
+#: ../news.php:206
 msgid "Allow global objects to be backed up."
 msgstr ""
 
-#: ../news.php:148
+#: ../news.php:203
 msgid ""
 "Allow install time re-branding. This allows rebranded versions of pgAdmin to "
 "be distributed without code modifications, but with references to the "
@@ -379,60 +388,64 @@ msgid ""
 "screens."
 msgstr ""
 
-#: ../news.php:332
+#: ../news.php:57
+msgid "Allow non-superusers to debug their own functions."
+msgstr ""
+
+#: ../news.php:387
 msgid "Allow pasting of entire rows in the View Data tool."
 msgstr ""
 
-#: ../news.php:313
+#: ../news.php:368
 msgid ""
 "Allow result copy quoting configuration to be set explicitly rather than "
 "using the result export settings."
 msgstr ""
 
-#: ../news.php:320
+#: ../news.php:375
 msgid ""
 "Allow selection and copy of subsets of the columns and rows in the Edit Grid."
 msgstr ""
 
-#: ../news.php:314
+#: ../news.php:369
 msgid "Allow set returning functions to be created."
 msgstr ""
 
-#: ../news.php:136
+#: ../news.php:191
 msgid ""
 "Allow spaces to be used instead of tabs in SQL editors, and ensure the width "
 "can be set sensibly."
 msgstr ""
 
-#: ../news.php:325
+#: ../news.php:380
 msgid "Allow the admin modules to be built with PGXS if required."
 msgstr ""
 
-#: ../news.php:71
+#: ../news.php:126
 msgid ""
 "Allow the length of array-typed columns to be changed (eg. 'character varying"
 "[](100)'), per report from Ferenc Lutischan"
 msgstr ""
 
-#: ../news.php:318
+#: ../news.php:373
 msgid ""
 "Allow the number of rows shown in the Edit Grid to be limited and add a "
 "'View top 100 rows' option to the table/view context menus."
 msgstr ""
 
-#: ../news.php:327
+#: ../news.php:382
 msgid ""
 "Allow the tab character to be used as the clipboard column separator to "
 "allow pasting of query results straight into apps like Excel, or OOo Calc."
 msgstr ""
 
-#: ../news.php:333
+#: ../news.php:388
 msgid ""
 "Allow the user to choose whether or not to restore the environment when "
 "reconnecting to a particular server."
 msgstr ""
 
-#: ../news.php:225
+#: ../news.php:280
 msgid ""
 "Allow users with SUPERUSER but no other privilege flags to create roles and "
 "databases etc. per Andy Shellam."
@@ -449,10 +462,16 @@ msgid ""
 "English) outlines the structure of the team and how it operates."
 msgstr ""
 
-#: ../news.php:81
+#: ../news.php:136
 msgid ""
 "Always open the PostgreSQL Help when selecting that menu option, even if "
 "connected to EnterpriseDB."
+msgstr ""
+
+#: ../news.php:31
+msgid ""
+"Always refresh the data when the user clicks OK on the  edit grid options "
+"dialogue to ensure the filter/sort is applied to current data."
 msgstr ""
 
 #: ../download/debian.php:42
@@ -490,14 +509,14 @@ msgid ""
 "line or in scripts."
 msgstr ""
 
-#: ../news.php:353
+#: ../news.php:408
 #, php-format
 msgid ""
 "As well as many other tweaks, improvements and bug fixes, details of which "
 "may be found in the <a href=\"%s\">changelog</a>."
 msgstr ""
 
-#: ../news.php:193
+#: ../news.php:248
 msgid "As well as many other tweaks, improvements and bug fixes."
 msgstr ""
 
@@ -505,30 +524,34 @@ msgstr ""
 msgid "Auto-vacuum management (PostgreSQL 8.1 and above)"
 msgstr ""
 
-#: ../news.php:52
+#: ../news.php:107
 msgid ""
 "Avoid a crash if the connection is lost and the Functions node is refreshed."
 msgstr ""
 
-#: ../news.php:255
+#: ../news.php:310
 msgid "Avoid a crash when closing the query tool on Solaris [Dhanaraj M]."
 msgstr ""
 
-#: ../news.php:53
+#: ../news.php:108
 #, php-format
 msgid "Avoid crashes when working with objects with % characters in the name."
 msgstr ""
 
-#: ../news.php:177
+#: ../news.php:232
 msgid ""
 "Avoid creating graphical explain nodes for triggers as they aren't part of "
 "the plan and mess up the layout."
 msgstr ""
 
-#: ../news.php:257
+#: ../news.php:312
 msgid ""
 "Avoid displaying multi line data in single line list controls, per Clodoaldo "
 "Pinto Neto."
+msgstr ""
+
+#: ../news.php:52
+msgid "Avoid quoting 'text' when used as a type name per Erwin."
 msgstr ""
 
 #: ../advocacy/strategy.php:13
@@ -543,11 +566,11 @@ msgstr ""
 msgid "Before you try to install"
 msgstr ""
 
-#: ../news.php:119
+#: ../news.php:174
 msgid "Browser support for Operator Families in PostgreSQL 8.3."
 msgstr ""
 
-#: ../news.php:162
+#: ../news.php:217
 msgid "Bug fixes"
 msgstr ""
 
@@ -559,7 +582,7 @@ msgid ""
 "effort than the issue warrants."
 msgstr ""
 
-#: ../news.php:249
+#: ../news.php:304
 msgid "Build against PostgreSQL 8.2 on Windows."
 msgstr ""
 
@@ -568,7 +591,7 @@ msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
 
-#: ../development/roadmap.php:26
+#: ../development/roadmap.php:27
 msgid "Build system"
 msgstr ""
 
@@ -580,13 +603,13 @@ msgstr ""
 msgid "Change log"
 msgstr ""
 
-#: ../development/roadmap.php:21
+#: ../development/roadmap.php:22
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
 msgstr ""
 
-#: ../news.php:67
+#: ../news.php:122
 msgid ""
 "Check that functions exist before debugging or setting global breakpoints on "
 "them. Remove them from the treeview if not."
@@ -607,15 +630,21 @@ msgid ""
 "and add the following line:"
 msgstr ""
 
-#: ../news.php:61
+#: ../news.php:40
+msgid ""
+"Cleanup some other minor misbehaviours at the same time. Per report from "
+"Erwin."
+msgstr ""
+
+#: ../news.php:116
 msgid "Cleanup the covering index control logic in the Foreign Key dialogue."
 msgstr ""
 
-#: ../news.php:185
+#: ../news.php:240
 msgid "Code cleanup/maintainability"
 msgstr ""
 
-#: ../development/roadmap.php:19
+#: ../development/roadmap.php:20
 msgid "Code housekeeping"
 msgstr ""
 
@@ -627,11 +656,11 @@ msgstr ""
 msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr ""
 
-#: ../news.php:303
+#: ../news.php:358
 msgid "Concurrent index builds."
 msgstr ""
 
-#: ../news.php:310
+#: ../news.php:365
 msgid "Configurable indents in the SQL editor."
 msgstr ""
 
@@ -639,7 +668,7 @@ msgstr ""
 msgid "Configuration file editing"
 msgstr ""
 
-#: ../development/roadmap.php:28
+#: ../development/roadmap.php:29
 msgid ""
 "Consider cross-platform build systems such as cmake to generate the build "
 "system for all platforms"
@@ -647,6 +676,13 @@ msgstr ""
 
 #: ../features.php:66
 msgid "Constraints"
+msgstr ""
+
+#: ../news.php:45
+msgid ""
+"Construct SQL used to add columns such that the entire operation happens in "
+"one statement to ensure default values and NOT NULL can be set together. Per "
+"report from Laurent ROCHE."
 msgstr ""
 
 #: ../menu.php:9
@@ -661,22 +697,42 @@ msgstr ""
 msgid "Conversions"
 msgstr ""
 
-#: ../news.php:176
+#: ../news.php:44
+msgid ""
+"Convert setting names to lower case so we don't end up with DateStyle and "
+"datestyle for example."
+msgstr ""
+
+#: ../news.php:231
 msgid "Copy and paste data correctly when in a cell editor in the edit grid."
 msgstr ""
 
-#: ../news.php:21
+#: ../news.php:34
+msgid "Correct config window help paths."
+msgstr ""
+
+#: ../news.php:76
 msgid "Correct the SQL generation for EDB inline triggers."
 msgstr ""
 
-#: ../news.php:68
+#: ../news.php:123
 msgid "Correct the URL for the EDB public synonym help page"
 msgstr ""
 
-#: ../news.php:27
+#: ../news.php:53
+msgid ""
+"Correctly generate table DDL when inherited columns follow the last 'real' "
+"column, per Peter Gagarinov."
+msgstr ""
+
+#: ../news.php:82
 msgid ""
 "Correctly identify the schema of trigger functions that are in system "
 "catalogs as can be the case with integrated full text search."
+msgstr ""
+
+#: ../news.php:36
+msgid "Correctly quote role names when reverse engineering ACLs."
 msgstr ""
 
 #: ../include/archives.php:54
@@ -691,7 +747,7 @@ msgstr ""
 msgid "Create a symlink to the pgAdmin III binary:"
 msgstr ""
 
-#: ../news.php:142
+#: ../news.php:197
 msgid ""
 "Create and reverse engineer edbspl procedures using Oracle compatible syntax."
 msgstr ""
@@ -710,7 +766,7 @@ msgstr ""
 msgid "Data access"
 msgstr ""
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:39
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
@@ -723,12 +779,12 @@ msgstr ""
 msgid "Databases"
 msgstr ""
 
-#: ../news.php:39 ../news.php:94 ../news.php:235 ../news.php:262
-#: ../news.php:290 ../news.php:357
+#: ../news.php:62 ../news.php:94 ../news.php:149 ../news.php:290
+#: ../news.php:317 ../news.php:345 ../news.php:412
 msgid "Dave Page"
 msgstr ""
 
-#: ../news.php:198
+#: ../news.php:253
 msgid ""
 "Dave Page<br />\n"
 "pgAdmin Development Team"
@@ -766,7 +822,7 @@ msgstr ""
 msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr ""
 
-#: ../news.php:334
+#: ../news.php:389
 msgid ""
 "Detect and warn the user of concurrent edits of functions, views and job "
 "steps."
@@ -785,13 +841,17 @@ msgstr ""
 msgid "Development team"
 msgstr ""
 
-#: ../news.php:63
+#: ../news.php:118
 msgid ""
 "Disable CREATE FUNCTION etc. under EnterpriseDB packages because they are "
 "created as part of the main package body."
 msgstr ""
 
-#: ../news.php:116
+#: ../news.php:38
+msgid "Disable the RULE privilege on 8.2+ for views per Erwin."
+msgstr ""
+
+#: ../news.php:171
 msgid ""
 "Display catalogs separately from schemas, and don't treat them as system "
 "objects any longer (they can be hidden using the display options). Show only "
@@ -800,36 +860,36 @@ msgid ""
 "to prevent create/edit/drop options being offered."
 msgstr ""
 
-#: ../news.php:322
+#: ../news.php:377
 msgid "Display column dependencies."
 msgstr ""
 
-#: ../news.php:341
+#: ../news.php:396
 msgid "Display non-default op classes in index definitions."
 msgstr ""
 
-#: ../news.php:315
+#: ../news.php:370
 msgid ""
 "Display the client start time on the status dialogue with PostgreSQL 8.1+"
 msgstr ""
 
-#: ../news.php:174
+#: ../news.php:229
 msgid ""
 "Display the constraint OID for index constraints, not the index OID. Add the "
 "index OID as a new property."
 msgstr ""
 
-#: ../news.php:139
+#: ../news.php:194
 msgid "Display the is_called sequence flag."
 msgstr ""
 
-#: ../news.php:128
+#: ../news.php:183
 msgid ""
 "Display the output pane in the query tool at query completion if it's "
 "currently hidden."
 msgstr ""
 
-#: ../news.php:339
+#: ../news.php:394
 msgid ""
 "Display, and allow null values to be set in boolean columns in the Edit Grid."
 msgstr ""
@@ -848,66 +908,84 @@ msgstr ""
 msgid "Domains"
 msgstr ""
 
-#: ../news.php:78
+#: ../news.php:37
+msgid ""
+"Don't allow the user to attempt to remove columns from an existing index or "
+"index constraint."
+msgstr ""
+
+#: ../news.php:133
 msgid ""
 "Don't allow the user to debug an EnterpriseDB package function or procedure "
 "if the body isn't defined."
 msgstr ""
 
-#: ../news.php:72
+#: ../news.php:127
 msgid ""
 "Don't allow the user to direct-debug trigger functions, only global "
 "breakpoints should be used on them (or the trigger itself)."
 msgstr ""
 
-#: ../news.php:281
+#: ../news.php:336
 msgid ""
 "Don't display index constraints under the Indexes node as well as the "
 "Contraints node, per Erwin."
 msgstr ""
 
-#: ../news.php:65
+#: ../news.php:43
+msgid ""
+"Don't include the -h option when calling pg_dump or pg_restore if there is "
+"no hostname to specify."
+msgstr ""
+
+#: ../news.php:35
+msgid ""
+"Don't load group roles and old-style groups on the security tab on 8.1 and "
+"higher."
+msgstr ""
+
+#: ../news.php:120
 msgid "Don't offer 'Drop Cascaded' unless the user can 'Drop' the object."
 msgstr ""
 
-#: ../news.php:73
+#: ../news.php:128
 msgid ""
 "Don't offer edbspl functions when creating triggers as they should have "
 "inline bodies."
 msgstr ""
 
-#: ../news.php:75
+#: ../news.php:130
 msgid ""
 "Don't offer package names and system schemas as schemas when creating public "
 "synonyms."
 msgstr ""
 
-#: ../news.php:79
+#: ../news.php:134
 msgid ""
 "Don't offer the user the chance to create new columns on system catalogues."
 msgstr ""
 
-#: ../news.php:285
+#: ../news.php:340
 msgid "Don't paste into empty edit grids, per Howard Wang"
 msgstr ""
 
-#: ../news.php:74
+#: ../news.php:129
 msgid ""
 "Don't quote database names that happen to be keywords when starting the "
 "debugger."
 msgstr ""
 
-#: ../news.php:173
+#: ../news.php:228
 msgid "Don't try to detect if integrated autovacuum is running on &lt; 8.1."
 msgstr ""
 
-#: ../news.php:91
+#: ../news.php:146
 msgid ""
 "Don't try to enable/disable prepared transaction related controls on pre-8.1 "
 "servers, per Karl Zellnig"
 msgstr ""
 
-#: ../news.php:20
+#: ../news.php:75
 msgid ""
 "Don't try to force new databases into a specific tablespace as this will "
 "error as non-superusers default to pg_default."
@@ -924,7 +1002,7 @@ msgid ""
 "Linux."
 msgstr ""
 
-#: ../news.php:34
+#: ../news.php:89
 msgid ""
 "EDB-SPL functions require NULL to be passed in out-params when debugging."
 msgstr ""
@@ -948,13 +1026,13 @@ msgstr ""
 msgid "Edit the *.po file. The steps described are related to poEdit only."
 msgstr ""
 
-#: ../news.php:274
+#: ../news.php:329
 msgid ""
 "Enable the OK button on the Database properties dialog when the owner is "
 "changed, per Jim Cullison"
 msgstr ""
 
-#: ../news.php:259
+#: ../news.php:314
 msgid ""
 "Enable the OK button on the database properties dialog when variables are "
 "changed."
@@ -964,75 +1042,79 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: ../news.php:326
+#: ../news.php:381
 msgid ""
 "Enhance the query tool to allow copy/paste of arbitrary groups of columns, "
 "rows or individual cells."
 msgstr ""
 
-#: ../news.php:122
+#: ../news.php:177
 msgid "Enhancements"
 msgstr ""
 
-#: ../news.php:287
+#: ../news.php:342
 msgid ""
 "Ensure backup and restore options are enabled when appropriate (this is a "
 "wxWidgets bug, fixed in wxWidgets 2.8.0rc1)"
 msgstr ""
 
-#: ../news.php:251
+#: ../news.php:306
 msgid ""
 "Ensure column headers and the insert row are shown in the edit grid when no "
 "rows exist in the table being editted, per Bob Pawley."
 msgstr ""
 
-#: ../news.php:30
+#: ../news.php:85
 msgid "Ensure enums are offered as datatypes for columns."
 msgstr ""
 
-#: ../news.php:165
+#: ../news.php:220
 msgid "Ensure files can be converted to the required encoding before saving."
 msgstr ""
 
-#: ../news.php:167
+#: ../news.php:59
+msgid "Ensure info passed to Guru hints is HTML-safe."
+msgstr ""
+
+#: ../news.php:222
 msgid ""
 "Ensure logfiles and pgpass files can be correctly saved on Windows when the "
 "username contains non-ASCII chars."
 msgstr ""
 
-#: ../news.php:181
+#: ../news.php:236
 msgid "Ensure pgAgent jobs can be managed on Greenplum database."
 msgstr ""
 
-#: ../news.php:35
+#: ../news.php:90
 msgid ""
 "Ensure that EDB-SPL trigger DDL code is appropriately formatted on newer "
 "builds of EnterpriseDB."
 msgstr ""
 
-#: ../news.php:56
+#: ../news.php:111
 msgid ""
 "Ensure the 'Create Rule' context menu option is always offered when "
 "appropriate."
 msgstr ""
 
-#: ../news.php:36
+#: ../news.php:91
 msgid ""
 "Ensure the password and confirmed password always match when adding or "
 "editing roles or users."
 msgstr ""
 
-#: ../news.php:175
+#: ../news.php:230
 msgid "Ensure the password change dialog works with stored passwords."
 msgstr ""
 
-#: ../news.php:33
+#: ../news.php:88
 msgid ""
 "Ensure the properties dialogues will work sanely with objects named \" "
 "\" (!)."
 msgstr ""
 
-#: ../news.php:168
+#: ../news.php:223
 msgid ""
 "Ensure we always allow the maximum string length possible to be entered in "
 "the Edit Grid."
@@ -1054,161 +1136,186 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
+#: ../news.php:51
+msgid ""
+"FOSDEM fix: Include overriding columns in reverse engineered SQL for child "
+"tables, rather than commenting them out and marking as inherited."
+msgstr ""
+
 #: ../features.php:8 ../menu.php:8
 msgid "Features"
 msgstr ""
 
-#: ../news.php:82
+#: ../news.php:137
 msgid ""
 "Fix EnterpriseDB public synonym loading so that they aren't considered "
 "system objects."
 msgstr ""
 
-#: ../news.php:89
+#: ../news.php:144
 msgid ""
 "Fix a bug preventing the 'on error' flag of a pgAgent job step being edited, "
 "per Jon Roberts."
 msgstr ""
 
-#: ../news.php:51
+#: ../news.php:106
 msgid ""
 "Fix a bug that could cause a crash on GTK when closing the query tool in "
 "certain circumstances."
 msgstr ""
 
-#: ../news.php:211
+#: ../news.php:266
 msgid ""
 "Fix a bug that prevented adding new nodes to a Slony cluster, per Duncan "
 "Beeby."
 msgstr ""
 
-#: ../news.php:170
+#: ../news.php:28
+msgid ""
+"Fix a corner case in which closing the debugger window  following a failed "
+"attempt to create a global breakpoint (for example, because of an existing "
+"breakpoint) could cause a crash on Windows."
+msgstr ""
+
+#: ../news.php:225
 msgid ""
 "Fix a crash in the Edit Grid which occured if Delete was pressed whilst "
 "editing a boolean."
 msgstr ""
 
-#: ../news.php:223
+#: ../news.php:278
 msgid ""
 "Fix a crash on Mac that occurred when using some combo boxes, per David "
 "Lowry."
 msgstr ""
 
-#: ../news.php:59
+#: ../news.php:114
 msgid ""
 "Fix a crash that occured if an object called '%' was selected in the "
 "treeview, per Alexander Steffens."
 msgstr ""
 
-#: ../news.php:60
+#: ../news.php:115
 msgid ""
 "Fix a line number error in the debugger seen with procedures which start on "
 "the same line as the 'CREATE PROCEDURE foo IS ...' Per report from Heikki "
 "Linnakangas."
 msgstr ""
 
-#: ../news.php:219
+#: ../news.php:274
 msgid "Fix a minor bug in app bundle creation for Mac [Florian G. Pflug]"
 msgstr ""
 
-#: ../news.php:280
+#: ../news.php:335
 msgid ""
 "Fix a minor bug in the index reverse engineering when using non-default "
 "operator classes per Andrus."
 msgstr ""
 
-#: ../news.php:216
+#: ../news.php:271
 msgid ""
 "Fix a rare bug in the Edit Grid which could cause a crash when editting data "
 "in tables with deleted columns and a primary key that isn;t at the beginning "
 "of the table. Thanks to Patrick De Visschere for the test case."
 msgstr ""
 
-#: ../news.php:230
+#: ../news.php:285
 msgid ""
 "Fix an issue in the Query Tool export option that could result in blank "
 "lines in the export file, per Mathias Durst and Mike."
 msgstr ""
 
-#: ../news.php:210
+#: ../news.php:265
 msgid "Fix an overflow bug in pgAgent, per report from Sabin Coanda"
 msgstr ""
 
-#: ../news.php:84
+#: ../news.php:139
 msgid "Fix character number display in the query tool."
 msgstr ""
 
-#: ../news.php:31
+#: ../news.php:86
 msgid ""
 "Fix column dialogue to allow proper modification of array columns per Erwin."
 msgstr ""
 
-#: ../news.php:221
+#: ../news.php:276
 msgid "Fix default perspective names, per Ezequias."
 msgstr ""
 
-#: ../news.php:276
+#: ../news.php:331
 msgid "Fix deletion of stored procedures, Per Erwin."
 msgstr ""
 
-#: ../news.php:227
+#: ../news.php:282
 msgid "Fix localisation of 'Tab' as a copy delimiter."
 msgstr ""
 
-#: ../news.php:224
+#: ../news.php:279
 msgid "Fix menu icon for Gnome [Nathan Egge]"
 msgstr ""
 
-#: ../news.php:83
+#: ../news.php:138
 msgid ""
 "Fix path discovery on Unix so standard installs can be relocated easily."
 msgstr ""
 
-#: ../news.php:247
+#: ../news.php:302
 msgid ""
 "Fix per-table autovacuum settings for PostgreSQL >= 8.2 per Devrim Gunduz."
 msgstr ""
 
-#: ../news.php:76
+#: ../news.php:131
 msgid ""
 "Fix pgAgent's job query when a host agent is specified so that jobs don't "
 "execute every time round the loop regardless of schedule, per Brian Kalbfus."
 msgstr ""
 
-#: ../news.php:215
+#: ../news.php:21
+msgid "Fix potential crash bug in the query tool logging code, per Erwin."
+msgstr ""
+
+#: ../news.php:270
 msgid "Fix procedure support on EnterpriseDB AS81."
 msgstr ""
 
-#: ../news.php:232
+#: ../news.php:58
+msgid "Fix query that tries to apply the DB restriction."
+msgstr ""
+
+#: ../news.php:55
+msgid "Fix query that tries to apply the schema restriction."
+msgstr ""
+
+#: ../news.php:287
 msgid ""
 "Fix query tool title which was unfortunately broken by an earlier fix for "
 "another bug."
 msgstr ""
 
-#: ../news.php:178
+#: ../news.php:233
 msgid ""
 "Fix reverse engineering of data types with a size of 0, such as \"timestamp"
 "(0) without timezone\"."
 msgstr ""
 
-#: ../news.php:64
+#: ../news.php:119
 msgid "Fix some broken references to online help pages."
 msgstr ""
 
-#: ../news.php:248
+#: ../news.php:303
 msgid ""
 "Fix some oddities in the way current per-table vacuum settings are displayed."
 msgstr ""
 
-#: ../news.php:283
+#: ../news.php:338
 msgid "Fix some portability issues in the configure code [Max Khon]"
 msgstr ""
 
-#: ../news.php:24
+#: ../news.php:79
 msgid "Fix the WITH ADMIN membership option when creating roles."
 msgstr ""
 
-#: ../news.php:80
+#: ../news.php:135
 msgid ""
 "Fix the debugger to send actual NULL values rather than 'NULL' through the "
 "EnterpriseDB callable statement API. Allow parameter values to be NULL or "
@@ -1216,41 +1323,47 @@ msgid ""
 "the Edit Grid."
 msgstr ""
 
-#: ../news.php:70
+#: ../news.php:125
 msgid ""
 "Fix the debugger's connection class to ensure database names requiring "
 "quotes will work and that it can be used with SSL and Kerberos connections."
 msgstr ""
 
-#: ../news.php:220
+#: ../news.php:275
 msgid ""
 "Fix the graphical explain to properly display backwards index scan nodes, "
 "per Brendan O'Shea."
 msgstr ""
 
-#: ../news.php:87
+#: ../news.php:142
 msgid ""
 "Fix the locks tab on the server status dialogue so it works correctly with "
 "PostgreSQL 8.3+."
 msgstr ""
 
-#: ../news.php:26
+#: ../news.php:39
+msgid ""
+"Fix the logging system to ensure that errors from the query tool get logged, "
+"and notices are only output once."
+msgstr ""
+
+#: ../news.php:81
 msgid "Fix the privilege editor on the Language dialogue, per Bborie Park."
 msgstr ""
 
-#: ../news.php:182
+#: ../news.php:237
 msgid ""
 "Fix the table, index and index constraint tablespace property combo boxes to "
 "allow changes to tablespace."
 msgstr ""
 
-#: ../news.php:62
+#: ../news.php:117
 msgid ""
 "Fix to refresh version string and number, and last OID, per a report from "
 "Alexander Kirpa."
 msgstr ""
 
-#: ../news.php:164
+#: ../news.php:219
 msgid ""
 "Fixed UTF8 option was not effective by file reading and writing of a query "
 "and fixed crash at the time of file save."
@@ -1287,13 +1400,13 @@ msgid ""
 "command manually:"
 msgstr ""
 
-#: ../news.php:180
+#: ../news.php:235
 msgid ""
 "Function/procedure signatures do not include OUT params. Fix this oversight, "
 "and cleanup much of the related code."
 msgstr ""
 
-#: ../development/roadmap.php:32
+#: ../development/roadmap.php:33
 msgid "Functionality"
 msgstr ""
 
@@ -1305,7 +1418,7 @@ msgstr ""
 msgid "Fuzzy"
 msgstr ""
 
-#: ../news.php:22
+#: ../news.php:77
 msgid ""
 "Generate function signatures correctly if the first parameters are OUT only."
 msgstr ""
@@ -1326,7 +1439,7 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-#: ../news.php:284
+#: ../news.php:339
 msgid "Guard against permission denied errors in the edit grid per Howard Wang"
 msgstr ""
 
@@ -1338,27 +1451,33 @@ msgstr ""
 msgid "Guru Hints to help less experienced users"
 msgstr ""
 
-#: ../news.php:226
+#: ../news.php:281
 msgid ""
 "Handle non-default schema paths properly in the Foreign Key dialogue, per "
 "Philipp Specht"
 msgstr ""
 
-#: ../news.php:179
+#: ../news.php:234
 msgid "Handle resetting of sequence values more consistently."
 msgstr ""
 
-#: ../news.php:69
+#: ../news.php:124
 msgid ""
 "Handle the corner case when a user includes quotes in an object name "
 "(backport of 2007-10-26 fix applied to trunk)"
 msgstr ""
 
-#: ../news.php:349
+#: ../news.php:54
+msgid ""
+"Hide array variants of table-types in datatype selectors where we already "
+"hide the table type itself."
+msgstr ""
+
+#: ../news.php:404
 msgid "Hide binary data (bytea) in the edit grid."
 msgstr ""
 
-#: ../news.php:338
+#: ../news.php:393
 msgid ""
 "Highlight the error word in the query tool if a syntax error is reported by "
 "the database."
@@ -1376,21 +1495,21 @@ msgstr ""
 msgid "Howto"
 msgstr ""
 
-#: ../news.php:195
+#: ../news.php:250
 msgid ""
 "I would like to take this opportunity to thank all those who gave their \n"
 "time to help with the development, testing, translation and packaging of "
 "this release."
 msgstr ""
 
-#: ../news.php:355
+#: ../news.php:410
 msgid ""
 "I would like to take this opportunity to thank all those who gave their time "
 "to help with the development, testing, translation and packaging of this "
 "release."
 msgstr ""
 
-#: ../news.php:295
+#: ../news.php:350
 msgid ""
 "I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source "
 "graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS "
@@ -1400,6 +1519,13 @@ msgstr ""
 
 #: ../features.php:97
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
+msgstr ""
+
+#: ../news.php:42
+msgid ""
+"If stopping the server service fails after stopping dependent services, wait "
+"5 seconds and try again up to 10 times to allow the dependents time to "
+"shutdown fully."
 msgstr ""
 
 #: ../development/index.php:14
@@ -1460,13 +1586,17 @@ msgid ""
 "the <a href=\"%s\">development</a> page."
 msgstr ""
 
+#: ../news.php:41
+msgid "Ignore the type modifier for domains in function signatures."
+msgstr ""
+
 #: ../translation/howto.php:40
 msgid ""
 "In poEdit, clicking on the save button will automatically compile pgadmin3."
 "po."
 msgstr ""
 
-#: ../news.php:277
+#: ../news.php:332
 msgid "Include IN/OUT/INOUT keywords in procedure identifiers in the treeview."
 msgstr ""
 
@@ -1489,7 +1619,7 @@ msgstr ""
 msgid "Installation"
 msgstr ""
 
-#: ../news.php:114
+#: ../news.php:169
 msgid "Integrate the EnterpriseDB pl/pgsql and EDB-SPL debugger with pgAdmin."
 msgstr ""
 
@@ -1581,7 +1711,7 @@ msgstr ""
 msgid "List archives"
 msgstr ""
 
-#: ../news.php:171
+#: ../news.php:226
 msgid ""
 "Load second and subsequent postgresql.conf files into the config editor "
 "correctly."
@@ -1599,7 +1729,7 @@ msgstr ""
 msgid "Logfile browser"
 msgstr ""
 
-#: ../development/roadmap.php:35
+#: ../development/roadmap.php:36
 msgid ""
 "Logfile tab on server status window : multiple columns and filtering. [GL]"
 msgstr ""
@@ -1638,11 +1768,11 @@ msgstr ""
 msgid "Maintainer: %s"
 msgstr ""
 
-#: ../news.php:109
+#: ../news.php:164
 msgid "Major features"
 msgstr ""
 
-#: ../news.php:345
+#: ../news.php:400
 msgid "Make elements of the main windows dockable for maximum configurability."
 msgstr ""
 
@@ -1675,15 +1805,15 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr ""
 
-#: ../news.php:323
+#: ../news.php:378
 msgid "Minimal linking for pgAgent under *nix."
 msgstr ""
 
-#: ../news.php:214
+#: ../news.php:269
 msgid "Minor fix for edb/spl functions."
 msgstr ""
 
-#: ../news.php:222
+#: ../news.php:277
 msgid ""
 "Monitor the streams again whilst backing up on Mac - this no longer crashes "
 "in wx2.8. Per Dave Livesay."
@@ -1700,7 +1830,7 @@ msgid ""
 "places we should spend more space please let us know."
 msgstr ""
 
-#: ../development/roadmap.php:22
+#: ../development/roadmap.php:23
 msgid ""
 "Move pgAgent into a standalone package that can be released on it's own "
 "schedule."
@@ -1730,7 +1860,7 @@ msgstr ""
 msgid "Native PostgreSQL acccess (no ODBC layer needed)"
 msgstr ""
 
-#: ../news.php:32
+#: ../news.php:87
 msgid ""
 "Newer build of EnterpriseDB consistently strip trailing semi-colons from "
 "package headers and bodies. Update reverse engineering allow for this."
@@ -1752,7 +1882,7 @@ msgid ""
 "Note: PostgreSQL 8.2 and above include the adminpack as a Contrib module."
 msgstr ""
 
-#: ../news.php:125
+#: ../news.php:180
 msgid ""
 "Numerous changes to the database browser code to ensure changes to objects "
 "are properly reflected in the main window. In addition, the expanded/"
@@ -1776,13 +1906,13 @@ msgid ""
 "are located in: <i>/pgadmin3/release/ubuntu</i>"
 msgstr ""
 
-#: ../news.php:279
+#: ../news.php:334
 msgid ""
 "Only enable the 'Include SQL' checkbox on the report dialog if there is SQL "
 "to include, Per Ezequias Rodrigues da Rocha"
 msgstr ""
 
-#: ../news.php:55
+#: ../news.php:110
 msgid "Only offer the Jobs node if the user can access the pgagent schema."
 msgstr ""
 
@@ -1859,11 +1989,11 @@ msgid ""
 "\">translation status</a> page."
 msgstr ""
 
-#: ../news.php:308
+#: ../news.php:363
 msgid "Overhaul of server config settings."
 msgstr ""
 
-#: ../development/roadmap.php:40
+#: ../development/roadmap.php:41
 msgid ""
 "Overhaul settings management. Save settings on the fly rather than at exit. "
 "Take default values from an external file [DP]"
@@ -1873,6 +2003,10 @@ msgstr ""
 msgid ""
 "Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
 "Microsystems."
+msgstr ""
+
+#: ../news.php:50
+msgid "Parse function parameter names correctly when they contain commas."
 msgstr ""
 
 #: ../privacypolicy.php:14
@@ -1922,7 +2056,7 @@ msgid ""
 "configuration from the System/Administration Gnome menu."
 msgstr ""
 
-#: ../news.php:140
+#: ../news.php:195
 msgid ""
 "Position the cursor at the error position when an error occurs in the Query "
 "Tool. Ensure the line is visible."
@@ -1932,7 +2066,7 @@ msgstr ""
 msgid "PostgreSQL 7.3 and above"
 msgstr ""
 
-#: ../news.php:301
+#: ../news.php:356
 msgid "PostgreSQL 8.2 support:"
 msgstr ""
 
@@ -1952,69 +2086,75 @@ msgstr ""
 msgid "Powerful query tool with colour syntax highlighting"
 msgstr ""
 
-#: ../news.php:330
+#: ../news.php:385
 msgid ""
 "Pre-encrypt passwords before sending them down the wire, or displaying them "
 "in SQL statements."
 msgstr ""
 
-#: ../news.php:143
+#: ../news.php:198
 msgid "Preserve column widths between queries in the query tool."
 msgstr ""
 
-#: ../news.php:286
+#: ../news.php:341
 msgid "Prevent a crash from the query tool when using File -> Exit on GTK"
 msgstr ""
 
-#: ../news.php:273
+#: ../news.php:328
 msgid ""
 "Prevent a crash if the 'View Filtered Data' filter dialog is cancelled. Per "
 "Erwin Brandstetter."
 msgstr ""
 
-#: ../news.php:19
+#: ../news.php:74
 msgid "Prevent a crash when viewing databases with % in the name."
 msgstr ""
 
-#: ../news.php:317
+#: ../news.php:372
 msgid ""
 "Prevent deletion of the blank item in config editors, and ensure undo will "
 "only work on the appropriate line."
 msgstr ""
 
-#: ../news.php:66
+#: ../news.php:121
 msgid ""
 "Prevent non-superusers from attempting to use the debugger because the "
 "plugin API won't let them anyway."
 msgstr ""
 
-#: ../news.php:218
+#: ../news.php:273
 msgid ""
 "Prevent the Edit Grid Filter causing a crash if an invalid filter containing "
 "a % is used, per Erwin."
 msgstr ""
 
-#: ../news.php:213
+#: ../news.php:268
 msgid ""
 "Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL 8.2"
 "+, per Erwin."
 msgstr ""
 
-#: ../news.php:246
+#: ../news.php:301
 msgid ""
 "Prevent the filter/sort options dialogue being opened when data is being "
 "refreshed, per Erwin Brandstetter."
 msgstr ""
 
-#: ../news.php:57
+#: ../news.php:112
 msgid "Prevent the user from trying to debug catalog objects."
+msgstr ""
+
+#: ../news.php:32
+msgid ""
+"Prevent unsaved changes in the edit grid being lost if the filter or sorting "
+"dialogue is opened."
 msgstr ""
 
 #: ../menu.php:11 ../privacypolicy.php:8
 msgid "Privacy policy"
 msgstr ""
 
-#: ../news.php:304
+#: ../news.php:359
 msgid "Privilege changes (database CONNECT, and sequence USAGE)."
 msgstr ""
 
@@ -2035,38 +2175,47 @@ msgid ""
 "to allow the Mac OSX port to be properly developed and maintained."
 msgstr ""
 
-#: ../news.php:172
+#: ../news.php:227
 msgid ""
 "Prompt the user to save changes before opening a file from the recent files "
 "menu on the Query Tool."
 msgstr ""
 
-#: ../news.php:256
+#: ../news.php:311
 msgid ""
 "Properly drop foreign keys in schemas whose names require quoting, per M S."
 msgstr ""
 
-#: ../news.php:90
+#: ../news.php:145
 msgid "Properly escape _'s in queries for schemas, per Derek Fonda."
 msgstr ""
 
-#: ../news.php:88
+#: ../news.php:143
 msgid ""
 "Properly format the object comments shown in the properties list when a "
 "collection node is selected. Per report from Mike Blackwell."
 msgstr ""
 
-#: ../news.php:282
+#: ../news.php:337
 msgid "Properly quote function parameter names, per Ken Priest."
 msgstr ""
 
-#: ../news.php:54
+#: ../news.php:49
+msgid "Properly quote synonym names when refreshing."
+msgstr ""
+
+#: ../news.php:46
+msgid ""
+"Properly quote the maintenance database name when creating a new connection."
+msgstr ""
+
+#: ../news.php:109
 msgid ""
 "Properly reverse-engineer the SQL for indexes with DESC, NULLS FIRST or "
 "NULLS LAST column options."
 msgstr ""
 
-#: ../news.php:252
+#: ../news.php:307
 msgid "Properly size the backup dialog, per Patrick Headley."
 msgstr ""
 
@@ -2079,43 +2228,49 @@ msgstr ""
 msgid "RPM"
 msgstr ""
 
-#: ../development/roadmap.php:36
+#: ../download/rpm.php:14
+msgid ""
+"RPMs for older versions of pgAdmin are available from the pgAdmin download "
+"sites:"
+msgstr ""
+
+#: ../development/roadmap.php:37
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
 "with grid style UI [DP]"
 msgstr ""
 
-#: ../news.php:189
+#: ../news.php:244
 msgid "Refactor code to remove database base classes."
 msgstr ""
 
-#: ../news.php:188
+#: ../news.php:243
 msgid ""
 "Refactor code to remove support for building the Query Tool with a listview "
 "rather than a grid."
 msgstr ""
 
-#: ../news.php:183
+#: ../news.php:238
 msgid ""
 "Refactor the Query Tool's execQuery function to prevent pgAdmin freezing "
 "while two long running queries are executing simultaneously."
 msgstr ""
 
-#: ../news.php:25
+#: ../news.php:80
 msgid "Refresh Views correctly on EnterpriseDB."
 msgstr ""
 
-#: ../news.php:258
+#: ../news.php:313
 msgid "Refresh database objects correctly, per Guy Rouillier."
 msgstr ""
 
-#: ../news.php:58
+#: ../news.php:113
 msgid ""
 "Refresh the tree without erroring after creating a new package on "
 "EnterpriseDB."
 msgstr ""
 
-#: ../news.php:324
+#: ../news.php:379
 msgid "Reject invalid command line options in pgAgent."
 msgstr ""
 
@@ -2124,66 +2279,70 @@ msgstr ""
 msgid "Release %s"
 msgstr ""
 
-#: ../news.php:159
+#: ../news.php:214
 msgid "Remember last used backup/restore filenames."
 msgstr ""
 
-#: ../news.php:158
+#: ../news.php:213
 msgid "Remember last used save definition filename."
 msgstr ""
 
-#: ../news.php:212
+#: ../news.php:267
 msgid "Remember the server's SSL mode property correctly."
 msgstr ""
 
-#: ../news.php:187
+#: ../news.php:242
 msgid "Remove a lot debugging code of little or no use."
 msgstr ""
 
-#: ../news.php:130
+#: ../news.php:185
 msgid ""
 "Remove bundled copies of PostgreSQL/Slony docs to make it easier to localise "
 "the rest. Instead allow the use of local or online copies of the PostgreSQL, "
 "EnterpriseDB or Slony docs, each independently of the other."
 msgstr ""
 
-#: ../news.php:190
+#: ../news.php:245
 msgid ""
 "Remove code specific to versions of wxWidgets that we no longer support."
 msgstr ""
 
-#: ../news.php:191
+#: ../news.php:48
+msgid "Remove long-dead Explain Text option from the Query Tool."
+msgstr ""
+
+#: ../news.php:246
 msgid "Remove obsolete support for non-Unicode builds."
 msgstr ""
 
-#: ../news.php:23
+#: ../news.php:78
 msgid ""
 "Remove the confusing and near-useless sequence combo box from the column "
 "dialog per discussion on support list."
 msgstr ""
 
-#: ../news.php:149
+#: ../news.php:204
 msgid ""
 "Replace the Mac installer with code to create a distribution disk image."
 msgstr ""
 
-#: ../news.php:250
+#: ../news.php:305
 msgid "Restore dialog sizes correctly."
 msgstr ""
 
-#: ../news.php:129
+#: ../news.php:184
 msgid "Retain column widths when refreshing the edit grid."
 msgstr ""
 
-#: ../news.php:156
+#: ../news.php:211
 msgid "Retain the clipboard contents on app exit."
 msgstr ""
 
-#: ../news.php:340
+#: ../news.php:395
 msgid "Retain values in the edit grid following a failed insert or update."
 msgstr ""
 
-#: ../news.php:254
+#: ../news.php:309
 msgid ""
 "Reverse engineer columns with multi-word names (like 'timestamp with "
 "timezone') correctly so that precision and array modifiers are included "
@@ -2194,7 +2353,7 @@ msgstr ""
 msgid "Review your translation carefully:"
 msgstr ""
 
-#: ../news.php:275
+#: ../news.php:330
 msgid ""
 "Rework the Find/Replace code to fix a couple of minor bugs and improve "
 "readability."
@@ -2274,8 +2433,14 @@ msgstr ""
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr ""
 
-#: ../news.php:306
+#: ../news.php:361
 msgid "Shared database comments."
+msgstr ""
+
+#: ../news.php:47
+msgid ""
+"Show the schema correctly for EDB public synonyms that point to other "
+"synonyms."
 msgstr ""
 
 #: ../include/page.php:113
@@ -2288,7 +2453,7 @@ msgid ""
 "package or run the following command from the command prompt:"
 msgstr ""
 
-#: ../news.php:18
+#: ../news.php:73
 msgid "Size of the column label of SQLGrid was made variable."
 msgstr ""
 
@@ -2331,7 +2496,7 @@ msgid ""
 "translated as <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
 msgstr ""
 
-#: ../news.php:169
+#: ../news.php:224
 msgid "Sort server list alphabetically."
 msgstr ""
 
@@ -2354,7 +2519,13 @@ msgid ""
 "packages."
 msgstr ""
 
-#: ../news.php:124
+#: ../news.php:56
+msgid ""
+"Specify the length correctly when creating columns of 'time with time zone' "
+"and friends."
+msgstr ""
+
+#: ../news.php:179
 msgid ""
 "Speed up loading of functions and procedures by rewriting some horribly "
 "inefficient code."
@@ -2388,6 +2559,12 @@ msgid ""
 "nobody will recognise. Otherwise, users may switch to the English version."
 msgstr ""
 
+#: ../news.php:29
+msgid ""
+"Store pgAgent job step result codes in an int4 column. int2 was proving too "
+"small in some cases resulting in an error."
+msgstr ""
+
 #: ../advocacy/menu.php:7 ../advocacy/strategy.php:8
 msgid "Strategy"
 msgstr ""
@@ -2405,11 +2582,11 @@ msgstr ""
 msgid "Support"
 msgstr ""
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:38
 msgid "Support for integrated tsearch configuration in PG 8.3+"
 msgstr ""
 
-#: ../news.php:311
+#: ../news.php:366
 msgid "Support for language templates."
 msgstr ""
 
@@ -2423,6 +2600,10 @@ msgstr ""
 
 #: ../development/menu.php:12 ../development/todo.php:8
 msgid "TODO list"
+msgstr ""
+
+#: ../development/roadmap.php:15
+msgid "TRUNCATE trigger support"
 msgstr ""
 
 #: ../features.php:82
@@ -2576,7 +2757,7 @@ msgid ""
 "a> and the  <a href=\"%s\">change log</a>."
 msgstr ""
 
-#: ../news.php:99
+#: ../news.php:154
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of \n"
 "pgAdmin 1.8.0, the Open Source graphical PostgreSQL administration tool "
@@ -2586,7 +2767,7 @@ msgid ""
 "source and a variety of binary formats from:"
 msgstr ""
 
-#: ../news.php:267
+#: ../news.php:322
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.6.1, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -2594,7 +2775,7 @@ msgid ""
 "and a variety of binary formats from:"
 msgstr ""
 
-#: ../news.php:240
+#: ../news.php:295
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.6.2, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -2602,7 +2783,7 @@ msgid ""
 "and a variety of binary formats from:"
 msgstr ""
 
-#: ../news.php:203
+#: ../news.php:258
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.6.3, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -2611,7 +2792,7 @@ msgid ""
 "of binary formats from:"
 msgstr ""
 
-#: ../news.php:44
+#: ../news.php:99
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.8.1, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -2620,10 +2801,18 @@ msgid ""
 "of binary formats from:"
 msgstr ""
 
-#: ../news.php:12
+#: ../news.php:67
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.8.2, the Open Source graphical PostgreSQL administration tool for Windows, "
+"Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
+"and a variety of binary formats from:"
+msgstr ""
+
+#: ../news.php:12
+msgid ""
+"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
+"1.8.4, the Open Source graphical PostgreSQL administration tool for Windows, "
 "Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
 "and a variety of binary formats from:"
 msgstr ""
@@ -2810,7 +2999,7 @@ msgid ""
 "from the <a href=\"%s\">translation status</a> page."
 msgstr ""
 
-#: ../development/roadmap.php:15
+#: ../development/roadmap.php:16
 msgid "To be determined..."
 msgstr ""
 
@@ -2831,7 +3020,7 @@ msgid ""
 "can be installed on the same machine at the same time."
 msgstr ""
 
-#: ../download/freebsd.php:21 ../download/rpm.php:20
+#: ../download/freebsd.php:21 ../download/rpm.php:22
 msgid "To install these packages, use a command such as:"
 msgstr ""
 
@@ -2878,13 +3067,13 @@ msgstr ""
 msgid "Translation"
 msgstr ""
 
-#: ../news.php:117
+#: ../news.php:172
 msgid ""
 "Treat all functions & procedures as 'Functions' in PostgreSQL, and class "
 "only EnterpriseDB edbspl functions returning void as 'Procedures'."
 msgstr ""
 
-#: ../news.php:113
+#: ../news.php:168
 msgid ""
 "Treat view columns as first class citizens. Show them on the treeview, and "
 "allow their properties page to be viewed. Allow editting of the default "
@@ -2896,7 +3085,7 @@ msgstr ""
 msgid "Trigger functions"
 msgstr ""
 
-#: ../news.php:231
+#: ../news.php:286
 msgid "Truncate comments containing \\r\\n correctly, per Erwin."
 msgstr ""
 
@@ -2928,7 +3117,7 @@ msgstr ""
 msgid "Ubuntu Feisty or Gutsy configuration"
 msgstr ""
 
-#: ../news.php:29
+#: ../news.php:84
 msgid ""
 "Undecorated out-param types must be included in EDB-SPL function signatures "
 "when altering comments or privileges or dropping functions or procedures."
@@ -2954,56 +3143,62 @@ msgstr ""
 msgid "Under 80 characters"
 msgstr ""
 
-#: ../news.php:228
+#: ../news.php:33
+msgid ""
+"Update node text when refreshing treeview nodes in case part of the "
+"identifier has changed."
+msgstr ""
+
+#: ../news.php:283
 msgid "Update to support the changed syntax of pg_dump 8.2+."
 msgstr ""
 
-#: ../news.php:305
+#: ../news.php:360
 msgid "Use E'' style escape string syntax when required."
 msgstr ""
 
-#: ../news.php:144
+#: ../news.php:199
 msgid ""
 "Use EnterpriseDB's utilities for dump and restore EDB databases to ensure "
 "non-PG extensions can be handled."
 msgstr ""
 
-#: ../news.php:141
+#: ../news.php:196
 msgid "Use Oracle style syntax for edbspl triggers."
 msgstr ""
 
-#: ../news.php:348
+#: ../news.php:403
 msgid ""
 "Use SQL standard type names where appropriate. Show them as 'aliases' in the "
 "browser."
 msgstr ""
 
-#: ../news.php:147
+#: ../news.php:202
 msgid ""
 "Use pg_statindex (if available) to optionally display additional index "
 "statistics on a per-table basis. Also works for index-constraints."
 msgstr ""
 
-#: ../news.php:154
+#: ../news.php:209
 msgid ""
 "Use pg_stattuple (if available) to optionally display additional table "
 "statistics on a per-table basis."
 msgstr ""
 
-#: ../news.php:85
+#: ../news.php:140
 msgid ""
 "Use popen() when testing the versions of helper apps on non-windows "
 "platforms to avoid an obscure bug on PPC Macs that could leave wxExecute "
 "hanging indefinitely whilst waiting on a zombie process."
 msgstr ""
 
-#: ../news.php:217
+#: ../news.php:272
 msgid ""
 "Use the correct version of the Slony scripts when creating a new cluster, "
 "per Duncan Beeby."
 msgstr ""
 
-#: ../news.php:328
+#: ../news.php:383
 msgid "Use virtual data table for Query Tool, to eliminate retrieval time."
 msgstr ""
 
@@ -3042,14 +3237,14 @@ msgstr ""
 msgid "WIN874"
 msgstr ""
 
-#: ../news.php:166
+#: ../news.php:221
 msgid ""
 "Warn the user and allow her to abort before re-running a backup or restore "
 "to or from the same file, in the same session (can occur if the first "
 "attempt returns an error or warning)."
 msgstr ""
 
-#: ../news.php:28
+#: ../news.php:83
 msgid "Warn the user if a file cannot be saved in the default encoding."
 msgstr ""
 
@@ -3104,13 +3299,13 @@ msgid ""
 "share your email address with other organizations unless required by law."
 msgstr ""
 
-#: ../news.php:278
+#: ../news.php:333
 msgid ""
 "When checking the position & size of windows, use the dimensions of the "
 "current display, not the primary."
 msgstr ""
 
-#: ../news.php:86
+#: ../news.php:141
 msgid ""
 "When creating a new index and specifying both tablespace and fill factor, "
 "make sure the SQL is formulated correctly, per Stefan Wolf"
@@ -3189,15 +3384,15 @@ msgstr ""
 
 #: ../index.php:12
 msgid ""
-"pgAdmin 1.8.2 has now been released! Please see the <a href=\"news.php"
+"pgAdmin 1.8.4 has now been released! Please see the <a href=\"news.php"
 "\">news page</a> for further details, and <a href=\"/download/\">the "
 "download page</a> to get your copy. Any questions or other support issues "
 "should be sent to <a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-"
 "support@postgresql.org</a>."
 msgstr ""
 
-#: ../news.php:39 ../news.php:94 ../news.php:235 ../news.php:262
-#: ../news.php:290 ../news.php:357
+#: ../news.php:62 ../news.php:94 ../news.php:149 ../news.php:290
+#: ../news.php:317 ../news.php:345 ../news.php:412
 msgid "pgAdmin Development Team"
 msgstr ""
 
@@ -3213,7 +3408,10 @@ msgid ""
 msgstr ""
 
 #: ../download/rpm.php:12
-msgid "pgAdmin III RPM packages are available for several Linux distributions."
+#, php-format
+msgid ""
+"pgAdmin III RPM packages are available for several Linux distributions from "
+"the PostgreSQL <a href=\"%s\">RPM repository</a>."
 msgstr ""
 
 #: ../screenshots/ui.php:12
@@ -3623,7 +3821,7 @@ msgstr ""
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr ""
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:40
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"
@@ -3638,34 +3836,49 @@ msgid ""
 "in many popular Linux distributions."
 msgstr ""
 
-#: ../news.php:299
+#: ../news.php:354
 msgid ""
 "v1.6.0 represents over a year of development and testing to bring you a host "
 "of new features and improvements including:"
 msgstr ""
 
-#: ../news.php:271
+#: ../news.php:326
 msgid "v1.6.1 is primarily a bug fix release, including the following changes:"
 msgstr ""
 
-#: ../news.php:244
+#: ../news.php:299
 msgid "v1.6.2 is primarily a bug fix release, including the following changes:"
 msgstr ""
 
-#: ../news.php:208
+#: ../news.php:263
 msgid "v1.6.3 is primarily a bug fix release, including the following changes:"
 msgstr ""
 
-#: ../news.php:106
+#: ../news.php:161
 msgid ""
 "v1.8.0 represents nearly a year of development and testing to bring you \n"
 "a host of new features and improvements including:"
 msgstr ""
 
-#: ../news.php:49
+#: ../news.php:104
 msgid "v1.8.1 is primarily a bug fix release, including the following changes:"
 msgstr ""
 
-#: ../news.php:16
+#: ../news.php:71
 msgid "v1.8.2 is primarily a bug fix release, including the following changes:"
+msgstr ""
+
+#: ../news.php:24
+msgid "v1.8.3 fixes:"
+msgstr ""
+
+#: ../news.php:18
+msgid "v1.8.4 fixes:"
+msgstr ""
+
+#: ../news.php:16
+msgid ""
+"v1.8.4 is primarily a bug fix release, including the following changes. Note "
+"that v1.8.3 was never announced as a release due to an issue found at the "
+"last minute."
 msgstr ""

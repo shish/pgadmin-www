@@ -13,6 +13,7 @@ $PAGE_CONTENT = '
   <li>' . _("PostgreSQL 8.4 compatibility (these items are subject to change)") . '<br />&nbsp;
     <ul>
       <li><s>' . _("TRUNCATE trigger support") . '</s><br />&nbsp;</li>
+      <li>' . _("Add support for variadic functions") . '<br />&nbsp;</li>
       <li>' . _("To be determined...") . '<br />&nbsp;</li>
     </ul>
   </li>
@@ -35,13 +36,14 @@ $PAGE_CONTENT = '
       <li><s>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '</s><br />&nbsp;</li>
       <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
       <li>' . _("Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [DP]") . '<br />&nbsp;</li>
-      <li>' . _("Support for integrated tsearch configuration in PG 8.3+") . '<br />&nbsp;</li>
+      <li><s>' . _("Support for integrated tsearch configuration in PG 8.3+ [GL]") . '</s><br />&nbsp;</li>
       <li>' . _("Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
       <li>' . _("pgsql-performance report tool for problematic queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
       <li><s>' . _("Overhaul settings management. Save settings on the fly rather than at exit. Take default values from an external file [DP]") . '</s><br />&nbsp;</li>
       <li>' . _("Add a dialog to allow the user to set a global breakpoint in a specific backend process [DP]") . '<br />&nbsp;</li>
       <li>' . _("Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected lines in the query tool [DP]") . '<br />&nbsp;</li>
-      <li><s>' . _("Add support for the -c (clean) pg_restore option") . '</s><br />&nbsp;</li>
+      <li><s>' . _("Add support for the -c (clean) pg_restore option [DP]") . '</s><br />&nbsp;</li>
+      <li>' . _("Add printing support to the query tool (and other styled text controls?) [DP]") . '<br />&nbsp;</li>
     </ul>
   </li>
 

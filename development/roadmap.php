@@ -21,7 +21,7 @@ $PAGE_CONTENT = '
   <li>' . _("Code housekeeping") . '<br />&nbsp;
     <ul>
       <li>' . _("Check for and remove any custom controls that are now implemented in wxWidgets.") . '<br />&nbsp;</li>
-      <li>' . _("Move pgAgent into a standalone package that can be released on it's own schedule.") . '<br />&nbsp;</li>
+      <li><s>' . _("Move pgAgent into a standalone package that can be released on it's own schedule.") . '</s><br />&nbsp;</li>
     </ul>
   </li>
 
@@ -41,7 +41,8 @@ $PAGE_CONTENT = '
       <li>' . _("pgsql-performance report tool for problematic queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
       <li><s>' . _("Overhaul settings management. Save settings on the fly rather than at exit. Take default values from an external file [DP]") . '</s><br />&nbsp;</li>
       <li>' . _("Add a dialog to allow the user to set a global breakpoint in a specific backend process [DP]") . '<br />&nbsp;</li>
-      <li>' . _("Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected lines in the query tool [DP]") . '<br />&nbsp;</li>
+      <li><s>' . _("Add a hotkey to comment or un-comment the selected lines in the query tool [DP]") . '</s><br />&nbsp;</li>
+      <li><s>' . _("Add a hotkey to indent or outdent the selected lines in the query tool [DP]") . '</s><br />&nbsp;</li>
       <li><s>' . _("Add support for the -c (clean) pg_restore option [DP]") . '</s><br />&nbsp;</li>
       <li>' . _("Add printing support to the query tool (and other styled text controls?) [DP]") . '<br />&nbsp;</li>
     </ul>

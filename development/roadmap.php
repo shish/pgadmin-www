@@ -13,7 +13,7 @@ $PAGE_CONTENT = '
   <li>' . _("PostgreSQL 8.4 compatibility (these items are subject to change)") . '<br />&nbsp;
     <ul>
       <li><s>' . _("TRUNCATE trigger support") . '</s><br />&nbsp;</li>
-      <li>' . _("Add support for variadic functions") . '<br />&nbsp;</li>
+      <li><s>' . _("Add support for variadic functions") . '</s><br />&nbsp;</li>
       <li>' . _("To be determined...") . '<br />&nbsp;</li>
     </ul>
   </li>

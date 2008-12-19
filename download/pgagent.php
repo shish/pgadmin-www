@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("pgAgent is a job scheduler for PostgreSQL which may be managed using pgAdmin. Prior to pgAdmin v1.9, pgAgent shipped as part of pgAdmin. From pgAdmin v1.9 onwards, pgAgent is shipped as a separate application.") . '</p>
 <ul>
-  <li>' . sprintf(_("<a href=\"%s\">pgAgent v2.0.0</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/pgagent/") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">Download pgAgent</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/pgagent/") . '<br />&nbsp;</li>
 </ul>
 
 '; 

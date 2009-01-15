@@ -19,6 +19,9 @@ Redirect permanent /translation.php http://www.pgadmin.org/translation/status.ph
 
 Redirect permanent /faq/ http://www.pgadmin.org/pgadmin3/faq/
 
+# Redirect the archives links
+RedirectMatch 301 /archives/(.*)$ http://archives.postgresql.org/$1
+
 RewriteEngine On
 
 # Rewrite requests for documentation images. On developer.pgadmin.org, the following works

@@ -17,8 +17,6 @@ the primary site:
     DirectoryIndex index.html index.php
     ErrorLog logs/www.pgadmin.org.error_log
     CustomLog /dev/null common
-    RewriteLog logs/www.pgadmin.org.rewrite_log
-    RewriteLogLevel 9
 
     <Directory "/usr/local/apache/www.pgadmin.org">
         Options Indexes FollowSymLinks
@@ -89,19 +87,6 @@ The snapshots directory is rsync'ed from developer.pgadmin.org. It simply
 contains the directory tree of snapshot source and binary builds of pgAdmin.
 The snapshot rsync source is not publically accessible.
 
-/archives
----------
-
-/archives
-  /pgadmin-hackers
-  /pgadmin-support
-
-The /archives directory holds the mailing list archives for the pgAdmin lists
-rsync'ed from svr5.postgresql.org. This rsync source is not publically 
-accessible. The mailing list pages are built and rendered using 
-include/archives.php and include/page.php in much the same way as the doc
-pages are.
-
 Synchronisation
 ---------------
 
@@ -124,9 +109,5 @@ scheduled.
 # Update the snapshots tree:
 
 42 * * * * /usr/bin/rsync -avz --delete developer.pgadmin.org::pgadmin-snapshots /usr/local/apache/www.pgadmin.org/snapshots/
-
-# Update the archives:
-
-52 * * * * /usr/bin/rsync -avz --delete svr5.postgresql.org::pgsql-archives/pgadmin* /usr/local/apache/www.pgadmin.org/archives/
 
 

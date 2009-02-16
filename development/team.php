@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("Although anyone is welcome to contribute to pgAdmin, the project is managed and run by the Development Team. The document below (available only in English) outlines the structure of the team and how it operates.") . '</p>
 
-<h3>Version 2.1, 5 February 2009</h3>
+<h3>Version 2.2, 16 February 2009</h3>
 
 <ol>
   <li>Purpose<br />&nbsp;<br />
@@ -38,10 +38,10 @@ $PAGE_CONTENT = '
   <li>People<br />&nbsp;<br />
     The pgAdmin Development Team includes the following people:<br />&nbsp;<br />
     <ul>
-      <li><a href="mailto:dpage@postgresql.org">Dave Page</a> (Project Leader): Project founder & primary developer.<br />&nbsp;</li>
+      <li><a href="mailto:dpage@pgadmin.org">Dave Page</a> (Project Leader): Project founder & primary developer.<br />&nbsp;</li>
       <li><a href="mailto:z-saito@guitar.ocn.ne.jp">Hiroshi Saito</a>: Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.</li>
       <li><a href="mailto:fmonkey@fmonkey.net">Adam H. Pendleton</a>: Developed and maintains the build system, and helps with various porting issues.</li>
-      <li><a href="mailto:blacknoz@club-internet.fr">Rapha&#235;l Enrici</a>: Maintains the Debian port, and helps with numerous other issues.</li>
+      <li><a href="mailto:raphael@pgadmin.org">Rapha&#235;l Enrici</a>: Maintains the Debian port, and helps with numerous other issues.</li>
       <li><a href="mailto:guillaume@lelarge.info">Guillaume Lelarge</a>: Manages the pgAdmin application and website translations, and has added a number of enhancements to pgAdmin.</li>
       <li><a href="mailto:brandstetter@falter.at">Erwin Brandstetter</a>: Spends significant amounts of time testing new releases and helping us track down bugs and behavioural issues.</li>
       <li><a href="mailto:magnus@hagander.net">Magnus Hagander</a>: Has worked on numerous features and project infrastructure.</li>

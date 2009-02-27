@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-13 14:30+0200\n"
+"POT-Creation-Date: 2009-02-27 18:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,11 @@ msgstr ""
 #: ../download/adminpacks.php:12
 #, php-format
 msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s and above"
+msgstr ""
+
+#: ../download/pgagent.php:12
+#, php-format
+msgid "<a href=\"%s\">Download pgAgent</a>"
 msgstr ""
 
 #: ../download/freebsd.php:14 ../download/freebsd.php:15
@@ -206,14 +211,19 @@ msgid ""
 "Add a guru hint to warn the user of the consequences of storing passwords."
 msgstr ""
 
-#: ../news.php:166
-msgid "Add a macro facility to the Query Tool."
-msgstr ""
-
 #: ../development/roadmap.php:44
 msgid ""
-"Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected "
-"lines in the query tool [DP]"
+"Add a hotkey to comment or un-comment the selected lines in the query tool "
+"[DP]"
+msgstr ""
+
+#: ../development/roadmap.php:45
+msgid ""
+"Add a hotkey to indent or outdent the selected lines in the query tool [DP]"
+msgstr ""
+
+#: ../news.php:166
+msgid "Add a macro facility to the Query Tool."
 msgstr ""
 
 #: ../news.php:398
@@ -305,7 +315,7 @@ msgstr ""
 msgid "Add options to show line ends and whitespaces in the query tool."
 msgstr ""
 
-#: ../development/roadmap.php:46
+#: ../development/roadmap.php:47
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP]"
 msgstr ""
@@ -338,7 +348,7 @@ msgstr ""
 msgid "Add support for public synonyms on EnterpriseDB."
 msgstr ""
 
-#: ../development/roadmap.php:45
+#: ../development/roadmap.php:46
 msgid "Add support for the -c (clean) pg_restore option [DP]"
 msgstr ""
 
@@ -346,7 +356,7 @@ msgstr ""
 msgid "Add support for variadic functions"
 msgstr ""
 
-#: ../download/adminpacks.php:8 ../download/menu.php:7
+#: ../download/adminpacks.php:8 ../download/menu.php:18
 msgid "Admin packs"
 msgstr ""
 
@@ -745,10 +755,6 @@ msgstr ""
 msgid "Correctly quote role names when reverse engineering ACLs."
 msgstr ""
 
-#: ../include/archives.php:54
-msgid "Couldn't find the archive content!"
-msgstr ""
-
 #: ../include/doc.php:68
 msgid "Couldn't find the document content!"
 msgstr ""
@@ -800,7 +806,7 @@ msgid ""
 "pgAdmin Development Team"
 msgstr ""
 
-#: ../download/debian.php:8 ../download/menu.php:8
+#: ../download/debian.php:8 ../download/menu.php:7
 msgid "Debian"
 msgstr ""
 
@@ -904,8 +910,7 @@ msgid ""
 "Display, and allow null values to be set in boolean columns in the Edit Grid."
 msgstr ""
 
-#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
-#: ../include/doc.php:48
+#: ../include/doc.php:34 ../include/doc.php:48
 msgid "Document not found"
 msgstr ""
 
@@ -1387,7 +1392,7 @@ msgstr ""
 msgid "For example, for France, you can try:"
 msgstr ""
 
-#: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:9
+#: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:8
 #: ../screenshots/index.php:16
 msgid "FreeBSD"
 msgstr ""
@@ -1669,7 +1674,7 @@ msgid ""
 "creating new shortcuts if you cannot choose the same letter."
 msgstr ""
 
-#: ../support/issues.php:8 ../support/menu.php:10
+#: ../support/issues.php:8 ../support/menu.php:12
 msgid "Known issues"
 msgstr ""
 
@@ -1687,7 +1692,7 @@ msgstr ""
 msgid "Language:"
 msgstr ""
 
-#: ../download/languages.php:8 ../download/menu.php:10
+#: ../download/languages.php:8 ../download/menu.php:19
 msgid "Languages"
 msgstr ""
 
@@ -1717,7 +1722,7 @@ msgstr ""
 msgid "Linux"
 msgstr ""
 
-#: ../development/menu.php:10 ../support/menu.php:9
+#: ../development/menu.php:10 ../support/menu.php:11
 msgid "List archives"
 msgstr ""
 
@@ -1748,7 +1753,7 @@ msgstr ""
 msgid "MULE_INTERNAL"
 msgstr ""
 
-#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
+#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:9
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr ""
@@ -1806,9 +1811,8 @@ msgstr ""
 #: ../development/list.php:12 ../support/list.php:22
 #, php-format
 msgid ""
-"Messages sent to the list may be browsed <a href=\"%s\">here</a> and are "
-"archived at <a href=\"%s\">PostgreSQL</a> and  <a href=\"%s\">mail-archive."
-"com</a>."
+"Messages sent to the list are archived at <a href=\"%s\">PostgreSQL</a> and  "
+"<a href=\"%s\">mail-archive.com</a>."
 msgstr ""
 
 #: ../features.php:14
@@ -1967,7 +1971,7 @@ msgstr ""
 msgid "OpenBSD"
 msgstr ""
 
-#: ../download/menu.php:12 ../download/opensuse.php:8
+#: ../download/menu.php:10 ../download/opensuse.php:8
 msgid "OpenSUSE"
 msgstr ""
 
@@ -2234,7 +2238,7 @@ msgstr ""
 msgid "Published translations (%d)"
 msgstr ""
 
-#: ../download/menu.php:13 ../download/rpm.php:8
+#: ../download/menu.php:11 ../download/rpm.php:8
 msgid "RPM"
 msgstr ""
 
@@ -2467,7 +2471,7 @@ msgstr ""
 msgid "Size of the column label of SQLGrid was made variable."
 msgstr ""
 
-#: ../download/menu.php:14 ../download/slackware.php:8
+#: ../download/menu.php:12 ../download/slackware.php:8
 msgid "Slackware"
 msgstr ""
 
@@ -2486,11 +2490,11 @@ msgstr ""
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr ""
 
-#: ../download/menu.php:15 ../download/snapshots.php:8
+#: ../download/menu.php:21 ../download/snapshots.php:8
 msgid "Snapshots"
 msgstr ""
 
-#: ../features.php:19 ../download/menu.php:16 ../download/solaris.php:8
+#: ../features.php:19 ../download/menu.php:13 ../download/solaris.php:8
 #: ../screenshots/index.php:25
 msgid "Solaris"
 msgstr ""
@@ -2510,7 +2514,7 @@ msgstr ""
 msgid "Sort server list alphabetically."
 msgstr ""
 
-#: ../download/menu.php:17 ../download/source.php:8
+#: ../download/menu.php:14 ../download/source.php:8
 msgid "Source code"
 msgstr ""
 
@@ -2697,8 +2701,7 @@ msgstr ""
 msgid "The database connection dialogue"
 msgstr ""
 
-#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
-#: ../include/doc.php:48
+#: ../include/doc.php:34 ../include/doc.php:48
 msgid "The document requested does not exist!"
 msgstr ""
 
@@ -2753,8 +2756,8 @@ msgstr ""
 msgid ""
 "The pages in this section give additional details about each binary package "
 "available as well as more direct download links. In addition, you can "
-"download source tarballs, additional language translations and admin packs "
-"for you servers to enable additional functionality."
+"download source tarballs, additional language translations, pgAgent and "
+"admin packs for your servers to enable additional functionality."
 msgstr ""
 
 #: ../development/index.php:12
@@ -3115,7 +3118,7 @@ msgstr ""
 msgid "UNICODE/UTF-8"
 msgstr ""
 
-#: ../download/menu.php:18 ../download/ubuntu.php:8
+#: ../download/menu.php:15 ../download/ubuntu.php:8
 msgid "Ubuntu"
 msgstr ""
 
@@ -3350,7 +3353,7 @@ msgstr ""
 msgid "Why promote pgAdmin?"
 msgstr ""
 
-#: ../download/menu.php:19 ../download/windows.php:8
+#: ../download/menu.php:16 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr ""
@@ -3708,6 +3711,10 @@ msgstr ""
 msgid "pgAdmin III: Download - Windows &trade;"
 msgstr ""
 
+#: ../download/pgagent.php:5
+msgid "pgAdmin III: Download - pgAgent"
+msgstr ""
+
 #: ../features.php:5
 msgid "pgAdmin III: Feature"
 msgstr ""
@@ -3823,12 +3830,19 @@ msgstr ""
 msgid "pgAdmin running on Suse 10 XGL"
 msgstr ""
 
-#: ../include/archives.php:49
-msgid "pgAdmin: Archives"
-msgstr ""
-
 #: ../include/doc.php:62
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
+msgstr ""
+
+#: ../download/menu.php:20 ../download/pgagent.php:8
+msgid "pgAgent"
+msgstr ""
+
+#: ../download/pgagent.php:10
+msgid ""
+"pgAgent is a job scheduler for PostgreSQL which may be managed using "
+"pgAdmin. Prior to pgAdmin v1.9, pgAgent shipped as part of pgAdmin. From "
+"pgAdmin v1.9 onwards, pgAgent is shipped as a separate application."
 msgstr ""
 
 #: ../development/roadmap.php:41

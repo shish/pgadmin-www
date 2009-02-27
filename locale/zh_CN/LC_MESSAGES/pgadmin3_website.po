@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-13 14:30+0200\n"
+"POT-Creation-Date: 2009-02-27 18:28+0100\n"
 "PO-Revision-Date: 2008-06-26 19:17+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -34,6 +34,11 @@ msgstr "<a href=\"%s\">Admin pack</a> 用于pgAdmin %s版本"
 #, php-format
 msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s and above"
 msgstr "<a href=\"%s\">Admin pack</a> 用于pgAdmin %s以及更高版本"
+
+#: ../download/pgagent.php:12
+#, fuzzy, php-format
+msgid "<a href=\"%s\">Download pgAgent</a>"
+msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
 
 #: ../download/freebsd.php:14 ../download/freebsd.php:15
 #: ../download/freebsd.php:16 ../download/freebsd.php:17
@@ -233,16 +238,24 @@ msgid ""
 "Add a guru hint to warn the user of the consequences of storing passwords."
 msgstr "增加一个“guru提示”提醒用户存储密码可能导致的后果。"
 
+#: ../development/roadmap.php:44
+#, fuzzy
+msgid ""
+"Add a hotkey to comment or un-comment the selected lines in the query tool "
+"[DP]"
+msgstr ""
+"在查询工具中增加一个菜单项和热键（Ctrl -）对所选行进行注释和解除注释。[DP]"
+
+#: ../development/roadmap.php:45
+#, fuzzy
+msgid ""
+"Add a hotkey to indent or outdent the selected lines in the query tool [DP]"
+msgstr ""
+"在查询工具中增加一个菜单项和热键（Ctrl -）对所选行进行注释和解除注释。[DP]"
+
 #: ../news.php:166
 msgid "Add a macro facility to the Query Tool."
 msgstr "查询工具增加宏指令支持。"
-
-#: ../development/roadmap.php:44
-msgid ""
-"Add a menu option and hotkey (Ctrl -) to comment or un-comment the selected "
-"lines in the query tool [DP]"
-msgstr ""
-"在查询工具中增加一个菜单项和热键（Ctrl -）对所选行进行注释和解除注释。[DP]"
 
 #: ../news.php:398
 msgid ""
@@ -342,7 +355,7 @@ msgstr "增加在每个或个别数据表上允许/禁止触发器的选项。"
 msgid "Add options to show line ends and whitespaces in the query tool."
 msgstr "在查询工具增加行结束和空格显示选项。"
 
-#: ../development/roadmap.php:46
+#: ../development/roadmap.php:47
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP]"
 msgstr ""
@@ -377,7 +390,7 @@ msgstr "增加对EnterpriseDB包的支持。"
 msgid "Add support for public synonyms on EnterpriseDB."
 msgstr "增加对EnterpriseDB公有同义词的支持。"
 
-#: ../development/roadmap.php:45
+#: ../development/roadmap.php:46
 #, fuzzy
 msgid "Add support for the -c (clean) pg_restore option [DP]"
 msgstr "增加pg_restore对选项-c(clean)的支持"
@@ -387,7 +400,7 @@ msgstr "增加pg_restore对选项-c(clean)的支持"
 msgid "Add support for variadic functions"
 msgstr "增加对EnterpriseDB包的支持。"
 
-#: ../download/adminpacks.php:8 ../download/menu.php:7
+#: ../download/adminpacks.php:8 ../download/menu.php:18
 msgid "Admin packs"
 msgstr "管理工具包"
 
@@ -822,10 +835,6 @@ msgstr "正确识别触发器函数的schema可以在系统catalog内用作全�
 msgid "Correctly quote role names when reverse engineering ACLs."
 msgstr "反向ACL时正确引用角色名称。"
 
-#: ../include/archives.php:54
-msgid "Couldn't find the archive content!"
-msgstr "无法找到归档内容"
-
 #: ../include/doc.php:68
 msgid "Couldn't find the document content!"
 msgstr "无法找到文档内容"
@@ -879,7 +888,7 @@ msgstr ""
 "Dave Page<br />\n"
 "pgAdmin开发组"
 
-#: ../download/debian.php:8 ../download/menu.php:8
+#: ../download/debian.php:8 ../download/menu.php:7
 msgid "Debian"
 msgstr "Debian"
 
@@ -989,8 +998,7 @@ msgid ""
 "Display, and allow null values to be set in boolean columns in the Edit Grid."
 msgstr "在编辑网格中显示并允许空值赋值到布尔型字段。"
 
-#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
-#: ../include/doc.php:48
+#: ../include/doc.php:34 ../include/doc.php:48
 msgid "Document not found"
 msgstr "无法找到文档"
 
@@ -1502,7 +1510,7 @@ msgstr "例如，在法国和Gutsy Gibbon，可以试一下："
 msgid "For example, for France, you can try:"
 msgstr "例如，在法国，你可以试一下："
 
-#: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:9
+#: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:8
 #: ../screenshots/index.php:16
 msgid "FreeBSD"
 msgstr "FreeBSD"
@@ -1817,7 +1825,7 @@ msgstr ""
 "用本来的快捷键，pgAdmin用户可能会在英文版本和翻译版本之间遇到记忆不同快捷键的"
 "问题。因此，当不准备使用本来的字符而选择创建新的快捷键时要特别注意。"
 
-#: ../support/issues.php:8 ../support/menu.php:10
+#: ../support/issues.php:8 ../support/menu.php:12
 msgid "Known issues"
 msgstr "已知的问题"
 
@@ -1837,7 +1845,7 @@ msgstr "语种"
 msgid "Language:"
 msgstr "语种："
 
-#: ../download/languages.php:8 ../download/menu.php:10
+#: ../download/languages.php:8 ../download/menu.php:19
 msgid "Languages"
 msgstr "语种"
 
@@ -1869,7 +1877,7 @@ msgstr "协议"
 msgid "Linux"
 msgstr "Linux"
 
-#: ../development/menu.php:10 ../support/menu.php:9
+#: ../development/menu.php:10 ../support/menu.php:11
 msgid "List archives"
 msgstr "归档列表"
 
@@ -1900,7 +1908,7 @@ msgstr "服务器状态窗口的日志标签项：更多的列和过滤器。[GL
 msgid "MULE_INTERNAL"
 msgstr "MULE_INTERNAL"
 
-#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:11
+#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:9
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr "Mac OSX"
@@ -1961,11 +1969,10 @@ msgstr ""
 "能已经被写进pgAdmin源代码。"
 
 #: ../development/list.php:12 ../support/list.php:22
-#, php-format
+#, fuzzy, php-format
 msgid ""
-"Messages sent to the list may be browsed <a href=\"%s\">here</a> and are "
-"archived at <a href=\"%s\">PostgreSQL</a> and  <a href=\"%s\">mail-archive."
-"com</a>."
+"Messages sent to the list are archived at <a href=\"%s\">PostgreSQL</a> and  "
+"<a href=\"%s\">mail-archive.com</a>."
 msgstr ""
 "发送到邮件列表的讯息可以从<a href=\"%s\">这里</a>或者归档<a href=\"%s"
 "\">PostgreSQL</a>和<a href=\"%s\">mail-archive.com</a>浏览。"
@@ -2154,7 +2161,7 @@ msgstr "针对PostgreSQL数据库的开放源码管理工具"
 msgid "OpenBSD"
 msgstr "OpenBSD"
 
-#: ../download/menu.php:12 ../download/opensuse.php:8
+#: ../download/menu.php:10 ../download/opensuse.php:8
 msgid "OpenSUSE"
 msgstr "OpenSUSE"
 
@@ -2449,7 +2456,7 @@ msgstr "备份对话框使用更加合适的尺寸，Patrick Headley修改。"
 msgid "Published translations (%d)"
 msgstr "已经发布的翻译（%d）"
 
-#: ../download/menu.php:13 ../download/rpm.php:8
+#: ../download/menu.php:11 ../download/rpm.php:8
 msgid "RPM"
 msgstr "RPM包"
 
@@ -2699,7 +2706,7 @@ msgstr ""
 msgid "Size of the column label of SQLGrid was made variable."
 msgstr "SQLGrid中的列标签尺寸可变。"
 
-#: ../download/menu.php:14 ../download/slackware.php:8
+#: ../download/menu.php:12 ../download/slackware.php:8
 msgid "Slackware"
 msgstr "Slackware"
 
@@ -2720,11 +2727,11 @@ msgstr "Slony-I文档"
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Slony-I对象（例如节点、聚簇等）"
 
-#: ../download/menu.php:15 ../download/snapshots.php:8
+#: ../download/menu.php:21 ../download/snapshots.php:8
 msgid "Snapshots"
 msgstr "每日快照"
 
-#: ../features.php:19 ../download/menu.php:16 ../download/solaris.php:8
+#: ../features.php:19 ../download/menu.php:13 ../download/solaris.php:8
 #: ../screenshots/index.php:25
 msgid "Solaris"
 msgstr "Solaris"
@@ -2749,7 +2756,7 @@ msgstr ""
 msgid "Sort server list alphabetically."
 msgstr "按字母顺序对服务器列表排序。"
 
-#: ../download/menu.php:17 ../download/source.php:8
+#: ../download/menu.php:14 ../download/source.php:8
 msgid "Source code"
 msgstr "源代码"
 
@@ -2968,8 +2975,7 @@ msgstr "数据网格"
 msgid "The database connection dialogue"
 msgstr "数据库连接对话框"
 
-#: ../include/archives.php:21 ../include/archives.php:36 ../include/doc.php:34
-#: ../include/doc.php:48
+#: ../include/doc.php:34 ../include/doc.php:48
 msgid "The document requested does not exist!"
 msgstr "查找的文档不存在！"
 
@@ -3027,11 +3033,12 @@ msgstr ""
 "2.4.21"
 
 #: ../download/index.php:12
+#, fuzzy
 msgid ""
 "The pages in this section give additional details about each binary package "
 "available as well as more direct download links. In addition, you can "
-"download source tarballs, additional language translations and admin packs "
-"for you servers to enable additional functionality."
+"download source tarballs, additional language translations, pgAgent and "
+"admin packs for your servers to enable additional functionality."
 msgstr ""
 "这个部分的网页给出了更多关于每个二进制包的细节和下载连接。另外，也可以下载源"
 "程序的tar文件包、其他的语言翻译以及管理工具包，以便能够具有更多的功能。"
@@ -3487,7 +3494,7 @@ msgstr "类型"
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
 
-#: ../download/menu.php:18 ../download/ubuntu.php:8
+#: ../download/menu.php:15 ../download/ubuntu.php:8
 msgid "Ubuntu"
 msgstr "Ubuntu"
 
@@ -3755,7 +3762,7 @@ msgstr "当你访问我们的网页时，我们的服务器将自动记录你的
 msgid "Why promote pgAdmin?"
 msgstr "为什么要推广pgAdmin？"
 
-#: ../download/menu.php:19 ../download/windows.php:8
+#: ../download/menu.php:16 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr "Windows &trade;"
@@ -4175,6 +4182,11 @@ msgstr "pgAdmin III：下载 - Ubuntu"
 msgid "pgAdmin III: Download - Windows &trade;"
 msgstr "pgAdmin III：下载 - Windows &trade;"
 
+#: ../download/pgagent.php:5
+#, fuzzy
+msgid "pgAdmin III: Download - pgAgent"
+msgstr "pgAdmin III：下载 - OpenSUSE"
+
 #: ../features.php:5
 msgid "pgAdmin III: Feature"
 msgstr "pgAdmin III：特性"
@@ -4298,13 +4310,20 @@ msgstr ""
 msgid "pgAdmin running on Suse 10 XGL"
 msgstr "运行于Suse 10 XGL之上的pgAdmin"
 
-#: ../include/archives.php:49
-msgid "pgAdmin: Archives"
-msgstr "pgAdmin：归档"
-
 #: ../include/doc.php:62
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr "pgAdmin：文档 - 无法找到文档标题！"
+
+#: ../download/menu.php:20 ../download/pgagent.php:8
+msgid "pgAgent"
+msgstr ""
+
+#: ../download/pgagent.php:10
+msgid ""
+"pgAgent is a job scheduler for PostgreSQL which may be managed using "
+"pgAdmin. Prior to pgAdmin v1.9, pgAgent shipped as part of pgAdmin. From "
+"pgAdmin v1.9 onwards, pgAgent is shipped as a separate application."
+msgstr ""
 
 #: ../development/roadmap.php:41
 msgid ""
@@ -4371,6 +4390,12 @@ msgid ""
 msgstr ""
 "1.8.4版本主要用来进行bug修正，包括如下更新。注意因为在最后时刻发现问题，1.8.3"
 "从来没有作为正式版本发布过。"
+
+#~ msgid "Couldn't find the archive content!"
+#~ msgstr "无法找到归档内容"
+
+#~ msgid "pgAdmin: Archives"
+#~ msgstr "pgAdmin：归档"
 
 #~ msgid ""
 #~ "ER diagramming tool (Google SoC project). [Euler Taveira de Oliveira]"

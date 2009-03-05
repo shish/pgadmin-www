@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("Although anyone is welcome to contribute to pgAdmin, the project is managed and run by the Development Team. The document below (available only in English) outlines the structure of the team and how it operates.") . '</p>
 
-<h3>Version 2.2, 16 February 2009</h3>
+<h3>Version 2.3, 5 March 2009</h3>
 
 <ol>
   <li>Purpose<br />&nbsp;<br />
@@ -40,7 +40,6 @@ $PAGE_CONTENT = '
     <ul>
       <li><a href="mailto:dpage@pgadmin.org">Dave Page</a> (Project Leader): Project founder & primary developer.<br />&nbsp;</li>
       <li><a href="mailto:z-saito@guitar.ocn.ne.jp">Hiroshi Saito</a>: Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.</li>
-      <li><a href="mailto:fmonkey@fmonkey.net">Adam H. Pendleton</a>: Developed and maintains the build system, and helps with various porting issues.</li>
       <li><a href="mailto:raphael@pgadmin.org">Rapha&#235;l Enrici</a>: Maintains the Debian port, and helps with numerous other issues.</li>
       <li><a href="mailto:guillaume@lelarge.info">Guillaume Lelarge</a>: Manages the pgAdmin application and website translations, and has added a number of enhancements to pgAdmin.</li>
       <li><a href="mailto:brandstetter@falter.at">Erwin Brandstetter</a>: Spends significant amounts of time testing new releases and helping us track down bugs and behavioural issues.</li>
@@ -53,6 +52,7 @@ $PAGE_CONTENT = '
       <li><a href="mailto:frank_lupo@email.it">Frank Lupo</a>: Has made countless improvements to the pgAdmin II code from minor bug fixes to major enhancements.</li>
       <li><a href="mailto:jm@poure.com">Jean-Michel Pour&#233;</a>: Managed translations & the web site.</li>
       <li><a href="mailto:pgadmin@pse-consulting.de">Andreas Pflug</a>: Wrote vast amounts of pgAdmin III code and is responsible for much of its design.</li>
+      <li><a href="mailto:fmonkey@fmonkey.net">Adam H. Pendleton</a>: Developed and maintains the build system, and helps with various porting issues.</li>
     </ul>
   <br />&nbsp;</li>
 </ol>

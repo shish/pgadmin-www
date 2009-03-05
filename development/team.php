@@ -24,15 +24,15 @@ $PAGE_CONTENT = '
     The foundation consists of the Project Leader and Members.<br />&nbsp;<br />
     <ul>
       <li>Project Leader: The Project Leader is Dave Page, founder and primary 
-          developer of the software.
+          developer of the software. The Project Leader is also considered a member.
       <li>Members: Members can be any contributor to the project who accepts an
-           invitation from the existing development team.
+           invitation from the existing Development Team.
     </ul><br />&nbsp;</li>
 
   <li>Division of Responsibilities<br />&nbsp;<br />
     Any major decision regarding the Project must be voted on by the Development 
     Team. Any vote will be made via email through the relevant mailling list. 
-    Responses not received within 2 weeks will be discounted from the vote. In 
+    Responses not received within 2 weeks will be discounted from the vote. <br ><br />In 
     the case of a hung vote, the Project Leader shall cast the deciding vote.
     <br />&nbsp;</li>
   <li>People<br />&nbsp;<br />

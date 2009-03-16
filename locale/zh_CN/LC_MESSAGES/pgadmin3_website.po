@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-13 22:23+0100\n"
-"PO-Revision-Date: 2009-03-16 12:25+0900\n"
+"PO-Revision-Date: 2009-03-16 17:50+0900\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql.org>\n"
 "MIME-Version: 1.0\n"
@@ -461,7 +461,7 @@ msgstr "消除当在Solaris中关闭查询工具时崩溃的问题。[Dhanaraj M
 #: ../news.php:108
 #, php-format
 msgid "Avoid crashes when working with objects with % characters in the name."
-msgstr ""
+msgstr "避免当操作名字中含有%字符的对象时发生崩溃。"
 
 #: ../news.php:232
 msgid "Avoid creating graphical explain nodes for triggers as they aren't part of the plan and mess up the layout."

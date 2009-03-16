@@ -463,7 +463,7 @@ msgstr "Évite un arrêt brutal lors de la fermeture de l'outil de requêtes sur
 #: ../news.php:108
 #, php-format
 msgid "Avoid crashes when working with objects with % characters in the name."
-msgstr "Évite des arrêts brutaux lors de la manipulation d'objets dont le nom contient des pourcentages ( % c)."
+msgstr "Évite des arrêts brutaux lors de la manipulation d'objets dont le nom contient des pourcentages (%)."
 
 #: ../news.php:232
 msgid "Avoid creating graphical explain nodes for triggers as they aren't part of the plan and mess up the layout."

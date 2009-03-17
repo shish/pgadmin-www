@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-17 12:44+0100\n"
-"PO-Revision-Date: 2009-03-17 13:44+0100\n"
+"PO-Revision-Date: 2009-03-17 18:25+0100\n"
 "Last-Translator: Guillaume Lelarge <guillaume@lelarge.info>\n"
 "Language-Team:  <pgsql-fr-general@postgresql.org>\n"
 "MIME-Version: 1.0\n"
@@ -387,7 +387,7 @@ msgid ""
 "Allow default settings to be set via a global config file. This allows\n"
 "    redistributors and sysadmins to pre-configure an installation as required\n"
 "    "
-msgstr ""
+msgstr "Permet la configuration des paramètres par défaut dans un fichier global. Cela permet aux distributeurs et aux administrateurs systèmes de pré-configurer une installation si nécessaire"
 
 #: ../news.php:192
 msgid "Allow detection and conversion of line ending format in the query tool."
@@ -401,7 +401,7 @@ msgstr "Possibilité de sauvegarder des serveurs complets."
 msgid ""
 "Allow external utilities such as pg_dump &amp; pg_restore to work with\n"
 "    SSL connections"
-msgstr ""
+msgstr "Permet l'utilisation de connexions SSL avec les outils tels que pg_dump et pg_restore"
 
 #: ../news.php:206
 msgid "Allow global objects to be backed up."
@@ -423,7 +423,7 @@ msgstr "Permet le collage de lignes entières dans l'outil de visualisation des 
 msgid ""
 "Allow pgAgent to connect to databases on remote servers, such as hot\n"
 "    standby machines"
-msgstr ""
+msgstr "Permet la connexion de pgAgent sur des serveurs distants, comme les machines Hot Standby"
 
 #: ../news.php:368
 msgid "Allow result copy quoting configuration to be set explicitly rather than using the result export settings."
@@ -461,7 +461,7 @@ msgstr "Autorise l'utilisation du caractère de tabulation comme séparateur de 
 msgid ""
 "Allow the user a chance to abort if there is an error when deleting rows\n"
 "    in the edit grid"
-msgstr ""
+msgstr "Permet à l'utilisateur d'annuler s'il y a une erreur pendant la suppression de lignes dans la grille d'édition"
 
 #: ../news.php:388
 msgid "Allow the user to choose whether or not to restore the environment when reconnecting to a particular server."
@@ -560,7 +560,7 @@ msgstr "Évite de mettre entre guillemets le texte quand il est utilisé comme n
 msgid ""
 "Avoid running excess queries on pg_shdescription when connecting to a\n"
 "    server, fixing performance regression with large number of databases"
-msgstr ""
+msgstr "Évite d'exécuter de nombreuses requêtes sur pg_shdescription lors de la connexion à un serveur, ce qui corrige un problème de performance lorsqu'il y a un grand nombre de bases de données"
 
 #: ../advocacy/strategy.php:13
 #, php-format
@@ -1059,7 +1059,7 @@ msgstr "S'assure que le code DDL d'un trigger EDB-SPL est correctement formatée
 msgid ""
 "Ensure that line endings stay consistent when editing in styled text\n"
 "    controls"
-msgstr ""
+msgstr "S'assure que les fins de ligne restent cohérentes lors de l'édition dans les contrôles de texte stylé"
 
 #: ../news.php:111
 msgid "Ensure the 'Create Rule' context menu option is always offered when appropriate."
@@ -1083,7 +1083,7 @@ msgstr "S'assure que la longueur de chaîne maximale est autorisée dans la gril
 
 #: ../visualtour.php:374
 msgid "Ensure we never try to refresh the Servers node which would likely crash"
-msgstr ""
+msgstr "S'assure que pgAdmin n'essaie jamais de rafraîchir le n&oelig;ud Serveurs, ce qui pourrait facilement crasher pgAdmin"
 
 #: ../translation/howto.php:33
 msgid "Enter your translation strings."
@@ -1190,11 +1190,11 @@ msgstr "Correction de la suppression de procédures stockées, par Erwin."
 msgid ""
 "Fix handling of aggregate initial conditions to allow NULL or empty\n"
 "    strings to be specified"
-msgstr ""
+msgstr "Correction de la gestion des conditions initiales des agrégats pour autoriser la spécification de NULL ou des chaînes vides"
 
 #: ../visualtour.php:346
 msgid "Fix listing of group roles in the combo box on privilege panels"
-msgstr ""
+msgstr "Correction de la liste des rôles groupes dans la liste déroulante des onglets sur les droits"
 
 #: ../news.php:282
 msgid "Fix localisation of 'Tab' as a copy delimiter."
@@ -1274,7 +1274,7 @@ msgstr "Correction du EXPLAIN graphique en affichant correctement les noeuds de 
 
 #: ../visualtour.php:336
 msgid "Fix the index UI to handle columns with commas in the name"
-msgstr ""
+msgstr "Correction de l'interface des index pour gérer les colonnes contenant des virgules dans le nom"
 
 #: ../news.php:142
 msgid "Fix the locks tab on the server status dialogue so it works correctly with PostgreSQL 8.3+."
@@ -2189,7 +2189,7 @@ msgid ""
 "Restore old behaviour of the Edit Grid where &lt;return&gt; moves to\n"
 "    the next column, but &lt;enter&gt; moves to the next row rather than both\n"
 "    changing column"
-msgstr ""
+msgstr "Retour à l'ancien comportement de la grille d'édition où la touche &lt;return&gt; déplaçait à la colonne suivante et &lt;enter&gt; déplaçait à la ligne suivante, plutôt que les deux déplacent à la colonne suivante."
 
 #: ../news.php:184
 msgid "Retain column widths when refreshing the edit grid."
@@ -2209,7 +2209,7 @@ msgstr "Récupération améliorée par ingénieurie inverse des colonnes dont le
 
 #: ../visualtour.php:347
 msgid "Reverse engineer multi-word type names correctly when quoting"
-msgstr ""
+msgstr "Les noms de type comprenant plusieurs mots sont correctement mis entre guillemets."
 
 #: ../translation/howto.php:47
 msgid "Review your translation carefully:"

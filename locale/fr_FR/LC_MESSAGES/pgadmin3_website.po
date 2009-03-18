@@ -1486,7 +1486,7 @@ msgid ""
 "In this example, the user will insert random values into some tables. To\n"
 "  execute this script, you need to click on the PGS button. The complete\n"
 "  reference to pgscript is available <a href=\"%s\">here</a>."
-msgstr "Dans cet exemple, l'utilisateur insère des valeurs au hasard dans certains tables. Pour exécuter ce script, vous devez cliquer sur le bouton PGS. La reférence complèt de pgscript est disponible <a href=\"%s\">ici</a>. "
+msgstr "Dans cet exemple, l'utilisateur insère des valeurs au hasard dans certains tables. Pour exécuter ce script, vous devez cliquer sur le bouton PGS. La référence complète de pgscript est disponible <a href=\"%s\">ici</a>. "
 
 #: ../news.php:332
 msgid "Include IN/OUT/INOUT keywords in procedure identifiers in the treeview."

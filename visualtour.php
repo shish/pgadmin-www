@@ -51,7 +51,7 @@ $PAGE_CONTENT = '
 
 <p>
   ' . _("There is <b>enhanced support for Greenplum database</b>: resource queues,
-  external table and partitioned tables are supported and the graphical explain 
+  external tables and partitioned tables are supported and the graphical explain 
   tool knows much more about Greenplum query node types. There are also links to 
   Greenplum help and Greenplum utility support.") . '
 </p>
@@ -61,7 +61,7 @@ $PAGE_CONTENT = '
 <h2>' . _("Object browser") . '</h2>
 
 <p>
-  ' . _("Unfortunately, pgAdminIII 1.8 doesn't have support for FTS Objects</b>.
+  ' . _("Unfortunately, pgAdmin III 1.8 doesn't have support for FTS Objects</b>.
   One of the things we had to do for 1.10 is to support these.") . '
 </p>
 
@@ -189,7 +189,7 @@ $PAGE_CONTENT = '
 <h2>' . _("Index properties") . '</h2>
 
 <p>
-  ' . _("pgAdminIII 1.10 adds <b>support for DESC and NULLs FIRST/LAST options</b>
+  ' . _("pgAdmin III 1.10 adds <b>support for DESC and NULLs FIRST/LAST options</b>
   for index columns.") . '
 </p>
 
@@ -205,12 +205,12 @@ $PAGE_CONTENT = '
 
 <p>
   ' . _("pgAdmin III 1.10 supports <b>default values for function parameters</b> in
-  PostgreSQL 8.4+ and on EnterpriseDB, and <b>variadic funtions</b>.") . '
+  PostgreSQL 8.4+ and on EnterpriseDB, and <b>variadic functions</b>.") . '
 </p>
 
 <img src="images/visualtour/visualtour20.jpg"/>
 
-<h2>' . _("Type's properties") . '</h2>
+<h2>' . _("Type properties") . '</h2>
 
 <p>
   ' . _("Support for <b>typmod in/out functions</b> on custom types is finally
@@ -219,7 +219,7 @@ $PAGE_CONTENT = '
 
 <img src="images/visualtour/visualtour21.jpg"/>
 
-<h2>' . _("Language's properties") . '</h2>
+<h2>' . _("Language properties") . '</h2>
 
 <p>
   ' . _("One can now change a <b>language's owner</b>.") . '
@@ -227,7 +227,7 @@ $PAGE_CONTENT = '
 
 <img src="images/visualtour/visualtour22.jpg"/>
 
-<h2>' . _("Role's properties") . '</h2>
+<h2>' . _("Role properties") . '</h2>
 
 <p>
   ' . _("<b>Connection limit for roles</b> was unavailable in previous release despite

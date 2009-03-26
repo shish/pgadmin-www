@@ -7,7 +7,35 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Licence") . '</h1>
 
-<p><i>' . sprintf(_("Last update: %s"), "2004-02-10") . '</i></p>
+<p><i>' . sprintf(_("Last update: %s"), "2009-03-26") . '</i></p>
+
+<p>pgAdmin v1.10 and later versions are released under the <a href="#bsd">BSD 
+licence</a>. Earlier versions are released under the <a href="#artistic">Artistic 
+licence</a>.</p>
+
+<h2><a name="bsd">The BSD Licence</a></h2>
+
+<p>pgAdmin III</p>
+
+<p>Copyright (c) 2002 - 2009, The pgAdmin Development Team</p>
+
+<p>Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose, without fee, and without a written agreement is
+hereby granted, provided that the above copyright notice and this paragraph and
+the following two paragraphs appear in all copies.</p>
+
+<p>IN NO EVENT SHALL THE PGADMIN DEVELOPMENT TEAM BE LIABLE TO ANY PARTY FOR
+DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST
+PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
+THE PGADMIN DEVELOPMENT TEAM HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+<p>THE PGADMIN DEVELOPMENT TEAM SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND
+THE PGADMIN DEVELOPMENT TEAM HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
+UPDATES, ENHANCEMENTS, OR MODIFICATIONS.</p>
+
+<h2><a name="artistic">The Artistic Licence</a></h2>
 
 <p>BY INSTALLING OR DISTRIBUTING PGADMIN AND RELATED SOFTWARE, YOU AGREE WITH
 THE FOLLOWING DISCLAIMER:</p>
@@ -22,9 +50,9 @@ WHOLLY OR IN PART BY THE SOFTWARE.</p>
 BY LAW, PGADMIN DEVELOPMENT TEAM MEMBERS, CONTRIBUTORS AND DISTRIBUTORS
 LIABILITY SHALL BE LIMITED TO ONE EURO.</p>
 
-<h2>The Artistic License</h2>
+<h3>The Artistic License</h3>
 
-<h3>Preamble</h3>
+<h4>Preamble</h4>
 
 <p>The intent of this document is to state the conditions under which a Package 
 may be copied, such that the Copyright Holder maintains some semblance of 

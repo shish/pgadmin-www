@@ -1,8 +1,8 @@
 #######################################################################
 #
 # pgAdmin III - PostgreSQL Tools
-# Copyright (C) 2002 - 2003, The pgAdmin Development Team
-# This software is released under the Artistic Licence
+# Copyright (C) 2002 - 2008, The pgAdmin Development Team
+# This software is released under the BSD Licence
 #
 # stringmerge - merge pgadmin3.pot template file into existing pgadmin3.po
 # translated files, compile and publish them on CVS.

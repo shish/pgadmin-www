@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-17 12:44+0100\n"
+"POT-Creation-Date: 2009-03-27 11:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1880,7 +1880,7 @@ msgid "Language"
 msgstr ""
 
 #: ../visualtour.php:222
-msgid "Language's properties"
+msgid "Language properties"
 msgstr ""
 
 #: ../include/page.php:110
@@ -2165,15 +2165,15 @@ msgstr ""
 #: ../advocacy/information.php:32
 msgid ""
 "Open Source administration and management tools for the PostgreSQL database "
-"and derivative products such as EnterpriseDB, Pervasive Postgres and SRA "
-"PowerGres. Includes a graphical administration interface, an SQL query tool "
-"with grahical EXPLAIN, a procedural code editor, an SQL/shell/batch "
-"scheduling agent, Slony-I management and much more. pgAdmin III is designed "
-"to answer the needs of most users, from writing simple SQL queries to "
-"developing complex databases. The graphical interface supports all "
+"and derivative products such as EnterpriseDB Postgres Plus Advanced Server "
+"and Greenplum Database. Includes a graphical administration interface, an "
+"SQL query tool with grahical EXPLAIN, a procedural code editor, an SQL/shell/"
+"batch scheduling agent, Slony-I management and much more. pgAdmin III is "
+"designed to answer the needs of most users, from writing simple SQL queries "
+"to developing complex databases. The graphical interface supports all "
 "PostgreSQL features and makes administration easy. Available in more than a "
 "dozen languages and for several operating systems, including Microsoft "
-"Windows &trade;, Linux, FreeBSD, OpenSUSE, Mac OSX and Solaris."
+"Windows &trade;, Linux, FreeBSD, Mac OSX and Solaris."
 msgstr ""
 
 #: ../advocacy/information.php:26
@@ -2662,7 +2662,7 @@ msgid "Roadmap"
 msgstr ""
 
 #: ../visualtour.php:230
-msgid "Role's properties"
+msgid "Role properties"
 msgstr ""
 
 #: ../features.php:76
@@ -3337,7 +3337,7 @@ msgstr ""
 #: ../visualtour.php:53
 msgid ""
 "There is <b>enhanced support for Greenplum database</b>: resource queues,\n"
-"  external table and partitioned tables are supported and the graphical "
+"  external tables and partitioned tables are supported and the graphical "
 "explain \n"
 "  tool knows much more about Greenplum query node types. There are also "
 "links to \n"
@@ -3520,7 +3520,7 @@ msgid ""
 msgstr ""
 
 #: ../visualtour.php:213
-msgid "Type's properties"
+msgid "Type properties"
 msgstr ""
 
 #: ../features.php:85
@@ -3571,7 +3571,7 @@ msgstr ""
 
 #: ../visualtour.php:64
 msgid ""
-"Unfortunately, pgAdminIII 1.8 doesn't have support for FTS Objects</b>.\n"
+"Unfortunately, pgAdmin III 1.8 doesn't have support for FTS Objects</b>.\n"
 "  One of the things we had to do for 1.10 is to support these."
 msgstr ""
 
@@ -3880,6 +3880,12 @@ msgstr ""
 msgid "pgAdmin III 1.10 Visual Tour"
 msgstr ""
 
+#: ../visualtour.php:192
+msgid ""
+"pgAdmin III 1.10 adds <b>support for DESC and NULLs FIRST/LAST options</b>\n"
+"  for index columns."
+msgstr ""
+
 #: ../visualtour.php:257
 msgid ""
 "pgAdmin III 1.10 adds the ability to register external applications on a\n"
@@ -3892,7 +3898,7 @@ msgstr ""
 #: ../visualtour.php:207
 msgid ""
 "pgAdmin III 1.10 supports <b>default values for function parameters</b> in\n"
-"  PostgreSQL 8.4+ and on EnterpriseDB, and <b>variadic funtions</b>."
+"  PostgreSQL 8.4+ and on EnterpriseDB, and <b>variadic functions</b>."
 msgstr ""
 
 #: ../download/debian.php:24
@@ -3961,11 +3967,11 @@ msgstr ""
 #: ../download/index.php:10
 #, php-format
 msgid ""
-"pgAdmin III is a free software project released under the <a href=\"%s"
-"\">Artistic licence</a>. The software is available in source and binary "
-"format from the <a href=\"%s\">PostgreSQL mirror network</a>. Because "
-"compiling from source requires technical knowledge, we recommend installing "
-"binary packages whenever possible."
+"pgAdmin III is a free software project released under the <a href=\"%s\">BSD/"
+"Artistic licence</a>. The software is available in source and binary format "
+"from the <a href=\"%s\">PostgreSQL mirror network</a>. Because compiling "
+"from source requires technical knowledge, we recommend installing binary "
+"packages whenever possible."
 msgstr ""
 
 #: ../download/windows.php:12
@@ -3975,13 +3981,13 @@ msgstr ""
 #: ../development/svn.php:10
 #, php-format
 msgid ""
-"pgAdmin III is available subject to the terms of the <a href=\"%s\">Artistic "
-"Licence</a>. pgAdmin III is developed using a Subversion or SVN repository "
-"to hold the source code. Access to the repository is available through a <a "
-"href=\"%s\">web interface</a> or using your favourite SVN client. Anonymous "
-"read access is available using an SVN client. Under Windows, we recommend "
-"using <a href=\"%s\">TortoiseSVN</a>, which is free software. Under Linux, "
-"there are several command line and graphical clients available."
+"pgAdmin III is available subject to the terms of the <a href=\"%s\">licence</"
+"a>. pgAdmin III is developed using a Subversion or SVN repository to hold "
+"the source code. Access to the repository is available through a <a href=\"%s"
+"\">web interface</a> or using your favourite SVN client. Anonymous read "
+"access is available using an SVN client. Under Windows, we recommend using "
+"<a href=\"%s\">TortoiseSVN</a>, which is free software. Under Linux, there "
+"are several command line and graphical clients available."
 msgstr ""
 
 #: ../index.php:22
@@ -4003,7 +4009,7 @@ msgstr ""
 msgid ""
 "pgAdmin III is developed by a community of PostgreSQL experts around the "
 "world and is available in more than a dozen languages. It is Free Software "
-"released under the <a href=\"%s\">Artistic License</a>."
+"released under the <a href=\"%s\">BSD/Artistic License</a>."
 msgstr ""
 
 #: ../download/debian.php:59
@@ -4314,12 +4320,6 @@ msgstr ""
 
 #: ../include/doc.php:62
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
-msgstr ""
-
-#: ../visualtour.php:192
-msgid ""
-"pgAdminIII 1.10 adds <b>support for DESC and NULLs FIRST/LAST options</b>\n"
-"  for index columns."
 msgstr ""
 
 #: ../download/menu.php:20 ../download/pgagent.php:8

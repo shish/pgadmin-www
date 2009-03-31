@@ -23,7 +23,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("pgAdmin III 1.4.3 is available directly from Debian. You can install pgAdmin III just as you would do with any other Debian package (apt-get install pgadmin3).") . '</p>
 
-<p>' . sprintf(_("If you need a more up to date version of pgAdmin III, an APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/debian</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>
+<p>' . sprintf(_("If you need a more up to date version of pgAdmin III, an APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/debian</i>"), "http://wwwmaster.postgresql.org/download/mirrors-ftp") . '</p>
 
 <p>' . _("Edit /etc/apt/sources.list file and add the following line:") . '</p>
 
@@ -40,7 +40,7 @@ deb ftp://ftp2.fr.postgresql.org/postgresql/pgadmin3/release/debian etch pgadmin
 <h4>' . _("Debian Lenny (testing)") . '</h4>
 
 <p>' . sprintf(_("An APT repository is provided to ease installation. Before you start installation, please choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one of the
-flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>
+flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"), "http://wwwmaster.postgresql.org/download/mirrors-ftp") . '</p>
 
 <p>' . _("Edit /etc/apt/sources.list file and add the following line:") . '</p>
 

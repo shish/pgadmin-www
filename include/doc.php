@@ -25,6 +25,7 @@ if (isset($_GET['docset']))
       break;
 
     case "dev":
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3/docs/".$_SESSION['xPGA']['lang'];
       $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), _("Development"));
       break;
@@ -37,15 +38,24 @@ if (isset($_GET['docset']))
 
   $docpage = $_GET['docpage'];
 
-  $docfile = $docroot . "/" . $docpage;
-  if (file_exists($docfile))
+  if (file_exists($docroot_lang . "/" . $docpage))
   {
-    $docrawcontent = file_get_contents($docfile);  
+    $docfile = $docroot_lang . "/" . $docpage;
+  }
+  else if (file_exists($docroot . "/" . $docpage))
+  {
+    $docfile = $docroot . "/" . $docpage;
   }
   else
   {
     header("HTTP/1.0 404 Not Found");
     www_page(_("Document not found"), sprintf("<p>%s</p>", _("The document requested does not exist!")), false);
+    exit();
+  }
+
+  if ( false == ($docrawcontent = @file_get_contents($docfile)) )
+  {
+    www_page(_("Document cannot be read"), sprintf("<p>%s</p>", _("The document requested cannot be read!")), false);
     exit();
   }
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-27 11:02+0100\n"
+"POT-Creation-Date: 2009-05-02 20:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -852,7 +852,7 @@ msgstr ""
 msgid "Correctly quote role names when reverse engineering ACLs."
 msgstr ""
 
-#: ../include/doc.php:68
+#: ../include/doc.php:78
 msgid "Couldn't find the document content!"
 msgstr ""
 
@@ -949,7 +949,7 @@ msgid ""
 "steps."
 msgstr ""
 
-#: ../contribute.php:12 ../include/doc.php:29 ../include/page.php:125
+#: ../contribute.php:12 ../include/doc.php:30 ../include/page.php:125
 msgid "Development"
 msgstr ""
 
@@ -1010,7 +1010,11 @@ msgid ""
 "Display, and allow null values to be set in boolean columns in the Edit Grid."
 msgstr ""
 
-#: ../include/doc.php:34 ../include/doc.php:48
+#: ../include/doc.php:58
+msgid "Document cannot be read"
+msgstr ""
+
+#: ../include/doc.php:35 ../include/doc.php:52
 msgid "Document not found"
 msgstr ""
 
@@ -3030,7 +3034,11 @@ msgstr ""
 msgid "The database connection dialogue"
 msgstr ""
 
-#: ../include/doc.php:34 ../include/doc.php:48
+#: ../include/doc.php:58
+msgid "The document requested cannot be read!"
+msgstr ""
+
+#: ../include/doc.php:35 ../include/doc.php:52
 msgid "The document requested does not exist!"
 msgstr ""
 
@@ -3841,7 +3849,7 @@ msgid ""
 msgstr ""
 
 #: ../include/doc.php:14 ../include/doc.php:19 ../include/doc.php:24
-#: ../include/doc.php:29
+#: ../include/doc.php:30
 #, php-format
 msgid "pgAdmin %s online documentation"
 msgstr ""
@@ -4318,7 +4326,7 @@ msgstr ""
 msgid "pgAdmin running on Suse 10 XGL"
 msgstr ""
 
-#: ../include/doc.php:62
+#: ../include/doc.php:72
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr ""
 

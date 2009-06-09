@@ -1,16 +1,17 @@
 Current translators
 ===================
 
+cs_CZ (Czech)
+--------------
+
+Marek Cernocky [marek@manet.cz]
+
+
 fr_FR (French)
 --------------
 
 Guillaume Lelarge [guillaume.lelarge at gmail.com]
 
-
-ru_RU (Russian)
----------------
-
-Serguei A. Mokhov [mokhov at cs.concordia.ca]
 
 zh_CN (Simplified Chinese)
 --------------------------

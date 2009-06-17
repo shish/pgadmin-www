@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-09 18:12+0200\n"
+"POT-Creation-Date: 2009-06-17 10:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -406,7 +406,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr ""
 
-#: ../include/page.php:124
+#: ../include/page.php:125
 msgid "Advocacy"
 msgstr ""
 
@@ -871,6 +871,10 @@ msgid ""
 "database."
 msgstr ""
 
+#: ../include/page.php:111
+msgid "Czech"
+msgstr ""
+
 #: ../screenshots/data.php:8
 msgid "Data"
 msgstr ""
@@ -949,7 +953,7 @@ msgid ""
 "steps."
 msgstr ""
 
-#: ../contribute.php:12 ../include/doc.php:30 ../include/page.php:125
+#: ../contribute.php:12 ../include/doc.php:30 ../include/page.php:126
 msgid "Development"
 msgstr ""
 
@@ -1018,7 +1022,7 @@ msgstr ""
 msgid "Document not found"
 msgstr ""
 
-#: ../include/page.php:126 ../screenshots/documentation.php:8
+#: ../include/page.php:127 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr ""
@@ -1110,7 +1114,7 @@ msgid ""
 "error as non-superusers default to pg_default."
 msgstr ""
 
-#: ../include/page.php:127 ../include/po_status.php:256
+#: ../include/page.php:128 ../include/po_status.php:256
 msgid "Download"
 msgstr ""
 
@@ -1173,7 +1177,7 @@ msgid ""
 "changed."
 msgstr ""
 
-#: ../include/page.php:111
+#: ../include/page.php:112
 msgid "English"
 msgstr ""
 
@@ -1554,7 +1558,7 @@ msgstr ""
 msgid "FreeBSD"
 msgstr ""
 
-#: ../include/page.php:112
+#: ../include/page.php:113
 msgid "French"
 msgstr ""
 
@@ -1659,7 +1663,7 @@ msgid ""
 "the database."
 msgstr ""
 
-#: ../include/page.php:123
+#: ../include/page.php:124
 msgid "Home"
 msgstr ""
 
@@ -2711,7 +2715,7 @@ msgstr ""
 msgid "Schemas"
 msgstr ""
 
-#: ../include/page.php:128
+#: ../include/page.php:129
 msgid "Screenshots"
 msgstr ""
 
@@ -2763,7 +2767,7 @@ msgid ""
 "synonyms."
 msgstr ""
 
-#: ../include/page.php:113
+#: ../include/page.php:114
 msgid "Simplified Chinese"
 msgstr ""
 
@@ -2898,7 +2902,7 @@ msgid ""
 "make sure two translators do not work at the same time on the same language."
 msgstr ""
 
-#: ../include/page.php:129
+#: ../include/page.php:130
 msgid "Support"
 msgstr ""
 
@@ -3493,7 +3497,7 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../contribute.php:16 ../include/page.php:130
+#: ../contribute.php:16 ../include/page.php:131
 msgid "Translation"
 msgstr ""
 
@@ -3856,14 +3860,14 @@ msgstr ""
 
 #: ../index.php:12
 msgid ""
-"pgAdmin 1.10.0 BETA 3 has now been released! Highlights of the new release "
-"include a graphical query builder, a scripting engine in the query tool, and "
-"support for PostgreSQL 8.4 in addition to <a href=\"/development/changelog."
-"php\">numerous other changes</a>. Please visit the <a href=\"http://www."
-"postgresql.org/ftp/pgadmin3/release/v1.10.0-beta3/\">PostgreSQL download "
-"site</a> to get a copy and help with the testing. Any questions or other "
-"support issues should be sent to <a href=\"mailto:pgadmin-support@postgresql."
-"org\">pgadmin-support@postgresql.org</a>."
+"pgAdmin 1.10.0 Release Candidate 1 has now been released! Highlights of the "
+"new release include a graphical query builder, a scripting engine in the "
+"query tool, and support for PostgreSQL 8.4 in addition to <a href=\"/"
+"development/changelog.php\">numerous other changes</a>. Please visit the <a "
+"href=\"http://www.postgresql.org/ftp/pgadmin3/release/v1.10.0-rc1/"
+"\">PostgreSQL download site</a> to get a copy and help with the testing. Any "
+"questions or other support issues should be sent to <a href=\"mailto:pgadmin-"
+"support@postgresql.org\">pgadmin-support@postgresql.org</a>."
 msgstr ""
 
 #: ../index.php:16

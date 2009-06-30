@@ -10,18 +10,27 @@ if (isset($_GET['docset']))
 
   switch ($_GET['docset']) {
     case "1.4":
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.4/docs/".$_SESSION['xPGA']['lang'];
       $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.4/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.4");
       break;
 
     case "1.6":
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.6/docs/".$_SESSION['xPGA']['lang'];
       $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.6/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.6");
       break;
 
     case "1.8":
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.8/docs/".$_SESSION['xPGA']['lang'];
       $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.8/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.8");
+      break;
+
+    case "1.10":
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.10/docs/".$_SESSION['xPGA']['lang'];
+      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.10/docs/en_US";
+      $docheader = sprintf(_("pgAdmin %s online documentation"), "1.10");
       break;
 
     case "dev":

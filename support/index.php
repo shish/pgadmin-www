@@ -2,12 +2,12 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: Support - Introduction");
+$PAGE_TITLE = _("pgAdmin: Support - Introduction");
 $PAGE_CONTENT = '
 
 <h1>' . _("Introduction") . '</h1>
 
-<p>' . _("pgAdmin III is a community project comprising of a number of volunteers from around the world. We do not provide 'paid for' support for pgAdmin, although we do aim to fix bugs and help out wherever possible. Obviously we cannot guarantee to fix every problem or help every user though we always try to.") . '</p>
+<p>' . _("pgAdmin is a community project comprising of a number of volunteers from around the world. We do not provide 'paid for' support for pgAdmin, although we do aim to fix bugs and help out wherever possible. Obviously we cannot guarantee to fix every problem or help every user though we always try to.") . '</p>
 
 <p>' . sprintf(_("If you have a problem that you need help with, please make sure you check the <a href=\"%s\">Frequently Asked Questions</a> list as well as the pgAdmin documentation for a solution first. If you cannot find the answer you need there, then please try searching Google (a Google search facility is provided at the top of the page) next. Make sure you include any relevant error messages in your query. If you still cannot find the answer you need, then please post a message to the <a href=\"%s\">pgadmin-support</a> mailing list."), "faq.php", "list.php") . '</p>
 

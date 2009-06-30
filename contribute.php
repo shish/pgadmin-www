@@ -2,7 +2,7 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: How to contribute");
+$PAGE_TITLE = _("pgAdmin: How to contribute");
 $PAGE_CONTENT = '
 
 <h1>' . _("How to contribute") . '</h1>
@@ -15,7 +15,7 @@ $PAGE_CONTENT = '
 
 <h2>' . _("Translation") . '</h2>
 
-<p>' . sprintf(_("We need help to translate pgAdmin III and our website to as many languages as possible for the benefit of our worldwide userbase. If you think you can help us, please visit the <a href=\"%s\">translation</a> page."), "translation/") . '</p> 
+<p>' . sprintf(_("We need help to translate pgAdmin and our website to as many languages as possible for the benefit of our worldwide userbase. If you think you can help us, please visit the <a href=\"%s\">translation</a> page."), "translation/") . '</p> 
 
 '; 
 

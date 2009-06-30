@@ -2,7 +2,7 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: Advocacy - Information");
+$PAGE_TITLE = _("pgAdmin: Advocacy - Information");
 $PAGE_CONTENT = '
 
 <h1>' . _("Information") . '</h1>
@@ -26,14 +26,14 @@ $PAGE_CONTENT = '
   <i>' . _("Open Source administration and management tools for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. Designed to answer the needs of most users.") . '</i>
 
   <h4>' . _("Under 450 characters") . '</h4>
-  <i>' . _("Open Source administration and management tools for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. Available in more than a dozen languages and for most common operating systems.") . '</i>
+  <i>' . _("Open Source administration and management tools for the PostgreSQL database. Includes a graphical administration interface, an SQL query tool, a procedural code editor and much more. pgAdmin is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. Available in more than a dozen languages and for most common operating systems.") . '</i>
 
   <h4>' . _("Under 2000 characters") . '</h4>
-  <i>' . _("Open Source administration and management tools for the PostgreSQL database and derivative products such as EnterpriseDB Postgres Plus Advanced Server and Greenplum Database. Includes a graphical administration interface, an SQL query tool with grahical EXPLAIN, a procedural code editor, an SQL/shell/batch scheduling agent, Slony-I management and much more. pgAdmin III is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. Available in more than a dozen languages and for several operating systems, including Microsoft Windows &trade;, Linux, FreeBSD, Mac OSX and Solaris.") . '</i><br />&nbsp;</li>
+  <i>' . _("Open Source administration and management tools for the PostgreSQL database and derivative products such as EnterpriseDB Postgres Plus Advanced Server and Greenplum Database. Includes a graphical administration interface, an SQL query tool with grahical EXPLAIN, a procedural code editor, an SQL/shell/batch scheduling agent, Slony-I management and much more. pgAdmin is designed to answer the needs of most users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. Available in more than a dozen languages and for several operating systems, including Microsoft Windows &trade;, Linux, FreeBSD, Mac OSX and Solaris.") . '</i><br />&nbsp;</li>
 
   <li>' . _("<b>Keywords:</b> When visiting a web site, users may not find pgAdmin directly, but query keywords like \"PostgreSQL database\" or \"free administration tools\", etc. During registration, you may be asked to enter keywords. These should reflect any aspect of what pgAdmin does, and what it works with. <b>Under no circumstances should you include competitors company or product names in keywords</b>. Our proposal for a keyword list is:") . '<br />&nbsp;<br />
 
-  <i>postgresql, postgres, pgsql, psql, postgre, pginstaller, pervasive postgres, enterprisedb, greenplum, pgadmin, pgadmin iii, pgadmin ii, pgadmin3, pgadmin2, windows, linux, solaris, mac osx, freebsd, administration, managment, tools</i></li>
+  <i>postgresql, postgres, pgsql, psql, postgre, pginstaller, pervasive postgres, enterprisedb, postgres plus, greenplum, pgadmin, pgadmin iii, pgadmin ii, pgadmin3, pgadmin2, windows, linux, solaris, mac osx, freebsd, administration, managment, tools</i></li>
 </ul>
 '; 
 

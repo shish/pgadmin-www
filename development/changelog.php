@@ -2,7 +2,7 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: Development - Change log");
+$PAGE_TITLE = _("pgAdmin: Development - Change log");
 $PAGE_CONTENT = '
 
 <h1>' . _("Change log") . '</h1>

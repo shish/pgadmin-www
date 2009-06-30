@@ -2,14 +2,14 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: Download - Windows &trade;");
+$PAGE_TITLE = _("pgAdmin: Download - Windows &trade;");
 $PAGE_CONTENT = '
 
 <h1>' . _("Windows &trade;") . '</h1>
 
 <h4>' . sprintf(_("Maintainer: %s"), "Dave Page") . '</h4>
 
-<p>' . _("pgAdmin III is available for Windows &trade; 2000, XP and 2003.") . '</p>
+<p>' . _("pgAdmin is available for Windows &trade; 2000 and above.") . '</p>
 
 <p>' . sprintf(_("Note that the <a href=\"%s\">pgInstaller</a> distribution of PostgreSQL for Windows includes a bundled copy of pgAdmin."), "http://www.postgresql.org/ftp/win32") . '</p>
 

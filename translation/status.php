@@ -19,7 +19,7 @@ $cache_outofdate  = "/tmp/pgadmin_outofdate_cache.txt";
 $translated->_cache_load($cache_translated);
 $outofdate->_cache_load($cache_outofdate);
 
-$PAGE_TITLE = _("pgAdmin III: Translation - Status");
+$PAGE_TITLE = _("pgAdmin: Translation - Status");
 $PAGE_CONTENT = '
 
 <h1>' . _("Status") . '</h1>

@@ -2,18 +2,18 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: Download - Ubuntu");
+$PAGE_TITLE = _("pgAdmin: Download - Ubuntu");
 $PAGE_CONTENT = '
 
 <h1>' . _("Ubuntu") . '</h1>
 
 <h4>' . sprintf(_("Maintainer: %s"), "Rapha&euml;l Enrici") . '</h4>
 
-<p>' . sprintf(_("pgAdmin III packages are available for the <a href=\"%s\">Ubuntu</a> dapper and feisty distributions."), "http://www.ubuntu.com/") . '</p>
+<p>' . sprintf(_("pgAdmin packages are available for the <a href=\"%s\">Ubuntu</a> dapper and feisty distributions."), "http://www.ubuntu.com/") . '</p>
 
 <h4>' . _("Before you try to install") . '</h4>
 
-<p>The archive files are signed with a dedicated GPG Key. Before trying to install the pgAdmin III packages, you should add the corresponding public key to your apt keyring this way:</p>
+<p>The archive files are signed with a dedicated GPG Key. Before trying to install the pgAdmin packages, you should add the corresponding public key to your apt keyring this way:</p>
 
 <div class="pgaCode">
 wget -q -O - http://www.pgadmin.org/pgp/archive_key_debian_ubuntu.gpg | sudo apt-key add -
@@ -56,7 +56,7 @@ deb ftp://ftp4.fr.postgresql.org/pub/mirrors/postgresql/pgadmin3/release/ubuntu 
 
 <h4>' . _("Proceed to installation") . '</h4>
 
-<p>' . _("Simply use Synaptic to install pgAdmin III as you would do with any other package or run the following command from the command prompt:") . '</p>
+<p>' . _("Simply use Synaptic to install pgAdmin as you would do with any other package or run the following command from the command prompt:") . '</p>
 
 <div class="pgaCode">
 sudo apt-get update<br />

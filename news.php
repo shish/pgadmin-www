@@ -2,12 +2,16 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: Latest news");
+$PAGE_TITLE = _("pgAdmin: Latest news");
 $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2008-06-05", "1.8.4") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2009-06-30", "1.10.0") . '</h2>
+
+<p>' . _("pgAdmin 1.10.0 has now been released! Highlights of the new release include a graphical query builder, a scripting engine in the query tool and support for PostgreSQL 8.4 in addition to <a href=\"/development/changelog.php\">numerous other changes</a>. For a rundown of the key features, take a look at our <a href=\"/visualtour.php\">visual tour</a>.") . '</p><p>' . _("Please visit the <a href=\"download\">download area</a> to get your copy now. Any questions or other support issues should be sent to <a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</a>.") . '</a></p>
+
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2008-06-05", "1.8.4") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.8.4, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
 
@@ -62,7 +66,7 @@ $PAGE_CONTENT = '
 <p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
 
 
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2008-02-03", "1.8.2") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2008-02-03", "1.8.2") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.8.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
 
@@ -94,7 +98,7 @@ $PAGE_CONTENT = '
 <p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
 
 
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2008-01-04", "1.8.1") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2008-01-04", "1.8.1") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.8.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD
 , Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
@@ -149,7 +153,7 @@ $PAGE_CONTENT = '
 <p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
 
 
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2007-10-22", "1.8.0") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2007-10-22", "1.8.0") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of 
 pgAdmin 1.8.0, the Open Source graphical PostgreSQL administration tool for 
@@ -253,7 +257,7 @@ time to help with the development, testing, translation and packaging of this re
 <p><i>' . _("Dave Page<br />
 pgAdmin Development Team") . '</i></p>
 
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2007-03-26", "1.6.3") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2007-03-26", "1.6.3") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.3, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD
 , Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
@@ -290,7 +294,7 @@ pgAdmin Development Team") . '</i></p>
 <p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
 
 
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2007-01-08", "1.6.2") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2007-01-08", "1.6.2") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.2, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
 
@@ -317,7 +321,7 @@ pgAdmin Development Team") . '</i></p>
 <p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
 
 
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-12-01", "1.6.1") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2006-12-01", "1.6.1") . '</h2>
 
 <p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 1.6.1, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
 
@@ -345,7 +349,7 @@ pgAdmin Development Team") . '</i></p>
 <p><i>' . _("Dave Page") . '<br />' . _("pgAdmin Development Team") . '</i></p>
 
 
-<h2>' . sprintf(_("%s - pgAdmin III v%s released"), "2006-11-16", "1.6.0") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2006-11-16", "1.6.0") . '</h2>
 
 <p>' . _("I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download in source and a variety of binary formats from:") . '</p>
 

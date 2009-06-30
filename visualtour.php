@@ -2,15 +2,15 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III 1.10 Visual Tour");
+$PAGE_TITLE = _("pgAdmin 1.10 Visual Tour");
 $PAGE_CONTENT = '
 
-<h1>' . _("pgAdmin III 1.10 Visual Tour") . '</h1>
+<h1>' . _("pgAdmin 1.10 Visual Tour") . '</h1>
 
 <p>
-  ' . _("The long awaited 1.10 version of pgAdmin III is finally available in beta. We
-  will try to highlight some of the new features which have been added since
-  the last stable release.") . '
+  ' . _("The long awaited 1.10 version of pgAdmin is finally available. We
+  will highlight some of the new features which have been added since
+  the last stable release on this page.") . '
 </p>
 
 <h2>' . _("Major new features") . '</h2>
@@ -61,7 +61,7 @@ $PAGE_CONTENT = '
 <h2>' . _("Object browser") . '</h2>
 
 <p>
-  ' . _("Unfortunately, pgAdmin III 1.8 doesn't have support for FTS Objects</b>.
+  ' . _("Unfortunately, pgAdmin 1.8 doesn't have support for FTS Objects</b>.
   One of the things we had to do for 1.10 is to support these.") . '
 </p>
 
@@ -189,7 +189,7 @@ $PAGE_CONTENT = '
 <h2>' . _("Index properties") . '</h2>
 
 <p>
-  ' . _("pgAdmin III 1.10 adds <b>support for DESC and NULLs FIRST/LAST options</b>
+  ' . _("pgAdmin 1.10 adds <b>support for DESC and NULLs FIRST/LAST options</b>
   for index columns.") . '
 </p>
 
@@ -204,7 +204,7 @@ $PAGE_CONTENT = '
 <img src="images/visualtour/visualtour19.jpg"/>
 
 <p>
-  ' . _("pgAdmin III 1.10 supports <b>default values for function parameters</b> in
+  ' . _("pgAdmin 1.10 supports <b>default values for function parameters</b> in
   PostgreSQL 8.4+ and on EnterpriseDB, and <b>variadic functions</b>.") . '
 </p>
 
@@ -254,7 +254,7 @@ $PAGE_CONTENT = '
 <h2>' . _("Plugins menu") . '</h2>
 
 <p>
-  ' . _("pgAdmin III 1.10 adds the ability to register external applications on a
+  ' . _("pgAdmin 1.10 adds the ability to register external applications on a
   <b>plugins menu</b>. Menu options can be activated based on the current object
   selection and a variety of variables - including everything needed to
   open a database connection - can be passed to the external utility."). '
@@ -269,7 +269,7 @@ $PAGE_CONTENT = '
 
 <p>
   ' . _("When clicked, the psql console is launched and connects
-  to the database selected in pgAdmin III.") . '
+  to the database selected in pgAdmin.") . '
 </p>
 
 <img src="images/visualtour/visualtour27.jpg"/>
@@ -319,7 +319,7 @@ $PAGE_CONTENT = '
 
 <p>
   ' . _("Other work happened on this window. A 'Blocked By' column appears to show if
-  a transaction is blocked by another process. One can launch pgAdmin III
+  a transaction is blocked by another process. One can launch pgAdmin
   to only show the Server Status window, with the -S and -Sc command line
   options.") . '
 </p>

@@ -2,7 +2,7 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: Download - Mac OSX");
+$PAGE_TITLE = _("pgAdmin: Download - Mac OSX");
 $PAGE_CONTENT = '
 
 <h1>' . _("Mac OSX") . '</h1>
@@ -18,7 +18,7 @@ $PAGE_CONTENT = '
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.2.2/osx/", "1.2.2") . '<br />&nbsp;</li>
 </ul>
 
-<p>' . _("These packages are Mac OSX appbundles. To install the 1.8 series, mount the disk image using the finder, and drag the pgAdmin appbundle to the desired location. To install the 1.6 series, unpack the archive, and run the installer package. For earlier versions, unpack the archive, and move the appbundle into the desired location.") . '</p>
+<p>' . _("These packages are Mac OSX appbundles. To install the 1.8 or later series, mount the disk image using the finder, and drag the pgAdmin appbundle to the desired location. To install the 1.6 series, unpack the archive, and run the installer package. For earlier versions, unpack the archive, and move the appbundle into the desired location.") . '</p>
 '; 
 
 // Display the page

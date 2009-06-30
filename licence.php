@@ -2,7 +2,7 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: Licence");
+$PAGE_TITLE = _("pgAdmin: Licence");
 $PAGE_CONTENT = '
 
 <h1>' . _("Licence") . '</h1>
@@ -15,7 +15,7 @@ licence</a>.</p>
 
 <h2><a name="bsd">The BSD Licence</a></h2>
 
-<p>pgAdmin III</p>
+<p>pgAdmin</p>
 
 <p>Copyright (c) 2002 - 2009, The pgAdmin Development Team</p>
 

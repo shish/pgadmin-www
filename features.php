@@ -2,7 +2,7 @@
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
-$PAGE_TITLE = _("pgAdmin III: Feature");
+$PAGE_TITLE = _("pgAdmin: Feature");
 $PAGE_CONTENT = '
 
 <h1>' . _("Features") . '</h1>
@@ -15,15 +15,13 @@ $PAGE_CONTENT = '
   <li>' . _("Linux") . '</li>
   <li>' . _("FreeBSD") . '</li>
   <li>' . _("Mac OSX") . '</li>
-  <li>' . _("OpenBSD") . '</li>
   <li>' . _("Solaris") . '</li>
 </ul>
 
 <h2>' . _("Designed for multiple PostgreSQL versions and derivatives") . '</h2>
 <ul>
   <li>' . _("PostgreSQL 7.3 and above") . '</li>
-  <li>' . _("EnterpriseDB") . '</li>
-  <li>' . _("Mammoth PostgreSQL") . '</li>
+  <li>' . _("Postgres Plus Advanced Server") . '</li>
   <li>' . _("Greenplum Database") . '</li>
 </ul>
 
@@ -88,7 +86,7 @@ $PAGE_CONTENT = '
 </ul>
 
 <h2>' . _("Multibyte support") . '</h2>
-<p>' . _("pgAdmin III supports most PostgreSQL server-side encodings:") . '</p>
+<p>' . _("pgAdmin supports most PostgreSQL server-side encodings:") . '</p>
 <ul>
   <li>' . _("SQL_ASCII") . '</li>
   <li>' . _("EUC_JP, EUC_CN, EUC_KR, EUC_TW") . '</li>

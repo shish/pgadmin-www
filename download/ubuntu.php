@@ -19,7 +19,7 @@ $PAGE_CONTENT = '
 wget -q -O - http://www.pgadmin.org/pgp/archive_key_debian_ubuntu.gpg | sudo apt-key add -
 </div>
 
-<p>' . sprintf(_("Once the key added, you need to choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/ubuntu</i>"), "http://www.postgresql.org/download/mirrors-ftp") . '</p>
+<p>' . sprintf(_("Once the key added, you need to choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the flags, and copy the URL you are redirected to. On each mirror, the packages are located in: <i>/pgadmin3/release/ubuntu</i>"), "http://wwwmaster.postgresql.org/download/mirrors-ftp") . '</p>
 
 <p>Then follow the specific instructions below.</p>
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-01 13:26+0200\n"
+"POT-Creation-Date: 2009-12-04 19:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../index.php:10 ../news.php:10 ../news.php:14 ../news.php:69
-#: ../news.php:101 ../news.php:156 ../news.php:260 ../news.php:297
-#: ../news.php:324 ../news.php:352
+#: ../index.php:10 ../index.php:14 ../news.php:10 ../news.php:14
+#: ../news.php:69 ../news.php:101 ../news.php:156 ../news.php:260
+#: ../news.php:297 ../news.php:324 ../news.php:352
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr ""
@@ -43,24 +43,26 @@ msgstr ""
 #: ../download/freebsd.php:18 ../download/macosx.php:14
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
-#: ../download/opensuse.php:14 ../download/opensuse.php:15
-#: ../download/opensuse.php:16 ../download/opensuse.php:17
-#: ../download/opensuse.php:18 ../download/rpm.php:16 ../download/rpm.php:17
+#: ../download/macosx.php:19 ../download/opensuse.php:14
+#: ../download/opensuse.php:15 ../download/opensuse.php:16
+#: ../download/opensuse.php:17 ../download/opensuse.php:18
+#: ../download/opensuse.php:19 ../download/rpm.php:16 ../download/rpm.php:17
 #: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
 #: ../download/source.php:16 ../download/source.php:17
 #: ../download/source.php:18 ../download/source.php:19
-#: ../download/source.php:20 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/source.php:20 ../download/source.php:21
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
 
-#: ../download/source.php:26 ../download/source.php:27
-#: ../download/source.php:28
+#: ../download/source.php:27 ../download/source.php:28
+#: ../download/source.php:29
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr ""
@@ -695,7 +697,7 @@ msgstr ""
 msgid "Build against PostgreSQL 8.2 on Windows."
 msgstr ""
 
-#: ../download/source.php:23
+#: ../download/source.php:24
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -1812,7 +1814,7 @@ msgstr ""
 msgid "Integrate the EnterpriseDB pl/pgsql and EDB-SPL debugger with pgAdmin."
 msgstr ""
 
-#: ../index.php:14 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:18 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2314,7 +2316,7 @@ msgid ""
 "and %d) and keyboard shortcuts entries (&amp;)."
 msgstr ""
 
-#: ../index.php:12 ../news.php:12
+#: ../index.php:16 ../news.php:12
 msgid ""
 "Please visit the <a href=\"download\">download area</a> to get your copy "
 "now. Any questions or other support issues should be sent to <a href="
@@ -3025,7 +3027,7 @@ msgstr ""
 msgid "The configure options used (if compiled from source)"
 msgstr ""
 
-#: ../index.php:23
+#: ../index.php:27
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr ""
@@ -3376,7 +3378,7 @@ msgid ""
 "i>, etc."
 msgstr ""
 
-#: ../download/macosx.php:21
+#: ../download/macosx.php:22
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -3438,7 +3440,7 @@ msgid ""
 "please see the <a href=\"%s\">source code</a> build instructions."
 msgstr ""
 
-#: ../download/windows.php:24
+#: ../download/windows.php:25
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3451,7 +3453,7 @@ msgstr ""
 msgid "To install these packages, use a command such as:"
 msgstr ""
 
-#: ../download/opensuse.php:21
+#: ../download/opensuse.php:22
 msgid ""
 "To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
 "i> utilities."
@@ -3880,13 +3882,20 @@ msgid ""
 "  PostgreSQL 8.4+ and on EnterpriseDB, and <b>variadic functions</b>."
 msgstr ""
 
-#: ../index.php:12 ../news.php:12
+#: ../index.php:16 ../news.php:12
 msgid ""
 "pgAdmin 1.10.0 has now been released! Highlights of the new release include "
 "a graphical query builder, a scripting engine in the query tool and support "
 "for PostgreSQL 8.4 in addition to <a href=\"/development/changelog.php"
 "\">numerous other changes</a>. For a rundown of the key features, take a "
 "look at our <a href=\"/visualtour.php\">visual tour</a>."
+msgstr ""
+
+#: ../index.php:12
+msgid ""
+"pgAdmin 1.10.1 has now been released. Please see the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a> for details of the bug fixes in this release "
+"or visit the <a href=\"download\">download area</a> to get your copy now."
 msgstr ""
 
 #: ../translation/index.php:10
@@ -4037,7 +4046,7 @@ msgid ""
 "command line and graphical clients available."
 msgstr ""
 
-#: ../index.php:18
+#: ../index.php:22
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4051,7 +4060,7 @@ msgid ""
 "communicate with the database server."
 msgstr ""
 
-#: ../index.php:20
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4067,7 +4076,7 @@ msgid ""
 "need to change testing to unstable in the sources.list lines."
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:20
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "

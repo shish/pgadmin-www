@@ -1,7 +1,7 @@
 <?php
 //
 // Copyright pgAdmin Team 2003
-// Released under the BSD licence
+// Released under the PostgreSQL licence
 //
 
 class po_status {

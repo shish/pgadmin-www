@@ -9,11 +9,11 @@ $PAGE_CONTENT = '
 
 <p><i>' . sprintf(_("Last update: %s"), "2009-03-26") . '</i></p>
 
-<p>pgAdmin v1.10 and later versions are released under the <a href="#bsd">BSD 
+<p>pgAdmin v1.10 and later versions are released under the <a href="#postgresql">PostgreSQL 
 licence</a>. Earlier versions are released under the <a href="#artistic">Artistic 
 licence</a>.</p>
 
-<h2><a name="bsd">The BSD Licence</a></h2>
+<h2><a name="postgresql">The PostgreSQL Licence</a></h2>
 
 <p>pgAdmin</p>
 

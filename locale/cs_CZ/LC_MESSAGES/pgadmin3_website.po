@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-10 20:05+0100\n"
-"PO-Revision-Date: 2009-12-04 19:52+0100\n"
+"POT-Creation-Date: 2010-04-21 11:47+0200\n"
+"PO-Revision-Date: 2010-04-21 11:58+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: Czech <diskuze-request@lists.l10n.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,9 +14,14 @@ msgstr ""
 "X-Poedit-Country: CZECH REPUBLIC\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../index.php:10 ../index.php:14 ../news.php:10 ../news.php:14
-#: ../news.php:18 ../news.php:73 ../news.php:105 ../news.php:160
-#: ../news.php:264 ../news.php:301 ../news.php:328 ../news.php:356
+#: ../index.php:10
+#, php-format
+msgid "%s - pgAdmin demo video"
+msgstr "%s - ukázkové video pgAdmin"
+
+#: ../index.php:14 ../news.php:10 ../news.php:14 ../news.php:18 ../news.php:73
+#: ../news.php:105 ../news.php:160 ../news.php:264 ../news.php:301
+#: ../news.php:328 ../news.php:356
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - vydán pgAdmin v%s"
@@ -1962,6 +1967,18 @@ msgstr "Funkce"
 msgid "Fuzzy"
 msgstr "Odhadnuto"
 
+#: ../index.php:12
+msgid ""
+"Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
+"produced a <a href=\"http://www.enterprisedb.com/learning/videos/"
+"Create_Postgres_Database_pgAdmin.do\">video walkthrough</a> showing off some "
+"of the features in pgAdmin."
+msgstr ""
+"Gary ze společnosti <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</"
+"a> vytvořil <a href=\"http://www.enterprisedb.com/learning/videos/"
+"Create_Postgres_Database_pgAdmin.do\">průvodní video</a>, které ukazuje "
+"některé z funkcí aplikace pgAdmin."
+
 #: ../news.php:85
 msgid ""
 "Generate function signatures correctly if the first parameters are OUT only."
@@ -2111,7 +2128,7 @@ msgid ""
 "translation fix: download the language file (*.po extension), make the "
 "necessary corrections and send it back to us CC'd to the translator."
 msgstr ""
-"Pokud nejste autor/udržovatel překladu a přejete si poslat opravu překladu: "
+"Pokud nejste autor/správce překladu a přejete si poslat opravu překladu: "
 "stáhněte si jazykový soubor (přípona .po), proveďte potřebné opravy a "
 "zašlete jej nám zpět a v kopii autorovi překladu."
 
@@ -2128,7 +2145,7 @@ msgid ""
 "download the template file (*.pot extension), execute poEdit and use the "
 "'update from template' command. Translate the text and send us the *.po file."
 msgstr ""
-"Pokud jste udržovatel překladu a chcete svoji práci aktualizovat, tak si "
+"Pokud jste správce překladu a chcete svoji práci aktualizovat, tak si "
 "stáhněte soubor s šablonou (přípona .pot), spusťte poEdit a použijte příkaz "
 "„Aktualizovat z POT souboru...“. Přeložte text a pošlete nám *.po soubor."
 
@@ -2430,7 +2447,7 @@ msgstr "Poštovní konference"
 
 #: ../include/po_status.php:255
 msgid "Maintainer"
-msgstr "Udržovatel"
+msgstr "Správce"
 
 #: ../download/debian.php:10 ../download/freebsd.php:10
 #: ../download/macosx.php:10 ../download/opensuse.php:10
@@ -2439,7 +2456,7 @@ msgstr "Udržovatel"
 #: ../download/ubuntu.php:10 ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
-msgstr "Udržovatel: %s"
+msgstr "Správce: %s"
 
 #: ../news.php:172
 msgid "Major features"
@@ -3031,7 +3048,6 @@ msgid "Proceed to installation"
 msgstr "Postup instalace"
 
 #: ../advocacy/index.php:12
-#, fuzzy
 msgid ""
 "Promotion is essential for the life and development of the pgAdmin project. "
 "As the project gains more and more users it attracts additional developers "
@@ -3051,9 +3067,10 @@ msgstr ""
 "pgAdmin tak, aby přinášel užitek všem jeho uživatelům. Tím, že se projekt "
 "stával populárnějším, přitahoval mimo uživatelů i pozornost společností "
 "PostgreSQL. Některé z těchto společností do rozvoje pgAdmin investovaly - "
-"např. japonská společnost SKC sponzorovala vývoj správy Slony-I, mezitím co "
-"EnterpriseDB poskytla Apple Powerbook, aby se mohl vyvíjet a spravovat port "
-"pro Mac OSX."
+"např. japonská společnost <a href=\"http://www.skcapi.co.jp/\">SKC</a> "
+"sponzorovala vývoj správy Slony-I, mezitím co <a href=\"http://www."
+"enterprisedb.com\">EnterpriseDB</a> poskytla Apple Powerbook, aby se mohl "
+"vyvíjet a spravovat port pro Mac OSX."
 
 #: ../news.php:235
 msgid ""
@@ -4100,7 +4117,6 @@ msgid "The table properties dialogue"
 msgstr "Dialog vlastností tabulky"
 
 #: ../translation/status.php:47
-#, fuzzy
 msgid ""
 "The translations below are not considered complete enough for inclusion in "
 "current releases. Around 750 translated strings indicate v1.0 support, 1000 "
@@ -4117,7 +4133,7 @@ msgstr ""
 "nekompletní překlad v novější verzi pgAdmin, tak dostanete směs přeložených "
 "a nepřeložených dialogů (obvykle u méně používaných), ale všeobecně bude "
 "program použitelný. Pokud chcete v započaté práci pokračovat, tak neváhejte "
-"kontaktovat stávajícího udržovatele (a v kopii pgsql-hackers@postgresql.org)!"
+"kontaktovat stávajícího správce (a v kopii pgsql-hackers@postgresql.org)!"
 
 #: ../translation/status.php:31
 msgid ""
@@ -4919,7 +4935,7 @@ msgstr ""
 "PostgreSQL 8.4 a celé do doplňuje <a href=\"/development/changelog.php"
 "\">řada dalších změn</a>. "
 
-#: ../index.php:16 ../news.php:12
+#: ../news.php:12
 msgid ""
 "pgAdmin 1.10.1 has now been released. Please see the <a href=\"/development/"
 "changelog.php\">CHANGELOG</a> for details of the bug fixes in this release "
@@ -4930,14 +4946,13 @@ msgstr ""
 "opravených v tomto vydání nebo přejděte na stránku <a href=\"download"
 "\">Stáhnout</a>, kde můžete nové vydání najít."
 
-#: ../index.php:12
-#, fuzzy
+#: ../index.php:16
 msgid ""
 "pgAdmin 1.10.2 has now been released. Please see the <a href=\"/development/"
 "changelog.php\">CHANGELOG</a> for details of the bug fixes in this release "
 "or visit the <a href=\"download\">download area</a> to get your copy now."
 msgstr ""
-"Právě byl vydán pgAdmin 1.10.1. Podívejte se prosím na <a href=\"/"
+"Právě byl vydán pgAdmin 1.10.2. Podívejte se prosím na <a href=\"/"
 "development/changelog.php\">CHANGELOG</a> s podrobnostmi o chybách "
 "opravených v tomto vydání nebo přejděte na stránku <a href=\"download"
 "\">Stáhnout</a>, kde můžete nové vydání najít."
@@ -5100,7 +5115,7 @@ msgstr ""
 "výborný výkon."
 
 #: ../download/index.php:10
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "pgAdmin is a free software project released under the <a href=\"%s"
 "\">PostgreSQL/Artistic licence</a>. The software is available in source and "
@@ -5108,11 +5123,11 @@ msgid ""
 "compiling from source requires technical knowledge, we recommend installing "
 "binary packages whenever possible."
 msgstr ""
-"pgAdmin je svobodný software vydaný pod <a href=\"%s\">licencí BSD/Artistic</"
-"a>. Software je dostupný ve zdrojové i binární podobě ze <a href=\"%s\">sítě "
-"zrcadel PostgreSQL</a>. Jelikož kompilace ze zdrojových kódů vyžaduje jisté "
-"technické znalosti, raději vám doporučujeme, kdykoliv je to možné, "
-"instalovat binární balíčky."
+"pgAdmin je svobodný software vydaný pod licencí <a href=\"%s\">PostgreSQL/"
+"Artistic licence</a>. Software je dostupný ve zdrojové i binární podobě ze "
+"<a href=\"%s\">sítě zrcadel PostgreSQL</a>. Jelikož kompilace ze zdrojových "
+"kódů vyžaduje jisté technické znalosti, raději vám doporučujeme, kdykoliv je "
+"to možné, instalovat binární balíčky."
 
 #: ../contribute.php:10
 msgid ""
@@ -5171,7 +5186,7 @@ msgstr ""
 "přídavné ovladače."
 
 #: ../index.php:24
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
 "and is available in more than a dozen languages. It is Free Software "
@@ -5179,7 +5194,7 @@ msgid ""
 msgstr ""
 "pgAdmin je vyvíjen komunitou expertů na PostgreSQL z celého světa a je "
 "dostupný ve více jak tuctu jazyků. Jedná se o svobodný software vydaný pod "
-"licencí <a href=\"%s\">BSD License</a>."
+"licencí <a href=\"%s\">PostgreSQL License</a>."
 
 #: ../download/debian.php:59
 msgid ""

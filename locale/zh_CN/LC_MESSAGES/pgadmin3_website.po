@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-10 20:05+0100\n"
+"POT-Creation-Date: 2010-04-29 17:34+0200\n"
 "PO-Revision-Date: 2009-12-05 06:23+0800\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -18,9 +18,14 @@ msgstr ""
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: CHINA\n"
 
-#: ../index.php:10 ../index.php:14 ../news.php:10 ../news.php:14
-#: ../news.php:18 ../news.php:73 ../news.php:105 ../news.php:160
-#: ../news.php:264 ../news.php:301 ../news.php:328 ../news.php:356
+#: ../index.php:10
+#, fuzzy, php-format
+msgid "%s - pgAdmin demo video"
+msgstr "%s - pgAdmin%s版本发布"
+
+#: ../index.php:14 ../news.php:10 ../news.php:14 ../news.php:18 ../news.php:73
+#: ../news.php:105 ../news.php:160 ../news.php:264 ../news.php:301
+#: ../news.php:328 ../news.php:356
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin%s版本发布"
@@ -629,19 +634,6 @@ msgstr ""
 "当用户点击编辑表格选项对话框的OK按钮，确定把设定的过滤器/排序应用于当前数据"
 "时，总是刷新数据。"
 
-#: ../download/debian.php:42
-#, php-format
-msgid ""
-"An APT repository is provided to ease installation. Before you start "
-"installation, please choose a mirror from the list of <a href=\"%s"
-"\">PostgreSQL mirrors</a>. Click one of the\n"
-"flags, and copy the URL you are redirected to. On each mirror, the packages "
-"are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"
-msgstr ""
-"为了更方便的安装，提供一个APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜像"
-"</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像中，安装"
-"包放在：<i>[MIRROR URL]/pgadmin3/release/debian</i>"
-
 #: ../visualtour.php:92
 msgid ""
 "And last, the role contextual menu has one more item to add\n"
@@ -998,25 +990,24 @@ msgstr ""
 msgid "Debian"
 msgstr "Debian"
 
-#: ../download/debian.php:22
-msgid "Debian Etch (stable)"
+#: ../download/debian.php:14
+#, fuzzy
+msgid "Debian Etch (oldstable)"
 msgstr "Debian Etch（稳定版）"
 
-#: ../download/debian.php:40
-msgid "Debian Lenny (testing)"
+#: ../download/debian.php:18
+#, fuzzy
+msgid "Debian Lenny (stable)"
 msgstr "Debian Lenny（测试版）"
 
-#: ../download/debian.php:18
-msgid "Debian Sarge (oldstable)"
-msgstr "Debian Sarge（旧版本）"
-
-#: ../download/debian.php:57
+#: ../download/debian.php:26
 msgid "Debian Sid (unstable)"
 msgstr "Debian Sid（非正式版本）"
 
-#: ../download/debian.php:14
-msgid "Debian Woody"
-msgstr "Debian Woody"
+#: ../download/debian.php:22
+#, fuzzy
+msgid "Debian Squeeze (testing)"
+msgstr "Debian Lenny（测试版）"
 
 #: ../privacypolicy.php:18
 msgid "Demographic data"
@@ -1253,10 +1244,6 @@ msgstr "每个FTS对象可以由它自己的属性对话框处理。"
 #: ../visualtour.php:108
 msgid "Each objects' list now show the <b>owner of the object</b>:"
 msgstr "每一个对象列表现在都显示<b>对象属主</b>："
-
-#: ../download/debian.php:28 ../download/debian.php:45
-msgid "Edit /etc/apt/sources.list file and add the following line:"
-msgstr "编辑/etc/apt/sources.list文件追加如下行："
 
 #: ../visualtour.php:287
 msgid "Edit grid"
@@ -1670,10 +1657,6 @@ msgstr ""
 msgid "For example, for France and Gutsy Gibbon, you can try:"
 msgstr "例如，在法国和Gutsy Gibbon，可以试一下："
 
-#: ../download/debian.php:34 ../download/debian.php:51
-msgid "For example, for France, you can try:"
-msgstr "例如，在法国，你可以试一下："
-
 #: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:8
 #: ../screenshots/index.php:16
 msgid "FreeBSD"
@@ -1721,6 +1704,14 @@ msgstr "函数"
 #: ../include/po_status.php:258
 msgid "Fuzzy"
 msgstr "失真"
+
+#: ../index.php:12
+msgid ""
+"Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
+"produced a <a href=\"http://www.enterprisedb.com/learning/videos/"
+"Create_Postgres_Database_pgAdmin.do\">video walkthrough</a> showing off some "
+"of the features in pgAdmin."
+msgstr ""
 
 #: ../news.php:85
 msgid ""
@@ -1890,19 +1881,6 @@ msgstr ""
 "一个快捷Google搜索）并确认你的查询条件包含所有的相关错误信息。如果依然不能找"
 "到你需要的答案，请向<a href=\"%s\">pgadmin-support</a>邮件列表发送信息。"
 
-#: ../download/debian.php:26
-#, php-format
-msgid ""
-"If you need a more up to date version of pgAdmin, an APT repository is "
-"provided to ease installation. Before you start installation, please choose "
-"a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one "
-"of the flags, and copy the URL you are redirected to. On each mirror, the "
-"packages are located in: <i>/pgadmin3/release/debian</i>"
-msgstr ""
-"如果你需要比现在更新版本的pgAdmin，我们提供了方便安装的APT库。在安装之前，从"
-"<a href=\"%s\">PostgreSQL镜像</a>列表中选择一个镜像，点击某个国旗，拷贝重定向"
-"后的URL。在每一个镜像中，安装包放在：<i>/pgadmin3/release/debian</i>"
-
 #: ../contribute.php:14
 #, php-format
 msgid ""
@@ -1957,7 +1935,7 @@ msgstr ""
 "安装你正在使用的pgAdmin和数据库服务器相应的管理工具包。Windows版PostgreSQL安"
 "装包中已经包含管理工具包。"
 
-#: ../download/debian.php:61
+#: ../download/debian.php:30
 msgid "Installation"
 msgstr "安装"
 
@@ -2941,7 +2919,7 @@ msgstr "日常维护"
 msgid "Rules"
 msgstr "规则"
 
-#: ../download/debian.php:63
+#: ../download/debian.php:32
 msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr "在<i>root</i>用户下运行下边的命令安装pgAdmin III"
 
@@ -4137,10 +4115,6 @@ msgstr ""
 "存在记录的值，最后再设置非空制约。而现在，可以使用UI一次完成。\n"
 "你可以使用这样的语句："
 
-#: ../download/debian.php:16 ../download/debian.php:20
-msgid "We don't support this Debian version anymore."
-msgstr "我们不再支持这个Debian版本"
-
 #: ../privacypolicy.php:20
 msgid ""
 "We may collect demographic and interest category information from people via "
@@ -4313,6 +4287,17 @@ msgstr ""
 "骤，因为一些字符串在编辑的时候没有真实的上下文作参照，你只能自己在使用pgAdmin"
 "的时候校正它。"
 
+#: ../download/debian.php:16 ../download/debian.php:20
+#: ../download/debian.php:24 ../download/debian.php:28
+#, fuzzy, php-format
+msgid ""
+"pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can "
+"install pgAdmin just as you would do with any other Debian package (apt-get "
+"install pgadmin3)."
+msgstr ""
+"pgAdmin 1.4.3已经直接包含在Debian当中，可以在需要的时候像其他包一样去安装它"
+"（apt-get install pgadmin3）。"
+
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
 #: ../include/doc.php:33 ../include/doc.php:39
 #, php-format
@@ -4362,7 +4347,7 @@ msgstr ""
 "php\">大量其他修正</a>，看一下我们的<a href=\"/visualtour.php\">视觉教程</a>"
 "查看关键特性概览。"
 
-#: ../index.php:16 ../news.php:12
+#: ../news.php:12
 msgid ""
 "pgAdmin 1.10.1 has now been released. Please see the <a href=\"/development/"
 "changelog.php\">CHANGELOG</a> for details of the bug fixes in this release "
@@ -4372,7 +4357,7 @@ msgstr ""
 "日志</a>了解详细bug修正情况，访问<a href=\"download\">下载区</a>获得可用拷"
 "贝。"
 
-#: ../index.php:12
+#: ../index.php:16
 #, fuzzy
 msgid ""
 "pgAdmin 1.10.2 has now been released. Please see the <a href=\"/development/"
@@ -4403,15 +4388,6 @@ msgstr ""
 "语言的地域编号创建一个子目录，将新的翻译文件拷贝到这个新目录。另外需要编辑语"
 "言描述文件<a href=\"%s\">i18n/pgadmin3.lng</a>让新的翻译出现在语言选择下拉框"
 "中。"
-
-#: ../download/debian.php:24
-msgid ""
-"pgAdmin 1.4.3 is available directly from Debian. You can install pgAdmin "
-"just as you would do with any other Debian package (apt-get install "
-"pgadmin3)."
-msgstr ""
-"pgAdmin 1.4.3已经直接包含在Debian当中，可以在需要的时候像其他包一样去安装它"
-"（apt-get install pgadmin3）。"
 
 #: ../news.php:70 ../news.php:102 ../news.php:157 ../news.php:298
 #: ../news.php:325 ../news.php:353 ../news.php:420
@@ -4598,17 +4574,6 @@ msgstr ""
 "pgAdmin由世界范围的PostgreSQL专家团体开发，可以支持多种语言，是一个基于<a "
 "href=\"%s\">BSD协议</a>的自由软件。"
 
-#: ../download/debian.php:59
-msgid ""
-"pgAdmin is published on the official Debian Unstable repository. However, "
-"from time to time unstable may become broken, you can try to check for "
-"packages from our mirrors as described above for Debian/testing. You only "
-"need to change testing to unstable in the sources.list lines."
-msgstr ""
-"pgAdmin发布在Debian的官方非正式版中，然而有时非正式版会变得不可用，可以尝试查"
-"看我们在上边提及的Debian/testing镜像包，仅仅需要将sources.list文件中的testing"
-"改为unstable。"
-
 #: ../index.php:20
 #, php-format
 msgid ""
@@ -4627,11 +4592,11 @@ msgstr ""
 "a> 和 <a href=\"%s\">Greenplum database</a>。"
 
 #: ../download/debian.php:12
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "pgAdmin packages are available for <a href=\"%s\">Debian</a> stable, testing "
 "and unstable distributions. These packages are also well-suited for <a href="
-"\"%s\">Knoppix</a> and other Debian based distributions"
+"\"%s\">Ubuntu</a> and other Debian based distributions"
 msgstr ""
 "pgAdmin包可以用在<a href=\"%s\">Debian</a>的正式和非正式以及测试版本中，也可"
 "以便利地用在<a href=\"%s\">Knoppix</a>和其他基于Debian的分发中。"
@@ -4948,6 +4913,53 @@ msgid ""
 msgstr ""
 "1.8.4版本主要用来进行bug修正，包括如下更新。注意因为在最后时刻发现问题，1.8.3"
 "从来没有作为正式版本发布过。"
+
+#~ msgid ""
+#~ "An APT repository is provided to ease installation. Before you start "
+#~ "installation, please choose a mirror from the list of <a href=\"%s"
+#~ "\">PostgreSQL mirrors</a>. Click one of the\n"
+#~ "flags, and copy the URL you are redirected to. On each mirror, the "
+#~ "packages are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"
+#~ msgstr ""
+#~ "为了更方便的安装，提供一个APT库。在安装之前，从<a href=\"%s\">PostgreSQL镜"
+#~ "像</a>列表中选择一个镜像，点击某个旗帜，拷贝重定向后的URL。在每一个镜像"
+#~ "中，安装包放在：<i>[MIRROR URL]/pgadmin3/release/debian</i>"
+
+#~ msgid "Debian Sarge (oldstable)"
+#~ msgstr "Debian Sarge（旧版本）"
+
+#~ msgid "Debian Woody"
+#~ msgstr "Debian Woody"
+
+#~ msgid "Edit /etc/apt/sources.list file and add the following line:"
+#~ msgstr "编辑/etc/apt/sources.list文件追加如下行："
+
+#~ msgid "For example, for France, you can try:"
+#~ msgstr "例如，在法国，你可以试一下："
+
+#~ msgid ""
+#~ "If you need a more up to date version of pgAdmin, an APT repository is "
+#~ "provided to ease installation. Before you start installation, please "
+#~ "choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. "
+#~ "Click one of the flags, and copy the URL you are redirected to. On each "
+#~ "mirror, the packages are located in: <i>/pgadmin3/release/debian</i>"
+#~ msgstr ""
+#~ "如果你需要比现在更新版本的pgAdmin，我们提供了方便安装的APT库。在安装之前，"
+#~ "从<a href=\"%s\">PostgreSQL镜像</a>列表中选择一个镜像，点击某个国旗，拷贝"
+#~ "重定向后的URL。在每一个镜像中，安装包放在：<i>/pgadmin3/release/debian</i>"
+
+#~ msgid "We don't support this Debian version anymore."
+#~ msgstr "我们不再支持这个Debian版本"
+
+#~ msgid ""
+#~ "pgAdmin is published on the official Debian Unstable repository. However, "
+#~ "from time to time unstable may become broken, you can try to check for "
+#~ "packages from our mirrors as described above for Debian/testing. You only "
+#~ "need to change testing to unstable in the sources.list lines."
+#~ msgstr ""
+#~ "pgAdmin发布在Debian的官方非正式版中，然而有时非正式版会变得不可用，可以尝"
+#~ "试查看我们在上边提及的Debian/testing镜像包，仅仅需要将sources.list文件中的"
+#~ "testing改为unstable。"
 
 #~ msgid "Beta %s"
 #~ msgstr "Beta %s"

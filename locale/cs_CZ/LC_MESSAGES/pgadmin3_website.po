@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-21 11:47+0200\n"
+"POT-Creation-Date: 2010-04-29 17:34+0200\n"
 "PO-Revision-Date: 2010-04-21 11:58+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -708,22 +708,6 @@ msgstr ""
 "Po odkliknutí OK uživatelem v dialogu voleb editační mřížky se vždy "
 "občerství data, aby se zajistilo použití filtru/řazení v aktuálních datech."
 
-#: ../download/debian.php:42
-#, php-format
-msgid ""
-"An APT repository is provided to ease installation. Before you start "
-"installation, please choose a mirror from the list of <a href=\"%s"
-"\">PostgreSQL mirrors</a>. Click one of the\n"
-"flags, and copy the URL you are redirected to. On each mirror, the packages "
-"are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"
-msgstr ""
-"Pro snadnou instalaci poskytujeme repozitář APT. Než začnete instalovat, "
-"zvolte si prosím zrcadlo ze seznamu <a href=\"%s\">zrcadel PostgreSQL</a>. "
-"Klikněte na \n"
-"příslušnou vlaječku a zkopírujte si URL, na které vás to přesměruje. Na "
-"každém z těchto zrcadel se balíček nachází v: <i>[MIRROR URL]/pgadmin3/"
-"release/debian</i>"
-
 #: ../visualtour.php:92
 msgid ""
 "And last, the role contextual menu has one more item to add\n"
@@ -1126,25 +1110,24 @@ msgstr ""
 msgid "Debian"
 msgstr "Debian"
 
-#: ../download/debian.php:22
-msgid "Debian Etch (stable)"
+#: ../download/debian.php:14
+#, fuzzy
+msgid "Debian Etch (oldstable)"
 msgstr "Debian Etch (stable)"
 
-#: ../download/debian.php:40
-msgid "Debian Lenny (testing)"
+#: ../download/debian.php:18
+#, fuzzy
+msgid "Debian Lenny (stable)"
 msgstr "Debian Lenny (testing)"
 
-#: ../download/debian.php:18
-msgid "Debian Sarge (oldstable)"
-msgstr "Debian Sarge (oldstable)"
-
-#: ../download/debian.php:57
+#: ../download/debian.php:26
 msgid "Debian Sid (unstable)"
 msgstr "Debian Sid (unstable)"
 
-#: ../download/debian.php:14
-msgid "Debian Woody"
-msgstr "Debian Woody"
+#: ../download/debian.php:22
+#, fuzzy
+msgid "Debian Squeeze (testing)"
+msgstr "Debian Lenny (testing)"
 
 #: ../privacypolicy.php:18
 msgid "Demographic data"
@@ -1414,10 +1397,6 @@ msgstr "Každý typ objektu FTS má svůj vlastní dialog vlastností."
 #: ../visualtour.php:108
 msgid "Each objects' list now show the <b>owner of the object</b>:"
 msgstr "Ve všech seznamech objektů se zobrazuje <b>vlastník objektu</b>:"
-
-#: ../download/debian.php:28 ../download/debian.php:45
-msgid "Edit /etc/apt/sources.list file and add the following line:"
-msgstr "Do souboru /etc/apt/sources.list přidejte následující řádek:"
 
 #: ../visualtour.php:287
 msgid "Edit grid"
@@ -1912,10 +1891,6 @@ msgstr ""
 msgid "For example, for France and Gutsy Gibbon, you can try:"
 msgstr "Např. pro Francii a Gutsy Gibbon můžete zkusit:"
 
-#: ../download/debian.php:34 ../download/debian.php:51
-msgid "For example, for France, you can try:"
-msgstr "Např. pro Francii můžete zkusit:"
-
 #: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:8
 #: ../screenshots/index.php:16
 msgid "FreeBSD"
@@ -2170,21 +2145,6 @@ msgstr ""
 "zašlete prosím zprávu do poštovní konference <a href=\"%s\">pgadmin-support</"
 "a>."
 
-#: ../download/debian.php:26
-#, php-format
-msgid ""
-"If you need a more up to date version of pgAdmin, an APT repository is "
-"provided to ease installation. Before you start installation, please choose "
-"a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. Click one "
-"of the flags, and copy the URL you are redirected to. On each mirror, the "
-"packages are located in: <i>/pgadmin3/release/debian</i>"
-msgstr ""
-"Pokud potřebujete novější verzi pgAdmin, tak poskytujeme pro snadnou "
-"instalaci repozitář APT. Než s instalací začnete, zvolte si prosím zrcadlo "
-"ze seznamu <a href=\"%s\">zrcadel PostgreSQL</a>. Klikněte na správnou "
-"vlaječku a zkopírujte si URL, na které vás to nasměruje. Na všech z těchto "
-"zrcadel se balíček nachází v: <i>/pgadmin3/release/debian</i>"
-
 #: ../contribute.php:14
 #, php-format
 msgid ""
@@ -2244,7 +2204,7 @@ msgstr ""
 "serveru, na kterém běžíte. pgInstaller distribuce PostgreSQL pro Windows už "
 "admin pack přímo obsahuje."
 
-#: ../download/debian.php:61
+#: ../download/debian.php:30
 msgid "Installation"
 msgstr "Instalace"
 
@@ -3342,7 +3302,7 @@ msgstr "Běžná údržba"
 msgid "Rules"
 msgstr "Pravidla"
 
-#: ../download/debian.php:63
+#: ../download/debian.php:32
 msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 "Pro nainstalování pgAdmin III spusťtě jako uživatel <i>root</i> následující "
@@ -4681,10 +4641,6 @@ msgstr ""
 " hodnotu každého existujícího řádku a teprve potom přidat omezení NOT NULL.\n"
 " Nyní k tomu můžete použít grafické rozhraní. Dostanete tento dotaz:"
 
-#: ../download/debian.php:16 ../download/debian.php:20
-msgid "We don't support this Debian version anymore."
-msgstr "Tuto verzi Debianu již nadále nepodporujeme."
-
 #: ../privacypolicy.php:20
 msgid ""
 "We may collect demographic and interest category information from people via "
@@ -4881,6 +4837,17 @@ msgstr ""
 "v editoru, nevidíte řetězce v patřičném kontextu. Nesprávné překlady si "
 "opravte."
 
+#: ../download/debian.php:16 ../download/debian.php:20
+#: ../download/debian.php:24 ../download/debian.php:28
+#, fuzzy, php-format
+msgid ""
+"pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can "
+"install pgAdmin just as you would do with any other Debian package (apt-get "
+"install pgadmin3)."
+msgstr ""
+"pgAdmin 1.4.3 je dostupný přímo v Debianu. Můžete jej nainstalovat stejně "
+"snadno, jako kterýkoliv jiný balíček Debianu (apt-get install pgadmin3)."
+
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
 #: ../include/doc.php:33 ../include/doc.php:39
 #, php-format
@@ -4980,15 +4947,6 @@ msgstr ""
 "a nakopírujte do ní soubor s překladem. Možná bude ještě zapotřebí "
 "aktualizovat soubor s popisem jazyků <a href=\"%s\">i18n/pgadmin3.lng</a>, "
 "aby se překlad objevil ve výběrovém seznamu s jazyky."
-
-#: ../download/debian.php:24
-msgid ""
-"pgAdmin 1.4.3 is available directly from Debian. You can install pgAdmin "
-"just as you would do with any other Debian package (apt-get install "
-"pgadmin3)."
-msgstr ""
-"pgAdmin 1.4.3 je dostupný přímo v Debianu. Můžete jej nainstalovat stejně "
-"snadno, jako kterýkoliv jiný balíček Debianu (apt-get install pgadmin3)."
 
 #: ../news.php:70 ../news.php:102 ../news.php:157 ../news.php:298
 #: ../news.php:325 ../news.php:353 ../news.php:420
@@ -5196,18 +5154,6 @@ msgstr ""
 "dostupný ve více jak tuctu jazyků. Jedná se o svobodný software vydaný pod "
 "licencí <a href=\"%s\">PostgreSQL License</a>."
 
-#: ../download/debian.php:59
-msgid ""
-"pgAdmin is published on the official Debian Unstable repository. However, "
-"from time to time unstable may become broken, you can try to check for "
-"packages from our mirrors as described above for Debian/testing. You only "
-"need to change testing to unstable in the sources.list lines."
-msgstr ""
-"pgAdmin je zveřejněný v oficiálním repozitáři Debian Unstable. Protože "
-"unstable bývá čas od času porušený, můžete zkusit stahovat balíčky z našich "
-"zrcadel, tak jak je uvedené výše pro Debian Testing. Stačí akorát v sources."
-"list příslušné řádky změnit z „testing“ na „unstable“."
-
 #: ../index.php:20
 #, php-format
 msgid ""
@@ -5228,11 +5174,11 @@ msgstr ""
 "href=\"%s\">Greenplum database</a>."
 
 #: ../download/debian.php:12
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "pgAdmin packages are available for <a href=\"%s\">Debian</a> stable, testing "
 "and unstable distributions. These packages are also well-suited for <a href="
-"\"%s\">Knoppix</a> and other Debian based distributions"
+"\"%s\">Ubuntu</a> and other Debian based distributions"
 msgstr ""
 "Balíčky pgAdmin jsou dostupné pro distribuce <a href=\"%s\">Debian</a> "
 "stable, testing and unstable. Tyto balíčky jsou rovněž vhodné pro <a href=\"%"
@@ -5564,6 +5510,60 @@ msgstr ""
 "v1.8.4 je vydání zaměřené na opravu chyb, včetně následujících změn. "
 "Upozorňujeme, že v1.8.3 nikdy nebyla prohlášena za vydání, protože na "
 "poslední chvíli byly nalezeny problémy."
+
+#~ msgid ""
+#~ "An APT repository is provided to ease installation. Before you start "
+#~ "installation, please choose a mirror from the list of <a href=\"%s"
+#~ "\">PostgreSQL mirrors</a>. Click one of the\n"
+#~ "flags, and copy the URL you are redirected to. On each mirror, the "
+#~ "packages are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"
+#~ msgstr ""
+#~ "Pro snadnou instalaci poskytujeme repozitář APT. Než začnete instalovat, "
+#~ "zvolte si prosím zrcadlo ze seznamu <a href=\"%s\">zrcadel PostgreSQL</"
+#~ "a>. Klikněte na \n"
+#~ "příslušnou vlaječku a zkopírujte si URL, na které vás to přesměruje. Na "
+#~ "každém z těchto zrcadel se balíček nachází v: <i>[MIRROR URL]/pgadmin3/"
+#~ "release/debian</i>"
+
+#~ msgid "Debian Sarge (oldstable)"
+#~ msgstr "Debian Sarge (oldstable)"
+
+#~ msgid "Debian Woody"
+#~ msgstr "Debian Woody"
+
+#~ msgid "Edit /etc/apt/sources.list file and add the following line:"
+#~ msgstr "Do souboru /etc/apt/sources.list přidejte následující řádek:"
+
+#~ msgid "For example, for France, you can try:"
+#~ msgstr "Např. pro Francii můžete zkusit:"
+
+#~ msgid ""
+#~ "If you need a more up to date version of pgAdmin, an APT repository is "
+#~ "provided to ease installation. Before you start installation, please "
+#~ "choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. "
+#~ "Click one of the flags, and copy the URL you are redirected to. On each "
+#~ "mirror, the packages are located in: <i>/pgadmin3/release/debian</i>"
+#~ msgstr ""
+#~ "Pokud potřebujete novější verzi pgAdmin, tak poskytujeme pro snadnou "
+#~ "instalaci repozitář APT. Než s instalací začnete, zvolte si prosím "
+#~ "zrcadlo ze seznamu <a href=\"%s\">zrcadel PostgreSQL</a>. Klikněte na "
+#~ "správnou vlaječku a zkopírujte si URL, na které vás to nasměruje. Na "
+#~ "všech z těchto zrcadel se balíček nachází v: <i>/pgadmin3/release/debian</"
+#~ "i>"
+
+#~ msgid "We don't support this Debian version anymore."
+#~ msgstr "Tuto verzi Debianu již nadále nepodporujeme."
+
+#~ msgid ""
+#~ "pgAdmin is published on the official Debian Unstable repository. However, "
+#~ "from time to time unstable may become broken, you can try to check for "
+#~ "packages from our mirrors as described above for Debian/testing. You only "
+#~ "need to change testing to unstable in the sources.list lines."
+#~ msgstr ""
+#~ "pgAdmin je zveřejněný v oficiálním repozitáři Debian Unstable. Protože "
+#~ "unstable bývá čas od času porušený, můžete zkusit stahovat balíčky z "
+#~ "našich zrcadel, tak jak je uvedené výše pro Debian Testing. Stačí akorát "
+#~ "v sources.list příslušné řádky změnit z „testing“ na „unstable“."
 
 #~ msgid "Beta %s"
 #~ msgstr "Betaverze %s"

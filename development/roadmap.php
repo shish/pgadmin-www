@@ -7,44 +7,44 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Roadmap") . '</h1>
 
-<p>' . sprintf(_("This roadmap outlines the work that is hoped will be done in the %s development cycle for release in version %s of pgAdmin."), "1.9", "1.10") . '</p>
+<p>' . sprintf(_("This roadmap outlines the work that is hoped will be done in the %s development cycle for release in version %s of pgAdmin."), "1.13", "1.14") . '</p>
 
 <ul>
-  <li>' . _("PostgreSQL 8.4 compatibility (these items are subject to change)") . '<br />&nbsp;
+  <li>' . _("PostgreSQL compatibility") . '<br />&nbsp;
     <ul>
-      <li><s>' . _("TRUNCATE trigger support") . '</s><br />&nbsp;</li>
-      <li><s>' . _("Add support for variadic functions") . '</s><br />&nbsp;</li>
-      <li>' . _("To be determined...") . '<br />&nbsp;</li>
+      <li>' . _("Complete 9.1 support") . '<br />&nbsp;</li>
+      <li>' . _("Finish 9.0 support with exclusion constraints") . '<br />&nbsp;</li>
+      <li>' . _("Finish 8.4 support with SQL/Med objects") . '<br />&nbsp;</li>
     </ul>
   </li>
 
   <li>' . _("Code housekeeping") . '<br />&nbsp;
     <ul>
       <li>' . _("Check for and remove any custom controls that are now implemented in wxWidgets.") . '<br />&nbsp;</li>
-      <li><s>' . _("Move pgAgent into a standalone package that can be released on it's own schedule.") . '</s><br />&nbsp;</li>
-    </ul>
-  </li>
-
-  <li>' . _("Build system") . '<br />&nbsp;
-    <ul>
-      <li>' . _("Consider cross-platform build systems such as cmake to generate the build system for all platforms") . '<br />&nbsp;</li>
+      <li>' . _("Check for the use of wxWidgets 2.9/3.0.") . '<br />&nbsp;</li>
     </ul>
   </li>
 
   <li>' . _("Functionality") . '<br />&nbsp;
     <ul>
-      <li><s>' . _("Add DROP/REASSIGN OWNED support. [GL]") . '</s><br />&nbsp;</li>
-      <li>' . _("Logfile tab on server status window : multiple columns and filtering. [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Better i18n support [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Show/hide columns in frmStatus's reports [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Filter rows in frmStatus's reports [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Logfile: columns according to log_line_prefix, filename according to log_filename, etc. in frmStatus [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Custom reports in frmStatus [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Graphs in frmStatus [GL]") . '<br />&nbsp;</li>
       <li>' . _("Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [DP]") . '<br />&nbsp;</li>
-      <li><s>' . _("Support for integrated tsearch configuration in PG 8.3+ [GL]") . '</s><br />&nbsp;</li>
       <li>' . _("Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
       <li>' . _("pgsql-performance report tool for problematic queries (requires XML EXPLAIN in PG 8.4) [DP]") . '<br />&nbsp;</li>
-      <li><s>' . _("Overhaul settings management. Save settings on the fly rather than at exit. Take default values from an external file [DP]") . '</s><br />&nbsp;</li>
       <li>' . _("Add a dialog to allow the user to set a global breakpoint in a specific backend process [DP]") . '<br />&nbsp;</li>
-      <li><s>' . _("Add a hotkey to comment or un-comment the selected lines in the query tool [DP]") . '</s><br />&nbsp;</li>
-      <li><s>' . _("Add a hotkey to indent or outdent the selected lines in the query tool [DP]") . '</s><br />&nbsp;</li>
-      <li><s>' . _("Add support for the -c (clean) pg_restore option [DP]") . '</s><br />&nbsp;</li>
-      <li>' . _("Add printing support to the query tool (and other styled text controls?) [DP]") . '<br />&nbsp;</li>
+      <li>' . _("Add printing support to the query tool (and other styled text controls?) [DP/AV]") . '<br />&nbsp;</li>
+    </ul>
+  </li>
+
+  <li>' . _("GSoC") . '<br />&nbsp;
+    <ul>
+      <li>' . _("Database designer for pgAdmin, by Luis Ochoa") . '<br />&nbsp;</li>
+      <li>' . _("Database schema difference visualizer, by Adeel Khan") . '<br />&nbsp;</li>
     </ul>
   </li>
 

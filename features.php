@@ -35,7 +35,7 @@ $PAGE_CONTENT = '
 
 <h2>' . _("Multilingual interface") . '</h2>
 <ul>
-  <li>' . sprintf(_("Over a dozen supported translations and over 25 partial translations. A detailed list of supported languages is available on the <a href=\"%s\">translation status</a> page."), "translation/status.php") . '</li>
+  <li>' . sprintf(_("Over 20 supported translations. A detailed list of supported languages is available on the <a href=\"%s\">translation status</a> page."), "translation/status.php") . '</li>
 </ul>
 
 <h2>' . _("Data access") . '</h2>
@@ -65,12 +65,20 @@ $PAGE_CONTENT = '
   <li>' . _("Conversions") . '</li>
   <li>' . _("Databases") . '</li>
   <li>' . _("Domains") . '</li>
+  <li>' . _("FTS configurations") . '</li>
+  <li>' . _("FTS dictionaries") . '</li>
+  <li>' . _("FTS parsers") . '</li>
+  <li>' . _("FTS templates") . '</li>
   <li>' . _("Functions") . '</li>
+  <li>' . _("Greenplum objects (such as external tables, ressource queues)") . '</li>
   <li>' . _("Groups") . '</li>
   <li>' . _("Indexes") . '</li>
+  <li>' . _("Languages") . '</li>
   <li>' . _("Operator classes") . '</li>
+  <li>' . _("Operator families") . '</li>
   <li>' . _("Operators") . '</li>
   <li>' . _("PostgreSQL servers") . '</li>
+  <li>' . _("Postgres Plus Advanced Server objects (such as packages, procedures, synonyms)") . '</li>
   <li>' . _("Roles") . '</li>
   <li>' . _("Rules") . '</li>
   <li>' . _("Schemas") . '</li>

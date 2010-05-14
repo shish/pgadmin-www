@@ -7,6 +7,10 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2010-03-10", "1.10.2") . '</h2>
+
+<p>' . sprintf(_("pgAdmin %s has now been released. Please see the <a href=\"/development/changelog.php\">CHANGELOG</a> for details of the bug fixes in this release or visit the <a href=\"download\">download area</a> to get your copy now."), "1.10.2") . '</p>
+
 <h2>' . sprintf(_("%s - pgAdmin v%s released"), "2009-12-04", "1.10.1") . '</h2>
 
 <p>' . _("pgAdmin 1.10.1 has now been released. Please see the <a href=\"/development/changelog.php\">CHANGELOG</a> for details of the bug fixes in this release or visit the <a href=\"download\">download area</a> to get your copy now.") . '</p>

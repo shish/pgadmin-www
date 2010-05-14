@@ -7,13 +7,15 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2010-05-14", "1.10.3") . '</h2>
+
+<p>' . sprintf(_("pgAdmin %s has now been released. This release is primarily a bug fix release. Please see the <a href=\"/development/changelog.php\">CHANGELOG</a> for details of the bug fixes in this release or visit the <a href=\"download\">download area</a> to get your copy now."), "1.10.3") . '</p>
+
+<p>' . sprintf(_("You can also find all the fixed bugs in this <a href=\"http://code.pgadmin.org/trac/query?status=closed&group=resolution&milestone=%s\">%s bugfix list</a>."), "1.10.3", "1.10.3") . '</p>
+
 <h2>' . sprintf(_("%s - pgAdmin demo video"), "2010-04-09") . '</h2>
 
 <p>' . _("Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has produced a <a href=\"http://www.enterprisedb.com/learning/videos/Create_Postgres_Database_pgAdmin.do\">video walkthrough</a> showing off some of the features in pgAdmin.") . '</p>
-
-<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2010-03-10", "1.10.2") . '</h2>
-
-<p>' . _("pgAdmin 1.10.2 has now been released. Please see the <a href=\"/development/changelog.php\">CHANGELOG</a> for details of the bug fixes in this release or visit the <a href=\"download\">download area</a> to get your copy now.") . '</p>
 
 <h1>' . _("Introduction") . '</h1>
 

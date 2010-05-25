@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-14 17:00+0200\n"
-"PO-Revision-Date: 2010-05-13 22:50+0200\n"
+"PO-Revision-Date: 2010-05-22 19:18+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -5340,6 +5340,9 @@ msgid ""
 "org/trac/query?status=closed&group=resolution&milestone=%s\">%s bugfix list</"
 "a>."
 msgstr ""
+"Všechny opravené chyby můžete také najít v <a href=\"http://code.pgadmin.org/"
+"trac/query?status=closed&group=resolution&milestone=%s\">seznamu opravených "
+"chyb pro verzi %s</a>."
 
 #: ../translation/howto.php:51
 msgid ""
@@ -5393,29 +5396,29 @@ msgid "You'll also see the last time a superuser reloaded the configuration."
 msgstr "Rovněž uvidíte, kdy uživatel naposledy načetl nastavení."
 
 #: ../news.php:12
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "pgAdmin %s has now been released. Please see the <a href=\"/development/"
 "changelog.php\">CHANGELOG</a> for details of the bug fixes in this release "
 "or visit the <a href=\"download\">download area</a> to get your copy now."
 msgstr ""
-"Právě byl vydán pgAdmin 1.10.1. Podívejte se prosím na <a href=\"/"
-"development/changelog.php\">CHANGELOG</a> s podrobnostmi o chybách "
-"opravených v tomto vydání nebo přejděte na stránku <a href=\"download"
-"\">Stáhnout</a>, kde můžete nové vydání najít."
+"Právě byl vydán pgAdmin %s. Podívejte se prosím na <a href=\"/development/"
+"changelog.php\">CHANGELOG</a> s podrobnostmi o chybách opravených v tomto "
+"vydání nebo přejděte na stránku <a href=\"download\">Stáhnout</a>, kde "
+"můžete nové vydání najít."
 
 #: ../index.php:12
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is primarily a bug fix "
 "release. Please see the <a href=\"/development/changelog.php\">CHANGELOG</a> "
 "for details of the bug fixes in this release or visit the <a href=\"download"
 "\">download area</a> to get your copy now."
 msgstr ""
-"Právě byl vydán pgAdmin 1.10.1. Podívejte se prosím na <a href=\"/"
-"development/changelog.php\">CHANGELOG</a> s podrobnostmi o chybách "
-"opravených v tomto vydání nebo přejděte na stránku <a href=\"download"
-"\">Stáhnout</a>, kde můžete nové vydání najít."
+"Právě byl vydán pgAdmin %s. Toto vydání slouží především k opravě chyb. "
+"Podívejte se prosím na <a href=\"/development/changelog.php\">CHANGELOG</a> "
+"s podrobnostmi o chybách opravených v tomto vydání nebo přejděte na stránku "
+"<a href=\"download\">Stáhnout</a>, kde můžete nové vydání najít."
 
 #: ../download/debian.php:16 ../download/debian.php:20
 #: ../download/debian.php:24 ../download/debian.php:28

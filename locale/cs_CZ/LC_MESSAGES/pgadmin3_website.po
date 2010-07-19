@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-14 17:00+0200\n"
+"POT-Creation-Date: 2010-07-19 21:02+0200\n"
 "PO-Revision-Date: 2010-05-22 19:18+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -2062,6 +2062,16 @@ msgstr "Funkce"
 msgid "Fuzzy"
 msgstr "Odhadnuto"
 
+#: ../development/menu.php:7
+#, fuzzy
+msgid "GIT access"
+msgstr "Přístup přes SVN"
+
+#: ../development/menu.php:8
+#, fuzzy
+msgid "GIT browser"
+msgstr "Procházení přes SVN"
+
 #: ../development/roadmap.php:44
 msgid "GSoC"
 msgstr "Google Summer of Code"
@@ -3616,13 +3626,9 @@ msgstr "Agent na plánování úkolů (SQL, shell, dávky)"
 msgid "SQL_ASCII"
 msgstr "SQL_ASCII"
 
-#: ../development/menu.php:7 ../development/svn.php:8
+#: ../development/git.php:8
 msgid "SVN access"
 msgstr "Přístup přes SVN"
-
-#: ../development/menu.php:8
-msgid "SVN browser"
-msgstr "Procházení přes SVN"
 
 #: ../visualtour.php:339
 msgid ""
@@ -4282,11 +4288,11 @@ msgstr ""
 "rozšíření funkcionality vašich serverů."
 
 #: ../development/index.php:12
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "The pages in this section of the website should provide you with all the "
 "information you need to get started as a new developer, including <a href=\"%"
-"s\">SVN access</a>, the developers <a href=\"%s\">mailing list</a>, the  <a "
+"s\">GIT access</a>, the developers <a href=\"%s\">mailing list</a>, the  <a "
 "href=\"%s\">Development Team</a> structure, the  <a href=\"%s\">TODO list</"
 "a> and the  <a href=\"%s\">change log</a>."
 msgstr ""
@@ -4791,7 +4797,7 @@ msgstr ""
 "<i>i18n/pgadmin3.lng</i>, který je rovněž dostupný na stránce <a href=\"%s"
 "\">stav překladu</a>."
 
-#: ../development/svn.php:12
+#: ../development/git.php:12
 #, php-format
 msgid ""
 "To checkout the source from the command line and get started, you might use "
@@ -5724,16 +5730,14 @@ msgstr ""
 msgid "pgAdmin is available for Windows &trade; 2000 and above."
 msgstr "pgAdmin je dostupný pro Windows &trade; 2000 a novější."
 
-#: ../development/svn.php:10
-#, php-format
+#: ../development/git.php:10
+#, fuzzy, php-format
 msgid ""
 "pgAdmin is available subject to the terms of the <a href=\"%s\">licence</a>. "
-"pgAdmin is developed using a Subversion or SVN repository to hold the source "
+"pgAdmin is developed using a number of GIT repositories to hold the source "
 "code. Access to the repository is available through a <a href=\"%s\">web "
-"interface</a> or using your favourite SVN client. Anonymous read access is "
-"available using an SVN client. Under Windows, we recommend using <a href=\"%s"
-"\">TortoiseSVN</a>, which is free software. Under Linux, there are several "
-"command line and graphical clients available."
+"interface</a> or using your favourite GIT client. Under Windows, we "
+"recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 "pgAdmin je dostupný při dodržení podmínek <a href=\"%s\">licence</a>. Při "
 "vývoji pgAdmin III se na uchování zdrojového kódu používá Subversion nebo "
@@ -5880,6 +5884,11 @@ msgstr "pgAdmin: Vývoj - Seznam změn"
 msgid "pgAdmin: Development - Development team"
 msgstr "pgAdmin: Vývoj - Vývojářský tým"
 
+#: ../development/git.php:5
+#, fuzzy
+msgid "pgAdmin: Development - GIT access"
+msgstr "pgAdmin: Vývoj - Přístup přes SVN"
+
 #: ../development/index.php:5
 msgid "pgAdmin: Development - Introduction"
 msgstr "pgAdmin: Vývoj - Úvod"
@@ -5891,10 +5900,6 @@ msgstr "pgAdmin: Vývoj - Poštovní konference"
 #: ../development/roadmap.php:5
 msgid "pgAdmin: Development - Roadmap"
 msgstr "pgAdmin: Vývoj - Plán"
-
-#: ../development/svn.php:5
-msgid "pgAdmin: Development - SVN access"
-msgstr "pgAdmin: Vývoj - Přístup přes SVN"
 
 #: ../development/todo.php:5
 msgid "pgAdmin: Development - TODO list"

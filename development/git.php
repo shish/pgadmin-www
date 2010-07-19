@@ -12,7 +12,7 @@ $PAGE_CONTENT = '
 <p>' . sprintf(_("To checkout the source from the command line and get started, you might use commands such as shown below on a Linux or Unix system. For further details, please see the <a href=\"%s\">source code</a> build instructions."), "../download/source.php") . '</p>
 
 <div class="pgaCode">
-git clone http://git.postgresql.org/git/pgadmin3.git<br />
+git clone git://git.postgresql.org/git/pgadmin3.git<br />
 cd pgadmin3<br />
 bash bootstrap<br />
 ./configure<br />

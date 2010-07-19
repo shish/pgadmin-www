@@ -12,7 +12,7 @@
 #######################################################################
 
 cd ..
-svn update
+git pull
 cd locale
 if test -f pgadmin3_website.pot; then
 
@@ -23,8 +23,9 @@ if test -f pgadmin3_website.pot; then
     msgmerge --update pgadmin3_website.po ../../pgadmin3_website.pot
     echo "Compiling pgadmin3.mo"
     msgfmt -o pgadmin3_website.mo pgadmin3_website.po
+    git add pgadmin3_website.mo pgadmin3_website.po
     cd ../..
   done
   echo "Committing changes to SVN."
-  svn commit -m "Automatic stringmerge using merge script." *_*/*
+  git commit -m "Automatic stringmerge using merge script." *_*/*
 fi

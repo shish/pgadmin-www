@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-24 21:31+0200\n"
+"POT-Creation-Date: 2010-07-25 00:43+0200\n"
 "PO-Revision-Date: 2010-06-14 14:52+0800\n"
 "Last-Translator: The pgAdmin Development Team <pgadmin-hackers@postgresql."
 "org>\n"
@@ -83,7 +83,7 @@ msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
 
 #: ../download/source.php:29 ../download/source.php:30
-#: ../download/source.php:31
+#: ../download/source.php:31 ../download/source.php:32
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">v%s build指导</a>"
@@ -1823,7 +1823,7 @@ msgstr "函数"
 msgid "Fuzzy"
 msgstr "失真"
 
-#: ../development/menu.php:7
+#: ../development/git.php:8 ../development/menu.php:7
 #, fuzzy
 msgid "GIT access"
 msgstr "访问SVN"
@@ -3221,10 +3221,6 @@ msgstr "SQL/shell/批处理 作业调度代理。"
 msgid "SQL_ASCII"
 msgstr "SQL_ASCII"
 
-#: ../development/git.php:8
-msgid "SVN access"
-msgstr "访问SVN"
-
 #: ../visualtour.php:339
 msgid ""
 "Save and restore the user-selected line ending type in styled text\n"
@@ -3374,10 +3370,10 @@ msgid "Source code"
 msgstr "源代码"
 
 #: ../download/snapshots.php:10
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Source tarballs and binary snapshots for a variety of platforms are built "
-"from <a href=\"%s\">SVN trunk</a> daily. Other snapshots are built on a less "
+"from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a less "
 "regular basis, following programming milestones."
 msgstr ""
 "针对多种平台的源代码tar包和二进制快照每日从<a href=\"%s\">SVN trunk</a>中制"
@@ -3621,13 +3617,13 @@ msgstr ""
 "control键）。"
 
 #: ../development/changelog.php:10
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "The change log is a record of the notable changes made to pgAdmin by the "
 "various developers. It is a manually maintained list, and as such may not "
 "include details of every minor change that has ever been made. If you need "
 "that level of detail, please check the commit messages in the <a href=\"%s"
-"\">SVN repository</a>."
+"\">GIT repository</a>."
 msgstr ""
 "更新日志记录了不同开发人员对pgAdmin所作的不明显改动，是一个手工维护的列表，可"
 "能没有包含每一个已经做出的修改。如果需要获得更详细的信息，请查看<a href=\"%s"
@@ -3672,10 +3668,10 @@ msgid "The document requested does not exist!"
 msgstr "查找的文档不存在！"
 
 #: ../docs/index.php:12
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "The documentation is automatically imported from the pgAdmin <a href=\"%s"
-"\">SVN</a> source code repository, and is only available in English."
+"\">GIT</a> source code repository, and is only available in English."
 msgstr ""
 "文档是从pgAdmin的<a href=\"%s\">SVN</a>代码库中自动抽取的，仅支持英文。"
 
@@ -3709,8 +3705,9 @@ msgid "The latter has a complete tab to set all columns."
 msgstr "后者完全拥有一个自己的标签用来设置所有字段。"
 
 #: ../support/issues.php:12
+#, fuzzy
 msgid ""
-"The list below is automatically extracted from the SVN repository and is "
+"The list below is automatically extracted from the GIT repository and is "
 "only available in English. The issues listed affect to the current "
 "development code and all previous versions of pgAdmin where applicable."
 msgstr ""
@@ -3718,10 +3715,10 @@ msgstr ""
 "动抽取并且仅支持英文。"
 
 #: ../development/todo.php:12
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "The list below is automatically extracted from the pgAdmin <a href=\"%s"
-"\">SVN repository</a> and is only available in English."
+"\">GIT repository</a> and is only available in English."
 msgstr ""
 "下边的列表从pgAdmin的<a href=\"%s\">SVN repository</a>自动抽取，仅支持英文。"
 
@@ -3732,9 +3729,10 @@ msgid ""
 msgstr "下边的列表是由pgAdmin在线帮助自动抽取，仅支持英文。"
 
 #: ../development/changelog.php:12
+#, fuzzy
 msgid ""
-"The log below is automatically extracted from the SVN repository and is only "
-"available in English."
+"The log below is still automatically extracted from the GIT repository and "
+"is only available in English."
 msgstr "下边的列表从SVN repository自动抽取，仅支持英文。"
 
 #: ../visualtour.php:11
@@ -4060,9 +4058,10 @@ msgid ""
 msgstr "更新过的翻译会在每天的自动快照中发布。"
 
 #: ../support/list.php:14
+#, fuzzy
 msgid ""
 "The version of pgAdmin you are running. If it is a development snapshot, "
-"please include the build date from the Help -&gt; About screen, and SVN "
+"please include the build date from the Help -&gt; About screen, and GIT "
 "repository version if known."
 msgstr ""
 "正在使用的pgAdmin版本号，如果是一个正在开发中的快照，请包含它的制作日期（可以"
@@ -5479,6 +5478,9 @@ msgid ""
 msgstr ""
 "1.8.4版本主要用来进行bug修正，包括如下更新。注意因为在最后时刻发现问题，1.8.3"
 "从来没有作为正式版本发布过。"
+
+#~ msgid "SVN access"
+#~ msgstr "访问SVN"
 
 #~ msgid "Add DROP/REASSIGN OWNED support. [GL]"
 #~ msgstr "增加对DROP/REASSIGN OWNED命令的支持。[GL]"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-24 21:31+0200\n"
+"POT-Creation-Date: 2010-07-25 00:43+0200\n"
 "PO-Revision-Date: 2010-05-22 19:18+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -79,7 +79,7 @@ msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
 #: ../download/source.php:29 ../download/source.php:30
-#: ../download/source.php:31
+#: ../download/source.php:31 ../download/source.php:32
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instrukce pro v%s</a>"
@@ -2064,7 +2064,7 @@ msgstr "Funkce"
 msgid "Fuzzy"
 msgstr "Odhadnuto"
 
-#: ../development/menu.php:7
+#: ../development/git.php:8 ../development/menu.php:7
 #, fuzzy
 msgid "GIT access"
 msgstr "Přístup přes SVN"
@@ -3628,10 +3628,6 @@ msgstr "Agent na plánování úkolů (SQL, shell, dávky)"
 msgid "SQL_ASCII"
 msgstr "SQL_ASCII"
 
-#: ../development/git.php:8
-msgid "SVN access"
-msgstr "Přístup přes SVN"
-
 #: ../visualtour.php:339
 msgid ""
 "Save and restore the user-selected line ending type in styled text\n"
@@ -3789,10 +3785,10 @@ msgid "Source code"
 msgstr "Zdrojový kód"
 
 #: ../download/snapshots.php:10
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Source tarballs and binary snapshots for a variety of platforms are built "
-"from <a href=\"%s\">SVN trunk</a> daily. Other snapshots are built on a less "
+"from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a less "
 "regular basis, following programming milestones."
 msgstr ""
 "Archivy se zdrojovým kódem a binární snímky pro různé platformy se sestavují "
@@ -4063,13 +4059,13 @@ msgstr ""
 "Control)."
 
 #: ../development/changelog.php:10
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "The change log is a record of the notable changes made to pgAdmin by the "
 "various developers. It is a manually maintained list, and as such may not "
 "include details of every minor change that has ever been made. If you need "
 "that level of detail, please check the commit messages in the <a href=\"%s"
-"\">SVN repository</a>."
+"\">GIT repository</a>."
 msgstr ""
 "Seznam změn je záznam poznámek o změnách provedených v pgAdmin od různých "
 "vývojářů. Je udržovaný ručně a tak nemusí obsahovat detaily o všech drobných "
@@ -4116,10 +4112,10 @@ msgid "The document requested does not exist!"
 msgstr "Požadovaný dokument neexistuje!"
 
 #: ../docs/index.php:12
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "The documentation is automatically imported from the pgAdmin <a href=\"%s"
-"\">SVN</a> source code repository, and is only available in English."
+"\">GIT</a> source code repository, and is only available in English."
 msgstr ""
 "Dokumentace se automaticky importuje z <a href=\"%s\">SVN</a> repozitáře se "
 "zdrojovým kódem a je dostupná pouze v angličtině."
@@ -4157,8 +4153,9 @@ msgid "The latter has a complete tab to set all columns."
 msgstr "Druhý jmenovaný celou kartu pro nastavení všech sloupců."
 
 #: ../support/issues.php:12
+#, fuzzy
 msgid ""
-"The list below is automatically extracted from the SVN repository and is "
+"The list below is automatically extracted from the GIT repository and is "
 "only available in English. The issues listed affect to the current "
 "development code and all previous versions of pgAdmin where applicable."
 msgstr ""
@@ -4167,10 +4164,10 @@ msgstr ""
 "všechny předchozí verze pgAdmin, ve kterých to má význam."
 
 #: ../development/todo.php:12
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "The list below is automatically extracted from the pgAdmin <a href=\"%s"
-"\">SVN repository</a> and is only available in English."
+"\">GIT repository</a> and is only available in English."
 msgstr ""
 "Seznam uvedený níže se získává automaticky z <a href=\"%s\">repozitáře SVN</"
 "a> pro pgAdmin a je dostupný pouze v angličtině."
@@ -4184,9 +4181,10 @@ msgstr ""
 "pgAdmin a je dostupný pouze v angličtině."
 
 #: ../development/changelog.php:12
+#, fuzzy
 msgid ""
-"The log below is automatically extracted from the SVN repository and is only "
-"available in English."
+"The log below is still automatically extracted from the GIT repository and "
+"is only available in English."
 msgstr ""
 "Záznamy uvedené dále na této stránce se získávají automaticky z SVN "
 "repozitáře a jsou dostupné pouze v angličtině."
@@ -4555,9 +4553,10 @@ msgstr ""
 "Aktualizované překlady se zveřejňují automaticky v každodenních snímcích."
 
 #: ../support/list.php:14
+#, fuzzy
 msgid ""
 "The version of pgAdmin you are running. If it is a development snapshot, "
-"please include the build date from the Help -&gt; About screen, and SVN "
+"please include the build date from the Help -&gt; About screen, and GIT "
 "repository version if known."
 msgstr ""
 "Verzi pgAdminu, kterou používáte. Pokud jde o vývojářský snímek, uveďte "
@@ -6140,6 +6139,9 @@ msgstr ""
 "v1.8.4 je vydání zaměřené na opravu chyb, včetně následujících změn. "
 "Upozorňujeme, že v1.8.3 nikdy nebyla prohlášena za vydání, protože na "
 "poslední chvíli byly nalezeny problémy."
+
+#~ msgid "SVN access"
+#~ msgstr "Přístup přes SVN"
 
 #~ msgid ""
 #~ "pgAdmin 1.10.2 has now been released. Please see the <a href=\"/"

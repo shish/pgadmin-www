@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-14 17:00+0200\n"
+"POT-Creation-Date: 2010-07-24 21:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1386,11 +1386,11 @@ msgid ""
 msgstr ""
 
 #: ../development/roadmap.php:17
-msgid "Finish 8.4 support with SQL/Med objects"
+msgid "Finish 8.4 support with SQL/Med objects [GL]"
 msgstr ""
 
 #: ../development/roadmap.php:16
-msgid "Finish 9.0 support with exclusion constraints"
+msgid "Finish 9.0 support with exclusion constraints [GL]"
 msgstr ""
 
 #: ../visualtour.php:24
@@ -1685,6 +1685,14 @@ msgstr ""
 
 #: ../include/po_status.php:258
 msgid "Fuzzy"
+msgstr ""
+
+#: ../development/menu.php:7
+msgid "GIT access"
+msgstr ""
+
+#: ../development/menu.php:8
+msgid "GIT browser"
 msgstr ""
 
 #: ../development/roadmap.php:44
@@ -2923,12 +2931,8 @@ msgstr ""
 msgid "SQL_ASCII"
 msgstr ""
 
-#: ../development/menu.php:7 ../development/svn.php:8
+#: ../development/git.php:8
 msgid "SVN access"
-msgstr ""
-
-#: ../development/menu.php:8
-msgid "SVN browser"
 msgstr ""
 
 #: ../visualtour.php:339
@@ -3457,7 +3461,7 @@ msgstr ""
 msgid ""
 "The pages in this section of the website should provide you with all the "
 "information you need to get started as a new developer, including <a href=\"%"
-"s\">SVN access</a>, the developers <a href=\"%s\">mailing list</a>, the  <a "
+"s\">GIT access</a>, the developers <a href=\"%s\">mailing list</a>, the  <a "
 "href=\"%s\">Development Team</a> structure, the  <a href=\"%s\">TODO list</"
 "a> and the  <a href=\"%s\">change log</a>."
 msgstr ""
@@ -3810,7 +3814,7 @@ msgid ""
 "from the <a href=\"%s\">translation status</a> page."
 msgstr ""
 
-#: ../development/svn.php:12
+#: ../development/git.php:12
 #, php-format
 msgid ""
 "To checkout the source from the command line and get started, you might use "
@@ -4508,16 +4512,14 @@ msgstr ""
 msgid "pgAdmin is available for Windows &trade; 2000 and above."
 msgstr ""
 
-#: ../development/svn.php:10
+#: ../development/git.php:10
 #, php-format
 msgid ""
 "pgAdmin is available subject to the terms of the <a href=\"%s\">licence</a>. "
-"pgAdmin is developed using a Subversion or SVN repository to hold the source "
+"pgAdmin is developed using a number of GIT repositories to hold the source "
 "code. Access to the repository is available through a <a href=\"%s\">web "
-"interface</a> or using your favourite SVN client. Anonymous read access is "
-"available using an SVN client. Under Windows, we recommend using <a href=\"%s"
-"\">TortoiseSVN</a>, which is free software. Under Linux, there are several "
-"command line and graphical clients available."
+"interface</a> or using your favourite GIT client. Under Windows, we "
+"recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 
 #: ../index.php:24
@@ -4629,6 +4631,10 @@ msgstr ""
 msgid "pgAdmin: Development - Development team"
 msgstr ""
 
+#: ../development/git.php:5
+msgid "pgAdmin: Development - GIT access"
+msgstr ""
+
 #: ../development/index.php:5
 msgid "pgAdmin: Development - Introduction"
 msgstr ""
@@ -4639,10 +4645,6 @@ msgstr ""
 
 #: ../development/roadmap.php:5
 msgid "pgAdmin: Development - Roadmap"
-msgstr ""
-
-#: ../development/svn.php:5
-msgid "pgAdmin: Development - SVN access"
 msgstr ""
 
 #: ../development/todo.php:5

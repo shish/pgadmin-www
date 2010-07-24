@@ -13,8 +13,8 @@ $PAGE_CONTENT = '
   <li>' . _("PostgreSQL compatibility") . '<br />&nbsp;
     <ul>
       <li>' . _("Complete 9.1 support") . '<br />&nbsp;</li>
-      <li>' . _("Finish 9.0 support with exclusion constraints") . '<br />&nbsp;</li>
-      <li>' . _("Finish 8.4 support with SQL/Med objects") . '<br />&nbsp;</li>
+      <li><del>' . _("Finish 9.0 support with exclusion constraints [GL]") .  '</del><br />&nbsp;</li>
+      <li>' . _("Finish 8.4 support with SQL/Med objects [GL]") . '<br />&nbsp;</li>
     </ul>
   </li>
 
@@ -27,7 +27,7 @@ $PAGE_CONTENT = '
 
   <li>' . _("Functionality") . '<br />&nbsp;
     <ul>
-      <li>' . _("Better i18n support [GL]") . '<br />&nbsp;</li>
+      <li><del>' . _("Better i18n support [GL]") . '</del><br />&nbsp;</li>
       <li>' . _("Show/hide columns in frmStatus's reports [GL]") . '<br />&nbsp;</li>
       <li>' . _("Filter rows in frmStatus's reports [GL]") . '<br />&nbsp;</li>
       <li>' . _("Logfile: columns according to log_line_prefix, filename according to log_filename, etc. in frmStatus [GL]") . '<br />&nbsp;</li>

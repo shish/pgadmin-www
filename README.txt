@@ -69,8 +69,8 @@ the mailing list archives.
 ...
 
 The svnrepo directory holds the source trees for trunk and any stable branches
-whose docs are integrated into the site (currently only 1.4). These tree are
-svn update'ed hourly. Files under here are integrated into the website in a
+whose docs are integrated into the site (currently 1.10). These tree are
+git pull'ed hourly. Files under here are integrated into the website in a
 variety of ways - basic text/html files may be included as raw content in
 other PHP pages and the translation statuses are read using the code in
 include/po_status.php. The documentation is accessed by it's 'real' filename,

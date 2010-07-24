@@ -22,10 +22,10 @@ if test -f pgadmin3_website.pot; then
     echo "Merging pgadmin3_website.pot into pgadmin3_website.po"
     msgmerge --update pgadmin3_website.po ../../pgadmin3_website.pot
     echo "Compiling pgadmin3.mo"
-    msgfmt -o pgadmin3_website.mo pgadmin3_website.po
+    LANG=C msgfmt -o pgadmin3_website.mo pgadmin3_website.po
     git add pgadmin3_website.mo pgadmin3_website.po
     cd ../..
   done
-  echo "Committing changes to SVN."
+  echo "Committing changes to GIT."
   git commit -m "Automatic stringmerge using merge script." *_*/*
 fi

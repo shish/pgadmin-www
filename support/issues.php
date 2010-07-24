@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("Bugs and other issues in pgAdmin are almost always fixed within a very short time once they have been reported to us. There are some issues that may be out of our control, or may take significant effort to resolve, often more effort than the issue warrants.") . '</p>
 
-<p>' . _("The list below is automatically extracted from the SVN repository and is only available in English. The issues listed affect to the current development code and all previous versions of pgAdmin where applicable.") . '</p>
+<p>' . _("The list below is automatically extracted from the GIT repository and is only available in English. The issues listed affect to the current development code and all previous versions of pgAdmin where applicable.") . '</p>
 
 '; 
 

@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("The pgAdmin documentation for the current development code, and recent major releases of the application is available for online browsing. Please select the documentation version you would like to view from the section menu.") . '</p>
 
-<p>' . sprintf(_("The documentation is automatically imported from the pgAdmin <a href=\"%s\">SVN</a> source code repository, and is only available in English."), "/development/svn.php") . '</p>
+<p>' . sprintf(_("The documentation is automatically imported from the pgAdmin <a href=\"%s\">GIT</a> source code repository, and is only available in English."), "/development/git.php") . '</p>
 '; 
 
 // Display the page

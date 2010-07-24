@@ -8,7 +8,7 @@
   <h1>Known bugs</h1>
   <table width="100%" border="0" cellspacing="1" cellpadding="8" bgcolor="#efefef" dir='ltr'>
     <tr>
-      <td>The information displayed is extracted automatically from the pgAdmin SVN repository.</td>
+      <td>The information displayed is extracted automatically from the pgAdmin GIT repository.</td>
     </tr>
   </table>
 

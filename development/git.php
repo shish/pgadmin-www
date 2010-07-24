@@ -5,7 +5,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php";
 $PAGE_TITLE = _("pgAdmin: Development - GIT access");
 $PAGE_CONTENT = '
 
-<h1>' . _("SVN access") . '</h1>
+<h1>' . _("GIT access") . '</h1>
 
 <p>' . sprintf(_("pgAdmin is available subject to the terms of the <a href=\"%s\">licence</a>. pgAdmin is developed using a number of GIT repositories to hold the source code. Access to the repository is available through a <a href=\"%s\">web interface</a> or using your favourite GIT client. Under Windows, we recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."), "../licence.php", "http://git.postgresql.org", "http://code.google.com/p/tortoisegit/") . '</p>
 

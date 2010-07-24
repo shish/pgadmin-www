@@ -11,7 +11,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("If you are posting a bug report, please include the following information where possible:") . '</p>
 <ul>
-  <li>' . _("The version of pgAdmin you are running. If it is a development snapshot, please include the build date from the Help -&gt; About screen, and SVN repository version if known.") . '<br />&nbsp;</li>
+  <li>' . _("The version of pgAdmin you are running. If it is a development snapshot, please include the build date from the Help -&gt; About screen, and GIT repository version if known.") . '<br />&nbsp;</li>
   <li>' . _("The configure options used (if compiled from source)") . '<br />&nbsp;</li>
   <li>' . _("The operating system and version details - e.g. Windows XP Pro, SP2, or Slackware Linux 10, kernel 2.4.21") . '<br />&nbsp;</li>
   <li>' . _("The wxWidgets version and configure options used (if compiled from source)") . '<br />&nbsp;</li>

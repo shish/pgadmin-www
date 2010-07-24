@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-19 21:02+0200\n"
+"POT-Creation-Date: 2010-07-24 21:31+0200\n"
 "PO-Revision-Date: 2010-05-14 19:17+0100\n"
 "Last-Translator: Guillaume Lelarge <guillaume@lelarge.info>\n"
 "Language-Team:  <pgsql-fr-general@postgresql.org>\n"
@@ -1768,11 +1768,13 @@ msgstr ""
 "sauvegarde."
 
 #: ../development/roadmap.php:17
-msgid "Finish 8.4 support with SQL/Med objects"
+#, fuzzy
+msgid "Finish 8.4 support with SQL/Med objects [GL]"
 msgstr "Finir le support de la 8.4 avec les objets SQL/Med"
 
 #: ../development/roadmap.php:16
-msgid "Finish 9.0 support with exclusion constraints"
+#, fuzzy
+msgid "Finish 9.0 support with exclusion constraints [GL]"
 msgstr "Finir le support de la 9.0 avec les contraintes d'exclusion"
 
 #: ../visualtour.php:24

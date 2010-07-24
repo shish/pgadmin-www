@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-19 21:02+0200\n"
+"POT-Creation-Date: 2010-07-24 21:31+0200\n"
 "PO-Revision-Date: 2010-05-22 19:18+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -1682,11 +1682,13 @@ msgstr ""
 "vypsat. Všechny zaškrtnuté objekty budou ve výpise zahrnuty."
 
 #: ../development/roadmap.php:17
-msgid "Finish 8.4 support with SQL/Med objects"
+#, fuzzy
+msgid "Finish 8.4 support with SQL/Med objects [GL]"
 msgstr "Dokončit podporu 8.4 s objekty SQL/Med"
 
 #: ../development/roadmap.php:16
-msgid "Finish 9.0 support with exclusion constraints"
+#, fuzzy
+msgid "Finish 9.0 support with exclusion constraints [GL]"
 msgstr "Dokončit podporu 9.0 s omezeními exkluzí "
 
 #: ../visualtour.php:24

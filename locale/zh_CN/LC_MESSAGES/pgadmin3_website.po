@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-19 21:02+0200\n"
+"POT-Creation-Date: 2010-07-24 21:31+0200\n"
 "PO-Revision-Date: 2010-06-14 14:52+0800\n"
 "Last-Translator: The pgAdmin Development Team <pgadmin-hackers@postgresql."
 "org>\n"
@@ -1497,11 +1497,13 @@ msgstr ""
 "最后，第四个标签允许选择想要卸出的所有对象，所有选中对象会包含在卸出中。"
 
 #: ../development/roadmap.php:17
-msgid "Finish 8.4 support with SQL/Med objects"
+#, fuzzy
+msgid "Finish 8.4 support with SQL/Med objects [GL]"
 msgstr "完成对8.4 SQL/Med的支持"
 
 #: ../development/roadmap.php:16
-msgid "Finish 9.0 support with exclusion constraints"
+#, fuzzy
+msgid "Finish 9.0 support with exclusion constraints [GL]"
 msgstr "完成9.0的排他约束支持"
 
 #: ../visualtour.php:24

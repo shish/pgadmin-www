@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-24 21:31+0200\n"
+"POT-Creation-Date: 2010-07-25 00:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
 
 #: ../download/source.php:29 ../download/source.php:30
-#: ../download/source.php:31
+#: ../download/source.php:31 ../download/source.php:32
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr ""
@@ -1687,7 +1687,7 @@ msgstr ""
 msgid "Fuzzy"
 msgstr ""
 
-#: ../development/menu.php:7
+#: ../development/git.php:8 ../development/menu.php:7
 msgid "GIT access"
 msgstr ""
 
@@ -2931,10 +2931,6 @@ msgstr ""
 msgid "SQL_ASCII"
 msgstr ""
 
-#: ../development/git.php:8
-msgid "SVN access"
-msgstr ""
-
 #: ../visualtour.php:339
 msgid ""
 "Save and restore the user-selected line ending type in styled text\n"
@@ -3071,7 +3067,7 @@ msgstr ""
 #, php-format
 msgid ""
 "Source tarballs and binary snapshots for a variety of platforms are built "
-"from <a href=\"%s\">SVN trunk</a> daily. Other snapshots are built on a less "
+"from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a less "
 "regular basis, following programming milestones."
 msgstr ""
 
@@ -3285,7 +3281,7 @@ msgid ""
 "various developers. It is a manually maintained list, and as such may not "
 "include details of every minor change that has ever been made. If you need "
 "that level of detail, please check the commit messages in the <a href=\"%s"
-"\">SVN repository</a>."
+"\">GIT repository</a>."
 msgstr ""
 
 #: ../support/list.php:15
@@ -3328,7 +3324,7 @@ msgstr ""
 #, php-format
 msgid ""
 "The documentation is automatically imported from the pgAdmin <a href=\"%s"
-"\">SVN</a> source code repository, and is only available in English."
+"\">GIT</a> source code repository, and is only available in English."
 msgstr ""
 
 #: ../visualtour12.php:230
@@ -3361,7 +3357,7 @@ msgstr ""
 
 #: ../support/issues.php:12
 msgid ""
-"The list below is automatically extracted from the SVN repository and is "
+"The list below is automatically extracted from the GIT repository and is "
 "only available in English. The issues listed affect to the current "
 "development code and all previous versions of pgAdmin where applicable."
 msgstr ""
@@ -3370,7 +3366,7 @@ msgstr ""
 #, php-format
 msgid ""
 "The list below is automatically extracted from the pgAdmin <a href=\"%s"
-"\">SVN repository</a> and is only available in English."
+"\">GIT repository</a> and is only available in English."
 msgstr ""
 
 #: ../support/faq.php:12
@@ -3381,8 +3377,8 @@ msgstr ""
 
 #: ../development/changelog.php:12
 msgid ""
-"The log below is automatically extracted from the SVN repository and is only "
-"available in English."
+"The log below is still automatically extracted from the GIT repository and "
+"is only available in English."
 msgstr ""
 
 #: ../visualtour.php:11
@@ -3649,7 +3645,7 @@ msgstr ""
 #: ../support/list.php:14
 msgid ""
 "The version of pgAdmin you are running. If it is a development snapshot, "
-"please include the build date from the Help -&gt; About screen, and SVN "
+"please include the build date from the Help -&gt; About screen, and GIT "
 "repository version if known."
 msgstr ""
 

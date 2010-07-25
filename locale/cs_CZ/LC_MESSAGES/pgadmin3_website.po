@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-25 00:43+0200\n"
-"PO-Revision-Date: 2010-05-22 19:18+0200\n"
+"PO-Revision-Date: 2010-07-25 08:56+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -1682,14 +1682,12 @@ msgstr ""
 "vypsat. Všechny zaškrtnuté objekty budou ve výpise zahrnuty."
 
 #: ../development/roadmap.php:17
-#, fuzzy
 msgid "Finish 8.4 support with SQL/Med objects [GL]"
-msgstr "Dokončit podporu 8.4 s objekty SQL/Med"
+msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
 
 #: ../development/roadmap.php:16
-#, fuzzy
 msgid "Finish 9.0 support with exclusion constraints [GL]"
-msgstr "Dokončit podporu 9.0 s omezeními exkluzí "
+msgstr "Dokončit podporu 9.0 s omezeními exkluzí [GL]"
 
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
@@ -2065,14 +2063,12 @@ msgid "Fuzzy"
 msgstr "Odhadnuto"
 
 #: ../development/git.php:8 ../development/menu.php:7
-#, fuzzy
 msgid "GIT access"
-msgstr "Přístup přes SVN"
+msgstr "Přístup přes GIT"
 
 #: ../development/menu.php:8
-#, fuzzy
 msgid "GIT browser"
-msgstr "Procházení přes SVN"
+msgstr "Procházení přes GIT"
 
 #: ../development/roadmap.php:44
 msgid "GSoC"
@@ -3785,15 +3781,15 @@ msgid "Source code"
 msgstr "Zdrojový kód"
 
 #: ../download/snapshots.php:10
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Source tarballs and binary snapshots for a variety of platforms are built "
 "from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a less "
 "regular basis, following programming milestones."
 msgstr ""
 "Archivy se zdrojovým kódem a binární snímky pro různé platformy se sestavují "
-"každý den z <a href=\"%s\">SVN trunk</a>. Další snímky se sestavují méně "
-"pravidelně podle milníků ve vývoji."
+"každý den z <a href=\"%s\">větve trunk v GIT</a>. Další snímky se sestavují "
+"méně pravidelně podle milníků ve vývoji."
 
 #: ../download/source.php:12
 msgid ""
@@ -4059,7 +4055,7 @@ msgstr ""
 "Control)."
 
 #: ../development/changelog.php:10
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "The change log is a record of the notable changes made to pgAdmin by the "
 "various developers. It is a manually maintained list, and as such may not "
@@ -4070,7 +4066,7 @@ msgstr ""
 "Seznam změn je záznam poznámek o změnách provedených v pgAdmin od různých "
 "vývojářů. Je udržovaný ručně a tak nemusí obsahovat detaily o všech drobných "
 "změnách, které kdy byly provedeny. Pokud chcete takové podrobnosti, tak "
-"prosím využijte zprávy o změnách v <a href=\"%s\">SVN repozitáři</a>."
+"prosím využijte zprávy o změnách v <a href=\"%s\">repozitáři GIT</a>."
 
 #: ../support/list.php:15
 msgid "The configure options used (if compiled from source)"
@@ -4112,12 +4108,12 @@ msgid "The document requested does not exist!"
 msgstr "Požadovaný dokument neexistuje!"
 
 #: ../docs/index.php:12
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "The documentation is automatically imported from the pgAdmin <a href=\"%s"
 "\">GIT</a> source code repository, and is only available in English."
 msgstr ""
-"Dokumentace se automaticky importuje z <a href=\"%s\">SVN</a> repozitáře se "
+"Dokumentace se automaticky importuje z repozitáře <a href=\"%s\">GIT</a> se "
 "zdrojovým kódem a je dostupná pouze v angličtině."
 
 #: ../visualtour12.php:230
@@ -4153,23 +4149,22 @@ msgid "The latter has a complete tab to set all columns."
 msgstr "Druhý jmenovaný celou kartu pro nastavení všech sloupců."
 
 #: ../support/issues.php:12
-#, fuzzy
 msgid ""
 "The list below is automatically extracted from the GIT repository and is "
 "only available in English. The issues listed affect to the current "
 "development code and all previous versions of pgAdmin where applicable."
 msgstr ""
-"Seznam uvedený níže se automaticky získává z repozitáře SVN a je dostupný "
+"Seznam uvedený níže se automaticky získává z repozitáře GIT a je dostupný "
 "pouze v angličtině. Uvedené problémy postihují aktuální vývojářský kód a "
 "všechny předchozí verze pgAdmin, ve kterých to má význam."
 
 #: ../development/todo.php:12
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "The list below is automatically extracted from the pgAdmin <a href=\"%s"
 "\">GIT repository</a> and is only available in English."
 msgstr ""
-"Seznam uvedený níže se získává automaticky z <a href=\"%s\">repozitáře SVN</"
+"Seznam uvedený níže se získává automaticky z <a href=\"%s\">repozitáře GIT</"
 "a> pro pgAdmin a je dostupný pouze v angličtině."
 
 #: ../support/faq.php:12
@@ -4181,13 +4176,12 @@ msgstr ""
 "pgAdmin a je dostupný pouze v angličtině."
 
 #: ../development/changelog.php:12
-#, fuzzy
 msgid ""
 "The log below is still automatically extracted from the GIT repository and "
 "is only available in English."
 msgstr ""
-"Záznamy uvedené dále na této stránce se získávají automaticky z SVN "
-"repozitáře a jsou dostupné pouze v angličtině."
+"Záznamy uvedené dále na této stránce se získávají automaticky z repozitáře "
+"GIT a jsou dostupné pouze v angličtině."
 
 #: ../visualtour.php:11
 msgid ""
@@ -4288,7 +4282,7 @@ msgstr ""
 "rozšíření funkcionality vašich serverů."
 
 #: ../development/index.php:12
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "The pages in this section of the website should provide you with all the "
 "information you need to get started as a new developer, including <a href=\"%"
@@ -4297,7 +4291,7 @@ msgid ""
 "a> and the  <a href=\"%s\">change log</a>."
 msgstr ""
 "Stránky v této sekci webu by vám měli poskytnout informace, které potřebuje, "
-"pokud chcete začít jako vývojář. Jsou to <a href=\"%s\">přístup přes SVN</"
+"pokud chcete začít jako vývojář. Jsou to <a href=\"%s\">přístup přes GIT</"
 "a>, vývojářská <a href=\"%s\">poštovní konference</a>, struktura <a href=\"%s"
 "\">vývojářského týmu</a>, <a href=\"%s\">seznam úkolů</a> a <a href=\"%s"
 "\">seznam změn</a>."
@@ -4553,7 +4547,6 @@ msgstr ""
 "Aktualizované překlady se zveřejňují automaticky v každodenních snímcích."
 
 #: ../support/list.php:14
-#, fuzzy
 msgid ""
 "The version of pgAdmin you are running. If it is a development snapshot, "
 "please include the build date from the Help -&gt; About screen, and GIT "
@@ -4561,7 +4554,7 @@ msgid ""
 msgstr ""
 "Verzi pgAdminu, kterou používáte. Pokud jde o vývojářský snímek, uveďte "
 "prosím datum sestavení z „Nápověda“ -&gt; „O aplikaci“ a verzi repozitáře "
-"SVN, pokud je známá."
+"GIT, pokud je známá."
 
 #: ../support/list.php:17
 msgid ""
@@ -5732,7 +5725,7 @@ msgid "pgAdmin is available for Windows &trade; 2000 and above."
 msgstr "pgAdmin je dostupný pro Windows &trade; 2000 a novější."
 
 #: ../development/git.php:10
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "pgAdmin is available subject to the terms of the <a href=\"%s\">licence</a>. "
 "pgAdmin is developed using a number of GIT repositories to hold the source "
@@ -5741,12 +5734,11 @@ msgid ""
 "recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 "pgAdmin je dostupný při dodržení podmínek <a href=\"%s\">licence</a>. Při "
-"vývoji pgAdmin III se na uchování zdrojového kódu používá Subversion nebo "
-"SVN repozitář. Přístup do tohoto repozitáře je přes <a href=\"%s\">webové "
-"rozhraní</a> nebo pomocí vašeho oblíbeného SVN klienta. Na čtení stačí "
-"anonymní přístup z libovolného SVN klienta. Pod Windows doporučujeme "
-"používat svobodný software <a href=\"%s\">TortoiseSVN</a>. Pod Linuxem je "
-"dostupných několik klientů jak pro příkazovou řádku, tak grafické prostředí."
+"vývoji pgAdmin se k uchování zdrojového kódu používá řada repozitářů GIT. "
+"Přístup do těchto repozitářů je přes <a href=\"%s\">webové rozhraní</a> nebo "
+"pomocí vašeho oblíbeného klienta GIT. Pod Windows doporučujeme používat "
+"svobodný software <a href=\"%s\">TortoiseGIT</a>. Pod Linuxem je dostupných "
+"několik svobodných klientů jak pro příkazovou řádku, tak grafické prostředí."
 
 #: ../index.php:24
 #, php-format
@@ -5886,9 +5878,8 @@ msgid "pgAdmin: Development - Development team"
 msgstr "pgAdmin: Vývoj - Vývojářský tým"
 
 #: ../development/git.php:5
-#, fuzzy
 msgid "pgAdmin: Development - GIT access"
-msgstr "pgAdmin: Vývoj - Přístup přes SVN"
+msgstr "pgAdmin: Vývoj - Přístup přes GIT"
 
 #: ../development/index.php:5
 msgid "pgAdmin: Development - Introduction"

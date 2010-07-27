@@ -58,7 +58,7 @@ class po_status {
   }
 
   function setSvnRoot ($_svnrepo) {
-    if (file_exists($_svnrepo."/.svn/format")) {
+    if (file_exists($_svnrepo."/.git/config")) {
 	$this->_svnrepo = $_svnrepo;
     } else {
     	$this->_error = "Error: $_svnrepo is not a Subversion repository.";

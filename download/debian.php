@@ -21,11 +21,11 @@ $PAGE_CONTENT = '
 
 <h4>' . _("Debian Squeeze (testing)") . '</h4>
 
-<p>' . sprintf(_("pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can install pgAdmin just as you would do with any other Debian package (apt-get install pgadmin3)."), "http://packages.debian.org/squeeze/pgadmin3", "1.10.2") . '</p>
+<p>' . sprintf(_("pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can install pgAdmin just as you would do with any other Debian package (apt-get install pgadmin3)."), "http://packages.debian.org/squeeze/pgadmin3", "1.10.3") . '</p>
 
 <h4>' . _("Debian Sid (unstable)") . '</h4>
 
-<p>' . sprintf(_("pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can install pgAdmin just as you would do with any other Debian package (apt-get install pgadmin3)."), "http://packages.debian.org/sid/pgadmin3", "1.10.2") . '</p>
+<p>' . sprintf(_("pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can install pgAdmin just as you would do with any other Debian package (apt-get install pgadmin3)."), "http://packages.debian.org/sid/pgadmin3", "1.10.3") . '</p>
 
 <h4>' . _("Installation") . '</h4>
 

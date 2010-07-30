@@ -7,11 +7,11 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
-<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2010-05-14", "1.10.3") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2010-07-30", "1.10.5") . '</h2>
 
-<p>' . sprintf(_("pgAdmin %s has now been released. This release is primarily a bug fix release. Please see the <a href=\"/development/changelog.php\">CHANGELOG</a> for details of the bug fixes in this release or visit the <a href=\"download\">download area</a> to get your copy now."), "1.10.3") . '</p>
+<p>' . sprintf(_("pgAdmin %s has now been released. This release is primarily a bug fix release. Please see the <a href=\"/development/changelog.php\">CHANGELOG</a> for details of the bug fixes in this release or visit the <a href=\"download\">download area</a> to get your copy now."), "1.10.5") . '</p>
 
-<p>' . sprintf(_("You can also find all the fixed bugs in this <a href=\"http://code.pgadmin.org/trac/query?status=closed&group=resolution&milestone=%s\">%s bugfix list</a>."), "1.10.3", "1.10.3") . '</p>
+<p>' . sprintf(_("You can also find all the fixed bugs in this <a href=\"http://code.pgadmin.org/trac/query?status=closed&group=resolution&milestone=%s\">%s bugfix list</a>."), "1.10.5", "1.10.5") . '</p>
 
 <h2>' . sprintf(_("%s - pgAdmin demo video"), "2010-04-09") . '</h2>
 
@@ -26,7 +26,7 @@ $PAGE_CONTENT = '
 <p>' . sprintf(_("pgAdmin is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the <a href=\"%s\">PostgreSQL License</a>."), "licence.php") . '</p>
 
 <div class="pgaBanner">
-' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.10.3") . '
+' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.10.5") . '
 </div>
 
 '; 

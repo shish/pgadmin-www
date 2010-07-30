@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-25 00:43+0200\n"
+"POT-Creation-Date: 2010-07-30 11:57+0200\n"
 "PO-Revision-Date: 2010-07-25 08:56+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -30,9 +30,9 @@ msgstr ""
 msgid "%s - pgAdmin demo video"
 msgstr "%s - ukázkové video pgAdmin"
 
-#: ../index.php:10 ../news.php:10 ../news.php:14 ../news.php:18 ../news.php:22
-#: ../news.php:77 ../news.php:109 ../news.php:164 ../news.php:268
-#: ../news.php:305 ../news.php:332 ../news.php:360
+#: ../index.php:10 ../news.php:10 ../news.php:16 ../news.php:20 ../news.php:24
+#: ../news.php:28 ../news.php:83 ../news.php:115 ../news.php:170
+#: ../news.php:274 ../news.php:311 ../news.php:338 ../news.php:366
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - vydán pgAdmin v%s"
@@ -58,11 +58,12 @@ msgstr "<a href=\"%s\">Stáhnout pgAgent</a>"
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/opensuse.php:18
-#: ../download/opensuse.php:19 ../download/rpm.php:16 ../download/rpm.php:17
-#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/macosx.php:21 ../download/macosx.php:22
+#: ../download/opensuse.php:14 ../download/opensuse.php:15
+#: ../download/opensuse.php:16 ../download/opensuse.php:17
+#: ../download/opensuse.php:18 ../download/opensuse.php:19
+#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
+#: ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
@@ -70,16 +71,17 @@ msgstr "<a href=\"%s\">Stáhnout pgAgent</a>"
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/source.php:24 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24 ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:29 ../download/source.php:30
-#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:30 ../download/source.php:31
+#: ../download/source.php:32 ../download/source.php:33
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instrukce pro v%s</a>"
@@ -276,13 +278,13 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "Přístup ke všem objektům PostgreSQL"
 
-#: ../news.php:320
+#: ../news.php:326
 msgid ""
 "Add '...' to truncated column comments in table SQL, per Erwin Brandstetter."
 msgstr ""
 "Přidává „...“ k ořezaným komentářům sloupců v tabulkách. [Erwin Brandstetter]"
 
-#: ../news.php:411
+#: ../news.php:417
 msgid ""
 "Add 'scratch pads' to the Edit Grid and Query Tool windows to use when "
 "copying and pasting data back and forth."
@@ -290,7 +292,7 @@ msgstr ""
 "Přidává do editační mřížky a dotazovacího nástroje „poznámkový blok“, do "
 "kterého si lze odkládat pomocí kopírovat/vložit data."
 
-#: ../news.php:379
+#: ../news.php:385
 msgid ""
 "Add -a and -q command line options to auto connect to a server and open a "
 "query window respectively."
@@ -298,14 +300,14 @@ msgstr ""
 "Přidává volby příkazového řádku -a a -q na automatické připojení respektive "
 "otevření dotazovacího nástroje."
 
-#: ../news.php:413
+#: ../news.php:419
 msgid ""
 "Add -qc switch to open query tool and autoconnect using a connection string."
 msgstr ""
 "Přidává volbu příkazového řádku -qc, která otevře dotazovací nástroj a "
 "automaticky se připojí pomocí připojovacího řetězce."
 
-#: ../news.php:396
+#: ../news.php:402
 msgid ""
 "Add CREATE/INSERT/UPDATE/SELECT script menu options for various object types "
 "to create script templates."
@@ -313,7 +315,7 @@ msgstr ""
 "Přidává do menu pro různé typy objektu položky Skript CREATE/INSERT/UPDATE/"
 "SELECT, které vytváří šablonové skripty."
 
-#: ../news.php:144
+#: ../news.php:150
 msgid ""
 "Add EnterpriseDB's default database (edb) to the Server dialog's default "
 "option."
@@ -321,11 +323,11 @@ msgstr ""
 "Přidává výchozí databázi pro EnterpriseDB (edb) do servisních databází v "
 "dialogu serveru."
 
-#: ../news.php:388
+#: ../news.php:394
 msgid "Add a 'Favourites' query organiser to the Query Tool."
 msgstr "Přidává správce „oblíbených“ dotazů do dotazovacího nástroje"
 
-#: ../news.php:222
+#: ../news.php:228
 msgid "Add a 'Run Now' options for pgAgent jobs."
 msgstr "Přidat volbu „Spustit právě teď“ pro úkoly pgAgent"
 
@@ -337,18 +339,18 @@ msgstr ""
 "Přidat dialog, pomocí kterého mohou uživatelé nastavit globální body "
 "přerušení ve zvoleném procesu serveru. [DP]"
 
-#: ../news.php:219
+#: ../news.php:225
 msgid ""
 "Add a guru hint to warn the user of the consequences of storing passwords."
 msgstr ""
 "Přidává radu odborníka, která varuje uživatele na potenciální nebezpečí "
 "související s uloženými hesly."
 
-#: ../news.php:178
+#: ../news.php:184
 msgid "Add a macro facility to the Query Tool."
 msgstr "Přidává podporu maker do dotazovacího nástroje."
 
-#: ../news.php:410
+#: ../news.php:416
 msgid ""
 "Add a new Find & Replace dialogue to the query tool, implementing all the "
 "normal Find & Replace options as well as a powerful regular expression "
@@ -358,7 +360,7 @@ msgstr ""
 "obsahuje všechny normální možnosti pro hledání a nahrazování a navíc mocný "
 "režim hledání podle regulárních výrazů."
 
-#: ../news.php:198
+#: ../news.php:204
 msgid ""
 "Add a new command line option (-f ) to open an SQL script automatically when "
 "using -q or -qc."
@@ -366,7 +368,7 @@ msgstr ""
 "Přidává novou volbu příkazového řádku -f, která automaticky otevře SQL "
 "skript při použití voleb -q nebo -qc."
 
-#: ../news.php:200
+#: ../news.php:206
 msgid ""
 "Add a new command line options (-cp ) to allow direct editing of pgpass "
 "files."
@@ -374,15 +376,15 @@ msgstr ""
 "Přidává novou volbu příkazového řádku -cp, která umožňuje přímou úpravu "
 "souborů pgpass."
 
-#: ../news.php:383
+#: ../news.php:389
 msgid "Add a password file editor."
 msgstr "Přidán editor souboru s hesly."
 
-#: ../news.php:409
+#: ../news.php:415
 msgid "Add a pgAgent option to log to a file on *nix."
 msgstr "Přidává do pgAgent volbu na evidování do souboru v *nixech."
 
-#: ../news.php:185
+#: ../news.php:191
 msgid ""
 "Add a set of options to allow the user to hide selected object types from "
 "the treeview. Note that the new default settings will hide less commonly "
@@ -393,11 +395,11 @@ msgstr ""
 "používané objekty, jako jsou přetypování, jazyky, agregační funkce, "
 "operátory apod."
 
-#: ../news.php:403
+#: ../news.php:409
 msgid "Add a word wrap option to the query tool editor."
 msgstr "Přidává volbu pro zalamování slov v editoru dotazovacího nástroje."
 
-#: ../news.php:398
+#: ../news.php:404
 msgid ""
 "Add an internal XML reporting API, HTML XSL stylesheet with XSLT processing "
 "capabilities and selection of schema/object/data reports."
@@ -405,15 +407,15 @@ msgstr ""
 "Přidává API pro reporty, které interně pracuje s XML, schopnosti zpracovat "
 "HTML XSL styly pomocí XSLT a výběr, zda se má reportovat schéma/objekt/data."
 
-#: ../news.php:224
+#: ../news.php:230
 msgid "Add an option to show NULLs as  in the Query Tool."
 msgstr "Přidává volbu na zobrazování hodnot NULL v dotazovacím nástroji"
 
-#: ../news.php:202
+#: ../news.php:208
 msgid "Add an option to show indent guides in the query tool."
 msgstr "Přidává volbu na zobrazení vodicích linek v dotazovacím nástroji."
 
-#: ../news.php:193
+#: ../news.php:199
 msgid ""
 "Add an option to the Report Tool to open the output file in the default "
 "browser."
@@ -421,11 +423,11 @@ msgstr ""
 "Přidává do reportovacího nástroje volbu na otevření výstupního souboru ve "
 "výchozím prohlížeči."
 
-#: ../news.php:201
+#: ../news.php:207
 msgid "Add auto-indent to the query tool."
 msgstr "Přidáno automatické odsazování v dotazovacím nástroji."
 
-#: ../news.php:386
+#: ../news.php:392
 msgid ""
 "Add autocompletion to the Query Tool, based on the logic used by psql. "
 "Triggered with Control+Space, and optionally the Tab key as well."
@@ -434,16 +436,16 @@ msgstr ""
 "na logice použité v psql. Spouští se pomocí Control+Mezerník a volitelně "
 "klávesou Tab."
 
-#: ../news.php:402
+#: ../news.php:408
 msgid "Add brace highlighting to the SQL Text Box control."
 msgstr ""
 "Přidává zvýrazňování syntaxe do ovládacího textového prvku na úpravu SQL."
 
-#: ../news.php:199
+#: ../news.php:205
 msgid "Add fillfactor support on tables and indexes."
 msgstr "Přidává podporu pro stupeň zaplnění u tabulek a indexů."
 
-#: ../news.php:194
+#: ../news.php:200
 msgid "Add keyboard shortcuts to show and hide UI elements."
 msgstr ""
 "Přidává klávesové zkratky na zobrazování a skrývání prvků uživatelského "
@@ -453,14 +455,14 @@ msgstr ""
 msgid "Add more index stats"
 msgstr "Přidáno více statistik k indexům"
 
-#: ../news.php:220
+#: ../news.php:226
 msgid ""
 "Add options to enable/disable triggers, both individually and per-table."
 msgstr ""
 "Přidává volby na povolení/zakázání triggerů, oboje individuálně pro "
 "jednotlivé tabulky."
 
-#: ../news.php:404
+#: ../news.php:410
 msgid "Add options to show line ends and whitespaces in the query tool."
 msgstr ""
 "Přidává volbu na zobrazování konců řádků a bílých znaků v dotazovacím "
@@ -474,7 +476,7 @@ msgstr ""
 "Přidat podporu tisku do dotazovacího nástroje (a pro další textové "
 "záležitosti?). [DP/AV]"
 
-#: ../news.php:296
+#: ../news.php:302
 msgid "Add support for Sun's compiler [Dhanaraj M]"
 msgstr "Přidává podporu pro kompilátor od firmy Sun [Dhanaraj M]"
 
@@ -482,7 +484,7 @@ msgstr "Přidává podporu pro kompilátor od firmy Sun [Dhanaraj M]"
 msgid "Add support for TRUNCATE triggers on PostgreSQL 8.4+"
 msgstr "Přidaná podpora pro TRUNCATE triggeru na PostgreSQL 8.4+"
 
-#: ../news.php:414
+#: ../news.php:420
 msgid "Add support for building Mac Universal Binaries."
 msgstr "Přidaná podpora pro vytváření Mac Universal Binaries."
 
@@ -490,23 +492,23 @@ msgstr "Přidaná podpora pro vytváření Mac Universal Binaries."
 msgid "Add support for direct debugging of functions with variadic parameters"
 msgstr "Přidaná podpora pro přímé ladění funkcí s proměnným počtem parametrů"
 
-#: ../news.php:182
+#: ../news.php:188
 msgid "Add support for enums in PostgreSQL 8.3+."
 msgstr "Přidaná podpora pro výčty v PostgreSQL 8.3+"
 
-#: ../news.php:205
+#: ../news.php:211
 msgid "Add support for function cost and row estimations in PostgreSQL 8.3+."
 msgstr "Přidává podporu pro cenu funkcí a odhad řádků v PostgreSQL 8.3+."
 
-#: ../news.php:179
+#: ../news.php:185
 msgid "Add support for multi-parameter aggregates."
 msgstr "Přidává podporu pro agregační funkce s více parametry."
 
-#: ../news.php:212
+#: ../news.php:218
 msgid "Add support for packages on EnterpriseDB."
 msgstr "Přidaná podpora pro balíky v EnterpriseDB."
 
-#: ../news.php:213
+#: ../news.php:219
 msgid "Add support for public synonyms on EnterpriseDB."
 msgstr "Přidaná podpora pro veřejná synonyma v EnterpriseDB."
 
@@ -540,25 +542,25 @@ msgstr "Propagace"
 msgid "Aggregates"
 msgstr "Agregační funkce"
 
-#: ../news.php:42
+#: ../news.php:48
 msgid "Allow EnterpriseDB packages to be created without bodies."
 msgstr "Lze vytvořit balík EnterpriseDB bez těla."
 
-#: ../news.php:187
+#: ../news.php:193
 msgid "Allow GUC variables to be preset on functions in PostgreSQL 8.3."
 msgstr "Umožňuje v PostgreSQL 8.3 ve funkcích přednastavit GUC proměnné."
 
-#: ../news.php:227
+#: ../news.php:233
 msgid "Allow GUCs to be set on users, roles and databases at create time."
 msgstr ""
 "Umožňuje při vytváření nastavit GUC (globální uživatelské nastavení) podle "
 "uživatelů, rolí a databází."
 
-#: ../news.php:39
+#: ../news.php:45
 msgid "Allow a debugging session to be cancelled correctly on  windows."
 msgstr "Lze ve Windows korektně zrušit ladící sezení."
 
-#: ../news.php:376
+#: ../news.php:382
 msgid "Allow database and schema display to be restricted."
 msgstr "Lze omezit zobrazené databáze a schémata."
 
@@ -573,12 +575,12 @@ msgstr ""
 " Díky tomu si mohou distributoři a administrátoři přednastavit instalaci "
 "podle potřeby."
 
-#: ../news.php:204
+#: ../news.php:210
 msgid "Allow detection and conversion of line ending format in the query tool."
 msgstr ""
 "Umožňuje detekovat a měnit formát ukončování řádků v dotazovacím nástroji."
 
-#: ../news.php:217
+#: ../news.php:223
 msgid "Allow entire servers to be backed up."
 msgstr "Lze zálohovat celé servery."
 
@@ -590,11 +592,11 @@ msgstr ""
 "Externí pomůcky jako pg_dump a pg_restore můžou pracovat \n"
 "s připojením SSL"
 
-#: ../news.php:218
+#: ../news.php:224
 msgid "Allow global objects to be backed up."
 msgstr "Lze zálohovat globální objekty."
 
-#: ../news.php:215
+#: ../news.php:221
 msgid ""
 "Allow install time re-branding. This allows rebranded versions of pgAdmin to "
 "be distributed without code modifications, but with references to the "
@@ -606,11 +608,11 @@ msgstr ""
 "odkazem na původní pgAdmin. Také přidává podporu pro tvarované úvodní "
 "obrazovky."
 
-#: ../news.php:69
+#: ../news.php:75
 msgid "Allow non-superusers to debug their own functions."
 msgstr "Uživatelé bez oprávnění superuživatele mohou ladit vlastní funkce."
 
-#: ../news.php:399
+#: ../news.php:405
 msgid "Allow pasting of entire rows in the View Data tool."
 msgstr "Při prohlížení dat lze vkládat celé řádky."
 
@@ -622,7 +624,7 @@ msgstr ""
 "Umožňuje, aby se pgAgent připojil k databázi na vzdáleném serveru, jako jsou "
 "například záložní stroje"
 
-#: ../news.php:380
+#: ../news.php:386
 msgid ""
 "Allow result copy quoting configuration to be set explicitly rather than "
 "using the result export settings."
@@ -630,17 +632,17 @@ msgstr ""
 "Umožňuje výslovně nastavit způsob použití uvozovek při kopírování výsledků "
 "dotazu, místo aby se použilo nastavení určené pro exportování."
 
-#: ../news.php:387
+#: ../news.php:393
 msgid ""
 "Allow selection and copy of subsets of the columns and rows in the Edit Grid."
 msgstr ""
 "Umožňuje vybrat a kopírovat jen podmnožinu sloupců a řádků v editační mřížce."
 
-#: ../news.php:381
+#: ../news.php:387
 msgid "Allow set returning functions to be created."
 msgstr "Lze vytvářet funkce vracející sady."
 
-#: ../news.php:203
+#: ../news.php:209
 msgid ""
 "Allow spaces to be used instead of tabs in SQL editors, and ensure the width "
 "can be set sensibly."
@@ -648,11 +650,11 @@ msgstr ""
 "Umožňuje v editoru SQL použít mezery místo tabelátorů a zajišťuje, že lze "
 "nastavit rozumnou šířku."
 
-#: ../news.php:392
+#: ../news.php:398
 msgid "Allow the admin modules to be built with PGXS if required."
 msgstr "Pokud je potřeba, lze admin moduly sestavit s PGXS."
 
-#: ../news.php:138
+#: ../news.php:144
 msgid ""
 "Allow the length of array-typed columns to be changed (eg. 'character varying"
 "[](100)'), per report from Ferenc Lutischan"
@@ -660,7 +662,7 @@ msgstr ""
 "Umožňuje změnit u sloupců typu pole změnit délku (např. „character varying[]"
 "(100)“. [nahlásil Ferenc Lutischan]"
 
-#: ../news.php:385
+#: ../news.php:391
 msgid ""
 "Allow the number of rows shown in the Edit Grid to be limited and add a "
 "'View top 100 rows' option to the table/view context menus."
@@ -669,7 +671,7 @@ msgstr ""
 "kontextového menu tabulky/pohledu přidává položku „Zobrazit prvních 100 "
 "řádků“."
 
-#: ../news.php:394
+#: ../news.php:400
 msgid ""
 "Allow the tab character to be used as the clipboard column separator to "
 "allow pasting of query results straight into apps like Excel, or OOo Calc."
@@ -685,7 +687,7 @@ msgstr ""
 "Dává uživateli šanci zrušit v editační mřížce mazání řádků, když se během\n"
 " něj vyskytne chyba"
 
-#: ../news.php:400
+#: ../news.php:406
 msgid ""
 "Allow the user to choose whether or not to restore the environment when "
 "reconnecting to a particular server."
@@ -693,7 +695,7 @@ msgstr ""
 "Umožňuje uživatelům zvolit si, zda chtějí nebo ne při opětovném připojení k "
 "serveru obnovit prostředí."
 
-#: ../news.php:292
+#: ../news.php:298
 msgid ""
 "Allow users with SUPERUSER but no other privilege flags to create roles and "
 "databases etc. per Andy Shellam."
@@ -715,7 +717,7 @@ msgstr ""
 "vývojářský tým. Následující dokument (dostupný pouze v angličtině) nastiňuje "
 "strukturu týmu a jak pracuje."
 
-#: ../news.php:148
+#: ../news.php:154
 msgid ""
 "Always open the PostgreSQL Help when selecting that menu option, even if "
 "connected to EnterpriseDB."
@@ -723,7 +725,7 @@ msgstr ""
 "Po provedení příslušné volby v menu se vždy otevírá nápověda k PostgreSQL, i "
 "když jste připojení k EnterpriseDB."
 
-#: ../news.php:43
+#: ../news.php:49
 msgid ""
 "Always refresh the data when the user clicks OK on the  edit grid options "
 "dialogue to ensure the filter/sort is applied to current data."
@@ -797,7 +799,7 @@ msgstr ""
 "pronikají do SQL a tak mohou následně dosáhnout vyšší produktivity v GUI i "
 "příkazovém řádku nebo skriptech."
 
-#: ../news.php:420
+#: ../news.php:426
 #, php-format
 msgid ""
 "As well as many other tweaks, improvements and bug fixes, details of which "
@@ -806,7 +808,7 @@ msgstr ""
 "A mnoho dalších vyladění, zdokonalení a oprav chyb. Podrobnosti o nich "
 "můžete najít v <a href=\"%s\">seznamu změn</a>."
 
-#: ../news.php:260
+#: ../news.php:266
 msgid "As well as many other tweaks, improvements and bug fixes."
 msgstr "A mnoho dalších vyladění, zdokonalení a oprav chyb."
 
@@ -818,25 +820,25 @@ msgstr "Automatické vyhledání serverů Postgres Plus na systémech Mac a Unix
 msgid "Auto-vacuum management (PostgreSQL 8.1 and above)"
 msgstr "Správa automatického úklidu (PostgreSQL 8.1 a novější)"
 
-#: ../news.php:119
+#: ../news.php:125
 msgid ""
 "Avoid a crash if the connection is lost and the Functions node is refreshed."
 msgstr ""
 "Vyhýbá se zhroucení v situaci, kdy je ztraceno spojení a provede se "
 "občerstvení uzlu Funkce."
 
-#: ../news.php:322
+#: ../news.php:328
 msgid "Avoid a crash when closing the query tool on Solaris [Dhanaraj M]."
 msgstr ""
 "Předchází zhroucení, když se zavírá dotazovací nástroj na Solarisu. "
 "[Dhanaraj M]"
 
-#: ../news.php:120
+#: ../news.php:126
 #, php-format
 msgid "Avoid crashes when working with objects with % characters in the name."
 msgstr "Předchází zhroucení při práci s objekty, které mají v názvu znak %."
 
-#: ../news.php:244
+#: ../news.php:250
 msgid ""
 "Avoid creating graphical explain nodes for triggers as they aren't part of "
 "the plan and mess up the layout."
@@ -844,7 +846,7 @@ msgstr ""
 "Vyvarovává se v grafickém výkladu vytváření uzlů pro triggery, které nejsou "
 "součástí plánu a akorát dělají nepořádek v nákresu."
 
-#: ../news.php:324
+#: ../news.php:330
 msgid ""
 "Avoid displaying multi line data in single line list controls, per Clodoaldo "
 "Pinto Neto."
@@ -852,7 +854,7 @@ msgstr ""
 "Zabraňuje zobrazení víceřádkových údajů v jednořádkových ovládacích prvcích. "
 "[Clodoaldo Pinto Neto]"
 
-#: ../news.php:64
+#: ../news.php:70
 msgid "Avoid quoting 'text' when used as a type name per Erwin."
 msgstr ""
 "Vyvarovává se uzavření slova „text“ do uvozovek, když je použité jako název "
@@ -886,11 +888,11 @@ msgstr "Než začnete instalovat"
 msgid "Better i18n support [GL]"
 msgstr "Lepší podpora i18n [GL]"
 
-#: ../news.php:186
+#: ../news.php:192
 msgid "Browser support for Operator Families in PostgreSQL 8.3."
 msgstr "Podpora pro rodiny operátorů z PostgreSQL 8.3 ve stromu objektů"
 
-#: ../news.php:229
+#: ../news.php:235
 msgid "Bug fixes"
 msgstr "Opravy chyb"
 
@@ -906,11 +908,11 @@ msgstr ""
 "představovalo neúměrně úsilí v porovnání s drobnou nepříjemností, kterou "
 "problém způsobuje."
 
-#: ../news.php:316
+#: ../news.php:322
 msgid "Build against PostgreSQL 8.2 on Windows."
 msgstr "Sestavení proti PostgreSQL 8.2 pod Windows."
 
-#: ../download/source.php:26
+#: ../download/source.php:27
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -936,7 +938,7 @@ msgstr ""
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "Zkontrolovat kvůli přechodu na wxWidgets 2.9/3.0"
 
-#: ../news.php:134
+#: ../news.php:140
 msgid ""
 "Check that functions exist before debugging or setting global breakpoints on "
 "them. Remove them from the treeview if not."
@@ -973,17 +975,17 @@ msgstr ""
 "Výběr jednoho z těchto dvou skriptů spustí dotazovací nástroj a zobrazí "
 "příslušný dotaz."
 
-#: ../news.php:52
+#: ../news.php:58
 msgid ""
 "Cleanup some other minor misbehaviours at the same time. Per report from "
 "Erwin."
 msgstr "Odstraňuje některé další drobné chyby v chování. [nahlásil Erwin]"
 
-#: ../news.php:128
+#: ../news.php:134
 msgid "Cleanup the covering index control logic in the Foreign Key dialogue."
 msgstr "Pročištění logiky krycích indexů v dialogu cizího klíče."
 
-#: ../news.php:252
+#: ../news.php:258
 msgid "Code cleanup/maintainability"
 msgstr "Čištění a údržba kódu"
 
@@ -1007,11 +1009,11 @@ msgstr "Přeložte pgadmin3.po do binární podoby pgadmin3.mo."
 msgid "Complete 9.1 support"
 msgstr "Dodělat podporu pro 9.1"
 
-#: ../news.php:370
+#: ../news.php:376
 msgid "Concurrent index builds."
 msgstr "Konkurenční budování indexů."
 
-#: ../news.php:377
+#: ../news.php:383
 msgid "Configurable indents in the SQL editor."
 msgstr "Nastavitelné odsazování v editoru SQL."
 
@@ -1035,7 +1037,7 @@ msgstr "Vlastnosti omezení"
 msgid "Constraints"
 msgstr "Omezení"
 
-#: ../news.php:57
+#: ../news.php:63
 msgid ""
 "Construct SQL used to add columns such that the entire operation happens in "
 "one statement to ensure default values and NOT NULL can be set together. Per "
@@ -1057,7 +1059,7 @@ msgstr "Přispějte k překladům"
 msgid "Conversions"
 msgstr "Konverze"
 
-#: ../news.php:56
+#: ../news.php:62
 msgid ""
 "Convert setting names to lower case so we don't end up with DateStyle and "
 "datestyle for example."
@@ -1065,25 +1067,25 @@ msgstr ""
 "Názvy v nastavení se převádí na malá písmena, aby jsme např. neskončili s "
 "DateStyle a datestyle."
 
-#: ../news.php:243
+#: ../news.php:249
 msgid "Copy and paste data correctly when in a cell editor in the edit grid."
 msgstr ""
 "Korektní kopírování a vkládání dat, když se nacházíte v buňce editační "
 "mřížky."
 
-#: ../news.php:46
+#: ../news.php:52
 msgid "Correct config window help paths."
 msgstr "Napravuje cesty k nápovědě v okně s nastavením."
 
-#: ../news.php:88
+#: ../news.php:94
 msgid "Correct the SQL generation for EDB inline triggers."
 msgstr "Správné generování SQL pro inline triggery EDB."
 
-#: ../news.php:135
+#: ../news.php:141
 msgid "Correct the URL for the EDB public synonym help page"
 msgstr "Oprava URL na stránku s nápovědou k veřejným synonymům EDB."
 
-#: ../news.php:65
+#: ../news.php:71
 msgid ""
 "Correctly generate table DDL when inherited columns follow the last 'real' "
 "column, per Peter Gagarinov."
@@ -1091,7 +1093,7 @@ msgstr ""
 "Korektně generuje DDL tabulky, tak aby zděděné sloupce následovaly za "
 "posledním „skutečným“ sloupce. [Peter Gagarinov]"
 
-#: ../news.php:94
+#: ../news.php:100
 msgid ""
 "Correctly identify the schema of trigger functions that are in system "
 "catalogs as can be the case with integrated full text search."
@@ -1100,7 +1102,7 @@ msgstr ""
 "katalogu, jako to může být v případě s integrovaným plně textovým "
 "vyhledáváním."
 
-#: ../news.php:48
+#: ../news.php:54
 msgid "Correctly quote role names when reverse engineering ACLs."
 msgstr "Správně vkládá názvy rolí do uvozovek při reverzním rekonstrukci ACL."
 
@@ -1112,7 +1114,7 @@ msgstr "Nelze nalézt obsah dokumentu!"
 msgid "Create a symlink to the pgAdmin binary:"
 msgstr "Vytvořte symbolický odkaz na binární soubor pgAdmin:"
 
-#: ../news.php:209
+#: ../news.php:215
 msgid ""
 "Create and reverse engineer edbspl procedures using Oracle compatible syntax."
 msgstr ""
@@ -1168,12 +1170,12 @@ msgstr "Vizualizátor rozdílů ve schématech databází [Adeel Khan]"
 msgid "Databases"
 msgstr "Databáze"
 
-#: ../news.php:74 ../news.php:106 ../news.php:161 ../news.php:302
-#: ../news.php:329 ../news.php:357 ../news.php:424
+#: ../news.php:80 ../news.php:112 ../news.php:167 ../news.php:308
+#: ../news.php:335 ../news.php:363 ../news.php:430
 msgid "Dave Page"
 msgstr "Dave Page"
 
-#: ../news.php:265
+#: ../news.php:271
 msgid ""
 "Dave Page<br />\n"
 "pgAdmin Development Team"
@@ -1221,7 +1223,7 @@ msgstr "Podpora odvozených databází"
 msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr "Navržený pro práci s více verzemi PostgreSQL a jeho odvozenin"
 
-#: ../news.php:401
+#: ../news.php:407
 msgid ""
 "Detect and warn the user of concurrent edits of functions, views and job "
 "steps."
@@ -1242,7 +1244,7 @@ msgstr "Vývoj"
 msgid "Development team"
 msgstr "Vývojářský tým"
 
-#: ../news.php:130
+#: ../news.php:136
 msgid ""
 "Disable CREATE FUNCTION etc. under EnterpriseDB packages because they are "
 "created as part of the main package body."
@@ -1250,11 +1252,11 @@ msgstr ""
 "Zakazuje CREATE FUNCTION apod. v balících EnterpriseDB, protože jsou "
 "vytvářené jako část těla hlavního balíku."
 
-#: ../news.php:50
+#: ../news.php:56
 msgid "Disable the RULE privilege on 8.2+ for views per Erwin."
 msgstr "Zakazuje oprávnění RULE v 8.2+ pro pohledy [Erwin]."
 
-#: ../news.php:183
+#: ../news.php:189
 msgid ""
 "Display catalogs separately from schemas, and don't treat them as system "
 "objects any longer (they can be hidden using the display options). Show only "
@@ -1268,21 +1270,21 @@ msgstr ""
 "jako je information_schema a katalogy sys a dbo v EDB. Omezuje "
 "funkcionalitu, aby se nenabízely volby vytvořit/upravit/odstranit."
 
-#: ../news.php:389
+#: ../news.php:395
 msgid "Display column dependencies."
 msgstr "Zobrazuje závislosti sloupců."
 
-#: ../news.php:408
+#: ../news.php:414
 msgid "Display non-default op classes in index definitions."
 msgstr "Zobrazuje nevýchozí třídy operátorů v definicích indexů."
 
-#: ../news.php:382
+#: ../news.php:388
 msgid ""
 "Display the client start time on the status dialogue with PostgreSQL 8.1+"
 msgstr ""
 "V dialogu stavu se pro PostgreSQL 8.1+ zobrazuje čas, kdy se klient připojil."
 
-#: ../news.php:241
+#: ../news.php:247
 msgid ""
 "Display the constraint OID for index constraints, not the index OID. Add the "
 "index OID as a new property."
@@ -1290,11 +1292,11 @@ msgstr ""
 "Zobrazuje omezení OID pro indexová omezení, ne indexové OID. Přidává "
 "indexové OID jako novou vlastnost."
 
-#: ../news.php:206
+#: ../news.php:212
 msgid "Display the is_called sequence flag."
 msgstr "Zobrazuje příznak sekvence is_called."
 
-#: ../news.php:195
+#: ../news.php:201
 msgid ""
 "Display the output pane in the query tool at query completion if it's "
 "currently hidden."
@@ -1302,7 +1304,7 @@ msgstr ""
 "Pokud je v dotazovacím nástroji skrytý výstupní panel, tak se po dokončení "
 "dotazu zobrazí."
 
-#: ../news.php:406
+#: ../news.php:412
 msgid ""
 "Display, and allow null values to be set in boolean columns in the Edit Grid."
 msgstr ""
@@ -1326,7 +1328,7 @@ msgstr "Dokumentace"
 msgid "Domains"
 msgstr "Domény"
 
-#: ../news.php:49
+#: ../news.php:55
 msgid ""
 "Don't allow the user to attempt to remove columns from an existing index or "
 "index constraint."
@@ -1334,7 +1336,7 @@ msgstr ""
 "Nedovolí uživateli pokoušet se odstranit sloupce z existujícího indexu nebo "
 "omezení."
 
-#: ../news.php:145
+#: ../news.php:151
 msgid ""
 "Don't allow the user to debug an EnterpriseDB package function or procedure "
 "if the body isn't defined."
@@ -1342,7 +1344,7 @@ msgstr ""
 "Nedovoluje uživateli ladit funkce nebo procedury z balíku EnterpriseDB, "
 "pokud není definované tělo."
 
-#: ../news.php:139
+#: ../news.php:145
 msgid ""
 "Don't allow the user to direct-debug trigger functions, only global "
 "breakpoints should be used on them (or the trigger itself)."
@@ -1350,14 +1352,14 @@ msgstr ""
 "Nedovoluje uživatelům přímo ladit funkce triggerů, pouze na nich mohou "
 "nastavit globální body přerušení (a nebo ladit přímo trigger)."
 
-#: ../news.php:348
+#: ../news.php:354
 msgid ""
 "Don't display index constraints under the Indexes node as well as the "
 "Contraints node, per Erwin."
 msgstr ""
 "Nezobrazuje omezení typu index pro uzlem Indexy ale uzlem Omezení. [Erwin]"
 
-#: ../news.php:55
+#: ../news.php:61
 msgid ""
 "Don't include the -h option when calling pg_dump or pg_restore if there is "
 "no hostname to specify."
@@ -1365,7 +1367,7 @@ msgstr ""
 "Vynechá se volba -h, pokud se volá pg_dump nebo pg_restore a není uvedený "
 "název hostitele."
 
-#: ../news.php:47
+#: ../news.php:53
 msgid ""
 "Don't load group roles and old-style groups on the security tab on 8.1 and "
 "higher."
@@ -1373,13 +1375,13 @@ msgstr ""
 "Nenačítá skupinové role a skupiny (zastaralý způsob) na kartě zabezpečení v "
 "8.1 a vyšším."
 
-#: ../news.php:132
+#: ../news.php:138
 msgid "Don't offer 'Drop Cascaded' unless the user can 'Drop' the object."
 msgstr ""
 "Nenabízí „Odstranit kaskádovitě“, pokud nemá uživatel u objektu povolenou "
 "funkci „Odstranit“."
 
-#: ../news.php:140
+#: ../news.php:146
 msgid ""
 "Don't offer edbspl functions when creating triggers as they should have "
 "inline bodies."
@@ -1387,7 +1389,7 @@ msgstr ""
 "Nenabízí edbspl funkce když se vytváří triggery, protože by měly mít vložená "
 "těla."
 
-#: ../news.php:142
+#: ../news.php:148
 msgid ""
 "Don't offer package names and system schemas as schemas when creating public "
 "synonyms."
@@ -1395,16 +1397,16 @@ msgstr ""
 "Při vytváření veřejných synonym se nenabízí názvy balíků a systémová "
 "schémata jako schéma."
 
-#: ../news.php:146
+#: ../news.php:152
 msgid ""
 "Don't offer the user the chance to create new columns on system catalogues."
 msgstr "Nedává uživateli šanci vytvořit nový sloupec v systémovém katalogu."
 
-#: ../news.php:352
+#: ../news.php:358
 msgid "Don't paste into empty edit grids, per Howard Wang"
 msgstr "Nevkládá do prázdných datových mřížek. [Howard Wang]"
 
-#: ../news.php:141
+#: ../news.php:147
 msgid ""
 "Don't quote database names that happen to be keywords when starting the "
 "debugger."
@@ -1412,12 +1414,12 @@ msgstr ""
 "Neuzavírá názvy databází do uvozovek, aby se staly klíčovými slovy při "
 "spuštění ladicího programu."
 
-#: ../news.php:240
+#: ../news.php:246
 msgid "Don't try to detect if integrated autovacuum is running on &lt; 8.1."
 msgstr ""
 "Nezkouší detekovat jestli integrovaný automatický úklid běží na &lt; 8.1."
 
-#: ../news.php:158
+#: ../news.php:164
 msgid ""
 "Don't try to enable/disable prepared transaction related controls on pre-8.1 "
 "servers, per Karl Zellnig"
@@ -1425,7 +1427,7 @@ msgstr ""
 "Nezkouší povolit/zakázat ovládací prvky vztahující se k předpřipraveným "
 "transakcím na serverech starší verze než 8.1. [Karl Zellnig]"
 
-#: ../news.php:87
+#: ../news.php:93
 msgid ""
 "Don't try to force new databases into a specific tablespace as this will "
 "error as non-superusers default to pg_default."
@@ -1454,7 +1456,7 @@ msgstr "Zálohování/obnova"
 msgid "Dump/restore dialog"
 msgstr "Dialog pro zálohování/obnovu"
 
-#: ../news.php:101
+#: ../news.php:107
 msgid ""
 "EDB-SPL functions require NULL to be passed in out-params when debugging."
 msgstr ""
@@ -1490,7 +1492,7 @@ msgstr "Editační mřížka"
 msgid "Edit the *.po file. The steps described are related to poEdit only."
 msgstr "Upravte *.po soubor. Následující kroky platí pouze pro poEdit:"
 
-#: ../news.php:341
+#: ../news.php:347
 msgid ""
 "Enable the OK button on the Database properties dialog when the owner is "
 "changed, per Jim Cullison"
@@ -1498,7 +1500,7 @@ msgstr ""
 "Zpřístupňuje tlačítko OK v dialogu vlastností databáze, když se změní "
 "vlastník. [Jim Cullison]"
 
-#: ../news.php:326
+#: ../news.php:332
 msgid ""
 "Enable the OK button on the database properties dialog when variables are "
 "changed."
@@ -1510,7 +1512,7 @@ msgstr ""
 msgid "English"
 msgstr "Angličtina"
 
-#: ../news.php:393
+#: ../news.php:399
 msgid ""
 "Enhance the query tool to allow copy/paste of arbitrary groups of columns, "
 "rows or individual cells."
@@ -1518,7 +1520,7 @@ msgstr ""
 "Zdokonaluje dotazovací nástroj tak, aby šlo kopírovat/vkládat libovolné "
 "skupiny sloupců, řádků nebo individuálních buněk."
 
-#: ../news.php:189
+#: ../news.php:195
 msgid "Enhancements"
 msgstr "Vylepšení"
 
@@ -1526,7 +1528,7 @@ msgstr "Vylepšení"
 msgid "Ensure a newline is included between notices in the query tool"
 msgstr "Zaručení, že se vloží nový řádek mezi poznámky v dotazovacím nástroji"
 
-#: ../news.php:354
+#: ../news.php:360
 msgid ""
 "Ensure backup and restore options are enabled when appropriate (this is a "
 "wxWidgets bug, fixed in wxWidgets 2.8.0rc1)"
@@ -1534,7 +1536,7 @@ msgstr ""
 "Zajišťuje, že volby pro zálohování a obnovu jsou dostupné, kdy mají být "
 "(toto je chybou wxWidgets a bylo to opraveno ve wxWidgets 2.8.0rc1)"
 
-#: ../news.php:318
+#: ../news.php:324
 msgid ""
 "Ensure column headers and the insert row are shown in the edit grid when no "
 "rows exist in the table being editted, per Bob Pawley."
@@ -1542,22 +1544,22 @@ msgstr ""
 "Zajišťuje, že editační mřížka bude mít na začátku záhlaví a prázdný řádek "
 "pro nový záznam, i když je upravovaná tabulka prázdná. [Bob Pawley]"
 
-#: ../news.php:97
+#: ../news.php:103
 msgid "Ensure enums are offered as datatypes for columns."
 msgstr "Zajišťuje, že se v datových typech pro sloupce nabízí výčtové typy."
 
-#: ../news.php:232
+#: ../news.php:238
 msgid "Ensure files can be converted to the required encoding before saving."
 msgstr ""
 "Zajišťuje, že soubory mohou být před uložením převedené do požadovaného "
 "kódování."
 
-#: ../news.php:71
+#: ../news.php:77
 msgid "Ensure info passed to Guru hints is HTML-safe."
 msgstr ""
 "Zajišťuje, že informace předávané do Rady odborníka jsou HTML-bezpečné."
 
-#: ../news.php:234
+#: ../news.php:240
 msgid ""
 "Ensure logfiles and pgpass files can be correctly saved on Windows when the "
 "username contains non-ASCII chars."
@@ -1565,11 +1567,11 @@ msgstr ""
 "Zajišťuje, aby šly pod Windows korektně uložit soubory s evidencí a pgpass  "
 "i když jméno uživatele obsahuje ne-ASCII znaky."
 
-#: ../news.php:248
+#: ../news.php:254
 msgid "Ensure pgAgent jobs can be managed on Greenplum database."
 msgstr "Zajišťuje, že úkoly pgAgent lze spravovat na databázi Greenplum."
 
-#: ../news.php:102
+#: ../news.php:108
 msgid ""
 "Ensure that EDB-SPL trigger DDL code is appropriately formatted on newer "
 "builds of EnterpriseDB."
@@ -1585,7 +1587,7 @@ msgstr ""
 "Zabezpečuje, že při úpravách formátovaného textu zůstane konzistentní "
 "ukončování řádků"
 
-#: ../news.php:123
+#: ../news.php:129
 msgid ""
 "Ensure the 'Create Rule' context menu option is always offered when "
 "appropriate."
@@ -1593,7 +1595,7 @@ msgstr ""
 "Zajišťuje že položka kontextového menu „Vytvořit pravidlo“ je vždy nabízená, "
 "kde má."
 
-#: ../news.php:103
+#: ../news.php:109
 msgid ""
 "Ensure the password and confirmed password always match when adding or "
 "editing roles or users."
@@ -1601,11 +1603,11 @@ msgstr ""
 "Ověření, zda se heslo a kontrolní heslo shodují vždy, kdy se přidává nebo "
 "upravuje role nebo uživatel."
 
-#: ../news.php:242
+#: ../news.php:248
 msgid "Ensure the password change dialog works with stored passwords."
 msgstr "Zajišťuje, aby dialog na změnu hesla pracoval s uloženými hesly."
 
-#: ../news.php:100
+#: ../news.php:106
 msgid ""
 "Ensure the properties dialogues will work sanely with objects named \" "
 "\" (!)."
@@ -1613,7 +1615,7 @@ msgstr ""
 "Zajišťuje, že dialogy vlastností budou rozumně pracovat s objekty "
 "pojmenovanými „ “ (!)."
 
-#: ../news.php:235
+#: ../news.php:241
 msgid ""
 "Ensure we always allow the maximum string length possible to be entered in "
 "the Edit Grid."
@@ -1640,7 +1642,7 @@ msgstr "Rozsáhlá dokumentace"
 msgid "FAQ"
 msgstr "Časté dotazy a odpovědi"
 
-#: ../news.php:63
+#: ../news.php:69
 msgid ""
 "FOSDEM fix: Include overriding columns in reverse engineered SQL for child "
 "tables, rather than commenting them out and marking as inherited."
@@ -1693,7 +1695,7 @@ msgstr "Dokončit podporu 9.0 s omezeními exkluzí [GL]"
 msgid "First, it is now possible to build a query graphically."
 msgstr "Zaprvé je nyní možné dotazy sestavovat graficky."
 
-#: ../news.php:149
+#: ../news.php:155
 msgid ""
 "Fix EnterpriseDB public synonym loading so that they aren't considered "
 "system objects."
@@ -1701,7 +1703,7 @@ msgstr ""
 "Opravuje načítání veřejných synonym EnterpriseDB tak, aby nebyla považována "
 "za systémové objekty."
 
-#: ../news.php:156
+#: ../news.php:162
 msgid ""
 "Fix a bug preventing the 'on error' flag of a pgAgent job step being edited, "
 "per Jon Roberts."
@@ -1709,7 +1711,7 @@ msgstr ""
 "Opravuje chybu bránící úpravě příznaku „on error“ kroku úkolu pgAgent. [Jon "
 "Roberts]"
 
-#: ../news.php:118
+#: ../news.php:124
 msgid ""
 "Fix a bug that could cause a crash on GTK when closing the query tool in "
 "certain circumstances."
@@ -1717,7 +1719,7 @@ msgstr ""
 "Opravuje chybu, která může způsobit za určitých okolností zhroucení v GTK "
 "při zavírání dotazovacího nástroje."
 
-#: ../news.php:278
+#: ../news.php:284
 msgid ""
 "Fix a bug that prevented adding new nodes to a Slony cluster, per Duncan "
 "Beeby."
@@ -1725,7 +1727,7 @@ msgstr ""
 "Opravuje chybu, která bránila přidání nového uzlu do clusteru Slony. [Ducan "
 "Beeby]"
 
-#: ../news.php:40
+#: ../news.php:46
 msgid ""
 "Fix a corner case in which closing the debugger window  following a failed "
 "attempt to create a global breakpoint (for example, because of an existing "
@@ -1735,7 +1737,7 @@ msgstr ""
 "vytvoření globálního bodu přerušení (např. protože nějaký bod přerušení "
 "existuje) může pod Windows způsobit zhroucení."
 
-#: ../news.php:237
+#: ../news.php:243
 msgid ""
 "Fix a crash in the Edit Grid which occured if Delete was pressed whilst "
 "editing a boolean."
@@ -1743,7 +1745,7 @@ msgstr ""
 "Opravu zhroucení v editační mřížce, které se objevovalo při stisku Delete "
 "během úpravy údaje typu boolean."
 
-#: ../news.php:290
+#: ../news.php:296
 msgid ""
 "Fix a crash on Mac that occurred when using some combo boxes, per David "
 "Lowry."
@@ -1751,7 +1753,7 @@ msgstr ""
 "Opravuje zhroucení v systému Mac, které se vyskytovalo při použití některých "
 "výběrových seznamů. [David Lowry]"
 
-#: ../news.php:126
+#: ../news.php:132
 msgid ""
 "Fix a crash that occured if an object called '%' was selected in the "
 "treeview, per Alexander Steffens."
@@ -1759,7 +1761,7 @@ msgstr ""
 "Opravuje zhroucení, které nastalo, když se ve stromu vybral objekt nazvaný "
 "„%“ [Alexander Steffens]"
 
-#: ../news.php:127
+#: ../news.php:133
 msgid ""
 "Fix a line number error in the debugger seen with procedures which start on "
 "the same line as the 'CREATE PROCEDURE foo IS ...' Per report from Heikki "
@@ -1769,13 +1771,13 @@ msgstr ""
 "procedurami začínajícími na stejném řádku jako „CREATE PROCEDURE foo "
 "IS ...“. [nahlásil Heikki Linnakangas]"
 
-#: ../news.php:286
+#: ../news.php:292
 msgid "Fix a minor bug in app bundle creation for Mac [Florian G. Pflug]"
 msgstr ""
 "Opravuje drobnou chybu při vytváření aplikačního balíčku pro Mac. [Florian "
 "G. Pflug]"
 
-#: ../news.php:347
+#: ../news.php:353
 msgid ""
 "Fix a minor bug in the index reverse engineering when using non-default "
 "operator classes per Andrus."
@@ -1783,7 +1785,7 @@ msgstr ""
 "Opravuje drobnou chybu v reverzním vytváření pro indexy, kdy je použitá "
 "třída operátorů, která není výchozí. [Andrus]"
 
-#: ../news.php:283
+#: ../news.php:289
 msgid ""
 "Fix a rare bug in the Edit Grid which could cause a crash when editting data "
 "in tables with deleted columns and a primary key that isn;t at the beginning "
@@ -1793,7 +1795,7 @@ msgstr ""
 "během úprav dat v tabulce se smazanými řádky a primárním indexem, který není "
 "na začátku tabulky. Děkujeme Patriku De Visschereovi za testování."
 
-#: ../news.php:297
+#: ../news.php:303
 msgid ""
 "Fix an issue in the Query Tool export option that could result in blank "
 "lines in the export file, per Mathias Durst and Mike."
@@ -1801,25 +1803,25 @@ msgstr ""
 "Opravuje problém v exportu z dotazovacího nástroje, který by mohl způsobit "
 "prázdné řádky v exportovaném souboru. [Mathias Durst a Mike]"
 
-#: ../news.php:277
+#: ../news.php:283
 msgid "Fix an overflow bug in pgAgent, per report from Sabin Coanda"
 msgstr "Opravuje chybu přetečení v pgAgent nahlášenou od Sabin Coanda"
 
-#: ../news.php:151
+#: ../news.php:157
 msgid "Fix character number display in the query tool."
 msgstr "Opravuje zobrazování znaků číslic v dotazovacím nástroji."
 
-#: ../news.php:98
+#: ../news.php:104
 msgid ""
 "Fix column dialogue to allow proper modification of array columns per Erwin."
 msgstr ""
 "Opravuje dialog sloupce, aby šly správně upravovat sloupce s poli. [Erwin]"
 
-#: ../news.php:288
+#: ../news.php:294
 msgid "Fix default perspective names, per Ezequias."
 msgstr "Opravuje výchozí perspektivní názvy. [Ezequias]"
 
-#: ../news.php:343
+#: ../news.php:349
 msgid "Fix deletion of stored procedures, Per Erwin."
 msgstr "Opravuje mazání uložených procedur [Erwin]."
 
@@ -1837,29 +1839,29 @@ msgstr ""
 "Opravuje vytváření seznamu skupinových rolí ve výběrových seznamech na "
 "kartách oprávnění"
 
-#: ../news.php:294
+#: ../news.php:300
 msgid "Fix localisation of 'Tab' as a copy delimiter."
 msgstr "Opravuje vyhledávání znaku „Tab“ jako oddělovače při kopírování."
 
-#: ../news.php:291
+#: ../news.php:297
 msgid "Fix menu icon for Gnome [Nathan Egge]"
 msgstr "Opravuje ikony menu pro Gnome [Nathan Egge]"
 
-#: ../news.php:150
+#: ../news.php:156
 msgid ""
 "Fix path discovery on Unix so standard installs can be relocated easily."
 msgstr ""
 "Opravuje vyhledávání cest v Unixu tak, aby šla standardní instalace snadno "
 "přesunout."
 
-#: ../news.php:314
+#: ../news.php:320
 msgid ""
 "Fix per-table autovacuum settings for PostgreSQL >= 8.2 per Devrim Gunduz."
 msgstr ""
 "Opravuje nastavení automatického úklidu pro jednotlivé tabulky v PostgreSQL "
 ">= 8.2 [Devrim Gunduz]"
 
-#: ../news.php:143
+#: ../news.php:149
 msgid ""
 "Fix pgAgent's job query when a host agent is specified so that jobs don't "
 "execute every time round the loop regardless of schedule, per Brian Kalbfus."
@@ -1868,25 +1870,25 @@ msgstr ""
 "nespouštěly při každém průchodu smyčky, ale jen když jsou naplánované. "
 "[Brian Kalfus]"
 
-#: ../news.php:33
+#: ../news.php:39
 msgid "Fix potential crash bug in the query tool logging code, per Erwin."
 msgstr ""
 "Opravuje chybu v kódu pro evidování v dotazovacím nástroji, která může "
 "potenciálně způsobit zhroucení [Erwin]."
 
-#: ../news.php:282
+#: ../news.php:288
 msgid "Fix procedure support on EnterpriseDB AS81."
 msgstr "Opravuje podporu procedur v EnterpriseDB AS81."
 
-#: ../news.php:70
+#: ../news.php:76
 msgid "Fix query that tries to apply the DB restriction."
 msgstr "Opravuje dotazy, které zkouší aplikovat omezení databází."
 
-#: ../news.php:67
+#: ../news.php:73
 msgid "Fix query that tries to apply the schema restriction."
 msgstr "Opravuje dotazy, které zkouší aplikovat omezení schémat."
 
-#: ../news.php:299
+#: ../news.php:305
 msgid ""
 "Fix query tool title which was unfortunately broken by an earlier fix for "
 "another bug."
@@ -1894,7 +1896,7 @@ msgstr ""
 "Opravuje titulek dotazovacího nástroje, který se nedopatřením poškodil při "
 "dřívější opravě jiné chyby."
 
-#: ../news.php:245
+#: ../news.php:251
 msgid ""
 "Fix reverse engineering of data types with a size of 0, such as \"timestamp"
 "(0) without timezone\"."
@@ -1902,18 +1904,18 @@ msgstr ""
 "Opravuje reverzní vytváření datových typů s délkou 0, jako je např. "
 "„timestamp(0) without timezone“."
 
-#: ../news.php:131
+#: ../news.php:137
 msgid "Fix some broken references to online help pages."
 msgstr "Opravuje některé chybné odkazy na stránky s on-line nápovědou."
 
-#: ../news.php:315
+#: ../news.php:321
 msgid ""
 "Fix some oddities in the way current per-table vacuum settings are displayed."
 msgstr ""
 "Opravuje některé nezvyklosti ve způsobu jakým je zobrazené nastavení "
 "automatického úklidu u jednotlivých tabulek."
 
-#: ../news.php:350
+#: ../news.php:356
 msgid "Fix some portability issues in the configure code [Max Khon]"
 msgstr ""
 "Opravuje některé problémy s přenositelností v kódu nastavení [Max Khon]"
@@ -1922,13 +1924,13 @@ msgstr ""
 msgid "Fix support for 'bit varying' columns"
 msgstr "Opravuje podporu pro sloupce typu „bit varying“"
 
-#: ../news.php:91
+#: ../news.php:97
 msgid "Fix the WITH ADMIN membership option when creating roles."
 msgstr ""
 "Opravuje volbu členství „Může přidělovat/odebírat oprávnění“ při vytváření "
 "rolí."
 
-#: ../news.php:147
+#: ../news.php:153
 msgid ""
 "Fix the debugger to send actual NULL values rather than 'NULL' through the "
 "EnterpriseDB callable statement API. Allow parameter values to be NULL or "
@@ -1940,7 +1942,7 @@ msgstr ""
 "NULL nebo prázdný řetězec jak v PostgreSQL tak EnterpriseDB při použití "
 "stejné syntaxe jako v editační mřížce."
 
-#: ../news.php:137
+#: ../news.php:143
 msgid ""
 "Fix the debugger's connection class to ensure database names requiring "
 "quotes will work and that it can be used with SSL and Kerberos connections."
@@ -1949,7 +1951,7 @@ msgstr ""
 "názvy databází vyžadující uzavření do uvozovek a že budou moci být použité "
 "při spojením přes SSL a Kerberos."
 
-#: ../news.php:287
+#: ../news.php:293
 msgid ""
 "Fix the graphical explain to properly display backwards index scan nodes, "
 "per Brendan O'Shea."
@@ -1963,7 +1965,7 @@ msgstr ""
 "Opravené uživatelské rozhraní indexu, tak aby pracoval s názvy obsahujícími "
 "čárky"
 
-#: ../news.php:154
+#: ../news.php:160
 msgid ""
 "Fix the locks tab on the server status dialogue so it works correctly with "
 "PostgreSQL 8.3+."
@@ -1971,7 +1973,7 @@ msgstr ""
 "Opravuje panel zámků v dialogu se stavem serveru, aby správně pracoval s "
 "PostgreSQL 8.3+."
 
-#: ../news.php:51
+#: ../news.php:57
 msgid ""
 "Fix the logging system to ensure that errors from the query tool get logged, "
 "and notices are only output once."
@@ -1979,11 +1981,11 @@ msgstr ""
 "Opravuje systém evidence tak, aby bylo zajištěné, že se zaevidují chyby z "
 "dotazovacího nástroje a upozornění se objeví jen jednou."
 
-#: ../news.php:93
+#: ../news.php:99
 msgid "Fix the privilege editor on the Language dialogue, per Bborie Park."
 msgstr "Opravuje editor oprávnění v dialogu jazyku. [Bborie Park]"
 
-#: ../news.php:249
+#: ../news.php:255
 msgid ""
 "Fix the table, index and index constraint tablespace property combo boxes to "
 "allow changes to tablespace."
@@ -1991,7 +1993,7 @@ msgstr ""
 "Opravuje výběrový seznam prostorů tabulek pro tabulky, indexy a indexová "
 "omezení, aby bylo možné měnit prostor tabulek."
 
-#: ../news.php:129
+#: ../news.php:135
 msgid ""
 "Fix to refresh version string and number, and last OID, per a report from "
 "Alexander Kirpa."
@@ -1999,7 +2001,7 @@ msgstr ""
 "Opravuje občerstvování řetězců a čísel s verzí a posledního OID. [nahlásil "
 "Alexander Kirpa]"
 
-#: ../news.php:231
+#: ../news.php:237
 msgid ""
 "Fixed UTF8 option was not effective by file reading and writing of a query "
 "and fixed crash at the time of file save."
@@ -2042,7 +2044,7 @@ msgstr ""
 msgid "Function properties"
 msgstr "Vlastnosti funkce"
 
-#: ../news.php:247
+#: ../news.php:253
 msgid ""
 "Function/procedure signatures do not include OUT params. Fix this oversight, "
 "and cleanup much of the related code."
@@ -2086,7 +2088,7 @@ msgstr ""
 "Create_Postgres_Database_pgAdmin.do\">průvodní video</a>, které ukazuje "
 "některé z funkcí aplikace pgAdmin."
 
-#: ../news.php:89
+#: ../news.php:95
 msgid ""
 "Generate function signatures correctly if the first parameters are OUT only."
 msgstr "Generuje korektně hlavičku funkce, i když je první parametr pouze OUT."
@@ -2115,7 +2117,7 @@ msgstr "Objekty Greenplum (jako externí tabulky, fronty zdrojů)"
 msgid "Groups"
 msgstr "Skupiny"
 
-#: ../news.php:351
+#: ../news.php:357
 msgid "Guard against permission denied errors in the edit grid per Howard Wang"
 msgstr ""
 "Chrání se před chybami kvůli zamítnutí přístupu v editační mřížce [Howard "
@@ -2129,7 +2131,7 @@ msgstr "Pokyny"
 msgid "Guru Hints to help less experienced users"
 msgstr "Rady odborníka na pomoc méně zkušeným uživatelům"
 
-#: ../news.php:293
+#: ../news.php:299
 msgid ""
 "Handle non-default schema paths properly in the Foreign Key dialogue, per "
 "Philipp Specht"
@@ -2137,11 +2139,11 @@ msgstr ""
 "Pracuje správně s nevýchozími cestami schémat v dialogu cizího klíče. "
 "[Philipp Specht]"
 
-#: ../news.php:246
+#: ../news.php:252
 msgid "Handle resetting of sequence values more consistently."
 msgstr "Více konzistentně se řeší reset hodnot v sekvenci."
 
-#: ../news.php:136
+#: ../news.php:142
 msgid ""
 "Handle the corner case when a user includes quotes in an object name "
 "(backport of 2007-10-26 fix applied to trunk)"
@@ -2149,7 +2151,7 @@ msgstr ""
 "Ošetřuje zřídkavý případ, kdy uživatel vloží uvozovky do názvu objektu "
 "(zpětný port opravy z 26.10.2007 aplikované do trunk)."
 
-#: ../news.php:66
+#: ../news.php:72
 msgid ""
 "Hide array variants of table-types in datatype selectors where we already "
 "hide the table type itself."
@@ -2157,11 +2159,11 @@ msgstr ""
 "Skrývá varianty „pole“ od tabulkových typů ve výběru datových typů v "
 "případě, že už byly skryty tabulkové typy."
 
-#: ../news.php:416
+#: ../news.php:422
 msgid "Hide binary data (bytea) in the edit grid."
 msgstr "Skrývá binární data (bytea) v editační mřížce."
 
-#: ../news.php:405
+#: ../news.php:411
 msgid ""
 "Highlight the error word in the query tool if a syntax error is reported by "
 "the database."
@@ -2181,7 +2183,7 @@ msgstr "Jak přispět"
 msgid "Howto"
 msgstr "Jak na to"
 
-#: ../news.php:262
+#: ../news.php:268
 msgid ""
 "I would like to take this opportunity to thank all those who gave their \n"
 "time to help with the development, testing, translation and packaging of "
@@ -2191,7 +2193,7 @@ msgstr ""
 "pomoci s\n"
 " vývojem, testováním, překladem a balením tohoto vydání."
 
-#: ../news.php:422
+#: ../news.php:428
 msgid ""
 "I would like to take this opportunity to thank all those who gave their time "
 "to help with the development, testing, translation and packaging of this "
@@ -2200,7 +2202,7 @@ msgstr ""
 "Rád bych při této příležitosti poděkoval všem, kteří věnovali svůj čas "
 "pomoci s vývojem, testováním, překladem a balením tohoto vydání."
 
-#: ../news.php:362
+#: ../news.php:368
 msgid ""
 "I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source "
 "graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS "
@@ -2216,7 +2218,7 @@ msgstr ""
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 
-#: ../news.php:54
+#: ../news.php:60
 msgid ""
 "If stopping the server service fails after stopping dependent services, wait "
 "5 seconds and try again up to 10 times to allow the dependents time to "
@@ -2310,7 +2312,7 @@ msgstr ""
 "Když chcete současný dotaz nahradit některým z předchozích uložených, stačí "
 "jej vybrat ve vyskakovacím seznamu."
 
-#: ../news.php:53
+#: ../news.php:59
 msgid "Ignore the type modifier for domains in function signatures."
 msgstr "Ignoruje modifikátory typů pro domény v hlavičkách funkcí."
 
@@ -2340,7 +2342,7 @@ msgstr ""
 " spustíte tlačítkem PGS na panelu nástrojů. Kompletní návod k pgscriptu\n"
 " je k dispozici <a href=\"%s\">tady</a>."
 
-#: ../news.php:344
+#: ../news.php:350
 msgid "Include IN/OUT/INOUT keywords in procedure identifiers in the treeview."
 msgstr ""
 "Zahrnuje klíčová slova IN/OUT/INOUT do identifikátorů procedur ve stromu "
@@ -2372,7 +2374,7 @@ msgstr ""
 msgid "Installation"
 msgstr "Instalace"
 
-#: ../news.php:181
+#: ../news.php:187
 msgid "Integrate the EnterpriseDB pl/pgsql and EDB-SPL debugger with pgAdmin."
 msgstr ""
 "Integruje ladicí programy pro EDB-SPL a pl/pgsql z EnterpriseDB s pgAdmin."
@@ -2519,7 +2521,7 @@ msgstr "Linux"
 msgid "List archives"
 msgstr "Archívy konferencí"
 
-#: ../news.php:238
+#: ../news.php:244
 msgid ""
 "Load second and subsequent postgresql.conf files into the config editor "
 "correctly."
@@ -2592,7 +2594,7 @@ msgstr "Údržba"
 msgid "Maintenance dialogs"
 msgstr "Dialogové okno správy"
 
-#: ../news.php:176
+#: ../news.php:182
 msgid "Major features"
 msgstr "Hlavní vlastnosti"
 
@@ -2600,7 +2602,7 @@ msgstr "Hlavní vlastnosti"
 msgid "Major new features"
 msgstr "Hlavní nové vlastnosti"
 
-#: ../news.php:412
+#: ../news.php:418
 msgid "Make elements of the main windows dockable for maximum configurability."
 msgstr ""
 "Prvky hlavního okna jsou dokovatelné, abyste si je mohli maximálně "
@@ -2643,11 +2645,11 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr "Microsoft Windows &trade; 2000 a novější"
 
-#: ../news.php:390
+#: ../news.php:396
 msgid "Minimal linking for pgAgent under *nix."
 msgstr "Minimalizace vazeb pro pgAgent pod *nixy."
 
-#: ../news.php:281
+#: ../news.php:287
 msgid "Minor fix for edb/spl functions."
 msgstr "Drobné opravy pro edb/spl funkce."
 
@@ -2655,7 +2657,7 @@ msgstr "Drobné opravy pro edb/spl funkce."
 msgid "Miscellanous"
 msgstr "Různé"
 
-#: ../news.php:289
+#: ../news.php:295
 msgid ""
 "Monitor the streams again whilst backing up on Mac - this no longer crashes "
 "in wx2.8. Per Dave Livesay."
@@ -2736,7 +2738,7 @@ msgstr ""
 "Byly přidány nové skripty: SELECT pro funkce a EXEC pro procedury (v "
 "EnterpriseDB's Postgres Plus Advanced Server)."
 
-#: ../news.php:99
+#: ../news.php:105
 msgid ""
 "Newer build of EnterpriseDB consistently strip trailing semi-colons from "
 "package headers and bodies. Update reverse engineering allow for this."
@@ -2775,7 +2777,7 @@ msgstr ""
 "Poznámka: PostgreSQL 8.2 a novější obsahují admin pack přímo jako doplňující "
 "modul."
 
-#: ../news.php:192
+#: ../news.php:198
 msgid ""
 "Numerous changes to the database browser code to ensure changes to objects "
 "are properly reflected in the main window. In addition, the expanded/"
@@ -2855,7 +2857,7 @@ msgstr ""
 msgid "One can now change a <b>language's owner</b>."
 msgstr "Nyní můžete změnit <b>vlastníka jazyka</b>."
 
-#: ../news.php:346
+#: ../news.php:352
 msgid ""
 "Only enable the 'Include SQL' checkbox on the report dialog if there is SQL "
 "to include, Per Ezequias Rodrigues da Rocha"
@@ -2863,7 +2865,7 @@ msgstr ""
 "Povoluje vyběrové políčko „Zahrnout SQL do reportu“ v dialogu reportu pouze "
 "pokud obsahuje SQL. [Ezequias Rodrigues da Rocha]"
 
-#: ../news.php:122
+#: ../news.php:128
 msgid "Only offer the Jobs node if the user can access the pgagent schema."
 msgstr ""
 "Nabízí uzel „Úkoly“ pouze pokud má uživatel přístup ke schématu pgagent."
@@ -3009,7 +3011,7 @@ msgstr ""
 "Více jak 20 podporovaných překladů. Podrobný seznam podporovaných jazyků je "
 "dostupný na stránce <a href=\"%s\">stav překladu</a>."
 
-#: ../news.php:375
+#: ../news.php:381
 msgid "Overhaul of server config settings."
 msgstr "Přepracovat nastavování serveru."
 
@@ -3021,7 +3023,7 @@ msgstr ""
 "Jsou dostupné balíčky sestavené pro Solaris na Sparc a Intel, se svolením "
 "Sun Microsystems."
 
-#: ../news.php:62
+#: ../news.php:68
 msgid "Parse function parameter names correctly when they contain commas."
 msgstr "Správně analyzuje názvy parametrů funkcí, když obsahují čárky."
 
@@ -3092,7 +3094,7 @@ msgstr ""
 "Prostudujte si v nápovědě pro překladatele, jak správně pracovat s "
 "proměnnými (%s a %d) a klávesovými zkratkami (&amp;)."
 
-#: ../news.php:20
+#: ../news.php:26
 msgid ""
 "Please visit the <a href=\"download\">download area</a> to get your copy "
 "now. Any questions or other support issues should be sent to <a href="
@@ -3118,7 +3120,7 @@ msgstr ""
 msgid "Plugins menu"
 msgstr "Menu zásuvných modulů"
 
-#: ../news.php:207
+#: ../news.php:213
 msgid ""
 "Position the cursor at the error position when an error occurs in the Query "
 "Tool. Ensure the line is visible."
@@ -3130,7 +3132,7 @@ msgstr ""
 msgid "PostgreSQL 7.3 and above"
 msgstr "PostgreSQL 7.3 a novější"
 
-#: ../news.php:368
+#: ../news.php:374
 msgid "PostgreSQL 8.2 support:"
 msgstr "Podpora PostgreSQL 8.2:"
 
@@ -3209,23 +3211,23 @@ msgstr ""
 msgid "Powerful query tool with colour syntax highlighting"
 msgstr "Výkonný dotazovací nástroj se zvýrazňováním syntaxe"
 
-#: ../news.php:397
+#: ../news.php:403
 msgid ""
 "Pre-encrypt passwords before sending them down the wire, or displaying them "
 "in SQL statements."
 msgstr "Zašifruje hesla před odesláním po síti nebo zobrazením v SQL výrazu."
 
-#: ../news.php:210
+#: ../news.php:216
 msgid "Preserve column widths between queries in the query tool."
 msgstr "Zachovává šířky sloupců mezi dotazy v dotazovacím nástroji"
 
-#: ../news.php:353
+#: ../news.php:359
 msgid "Prevent a crash from the query tool when using File -> Exit on GTK"
 msgstr ""
 "Zabraňuje zhroucení při zvolení Soubor -&gt; Ukončit v dotazovacím nástroji "
 "na GTK."
 
-#: ../news.php:340
+#: ../news.php:346
 msgid ""
 "Prevent a crash if the 'View Filtered Data' filter dialog is cancelled. Per "
 "Erwin Brandstetter."
@@ -3233,12 +3235,12 @@ msgstr ""
 "Zabraňuje zhroucení, když zrušíte filtrovací dialog „Zobrazit filtrovaná "
 "data“. [Erwin Brandstetter]"
 
-#: ../news.php:86
+#: ../news.php:92
 msgid "Prevent a crash when viewing databases with % in the name."
 msgstr ""
 "Předchází zhroucení aplikace, když název prohlížené databáze obsahuje %."
 
-#: ../news.php:384
+#: ../news.php:390
 msgid ""
 "Prevent deletion of the blank item in config editors, and ensure undo will "
 "only work on the appropriate line."
@@ -3246,7 +3248,7 @@ msgstr ""
 "Zabraňuje smazání prázdných položek v editoru nastavení a zajišťuje, že "
 "funkce „zpět“ bude pracovat jen na patřičných řádcích."
 
-#: ../news.php:133
+#: ../news.php:139
 msgid ""
 "Prevent non-superusers from attempting to use the debugger because the "
 "plugin API won't let them anyway."
@@ -3254,7 +3256,7 @@ msgstr ""
 "Zabraňuje ne-superuživatelům pokoušet se použít ladicí program, protože API "
 "zásuvného modulu je stejně odmítne."
 
-#: ../news.php:285
+#: ../news.php:291
 msgid ""
 "Prevent the Edit Grid Filter causing a crash if an invalid filter containing "
 "a % is used, per Erwin."
@@ -3262,7 +3264,7 @@ msgstr ""
 "Zabraňuje zhroucení, které způsobuje filtr v editační mřížce, když se "
 "použije neplatný filtr obsahující %. [Erwin]"
 
-#: ../news.php:280
+#: ../news.php:286
 msgid ""
 "Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL 8.2"
 "+, per Erwin."
@@ -3270,7 +3272,7 @@ msgstr ""
 "Zabraňuje opětovnému povolení oprávnění RULE pro tabulky na PostgreSQL 8.2+. "
 "[Erwin]"
 
-#: ../news.php:313
+#: ../news.php:319
 msgid ""
 "Prevent the filter/sort options dialogue being opened when data is being "
 "refreshed, per Erwin Brandstetter."
@@ -3278,11 +3280,11 @@ msgstr ""
 "Zabraňuje otevření dialogu filtrování/řazení během občerstvování dat. [Erwin "
 "Brandstetter]"
 
-#: ../news.php:124
+#: ../news.php:130
 msgid "Prevent the user from trying to debug catalog objects."
 msgstr "Brání uživatelům zkoušet ladit katalogové objekty."
 
-#: ../news.php:44
+#: ../news.php:50
 msgid ""
 "Prevent unsaved changes in the edit grid being lost if the filter or sorting "
 "dialogue is opened."
@@ -3303,7 +3305,7 @@ msgstr ""
 msgid "Privacy policy"
 msgstr "Ochrana soukromí"
 
-#: ../news.php:371
+#: ../news.php:377
 msgid "Privilege changes (database CONNECT, and sequence USAGE)."
 msgstr "Změny oprávnění (CONNECT u databáze a USAGE u sekvence)."
 
@@ -3336,7 +3338,7 @@ msgstr ""
 "enterprisedb.com\">EnterpriseDB</a> poskytla Apple Powerbook, aby se mohl "
 "vyvíjet a spravovat port pro Mac OSX."
 
-#: ../news.php:239
+#: ../news.php:245
 msgid ""
 "Prompt the user to save changes before opening a file from the recent files "
 "menu on the Query Tool."
@@ -3344,20 +3346,20 @@ msgstr ""
 "Dotazuje se uživatele, jestli chce uložit změny při otevírání z nabídky "
 "naposledy použitých souborů v dotazovacím nástroji."
 
-#: ../news.php:323
+#: ../news.php:329
 msgid ""
 "Properly drop foreign keys in schemas whose names require quoting, per M S."
 msgstr ""
 "Správně odstraňuje cizí klíče ve schématech jejichž názvy potřebují uzavřít "
 "do uvozovek. [M S]"
 
-#: ../news.php:157
+#: ../news.php:163
 msgid "Properly escape _'s in queries for schemas, per Derek Fonda."
 msgstr ""
 "Správně ošetřuje pomocí escape sekvence „_“ v dotazech na schémata. [Derek "
 "Fonda]"
 
-#: ../news.php:155
+#: ../news.php:161
 msgid ""
 "Properly format the object comments shown in the properties list when a "
 "collection node is selected. Per report from Mike Blackwell."
@@ -3365,22 +3367,22 @@ msgstr ""
 "Náležitě formátuje komentáře objektů zobrazené v seznamu vlastností, když je "
 "vybraný souhrnný uzel. [nahlásil Mike Blackwell]"
 
-#: ../news.php:349
+#: ../news.php:355
 msgid "Properly quote function parameter names, per Ken Priest."
 msgstr "Správně uzavírá do uvozovek názvy parametrů funkcí. [Ken Priest]"
 
-#: ../news.php:61
+#: ../news.php:67
 msgid "Properly quote synonym names when refreshing."
 msgstr "Správně uzavírá do uvozovek názvy synonym pří občerstvování."
 
-#: ../news.php:58
+#: ../news.php:64
 msgid ""
 "Properly quote the maintenance database name when creating a new connection."
 msgstr ""
 "Správně uzavírá do uvozovek název servisní databáze při vytváření nového "
 "připojení."
 
-#: ../news.php:121
+#: ../news.php:127
 msgid ""
 "Properly reverse-engineer the SQL for indexes with DESC, NULLS FIRST or "
 "NULLS LAST column options."
@@ -3388,7 +3390,7 @@ msgstr ""
 "Náležitě reverzně vytváří SQL pro indexy s volbami DESC, NULLS FIRST nebo "
 "NULLS LAST u sloupců."
 
-#: ../news.php:319
+#: ../news.php:325
 msgid "Properly size the backup dialog, per Patrick Headley."
 msgstr "Správné rozměry zálohovacího dialogu. [Patrick Headley]"
 
@@ -3425,11 +3427,11 @@ msgstr ""
 "Předělat dialog tabulek tak, aby se odstranily subdialogy, kde je to možné, "
 "a nahradily rozhraním ve stylu mřížek. [DP]"
 
-#: ../news.php:256
+#: ../news.php:262
 msgid "Refactor code to remove database base classes."
 msgstr "Předělání kódu na odstranění základních databázových tříd."
 
-#: ../news.php:255
+#: ../news.php:261
 msgid ""
 "Refactor code to remove support for building the Query Tool with a listview "
 "rather than a grid."
@@ -3437,7 +3439,7 @@ msgstr ""
 "Předělává kód tak, aby se odstranila podpora pro sestavení dotazovacího "
 "nástroje se seznamem místo s mřížkou."
 
-#: ../news.php:250
+#: ../news.php:256
 msgid ""
 "Refactor the Query Tool's execQuery function to prevent pgAdmin freezing "
 "while two long running queries are executing simultaneously."
@@ -3445,22 +3447,22 @@ msgstr ""
 "Předělává funkci execQuery z dotazovacího nástroje tak, aby se zabránilo "
 "zamrznutí pgAdmin při současném spuštění dvou dotazů, které běží dlouho."
 
-#: ../news.php:92
+#: ../news.php:98
 msgid "Refresh Views correctly on EnterpriseDB."
 msgstr "Korektní občerstvování pohledů na EnterpriseDB."
 
-#: ../news.php:325
+#: ../news.php:331
 msgid "Refresh database objects correctly, per Guy Rouillier."
 msgstr "Občerstvuje korektně databázové objekty. [Guy Rouillier]"
 
-#: ../news.php:125
+#: ../news.php:131
 msgid ""
 "Refresh the tree without erroring after creating a new package on "
 "EnterpriseDB."
 msgstr ""
 "Strom se po vytvoření nového balíku v EnterpriseDB občerstvuje bez chyb."
 
-#: ../news.php:391
+#: ../news.php:397
 msgid "Reject invalid command line options in pgAgent."
 msgstr "Odmítá neplatné volby příkazového řádku v pgAgent."
 
@@ -3470,19 +3472,19 @@ msgstr "Odmítá neplatné volby příkazového řádku v pgAgent."
 msgid "Release %s"
 msgstr "Vydání %s"
 
-#: ../news.php:226
+#: ../news.php:232
 msgid "Remember last used backup/restore filenames."
 msgstr "Pamatuje si naposledy použitý název souboru pro zálohování/obnovu."
 
-#: ../news.php:225
+#: ../news.php:231
 msgid "Remember last used save definition filename."
 msgstr "Pamatuje si naposledy použitý název souboru pro uložení definice."
 
-#: ../news.php:279
+#: ../news.php:285
 msgid "Remember the server's SSL mode property correctly."
 msgstr "Pamatuje si správně vlastnosti režimu SSL u serveru."
 
-#: ../news.php:254
+#: ../news.php:260
 msgid "Remove a lot debugging code of little or no use."
 msgstr ""
 "Odstraňuje spoustu ladicího kódu, který se téměř nebo vůbec nepoužíval."
@@ -3491,7 +3493,7 @@ msgstr ""
 msgid "Remove an obsolete FORCE option on the Maintenance dialogue"
 msgstr "Odstraněná zastaralá volba FORCE v dialogu údržby"
 
-#: ../news.php:197
+#: ../news.php:203
 msgid ""
 "Remove bundled copies of PostgreSQL/Slony docs to make it easier to localise "
 "the rest. Instead allow the use of local or online copies of the PostgreSQL, "
@@ -3501,23 +3503,23 @@ msgstr ""
 "najít zbytek. Místo toho umožňuje použít lokální nebo on-line kopie "
 "dokumentace PostgreSQL, EnterpriseDB nebo Slony, každé nezávisle."
 
-#: ../news.php:257
+#: ../news.php:263
 msgid ""
 "Remove code specific to versions of wxWidgets that we no longer support."
 msgstr ""
 "Odstraňuje kód specifický pro verze wxWidgets, které již nejsou podporované."
 
-#: ../news.php:60
+#: ../news.php:66
 msgid "Remove long-dead Explain Text option from the Query Tool."
 msgstr ""
 "Odebírá dlouho nepoužívanou volbu Vyložit text z dotazovacího nástroje."
 
-#: ../news.php:258
+#: ../news.php:264
 msgid "Remove obsolete support for non-Unicode builds."
 msgstr ""
 "Odstraňuje zastaralou podporu pro sestavování v jiném kódování než Unicode."
 
-#: ../news.php:90
+#: ../news.php:96
 msgid ""
 "Remove the confusing and near-useless sequence combo box from the column "
 "dialog per discussion on support list."
@@ -3529,12 +3531,12 @@ msgstr ""
 msgid "Remove the un-maintained Tip of the Day feature"
 msgstr "Odstraňuje neudržovanou funkci „Tip na tento den“"
 
-#: ../news.php:216
+#: ../news.php:222
 msgid ""
 "Replace the Mac installer with code to create a distribution disk image."
 msgstr "Nahrazuje Mac instalátor kódem na vytvoření obrazu instalačního disku."
 
-#: ../news.php:317
+#: ../news.php:323
 msgid "Restore dialog sizes correctly."
 msgstr "Korektní obnova rozměrů dialogu."
 
@@ -3549,20 +3551,20 @@ msgstr ""
 "další sloupec, ale &lt;enter&gt; přesouvá na další řádek, místo toho aby oba "
 "měnili sloupec"
 
-#: ../news.php:196
+#: ../news.php:202
 msgid "Retain column widths when refreshing the edit grid."
 msgstr "Zachová šířku sloupců při občerstvování editační mřížky."
 
-#: ../news.php:223
+#: ../news.php:229
 msgid "Retain the clipboard contents on app exit."
 msgstr "Uchování obsahu schránky po ukončení aplikace."
 
-#: ../news.php:407
+#: ../news.php:413
 msgid "Retain values in the edit grid following a failed insert or update."
 msgstr ""
 "Udrží v editační mřížce hodnoty i po neúspěšném vložení nebo aktualizaci."
 
-#: ../news.php:321
+#: ../news.php:327
 msgid ""
 "Reverse engineer columns with multi-word names (like 'timestamp with "
 "timezone') correctly so that precision and array modifiers are included "
@@ -3582,7 +3584,7 @@ msgstr ""
 msgid "Review your translation carefully:"
 msgstr "Pečlivě svůj překlad zkontrolujte:"
 
-#: ../news.php:342
+#: ../news.php:348
 msgid ""
 "Rework the Find/Replace code to fix a couple of minor bugs and improve "
 "readability."
@@ -3691,11 +3693,11 @@ msgstr "Prohlížeč stavu a procesů serveru"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Serverové jazyky (jako pl/pgsql, pl/perl, pl/python apod.)"
 
-#: ../news.php:373
+#: ../news.php:379
 msgid "Shared database comments."
 msgstr "Sdílené databázové komentáře."
 
-#: ../news.php:59
+#: ../news.php:65
 msgid ""
 "Show the schema correctly for EDB public synonyms that point to other "
 "synonyms."
@@ -3719,7 +3721,7 @@ msgstr ""
 "Na instalaci pgAdmin jednoduše použijte Synaptic, stejně jako u jiných "
 "balíčků nebo spusťte ručně v příkazovém řádku následující příkazy:"
 
-#: ../news.php:85
+#: ../news.php:91
 msgid "Size of the column label of SQLGrid was made variable."
 msgstr "Velikost záhlaví sloupce SQL mřížky je vytvářená proměnná."
 
@@ -3772,7 +3774,7 @@ msgstr ""
 "proměnných: <i>Server %s user %s is logged in</i> lze přeložit jako "
 "<i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
 
-#: ../news.php:236
+#: ../news.php:242
 msgid "Sort server list alphabetically."
 msgstr "Řazení seznamu serverů abecedně."
 
@@ -3801,7 +3803,7 @@ msgstr ""
 "chtějí přeložit vlastní kopii pgAdmin nebo používají platformu, pro kterou "
 "nenabízíme sestavené balíčky."
 
-#: ../news.php:68
+#: ../news.php:74
 msgid ""
 "Specify the length correctly when creating columns of 'time with time zone' "
 "and friends."
@@ -3809,7 +3811,7 @@ msgstr ""
 "Určuje správně délku, když se vytváří sloupec „time with time zone“ a "
 "spřátelené."
 
-#: ../news.php:191
+#: ../news.php:197
 msgid ""
 "Speed up loading of functions and procedures by rewriting some horribly "
 "inefficient code."
@@ -3853,7 +3855,7 @@ msgstr ""
 "schopní dobře používat syntaxi SQL. Někdy je lepší ponechat nepřeložené "
 "originální slovo než vytvářet nějaké modní výrazy, které nikdo nepochopí. "
 
-#: ../news.php:41
+#: ../news.php:47
 msgid ""
 "Store pgAgent job step result codes in an int4 column. int2 was proving too "
 "small in some cases resulting in an error."
@@ -3891,7 +3893,7 @@ msgstr ""
 "Konečně je dostupná podpora pro <b>funkce typmod in/out</b> u\n"
 " uživatelsky definovaných typů."
 
-#: ../news.php:378
+#: ../news.php:384
 msgid "Support for language templates."
 msgstr "Podpora pro jazykové šablony."
 
@@ -4296,7 +4298,7 @@ msgstr ""
 "\">vývojářského týmu</a>, <a href=\"%s\">seznam úkolů</a> a <a href=\"%s"
 "\">seznam změn</a>."
 
-#: ../news.php:166
+#: ../news.php:172
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of \n"
 "pgAdmin 1.8.0, the Open Source graphical PostgreSQL administration tool "
@@ -4312,7 +4314,7 @@ msgstr ""
 "kódu \n"
 "a variantách binárních formátů z:"
 
-#: ../news.php:334
+#: ../news.php:340
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.6.1, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -4324,7 +4326,7 @@ msgstr ""
 "FreeBSD, Mac OS X a Solarisu, který je teď dostupný ke stažení ve zdrojovém "
 "kódu a variantách binárních formátů z:"
 
-#: ../news.php:307
+#: ../news.php:313
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.6.2, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -4336,7 +4338,7 @@ msgstr ""
 "FreeBSD, Mac OS X a Solarisu, který je teď dostupný ke stažení ve zdrojovém "
 "kódu a variantách binárních formátů z:"
 
-#: ../news.php:270
+#: ../news.php:276
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.6.3, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -4350,7 +4352,7 @@ msgstr ""
 "a Solarisu, který je teď dostupný ke stažení ve zdrojovém kódu a variantách "
 "binárních formátů z:"
 
-#: ../news.php:111
+#: ../news.php:117
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.8.1, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -4364,7 +4366,7 @@ msgstr ""
 "a Solarisu, který je teď dostupný ke stažení ve zdrojovém kódu a variantách "
 "binárních formátů z:"
 
-#: ../news.php:79
+#: ../news.php:85
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.8.2, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -4376,7 +4378,7 @@ msgstr ""
 "FreeBSD, Mac OS X a Solarisu, který je teď dostupný ke stažení ve zdrojovém "
 "kódu a variantách binárních formátů z:"
 
-#: ../news.php:24
+#: ../news.php:30
 msgid ""
 "The pgAdmin Development Team are pleased to announce the release of pgAdmin "
 "1.8.4, the Open Source graphical PostgreSQL administration tool for Windows, "
@@ -4697,7 +4699,7 @@ msgstr ""
 "dosáhl 100%, jednoduše zkopírujte tyto řetězce pomocí Alt+C v poEdit. Např. "
 "přeložte <i>ACL</i> jako <i>ACL</i>, <i>AFTER</i> jako <i>AFTER</i>, atd."
 
-#: ../download/macosx.php:24
+#: ../download/macosx.php:25
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -4803,7 +4805,7 @@ msgstr ""
 "jak pokračovat dál najdete v instrukcích na sestavení ze <a href=\"%s"
 "\">zdrojového kódu</a>."
 
-#: ../download/windows.php:27
+#: ../download/windows.php:28
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -4888,7 +4890,7 @@ msgstr "Přeloženo"
 msgid "Translation"
 msgstr "Překlad"
 
-#: ../news.php:184
+#: ../news.php:190
 msgid ""
 "Treat all functions & procedures as 'Functions' in PostgreSQL, and class "
 "only EnterpriseDB edbspl functions returning void as 'Procedures'."
@@ -4896,7 +4898,7 @@ msgstr ""
 "V PostgreSQL ošetřuje všechny funkce a procedury jak „funkce“ a pouze třídu "
 "edbspl funkcí v EnterpriseDB, které vrací void, jako „procedury“."
 
-#: ../news.php:180
+#: ../news.php:186
 msgid ""
 "Treat view columns as first class citizens. Show them on the treeview, and "
 "allow their properties page to be viewed. Allow editting of the default "
@@ -4916,7 +4918,7 @@ msgstr "Funkce triggerů"
 msgid "Trigger properties"
 msgstr "Vlastnosti triggeru"
 
-#: ../news.php:298
+#: ../news.php:304
 msgid "Truncate comments containing \\r\\n correctly, per Erwin."
 msgstr "Korektně ořezává komentáře, které obsahují \\r\\n. [Erwin]"
 
@@ -4955,7 +4957,7 @@ msgstr "Nastavení v Ubuntu Drapper"
 msgid "Ubuntu Feisty or Gutsy configuration"
 msgstr "Nastavení v Ubuntu Feisty nebo Gutsy"
 
-#: ../news.php:96
+#: ../news.php:102
 msgid ""
 "Undecorated out-param types must be included in EDB-SPL function signatures "
 "when altering comments or privileges or dropping functions or procedures."
@@ -4993,7 +4995,7 @@ msgstr ""
 "vyhledávání).\n"
 " Jedna z věcí, která byla do 1.10 přidaná je právě tato podpora."
 
-#: ../news.php:45
+#: ../news.php:51
 msgid ""
 "Update node text when refreshing treeview nodes in case part of the "
 "identifier has changed."
@@ -5001,17 +5003,17 @@ msgstr ""
 "Aktualizuje text uzlu při občerstvování uzlů stromu v případě, kdy se "
 "změnila část identifikátoru."
 
-#: ../news.php:295
+#: ../news.php:301
 msgid "Update to support the changed syntax of pg_dump 8.2+."
 msgstr "Aktualizace kvůli podpoře změněné syntaxe pg_dump 8.2+."
 
-#: ../news.php:372
+#: ../news.php:378
 msgid "Use E'' style escape string syntax when required."
 msgstr ""
 "Pokud je požadováno, tak se použije řetězec ošetřený escape sekvencemi ve "
 "stylu E\"."
 
-#: ../news.php:211
+#: ../news.php:217
 msgid ""
 "Use EnterpriseDB's utilities for dump and restore EDB databases to ensure "
 "non-PG extensions can be handled."
@@ -5019,11 +5021,11 @@ msgstr ""
 "Používá pomůcky z EnterpriseDB pro zálohování a obnovu databází "
 "EnterpriseDB, aby se mohlo pracovat i s ne-PG rozšířeními."
 
-#: ../news.php:208
+#: ../news.php:214
 msgid "Use Oracle style syntax for edbspl triggers."
 msgstr "Používá syntaxi ve stylu Oracle pro edbspl triggery."
 
-#: ../news.php:415
+#: ../news.php:421
 msgid ""
 "Use SQL standard type names where appropriate. Show them as 'aliases' in the "
 "browser."
@@ -5031,7 +5033,7 @@ msgstr ""
 "Pokud je to vhodné, používají se standardní názvy typů. Ve prohlížeči se "
 "zobrazují jako „přezdívky“."
 
-#: ../news.php:214
+#: ../news.php:220
 msgid ""
 "Use pg_statindex (if available) to optionally display additional index "
 "statistics on a per-table basis. Also works for index-constraints."
@@ -5040,7 +5042,7 @@ msgstr ""
 "doplňkových statistik o indexu u jednotlivých tabulek. Stejně tak funguje i "
 "pro omezení typu index."
 
-#: ../news.php:221
+#: ../news.php:227
 msgid ""
 "Use pg_stattuple (if available) to optionally display additional table "
 "statistics on a per-table basis."
@@ -5048,7 +5050,7 @@ msgstr ""
 "Využívá se pg_stattuple (pokud je dostupný) k zobrazení nepovinných "
 "doplňkových statistik o tabulce u jednotlivých tabulek."
 
-#: ../news.php:152
+#: ../news.php:158
 msgid ""
 "Use popen() when testing the versions of helper apps on non-windows "
 "platforms to avoid an obscure bug on PPC Macs that could leave wxExecute "
@@ -5058,7 +5060,7 @@ msgstr ""
 "popen(), aby se zabránilo obskurní chybě na PPC Mac, která způsobovala "
 "nedefinovatelné zatuhnutí během čekání na proces zombie."
 
-#: ../news.php:284
+#: ../news.php:290
 msgid ""
 "Use the correct version of the Slony scripts when creating a new cluster, "
 "per Duncan Beeby."
@@ -5066,7 +5068,7 @@ msgstr ""
 "Využívá správnou verzi skriptů Slony při vytváření nového clusteru. [Duncan "
 "Beeby]"
 
-#: ../news.php:395
+#: ../news.php:401
 msgid "Use virtual data table for Query Tool, to eliminate retrieval time."
 msgstr ""
 "Používá virtuální datové tabulky pro dotazovací nástroj, aby se zkrátil čas "
@@ -5117,7 +5119,7 @@ msgstr "WIN1256"
 msgid "WIN874"
 msgstr "WIN874"
 
-#: ../news.php:233
+#: ../news.php:239
 msgid ""
 "Warn the user and allow her to abort before re-running a backup or restore "
 "to or from the same file, in the same session (can occur if the first "
@@ -5127,7 +5129,7 @@ msgstr ""
 "obnovy do nebo ze stejného souboru během jednoho sezení (může nastat pokud "
 "první pokus vrátí chybu nebo varování)"
 
-#: ../news.php:95
+#: ../news.php:101
 msgid "Warn the user if a file cannot be saved in the default encoding."
 msgstr "Varování uživateli, když nelze soubor uložit ve výchozím kódování."
 
@@ -5241,7 +5243,7 @@ msgstr ""
 "technický důvodů a kvůli podpoře. Vaše e-mailové adresy neposkytujeme žádným "
 "dalším organizacím vyjma případů, kdy by to vyžadoval zákon."
 
-#: ../news.php:345
+#: ../news.php:351
 msgid ""
 "When checking the position & size of windows, use the dimensions of the "
 "current display, not the primary."
@@ -5257,7 +5259,7 @@ msgstr ""
 "Po kliknutí se spustí konzola psql a připojí se do databáze,\n"
 " která je v pgAdmin právě vybraná."
 
-#: ../news.php:153
+#: ../news.php:159
 msgid ""
 "When creating a new index and specifying both tablespace and fill factor, "
 "make sure the SQL is formulated correctly, per Stefan Wolf"
@@ -5333,7 +5335,7 @@ msgstr ""
 "Můžete svobodně registrovat kdekoliv, kde registrační podmínky neomezí práva "
 "členů týmu pgAdmin."
 
-#: ../index.php:14
+#: ../index.php:14 ../news.php:14
 #, php-format
 msgid ""
 "You can also find all the fixed bugs in this <a href=\"http://code.pgadmin."
@@ -5395,7 +5397,7 @@ msgstr ""
 msgid "You'll also see the last time a superuser reloaded the configuration."
 msgstr "Rovněž uvidíte, kdy uživatel naposledy načetl nastavení."
 
-#: ../news.php:12
+#: ../news.php:18
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. Please see the <a href=\"/development/"
@@ -5407,7 +5409,7 @@ msgstr ""
 "vydání nebo přejděte na stránku <a href=\"download\">Stáhnout</a>, kde "
 "můžete nové vydání najít."
 
-#: ../index.php:12
+#: ../index.php:12 ../news.php:12
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is primarily a bug fix "
@@ -5503,7 +5505,7 @@ msgstr ""
 "PostgreSQL 8.4+\n"
 " a EnterpriseDB a <b>funkce variadic</b> (s proměnným počtem parametrů)."
 
-#: ../news.php:20
+#: ../news.php:26
 msgid ""
 "pgAdmin 1.10.0 has now been released! Highlights of the new release include "
 "a graphical query builder, a scripting engine in the query tool and support "
@@ -5516,7 +5518,7 @@ msgstr ""
 "PostgreSQL 8.4 a celé do doplňuje <a href=\"/development/changelog.php"
 "\">řada dalších změn</a>. "
 
-#: ../news.php:16
+#: ../news.php:22
 msgid ""
 "pgAdmin 1.10.1 has now been released. Please see the <a href=\"/development/"
 "changelog.php\">CHANGELOG</a> for details of the bug fixes in this release "
@@ -5571,8 +5573,8 @@ msgstr ""
 "aktualizovat soubor s popisem jazyků <a href=\"%s\">i18n/pgadmin3.lng</a>, "
 "aby se překlad objevil ve výběrovém seznamu s jazyky."
 
-#: ../news.php:74 ../news.php:106 ../news.php:161 ../news.php:302
-#: ../news.php:329 ../news.php:357 ../news.php:424
+#: ../news.php:80 ../news.php:112 ../news.php:167 ../news.php:308
+#: ../news.php:335 ../news.php:363 ../news.php:430
 msgid "pgAdmin Development Team"
 msgstr "Vývojářský tým pgAdmin"
 
@@ -6076,7 +6078,7 @@ msgstr ""
 "použít <a href=\"%s\">Kbabel</a>, který najdete v mnoha populárních "
 "Linuxových distribucích."
 
-#: ../news.php:366
+#: ../news.php:372
 msgid ""
 "v1.6.0 represents over a year of development and testing to bring you a host "
 "of new features and improvements including:"
@@ -6084,19 +6086,19 @@ msgstr ""
 "v1.6.0 představuje přes rok vývoje a testování a přináší vám spoustu nových "
 "funkcí a zdokonalení včetně:"
 
-#: ../news.php:338
+#: ../news.php:344
 msgid "v1.6.1 is primarily a bug fix release, including the following changes:"
 msgstr "v1.6.1 je vydání zaměřené na opravu chyb, včetně následujících změn:"
 
-#: ../news.php:311
+#: ../news.php:317
 msgid "v1.6.2 is primarily a bug fix release, including the following changes:"
 msgstr "v1.6.2 je vydání zaměřené na opravu chyb, včetně následujících změn:"
 
-#: ../news.php:275
+#: ../news.php:281
 msgid "v1.6.3 is primarily a bug fix release, including the following changes:"
 msgstr "v1.6.3 je vydání zaměřené na opravu chyb, včetně následujících změn:"
 
-#: ../news.php:173
+#: ../news.php:179
 msgid ""
 "v1.8.0 represents nearly a year of development and testing to bring you \n"
 "a host of new features and improvements including:"
@@ -6105,23 +6107,23 @@ msgstr ""
 "nových \n"
 "funkcí a zdokonalení včetně:"
 
-#: ../news.php:116
+#: ../news.php:122
 msgid "v1.8.1 is primarily a bug fix release, including the following changes:"
 msgstr "v1.8.1 je vydání zaměřené na opravu chyb, včetně následujících změn:"
 
-#: ../news.php:83
+#: ../news.php:89
 msgid "v1.8.2 is primarily a bug fix release, including the following changes:"
 msgstr "v1.8.2 je vydání zaměřené na opravu chyb, včetně následujících změn:"
 
-#: ../news.php:36
+#: ../news.php:42
 msgid "v1.8.3 fixes:"
 msgstr "Opravy v1.8.3:"
 
-#: ../news.php:30
+#: ../news.php:36
 msgid "v1.8.4 fixes:"
 msgstr "Opravy v1.8.4:"
 
-#: ../news.php:28
+#: ../news.php:34
 msgid ""
 "v1.8.4 is primarily a bug fix release, including the following changes. Note "
 "that v1.8.3 was never announced as a release due to an issue found at the "

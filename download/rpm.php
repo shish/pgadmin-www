@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <h4>' . sprintf(_("Maintainer: %s"), "Devrim G&uuml;nd&uuml;z and others") . '</h4>
 
-<p>' . sprintf(_("pgAdmin III RPM packages are available for several Linux distributions from the PostgreSQL <a href=\"%s\">RPM repository</a>."), "http://yum.pgsqlrpms.org/index2.php") . '</p>
+<p>' . sprintf(_("pgAdmin III RPM packages are available for several Linux distributions from the PostgreSQL <a href=\"%s\">RPM repository</a>."), "http://yum.pgrpms.org/") . '</p>
 
 <p>' . _("RPMs for older versions of pgAdmin are available from the pgAdmin download sites:") . '</p>
 <ul>

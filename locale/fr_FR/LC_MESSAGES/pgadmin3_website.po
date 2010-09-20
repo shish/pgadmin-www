@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-30 11:57+0200\n"
+"POT-Creation-Date: 2010-09-20 09:39+0200\n"
 "PO-Revision-Date: 2010-07-25 00:45+0100\n"
 "Last-Translator: Guillaume Lelarge <guillaume@lelarge.info>\n"
 "Language-Team:  <pgsql-fr-general@postgresql.org>\n"
@@ -27,14 +27,12 @@ msgstr ""
 "F7). Vous pouvez désactiver le comportement d'auto-rollback (généralement "
 "pour annuler manuellement jusqu'à un certain point de sauvegarde)."
 
-#: ../index.php:16
+#: ../index.php:14
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - vidéo de démo pour pgAdmin"
 
-#: ../index.php:10 ../news.php:10 ../news.php:16 ../news.php:20 ../news.php:24
-#: ../news.php:28 ../news.php:83 ../news.php:115 ../news.php:170
-#: ../news.php:274 ../news.php:311 ../news.php:338 ../news.php:366
+#: ../index.php:10
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin v%s disponible"
@@ -59,31 +57,27 @@ msgstr "<a href=\"%s\">Télécharger pgAgent</a>"
 #: ../download/freebsd.php:18 ../download/macosx.php:14
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
-#: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/macosx.php:22
-#: ../download/opensuse.php:14 ../download/opensuse.php:15
-#: ../download/opensuse.php:16 ../download/opensuse.php:17
-#: ../download/opensuse.php:18 ../download/opensuse.php:19
-#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
-#: ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/macosx.php:19 ../download/opensuse.php:14
+#: ../download/opensuse.php:15 ../download/opensuse.php:16
+#: ../download/opensuse.php:17 ../download/opensuse.php:18
+#: ../download/opensuse.php:19 ../download/rpm.php:16 ../download/rpm.php:17
+#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
 #: ../download/source.php:16 ../download/source.php:17
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
-#: ../download/source.php:22 ../download/source.php:23
-#: ../download/source.php:24 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:30 ../download/source.php:31
-#: ../download/source.php:32 ../download/source.php:33
+#: ../download/source.php:27 ../download/source.php:28
+#: ../download/source.php:29 ../download/source.php:30
+#: ../download/source.php:31
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instructions v%s</a>"
@@ -298,62 +292,6 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "Accès à tous les objets PostgreSQL"
 
-#: ../news.php:326
-msgid ""
-"Add '...' to truncated column comments in table SQL, per Erwin Brandstetter."
-msgstr ""
-"Ajout de '...' aux commentaires tronqués des colonnes dans le SQL de la "
-"table, par Erwin Brandstetter."
-
-#: ../news.php:417
-msgid ""
-"Add 'scratch pads' to the Edit Grid and Query Tool windows to use when "
-"copying and pasting data back and forth."
-msgstr ""
-"Ajout de « scratch pads » dans les fenêtres de la grille de modification et "
-"de l'outil de requêtes, à utiliser lors d'un coper/coller de données."
-
-#: ../news.php:385
-msgid ""
-"Add -a and -q command line options to auto connect to a server and open a "
-"query window respectively."
-msgstr ""
-"Add -a and -q command line options to auto connect to a server and open a "
-"query window respectively.Ajout d'options en ligne de commande -a et -q "
-"pour, respectivement, se connecter automatiquement à un serveur et ouvrir "
-"une fenêtre de requêtes."
-
-#: ../news.php:419
-msgid ""
-"Add -qc switch to open query tool and autoconnect using a connection string."
-msgstr ""
-"Ajout de l'option -qc pour ouvrir l'outil de requêtes et se connecter "
-"automatiquement en utilisant une chaîne de connexion."
-
-#: ../news.php:402
-msgid ""
-"Add CREATE/INSERT/UPDATE/SELECT script menu options for various object types "
-"to create script templates."
-msgstr ""
-"Ajout des options CREATE/INSERT/UPDATE/SELECT au menu Scripts pour les "
-"différents types d'objets, options permettant de créer des modèles de script."
-
-#: ../news.php:150
-msgid ""
-"Add EnterpriseDB's default database (edb) to the Server dialog's default "
-"option."
-msgstr ""
-"Ajout de la base de données par défaut d'EnterpriseDB (edb) dans les options "
-"par défaut du dialogue Serveur."
-
-#: ../news.php:394
-msgid "Add a 'Favourites' query organiser to the Query Tool."
-msgstr "Ajout d'un organisateur de requêtes favorites à l'outil de requêtes."
-
-#: ../news.php:228
-msgid "Add a 'Run Now' options for pgAgent jobs."
-msgstr "Ajout de l'option « Exécuter maintenant » pour les jobs pgAgent."
-
 #: ../development/roadmap.php:39
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
@@ -362,138 +300,9 @@ msgstr ""
 "Ajouter un dialogue pour permettre à l'utilisateur de configurer un point "
 "d'arrêt global sur un processus spécifique [DP]"
 
-#: ../news.php:225
-msgid ""
-"Add a guru hint to warn the user of the consequences of storing passwords."
-msgstr ""
-"Ajout d'un conseil de gourou pour avertir l'utilisateur sur les conséquences "
-"du stockage des mots de passe."
-
-#: ../news.php:184
-msgid "Add a macro facility to the Query Tool."
-msgstr "Gestion de macros dans l'outil de requêtes."
-
-#: ../news.php:416
-msgid ""
-"Add a new Find & Replace dialogue to the query tool, implementing all the "
-"normal Find & Replace options as well as a powerful regular expression "
-"search mode."
-msgstr ""
-"Ajout d'un nouveau dialogue « Chercher et remplacer » à l'outil de requêtes, "
-"implémentant toutes les options habituelles ainsi qu'un puissant mode de "
-"recherche par expression rationnelle."
-
-#: ../news.php:204
-msgid ""
-"Add a new command line option (-f ) to open an SQL script automatically when "
-"using -q or -qc."
-msgstr ""
-"Ajout d'une nouvelle option en ligne de commande (-f) pour ouvrir "
-"automatiquement un script SQL lors de l'utilisation de -q et -qc."
-
-#: ../news.php:206
-msgid ""
-"Add a new command line options (-cp ) to allow direct editing of pgpass "
-"files."
-msgstr ""
-"Ajout d'une option en ligne de commande (-cp) pour permettre l'édition "
-"directe des fichiers pgpass."
-
-#: ../news.php:389
-msgid "Add a password file editor."
-msgstr "Ajout d'un éditeur de fichiers de mots de passe."
-
-#: ../news.php:415
-msgid "Add a pgAgent option to log to a file on *nix."
-msgstr "Ajout d'une option à pgAgent pour tracer dans un fichier sur *nix."
-
-#: ../news.php:191
-msgid ""
-"Add a set of options to allow the user to hide selected object types from "
-"the treeview. Note that the new default settings will hide less commonly "
-"used objects such as casts, languages, aggregates, operators etc."
-msgstr ""
-"Ajout d'un ensemble d'options permettant à l'utilisateur de cacher des types "
-"d'objets dans le navigateur. Notez que le paramétrage par défaut cachera les "
-"types les moins utilisés (conversions, agrégats, opérateurs, etc.)"
-
-#: ../news.php:409
-msgid "Add a word wrap option to the query tool editor."
-msgstr ""
-"Ajout de l'option de retour à la ligne automatique dans l'éditeur de "
-"requêtes."
-
-#: ../news.php:404
-msgid ""
-"Add an internal XML reporting API, HTML XSL stylesheet with XSLT processing "
-"capabilities and selection of schema/object/data reports."
-msgstr ""
-"Ajout d'une API interne de rapports XML, des feuilles de style XSL et des "
-"capacités de traitement XSLT pour générer des rapports sur des schémas/"
-"objets/données."
-
-#: ../news.php:230
-msgid "Add an option to show NULLs as  in the Query Tool."
-msgstr ""
-"Ajout d'une option pour afficher les éléments NULL dans l'outil de requêtes."
-
-#: ../news.php:208
-msgid "Add an option to show indent guides in the query tool."
-msgstr ""
-"Ajout d'une option pour afficher les guides d'indentation dans l'outil de "
-"requêtes"
-
-#: ../news.php:199
-msgid ""
-"Add an option to the Report Tool to open the output file in the default "
-"browser."
-msgstr ""
-"Ajout d'une option pour que l'outil de rapports ouvre le fichier en sortie "
-"dans le navigateur par défaut."
-
-#: ../news.php:207
-msgid "Add auto-indent to the query tool."
-msgstr "Ajout de l'auto-indentation dans l'éditeur de requêtes."
-
-#: ../news.php:392
-msgid ""
-"Add autocompletion to the Query Tool, based on the logic used by psql. "
-"Triggered with Control+Space, and optionally the Tab key as well."
-msgstr ""
-"Ajout de la complétion automatique à l'outil de requêtes, basée sur la "
-"logique utilisée par psql. Déclenché avec Contrôle-Espace ainsi que la "
-"touche Tabulation en option."
-
-#: ../news.php:408
-msgid "Add brace highlighting to the SQL Text Box control."
-msgstr "Ajout du surlignement des crochets au contrôle texte SQL."
-
-#: ../news.php:205
-msgid "Add fillfactor support on tables and indexes."
-msgstr "Ajout du support de fillfactor sur les tables et index."
-
-#: ../news.php:200
-msgid "Add keyboard shortcuts to show and hide UI elements."
-msgstr ""
-"Ajout de raccourcis clavier pour afficher et cacher les éléments de "
-"l'interface."
-
 #: ../visualtour.php:337
 msgid "Add more index stats"
 msgstr "Ajout de plus d'index sur les stats."
-
-#: ../news.php:226
-msgid ""
-"Add options to enable/disable triggers, both individually and per-table."
-msgstr ""
-"Ajout d'options pour activer/désactiver les triggers, à la fois "
-"individuellement et par table."
-
-#: ../news.php:410
-msgid "Add options to show line ends and whitespaces in the query tool."
-msgstr ""
-"Ajout d'options pour afficher les fins de ligne et les espaces blancs dans "
-"l'outil de requêtes"
 
 #: ../development/roadmap.php:40
 msgid ""
@@ -503,45 +312,15 @@ msgstr ""
 "Ajout du support de l'impression dans l'outil de requêtage (et des autres "
 "contrôles de type texte stylé ?) [DP/AV]"
 
-#: ../news.php:302
-msgid "Add support for Sun's compiler [Dhanaraj M]"
-msgstr "Ajout du support du compilateur de Sun [Dhanaraj M]"
-
 #: ../visualtour.php:353
 msgid "Add support for TRUNCATE triggers on PostgreSQL 8.4+"
 msgstr "Ajout du support des triggers TRUNCATE sur PostgreSQL 8.4+."
-
-#: ../news.php:420
-msgid "Add support for building Mac Universal Binaries."
-msgstr "Ajout du support pour la construction de binaires Mac Universal."
 
 #: ../visualtour.php:369
 msgid "Add support for direct debugging of functions with variadic parameters"
 msgstr ""
 "Ajout du support de débogage direct des fonctions avec des paramètres "
 "variants."
-
-#: ../news.php:188
-msgid "Add support for enums in PostgreSQL 8.3+."
-msgstr "Ajout du support des enums dans PostgreSQL 8.3."
-
-#: ../news.php:211
-msgid "Add support for function cost and row estimations in PostgreSQL 8.3+."
-msgstr ""
-"Ajout du support pour les estimations de lignes de fonction et de coût dans "
-"PostgreSQL 8.3."
-
-#: ../news.php:185
-msgid "Add support for multi-parameter aggregates."
-msgstr "Ajout du support pour les agrégats à plusieurs paramètres."
-
-#: ../news.php:218
-msgid "Add support for packages on EnterpriseDB."
-msgstr "Ajout du support des packages sur EnterpriseDB."
-
-#: ../news.php:219
-msgid "Add support for public synonyms on EnterpriseDB."
-msgstr "Ajout du support des synonymes publiques sur EnterpriseDB."
 
 #: ../visualtour.php:370
 msgid "Add support for the many new node types in Postgres 8.4"
@@ -575,30 +354,6 @@ msgstr "Promotion"
 msgid "Aggregates"
 msgstr "Agrégats"
 
-#: ../news.php:48
-msgid "Allow EnterpriseDB packages to be created without bodies."
-msgstr "Autorise les packages EnterpriseDB à être créés sans corps."
-
-#: ../news.php:193
-msgid "Allow GUC variables to be preset on functions in PostgreSQL 8.3."
-msgstr ""
-"Possibilité de configurer les variables GUC sur les fonctions dans "
-"PostgreSQL 8.3."
-
-#: ../news.php:233
-msgid "Allow GUCs to be set on users, roles and databases at create time."
-msgstr ""
-"Possibilité de configurer les variables GUC sur les utilisateurs, rôles et "
-"bases de données au moment de leur création."
-
-#: ../news.php:45
-msgid "Allow a debugging session to be cancelled correctly on  windows."
-msgstr "Autorise l'annulation propre d'une session de débogage dans Windows."
-
-#: ../news.php:382
-msgid "Allow database and schema display to be restricted."
-msgstr "Autorise la restriction de l'affichage des bases et des schémas."
-
 #: ../visualtour.php:350
 msgid ""
 "Allow default settings to be set via a global config file. This allows\n"
@@ -610,16 +365,6 @@ msgstr ""
 "Cela permet aux distributeurs et aux administrateurs systèmes de pré-"
 "configurer une installation si nécessaire"
 
-#: ../news.php:210
-msgid "Allow detection and conversion of line ending format in the query tool."
-msgstr ""
-"Autorise la détection et la conversion des formats de fin de ligne dans "
-"l'éditeur de requêtes."
-
-#: ../news.php:223
-msgid "Allow entire servers to be backed up."
-msgstr "Possibilité de sauvegarder des serveurs complets."
-
 #: ../visualtour.php:348
 msgid ""
 "Allow external utilities such as pg_dump &amp; pg_restore to work with\n"
@@ -627,32 +372,6 @@ msgid ""
 msgstr ""
 "Permet l'utilisation de connexions SSL avec les outils tels que pg_dump et "
 "pg_restore"
-
-#: ../news.php:224
-msgid "Allow global objects to be backed up."
-msgstr "Possibilité de sauvegarder les objets globaux."
-
-#: ../news.php:221
-msgid ""
-"Allow install time re-branding. This allows rebranded versions of pgAdmin to "
-"be distributed without code modifications, but with references to the "
-"original pgAdmin being displayed instead. Also add support for shaped splash "
-"screens."
-msgstr ""
-"Autorise la modification de marques à l'installation. Ceci permet la "
-"distribution de version de pgAdmin dont la marque est modifiée sans avoir à "
-"changer du code, mais tout en conservant des références vers le pgAdmin "
-"original. De plus, ajout du support pour des écrans de démarrage."
-
-#: ../news.php:75
-msgid "Allow non-superusers to debug their own functions."
-msgstr "Autorise les utilisateurs normaux à déboguer leur propres fonctions."
-
-#: ../news.php:405
-msgid "Allow pasting of entire rows in the View Data tool."
-msgstr ""
-"Permet le collage de lignes entières dans l'outil de visualisation des "
-"données."
 
 #: ../visualtour.php:372
 msgid ""
@@ -662,63 +381,6 @@ msgstr ""
 "Permet la connexion de pgAgent sur des serveurs distants, comme les machines "
 "Hot Standby"
 
-#: ../news.php:386
-msgid ""
-"Allow result copy quoting configuration to be set explicitly rather than "
-"using the result export settings."
-msgstr ""
-"Autorise la configuration explicite des guillemets de copie, plutôt que "
-"l'utilisation des paramètres d'export des résultats."
-
-#: ../news.php:393
-msgid ""
-"Allow selection and copy of subsets of the columns and rows in the Edit Grid."
-msgstr ""
-"Autorise la sélection et la copie de sous-ensembles des colonnes et des "
-"lignes de la grille d'édition."
-
-#: ../news.php:387
-msgid "Allow set returning functions to be created."
-msgstr "Autorise la création de fonctions renvoyant des ensembles."
-
-#: ../news.php:209
-msgid ""
-"Allow spaces to be used instead of tabs in SQL editors, and ensure the width "
-"can be set sensibly."
-msgstr ""
-"Permet l'utilisation des espaces au lieu des tabulations dans l'éditeur SQL "
-"et s'assure que la largeur sera configurée de façon sensée."
-
-#: ../news.php:398
-msgid "Allow the admin modules to be built with PGXS if required."
-msgstr "Autorise la construction des modules admin avec PGXS si requis."
-
-#: ../news.php:144
-msgid ""
-"Allow the length of array-typed columns to be changed (eg. 'character varying"
-"[](100)'), per report from Ferenc Lutischan"
-msgstr ""
-"Autorise la modification de la longueur des colonnes de type tableau (par "
-"exemple, 'character varying[](100)'), suite à un rapport de Ferenc Lutischan"
-
-#: ../news.php:391
-msgid ""
-"Allow the number of rows shown in the Edit Grid to be limited and add a "
-"'View top 100 rows' option to the table/view context menus."
-msgstr ""
-"Permet une limite du nombre de lignes affichées dans la grille de "
-"modification et ajout d'une option « Voir les 100 premières lignes » aux "
-"menus contextuelles des tables et vues."
-
-#: ../news.php:400
-msgid ""
-"Allow the tab character to be used as the clipboard column separator to "
-"allow pasting of query results straight into apps like Excel, or OOo Calc."
-msgstr ""
-"Autorise l'utilisation du caractère de tabulation comme séparateur de "
-"colonne du presse-papier pour autoriser la copie de résultats de requêtes "
-"directement dans des applications comme Excel ou OOo Calc."
-
 #: ../visualtour.php:357
 msgid ""
 "Allow the user a chance to abort if there is an error when deleting rows\n"
@@ -726,22 +388,6 @@ msgid ""
 msgstr ""
 "Permet à l'utilisateur d'annuler s'il y a une erreur pendant la suppression "
 "de lignes dans la grille d'édition"
-
-#: ../news.php:406
-msgid ""
-"Allow the user to choose whether or not to restore the environment when "
-"reconnecting to a particular server."
-msgstr ""
-"Autorise l'utilisateur à indiquer s'il préfère restaurer ou non "
-"l'environnement lors d'une nouvelle connexion à un serveur particulier."
-
-#: ../news.php:298
-msgid ""
-"Allow users with SUPERUSER but no other privilege flags to create roles and "
-"databases etc. per Andy Shellam."
-msgstr ""
-"Autorise les utilisateurs bénéficiant du droit SUPERUSER mais d'aucun autre "
-"de créer des rôles et des bases de données, par Andy Shellam."
 
 #: ../translation/howto.php:41
 msgid "Alternatively, you can run the following command manually:"
@@ -757,23 +403,6 @@ msgstr ""
 "est contrôlé et conduit par l'équipe de développement. Le document ci-"
 "dessous (disponible seulement en anglais) décrit la structure de l'équipe et "
 "comment elle fonctionne."
-
-#: ../news.php:154
-msgid ""
-"Always open the PostgreSQL Help when selecting that menu option, even if "
-"connected to EnterpriseDB."
-msgstr ""
-"Ouvre toujours l'aide de PostgreSQL lors de la sélection de ce menu, même si "
-"l'utilisateur est connecté à un serveur EnterpriseDB."
-
-#: ../news.php:49
-msgid ""
-"Always refresh the data when the user clicks OK on the  edit grid options "
-"dialogue to ensure the filter/sort is applied to current data."
-msgstr ""
-"Rafraîchit toujours les données quand l'utilisateur clique sur OK dans le "
-"dialogue d'options de la grille d'édition pour s'assurer que le filtre/tri "
-"est appliqué aux données actuelles."
 
 #: ../visualtour12.php:336
 msgid "And last, the query tool can now display line numbers."
@@ -845,22 +474,6 @@ msgstr ""
 "apprendre et comprendre le SQL leur permettant facilement de travailler de "
 "façon productive dans le GUI, en ligne de commande ou en scripts."
 
-#: ../news.php:426
-#, php-format
-msgid ""
-"As well as many other tweaks, improvements and bug fixes, details of which "
-"may be found in the <a href=\"%s\">changelog</a>."
-msgstr ""
-"Tout comme plusieurs autres peaufinages, améliorations et corrections de "
-"bogues, des détails sont disponibles dans le <a href=\"%s\">journal des "
-"modifications</a>."
-
-#: ../news.php:266
-msgid "As well as many other tweaks, improvements and bug fixes."
-msgstr ""
-"Tout comme plusieurs autres peaufinages, améliorations et corrections de "
-"bogues."
-
 #: ../visualtour.php:355
 msgid "Auto-discover Postgres Plus servers on Mac and Unix"
 msgstr "Découverte automatique des serveurs Postgres Plus sur Mac et Unix"
@@ -868,48 +481,6 @@ msgstr "Découverte automatique des serveurs Postgres Plus sur Mac et Unix"
 #: ../features.php:51
 msgid "Auto-vacuum management (PostgreSQL 8.1 and above)"
 msgstr "Gestion par auto-vacuum  (PostgreSQL 8.1 et plus)"
-
-#: ../news.php:125
-msgid ""
-"Avoid a crash if the connection is lost and the Functions node is refreshed."
-msgstr ""
-"Évite un arrêt brutal si la connexion est perdue et si le nœud Fonctions est "
-"rafraichi."
-
-#: ../news.php:328
-msgid "Avoid a crash when closing the query tool on Solaris [Dhanaraj M]."
-msgstr ""
-"Évite un arrêt brutal lors de la fermeture de l'outil de requêtes sur "
-"Solaris [Dhanaraj M]."
-
-#: ../news.php:126
-#, php-format
-msgid "Avoid crashes when working with objects with % characters in the name."
-msgstr ""
-"Évite des arrêts brutaux lors de la manipulation d'objets dont le nom "
-"contient des pourcentages (%)."
-
-#: ../news.php:250
-msgid ""
-"Avoid creating graphical explain nodes for triggers as they aren't part of "
-"the plan and mess up the layout."
-msgstr ""
-"Évite la création des noeuds de l'EXPLAIN graphique pour les triggers car "
-"ils ne font pas partie du plan et gênent le plan."
-
-#: ../news.php:330
-msgid ""
-"Avoid displaying multi line data in single line list controls, per Clodoaldo "
-"Pinto Neto."
-msgstr ""
-"Évite l'affichage de données multi-lignes dans des contrôles sur une seule "
-"ligne, par Clodoaldo Pinto Neto."
-
-#: ../news.php:70
-msgid "Avoid quoting 'text' when used as a type name per Erwin."
-msgstr ""
-"Évite de mettre entre guillemets le texte quand il est utilisé comme nom de "
-"type, d'après Erwin."
 
 #: ../visualtour.php:341
 msgid ""
@@ -940,15 +511,6 @@ msgstr "Avant de tenter l'installation"
 msgid "Better i18n support [GL]"
 msgstr "Meilleur support de l'internationalisation [GL]"
 
-#: ../news.php:192
-msgid "Browser support for Operator Families in PostgreSQL 8.3."
-msgstr ""
-"Support des familles d'opérateur dans le navigateur pour PostgreSQL 8.3."
-
-#: ../news.php:235
-msgid "Bug fixes"
-msgstr "Corrections de bogues"
-
 #: ../support/issues.php:10
 msgid ""
 "Bugs and other issues in pgAdmin are almost always fixed within a very short "
@@ -962,11 +524,7 @@ msgstr ""
 "prendre un effort significatif à résoudre, souvent plus d'effort que le "
 "problème en vaut."
 
-#: ../news.php:322
-msgid "Build against PostgreSQL 8.2 on Windows."
-msgstr "Construit avec PostgreSQL 8.2 sur Windows."
-
-#: ../download/source.php:27
+#: ../download/source.php:24
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -992,15 +550,6 @@ msgstr ""
 #: ../development/roadmap.php:24
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "Vérification de l'utilisation de wxWidgets 2.9/3.0."
-
-#: ../news.php:140
-msgid ""
-"Check that functions exist before debugging or setting global breakpoints on "
-"them. Remove them from the treeview if not."
-msgstr ""
-"Vérification de l'existence des fonctions avant de lancer le débogage et de "
-"placer des points d'arrêt globaux sur eux. Les supprime de l'explorateur si "
-"elles n'existent pas."
 
 #: ../download/freebsd.php:33
 msgid "Check that the pgAdmin executable is in the path:"
@@ -1031,24 +580,6 @@ msgstr ""
 "Choisir un des deux lancera l'outil de requêtage et affichera la requête "
 "appropriée."
 
-#: ../news.php:58
-msgid ""
-"Cleanup some other minor misbehaviours at the same time. Per report from "
-"Erwin."
-msgstr ""
-"Nettoyage de quelques autres comportements mineurs en même temps. D'après un "
-"rapport d'Erwin."
-
-#: ../news.php:134
-msgid "Cleanup the covering index control logic in the Foreign Key dialogue."
-msgstr ""
-"Nettoyage de la logique de contrôle de l'index dans le dialogue Clé "
-"étrangère."
-
-#: ../news.php:258
-msgid "Code cleanup/maintainability"
-msgstr "Nettoyage de code/Maintenabilité"
-
 #: ../development/roadmap.php:21
 msgid "Code housekeeping"
 msgstr "Nettoyage du code"
@@ -1068,14 +599,6 @@ msgstr "Compilez pgadmin3.po dans un fichier binaire pgadmin3.mo."
 #: ../development/roadmap.php:15
 msgid "Complete 9.1 support"
 msgstr "Support complet de PostgreSQL 9.1"
-
-#: ../news.php:376
-msgid "Concurrent index builds."
-msgstr "Construction d'index en parallèle."
-
-#: ../news.php:383
-msgid "Configurable indents in the SQL editor."
-msgstr "Indentation configurable dans l'éditeur SQL."
 
 #: ../visualtour12.php:355
 msgid "Configuration"
@@ -1097,18 +620,7 @@ msgstr "Propriétés d'une contrainte"
 msgid "Constraints"
 msgstr "Contraintes"
 
-#: ../news.php:63
-msgid ""
-"Construct SQL used to add columns such that the entire operation happens in "
-"one statement to ensure default values and NOT NULL can be set together. Per "
-"report from Laurent ROCHE."
-msgstr ""
-"Construit le SQL utilisé pour ajouter des colonnes de façon à ce que "
-"l'opération complète se passe en une instruction pour s'assurer que la "
-"valeur par défaut et la contrainte NOT NULL sont positionnées ensemble. "
-"D'après un rapport de Laurent Roche."
-
-#: ../menu.php:11
+#: ../menu.php:10
 msgid "Contribute"
 msgstr "Contribuez"
 
@@ -1120,66 +632,13 @@ msgstr "Contribuez à la traduction"
 msgid "Conversions"
 msgstr "Conversions"
 
-#: ../news.php:62
-msgid ""
-"Convert setting names to lower case so we don't end up with DateStyle and "
-"datestyle for example."
-msgstr ""
-"Convertit les noms de paramètre en minuscule pour que nous n'ayons pas à la "
-"fois DateStyle et datestyle."
-
-#: ../news.php:249
-msgid "Copy and paste data correctly when in a cell editor in the edit grid."
-msgstr "Copier/coller géré correctement dans l'éditeur de cellule."
-
-#: ../news.php:52
-msgid "Correct config window help paths."
-msgstr "Corrige la configuration des chemins d'aide de Windows."
-
-#: ../news.php:94
-msgid "Correct the SQL generation for EDB inline triggers."
-msgstr "Correction de la génération du SQL pour les triggers EDB en ligne."
-
-#: ../news.php:141
-msgid "Correct the URL for the EDB public synonym help page"
-msgstr "Correction de l'URL pour la page d'aide de l'objet Synonym d'EDB"
-
-#: ../news.php:71
-msgid ""
-"Correctly generate table DDL when inherited columns follow the last 'real' "
-"column, per Peter Gagarinov."
-msgstr ""
-"Génère correctement le DDL de la table quand des colonnes héritées suivent "
-"la dernière colonne de type real, d'après Peter Gagarinov."
-
-#: ../news.php:100
-msgid ""
-"Correctly identify the schema of trigger functions that are in system "
-"catalogs as can be the case with integrated full text search."
-msgstr ""
-"Identification correct du schéma des fonctions trigger faisant parti des "
-"catalogues système comme c'est le cas avec la recherche plein texte intégrée."
-
-#: ../news.php:54
-msgid "Correctly quote role names when reverse engineering ACLs."
-msgstr ""
-"Met correctement entre guillements les noms lors de la récupération des ACL "
-"par « reverse engineering »."
-
-#: ../include/doc.php:87
+#: ../include/doc.php:93
 msgid "Couldn't find the document content!"
 msgstr "N'a pas pu trouver le contenu du document&nbsp;!"
 
 #: ../download/freebsd.php:27
 msgid "Create a symlink to the pgAdmin binary:"
 msgstr "Créez un lien sympbolique vers l'exécutable de pgAdmin&nbsp;:"
-
-#: ../news.php:215
-msgid ""
-"Create and reverse engineer edbspl procedures using Oracle compatible syntax."
-msgstr ""
-"Crée et récupère les procédures edbspl en utilisant la syntaxe compatible "
-"Oracle."
 
 #: ../advocacy/strategy.php:23
 msgid ""
@@ -1232,19 +691,6 @@ msgstr "Visualiseur de différence de schémas de base, par Adeel Khan"
 msgid "Databases"
 msgstr "Bases de données"
 
-#: ../news.php:80 ../news.php:112 ../news.php:167 ../news.php:308
-#: ../news.php:335 ../news.php:363 ../news.php:430
-msgid "Dave Page"
-msgstr "Dave Page"
-
-#: ../news.php:271
-msgid ""
-"Dave Page<br />\n"
-"pgAdmin Development Team"
-msgstr ""
-"Dave Page<br />\n"
-"Équipe de développement de pgAdmin"
-
 #: ../download/debian.php:8 ../download/menu.php:7
 msgid "Debian"
 msgstr "Debian"
@@ -1286,20 +732,12 @@ msgstr "Support des bases de données dérivées"
 msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr "Conçu pour des versions multiples et des dérivés de PostgreSQL"
 
-#: ../news.php:407
-msgid ""
-"Detect and warn the user of concurrent edits of functions, views and job "
-"steps."
-msgstr ""
-"Détecte et avertie l' utilisateur de modifications en parallèle de "
-"fonctions, vues ou étapes de job."
-
 #: ../docs/menu.php:7
 #, php-format
 msgid "Dev "
 msgstr "Dév"
 
-#: ../contribute.php:12 ../include/doc.php:39 ../include/page.php:126
+#: ../contribute.php:12 ../include/doc.php:45 ../include/page.php:126
 msgid "Development"
 msgstr "Développement"
 
@@ -1307,82 +745,11 @@ msgstr "Développement"
 msgid "Development team"
 msgstr "Équipe de développement"
 
-#: ../news.php:136
-msgid ""
-"Disable CREATE FUNCTION etc. under EnterpriseDB packages because they are "
-"created as part of the main package body."
-msgstr ""
-"Désactivation de CREATE FUNCTION, etc dans les packages EnterpriseDB parce "
-"qu'ils sont créés comme une partie du corps du package principal."
-
-#: ../news.php:56
-msgid "Disable the RULE privilege on 8.2+ for views per Erwin."
-msgstr "Désactive le droit RULE en 8.2 pour les vues, d'après Erwin."
-
-#: ../news.php:189
-msgid ""
-"Display catalogs separately from schemas, and don't treat them as system "
-"objects any longer (they can be hidden using the display options). Show only "
-"tables & views (as 'catalog objects') in pseudo-system catalogs such as "
-"information_schema and EDB's sys and dbo catalogs. Lock down functionality "
-"to prevent create/edit/drop options being offered."
-msgstr ""
-"Affiche les catalogues séparément des schémas et ne les traite plus comme "
-"des objets système (ils peuvent être cachés en utilisant les options "
-"d'affichage). Affiche seulement les tables et les vues (en tant qu'objets "
-"des catalogues) dans des pseudo catalogues système comme information_schema "
-"et les catalogues sys et dbo d'EDB. Verrouille les fonctionnalités pour "
-"empêcher l'affichage des options de création, modification et suppression."
-
-#: ../news.php:395
-msgid "Display column dependencies."
-msgstr "Affichage des dépendances des colonnes."
-
-#: ../news.php:414
-msgid "Display non-default op classes in index definitions."
-msgstr ""
-"Affichage des classes d'opérateurs autres que par défaut dans les "
-"définitions d'index."
-
-#: ../news.php:388
-msgid ""
-"Display the client start time on the status dialogue with PostgreSQL 8.1+"
-msgstr ""
-"Affichage de l'heure de démarrage du client dans le dialogue de statut avec "
-"PostgreSQL 8.1+."
-
-#: ../news.php:247
-msgid ""
-"Display the constraint OID for index constraints, not the index OID. Add the "
-"index OID as a new property."
-msgstr ""
-"Affiche l'OID de la contrainte pour les contrainte d'index et non l'OID de "
-"l'index. Ajoute l'OID de l'index comme nouvelle propriété."
-
-#: ../news.php:212
-msgid "Display the is_called sequence flag."
-msgstr "Affichage de l'option de séquence is_flag."
-
-#: ../news.php:201
-msgid ""
-"Display the output pane in the query tool at query completion if it's "
-"currently hidden."
-msgstr ""
-"Affiche le panneau d'affichage dans l'outil de requêtes à la fin de "
-"l'exécution de la requête s'il est actuellement caché."
-
-#: ../news.php:412
-msgid ""
-"Display, and allow null values to be set in boolean columns in the Edit Grid."
-msgstr ""
-"Affichage et autorisation de valeurs NULL pour les colonnes booléennes dans "
-"la grille d'édition."
-
-#: ../include/doc.php:67
+#: ../include/doc.php:73
 msgid "Document cannot be read"
 msgstr "Le document ne peut pas être lu"
 
-#: ../include/doc.php:44 ../include/doc.php:61
+#: ../include/doc.php:50 ../include/doc.php:67
 msgid "Document not found"
 msgstr "Document introuvable"
 
@@ -1394,117 +761,6 @@ msgstr "Documentation"
 #: ../features.php:67
 msgid "Domains"
 msgstr "Domaines"
-
-#: ../news.php:55
-msgid ""
-"Don't allow the user to attempt to remove columns from an existing index or "
-"index constraint."
-msgstr ""
-"N'autorise pas l'utilisateur à supprimer des colonnes d'un index existant."
-
-#: ../news.php:151
-msgid ""
-"Don't allow the user to debug an EnterpriseDB package function or procedure "
-"if the body isn't defined."
-msgstr ""
-"N'autorise pas l'utilisateur à déboguer une fonction ou procédure d'un "
-"package EnterpriseDB si le corps n'est pas défini."
-
-#: ../news.php:145
-msgid ""
-"Don't allow the user to direct-debug trigger functions, only global "
-"breakpoints should be used on them (or the trigger itself)."
-msgstr ""
-"N'autorise pas l'utilisateur à déboguer directement les fonctions triggers, "
-"seuls des points d'arrêt pouvant être utilisés sur eux (ou le trigger lui-"
-"même)."
-
-#: ../news.php:354
-msgid ""
-"Don't display index constraints under the Indexes node as well as the "
-"Contraints node, per Erwin."
-msgstr ""
-"N'affiche pas les contraintes d'index sous le noeud Index ainsi que sous le "
-"noeud Contraintes, par Erwin."
-
-#: ../news.php:61
-msgid ""
-"Don't include the -h option when calling pg_dump or pg_restore if there is "
-"no hostname to specify."
-msgstr ""
-"N'inclut pas l'option -h lors de l'appel de pg_dump ou de pg_restore si "
-"aucun nom d'hôte n'est indiqué."
-
-#: ../news.php:53
-msgid ""
-"Don't load group roles and old-style groups on the security tab on 8.1 and "
-"higher."
-msgstr ""
-"Ne charge pas les rôles de type groupe et les anciens groupes sur l'onglet "
-"Sécurité des versions 8.1 et ultérieures."
-
-#: ../news.php:138
-msgid "Don't offer 'Drop Cascaded' unless the user can 'Drop' the object."
-msgstr ""
-"N'offre pas 'Drop Cascaded' sauf si l'utilisateur peut supprimer l'objet."
-
-#: ../news.php:146
-msgid ""
-"Don't offer edbspl functions when creating triggers as they should have "
-"inline bodies."
-msgstr ""
-"N'offre pas les fonctions edbspl lors de la création des triggers car ils "
-"auraient eu des corps en ligne."
-
-#: ../news.php:148
-msgid ""
-"Don't offer package names and system schemas as schemas when creating public "
-"synonyms."
-msgstr ""
-"Ne propose pas les noms des packages et les schémas système en tant que "
-"schémas lors de la création de synonymes publiques."
-
-#: ../news.php:152
-msgid ""
-"Don't offer the user the chance to create new columns on system catalogues."
-msgstr ""
-"N'offre pas à l'utilisateur une chance de créer de nouvelles colonnes sur "
-"les catalogues systèmes."
-
-#: ../news.php:358
-msgid "Don't paste into empty edit grids, per Howard Wang"
-msgstr "Ne colle pas dans les grilles de modification vides, par Howard Wang"
-
-#: ../news.php:147
-msgid ""
-"Don't quote database names that happen to be keywords when starting the "
-"debugger."
-msgstr ""
-"Ne met pas entre guillemets les noms de bases de données qui se trouvent "
-"être des mots clés lors du lancement du débogueur."
-
-#: ../news.php:246
-msgid "Don't try to detect if integrated autovacuum is running on &lt; 8.1."
-msgstr ""
-"N'essaie plus de détecter sur l'autovacuum intégré est exécuté sur les "
-"versions antérieures à la 8.1."
-
-#: ../news.php:164
-msgid ""
-"Don't try to enable/disable prepared transaction related controls on pre-8.1 "
-"servers, per Karl Zellnig"
-msgstr ""
-"N'essaie pas d'activer/désactiver les contrôles relatifs aux transactions "
-"préparées sur des serveurs de version inférieure à la 8.1, par Karl Zellnig"
-
-#: ../news.php:93
-msgid ""
-"Don't try to force new databases into a specific tablespace as this will "
-"error as non-superusers default to pg_default."
-msgstr ""
-"Ne tente pas de forcer la création des nouvelles bases de données dans un "
-"tablespace spécifique car cela générera une erreur pour les utilisateurs "
-"standards pour qui le tablespace correspond par défaut à pg_default."
 
 #: ../include/page.php:128 ../include/po_status.php:256
 msgid "Download"
@@ -1526,13 +782,6 @@ msgstr "Sauvegarde/restauration"
 #: ../visualtour.php:239
 msgid "Dump/restore dialog"
 msgstr "Dialogue de sauvegarde/restauration"
-
-#: ../news.php:107
-msgid ""
-"EDB-SPL functions require NULL to be passed in out-params when debugging."
-msgstr ""
-"Les fonctions EDB-SPL requièrent le passage de NULL pour les paramètres OUT "
-"lors du débogage."
 
 #: ../features.php:100
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
@@ -1566,101 +815,15 @@ msgstr "Grille d'édition"
 msgid "Edit the *.po file. The steps described are related to poEdit only."
 msgstr "Éditez le fichier *.po."
 
-#: ../news.php:347
-msgid ""
-"Enable the OK button on the Database properties dialog when the owner is "
-"changed, per Jim Cullison"
-msgstr ""
-"Activation du bouton OK dans le dialogue des propriétés de la base quand le "
-"propriétaire est changé, par Jim Cullison"
-
-#: ../news.php:332
-msgid ""
-"Enable the OK button on the database properties dialog when variables are "
-"changed."
-msgstr ""
-"Activation du bouton OK dans le dialogue des propriétés de la base quand les "
-"variables sont modifiées."
-
 #: ../include/page.php:112
 msgid "English"
 msgstr "Anglais"
-
-#: ../news.php:399
-msgid ""
-"Enhance the query tool to allow copy/paste of arbitrary groups of columns, "
-"rows or individual cells."
-msgstr ""
-"Amélioration de l'outil de requêtes pour permettre le copier/coller de "
-"groupes arbitraires de colonnes, lignes ou de cellules individuelles."
-
-#: ../news.php:195
-msgid "Enhancements"
-msgstr "Améliorations"
 
 #: ../visualtour.php:338
 msgid "Ensure a newline is included between notices in the query tool"
 msgstr ""
 "S'assure qu'un retour de ligne est inclus entre les messages dans l'outil de "
 "requêtage."
-
-#: ../news.php:360
-msgid ""
-"Ensure backup and restore options are enabled when appropriate (this is a "
-"wxWidgets bug, fixed in wxWidgets 2.8.0rc1)"
-msgstr ""
-"S'assure que les options de sauvegarde et de restauration sont activées si "
-"approprié (ceci est un bogue de wxWidgets, corrigé dans wxWidgets 2.8.0rc1)"
-
-#: ../news.php:324
-msgid ""
-"Ensure column headers and the insert row are shown in the edit grid when no "
-"rows exist in the table being editted, per Bob Pawley."
-msgstr ""
-"S'assure que les en-têtes de colonnes et que la ligne d'insertion soient "
-"affichées dans la grille d'édition quand aucune ligne n'existe dans la table "
-"en cours d'édition, par Bob Pawley."
-
-#: ../news.php:103
-msgid "Ensure enums are offered as datatypes for columns."
-msgstr ""
-"S'assure que les ENUM sont proposées comme types de données pour les "
-"colonnes."
-
-#: ../news.php:238
-msgid "Ensure files can be converted to the required encoding before saving."
-msgstr ""
-"S'assure que les fichiers peuvent être converties vers l'encodage requis "
-"avant de les sauvegarder."
-
-#: ../news.php:77
-msgid "Ensure info passed to Guru hints is HTML-safe."
-msgstr ""
-"S'assure que les informations passées par les astuces de gourou sont du HTML "
-"sain."
-
-#: ../news.php:240
-msgid ""
-"Ensure logfiles and pgpass files can be correctly saved on Windows when the "
-"username contains non-ASCII chars."
-msgstr ""
-"S'assure que les journaux applicatifs et les fichiers pgpass sont "
-"correctement sauvegardés sous Windows quand le nom de l'utilisateur contient "
-"des caractères non ASCII."
-
-#: ../news.php:254
-msgid "Ensure pgAgent jobs can be managed on Greenplum database."
-msgstr ""
-"S'assure que les jobs de pgAgent puissent être gérés dans une base de "
-"données Greenplum."
-
-#: ../news.php:108
-msgid ""
-"Ensure that EDB-SPL trigger DDL code is appropriately formatted on newer "
-"builds of EnterpriseDB."
-msgstr ""
-"S'assure que le code DDL d'un trigger EDB-SPL est correctement formatée sur "
-"les dernières constructions d'EnterpriseDB."
 
 #: ../visualtour.php:343
 msgid ""
@@ -1669,44 +832,6 @@ msgid ""
 msgstr ""
 "S'assure que les fins de ligne restent cohérentes lors de l'édition dans les "
 "contrôles de texte stylé"
-
-#: ../news.php:129
-msgid ""
-"Ensure the 'Create Rule' context menu option is always offered when "
-"appropriate."
-msgstr ""
-"S'assure que l'option 'Create Rule' du menu contextuel est toujours proposé "
-"quand c'est approprié."
-
-#: ../news.php:109
-msgid ""
-"Ensure the password and confirmed password always match when adding or "
-"editing roles or users."
-msgstr ""
-"S'assure que le mot de passe correspond bien au mot de passe de confirmation "
-"lors de l'ajout et de la modification des rôles et utilisateurs."
-
-#: ../news.php:248
-msgid "Ensure the password change dialog works with stored passwords."
-msgstr ""
-"S'assure que la fenêtre de modification des mots de passe fonctionne avec "
-"les mots de passe stockés."
-
-#: ../news.php:106
-msgid ""
-"Ensure the properties dialogues will work sanely with objects named \" "
-"\" (!)."
-msgstr ""
-"S'assure que les dialogues de propriétés fonctionnent bien avec les objets "
-"nommés \" \" (!)."
-
-#: ../news.php:241
-msgid ""
-"Ensure we always allow the maximum string length possible to be entered in "
-"the Edit Grid."
-msgstr ""
-"S'assure que la longueur de chaîne maximale est autorisée dans la grille "
-"d'édition."
 
 #: ../visualtour.php:374
 msgid ""
@@ -1727,15 +852,6 @@ msgstr "Documentation complète"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: ../news.php:69
-msgid ""
-"FOSDEM fix: Include overriding columns in reverse engineered SQL for child "
-"tables, rather than commenting them out and marking as inherited."
-msgstr ""
-"Correction du FOSDEM : inclut les colonnes surchargées dans le SQL récupéré "
-"par « reverse engineering » pour les tables enfants plutôt que de les "
-"commenter et de les marquer comme héritées."
-
 #: ../features.php:68
 msgid "FTS configurations"
 msgstr "Configurations FTS"
@@ -1752,7 +868,7 @@ msgstr "Analyseurs FTS"
 msgid "FTS templates"
 msgstr "Modèles FTS"
 
-#: ../features.php:8 ../menu.php:8
+#: ../features.php:8 ../menu.php:7
 msgid "Features"
 msgstr "Fonctionnalités"
 
@@ -1781,142 +897,6 @@ msgstr "Finir le support de la 9.0 avec les contraintes d'exclusion [GL]"
 msgid "First, it is now possible to build a query graphically."
 msgstr "Maintenant, il est possible de construire une requête graphiquement."
 
-#: ../news.php:155
-msgid ""
-"Fix EnterpriseDB public synonym loading so that they aren't considered "
-"system objects."
-msgstr ""
-"Correction du chargement des synonymes publiques EnterpriseDB pour qu'ils ne "
-"soient pas considérés comme des objets publiques."
-
-#: ../news.php:162
-msgid ""
-"Fix a bug preventing the 'on error' flag of a pgAgent job step being edited, "
-"per Jon Roberts."
-msgstr ""
-"Correction d'un bogue empêchant le drapeau 'on error' d'un job pgAgent en "
-"cours d'édition, par Jon Roberts."
-
-#: ../news.php:124
-msgid ""
-"Fix a bug that could cause a crash on GTK when closing the query tool in "
-"certain circumstances."
-msgstr ""
-"Correction d'un bogue qui pourrait causer un arrêt brutal sur GTK lors de la "
-"fermeture de l'outil de requêtage dans certaines circonstances."
-
-#: ../news.php:284
-msgid ""
-"Fix a bug that prevented adding new nodes to a Slony cluster, per Duncan "
-"Beeby."
-msgstr ""
-"Correction d'un bogue qui empêchait l'ajout de nouveaux noeuds à un cluster "
-"Slony, par Duncan Beeby."
-
-#: ../news.php:46
-msgid ""
-"Fix a corner case in which closing the debugger window  following a failed "
-"attempt to create a global breakpoint (for example, because of an existing "
-"breakpoint) could cause a crash on Windows."
-msgstr ""
-"Corrige un cas très particulier dans lequel la fermeture de la fenêtre du "
-"débogueur suivant une tentative échouée pour créer un point d'arrêt global "
-"(par exemple à cause d'un point d'arrêt existant) pourrait causer un arrêt "
-"brutal sous Windows."
-
-#: ../news.php:243
-msgid ""
-"Fix a crash in the Edit Grid which occured if Delete was pressed whilst "
-"editing a boolean."
-msgstr ""
-"Correction d'un arrêt brutal dans la grille d'édition survenant quand la "
-"touche Delete est appuyée lors de l'édition d'un booléen."
-
-#: ../news.php:296
-msgid ""
-"Fix a crash on Mac that occurred when using some combo boxes, per David "
-"Lowry."
-msgstr ""
-"Correction d'un arrêt brutal sur Mac survenant lors de l'utilisation de "
-"certaines listes déroulantes, par David Lowry."
-
-#: ../news.php:132
-msgid ""
-"Fix a crash that occured if an object called '%' was selected in the "
-"treeview, per Alexander Steffens."
-msgstr ""
-"Correction d'un arrêt brutal survenant si un objet appelé '%' était "
-"sélectionné dans le navigateur, par Alexander Steffens."
-
-#: ../news.php:133
-msgid ""
-"Fix a line number error in the debugger seen with procedures which start on "
-"the same line as the 'CREATE PROCEDURE foo IS ...' Per report from Heikki "
-"Linnakangas."
-msgstr ""
-"Correction d'une erreur de numéro de ligne dans le débogueur, vu avec des "
-"procédures qui commencent sur la même ligne que 'CREATE PROCEDURE foo "
-"IS ...', d'après un rapport d'Heikki Linnakangas."
-
-#: ../news.php:292
-msgid "Fix a minor bug in app bundle creation for Mac [Florian G. Pflug]"
-msgstr ""
-"Correction d'un bogue mineure dans la création d'un « app bundle » pour Mac "
-"[Florian G. Pflug]"
-
-#: ../news.php:353
-msgid ""
-"Fix a minor bug in the index reverse engineering when using non-default "
-"operator classes per Andrus."
-msgstr ""
-"Correction d'un bogue mineur dans l'ingénieurie inverse de l'index lors de "
-"l'utilisation de classes d'opérateur qui ne sont pas par défaut, par Andrus."
-
-#: ../news.php:289
-msgid ""
-"Fix a rare bug in the Edit Grid which could cause a crash when editting data "
-"in tables with deleted columns and a primary key that isn;t at the beginning "
-"of the table. Thanks to Patrick De Visschere for the test case."
-msgstr ""
-"Correction d'un bogue rare dans la grille d'édition qui causait un arrêt "
-"brutal lors de l'édition de données dans des tables ayant des colonnes "
-"supprimées et une clé primaire qui ne se trouve pas au début de la table. "
-"Merci à Patrick De Visschere pour le jeu de tests."
-
-#: ../news.php:303
-msgid ""
-"Fix an issue in the Query Tool export option that could result in blank "
-"lines in the export file, per Mathias Durst and Mike."
-msgstr ""
-"Correction d'un problème dans l'outil de requêtage qui pouvait renvoyer des "
-"lignes blanches dans le fichier d'export, par Mathias Durst and Mike."
-
-#: ../news.php:283
-msgid "Fix an overflow bug in pgAgent, per report from Sabin Coanda"
-msgstr ""
-"Correction d'un bogue de dépassement de capacité dans pgAgent, d'après un "
-"rapport de Sabin Coanda"
-
-#: ../news.php:157
-msgid "Fix character number display in the query tool."
-msgstr ""
-"Correction de l'affichage du numéro du caractère dans l'outil de requêtage."
-
-#: ../news.php:104
-msgid ""
-"Fix column dialogue to allow proper modification of array columns per Erwin."
-msgstr ""
-"Correction du dialogue sur les colonnes pour permettre la modification "
-"correcte des colonnes de tableau par Erwin."
-
-#: ../news.php:294
-msgid "Fix default perspective names, per Ezequias."
-msgstr "Correction de la disposition de la fenêtre par défaut, par Ezequias."
-
-#: ../news.php:349
-msgid "Fix deletion of stored procedures, Per Erwin."
-msgstr "Correction de la suppression de procédures stockées, par Erwin."
-
 #: ../visualtour.php:362
 msgid ""
 "Fix handling of aggregate initial conditions to allow NULL or empty\n"
@@ -1931,181 +911,15 @@ msgstr ""
 "Correction de la liste des rôles groupes dans la liste déroulante des "
 "onglets sur les droits"
 
-#: ../news.php:300
-msgid "Fix localisation of 'Tab' as a copy delimiter."
-msgstr "Correction de l'emplacement de 'Tab' comme délimiteur de copie."
-
-#: ../news.php:297
-msgid "Fix menu icon for Gnome [Nathan Egge]"
-msgstr "Correction de l'icône du menu Gnome [Nathan Egge]"
-
-#: ../news.php:156
-msgid ""
-"Fix path discovery on Unix so standard installs can be relocated easily."
-msgstr ""
-"Correction de la découverte du chemin sur Unix pour que les installations "
-"standards puissent être facilement relocalisées."
-
-#: ../news.php:320
-msgid ""
-"Fix per-table autovacuum settings for PostgreSQL >= 8.2 per Devrim Gunduz."
-msgstr ""
-"Correction de la configuration des paramètres autovacuum par table pour "
-"PostgreSQL >= 8.2, par Devrim Gunduz."
-
-#: ../news.php:149
-msgid ""
-"Fix pgAgent's job query when a host agent is specified so that jobs don't "
-"execute every time round the loop regardless of schedule, per Brian Kalbfus."
-msgstr ""
-"Correction de la requête d'un job de pgAgent quand un agent hôte est "
-"spécifié pour que les jobs ne s'exécutent pas à chaque tour de la boucle "
-"quelque soit la planification, par Brian Kalbfus."
-
-#: ../news.php:39
-msgid "Fix potential crash bug in the query tool logging code, per Erwin."
-msgstr ""
-"Corrige un bogue pouvant causer un crash de pgAdmin dans le code de trace de "
-"l'outil de requêtage, d'après Erwin."
-
-#: ../news.php:288
-msgid "Fix procedure support on EnterpriseDB AS81."
-msgstr "Correction du support de la procédure sur EnterpriseDB AS81."
-
-#: ../news.php:76
-msgid "Fix query that tries to apply the DB restriction."
-msgstr "Corrige la requête qui essaie d'appliquer la restriction de la base."
-
-#: ../news.php:73
-msgid "Fix query that tries to apply the schema restriction."
-msgstr "Corrige la requête qui essaie d'appliquer la restriction du schéma."
-
-#: ../news.php:305
-msgid ""
-"Fix query tool title which was unfortunately broken by an earlier fix for "
-"another bug."
-msgstr ""
-"Correction du titre de l'outil de requêtage, malheureusement cassé par une "
-"précédente correction pour un autre bogue."
-
-#: ../news.php:251
-msgid ""
-"Fix reverse engineering of data types with a size of 0, such as \"timestamp"
-"(0) without timezone\"."
-msgstr ""
-"Correction de la récupération du SQL des types de données avec une taille 0, "
-"comme « timestamp(0) without timezone »."
-
-#: ../news.php:137
-msgid "Fix some broken references to online help pages."
-msgstr ""
-"Correction de certaines reférences, cassées, dans les pages de l'aide en "
-"ligne."
-
-#: ../news.php:321
-msgid ""
-"Fix some oddities in the way current per-table vacuum settings are displayed."
-msgstr ""
-"Correction de quelques étrangetés dans la façon dont sont affichées les "
-"paramètres autovacuum par table."
-
-#: ../news.php:356
-msgid "Fix some portability issues in the configure code [Max Khon]"
-msgstr ""
-"Correction de certains problèmes de portabilité dans le code de configure, "
-"par Max Khon"
-
 #: ../visualtour.php:365
 msgid "Fix support for 'bit varying' columns"
 msgstr "Ajout du support des colonnes 'bit varying'"
-
-#: ../news.php:97
-msgid "Fix the WITH ADMIN membership option when creating roles."
-msgstr ""
-"Correction de l'option d'appartenance WITH ADMIN lors de la création de "
-"rôles."
-
-#: ../news.php:153
-msgid ""
-"Fix the debugger to send actual NULL values rather than 'NULL' through the "
-"EnterpriseDB callable statement API. Allow parameter values to be NULL or "
-"empty strings on both PostgreSQL and EnterpriseDB using the same syntax as "
-"the Edit Grid."
-msgstr ""
-"Correction du débogueur pour qu'il envoie réellement des valeurs NULL plutôt "
-"que 'NULL' via l'API appelable d'EnterpriseDB. Autorise NULL ou chaîne vide "
-"comme valeur de paramètre sur PostgreSQL et EnterpriseDB en utilisant la "
-"même syntaxe que la grille d'édition."
-
-#: ../news.php:143
-msgid ""
-"Fix the debugger's connection class to ensure database names requiring "
-"quotes will work and that it can be used with SSL and Kerberos connections."
-msgstr ""
-"Correction de la classe de connexion du débogueur pour s'assurer que les "
-"noms des bases de données réclamant des guillemets fonctionneront et qu'elle "
-"puisse être utilisée avec les connexions SSL et Kerberos."
-
-#: ../news.php:293
-msgid ""
-"Fix the graphical explain to properly display backwards index scan nodes, "
-"per Brendan O'Shea."
-msgstr ""
-"Correction du EXPLAIN graphique en affichant correctement les noeuds de "
-"parcours d'index inverses, par Brendan O'Shea."
 
 #: ../visualtour.php:336
 msgid "Fix the index UI to handle columns with commas in the name"
 msgstr ""
 "Correction de l'interface des index pour gérer les colonnes contenant des "
 "virgules dans le nom"
-
-#: ../news.php:160
-msgid ""
-"Fix the locks tab on the server status dialogue so it works correctly with "
-"PostgreSQL 8.3+."
-msgstr ""
-"Correction de l'onglet Verrous sur le dialogue de statut du serveur pour "
-"qu'il fonctionne correctement avec PostgreSQL 8.3+."
-
-#: ../news.php:57
-msgid ""
-"Fix the logging system to ensure that errors from the query tool get logged, "
-"and notices are only output once."
-msgstr ""
-"Corrige le système de trace pour s'assurer que les erreurs provenant de "
-"l'outil de requêtage soient tracées, et que les messages d'information sont "
-"affichés seulement une fois."
-
-#: ../news.php:99
-msgid "Fix the privilege editor on the Language dialogue, per Bborie Park."
-msgstr ""
-"Correction de l'éditeur de droits pour le dialogue Langage, par Bborie Park."
-
-#: ../news.php:255
-msgid ""
-"Fix the table, index and index constraint tablespace property combo boxes to "
-"allow changes to tablespace."
-msgstr ""
-"Correction des listes déroulantes tablespace dans les propriétés des tables, "
-"index et contrainte d'index pour autoriser la modification d'un tablespace."
-
-#: ../news.php:135
-msgid ""
-"Fix to refresh version string and number, and last OID, per a report from "
-"Alexander Kirpa."
-msgstr ""
-"Correction pour rafraîchir la chaîne de version, son numéro et le dernier "
-"OID, suite à un rapport d'Alexander Kirpa."
-
-#: ../news.php:237
-msgid ""
-"Fixed UTF8 option was not effective by file reading and writing of a query "
-"and fixed crash at the time of file save."
-msgstr ""
-"L'option UTF-8 corrigée ne fonctionnait pas pour la lecture d'un fichier et "
-"l'écriture d'une requête, et correction d'un arrêt brutal au moment de la "
-"sauvegarde d'un fichier."
 
 #: ../download/ubuntu.php:48
 msgid "For example, for France and Gutsy Gibbon, you can try:"
@@ -2145,14 +959,6 @@ msgstr ""
 msgid "Function properties"
 msgstr "Propriétés d'une fonction"
 
-#: ../news.php:253
-msgid ""
-"Function/procedure signatures do not include OUT params. Fix this oversight, "
-"and cleanup much of the related code."
-msgstr ""
-"Les signatures des fonctions/procédures n'incluent pas les paramètres OUT. "
-"Correction de ceci et nettoyage du code relatif."
-
 #: ../development/roadmap.php:28
 msgid "Functionality"
 msgstr "Fonctionnalités"
@@ -2177,7 +983,7 @@ msgstr "Navigateur GIT"
 msgid "GSoC"
 msgstr "GSoC"
 
-#: ../index.php:18
+#: ../index.php:16
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/learning/videos/"
@@ -2188,13 +994,6 @@ msgstr ""
 "une <a href=\"http://www.enterprisedb.com/learning/videos/"
 "Create_Postgres_Database_pgAdmin.do\">démonstration vidéo</a> de certaines "
 "fonctionnalités de pgAdmin."
-
-#: ../news.php:95
-msgid ""
-"Generate function signatures correctly if the first parameters are OUT only."
-msgstr ""
-"Correction de la génération des signatures de fonctions si les premiers "
-"paramètres sont en mode OUT."
 
 #: ../translation/howto.php:10
 msgid "Getting started"
@@ -2220,12 +1019,6 @@ msgstr "Objets Greenplum (comme les tables externes, les queues de ressource)"
 msgid "Groups"
 msgstr "Groupes"
 
-#: ../news.php:357
-msgid "Guard against permission denied errors in the edit grid per Howard Wang"
-msgstr ""
-"Protection contre les erreurs de droits dans la grille de modification, par "
-"Howard Wang"
-
 #: ../translation/howto.php:65
 msgid "Guidelines"
 msgstr "Lignes directrices"
@@ -2233,48 +1026,6 @@ msgstr "Lignes directrices"
 #: ../features.php:31
 msgid "Guru Hints to help less experienced users"
 msgstr "Astuces du gourou pour aider les utilisateurs moins expérimentés."
-
-#: ../news.php:299
-msgid ""
-"Handle non-default schema paths properly in the Foreign Key dialogue, per "
-"Philipp Specht"
-msgstr ""
-"Correction de la gestion des chemins de schémas différents de la valeur par "
-"défaut dans le dialogue des clés étrangères, par Philipp Specht."
-
-#: ../news.php:252
-msgid "Handle resetting of sequence values more consistently."
-msgstr ""
-"Gestion plus cohérente de la réinitialisation de la valeur des séquences."
-
-#: ../news.php:142
-msgid ""
-"Handle the corner case when a user includes quotes in an object name "
-"(backport of 2007-10-26 fix applied to trunk)"
-msgstr ""
-"Gestion du cas particulier posé par un utilisateur qui inclut des guillemets "
-"dans un nom d'objet (patch du 26 octobre 2007 appliqué à la branche de "
-"développement)."
-
-#: ../news.php:72
-msgid ""
-"Hide array variants of table-types in datatype selectors where we already "
-"hide the table type itself."
-msgstr ""
-"Cache les variantes tableau des types de table dans les sélecteurs de type "
-"de données où nous cachons déjà le type table lui-même."
-
-#: ../news.php:422
-msgid "Hide binary data (bytea) in the edit grid."
-msgstr "Cache les données binaires (bytea) dans la grille de modification."
-
-#: ../news.php:411
-msgid ""
-"Highlight the error word in the query tool if a syntax error is reported by "
-"the database."
-msgstr ""
-"Surlignement du mot erroné dans l'outil de requêtes si une erreur de syntaxe "
-"est rapportée par la base de données."
 
 #: ../include/page.php:124
 msgid "Home"
@@ -2288,51 +1039,9 @@ msgstr "Comment contribuer"
 msgid "Howto"
 msgstr "Guide pratique"
 
-#: ../news.php:268
-msgid ""
-"I would like to take this opportunity to thank all those who gave their \n"
-"time to help with the development, testing, translation and packaging of "
-"this release."
-msgstr ""
-"J'aimerais profiter de cette opportunité pour remercier tous ceux qui ont "
-"donné de leur temps pour aider au développement, aux tests, à la traduction "
-"et à l'empaquetage de cette version."
-
-#: ../news.php:428
-msgid ""
-"I would like to take this opportunity to thank all those who gave their time "
-"to help with the development, testing, translation and packaging of this "
-"release."
-msgstr ""
-"J'aimerais profiter de cette opportunité pour remercier tous ceux qui ont "
-"donné de leur temps pour aider au développement, aux tests, à la traduction "
-"et à l'empaquetage de cette version."
-
-#: ../news.php:368
-msgid ""
-"I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source "
-"graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac OS "
-"X and Solaris, now available for download in source and a variety of binary "
-"formats from:"
-msgstr ""
-"Je suis heureux d'annoncer la sortie de pgAdmin 1.6.0, l'outil libre "
-"d'administration graphique de PostgreSQL pour Windows, Linux, FreeBSD, Mac "
-"OS X et Solaris, actuellement disponible au téléchargement en fichiers "
-"sources et en une variété de formats binaires comme&nbsp;:"
-
 #: ../features.php:103
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
-
-#: ../news.php:60
-msgid ""
-"If stopping the server service fails after stopping dependent services, wait "
-"5 seconds and try again up to 10 times to allow the dependents time to "
-"shutdown fully."
-msgstr ""
-"Si l'arrêt d'un service serveur échoue après l'arrêt des services "
-"dépendants, attente de cinq secondes puis nouvelle tentative (limitée à 10) "
-"pour permettre aux services dépendants de s'arrêter complètement. "
 
 #: ../development/index.php:14
 #, php-format
@@ -2423,12 +1132,6 @@ msgstr ""
 "Si vous souhaitez remplacer la requête en cours avec une ancienne requête "
 "sauvegardée, vous pouvez la sélectionner dans la liste déroulante."
 
-#: ../news.php:59
-msgid "Ignore the type modifier for domains in function signatures."
-msgstr ""
-"Ignore le modifieur de type pour les domaines dans les signatures de "
-"fonctions."
-
 #: ../translation/howto.php:40
 msgid ""
 "In poEdit, clicking on the save button will automatically compile pgadmin3."
@@ -2456,12 +1159,6 @@ msgstr ""
 "tables. Pour exécuter ce script, vous devez cliquer sur le bouton PGS. La "
 "référence complète de pgscript est disponible <a href=\"%s\">ici</a>. "
 
-#: ../news.php:350
-msgid "Include IN/OUT/INOUT keywords in procedure identifiers in the treeview."
-msgstr ""
-"Inclusion des mots clés IN/OUT/INOUT dans les identifiants de procédure dans "
-"l'arbre."
-
 #: ../visualtour12.php:153 ../visualtour.php:189
 msgid "Index properties"
 msgstr "Propriétés d'un index"
@@ -2488,12 +1185,7 @@ msgstr ""
 msgid "Installation"
 msgstr "Installation"
 
-#: ../news.php:187
-msgid "Integrate the EnterpriseDB pl/pgsql and EDB-SPL debugger with pgAdmin."
-msgstr ""
-"Intégration du débogueur pl/pgsql et EDB-SPL d'EnterpriseDB dans pgAdmin."
-
-#: ../index.php:20 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:18 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2619,11 +1311,11 @@ msgstr ""
 msgid "Last update: %s"
 msgstr "Dernière mise à jour&nbsp;: %s"
 
-#: ../index.php:8 ../news.php:8
+#: ../index.php:8
 msgid "Latest news"
 msgstr "Dernières informations"
 
-#: ../licence.php:8 ../menu.php:12
+#: ../licence.php:8 ../menu.php:11
 msgid "Licence"
 msgstr "License"
 
@@ -2634,13 +1326,6 @@ msgstr "Linux"
 #: ../development/menu.php:10 ../support/menu.php:11
 msgid "List archives"
 msgstr "Archives des listes"
-
-#: ../news.php:244
-msgid ""
-"Load second and subsequent postgresql.conf files into the config editor "
-"correctly."
-msgstr ""
-"Charge correctement tous les fichiers de configurations dans l'éditeur."
 
 #: ../include/po_status.php:253
 msgid "Locale"
@@ -2708,19 +1393,9 @@ msgstr "Maintenance"
 msgid "Maintenance dialogs"
 msgstr "Dialogues de maintenance"
 
-#: ../news.php:182
-msgid "Major features"
-msgstr "Fonctionnalités majeures"
-
 #: ../visualtour.php:16
 msgid "Major new features"
 msgstr "Nouvelles fonctionnalités majeures"
-
-#: ../news.php:418
-msgid "Make elements of the main windows dockable for maximum configurability."
-msgstr ""
-"Rend intégrables les éléments de la fenêtre principal pour une configuration "
-"maximale."
 
 #: ../advocacy/information.php:20
 msgid "Management tools for PostgreSQL"
@@ -2760,25 +1435,9 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr "Microsoft Windows &trade; 2000 et ultérieur"
 
-#: ../news.php:396
-msgid "Minimal linking for pgAgent under *nix."
-msgstr "Lien minimal pour pgAgent sous *nix."
-
-#: ../news.php:287
-msgid "Minor fix for edb/spl functions."
-msgstr "Correction mineure pour les fonctions edb/spl."
-
 #: ../visualtour.php:327
 msgid "Miscellanous"
 msgstr "Divers"
-
-#: ../news.php:295
-msgid ""
-"Monitor the streams again whilst backing up on Mac - this no longer crashes "
-"in wx2.8. Per Dave Livesay."
-msgstr ""
-"Surveille de nouveau les flux lors d'une sauvegarde sur Mac - ceci ne cause "
-"plus d'erreurs avec wx 2.8. Par Dave Livesay."
 
 #: ../visualtour12.php:168
 msgid ""
@@ -2856,19 +1515,6 @@ msgstr ""
 "De nouveaux scripts ont été ajoutés : SELECT pour les fonctions, et EXEC "
 "pour les procédures (dans Postgres Plus Advanced Server d'EnterpriseDB)."
 
-#: ../news.php:105
-msgid ""
-"Newer build of EnterpriseDB consistently strip trailing semi-colons from "
-"package headers and bodies. Update reverse engineering allow for this."
-msgstr ""
-"Les nouvelles constructions d'EntrepriseDB suppriment les points-virgules en "
-"fin à partir des en-têtes et du corps des package. Le « reverse engineering » "
-"de la mise à jour permet cela."
-
-#: ../menu.php:7
-msgid "News"
-msgstr "Informations"
-
 #: ../visualtour12.php:162
 msgid ""
 "No one could change the operator class with pgAmin's UI because it lacked "
@@ -2895,18 +1541,6 @@ msgid ""
 msgstr ""
 "Note : PostgreSQL 8.2 et les versions ultérieures incluent adminpack en "
 "module contrib."
-
-#: ../news.php:198
-msgid ""
-"Numerous changes to the database browser code to ensure changes to objects "
-"are properly reflected in the main window. In addition, the expanded/"
-"collapsed states of child nodes are retained wherever possible during "
-"refresh operations."
-msgstr ""
-"Nombreuses modifications dans le code du navigateur de bases de données pour "
-"s'assurer que les modifications d'objets sont correctement réfléchies dans "
-"la fenêtre principale. De plus, les états ouverts/fermés des nœuds fils sont "
-"conservés si possible lors des opérations de rafraichissement."
 
 #: ../visualtour12.php:29 ../visualtour.php:61
 msgid "Object browser"
@@ -2978,19 +1612,6 @@ msgstr ""
 msgid "One can now change a <b>language's owner</b>."
 msgstr ""
 "Un utilisateur peut maintenant modifier le <b>propriétaire d'un langage</b>."
-
-#: ../news.php:352
-msgid ""
-"Only enable the 'Include SQL' checkbox on the report dialog if there is SQL "
-"to include, Per Ezequias Rodrigues da Rocha"
-msgstr ""
-"Activation de la case à cocher « Inclure SQL » sur le dialogue des rapports "
-"seulement s'il y a du code SQL à inclure, par Ezequias Rodrigues da Rocha"
-
-#: ../news.php:128
-msgid "Only offer the Jobs node if the user can access the pgagent schema."
-msgstr ""
-"N'offre que le nœud Jobs si l'utilisateur peut accéder au schéma pgagent."
 
 #: ../visualtour.php:114
 msgid ""
@@ -3138,10 +1759,6 @@ msgstr ""
 "langues supportées est disponible sur la page d'<a href=\"%s\">état des "
 "traductions</a>."
 
-#: ../news.php:381
-msgid "Overhaul of server config settings."
-msgstr "Revue des paramètrages du serveur."
-
 #: ../download/solaris.php:12
 msgid ""
 "Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
@@ -3149,12 +1766,6 @@ msgid ""
 msgstr ""
 "Les paquets construits pour Solaris sur Sparc et Intel sont disponibles "
 "grâce à Sun Microsystems."
-
-#: ../news.php:68
-msgid "Parse function parameter names correctly when they contain commas."
-msgstr ""
-"Met proprement entre guillemets les noms des paramètres de fonction quand "
-"ils contiennent des virgules."
 
 #: ../visualtour12.php:20
 msgid ""
@@ -3225,17 +1836,6 @@ msgstr ""
 "Merci de vous référer aux lignes de conduite pour la traduction ci-dessous "
 "pour traduire les variables (%s et %d) et les raccourcis clavier (&amp;)."
 
-#: ../news.php:26
-msgid ""
-"Please visit the <a href=\"download\">download area</a> to get your copy "
-"now. Any questions or other support issues should be sent to <a href="
-"\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</a>."
-msgstr ""
-"Merci de consulter la <a href=\"/download/\">page de téléchargement</a> pour "
-"en obtenir une copie. Toute question ou demande de support doit être envoyé "
-"à <a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-"
-"support@postgresql.org</a>."
-
 #: ../download/ubuntu.php:54
 msgid ""
 "Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as "
@@ -3253,21 +1853,9 @@ msgstr ""
 msgid "Plugins menu"
 msgstr "Menu plugins"
 
-#: ../news.php:213
-msgid ""
-"Position the cursor at the error position when an error occurs in the Query "
-"Tool. Ensure the line is visible."
-msgstr ""
-"Place le curseur à la position de l'erreur lorsqu'une erreur survient dans "
-"l'outil de requêtes. S'assure que la ligne est visible."
-
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
 msgstr "PostgreSQL 7.3 et ultérieur"
-
-#: ../news.php:374
-msgid "PostgreSQL 8.2 support:"
-msgstr "Support de PostgreSQL 8.2&nbsp;:"
 
 #: ../visualtour12.php:86
 msgid ""
@@ -3349,94 +1937,6 @@ msgstr ""
 msgid "Powerful query tool with colour syntax highlighting"
 msgstr "Puissant outil de requêtage avec coloration syntaxique"
 
-#: ../news.php:403
-msgid ""
-"Pre-encrypt passwords before sending them down the wire, or displaying them "
-"in SQL statements."
-msgstr ""
-"Chiffrement des mots de passe avant leur envoi sur le réseau ou leur "
-"affichage dans les instructions SQL."
-
-#: ../news.php:216
-msgid "Preserve column widths between queries in the query tool."
-msgstr ""
-"Conserve la taille des colonnes entre l'exécution des requêtes dans l'outil "
-"de requêtage."
-
-#: ../news.php:359
-msgid "Prevent a crash from the query tool when using File -> Exit on GTK"
-msgstr ""
-"Empêche un arrêt brutal de l'outil de requête lors de l'utilisation du menu "
-"Fichier/Quitter avec GTK"
-
-#: ../news.php:346
-msgid ""
-"Prevent a crash if the 'View Filtered Data' filter dialog is cancelled. Per "
-"Erwin Brandstetter."
-msgstr ""
-"Empêche un arrêt brutal si le dialogue de filtre « Visualiser les données "
-"filtrées » est annulée, par Erwin Brandstetter."
-
-#: ../news.php:92
-msgid "Prevent a crash when viewing databases with % in the name."
-msgstr ""
-"Évite des arrêts brutaux lors de la navigation dans des bases de données "
-"contenant % dans le nom."
-
-#: ../news.php:390
-msgid ""
-"Prevent deletion of the blank item in config editors, and ensure undo will "
-"only work on the appropriate line."
-msgstr ""
-"Empêche la suppression d'un élément blanc dans les éditeurs de configuration "
-"et s'assure que l'annulation fonctionne seulement sur la ligne appropriée."
-
-#: ../news.php:139
-msgid ""
-"Prevent non-superusers from attempting to use the debugger because the "
-"plugin API won't let them anyway."
-msgstr ""
-"Empêche les utilisateurs standards de tenter d'utiliser le débogueur car "
-"l'API du plugin ne les laissera pas faire de toute façon."
-
-#: ../news.php:291
-msgid ""
-"Prevent the Edit Grid Filter causing a crash if an invalid filter containing "
-"a % is used, per Erwin."
-msgstr ""
-"Correction d'un arrêt brutal causé par le filtre de la grille d'édition dans "
-"le cas où un filtre invalide contenant un % est utilisé, par Erwin."
-
-#: ../news.php:286
-msgid ""
-"Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL 8.2"
-"+, per Erwin."
-msgstr ""
-"Empêche le droit RULE d'être ré-activé pour les tables sur PostgreSQL 8.2+, "
-"par Erwin."
-
-#: ../news.php:319
-msgid ""
-"Prevent the filter/sort options dialogue being opened when data is being "
-"refreshed, per Erwin Brandstetter."
-msgstr ""
-"Empêche le dialogue d'options filtre/tri d'être ouvert quand les données "
-"sont en cours de rafraichissement, par Erwin Brandstetter."
-
-#: ../news.php:130
-msgid "Prevent the user from trying to debug catalog objects."
-msgstr ""
-"Empêche l'utilisateur de tenter le débogage des objects d'un catalogue "
-"système."
-
-#: ../news.php:50
-msgid ""
-"Prevent unsaved changes in the edit grid being lost if the filter or sorting "
-"dialogue is opened."
-msgstr ""
-"Empêche la perte de modifications non sauvegardées dans la grille d'édition "
-"si le dialogue de filtre/tri est ouvert."
-
 #: ../visualtour12.php:148
 msgid ""
 "Primary keys and unique indexes can now be defined as deferrable and "
@@ -3446,14 +1946,9 @@ msgstr ""
 "comme des contraintes déferrables et déferrées. Donc, il existe deux "
 "nouvelles cases à cocher pour configurer ces options."
 
-#: ../menu.php:13 ../privacypolicy.php:8
+#: ../menu.php:12 ../privacypolicy.php:8
 msgid "Privacy policy"
 msgstr "Politique concernant la vie privée"
-
-#: ../news.php:377
-msgid "Privilege changes (database CONNECT, and sequence USAGE)."
-msgstr ""
-"Modifications des droits (CONNECT sur la base et USAGE sur la séquence)."
 
 #: ../download/ubuntu.php:57
 msgid "Proceed to installation"
@@ -3484,67 +1979,6 @@ msgstr ""
 "fonctionnalités de gestion de Slony-I alors qu'EnterpriseDB a fourni un "
 "Apple Powerbook pour permettre de développer et de maintenir correctement le "
 "port Mac OSX."
-
-#: ../news.php:245
-msgid ""
-"Prompt the user to save changes before opening a file from the recent files "
-"menu on the Query Tool."
-msgstr ""
-"Demande à l'utilisateur de sauvegarder les modifications avant d'ouvrir un "
-"fichier dans le menu des fichiers récemment ouverts (outil de requêtes)."
-
-#: ../news.php:329
-msgid ""
-"Properly drop foreign keys in schemas whose names require quoting, per M S."
-msgstr ""
-"Suppression correcte des clés étrangères dans les schémas dont le nom "
-"nécessite l'utilisation de guillemets, par M S."
-
-#: ../news.php:163
-msgid "Properly escape _'s in queries for schemas, per Derek Fonda."
-msgstr ""
-"Échappe proprement les tirets bas (_) dans les requêtes pour les schémas, "
-"par Derek Fonda."
-
-#: ../news.php:161
-msgid ""
-"Properly format the object comments shown in the properties list when a "
-"collection node is selected. Per report from Mike Blackwell."
-msgstr ""
-"Formate correctement les commentaires des objets affichés dans la liste des "
-"propriétés quand un nœud de collection est sélectionné. D'après un rapport "
-"de Mike Blackwell."
-
-#: ../news.php:355
-msgid "Properly quote function parameter names, per Ken Priest."
-msgstr ""
-"Met proprement entre guillemets les noms des paramètres de fonction, par Ken "
-"Priest."
-
-#: ../news.php:67
-msgid "Properly quote synonym names when refreshing."
-msgstr ""
-"Met proprement entre guillemets les noms des synonymes lors du "
-"rafraichissement."
-
-#: ../news.php:64
-msgid ""
-"Properly quote the maintenance database name when creating a new connection."
-msgstr ""
-"Met proprement entre guillement le nom de la base de maintenance lors de la "
-"création d'une nouvelle connexion."
-
-#: ../news.php:127
-msgid ""
-"Properly reverse-engineer the SQL for indexes with DESC, NULLS FIRST or "
-"NULLS LAST column options."
-msgstr ""
-"Récupère correctement le SQL pour les index utilisant les options de "
-"colonnes DESC, NULLS FIRST ou NULLS LAST."
-
-#: ../news.php:325
-msgid "Properly size the backup dialog, per Patrick Headley."
-msgstr "Retaille correctement le dialogue de sauvegarde, par Patrick Headley."
 
 #: ../translation/status.php:33
 #, php-format
@@ -3579,125 +2013,19 @@ msgstr ""
 "Reconcevoir la fenêtre Table pour supprimer les sous-fenêtres lorsque c'est "
 "possible et utiliser l'UI style grid [DP]"
 
-#: ../news.php:262
-msgid "Refactor code to remove database base classes."
-msgstr ""
-"Refactorisation du code pour supprimer les classes de base de la base de "
-"données."
-
-#: ../news.php:261
-msgid ""
-"Refactor code to remove support for building the Query Tool with a listview "
-"rather than a grid."
-msgstr ""
-"Refactorisation du code pour supprimer la construction de l'outil de "
-"requêtes avec un composant « listview » plutôt qu'une grille."
-
-#: ../news.php:256
-msgid ""
-"Refactor the Query Tool's execQuery function to prevent pgAdmin freezing "
-"while two long running queries are executing simultaneously."
-msgstr ""
-"Refactorisation de la fonction execQuery de l'outil de requêtes pour "
-"empêcher le gel de pgAdmin lorsque deux requêtes longues sont en cours "
-"d'exécution en même temps."
-
-#: ../news.php:98
-msgid "Refresh Views correctly on EnterpriseDB."
-msgstr "Correction du rafraîchissement des vues sur EnterpriseDB."
-
-#: ../news.php:331
-msgid "Refresh database objects correctly, per Guy Rouillier."
-msgstr ""
-"Actualisation correcte des objets de la base de données, par Guy Rouillier."
-
-#: ../news.php:131
-msgid ""
-"Refresh the tree without erroring after creating a new package on "
-"EnterpriseDB."
-msgstr ""
-"Rafraichissement du navigateur sans erreur après la création d'un nouveau "
-"package sur EnterpriseDB."
-
-#: ../news.php:397
-msgid "Reject invalid command line options in pgAgent."
-msgstr "Rejet des options invalides en ligne de commande pour pgAgent."
-
 #: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
-#: ../docs/menu.php:11
+#: ../docs/menu.php:11 ../docs/menu.php:12
 #, php-format
 msgid "Release %s"
 msgstr "Version %s"
-
-#: ../news.php:232
-msgid "Remember last used backup/restore filenames."
-msgstr "Se souvient des derniers fichiers de sauvegarde et de restauration."
-
-#: ../news.php:231
-msgid "Remember last used save definition filename."
-msgstr "Se souvient du dernier fichier utilisé."
-
-#: ../news.php:285
-msgid "Remember the server's SSL mode property correctly."
-msgstr "Se rappelle correctement du mode SSL du serveur."
-
-#: ../news.php:260
-msgid "Remove a lot debugging code of little or no use."
-msgstr ""
-"Suppression de beaucoup de code de débogage qui n'avait plus d'intérêt."
 
 #: ../visualtour.php:334
 msgid "Remove an obsolete FORCE option on the Maintenance dialogue"
 msgstr "Suppression de l'option obsolète FORCE sur le dialogue de maintenance"
 
-#: ../news.php:203
-msgid ""
-"Remove bundled copies of PostgreSQL/Slony docs to make it easier to localise "
-"the rest. Instead allow the use of local or online copies of the PostgreSQL, "
-"EnterpriseDB or Slony docs, each independently of the other."
-msgstr ""
-"Suppression des copies des manuels de PostgreSQL/Slony pour faciliter la "
-"traduction de ceux-ci. Autorise à la place l'utilisation de copies locales "
-"ou en ligne des documentations PostgreSQL, EnterpriseDB et Slony."
-
-#: ../news.php:263
-msgid ""
-"Remove code specific to versions of wxWidgets that we no longer support."
-msgstr ""
-"Suppression du code spécifique aux versions de wxWidgets que nous ne "
-"supportons plus."
-
-#: ../news.php:66
-msgid "Remove long-dead Explain Text option from the Query Tool."
-msgstr ""
-"Suppression de l'option « Explain Text » qui n'existe plus depuis longtemps, "
-"sur l'outil de requêtage."
-
-#: ../news.php:264
-msgid "Remove obsolete support for non-Unicode builds."
-msgstr "Suppression du support osbolète des constructions non Unicode."
-
-#: ../news.php:96
-msgid ""
-"Remove the confusing and near-useless sequence combo box from the column "
-"dialog per discussion on support list."
-msgstr ""
-"Suppression de la liste déroulante de la séquence, confuse et pratiquement "
-"inutile, du dialogue de colonne après discussion sur la liste support."
-
 #: ../visualtour.php:361
 msgid "Remove the un-maintained Tip of the Day feature"
 msgstr "Suppression de l'astuce du jour (non maintenue)"
-
-#: ../news.php:222
-msgid ""
-"Replace the Mac installer with code to create a distribution disk image."
-msgstr ""
-"Remplacement de l'installeur Mac avec du code pour créer une image disque."
-
-#: ../news.php:323
-msgid "Restore dialog sizes correctly."
-msgstr "Restauration correcte de la taille des dialogues."
 
 #: ../visualtour.php:366
 msgid ""
@@ -3710,34 +2038,6 @@ msgstr ""
 "return&gt; déplaçait à la colonne suivante et &lt;enter&gt; déplaçait à la "
 "ligne suivante, plutôt que les deux déplacent à la colonne suivante."
 
-#: ../news.php:202
-msgid "Retain column widths when refreshing the edit grid."
-msgstr ""
-"Conserve la taille des colonnes lors du rafraichissement de la grille "
-"d'édition."
-
-#: ../news.php:229
-msgid "Retain the clipboard contents on app exit."
-msgstr ""
-"Conservation du contenu du presse-papier après la fermeture de l'application."
-
-#: ../news.php:413
-msgid "Retain values in the edit grid following a failed insert or update."
-msgstr ""
-"Conservation des valeurs dans la grille de modifications après un INSERT ou "
-"un UPDATE échoué."
-
-#: ../news.php:327
-msgid ""
-"Reverse engineer columns with multi-word names (like 'timestamp with "
-"timezone') correctly so that precision and array modifiers are included "
-"properly. Per Erwin Brandstetter."
-msgstr ""
-"Récupération améliorée par ingénieurie inverse des colonnes dont le type "
-"contient plusieurs mots (comme « timestamp with timezone ») pour que des "
-"indicateurs comme la précision ou le fait que la colonne est un tableau "
-"soient inclus correctement. Par Erwin Brandstetter."
-
 #: ../visualtour.php:347
 msgid "Reverse engineer multi-word type names correctly when quoting"
 msgstr ""
@@ -3747,14 +2047,6 @@ msgstr ""
 #: ../translation/howto.php:47
 msgid "Review your translation carefully:"
 msgstr "Relisez votre traduction avec attention&nbsp;:"
-
-#: ../news.php:348
-msgid ""
-"Rework the Find/Replace code to fix a couple of minor bugs and improve "
-"readability."
-msgstr ""
-"Revue du code Chercher/Remplacer pour corriger quelques bogues mineurs et "
-"améliorer la lisibilité."
 
 #: ../development/menu.php:14 ../development/roadmap.php:8
 msgid "Roadmap"
@@ -3859,18 +2151,6 @@ msgstr "Statut serveur/visualisateur de processus"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Langages côté serveur (comme pl/pgsql, pl/perl, pl/python, etc.)"
 
-#: ../news.php:379
-msgid "Shared database comments."
-msgstr "Commentaires des bases partagés."
-
-#: ../news.php:65
-msgid ""
-"Show the schema correctly for EDB public synonyms that point to other "
-"synonyms."
-msgstr ""
-"Affiche correctement le schéma pour les synonymes publiques EDB qui pointent "
-"vers d'autres synonymes."
-
 #: ../development/roadmap.php:31
 msgid "Show/hide columns in frmStatus's reports [GL]"
 msgstr "Afficher/Cacher les colonnes dans les rapports de frmStatus [GL]"
@@ -3887,10 +2167,6 @@ msgstr ""
 "Utilisez tout simplement Synaptic pour installer pgAdmin comme vous le "
 "feriez avec tout autre paquet, ou lancez la commande suivante à partir de la "
 "ligne de commande :"
-
-#: ../news.php:91
-msgid "Size of the column label of SQLGrid was made variable."
-msgstr "La taille du label des colonnes de SQLGrid est maintenant variable."
 
 #: ../download/menu.php:12 ../download/slackware.php:8
 msgid "Slackware"
@@ -3942,10 +2218,6 @@ msgstr ""
 "échangés&nbsp;: <i>Server %s user %s is logged in</i> pourrait être traduit "
 "par <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
 
-#: ../news.php:242
-msgid "Sort server list alphabetically."
-msgstr "Liste les serveurs dans l'ordre alphabétique."
-
 #: ../download/menu.php:14 ../download/source.php:8
 msgid "Source code"
 msgstr "Code source"
@@ -3971,22 +2243,6 @@ msgstr ""
 "Les archives tar des sources sont disponibles pour les utilisateurs "
 "souhaitant compiler leur propre version de pgAdmin et pour ceux utilisant "
 "des plateformes pour lesquelles nous n'avons pas de packages pré-construits."
-
-#: ../news.php:74
-msgid ""
-"Specify the length correctly when creating columns of 'time with time zone' "
-"and friends."
-msgstr ""
-"Spécifie correctement la longueur lors de la création de colonnes de type "
-"'time with time zone'."
-
-#: ../news.php:197
-msgid ""
-"Speed up loading of functions and procedures by rewriting some horribly "
-"inefficient code."
-msgstr ""
-"Accélération du chargement des fonctions et procédures en réécrivant un code "
-"particulièrement inefficace."
 
 #: ../privacypolicy.php:10
 msgid "Standard logging"
@@ -4029,14 +2285,6 @@ msgstr ""
 "personne ne reconnaîtra. Sinon, les utilisateurs pourraient basculer sur la "
 "version anglaise."
 
-#: ../news.php:47
-msgid ""
-"Store pgAgent job step result codes in an int4 column. int2 was proving too "
-"small in some cases resulting in an error."
-msgstr ""
-"Enregistre les codes résultats d'une étape d'un job de pgAgent dans une "
-"colonne de type int4. int2 est devenu trop petit dans certains cas."
-
 #: ../advocacy/menu.php:7 ../advocacy/strategy.php:8
 msgid "Strategy"
 msgstr "Stratégie"
@@ -4066,10 +2314,6 @@ msgid ""
 msgstr ""
 "Le support des <b>fonctions typmod in/out</b> sur les types personnalisés "
 "est enfin disponible."
-
-#: ../news.php:384
-msgid "Support for language templates."
-msgstr "Support des modèles de langage."
 
 #: ../screenshots/menu.php:12 ../screenshots/xgl.php:8
 msgid "Suse 10 XGL"
@@ -4276,7 +2520,7 @@ msgstr ""
 "fonctions incompatibles avec IPv6. Cette partie du code a été modifié pour "
 "autoriser les connexions IPv6."
 
-#: ../index.php:29
+#: ../index.php:27
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "La version actuelle de pgAdmin est <a href=\"/download/\">%s</a>."
@@ -4289,11 +2533,11 @@ msgstr "Le tableau des données"
 msgid "The database connection dialogue"
 msgstr "Le dialogue de connexion à la base de donnée"
 
-#: ../include/doc.php:67
+#: ../include/doc.php:73
 msgid "The document requested cannot be read!"
 msgstr "Le document requis ne peut pas être lu&nbsp;!"
 
-#: ../include/doc.php:44 ../include/doc.php:61
+#: ../include/doc.php:50 ../include/doc.php:67
 msgid "The document requested does not exist!"
 msgstr "Le document requis n'existe pas&nbsp;!"
 
@@ -4491,101 +2735,6 @@ msgstr ""
 "la <a href=\"%s\">liste de discussions des développeurs</a>, la <a href=\"%s"
 "\">structure de l'équipe de développement</a>, la <a href=\"%s\">TODO list</"
 "a> et la <a href=\"%s\">liste des modifications</a>."
-
-#: ../news.php:172
-msgid ""
-"The pgAdmin Development Team are pleased to announce the release of \n"
-"pgAdmin 1.8.0, the Open Source graphical PostgreSQL administration tool "
-"for \n"
-"Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download "
-"in \n"
-"source and a variety of binary formats from:"
-msgstr ""
-"L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
-"pgAdmin 1.8.0, l'outil d'administration graphique libre de PostgreSQL pour "
-"Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès maintenant en "
-"téléchargement pour les sources et une grande variété de formats "
-"binaires&nbsp;:"
-
-#: ../news.php:340
-msgid ""
-"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
-"1.6.1, the Open Source graphical PostgreSQL administration tool for Windows, "
-"Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
-"and a variety of binary formats from:"
-msgstr ""
-"L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
-"pgAdmin 1.6.1, l'outil d'administration graphique libre de PostgreSQL pour "
-"Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès maintenant en "
-"téléchargement pour les sources et une grande variété de formats "
-"binaires&nbsp;:"
-
-#: ../news.php:313
-msgid ""
-"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
-"1.6.2, the Open Source graphical PostgreSQL administration tool for Windows, "
-"Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
-"and a variety of binary formats from:"
-msgstr ""
-"L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
-"pgAdmin 1.6.2, l'outil d'administration graphique libre de PostgreSQL pour "
-"Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès maintenant en "
-"téléchargement pour les sources et une grande variété de formats "
-"binaires&nbsp;:"
-
-#: ../news.php:276
-msgid ""
-"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
-"1.6.3, the Open Source graphical PostgreSQL administration tool for Windows, "
-"Linux, FreeBSD\n"
-", Mac OS X and Solaris, now available for download in source and a variety "
-"of binary formats from:"
-msgstr ""
-"L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
-"pgAdmin 1.6.3, l'outil d'administration graphique libre de PostgreSQL pour "
-"Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès maintenant en "
-"téléchargement pour les sources et une grande variété de formats "
-"binaires&nbsp;:"
-
-#: ../news.php:117
-msgid ""
-"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
-"1.8.1, the Open Source graphical PostgreSQL administration tool for Windows, "
-"Linux, FreeBSD\n"
-", Mac OS X and Solaris, now available for download in source and a variety "
-"of binary formats from:"
-msgstr ""
-"L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
-"pgAdmin 1.8.1, l'outil d'administration graphique libre de PostgreSQL pour "
-"Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès maintenant en "
-"téléchargement pour les sources et une grande variété de formats "
-"binaires&nbsp;:"
-
-#: ../news.php:85
-msgid ""
-"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
-"1.8.2, the Open Source graphical PostgreSQL administration tool for Windows, "
-"Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
-"and a variety of binary formats from:"
-msgstr ""
-"L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
-"pgAdmin 1.8.2, l'outil d'administration graphique libre de PostgreSQL pour "
-"Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès maintenant en "
-"téléchargement pour les sources et une grande variété de formats "
-"binaires&nbsp;:"
-
-#: ../news.php:30
-msgid ""
-"The pgAdmin Development Team are pleased to announce the release of pgAdmin "
-"1.8.4, the Open Source graphical PostgreSQL administration tool for Windows, "
-"Linux, FreeBSD, Mac OS X and Solaris, now available for download in source "
-"and a variety of binary formats from:"
-msgstr ""
-"L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
-"pgAdmin 1.8.4, l'outil d'administration graphique libre de PostgreSQL pour "
-"Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès maintenant en "
-"téléchargement pour les sources et une grande variété de formats "
-"binaires&nbsp;:"
 
 #: ../docs/index.php:10
 msgid ""
@@ -4914,7 +3063,7 @@ msgstr ""
 "+C de poEdit. Par exemple, traduisez <i>ACL</i> en <i>ACL</i>, <i>AFTER</i> "
 "en <i>AFTER</i>, etc."
 
-#: ../download/macosx.php:25
+#: ../download/macosx.php:22
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -5024,7 +3173,7 @@ msgstr ""
 "ou Unix. Pour plus de détails, merci de voir les instructions de "
 "construction du <a href=\"%s\">code source</a>."
 
-#: ../download/windows.php:28
+#: ../download/windows.php:25
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -5093,11 +3242,11 @@ msgstr ""
 "En plus des images disponibles dans cette section, d'autres images sont "
 "placées dans la <a href=\"%s\">documentation en ligne</a>."
 
-#: ../menu.php:10
+#: ../menu.php:9
 msgid "Tour (1.10)"
 msgstr "Tour (1.10)"
 
-#: ../menu.php:9
+#: ../menu.php:8
 msgid "Tour (1.12)"
 msgstr "Tour (1.12)"
 
@@ -5109,27 +3258,6 @@ msgstr "Traduit"
 msgid "Translation"
 msgstr "Traduction"
 
-#: ../news.php:190
-msgid ""
-"Treat all functions & procedures as 'Functions' in PostgreSQL, and class "
-"only EnterpriseDB edbspl functions returning void as 'Procedures'."
-msgstr ""
-"Traite toutes les fonctions et procédures comme des procédures avec "
-"PostgreSQL et classe seulement les fonctions edbspl d'EnterpriseDB renvoyant "
-"void commes des procédures."
-
-#: ../news.php:186
-msgid ""
-"Treat view columns as first class citizens. Show them on the treeview, and "
-"allow their properties page to be viewed. Allow editting of the default "
-"value and comment, and reflect this in the reverse engineered SQL for the "
-"view."
-msgstr ""
-"Traite les colonnes des vues comme des citoyens de première classe. Les "
-"affiche dans le navigateur et permet la visualisation de leur propriétés. "
-"Permet la modification de leur valeur par défaut et de leur commentaire et "
-"réflète le tout dans le SQL généré pour la vue."
-
 #: ../features.php:90
 msgid "Trigger functions"
 msgstr "Fonctions déclencheurs"
@@ -5137,10 +3265,6 @@ msgstr "Fonctions déclencheurs"
 #: ../visualtour12.php:171
 msgid "Trigger properties"
 msgstr "Propriétés d'un trigger"
-
-#: ../news.php:304
-msgid "Truncate comments containing \\r\\n correctly, per Erwin."
-msgstr "Tronque correctement les commentaires contenant \\r\\n, par Erwin."
 
 #: ../advocacy/strategy.php:21
 #, php-format
@@ -5177,15 +3301,6 @@ msgstr "Configuration d'Ubuntu Dapper"
 msgid "Ubuntu Feisty or Gutsy configuration"
 msgstr "Configuration d'Ubuntu Feisty et Gutsy"
 
-#: ../news.php:102
-msgid ""
-"Undecorated out-param types must be included in EDB-SPL function signatures "
-"when altering comments or privileges or dropping functions or procedures."
-msgstr ""
-"Les types des paramètres OUT non décorés doivent être inclus dans les "
-"signaturesde fonction EDB-SPL lors de la modification de commentaires et de "
-"droits ou la suppression de fonctions et procédures."
-
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
 msgstr "Sous 2000 caractères"
@@ -5213,85 +3328,6 @@ msgid ""
 msgstr ""
 "pgAdmin 1.8 n'avait pas le support des <b>objets FTS</b>. La version 1.10 a "
 "été modifiée en conséquence."
-
-#: ../news.php:51
-msgid ""
-"Update node text when refreshing treeview nodes in case part of the "
-"identifier has changed."
-msgstr ""
-"Mise à jour du texte d'un noeud lors du rafraichissement des noeuds du "
-"navigateur d'objets dans le cas où une partie de l'identifiant a changé."
-
-#: ../news.php:301
-msgid "Update to support the changed syntax of pg_dump 8.2+."
-msgstr "Support de la syntaxe du pg_dump 8.2+."
-
-#: ../news.php:378
-msgid "Use E'' style escape string syntax when required."
-msgstr ""
-"Utilisation de la syntaxe de chaînes d'échappement E'' quand cela est requis."
-
-#: ../news.php:217
-msgid ""
-"Use EnterpriseDB's utilities for dump and restore EDB databases to ensure "
-"non-PG extensions can be handled."
-msgstr ""
-"Utilise les outils d'EnterpriseDB pour la sauvegarde et la restauration des "
-"bases de données EDB et ainsi s'assurer que les extensions non PG sont "
-"gérées."
-
-#: ../news.php:214
-msgid "Use Oracle style syntax for edbspl triggers."
-msgstr "Utilisation de la syntaxe style Oracle poiur les triggers edbspl."
-
-#: ../news.php:421
-msgid ""
-"Use SQL standard type names where appropriate. Show them as 'aliases' in the "
-"browser."
-msgstr ""
-"Utilisation des noms des types du standard SQL si approprié. Les affiche "
-"comme alias dans le navigateur."
-
-#: ../news.php:220
-msgid ""
-"Use pg_statindex (if available) to optionally display additional index "
-"statistics on a per-table basis. Also works for index-constraints."
-msgstr ""
-"Utilise pgstatindex (si disponible) pour afficher en option des statistiques "
-"supplémentaires sur l'index. Fonctionne aussi avec les index de contraintes."
-
-#: ../news.php:227
-msgid ""
-"Use pg_stattuple (if available) to optionally display additional table "
-"statistics on a per-table basis."
-msgstr ""
-"Utilise pgstattuple (si disponible) pour afficher en option des statistiques "
-"supplémentaires sur la table."
-
-#: ../news.php:158
-msgid ""
-"Use popen() when testing the versions of helper apps on non-windows "
-"platforms to avoid an obscure bug on PPC Macs that could leave wxExecute "
-"hanging indefinitely whilst waiting on a zombie process."
-msgstr ""
-"Utilisation de popen() lors du test des versions des applications d'aide sur "
-"les plateformes autres que Windows pour éviter un bogue obscur sur les Mac "
-"PPC qui pourrait amener wxExecute à ne jamais terminer son attente d'un "
-"processus zombi."
-
-#: ../news.php:290
-msgid ""
-"Use the correct version of the Slony scripts when creating a new cluster, "
-"per Duncan Beeby."
-msgstr ""
-"Utilise la bonne version des scripts Slony lors de la création d'un nouveau "
-"cluster, par Duncan Beeby."
-
-#: ../news.php:401
-msgid "Use virtual data table for Query Tool, to eliminate retrieval time."
-msgstr ""
-"Utilisation d'une table de données virtuelle dans l'outil de requêtes pour "
-"diminuer le temps de récupération des lignes."
 
 #: ../screenshots/menu.php:7 ../screenshots/ui.php:8
 msgid "User interface"
@@ -5338,23 +3374,6 @@ msgstr "WIN1256"
 #: ../features.php:111
 msgid "WIN874"
 msgstr "WIN874"
-
-#: ../news.php:239
-msgid ""
-"Warn the user and allow her to abort before re-running a backup or restore "
-"to or from the same file, in the same session (can occur if the first "
-"attempt returns an error or warning)."
-msgstr ""
-"Avertit l'utilisateur et lui permet d'annuler avant de ré-exécuter une "
-"sauvegarde ou une restauration à partir du même fichier, dans la même "
-"session (peut arriver si la première tentative renvoie une erreur ou un "
-"avertissement)."
-
-#: ../news.php:101
-msgid "Warn the user if a file cannot be saved in the default encoding."
-msgstr ""
-"Avertie l'utilisateur si un fichier ne peut pas être sauvegardé dans "
-"l'encodage par défaut."
 
 #: ../visualtour.php:359
 msgid ""
@@ -5471,14 +3490,6 @@ msgstr ""
 "support. Nous ne partagerons pas votre adresse mail avec d'autres "
 "organisations sauf si cela est demandé par la loi."
 
-#: ../news.php:351
-msgid ""
-"When checking the position & size of windows, use the dimensions of the "
-"current display, not the primary."
-msgstr ""
-"Lors de la vérification de la position et de la taille des fenêtres, utilise "
-"les dimensions de l'affichage actuel, pas celles du primaire."
-
 #: ../visualtour.php:271
 msgid ""
 "When clicked, the psql console is launched and connects\n"
@@ -5486,15 +3497,6 @@ msgid ""
 msgstr ""
 "Lors du clic sur le menu, la console psql est lancée et se connecte à la "
 "base de données sélectionnée dans pgAdmin."
-
-#: ../news.php:159
-msgid ""
-"When creating a new index and specifying both tablespace and fill factor, "
-"make sure the SQL is formulated correctly, per Stefan Wolf"
-msgstr ""
-"Lors de la création d'un nouvel index spécifiant un tablespace et un facteur "
-"de remplissage, s'assure que le SQL est formulé correctement, d'après Stefan "
-"Wolf."
 
 #: ../translation/howto.php:53
 #, php-format
@@ -5567,17 +3569,6 @@ msgstr ""
 "d'enregistrement n'empiètent pas sur les droits des membres de l'équipe de "
 "pgAdmin."
 
-#: ../index.php:14 ../news.php:14
-#, php-format
-msgid ""
-"You can also find all the fixed bugs in this <a href=\"http://code.pgadmin."
-"org/trac/query?status=closed&group=resolution&milestone=%s\">%s bugfix list</"
-"a>."
-msgstr ""
-"Vous pouvez trouver tous les bogues corrigés dans la <a href=\"http://code."
-"pgadmin.org/trac/query?status=closed&group=resolution&milestone=%s\">liste "
-"des bogues de la version %s</a>."
-
 #: ../translation/howto.php:51
 msgid ""
 "You can also use the translation debug mode of pgAdmin (command line option -"
@@ -5633,29 +3624,17 @@ msgstr ""
 "Vous verrez aussi la date et l'heure la dernière fois où la configuration a "
 "été rechargée."
 
-#: ../news.php:18
+#: ../index.php:12
 #, php-format
 msgid ""
-"pgAdmin %s has now been released. Please see the <a href=\"/development/"
-"changelog.php\">CHANGELOG</a> for details of the bug fixes in this release "
-"or visit the <a href=\"download\">download area</a> to get your copy now."
+"pgAdmin %s has now been released. This release is the culmination of over 12 "
+"months of development work. A visual tour of the new release is available <a "
+"href=\"/visualtour12.php\">here</a>, or a complete list of changes can be "
+"seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please "
+"visit the <a href=\"download\">download area</a> to get your copy, or "
+"alternatively download a <a href=\"http://www.enterprisedb.com/products/"
+"pgdownload.do\">PostgreSQL 9.0 Installer</a> which includes pgAdmin."
 msgstr ""
-"pgAdmin %s est disponible. Merci de voir la <a href=\"/news.php\">page des "
-"nouvelles</a> pour les détails sur les changements de cette version et sur "
-"la <a href=\"/download/\">page de téléchargement</a> pour le récupérer."
-
-#: ../index.php:12 ../news.php:12
-#, php-format
-msgid ""
-"pgAdmin %s has now been released. This release is primarily a bug fix "
-"release. Please see the <a href=\"/development/changelog.php\">CHANGELOG</a> "
-"for details of the bug fixes in this release or visit the <a href=\"download"
-"\">download area</a> to get your copy now."
-msgstr ""
-"pgAdmin %s est disponible. Il s'agit d'une version corrective. Merci de voir "
-"la <a href=\"/news.php\">page des nouvelles</a> pour les détails sur les "
-"changements de cette version et sur la <a href=\"/download/\">page de "
-"téléchargement</a> pour le récupérer."
 
 #: ../download/debian.php:16 ../download/debian.php:20
 #: ../download/debian.php:24 ../download/debian.php:28
@@ -5670,7 +3649,7 @@ msgstr ""
 "tout autre paquet Debian (apt-get install pgadmin3)."
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
-#: ../include/doc.php:33 ../include/doc.php:39
+#: ../include/doc.php:33 ../include/doc.php:39 ../include/doc.php:45
 #, php-format
 msgid "pgAdmin %s online documentation"
 msgstr "Documentation en ligne %s de pgAdmin"
@@ -5740,31 +3719,6 @@ msgstr ""
 "fonctions</b> dans PostsgreSQL 8.4+ et sur EnterpriseDB, et des <b>fonctions "
 "variantes</b>."
 
-#: ../news.php:26
-msgid ""
-"pgAdmin 1.10.0 has now been released! Highlights of the new release include "
-"a graphical query builder, a scripting engine in the query tool and support "
-"for PostgreSQL 8.4 in addition to <a href=\"/development/changelog.php"
-"\">numerous other changes</a>. For a rundown of the key features, take a "
-"look at our <a href=\"/visualtour.php\">visual tour</a>."
-msgstr ""
-"pgAdmin 1.10.0 est maintenant disponible. Les principales nouveautés de "
-"cette version incluent un constructeur graphique de requêtes, un langage de "
-"script dans l'outil de requêtage et le support de PostgreSQL 8.4, ainsi que "
-"de <a href=\"/development/changelog.php\">nombreuses autres nouveautés</a>. "
-"Pour connaître les fonctionnalités clés, n'hésitez pas à consulter notre <a "
-"href=\"/visualtour.php\">tour graphique</a>"
-
-#: ../news.php:22
-msgid ""
-"pgAdmin 1.10.1 has now been released. Please see the <a href=\"/development/"
-"changelog.php\">CHANGELOG</a> for details of the bug fixes in this release "
-"or visit the <a href=\"download\">download area</a> to get your copy now."
-msgstr ""
-"pgAdmin 1.10.1 est disponible. Merci de voir la <a href=\"/news.php\">page "
-"des nouvelles</a> pour les détails sur les changements de cette version et "
-"sur la <a href=\"/download/\">page de téléchargement</a> pour le récupérer."
-
 #: ../visualtour12.php:5 ../visualtour12.php:7
 msgid "pgAdmin 1.12 Visual Tour"
 msgstr "Tour graphique de pgAdmin 1.12"
@@ -5811,11 +3765,6 @@ msgstr ""
 "le fichier de description de la langue (<a href=\"%s\">i18n/pgadmin3.lng</"
 "a>) pour permettre à la nouvelle traduction d'apparaître dans la liste "
 "déroulante de sélection de la langue."
-
-#: ../news.php:80 ../news.php:112 ../news.php:167 ../news.php:308
-#: ../news.php:335 ../news.php:363 ../news.php:430
-msgid "pgAdmin Development Team"
-msgstr "Équipe de développement de pgAdmin"
 
 #: ../features.php:30
 msgid "pgAdmin Documentation"
@@ -5989,7 +3938,7 @@ msgstr ""
 "\">interface web</a> ou en utilisant votre client GIT favori. Sous Windows, "
 "nous recommandons <a href=\"%s\">TortoiseGIT</a>, qui est un logiciel libre."
 
-#: ../index.php:24
+#: ../index.php:22
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -6014,7 +3963,7 @@ msgstr ""
 "sécurité. Aucun pilote supplémentaire n'est requis pour communiquer avec le "
 "serveur de bases de données."
 
-#: ../index.php:26
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -6026,7 +3975,7 @@ msgstr ""
 "C'est un logiciel libre proposé sous la <a href=\"%s\">license PostgreSQL</"
 "a>."
 
-#: ../index.php:22
+#: ../index.php:20
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -6154,7 +4103,7 @@ msgstr "pgAdmin&nbsp;: Développement - TODO list"
 msgid "pgAdmin: Documentation"
 msgstr "pgAdmin&nbsp;:Documentation"
 
-#: ../include/doc.php:81
+#: ../include/doc.php:87
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr ""
 "pgAdmin&nbsp;: Documentation - N'a pas pu trouver le titre du document&nbsp;!"
@@ -6222,10 +4171,6 @@ msgstr "pgAdmin&nbsp;: Fonctionnalités"
 #: ../contribute.php:5
 msgid "pgAdmin: How to contribute"
 msgstr "pgAdmin&nbsp;: Comment contribuer"
-
-#: ../news.php:5
-msgid "pgAdmin: Latest news"
-msgstr "pgAdmin&nbsp;: Nouvelles"
 
 #: ../licence.php:5
 msgid "pgAdmin: Licence"
@@ -6331,71 +4276,1887 @@ msgstr ""
 "aussi utiliser <a href=\"%s\">Kbabel</a> qui est disponible sur de "
 "nombreuses distributions Linux."
 
-#: ../news.php:372
-msgid ""
-"v1.6.0 represents over a year of development and testing to bring you a host "
-"of new features and improvements including:"
-msgstr ""
-"La 1.6.0 représente plus d'un an de développement et de tests pour vous "
-"proposer un ensemble de nouvelles fonctionnalités et d'améliorations "
-"incluant :"
+#~ msgid ""
+#~ "Add '...' to truncated column comments in table SQL, per Erwin "
+#~ "Brandstetter."
+#~ msgstr ""
+#~ "Ajout de '...' aux commentaires tronqués des colonnes dans le SQL de la "
+#~ "table, par Erwin Brandstetter."
 
-#: ../news.php:344
-msgid "v1.6.1 is primarily a bug fix release, including the following changes:"
-msgstr ""
-"La version 1.6.1 est principalement une version de corrections de bogues "
-"incluant les modifications suivantes&nbsp;:"
+#~ msgid ""
+#~ "Add 'scratch pads' to the Edit Grid and Query Tool windows to use when "
+#~ "copying and pasting data back and forth."
+#~ msgstr ""
+#~ "Ajout de « scratch pads » dans les fenêtres de la grille de modification "
+#~ "et de l'outil de requêtes, à utiliser lors d'un coper/coller de données."
 
-#: ../news.php:317
-msgid "v1.6.2 is primarily a bug fix release, including the following changes:"
-msgstr ""
-"La version 1.6.2 est principalement une version de corrections de bogues "
-"incluant les modifications suivantes&nbsp;:"
+#~ msgid ""
+#~ "Add -a and -q command line options to auto connect to a server and open a "
+#~ "query window respectively."
+#~ msgstr ""
+#~ "Add -a and -q command line options to auto connect to a server and open a "
+#~ "query window respectively.Ajout d'options en ligne de commande -a et -q "
+#~ "pour, respectivement, se connecter automatiquement à un serveur et ouvrir "
+#~ "une fenêtre de requêtes."
 
-#: ../news.php:281
-msgid "v1.6.3 is primarily a bug fix release, including the following changes:"
-msgstr ""
-"La version 1.6.3 est principalement une version de corrections de bogues "
-"incluant les modifications suivantes&nbsp;:"
+#~ msgid ""
+#~ "Add -qc switch to open query tool and autoconnect using a connection "
+#~ "string."
+#~ msgstr ""
+#~ "Ajout de l'option -qc pour ouvrir l'outil de requêtes et se connecter "
+#~ "automatiquement en utilisant une chaîne de connexion."
 
-#: ../news.php:179
-msgid ""
-"v1.8.0 represents nearly a year of development and testing to bring you \n"
-"a host of new features and improvements including:"
-msgstr ""
-"La 1.8.0 représente pratiquement un an de développement et de tests pour "
-"vous proposer un ensemble de nouvelles fonctionnalités et d'améliorations "
-"incluant :"
+#~ msgid ""
+#~ "Add CREATE/INSERT/UPDATE/SELECT script menu options for various object "
+#~ "types to create script templates."
+#~ msgstr ""
+#~ "Ajout des options CREATE/INSERT/UPDATE/SELECT au menu Scripts pour les "
+#~ "différents types d'objets, options permettant de créer des modèles de "
+#~ "script."
 
-#: ../news.php:122
-msgid "v1.8.1 is primarily a bug fix release, including the following changes:"
-msgstr ""
-"La version 1.8.1 est principalement une version de corrections de bogues "
-"incluant les modifications suivantes&nbsp;:"
+#~ msgid ""
+#~ "Add EnterpriseDB's default database (edb) to the Server dialog's default "
+#~ "option."
+#~ msgstr ""
+#~ "Ajout de la base de données par défaut d'EnterpriseDB (edb) dans les "
+#~ "options par défaut du dialogue Serveur."
 
-#: ../news.php:89
-msgid "v1.8.2 is primarily a bug fix release, including the following changes:"
-msgstr ""
-"La version 1.8.2 est principalement une version de corrections de bogues "
-"incluant les modifications suivantes&nbsp;:"
+#~ msgid "Add a 'Favourites' query organiser to the Query Tool."
+#~ msgstr ""
+#~ "Ajout d'un organisateur de requêtes favorites à l'outil de requêtes."
 
-#: ../news.php:42
-msgid "v1.8.3 fixes:"
-msgstr "Corrections de la version 1.8.3 :"
+#~ msgid "Add a 'Run Now' options for pgAgent jobs."
+#~ msgstr "Ajout de l'option « Exécuter maintenant » pour les jobs pgAgent."
 
-#: ../news.php:36
-msgid "v1.8.4 fixes:"
-msgstr "Corrections de la version 1.8.4 :"
+#~ msgid ""
+#~ "Add a guru hint to warn the user of the consequences of storing passwords."
+#~ msgstr ""
+#~ "Ajout d'un conseil de gourou pour avertir l'utilisateur sur les "
+#~ "conséquences du stockage des mots de passe."
 
-#: ../news.php:34
-msgid ""
-"v1.8.4 is primarily a bug fix release, including the following changes. Note "
-"that v1.8.3 was never announced as a release due to an issue found at the "
-"last minute."
-msgstr ""
-"La version 1.8.4 est principament une version corrective incluant les "
-"modifications suivantes. Notez que la 1.8.3 n'a jamais été annoncée car une "
-"erreur a été trouvée au dernier moment."
+#~ msgid "Add a macro facility to the Query Tool."
+#~ msgstr "Gestion de macros dans l'outil de requêtes."
+
+#~ msgid ""
+#~ "Add a new Find & Replace dialogue to the query tool, implementing all the "
+#~ "normal Find & Replace options as well as a powerful regular expression "
+#~ "search mode."
+#~ msgstr ""
+#~ "Ajout d'un nouveau dialogue « Chercher et remplacer » à l'outil de "
+#~ "requêtes, implémentant toutes les options habituelles ainsi qu'un "
+#~ "puissant mode de recherche par expression rationnelle."
+
+#~ msgid ""
+#~ "Add a new command line option (-f ) to open an SQL script automatically "
+#~ "when using -q or -qc."
+#~ msgstr ""
+#~ "Ajout d'une nouvelle option en ligne de commande (-f) pour ouvrir "
+#~ "automatiquement un script SQL lors de l'utilisation de -q et -qc."
+
+#~ msgid ""
+#~ "Add a new command line options (-cp ) to allow direct editing of pgpass "
+#~ "files."
+#~ msgstr ""
+#~ "Ajout d'une option en ligne de commande (-cp) pour permettre l'édition "
+#~ "directe des fichiers pgpass."
+
+#~ msgid "Add a password file editor."
+#~ msgstr "Ajout d'un éditeur de fichiers de mots de passe."
+
+#~ msgid "Add a pgAgent option to log to a file on *nix."
+#~ msgstr "Ajout d'une option à pgAgent pour tracer dans un fichier sur *nix."
+
+#~ msgid ""
+#~ "Add a set of options to allow the user to hide selected object types from "
+#~ "the treeview. Note that the new default settings will hide less commonly "
+#~ "used objects such as casts, languages, aggregates, operators etc."
+#~ msgstr ""
+#~ "Ajout d'un ensemble d'options permettant à l'utilisateur de cacher des "
+#~ "types d'objets dans le navigateur. Notez que le paramétrage par défaut "
+#~ "cachera les types les moins utilisés (conversions, agrégats, opérateurs, "
+#~ "etc.)"
+
+#~ msgid "Add a word wrap option to the query tool editor."
+#~ msgstr ""
+#~ "Ajout de l'option de retour à la ligne automatique dans l'éditeur de "
+#~ "requêtes."
+
+#~ msgid ""
+#~ "Add an internal XML reporting API, HTML XSL stylesheet with XSLT "
+#~ "processing capabilities and selection of schema/object/data reports."
+#~ msgstr ""
+#~ "Ajout d'une API interne de rapports XML, des feuilles de style XSL et des "
+#~ "capacités de traitement XSLT pour générer des rapports sur des schémas/"
+#~ "objets/données."
+
+#~ msgid "Add an option to show NULLs as  in the Query Tool."
+#~ msgstr ""
+#~ "Ajout d'une option pour afficher les éléments NULL dans l'outil de "
+#~ "requêtes."
+
+#~ msgid "Add an option to show indent guides in the query tool."
+#~ msgstr ""
+#~ "Ajout d'une option pour afficher les guides d'indentation dans l'outil de "
+#~ "requêtes"
+
+#~ msgid ""
+#~ "Add an option to the Report Tool to open the output file in the default "
+#~ "browser."
+#~ msgstr ""
+#~ "Ajout d'une option pour que l'outil de rapports ouvre le fichier en "
+#~ "sortie dans le navigateur par défaut."
+
+#~ msgid "Add auto-indent to the query tool."
+#~ msgstr "Ajout de l'auto-indentation dans l'éditeur de requêtes."
+
+#~ msgid ""
+#~ "Add autocompletion to the Query Tool, based on the logic used by psql. "
+#~ "Triggered with Control+Space, and optionally the Tab key as well."
+#~ msgstr ""
+#~ "Ajout de la complétion automatique à l'outil de requêtes, basée sur la "
+#~ "logique utilisée par psql. Déclenché avec Contrôle-Espace ainsi que la "
+#~ "touche Tabulation en option."
+
+#~ msgid "Add brace highlighting to the SQL Text Box control."
+#~ msgstr "Ajout du surlignement des crochets au contrôle texte SQL."
+
+#~ msgid "Add fillfactor support on tables and indexes."
+#~ msgstr "Ajout du support de fillfactor sur les tables et index."
+
+#~ msgid "Add keyboard shortcuts to show and hide UI elements."
+#~ msgstr ""
+#~ "Ajout de raccourcis clavier pour afficher et cacher les éléments de "
+#~ "l'interface."
+
+#~ msgid ""
+#~ "Add options to enable/disable triggers, both individually and per-table."
+#~ msgstr ""
+#~ "Ajout d'options pour activer/désactiver les triggers, à la fois "
+#~ "individuellement et par table."
+
+#~ msgid "Add options to show line ends and whitespaces in the query tool."
+#~ msgstr ""
+#~ "Ajout d'options pour afficher les fins de ligne et les espaces blancs "
+#~ "dans l'outil de requêtes"
+
+#~ msgid "Add support for Sun's compiler [Dhanaraj M]"
+#~ msgstr "Ajout du support du compilateur de Sun [Dhanaraj M]"
+
+#~ msgid "Add support for building Mac Universal Binaries."
+#~ msgstr "Ajout du support pour la construction de binaires Mac Universal."
+
+#~ msgid "Add support for enums in PostgreSQL 8.3+."
+#~ msgstr "Ajout du support des enums dans PostgreSQL 8.3."
+
+#~ msgid ""
+#~ "Add support for function cost and row estimations in PostgreSQL 8.3+."
+#~ msgstr ""
+#~ "Ajout du support pour les estimations de lignes de fonction et de coût "
+#~ "dans PostgreSQL 8.3."
+
+#~ msgid "Add support for multi-parameter aggregates."
+#~ msgstr "Ajout du support pour les agrégats à plusieurs paramètres."
+
+#~ msgid "Add support for packages on EnterpriseDB."
+#~ msgstr "Ajout du support des packages sur EnterpriseDB."
+
+#~ msgid "Add support for public synonyms on EnterpriseDB."
+#~ msgstr "Ajout du support des synonymes publiques sur EnterpriseDB."
+
+#~ msgid "Allow EnterpriseDB packages to be created without bodies."
+#~ msgstr "Autorise les packages EnterpriseDB à être créés sans corps."
+
+#~ msgid "Allow GUC variables to be preset on functions in PostgreSQL 8.3."
+#~ msgstr ""
+#~ "Possibilité de configurer les variables GUC sur les fonctions dans "
+#~ "PostgreSQL 8.3."
+
+#~ msgid "Allow GUCs to be set on users, roles and databases at create time."
+#~ msgstr ""
+#~ "Possibilité de configurer les variables GUC sur les utilisateurs, rôles "
+#~ "et bases de données au moment de leur création."
+
+#~ msgid "Allow a debugging session to be cancelled correctly on  windows."
+#~ msgstr ""
+#~ "Autorise l'annulation propre d'une session de débogage dans Windows."
+
+#~ msgid "Allow database and schema display to be restricted."
+#~ msgstr "Autorise la restriction de l'affichage des bases et des schémas."
+
+#~ msgid ""
+#~ "Allow detection and conversion of line ending format in the query tool."
+#~ msgstr ""
+#~ "Autorise la détection et la conversion des formats de fin de ligne dans "
+#~ "l'éditeur de requêtes."
+
+#~ msgid "Allow entire servers to be backed up."
+#~ msgstr "Possibilité de sauvegarder des serveurs complets."
+
+#~ msgid "Allow global objects to be backed up."
+#~ msgstr "Possibilité de sauvegarder les objets globaux."
+
+#~ msgid ""
+#~ "Allow install time re-branding. This allows rebranded versions of pgAdmin "
+#~ "to be distributed without code modifications, but with references to the "
+#~ "original pgAdmin being displayed instead. Also add support for shaped "
+#~ "splash screens."
+#~ msgstr ""
+#~ "Autorise la modification de marques à l'installation. Ceci permet la "
+#~ "distribution de version de pgAdmin dont la marque est modifiée sans avoir "
+#~ "à changer du code, mais tout en conservant des références vers le pgAdmin "
+#~ "original. De plus, ajout du support pour des écrans de démarrage."
+
+#~ msgid "Allow non-superusers to debug their own functions."
+#~ msgstr ""
+#~ "Autorise les utilisateurs normaux à déboguer leur propres fonctions."
+
+#~ msgid "Allow pasting of entire rows in the View Data tool."
+#~ msgstr ""
+#~ "Permet le collage de lignes entières dans l'outil de visualisation des "
+#~ "données."
+
+#~ msgid ""
+#~ "Allow result copy quoting configuration to be set explicitly rather than "
+#~ "using the result export settings."
+#~ msgstr ""
+#~ "Autorise la configuration explicite des guillemets de copie, plutôt que "
+#~ "l'utilisation des paramètres d'export des résultats."
+
+#~ msgid ""
+#~ "Allow selection and copy of subsets of the columns and rows in the Edit "
+#~ "Grid."
+#~ msgstr ""
+#~ "Autorise la sélection et la copie de sous-ensembles des colonnes et des "
+#~ "lignes de la grille d'édition."
+
+#~ msgid "Allow set returning functions to be created."
+#~ msgstr "Autorise la création de fonctions renvoyant des ensembles."
+
+#~ msgid ""
+#~ "Allow spaces to be used instead of tabs in SQL editors, and ensure the "
+#~ "width can be set sensibly."
+#~ msgstr ""
+#~ "Permet l'utilisation des espaces au lieu des tabulations dans l'éditeur "
+#~ "SQL et s'assure que la largeur sera configurée de façon sensée."
+
+#~ msgid "Allow the admin modules to be built with PGXS if required."
+#~ msgstr "Autorise la construction des modules admin avec PGXS si requis."
+
+#~ msgid ""
+#~ "Allow the length of array-typed columns to be changed (eg. 'character "
+#~ "varying[](100)'), per report from Ferenc Lutischan"
+#~ msgstr ""
+#~ "Autorise la modification de la longueur des colonnes de type tableau (par "
+#~ "exemple, 'character varying[](100)'), suite à un rapport de Ferenc "
+#~ "Lutischan"
+
+#~ msgid ""
+#~ "Allow the number of rows shown in the Edit Grid to be limited and add a "
+#~ "'View top 100 rows' option to the table/view context menus."
+#~ msgstr ""
+#~ "Permet une limite du nombre de lignes affichées dans la grille de "
+#~ "modification et ajout d'une option « Voir les 100 premières lignes » aux "
+#~ "menus contextuelles des tables et vues."
+
+#~ msgid ""
+#~ "Allow the tab character to be used as the clipboard column separator to "
+#~ "allow pasting of query results straight into apps like Excel, or OOo Calc."
+#~ msgstr ""
+#~ "Autorise l'utilisation du caractère de tabulation comme séparateur de "
+#~ "colonne du presse-papier pour autoriser la copie de résultats de requêtes "
+#~ "directement dans des applications comme Excel ou OOo Calc."
+
+#~ msgid ""
+#~ "Allow the user to choose whether or not to restore the environment when "
+#~ "reconnecting to a particular server."
+#~ msgstr ""
+#~ "Autorise l'utilisateur à indiquer s'il préfère restaurer ou non "
+#~ "l'environnement lors d'une nouvelle connexion à un serveur particulier."
+
+#~ msgid ""
+#~ "Allow users with SUPERUSER but no other privilege flags to create roles "
+#~ "and databases etc. per Andy Shellam."
+#~ msgstr ""
+#~ "Autorise les utilisateurs bénéficiant du droit SUPERUSER mais d'aucun "
+#~ "autre de créer des rôles et des bases de données, par Andy Shellam."
+
+#~ msgid ""
+#~ "Always open the PostgreSQL Help when selecting that menu option, even if "
+#~ "connected to EnterpriseDB."
+#~ msgstr ""
+#~ "Ouvre toujours l'aide de PostgreSQL lors de la sélection de ce menu, même "
+#~ "si l'utilisateur est connecté à un serveur EnterpriseDB."
+
+#~ msgid ""
+#~ "Always refresh the data when the user clicks OK on the  edit grid options "
+#~ "dialogue to ensure the filter/sort is applied to current data."
+#~ msgstr ""
+#~ "Rafraîchit toujours les données quand l'utilisateur clique sur OK dans le "
+#~ "dialogue d'options de la grille d'édition pour s'assurer que le filtre/"
+#~ "tri est appliqué aux données actuelles."
+
+#~ msgid ""
+#~ "As well as many other tweaks, improvements and bug fixes, details of "
+#~ "which may be found in the <a href=\"%s\">changelog</a>."
+#~ msgstr ""
+#~ "Tout comme plusieurs autres peaufinages, améliorations et corrections de "
+#~ "bogues, des détails sont disponibles dans le <a href=\"%s\">journal des "
+#~ "modifications</a>."
+
+#~ msgid "As well as many other tweaks, improvements and bug fixes."
+#~ msgstr ""
+#~ "Tout comme plusieurs autres peaufinages, améliorations et corrections de "
+#~ "bogues."
+
+#~ msgid ""
+#~ "Avoid a crash if the connection is lost and the Functions node is "
+#~ "refreshed."
+#~ msgstr ""
+#~ "Évite un arrêt brutal si la connexion est perdue et si le nœud Fonctions "
+#~ "est rafraichi."
+
+#~ msgid "Avoid a crash when closing the query tool on Solaris [Dhanaraj M]."
+#~ msgstr ""
+#~ "Évite un arrêt brutal lors de la fermeture de l'outil de requêtes sur "
+#~ "Solaris [Dhanaraj M]."
+
+#~ msgid ""
+#~ "Avoid crashes when working with objects with % characters in the name."
+#~ msgstr ""
+#~ "Évite des arrêts brutaux lors de la manipulation d'objets dont le nom "
+#~ "contient des pourcentages (%)."
+
+#~ msgid ""
+#~ "Avoid creating graphical explain nodes for triggers as they aren't part "
+#~ "of the plan and mess up the layout."
+#~ msgstr ""
+#~ "Évite la création des noeuds de l'EXPLAIN graphique pour les triggers car "
+#~ "ils ne font pas partie du plan et gênent le plan."
+
+#~ msgid ""
+#~ "Avoid displaying multi line data in single line list controls, per "
+#~ "Clodoaldo Pinto Neto."
+#~ msgstr ""
+#~ "Évite l'affichage de données multi-lignes dans des contrôles sur une "
+#~ "seule ligne, par Clodoaldo Pinto Neto."
+
+#~ msgid "Avoid quoting 'text' when used as a type name per Erwin."
+#~ msgstr ""
+#~ "Évite de mettre entre guillemets le texte quand il est utilisé comme nom "
+#~ "de type, d'après Erwin."
+
+#~ msgid "Browser support for Operator Families in PostgreSQL 8.3."
+#~ msgstr ""
+#~ "Support des familles d'opérateur dans le navigateur pour PostgreSQL 8.3."
+
+#~ msgid "Bug fixes"
+#~ msgstr "Corrections de bogues"
+
+#~ msgid "Build against PostgreSQL 8.2 on Windows."
+#~ msgstr "Construit avec PostgreSQL 8.2 sur Windows."
+
+#~ msgid ""
+#~ "Check that functions exist before debugging or setting global breakpoints "
+#~ "on them. Remove them from the treeview if not."
+#~ msgstr ""
+#~ "Vérification de l'existence des fonctions avant de lancer le débogage et "
+#~ "de placer des points d'arrêt globaux sur eux. Les supprime de "
+#~ "l'explorateur si elles n'existent pas."
+
+#~ msgid ""
+#~ "Cleanup some other minor misbehaviours at the same time. Per report from "
+#~ "Erwin."
+#~ msgstr ""
+#~ "Nettoyage de quelques autres comportements mineurs en même temps. D'après "
+#~ "un rapport d'Erwin."
+
+#~ msgid ""
+#~ "Cleanup the covering index control logic in the Foreign Key dialogue."
+#~ msgstr ""
+#~ "Nettoyage de la logique de contrôle de l'index dans le dialogue Clé "
+#~ "étrangère."
+
+#~ msgid "Code cleanup/maintainability"
+#~ msgstr "Nettoyage de code/Maintenabilité"
+
+#~ msgid "Concurrent index builds."
+#~ msgstr "Construction d'index en parallèle."
+
+#~ msgid "Configurable indents in the SQL editor."
+#~ msgstr "Indentation configurable dans l'éditeur SQL."
+
+#~ msgid ""
+#~ "Construct SQL used to add columns such that the entire operation happens "
+#~ "in one statement to ensure default values and NOT NULL can be set "
+#~ "together. Per report from Laurent ROCHE."
+#~ msgstr ""
+#~ "Construit le SQL utilisé pour ajouter des colonnes de façon à ce que "
+#~ "l'opération complète se passe en une instruction pour s'assurer que la "
+#~ "valeur par défaut et la contrainte NOT NULL sont positionnées ensemble. "
+#~ "D'après un rapport de Laurent Roche."
+
+#~ msgid ""
+#~ "Convert setting names to lower case so we don't end up with DateStyle and "
+#~ "datestyle for example."
+#~ msgstr ""
+#~ "Convertit les noms de paramètre en minuscule pour que nous n'ayons pas à "
+#~ "la fois DateStyle et datestyle."
+
+#~ msgid ""
+#~ "Copy and paste data correctly when in a cell editor in the edit grid."
+#~ msgstr "Copier/coller géré correctement dans l'éditeur de cellule."
+
+#~ msgid "Correct config window help paths."
+#~ msgstr "Corrige la configuration des chemins d'aide de Windows."
+
+#~ msgid "Correct the SQL generation for EDB inline triggers."
+#~ msgstr "Correction de la génération du SQL pour les triggers EDB en ligne."
+
+#~ msgid "Correct the URL for the EDB public synonym help page"
+#~ msgstr "Correction de l'URL pour la page d'aide de l'objet Synonym d'EDB"
+
+#~ msgid ""
+#~ "Correctly generate table DDL when inherited columns follow the last "
+#~ "'real' column, per Peter Gagarinov."
+#~ msgstr ""
+#~ "Génère correctement le DDL de la table quand des colonnes héritées "
+#~ "suivent la dernière colonne de type real, d'après Peter Gagarinov."
+
+#~ msgid ""
+#~ "Correctly identify the schema of trigger functions that are in system "
+#~ "catalogs as can be the case with integrated full text search."
+#~ msgstr ""
+#~ "Identification correct du schéma des fonctions trigger faisant parti des "
+#~ "catalogues système comme c'est le cas avec la recherche plein texte "
+#~ "intégrée."
+
+#~ msgid "Correctly quote role names when reverse engineering ACLs."
+#~ msgstr ""
+#~ "Met correctement entre guillements les noms lors de la récupération des "
+#~ "ACL par « reverse engineering »."
+
+#~ msgid ""
+#~ "Create and reverse engineer edbspl procedures using Oracle compatible "
+#~ "syntax."
+#~ msgstr ""
+#~ "Crée et récupère les procédures edbspl en utilisant la syntaxe compatible "
+#~ "Oracle."
+
+#~ msgid "Dave Page"
+#~ msgstr "Dave Page"
+
+#~ msgid ""
+#~ "Dave Page<br />\n"
+#~ "pgAdmin Development Team"
+#~ msgstr ""
+#~ "Dave Page<br />\n"
+#~ "Équipe de développement de pgAdmin"
+
+#~ msgid ""
+#~ "Detect and warn the user of concurrent edits of functions, views and job "
+#~ "steps."
+#~ msgstr ""
+#~ "Détecte et avertie l' utilisateur de modifications en parallèle de "
+#~ "fonctions, vues ou étapes de job."
+
+#~ msgid ""
+#~ "Disable CREATE FUNCTION etc. under EnterpriseDB packages because they are "
+#~ "created as part of the main package body."
+#~ msgstr ""
+#~ "Désactivation de CREATE FUNCTION, etc dans les packages EnterpriseDB "
+#~ "parce qu'ils sont créés comme une partie du corps du package principal."
+
+#~ msgid "Disable the RULE privilege on 8.2+ for views per Erwin."
+#~ msgstr "Désactive le droit RULE en 8.2 pour les vues, d'après Erwin."
+
+#~ msgid ""
+#~ "Display catalogs separately from schemas, and don't treat them as system "
+#~ "objects any longer (they can be hidden using the display options). Show "
+#~ "only tables & views (as 'catalog objects') in pseudo-system catalogs such "
+#~ "as information_schema and EDB's sys and dbo catalogs. Lock down "
+#~ "functionality to prevent create/edit/drop options being offered."
+#~ msgstr ""
+#~ "Affiche les catalogues séparément des schémas et ne les traite plus comme "
+#~ "des objets système (ils peuvent être cachés en utilisant les options "
+#~ "d'affichage). Affiche seulement les tables et les vues (en tant qu'objets "
+#~ "des catalogues) dans des pseudo catalogues système comme "
+#~ "information_schema et les catalogues sys et dbo d'EDB. Verrouille les "
+#~ "fonctionnalités pour empêcher l'affichage des options de création, "
+#~ "modification et suppression."
+
+#~ msgid "Display column dependencies."
+#~ msgstr "Affichage des dépendances des colonnes."
+
+#~ msgid "Display non-default op classes in index definitions."
+#~ msgstr ""
+#~ "Affichage des classes d'opérateurs autres que par défaut dans les "
+#~ "définitions d'index."
+
+#~ msgid ""
+#~ "Display the client start time on the status dialogue with PostgreSQL 8.1+"
+#~ msgstr ""
+#~ "Affichage de l'heure de démarrage du client dans le dialogue de statut "
+#~ "avec PostgreSQL 8.1+."
+
+#~ msgid ""
+#~ "Display the constraint OID for index constraints, not the index OID. Add "
+#~ "the index OID as a new property."
+#~ msgstr ""
+#~ "Affiche l'OID de la contrainte pour les contrainte d'index et non l'OID "
+#~ "de l'index. Ajoute l'OID de l'index comme nouvelle propriété."
+
+#~ msgid "Display the is_called sequence flag."
+#~ msgstr "Affichage de l'option de séquence is_flag."
+
+#~ msgid ""
+#~ "Display the output pane in the query tool at query completion if it's "
+#~ "currently hidden."
+#~ msgstr ""
+#~ "Affiche le panneau d'affichage dans l'outil de requêtes à la fin de "
+#~ "l'exécution de la requête s'il est actuellement caché."
+
+#~ msgid ""
+#~ "Display, and allow null values to be set in boolean columns in the Edit "
+#~ "Grid."
+#~ msgstr ""
+#~ "Affichage et autorisation de valeurs NULL pour les colonnes booléennes "
+#~ "dans la grille d'édition."
+
+#~ msgid ""
+#~ "Don't allow the user to attempt to remove columns from an existing index "
+#~ "or index constraint."
+#~ msgstr ""
+#~ "N'autorise pas l'utilisateur à supprimer des colonnes d'un index existant."
+
+#~ msgid ""
+#~ "Don't allow the user to debug an EnterpriseDB package function or "
+#~ "procedure if the body isn't defined."
+#~ msgstr ""
+#~ "N'autorise pas l'utilisateur à déboguer une fonction ou procédure d'un "
+#~ "package EnterpriseDB si le corps n'est pas défini."
+
+#~ msgid ""
+#~ "Don't allow the user to direct-debug trigger functions, only global "
+#~ "breakpoints should be used on them (or the trigger itself)."
+#~ msgstr ""
+#~ "N'autorise pas l'utilisateur à déboguer directement les fonctions "
+#~ "triggers, seuls des points d'arrêt pouvant être utilisés sur eux (ou le "
+#~ "trigger lui-même)."
+
+#~ msgid ""
+#~ "Don't display index constraints under the Indexes node as well as the "
+#~ "Contraints node, per Erwin."
+#~ msgstr ""
+#~ "N'affiche pas les contraintes d'index sous le noeud Index ainsi que sous "
+#~ "le noeud Contraintes, par Erwin."
+
+#~ msgid ""
+#~ "Don't include the -h option when calling pg_dump or pg_restore if there "
+#~ "is no hostname to specify."
+#~ msgstr ""
+#~ "N'inclut pas l'option -h lors de l'appel de pg_dump ou de pg_restore si "
+#~ "aucun nom d'hôte n'est indiqué."
+
+#~ msgid ""
+#~ "Don't load group roles and old-style groups on the security tab on 8.1 "
+#~ "and higher."
+#~ msgstr ""
+#~ "Ne charge pas les rôles de type groupe et les anciens groupes sur "
+#~ "l'onglet Sécurité des versions 8.1 et ultérieures."
+
+#~ msgid "Don't offer 'Drop Cascaded' unless the user can 'Drop' the object."
+#~ msgstr ""
+#~ "N'offre pas 'Drop Cascaded' sauf si l'utilisateur peut supprimer l'objet."
+
+#~ msgid ""
+#~ "Don't offer edbspl functions when creating triggers as they should have "
+#~ "inline bodies."
+#~ msgstr ""
+#~ "N'offre pas les fonctions edbspl lors de la création des triggers car ils "
+#~ "auraient eu des corps en ligne."
+
+#~ msgid ""
+#~ "Don't offer package names and system schemas as schemas when creating "
+#~ "public synonyms."
+#~ msgstr ""
+#~ "Ne propose pas les noms des packages et les schémas système en tant que "
+#~ "schémas lors de la création de synonymes publiques."
+
+#~ msgid ""
+#~ "Don't offer the user the chance to create new columns on system "
+#~ "catalogues."
+#~ msgstr ""
+#~ "N'offre pas à l'utilisateur une chance de créer de nouvelles colonnes sur "
+#~ "les catalogues systèmes."
+
+#~ msgid "Don't paste into empty edit grids, per Howard Wang"
+#~ msgstr ""
+#~ "Ne colle pas dans les grilles de modification vides, par Howard Wang"
+
+#~ msgid ""
+#~ "Don't quote database names that happen to be keywords when starting the "
+#~ "debugger."
+#~ msgstr ""
+#~ "Ne met pas entre guillemets les noms de bases de données qui se trouvent "
+#~ "être des mots clés lors du lancement du débogueur."
+
+#~ msgid "Don't try to detect if integrated autovacuum is running on &lt; 8.1."
+#~ msgstr ""
+#~ "N'essaie plus de détecter sur l'autovacuum intégré est exécuté sur les "
+#~ "versions antérieures à la 8.1."
+
+#~ msgid ""
+#~ "Don't try to enable/disable prepared transaction related controls on pre-"
+#~ "8.1 servers, per Karl Zellnig"
+#~ msgstr ""
+#~ "N'essaie pas d'activer/désactiver les contrôles relatifs aux transactions "
+#~ "préparées sur des serveurs de version inférieure à la 8.1, par Karl "
+#~ "Zellnig"
+
+#~ msgid ""
+#~ "Don't try to force new databases into a specific tablespace as this will "
+#~ "error as non-superusers default to pg_default."
+#~ msgstr ""
+#~ "Ne tente pas de forcer la création des nouvelles bases de données dans un "
+#~ "tablespace spécifique car cela générera une erreur pour les utilisateurs "
+#~ "standards pour qui le tablespace correspond par défaut à pg_default."
+
+#~ msgid ""
+#~ "EDB-SPL functions require NULL to be passed in out-params when debugging."
+#~ msgstr ""
+#~ "Les fonctions EDB-SPL requièrent le passage de NULL pour les paramètres "
+#~ "OUT lors du débogage."
+
+#~ msgid ""
+#~ "Enable the OK button on the Database properties dialog when the owner is "
+#~ "changed, per Jim Cullison"
+#~ msgstr ""
+#~ "Activation du bouton OK dans le dialogue des propriétés de la base quand "
+#~ "le propriétaire est changé, par Jim Cullison"
+
+#~ msgid ""
+#~ "Enable the OK button on the database properties dialog when variables are "
+#~ "changed."
+#~ msgstr ""
+#~ "Activation du bouton OK dans le dialogue des propriétés de la base quand "
+#~ "les variables sont modifiées."
+
+#~ msgid ""
+#~ "Enhance the query tool to allow copy/paste of arbitrary groups of "
+#~ "columns, rows or individual cells."
+#~ msgstr ""
+#~ "Amélioration de l'outil de requêtes pour permettre le copier/coller de "
+#~ "groupes arbitraires de colonnes, lignes ou de cellules individuelles."
+
+#~ msgid "Enhancements"
+#~ msgstr "Améliorations"
+
+#~ msgid ""
+#~ "Ensure backup and restore options are enabled when appropriate (this is a "
+#~ "wxWidgets bug, fixed in wxWidgets 2.8.0rc1)"
+#~ msgstr ""
+#~ "S'assure que les options de sauvegarde et de restauration sont activées "
+#~ "si approprié (ceci est un bogue de wxWidgets, corrigé dans wxWidgets "
+#~ "2.8.0rc1)"
+
+#~ msgid ""
+#~ "Ensure column headers and the insert row are shown in the edit grid when "
+#~ "no rows exist in the table being editted, per Bob Pawley."
+#~ msgstr ""
+#~ "S'assure que les en-têtes de colonnes et que la ligne d'insertion soient "
+#~ "affichées dans la grille d'édition quand aucune ligne n'existe dans la "
+#~ "table en cours d'édition, par Bob Pawley."
+
+#~ msgid "Ensure enums are offered as datatypes for columns."
+#~ msgstr ""
+#~ "S'assure que les ENUM sont proposées comme types de données pour les "
+#~ "colonnes."
+
+#~ msgid ""
+#~ "Ensure files can be converted to the required encoding before saving."
+#~ msgstr ""
+#~ "S'assure que les fichiers peuvent être converties vers l'encodage requis "
+#~ "avant de les sauvegarder."
+
+#~ msgid "Ensure info passed to Guru hints is HTML-safe."
+#~ msgstr ""
+#~ "S'assure que les informations passées par les astuces de gourou sont du "
+#~ "HTML sain."
+
+#~ msgid ""
+#~ "Ensure logfiles and pgpass files can be correctly saved on Windows when "
+#~ "the username contains non-ASCII chars."
+#~ msgstr ""
+#~ "S'assure que les journaux applicatifs et les fichiers pgpass sont "
+#~ "correctement sauvegardés sous Windows quand le nom de l'utilisateur "
+#~ "contient des caractères non ASCII."
+
+#~ msgid "Ensure pgAgent jobs can be managed on Greenplum database."
+#~ msgstr ""
+#~ "S'assure que les jobs de pgAgent puissent être gérés dans une base de "
+#~ "données Greenplum."
+
+#~ msgid ""
+#~ "Ensure that EDB-SPL trigger DDL code is appropriately formatted on newer "
+#~ "builds of EnterpriseDB."
+#~ msgstr ""
+#~ "S'assure que le code DDL d'un trigger EDB-SPL est correctement formatée "
+#~ "sur les dernières constructions d'EnterpriseDB."
+
+#~ msgid ""
+#~ "Ensure the 'Create Rule' context menu option is always offered when "
+#~ "appropriate."
+#~ msgstr ""
+#~ "S'assure que l'option 'Create Rule' du menu contextuel est toujours "
+#~ "proposé quand c'est approprié."
+
+#~ msgid ""
+#~ "Ensure the password and confirmed password always match when adding or "
+#~ "editing roles or users."
+#~ msgstr ""
+#~ "S'assure que le mot de passe correspond bien au mot de passe de "
+#~ "confirmation lors de l'ajout et de la modification des rôles et "
+#~ "utilisateurs."
+
+#~ msgid "Ensure the password change dialog works with stored passwords."
+#~ msgstr ""
+#~ "S'assure que la fenêtre de modification des mots de passe fonctionne avec "
+#~ "les mots de passe stockés."
+
+#~ msgid ""
+#~ "Ensure the properties dialogues will work sanely with objects named \" "
+#~ "\" (!)."
+#~ msgstr ""
+#~ "S'assure que les dialogues de propriétés fonctionnent bien avec les "
+#~ "objets nommés \" \" (!)."
+
+#~ msgid ""
+#~ "Ensure we always allow the maximum string length possible to be entered "
+#~ "in the Edit Grid."
+#~ msgstr ""
+#~ "S'assure que la longueur de chaîne maximale est autorisée dans la grille "
+#~ "d'édition."
+
+#~ msgid ""
+#~ "FOSDEM fix: Include overriding columns in reverse engineered SQL for "
+#~ "child tables, rather than commenting them out and marking as inherited."
+#~ msgstr ""
+#~ "Correction du FOSDEM : inclut les colonnes surchargées dans le SQL "
+#~ "récupéré par « reverse engineering » pour les tables enfants plutôt que de "
+#~ "les commenter et de les marquer comme héritées."
+
+#~ msgid ""
+#~ "Fix EnterpriseDB public synonym loading so that they aren't considered "
+#~ "system objects."
+#~ msgstr ""
+#~ "Correction du chargement des synonymes publiques EnterpriseDB pour qu'ils "
+#~ "ne soient pas considérés comme des objets publiques."
+
+#~ msgid ""
+#~ "Fix a bug preventing the 'on error' flag of a pgAgent job step being "
+#~ "edited, per Jon Roberts."
+#~ msgstr ""
+#~ "Correction d'un bogue empêchant le drapeau 'on error' d'un job pgAgent en "
+#~ "cours d'édition, par Jon Roberts."
+
+#~ msgid ""
+#~ "Fix a bug that could cause a crash on GTK when closing the query tool in "
+#~ "certain circumstances."
+#~ msgstr ""
+#~ "Correction d'un bogue qui pourrait causer un arrêt brutal sur GTK lors de "
+#~ "la fermeture de l'outil de requêtage dans certaines circonstances."
+
+#~ msgid ""
+#~ "Fix a bug that prevented adding new nodes to a Slony cluster, per Duncan "
+#~ "Beeby."
+#~ msgstr ""
+#~ "Correction d'un bogue qui empêchait l'ajout de nouveaux noeuds à un "
+#~ "cluster Slony, par Duncan Beeby."
+
+#~ msgid ""
+#~ "Fix a corner case in which closing the debugger window  following a "
+#~ "failed attempt to create a global breakpoint (for example, because of an "
+#~ "existing breakpoint) could cause a crash on Windows."
+#~ msgstr ""
+#~ "Corrige un cas très particulier dans lequel la fermeture de la fenêtre du "
+#~ "débogueur suivant une tentative échouée pour créer un point d'arrêt "
+#~ "global (par exemple à cause d'un point d'arrêt existant) pourrait causer "
+#~ "un arrêt brutal sous Windows."
+
+#~ msgid ""
+#~ "Fix a crash in the Edit Grid which occured if Delete was pressed whilst "
+#~ "editing a boolean."
+#~ msgstr ""
+#~ "Correction d'un arrêt brutal dans la grille d'édition survenant quand la "
+#~ "touche Delete est appuyée lors de l'édition d'un booléen."
+
+#~ msgid ""
+#~ "Fix a crash on Mac that occurred when using some combo boxes, per David "
+#~ "Lowry."
+#~ msgstr ""
+#~ "Correction d'un arrêt brutal sur Mac survenant lors de l'utilisation de "
+#~ "certaines listes déroulantes, par David Lowry."
+
+#~ msgid ""
+#~ "Fix a crash that occured if an object called '%' was selected in the "
+#~ "treeview, per Alexander Steffens."
+#~ msgstr ""
+#~ "Correction d'un arrêt brutal survenant si un objet appelé '%' était "
+#~ "sélectionné dans le navigateur, par Alexander Steffens."
+
+#~ msgid ""
+#~ "Fix a line number error in the debugger seen with procedures which start "
+#~ "on the same line as the 'CREATE PROCEDURE foo IS ...' Per report from "
+#~ "Heikki Linnakangas."
+#~ msgstr ""
+#~ "Correction d'une erreur de numéro de ligne dans le débogueur, vu avec des "
+#~ "procédures qui commencent sur la même ligne que 'CREATE PROCEDURE foo "
+#~ "IS ...', d'après un rapport d'Heikki Linnakangas."
+
+#~ msgid "Fix a minor bug in app bundle creation for Mac [Florian G. Pflug]"
+#~ msgstr ""
+#~ "Correction d'un bogue mineure dans la création d'un « app bundle » pour "
+#~ "Mac [Florian G. Pflug]"
+
+#~ msgid ""
+#~ "Fix a minor bug in the index reverse engineering when using non-default "
+#~ "operator classes per Andrus."
+#~ msgstr ""
+#~ "Correction d'un bogue mineur dans l'ingénieurie inverse de l'index lors "
+#~ "de l'utilisation de classes d'opérateur qui ne sont pas par défaut, par "
+#~ "Andrus."
+
+#~ msgid ""
+#~ "Fix a rare bug in the Edit Grid which could cause a crash when editting "
+#~ "data in tables with deleted columns and a primary key that isn;t at the "
+#~ "beginning of the table. Thanks to Patrick De Visschere for the test case."
+#~ msgstr ""
+#~ "Correction d'un bogue rare dans la grille d'édition qui causait un arrêt "
+#~ "brutal lors de l'édition de données dans des tables ayant des colonnes "
+#~ "supprimées et une clé primaire qui ne se trouve pas au début de la table. "
+#~ "Merci à Patrick De Visschere pour le jeu de tests."
+
+#~ msgid ""
+#~ "Fix an issue in the Query Tool export option that could result in blank "
+#~ "lines in the export file, per Mathias Durst and Mike."
+#~ msgstr ""
+#~ "Correction d'un problème dans l'outil de requêtage qui pouvait renvoyer "
+#~ "des lignes blanches dans le fichier d'export, par Mathias Durst and Mike."
+
+#~ msgid "Fix an overflow bug in pgAgent, per report from Sabin Coanda"
+#~ msgstr ""
+#~ "Correction d'un bogue de dépassement de capacité dans pgAgent, d'après un "
+#~ "rapport de Sabin Coanda"
+
+#~ msgid "Fix character number display in the query tool."
+#~ msgstr ""
+#~ "Correction de l'affichage du numéro du caractère dans l'outil de "
+#~ "requêtage."
+
+#~ msgid ""
+#~ "Fix column dialogue to allow proper modification of array columns per "
+#~ "Erwin."
+#~ msgstr ""
+#~ "Correction du dialogue sur les colonnes pour permettre la modification "
+#~ "correcte des colonnes de tableau par Erwin."
+
+#~ msgid "Fix default perspective names, per Ezequias."
+#~ msgstr ""
+#~ "Correction de la disposition de la fenêtre par défaut, par Ezequias."
+
+#~ msgid "Fix deletion of stored procedures, Per Erwin."
+#~ msgstr "Correction de la suppression de procédures stockées, par Erwin."
+
+#~ msgid "Fix localisation of 'Tab' as a copy delimiter."
+#~ msgstr "Correction de l'emplacement de 'Tab' comme délimiteur de copie."
+
+#~ msgid "Fix menu icon for Gnome [Nathan Egge]"
+#~ msgstr "Correction de l'icône du menu Gnome [Nathan Egge]"
+
+#~ msgid ""
+#~ "Fix path discovery on Unix so standard installs can be relocated easily."
+#~ msgstr ""
+#~ "Correction de la découverte du chemin sur Unix pour que les installations "
+#~ "standards puissent être facilement relocalisées."
+
+#~ msgid ""
+#~ "Fix per-table autovacuum settings for PostgreSQL >= 8.2 per Devrim Gunduz."
+#~ msgstr ""
+#~ "Correction de la configuration des paramètres autovacuum par table pour "
+#~ "PostgreSQL >= 8.2, par Devrim Gunduz."
+
+#~ msgid ""
+#~ "Fix pgAgent's job query when a host agent is specified so that jobs don't "
+#~ "execute every time round the loop regardless of schedule, per Brian "
+#~ "Kalbfus."
+#~ msgstr ""
+#~ "Correction de la requête d'un job de pgAgent quand un agent hôte est "
+#~ "spécifié pour que les jobs ne s'exécutent pas à chaque tour de la boucle "
+#~ "quelque soit la planification, par Brian Kalbfus."
+
+#~ msgid "Fix potential crash bug in the query tool logging code, per Erwin."
+#~ msgstr ""
+#~ "Corrige un bogue pouvant causer un crash de pgAdmin dans le code de trace "
+#~ "de l'outil de requêtage, d'après Erwin."
+
+#~ msgid "Fix procedure support on EnterpriseDB AS81."
+#~ msgstr "Correction du support de la procédure sur EnterpriseDB AS81."
+
+#~ msgid "Fix query that tries to apply the DB restriction."
+#~ msgstr ""
+#~ "Corrige la requête qui essaie d'appliquer la restriction de la base."
+
+#~ msgid "Fix query that tries to apply the schema restriction."
+#~ msgstr "Corrige la requête qui essaie d'appliquer la restriction du schéma."
+
+#~ msgid ""
+#~ "Fix query tool title which was unfortunately broken by an earlier fix for "
+#~ "another bug."
+#~ msgstr ""
+#~ "Correction du titre de l'outil de requêtage, malheureusement cassé par "
+#~ "une précédente correction pour un autre bogue."
+
+#~ msgid ""
+#~ "Fix reverse engineering of data types with a size of 0, such as "
+#~ "\"timestamp(0) without timezone\"."
+#~ msgstr ""
+#~ "Correction de la récupération du SQL des types de données avec une taille "
+#~ "0, comme « timestamp(0) without timezone »."
+
+#~ msgid "Fix some broken references to online help pages."
+#~ msgstr ""
+#~ "Correction de certaines reférences, cassées, dans les pages de l'aide en "
+#~ "ligne."
+
+#~ msgid ""
+#~ "Fix some oddities in the way current per-table vacuum settings are "
+#~ "displayed."
+#~ msgstr ""
+#~ "Correction de quelques étrangetés dans la façon dont sont affichées les "
+#~ "paramètres autovacuum par table."
+
+#~ msgid "Fix some portability issues in the configure code [Max Khon]"
+#~ msgstr ""
+#~ "Correction de certains problèmes de portabilité dans le code de "
+#~ "configure, par Max Khon"
+
+#~ msgid "Fix the WITH ADMIN membership option when creating roles."
+#~ msgstr ""
+#~ "Correction de l'option d'appartenance WITH ADMIN lors de la création de "
+#~ "rôles."
+
+#~ msgid ""
+#~ "Fix the debugger to send actual NULL values rather than 'NULL' through "
+#~ "the EnterpriseDB callable statement API. Allow parameter values to be "
+#~ "NULL or empty strings on both PostgreSQL and EnterpriseDB using the same "
+#~ "syntax as the Edit Grid."
+#~ msgstr ""
+#~ "Correction du débogueur pour qu'il envoie réellement des valeurs NULL "
+#~ "plutôt que 'NULL' via l'API appelable d'EnterpriseDB. Autorise NULL ou "
+#~ "chaîne vide comme valeur de paramètre sur PostgreSQL et EnterpriseDB en "
+#~ "utilisant la même syntaxe que la grille d'édition."
+
+#~ msgid ""
+#~ "Fix the debugger's connection class to ensure database names requiring "
+#~ "quotes will work and that it can be used with SSL and Kerberos "
+#~ "connections."
+#~ msgstr ""
+#~ "Correction de la classe de connexion du débogueur pour s'assurer que les "
+#~ "noms des bases de données réclamant des guillemets fonctionneront et "
+#~ "qu'elle puisse être utilisée avec les connexions SSL et Kerberos."
+
+#~ msgid ""
+#~ "Fix the graphical explain to properly display backwards index scan nodes, "
+#~ "per Brendan O'Shea."
+#~ msgstr ""
+#~ "Correction du EXPLAIN graphique en affichant correctement les noeuds de "
+#~ "parcours d'index inverses, par Brendan O'Shea."
+
+#~ msgid ""
+#~ "Fix the locks tab on the server status dialogue so it works correctly "
+#~ "with PostgreSQL 8.3+."
+#~ msgstr ""
+#~ "Correction de l'onglet Verrous sur le dialogue de statut du serveur pour "
+#~ "qu'il fonctionne correctement avec PostgreSQL 8.3+."
+
+#~ msgid ""
+#~ "Fix the logging system to ensure that errors from the query tool get "
+#~ "logged, and notices are only output once."
+#~ msgstr ""
+#~ "Corrige le système de trace pour s'assurer que les erreurs provenant de "
+#~ "l'outil de requêtage soient tracées, et que les messages d'information "
+#~ "sont affichés seulement une fois."
+
+#~ msgid "Fix the privilege editor on the Language dialogue, per Bborie Park."
+#~ msgstr ""
+#~ "Correction de l'éditeur de droits pour le dialogue Langage, par Bborie "
+#~ "Park."
+
+#~ msgid ""
+#~ "Fix the table, index and index constraint tablespace property combo boxes "
+#~ "to allow changes to tablespace."
+#~ msgstr ""
+#~ "Correction des listes déroulantes tablespace dans les propriétés des "
+#~ "tables, index et contrainte d'index pour autoriser la modification d'un "
+#~ "tablespace."
+
+#~ msgid ""
+#~ "Fix to refresh version string and number, and last OID, per a report from "
+#~ "Alexander Kirpa."
+#~ msgstr ""
+#~ "Correction pour rafraîchir la chaîne de version, son numéro et le dernier "
+#~ "OID, suite à un rapport d'Alexander Kirpa."
+
+#~ msgid ""
+#~ "Fixed UTF8 option was not effective by file reading and writing of a "
+#~ "query and fixed crash at the time of file save."
+#~ msgstr ""
+#~ "L'option UTF-8 corrigée ne fonctionnait pas pour la lecture d'un fichier "
+#~ "et l'écriture d'une requête, et correction d'un arrêt brutal au moment de "
+#~ "la sauvegarde d'un fichier."
+
+#~ msgid ""
+#~ "Function/procedure signatures do not include OUT params. Fix this "
+#~ "oversight, and cleanup much of the related code."
+#~ msgstr ""
+#~ "Les signatures des fonctions/procédures n'incluent pas les paramètres "
+#~ "OUT. Correction de ceci et nettoyage du code relatif."
+
+#~ msgid ""
+#~ "Generate function signatures correctly if the first parameters are OUT "
+#~ "only."
+#~ msgstr ""
+#~ "Correction de la génération des signatures de fonctions si les premiers "
+#~ "paramètres sont en mode OUT."
+
+#~ msgid ""
+#~ "Guard against permission denied errors in the edit grid per Howard Wang"
+#~ msgstr ""
+#~ "Protection contre les erreurs de droits dans la grille de modification, "
+#~ "par Howard Wang"
+
+#~ msgid ""
+#~ "Handle non-default schema paths properly in the Foreign Key dialogue, per "
+#~ "Philipp Specht"
+#~ msgstr ""
+#~ "Correction de la gestion des chemins de schémas différents de la valeur "
+#~ "par défaut dans le dialogue des clés étrangères, par Philipp Specht."
+
+#~ msgid "Handle resetting of sequence values more consistently."
+#~ msgstr ""
+#~ "Gestion plus cohérente de la réinitialisation de la valeur des séquences."
+
+#~ msgid ""
+#~ "Handle the corner case when a user includes quotes in an object name "
+#~ "(backport of 2007-10-26 fix applied to trunk)"
+#~ msgstr ""
+#~ "Gestion du cas particulier posé par un utilisateur qui inclut des "
+#~ "guillemets dans un nom d'objet (patch du 26 octobre 2007 appliqué à la "
+#~ "branche de développement)."
+
+#~ msgid ""
+#~ "Hide array variants of table-types in datatype selectors where we already "
+#~ "hide the table type itself."
+#~ msgstr ""
+#~ "Cache les variantes tableau des types de table dans les sélecteurs de "
+#~ "type de données où nous cachons déjà le type table lui-même."
+
+#~ msgid "Hide binary data (bytea) in the edit grid."
+#~ msgstr "Cache les données binaires (bytea) dans la grille de modification."
+
+#~ msgid ""
+#~ "Highlight the error word in the query tool if a syntax error is reported "
+#~ "by the database."
+#~ msgstr ""
+#~ "Surlignement du mot erroné dans l'outil de requêtes si une erreur de "
+#~ "syntaxe est rapportée par la base de données."
+
+#~ msgid ""
+#~ "I would like to take this opportunity to thank all those who gave their \n"
+#~ "time to help with the development, testing, translation and packaging of "
+#~ "this release."
+#~ msgstr ""
+#~ "J'aimerais profiter de cette opportunité pour remercier tous ceux qui ont "
+#~ "donné de leur temps pour aider au développement, aux tests, à la "
+#~ "traduction et à l'empaquetage de cette version."
+
+#~ msgid ""
+#~ "I would like to take this opportunity to thank all those who gave their "
+#~ "time to help with the development, testing, translation and packaging of "
+#~ "this release."
+#~ msgstr ""
+#~ "J'aimerais profiter de cette opportunité pour remercier tous ceux qui ont "
+#~ "donné de leur temps pour aider au développement, aux tests, à la "
+#~ "traduction et à l'empaquetage de cette version."
+
+#~ msgid ""
+#~ "I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source "
+#~ "graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac "
+#~ "OS X and Solaris, now available for download in source and a variety of "
+#~ "binary formats from:"
+#~ msgstr ""
+#~ "Je suis heureux d'annoncer la sortie de pgAdmin 1.6.0, l'outil libre "
+#~ "d'administration graphique de PostgreSQL pour Windows, Linux, FreeBSD, "
+#~ "Mac OS X et Solaris, actuellement disponible au téléchargement en "
+#~ "fichiers sources et en une variété de formats binaires comme&nbsp;:"
+
+#~ msgid ""
+#~ "If stopping the server service fails after stopping dependent services, "
+#~ "wait 5 seconds and try again up to 10 times to allow the dependents time "
+#~ "to shutdown fully."
+#~ msgstr ""
+#~ "Si l'arrêt d'un service serveur échoue après l'arrêt des services "
+#~ "dépendants, attente de cinq secondes puis nouvelle tentative (limitée à "
+#~ "10) pour permettre aux services dépendants de s'arrêter complètement. "
+
+#~ msgid "Ignore the type modifier for domains in function signatures."
+#~ msgstr ""
+#~ "Ignore le modifieur de type pour les domaines dans les signatures de "
+#~ "fonctions."
+
+#~ msgid ""
+#~ "Include IN/OUT/INOUT keywords in procedure identifiers in the treeview."
+#~ msgstr ""
+#~ "Inclusion des mots clés IN/OUT/INOUT dans les identifiants de procédure "
+#~ "dans l'arbre."
+
+#~ msgid ""
+#~ "Integrate the EnterpriseDB pl/pgsql and EDB-SPL debugger with pgAdmin."
+#~ msgstr ""
+#~ "Intégration du débogueur pl/pgsql et EDB-SPL d'EnterpriseDB dans pgAdmin."
+
+#~ msgid ""
+#~ "Load second and subsequent postgresql.conf files into the config editor "
+#~ "correctly."
+#~ msgstr ""
+#~ "Charge correctement tous les fichiers de configurations dans l'éditeur."
+
+#~ msgid "Major features"
+#~ msgstr "Fonctionnalités majeures"
+
+#~ msgid ""
+#~ "Make elements of the main windows dockable for maximum configurability."
+#~ msgstr ""
+#~ "Rend intégrables les éléments de la fenêtre principal pour une "
+#~ "configuration maximale."
+
+#~ msgid "Minimal linking for pgAgent under *nix."
+#~ msgstr "Lien minimal pour pgAgent sous *nix."
+
+#~ msgid "Minor fix for edb/spl functions."
+#~ msgstr "Correction mineure pour les fonctions edb/spl."
+
+#~ msgid ""
+#~ "Monitor the streams again whilst backing up on Mac - this no longer "
+#~ "crashes in wx2.8. Per Dave Livesay."
+#~ msgstr ""
+#~ "Surveille de nouveau les flux lors d'une sauvegarde sur Mac - ceci ne "
+#~ "cause plus d'erreurs avec wx 2.8. Par Dave Livesay."
+
+#~ msgid ""
+#~ "Newer build of EnterpriseDB consistently strip trailing semi-colons from "
+#~ "package headers and bodies. Update reverse engineering allow for this."
+#~ msgstr ""
+#~ "Les nouvelles constructions d'EntrepriseDB suppriment les points-virgules "
+#~ "en fin à partir des en-têtes et du corps des package. Le « reverse "
+#~ "engineering » de la mise à jour permet cela."
+
+#~ msgid "News"
+#~ msgstr "Informations"
+
+#~ msgid ""
+#~ "Numerous changes to the database browser code to ensure changes to "
+#~ "objects are properly reflected in the main window. In addition, the "
+#~ "expanded/collapsed states of child nodes are retained wherever possible "
+#~ "during refresh operations."
+#~ msgstr ""
+#~ "Nombreuses modifications dans le code du navigateur de bases de données "
+#~ "pour s'assurer que les modifications d'objets sont correctement "
+#~ "réfléchies dans la fenêtre principale. De plus, les états ouverts/fermés "
+#~ "des nœuds fils sont conservés si possible lors des opérations de "
+#~ "rafraichissement."
+
+#~ msgid ""
+#~ "Only enable the 'Include SQL' checkbox on the report dialog if there is "
+#~ "SQL to include, Per Ezequias Rodrigues da Rocha"
+#~ msgstr ""
+#~ "Activation de la case à cocher « Inclure SQL » sur le dialogue des "
+#~ "rapports seulement s'il y a du code SQL à inclure, par Ezequias Rodrigues "
+#~ "da Rocha"
+
+#~ msgid "Only offer the Jobs node if the user can access the pgagent schema."
+#~ msgstr ""
+#~ "N'offre que le nœud Jobs si l'utilisateur peut accéder au schéma pgagent."
+
+#~ msgid "Overhaul of server config settings."
+#~ msgstr "Revue des paramètrages du serveur."
+
+#~ msgid "Parse function parameter names correctly when they contain commas."
+#~ msgstr ""
+#~ "Met proprement entre guillemets les noms des paramètres de fonction quand "
+#~ "ils contiennent des virgules."
+
+#~ msgid ""
+#~ "Please visit the <a href=\"download\">download area</a> to get your copy "
+#~ "now. Any questions or other support issues should be sent to <a href="
+#~ "\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</"
+#~ "a>."
+#~ msgstr ""
+#~ "Merci de consulter la <a href=\"/download/\">page de téléchargement</a> "
+#~ "pour en obtenir une copie. Toute question ou demande de support doit être "
+#~ "envoyé à <a href=\"mailto:pgadmin-support@postgresql.org\">pgadmin-"
+#~ "support@postgresql.org</a>."
+
+#~ msgid ""
+#~ "Position the cursor at the error position when an error occurs in the "
+#~ "Query Tool. Ensure the line is visible."
+#~ msgstr ""
+#~ "Place le curseur à la position de l'erreur lorsqu'une erreur survient "
+#~ "dans l'outil de requêtes. S'assure que la ligne est visible."
+
+#~ msgid "PostgreSQL 8.2 support:"
+#~ msgstr "Support de PostgreSQL 8.2&nbsp;:"
+
+#~ msgid ""
+#~ "Pre-encrypt passwords before sending them down the wire, or displaying "
+#~ "them in SQL statements."
+#~ msgstr ""
+#~ "Chiffrement des mots de passe avant leur envoi sur le réseau ou leur "
+#~ "affichage dans les instructions SQL."
+
+#~ msgid "Preserve column widths between queries in the query tool."
+#~ msgstr ""
+#~ "Conserve la taille des colonnes entre l'exécution des requêtes dans "
+#~ "l'outil de requêtage."
+
+#~ msgid "Prevent a crash from the query tool when using File -> Exit on GTK"
+#~ msgstr ""
+#~ "Empêche un arrêt brutal de l'outil de requête lors de l'utilisation du "
+#~ "menu Fichier/Quitter avec GTK"
+
+#~ msgid ""
+#~ "Prevent a crash if the 'View Filtered Data' filter dialog is cancelled. "
+#~ "Per Erwin Brandstetter."
+#~ msgstr ""
+#~ "Empêche un arrêt brutal si le dialogue de filtre « Visualiser les données "
+#~ "filtrées » est annulée, par Erwin Brandstetter."
+
+#~ msgid "Prevent a crash when viewing databases with % in the name."
+#~ msgstr ""
+#~ "Évite des arrêts brutaux lors de la navigation dans des bases de données "
+#~ "contenant % dans le nom."
+
+#~ msgid ""
+#~ "Prevent deletion of the blank item in config editors, and ensure undo "
+#~ "will only work on the appropriate line."
+#~ msgstr ""
+#~ "Empêche la suppression d'un élément blanc dans les éditeurs de "
+#~ "configuration et s'assure que l'annulation fonctionne seulement sur la "
+#~ "ligne appropriée."
+
+#~ msgid ""
+#~ "Prevent non-superusers from attempting to use the debugger because the "
+#~ "plugin API won't let them anyway."
+#~ msgstr ""
+#~ "Empêche les utilisateurs standards de tenter d'utiliser le débogueur car "
+#~ "l'API du plugin ne les laissera pas faire de toute façon."
+
+#~ msgid ""
+#~ "Prevent the Edit Grid Filter causing a crash if an invalid filter "
+#~ "containing a % is used, per Erwin."
+#~ msgstr ""
+#~ "Correction d'un arrêt brutal causé par le filtre de la grille d'édition "
+#~ "dans le cas où un filtre invalide contenant un % est utilisé, par Erwin."
+
+#~ msgid ""
+#~ "Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL "
+#~ "8.2+, per Erwin."
+#~ msgstr ""
+#~ "Empêche le droit RULE d'être ré-activé pour les tables sur PostgreSQL 8.2"
+#~ "+, par Erwin."
+
+#~ msgid ""
+#~ "Prevent the filter/sort options dialogue being opened when data is being "
+#~ "refreshed, per Erwin Brandstetter."
+#~ msgstr ""
+#~ "Empêche le dialogue d'options filtre/tri d'être ouvert quand les données "
+#~ "sont en cours de rafraichissement, par Erwin Brandstetter."
+
+#~ msgid "Prevent the user from trying to debug catalog objects."
+#~ msgstr ""
+#~ "Empêche l'utilisateur de tenter le débogage des objects d'un catalogue "
+#~ "système."
+
+#~ msgid ""
+#~ "Prevent unsaved changes in the edit grid being lost if the filter or "
+#~ "sorting dialogue is opened."
+#~ msgstr ""
+#~ "Empêche la perte de modifications non sauvegardées dans la grille "
+#~ "d'édition si le dialogue de filtre/tri est ouvert."
+
+#~ msgid "Privilege changes (database CONNECT, and sequence USAGE)."
+#~ msgstr ""
+#~ "Modifications des droits (CONNECT sur la base et USAGE sur la séquence)."
+
+#~ msgid ""
+#~ "Prompt the user to save changes before opening a file from the recent "
+#~ "files menu on the Query Tool."
+#~ msgstr ""
+#~ "Demande à l'utilisateur de sauvegarder les modifications avant d'ouvrir "
+#~ "un fichier dans le menu des fichiers récemment ouverts (outil de "
+#~ "requêtes)."
+
+#~ msgid ""
+#~ "Properly drop foreign keys in schemas whose names require quoting, per M "
+#~ "S."
+#~ msgstr ""
+#~ "Suppression correcte des clés étrangères dans les schémas dont le nom "
+#~ "nécessite l'utilisation de guillemets, par M S."
+
+#~ msgid "Properly escape _'s in queries for schemas, per Derek Fonda."
+#~ msgstr ""
+#~ "Échappe proprement les tirets bas (_) dans les requêtes pour les schémas, "
+#~ "par Derek Fonda."
+
+#~ msgid ""
+#~ "Properly format the object comments shown in the properties list when a "
+#~ "collection node is selected. Per report from Mike Blackwell."
+#~ msgstr ""
+#~ "Formate correctement les commentaires des objets affichés dans la liste "
+#~ "des propriétés quand un nœud de collection est sélectionné. D'après un "
+#~ "rapport de Mike Blackwell."
+
+#~ msgid "Properly quote function parameter names, per Ken Priest."
+#~ msgstr ""
+#~ "Met proprement entre guillemets les noms des paramètres de fonction, par "
+#~ "Ken Priest."
+
+#~ msgid "Properly quote synonym names when refreshing."
+#~ msgstr ""
+#~ "Met proprement entre guillemets les noms des synonymes lors du "
+#~ "rafraichissement."
+
+#~ msgid ""
+#~ "Properly quote the maintenance database name when creating a new "
+#~ "connection."
+#~ msgstr ""
+#~ "Met proprement entre guillement le nom de la base de maintenance lors de "
+#~ "la création d'une nouvelle connexion."
+
+#~ msgid ""
+#~ "Properly reverse-engineer the SQL for indexes with DESC, NULLS FIRST or "
+#~ "NULLS LAST column options."
+#~ msgstr ""
+#~ "Récupère correctement le SQL pour les index utilisant les options de "
+#~ "colonnes DESC, NULLS FIRST ou NULLS LAST."
+
+#~ msgid "Properly size the backup dialog, per Patrick Headley."
+#~ msgstr ""
+#~ "Retaille correctement le dialogue de sauvegarde, par Patrick Headley."
+
+#~ msgid "Refactor code to remove database base classes."
+#~ msgstr ""
+#~ "Refactorisation du code pour supprimer les classes de base de la base de "
+#~ "données."
+
+#~ msgid ""
+#~ "Refactor code to remove support for building the Query Tool with a "
+#~ "listview rather than a grid."
+#~ msgstr ""
+#~ "Refactorisation du code pour supprimer la construction de l'outil de "
+#~ "requêtes avec un composant « listview » plutôt qu'une grille."
+
+#~ msgid ""
+#~ "Refactor the Query Tool's execQuery function to prevent pgAdmin freezing "
+#~ "while two long running queries are executing simultaneously."
+#~ msgstr ""
+#~ "Refactorisation de la fonction execQuery de l'outil de requêtes pour "
+#~ "empêcher le gel de pgAdmin lorsque deux requêtes longues sont en cours "
+#~ "d'exécution en même temps."
+
+#~ msgid "Refresh Views correctly on EnterpriseDB."
+#~ msgstr "Correction du rafraîchissement des vues sur EnterpriseDB."
+
+#~ msgid "Refresh database objects correctly, per Guy Rouillier."
+#~ msgstr ""
+#~ "Actualisation correcte des objets de la base de données, par Guy "
+#~ "Rouillier."
+
+#~ msgid ""
+#~ "Refresh the tree without erroring after creating a new package on "
+#~ "EnterpriseDB."
+#~ msgstr ""
+#~ "Rafraichissement du navigateur sans erreur après la création d'un nouveau "
+#~ "package sur EnterpriseDB."
+
+#~ msgid "Reject invalid command line options in pgAgent."
+#~ msgstr "Rejet des options invalides en ligne de commande pour pgAgent."
+
+#~ msgid "Remember last used backup/restore filenames."
+#~ msgstr "Se souvient des derniers fichiers de sauvegarde et de restauration."
+
+#~ msgid "Remember last used save definition filename."
+#~ msgstr "Se souvient du dernier fichier utilisé."
+
+#~ msgid "Remember the server's SSL mode property correctly."
+#~ msgstr "Se rappelle correctement du mode SSL du serveur."
+
+#~ msgid "Remove a lot debugging code of little or no use."
+#~ msgstr ""
+#~ "Suppression de beaucoup de code de débogage qui n'avait plus d'intérêt."
+
+#~ msgid ""
+#~ "Remove bundled copies of PostgreSQL/Slony docs to make it easier to "
+#~ "localise the rest. Instead allow the use of local or online copies of the "
+#~ "PostgreSQL, EnterpriseDB or Slony docs, each independently of the other."
+#~ msgstr ""
+#~ "Suppression des copies des manuels de PostgreSQL/Slony pour faciliter la "
+#~ "traduction de ceux-ci. Autorise à la place l'utilisation de copies "
+#~ "locales ou en ligne des documentations PostgreSQL, EnterpriseDB et Slony."
+
+#~ msgid ""
+#~ "Remove code specific to versions of wxWidgets that we no longer support."
+#~ msgstr ""
+#~ "Suppression du code spécifique aux versions de wxWidgets que nous ne "
+#~ "supportons plus."
+
+#~ msgid "Remove long-dead Explain Text option from the Query Tool."
+#~ msgstr ""
+#~ "Suppression de l'option « Explain Text » qui n'existe plus depuis "
+#~ "longtemps, sur l'outil de requêtage."
+
+#~ msgid "Remove obsolete support for non-Unicode builds."
+#~ msgstr "Suppression du support osbolète des constructions non Unicode."
+
+#~ msgid ""
+#~ "Remove the confusing and near-useless sequence combo box from the column "
+#~ "dialog per discussion on support list."
+#~ msgstr ""
+#~ "Suppression de la liste déroulante de la séquence, confuse et "
+#~ "pratiquement inutile, du dialogue de colonne après discussion sur la "
+#~ "liste support."
+
+#~ msgid ""
+#~ "Replace the Mac installer with code to create a distribution disk image."
+#~ msgstr ""
+#~ "Remplacement de l'installeur Mac avec du code pour créer une image disque."
+
+#~ msgid "Restore dialog sizes correctly."
+#~ msgstr "Restauration correcte de la taille des dialogues."
+
+#~ msgid "Retain column widths when refreshing the edit grid."
+#~ msgstr ""
+#~ "Conserve la taille des colonnes lors du rafraichissement de la grille "
+#~ "d'édition."
+
+#~ msgid "Retain the clipboard contents on app exit."
+#~ msgstr ""
+#~ "Conservation du contenu du presse-papier après la fermeture de "
+#~ "l'application."
+
+#~ msgid "Retain values in the edit grid following a failed insert or update."
+#~ msgstr ""
+#~ "Conservation des valeurs dans la grille de modifications après un INSERT "
+#~ "ou un UPDATE échoué."
+
+#~ msgid ""
+#~ "Reverse engineer columns with multi-word names (like 'timestamp with "
+#~ "timezone') correctly so that precision and array modifiers are included "
+#~ "properly. Per Erwin Brandstetter."
+#~ msgstr ""
+#~ "Récupération améliorée par ingénieurie inverse des colonnes dont le type "
+#~ "contient plusieurs mots (comme « timestamp with timezone ») pour que des "
+#~ "indicateurs comme la précision ou le fait que la colonne est un tableau "
+#~ "soient inclus correctement. Par Erwin Brandstetter."
+
+#~ msgid ""
+#~ "Rework the Find/Replace code to fix a couple of minor bugs and improve "
+#~ "readability."
+#~ msgstr ""
+#~ "Revue du code Chercher/Remplacer pour corriger quelques bogues mineurs et "
+#~ "améliorer la lisibilité."
+
+#~ msgid "Shared database comments."
+#~ msgstr "Commentaires des bases partagés."
+
+#~ msgid ""
+#~ "Show the schema correctly for EDB public synonyms that point to other "
+#~ "synonyms."
+#~ msgstr ""
+#~ "Affiche correctement le schéma pour les synonymes publiques EDB qui "
+#~ "pointent vers d'autres synonymes."
+
+#~ msgid "Size of the column label of SQLGrid was made variable."
+#~ msgstr "La taille du label des colonnes de SQLGrid est maintenant variable."
+
+#~ msgid "Sort server list alphabetically."
+#~ msgstr "Liste les serveurs dans l'ordre alphabétique."
+
+#~ msgid ""
+#~ "Specify the length correctly when creating columns of 'time with time "
+#~ "zone' and friends."
+#~ msgstr ""
+#~ "Spécifie correctement la longueur lors de la création de colonnes de type "
+#~ "'time with time zone'."
+
+#~ msgid ""
+#~ "Speed up loading of functions and procedures by rewriting some horribly "
+#~ "inefficient code."
+#~ msgstr ""
+#~ "Accélération du chargement des fonctions et procédures en réécrivant un "
+#~ "code particulièrement inefficace."
+
+#~ msgid ""
+#~ "Store pgAgent job step result codes in an int4 column. int2 was proving "
+#~ "too small in some cases resulting in an error."
+#~ msgstr ""
+#~ "Enregistre les codes résultats d'une étape d'un job de pgAgent dans une "
+#~ "colonne de type int4. int2 est devenu trop petit dans certains cas."
+
+#~ msgid "Support for language templates."
+#~ msgstr "Support des modèles de langage."
+
+#~ msgid ""
+#~ "The pgAdmin Development Team are pleased to announce the release of \n"
+#~ "pgAdmin 1.8.0, the Open Source graphical PostgreSQL administration tool "
+#~ "for \n"
+#~ "Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download "
+#~ "in \n"
+#~ "source and a variety of binary formats from:"
+#~ msgstr ""
+#~ "L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
+#~ "pgAdmin 1.8.0, l'outil d'administration graphique libre de PostgreSQL "
+#~ "pour Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès "
+#~ "maintenant en téléchargement pour les sources et une grande variété de "
+#~ "formats binaires&nbsp;:"
+
+#~ msgid ""
+#~ "The pgAdmin Development Team are pleased to announce the release of "
+#~ "pgAdmin 1.6.1, the Open Source graphical PostgreSQL administration tool "
+#~ "for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for "
+#~ "download in source and a variety of binary formats from:"
+#~ msgstr ""
+#~ "L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
+#~ "pgAdmin 1.6.1, l'outil d'administration graphique libre de PostgreSQL "
+#~ "pour Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès "
+#~ "maintenant en téléchargement pour les sources et une grande variété de "
+#~ "formats binaires&nbsp;:"
+
+#~ msgid ""
+#~ "The pgAdmin Development Team are pleased to announce the release of "
+#~ "pgAdmin 1.6.2, the Open Source graphical PostgreSQL administration tool "
+#~ "for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for "
+#~ "download in source and a variety of binary formats from:"
+#~ msgstr ""
+#~ "L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
+#~ "pgAdmin 1.6.2, l'outil d'administration graphique libre de PostgreSQL "
+#~ "pour Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès "
+#~ "maintenant en téléchargement pour les sources et une grande variété de "
+#~ "formats binaires&nbsp;:"
+
+#~ msgid ""
+#~ "The pgAdmin Development Team are pleased to announce the release of "
+#~ "pgAdmin 1.6.3, the Open Source graphical PostgreSQL administration tool "
+#~ "for Windows, Linux, FreeBSD\n"
+#~ ", Mac OS X and Solaris, now available for download in source and a "
+#~ "variety of binary formats from:"
+#~ msgstr ""
+#~ "L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
+#~ "pgAdmin 1.6.3, l'outil d'administration graphique libre de PostgreSQL "
+#~ "pour Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès "
+#~ "maintenant en téléchargement pour les sources et une grande variété de "
+#~ "formats binaires&nbsp;:"
+
+#~ msgid ""
+#~ "The pgAdmin Development Team are pleased to announce the release of "
+#~ "pgAdmin 1.8.1, the Open Source graphical PostgreSQL administration tool "
+#~ "for Windows, Linux, FreeBSD\n"
+#~ ", Mac OS X and Solaris, now available for download in source and a "
+#~ "variety of binary formats from:"
+#~ msgstr ""
+#~ "L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
+#~ "pgAdmin 1.8.1, l'outil d'administration graphique libre de PostgreSQL "
+#~ "pour Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès "
+#~ "maintenant en téléchargement pour les sources et une grande variété de "
+#~ "formats binaires&nbsp;:"
+
+#~ msgid ""
+#~ "The pgAdmin Development Team are pleased to announce the release of "
+#~ "pgAdmin 1.8.2, the Open Source graphical PostgreSQL administration tool "
+#~ "for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for "
+#~ "download in source and a variety of binary formats from:"
+#~ msgstr ""
+#~ "L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
+#~ "pgAdmin 1.8.2, l'outil d'administration graphique libre de PostgreSQL "
+#~ "pour Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès "
+#~ "maintenant en téléchargement pour les sources et une grande variété de "
+#~ "formats binaires&nbsp;:"
+
+#~ msgid ""
+#~ "The pgAdmin Development Team are pleased to announce the release of "
+#~ "pgAdmin 1.8.4, the Open Source graphical PostgreSQL administration tool "
+#~ "for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for "
+#~ "download in source and a variety of binary formats from:"
+#~ msgstr ""
+#~ "L'équipe de développement de pgAdmin est heureuse d'annoncer la sortie de "
+#~ "pgAdmin 1.8.4, l'outil d'administration graphique libre de PostgreSQL "
+#~ "pour Windows, Linux, FreeBSD, Mac OS X et Solaris, disponible dès "
+#~ "maintenant en téléchargement pour les sources et une grande variété de "
+#~ "formats binaires&nbsp;:"
+
+#~ msgid ""
+#~ "Treat all functions & procedures as 'Functions' in PostgreSQL, and class "
+#~ "only EnterpriseDB edbspl functions returning void as 'Procedures'."
+#~ msgstr ""
+#~ "Traite toutes les fonctions et procédures comme des procédures avec "
+#~ "PostgreSQL et classe seulement les fonctions edbspl d'EnterpriseDB "
+#~ "renvoyant void commes des procédures."
+
+#~ msgid ""
+#~ "Treat view columns as first class citizens. Show them on the treeview, "
+#~ "and allow their properties page to be viewed. Allow editting of the "
+#~ "default value and comment, and reflect this in the reverse engineered SQL "
+#~ "for the view."
+#~ msgstr ""
+#~ "Traite les colonnes des vues comme des citoyens de première classe. Les "
+#~ "affiche dans le navigateur et permet la visualisation de leur propriétés. "
+#~ "Permet la modification de leur valeur par défaut et de leur commentaire "
+#~ "et réflète le tout dans le SQL généré pour la vue."
+
+#~ msgid "Truncate comments containing \\r\\n correctly, per Erwin."
+#~ msgstr "Tronque correctement les commentaires contenant \\r\\n, par Erwin."
+
+#~ msgid ""
+#~ "Undecorated out-param types must be included in EDB-SPL function "
+#~ "signatures when altering comments or privileges or dropping functions or "
+#~ "procedures."
+#~ msgstr ""
+#~ "Les types des paramètres OUT non décorés doivent être inclus dans les "
+#~ "signaturesde fonction EDB-SPL lors de la modification de commentaires et "
+#~ "de droits ou la suppression de fonctions et procédures."
+
+#~ msgid ""
+#~ "Update node text when refreshing treeview nodes in case part of the "
+#~ "identifier has changed."
+#~ msgstr ""
+#~ "Mise à jour du texte d'un noeud lors du rafraichissement des noeuds du "
+#~ "navigateur d'objets dans le cas où une partie de l'identifiant a changé."
+
+#~ msgid "Update to support the changed syntax of pg_dump 8.2+."
+#~ msgstr "Support de la syntaxe du pg_dump 8.2+."
+
+#~ msgid "Use E'' style escape string syntax when required."
+#~ msgstr ""
+#~ "Utilisation de la syntaxe de chaînes d'échappement E'' quand cela est "
+#~ "requis."
+
+#~ msgid ""
+#~ "Use EnterpriseDB's utilities for dump and restore EDB databases to ensure "
+#~ "non-PG extensions can be handled."
+#~ msgstr ""
+#~ "Utilise les outils d'EnterpriseDB pour la sauvegarde et la restauration "
+#~ "des bases de données EDB et ainsi s'assurer que les extensions non PG "
+#~ "sont gérées."
+
+#~ msgid "Use Oracle style syntax for edbspl triggers."
+#~ msgstr "Utilisation de la syntaxe style Oracle poiur les triggers edbspl."
+
+#~ msgid ""
+#~ "Use SQL standard type names where appropriate. Show them as 'aliases' in "
+#~ "the browser."
+#~ msgstr ""
+#~ "Utilisation des noms des types du standard SQL si approprié. Les affiche "
+#~ "comme alias dans le navigateur."
+
+#~ msgid ""
+#~ "Use pg_statindex (if available) to optionally display additional index "
+#~ "statistics on a per-table basis. Also works for index-constraints."
+#~ msgstr ""
+#~ "Utilise pgstatindex (si disponible) pour afficher en option des "
+#~ "statistiques supplémentaires sur l'index. Fonctionne aussi avec les index "
+#~ "de contraintes."
+
+#~ msgid ""
+#~ "Use pg_stattuple (if available) to optionally display additional table "
+#~ "statistics on a per-table basis."
+#~ msgstr ""
+#~ "Utilise pgstattuple (si disponible) pour afficher en option des "
+#~ "statistiques supplémentaires sur la table."
+
+#~ msgid ""
+#~ "Use popen() when testing the versions of helper apps on non-windows "
+#~ "platforms to avoid an obscure bug on PPC Macs that could leave wxExecute "
+#~ "hanging indefinitely whilst waiting on a zombie process."
+#~ msgstr ""
+#~ "Utilisation de popen() lors du test des versions des applications d'aide "
+#~ "sur les plateformes autres que Windows pour éviter un bogue obscur sur "
+#~ "les Mac PPC qui pourrait amener wxExecute à ne jamais terminer son "
+#~ "attente d'un processus zombi."
+
+#~ msgid ""
+#~ "Use the correct version of the Slony scripts when creating a new cluster, "
+#~ "per Duncan Beeby."
+#~ msgstr ""
+#~ "Utilise la bonne version des scripts Slony lors de la création d'un "
+#~ "nouveau cluster, par Duncan Beeby."
+
+#~ msgid "Use virtual data table for Query Tool, to eliminate retrieval time."
+#~ msgstr ""
+#~ "Utilisation d'une table de données virtuelle dans l'outil de requêtes "
+#~ "pour diminuer le temps de récupération des lignes."
+
+#~ msgid ""
+#~ "Warn the user and allow her to abort before re-running a backup or "
+#~ "restore to or from the same file, in the same session (can occur if the "
+#~ "first attempt returns an error or warning)."
+#~ msgstr ""
+#~ "Avertit l'utilisateur et lui permet d'annuler avant de ré-exécuter une "
+#~ "sauvegarde ou une restauration à partir du même fichier, dans la même "
+#~ "session (peut arriver si la première tentative renvoie une erreur ou un "
+#~ "avertissement)."
+
+#~ msgid "Warn the user if a file cannot be saved in the default encoding."
+#~ msgstr ""
+#~ "Avertie l'utilisateur si un fichier ne peut pas être sauvegardé dans "
+#~ "l'encodage par défaut."
+
+#~ msgid ""
+#~ "When checking the position & size of windows, use the dimensions of the "
+#~ "current display, not the primary."
+#~ msgstr ""
+#~ "Lors de la vérification de la position et de la taille des fenêtres, "
+#~ "utilise les dimensions de l'affichage actuel, pas celles du primaire."
+
+#~ msgid ""
+#~ "When creating a new index and specifying both tablespace and fill factor, "
+#~ "make sure the SQL is formulated correctly, per Stefan Wolf"
+#~ msgstr ""
+#~ "Lors de la création d'un nouvel index spécifiant un tablespace et un "
+#~ "facteur de remplissage, s'assure que le SQL est formulé correctement, "
+#~ "d'après Stefan Wolf."
+
+#~ msgid ""
+#~ "You can also find all the fixed bugs in this <a href=\"http://code."
+#~ "pgadmin.org/trac/query?status=closed&group=resolution&milestone=%s\">%s "
+#~ "bugfix list</a>."
+#~ msgstr ""
+#~ "Vous pouvez trouver tous les bogues corrigés dans la <a href=\"http://"
+#~ "code.pgadmin.org/trac/query?status=closed&group=resolution&milestone=%s"
+#~ "\">liste des bogues de la version %s</a>."
+
+#~ msgid ""
+#~ "pgAdmin %s has now been released. Please see the <a href=\"/development/"
+#~ "changelog.php\">CHANGELOG</a> for details of the bug fixes in this "
+#~ "release or visit the <a href=\"download\">download area</a> to get your "
+#~ "copy now."
+#~ msgstr ""
+#~ "pgAdmin %s est disponible. Merci de voir la <a href=\"/news.php\">page "
+#~ "des nouvelles</a> pour les détails sur les changements de cette version "
+#~ "et sur la <a href=\"/download/\">page de téléchargement</a> pour le "
+#~ "récupérer."
+
+#~ msgid ""
+#~ "pgAdmin %s has now been released. This release is primarily a bug fix "
+#~ "release. Please see the <a href=\"/development/changelog.php\">CHANGELOG</"
+#~ "a> for details of the bug fixes in this release or visit the <a href="
+#~ "\"download\">download area</a> to get your copy now."
+#~ msgstr ""
+#~ "pgAdmin %s est disponible. Il s'agit d'une version corrective. Merci de "
+#~ "voir la <a href=\"/news.php\">page des nouvelles</a> pour les détails sur "
+#~ "les changements de cette version et sur la <a href=\"/download/\">page de "
+#~ "téléchargement</a> pour le récupérer."
+
+#~ msgid ""
+#~ "pgAdmin 1.10.0 has now been released! Highlights of the new release "
+#~ "include a graphical query builder, a scripting engine in the query tool "
+#~ "and support for PostgreSQL 8.4 in addition to <a href=\"/development/"
+#~ "changelog.php\">numerous other changes</a>. For a rundown of the key "
+#~ "features, take a look at our <a href=\"/visualtour.php\">visual tour</a>."
+#~ msgstr ""
+#~ "pgAdmin 1.10.0 est maintenant disponible. Les principales nouveautés de "
+#~ "cette version incluent un constructeur graphique de requêtes, un langage "
+#~ "de script dans l'outil de requêtage et le support de PostgreSQL 8.4, "
+#~ "ainsi que de <a href=\"/development/changelog.php\">nombreuses autres "
+#~ "nouveautés</a>. Pour connaître les fonctionnalités clés, n'hésitez pas à "
+#~ "consulter notre <a href=\"/visualtour.php\">tour graphique</a>"
+
+#~ msgid ""
+#~ "pgAdmin 1.10.1 has now been released. Please see the <a href=\"/"
+#~ "development/changelog.php\">CHANGELOG</a> for details of the bug fixes in "
+#~ "this release or visit the <a href=\"download\">download area</a> to get "
+#~ "your copy now."
+#~ msgstr ""
+#~ "pgAdmin 1.10.1 est disponible. Merci de voir la <a href=\"/news.php"
+#~ "\">page des nouvelles</a> pour les détails sur les changements de cette "
+#~ "version et sur la <a href=\"/download/\">page de téléchargement</a> pour "
+#~ "le récupérer."
+
+#~ msgid "pgAdmin Development Team"
+#~ msgstr "Équipe de développement de pgAdmin"
+
+#~ msgid "pgAdmin: Latest news"
+#~ msgstr "pgAdmin&nbsp;: Nouvelles"
+
+#~ msgid ""
+#~ "v1.6.0 represents over a year of development and testing to bring you a "
+#~ "host of new features and improvements including:"
+#~ msgstr ""
+#~ "La 1.6.0 représente plus d'un an de développement et de tests pour vous "
+#~ "proposer un ensemble de nouvelles fonctionnalités et d'améliorations "
+#~ "incluant :"
+
+#~ msgid ""
+#~ "v1.6.1 is primarily a bug fix release, including the following changes:"
+#~ msgstr ""
+#~ "La version 1.6.1 est principalement une version de corrections de bogues "
+#~ "incluant les modifications suivantes&nbsp;:"
+
+#~ msgid ""
+#~ "v1.6.2 is primarily a bug fix release, including the following changes:"
+#~ msgstr ""
+#~ "La version 1.6.2 est principalement une version de corrections de bogues "
+#~ "incluant les modifications suivantes&nbsp;:"
+
+#~ msgid ""
+#~ "v1.6.3 is primarily a bug fix release, including the following changes:"
+#~ msgstr ""
+#~ "La version 1.6.3 est principalement une version de corrections de bogues "
+#~ "incluant les modifications suivantes&nbsp;:"
+
+#~ msgid ""
+#~ "v1.8.0 represents nearly a year of development and testing to bring you \n"
+#~ "a host of new features and improvements including:"
+#~ msgstr ""
+#~ "La 1.8.0 représente pratiquement un an de développement et de tests pour "
+#~ "vous proposer un ensemble de nouvelles fonctionnalités et d'améliorations "
+#~ "incluant :"
+
+#~ msgid ""
+#~ "v1.8.1 is primarily a bug fix release, including the following changes:"
+#~ msgstr ""
+#~ "La version 1.8.1 est principalement une version de corrections de bogues "
+#~ "incluant les modifications suivantes&nbsp;:"
+
+#~ msgid ""
+#~ "v1.8.2 is primarily a bug fix release, including the following changes:"
+#~ msgstr ""
+#~ "La version 1.8.2 est principalement une version de corrections de bogues "
+#~ "incluant les modifications suivantes&nbsp;:"
+
+#~ msgid "v1.8.3 fixes:"
+#~ msgstr "Corrections de la version 1.8.3 :"
+
+#~ msgid "v1.8.4 fixes:"
+#~ msgstr "Corrections de la version 1.8.4 :"
+
+#~ msgid ""
+#~ "v1.8.4 is primarily a bug fix release, including the following changes. "
+#~ "Note that v1.8.3 was never announced as a release due to an issue found "
+#~ "at the last minute."
+#~ msgstr ""
+#~ "La version 1.8.4 est principament une version corrective incluant les "
+#~ "modifications suivantes. Notez que la 1.8.3 n'a jamais été annoncée car "
+#~ "une erreur a été trouvée au dernier moment."
 
 #~ msgid "SVN access"
 #~ msgstr "Accès SVN"

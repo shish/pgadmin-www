@@ -28,7 +28,7 @@ $PAGE_CONTENT = '
   <li>' . _("Functionality") . '<br />&nbsp;
     <ul>
       <li><del>' . _("Better i18n support [GL]") . '</del><br />&nbsp;</li>
-      <li>' . _("Show/hide columns in frmStatus's reports [GL]") . '<br />&nbsp;</li>
+      <li><del>' . _("Show/hide columns in frmStatus's reports [GL]") . '</del><br />&nbsp;</li>
       <li>' . _("Filter rows in frmStatus's reports [GL]") . '<br />&nbsp;</li>
       <li>' . _("Logfile: columns according to log_line_prefix, filename according to log_filename, etc. in frmStatus [GL]") . '<br />&nbsp;</li>
       <li>' . _("Custom reports in frmStatus [GL]") . '<br />&nbsp;</li>

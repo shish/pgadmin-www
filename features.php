@@ -35,7 +35,7 @@ $PAGE_CONTENT = '
 
 <h2>' . _("Multilingual interface") . '</h2>
 <ul>
-  <li>' . sprintf(_("Over 20 supported translations. A detailed list of supported languages is available on the <a href=\"%s\">translation status</a> page."), "translation/status.php") . '</li>
+  <li>' . sprintf(_("Over 12 supported translations. A detailed list of supported languages is available on the <a href=\"%s\">translation status</a> page."), "translation/status.php") . '</li>
 </ul>
 
 <h2>' . _("Data access") . '</h2>
@@ -77,6 +77,7 @@ $PAGE_CONTENT = '
   <li>' . _("Operator classes") . '</li>
   <li>' . _("Operator families") . '</li>
   <li>' . _("Operators") . '</li>
+  <li>' . _("pgAgent objects (such as jobs, schedules)") . '</li>
   <li>' . _("PostgreSQL servers") . '</li>
   <li>' . _("Postgres Plus Advanced Server objects (such as packages, procedures, synonyms)") . '</li>
   <li>' . _("Roles") . '</li>

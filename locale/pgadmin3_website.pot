@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 09:39+0200\n"
+"POT-Creation-Date: 2010-10-06 20:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,12 +23,12 @@ msgid ""
 "to a previous savepoint)."
 msgstr ""
 
-#: ../index.php:14
+#: ../index.php:18
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr ""
 
-#: ../index.php:10
+#: ../index.php:10 ../index.php:14
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr ""
@@ -53,27 +53,29 @@ msgstr ""
 #: ../download/freebsd.php:18 ../download/macosx.php:14
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
-#: ../download/macosx.php:19 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/opensuse.php:18
-#: ../download/opensuse.php:19 ../download/rpm.php:16 ../download/rpm.php:17
-#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/macosx.php:19 ../download/macosx.php:20
+#: ../download/opensuse.php:14 ../download/opensuse.php:15
+#: ../download/opensuse.php:16 ../download/opensuse.php:17
+#: ../download/opensuse.php:18 ../download/opensuse.php:19
+#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
+#: ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
 #: ../download/source.php:16 ../download/source.php:17
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/source.php:22 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
 
-#: ../download/source.php:27 ../download/source.php:28
-#: ../download/source.php:29 ../download/source.php:30
-#: ../download/source.php:31
+#: ../download/source.php:28 ../download/source.php:29
+#: ../download/source.php:30 ../download/source.php:31
+#: ../download/source.php:32
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr ""
@@ -206,7 +208,7 @@ msgid ""
 "PostgreSQL's asynchronous notification system."
 msgstr ""
 
-#: ../features.php:108
+#: ../features.php:109
 msgid "ALT"
 msgstr ""
 
@@ -387,7 +389,7 @@ msgid ""
 "effort than the issue warrants."
 msgstr ""
 
-#: ../download/source.php:24
+#: ../download/source.php:25
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -625,7 +627,7 @@ msgstr ""
 msgid "Dump/restore dialog"
 msgstr ""
 
-#: ../features.php:100
+#: ../features.php:101
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 msgstr ""
 
@@ -798,7 +800,7 @@ msgstr ""
 msgid "GSoC"
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:20
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/learning/videos/"
@@ -850,7 +852,7 @@ msgstr ""
 msgid "Howto"
 msgstr ""
 
-#: ../features.php:103
+#: ../features.php:104
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr ""
 
@@ -957,7 +959,7 @@ msgstr ""
 msgid "Installation"
 msgstr ""
 
-#: ../index.php:18 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -996,11 +998,11 @@ msgid ""
 "help."
 msgstr ""
 
-#: ../features.php:101
+#: ../features.php:102
 msgid "JOHAB"
 msgstr ""
 
-#: ../features.php:106
+#: ../features.php:107
 msgid "KOI8"
 msgstr ""
 
@@ -1019,7 +1021,7 @@ msgstr ""
 msgid "Known issues"
 msgstr ""
 
-#: ../features.php:102
+#: ../features.php:103
 msgid ""
 "LATIN1, LATIN2, LATIN3, LATIN4, LATIN5, LATIN6, LATIN7, LATIN8, LATIN9, "
 "LATIN10"
@@ -1089,7 +1091,7 @@ msgid ""
 "log_filename, etc. in frmStatus [GL]"
 msgstr ""
 
-#: ../features.php:105
+#: ../features.php:106
 msgid "MULE_INTERNAL"
 msgstr ""
 
@@ -1194,7 +1196,7 @@ msgstr ""
 msgid "Multibyte and i18n"
 msgstr ""
 
-#: ../features.php:96
+#: ../features.php:97
 msgid "Multibyte support"
 msgstr ""
 
@@ -1395,7 +1397,7 @@ msgstr ""
 #: ../features.php:38
 #, php-format
 msgid ""
-"Over 20 supported translations. A detailed list of supported languages is "
+"Over 12 supported translations. A detailed list of supported languages is "
 "available on the <a href=\"%s\">translation status</a> page."
 msgstr ""
 
@@ -1507,7 +1509,7 @@ msgstr ""
 msgid "PostgreSQL documentation (on-line and off-line)"
 msgstr ""
 
-#: ../features.php:80
+#: ../features.php:81
 msgid "PostgreSQL servers"
 msgstr ""
 
@@ -1515,7 +1517,7 @@ msgstr ""
 msgid "Postgres Plus Advanced Server"
 msgstr ""
 
-#: ../features.php:81
+#: ../features.php:82
 msgid ""
 "Postgres Plus Advanced Server objects (such as packages, procedures, "
 "synonyms)"
@@ -1621,7 +1623,7 @@ msgstr ""
 msgid "Role properties"
 msgstr ""
 
-#: ../features.php:82
+#: ../features.php:83
 msgid "Roles"
 msgstr ""
 
@@ -1629,7 +1631,7 @@ msgstr ""
 msgid "Routine maintenance"
 msgstr ""
 
-#: ../features.php:83
+#: ../features.php:84
 msgid "Rules"
 msgstr ""
 
@@ -1641,7 +1643,7 @@ msgstr ""
 msgid "SQL/shell/batch job scheduling agent"
 msgstr ""
 
-#: ../features.php:99
+#: ../features.php:100
 msgid "SQL_ASCII"
 msgstr ""
 
@@ -1655,7 +1657,7 @@ msgstr ""
 msgid "Schema properties"
 msgstr ""
 
-#: ../features.php:84
+#: ../features.php:85
 msgid "Schemas"
 msgstr ""
 
@@ -1677,7 +1679,7 @@ msgid ""
 "for the Representation of Names of Languages</a>."
 msgstr ""
 
-#: ../features.php:85
+#: ../features.php:86
 msgid "Sequences"
 msgstr ""
 
@@ -1698,7 +1700,7 @@ msgstr ""
 msgid "Server status/process viewer"
 msgstr ""
 
-#: ../features.php:86
+#: ../features.php:87
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr ""
 
@@ -1731,7 +1733,7 @@ msgstr ""
 msgid "Slony-I documentation"
 msgstr ""
 
-#: ../features.php:87
+#: ../features.php:88
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr ""
 
@@ -1829,7 +1831,7 @@ msgstr ""
 msgid "Suse 10 XGL"
 msgstr ""
 
-#: ../features.php:110
+#: ../features.php:111
 msgid "TCVN"
 msgstr ""
 
@@ -1841,7 +1843,7 @@ msgstr ""
 msgid "Table properties"
 msgstr ""
 
-#: ../features.php:88
+#: ../features.php:89
 msgid "Tables"
 msgstr ""
 
@@ -1849,7 +1851,7 @@ msgstr ""
 msgid "Tablespace properties"
 msgstr ""
 
-#: ../features.php:89
+#: ../features.php:90
 msgid "Tablespaces"
 msgstr ""
 
@@ -1973,7 +1975,7 @@ msgid ""
 "connections."
 msgstr ""
 
-#: ../index.php:27
+#: ../index.php:31
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr ""
@@ -2363,7 +2365,7 @@ msgid ""
 "i>, etc."
 msgstr ""
 
-#: ../download/macosx.php:22
+#: ../download/macosx.php:23
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -2432,7 +2434,7 @@ msgid ""
 "please see the <a href=\"%s\">source code</a> build instructions."
 msgstr ""
 
-#: ../download/windows.php:25
+#: ../download/windows.php:26
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -2496,7 +2498,7 @@ msgstr ""
 msgid "Translation"
 msgstr ""
 
-#: ../features.php:90
+#: ../features.php:91
 msgid "Trigger functions"
 msgstr ""
 
@@ -2516,11 +2518,11 @@ msgstr ""
 msgid "Type properties"
 msgstr ""
 
-#: ../features.php:91
+#: ../features.php:92
 msgid "Types"
 msgstr ""
 
-#: ../features.php:104
+#: ../features.php:105
 msgid "UNICODE/UTF-8"
 msgstr ""
 
@@ -2566,7 +2568,7 @@ msgstr ""
 msgid "User interface"
 msgstr ""
 
-#: ../features.php:92
+#: ../features.php:93
 msgid "Users"
 msgstr ""
 
@@ -2587,19 +2589,19 @@ msgstr ""
 msgid "Very fast datagrid for display/entry of data"
 msgstr ""
 
-#: ../features.php:93
+#: ../features.php:94
 msgid "Views"
 msgstr ""
 
-#: ../features.php:107
+#: ../features.php:108
 msgid "WIN"
 msgstr ""
 
-#: ../features.php:109
+#: ../features.php:110
 msgid "WIN1256"
 msgstr ""
 
-#: ../features.php:111
+#: ../features.php:112
 msgid "WIN874"
 msgstr ""
 
@@ -2769,7 +2771,7 @@ msgstr ""
 msgid "You'll also see the last time a superuser reloaded the configuration."
 msgstr ""
 
-#: ../index.php:12
+#: ../index.php:16
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 12 "
@@ -2856,6 +2858,15 @@ msgstr ""
 msgid ""
 "pgAdmin 1.12 supports the new syntax of CREATE TRIGGER. The WHEN clause and "
 "the column link are handled. The former uses a new textbox."
+msgstr ""
+
+#: ../index.php:12
+msgid ""
+"pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "
+"previous version. Please visit the <a href=\"download\">download area</a> to "
+"get your copy, or alternatively download a <a href=\"http://www.enterprisedb."
+"com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> which includes "
+"pgAdmin."
 msgstr ""
 
 #: ../translation/index.php:10
@@ -2992,7 +3003,7 @@ msgid ""
 "recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 
-#: ../index.php:22
+#: ../index.php:26
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3006,7 +3017,7 @@ msgid ""
 "communicate with the database server."
 msgstr ""
 
-#: ../index.php:24
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3014,7 +3025,7 @@ msgid ""
 "released under the <a href=\"%s\">PostgreSQL License</a>."
 msgstr ""
 
-#: ../index.php:20
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -3077,7 +3088,7 @@ msgid ""
 "8 and other multi-byte charactersets."
 msgstr ""
 
-#: ../features.php:97
+#: ../features.php:98
 msgid "pgAdmin supports most PostgreSQL server-side encodings:"
 msgstr ""
 
@@ -3270,6 +3281,10 @@ msgid ""
 "pgAgent is a job scheduler for PostgreSQL which may be managed using "
 "pgAdmin. Prior to pgAdmin v1.9, pgAgent shipped as part of pgAdmin. From "
 "pgAdmin v1.9 onwards, pgAgent is shipped as a separate application."
+msgstr ""
+
+#: ../features.php:80
+msgid "pgAgent objects (such as jobs, schedules)"
 msgstr ""
 
 #: ../development/roadmap.php:38

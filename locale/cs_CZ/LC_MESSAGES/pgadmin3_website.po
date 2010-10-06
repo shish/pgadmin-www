@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 09:39+0200\n"
+"POT-Creation-Date: 2010-10-06 20:03+0200\n"
 "PO-Revision-Date: 2010-07-25 08:56+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -25,12 +25,12 @@ msgstr ""
 "transakcí (auto-rollback), obvykle když se chcete vrátit k předchozímu "
 "uloženému bodu."
 
-#: ../index.php:14
+#: ../index.php:18
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - ukázkové video pgAdmin"
 
-#: ../index.php:10
+#: ../index.php:10 ../index.php:14
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - vydán pgAdmin v%s"
@@ -55,27 +55,29 @@ msgstr "<a href=\"%s\">Stáhnout pgAgent</a>"
 #: ../download/freebsd.php:18 ../download/macosx.php:14
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
-#: ../download/macosx.php:19 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/opensuse.php:18
-#: ../download/opensuse.php:19 ../download/rpm.php:16 ../download/rpm.php:17
-#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/macosx.php:19 ../download/macosx.php:20
+#: ../download/opensuse.php:14 ../download/opensuse.php:15
+#: ../download/opensuse.php:16 ../download/opensuse.php:17
+#: ../download/opensuse.php:18 ../download/opensuse.php:19
+#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
+#: ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
 #: ../download/source.php:16 ../download/source.php:17
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/source.php:22 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:27 ../download/source.php:28
-#: ../download/source.php:29 ../download/source.php:30
-#: ../download/source.php:31
+#: ../download/source.php:28 ../download/source.php:29
+#: ../download/source.php:30 ../download/source.php:31
+#: ../download/source.php:32
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instrukce pro v%s</a>"
@@ -264,7 +266,7 @@ msgstr ""
 "trvání dotazu, takže můžete dotazy optimalizovat, a je podporované "
 "asynchronní oznamování z PostgreSQL."
 
-#: ../features.php:108
+#: ../features.php:109
 msgid "ALT"
 msgstr "ALT"
 
@@ -493,7 +495,7 @@ msgstr ""
 "představovalo neúměrně úsilí v porovnání s drobnou nepříjemností, kterou "
 "problém způsobuje."
 
-#: ../download/source.php:24
+#: ../download/source.php:25
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -748,7 +750,7 @@ msgstr "Zálohování/obnova"
 msgid "Dump/restore dialog"
 msgstr "Dialog pro zálohování/obnovu"
 
-#: ../features.php:100
+#: ../features.php:101
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 msgstr "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 
@@ -940,7 +942,7 @@ msgstr "Procházení přes GIT"
 msgid "GSoC"
 msgstr "Google Summer of Code"
 
-#: ../index.php:16
+#: ../index.php:20
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/learning/videos/"
@@ -996,7 +998,7 @@ msgstr "Jak přispět"
 msgid "Howto"
 msgstr "Jak na to"
 
-#: ../features.php:103
+#: ../features.php:104
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 
@@ -1136,7 +1138,7 @@ msgstr ""
 msgid "Installation"
 msgstr "Instalace"
 
-#: ../index.php:18 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1191,11 +1193,11 @@ msgstr ""
 "všem. Na stránce <a href=\"%s\">strategie</a> se můžete podívat, jak můžete "
 "být nápomocni."
 
-#: ../features.php:101
+#: ../features.php:102
 msgid "JOHAB"
 msgstr "JOHAB"
 
-#: ../features.php:106
+#: ../features.php:107
 msgid "KOI8"
 msgstr "KOI8"
 
@@ -1221,7 +1223,7 @@ msgstr ""
 msgid "Known issues"
 msgstr "Známé problémy"
 
-#: ../features.php:102
+#: ../features.php:103
 msgid ""
 "LATIN1, LATIN2, LATIN3, LATIN4, LATIN5, LATIN6, LATIN7, LATIN8, LATIN9, "
 "LATIN10"
@@ -1298,7 +1300,7 @@ msgstr ""
 "Evidování: podle sloupců do log_line_prefix, podle názvu souboru do "
 "log_filename, atd. ve frmStatus [GL]"
 
-#: ../features.php:105
+#: ../features.php:106
 msgid "MULE_INTERNAL"
 msgstr "MULE_INTERNAL"
 
@@ -1423,7 +1425,7 @@ msgstr "Jazyky a i18n"
 msgid "Multibyte and i18n"
 msgstr "Vícebajtové znakové sady a internacionalizace"
 
-#: ../features.php:96
+#: ../features.php:97
 msgid "Multibyte support"
 msgstr "Podpora vícebajtového kódování"
 
@@ -1689,9 +1691,9 @@ msgid "Out of date translations (%d)"
 msgstr "Neaktuální překlady (%d)"
 
 #: ../features.php:38
-#, php-format
+#, fuzzy, php-format
 msgid ""
-"Over 20 supported translations. A detailed list of supported languages is "
+"Over 12 supported translations. A detailed list of supported languages is "
 "available on the <a href=\"%s\">translation status</a> page."
 msgstr ""
 "Více jak 20 podporovaných překladů. Podrobný seznam podporovaných jazyků je "
@@ -1848,7 +1850,7 @@ msgstr "Kompatibilita s PostgreSQL"
 msgid "PostgreSQL documentation (on-line and off-line)"
 msgstr "Dokumentace PostgreSQL (on-line i off-line)"
 
-#: ../features.php:80
+#: ../features.php:81
 msgid "PostgreSQL servers"
 msgstr "Servery PostgreSQL"
 
@@ -1856,7 +1858,7 @@ msgstr "Servery PostgreSQL"
 msgid "Postgres Plus Advanced Server"
 msgstr "Postgres Plus Advanced Server"
 
-#: ../features.php:81
+#: ../features.php:82
 msgid ""
 "Postgres Plus Advanced Server objects (such as packages, procedures, "
 "synonyms)"
@@ -1985,7 +1987,7 @@ msgstr "Plán"
 msgid "Role properties"
 msgstr "Vlastnosti role"
 
-#: ../features.php:82
+#: ../features.php:83
 msgid "Roles"
 msgstr "Role"
 
@@ -1993,7 +1995,7 @@ msgstr "Role"
 msgid "Routine maintenance"
 msgstr "Běžná údržba"
 
-#: ../features.php:83
+#: ../features.php:84
 msgid "Rules"
 msgstr "Pravidla"
 
@@ -2007,7 +2009,7 @@ msgstr ""
 msgid "SQL/shell/batch job scheduling agent"
 msgstr "Agent na plánování úkolů (SQL, shell, dávky)"
 
-#: ../features.php:99
+#: ../features.php:100
 msgid "SQL_ASCII"
 msgstr "SQL_ASCII"
 
@@ -2023,7 +2025,7 @@ msgstr ""
 msgid "Schema properties"
 msgstr "Vlastnosti schématu"
 
-#: ../features.php:84
+#: ../features.php:85
 msgid "Schemas"
 msgstr "Schémata"
 
@@ -2053,7 +2055,7 @@ msgstr ""
 "\">stránkách Debianu</a>. Můžete si to také prostudovat podrobněji <a href="
 "\"%s\">ISO 639.2 Kódy pro reprezentaci názvů jazyků</a>."
 
-#: ../features.php:85
+#: ../features.php:86
 msgid "Sequences"
 msgstr "Sekvence"
 
@@ -2074,7 +2076,7 @@ msgstr "Stav serveru"
 msgid "Server status/process viewer"
 msgstr "Prohlížeč stavu a procesů serveru"
 
-#: ../features.php:86
+#: ../features.php:87
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Serverové jazyky (jako pl/pgsql, pl/perl, pl/python apod.)"
 
@@ -2112,7 +2114,7 @@ msgstr ""
 msgid "Slony-I documentation"
 msgstr "Dokumentace Slony-I"
 
-#: ../features.php:87
+#: ../features.php:88
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Objekty Slony-I (jako uzly, clustery apod.)"
 
@@ -2239,7 +2241,7 @@ msgstr ""
 msgid "Suse 10 XGL"
 msgstr "Suse 10 XGL"
 
-#: ../features.php:110
+#: ../features.php:111
 msgid "TCVN"
 msgstr "TCVN"
 
@@ -2251,7 +2253,7 @@ msgstr "Úkoly"
 msgid "Table properties"
 msgstr "Vlastnosti tabulky"
 
-#: ../features.php:88
+#: ../features.php:89
 msgid "Tables"
 msgstr "Tabulky"
 
@@ -2259,7 +2261,7 @@ msgstr "Tabulky"
 msgid "Tablespace properties"
 msgstr "Vlastnosti prostoru tabulek"
 
-#: ../features.php:89
+#: ../features.php:90
 msgid "Tablespaces"
 msgstr "Prostory tabulek"
 
@@ -2426,7 +2428,7 @@ msgstr ""
 "nevyhovovaly pro IPv6. Tato část kódu byla aktualizována tak, aby umožnila "
 "připojení pomocí IPv6."
 
-#: ../index.php:27
+#: ../index.php:31
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Aktuální verze pgAdmin je <a href=\"/download/\">%s</a>."
@@ -2945,7 +2947,7 @@ msgstr ""
 "dosáhl 100%, jednoduše zkopírujte tyto řetězce pomocí Alt+C v poEdit. Např. "
 "přeložte <i>ACL</i> jako <i>ACL</i>, <i>AFTER</i> jako <i>AFTER</i>, atd."
 
-#: ../download/macosx.php:22
+#: ../download/macosx.php:23
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -3051,7 +3053,7 @@ msgstr ""
 "jak pokračovat dál najdete v instrukcích na sestavení ze <a href=\"%s"
 "\">zdrojového kódu</a>."
 
-#: ../download/windows.php:25
+#: ../download/windows.php:26
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3136,7 +3138,7 @@ msgstr "Přeloženo"
 msgid "Translation"
 msgstr "Překlad"
 
-#: ../features.php:90
+#: ../features.php:91
 msgid "Trigger functions"
 msgstr "Funkce triggerů"
 
@@ -3159,11 +3161,11 @@ msgstr ""
 msgid "Type properties"
 msgstr "Vlastnosti typu"
 
-#: ../features.php:91
+#: ../features.php:92
 msgid "Types"
 msgstr "Typy"
 
-#: ../features.php:104
+#: ../features.php:105
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
 
@@ -3212,7 +3214,7 @@ msgstr ""
 msgid "User interface"
 msgstr "Uživatelské rozhraní"
 
-#: ../features.php:92
+#: ../features.php:93
 msgid "Users"
 msgstr "Uživatelé"
 
@@ -3237,19 +3239,19 @@ msgstr ""
 msgid "Very fast datagrid for display/entry of data"
 msgstr "Velmi rychlá datová mřížka na zobrazování/zadávání dat"
 
-#: ../features.php:93
+#: ../features.php:94
 msgid "Views"
 msgstr "Pohledy"
 
-#: ../features.php:107
+#: ../features.php:108
 msgid "WIN"
 msgstr "WIN"
 
-#: ../features.php:109
+#: ../features.php:110
 msgid "WIN1256"
 msgstr "WIN1256"
 
-#: ../features.php:111
+#: ../features.php:112
 msgid "WIN874"
 msgstr "WIN874"
 
@@ -3490,7 +3492,7 @@ msgstr ""
 msgid "You'll also see the last time a superuser reloaded the configuration."
 msgstr "Rovněž uvidíte, kdy uživatel naposledy načetl nastavení."
 
-#: ../index.php:12
+#: ../index.php:16
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 12 "
@@ -3604,6 +3606,15 @@ msgid ""
 msgstr ""
 "pgAdmin 1.12 podporuje novou syntaxi příkazu CREATE TRIGGER. Zpracovává "
 "klauzuli WHEN a vazbu na sloupce. První jmenovaný používá nové textové pole."
+
+#: ../index.php:12
+msgid ""
+"pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "
+"previous version. Please visit the <a href=\"download\">download area</a> to "
+"get your copy, or alternatively download a <a href=\"http://www.enterprisedb."
+"com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> which includes "
+"pgAdmin."
+msgstr ""
 
 #: ../translation/index.php:10
 #, php-format
@@ -3793,7 +3804,7 @@ msgstr ""
 "svobodný software <a href=\"%s\">TortoiseGIT</a>. Pod Linuxem je dostupných "
 "několik svobodných klientů jak pro příkazovou řádku, tak grafické prostředí."
 
-#: ../index.php:22
+#: ../index.php:26
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3816,7 +3827,7 @@ msgstr ""
 "šifrované SSL. Pro komunikaci s databázovým serverem nejsou potřeba žádné "
 "přídavné ovladače."
 
-#: ../index.php:24
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3827,7 +3838,7 @@ msgstr ""
 "dostupný ve více jak tuctu jazyků. Jedná se o svobodný software vydaný pod "
 "licencí <a href=\"%s\">PostgreSQL License</a>."
 
-#: ../index.php:20
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -3906,7 +3917,7 @@ msgstr ""
 "pgAdmin podporuje většinu kódování používaných na serveru PostgreSQL včetně "
 "Unicode UTF-8 a dalších vícebajtových znakových sad."
 
-#: ../features.php:97
+#: ../features.php:98
 msgid "pgAdmin supports most PostgreSQL server-side encodings:"
 msgstr "pgAdmin podporuje většinu kódování používaných na serveru PostgreSQL:"
 
@@ -4103,6 +4114,11 @@ msgstr ""
 "pgAgent je plánovač úkolů pro PostgreSQL, kterého lze spravovat pomocí "
 "pgAdmin. Před pgAdmi v1.9 byl pgAgent součástí pgAdmin. Od pgAdmin v1.9 dál "
 "je pgAgent šířen jako samostatná aplikace."
+
+#: ../features.php:80
+#, fuzzy
+msgid "pgAgent objects (such as jobs, schedules)"
+msgstr "Objekty Slony-I (jako uzly, clustery apod.)"
 
 #: ../development/roadmap.php:38
 msgid ""

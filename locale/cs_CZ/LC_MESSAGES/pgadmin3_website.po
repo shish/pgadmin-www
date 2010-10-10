@@ -1,11 +1,15 @@
+#
+# Marek Černocký <marek@manet.cz>, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-06 20:03+0200\n"
-"PO-Revision-Date: 2010-07-25 08:56+0200\n"
+"POT-Creation-Date: 2010-10-09 05:21+0200\n"
+"PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -554,7 +558,7 @@ msgstr ""
 msgid "Code housekeeping"
 msgstr "Optimalizace kódu"
 
-#: ../visualtour12.php:193 ../visualtour.php:181
+#: ../visualtour.php:181 ../visualtour12.php:193
 msgid "Column properties"
 msgstr "Vlastnosti sloupce"
 
@@ -647,7 +651,7 @@ msgstr "Návrhář databází pro pgAdmin [Luis Ochoa]"
 msgid "Database encoding selection"
 msgstr "Volba kódování databáze"
 
-#: ../visualtour12.php:105 ../visualtour.php:153
+#: ../visualtour.php:153 ../visualtour12.php:105
 msgid "Database properties"
 msgstr "Vlastnosti databáze"
 
@@ -914,7 +918,7 @@ msgstr ""
 "funkce <i>Katalog / Aktualizovat z POT souboru...</i> v poEdit. Alternativně "
 "můžete ručně spustit příkaz:"
 
-#: ../visualtour12.php:185 ../visualtour.php:198
+#: ../visualtour.php:198 ../visualtour12.php:185
 msgid "Function properties"
 msgstr "Vlastnosti funkce"
 
@@ -1112,7 +1116,7 @@ msgstr ""
 " spustíte tlačítkem PGS na panelu nástrojů. Kompletní návod k pgscriptu\n"
 " je k dispozici <a href=\"%s\">tady</a>."
 
-#: ../visualtour12.php:153 ../visualtour.php:189
+#: ../visualtour.php:189 ../visualtour12.php:153
 msgid "Index properties"
 msgstr "Vlastnosti indexů"
 
@@ -1489,11 +1493,11 @@ msgstr ""
 "Poznámka: PostgreSQL 8.2 a novější obsahují admin pack přímo jako doplňující "
 "modul."
 
-#: ../visualtour12.php:29 ../visualtour.php:61
+#: ../visualtour.php:61 ../visualtour12.php:29
 msgid "Object browser"
 msgstr "Strom objektů"
 
-#: ../visualtour12.php:77 ../visualtour.php:99
+#: ../visualtour.php:99 ../visualtour12.php:77
 msgid "Object properties"
 msgstr "Vlastnosti objektů"
 
@@ -1691,12 +1695,12 @@ msgid "Out of date translations (%d)"
 msgstr "Neaktuální překlady (%d)"
 
 #: ../features.php:38
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Over 12 supported translations. A detailed list of supported languages is "
 "available on the <a href=\"%s\">translation status</a> page."
 msgstr ""
-"Více jak 20 podporovaných překladů. Podrobný seznam podporovaných jazyků je "
+"Více jak 12 podporovaných překladů. Podrobný seznam podporovaných jazyků je "
 "dostupný na stránce <a href=\"%s\">stav překladu</a>."
 
 #: ../download/solaris.php:12
@@ -2063,7 +2067,7 @@ msgstr "Sekvence"
 msgid "Server Status"
 msgstr "Stav serveru"
 
-#: ../visualtour12.php:83 ../visualtour.php:137
+#: ../visualtour.php:137 ../visualtour12.php:83
 msgid "Server properties"
 msgstr "Vlastnosti serveru"
 
@@ -2249,7 +2253,7 @@ msgstr "TCVN"
 msgid "TODO list"
 msgstr "Úkoly"
 
-#: ../visualtour12.php:129 ../visualtour.php:164
+#: ../visualtour.php:164 ../visualtour12.php:129
 msgid "Table properties"
 msgstr "Vlastnosti tabulky"
 
@@ -2627,10 +2631,10 @@ msgstr ""
 #, php-format
 msgid ""
 "The pages in this section of the website should provide you with all the "
-"information you need to get started as a new developer, including <a href=\"%"
-"s\">GIT access</a>, the developers <a href=\"%s\">mailing list</a>, the  <a "
-"href=\"%s\">Development Team</a> structure, the  <a href=\"%s\">TODO list</"
-"a> and the  <a href=\"%s\">change log</a>."
+"information you need to get started as a new developer, including <a href="
+"\"%s\">GIT access</a>, the developers <a href=\"%s\">mailing list</a>, the  "
+"<a href=\"%s\">Development Team</a> structure, the  <a href=\"%s\">TODO "
+"list</a> and the  <a href=\"%s\">change log</a>."
 msgstr ""
 "Stránky v této sekci webu by vám měli poskytnout informace, které potřebuje, "
 "pokud chcete začít jako vývojář. Jsou to <a href=\"%s\">přístup přes GIT</"
@@ -2693,8 +2697,8 @@ msgstr ""
 #, php-format
 msgid ""
 "The pgadmin-support mailing list is intended for end user support and bug "
-"reports. To subscribe to the mailing list, send an email to <a href=\"%s\">%"
-"s</a> with the word 'subscribe', without quotes, as the body of message. To "
+"reports. To subscribe to the mailing list, send an email to <a href=\"%s\">"
+"%s</a> with the word 'subscribe', without quotes, as the body of message. To "
 "unsubscribe, send the word 'unsubscribe'."
 msgstr ""
 "Poštovní konference pgadmin-support je určená pro koncové uživatele a "
@@ -3503,6 +3507,13 @@ msgid ""
 "alternatively download a <a href=\"http://www.enterprisedb.com/products/"
 "pgdownload.do\">PostgreSQL 9.0 Installer</a> which includes pgAdmin."
 msgstr ""
+"Právě byl vydán pgAdmin %s. Toto vydání je vyvrcholením 12 měsíců práce "
+"vývojářů. Vizuální prohlídka nové verze je k dispozici <a href=\"/"
+"visualtour12.php\">zde</a> a rovněž si můžete prohlédnou <a href=\"/"
+"development/changelog.php\">seznam změn CHANGELOG</a> (pouze anglicky). "
+"Vydání můžete najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
+"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
+"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
 #: ../download/debian.php:16 ../download/debian.php:20
 #: ../download/debian.php:24 ../download/debian.php:28
@@ -3615,6 +3626,10 @@ msgid ""
 "com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> which includes "
 "pgAdmin."
 msgstr ""
+"Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
+"Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
+"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
+"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
 #: ../translation/index.php:10
 #, php-format
@@ -3821,9 +3836,9 @@ msgstr ""
 "jednoduchých dotazů SQL po vývoj komplexních databází. Grafické rozhraní "
 "podporuje všechny funkce PostgreSQL a činní administraci snadnou. Aplikace "
 "rovněž obsahuje editor SQL se zvýrazňováním syntaxe, editor kódu serverové "
-"strany, agenta pro plánování úkolů, podporu pro replikační systém <a href=\"%"
-"s\">Slony-I</a> a další. Připojení k serveru může probíhat přes TCP/IP nebo "
-"Unixové sokety (na *nixových platformách) a může být kvůli bezpečnosti "
+"strany, agenta pro plánování úkolů, podporu pro replikační systém <a href="
+"\"%s\">Slony-I</a> a další. Připojení k serveru může probíhat přes TCP/IP "
+"nebo Unixové sokety (na *nixových platformách) a může být kvůli bezpečnosti "
 "šifrované SSL. Pro komunikaci s databázovým serverem nejsou potřeba žádné "
 "přídavné ovladače."
 
@@ -3911,8 +3926,8 @@ msgstr "pgAdmin běžící na Windows"
 
 #: ../screenshots/mb_i18n.php:10
 msgid ""
-"pgAdmin supports most PostgreSQL server-side encodings including Unicode UTF-"
-"8 and other multi-byte charactersets."
+"pgAdmin supports most PostgreSQL server-side encodings including Unicode "
+"UTF-8 and other multi-byte charactersets."
 msgstr ""
 "pgAdmin podporuje většinu kódování používaných na serveru PostgreSQL včetně "
 "Unicode UTF-8 a dalších vícebajtových znakových sad."
@@ -4116,9 +4131,8 @@ msgstr ""
 "je pgAgent šířen jako samostatná aplikace."
 
 #: ../features.php:80
-#, fuzzy
 msgid "pgAgent objects (such as jobs, schedules)"
-msgstr "Objekty Slony-I (jako uzly, clustery apod.)"
+msgstr "Objekty pgAgent (jako úkoly, plány apod.)"
 
 #: ../development/roadmap.php:38
 msgid ""
@@ -4732,8 +4746,8 @@ msgstr ""
 #~ "Nezkouší detekovat jestli integrovaný automatický úklid běží na &lt; 8.1."
 
 #~ msgid ""
-#~ "Don't try to enable/disable prepared transaction related controls on pre-"
-#~ "8.1 servers, per Karl Zellnig"
+#~ "Don't try to enable/disable prepared transaction related controls on "
+#~ "pre-8.1 servers, per Karl Zellnig"
 #~ msgstr ""
 #~ "Nezkouší povolit/zakázat ovládací prvky vztahující se k předpřipraveným "
 #~ "transakcím na serverech starší verze než 8.1. [Karl Zellnig]"
@@ -5351,8 +5365,8 @@ msgstr ""
 #~ "Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL "
 #~ "8.2+, per Erwin."
 #~ msgstr ""
-#~ "Zabraňuje opětovnému povolení oprávnění RULE pro tabulky na PostgreSQL 8.2"
-#~ "+. [Erwin]"
+#~ "Zabraňuje opětovnému povolení oprávnění RULE pro tabulky na PostgreSQL "
+#~ "8.2+. [Erwin]"
 
 #~ msgid ""
 #~ "Prevent the filter/sort options dialogue being opened when data is being "

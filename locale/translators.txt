@@ -7,6 +7,12 @@ cs_CZ (Czech)
 Marek Cernocky [marek@manet.cz]
 
 
+es_SV
+-----
+
+Dadan Setia [dadan.setia@gmail.com]
+
+
 fr_FR (French)
 --------------
 

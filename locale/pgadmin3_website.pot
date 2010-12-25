@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-06 20:03+0200\n"
+"POT-Creation-Date: 2010-12-25 18:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,12 +24,12 @@ msgid ""
 "to a previous savepoint)."
 msgstr ""
 
-#: ../index.php:18
+#: ../index.php:22
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr ""
 
-#: ../index.php:10 ../index.php:14
+#: ../index.php:10 ../index.php:14 ../index.php:18
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr ""
@@ -54,9 +55,10 @@ msgstr ""
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/opensuse.php:14 ../download/opensuse.php:15
-#: ../download/opensuse.php:16 ../download/opensuse.php:17
-#: ../download/opensuse.php:18 ../download/opensuse.php:19
+#: ../download/macosx.php:21 ../download/opensuse.php:14
+#: ../download/opensuse.php:15 ../download/opensuse.php:16
+#: ../download/opensuse.php:17 ../download/opensuse.php:18
+#: ../download/opensuse.php:19 ../download/opensuse.php:20
 #: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
 #: ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
@@ -65,17 +67,18 @@ msgstr ""
 #: ../download/source.php:16 ../download/source.php:17
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
-#: ../download/source.php:22 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/source.php:22 ../download/source.php:23
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
 
-#: ../download/source.php:28 ../download/source.php:29
-#: ../download/source.php:30 ../download/source.php:31
-#: ../download/source.php:32
+#: ../download/source.php:29 ../download/source.php:30
+#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:33
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr ""
@@ -259,7 +262,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr ""
 
-#: ../include/page.php:125
+#: ../include/page.php:126
 msgid "Advocacy"
 msgstr ""
 
@@ -389,7 +392,7 @@ msgid ""
 "effort than the issue warrants."
 msgstr ""
 
-#: ../download/source.php:25
+#: ../download/source.php:26
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -583,7 +586,7 @@ msgstr ""
 msgid "Dev "
 msgstr ""
 
-#: ../contribute.php:12 ../include/doc.php:45 ../include/page.php:126
+#: ../contribute.php:12 ../include/doc.php:45 ../include/page.php:127
 msgid "Development"
 msgstr ""
 
@@ -599,7 +602,7 @@ msgstr ""
 msgid "Document not found"
 msgstr ""
 
-#: ../include/page.php:127 ../screenshots/documentation.php:8
+#: ../include/page.php:128 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr ""
@@ -608,7 +611,7 @@ msgstr ""
 msgid "Domains"
 msgstr ""
 
-#: ../include/page.php:128 ../include/po_status.php:256
+#: ../include/page.php:129 ../include/po_status.php:256
 msgid "Download"
 msgstr ""
 
@@ -800,7 +803,7 @@ msgstr ""
 msgid "GSoC"
 msgstr ""
 
-#: ../index.php:20
+#: ../index.php:24
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/learning/videos/"
@@ -840,7 +843,7 @@ msgstr ""
 msgid "Guru Hints to help less experienced users"
 msgstr ""
 
-#: ../include/page.php:124
+#: ../include/page.php:125
 msgid "Home"
 msgstr ""
 
@@ -959,7 +962,7 @@ msgstr ""
 msgid "Installation"
 msgstr ""
 
-#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1647,6 +1650,10 @@ msgstr ""
 msgid "SQL_ASCII"
 msgstr ""
 
+#: ../include/page.php:114
+msgid "Salvatorian"
+msgstr ""
+
 #: ../visualtour.php:339
 msgid ""
 "Save and restore the user-selected line ending type in styled text\n"
@@ -1661,7 +1668,7 @@ msgstr ""
 msgid "Schemas"
 msgstr ""
 
-#: ../include/page.php:129
+#: ../include/page.php:130
 msgid "Screenshots"
 msgstr ""
 
@@ -1708,7 +1715,7 @@ msgstr ""
 msgid "Show/hide columns in frmStatus's reports [GL]"
 msgstr ""
 
-#: ../include/page.php:114
+#: ../include/page.php:115
 msgid "Simplified Chinese"
 msgstr ""
 
@@ -1817,7 +1824,7 @@ msgid ""
 "make sure two translators do not work at the same time on the same language."
 msgstr ""
 
-#: ../include/page.php:130
+#: ../include/page.php:131
 msgid "Support"
 msgstr ""
 
@@ -1975,7 +1982,7 @@ msgid ""
 "connections."
 msgstr ""
 
-#: ../index.php:31
+#: ../index.php:35
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr ""
@@ -2132,10 +2139,10 @@ msgstr ""
 #, php-format
 msgid ""
 "The pages in this section of the website should provide you with all the "
-"information you need to get started as a new developer, including <a href=\"%"
-"s\">GIT access</a>, the developers <a href=\"%s\">mailing list</a>, the  <a "
-"href=\"%s\">Development Team</a> structure, the  <a href=\"%s\">TODO list</"
-"a> and the  <a href=\"%s\">change log</a>."
+"information you need to get started as a new developer, including <a href="
+"\"%s\">GIT access</a>, the developers <a href=\"%s\">mailing list</a>, the  "
+"<a href=\"%s\">Development Team</a> structure, the  <a href=\"%s\">TODO "
+"list</a> and the  <a href=\"%s\">change log</a>."
 msgstr ""
 
 #: ../docs/index.php:10
@@ -2178,8 +2185,8 @@ msgstr ""
 #, php-format
 msgid ""
 "The pgadmin-support mailing list is intended for end user support and bug "
-"reports. To subscribe to the mailing list, send an email to <a href=\"%s\">%"
-"s</a> with the word 'subscribe', without quotes, as the body of message. To "
+"reports. To subscribe to the mailing list, send an email to <a href=\"%s\">"
+"%s</a> with the word 'subscribe', without quotes, as the body of message. To "
 "unsubscribe, send the word 'unsubscribe'."
 msgstr ""
 
@@ -2365,7 +2372,7 @@ msgid ""
 "i>, etc."
 msgstr ""
 
-#: ../download/macosx.php:23
+#: ../download/macosx.php:24
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -2434,7 +2441,7 @@ msgid ""
 "please see the <a href=\"%s\">source code</a> build instructions."
 msgstr ""
 
-#: ../download/windows.php:26
+#: ../download/windows.php:27
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -2447,7 +2454,7 @@ msgstr ""
 msgid "To install these packages, use a command such as:"
 msgstr ""
 
-#: ../download/opensuse.php:22
+#: ../download/opensuse.php:23
 msgid ""
 "To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
 "i> utilities."
@@ -2494,7 +2501,7 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../contribute.php:16 ../include/page.php:131
+#: ../contribute.php:16 ../include/page.php:132
 msgid "Translation"
 msgstr ""
 
@@ -2771,7 +2778,7 @@ msgstr ""
 msgid "You'll also see the last time a superuser reloaded the configuration."
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:20
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 12 "
@@ -2860,12 +2867,21 @@ msgid ""
 "the column link are handled. The former uses a new textbox."
 msgstr ""
 
-#: ../index.php:12
+#: ../index.php:16
 msgid ""
 "pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "
 "previous version. Please visit the <a href=\"download\">download area</a> to "
 "get your copy, or alternatively download a <a href=\"http://www.enterprisedb."
 "com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> which includes "
+"pgAdmin."
+msgstr ""
+
+#: ../index.php:12
+msgid ""
+"pgAdmin 1.12.2 has been released, offering 12 bug fixes over the previous "
+"version. Please visit the <a href=\"download\">download area</a> to get your "
+"copy, or alternatively download a <a href=\"http://www.enterprisedb.com/"
+"products/pgdownload.do\">PostgreSQL 9.0.2 Installer</a> which includes "
 "pgAdmin."
 msgstr ""
 
@@ -3003,7 +3019,7 @@ msgid ""
 "recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 
-#: ../index.php:26
+#: ../index.php:30
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3017,7 +3033,7 @@ msgid ""
 "communicate with the database server."
 msgstr ""
 
-#: ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3025,7 +3041,7 @@ msgid ""
 "released under the <a href=\"%s\">PostgreSQL License</a>."
 msgstr ""
 
-#: ../index.php:24
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -3084,8 +3100,8 @@ msgstr ""
 
 #: ../screenshots/mb_i18n.php:10
 msgid ""
-"pgAdmin supports most PostgreSQL server-side encodings including Unicode UTF-"
-"8 and other multi-byte charactersets."
+"pgAdmin supports most PostgreSQL server-side encodings including Unicode "
+"UTF-8 and other multi-byte charactersets."
 msgstr ""
 
 #: ../features.php:98

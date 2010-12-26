@@ -15,6 +15,8 @@ $PAGE_CONTENT = '
       <li>' . _("Complete 9.1 support") . '<br />&nbsp;</li>
       <li><del>' . _("Finish 9.0 support with exclusion constraints [GL]") .  '</del><br />&nbsp;</li>
       <li>' . _("Finish 8.4 support with SQL/Med objects [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Finish 8.3 support with operator family objets' creation [GL]") . '<br />&nbsp;</li>
+      <li>' . _("Finish 7.4 (?) support with operator class objects' creation [GL]") . '<br />&nbsp;</li>
     </ul>
   </li>
 

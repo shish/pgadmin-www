@@ -39,7 +39,7 @@ $PAGE_CONTENT = '
     The pgAdmin Development Team includes the following people:<br />&nbsp;<br />
     <ul>
       <li><a href="mailto:dpage@pgadmin.org">Dave Page</a> (Project Leader): Project founder & primary developer.<br />&nbsp;</li>
-      <li><a href="mailto:z-saito@guitar.ocn.ne.jp">Hiroshi Saito</a>: Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.</li>
+      <li><a href="mailto:hiroshi@winpg.jp">Hiroshi Saito</a>: Produced a Japanese port of pgAdmin II, and countless patches for pgAdmin III.</li>
       <li><a href="mailto:raphael@pgadmin.org">Rapha&#235;l Enrici</a>: Maintains the Debian port, and helps with numerous other issues.</li>
       <li><a href="mailto:guillaume@lelarge.info">Guillaume Lelarge</a>: Manages the pgAdmin application and website translations, and has added a number of enhancements to pgAdmin.</li>
       <li><a href="mailto:brandstetter@falter.at">Erwin Brandstetter</a>: Spends significant amounts of time testing new releases and helping us track down bugs and behavioural issues.</li>

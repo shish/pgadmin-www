@@ -21,7 +21,7 @@ $PAGE_CONTENT = '
 
 <h2>' . sprintf(_("%s - pgAdmin demo video"), "2010-04-09") . '</h2>
 
-<p>' . _("Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has produced a <a href=\"http://www.enterprisedb.com/learning/videos/Create_Postgres_Database_pgAdmin.do\">video walkthrough</a> showing off some of the features in pgAdmin.") . '</p>
+<p>' . _("Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has produced a <a href=\"http://www.enterprisedb.com/resources-community/webcasts-podcasts-videos/videos/how-create-postgres-database-using-pgadmin\">video walkthrough</a> showing off some of the features in pgAdmin.") . '</p>
 
 <h1>' . _("Introduction") . '</h1>
 

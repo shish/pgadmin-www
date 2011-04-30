@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <h2>' . sprintf(_("%s - pgAdmin v%s released"), "2011-04-18", "1.12.3") . '</h2>
 
-<p>' . _("pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.2 Installer</a> which includes pgAdmin.") . '</p>
+<p>' . _("pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4 Installer</a> which includes pgAdmin.") . '</p>
 
 <h2>' . sprintf(_("%s - pgAdmin v%s released"), "2010-12-16", "1.12.2") . '</h2>
 

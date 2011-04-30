@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-25 18:20+0100\n"
+"POT-Creation-Date: 2011-04-30 09:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,12 @@ msgid ""
 "to a previous savepoint)."
 msgstr ""
 
-#: ../index.php:22
+#: ../index.php:26
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr ""
 
-#: ../index.php:10 ../index.php:14 ../index.php:18
+#: ../index.php:10 ../index.php:14 ../index.php:18 ../index.php:22
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr ""
@@ -55,12 +55,12 @@ msgstr ""
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/opensuse.php:18
-#: ../download/opensuse.php:19 ../download/opensuse.php:20
-#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
-#: ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/macosx.php:21 ../download/macosx.php:22
+#: ../download/opensuse.php:14 ../download/opensuse.php:15
+#: ../download/opensuse.php:16 ../download/opensuse.php:17
+#: ../download/opensuse.php:18 ../download/opensuse.php:19
+#: ../download/opensuse.php:20 ../download/rpm.php:16 ../download/rpm.php:17
+#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
@@ -68,17 +68,18 @@ msgstr ""
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/source.php:24 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24 ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
 
-#: ../download/source.php:29 ../download/source.php:30
-#: ../download/source.php:31 ../download/source.php:32
-#: ../download/source.php:33
+#: ../download/source.php:30 ../download/source.php:31
+#: ../download/source.php:32 ../download/source.php:33
+#: ../download/source.php:34
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr ""
@@ -219,7 +220,7 @@ msgstr ""
 msgid "Access to all PostgreSQL objects"
 msgstr ""
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:41
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
@@ -229,7 +230,7 @@ msgstr ""
 msgid "Add more index stats"
 msgstr ""
 
-#: ../development/roadmap.php:40
+#: ../development/roadmap.php:42
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP/"
 "AV]"
@@ -380,7 +381,7 @@ msgstr ""
 msgid "Before you try to install"
 msgstr ""
 
-#: ../development/roadmap.php:30
+#: ../development/roadmap.php:32
 msgid "Better i18n support [GL]"
 msgstr ""
 
@@ -392,7 +393,7 @@ msgid ""
 "effort than the issue warrants."
 msgstr ""
 
-#: ../download/source.php:26
+#: ../download/source.php:27
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -405,13 +406,13 @@ msgstr ""
 msgid "Change log"
 msgstr ""
 
-#: ../development/roadmap.php:23
+#: ../development/roadmap.php:25
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
 msgstr ""
 
-#: ../development/roadmap.php:24
+#: ../development/roadmap.php:26
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr ""
 
@@ -436,7 +437,7 @@ msgid ""
 "appropriate query."
 msgstr ""
 
-#: ../development/roadmap.php:21
+#: ../development/roadmap.php:23
 msgid "Code housekeeping"
 msgstr ""
 
@@ -502,7 +503,7 @@ msgid ""
 "database."
 msgstr ""
 
-#: ../development/roadmap.php:34
+#: ../development/roadmap.php:36
 msgid "Custom reports in frmStatus [GL]"
 msgstr ""
 
@@ -518,12 +519,12 @@ msgstr ""
 msgid "Data access"
 msgstr ""
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:39
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
 
-#: ../development/roadmap.php:46
+#: ../development/roadmap.php:48
 msgid "Database designer for pgAdmin, by Luis Ochoa"
 msgstr ""
 
@@ -535,7 +536,7 @@ msgstr ""
 msgid "Database properties"
 msgstr ""
 
-#: ../development/roadmap.php:47
+#: ../development/roadmap.php:49
 msgid "Database schema difference visualizer, by Adeel Khan"
 msgstr ""
 
@@ -708,7 +709,7 @@ msgstr ""
 msgid "Features"
 msgstr ""
 
-#: ../development/roadmap.php:32
+#: ../development/roadmap.php:34
 msgid "Filter rows in frmStatus's reports [GL]"
 msgstr ""
 
@@ -716,6 +717,14 @@ msgstr ""
 msgid ""
 "Finally, the fourth tab allows you to select all the objects you want to "
 "dump. All checked objects will be included in the dump."
+msgstr ""
+
+#: ../development/roadmap.php:19
+msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
+msgstr ""
+
+#: ../development/roadmap.php:18
+msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr ""
 
 #: ../development/roadmap.php:17
@@ -779,7 +788,7 @@ msgstr ""
 msgid "Function properties"
 msgstr ""
 
-#: ../development/roadmap.php:28
+#: ../development/roadmap.php:30
 msgid "Functionality"
 msgstr ""
 
@@ -799,16 +808,16 @@ msgstr ""
 msgid "GIT browser"
 msgstr ""
 
-#: ../development/roadmap.php:44
+#: ../development/roadmap.php:46
 msgid "GSoC"
 msgstr ""
 
-#: ../index.php:24
+#: ../index.php:28
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
-"produced a <a href=\"http://www.enterprisedb.com/learning/videos/"
-"Create_Postgres_Database_pgAdmin.do\">video walkthrough</a> showing off some "
-"of the features in pgAdmin."
+"produced a <a href=\"http://www.enterprisedb.com/resources-community/"
+"webcasts-podcasts-videos/videos/how-create-postgres-database-using-pgadmin"
+"\">video walkthrough</a> showing off some of the features in pgAdmin."
 msgstr ""
 
 #: ../translation/howto.php:10
@@ -819,7 +828,7 @@ msgstr ""
 msgid "Google analytics"
 msgstr ""
 
-#: ../development/roadmap.php:35
+#: ../development/roadmap.php:37
 msgid "Graphs in frmStatus [GL]"
 msgstr ""
 
@@ -962,7 +971,7 @@ msgstr ""
 msgid "Installation"
 msgstr ""
 
-#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:30 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1088,7 +1097,7 @@ msgstr ""
 msgid "Logfile browser"
 msgstr ""
 
-#: ../development/roadmap.php:33
+#: ../development/roadmap.php:35
 msgid ""
 "Logfile: columns according to log_line_prefix, filename according to "
 "log_filename, etc. in frmStatus [GL]"
@@ -1241,7 +1250,7 @@ msgstr ""
 #: ../download/windows.php:14
 #, php-format
 msgid ""
-"Note that the <a href=\"%s\">pgInstaller</a> distribution of PostgreSQL for "
+"Note that the <a href=\"%s\">EnterpriseDB</a> distribution of PostgreSQL for "
 "Windows includes a bundled copy of pgAdmin."
 msgstr ""
 
@@ -1582,7 +1591,7 @@ msgid ""
 "sites:"
 msgstr ""
 
-#: ../development/roadmap.php:36
+#: ../development/roadmap.php:38
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
 "with grid style UI [DP]"
@@ -1711,7 +1720,7 @@ msgstr ""
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr ""
 
-#: ../development/roadmap.php:31
+#: ../development/roadmap.php:33
 msgid "Show/hide columns in frmStatus's reports [GL]"
 msgstr ""
 
@@ -1982,7 +1991,7 @@ msgid ""
 "connections."
 msgstr ""
 
-#: ../index.php:35
+#: ../index.php:39
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr ""
@@ -2372,7 +2381,7 @@ msgid ""
 "i>, etc."
 msgstr ""
 
-#: ../download/macosx.php:24
+#: ../download/macosx.php:25
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -2441,7 +2450,7 @@ msgid ""
 "please see the <a href=\"%s\">source code</a> build instructions."
 msgstr ""
 
-#: ../download/windows.php:27
+#: ../download/windows.php:28
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -2778,7 +2787,7 @@ msgstr ""
 msgid "You'll also see the last time a superuser reloaded the configuration."
 msgstr ""
 
-#: ../index.php:20
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 12 "
@@ -2867,7 +2876,7 @@ msgid ""
 "the column link are handled. The former uses a new textbox."
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:20
 msgid ""
 "pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "
 "previous version. Please visit the <a href=\"download\">download area</a> to "
@@ -2876,13 +2885,23 @@ msgid ""
 "pgAdmin."
 msgstr ""
 
-#: ../index.php:12
+#: ../index.php:16
 msgid ""
 "pgAdmin 1.12.2 has been released, offering 12 bug fixes over the previous "
 "version. Please visit the <a href=\"download\">download area</a> to get your "
 "copy, or alternatively download a <a href=\"http://www.enterprisedb.com/"
 "products/pgdownload.do\">PostgreSQL 9.0.2 Installer</a> which includes "
 "pgAdmin."
+msgstr ""
+
+#: ../index.php:12
+msgid ""
+"pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous "
+"version. The list of bug fixes is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4 "
+"Installer</a> which includes pgAdmin."
 msgstr ""
 
 #: ../translation/index.php:10
@@ -3019,7 +3038,7 @@ msgid ""
 "recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 
-#: ../index.php:30
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3033,7 +3052,7 @@ msgid ""
 "communicate with the database server."
 msgstr ""
 
-#: ../index.php:32
+#: ../index.php:36
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3041,7 +3060,7 @@ msgid ""
 "released under the <a href=\"%s\">PostgreSQL License</a>."
 msgstr ""
 
-#: ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -3303,7 +3322,7 @@ msgstr ""
 msgid "pgAgent objects (such as jobs, schedules)"
 msgstr ""
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:40
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"

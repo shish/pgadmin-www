@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-25 18:20+0100\n"
+"POT-Creation-Date: 2011-04-30 09:02+0200\n"
 "PO-Revision-Date: 2010-11-28 17:19+0900\n"
 "Last-Translator: The pgAdmin Development Team <pgadmin-hackers@postgresql."
 "org>\n"
@@ -30,12 +30,12 @@ msgstr ""
 "“解释分析”有了自己的菜单和自己的快捷键（Shift-F7）。可以禁用自动回滚动作（通"
 "常可能期望回滚到上一个保存点）。"
 
-#: ../index.php:22
+#: ../index.php:26
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - pgAdmin演示视频"
 
-#: ../index.php:10 ../index.php:14 ../index.php:18
+#: ../index.php:10 ../index.php:14 ../index.php:18 ../index.php:22
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin%s版本发布"
@@ -61,12 +61,12 @@ msgstr "<a href=\"%s\">下载pgAgent</a>"
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/opensuse.php:18
-#: ../download/opensuse.php:19 ../download/opensuse.php:20
-#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
-#: ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/macosx.php:21 ../download/macosx.php:22
+#: ../download/opensuse.php:14 ../download/opensuse.php:15
+#: ../download/opensuse.php:16 ../download/opensuse.php:17
+#: ../download/opensuse.php:18 ../download/opensuse.php:19
+#: ../download/opensuse.php:20 ../download/rpm.php:16 ../download/rpm.php:17
+#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
@@ -74,17 +74,18 @@ msgstr "<a href=\"%s\">下载pgAgent</a>"
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/source.php:24 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24 ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
 
-#: ../download/source.php:29 ../download/source.php:30
-#: ../download/source.php:31 ../download/source.php:32
-#: ../download/source.php:33
+#: ../download/source.php:30 ../download/source.php:31
+#: ../download/source.php:32 ../download/source.php:33
+#: ../download/source.php:34
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">v%s build指导</a>"
@@ -259,7 +260,7 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "访问所有PostgreSQL对象"
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:41
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
@@ -269,7 +270,7 @@ msgstr "增加一个对话框允许用户在特殊的后台进程中增加全局
 msgid "Add more index stats"
 msgstr "增加更多的索引统计信息"
 
-#: ../development/roadmap.php:40
+#: ../development/roadmap.php:42
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP/"
 "AV]"
@@ -441,7 +442,7 @@ msgstr ""
 msgid "Before you try to install"
 msgstr "安装之前的准备"
 
-#: ../development/roadmap.php:30
+#: ../development/roadmap.php:32
 msgid "Better i18n support [GL]"
 msgstr "更好的国际化支持 [GL]"
 
@@ -455,7 +456,7 @@ msgstr ""
 "pgAdmin的bug和问题在报告给我们之后几乎都能够很快的修正，但是有时一些问题会超"
 "出我们的控制，或者解决它会带来重大的影响，而通常这种影响比问题本身更加重要。"
 
-#: ../download/source.php:26
+#: ../download/source.php:27
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr "tar包中包含build指导，也可以在线阅读："
@@ -468,13 +469,13 @@ msgstr "类型转换"
 msgid "Change log"
 msgstr "更新日志"
 
-#: ../development/roadmap.php:23
+#: ../development/roadmap.php:25
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
 msgstr "检查并移除现在已经在wxWidgets中实现的自定义控件。"
 
-#: ../development/roadmap.php:24
+#: ../development/roadmap.php:26
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "验证wxWidgets 2.9/3.0的使用"
 
@@ -499,7 +500,7 @@ msgid ""
 "appropriate query."
 msgstr "选择它们两个的其中一个将打开查询工具并且显示相应语句。"
 
-#: ../development/roadmap.php:21
+#: ../development/roadmap.php:23
 msgid "Code housekeeping"
 msgstr "代码整理"
 
@@ -565,7 +566,7 @@ msgid ""
 "database."
 msgstr "合上双手祈祷直到PostgreSQL变成世界上最大的数据库 :)。"
 
-#: ../development/roadmap.php:34
+#: ../development/roadmap.php:36
 msgid "Custom reports in frmStatus [GL]"
 msgstr "frmStatus中的自定义列表 [GL]"
 
@@ -581,12 +582,12 @@ msgstr "数据"
 msgid "Data access"
 msgstr "数据存取"
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:39
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr "针对低效率（slow）查询的数据调整（tune-up）选项。[DP]"
 
-#: ../development/roadmap.php:46
+#: ../development/roadmap.php:48
 msgid "Database designer for pgAdmin, by Luis Ochoa"
 msgstr "pgAdmin的数据库设计器（Luis Ochoa）"
 
@@ -598,7 +599,7 @@ msgstr "数据库语言编码选择"
 msgid "Database properties"
 msgstr "数据库属性"
 
-#: ../development/roadmap.php:47
+#: ../development/roadmap.php:49
 msgid "Database schema difference visualizer, by Adeel Khan"
 msgstr "数据库模式的差异观测器（Adeel Khan）"
 
@@ -773,7 +774,7 @@ msgstr "FTS模板"
 msgid "Features"
 msgstr "特性"
 
-#: ../development/roadmap.php:32
+#: ../development/roadmap.php:34
 msgid "Filter rows in frmStatus's reports [GL]"
 msgstr "frmStatus列表中的过滤功能 [GL]"
 
@@ -783,6 +784,16 @@ msgid ""
 "dump. All checked objects will be included in the dump."
 msgstr ""
 "最后，第四个标签允许选择想要卸出的所有对象，所有选中对象会包含在卸出中。"
+
+#: ../development/roadmap.php:19
+#, fuzzy
+msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
+msgstr "完成对8.4 SQL/Med对象的支持 [GL]"
+
+#: ../development/roadmap.php:18
+#, fuzzy
+msgid "Finish 8.3 support with operator family objets' creation [GL]"
+msgstr "完成对8.4 SQL/Med对象的支持 [GL]"
 
 #: ../development/roadmap.php:17
 msgid "Finish 8.4 support with SQL/Med objects [GL]"
@@ -848,7 +859,7 @@ msgstr ""
 msgid "Function properties"
 msgstr "函数属性"
 
-#: ../development/roadmap.php:28
+#: ../development/roadmap.php:30
 msgid "Functionality"
 msgstr "功能"
 
@@ -868,16 +879,17 @@ msgstr "访问GIT"
 msgid "GIT browser"
 msgstr "GIT浏览器"
 
-#: ../development/roadmap.php:44
+#: ../development/roadmap.php:46
 msgid "GSoC"
 msgstr "GSoC"
 
-#: ../index.php:24
+#: ../index.php:28
+#, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
-"produced a <a href=\"http://www.enterprisedb.com/learning/videos/"
-"Create_Postgres_Database_pgAdmin.do\">video walkthrough</a> showing off some "
-"of the features in pgAdmin."
+"produced a <a href=\"http://www.enterprisedb.com/resources-community/"
+"webcasts-podcasts-videos/videos/how-create-postgres-database-using-pgadmin"
+"\">video walkthrough</a> showing off some of the features in pgAdmin."
 msgstr ""
 "<a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a>的Gary制作了一个<a "
 "href=\"http://www.enterprisedb.com/learning/videos/"
@@ -891,7 +903,7 @@ msgstr "开始工作"
 msgid "Google analytics"
 msgstr "Google Analytics（分析）"
 
-#: ../development/roadmap.php:35
+#: ../development/roadmap.php:37
 msgid "Graphs in frmStatus [GL]"
 msgstr "frmStatus中的统计图 [GL]"
 
@@ -1050,7 +1062,7 @@ msgstr ""
 msgid "Installation"
 msgstr "安装"
 
-#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:30 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1192,7 +1204,7 @@ msgstr "锁查看器"
 msgid "Logfile browser"
 msgstr "日志文件浏览器"
 
-#: ../development/roadmap.php:33
+#: ../development/roadmap.php:35
 msgid ""
 "Logfile: columns according to log_line_prefix, filename according to "
 "log_filename, etc. in frmStatus [GL]"
@@ -1364,9 +1376,9 @@ msgstr ""
 "中得到了改善，索引属性对话框增加一个新的下拉框。"
 
 #: ../download/windows.php:14
-#, php-format
+#, fuzzy, php-format
 msgid ""
-"Note that the <a href=\"%s\">pgInstaller</a> distribution of PostgreSQL for "
+"Note that the <a href=\"%s\">EnterpriseDB</a> distribution of PostgreSQL for "
 "Windows includes a bundled copy of pgAdmin."
 msgstr "注意Windows版PostgreSQL的<a href=\"%s\">安装包</a>中已经包含pgAdmin。"
 
@@ -1772,7 +1784,7 @@ msgid ""
 "sites:"
 msgstr "旧版本pgAdmin RPM包现在可以下载："
 
-#: ../development/roadmap.php:36
+#: ../development/roadmap.php:38
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
 "with grid style UI [DP]"
@@ -1910,7 +1922,7 @@ msgstr "服务器状态/进程查看器"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "服务器端语言（例如：pl/pgsql、pl/perl、pl/python等等）"
 
-#: ../development/roadmap.php:31
+#: ../development/roadmap.php:33
 msgid "Show/hide columns in frmStatus's reports [GL]"
 msgstr "显示/隐藏frmStatus列表中的列 [GL]"
 
@@ -2230,7 +2242,7 @@ msgstr ""
 "改变了连接处理，以前的版本使用不兼容IPv6的函数，这部分代码已经升级为支持IPv6"
 "连接。"
 
-#: ../index.php:35
+#: ../index.php:39
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "pgAdmin的当前版本是<a href=\"/download/\">%s</a>."
@@ -2687,7 +2699,7 @@ msgstr ""
 "行！为了达到100%的翻译状态，只要把这些字符串使用poEdit的Alt+C命令拷贝即可，例"
 "如<i>ACL</i>翻译为<i>ACL</i>、<i>AFTER</i>翻译为<i>AFTER</i>诸如此类。"
 
-#: ../download/macosx.php:24
+#: ../download/macosx.php:25
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -2775,7 +2787,7 @@ msgstr ""
 "由命令行获取源程序然后开始，例如在Linux或者Unix系统可以使用下边的命令。更多的"
 "细节请查看<a href=\"%s\">源代码</a>build指令。"
 
-#: ../download/windows.php:27
+#: ../download/windows.php:28
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3166,7 +3178,7 @@ msgstr ""
 msgid "You'll also see the last time a superuser reloaded the configuration."
 msgstr "也可以查看超级用户最后一次重载配置的时间。"
 
-#: ../index.php:20
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 12 "
@@ -3275,7 +3287,7 @@ msgstr ""
 "pgAdmin 1.12支持CREATE TRIGGER新语法，能够处理WHEN子句和字段列表，前者是用一"
 "个全新文本框。"
 
-#: ../index.php:16
+#: ../index.php:20
 msgid ""
 "pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "
 "previous version. Please visit the <a href=\"download\">download area</a> to "
@@ -3287,7 +3299,7 @@ msgstr ""
 "\"download\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://"
 "www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0 Installer</a>。"
 
-#: ../index.php:12
+#: ../index.php:16
 #, fuzzy
 msgid ""
 "pgAdmin 1.12.2 has been released, offering 12 bug fixes over the previous "
@@ -3295,6 +3307,20 @@ msgid ""
 "copy, or alternatively download a <a href=\"http://www.enterprisedb.com/"
 "products/pgdownload.do\">PostgreSQL 9.0.2 Installer</a> which includes "
 "pgAdmin."
+msgstr ""
+"pgAdmin 1.12.1 已经发布，提供了基于上个版本之上很多bug修复，请访问<a href="
+"\"download\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://"
+"www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0 Installer</a>。"
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous "
+"version. The list of bug fixes is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.2 "
+"Installer</a> which includes pgAdmin."
 msgstr ""
 "pgAdmin 1.12.1 已经发布，提供了基于上个版本之上很多bug修复，请访问<a href="
 "\"download\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://"
@@ -3468,7 +3494,7 @@ msgstr ""
 "欢的GIT客户端访问它们。Windows下，我们推荐使用<a href=\"%s\">TortoiseGIT</"
 "a>，这是一个自由软件。"
 
-#: ../index.php:30
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3488,7 +3514,7 @@ msgstr ""
 "Unix Domain Sockets（在*nix平台上）创建服务器连接，也可以使用SSL增强安全性。"
 "与数据库服务器交互不需要附加的其他驱动。"
 
-#: ../index.php:32
+#: ../index.php:36
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3498,7 +3524,7 @@ msgstr ""
 "pgAdmin由世界范围的PostgreSQL专家团体开发，可以支持多种语言，是一个基于<a "
 "href=\"%s\">PostgreSQL协议</a>发布的自由软件。"
 
-#: ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -3772,7 +3798,7 @@ msgstr ""
 msgid "pgAgent objects (such as jobs, schedules)"
 msgstr "pgAgent对象（例如job、schedule等）"
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:40
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"

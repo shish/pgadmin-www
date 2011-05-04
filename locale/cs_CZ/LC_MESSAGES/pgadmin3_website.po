@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-30 09:05+0200\n"
+"POT-Creation-Date: 2011-05-04 22:39+0200\n"
 "PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -29,12 +29,17 @@ msgstr ""
 "transakcí (auto-rollback), obvykle když se chcete vrátit k předchozímu "
 "uloženému bodu."
 
-#: ../index.php:26
+#: ../index.php:24
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - ukázkové video pgAdmin"
 
-#: ../index.php:10 ../index.php:14 ../index.php:18 ../index.php:22
+#: ../index.php:10
+#, fuzzy, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr "%s - vydán pgAdmin v%s"
+
+#: ../index.php:16 ../index.php:20
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - vydán pgAdmin v%s"
@@ -61,11 +66,12 @@ msgstr "<a href=\"%s\">Stáhnout pgAgent</a>"
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
 #: ../download/macosx.php:21 ../download/macosx.php:22
-#: ../download/opensuse.php:14 ../download/opensuse.php:15
-#: ../download/opensuse.php:16 ../download/opensuse.php:17
-#: ../download/opensuse.php:18 ../download/opensuse.php:19
-#: ../download/opensuse.php:20 ../download/rpm.php:16 ../download/rpm.php:17
-#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/macosx.php:23 ../download/opensuse.php:14
+#: ../download/opensuse.php:15 ../download/opensuse.php:16
+#: ../download/opensuse.php:17 ../download/opensuse.php:18
+#: ../download/opensuse.php:19 ../download/opensuse.php:20
+#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
+#: ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
@@ -73,18 +79,19 @@ msgstr "<a href=\"%s\">Stáhnout pgAgent</a>"
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
-#: ../download/source.php:24 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
+#: ../download/source.php:24 ../download/source.php:25
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25 ../download/windows.php:26
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:30 ../download/source.php:31
-#: ../download/source.php:32 ../download/source.php:33
-#: ../download/source.php:34
+#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:33 ../download/source.php:34
+#: ../download/source.php:35
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instrukce pro v%s</a>"
@@ -339,6 +346,18 @@ msgstr "Propagace"
 msgid "Aggregates"
 msgstr "Agregační funkce"
 
+#: ../visualtour14.php:16
+msgid ""
+"All dialogs have been resized to be usable in a 800x600 screen. Dialogs "
+"contain three or more tabs to contain all the information needed on each "
+"object. The first tab always has the same information: name, OID, owner, "
+"comment, and replication set. The other tabs have the information specific "
+"to the object you're looking at. There are still the security tab (for "
+"privileges), the default security tab (for default privileges) on the "
+"objects for which you can set such information. And there's still the SQL "
+"tab."
+msgstr ""
+
 #: ../visualtour.php:350
 msgid ""
 "Allow default settings to be set via a global config file. This allows\n"
@@ -387,6 +406,15 @@ msgstr ""
 "Ačkoliv vítáme příspěvky od kohokoliv, projekt spravuje a provozuje "
 "vývojářský tým. Následující dokument (dostupný pouze v angličtině) nastiňuje "
 "strukturu týmu a jak pracuje."
+
+#: ../visualtour14.php:190
+msgid ""
+"And finally, there are two new actions in the context menu for a table. The "
+"first one resets the statistics of the selected table. The second one is "
+"part of the \"View Data\" submenu. pgAdmin is already able to show the edit "
+"grid with the first 100 rows. The new action allows you to view the last 100 "
+"rows. Here is the menu:"
+msgstr ""
 
 #: ../visualtour12.php:336
 msgid "And last, the query tool can now display line numbers."
@@ -440,6 +468,10 @@ msgstr ""
 "projektu je <b>pgadmin3</b>, tým je <b>The pgAdmin Development Team</b> a e-"
 "mailová adresa by měla být <b>pgadmin-hackers@postgresql.org</b>."
 
+#: ../visualtour14.php:20
+msgid "As an example, here is the sequence dialog:"
+msgstr ""
+
 #: ../screenshots/ui.php:18
 msgid ""
 "As objects are created and modified, pgAdmin will show the user the code "
@@ -471,6 +503,16 @@ msgstr ""
 "připojování k serveru a tím se opravuje regrese výkonu při velkém počtu "
 "databází."
 
+#: ../visualtour14.php:344
+msgid "Backup and restore tools"
+msgstr ""
+
+#: ../index.php:14
+msgid ""
+"Be careful that this is a BETA release. It's not production ready. It's "
+"available for testing purpose only."
+msgstr ""
+
 #: ../advocacy/strategy.php:13
 #, php-format
 msgid ""
@@ -485,6 +527,11 @@ msgstr ""
 #: ../download/ubuntu.php:14
 msgid "Before you try to install"
 msgstr "Než začnete instalovat"
+
+#: ../visualtour14.php:29
+#, fuzzy
+msgid "Better i18n"
+msgstr "Lepší podpora i18n [GL]"
 
 #: ../development/roadmap.php:32
 msgid "Better i18n support [GL]"
@@ -502,7 +549,7 @@ msgstr ""
 "představovalo neúměrně úsilí v porovnání s drobnou nepříjemností, kterou "
 "problém způsobuje."
 
-#: ../download/source.php:27
+#: ../download/source.php:28
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -561,6 +608,22 @@ msgstr ""
 msgid "Code housekeeping"
 msgstr "Optimalizace kódu"
 
+#: ../visualtour14.php:270
+#, fuzzy
+msgid "Collation"
+msgstr "Instalace"
+
+#: ../visualtour14.php:273
+msgid ""
+"Collation is a new schema object available in PostgreSQL 9.1. You can create "
+"and change collation with its properties dialog:"
+msgstr ""
+
+#: ../visualtour14.php:203
+#, fuzzy
+msgid "Column"
+msgstr "Sloupce"
+
 #: ../visualtour12.php:193 ../visualtour.php:181
 msgid "Column properties"
 msgstr "Vlastnosti sloupce"
@@ -589,15 +652,27 @@ msgstr "Úprava souborů s nastavením"
 msgid "Connection handling"
 msgstr "Ovládání připojení"
 
+#: ../visualtour14.php:211
+#, fuzzy
+msgid "Constraint"
+msgstr "Omezení"
+
 #: ../visualtour12.php:145
 msgid "Constraint properties"
 msgstr "Vlastnosti omezení"
+
+#: ../visualtour14.php:228
+msgid ""
+"Constraint triggers have existed for a long time but they are only supported "
+"in pgAdmin 1.14. Fortunately, INSTEAD OF triggers are supported right now, "
+"but they are only available on views."
+msgstr ""
 
 #: ../features.php:64
 msgid "Constraints"
 msgstr "Omezení"
 
-#: ../menu.php:10
+#: ../menu.php:11
 msgid "Contribute"
 msgstr "Příspěvky"
 
@@ -646,6 +721,11 @@ msgid ""
 msgstr ""
 "Volby vyladění dat pro pomalé dotazy (vyžaduje XML EXPLAIN v PG 8.4). [DP]"
 
+#: ../visualtour14.php:155
+#, fuzzy
+msgid "Database"
+msgstr "Databáze"
+
 #: ../development/roadmap.php:48
 msgid "Database designer for pgAdmin, by Luis Ochoa"
 msgstr "Návrhář databází pro pgAdmin [Luis Ochoa]"
@@ -686,6 +766,11 @@ msgstr "Debian Sid (nestabilní)"
 msgid "Debian Squeeze (testing)"
 msgstr "Debian Squeeze (testovací)"
 
+#: ../visualtour14.php:388
+#, fuzzy
+msgid "Debugger tool"
+msgstr "Dotazovací nástroj"
+
 #: ../visualtour12.php:212
 msgid ""
 "Default ACLs are available in the database and schema properties dialog. "
@@ -719,6 +804,14 @@ msgstr "Vývoj"
 msgid "Development team"
 msgstr "Vývojářský tým"
 
+#: ../visualtour14.php:13
+msgid "Dialogs for netbooks"
+msgstr ""
+
+#: ../visualtour14.php:45
+msgid "Different icons to highlight different states"
+msgstr ""
+
 #: ../include/doc.php:73
 msgid "Document cannot be read"
 msgstr "Dokument nelze přečíst"
@@ -732,9 +825,19 @@ msgstr "Dokument nenalezen"
 msgid "Documentation"
 msgstr "Dokumentace"
 
+#: ../visualtour14.php:262
+#, fuzzy
+msgid "Domain"
+msgstr "Domény"
+
 #: ../features.php:67
 msgid "Domains"
 msgstr "Domény"
+
+#: ../visualtour14.php:265
+msgid ""
+"Domains are also subject to change because of the new collation feature:"
+msgstr ""
 
 #: ../include/page.php:129 ../include/po_status.php:256
 msgid "Download"
@@ -814,6 +917,20 @@ msgstr ""
 msgid "Enter your translation strings."
 msgstr "Proveďte vaše překlady řetězců."
 
+#: ../visualtour14.php:214
+msgid "Exclusion Constraints are finally supported in pgAdmin:"
+msgstr ""
+
+#: ../visualtour14.php:293
+msgid "Extension"
+msgstr ""
+
+#: ../visualtour14.php:296
+msgid ""
+"Extension is a new database object available in PostgreSQL 9.1. You can add "
+"an extension with the properties dialog:"
+msgstr ""
+
 #: ../features.php:28
 msgid "Extensive documentation"
 msgstr "Rozsáhlá dokumentace"
@@ -853,6 +970,16 @@ msgid ""
 msgstr ""
 "A na konec, čtvrtá karta vám umožňuje vybrat všechny objekty, které chcete "
 "vypsat. Všechny zaškrtnuté objekty budou ve výpise zahrnuty."
+
+#: ../visualtour14.php:152
+msgid ""
+"Finally, there are two new actions available on the server context menu. "
+"\"Pause replay of WAL\" is only available on a streaming replication slave. "
+"It allows you to pause the replay of the replication, and then resume it. "
+"\"Add named restore point\" asks you to enter the name of the restart point "
+"you want to create. pgAdmin then adds this restore point, but keep in mind "
+"this action is not available on a streaming replication slave."
+msgstr ""
 
 #: ../development/roadmap.php:19
 #, fuzzy
@@ -931,6 +1058,11 @@ msgstr ""
 "funkce <i>Katalog / Aktualizovat z POT souboru...</i> v poEdit. Alternativně "
 "můžete ručně spustit příkaz:"
 
+#: ../visualtour14.php:233
+#, fuzzy
+msgid "Function"
+msgstr "Funkce"
+
 #: ../visualtour12.php:185 ../visualtour.php:198
 msgid "Function properties"
 msgstr "Vlastnosti funkce"
@@ -959,7 +1091,7 @@ msgstr "Procházení přes GIT"
 msgid "GSoC"
 msgstr "Google Summer of Code"
 
-#: ../index.php:28
+#: ../index.php:26
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1104,6 +1236,16 @@ msgstr ""
 "Když chcete současný dotaz nahradit některým z předchozích uložených, stačí "
 "jej vybrat ve vyskakovacím seznamu."
 
+#: ../visualtour14.php:100
+msgid "Improved configuration for plugins"
+msgstr ""
+
+#: ../visualtour14.php:317
+msgid ""
+"In PostgreSQL 9.1, there is a new role attribute. You can set it with the "
+"role properties dialog:"
+msgstr ""
+
 #: ../translation/howto.php:40
 msgid ""
 "In poEdit, clicking on the save button will automatically compile pgadmin3."
@@ -1129,6 +1271,11 @@ msgstr ""
 "V tomto příkladu uživatel vkládá do tabulky náhodné hodnoty. Skritpt\n"
 " spustíte tlačítkem PGS na panelu nástrojů. Kompletní návod k pgscriptu\n"
 " je k dispozici <a href=\"%s\">tady</a>."
+
+#: ../visualtour14.php:195
+#, fuzzy
+msgid "Index"
+msgstr "Indexy"
 
 #: ../visualtour12.php:153 ../visualtour.php:189
 msgid "Index properties"
@@ -1156,7 +1303,15 @@ msgstr ""
 msgid "Installation"
 msgstr "Instalace"
 
-#: ../index.php:30 ../menu.php:6 ../advocacy/index.php:8
+#: ../visualtour14.php:32
+msgid ""
+"Internationalization needed a bit of work to improve in areas such as "
+"pluralization. Because of this, translators will have more work to do this "
+"release, and we hope we'll keep at least the same number of languages for "
+"1.14."
+msgstr ""
+
+#: ../index.php:28 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1286,7 +1441,7 @@ msgstr "Poslední aktualizace: %s"
 msgid "Latest news"
 msgstr "Poslední novinky"
 
-#: ../licence.php:8 ../menu.php:11
+#: ../licence.php:8 ../menu.php:12
 msgid "Licence"
 msgstr "Licence"
 
@@ -1473,6 +1628,14 @@ msgstr ""
 " tabulky, podpora pro porovnávání, znakové sady a omezení připojení u každé\n"
 " databáze zvlášť."
 
+#: ../visualtour14.php:114
+msgid ""
+"New properties are available, all connection parameters. The first tab shows "
+"the service textbox. Here you can specify the name of a service configured "
+"in your pg_service.conf file (see http://www.postgresql.org/docs/9.0/"
+"interactive/libpq-pgservice.html for details):"
+msgstr ""
+
 #: ../visualtour12.php:60
 msgid ""
 "New scripts have been added : SELECT for functions, and EXEC for procedures "
@@ -1507,11 +1670,11 @@ msgstr ""
 "Poznámka: PostgreSQL 8.2 a novější obsahují admin pack přímo jako doplňující "
 "modul."
 
-#: ../visualtour12.php:29 ../visualtour.php:61
+#: ../visualtour12.php:29 ../visualtour14.php:35 ../visualtour.php:61
 msgid "Object browser"
 msgstr "Strom objektů"
 
-#: ../visualtour12.php:77 ../visualtour.php:99
+#: ../visualtour12.php:77 ../visualtour14.php:105 ../visualtour.php:99
 msgid "Object properties"
 msgstr "Vlastnosti objektů"
 
@@ -1575,6 +1738,24 @@ msgstr ""
 #: ../visualtour.php:225
 msgid "One can now change a <b>language's owner</b>."
 msgstr "Nyní můžete změnit <b>vlastníka jazyka</b>."
+
+#: ../visualtour14.php:379
+msgid ""
+"One of the neat things with the extension feature is that it's really easy "
+"to get a list of the available extension, and to install one. That helped us "
+"to get rid of an annoying requirement to get full power on your PostgreSQL "
+"servers. With pgAdmin, you may need to install the adminpack contrib module "
+"(which is now called an extension). pgAdmin 1.14 detects the fact that the "
+"extension is not installed but that it is available. So, with the hint "
+"displayed, you now get a new \"Fix it\" button, which, once clicked, asks "
+"pgAdmin to automatically install the extension:"
+msgstr ""
+
+#: ../visualtour14.php:335
+msgid ""
+"One often requested feature is the ability to disable the Unicode BOM when "
+"writing SQL files. It's now available in the options window:"
+msgstr ""
 
 #: ../visualtour.php:114
 msgid ""
@@ -1887,6 +2068,18 @@ msgstr ""
 msgid "Powerful query tool with colour syntax highlighting"
 msgstr "Výkonný dotazovací nástroj se zvýrazňováním syntaxe"
 
+#: ../visualtour14.php:48
+msgid ""
+"Previous releases already displayed servers and databases in two different "
+"ways, connected and disconnected."
+msgstr ""
+
+#: ../visualtour14.php:220
+msgid ""
+"Primary keys and unique constraints can be added by selecting an existing "
+"unique index:"
+msgstr ""
+
 #: ../visualtour12.php:148
 msgid ""
 "Primary keys and unique indexes can now be defined as deferrable and "
@@ -1896,7 +2089,7 @@ msgstr ""
 "(deferrable) a odložená (deffered) omezení. Proto zde přibyly dvě nová "
 "zaškrtávací pole."
 
-#: ../menu.php:12 ../privacypolicy.php:8
+#: ../menu.php:13 ../privacypolicy.php:8
 msgid "Privacy policy"
 msgstr "Ochrana soukromí"
 
@@ -1938,7 +2131,7 @@ msgstr "Vydané překlady (%d)"
 msgid "Query Tool"
 msgstr "Dotazovací nástroj"
 
-#: ../visualtour12.php:283
+#: ../visualtour12.php:283 ../visualtour14.php:322
 msgid "Query tool"
 msgstr "Dotazovací nástroj"
 
@@ -2001,6 +2194,11 @@ msgstr "Pečlivě svůj překlad zkontrolujte:"
 msgid "Roadmap"
 msgstr "Plán"
 
+#: ../visualtour14.php:314
+#, fuzzy
+msgid "Role"
+msgstr "Role"
+
 #: ../visualtour.php:230
 msgid "Role properties"
 msgstr "Vlastnosti role"
@@ -2022,6 +2220,10 @@ msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 "Pro nainstalování pgAdmin III spusťtě jako uživatel <i>root</i> následující "
 "příkazy"
+
+#: ../visualtour14.php:287
+msgid "SQL/Med objects"
+msgstr ""
 
 #: ../features.php:55
 msgid "SQL/shell/batch job scheduling agent"
@@ -2081,8 +2283,18 @@ msgstr ""
 msgid "Sequences"
 msgstr "Sekvence"
 
+#: ../visualtour14.php:111
+#, fuzzy
+msgid "Server"
+msgstr "Stav serveru"
+
 #: ../visualtour.php:303
 msgid "Server Status"
+msgstr "Stav serveru"
+
+#: ../visualtour14.php:366
+#, fuzzy
+msgid "Server Status tool"
 msgstr "Stav serveru"
 
 #: ../visualtour12.php:83 ../visualtour.php:137
@@ -2271,6 +2483,11 @@ msgstr "TCVN"
 msgid "TODO list"
 msgstr "Úkoly"
 
+#: ../visualtour14.php:171
+#, fuzzy
+msgid "Table"
+msgstr "Tabulky"
+
 #: ../visualtour12.php:129 ../visualtour.php:164
 msgid "Table properties"
 msgstr "Vlastnosti tabulky"
@@ -2287,9 +2504,20 @@ msgstr "Vlastnosti prostoru tabulek"
 msgid "Tablespaces"
 msgstr "Prostory tabulek"
 
+#: ../visualtour14.php:40
+msgid ""
+"Tabs are handled differently. You can tear them whereever you want. You can "
+"have the statistics tab first, and then the other ones. But you can also see "
+"two tabs at the same time:"
+msgstr ""
+
 #: ../development/menu.php:11
 msgid "Team"
 msgstr "Tým"
+
+#: ../visualtour14.php:37
+msgid "Tearable tabsets"
+msgstr ""
 
 #: ../visualtour12.php:368
 msgid ""
@@ -2342,6 +2570,12 @@ msgstr ""
 " na grafický panel, přidáváním vazeb mezi nimi, přidáváním sloupců pouhým\n"
 " kliknutím, přidáváním kritérií a nastavením řazení výsledků."
 
+#: ../visualtour14.php:347
+msgid ""
+"The Backup tool supports the new directory format. We also changed the OK "
+"button with a Backup one:"
+msgstr ""
+
 #: ../visualtour12.php:272
 msgid "The Backup window and the Restore window are now resizable."
 msgstr "U oken zálohování a obnovy lze nyní měnit velikost."
@@ -2369,6 +2603,12 @@ msgstr ""
 "seznam častých otázek ohledně pgAdmin a příslušných odpovědí. Určitě si tyto "
 "dotazy a odpovědi pečlivě projděte, než začnete pokládat otázky v poštovní "
 "konferenci <a href=\"%s\">pgsql-support</a>."
+
+#: ../visualtour14.php:353
+msgid ""
+"The OK button of the restore tool has also been changed with a Restore "
+"button."
+msgstr ""
 
 #: ../support/list.php:18
 msgid ""
@@ -2406,6 +2646,16 @@ msgstr ""
 "admin pack jsou nástroje pro servery PostgreSQL 8.x a můžete je najít ve "
 "složce <i>adminpacks</i> v síti zrcadel."
 
+#: ../visualtour14.php:136
+msgid ""
+"The behaviour of this properties dialog has also changed. Changes are now "
+"stored immediately rather than at program exit, which should help people to "
+"avoid losing their changes if the system crashes afterwards. If you are "
+"already connected to a server and are looking at its properties, all widgets "
+"are disabled in the server properties' dialog, so you won't be able to "
+"change a property."
+msgstr ""
+
 #: ../visualtour12.php:54
 msgid ""
 "The browser allowed you to copy from the SQL pane, but not from the "
@@ -2417,6 +2667,13 @@ msgstr ""
 "statistiky/závislosti/závisející. S pgAdmin 1.12 to již možné je. Můžete "
 "vybrat jeden nebo více řádků (v tomto případě pomocí kláves Shift nebo "
 "Control)."
+
+#: ../visualtour14.php:146
+msgid ""
+"The browser's statistics tab still displays a part of the contents of the "
+"pg_stat_activity view. If you're connected to a PostgreSQL 9.1 server, it "
+"also displays the new pg_stat_replication view:"
+msgstr ""
 
 #: ../development/changelog.php:10
 #, php-format
@@ -2431,6 +2688,25 @@ msgstr ""
 "vývojářů. Je udržovaný ručně a tak nemusí obsahovat detaily o všech drobných "
 "změnách, které kdy byly provedeny. Pokud chcete takové podrobnosti, tak "
 "prosím využijte zprávy o změnách v <a href=\"%s\">repozitáři GIT</a>."
+
+#: ../visualtour14.php:120
+msgid ""
+"The color widget changed a bit to show the actual selected color, and not "
+"its hexadecimal code. It should help people to really see how they "
+"configured the server's color."
+msgstr ""
+
+#: ../visualtour14.php:206
+msgid ""
+"The column properties dialog also shows all available collations and allows "
+"you to set a collation for char, varchar and text columns:"
+msgstr ""
+
+#: ../visualtour14.php:375
+msgid ""
+"The configuration is retained when you launch pgAdmin next time. This is "
+"also true for the column width."
+msgstr ""
 
 #: ../support/list.php:15
 msgid "The configure options used (if compiled from source)"
@@ -2450,7 +2726,7 @@ msgstr ""
 "nevyhovovaly pro IPv6. Tato část kódu byla aktualizována tak, aby umožnila "
 "připojení pomocí IPv6."
 
-#: ../index.php:39
+#: ../index.php:37
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Aktuální verze pgAdmin je <a href=\"/download/\">%s</a>."
@@ -2462,6 +2738,13 @@ msgstr "Datová mřížka"
 #: ../screenshots/ui.php:14
 msgid "The database connection dialogue"
 msgstr "Dialog databázového připojení"
+
+#: ../visualtour14.php:391
+msgid ""
+"The debugger tool has tearable tabsets, making it easier to use. Moreover, "
+"when you try to debug a function with default values for parameters, these "
+"defaults are displayed in the message box asking to enter them."
+msgstr ""
 
 #: ../include/doc.php:73
 msgid "The document requested cannot be read!"
@@ -2507,6 +2790,27 @@ msgstr "Dialog vlastností funkce"
 #: ../screenshots/data.php:20
 msgid "The graphical EXPLAIN tool"
 msgstr "Nástroj grafického výkladu (EXPLAIN)"
+
+#: ../visualtour14.php:198
+msgid ""
+"The index properties dialog shows all available collations and allows you to "
+"set a collation for char, varchar and text columns:"
+msgstr ""
+
+#: ../visualtour14.php:369
+msgid ""
+"The last release brought us the ability to sort values in columns, this "
+"release brings us the ability to show and hide the columns. You do this by "
+"right clicking on the columns' header, and by unchecking the columns you "
+"don't want to see (or checking columns to see them)."
+msgstr ""
+
+#: ../visualtour14.php:130
+msgid ""
+"The last tab has a new connection parameter which allows the user to set a "
+"host address, which may be useful for Kerberos users when used in "
+"conjunction with the hostname:"
+msgstr ""
 
 #: ../visualtour12.php:180
 msgid "The latter has a complete tab to set all columns."
@@ -2560,6 +2864,17 @@ msgstr ""
 #: ../visualtour12.php:10
 msgid ""
 "The long awaited 1.12 version of pgAdmin III is finally available in beta. "
+"We will try to highlight some of the new features which have been added "
+"since the last stable release."
+msgstr ""
+"Dlouho očekávaná verze 1.12 pgAdmin III je konečně dostupná v betaverzi.\n"
+" Zkusíme vám nastínit některé z nových vlastností, které byly přidány od\n"
+" posledního stabilního vydání."
+
+#: ../visualtour14.php:10
+#, fuzzy
+msgid ""
+"The long awaited 1.14 version of pgAdmin III is finally available in beta. "
 "We will try to highlight some of the new features which have been added "
 "since the last stable release."
 msgstr ""
@@ -2734,6 +3049,13 @@ msgstr ""
 "vybranému objektu. Všimněte si také zobrazené definice v SQL se zvýrazněnou "
 "syntaxí."
 
+#: ../visualtour14.php:108
+msgid ""
+"The properties dialog is available as usual (right click on the object's "
+"name, and select \"Properties\" menu item). There is a new shortcut to get "
+"the same result: Ctrl-Alt-Enter."
+msgstr ""
+
 #: ../screenshots/ui.php:20
 msgid "The properties of the selected object."
 msgstr "Vlastnosti vybraného objektu"
@@ -2756,6 +3078,12 @@ msgid ""
 msgstr ""
 "Druhá a třetí karta vám dává k dispozici všechny volby dostupné u pg_dump."
 
+#: ../visualtour14.php:124
+msgid ""
+"The second tab is a new one. It's dedicated to the SSL connection "
+"parameters. New to the family are the certificate file parameters:"
+msgstr ""
+
 #: ../visualtour12.php:294
 msgid ""
 "The server color is available in a square box in the connection combobox."
@@ -2765,6 +3093,12 @@ msgstr ""
 #: ../screenshots/serverstatus.php:12
 msgid "The server status dialogue"
 msgstr "Dialog stavu serveru"
+
+#: ../visualtour14.php:184
+msgid ""
+"The statistics tab of the browser shows new information for tables, vacuum "
+"and analyze counters:"
+msgstr ""
 
 #: ../screenshots/serverstatus.php:10
 msgid ""
@@ -2812,6 +3146,13 @@ msgid "The two next tabs offer all pg_restore options in a GUI way."
 msgstr ""
 "Dvě další karty nabízejí všechny volby pg_restore v grafickém rozhraní."
 
+#: ../visualtour14.php:244
+msgid ""
+"The type properties dialog supports the new syntax to change an existing "
+"composite type and an existing enumeration type. It also supports the new "
+"collation feature. See the screenshots to find the new information:"
+msgstr ""
+
 #: ../translation/status.php:31
 msgid ""
 "The updated translations are published in daily snapshots automatically."
@@ -2827,6 +3168,12 @@ msgstr ""
 "Verzi pgAdminu, kterou používáte. Pokud jde o vývojářský snímek, uveďte "
 "prosím datum sestavení z „Nápověda“ -&gt; „O aplikaci“ a verzi repozitáře "
 "GIT, pokud je známá."
+
+#: ../visualtour14.php:325
+msgid ""
+"The work done on this tool was mostly to make it more usable. We added a new "
+"panel for selection information:"
+msgstr ""
 
 #: ../support/list.php:17
 msgid ""
@@ -2907,6 +3254,10 @@ msgstr ""
 "nápovědu\n"
 " ke Greenplum a podpora pomůcek Greenplum."
 
+#: ../visualtour14.php:236
+msgid "There is a new action to reset the statistics of the selected function:"
+msgstr ""
+
 #: ../visualtour12.php:32
 msgid ""
 "There is big news in the browser. If you have a large number of registered "
@@ -2919,6 +3270,12 @@ msgstr ""
 "serverů, můžete je seskupovat. Na začátku máte jen jednu skupinu: Servery. "
 "To vypadá podobně, jako v předchozích vydáních pgAdmin. Název složky "
 "obsahující server lze změnit v dialogovém okně Vlastnosti pro server."
+
+#: ../visualtour14.php:311
+msgid ""
+"There is one unique aspect to these objects. You don't type their names, you "
+"select them from a list of preinstalled extensions."
+msgstr ""
 
 #: ../visualtour.php:306
 msgid "There was a <b>complete UI rework</b> of the \"Server Status\" window."
@@ -2969,7 +3326,7 @@ msgstr ""
 "dosáhl 100%, jednoduše zkopírujte tyto řetězce pomocí Alt+C v poEdit. Např. "
 "přeložte <i>ACL</i> jako <i>ACL</i>, <i>AFTER</i> jako <i>AFTER</i>, atd."
 
-#: ../download/macosx.php:25
+#: ../download/macosx.php:26
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -2983,6 +3340,17 @@ msgstr ""
 "musíte nejdříve rozbalit archiv a potom spustit instalátor balíčku. U "
 "starších verzí rozbalte archiv a následně přesuňte aplikační balíček na "
 "požadované místo."
+
+#: ../visualtour14.php:180
+msgid ""
+"They are both only available during the creation of a table. The first one, "
+"\"Of type\", allows you to specify a user composite type, instead of the "
+"columns. The last one, \"Unlogged\", allows you to create an unlogged table."
+msgstr ""
+
+#: ../visualtour14.php:166
+msgid "They both are 9.1 only:"
+msgstr ""
 
 #: ../visualtour.php:148
 msgid "This color is the <b>background color for each server</b>:"
@@ -3049,6 +3417,12 @@ msgstr ""
 "využít funkcionalitu tohoto webu. Používáním tohoto webu souhlasíte se "
 "zpracováním vašich dat Googlem způsobem a za účely jak bylo uvedeno."
 
+#: ../visualtour14.php:97
+msgid ""
+"This will help the user to quickly understand which objects are valid or "
+"enabled and which aren't."
+msgstr ""
+
 #: ../download/languages.php:14
 #, php-format
 msgid ""
@@ -3075,7 +3449,7 @@ msgstr ""
 "jak pokračovat dál najdete v instrukcích na sestavení ze <a href=\"%s"
 "\">zdrojového kódu</a>."
 
-#: ../download/windows.php:28
+#: ../download/windows.php:29
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3144,13 +3518,18 @@ msgstr ""
 "další obrázky, mimo těch které najdete v této sekci, se můžete podívat v <a "
 "href=\"%s\">on-line dokumentaci</a>."
 
-#: ../menu.php:9
+#: ../menu.php:10
 msgid "Tour (1.10)"
 msgstr "Prohlídka (1.10)"
 
-#: ../menu.php:8
+#: ../menu.php:9
 msgid "Tour (1.12)"
 msgstr "Prohlídka (1.12)"
+
+#: ../menu.php:8
+#, fuzzy
+msgid "Tour (1.14)"
+msgstr "Prohlídka (1.10)"
 
 #: ../include/po_status.php:257
 msgid "Translated"
@@ -3159,6 +3538,10 @@ msgstr "Přeloženo"
 #: ../contribute.php:16 ../include/page.php:132
 msgid "Translation"
 msgstr "Překlad"
+
+#: ../visualtour14.php:225
+msgid "Trigger"
+msgstr ""
 
 #: ../features.php:91
 msgid "Trigger functions"
@@ -3178,6 +3561,24 @@ msgstr ""
 "Zkuste o pgAdmin publikovat „standardní“ informace, což pomáhá udržet "
 "správnost a jednotnost informací. Některé příklady jsou uvedené na stránce "
 "<a href=\"%s\">informace</a>."
+
+#: ../visualtour14.php:140
+msgid ""
+"Two new piece of information (specific to PostgreSQL 9.1) are shown in the "
+"browser's properties tab: timestamp of last xact replay, and replication "
+"status."
+msgstr ""
+
+#: ../visualtour14.php:174
+msgid ""
+"Two new properties are available on the second tab of the table properties "
+"dialog:"
+msgstr ""
+
+#: ../visualtour14.php:241
+#, fuzzy
+msgid "Type"
+msgstr "Typy"
 
 #: ../visualtour.php:213
 msgid "Type properties"
@@ -3285,6 +3686,18 @@ msgstr ""
 "Varuje uživatele, pokud se připojuje k novější verzi serveru, než je\n"
 " podporovaná"
 
+#: ../visualtour14.php:361
+msgid ""
+"We also added support for the new --quote-all-identifiers command-line "
+"option of pg_dump:"
+msgstr ""
+
+#: ../visualtour14.php:341
+msgid ""
+"We also enhanced the connect dialog so that it tries to keep the old values "
+"when connecting to another server."
+msgstr ""
+
 #: ../visualtour.php:121
 msgid ""
 "We also have allowed the SQL tab to be edited. For example, when adding a\n"
@@ -3304,6 +3717,31 @@ msgstr ""
 "změnit\n"
 " hodnotu každého existujícího řádku a teprve potom přidat omezení NOT NULL.\n"
 " Nyní k tomu můžete použít grafické rozhraní. Dostanete tento dotaz:"
+
+#: ../visualtour14.php:385
+msgid ""
+"We also list the log files in the reverse order, so that the last one is "
+"displayed first."
+msgstr ""
+
+#: ../visualtour14.php:331
+msgid ""
+"We fixed the enabling and disabling of toolbar buttons according to the "
+"selected text and the panel. We allowed the use of the mousewheel to showthe "
+"text larger or smaller in the results grid. We changed the tabs to use "
+"tearable tabsets. We added block folding in all SQL text boxes, query tool "
+"included."
+msgstr ""
+
+#: ../visualtour14.php:158
+msgid ""
+"We have two new pieces of information in the browser's statistics tab for a "
+"database:"
+msgstr ""
+
+#: ../visualtour14.php:26
+msgid "We hope it will allow more users to use pgAdmin on netbooks."
+msgstr ""
 
 #: ../privacypolicy.php:20
 msgid ""
@@ -3514,7 +3952,27 @@ msgstr ""
 msgid "You'll also see the last time a superuser reloaded the configuration."
 msgstr "Rovněž uvidíte, kdy uživatel naposledy načetl nastavení."
 
-#: ../index.php:24
+#: ../visualtour14.php:161
+msgid "all fields of the new pg_stat_database_conflicts view."
+msgstr ""
+
+#: ../visualtour14.php:278 ../visualtour14.php:301
+msgid "first tab"
+msgstr ""
+
+#: ../visualtour14.php:249
+msgid "for the composite type"
+msgstr ""
+
+#: ../visualtour14.php:253
+msgid "for the enumeration type"
+msgstr ""
+
+#: ../visualtour14.php:257
+msgid "for the external type"
+msgstr ""
+
+#: ../index.php:22
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 12 "
@@ -3636,34 +4094,16 @@ msgstr ""
 "pgAdmin 1.12 podporuje novou syntaxi příkazu CREATE TRIGGER. Zpracovává "
 "klauzuli WHEN a vazbu na sloupce. První jmenovaný používá nové textové pole."
 
-#: ../index.php:20
+#: ../visualtour14.php:103
 msgid ""
-"pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "
-"previous version. Please visit the <a href=\"download\">download area</a> to "
-"get your copy, or alternatively download a <a href=\"http://www.enterprisedb."
-"com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> which includes "
-"pgAdmin."
+"pgAdmin 1.12 used a single file to store the configuration for all available "
+"plugins. 1.14 looks for files in a folder where each file contains "
+"information about one or more plugins. This new system allows other "
+"applications to register themselves as plugins in pgAdmin without having to "
+"edit, and perhaps break, the old plugins.ini file."
 msgstr ""
-"Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-"Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
-#: ../index.php:16
-#, fuzzy
-msgid ""
-"pgAdmin 1.12.2 has been released, offering 12 bug fixes over the previous "
-"version. Please visit the <a href=\"download\">download area</a> to get your "
-"copy, or alternatively download a <a href=\"http://www.enterprisedb.com/"
-"products/pgdownload.do\">PostgreSQL 9.0.2 Installer</a> which includes "
-"pgAdmin."
-msgstr ""
-"Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-"Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
-
-#: ../index.php:12
+#: ../index.php:18
 #, fuzzy
 msgid ""
 "pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous "
@@ -3677,6 +4117,39 @@ msgstr ""
 "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
 "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
 "\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+
+#: ../visualtour14.php:5 ../visualtour14.php:7
+#, fuzzy
+msgid "pgAdmin 1.14 Visual Tour"
+msgstr "pgAdmin: Názorná prohlídka 1.10"
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.14 beta 1 has been released, offering lots of new interesting "
+"features. We're still working on a visual tour. In the meantime, the list of "
+"new features is available in the <a href=\"/development/changelog.php"
+"\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to "
+"get your copy, or alternatively download a <a href=\"http://www.enterprisedb."
+"com/products/pgdownload.do\">PostgreSQL 9.1 beta 1 Installer</a> which "
+"includes pgAdmin."
+msgstr ""
+"Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
+"Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
+"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
+"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+
+#: ../visualtour14.php:357
+msgid ""
+"pgAdmin 1.14 uses the -w switch of pg_dump/pg_restore when this switch is "
+"available."
+msgstr ""
+
+#: ../visualtour14.php:70
+msgid ""
+"pgAdmin 1.14 uses the same idea for valid and invalid foreign keys and "
+"enabled and disabled triggers and rules."
+msgstr ""
 
 #: ../translation/index.php:10
 #, php-format
@@ -3740,6 +4213,13 @@ msgstr ""
 msgid ""
 "pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
 msgstr "Vývojářské snímky pgAdmin lze stáhnout <a href=\"%s\">tady</a>."
+
+#: ../visualtour14.php:290
+msgid ""
+"pgAdmin didn't support any SQL/Med objects prior to this release. pgAdmin "
+"1.14 adds support for Foreign Data Wrappers, Foreign Servers, User Mappings, "
+"and Foreign Tables."
+msgstr ""
 
 #: ../screenshots/xgl.php:10
 msgid "pgAdmin even works in 3D!!."
@@ -3866,7 +4346,7 @@ msgstr ""
 "svobodný software <a href=\"%s\">TortoiseGIT</a>. Pod Linuxem je dostupných "
 "několik svobodných klientů jak pro příkazovou řádku, tak grafické prostředí."
 
-#: ../index.php:34
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3889,7 +4369,7 @@ msgstr ""
 "šifrované SSL. Pro komunikaci s databázovým serverem nejsou potřeba žádné "
 "přídavné ovladače."
 
-#: ../index.php:36
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3900,7 +4380,7 @@ msgstr ""
 "dostupný ve více jak tuctu jazyků. Jedná se o svobodný software vydaný pod "
 "licencí <a href=\"%s\">PostgreSQL License</a>."
 
-#: ../index.php:32
+#: ../index.php:30
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -4201,6 +4681,39 @@ msgstr ""
 "Instalátor pro Windows je dostupný na webu poEdit. Alternativně můžete také "
 "použít <a href=\"%s\">Kbabel</a>, který najdete v mnoha populárních "
 "Linuxových distribucích."
+
+#: ../visualtour14.php:282 ../visualtour14.php:305
+msgid "second tab"
+msgstr ""
+
+#: ../visualtour14.php:160
+msgid "timestamp of the last reset on the statistics;"
+msgstr ""
+
+#~ msgid ""
+#~ "pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "
+#~ "previous version. Please visit the <a href=\"download\">download area</a> "
+#~ "to get your copy, or alternatively download a <a href=\"http://www."
+#~ "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> "
+#~ "which includes pgAdmin."
+#~ msgstr ""
+#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
+#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
+#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
+#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+
+#, fuzzy
+#~ msgid ""
+#~ "pgAdmin 1.12.2 has been released, offering 12 bug fixes over the previous "
+#~ "version. Please visit the <a href=\"download\">download area</a> to get "
+#~ "your copy, or alternatively download a <a href=\"http://www.enterprisedb."
+#~ "com/products/pgdownload.do\">PostgreSQL 9.0.2 Installer</a> which "
+#~ "includes pgAdmin."
+#~ msgstr ""
+#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
+#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
+#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
+#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
 #~ msgid ""
 #~ "Add '...' to truncated column comments in table SQL, per Erwin "

@@ -105,7 +105,7 @@ $PAGE_CONTENT = '
 <h3>' . _("Object properties") . '</h3>
 
 <p>
-  ' . _("The properties dialog is available as usual (right click on the object's name, and select \"Properties\" menu item). There is a new shortcut to get the same result : Ctrl-Alt-Enter.") . '
+  ' . _("The properties dialog is available as usual (right click on the object's name, and select \"Properties\" menu item). There is a new shortcut to get the same result: Ctrl-Alt-Enter.") . '
 </p>
 
 <h4>' . _("Server") . '</h4>

@@ -91,7 +91,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 </td>
 </tr>
 </table>
-<input type="hidden" name="client" value="pub-8982134637751566"></input>
+<input type="hidden" name="client" value="pub-7509009547019933"></input>
 <input type="hidden" name="forid" value="1"></input>
 <input type="hidden" name="ie" value="ISO-8859-1"></input>
 <input type="hidden" name="oe" value="ISO-8859-1"></input>
@@ -163,7 +163,7 @@ $output .= '
 <td id="pgaAd">
 
 <script type="text/javascript"><!--
-google_ad_client = "pub-8982134637751566";
+google_ad_client = "pub-7509009547019933";
 /* pgadmin.org */
 google_ad_slot = "1863559220";
 google_ad_width = 160;

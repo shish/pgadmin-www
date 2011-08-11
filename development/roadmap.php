@@ -13,7 +13,7 @@ $PAGE_CONTENT = '
   <li>' . _("PostgreSQL compatibility") . '<br />&nbsp;
     <ul>
       <li>' . _("Complete 9.2 support") . '<br />&nbsp;</li>
-      <li>' . _("Finish 9.1 support with security labels [GL]") .  '</del><br />&nbsp;</li>
+      <li><del>' . _("Finish 9.1 support with security labels [GL]") .  '</del><br />&nbsp;</li>
       <li>' . _("Finish 8.3 support with operator family objets' creation [GL]") . '<br />&nbsp;</li>
       <li>' . _("Finish 7.4 (?) support with operator class objects' creation [GL]") . '<br />&nbsp;</li>
     </ul>
@@ -28,7 +28,7 @@ $PAGE_CONTENT = '
 
   <li>' . _("Functionality") . '<br />&nbsp;
     <ul>
-      <li>' . _("Complete redesign of the documentation [GL]") . '<br />&nbsp;</li>
+      <li><del>' . _("Complete redesign of the documentation [GL]") . '</del><br />&nbsp;</li>
       <li>' . _("New options dialog [GL]") . '<br />&nbsp;</li>
       <li>' . _("Custom reports in frmStatus [GL]") . '<br />&nbsp;</li>
       <li>' . _("Graphs in frmStatus [GL]") . '<br />&nbsp;</li>

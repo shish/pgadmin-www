@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-04 22:39+0200\n"
+"POT-Creation-Date: 2011-08-12 00:12+0200\n"
 "PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -288,7 +288,7 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "Přístup ke všem objektům PostgreSQL"
 
-#: ../development/roadmap.php:41
+#: ../development/roadmap.php:38
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
@@ -300,7 +300,7 @@ msgstr ""
 msgid "Add more index stats"
 msgstr "Přidáno více statistik k indexům"
 
-#: ../development/roadmap.php:42
+#: ../development/roadmap.php:39
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP/"
 "AV]"
@@ -533,10 +533,6 @@ msgstr "Než začnete instalovat"
 msgid "Better i18n"
 msgstr "Lepší podpora i18n [GL]"
 
-#: ../development/roadmap.php:32
-msgid "Better i18n support [GL]"
-msgstr "Lepší podpora i18n [GL]"
-
 #: ../support/issues.php:10
 msgid ""
 "Bugs and other issues in pgAdmin are almost always fixed within a very short "
@@ -563,7 +559,7 @@ msgstr "Přetypování"
 msgid "Change log"
 msgstr "Seznam změn"
 
-#: ../development/roadmap.php:25
+#: ../development/roadmap.php:24
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
@@ -571,7 +567,7 @@ msgstr ""
 "Vyhledat a odstranit vlastní ovládací prvky, které jsou již přímo "
 "implementované ve wxWidgets."
 
-#: ../development/roadmap.php:26
+#: ../development/roadmap.php:25
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "Zkontrolovat kvůli přechodu na wxWidgets 2.9/3.0"
 
@@ -604,7 +600,7 @@ msgstr ""
 "Výběr jednoho z těchto dvou skriptů spustí dotazovací nástroj a zobrazí "
 "příslušný dotaz."
 
-#: ../development/roadmap.php:23
+#: ../development/roadmap.php:22
 msgid "Code housekeeping"
 msgstr "Optimalizace kódu"
 
@@ -637,8 +633,13 @@ msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr "Přeložte pgadmin3.po do binární podoby pgadmin3.mo."
 
 #: ../development/roadmap.php:15
-msgid "Complete 9.1 support"
+#, fuzzy
+msgid "Complete 9.2 support"
 msgstr "Dodělat podporu pro 9.1"
+
+#: ../development/roadmap.php:31
+msgid "Complete redesign of the documentation [GL]"
+msgstr ""
 
 #: ../visualtour12.php:355
 msgid "Configuration"
@@ -699,7 +700,7 @@ msgid ""
 msgstr ""
 "Držte palce a čekejte, až se PostgreSQL stane databází číslo jedna na světě."
 
-#: ../development/roadmap.php:36
+#: ../development/roadmap.php:33
 msgid "Custom reports in frmStatus [GL]"
 msgstr "Vlastní výstupní sestavy ve frmStatus [GL]"
 
@@ -715,7 +716,7 @@ msgstr "Data"
 msgid "Data access"
 msgstr "Přístup k datům"
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:36
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
@@ -726,7 +727,7 @@ msgstr ""
 msgid "Database"
 msgstr "Databáze"
 
-#: ../development/roadmap.php:48
+#: ../development/roadmap.php:45
 msgid "Database designer for pgAdmin, by Luis Ochoa"
 msgstr "Návrhář databází pro pgAdmin [Luis Ochoa]"
 
@@ -738,7 +739,7 @@ msgstr "Volba kódování databáze"
 msgid "Database properties"
 msgstr "Vlastnosti databáze"
 
-#: ../development/roadmap.php:49
+#: ../development/roadmap.php:46
 msgid "Database schema difference visualizer, by Adeel Khan"
 msgstr "Vizualizátor rozdílů ve schématech databází [Adeel Khan]"
 
@@ -959,10 +960,6 @@ msgstr "Šablony FTS"
 msgid "Features"
 msgstr "Vlastnosti"
 
-#: ../development/roadmap.php:34
-msgid "Filter rows in frmStatus's reports [GL]"
-msgstr "Filtr řádků ve výstupní sestavě frmStatus [GL]"
-
 #: ../visualtour12.php:244
 msgid ""
 "Finally, the fourth tab allows you to select all the objects you want to "
@@ -981,22 +978,19 @@ msgid ""
 "this action is not available on a streaming replication slave."
 msgstr ""
 
-#: ../development/roadmap.php:19
+#: ../development/roadmap.php:18
 #, fuzzy
 msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
 msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
 
-#: ../development/roadmap.php:18
+#: ../development/roadmap.php:17
 #, fuzzy
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
 
-#: ../development/roadmap.php:17
-msgid "Finish 8.4 support with SQL/Med objects [GL]"
-msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
-
 #: ../development/roadmap.php:16
-msgid "Finish 9.0 support with exclusion constraints [GL]"
+#, fuzzy
+msgid "Finish 9.1 support with security labels [GL]"
 msgstr "Dokončit podporu 9.0 s omezeními exkluzí [GL]"
 
 #: ../visualtour.php:24
@@ -1067,7 +1061,7 @@ msgstr "Funkce"
 msgid "Function properties"
 msgstr "Vlastnosti funkce"
 
-#: ../development/roadmap.php:30
+#: ../development/roadmap.php:29
 msgid "Functionality"
 msgstr "Funkcionalita"
 
@@ -1087,7 +1081,7 @@ msgstr "Přístup přes GIT"
 msgid "GIT browser"
 msgstr "Procházení přes GIT"
 
-#: ../development/roadmap.php:46
+#: ../development/roadmap.php:43
 msgid "GSoC"
 msgstr "Google Summer of Code"
 
@@ -1112,7 +1106,7 @@ msgstr "Začínáme"
 msgid "Google analytics"
 msgstr "Google analytics"
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:34
 msgid "Graphs in frmStatus [GL]"
 msgstr "Grafy ve frmStatus [GL]"
 
@@ -1465,14 +1459,6 @@ msgstr "Prohlížeč zámků"
 msgid "Logfile browser"
 msgstr "Prohlížeč deníku"
 
-#: ../development/roadmap.php:35
-msgid ""
-"Logfile: columns according to log_line_prefix, filename according to "
-"log_filename, etc. in frmStatus [GL]"
-msgstr ""
-"Evidování: podle sloupců do log_line_prefix, podle názvu souboru do "
-"log_filename, atd. ve frmStatus [GL]"
-
 #: ../features.php:106
 msgid "MULE_INTERNAL"
 msgstr "MULE_INTERNAL"
@@ -1627,6 +1613,10 @@ msgstr ""
 " prostoru tabulek existující databáze, podpora pro přejmenování otevřené\n"
 " tabulky, podpora pro porovnávání, znakové sady a omezení připojení u každé\n"
 " databáze zvlášť."
+
+#: ../development/roadmap.php:32
+msgid "New options dialog [GL]"
+msgstr ""
 
 #: ../visualtour14.php:114
 msgid ""
@@ -2147,10 +2137,11 @@ msgstr ""
 "Balíčky RPM pro starší verze pgAdmin jsou dostupné ze stahovacích webů "
 "pgAdmin:"
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:35
+#, fuzzy
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
-"with grid style UI [DP]"
+"with grid style UI [GL]"
 msgstr ""
 "Předělat dialog tabulek tak, aby se odstranily subdialogy, kde je to možné, "
 "a nahradily rozhraním ve stylu mřížek. [DP]"
@@ -2313,10 +2304,6 @@ msgstr "Prohlížeč stavu a procesů serveru"
 #: ../features.php:87
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Serverové jazyky (jako pl/pgsql, pl/perl, pl/python apod.)"
-
-#: ../development/roadmap.php:33
-msgid "Show/hide columns in frmStatus's reports [GL]"
-msgstr "Zobrazení/skrývání sloupců v výstupní sestavě frmStatus [GL]"
 
 #: ../include/page.php:115
 msgid "Simplified Chinese"
@@ -4126,7 +4113,7 @@ msgstr "pgAdmin: Názorná prohlídka 1.10"
 #: ../index.php:12
 #, fuzzy
 msgid ""
-"pgAdmin 1.14 beta 1 has been released, offering lots of new interesting "
+"pgAdmin 1.14 beta 3 has been released, offering lots of new interesting "
 "features. We're still working on a visual tour. In the meantime, the list of "
 "new features is available in the <a href=\"/development/changelog.php"
 "\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to "
@@ -4661,7 +4648,7 @@ msgstr ""
 msgid "pgAgent objects (such as jobs, schedules)"
 msgstr "Objekty pgAgent (jako úkoly, plány apod.)"
 
-#: ../development/roadmap.php:40
+#: ../development/roadmap.php:37
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"
@@ -4689,6 +4676,25 @@ msgstr ""
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
+
+#~ msgid "Better i18n support [GL]"
+#~ msgstr "Lepší podpora i18n [GL]"
+
+#~ msgid "Filter rows in frmStatus's reports [GL]"
+#~ msgstr "Filtr řádků ve výstupní sestavě frmStatus [GL]"
+
+#~ msgid "Finish 8.4 support with SQL/Med objects [GL]"
+#~ msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
+
+#~ msgid ""
+#~ "Logfile: columns according to log_line_prefix, filename according to "
+#~ "log_filename, etc. in frmStatus [GL]"
+#~ msgstr ""
+#~ "Evidování: podle sloupců do log_line_prefix, podle názvu souboru do "
+#~ "log_filename, atd. ve frmStatus [GL]"
+
+#~ msgid "Show/hide columns in frmStatus's reports [GL]"
+#~ msgstr "Zobrazení/skrývání sloupců v výstupní sestavě frmStatus [GL]"
 
 #~ msgid ""
 #~ "pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "

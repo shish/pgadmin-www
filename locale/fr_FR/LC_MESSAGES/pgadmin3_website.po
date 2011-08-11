@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-04 22:39+0200\n"
+"POT-Creation-Date: 2011-08-12 00:12+0200\n"
 "PO-Revision-Date: 2011-04-30 09:06+0100\n"
 "Last-Translator: Guillaume Lelarge <guillaume@lelarge.info>\n"
 "Language-Team:  <pgsql-fr-general@postgresql.org>\n"
@@ -305,7 +305,7 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "Accès à tous les objets PostgreSQL"
 
-#: ../development/roadmap.php:41
+#: ../development/roadmap.php:38
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
@@ -317,7 +317,7 @@ msgstr ""
 msgid "Add more index stats"
 msgstr "Ajout de plus d'index sur les stats."
 
-#: ../development/roadmap.php:42
+#: ../development/roadmap.php:39
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP/"
 "AV]"
@@ -560,10 +560,6 @@ msgstr "Avant de tenter l'installation"
 msgid "Better i18n"
 msgstr "Meilleur support de l'internationalisation [GL]"
 
-#: ../development/roadmap.php:32
-msgid "Better i18n support [GL]"
-msgstr "Meilleur support de l'internationalisation [GL]"
-
 #: ../support/issues.php:10
 msgid ""
 "Bugs and other issues in pgAdmin are almost always fixed within a very short "
@@ -592,7 +588,7 @@ msgstr "Conversions"
 msgid "Change log"
 msgstr "Journal des modifications"
 
-#: ../development/roadmap.php:25
+#: ../development/roadmap.php:24
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
@@ -600,7 +596,7 @@ msgstr ""
 "Vérifier et supprimer tout contrôle personnalisé qui sont maintenant "
 "implanté dans wxWidgets"
 
-#: ../development/roadmap.php:26
+#: ../development/roadmap.php:25
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "Vérification de l'utilisation de wxWidgets 2.9/3.0."
 
@@ -633,7 +629,7 @@ msgstr ""
 "Choisir un des deux lancera l'outil de requêtage et affichera la requête "
 "appropriée."
 
-#: ../development/roadmap.php:23
+#: ../development/roadmap.php:22
 msgid "Code housekeeping"
 msgstr "Nettoyage du code"
 
@@ -666,8 +662,13 @@ msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr "Compilez pgadmin3.po dans un fichier binaire pgadmin3.mo."
 
 #: ../development/roadmap.php:15
-msgid "Complete 9.1 support"
+#, fuzzy
+msgid "Complete 9.2 support"
 msgstr "Support complet de PostgreSQL 9.1"
+
+#: ../development/roadmap.php:31
+msgid "Complete redesign of the documentation [GL]"
+msgstr ""
 
 #: ../visualtour12.php:355
 msgid "Configuration"
@@ -729,7 +730,7 @@ msgstr ""
 "Croisez les doigts et attendez que PostgreSQL devienne la base de données "
 "numéro un du monde."
 
-#: ../development/roadmap.php:36
+#: ../development/roadmap.php:33
 msgid "Custom reports in frmStatus [GL]"
 msgstr "Rapports configurables dans frmStatus [GL]"
 
@@ -745,7 +746,7 @@ msgstr "Données"
 msgid "Data access"
 msgstr "Accès aux données"
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:36
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
@@ -757,7 +758,7 @@ msgstr ""
 msgid "Database"
 msgstr "Bases de données"
 
-#: ../development/roadmap.php:48
+#: ../development/roadmap.php:45
 msgid "Database designer for pgAdmin, by Luis Ochoa"
 msgstr "Concepteur graphique de bases de données pour pgAdmin, par Luis Ochoa"
 
@@ -769,7 +770,7 @@ msgstr "Sélection du jeu de caractères de la base de données"
 msgid "Database properties"
 msgstr "Propriétés de la base de données"
 
-#: ../development/roadmap.php:49
+#: ../development/roadmap.php:46
 msgid "Database schema difference visualizer, by Adeel Khan"
 msgstr "Visualiseur de différence de schémas de base, par Adeel Khan"
 
@@ -995,10 +996,6 @@ msgstr "Modèles FTS"
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: ../development/roadmap.php:34
-msgid "Filter rows in frmStatus's reports [GL]"
-msgstr "Filtre les lignes dans les rapports de frmStatus [GL]"
-
 #: ../visualtour12.php:244
 msgid ""
 "Finally, the fourth tab allows you to select all the objects you want to "
@@ -1018,24 +1015,21 @@ msgid ""
 "this action is not available on a streaming replication slave."
 msgstr ""
 
-#: ../development/roadmap.php:19
+#: ../development/roadmap.php:18
 msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
 msgstr ""
 "Finir le support de la 7.4 avec la création des objets de type classe "
 "d'opérateur [GL]"
 
-#: ../development/roadmap.php:18
+#: ../development/roadmap.php:17
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr ""
 "Finir le support de la 8.3 avec la création des objets de type famille "
 "d'opérateur [GL]"
 
-#: ../development/roadmap.php:17
-msgid "Finish 8.4 support with SQL/Med objects [GL]"
-msgstr "Finir le support de la 8.4 avec les objets SQL/Med [GL]"
-
 #: ../development/roadmap.php:16
-msgid "Finish 9.0 support with exclusion constraints [GL]"
+#, fuzzy
+msgid "Finish 9.1 support with security labels [GL]"
 msgstr "Finir le support de la 9.0 avec les contraintes d'exclusion [GL]"
 
 #: ../visualtour.php:24
@@ -1109,7 +1103,7 @@ msgstr "Fonctions"
 msgid "Function properties"
 msgstr "Propriétés d'une fonction"
 
-#: ../development/roadmap.php:30
+#: ../development/roadmap.php:29
 msgid "Functionality"
 msgstr "Fonctionnalités"
 
@@ -1129,7 +1123,7 @@ msgstr "Accès GIT"
 msgid "GIT browser"
 msgstr "Navigateur GIT"
 
-#: ../development/roadmap.php:46
+#: ../development/roadmap.php:43
 msgid "GSoC"
 msgstr "GSoC"
 
@@ -1153,7 +1147,7 @@ msgstr "Pour commencer"
 msgid "Google analytics"
 msgstr "Google analytics"
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:34
 msgid "Graphs in frmStatus [GL]"
 msgstr "Graphes dans frmStatus [GL]"
 
@@ -1512,14 +1506,6 @@ msgstr "Visualisateur de verrous"
 msgid "Logfile browser"
 msgstr "Navigateur des journaux"
 
-#: ../development/roadmap.php:35
-msgid ""
-"Logfile: columns according to log_line_prefix, filename according to "
-"log_filename, etc. in frmStatus [GL]"
-msgstr ""
-"Journaux applicatifs : colonnes dépendantes du log_line_prefix, nom de "
-"fichier dépendant de log_filename, etc dans frmStatus [GL]"
-
 #: ../features.php:106
 msgid "MULE_INTERNAL"
 msgstr "MULE_INTERNAL"
@@ -1679,6 +1665,10 @@ msgstr ""
 "8.4&nbsp;: support de la modification du tablespace d'une base existante, "
 "support du renommage d'une base de données déjà ouverte, support de l'ordre, "
 "des jeux de caractères et des limites de connexion par base de données."
+
+#: ../development/roadmap.php:32
+msgid "New options dialog [GL]"
+msgstr ""
 
 #: ../visualtour14.php:114
 msgid ""
@@ -2216,10 +2206,11 @@ msgstr ""
 "Les RPM des anciennes versions de pgAdmin sont disponibles à partir des "
 "sites de téléchargement de pgAdmin :"
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:35
+#, fuzzy
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
-"with grid style UI [DP]"
+"with grid style UI [GL]"
 msgstr ""
 "Reconcevoir la fenêtre Table pour supprimer les sous-fenêtres lorsque c'est "
 "possible et utiliser l'UI style grid [DP]"
@@ -2384,10 +2375,6 @@ msgstr "Statut serveur/visualisateur de processus"
 #: ../features.php:87
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Langages côté serveur (comme pl/pgsql, pl/perl, pl/python, etc.)"
-
-#: ../development/roadmap.php:33
-msgid "Show/hide columns in frmStatus's reports [GL]"
-msgstr "Afficher/Cacher les colonnes dans les rapports de frmStatus [GL]"
 
 #: ../include/page.php:115
 msgid "Simplified Chinese"
@@ -4260,7 +4247,7 @@ msgstr "Tour graphique de pgAdmin 1.10"
 #: ../index.php:12
 #, fuzzy
 msgid ""
-"pgAdmin 1.14 beta 1 has been released, offering lots of new interesting "
+"pgAdmin 1.14 beta 3 has been released, offering lots of new interesting "
 "features. We're still working on a visual tour. In the meantime, the list of "
 "new features is available in the <a href=\"/development/changelog.php"
 "\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to "
@@ -4814,7 +4801,7 @@ msgstr ""
 msgid "pgAgent objects (such as jobs, schedules)"
 msgstr "Objets pgAgent (comme les jobs, les planifications, etc.)"
 
-#: ../development/roadmap.php:40
+#: ../development/roadmap.php:37
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"
@@ -4842,6 +4829,25 @@ msgstr ""
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
+
+#~ msgid "Better i18n support [GL]"
+#~ msgstr "Meilleur support de l'internationalisation [GL]"
+
+#~ msgid "Filter rows in frmStatus's reports [GL]"
+#~ msgstr "Filtre les lignes dans les rapports de frmStatus [GL]"
+
+#~ msgid "Finish 8.4 support with SQL/Med objects [GL]"
+#~ msgstr "Finir le support de la 8.4 avec les objets SQL/Med [GL]"
+
+#~ msgid ""
+#~ "Logfile: columns according to log_line_prefix, filename according to "
+#~ "log_filename, etc. in frmStatus [GL]"
+#~ msgstr ""
+#~ "Journaux applicatifs : colonnes dépendantes du log_line_prefix, nom de "
+#~ "fichier dépendant de log_filename, etc dans frmStatus [GL]"
+
+#~ msgid "Show/hide columns in frmStatus's reports [GL]"
+#~ msgstr "Afficher/Cacher les colonnes dans les rapports de frmStatus [GL]"
 
 #~ msgid ""
 #~ "pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "

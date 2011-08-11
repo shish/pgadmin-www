@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-04 22:39+0200\n"
+"POT-Creation-Date: 2011-08-12 00:12+0200\n"
 "PO-Revision-Date: 2010-11-28 17:19+0900\n"
 "Last-Translator: The pgAdmin Development Team <pgadmin-hackers@postgresql."
 "org>\n"
@@ -267,7 +267,7 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "访问所有PostgreSQL对象"
 
-#: ../development/roadmap.php:41
+#: ../development/roadmap.php:38
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
@@ -277,7 +277,7 @@ msgstr "增加一个对话框允许用户在特殊的后台进程中增加全局
 msgid "Add more index stats"
 msgstr "增加更多的索引统计信息"
 
-#: ../development/roadmap.php:42
+#: ../development/roadmap.php:39
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP/"
 "AV]"
@@ -489,10 +489,6 @@ msgstr "安装之前的准备"
 msgid "Better i18n"
 msgstr "更好的国际化支持 [GL]"
 
-#: ../development/roadmap.php:32
-msgid "Better i18n support [GL]"
-msgstr "更好的国际化支持 [GL]"
-
 #: ../support/issues.php:10
 msgid ""
 "Bugs and other issues in pgAdmin are almost always fixed within a very short "
@@ -516,13 +512,13 @@ msgstr "类型转换"
 msgid "Change log"
 msgstr "更新日志"
 
-#: ../development/roadmap.php:25
+#: ../development/roadmap.php:24
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
 msgstr "检查并移除现在已经在wxWidgets中实现的自定义控件。"
 
-#: ../development/roadmap.php:26
+#: ../development/roadmap.php:25
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "验证wxWidgets 2.9/3.0的使用"
 
@@ -547,7 +543,7 @@ msgid ""
 "appropriate query."
 msgstr "选择它们两个的其中一个将打开查询工具并且显示相应语句。"
 
-#: ../development/roadmap.php:23
+#: ../development/roadmap.php:22
 msgid "Code housekeeping"
 msgstr "代码整理"
 
@@ -580,8 +576,13 @@ msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr "将pgadmin3.po编译为pgadmin3.mo二进制文件。"
 
 #: ../development/roadmap.php:15
-msgid "Complete 9.1 support"
+#, fuzzy
+msgid "Complete 9.2 support"
 msgstr "完全的8.1支持"
+
+#: ../development/roadmap.php:31
+msgid "Complete redesign of the documentation [GL]"
+msgstr ""
 
 #: ../visualtour12.php:355
 msgid "Configuration"
@@ -641,7 +642,7 @@ msgid ""
 "database."
 msgstr "合上双手祈祷直到PostgreSQL变成世界上最大的数据库 :)。"
 
-#: ../development/roadmap.php:36
+#: ../development/roadmap.php:33
 msgid "Custom reports in frmStatus [GL]"
 msgstr "frmStatus中的自定义列表 [GL]"
 
@@ -657,7 +658,7 @@ msgstr "数据"
 msgid "Data access"
 msgstr "数据存取"
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:36
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr "针对低效率（slow）查询的数据调整（tune-up）选项。[DP]"
@@ -667,7 +668,7 @@ msgstr "针对低效率（slow）查询的数据调整（tune-up）选项。[DP]
 msgid "Database"
 msgstr "数据库"
 
-#: ../development/roadmap.php:48
+#: ../development/roadmap.php:45
 msgid "Database designer for pgAdmin, by Luis Ochoa"
 msgstr "pgAdmin的数据库设计器（Luis Ochoa）"
 
@@ -679,7 +680,7 @@ msgstr "数据库语言编码选择"
 msgid "Database properties"
 msgstr "数据库属性"
 
-#: ../development/roadmap.php:49
+#: ../development/roadmap.php:46
 msgid "Database schema difference visualizer, by Adeel Khan"
 msgstr "数据库模式的差异观测器（Adeel Khan）"
 
@@ -891,10 +892,6 @@ msgstr "FTS模板"
 msgid "Features"
 msgstr "特性"
 
-#: ../development/roadmap.php:34
-msgid "Filter rows in frmStatus's reports [GL]"
-msgstr "frmStatus列表中的过滤功能 [GL]"
-
 #: ../visualtour12.php:244
 msgid ""
 "Finally, the fourth tab allows you to select all the objects you want to "
@@ -912,22 +909,19 @@ msgid ""
 "this action is not available on a streaming replication slave."
 msgstr ""
 
-#: ../development/roadmap.php:19
+#: ../development/roadmap.php:18
 #, fuzzy
 msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
 msgstr "完成对8.4 SQL/Med对象的支持 [GL]"
 
-#: ../development/roadmap.php:18
+#: ../development/roadmap.php:17
 #, fuzzy
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "完成对8.4 SQL/Med对象的支持 [GL]"
 
-#: ../development/roadmap.php:17
-msgid "Finish 8.4 support with SQL/Med objects [GL]"
-msgstr "完成对8.4 SQL/Med对象的支持 [GL]"
-
 #: ../development/roadmap.php:16
-msgid "Finish 9.0 support with exclusion constraints [GL]"
+#, fuzzy
+msgid "Finish 9.1 support with security labels [GL]"
 msgstr "完成对9.0的排他约束支持 [GL]"
 
 #: ../visualtour.php:24
@@ -991,7 +985,7 @@ msgstr "函数"
 msgid "Function properties"
 msgstr "函数属性"
 
-#: ../development/roadmap.php:30
+#: ../development/roadmap.php:29
 msgid "Functionality"
 msgstr "功能"
 
@@ -1011,7 +1005,7 @@ msgstr "访问GIT"
 msgid "GIT browser"
 msgstr "GIT浏览器"
 
-#: ../development/roadmap.php:46
+#: ../development/roadmap.php:43
 msgid "GSoC"
 msgstr "GSoC"
 
@@ -1035,7 +1029,7 @@ msgstr "开始工作"
 msgid "Google analytics"
 msgstr "Google Analytics（分析）"
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:34
 msgid "Graphs in frmStatus [GL]"
 msgstr "frmStatus中的统计图 [GL]"
 
@@ -1359,13 +1353,6 @@ msgstr "锁查看器"
 msgid "Logfile browser"
 msgstr "日志文件浏览器"
 
-#: ../development/roadmap.php:35
-msgid ""
-"Logfile: columns according to log_line_prefix, filename according to "
-"log_filename, etc. in frmStatus [GL]"
-msgstr ""
-"日志文件： frmStatus中，列依照日志行前缀、文件名依照日志文件名等等 [GL]"
-
 #: ../features.php:106
 msgid "MULE_INTERNAL"
 msgstr "MULE_INTERNAL"
@@ -1512,6 +1499,10 @@ msgstr ""
 "一些新特性增加到8.4的数据库对话框中：更改已存在数据库的表空间，已打开数据库"
 "的\n"
 "重命名，修改每个数据库的字符排序、字符分类以及连接数限制。"
+
+#: ../development/roadmap.php:32
+msgid "New options dialog [GL]"
+msgstr ""
 
 #: ../visualtour14.php:114
 msgid ""
@@ -1977,10 +1968,11 @@ msgid ""
 "sites:"
 msgstr "旧版本pgAdmin RPM包现在可以下载："
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:35
+#, fuzzy
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
-"with grid style UI [DP]"
+"with grid style UI [GL]"
 msgstr "重新设计数据表对话框在可能的情况下用grid风格UI替代以移除子对话框[DP]。"
 
 #: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
@@ -2133,10 +2125,6 @@ msgstr "服务器状态/进程查看器"
 #: ../features.php:87
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "服务器端语言（例如：pl/pgsql、pl/perl、pl/python等等）"
-
-#: ../development/roadmap.php:33
-msgid "Show/hide columns in frmStatus's reports [GL]"
-msgstr "显示/隐藏frmStatus列表中的列 [GL]"
 
 #: ../include/page.php:115
 msgid "Simplified Chinese"
@@ -3775,7 +3763,7 @@ msgstr "pgAdmin1.10 视觉教程"
 #: ../index.php:12
 #, fuzzy
 msgid ""
-"pgAdmin 1.14 beta 1 has been released, offering lots of new interesting "
+"pgAdmin 1.14 beta 3 has been released, offering lots of new interesting "
 "features. We're still working on a visual tour. In the meantime, the list of "
 "new features is available in the <a href=\"/development/changelog.php"
 "\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to "
@@ -4278,7 +4266,7 @@ msgstr ""
 msgid "pgAgent objects (such as jobs, schedules)"
 msgstr "pgAgent对象（例如job、schedule等）"
 
-#: ../development/roadmap.php:40
+#: ../development/roadmap.php:37
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"
@@ -4302,6 +4290,24 @@ msgstr ""
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
+
+#~ msgid "Better i18n support [GL]"
+#~ msgstr "更好的国际化支持 [GL]"
+
+#~ msgid "Filter rows in frmStatus's reports [GL]"
+#~ msgstr "frmStatus列表中的过滤功能 [GL]"
+
+#~ msgid "Finish 8.4 support with SQL/Med objects [GL]"
+#~ msgstr "完成对8.4 SQL/Med对象的支持 [GL]"
+
+#~ msgid ""
+#~ "Logfile: columns according to log_line_prefix, filename according to "
+#~ "log_filename, etc. in frmStatus [GL]"
+#~ msgstr ""
+#~ "日志文件： frmStatus中，列依照日志行前缀、文件名依照日志文件名等等 [GL]"
+
+#~ msgid "Show/hide columns in frmStatus's reports [GL]"
+#~ msgstr "显示/隐藏frmStatus列表中的列 [GL]"
 
 #~ msgid ""
 #~ "pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "

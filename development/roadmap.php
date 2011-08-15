@@ -29,7 +29,7 @@ $PAGE_CONTENT = '
   <li>' . _("Functionality") . '<br />&nbsp;
     <ul>
       <li><del>' . _("Complete redesign of the documentation [GL]") . '</del><br />&nbsp;</li>
-      <li>' . _("New options dialog [GL]") . '<br />&nbsp;</li>
+      <li><del>' . _("New options dialog [GL]") . '</del><br />&nbsp;</li>
       <li>' . _("Custom reports in frmStatus [GL]") . '<br />&nbsp;</li>
       <li>' . _("Graphs in frmStatus [GL]") . '<br />&nbsp;</li>
       <li>' . _("Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [GL]") . '<br />&nbsp;</li>

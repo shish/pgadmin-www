@@ -7,11 +7,9 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
-<h2>' . sprintf(_("%s - pgAdmin v%s available"), "2011-05-02", "1.14 beta3") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s available"), "2011-08-19", "1.14 RC1") . '</h2>
 
-<p>' . _("pgAdmin 1.14 beta 3 has been released, offering lots of new interesting features. We're still working on a visual tour. In the meantime, the list of new features is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 beta 1 Installer</a> which includes pgAdmin.") . '</p>
-
-<p>' . _("Be careful that this is a BETA release. It's not production ready. It's available for testing purpose only.") . '</p>
+<p>' . _("pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new interesting features. We're still working on a visual tour. In the meantime, the list of new features is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 Release Candidate 1 Installer</a> which includes pgAdmin.") . '</p>
 
 <h2>' . sprintf(_("%s - pgAdmin v%s released"), "2011-04-18", "1.12.3") . '</h2>
 

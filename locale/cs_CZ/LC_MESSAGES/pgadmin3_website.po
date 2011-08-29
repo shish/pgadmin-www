@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-12 00:12+0200\n"
+"POT-Creation-Date: 2011-08-29 18:33+0200\n"
 "PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "transakcí (auto-rollback), obvykle když se chcete vrátit k předchozímu "
 "uloženému bodu."
 
-#: ../index.php:24
+#: ../index.php:22
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - ukázkové video pgAdmin"
@@ -39,7 +39,7 @@ msgstr "%s - ukázkové video pgAdmin"
 msgid "%s - pgAdmin v%s available"
 msgstr "%s - vydán pgAdmin v%s"
 
-#: ../index.php:16 ../index.php:20
+#: ../index.php:14 ../index.php:18
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - vydán pgAdmin v%s"
@@ -507,12 +507,6 @@ msgstr ""
 msgid "Backup and restore tools"
 msgstr ""
 
-#: ../index.php:14
-msgid ""
-"Be careful that this is a BETA release. It's not production ready. It's "
-"available for testing purpose only."
-msgstr ""
-
 #: ../advocacy/strategy.php:13
 #, php-format
 msgid ""
@@ -685,7 +679,7 @@ msgstr "Přispějte k překladům"
 msgid "Conversions"
 msgstr "Konverze"
 
-#: ../include/doc.php:93
+#: ../include/doc.php:99
 msgid "Couldn't find the document content!"
 msgstr "Nelze nalézt obsah dokumentu!"
 
@@ -793,11 +787,11 @@ msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr "Navržený pro práci s více verzemi PostgreSQL a jeho odvozenin"
 
 #: ../docs/menu.php:7
-#, php-format
-msgid "Dev "
+#, fuzzy
+msgid "Dev"
 msgstr "Ve vývoji"
 
-#: ../contribute.php:12 ../include/doc.php:45 ../include/page.php:127
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:127
 msgid "Development"
 msgstr "Vývoj"
 
@@ -813,11 +807,11 @@ msgstr ""
 msgid "Different icons to highlight different states"
 msgstr ""
 
-#: ../include/doc.php:73
+#: ../include/doc.php:79
 msgid "Document cannot be read"
 msgstr "Dokument nelze přečíst"
 
-#: ../include/doc.php:50 ../include/doc.php:67
+#: ../include/doc.php:56 ../include/doc.php:73
 msgid "Document not found"
 msgstr "Dokument nenalezen"
 
@@ -1085,7 +1079,7 @@ msgstr "Procházení přes GIT"
 msgid "GSoC"
 msgstr "Google Summer of Code"
 
-#: ../index.php:26
+#: ../index.php:24
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1305,7 +1299,7 @@ msgid ""
 "1.14."
 msgstr ""
 
-#: ../index.php:28 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2147,7 +2141,7 @@ msgstr ""
 "a nahradily rozhraním ve stylu mřížek. [DP]"
 
 #: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
-#: ../docs/menu.php:11 ../docs/menu.php:12
+#: ../docs/menu.php:11 ../docs/menu.php:12 ../docs/menu.php:13
 #, php-format
 msgid "Release %s"
 msgstr "Vydání %s"
@@ -2713,7 +2707,7 @@ msgstr ""
 "nevyhovovaly pro IPv6. Tato část kódu byla aktualizována tak, aby umožnila "
 "připojení pomocí IPv6."
 
-#: ../index.php:37
+#: ../index.php:35
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Aktuální verze pgAdmin je <a href=\"/download/\">%s</a>."
@@ -2733,11 +2727,11 @@ msgid ""
 "defaults are displayed in the message box asking to enter them."
 msgstr ""
 
-#: ../include/doc.php:73
+#: ../include/doc.php:79
 msgid "The document requested cannot be read!"
 msgstr "Požadovaný dokument nelze načíst!"
 
-#: ../include/doc.php:50 ../include/doc.php:67
+#: ../include/doc.php:56 ../include/doc.php:73
 msgid "The document requested does not exist!"
 msgstr "Požadovaný dokument neexistuje!"
 
@@ -3959,7 +3953,7 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:22
+#: ../index.php:20
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 12 "
@@ -3992,6 +3986,7 @@ msgstr ""
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
 #: ../include/doc.php:33 ../include/doc.php:39 ../include/doc.php:45
+#: ../include/doc.php:51
 #, php-format
 msgid "pgAdmin %s online documentation"
 msgstr "On-line dokumentace pgAdmin %s"
@@ -4090,7 +4085,7 @@ msgid ""
 "edit, and perhaps break, the old plugins.ini file."
 msgstr ""
 
-#: ../index.php:18
+#: ../index.php:16
 #, fuzzy
 msgid ""
 "pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous "
@@ -4105,26 +4100,26 @@ msgstr ""
 "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
 "\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
-#: ../visualtour14.php:5 ../visualtour14.php:7
-#, fuzzy
-msgid "pgAdmin 1.14 Visual Tour"
-msgstr "pgAdmin: Názorná prohlídka 1.10"
-
 #: ../index.php:12
 #, fuzzy
 msgid ""
-"pgAdmin 1.14 beta 3 has been released, offering lots of new interesting "
-"features. We're still working on a visual tour. In the meantime, the list of "
-"new features is available in the <a href=\"/development/changelog.php"
-"\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to "
-"get your copy, or alternatively download a <a href=\"http://www.enterprisedb."
-"com/products/pgdownload.do\">PostgreSQL 9.1 beta 1 Installer</a> which "
-"includes pgAdmin."
+"pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new "
+"interesting features. We're still working on a visual tour. In the meantime, "
+"the list of new features is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 "
+"Release Candidate 1 Installer</a> which includes pgAdmin."
 msgstr ""
 "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
 "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
 "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
 "\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+
+#: ../visualtour14.php:5 ../visualtour14.php:7
+#, fuzzy
+msgid "pgAdmin 1.14 Visual Tour"
+msgstr "pgAdmin: Názorná prohlídka 1.10"
 
 #: ../visualtour14.php:357
 msgid ""
@@ -4333,7 +4328,7 @@ msgstr ""
 "svobodný software <a href=\"%s\">TortoiseGIT</a>. Pod Linuxem je dostupných "
 "několik svobodných klientů jak pro příkazovou řádku, tak grafické prostředí."
 
-#: ../index.php:32
+#: ../index.php:30
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4356,7 +4351,7 @@ msgstr ""
 "šifrované SSL. Pro komunikaci s databázovým serverem nejsou potřeba žádné "
 "přídavné ovladače."
 
-#: ../index.php:34
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4367,7 +4362,7 @@ msgstr ""
 "dostupný ve více jak tuctu jazyků. Jedná se o svobodný software vydaný pod "
 "licencí <a href=\"%s\">PostgreSQL License</a>."
 
-#: ../index.php:30
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -4494,7 +4489,7 @@ msgstr "pgAdmin: Vývoj - Úkoly"
 msgid "pgAdmin: Documentation"
 msgstr "pgAdmin: Dokumentace"
 
-#: ../include/doc.php:87
+#: ../include/doc.php:93
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr "pgAdmin: Dokumentace - Nelze najít titulek dokumentu!"
 

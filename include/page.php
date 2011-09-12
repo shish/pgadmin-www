@@ -163,9 +163,9 @@ $output .= '
 <td id="pgaAd">
 
 <script type="text/javascript"><!--
-google_ad_client = "pub-7509009547019933";
-/* pgadmin.org */
-google_ad_slot = "1863559220";
+google_ad_client = "ca-pub-7509009547019933";
+/* pgAdmin Sidebar */
+google_ad_slot = "4905371768";
 google_ad_width = 160;
 google_ad_height = 600;
 //-->

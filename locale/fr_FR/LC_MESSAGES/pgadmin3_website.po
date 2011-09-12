@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-12 15:43+0200\n"
-"PO-Revision-Date: 2011-09-12 15:47+0100\n"
+"POT-Creation-Date: 2011-08-29 18:33+0200\n"
+"PO-Revision-Date: 2011-08-29 18:34+0100\n"
 "Last-Translator: Guillaume Lelarge <guillaume@lelarge.info>\n"
 "Language-Team:  <pgsql-fr-general@postgresql.org>\n"
 "Language: \n"
@@ -22,13 +22,18 @@ msgstr ""
 msgid "\"EXPLAIN ANALYZE\" has its own menu item and its own shortcut (Shift-F7). You can disable the auto-rollback behaviour (usually if you want to rollback to a previous savepoint)."
 msgstr "« EXPLAIN ANALYZE » a son propre menu et son propre raccourci clavier (Shift-F7). Vous pouvez désactiver le comportement d'auto-rollback (généralement pour annuler manuellement jusqu'à un certain point de sauvegarde)."
 
-#: ../index.php:18
+#: ../index.php:22
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - vidéo de démo pour pgAdmin"
 
 #: ../index.php:10
+#, fuzzy, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr "%s - pgAdmin v%s disponible"
+
 #: ../index.php:14
+#: ../index.php:18
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin v%s disponible"
@@ -345,8 +350,9 @@ msgid "Before you try to install"
 msgstr "Avant de tenter l'installation"
 
 #: ../visualtour14.php:29
+#, fuzzy
 msgid "Better i18n"
-msgstr "Meilleur support de l'internationalisation"
+msgstr "Meilleur support de l'internationalisation [GL]"
 
 #: ../support/issues.php:10
 msgid "Bugs and other issues in pgAdmin are almost always fixed within a very short time once they have been reported to us. There are some issues that may be out of our control, or may take significant effort to resolve, often more effort than the issue warrants."
@@ -395,16 +401,18 @@ msgid "Code housekeeping"
 msgstr "Nettoyage du code"
 
 #: ../visualtour14.php:270
+#, fuzzy
 msgid "Collation"
-msgstr "Collationnement"
+msgstr "Installation"
 
 #: ../visualtour14.php:273
 msgid "Collation is a new schema object available in PostgreSQL 9.1. You can create and change collation with its properties dialog:"
 msgstr ""
 
 #: ../visualtour14.php:203
+#, fuzzy
 msgid "Column"
-msgstr "Colonne"
+msgstr "Colonnes"
 
 #: ../visualtour12.php:193
 #: ../visualtour.php:181
@@ -420,8 +428,9 @@ msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr "Compilez pgadmin3.po dans un fichier binaire pgadmin3.mo."
 
 #: ../development/roadmap.php:15
+#, fuzzy
 msgid "Complete 9.2 support"
-msgstr "Support complet de PostgreSQL 9.2"
+msgstr "Support complet de PostgreSQL 9.1"
 
 #: ../development/roadmap.php:31
 msgid "Complete redesign of the documentation [GL]"
@@ -440,8 +449,9 @@ msgid "Connection handling"
 msgstr "Gestion des connexions"
 
 #: ../visualtour14.php:211
+#, fuzzy
 msgid "Constraint"
-msgstr "Contrainte"
+msgstr "Contraintes"
 
 #: ../visualtour12.php:145
 msgid "Constraint properties"
@@ -501,8 +511,9 @@ msgid "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [D
 msgstr "Options pour configurer au mieux les requêtes lentes (nécessite XML EXPLAIN dans PG 8.4) [DP]"
 
 #: ../visualtour14.php:155
+#, fuzzy
 msgid "Database"
-msgstr "Base de données"
+msgstr "Bases de données"
 
 #: ../development/roadmap.php:45
 msgid "Database designer for pgAdmin, by Luis Ochoa"
@@ -548,8 +559,9 @@ msgid "Debian Squeeze (testing)"
 msgstr "Debian Squeeze (testing)"
 
 #: ../visualtour14.php:388
+#, fuzzy
 msgid "Debugger tool"
-msgstr "Outil de débuggage"
+msgstr "Outil de requêtage"
 
 #: ../visualtour12.php:212
 msgid "Default ACLs are available in the database and schema properties dialog. You'll have a new tab to set these privileges."
@@ -568,6 +580,7 @@ msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr "Conçu pour des versions multiples et des dérivés de PostgreSQL"
 
 #: ../docs/menu.php:7
+#, fuzzy
 msgid "Dev"
 msgstr "Dév"
 
@@ -605,8 +618,9 @@ msgid "Documentation"
 msgstr "Documentation"
 
 #: ../visualtour14.php:262
+#, fuzzy
 msgid "Domain"
-msgstr "Domaine"
+msgstr "Domaines"
 
 #: ../features.php:67
 msgid "Domains"
@@ -738,8 +752,9 @@ msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "Finir le support de la 8.3 avec la création des objets de type famille d'opérateur [GL]"
 
 #: ../development/roadmap.php:16
+#, fuzzy
 msgid "Finish 9.1 support with security labels [GL]"
-msgstr "Finir le support de la 9.1 avec les labels de sécurité [GL]"
+msgstr "Finir le support de la 9.0 avec les contraintes d'exclusion [GL]"
 
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
@@ -788,8 +803,9 @@ msgid "From time to time, new strings which need translation are added to the ap
 msgstr "De temps en temps, de nouvelles chaînes de caractères qui ont besoin d'être traduites sont ajoutées à l'application. Téléchargez/mettez à jour le nouveau <a href=\"%s\">pgadmin3.pot</a> et fusionnez le nouveau fichier avec votre fichier de langue en utilisant la fonction de poEdit <i>Catalogue/Mettre à jour depuis fichier POT...</i>. Autrement, vous pouvez exécuter manuellement la commande suivante&nbsp;:"
 
 #: ../visualtour14.php:233
+#, fuzzy
 msgid "Function"
-msgstr "Fonction"
+msgstr "Fonctions"
 
 #: ../visualtour12.php:185
 #: ../visualtour.php:198
@@ -821,7 +837,7 @@ msgstr "Navigateur GIT"
 msgid "GSoC"
 msgstr "GSoC"
 
-#: ../index.php:20
+#: ../index.php:24
 msgid "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has produced a <a href=\"http://www.enterprisedb.com/resources-community/webcasts-podcasts-videos/videos/how-create-postgres-database-using-pgadmin\">video walkthrough</a> showing off some of the features in pgAdmin."
 msgstr "Gary d'<a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> a réalisé une <a href=\"http://www.enterprisedb.com/resources-community/webcasts-podcasts-videos/videos/how-create-postgres-database-using-pgadmin\">démonstration vidéo</a> de certaines fonctionnalités de pgAdmin."
 
@@ -934,6 +950,7 @@ msgid ""
 msgstr "Dans cet exemple, l'utilisateur insère des valeurs au hasard dans certains tables. Pour exécuter ce script, vous devez cliquer sur le bouton PGS. La référence complète de pgscript est disponible <a href=\"%s\">ici</a>. "
 
 #: ../visualtour14.php:195
+#, fuzzy
 msgid "Index"
 msgstr "Index"
 
@@ -963,7 +980,7 @@ msgstr "Installation"
 msgid "Internationalization needed a bit of work to improve in areas such as pluralization. Because of this, translators will have more work to do this release, and we hope we'll keep at least the same number of languages for 1.14."
 msgstr ""
 
-#: ../index.php:22
+#: ../index.php:26
 #: ../menu.php:6
 #: ../advocacy/index.php:8
 #: ../advocacy/menu.php:6
@@ -1477,8 +1494,9 @@ msgid "RPMs for older versions of pgAdmin are available from the pgAdmin downloa
 msgstr "Les RPM des anciennes versions de pgAdmin sont disponibles à partir des sites de téléchargement de pgAdmin :"
 
 #: ../development/roadmap.php:35
+#, fuzzy
 msgid "Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [GL]"
-msgstr "Reconcevoir la fenêtre de propriétés des tables pour supprimer les sous-fenêtres lorsque c'est possible et utiliser une interface style tableau [GL]"
+msgstr "Reconcevoir la fenêtre Table pour supprimer les sous-fenêtres lorsque c'est possible et utiliser l'UI style grid [DP]"
 
 #: ../docs/menu.php:8
 #: ../docs/menu.php:9
@@ -1519,8 +1537,9 @@ msgid "Roadmap"
 msgstr "Plan de développement"
 
 #: ../visualtour14.php:314
+#, fuzzy
 msgid "Role"
-msgstr "Rôle"
+msgstr "Rôles"
 
 #: ../visualtour.php:230
 msgid "Role properties"
@@ -1586,16 +1605,18 @@ msgid "Sequences"
 msgstr "Séquences"
 
 #: ../visualtour14.php:111
+#, fuzzy
 msgid "Server"
-msgstr "Serveur"
+msgstr "Statut du serveur"
 
 #: ../visualtour.php:303
 msgid "Server Status"
 msgstr "Statut du serveur"
 
 #: ../visualtour14.php:366
+#, fuzzy
 msgid "Server Status tool"
-msgstr "Outil de statut du serveur"
+msgstr "Statut du serveur"
 
 #: ../visualtour12.php:83
 #: ../visualtour.php:137
@@ -1724,8 +1745,9 @@ msgid "TODO list"
 msgstr "TODO list"
 
 #: ../visualtour14.php:171
+#, fuzzy
 msgid "Table"
-msgstr "Table"
+msgstr "Tables"
 
 #: ../visualtour12.php:129
 #: ../visualtour.php:164
@@ -1860,7 +1882,7 @@ msgstr "La fenêtre de connexion vous permet de choisir un autre utilisateur de 
 msgid "The connection handling has been changed. Previous releases used functions incompatible with IPv6. This part of the code has been updated to allow IPv6 connections."
 msgstr "La gestion des connexions a changé. Les précédentes versions utilisaient des fonctions incompatibles avec IPv6. Cette partie du code a été modifié pour autoriser les connexions IPv6."
 
-#: ../index.php:31
+#: ../index.php:35
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "La version actuelle de pgAdmin est <a href=\"/download/\">%s</a>."
@@ -1956,8 +1978,9 @@ msgid "The long awaited 1.12 version of pgAdmin III is finally available in beta
 msgstr "La version 1.12 de pgAdmin est enfin disponible en version beta. Nous allons présenter certaines des nouvelles fonctionnalités qui ont été ajoutées depuis la dernière version stable sur cette page."
 
 #: ../visualtour14.php:10
+#, fuzzy
 msgid "The long awaited 1.14 version of pgAdmin III is finally available in beta. We will try to highlight some of the new features which have been added since the last stable release."
-msgstr "La version 1.14 de pgAdmin est enfin disponible en version beta. Nous allons présenter certaines des nouvelles fonctionnalités qui ont été ajoutées depuis la dernière version stable sur cette page."
+msgstr "La version 1.12 de pgAdmin est enfin disponible en version beta. Nous allons présenter certaines des nouvelles fonctionnalités qui ont été ajoutées depuis la dernière version stable sur cette page."
 
 #: ../visualtour12.php:220
 msgid "The maintenance dialogs have been reviewed. They offer now all options available. Moreover, they are resizable."
@@ -2275,8 +2298,9 @@ msgid "Tour (1.12)"
 msgstr "Tour (1.12)"
 
 #: ../menu.php:8
+#, fuzzy
 msgid "Tour (1.14)"
-msgstr "Tour (1.14)"
+msgstr "Tour (1.10)"
 
 #: ../include/po_status.php:257
 msgid "Translated"
@@ -2313,8 +2337,9 @@ msgid "Two new properties are available on the second tab of the table propertie
 msgstr ""
 
 #: ../visualtour14.php:241
+#, fuzzy
 msgid "Type"
-msgstr "Type"
+msgstr "Types"
 
 #: ../visualtour.php:213
 msgid "Type properties"
@@ -2555,10 +2580,10 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:12
+#: ../index.php:20
 #, php-format
-msgid "pgAdmin %s has now been released. This release is the culmination of over 14 months of development work. A visual tour of the new release is available <a href=\"/visualtour14.php\">here</a>, or a complete list of changes can be seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."
-msgstr "pgAdmin %s est enfin disponible. Cette version est le résultat de 14 mois de développement. Un tour des fonctionnalités de la nouvelle version est disponible <a href=\"/visualtour14.php\">ici</a> et une liste complète des modifications est fournie dans le <a href=\"/development/changelog.php\">CHANGELOG</a>. Merci d'aller dans la <a href=\"download\">section de téléchargement</a> pour obtenir votre copie ou pour télécharger l'<a href=\"http://www.enterprisedb.com/products/pgdownload.do\">installeur de PostgreSQL 9.0</a> qui inclut pgAdmin."
+msgid "pgAdmin %s has now been released. This release is the culmination of over 12 months of development work. A visual tour of the new release is available <a href=\"/visualtour12.php\">here</a>, or a complete list of changes can be seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0 Installer</a> which includes pgAdmin."
+msgstr "pgAdmin %s est enfin disponible. Cette version est le résultat de 12 mois de développement. Un tour des fonctionnalités de la nouvelle version est disponible <a href=\"/visualtour12.php\">ici</a> et une liste complète des modifications est fournie dans le <a href=\"/development/changelog.php\">CHANGELOG</a>. Merci d'aller dans la <a href=\"download\">section de téléchargement</a> pour obtenir votre copie ou pour télécharger l'<a href=\"http://www.enterprisedb.com/products/pgdownload.do\">installeur de PostgreSQL 9.0</a> qui inclut pgAdmin."
 
 #: ../download/debian.php:16
 #: ../download/debian.php:20
@@ -2637,10 +2662,16 @@ msgstr ""
 msgid "pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4 Installer</a> which includes pgAdmin."
 msgstr "pgAdmin 1.12.3 est enfin sortie, offrant 26 corrections de bug sur la version précédente. La liste des corrections est disponible dans le <a href=\"/development/changelog.php\">CHANGELOG</a>. Merci d'aller dans la <a href=\"download\">section de téléchargement</a> pour obtenir votre copie ou pour télécharger l'<a href=\"http://www.enterprisedb.com/products/pgdownload.do\">installeur de PostgreSQL 9.0.4</a> qui inclut pgAdmin."
 
+#: ../index.php:12
+#, fuzzy
+msgid "pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new interesting features. We're still working on a visual tour. In the meantime, the list of new features is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 Release Candidate 1 Installer</a> which includes pgAdmin."
+msgstr "pgAdmin 1.12.3 est enfin sortie, offrant 26 corrections de bug sur la version précédente. La liste des corrections est disponible dans le <a href=\"/development/changelog.php\">CHANGELOG</a>. Merci d'aller dans la <a href=\"download\">section de téléchargement</a> pour obtenir votre copie ou pour télécharger l'<a href=\"http://www.enterprisedb.com/products/pgdownload.do\">installeur de PostgreSQL 9.0.4</a> qui inclut pgAdmin."
+
 #: ../visualtour14.php:5
 #: ../visualtour14.php:7
+#, fuzzy
 msgid "pgAdmin 1.14 Visual Tour"
-msgstr "Tour graphique de pgAdmin 1.14"
+msgstr "Tour graphique de pgAdmin 1.10"
 
 #: ../visualtour14.php:357
 msgid "pgAdmin 1.14 uses the -w switch of pg_dump/pg_restore when this switch is available."
@@ -2734,17 +2765,17 @@ msgstr "pgAdmin est disponible pour Windows &trade; 2000, XP et 2003."
 msgid "pgAdmin is available subject to the terms of the <a href=\"%s\">licence</a>. pgAdmin is developed using a number of GIT repositories to hold the source code. Access to the repository is available through a <a href=\"%s\">web interface</a> or using your favourite GIT client. Under Windows, we recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr "pgAdmin est disponible suivant les termes de la <a href=\"%s\">license</a>. pgAdmin III est développé avec un certain nombre de dépôts GIT contenant le code source. L'accès à ce dépôt est possible via une <a href=\"%s\">interface web</a> ou en utilisant votre client GIT favori. Sous Windows, nous recommandons <a href=\"%s\">TortoiseGIT</a>, qui est un logiciel libre."
 
-#: ../index.php:26
+#: ../index.php:30
 #, php-format
 msgid "pgAdmin is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. The application also includes a syntax highlighting SQL editor, a server-side code editor, an SQL/batch/shell job scheduling agent, support for the <a href=\"%s\">Slony-I</a> replication engine and much more. Server connection may be made using TCP/IP or Unix Domain Sockets (on *nix platforms), and may be SSL encrypted for security. No additional drivers are required to communicate with the database server."
 msgstr "pgAdmin est conçu pour répondre aux besoins de tous les utilisateurs, de l'écriture de requêtes SQL simples aux développements de bases de données complexes. L'interface graphique supporte toutes les fonctionnalités de PostgreSQL et simplifie l'administration. L'application inclut aussi un éditeur SQL avec coloration syntaxique, un éditeur de code côté serveur, un agent de planification de job SQL/batch/shell, le support du moteur de réplication <a href=\"%s\">Slony-I</a> et bien plus encore. La connexion serveur peut se faire en utilisant TCP/IP ou les sockets de domaine Unix (sur les plateformes *nix), et pourrait être chiffrée via SSL pour la sécurité. Aucun pilote supplémentaire n'est requis pour communiquer avec le serveur de bases de données."
 
-#: ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid "pgAdmin is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the <a href=\"%s\">PostgreSQL License</a>."
 msgstr "pgAdmin est développé par une communauté d'experts de PostgreSQL répartis tout autour du monde et est disponible dans plus d'une douzaine de langues. C'est un logiciel libre proposé sous la <a href=\"%s\">license PostgreSQL</a>."
 
-#: ../index.php:24
+#: ../index.php:28
 #, php-format
 msgid "pgAdmin is the most popular and feature rich Open Source administration and development platform for <a href=\"%s\">PostgreSQL</a>, the most advanced Open Source database in the world. The application may be used on Linux, FreeBSD, Solaris, Mac OSX and Windows platforms to manage PostgreSQL 7.3 and above running on any platform, as well as commercial and derived versions of PostgreSQL such as <a href=\"%s\">Postgres Plus Advanced Server</a> and <a href=\"%s\">Greenplum database</a>."
 msgstr "pgAdmin est la plateforme d'administration et de développement libre la plus populaire et la plus riche pour <a href=\"%s\">PostgreSQL</a>, le serveur de base de données libre le plus riche en fonctionnalités.  L'application est utilisable sur les plateformes Linux, FreeBSD, OpenSUSE, Solaris, Mac OSX et Windows pour gérer un serveur PostgreSQL, version 7.3 et ultérieures, exécuté sur toute platforme, ainsi que sur les versions commerciales de PostgreSQL comme <a href=\"%s\">Postgres Plus Advanced Server</a> et <a href=\"%s\">Greenplum</a>."
@@ -3005,29 +3036,6 @@ msgstr "deuxième onglet"
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
-
-#, fuzzy
-#~ msgid "%s - pgAdmin v%s available"
-#~ msgstr "%s - pgAdmin v%s disponible"
-
-#, fuzzy
-#~ msgid ""
-#~ "pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new "
-#~ "interesting features. We're still working on a visual tour. In the "
-#~ "meantime, the list of new features is available in the <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
-#~ "\"download\">download area</a> to get your copy, or alternatively "
-#~ "download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-#~ "\">PostgreSQL 9.1 Release Candidate 1 Installer</a> which includes "
-#~ "pgAdmin."
-#~ msgstr ""
-#~ "pgAdmin 1.12.3 est enfin sortie, offrant 26 corrections de bug sur la "
-#~ "version précédente. La liste des corrections est disponible dans le <a "
-#~ "href=\"/development/changelog.php\">CHANGELOG</a>. Merci d'aller dans la "
-#~ "<a href=\"download\">section de téléchargement</a> pour obtenir votre "
-#~ "copie ou pour télécharger l'<a href=\"http://www.enterprisedb.com/"
-#~ "products/pgdownload.do\">installeur de PostgreSQL 9.0.4</a> qui inclut "
-#~ "pgAdmin."
 
 #~ msgid "Better i18n support [GL]"
 #~ msgstr "Meilleur support de l'internationalisation [GL]"

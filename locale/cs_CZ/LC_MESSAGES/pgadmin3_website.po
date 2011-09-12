@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-12 15:43+0200\n"
+"POT-Creation-Date: 2011-08-29 18:33+0200\n"
 "PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -29,12 +29,17 @@ msgstr ""
 "transakcí (auto-rollback), obvykle když se chcete vrátit k předchozímu "
 "uloženému bodu."
 
-#: ../index.php:18
+#: ../index.php:22
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - ukázkové video pgAdmin"
 
-#: ../index.php:10 ../index.php:14
+#: ../index.php:10
+#, fuzzy, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr "%s - vydán pgAdmin v%s"
+
+#: ../index.php:14 ../index.php:18
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - vydán pgAdmin v%s"
@@ -1074,7 +1079,7 @@ msgstr "Procházení přes GIT"
 msgid "GSoC"
 msgstr "Google Summer of Code"
 
-#: ../index.php:20
+#: ../index.php:24
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1294,7 +1299,7 @@ msgid ""
 "1.14."
 msgstr ""
 
-#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2702,7 +2707,7 @@ msgstr ""
 "nevyhovovaly pro IPv6. Tato část kódu byla aktualizována tak, aby umožnila "
 "připojení pomocí IPv6."
 
-#: ../index.php:31
+#: ../index.php:35
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Aktuální verze pgAdmin je <a href=\"/download/\">%s</a>."
@@ -3948,16 +3953,16 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:12
-#, fuzzy, php-format
+#: ../index.php:20
+#, php-format
 msgid ""
-"pgAdmin %s has now been released. This release is the culmination of over 14 "
+"pgAdmin %s has now been released. This release is the culmination of over 12 "
 "months of development work. A visual tour of the new release is available <a "
-"href=\"/visualtour14.php\">here</a>, or a complete list of changes can be "
+"href=\"/visualtour12.php\">here</a>, or a complete list of changes can be "
 "seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please "
 "visit the <a href=\"download\">download area</a> to get your copy, or "
 "alternatively download a <a href=\"http://www.enterprisedb.com/products/"
-"pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."
+"pgdownload.do\">PostgreSQL 9.0 Installer</a> which includes pgAdmin."
 msgstr ""
 "Právě byl vydán pgAdmin %s. Toto vydání je vyvrcholením 12 měsíců práce "
 "vývojářů. Vizuální prohlídka nové verze je k dispozici <a href=\"/"
@@ -4089,6 +4094,22 @@ msgid ""
 "\">download area</a> to get your copy, or alternatively download a <a href="
 "\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4 "
 "Installer</a> which includes pgAdmin."
+msgstr ""
+"Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
+"Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
+"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
+"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new "
+"interesting features. We're still working on a visual tour. In the meantime, "
+"the list of new features is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 "
+"Release Candidate 1 Installer</a> which includes pgAdmin."
 msgstr ""
 "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
 "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
@@ -4307,7 +4328,7 @@ msgstr ""
 "svobodný software <a href=\"%s\">TortoiseGIT</a>. Pod Linuxem je dostupných "
 "několik svobodných klientů jak pro příkazovou řádku, tak grafické prostředí."
 
-#: ../index.php:26
+#: ../index.php:30
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4330,7 +4351,7 @@ msgstr ""
 "šifrované SSL. Pro komunikaci s databázovým serverem nejsou potřeba žádné "
 "přídavné ovladače."
 
-#: ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4341,7 +4362,7 @@ msgstr ""
 "dostupný ve více jak tuctu jazyků. Jedná se o svobodný software vydaný pod "
 "licencí <a href=\"%s\">PostgreSQL License</a>."
 
-#: ../index.php:24
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -4650,26 +4671,6 @@ msgstr ""
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
-
-#, fuzzy
-#~ msgid "%s - pgAdmin v%s available"
-#~ msgstr "%s - vydán pgAdmin v%s"
-
-#, fuzzy
-#~ msgid ""
-#~ "pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new "
-#~ "interesting features. We're still working on a visual tour. In the "
-#~ "meantime, the list of new features is available in the <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
-#~ "\"download\">download area</a> to get your copy, or alternatively "
-#~ "download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-#~ "\">PostgreSQL 9.1 Release Candidate 1 Installer</a> which includes "
-#~ "pgAdmin."
-#~ msgstr ""
-#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
-#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
 #~ msgid "Better i18n support [GL]"
 #~ msgstr "Lepší podpora i18n [GL]"

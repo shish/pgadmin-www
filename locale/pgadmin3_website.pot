@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-29 18:33+0200\n"
+"POT-Creation-Date: 2011-09-12 15:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,17 +24,12 @@ msgid ""
 "to a previous savepoint)."
 msgstr ""
 
-#: ../index.php:22
+#: ../index.php:18
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr ""
 
-#: ../index.php:10
-#, php-format
-msgid "%s - pgAdmin v%s available"
-msgstr ""
-
-#: ../index.php:14 ../index.php:18
+#: ../index.php:10 ../index.php:14
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr ""
@@ -921,7 +916,7 @@ msgstr ""
 msgid "GSoC"
 msgstr ""
 
-#: ../index.php:24
+#: ../index.php:20
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1102,7 +1097,7 @@ msgid ""
 "1.14."
 msgstr ""
 
-#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2233,7 +2228,7 @@ msgid ""
 "connections."
 msgstr ""
 
-#: ../index.php:35
+#: ../index.php:31
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr ""
@@ -3205,16 +3200,16 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:20
+#: ../index.php:12
 #, php-format
 msgid ""
-"pgAdmin %s has now been released. This release is the culmination of over 12 "
+"pgAdmin %s has now been released. This release is the culmination of over 14 "
 "months of development work. A visual tour of the new release is available <a "
-"href=\"/visualtour12.php\">here</a>, or a complete list of changes can be "
+"href=\"/visualtour14.php\">here</a>, or a complete list of changes can be "
 "seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please "
 "visit the <a href=\"download\">download area</a> to get your copy, or "
 "alternatively download a <a href=\"http://www.enterprisedb.com/products/"
-"pgdownload.do\">PostgreSQL 9.0 Installer</a> which includes pgAdmin."
+"pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."
 msgstr ""
 
 #: ../download/debian.php:16 ../download/debian.php:20
@@ -3312,17 +3307,6 @@ msgid ""
 "\">download area</a> to get your copy, or alternatively download a <a href="
 "\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4 "
 "Installer</a> which includes pgAdmin."
-msgstr ""
-
-#: ../index.php:12
-msgid ""
-"pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new "
-"interesting features. We're still working on a visual tour. In the meantime, "
-"the list of new features is available in the <a href=\"/development/"
-"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-"\">download area</a> to get your copy, or alternatively download a <a href="
-"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 "
-"Release Candidate 1 Installer</a> which includes pgAdmin."
 msgstr ""
 
 #: ../visualtour14.php:5 ../visualtour14.php:7
@@ -3482,7 +3466,7 @@ msgid ""
 "recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 
-#: ../index.php:30
+#: ../index.php:26
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3496,7 +3480,7 @@ msgid ""
 "communicate with the database server."
 msgstr ""
 
-#: ../index.php:32
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3504,7 +3488,7 @@ msgid ""
 "released under the <a href=\"%s\">PostgreSQL License</a>."
 msgstr ""
 
-#: ../index.php:28
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "

@@ -13,6 +13,12 @@ es_SV
 Dadan Setia [dadan.setia@gmail.com]
 
 
+pl_PL
+-----
+
+Begina Felicysym [begina.felicysym@wp.pl]
+
+
 fr_FR (French)
 --------------
 

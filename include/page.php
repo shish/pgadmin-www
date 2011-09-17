@@ -111,6 +111,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 <option value="cs_CZ">' . _("Czech") . '</option>
 <option value="en_US">' . _("English") . '</option>
 <option value="fr_FR">' . _("French") . '</option>
+<option value="pl_PL">' . _("Polish") . '</option>
 <option value="es_SV">' . _("Salvatorian") . '</option>
 <option value="zh_CN">' . _("Simplified Chinese") . '</option>
 </select>

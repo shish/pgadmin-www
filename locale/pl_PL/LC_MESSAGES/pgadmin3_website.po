@@ -1,0 +1,4852 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Begina Felicysym <begina.felicysym@wp.eu>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-29 18:33+0200\n"
+"PO-Revision-Date: 2011-09-16 22:00+0200\n"
+"Last-Translator: Begina Felicysym <begina.felicysym@wp.eu>\n"
+"Language-Team: Polish TotroiseSvn translation team\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.7.1-beta1\n"
+
+#: ../visualtour12.php:314
+msgid ""
+"\"EXPLAIN ANALYZE\" has its own menu item and its own shortcut (Shift-F7). "
+"You can disable the auto-rollback behaviour (usually if you want to rollback "
+"to a previous savepoint)."
+msgstr ""
+"\"EXPLAIN ANALYZE\" ma swoją własną pozycje menu oraz skrót klawiszowy "
+"(Shift-F7). Możesz zablokować zachowanie auto-rollback (zwykle jeśli chcesz "
+"wycofać do poprzedniego punktu zapisu)"
+
+#: ../index.php:22
+#, php-format
+msgid "%s - pgAdmin demo video"
+msgstr "%s - wideo demonstracyjne pgAdmin"
+
+#: ../index.php:10
+#, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr "%s - dostępny pgAdmin v%s"
+
+#: ../index.php:14 ../index.php:18
+#, php-format
+msgid "%s - pgAdmin v%s released"
+msgstr "%s - wydany pgAdmin v%s"
+
+#: ../download/adminpacks.php:13
+#, php-format
+msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s"
+msgstr "<a href=\"%s\">pakiet Admin</a> dla pgAdmin v%s"
+
+#: ../download/adminpacks.php:12
+#, php-format
+msgid "<a href=\"%s\">Admin pack</a> for pgAdmin v%s and above"
+msgstr "<a href=\"%s\">pakiet Admin</a> dla pgAdmin v%s i wyższej"
+
+#: ../download/pgagent.php:12
+#, php-format
+msgid "<a href=\"%s\">Download pgAgent</a>"
+msgstr "<a href=\"%s\">Pobierz pgAgent</a>"
+
+#: ../download/freebsd.php:14 ../download/freebsd.php:15
+#: ../download/freebsd.php:16 ../download/freebsd.php:17
+#: ../download/freebsd.php:18 ../download/macosx.php:14
+#: ../download/macosx.php:15 ../download/macosx.php:16
+#: ../download/macosx.php:17 ../download/macosx.php:18
+#: ../download/macosx.php:19 ../download/macosx.php:20
+#: ../download/macosx.php:21 ../download/macosx.php:22
+#: ../download/macosx.php:23 ../download/opensuse.php:14
+#: ../download/opensuse.php:15 ../download/opensuse.php:16
+#: ../download/opensuse.php:17 ../download/opensuse.php:18
+#: ../download/opensuse.php:19 ../download/opensuse.php:20
+#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
+#: ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/slackware.php:15 ../download/slackware.php:16
+#: ../download/slackware.php:17 ../download/solaris.php:14
+#: ../download/solaris.php:15 ../download/source.php:15
+#: ../download/source.php:16 ../download/source.php:17
+#: ../download/source.php:18 ../download/source.php:19
+#: ../download/source.php:20 ../download/source.php:21
+#: ../download/source.php:22 ../download/source.php:23
+#: ../download/source.php:24 ../download/source.php:25
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25 ../download/windows.php:26
+#, php-format
+msgid "<a href=\"%s\">pgAdmin v%s</a>"
+msgstr "<a href=\"%s\">pgAdmin v%s</a>"
+
+#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:33 ../download/source.php:34
+#: ../download/source.php:35
+#, php-format
+msgid "<a href=\"%s\">v%s instructions</a>"
+msgstr "<a href=\"%s\">instrukcje v%s</a>"
+
+#: ../visualtour.php:102
+msgid "<b>8.2 and 8.3 stats columns</b> have been added to the tables list."
+msgstr "<b>Kolumny statystyki 8.2 i 8.3</b> zostały dodane do listy tabel."
+
+#: ../visualtour.php:184
+msgid "<b>Column level priviledges</b> are handled for 8.4 servers:"
+msgstr "<b>Uprawnienia na poziomie kolumn</b> są obsługiwane dla serwerów 8.4:"
+
+#: ../visualtour.php:233
+msgid ""
+"<b>Connection limit for roles</b> was unavailable in previous release "
+"despite\n"
+"  PostgreSQL handles this since 8.1."
+msgstr ""
+"<b>Ograniczenia połączeń dla ról</b> były niedostępne w poprzednim wydaniu "
+"pomimo\n"
+"  że PostgreSQL obsługiwał je od 8.1."
+
+#: ../advocacy/information.php:17
+msgid ""
+"<b>Description of pgAdmin:</b> Any technical description is suitable, though "
+"for consistency or, if you are not sure what to write, you may wish to use "
+"one of the following, translated into your language if required:"
+msgstr ""
+"<b>Opis pgAdmin:</b> Dowolny opis techniczny jest odpowiedni, jednak dla "
+"spójności lub, jeśli nie jesteś pewien, co napisać, to może chcesz "
+"zastosować jedną z następujących czynności, przetłumaczonej na Twój język, "
+"jeśli wymagane:"
+
+#: ../advocacy/information.php:15
+#, php-format
+msgid ""
+"<b>Download links:</b> Whenever possible, publish links pointing to the "
+"pgAdmin <a href=\"%s\">Download</a> page. <!-- Remember to include language "
+"information if required - for example <a href=\"%s\">%s</a>. --><br /><br /"
+">Some sites (especially Windows shareware/freeware sites) may require direct "
+"links to files. Be very careful before submitting direct links, because you "
+"may have to upgrade them when pgAdmin new versions are released. When direct "
+"links are required, choose several PostgreSQL mirrors from the download "
+"page. Some sites may ask for up to 5 links."
+msgstr ""
+"<b>Linki pobierania:</b> W miarę możliwości publikuj linki do strony <a "
+"href=\"%s\">Pobierania</a> pgAdmin. <!-- Pamiętaj, aby podać informacje o "
+"języku w razie potrzeby - dla przykład <a href=\"%s\">%s</a>. --><br /><br /> "
+"Niektóre witryny (w szczególności stron z shareware/freeware Windows) mogą "
+"wymagać bezpośrednich linków do plików. Należy być bardzo ostrożnym przed "
+"wysłaniem bezpośrednich linków, bo może trzeba będzie uaktualnić je, gdy "
+"będą wydawane nowe wersje pgAdmin. Kiedy wymagane są bezpośrednie linki, "
+"wybierz kilka mirrorów ze strony pobierania PostgreSQL. Niektóre strony mogą "
+"wymagać do 5 linków."
+
+#: ../advocacy/information.php:34
+msgid ""
+"<b>Keywords:</b> When visiting a web site, users may not find pgAdmin "
+"directly, but query keywords like \"PostgreSQL database\" or \"free "
+"administration tools\", etc. During registration, you may be asked to enter "
+"keywords. These should reflect any aspect of what pgAdmin does, and what it "
+"works with. <b>Under no circumstances should you include competitors company "
+"or product names in keywords</b>. Our proposal for a keyword list is:"
+msgstr ""
+"<b>Słowa kluczowe:</b> Podczas wizyty na witrynie internetowej, użytkownicy "
+"mogą nie wyszukiwać pgAdmina bezpośrednio, ale używając słów kluczowych "
+"zapytania jak \"baza danych PostgreSQL\" lub \"bezpłatne narzędzia "
+"administracyjne\" itp. Podczas rejestracji możesz zostać poproszony o podanie "
+"słów kluczowych. Powinny one uwzględniać wszelkie aspekty tego, co pgAdmin "
+"robi, i jak działa. <b> Pod żadnym pozorem nie należy wprowadzać nazw firm "
+"konkurencyjnych ani nazw ich produktów jako słowa kluczowe</b>. Oto nasza "
+"propozycja listy słów kluczowych:"
+
+#: ../download/snapshots.php:12
+msgid ""
+"<b>WARNING:</b> Development snapshots have had little or no testing, and in "
+"some cases may not even run. It is only recommended that you use a snapshot "
+"if you are sure you know what you are doing, or are testing a specific bug "
+"fix or new feature on the direction of one of the developers. Please report "
+"any bugs or issue you may have with the development snapshots, but do "
+"remember that they are 'works in progress'."
+msgstr ""
+"<b>OSTRZEŻENIE:</b> Migawki rozwojowe nie były prawie albo wcale testowane, "
+"a w niektórych przypadkach mogą nawet nie działać. Zalecane jest używanie "
+"migawki tylko wtedy, gdy na pewno wiesz co robisz, lub badasz określoną "
+"poprawkę błędu lub nową funkcję pod obserwacją jednego z deweloperów. Proszę "
+"zgłaszać wszelkie błędy lub problemy jakie mieliście z migawkami "
+"rozwojowymi, ale pamiętaj, że trwają 'prace w toku'."
+
+#: ../advocacy/information.php:13
+#, php-format
+msgid ""
+"<b>Website language:</b> The pgAdmin web site is not able to detect the "
+"language of your browser. To display a page in your language, just select it "
+"from the drop-down list in the header. For example, the URL of the French "
+"homepage is: <a href=\"%s\">%s</a>."
+msgstr ""
+"<b>Język witryny internetowej:</b> Strony internetowe pgAdmin nie są w "
+"stanie sprawdzić języka używanej przez Ciebie przeglądarki. Aby wyświetlić "
+"strony w Twoim języku, wybierz go z menu rozwijalnego w nagłówku. Przykład "
+"adresu URL francuskiej wersji strony głównej: <a href=\"%s\">%s</a>."
+
+#: ../visualtour.php:201
+msgid "<b>Window functions</b> are handled for PostgreSQL 8.4+ servers."
+msgstr "<b>Funkcje okna</b> są obsługiwane dla serwerów PostgreSQL 8.4+."
+
+#: ../screenshots/data.php:10
+msgid ""
+"A data grid allows to insert, modify and drop data easily. The data is "
+"retrieved on-demand when it needs to be displayed. This allows the user to "
+"browse very large tables quickly and efficiently."
+msgstr ""
+"Siatka danych pozwala na łatwe wstawianie, modyfikowanie i kasowanie danych. "
+"Dane są pobierane na żądanie, gdy muszą być wyświetlone. Pozwala to "
+"użytkownikowi na szybkie i sprawne przeglądanie bardzo dużych tabel."
+
+#: ../screenshots/mb_i18n.php:16
+#, php-format
+msgid ""
+"A detailed list of supported languages is available in the <a href=\"%s"
+"\">Translation</a> section of the website."
+msgstr ""
+"Szczegółowa lista obsługiwanych języków jest dostępna w sekcji <a href=\"%"
+"s\">Tłumaczenia</a> witryny internetowej."
+
+#: ../screenshots/ui.php:22
+msgid ""
+"A double-click in the navigation tree opens the selected object in a "
+"separate dialogue, or the user may opt to create a new object.  Notice the "
+"tabs giving access to Properties, Parameters, Security and the SQL used to "
+"create the object."
+msgstr ""
+"Dwukrotne kliknięcie na drzewie nawigacji otwiera wybrany obiekt w osobnym "
+"oknie dialogowym, użytkownik może też chcieć utworzyć nowy obiekt.  Zwróć "
+"uwagę na zakładki umożliwiające dostęp do właściwości, parametrów, "
+"bezpieczeństwa i SQL używanych do tworzenia obiektu."
+
+#: ../visualtour12.php:300
+msgid ""
+"A history of query is automatically saved in a file. The contents of this "
+"file is available in a combobox located just above the query text box. You "
+"can delete the selected query or all the queries in the file."
+msgstr ""
+"Historia zapytań zostanie automatycznie zapisana w pliku. Zawartość tego "
+"pliku jest dostępna w menu rozwijalnym znajdującym się tuż powyżej pola "
+"tekstowego zapytania. Możesz usunąć wybrane zapytanie lub wszystkie "
+"zapytania z pliku."
+
+#: ../visualtour12.php:348
+msgid ""
+"A less visible change allows you to change the database connection for the "
+"lock report. If you do so, you can have the table names displayed instead of "
+"their OID."
+msgstr ""
+"Mniej widoczna zmiana pozwala na zmianę połączenia z bazą danych w raporcie "
+"blokady. Jeśli to zrobisz, możesz mieć wyświetlane nazwy tabel zamiast ich "
+"OID."
+
+#: ../visualtour12.php:374
+msgid ""
+"A new \"Colours\" tab is included. It allows the user to select colours for "
+"the query text box, the SQL syntax Highlighting, and the Status window. They "
+"all use the new colour widget."
+msgstr ""
+"Została dodana nowa karta \"Kolory\". Pozwala ona użytkownikowi na wybór "
+"koloru dla pola tekstowego zapytania, podświetlania składni SQL, i okna "
+"stanu. Wszystkie one korzystają z nowego widżetu kolor."
+
+#: ../visualtour12.php:120
+msgid ""
+"A new \"Username\" combobox appears. You can select a user to add a specific "
+"setting for this user/database combo."
+msgstr ""
+"Pojawia się nowa lista rozwijalna \"Nazwa użytkownika\". Możesz wybrać "
+"użytkownika, aby dodać określone ustawienia dla tej listy użytkowników/bazy "
+"danych."
+
+#: ../screenshots/data.php:14
+msgid ""
+"A query tool with colour syntax highlighting allows users to run custom "
+"queries. The SQL definition of any object can be automatically transfered to "
+"the query tool from the object browser, or the user can author simple "
+"queries or complex scripts by hand. Long running queries can be cancelled if "
+"required by clicking on the red square button. The tool displays execution "
+"times of queries to help the user optimise them, and fully supports "
+"PostgreSQL's asynchronous notification system."
+msgstr ""
+"Narzędzia zapytania z kolorami podświetlania składni pozwala użytkownikowi "
+"uruchamianie dowolnych zapytań. Definicja SQL dowolnego obiektu może być "
+"automatycznie przesyłana do narzędzia zapytania z przeglądarki obiektów lub "
+"użytkownik może wprowadzać ręcznie proste zapytania lub złożone skrypty. "
+"Długotrwałe kwerendy mogą być anulowane jeżeli trzeba, przez kliknięcie na "
+"czerwony kwadratowy przycisk. Narzędzie wyświetla czasy wykonania zapytań, "
+"co pomaga użytkownikowi optymalizować je oraz w pełni obsługuje system "
+"powiadamiania asynchronicznego PostgreSQL."
+
+#: ../features.php:109
+msgid "ALT"
+msgstr "ALT"
+
+#: ../features.php:58
+msgid "Access to all PostgreSQL objects"
+msgstr "Dostęp do wszystkich obiektów PostgreSQL"
+
+#: ../development/roadmap.php:38
+msgid ""
+"Add a dialog to allow the user to set a global breakpoint in a specific "
+"backend process [DP]"
+msgstr ""
+"Dodaje okno dialogowe by umożliwić użytkownikowi ustawić globalny punkt "
+"przerwania w określonym procesie backendu [DP]"
+
+#: ../visualtour.php:337
+msgid "Add more index stats"
+msgstr "Dodanie więcej statystyk indeksów"
+
+#: ../development/roadmap.php:39
+msgid ""
+"Add printing support to the query tool (and other styled text controls?) [DP/"
+"AV]"
+msgstr ""
+"Dodaje obsługę drukowania dla narzędzia zapytania (oraz innych formantów "
+"tekstu formatowanego?) [DP/AV]"
+
+#: ../visualtour.php:353
+msgid "Add support for TRUNCATE triggers on PostgreSQL 8.4+"
+msgstr "Dodanie obsługi wyzwalaczy TRUNCATE na PostgreSQL 8.4+"
+
+#: ../visualtour.php:369
+msgid "Add support for direct debugging of functions with variadic parameters"
+msgstr "Dodanie obsługi bezpośredniego debugu funkcji przez parametry variadic"
+
+#: ../visualtour.php:370
+msgid "Add support for the many new node types in Postgres 8.4"
+msgstr "Dodanie obsługi wielu nowych typów węzłów w Postgres 8.4"
+
+#: ../visualtour.php:356
+msgid "Add the keyword 'WHILE' for the debugger"
+msgstr "Dodanie słowa kluczowego 'WHILE' dla debugera"
+
+#: ../visualtour.php:167
+msgid ""
+"Adding/removing <b>inherited tables</b> with 8.2+ servers has been added. "
+"The\n"
+"  list control and the two buttons have moved to their own tab:"
+msgstr ""
+"Zostało dodane dodawanie/usuwanie <b>tabel dziedziczonych</b> na serwerach "
+"8.2+.\n"
+"   Lista kontroli i dwa przyciski zostły przeniesione do własnej zakładki:"
+
+#: ../download/adminpacks.php:8 ../download/menu.php:18
+msgid "Admin packs"
+msgstr "Pakiety administracyjne"
+
+#: ../include/page.php:126
+msgid "Advocacy"
+msgstr "Poparcie"
+
+#: ../features.php:61
+msgid "Aggregates"
+msgstr "Agregaty"
+
+#: ../visualtour14.php:16
+msgid ""
+"All dialogs have been resized to be usable in a 800x600 screen. Dialogs "
+"contain three or more tabs to contain all the information needed on each "
+"object. The first tab always has the same information: name, OID, owner, "
+"comment, and replication set. The other tabs have the information specific "
+"to the object you're looking at. There are still the security tab (for "
+"privileges), the default security tab (for default privileges) on the "
+"objects for which you can set such information. And there's still the SQL "
+"tab."
+msgstr ""
+"Zmieniono rozmiar wszystkich okien dialogowych by były używalne na ekranach "
+"800x600. Okna dialogowe posiadają trzy lub więcej zakładek by pomieścić "
+"wszystkie informacje potrzebne dla każdego obiektu. Pierwsza zakładka zawsze "
+"zawiera te same informacje: nazwa, OID, właściciel, komentarz i grupę "
+"replikacji. Inne zakładki trzymają informacje specyficzne dla oglądanego "
+"obiektu. Występuje też ciągle zakładka uprawnienia (określająca "
+"bezpieczeństwo), zakładka domyślnego bezpieczeństwa (dla uprawnień "
+"domyślnych) dla obiektów w których można ustawić takie informacje. Pozostaje "
+"też ciągle zakładka SQL."
+
+#: ../visualtour.php:350
+msgid ""
+"Allow default settings to be set via a global config file. This allows\n"
+"    redistributors and sysadmins to pre-configure an installation as "
+"required\n"
+"    "
+msgstr ""
+"Zezwolenie, by ustawienia domyślne można było ustawić za pomocą globalnego\n"
+"    pliku konfiguracyjnego. Pozwala to redystrybutorom i administratorom \n"
+"    wstępnie skonfigurować instalację zgodnie z wymaganiami\n"
+"    "
+
+#: ../visualtour.php:348
+msgid ""
+"Allow external utilities such as pg_dump &amp; pg_restore to work with\n"
+"    SSL connections"
+msgstr ""
+"Zezwolenie narzędziom zewnętrznym jak pg_dump i pg_restore na pracę\n"
+"    z połączniami SSL"
+
+#: ../visualtour.php:372
+msgid ""
+"Allow pgAgent to connect to databases on remote servers, such as hot\n"
+"    standby machines"
+msgstr ""
+"Zezwolenie pgAgentowi na łączenie się z bazami danych na zdalnych serwerach,\n"
+"    takich jak maszyny gorącej rezerwy"
+
+#: ../visualtour.php:357
+msgid ""
+"Allow the user a chance to abort if there is an error when deleting rows\n"
+"    in the edit grid"
+msgstr ""
+"Pozwolenie użytkownikowi na zatrzymanie gdy wystąpi błąd podczas usuwania\n"
+"    wierszy w siatce edycji"
+
+#: ../translation/howto.php:41
+msgid "Alternatively, you can run the following command manually:"
+msgstr "Z drugiej strony, można uruchomić ręcznie następujące polecenie:"
+
+#: ../development/team.php:10
+msgid ""
+"Although anyone is welcome to contribute to pgAdmin, the project is managed "
+"and run by the Development Team. The document below (available only in "
+"English) outlines the structure of the team and how it operates."
+msgstr ""
+"Mimo, że każdy może przyczynić się do rozwoju pgAdmin, projekt jest "
+"zarządzany i prowadzony przez Zespół Rozwoju. Poniższy dokument (dostępny "
+"tylko w języku angielskim) przedstawia struktura zespołu i jak on działa."
+
+#: ../visualtour14.php:190
+msgid ""
+"And finally, there are two new actions in the context menu for a table. The "
+"first one resets the statistics of the selected table. The second one is "
+"part of the \"View Data\" submenu. pgAdmin is already able to show the edit "
+"grid with the first 100 rows. The new action allows you to view the last 100 "
+"rows. Here is the menu:"
+msgstr ""
+"I na koniec, są dwa nowe działania w menu kontekstowym dla tabeli. Pierwsze "
+"resetuje statystyki wybranej tabeli. Drugie to część podmenu \"Dane Widoku\". "
+"pgAdmin jest już w stanie pokazać i edytować w siatce pierwszych 100 "
+"wierszy. Nowa akcja pozwala na przeglądanie ostatnich 100 wierszy. Oto menu:"
+
+#: ../visualtour12.php:336
+msgid "And last, the query tool can now display line numbers."
+msgstr "I na koniec, narzędzie zapytania może teraz wyświetlać numery linii."
+
+#: ../visualtour.php:92
+msgid ""
+"And last, the role contextual menu has one more item to add\n"
+"  <b>Drop/Reassign Owned</b> support:"
+msgstr ""
+"I na koniec, manu kontekstowe roli posiada dodatkowy element\n"
+"  dodający obsługę <b>Skasuj/Ponownie przypisz Posiadane</b>:"
+
+#: ../visualtour12.php:352
+msgid ""
+"And last, you can open the query tool with the query currently executed by a "
+"process by selecting this process in the activity report."
+msgstr ""
+"I na koniec, możesz otworzyć narzędzie zapytania z zapytaniem obecnie "
+"wykonywanym przez proces wskazując ten proces w raporcie aktywności."
+
+#: ../visualtour12.php:71
+msgid ""
+"Another new menu item, \"Reload configuration\" allows the user to request "
+"the server to reload it's configuration."
+msgstr ""
+"Inny nowy element menu, \"Przeładuj konfigurację\" pozwala użytkownikowi "
+"wysłać do serwera żądanie przeładowania konfiguracji."
+
+#: ../translation/howto.php:12
+msgid ""
+"Anyone can translate pgAdmin into his or her mother tongue - you do not need "
+"to be a programmer. We try to make sure that all strings could be "
+"translated, even into non-European and non-Asian languages. The required "
+"steps for translation are as follows:"
+msgstr ""
+"Każdy może przetłumaczyć pgAdmin na włąsny język ojczysty - nie potrzeba być "
+"programistą. Próbujemy upewnić się, że wszystkie ciągi mogą być "
+"przetłumaczone, nawet na języki inne niż europejskie i nieazjatyckie. "
+"Niezbędne do tłumaczenia czynności są następujące:"
+
+#: ../translation/howto.php:29
+msgid ""
+"As a first step, please edit the file properties (Catalog/Settings). Select "
+"correct language and country, and set the charset to <b>utf-8</b>. The "
+"project name is <b>pgadmin3</b>, team is <b>The pgAdmin Development Team</"
+"b>, and the email address should be <b>pgadmin-hackers@postgresql.org</b>."
+msgstr ""
+"W pierwszym kroku należy zmienić właściwości pliku (Katalog/Ustawienia). "
+"Wybierz odpowiedni język i kraj i ustawić zestaw znaków <b>utf-8</b>. Nazwa "
+"projektu to <b>pgadmin3</b>, zespół <b>Development Team pgAdmin</b>, a adres "
+"e-mail powinien być <b>pgadmin-hackers@postgresql.org</b>."
+
+#: ../visualtour14.php:20
+msgid "As an example, here is the sequence dialog:"
+msgstr "Dla przykładu podajemy okno dialogowe sekwencji:"
+
+#: ../screenshots/ui.php:18
+msgid ""
+"As objects are created and modified, pgAdmin will show the user the code "
+"used to make the modifications, as well as the reverse-engineered SQL "
+"definition of the selected object. This helps the user learn and understand "
+"the SQL easily allowing them to work productively in the GUI and the command "
+"line or in scripts."
+msgstr ""
+"W czasie, gdy obiekty są tworzone i zmieniane, pgAdmin pokazukje "
+"użytkownikowi kod użyty do wykonania zmian, jak również poddaną odwrotnej "
+"inżynierii definicję SQL wybranego obiektu. Pomaga to użytkownikowi uczyć "
+"się i zrozumieć SQL, ułatwiając mu oswojenie się i efektywną pracę z "
+"graficznym interfejsem użytkownika, linią poleceń oraz ze skryptami."
+
+#: ../visualtour.php:355
+msgid "Auto-discover Postgres Plus servers on Mac and Unix"
+msgstr "Auto-wykrywanie serwerów Postgres Plus na Unix i Mac"
+
+#: ../features.php:51
+msgid "Auto-vacuum management (PostgreSQL 8.1 and above)"
+msgstr "Zarządzanie auto-odkurzaniem (PostgreSQL 8.1 i powyżej)"
+
+#: ../visualtour.php:341
+msgid ""
+"Avoid running excess queries on pg_shdescription when connecting to a\n"
+"    server, fixing performance regression with large number of databases"
+msgstr ""
+"Uniknięcie wykonywania nadmiernych zapytań na pg_shdescription podczas "
+"łączenia\n"
+"    do serwera, ustalając regresję wydajności dla wielu baz danych"
+
+#: ../visualtour14.php:344
+msgid "Backup and restore tools"
+msgstr "Narzędzia tworzenia odtwarzania z kopii zapasowej"
+
+#: ../advocacy/strategy.php:13
+#, php-format
+msgid ""
+"Before you start, it is recommended that you translate pgAdmin and the web "
+"site in your language if it hasn't already been done. Just visit the <a href="
+"\"%s\">translation</a> page for details on how to get started."
+msgstr ""
+"Przed rozpoczęciem zalecane jest, aby przetłumaczyć pgAdmin i stronę "
+"internetowej na Twój język, jeśli nie zostało jeszcze zrobione. Wystarczy "
+"odwiedzić stronę <a href=\"%s\">tłumaczenie</a> by uzyskać szczegółowe "
+"informacje na temat jak zacząć."
+
+#: ../download/ubuntu.php:14
+msgid "Before you try to install"
+msgstr "Przed próbą instalacji"
+
+#: ../visualtour14.php:29
+msgid "Better i18n"
+msgstr "Lepsze i18n"
+
+#: ../support/issues.php:10
+msgid ""
+"Bugs and other issues in pgAdmin are almost always fixed within a very short "
+"time once they have been reported to us. There are some issues that may be "
+"out of our control, or may take significant effort to resolve, often more "
+"effort than the issue warrants."
+msgstr ""
+"Błędy i inne problemy w pgAdmin prawie zawsze są naprawiane w bardzo krótkim "
+"czasie, jak tylko zostaną do nas zgłoszone. Istnieją pewne problemy, które "
+"mogą być poza naszą kontrolą, lub mogą wymagać znacznego wysiłku w celu "
+"rozwiązania, często więcej wysiłku niż wymaga tego problem."
+
+#: ../download/source.php:28
+msgid ""
+"Build instructions are included in the tarballs, and are available online:"
+msgstr ""
+"Instrukcje kompilacji znajdują się w archiwach tar i są dostępne online:"
+
+#: ../features.php:62
+msgid "Casts"
+msgstr "Rzutowania"
+
+#: ../development/changelog.php:8 ../development/menu.php:13
+msgid "Change log"
+msgstr "Dziennik zmian"
+
+#: ../development/roadmap.php:24
+msgid ""
+"Check for and remove any custom controls that are now implemented in "
+"wxWidgets."
+msgstr ""
+"Sprawdź i usuń wszystkie niestandardowe formanty, które są obecnie "
+"realizowane w wxWidgets."
+
+#: ../development/roadmap.php:25
+msgid "Check for the use of wxWidgets 2.9/3.0."
+msgstr "Sprawdź, jak używać wxWidgets 2.9/3.0."
+
+#: ../download/freebsd.php:33
+msgid "Check that the pgAdmin executable is in the path:"
+msgstr "Sprawdź, czy program wykonywalny pgAdmin znajduje się na ścieżce:"
+
+#: ../translation/howto.php:31
+msgid ""
+"Check the <i>Automatically compile .mo file on save</i> option in Properties."
+msgstr ""
+"Zaznacz opcję <i>Automatycznie kompiluj plik .mo przy zapisywaniu</i> we "
+"Właściwościach."
+
+#: ../download/ubuntu.php:29 ../download/ubuntu.php:38
+msgid ""
+"Choose your mirror as mentioned above and edit /etc/apt/sources.list file "
+"and add the following line:"
+msgstr ""
+"Wybierz mirror, jak wspomniano powyżej i zmienić /etc/apt/sources.list "
+"dodając następujący wiersz:"
+
+#: ../visualtour12.php:66
+msgid ""
+"Choosing either of those two will launch the query tool and show the "
+"appropriate query."
+msgstr ""
+"Wybór jednej z tych dwóch opcji uruchomi narzędzie zapytania i pokaże "
+"odpowiednie zapytanie."
+
+#: ../development/roadmap.php:22
+msgid "Code housekeeping"
+msgstr "Porządkowanie kodu"
+
+#: ../visualtour14.php:270
+msgid "Collation"
+msgstr "Porównanie"
+
+#: ../visualtour14.php:273
+msgid ""
+"Collation is a new schema object available in PostgreSQL 9.1. You can create "
+"and change collation with its properties dialog:"
+msgstr ""
+"Porównanie jest nowym obiektem schematu dostępnym w PostgreSQL 9.1. Można "
+"tworzyć i zmieniać porównania w jego oknie właściwości:"
+
+#: ../visualtour14.php:203
+msgid "Column"
+msgstr "Kolumna"
+
+#: ../visualtour12.php:193 ../visualtour.php:181
+msgid "Column properties"
+msgstr "Właściwości kolumny"
+
+#: ../features.php:63
+msgid "Columns"
+msgstr "Kolumny"
+
+#: ../translation/howto.php:38
+msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
+msgstr "Skompiluj pgadmin3.po do pliku binarnego pgadmin3.mo."
+
+#: ../development/roadmap.php:15
+msgid "Complete 9.2 support"
+msgstr "Pełna obsługa 9.2"
+
+#: ../development/roadmap.php:31
+msgid "Complete redesign of the documentation [GL]"
+msgstr "Całkowite przeprojektowanie dokumentacji [GL]"
+
+#: ../visualtour12.php:355
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+#: ../features.php:50
+msgid "Configuration file editing"
+msgstr "Edycja plików konfiguracyjnych"
+
+#: ../visualtour12.php:13
+msgid "Connection handling"
+msgstr "Obsługa połączeń"
+
+#: ../visualtour14.php:211
+msgid "Constraint"
+msgstr "Ograniczenie"
+
+#: ../visualtour12.php:145
+msgid "Constraint properties"
+msgstr "Właściwości ograniczeń"
+
+#: ../visualtour14.php:228
+msgid ""
+"Constraint triggers have existed for a long time but they are only supported "
+"in pgAdmin 1.14. Fortunately, INSTEAD OF triggers are supported right now, "
+"but they are only available on views."
+msgstr ""
+"Wyzwalacze ograniczeń istniały już od dłuższego czasu, ale są obsługiwane "
+"dopiero od pgAdmin 1.14. Na szczęście, wyzwalacze INSTEAD OF są również "
+"teraz obsługiwane, choć są one dostępne tylko na widoków."
+
+#: ../features.php:64
+msgid "Constraints"
+msgstr "Ograniczenia"
+
+#: ../menu.php:11
+msgid "Contribute"
+msgstr "Wspomóż"
+
+#: ../translation/index.php:12
+msgid "Contribute a translation"
+msgstr "Wnieś swój wkład w tłumaczenie"
+
+#: ../features.php:65
+msgid "Conversions"
+msgstr "Konwersje"
+
+#: ../include/doc.php:99
+msgid "Couldn't find the document content!"
+msgstr "Nie udało się odnaleźć zawartości dokumentu!"
+
+#: ../download/freebsd.php:27
+msgid "Create a symlink to the pgAdmin binary:"
+msgstr "Utwórz link symboliczny do binariów pgAdmin:"
+
+#: ../advocacy/strategy.php:23
+msgid ""
+"Cross your fingers and wait until PostgreSQL becomes the world's number one "
+"database."
+msgstr ""
+"Trzymaj kciuki i czekaj, aż PostgreSQL stanie się bazą danych numer jeden na "
+"świecie."
+
+#: ../development/roadmap.php:33
+msgid "Custom reports in frmStatus [GL]"
+msgstr "Raporty niestandardowe w frmStatus [GL]"
+
+#: ../include/page.php:111
+msgid "Czech"
+msgstr "Czeski"
+
+#: ../screenshots/data.php:8
+msgid "Data"
+msgstr "Dane"
+
+#: ../features.php:41 ../screenshots/menu.php:8
+msgid "Data access"
+msgstr "Dostęp do danych"
+
+#: ../development/roadmap.php:36
+msgid ""
+"Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
+msgstr ""
+"Opcje tuningu danych dla powolnych zapytań (wymaga XML EXPLAIN w PG 8.4) "
+"[DP]"
+
+#: ../visualtour14.php:155
+msgid "Database"
+msgstr "Baza danych"
+
+#: ../development/roadmap.php:45
+msgid "Database designer for pgAdmin, by Luis Ochoa"
+msgstr "Projektant bazy danych dla pgAdmin, autorstwa Luisa Ochoa"
+
+#: ../screenshots/mb_i18n.php:12 ../screenshots/mb_i18n.php:18
+msgid "Database encoding selection"
+msgstr "Wybór kodowania bazy danych"
+
+#: ../visualtour12.php:105 ../visualtour.php:153
+msgid "Database properties"
+msgstr "Właściwości bazy danych"
+
+#: ../development/roadmap.php:46
+msgid "Database schema difference visualizer, by Adeel Khan"
+msgstr "Wizualizer różnicowy schematów bazy danych, wykonany przez Adeel Khan"
+
+#: ../features.php:66
+msgid "Databases"
+msgstr "Bazy danych"
+
+#: ../download/debian.php:8 ../download/menu.php:7
+msgid "Debian"
+msgstr "Debian"
+
+#: ../download/debian.php:14
+msgid "Debian Etch (oldstable)"
+msgstr "Debian Etch (stary stabilny)"
+
+#: ../download/debian.php:18
+msgid "Debian Lenny (stable)"
+msgstr "Debian Lenny (stabilny)"
+
+#: ../download/debian.php:26
+msgid "Debian Sid (unstable)"
+msgstr "Debian Sid (niestabilny)"
+
+#: ../download/debian.php:22
+msgid "Debian Squeeze (testing)"
+msgstr "Debian Squeeze (testowy)"
+
+#: ../visualtour14.php:388
+msgid "Debugger tool"
+msgstr "Narzędzie debugera"
+
+#: ../visualtour12.php:212
+msgid ""
+"Default ACLs are available in the database and schema properties dialog. "
+"You'll have a new tab to set these privileges."
+msgstr ""
+"Domyślne ACLe są dostępne w oknach dialogowych bazy danych i schematu. "
+"Otrzymasz nową zakładkę by zmieniać te uprawnienia."
+
+#: ../privacypolicy.php:18
+msgid "Demographic data"
+msgstr "Dane demograficzne"
+
+#: ../visualtour.php:50
+msgid "Derivative database support"
+msgstr "Obsługa pochodna baz wanych"
+
+#: ../features.php:21
+msgid "Designed for multiple PostgreSQL versions and derivatives"
+msgstr "Zaprojektowane dla wielu wersji i pochodnych PostgreSQL"
+
+#: ../docs/menu.php:7
+msgid "Dev"
+msgstr "Dev"
+
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:127
+msgid "Development"
+msgstr "Rozwój"
+
+#: ../development/team.php:8
+msgid "Development team"
+msgstr "Zespół deweloperów"
+
+#: ../visualtour14.php:13
+msgid "Dialogs for netbooks"
+msgstr "Okna dialogowe dla netbooków"
+
+#: ../visualtour14.php:45
+msgid "Different icons to highlight different states"
+msgstr "Różne ikony by wyróżnić różne stany"
+
+#: ../include/doc.php:79
+msgid "Document cannot be read"
+msgstr "Nie można odczytać dokumentu"
+
+#: ../include/doc.php:56 ../include/doc.php:73
+msgid "Document not found"
+msgstr "Nie znaleziono dokumentu"
+
+#: ../include/page.php:128 ../screenshots/documentation.php:8
+#: ../screenshots/menu.php:9
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: ../visualtour14.php:262
+msgid "Domain"
+msgstr "Domena"
+
+#: ../features.php:67
+msgid "Domains"
+msgstr "Domeny"
+
+#: ../visualtour14.php:265
+msgid ""
+"Domains are also subject to change because of the new collation feature:"
+msgstr "Domeny są również przedmiotami zmian ze względu na nową cechę porównań:"
+
+#: ../include/page.php:129 ../include/po_status.php:256
+msgid "Download"
+msgstr "Pobieranie"
+
+#: ../translation/howto.php:19
+#, php-format
+msgid ""
+"Download <a href=\"%s\">poEdit</a> and install it under MS Windows or GNU/"
+"Linux."
+msgstr ""
+"Pobierz <a href=\"%s\">poEdit</a> i zainstaluj go pod MS Windows lub "
+"GNU/Linux."
+
+#: ../visualtour12.php:223
+msgid "Dump/Restore"
+msgstr "Zrzut/Odtworzenie"
+
+#: ../visualtour.php:239
+msgid "Dump/restore dialog"
+msgstr "Okno dialogowe zrzutu/odtworzenia"
+
+#: ../features.php:101
+msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
+msgstr "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
+
+#: ../screenshots/data.php:18
+msgid ""
+"EXPLAIN and/or ANALYZE your queries to take advantage of PostgreSQL unique "
+"optimisation features. You will soon realise that PostgreSQL is amongst the "
+"fastest enterprise class databases available."
+msgstr ""
+"EXPLAIN i/lub ANALYZE zapytania, aby skorzystać z unikalnych cech "
+"optymalizacji PostgreSQL. Wkrótce zdasz sobie sprawę, że PostgreSQL jest "
+"jedną z najszybszych dostępnych baz danych klasy korporacyjnej."
+
+#: ../visualtour.php:71
+msgid "Each FTS object is handled by its own properties dialog."
+msgstr "Każdy obiekt FTS jest obsługiwany przez własne okno dialogowe."
+
+#: ../visualtour.php:108
+msgid "Each objects' list now show the <b>owner of the object</b>:"
+msgstr "Lista każdego obiektu pokazuje teraz <b>właścicela obiektu</b>:"
+
+#: ../visualtour.php:287
+msgid "Edit grid"
+msgstr "Siatka edycji"
+
+#: ../translation/howto.php:27
+msgid "Edit the *.po file. The steps described are related to poEdit only."
+msgstr "Edycja pliku *.po. Opisane kroki dotyczą tylko poEdit."
+
+#: ../include/page.php:112
+msgid "English"
+msgstr "Angielski"
+
+#: ../visualtour.php:338
+msgid "Ensure a newline is included between notices in the query tool"
+msgstr ""
+"Zapewnienie, że znak nowej linii jest dołączony między informacjami w "
+"narzędziu zapytania"
+
+#: ../visualtour.php:343
+msgid ""
+"Ensure that line endings stay consistent when editing in styled text\n"
+"    controls"
+msgstr ""
+"Zapewnienie, by znaki końca linii były jednolite podczas edycji \n"
+"    w kontrolkach formatowanego tekstu"
+
+#: ../visualtour.php:374
+msgid ""
+"Ensure we never try to refresh the Servers node which would likely crash"
+msgstr ""
+"Zapewnienie, że nigdy nie próbujemy odświeżyć węzła Serwery, co "
+"prawdopodobnie spowoduje błędy"
+
+#: ../translation/howto.php:33
+msgid "Enter your translation strings."
+msgstr "Wprowadź ciągi znaków tłumaczenia."
+
+#: ../visualtour14.php:214
+msgid "Exclusion Constraints are finally supported in pgAdmin:"
+msgstr "Ograniczenia Wykluczające są w końcu obsługiwane w pgAdmin:"
+
+#: ../visualtour14.php:293
+msgid "Extension"
+msgstr "Rozszerzenie"
+
+#: ../visualtour14.php:296
+msgid ""
+"Extension is a new database object available in PostgreSQL 9.1. You can add "
+"an extension with the properties dialog:"
+msgstr ""
+"Rozszerzenie jest nowym obiektem schematu dostępnym w PostgreSQL 9.1. Można "
+"tworzyć i zmieniać rozszerzenia w jego oknie właściwości:"
+
+#: ../features.php:28
+msgid "Extensive documentation"
+msgstr "Obszerna dokumentacja"
+
+#: ../support/menu.php:7
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../features.php:68
+msgid "FTS configurations"
+msgstr "Konfiguracje FTS"
+
+#: ../features.php:69
+msgid "FTS dictionaries"
+msgstr "Słowniki FTS"
+
+#: ../features.php:70
+msgid "FTS parsers"
+msgstr "Parsery FTS"
+
+#: ../features.php:71
+msgid "FTS templates"
+msgstr "Szablony FTS"
+
+#: ../features.php:8 ../menu.php:7
+msgid "Features"
+msgstr "Możliwości"
+
+#: ../visualtour12.php:244
+msgid ""
+"Finally, the fourth tab allows you to select all the objects you want to "
+"dump. All checked objects will be included in the dump."
+msgstr ""
+"Wreszcie czwarta zakładka pozwala wybrać wszystkie obiekty, które chcesz "
+"mieć w zrzucie. Wszystkie zaznaczone obiekty zostaną włączone do zrzutu."
+
+#: ../visualtour14.php:152
+msgid ""
+"Finally, there are two new actions available on the server context menu. "
+"\"Pause replay of WAL\" is only available on a streaming replication slave. "
+"It allows you to pause the replay of the replication, and then resume it. "
+"\"Add named restore point\" asks you to enter the name of the restart point "
+"you want to create. pgAdmin then adds this restore point, but keep in mind "
+"this action is not available on a streaming replication slave."
+msgstr ""
+"W końcu, są dwie nowe akcje dostępne w menu kontekstowym serwera. \"Wstrzymaj "
+"Odtworzenie WAL\" jest dostępna tylko na maszynie podrzędnej replikacji "
+"strumieniowej. Pozwala wstrzymać odtwarzanie replikacji, a następnie ją "
+"wznowić. \"Dodaj nazwany punkt przywracania\" poprosi o wprowadzenie nazwy "
+"punktu przywrócenia, który chcesz utworzyć. pgAdmin dodaje następnie ten "
+"punkt przywracania, ale należy pamiętać, że nie jest on dostępny na maszynie "
+"podrzędnej replikacji strumieniowej."
+
+#: ../development/roadmap.php:18
+msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
+msgstr "Zakończono wsparcie 7.4 (?) tworzenia klas operatorów obiektu [GL]"
+
+#: ../development/roadmap.php:17
+msgid "Finish 8.3 support with operator family objets' creation [GL]"
+msgstr "Zakończono wsparcie 8.3 tworzenia rodzin operatorów obiektu [GL]"
+
+#: ../development/roadmap.php:16
+msgid "Finish 9.1 support with security labels [GL]"
+msgstr "Zakończono wsparcie 9.1 etykiet bezpieczeństwa [GL]"
+
+#: ../visualtour.php:24
+msgid "First, it is now possible to build a query graphically."
+msgstr ""
+"Po pierwsze, jest obecnie możliwe konstruowanie zapytania w formie "
+"graficznej."
+
+#: ../visualtour.php:362
+msgid ""
+"Fix handling of aggregate initial conditions to allow NULL or empty\n"
+"    strings to be specified"
+msgstr ""
+"Naprawa obsługi warunków początkowych agregatu, aby umożliwić wskazanie\n"
+"    NULL lub pustych ciągów znaków"
+
+#: ../visualtour.php:346
+msgid "Fix listing of group roles in the combo box on privilege panels"
+msgstr "Naprawa listy ról grupy w liście rozwijalnej na panelach uprawnień"
+
+#: ../visualtour.php:365
+msgid "Fix support for 'bit varying' columns"
+msgstr "Naprawa obsługi kolumn 'bit varying'"
+
+#: ../visualtour.php:336
+msgid "Fix the index UI to handle columns with commas in the name"
+msgstr ""
+"Naprawia interfejsu indeksującego do obsługi kolumn z przecinkami w nazwie"
+
+#: ../download/ubuntu.php:48
+msgid "For example, for France and Gutsy Gibbon, you can try:"
+msgstr "Na przykład, dla France i Gutsy Gibbon, możesz wypróbować:"
+
+#: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:8
+#: ../screenshots/index.php:16
+msgid "FreeBSD"
+msgstr "FreeBSD"
+
+#: ../include/page.php:113
+msgid "French"
+msgstr "Français"
+
+#: ../support/faq.php:8
+msgid "Frequently Asked Questions"
+msgstr "Najczęściej zadawane pytania"
+
+#: ../translation/howto.php:55
+#, php-format
+msgid ""
+"From time to time, new strings which need translation are added to the "
+"application. Download/update the new <a href=\"%s\">pgadmin3.pot</a> and "
+"merge the new file with your language file using the poEdit <i>Catalog/"
+"Update from POT file</i> function. Alternatively, you can run the following "
+"command manually:"
+msgstr ""
+"Od czasu do czasu nowe łańcuchy, które wymagają tłumaczenia, są dodawane do "
+"aplikacji. Pobierz/uaktualnij nowy <a href=\"%s\">pgadmin3.pot</a> i scal nowy "
+"plik z plikiem językowego za pomocą funkcji <i>Skataloguj/Uaktualnij z "
+"pliku POT</i> poEdit. Alternatywnie, można uruchomić ręcznie następujące "
+"polecenie:"
+
+#: ../visualtour14.php:233
+msgid "Function"
+msgstr "Funkcja"
+
+#: ../visualtour12.php:185 ../visualtour.php:198
+msgid "Function properties"
+msgstr "Właściwości funkcji"
+
+#: ../development/roadmap.php:29
+msgid "Functionality"
+msgstr "Funkcjonalność"
+
+#: ../features.php:72
+msgid "Functions"
+msgstr "Funkcje"
+
+#: ../include/po_status.php:258
+msgid "Fuzzy"
+msgstr "Niedokładnie"
+
+#: ../development/git.php:8 ../development/menu.php:7
+msgid "GIT access"
+msgstr "Dostęp GIT"
+
+#: ../development/menu.php:8
+msgid "GIT browser"
+msgstr "Przeglądarka GIT"
+
+#: ../development/roadmap.php:43
+msgid "GSoC"
+msgstr "GSoC"
+
+#: ../index.php:24
+msgid ""
+"Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
+"produced a <a href=\"http://www.enterprisedb.com/resources-community/"
+"webcasts-podcasts-videos/videos/how-create-postgres-database-using-pgadmin"
+"\">video walkthrough</a> showing off some of the features in pgAdmin."
+msgstr ""
+"Gary na <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> wykonał <a "
+"href=\"http://www.enterprisedb.com/resources-community/webcasts-podcasts-"
+"videos/videos/how-create-postgres-database-using-pgadmin\">prezentację "
+"video</a> pokazującą niektóre funkcje w pgAdmin."
+
+#: ../translation/howto.php:10
+msgid "Getting started"
+msgstr "Pierwsze kroki"
+
+#: ../privacypolicy.php:22
+msgid "Google analytics"
+msgstr "Google analytics"
+
+#: ../development/roadmap.php:34
+msgid "Graphs in frmStatus [GL]"
+msgstr "Wykresy w frmStatus [GL]"
+
+#: ../features.php:25
+msgid "Greenplum Database"
+msgstr "Baza Danych Greenplum"
+
+#: ../features.php:73
+msgid "Greenplum objects (such as external tables, ressource queues)"
+msgstr "Obiekty Greenplum (takie jak tabele zewnętrzne, kolejki zasobów)"
+
+#: ../features.php:74
+msgid "Groups"
+msgstr "Grupy"
+
+#: ../translation/howto.php:65
+msgid "Guidelines"
+msgstr "Wytyczne"
+
+#: ../features.php:31
+msgid "Guru Hints to help less experienced users"
+msgstr "Podpowiedzi Guru pomagające mniej doświadczonym użytkownikom"
+
+#: ../include/page.php:125
+msgid "Home"
+msgstr "Początek"
+
+#: ../contribute.php:8
+msgid "How to contribute"
+msgstr "Jak wnieść swój wkład?"
+
+#: ../translation/howto.php:8 ../translation/menu.php:8
+msgid "Howto"
+msgstr "Jak to zrobić"
+
+#: ../features.php:104
+msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
+msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
+
+#: ../development/index.php:14
+#, php-format
+msgid ""
+"If you are not a programmer, you can still get involved in the project if "
+"you wish - as a <a href=\"%s\">translator</a>, or <a href=\"%s\">promoting</"
+"a> pgAdmin."
+msgstr ""
+"Jeśli nie jesteś programistą, wciąż możesz wziąć udział w projekcie, jeśli "
+"chcesz - jako <a href=\"%s\">tłumacz</a> lub <a href=\"%s\">promując</a> "
+"pgAdmin."
+
+#: ../translation/status.php:29
+msgid ""
+"If you are not the author/maintainer of a translation and wish to submit a "
+"translation fix: download the language file (*.po extension), make the "
+"necessary corrections and send it back to us CC'd to the translator."
+msgstr ""
+"Jeśli nie jesteś do autorem/opiekunem, tłumaczenia i chcesz przedłożyć "
+"poprawkę tłumaczenia: pobierz plik językowy (z rozszerzeniem *.po), dokonaj "
+"niezbędnych poprawek i odeślij go do nas z kopią do tłumacza."
+
+#: ../support/list.php:12
+msgid ""
+"If you are posting a bug report, please include the following information "
+"where possible:"
+msgstr ""
+"Jeżeli chcesz przesłać raport o błędzie, należy podać w miarę możliwości "
+"następujące informacje:"
+
+#: ../translation/status.php:27
+msgid ""
+"If you are the maintainer of a translation and wish to update your work, "
+"download the template file (*.pot extension), execute poEdit and use the "
+"'update from template' command. Translate the text and send us the *.po file."
+msgstr ""
+"Jeśli jesteś opiekunem tłumaczenia i chcesz uaktualnić swoją pracę, "
+"powinieneś pobrać plik szablonu (rozszerzenie *.pot), wykonania poEdit i "
+"użyć 'aktualizacja z szablonu'. Przetłumaczyć tekst i wysłać nam plik *.po."
+
+#: ../support/index.php:12
+#, php-format
+msgid ""
+"If you have a problem that you need help with, please make sure you check "
+"the <a href=\"%s\">Frequently Asked Questions</a> list as well as the "
+"pgAdmin documentation for a solution first. If you cannot find the answer "
+"you need there, then please try searching Google (a Google search facility "
+"is provided at the top of the page) next. Make sure you include any relevant "
+"error messages in your query. If you still cannot find the answer you need, "
+"then please post a message to the <a href=\"%s\">pgadmin-support</a> mailing "
+"list."
+msgstr ""
+"Jeśli masz problem, z którym potrzebujesz pomocy, sprawdź najpierw listę <a "
+"href=\"%s\">Najczęściej zadawane pytania</a>, jak również dokumentację pgAdmin "
+"pod kątem jego rozwiązania. Jeśli nie możesz tam znaleźć odpowiedzi, w "
+"drugiej kolejności spróbuj wyszukiwania Google (funkcja wyszukiwarki Google "
+"dostępna jest na górze strony). Upewnij się, że wszelkie stosowne komunikaty "
+"o błędach wpisane są w zapytaniu. Jeśli wciąż nie możesz znaleźć "
+"odpowiedzi, których potrzebujesz, to możesz napisać wiadomość na listę <a "
+"href=\"%s\">wsparcia pgAdmin</a>."
+
+#: ../visualtour12.php:38
+msgid ""
+"If you take a look at a server's properties, you will see a new group "
+"combobox. Enter the name of the new group."
+msgstr ""
+"Jeśli spojrzysz na właściwości serwera, zobaczysz nowe pole kombo grupy. "
+"Wprowadzisz tam nazwę nowej grupy."
+
+#: ../contribute.php:14
+#, php-format
+msgid ""
+"If you think you can contribute new features and/or bug fixes, please visit "
+"the <a href=\"%s\">development</a> page."
+msgstr ""
+"Jeśli myślisz, że możesz przyczynić się do tworzenia nowych funkcji i/lub "
+"poprawek, przejdź na stronę <a href=\"%s\">rozwoju</a>."
+
+#: ../visualtour12.php:304
+msgid ""
+"If you want to replace the current query with a previously saved one, you "
+"can select it in the combobox."
+msgstr ""
+"Jeśli chcesz zastąpić obecne zapytanie przez wcześniej zapisane, możesz "
+"wybrać je w menu rozwijalnym."
+
+#: ../visualtour14.php:100
+msgid "Improved configuration for plugins"
+msgstr "Ulepszona konfiguracja wtyczek"
+
+#: ../visualtour14.php:317
+msgid ""
+"In PostgreSQL 9.1, there is a new role attribute. You can set it with the "
+"role properties dialog:"
+msgstr ""
+"W PostgreSQL 9.1 wprowadzono nowy atrybut roli. Można go ustawić w oknie "
+"dialogowym właściwości roli:"
+
+#: ../translation/howto.php:40
+msgid ""
+"In poEdit, clicking on the save button will automatically compile pgadmin3."
+"po."
+msgstr ""
+"Kliknięcie na przycisk zapisu w poEdit będzie automatycznie kompilować "
+"pgadmin3.po."
+
+#: ../visualtour12.php:96
+msgid ""
+"In the server's properties dialog, the colour widget has been replaced with "
+"a custom widget which should be more simple to use."
+msgstr ""
+"W oknie właściwości serwera, widżet koloru został zastąpiony dostosowanym "
+"widżetem, który powinien być prostszy w użyciu."
+
+#: ../visualtour.php:44
+#, php-format
+msgid ""
+"In this example, the user will insert random values into some tables. To\n"
+"  execute this script, you need to click on the PGS button. The complete\n"
+"  reference to pgscript is available <a href=\"%s\">here</a>."
+msgstr ""
+"W tym przykładzie użytkownik będzie wprowadzał losowe wartości do kilku\n"
+"   tabel. Aby wykonać ten skrypt, należy kliknąć na przycisku PGS. Pełny\n"
+"   opis pgscript jest dostępny <a href=\"%s\">tutaj</a>."
+
+#: ../visualtour14.php:195
+msgid "Index"
+msgstr "Indeks"
+
+#: ../visualtour12.php:153 ../visualtour.php:189
+msgid "Index properties"
+msgstr "Właściwości indeksu"
+
+#: ../features.php:75
+msgid "Indexes"
+msgstr "Indeksy"
+
+#: ../advocacy/information.php:8 ../advocacy/menu.php:8
+msgid "Information"
+msgstr "Informacje"
+
+#: ../download/adminpacks.php:16
+msgid ""
+"Install the appropriate admin pack for the version of pgAdmin that you use, "
+"and the server you are running. pgInstaller distributions of PostgreSQL for "
+"Windows include the admin packs."
+msgstr ""
+"Zainstaluj pakiet administracyjny odpowiedni dla wersji pgAdmin, której "
+"używasz i działającego serwera. Dystrybucje pgInstallera PostgreSQL dla "
+"Windows zawiera pakiety administracyjne."
+
+#: ../download/debian.php:30
+msgid "Installation"
+msgstr "Instalacja"
+
+#: ../visualtour14.php:32
+msgid ""
+"Internationalization needed a bit of work to improve in areas such as "
+"pluralization. Because of this, translators will have more work to do this "
+"release, and we hope we'll keep at least the same number of languages for "
+"1.14."
+msgstr ""
+"Internacjonalizacja wymaga trochę pracy w celu polepszenia w takich "
+"dziedzinach jak pluralizacja. Z tego powodu tłumacze mają więcej do "
+"zrobienia w tym wydaniu i mamy nadzieję, że będziemy utrzymamy przynajmniej "
+"taką samą liczbę języków dla 1.14."
+
+#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
+#: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
+#: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
+#: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
+#: ../support/index.php:8 ../support/menu.php:6 ../translation/index.php:8
+#: ../translation/menu.php:6
+msgid "Introduction"
+msgstr "Wstęp"
+
+#: ../visualtour.php:312
+msgid ""
+"It allows one to view all reports at the same time, to close some, to "
+"resize\n"
+"  some, etc. The complete window layout is preserved between each run. "
+"Also,\n"
+"  one can <b>copy the contents of each grid</b>. It also features a new "
+"toolbar\n"
+"  to launch each action."
+msgstr ""
+"Pozwala na przeglądanie wszystkich raportów w tym samym czasie, niektóre\n"
+"  zamknąć, niektórym zmienić rozmiar itp. Cały układ okna jest zachowany "
+"pomiędzy\n"
+"  każdym otwarciem. Ponadto, można <b>skopiować zawartość każdej siatki</b>. "
+"Jest\n"
+"  również wyposażony w nowy pasek narzędzi do uruchomienia poszczególnych "
+"działań."
+
+#: ../visualtour.php:294
+msgid ""
+"It was already possible to sort and filter the grid but one has to go \n"
+"  another dialog and choose the columns to sort by and write the filter\n"
+"  as in a WHERE clause. A new feature allows a user to right click on a "
+"value\n"
+"  he wants to filter (include or exclude). He can also right click on a "
+"column\n"
+"  to sort by this column."
+msgstr ""
+"Było już możliwe sortowanie i filtrowanie w siatce, ale należało przejść\n"
+"   do innego okna i wybrać kolumny, według których posortować lub napisać "
+"filtr\n"
+"   jak w klauzuli WHERE. Nowa funkcja umożliwia użytkownikowi kliknięcie "
+"prawym\n"
+"   przyciskiem myszy na wartości do odfiltrowania (włącza lub wyłącza). "
+"Można\n"
+"   też kliknąć prawym przyciskiem myszy na kolumnie by sortować według tej "
+"kolumny."
+
+#: ../advocacy/index.php:13
+#, php-format
+msgid ""
+"It's easy to see how promoting pgAdmin benefits us all in the long term. "
+"Read the <a href=\"%s\">strategy</a> page to see how you might be able to "
+"help."
+msgstr ""
+"Łatwo zobaczyć, jak promowanie pgAdmin przynosi korzyści nam wszystkim w "
+"perspektywie długoterminowej. Przeczytaj stronę <a href=\"%s\">strategia</a> "
+"aby zobaczyć, jak jesteś w stanie pomóc."
+
+#: ../features.php:102
+msgid "JOHAB"
+msgstr "JOHAB"
+
+#: ../features.php:107
+msgid "KOI8"
+msgstr "KOI8"
+
+#: ../translation/howto.php:78
+msgid ""
+"Keyboard shortcuts are denoted by a leading '&amp;'. For example '&amp;Add', "
+"which is translated into French by '&amp;Ajouter', can be triggered from "
+"keyboard using Alt + A. Be careful when changing letters, to avoid keyboard "
+"entry conflicts within one menu. If you deviate from the original shortcut "
+"keys, pgAdmin users might have problems remembering shortcuts in both "
+"English and translated pgAdmin versions. Therefore, be extra careful when "
+"creating new shortcuts if you cannot choose the same letter."
+msgstr ""
+"Skróty klawiaturowe są oznaczone przez wiodącego '&amp;'. Na przykład "
+"'&amp;Add', które jest tłumaczone na język francuski przez '&amp;Ajouter', "
+"mogą być wywoływane z klawiatury przy użyciu Alt + A. Należy zachować "
+"ostrożność przy zmianie litery, aby uniknąć konfliktów wejścia klawiatury "
+"dla pojedynczego menu. Jeśli odbiegają od oryginalnych skrótów, użytkownicy "
+"pgAdmin mogą mieć problemy z pamiętaniem skrótów w języku angielskim i "
+"wersją pgAdmin w przekładzie. Dlatego też należy bardzo uważać przy "
+"tworzeniu nowych skrótów jeśli nie można wybrać tej samej litery."
+
+#: ../support/issues.php:8 ../support/menu.php:12
+msgid "Known issues"
+msgstr "Znane problemy"
+
+#: ../features.php:103
+msgid ""
+"LATIN1, LATIN2, LATIN3, LATIN4, LATIN5, LATIN6, LATIN7, LATIN8, LATIN9, "
+"LATIN10"
+msgstr ""
+"LATIN1, LATIN2, LATIN3, LATIN4, LATIN5, LATIN6, LATIN7, LATIN8, LATIN9, "
+"LATIN10"
+
+#: ../include/po_status.php:254
+msgid "Language"
+msgstr "Język"
+
+#: ../visualtour.php:222
+msgid "Language properties"
+msgstr "Właściwości języka"
+
+#: ../include/page.php:110
+msgid "Language:"
+msgstr "Język:"
+
+#: ../features.php:76 ../download/languages.php:8 ../download/menu.php:19
+msgid "Languages"
+msgstr "Języki"
+
+#: ../download/languages.php:10
+#, php-format
+msgid ""
+"Languages not included in the distribution package may be added at a later "
+"time. Please check the <a href=\"%s\">translation status</a> page to see "
+"whether your preferred language is available already, and to download the "
+"message catalogue."
+msgstr ""
+"Języki nie ujęte w pakiecie dystrybucyjnym mogą być dodane w późniejszym "
+"czasie. Proszę sprawdzić stronę <a href=\"%s\">stanu tłumaczeń</a> aby "
+"zobaczyć, czy pożądany język jest już dostępny i aby pobrać katalog "
+"wiadomości."
+
+#: ../licence.php:10
+#, php-format
+msgid "Last update: %s"
+msgstr "Ostatnia aktualizacja: %s"
+
+#: ../index.php:8
+msgid "Latest news"
+msgstr "Najnowsze wiadomości"
+
+#: ../licence.php:8 ../menu.php:12
+msgid "Licence"
+msgstr "Licencja"
+
+#: ../features.php:15 ../screenshots/index.php:19
+msgid "Linux"
+msgstr "Linux"
+
+#: ../development/menu.php:10 ../support/menu.php:11
+msgid "List archives"
+msgstr "Pokaż archiwa"
+
+#: ../include/po_status.php:253
+msgid "Locale"
+msgstr "Ustawienia lokalne"
+
+#: ../features.php:53
+msgid "Lock viewer"
+msgstr "Przeglądarka blokad"
+
+#: ../features.php:52
+msgid "Logfile browser"
+msgstr "Przeglądarka pliku dziennika"
+
+#: ../features.php:106
+msgid "MULE_INTERNAL"
+msgstr "MULE_INTERNAL"
+
+#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:9
+#: ../screenshots/index.php:22
+msgid "Mac OSX"
+msgstr "Mac OSX"
+
+#: ../download/macosx.php:12
+msgid ""
+"Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Newer "
+"versions are being built on Tiger. v1.6 and above are built as Mac Universal "
+"binaries for Intel and PPC architectures."
+msgstr ""
+"Pakiety Mac OSX zbudowane w Panther są dostępne do pgAdmin 1.4.1. Nowsze "
+"wersje są budowane w Tiger. v1.6 i wyżej jako uniwersalne binaria Mac dla "
+"architektury Intel i PPC."
+
+#: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
+#: ../support/menu.php:8
+msgid "Mailing list"
+msgstr "Lista dyskusyjna"
+
+#: ../include/po_status.php:255
+msgid "Maintainer"
+msgstr "Koordynator"
+
+#: ../download/debian.php:10 ../download/freebsd.php:10
+#: ../download/macosx.php:10 ../download/opensuse.php:10
+#: ../download/rpm.php:10 ../download/slackware.php:10
+#: ../download/solaris.php:10 ../download/source.php:10
+#: ../download/ubuntu.php:10 ../download/windows.php:10
+#, php-format
+msgid "Maintainer: %s"
+msgstr "Koordynator: %s"
+
+#: ../visualtour12.php:275
+msgid "Maintenance"
+msgstr "Porządkowanie"
+
+#: ../visualtour12.php:217
+msgid "Maintenance dialogs"
+msgstr "Okna dialogowe porządkowania"
+
+#: ../visualtour.php:16
+msgid "Major new features"
+msgstr "Najważniejsze nowe funkcje"
+
+#: ../advocacy/information.php:20
+msgid "Management tools for PostgreSQL"
+msgstr "Narzędzia zarządzania dla PostgreSQL"
+
+#: ../visualtour12.php:80
+msgid ""
+"Many of these new features were added for compatibility with PostgreSQL 9.0."
+msgstr ""
+"Wiele z tych nowych funkcji zostało dodanych dla zgodności z PostgreSQL 9.0."
+
+#: ../translation/howto.php:80
+msgid ""
+"Menu strings also contain hard coded shortcuts (Ctrl-X) or function keys "
+"(F5). These can be identified by a preceding \\t (tab). If appropriate, the "
+"modifier key name may be translated (Ctrl-), but the key combination must "
+"remain the same in all cases because the behaviour is hardcoded in the "
+"pgAdmin source."
+msgstr ""
+"Ciągi znaków menu zawierają również zakodowanego skróty (Ctrl-X) lub "
+"klawisze funkcyjne (F5). Te mogą być zidentyfikowane przez poprzedzające \\t "
+"(tabulacja). W razie potrzeby, nazwa klawisza modyfikującego może być "
+"tłumaczona (Ctrl-), ale kombinacja klawiszy musi pozostać taka sama we "
+"wszystkich przypadkach, ponieważ zachowanie jest ustalone w źródle pgAdmin."
+
+#: ../development/list.php:12 ../support/list.php:22
+#, php-format
+msgid ""
+"Messages sent to the list are archived at <a href=\"%s\">PostgreSQL</a> and  "
+"<a href=\"%s\">mail-archive.com</a>."
+msgstr ""
+"Wiadomości wysłane na listę są archiwizowane na <a href=\"%s\">PostgreSQL</a> "
+"i  <a href=\"%s\">mail-archive.com</a>."
+
+#: ../features.php:14
+msgid "Microsoft Windows &trade; 2000 and above"
+msgstr "Microsoft Windows &trade; 2000 i powyżej"
+
+#: ../visualtour.php:327
+msgid "Miscellanous"
+msgstr "Pozostałe"
+
+#: ../visualtour12.php:168
+msgid ""
+"Moreover, you don't have to name the index when you're connected to a 9.0 "
+"server. pgAdmin 1.12 offers that convenience, and PostgreSQL will autoname "
+"it."
+msgstr ""
+"Co więcej, nie trzeba do nazywać indeksu, gdy jest się podłączonym do "
+"serwera 9.0. pgAdmin 1.12 pozwala na to udogodnienie a PostgreSQL nazwie go "
+"automatycznie."
+
+#: ../translation/howto.php:82
+msgid ""
+"Most forms are not designed with resizing capabilities, because not only is "
+"this quite hard work but most dialogue contents aren't sizeable in a "
+"meaningful way anyway. The only resizing property dialogues are the "
+"function, view and rule property windows. Therefore, you may need to shrink "
+"the translated text to the English size. In general, we tried to leave "
+"enough space for translation texts, but if you believe there are certain "
+"places we should spend more space please let us know."
+msgstr ""
+"Większość formularzy nie została zaprojektowana z możliwością zmiany "
+"rozmiaru, ponieważ jest to nie tylko bardzo ciężka praca, ale większość "
+"zawartości okien nie jest rozszerzalna w znaczący sposób. Jedyne dialogi "
+"mające własności zmiany rozmiaru to okna właściwości widoku i reguły. "
+"Dlatego, być może trzeba będzie przyciąć przetłumaczony tekst do rozmiaru "
+"angielskiego oryginału. Ogólnie rzecz biorąc, staraliśmy się zostawić "
+"wystarczająco dużo miejsca na teksty tłumaczenia, ale jeśli uważasz, że są "
+"pewne miejsca, gdzie warto dodać więcej miejsca, prosimy o kontakt."
+
+#: ../screenshots/menu.php:10
+msgid "Multibyte &amp; i18n"
+msgstr "Wielobajtowy &amp; i18n"
+
+#: ../screenshots/mb_i18n.php:8
+msgid "Multibyte and i18n"
+msgstr "Wielobajtowy and i18n"
+
+#: ../features.php:97
+msgid "Multibyte support"
+msgstr "Obsługa wielobajtowości"
+
+#: ../features.php:36
+msgid "Multilingual interface"
+msgstr "Interfejs wielojęzyczny"
+
+#: ../features.php:12
+msgid "Multiplatform"
+msgstr "Wieloplatformowość"
+
+#: ../features.php:43
+msgid "Native PostgreSQL acccess (no ODBC layer needed)"
+msgstr "Natywny dostęp PostgreSQL (niepotrzebna warstwa ODBC)"
+
+#: ../visualtour.php:156
+msgid ""
+"New features have been added to this dialog for 8.4: support for changing "
+"the\n"
+"  tablespace of an existing database, support for renaming an opened\n"
+"  database, support for per-database collation, character type and "
+"connection\n"
+"  limits."
+msgstr ""
+"Nowe cechy zostały dodane do tego dialogu dla 8.4: obsługi zmiany "
+"przestrzeni\n"
+"  tabel istniejącej bazy danych, obsługa zmiany nazwy otwartej bazy danych,\n"
+"  obsługa porównań dla tabel, zestawu znaków i ograniczeń połączeń."
+
+#: ../development/roadmap.php:32
+msgid "New options dialog [GL]"
+msgstr "Nowe okno dialogowe opcji [GL]"
+
+#: ../visualtour14.php:114
+msgid ""
+"New properties are available, all connection parameters. The first tab shows "
+"the service textbox. Here you can specify the name of a service configured "
+"in your pg_service.conf file (see http://www.postgresql.org/docs/9.0/"
+"interactive/libpq-pgservice.html for details):"
+msgstr ""
+"Dostępne są nowe właściwości, wszystkie parametry połączenia. Pierwsza "
+"zakładka pokazuje pole tekstowe usługi. Tu można wskazać nazwę usługi "
+"ustawioną w pliku pg_service.conf (przejrzyj "
+"http://www.postgresql.org/docs/9.0/interactive/libpq-pgservice.html by "
+"poznać szczegóły):"
+
+#: ../visualtour12.php:60
+msgid ""
+"New scripts have been added : SELECT for functions, and EXEC for procedures "
+"(in EnterpriseDB's Postgres Plus Advanced Server)."
+msgstr ""
+"Zostały dodane nowe skrypty : SELECT dla funkcji i EXEC dla procedur (w "
+"EnterpriseDB's Postgres Plus Advanced Server)."
+
+#: ../visualtour12.php:162
+msgid ""
+"No one could change the operator class with pgAmin's UI because it lacked "
+"this information. This has changed with 1.12. A new combobox is included in "
+"the index properties dialog."
+msgstr ""
+"Nikt nie mógł zmienić klasy operatora w interfejsie pgAmina ponieważ "
+"brakowało tej informacji. Zmieniono to w 1.12. Nowe pole kombo zostało "
+"dołączone do okna właściwości indeksu."
+
+#: ../download/windows.php:14
+#, php-format
+msgid ""
+"Note that the <a href=\"%s\">EnterpriseDB</a> distribution of PostgreSQL for "
+"Windows includes a bundled copy of pgAdmin."
+msgstr ""
+"Zauważ, że dystrybucja <a href=\"%s\">EnterpriseDB</a> PostgreSQL dla Windows "
+"zawiera spakowaną kopię pgAdmina."
+
+#: ../download/adminpacks.php:18
+msgid ""
+"Note: PostgreSQL 8.2 and above include the adminpack as a Contrib module."
+msgstr "Uwawaga: PostgreSQL 8.2 i powyżej zawiera adminpack jako moduł contrib."
+
+#: ../visualtour12.php:29 ../visualtour14.php:35 ../visualtour.php:61
+msgid "Object browser"
+msgstr "Przeglądarka obiektów"
+
+#: ../visualtour12.php:77 ../visualtour14.php:105 ../visualtour.php:99
+msgid "Object properties"
+msgstr "Właściwości obiektu"
+
+#: ../features.php:59
+msgid ""
+"Objects are displayed with their SQL definition, and a user friendly list of "
+"properties. Dependent, and dependency objects may also be browsed, and "
+"object statistics viewed where appropriate."
+msgstr ""
+"Obiekty są wyświetlane wraz z ich definicją SQL i przyjazna dla użytkownika "
+"lista właściwości. Przeglądane mogą być również obiekty zależne i powiązane, "
+"a statystyki widoczne kiedy potrzeba."
+
+#: ../visualtour12.php:136
+msgid ""
+"On Greenplum database, the table's properties dialog also shows the "
+"partition name."
+msgstr ""
+"Dla bazy danych Greenplum okno właściwości tabeli pokazuje również nazwę "
+"partycji."
+
+#: ../visualtour12.php:26
+msgid ""
+"On PostgreSQL 9.0, a new connection parameter is available. pgAdmin uses it "
+"to tell which tool uses which connection. An administrator looking at the "
+"pg_stat_activity catalog or launching the server status window will "
+"understand quickly which connections are used by a pgAdmin application, and "
+"by which pgAdmin tool."
+msgstr ""
+"Od PostgreSQL 9.0 jest dostępny nowy parametr połączenia. pgAdmin używa go "
+"do wskazania, jakie narzędzie używa którego połączenia. Administrator "
+"patrzący na katalog pg_stat_activity lub uruchamiając okno stanu serwera "
+"szybko zrozumie, które połączenia są wykorzystywane przez aplikację pgAdmin "
+"oraz przez które narzędzie pgAdmin."
+
+#: ../download/ubuntu.php:22
+#, php-format
+msgid ""
+"Once the key added, you need to choose a mirror from the list of <a href=\"%s"
+"\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the "
+"flags, and copy the URL you are redirected to. On each mirror, the packages "
+"are located in: <i>/pgadmin3/release/ubuntu</i>"
+msgstr ""
+"Gdy już klucz zostanie dodany, należy wybrać mirror z listy <a href=\"%"
+"s\">mirrorów PostgreSQL</a> i skonfigurować plik sources.list. Kliknij na "
+"jedną z flag i skopiuj adres URL, do którego prowadzi przekierowanie. "
+"Pakiety na każdym serwerze kopii są umieszczone w: "
+"<i>/pgadmin3/release/ubuntu</i>"
+
+#: ../visualtour12.php:268
+msgid ""
+"Once you've selected a dump file, the \"View\" button will be enabled. Once "
+"clicked, the \"Objects\" tab will display all the objects available in the "
+"dump file. You'll have the possibility to select all the objects you want to "
+"restore. All the others will be ignored."
+msgstr ""
+"Po wybraniu pliku zrzutu, przycisk \"Widok\" staje się aktywny. Po kliknięciu "
+"go, na zakładce \"Obiekty\" pojawią się wszystkie obiekty w pliku zrzutu. "
+"Będziesz miał możliwość wyboru obiektów, które chcesz przywrócić. Wszystkie "
+"inne będą ignorowane."
+
+#: ../visualtour.php:225
+msgid "One can now change a <b>language's owner</b>."
+msgstr "Można teraz zmienić <b>właściciela języka</b>."
+
+#: ../visualtour14.php:379
+msgid ""
+"One of the neat things with the extension feature is that it's really easy "
+"to get a list of the available extension, and to install one. That helped us "
+"to get rid of an annoying requirement to get full power on your PostgreSQL "
+"servers. With pgAdmin, you may need to install the adminpack contrib module "
+"(which is now called an extension). pgAdmin 1.14 detects the fact that the "
+"extension is not installed but that it is available. So, with the hint "
+"displayed, you now get a new \"Fix it\" button, which, once clicked, asks "
+"pgAdmin to automatically install the extension:"
+msgstr ""
+"Jedną z najprzyjemniejszych rzeczy w funkcjonalności rozszerzenia jest to, "
+"że bardzo łatwo uzyskać listę dostępnych rozszerzeń, i zainstalować któreś z "
+"nich. Umożliwia nam to pozbycie się irytującego wymagania, aby zużywać "
+"pełną moc na serwerach PostgreSQL. Z pgAdmin, być może należy zainstalować "
+"moduł contrib adminpack (który obecnie nazywa się rozszerzeniem). pgAdmin "
+"1.14 wykrywa fakt, że rozszerzenie nie jest zainstalowane, ale że jest ono "
+"dostępne. Przy tym, podczas wyświetlania podpowiedzi pojawia się nowy "
+"przycisk \"Napraw to\", po kliknięciu którego pgAdmin zgłasza żądanie "
+"automatycznego zainstalowania rozszerzenia:"
+
+#: ../visualtour14.php:335
+msgid ""
+"One often requested feature is the ability to disable the Unicode BOM when "
+"writing SQL files. It's now available in the options window:"
+msgstr ""
+"Często wymagane cechą jest możliwość wyłączenia unikodowego BOMu podczas "
+"zapisywania plików SQL. Teraz jest to dostępne w oknie opcji:"
+
+#: ../visualtour.php:114
+msgid ""
+"Only the function dialog was resizable. With 1.10, <b>each property dialog "
+"is\n"
+"  resizable</b>:"
+msgstr ""
+"Można było zmieniać rozmiar tylko okna dialogowego funkcji. Od 1.10 <b>każde\n"
+"  okno właściwości jest rozszerzalne</b>:"
+
+#: ../advocacy/information.php:32
+msgid ""
+"Open Source administration and management tools for the PostgreSQL database "
+"and derivative products such as EnterpriseDB Postgres Plus Advanced Server "
+"and Greenplum Database. Includes a graphical administration interface, an "
+"SQL query tool with grahical EXPLAIN, a procedural code editor, an SQL/shell/"
+"batch scheduling agent, Slony-I management and much more. pgAdmin is "
+"designed to answer the needs of most users, from writing simple SQL queries "
+"to developing complex databases. The graphical interface supports all "
+"PostgreSQL features and makes administration easy. Available in more than a "
+"dozen languages and for several operating systems, including Microsoft "
+"Windows &trade;, Linux, FreeBSD, Mac OSX and Solaris."
+msgstr ""
+"OpenSursowe narzędzia do administracji i zarządzania bazą danych PostgreSQL "
+"oraz produkty pochodne takie jak EnterpriseDB Postgres Plus Advanced Server "
+"i baza danych Greenplum. Zawierają graficzny interfejs zarządzania, "
+"narzędzie kwerend SQL z graficznym EXPLAIN, edytor kodu proceduralnego, "
+"agent planowania SQL/powłoki/wsadowego, zarządzanie Slony-I i wiele innych. "
+"pgAdmin został zaprojektowany jako odpowiedź na potrzeby większości "
+"użytkowników, wspomagając począwszy od pisania prostych zapytań SQL do "
+"tworzenia złożonych baz danych. Interfejs graficzny obsługuje wszystkie "
+"funkcje PostgreSQL ułatwiając zarządzanie nimi. Jest dostępny w kilkunastu "
+"językach i dla kilku systemów operacyjnych, w tym Microsoft Windows &trade;, "
+"Linux, FreeBSD, Mac OSX i Solaris."
+
+#: ../advocacy/information.php:26
+msgid ""
+"Open Source administration and management tools for the PostgreSQL database. "
+"Includes a graphical administration interface, an SQL query tool, a "
+"procedural code editor and much more. Designed to answer the needs of most "
+"users."
+msgstr ""
+"OpenSursowe narzędzia do administracji i zarządzania bazą danych PostgreSQL. "
+"Posiadają graficzny interfejs zarządzania, narzędzie kwerend SQL, edytor "
+"kodu proceduralnego i wiele innych. Zaprojektowane jako odpowiedź na "
+"potrzeby większości użytkowników."
+
+#: ../advocacy/information.php:29
+msgid ""
+"Open Source administration and management tools for the PostgreSQL database. "
+"Includes a graphical administration interface, an SQL query tool, a "
+"procedural code editor and much more. pgAdmin is designed to answer the "
+"needs of most users, from writing simple SQL queries to developing complex "
+"databases. Available in more than a dozen languages and for most common "
+"operating systems."
+msgstr ""
+"OpenSursowe narzędzia do administracji i zarządzania bazą danych PostgreSQL. "
+"Posiadają graficzny interfejs zarządzania, narzędzie kwerend SQL, edytor "
+"kodu proceduralnego i wiele innych. pgAdmin został zaprojektowane jako "
+"odpowiedź na potrzeby większości użytkowników, wspomagając począwszy od "
+"pisania prostych zapytań SQL do tworzenia złożonych baz danych. Dost‎ępny w "
+"kilkunastu językach i dla większości popularnych systemów operacyjnych."
+
+#: ../advocacy/information.php:23
+msgid ""
+"Open Source management and administration tools for the PostgreSQL database."
+msgstr ""
+"OpenSursowe narzędzia do administracji i zarządzania bazą danych PostgreSQL."
+
+#: ../download/menu.php:10 ../download/opensuse.php:8
+msgid "OpenSUSE"
+msgstr "OpenSUSE"
+
+#: ../download/opensuse.php:12
+msgid ""
+"OpenSUSE packages built on a server periodically updated to -current are "
+"available for download. These builds should run on most recent versions of "
+"OpenSUSE."
+msgstr ""
+"Są dostępne do pobrania pakiety OpenSUSE budowane na serwerze okresowo "
+"aktualizowane do -current. Te kompilacje powinny działać na najnowszych "
+"wersjach OpenSUSE."
+
+#: ../features.php:77
+msgid "Operator classes"
+msgstr "Klasy operatora"
+
+#: ../features.php:78
+msgid "Operator families"
+msgstr "Rodziny operatora"
+
+#: ../features.php:79
+msgid "Operators"
+msgstr "Operatory"
+
+#: ../visualtour.php:330
+msgid "Other more minor changes in v1.10 include:"
+msgstr "Inne, drobniejsze zmiany w wersji 1.10 to:"
+
+#: ../visualtour.php:280
+msgid ""
+"Other than the Graphical Query Builder and the pgScript scripting "
+"framework,\n"
+"  the Query Tool adds options to shift selected text to upper or lower case "
+"in\n"
+"  the SQL editor, adds block indenting and outdenting, prevents the auto\n"
+"  complete being used while a query is running and adds block\n"
+"  commenting and uncommenting to the SQL editor."
+msgstr ""
+"Inaczej niż w Graficznym Kreatorze Zapytań i środowisku skryptowym pgScript,\n"
+"   Narzędzie Zapytania dodaje opcje zmiany zaznaczonego tekstu na małe albo "
+"duże\n"
+"   litery w edytorze SQL, dodaje wcięcia i wysunięcia bloku, zapobiega auto-\n"
+"   uzupełnianiu podczas wykonywania kwerendy oraz dodaje i usuwa bloki\n"
+"   komentarzA do edytora SQL."
+
+#: ../visualtour.php:321
+msgid ""
+"Other work happened on this window. A 'Blocked By' column appears to show "
+"if\n"
+"  a transaction is blocked by another process. One can launch pgAdmin\n"
+"  to only show the Server Status window, with the -S and -Sc command line\n"
+"  options."
+msgstr ""
+"W tym oknie wykonuje się inne działanie. Kolumna 'Zablokowane przez' pojawi "
+"się\n"
+"  by pokazać, że transakcja jest zablokowana przez inny proces. Można "
+"uruchomić\n"
+"  pgAdmin tylko by pokazać okno Stanu Serwera, z opcjami -S i-Sc linii "
+"poleceń."
+
+#: ../translation/status.php:45
+#, php-format
+msgid "Out of date translations (%d)"
+msgstr "Tłumaczenia nieaktualne (%d)"
+
+#: ../features.php:38
+#, php-format
+msgid ""
+"Over 12 supported translations. A detailed list of supported languages is "
+"available on the <a href=\"%s\">translation status</a> page."
+msgstr ""
+"Ponad 12 obsługiwanych tłumaczeń. Dokładna lista obsługiwanych języków jest "
+"dostępna na stronie <a href=\"%s\">stanu tłumaczeń</a>."
+
+#: ../download/solaris.php:12
+msgid ""
+"Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
+"Microsystems."
+msgstr ""
+"Pakiety kompilowane dla Solaris na Sparc i Intel są dostępne, dzięki "
+"uprzejmości firmy Sun Microsystems."
+
+#: ../visualtour12.php:20
+msgid ""
+"People using pgAdmin on WLAN and other unreliable connections may have "
+"suffered from disconnections being poorly handled in pgAdmin. On the "
+"browser, pgAdmin is now able to detect a disconnection and asks the user if "
+"he wants to reconnect."
+msgstr ""
+"Osoby korzystające z pgAdmin na WLAN i innych zawodnych połączeniach może "
+"cierpią z powodu rozłączeń źle obsługiwanych przez pgAdmin. Podczas "
+"przeglądania pgAdmin jest w stanie wykryć rozłączenie i pyta użytkownika, "
+"czy chce je ponowić."
+
+#: ../privacypolicy.php:14
+msgid "Personal data"
+msgstr "Dane osobiste"
+
+#: ../support/list.php:24
+msgid ""
+"Please <b>do not</b> send an email directly to one of the programmers; they "
+"might miss it, or even be the wrong person at all. Using the mailing list "
+"guarantees that your request isn't lost and will be answered in a timely "
+"fashion."
+msgstr ""
+"Prosimy <b>nie</b> wysyłaj e-maili bezpośrednio do jednego z programistów, "
+"może on go przegapić, lub nawet być w ogóle niewłaściwą osobą. Korzystanie z "
+"listy gwarantuje, że prośba nie jest zagubiona i odpowiedź nastąpi w "
+"odpowiednim czasie."
+
+#: ../support/index.php:14
+#, php-format
+msgid ""
+"Please <b>do not</b> send an email directly to one of the programmers; they "
+"might miss it, or even be the wrong person at all. Using the mailing list "
+"guarantees that your request isn't lost and will be answered in a timely "
+"fashion. Dave Page's <a href=\"%s\">blog</a> includes a frank posting "
+"describing why this is a bad idea, whilst Eric Raymond's paper <a href=\"%s"
+"\">'How to ask questions the smart way'</a> describes the best way to get "
+"the help you need."
+msgstr ""
+"Prosimy <b>nie</b> wysyłaj e-maili bezpośrednio do jednego z programistów, "
+"może on go przegapić, lub nawet być w ogóle niewłaściwą osobą. Korzystanie z "
+"listy gwarantuje, że prośba nie jest zagubiona i odpowiedź nastąpi w "
+"odpowiednim czasie. <a href=\"%s\">Blog</a> Dave'a Page zawiera szczery "
+"komentarz opisujący, dlaczego jest to zły pomysł, zaś pismo Erica Raymonda "
+"<a href=\"%s\">'Jak zadawać pytania w inteligentny sposób'</a> opisuje "
+"najlepszą drogę, aby uzyskać potrzebną pomoc."
+
+#: ../advocacy/strategy.php:19
+msgid ""
+"Please note that the official spelling is <b>pgAdmin</b>. For filename or "
+"other canonical purposes, the spelling <b>pgadmin</b> or <b>pgadmin3</b> is "
+"used (though the former is now preferred)."
+msgstr ""
+"Należy pamiętać, że oficjalną pisownią jest <b>pgAdmin</b>. Do pliku lub "
+"innych celów kanonicznych używa się pisowni <b>pgadmin</b> lub "
+"<b>pgadmin3</b> (choć obecnie jest preferowana ta pierwsza)."
+
+#: ../translation/howto.php:35
+#, php-format
+msgid ""
+"Please refer to the translation guidelines below to translate variables (%s "
+"and %d) and keyboard shortcuts entries (&amp;)."
+msgstr ""
+"Zapoznaj się z wytycznymi odnośnie tłumaczenie poniżej, aby przetłumaczyć "
+"zmienne (%s i %d) oraz zapisy skrótów klawiaturowych (&amp;)."
+
+#: ../download/ubuntu.php:54
+msgid ""
+"Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as "
+"wxWidgets2.8 is available from universe only at the moment. To do so, check "
+"the Ubuntu documentation or at least try to launch the update-manager "
+"configuration from the System/Administration Gnome menu."
+msgstr ""
+"Proszę pamiętać, że dodatkowo należy WŁĄCZYĆ SKŁADNIK ŚWIATA ZEWNĘTRZNEGO "
+"jako że wxWidgets2.8 dostępne jest tylko z zewnątrz na chwilę obecną. Aby to "
+"zrobić, sprawdź w dokumentacji Ubuntu lub przynajmniej spróbować uruchomić "
+"konfigurację menadżera aktualizacji z menu System/Administracja Gnome."
+
+#: ../visualtour.php:254
+msgid "Plugins menu"
+msgstr "Menu wtyczek"
+
+#: ../features.php:23
+msgid "PostgreSQL 7.3 and above"
+msgstr "PostgreSQL 7.3 i powyżej"
+
+#: ../visualtour12.php:86
+msgid ""
+"PostgreSQL 9.0 adds Hot Standby and Streaming Replication features, which "
+"mean that a user can connect to a slave in read-only mode and that the "
+"packets sent will usually be less than a complete WAL file. pgAdmin gives "
+"you some information about the status of the server you selected: Is it in "
+"recovery? Does it lag on transaction replay? They are all seen in the "
+"properties tab of the server."
+msgstr ""
+"PostgreSQL 9.0 dodaje funkcje Rezerwy Dynamicznej i Replikacji "
+"Strumieniowej, co oznacza, że użytkownik może połączyć się serwerem "
+"podrzędnym w trybie tylko do odczytu i że pakietów wysyłanych będzie zwykle "
+"mniej niż dla pełnego pliku WAL. pgAdmin daje pewne informacje o stanie "
+"wybranego serwera: Czy jest w trakcie odtwarzania? Czy powoduje opóźnienia "
+"podczas powtórki transakcji? Są one widoczne w zakładce właściwości serwera."
+
+#: ../visualtour12.php:204
+msgid ""
+"PostgreSQL 9.0 allows a user to set specific settings within a tablespace. "
+"The tablespace properties dialog has been reworked so that one can add these "
+"settings via a new \"Variables\" tab."
+msgstr ""
+"PostgreSQL 9.0 pozwala użytkownikowi na określanie konkretnych ustawień dla "
+"przestrzeni tabel. Okno właściwości przestrzeni tabel zostało przerobione "
+"tak, by można dodać te ustawienia za pomocą nowej zakładki \"Zmienne\"."
+
+#: ../visualtour12.php:124
+msgid ""
+"PostgreSQL 9.0 also adds default privileges. They are available at database "
+"and schema level. The database properties dialog displays a new tab, "
+"\"Default Privileges\" which allows you to define these new privileges for "
+"tables, sequences, and functions."
+msgstr ""
+"PostgreSQL 9.0 dodaje także uprawnienia domyślne. Są one dostępne na "
+"poziomie schematu bazy danych. Okno dialogowe właściwości bazy danych "
+"wyświetla nową kartę, \"Uprawnienia Domyślne\", która pozwala na zdefiniowanie "
+"nowych uprawnień do tabel, sekwencji i funkcji."
+
+#: ../visualtour12.php:114
+msgid ""
+"PostgreSQL 9.0 handles specific settings for user/database pairs. pgAdmin "
+"1.12 supports this with a modified \"Variables\" tab for database and user "
+"objects."
+msgstr ""
+"PostgreSQL 9.0 obsługuje ustawienia specyficzne dla par użytkownik/baza "
+"danych. pgAdmin 1.12 wspiera to zmodyfikowaną kartą \"Zmienne\" dla obiektów "
+"bazy danych i użytkownika."
+
+#: ../development/roadmap.php:13
+msgid "PostgreSQL compatibility"
+msgstr "Zgodność PostgreSQL"
+
+#: ../features.php:32
+msgid "PostgreSQL documentation (on-line and off-line)"
+msgstr "Dokumentacja PostgreSQL (sieciowa i lokalna)"
+
+#: ../features.php:81
+msgid "PostgreSQL servers"
+msgstr "Serwery PostgreSQL"
+
+#: ../features.php:24
+msgid "Postgres Plus Advanced Server"
+msgstr "Postgres Plus Advanced Server"
+
+#: ../features.php:82
+msgid ""
+"Postgres Plus Advanced Server objects (such as packages, procedures, "
+"synonyms)"
+msgstr ""
+"Obiekty Postgres Plus Advanced Server (takie jak pakiety, procedury, "
+"synonimy)"
+
+#: ../features.php:44
+msgid "Powerful query tool with colour syntax highlighting"
+msgstr "Potężne narzędzie zapytania z kolorowym podświetlaniem składni"
+
+#: ../visualtour14.php:48
+msgid ""
+"Previous releases already displayed servers and databases in two different "
+"ways, connected and disconnected."
+msgstr ""
+"Poprzednie wydania już wyświetlały podłączone i odłączone serwery i bazy "
+"danych na dwa różne sposoby."
+
+#: ../visualtour14.php:220
+msgid ""
+"Primary keys and unique constraints can be added by selecting an existing "
+"unique index:"
+msgstr ""
+"Klucze podstawowe i ograniczenia unikalne można dodać wybierając istniejący "
+"indeks unikalny:"
+
+#: ../visualtour12.php:148
+msgid ""
+"Primary keys and unique indexes can now be defined as deferrable and "
+"deffered constraints. So, there are two new checkboxes to set these options."
+msgstr ""
+"Klucze podstawowe i indeksy unikatowe można teraz zdefiniować jako "
+"ograniczenia odraczalne i odroczone. Są zatem dwa nowe pola wyboru, aby "
+"ustawić te opcje."
+
+#: ../menu.php:13 ../privacypolicy.php:8
+msgid "Privacy policy"
+msgstr "Polityka prywatności"
+
+#: ../download/ubuntu.php:57
+msgid "Proceed to installation"
+msgstr "Przejdź do instalacji"
+
+#: ../advocacy/index.php:12
+msgid ""
+"Promotion is essential for the life and development of the pgAdmin project. "
+"As the project gains more and more users it attracts additional developers "
+"who contribute new features and bug fixes and helping improve pgAdmin to the "
+"benefit of all it's users. As the project has grown even more popular, it "
+"has attracted the attention of PostgreSQL companies in addition to the "
+"users. Some of these companies have invested in the development of pgAdmin - "
+"for example, a Japanese company called <a href=\"http://www.skcapi.co.jp/"
+"\">SKC</a> sponsored the development of the Slony-I management features, "
+"whilst <a href=\"http://www.enterprisedb.com\">EnterpriseDB</a> provided an "
+"Apple Powerbook to allow the Mac OSX port to be properly developed and "
+"maintained."
+msgstr ""
+"Promocja jest niezbędna dla życia i rozwoju projektu pgAdmin. Podczas gdy "
+"projekt zyskuje coraz więcej użytkowników, przyciąga dodatkowych "
+"programistów, którzy dołączają nowe funkcje i poprawki błędów oraz pomagają "
+"w poprawie pgAdmin z korzyścią dla wszystkich jego użytkowników. Ponieważ "
+"projekt stawał się jeszcze bardziej popularny, przyciągnął poza "
+"użytkownikami uwagę firm PostgreSQL. Niektóre z tych firm zainwestowały w "
+"rozwój pgAdmin - na przykład japońska firma o nazwie <a "
+"href=\"http://www.skcapi.co.jp/\">SKC</a> sponsoruje rozwój funkcji "
+"zarządzania Slony-I, podczas gdy <a "
+"href=\"http://www.enterprisedb.com\">EnterpriseDB</a> dostarczyła Apple "
+"Powerbook, aby umożliwić właściwy rozwój i utrzymywanie portu Mac OSX."
+
+#: ../translation/status.php:33
+#, php-format
+msgid "Published translations (%d)"
+msgstr "Opublikowane tłumaczenia (%d)"
+
+#: ../visualtour.php:277
+msgid "Query Tool"
+msgstr "Narzędzie Zapytania"
+
+#: ../visualtour12.php:283 ../visualtour14.php:322
+msgid "Query tool"
+msgstr "Narzędzie zapytania"
+
+#: ../download/menu.php:11 ../download/rpm.php:8
+msgid "RPM"
+msgstr "RPM"
+
+#: ../download/rpm.php:14
+msgid ""
+"RPMs for older versions of pgAdmin are available from the pgAdmin download "
+"sites:"
+msgstr ""
+"RPMy dla starszych wersji pgAdmin są dostępne ze stron pobierania pgAdmin:"
+
+#: ../development/roadmap.php:35
+msgid ""
+"Redesign Table dialogue to remove sub-dialogues where possible and replace "
+"with grid style UI [GL]"
+msgstr ""
+"Przeprojektowanie dialogu Tabeli, aby usunąć w miarę możliwości pod-dialogi "
+"i zastąpić styl siatki UI [GL]"
+
+#: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
+#: ../docs/menu.php:11 ../docs/menu.php:12 ../docs/menu.php:13
+#, php-format
+msgid "Release %s"
+msgstr "Wydanie %s"
+
+#: ../visualtour.php:334
+msgid "Remove an obsolete FORCE option on the Maintenance dialogue"
+msgstr "Usunięcie przestarzałej opcji FORCE w oknie Porządkowanie"
+
+#: ../visualtour.php:361
+msgid "Remove the un-maintained Tip of the Day feature"
+msgstr "Usunięcie nieutrzymywanej funkcji Porada Dnia"
+
+#: ../visualtour.php:366
+msgid ""
+"Restore old behaviour of the Edit Grid where &lt;return&gt; moves to\n"
+"    the next column, but &lt;enter&gt; moves to the next row rather than "
+"both\n"
+"    changing column"
+msgstr ""
+"Przywrócenie starego zachowania Edycji Siatki, gdzie &lt;return&gt; przenosi "
+"do\n"
+"    następnej kolumny, zaś &lt;enter&gt; przesuwa kursor do następnego "
+"wiersza,\n"
+"    zamiast wykonania przejść między kolumnami dal obu klawiszy"
+
+#: ../visualtour.php:347
+msgid "Reverse engineer multi-word type names correctly when quoting"
+msgstr ""
+"Poprawne rozwiązywanie wielowyrazowych nazw typów w inżynierii wstecznej\n"
+"   przy stosowaniu cytowania"
+
+#: ../translation/howto.php:47
+msgid "Review your translation carefully:"
+msgstr "Przejrzyj dokładnie swoje tłumaczenie:"
+
+#: ../development/menu.php:14 ../development/roadmap.php:8
+msgid "Roadmap"
+msgstr "Mapa drogowa"
+
+#: ../visualtour14.php:314
+msgid "Role"
+msgstr "Rola"
+
+#: ../visualtour.php:230
+msgid "Role properties"
+msgstr "Właściwości roli"
+
+#: ../features.php:83
+msgid "Roles"
+msgstr "Role"
+
+#: ../features.php:48
+msgid "Routine maintenance"
+msgstr "Nadzór nad podprogramami"
+
+#: ../features.php:84
+msgid "Rules"
+msgstr "Reguły"
+
+#: ../download/debian.php:32
+msgid "Run the following commands as <i>root</i> to install pgAdmin III"
+msgstr ""
+"Wykonaj następujące polecenia jako <i>root</i> by zainstalować pgAdmin III"
+
+#: ../visualtour14.php:287
+msgid "SQL/Med objects"
+msgstr "Obiekty SQL/Med"
+
+#: ../features.php:55
+msgid "SQL/shell/batch job scheduling agent"
+msgstr "Agent planowania SQL/powłoki/wsadowego"
+
+#: ../features.php:100
+msgid "SQL_ASCII"
+msgstr "SQL_ASCII"
+
+#: ../include/page.php:114
+msgid "Salvatorian"
+msgstr "Salwatorian"
+
+#: ../visualtour.php:339
+msgid ""
+"Save and restore the user-selected line ending type in styled text\n"
+"    controls"
+msgstr ""
+"Zapis i odtworzenie wybranych przez użytkownika zakończeń linii\n"
+"    w formantach formatowanego tekstu"
+
+#: ../visualtour12.php:209
+msgid "Schema properties"
+msgstr "Właściwości schematu"
+
+#: ../features.php:85
+msgid "Schemas"
+msgstr "Schematy"
+
+#: ../include/page.php:130
+msgid "Screenshots"
+msgstr "Zrzuty Ekranu"
+
+#: ../translation/howto.php:23
+#, php-format
+msgid ""
+"Send us the English and translated names of your language: 'French' and "
+"'Fran&ccedil;ais', 'German' and 'Deutsch', etc. This will allow us to modify "
+"pgAdmin's <i>i18n/pgadmin3.lng</i> file to display the language properly in "
+"the application. We will also create a directory according to your locale "
+"canonical name under <i>/usr/share/pgadmin3/i18n</i> (Linux and other "
+"Unixes) or <i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i> (Windows). The "
+"list of language codes can be found on the <a href=\"%s\">Debian site</a>. "
+"You may also want to check the more detailed <a href=\"%s\">ISO 639.2 Codes "
+"for the Representation of Names of Languages</a>."
+msgstr ""
+"Wyślij nam angielską i przetłumaczoną nazwę jezya: 'French' i "
+"'Fran&ccedil;ais', 'German' i 'Deutsch', itp. To pozwoli nam zmienić plik "
+"pgAdmin <i>i18n/pgadmin3.lng</i>, aby prawidłowo wyświetlić język w "
+"aplikacji. Będziemy również tworzyć katalog w zależności od lokalizacji "
+"nazwy kanonicznej w <i>/usr/share/pgadmin3/i18n</i> (Linux i inne Unixy) lub "
+"<i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n</i> (Windows). Listy kodów języków "
+"można znaleźć na <a href=\"%s\">stronie Debiana</a>. Możesz również sprawdzić "
+"bardziej szczegółowo <a href=\"%s\">kody ISO 639.2 dla przedstawienia nazw "
+"języków</a>."
+
+#: ../features.php:86
+msgid "Sequences"
+msgstr "Sekwencje"
+
+#: ../visualtour14.php:111
+msgid "Server"
+msgstr "Serwer"
+
+#: ../visualtour.php:303
+msgid "Server Status"
+msgstr "Status Serwera"
+
+#: ../visualtour14.php:366
+msgid "Server Status tool"
+msgstr "Narzędzie Statusu serwera"
+
+#: ../visualtour12.php:83 ../visualtour.php:137
+msgid "Server properties"
+msgstr "Właściwości serwera"
+
+#: ../visualtour12.php:339 ../screenshots/menu.php:11
+#: ../screenshots/serverstatus.php:8
+msgid "Server status"
+msgstr "Status serwera"
+
+#: ../features.php:54
+msgid "Server status/process viewer"
+msgstr "Przeglądarka statusu/procesu serwera"
+
+#: ../features.php:87
+msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
+msgstr "Języki strony serwera (np. pl/pgsql, pl/perl, pl/python, itd.)"
+
+#: ../include/page.php:115
+msgid "Simplified Chinese"
+msgstr "Chiński uproszczony"
+
+#: ../download/ubuntu.php:59
+msgid ""
+"Simply use Synaptic to install pgAdmin as you would do with any other "
+"package or run the following command from the command prompt:"
+msgstr ""
+"Wystarczy użyć Synaptic by zainstalować pgAdmin jak to robisz z innymi "
+"pakietami lub uruchom następujące polecenie z wiersza poleceń:"
+
+#: ../download/menu.php:12 ../download/slackware.php:8
+msgid "Slackware"
+msgstr "Slackware"
+
+#: ../download/slackware.php:12
+msgid ""
+"Slackware packages built on a server periodically updated to -current are "
+"available for download. These builds should run on most recent versions of "
+"Slackware."
+msgstr ""
+"Są dostępne do pobrania pakiety Slackware budowane na serwerze okresowo "
+"aktualizowane do -current. Te kompilacje powinny działać na najnowszych "
+"wersjach Slackware."
+
+#: ../features.php:33
+msgid "Slony-I documentation"
+msgstr "Dokumentacja Slony-I"
+
+#: ../features.php:88
+msgid "Slony-I objects (such as nodes, clusters etc.)"
+msgstr "Obiekty Slony-I (takie jak węzły, klastry itp.)"
+
+#: ../download/menu.php:21 ../download/snapshots.php:8
+msgid "Snapshots"
+msgstr "Migawki"
+
+#: ../features.php:18 ../download/menu.php:13 ../download/solaris.php:8
+#: ../screenshots/index.php:25
+msgid "Solaris"
+msgstr "Solaris"
+
+#: ../translation/howto.php:76
+msgid ""
+"Some messages include %s or %d variables placeholders. During execution, %s "
+"will be replaced by a string and %d by a decimal number. Please take special "
+"care to include all %s and %d variable placeholders correctly, otherwise "
+"pgAdmin may crash. On some occasions, it might be necessary to reorder "
+"placeholders. In the following (ficticious) example, both parameter "
+"positions are exchanged: <i>Server %s user %s is logged in</i> could be "
+"translated as <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
+msgstr ""
+"Niektóre wiadomości zawierają symbole zastępcze %s lub %d. Podczas "
+"wykonywania %s zostaną zastąpione przez ciąg znaków a %d przez liczbę "
+"dziesiętną. Proszę zwrócić szczególną uwagę na by zawrzeć wszystkie symbole "
+"zastępcze %s i %d prawidłowo, w przeciwnym razie pgAdmin może ulec awarii. W "
+"niektórych przypadkach może być konieczna zmiana kolejności symboli "
+"zastępczych. W poniższym (fikcyjnym) przykładzie, obie pozycje parametrów są "
+"zamienione: <i>Server %s user %s is logged in</i> można przetłumaczyć jako "
+"<i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
+
+#: ../download/menu.php:14 ../download/source.php:8
+msgid "Source code"
+msgstr "Kod źródłowy"
+
+#: ../download/snapshots.php:10
+#, php-format
+msgid ""
+"Source tarballs and binary snapshots for a variety of platforms are built "
+"from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a less "
+"regular basis, following programming milestones."
+msgstr ""
+"Archiwa tar z kodem źródłowym i binarne migawki dla różnych platform są "
+"kompilowane <a href=\"%s\">linii głównej GIT</a> raz na dobę. Inne migawki są "
+"budowane w oparciu o mniej regularne, kolejne etapy kluczowe programowania."
+
+#: ../download/source.php:12
+msgid ""
+"Source tarballs are available for users wishing to compile their own copy of "
+"pgAdmin, or those using platforms for which we do not supply prebuilt "
+"packages."
+msgstr ""
+"Paczki z kodem źródłowym są dostępne dla użytkowników, którzy chcą "
+"skompilować własną kopię pgAdmina lub które korzystają z platform, dla "
+"których nie dostarczamy gotowych paczek."
+
+#: ../privacypolicy.php:10
+msgid "Standard logging"
+msgstr "Standardowe uzupełnianie dziennika"
+
+#: ../include/po_status.php:259 ../translation/menu.php:7
+#: ../translation/status.php:25
+msgid "Status"
+msgstr "Status"
+
+#: ../support/list.php:19
+msgid ""
+"Steps required to reproduce the problem. Please include a simple scheme with "
+"optional data if required. This may be sent privately <b>upon request from a "
+"developer</b> if you are concerned about posting sample code or data to a "
+"public mailing list."
+msgstr ""
+"Kroki wymagane do odtworzenia problemu. Prosimy podać prosty schemat z "
+"opcjonalnymi danymi jeśli są potrzebne. Mogą zostać wysyłane prywatnie <b>na "
+"wniosek jednego z deweloperów</b>, jeśli niepokoisz się wysyłaniem "
+"przykładowego kodu lub danych na publiczną listę."
+
+#: ../translation/howto.php:74
+msgid ""
+"Stick as much as possible to words which are close to the original SQL "
+"syntax. For example, in French, you may use <i>vue</i> for <i>view</i> "
+"because both words start with the letter 'v'. Do not choose distant words "
+"like <i>d&eacute;clencheur</i> for <i>trigger</i>, because some users may "
+"not be able to make a good use of the SQL syntax. Sometimes it is better to "
+"simply leave these keywords untranslated, instead of creating a fancy word "
+"nobody will recognise. Otherwise, users may switch to the English version."
+msgstr ""
+"Trzymać się jak tylko można słów, które są zbliżone do oryginalnej składni "
+"SQL. Na przykład, w języku francuskim, można użyć <i>vue</i> dla "
+"<i>view</i>, ponieważ oba słowa zaczynają się na literę 'v'. Nie wybieraj "
+"odległych słów takich jak <i>d&eacute;clencheur</i> dla <i>trigger</i>, "
+"ponieważ niektórzy użytkownicy mogą nie być w stanie dobre wykorzystać "
+"składni SQL. Czasami lepiej jest po prostu zostawić te słowa "
+"nieprzetłumaczone, zamiast tworzyć fantazyjne słowa, których nikt nie "
+"rozpozna. W przeciwnym razie użytkownicy mogą przejść do wersji angielskiej."
+
+#: ../advocacy/menu.php:7 ../advocacy/strategy.php:8
+msgid "Strategy"
+msgstr "Strategia"
+
+#: ../translation/howto.php:15
+#, php-format
+msgid ""
+"Subscribe to the <a href=\"%s\">pgadmin-hackers</a> mailing list and declare "
+"yourself as a translator by sending an email to the list. Upon receipt of "
+"your email, we will add you to the <a href=\"%s\">translator list</a> and "
+"make sure two translators do not work at the same time on the same language."
+msgstr ""
+"Zapisz się na listę dyskusyjną <a href=\"%s\">pgadmin-hackers</a> i zadeklaruj "
+"jako tłumacz wysyłając e-mail do listy. Po otrzymaniu wiadomości e-mail, "
+"dodamy Cię do <a href=\"%s\">listy tłumaczy</a>, upewnij się też, że dwóch "
+"tłumaczy, nie pracuje w tym samym czasie nad tym samym językiem."
+
+#: ../include/page.php:131
+msgid "Support"
+msgstr "Wsparcie techniczne"
+
+#: ../visualtour.php:216
+msgid ""
+"Support for <b>typmod in/out functions</b> on custom types is finally\n"
+"  available."
+msgstr ""
+"Obsługa <b>funkcji wejścia/wyjścia typmod</b> na typach użytkownika jest\n"
+"  wreszcie dostępna."
+
+#: ../screenshots/menu.php:12 ../screenshots/xgl.php:8
+msgid "Suse 10 XGL"
+msgstr "Suse 10 XGL"
+
+#: ../features.php:111
+msgid "TCVN"
+msgstr "TCVN"
+
+#: ../development/menu.php:12 ../development/todo.php:8
+msgid "TODO list"
+msgstr "Lista \"Do zrobienia\""
+
+#: ../visualtour14.php:171
+msgid "Table"
+msgstr "Tabela"
+
+#: ../visualtour12.php:129 ../visualtour.php:164
+msgid "Table properties"
+msgstr "Właściwości tabeli"
+
+#: ../features.php:89
+msgid "Tables"
+msgstr "Tabele"
+
+#: ../visualtour12.php:201
+msgid "Tablespace properties"
+msgstr "Właściwości przestrzeni tabel"
+
+#: ../features.php:90
+msgid "Tablespaces"
+msgstr "Przestrzenie tabel"
+
+#: ../visualtour14.php:40
+msgid ""
+"Tabs are handled differently. You can tear them whereever you want. You can "
+"have the statistics tab first, and then the other ones. But you can also see "
+"two tabs at the same time:"
+msgstr ""
+"Zakładki są obsługiwane w inny sposób. Można ustawiać je tam, gdzie chcesz. "
+"Możesz mieć jako pierwszą zakładkę statystyk, a potem pozostałe. Ale można "
+"też oglądać dwie zakładki w tym samym czasie:"
+
+#: ../development/menu.php:11
+msgid "Team"
+msgstr "Zespół"
+
+#: ../visualtour14.php:37
+msgid "Tearable tabsets"
+msgstr "Przesuwalne grupy zakładek"
+
+#: ../visualtour12.php:368
+msgid ""
+"The \"query tool\" has many more options. You can set the path to files "
+"containing favourites, macros and queries history. That enables you to share "
+"your favourites file, for example. There are also parameters for the queries "
+"history."
+msgstr ""
+"\"Narzędzie zapytania\" ma o wiele więcej opcji. Można ustawić ścieżkę do "
+"plików zawierających ulubione, makra i historię zapytań. Umożliwia to na "
+"przykład udostępnianie plików ulubionych. Istnieją również parametry "
+"zapytań."
+
+#: ../visualtour.php:249
+msgid "The --clean option is now supported."
+msgstr "Jest teraz obsługiwana opcja --clean."
+
+#: ../translation/howto.php:68
+#, php-format
+msgid ""
+"The <a href=\"%s\">pgadmin3.pot</a> template file contains many SQL keywords "
+"(like 'ACL', 'AFTER', 'ANALYSE', etc.) which should not be translated. Some "
+"translators pointed out this issue, which cannot be fixed at present. Here "
+"is a short explanation: The pgadmin3.pot template file is generated by the "
+"<a href=\"%s\">stringextract script</a>, which extracts text from XRC "
+"dialogues using a wxWidgets utility called 'wxrc'. The problem stems from "
+"wxrc, which extracts all text entries in dialogues even SQL entries which "
+"should not be translated."
+msgstr ""
+"Plik szablonu <a href=\"%s\">pgadmin3.pot</a> zawiera wiele słów kluczowych "
+"SQL (jak 'ACL', 'AFTER', 'ANALYSE' itp.), które nie powinny być tłumaczone. "
+"Niektórzy tłumacze zauważyli ten problem, który nie może być naprawiony w "
+"chwili obecnej. Oto krótkie wyjaśnienie: plik szablonu pgadmin3.pot jest "
+"generowany przez <a href=\"%s\">skrypt stringextract</a>, który pobiera tekst "
+"z dialogów XRC za pomocą narzędzia wxWidgets o nazwie 'wxrc'. Problem "
+"powstaje w wxrc, który wyciąga wszystkie wpisy tekstu dialogów nawet zapisy "
+"SQL, które nie powinny być tłumaczone."
+
+#: ../visualtour.php:30
+msgid ""
+"The <b>graphical query builder</b> (aka GQB) allows one to build a query\n"
+"  mainly with the mouse: dragging tables and views from the navigator to "
+"the\n"
+"  graphical pane, adding links between them, clicking on checkboxes to add\n"
+"  columns, adding criteria and setting the order of the results."
+msgstr ""
+"<b>Graficzny Konstruktor Zapytania</b> (aka GQB) pozwala zbudować zapytanie\n"
+"  głównie za pomocą myszy: przez przeciąganie tabel i widoków z nawigatora "
+"do\n"
+"  okienka graficznego, dodawanie powiązań między nimi, kliknięcie na pole \n"
+"  wyboru aby dodać kolumny, dodanie kryteriów i ustalanie kolejności "
+"wyników."
+
+#: ../visualtour14.php:347
+msgid ""
+"The Backup tool supports the new directory format. We also changed the OK "
+"button with a Backup one:"
+msgstr ""
+"Narzędzie Tworzenia Kopii Zapasowej obsługuje nowy format folderu. Zmienił "
+"się również przycisk OK z kopii zapasowej na Backup:"
+
+#: ../visualtour12.php:272
+msgid "The Backup window and the Restore window are now resizable."
+msgstr ""
+"Okno tworzenia kopii zapasowej i odtwarzania mogą teraz zmieniać rozmiar."
+
+#: ../visualtour12.php:326
+msgid ""
+"The EXPLAIN ANALYZE image can be exported as an image as can the graphical "
+"query canvas."
+msgstr ""
+"Obrazek EXPLAIN ANALYZE może być teraz wyeksportowany jak i obraz "
+"graficznego przedstawienia kwerendy."
+
+#: ../visualtour.php:290
+msgid "The Edit grid can now work with the type bit(x)."
+msgstr "Suiatka edycji może teraz pracować na typie bit(x)."
+
+#: ../support/faq.php:10
+#, php-format
+msgid ""
+"The Frequently Asked Questions (FAQ) document is a list of commonly asked "
+"questions and answers on pgAdmin. Please make sure you have reviewed the FAQ "
+"before asking for help on the <a href=\"%s\">pgsql-support</a> mailing list."
+msgstr ""
+"Dokument Najczęściej Zadawane Pytania (FAQ) zawiera listę najczęściej "
+"zadawanych pytań i odpowiedzi dotyczących pgAdmin. Upewnij się, że "
+"zapoznałeś się już się z FAQ przed wysłaniem prośby o pomoc na listę "
+"dyskusyjną <a href=\"%s\">pgsql-support</a>."
+
+#: ../visualtour14.php:353
+msgid ""
+"The OK button of the restore tool has also been changed with a Restore "
+"button."
+msgstr ""
+"Przycisk OK, w narzędziu przywracania również został zmieniony w przycisk "
+"Przywróć."
+
+#: ../support/list.php:18
+msgid ""
+"The PostgreSQL version and configure options used (if compiled from source)"
+msgstr ""
+"Wersję PostgreSQL i używane opcje konfiguracji (jeśli kompilowano ze źródeł)"
+
+#: ../visualtour12.php:286
+msgid ""
+"The Query Tool is probably the tool that received most of the work for this "
+"release."
+msgstr ""
+"Narzędzie Zapytania jest chyba narzędziem, które pochłonęło większość pracy "
+"tego wydania."
+
+#: ../development/todo.php:10
+#, php-format
+msgid ""
+"The TODO list is a record of potential changes to pgAdmin that have been "
+"noted by the developers over the years. If an item appears on the list it "
+"does not necessarily mean that it is or even will be worked on, just that "
+"someone thought it would be a good idea. If you want to work on an item, "
+"please email the <a href=\"%s\">pgadmin-hackers</a> list first."
+msgstr ""
+"Lista \"do zrobienia\" jest zapisem potencjalnych zmian pgAdmin, że zostały "
+"zauważone przez twórców na przestrzeni lat. To, że element znajduje się na "
+"liście nie musi oznaczać, że ktokolwiek będzie nad nim pracował, a tylko, że "
+"ktoś myślał, że to dobry pomysł. Jeśli chcesz pracować nad taką pozycją, "
+"wyślij pierwej e-mail na listę <a href=\"%s\">pgadmin-hackers</a>."
+
+#: ../download/adminpacks.php:10
+msgid ""
+"The admin packs to enable server instrumentation on PostgreSQL 8.x servers "
+"can be found in the <i>adminpacks</i> directory on the mirror network."
+msgstr ""
+"Pakiety administracyjne, umożliwiające oprzyrządowanie serwerów PostgreSQL "
+"8.x można znaleźć w folderze <i>adminpacks</i> w sieci mirrorów."
+
+#: ../visualtour14.php:136
+msgid ""
+"The behaviour of this properties dialog has also changed. Changes are now "
+"stored immediately rather than at program exit, which should help people to "
+"avoid losing their changes if the system crashes afterwards. If you are "
+"already connected to a server and are looking at its properties, all widgets "
+"are disabled in the server properties' dialog, so you won't be able to "
+"change a property."
+msgstr ""
+"Zachowanie tego okna właściwości zostało również zmienione. Zmiany są teraz "
+"zapisywane bezpośrednio, a nie przy wyjściu z programu, co powinno pomóc "
+"ludziom uniknąć utraty tych zmian, jeśli później nastąpi awaria systemu. "
+"Jeśli jesteś już podłączony do serwera i oglądasz jego właściwości, "
+"wszystkie widżety tego okna są wyłączone, więc nie będziesz mógł zmienić "
+"ustawień."
+
+#: ../visualtour12.php:54
+msgid ""
+"The browser allowed you to copy from the SQL pane, but not from the "
+"properties/statistics/dependencies/dependents tabs. This is possible with "
+"pgAdmin 1.12. You can select one or more lines (with the shift or control "
+"key in this case)."
+msgstr ""
+"Przeglądarka pozwalała kopiować z okienka SQL, ale nie z zakładek "
+"właściwości/statystyki/powiązania/zleżne. Jest to możliwe w pgAdmin 1.12. "
+"Można wybrać jeden lub więcej wierszy (z użyciem przycisku shift lub control "
+"w takim przypadku)."
+
+#: ../visualtour14.php:146
+msgid ""
+"The browser's statistics tab still displays a part of the contents of the "
+"pg_stat_activity view. If you're connected to a PostgreSQL 9.1 server, it "
+"also displays the new pg_stat_replication view:"
+msgstr ""
+"Zakładka statystyk przeglądarki nadal wyświetla część zawartości widoku "
+"pg_stat_activity. Jeśli jesteś podłączony do serwera PostgreSQL 9.1, "
+"wyświetla także nowy widok pg_stat_replication:"
+
+#: ../development/changelog.php:10
+#, php-format
+msgid ""
+"The change log is a record of the notable changes made to pgAdmin by the "
+"various developers. It is a manually maintained list, and as such may not "
+"include details of every minor change that has ever been made. If you need "
+"that level of detail, please check the commit messages in the <a href=\"%s"
+"\">GIT repository</a>."
+msgstr ""
+"Dzienniku zmian to zapis znaczących modyfikacji pgAdmina wykonanych przez "
+"poszczególnych deweloperów. Jest to ręcznie prowadzona lista i jako taka "
+"może nie zawierać szczegółowych informacji o każdej niewielkiej zmianie, "
+"jaka kiedykolwiek została wykonana. Jeśli trzebny jest taki ​​poziom "
+"szczegółowości, należy sprawdzić komunikaty zatwierdzeń w <a href=\"%"
+"s\">repozytorium GIT</a>."
+
+#: ../visualtour14.php:120
+msgid ""
+"The color widget changed a bit to show the actual selected color, and not "
+"its hexadecimal code. It should help people to really see how they "
+"configured the server's color."
+msgstr ""
+"Widżet kolor zmienił się nieco, aby pokazać próbkę wybranego koloru, a nie "
+"jego kod szesnastkowy. Powinno to pomóc ludziom zobaczyć, jak naprawdę "
+"skonfigurowali kolory serwera."
+
+#: ../visualtour14.php:206
+msgid ""
+"The column properties dialog also shows all available collations and allows "
+"you to set a collation for char, varchar and text columns:"
+msgstr ""
+"Okno dialogowe właściwości kolumny pokazuje również wszystkie dostępne "
+"porównania i umożliwia ustawienie porównań dla kolumn typu char, varchar i "
+"text:"
+
+#: ../visualtour14.php:375
+msgid ""
+"The configuration is retained when you launch pgAdmin next time. This is "
+"also true for the column width."
+msgstr ""
+"Konfiguracja jest zachowywana przy kolejnym uruchomieniu pgAdmin. Odnosi się "
+"to również na szerokości kolumn."
+
+#: ../support/list.php:15
+msgid "The configure options used (if compiled from source)"
+msgstr "Używane opcje konfiguracyjne (jeśli skompilowano ze źródeł)"
+
+#: ../visualtour12.php:330
+msgid "The connection dialog allows you to choose another user."
+msgstr "Okno dialogowe połączenia pozwala na wybór innego użytkownika."
+
+#: ../visualtour12.php:16
+msgid ""
+"The connection handling has been changed. Previous releases used functions "
+"incompatible with IPv6. This part of the code has been updated to allow IPv6 "
+"connections."
+msgstr ""
+"Została zmieniona obsługa połączenia. Poprzednie wydania używały funkcji "
+"niezgodnych z IPv6. Ta część kodu została zaktualizowana w celu umożliwienia "
+"połączeń IPv6."
+
+#: ../index.php:35
+#, php-format
+msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
+msgstr "Obecna wersja pgAdmin to <a href=\"/download/\">%s</a>."
+
+#: ../screenshots/data.php:12
+msgid "The data grid"
+msgstr "Siatka danych"
+
+#: ../screenshots/ui.php:14
+msgid "The database connection dialogue"
+msgstr "Okno dialogowe połączenia z bazą danych"
+
+#: ../visualtour14.php:391
+msgid ""
+"The debugger tool has tearable tabsets, making it easier to use. Moreover, "
+"when you try to debug a function with default values for parameters, these "
+"defaults are displayed in the message box asking to enter them."
+msgstr ""
+"Narzędzie debuggera posiada przesuwalne grupy zakładek, dzięki czemu jest "
+"łatwiejsze w użyciu. Co więcej, podczas próby debugowania funkcji z "
+"domyślnymi wartościami parametrów, wartości te są wyświetlane w oknie "
+"komunikatu z prośbą o ich wpisanie."
+
+#: ../include/doc.php:79
+msgid "The document requested cannot be read!"
+msgstr "Żądany dokument nie może być odczytany!"
+
+#: ../include/doc.php:56 ../include/doc.php:73
+msgid "The document requested does not exist!"
+msgstr "Żądany dokument nie istnieje!"
+
+#: ../docs/index.php:12
+#, php-format
+msgid ""
+"The documentation is automatically imported from the pgAdmin <a href=\"%s"
+"\">GIT</a> source code repository, and is only available in English."
+msgstr ""
+"Dokumentacja jest automatycznie importowana z repozytorium <a href=\"%"
+"s\">GIT</a> kodu źródłowego pgAdmin i jest dostępna tylko w języku "
+"angielskim."
+
+#: ../visualtour12.php:230
+msgid ""
+"The first tab allows you to choose the backup file, select the format of the "
+"dump, the compression ratio, and the encoding."
+msgstr ""
+"Pierwsza zakładka pozwala na wybranie pliku kopii zapasowej, wybranie "
+"formatu zrzutu, stopnia kompresji i kodowania."
+
+#: ../visualtour12.php:254
+msgid ""
+"The first tab allows you to select the backup file to restore, and the "
+"number of threads/processes that pg_restore will use."
+msgstr ""
+"Pierwsza zakładka pozwala na wybranie pliku kopii zapasowej do przywrócenia "
+"i liczbę wątków/procesów, których użyje pg_restore."
+
+#: ../visualtour12.php:362
+msgid "The first tab didn't change much."
+msgstr "Pierwsza zakładka nie zmieniła się bardzo."
+
+#: ../screenshots/ui.php:24
+msgid "The function properties dialogue"
+msgstr "Okno dialogowe właściwości funkcji"
+
+#: ../screenshots/data.php:20
+msgid "The graphical EXPLAIN tool"
+msgstr "Narzędzie graficzne EXPLAIN"
+
+#: ../visualtour14.php:198
+msgid ""
+"The index properties dialog shows all available collations and allows you to "
+"set a collation for char, varchar and text columns:"
+msgstr ""
+"Okno dialogowe właściwości indeksu pokazuje wszystkie dostępne porównania i "
+"umożliwia ustawienie porównań dla kolumn typu char, varchar i text:"
+
+#: ../visualtour14.php:369
+msgid ""
+"The last release brought us the ability to sort values in columns, this "
+"release brings us the ability to show and hide the columns. You do this by "
+"right clicking on the columns' header, and by unchecking the columns you "
+"don't want to see (or checking columns to see them)."
+msgstr ""
+"Ostatnie wydanie przyniosło nam możliwość sortowania wartości w kolumnach, "
+"zaś bieżące przynosi możliwość pokazywania i ukrywania kolumn. Można to "
+"zrobić klikając prawym przyciskiem myszy na nagłówku kolumny i odznaczając "
+"kolumny, których nie trzeba pokazywać (lub zaznaczyć kolumny by je "
+"zobaczyć)."
+
+#: ../visualtour14.php:130
+msgid ""
+"The last tab has a new connection parameter which allows the user to set a "
+"host address, which may be useful for Kerberos users when used in "
+"conjunction with the hostname:"
+msgstr ""
+"Ostatnia zakładka ma nowy parametr połączenia, który pozwala użytkownikowi "
+"ustawić adres hosta, może to być przydatne dla użytkowników Kerberos gdy "
+"używany w połączeniu z nazwą hosta:"
+
+#: ../visualtour12.php:180
+msgid "The latter has a complete tab to set all columns."
+msgstr "Tym ostatnim posiada kompletną kartę ustawienia wszystkich kolumn."
+
+#: ../support/issues.php:12
+msgid ""
+"The list below is automatically extracted from the GIT repository and is "
+"only available in English. The issues listed affect to the current "
+"development code and all previous versions of pgAdmin where applicable."
+msgstr ""
+"Poniższa lista jest automatycznie pobierana z repozytorium GIT i jest "
+"dostępna tylko w języku angielskim. Wymienione zagadnienia wpływają na "
+"aktualny kod i wszystkie poprzednie wersje pgAdmin w stosownych przypadkach."
+
+#: ../development/todo.php:12
+#, php-format
+msgid ""
+"The list below is automatically extracted from the pgAdmin <a href=\"%s"
+"\">GIT repository</a> and is only available in English."
+msgstr ""
+"Poniższa lista jest automatycznie wczytywana z <a href=\"%s\">repozytorium "
+"GIT</a> kodu źródłowego pgAdmin i jest dostępna tylko w języku angielskim."
+
+#: ../support/faq.php:12
+msgid ""
+"The list below is automatically imported from the pgAdmin online help "
+"resources and is only available in English."
+msgstr ""
+"Poniższa lista jest automatycznie importowana z sieciowych zasobów pomocy "
+"pgAdmin i jest dostępna tylko w języku angielskim."
+
+#: ../development/changelog.php:12
+msgid ""
+"The log below is still automatically extracted from the GIT repository and "
+"is only available in English."
+msgstr ""
+"Poniższy dziennik jest automatycznie wczytywana z repozytorium GIT i jest "
+"dostępna tylko w języku angielskim."
+
+#: ../visualtour.php:11
+msgid ""
+"The long awaited 1.10 version of pgAdmin is finally available. We\n"
+"  will highlight some of the new features which have been added since\n"
+"  the last stable release on this page."
+msgstr ""
+"Długo oczekiwana wersja 1.10 pgAdmin jest już dostępna. Uwypuklimy\n"
+"   na tej stronie niektóre nowe funkcje, które zostały dodane od\n"
+"   ostatniego stabilnego wydania."
+
+#: ../visualtour12.php:10
+msgid ""
+"The long awaited 1.12 version of pgAdmin III is finally available in beta. "
+"We will try to highlight some of the new features which have been added "
+"since the last stable release."
+msgstr ""
+"Długo oczekiwana wersja 1.12 pgAdmin III jest już dostępna jako beta. "
+"Postaramy się wskazać kilka nowych funkcji, które zostały dodane od "
+"ostatniego stabilnego wydania."
+
+#: ../visualtour14.php:10
+msgid ""
+"The long awaited 1.14 version of pgAdmin III is finally available in beta. "
+"We will try to highlight some of the new features which have been added "
+"since the last stable release."
+msgstr ""
+"Długo oczekiwana wersja 1.14 pgAdmin III jest już dostępna jako beta. "
+"Postaramy się wskazać kilka nowych funkcji, które zostały dodane od "
+"ostatniego stabilnego wydania."
+
+#: ../visualtour12.php:220
+msgid ""
+"The maintenance dialogs have been reviewed. They offer now all options "
+"available. Moreover, they are resizable."
+msgstr ""
+"Okna dialogowe utrzymania zostały poddane przeglądowi. Oferują one teraz "
+"wszystkie dostępne opcje. Ponadto można zmieniać ich rozmiar."
+
+#: ../visualtour12.php:320
+msgid ""
+"The new COSTS and BUFFERS options of EXPLAIN are also available when you're "
+"connected to PostgreSQL 9.0."
+msgstr ""
+"Dostępne są również nowe opcje COSTS i BUFFERS narzędzia EXPLAIN, gdy jesteś "
+"podłączony do PostgreSQL 9.0."
+
+#: ../visualtour.php:175
+msgid ""
+"The new way to handle <b>autovacuum settings</b> in 8.4 is also supported. "
+"Toast\n"
+"  tables are handled too."
+msgstr ""
+"Jest również obsługiwany nowy sposób obsługi <b>ustawień autoodkurzania</b> "
+"z 8.4.\n"
+"  Tabele toast są także obsługiwane."
+
+#: ../visualtour12.php:310
+msgid "The number of saved queries is customizable in the options dialog."
+msgstr "Liczba zapisywanych zapytań jest konfigurowana w oknie opcji."
+
+#: ../visualtour.php:264
+msgid ""
+"The only plugin available by default is a psql console, though any "
+"application \n"
+"  could conceivably be added by the user:"
+msgstr ""
+"Jedyną wtyczką domyślnie dostępną jest konsola psql, choć dowolna aplikacja\n"
+"  potencjalnie mogłaby być dodana przez użytkownika:"
+
+#: ../support/list.php:16
+msgid ""
+"The operating system and version details - e.g. Windows XP Pro, SP2, or "
+"Slackware Linux 10, kernel 2.4.21"
+msgstr ""
+"Szczegóły odnośnie systemu operacyjnego i wersji - np. Windows XP Pro SP2 "
+"lub ​​Slackware Linux 10, jądro 2.4.21"
+
+#: ../visualtour12.php:358
+msgid ""
+"The options dialog was significantly updated too. It's resizable, uses as "
+"many native widgets as possible. This should help to provide a better user "
+"experience."
+msgstr ""
+"Okno opcji było również istotnie aktualizowane. Jest skalowalne, "
+"wykorzystuje tak wiele rodzimych widżetów, jak to możliwe. Powinno to "
+"przyczynić się do zapewnienia użytkownikowi lepszych wrażeń."
+
+#: ../visualtour.php:37
+msgid ""
+"The other new feature is the <b>pgScript scripting framework</b>. This\n"
+"  allows one to write scripts to execute queries. Here is an example:"
+msgstr ""
+"Kolejną nową cechą jest <b>środowisko skryptowe pgScript</b>. Pozwala\n"
+"   to na pisanie skryptów do wykonywania zapytań. Oto przykład:"
+
+#: ../download/index.php:12
+msgid ""
+"The pages in this section give additional details about each binary package "
+"available as well as more direct download links. In addition, you can "
+"download source tarballs, additional language translations, pgAgent and "
+"admin packs for your servers to enable additional functionality."
+msgstr ""
+"Strony w tym rozdziale dają dodatkowe informacje na temat każdego dostępnego "
+"pakietu, jak również bezpośrednie linki do pobierania. Ponadto można pobrać "
+"archiwa tar źródeł, dodatkowe tłumaczenia, pgAgent i pakiety "
+"administracyjne dla serwerów aby uaktywnić dodatkowe funkcje."
+
+#: ../development/index.php:12
+#, php-format
+msgid ""
+"The pages in this section of the website should provide you with all the "
+"information you need to get started as a new developer, including <a href="
+"\"%s\">GIT access</a>, the developers <a href=\"%s\">mailing list</a>, the  "
+"<a href=\"%s\">Development Team</a> structure, the  <a href=\"%s\">TODO "
+"list</a> and the  <a href=\"%s\">change log</a>."
+msgstr ""
+"Strony w tej sekcji strony pozwolą zapewnić wszelkie informacje potrzebne by "
+"zacząć jako nowy programista, w tym <a href=\"%s\">dostęp do GIT</a>, twórcy "
+"<a href=\"%s\">listy mailingowej</a> twórców, struktury  <a href=\"%s\">Zespołu "
+"Deweloperów</a>,  <a href=\"%s\">listy rzeczy do zrobienia</a> i  <a href=\"%"
+"s\">dziennika zmian</a>."
+
+#: ../docs/index.php:10
+msgid ""
+"The pgAdmin documentation for the current development code, and recent major "
+"releases of the application is available for online browsing. Please select "
+"the documentation version you would like to view from the section menu."
+msgstr ""
+"Dokumentacja pgAdmin dla aktualnego kodu rozwojowego, oraz ostatnie główne "
+"wydania aplikacji jest dostępna do przeglądania online. Proszę wybrać wersję "
+"dokumentacji chcesz przejrzeć w menu sekcji."
+
+#: ../screenshots/documentation.php:12
+msgid "The pgAdmin help system"
+msgstr "System pomocy pgAdmin"
+
+#: ../screenshots/mb_i18n.php:14
+msgid ""
+"The pgAdmin interface has been translated into more than a dozen languages, "
+"and partially translated into another 25 more. The interface supports all "
+"known Unicode scripts, even Right to Left (RTL) scripts like Arabic."
+msgstr ""
+"Interfejs pgAdmin został przetłumaczony na kilkanaście języków, a częściowo "
+"przetłumaczony na kolejne 25. Interfejs obsługuje wszystkie znane skrypty "
+"Unicode, nawet dla języków pisanych od prawej do lewej (RTL) jak arabski."
+
+#: ../screenshots/ui.php:10
+msgid ""
+"The pgAdmin project started in 1997 and the application is used by tens of "
+"thousands of users worldwide. With the help and suggestions of those users, "
+"we have been constantly improving the usability of pgAdmin."
+msgstr ""
+"Projekt pgAdmin rozpoczął się w 1997 a program jest używany przez dziesiątki "
+"tysięcy użytkowników na całym świecie. Dzięki pomocy i sugestiom tych "
+"użytkowników, stale podnosimy użyteczność pgAdmin."
+
+#: ../development/list.php:10
+#, php-format
+msgid ""
+"The pgadmin-hackers mailing list is intended for developers who wish to "
+"contribute to pgAdmin project. You are more than welcome to subscribe, but "
+"please remember to use <a href=\"%s\">pgadmin-support</a> list for end user "
+"support issues. To subscribe to the mailing list, send an email to <a href="
+"\"%s\">%s</a> with the word 'subscribe', without quotes, as the body of "
+"message. To unsubscribe, send the word 'unsubscribe'."
+msgstr ""
+"Lista pgadmin-hackers jest przeznaczona dla programistów, którzy chcą dodać "
+"swoją część pracy do projektu pgAdmin. Zapisanie się na listę jest więcej "
+"niż mile widziane, ale proszę pamiętać, aby używać listy <a href=\"%s"
+"\">pgadmin-support</a> dla kwestii wsparcia użytkownika końcowego. Aby "
+"zapisać się na listę mailingową, wyślij email na adres <a href=\"%s\">%s</a> "
+"ze słowem 'subscribe' bez cudzysłowów, jako ciało wiadomości. Aby się "
+"wypisać, wyślij słowo 'unsubscribe'."
+
+#: ../support/list.php:10
+#, php-format
+msgid ""
+"The pgadmin-support mailing list is intended for end user support and bug "
+"reports. To subscribe to the mailing list, send an email to <a href=\"%s\">"
+"%s</a> with the word 'subscribe', without quotes, as the body of message. To "
+"unsubscribe, send the word 'unsubscribe'."
+msgstr ""
+"Lista mailowa pgadmin-support jest przeznaczona dla wsparcia użytkowników "
+"końcowych i zgłoszeń błędów. Aby zapisać się na listę mailingową, wyślij "
+"email na adres <a href=\"%s\">%s</a> ze słowem 'subscribe', bez cudzysłowów, "
+"jako ciało wiadomości. Aby się wypisać, wyślij słowo 'unsubscribe'."
+
+#: ../screenshots/ui.php:16
+msgid ""
+"The properties and statistics of the selected object are displayed in the "
+"right pane of pgAdmin. Notice the display of the SQL definition with colour "
+"syntax highlighting."
+msgstr ""
+"Właściwości i statystyki wybranego obiektu są wyświetlane w prawym okienku "
+"pgAdmin. Zwróć uwagę na wyświetlanie definicji SQL z kolorowym "
+"podświetlaniem składni."
+
+#: ../visualtour14.php:108
+msgid ""
+"The properties dialog is available as usual (right click on the object's "
+"name, and select \"Properties\" menu item). There is a new shortcut to get "
+"the same result: Ctrl-Alt-Enter."
+msgstr ""
+"Okno właściwości jest dostępne jak zwykle (kliknij prawym przyciskiem myszy "
+"na nazwę obiektu, i wybierz \"Właściwości\" w menu kontekstowym). Dodano nowy "
+"skrót, aby uzyskać ten sam wynik: Ctrl-Alt-Enter."
+
+#: ../screenshots/ui.php:20
+msgid "The properties of the selected object."
+msgstr "Właściwości wybranego katalogu"
+
+#: ../advocacy/strategy.php:10
+msgid "The proposed strategy is quite simple:"
+msgstr "Proponowana strategia jest prosta:"
+
+#: ../screenshots/data.php:16
+msgid "The query tool"
+msgstr "Narzędzie zapytania"
+
+#: ../visualtour12.php:250
+msgid "The restore dialog has been completely redesigned."
+msgstr "Okno dialogowe przywracania zostało całkowicie przeprojektowane."
+
+#: ../visualtour12.php:236
+msgid ""
+"The second and third tabs give you all the options available via pg_dump."
+msgstr ""
+"Druga i trzecia zakładka dają możliwość wskazania wszystkich opcji "
+"dostępnych w pg_dump."
+
+#: ../visualtour14.php:124
+msgid ""
+"The second tab is a new one. It's dedicated to the SSL connection "
+"parameters. New to the family are the certificate file parameters:"
+msgstr ""
+"Druga zakładka jest nowa. Jest poświęcona parametrom połączenia SSL. "
+"Nowością są tutaj również parametry pliku certyfikatu:"
+
+#: ../visualtour12.php:294
+msgid ""
+"The server color is available in a square box in the connection combobox."
+msgstr "Kolor serwera jest dostępny przez kwadrat w menu rozwijanym połączenia."
+
+#: ../screenshots/serverstatus.php:12
+msgid "The server status dialogue"
+msgstr "Okno dialogowe statusu serwera"
+
+#: ../visualtour14.php:184
+msgid ""
+"The statistics tab of the browser shows new information for tables, vacuum "
+"and analyze counters:"
+msgstr ""
+"Zakładka statystyk przeglądarki pokazuje nowe informacji dla liczników "
+"tabel, odkurzania i analizy:"
+
+#: ../screenshots/serverstatus.php:10
+msgid ""
+"The status of each server process may be viewed, along with summaries of "
+"current locks and transactions. Logfiles may also be selected and viewed."
+msgstr ""
+"Stan każdego procesu serwera mogą być przeglądane, wraz ze streszczeniami "
+"aktualnych blokad i transakcji. Mogą być wybierane i przeglądane pliki "
+"logów."
+
+#: ../visualtour.php:77
+msgid ""
+"The table contextual menu has a few more items that allow you to <b>enable/"
+"disable\n"
+"  rules</b> on the selected table or to <b>truncate</b> (cascade if needed)."
+msgstr ""
+"Menu kontekstowe tabeli posiada kilka dodatkowych elementów, które pozwalają "
+"na\n"
+"  <b>włączenie/wyłączenie reguł</b> od wybranej tabeli lub <b>obcięcie</b>\n"
+"  (kaskadowe w razie potrzeby)."
+
+#: ../screenshots/ui.php:28
+msgid "The table properties dialogue"
+msgstr "Okno dialogowe właściwości tabeli"
+
+#: ../translation/status.php:47
+msgid ""
+"The translations below are not considered complete enough for inclusion in "
+"current releases. Around 750 translated strings indicate v1.0 support, 1000 "
+"strings v1.2, 1500 strings for v1.4 and 1850 for v1.6. When using an "
+"incomplete translation on a newer pgAdmin version, you will get a mixture of "
+"translated and untranslated dialogs (usually on less frequently used ones), "
+"but general usability shouldn't be affected. If you would like to continue "
+"the work, please don't hesitate to contact the current maintainer (please CC "
+"pgadmin-hackers@postgresql.org)!"
+msgstr ""
+"Poniższe tłumaczenia nie są uważane za wystarczająco kompletne do włączenia "
+"w aktualnych wydaniach. Około 750 przetłumaczonych łańcuchów wskazuje "
+"obsługę v1.0, 1000 łańcuchów v1.2, 1500 struny do v1.4 i 1850 do v1.6. "
+"Podczas korzystania z niepełnego tłumaczenie na nowszej wersji pgAdmin, "
+"otrzymasz mieszankę przetłumaczonych i nieprzetłumaczonych okien (zazwyczaj "
+"tych rzadziej używanych), ale użyteczność nie powinna w ogóle zostać "
+"naruszona. Jeśli chcesz kontynuować pracę, prosimy o kontakt z aktualnym "
+"opiekunem (prosimy o kopię do pgadmin-hackers@postgresql.org)!"
+
+#: ../visualtour12.php:260
+msgid "The two next tabs offer all pg_restore options in a GUI way."
+msgstr ""
+"Dwie następne zakładki oferują wszystkie opcje pg_restore na sposób GUI."
+
+#: ../visualtour14.php:244
+msgid ""
+"The type properties dialog supports the new syntax to change an existing "
+"composite type and an existing enumeration type. It also supports the new "
+"collation feature. See the screenshots to find the new information:"
+msgstr ""
+"Okno właściwości typu obsługuje nową składnę zmiany istniejącego typu "
+"złożonego i istniejącego typu wyliczeniowego. Wspiera on także nową "
+"właściwość porównania. Zobacz zrzuty ekranu, by zobaczyć nowe informacje:"
+
+#: ../translation/status.php:31
+msgid ""
+"The updated translations are published in daily snapshots automatically."
+msgstr ""
+"Uaktualnione tłumaczenia publikowane są automatycznie w codziennych "
+"migawkach."
+
+#: ../support/list.php:14
+msgid ""
+"The version of pgAdmin you are running. If it is a development snapshot, "
+"please include the build date from the Help -&gt; About screen, and GIT "
+"repository version if known."
+msgstr ""
+"Wersję pgAdmin, której używasz. Jeśli jest to migawka rozwojowa, prosimy o "
+"podanie daty kompilacji z ekranu Pomoc -&gt; O programie..., oraz wersji "
+"repozytorium GIT, jeśli jest znana."
+
+#: ../visualtour14.php:325
+msgid ""
+"The work done on this tool was mostly to make it more usable. We added a new "
+"panel for selection information:"
+msgstr ""
+"Prace wykonane nad tym narzędziem miały na celu głównie uczynienie go "
+"bardziej użytecznym. Dodaliśmy nowy panel informacji o zaznaczeniu:"
+
+#: ../support/list.php:17
+msgid ""
+"The wxWidgets version and configure options used (if compiled from source)"
+msgstr ""
+"Wersję wxWidgets i używane opcje konfiguracji (jeśli kompilowano ze źródeł)"
+
+#: ../visualtour.php:131
+msgid ""
+"Then, click on the \"Read-only\" checkbox to allow editing\n"
+"  mode and update the query to execute."
+msgstr ""
+"Następnie kliknij na polu wyboru \"tylko do odczytu\", aby przejść\n"
+"   do trybu edycji popraw zapytanie do wykonania."
+
+#: ../advocacy/strategy.php:15
+#, php-format
+msgid ""
+"Then, register pgAdmin on free software web sites in your country. We are "
+"highly interested in community web sites. Some countries have one or two "
+"major web sites for free software. For example, pgAdmin was registered on <a "
+"href=\"%s\">Freshmeat</a>."
+msgstr ""
+"Następnie zarejestruj pgAdmin na stronach internetowych wolnego "
+"oprogramowania w waszym kraju. Jesteśmy bardzo zainteresowani stronami "
+"internetowymi społeczności. Niektóre kraje mają jedną lub dwie główne strony "
+"wolnego oprogramowania. pgAdmin został zarejestrowany na przykład na <a "
+"href=\"%s\">Freshmeat</a>."
+
+#: ../translation/howto.php:61
+msgid ""
+"There are more texts that can be translated. In the <i>docs</i> directory, "
+"the file <i>tips.txt</i> contains tips that are displayed on pgAdmin "
+"startup. The HTML files used by the Guru to notify users of special issues "
+"are located in the <i>docs/hints</i> directory. Both <i>tips.txt</i> and the "
+"Guru Hint HTML files are translated without tools, just use your favourite "
+"text editor. "
+msgstr ""
+"Jest więcej tekstów, które mogą być przetłumaczone. W folderze <i>docs</i>, "
+"plik <i>tips.txt</i> zawiera wskazówki, które są wyświetlane przy "
+"uruchamianiu pgAdmin. Pliki HTML używane przez Guru do powiadamiania "
+"użytkownikom o specjalnych sprawach znajdują się w katalogu "
+"<i>docs/hints</i>. Zarówno <i>tips.txt</i> jak i pliki HTML Podpowiedź Guru "
+"są tłumaczone bez narzędzi, wystarczy użyć ulubionego edytora tekstów. "
+
+#: ../visualtour12.php:342
+msgid ""
+"There are three main visible changes. First, lines in the activity report "
+"are colour coded. You can customize the colour in the options dialog. "
+"Second, the application name is displayed in a new column if you're "
+"connected to a 9.0 PostgreSQL server. And third, you can change the order by "
+"clicking on a column's header. A small icon will show you the current order."
+msgstr ""
+"Są trzy główne widoczne zmiany. Po pierwsze, linie w sprawozdaniu z "
+"działalności są oznaczone kolorami. Można dostosować kolor w oknie "
+"dialogowym Opcji. Po drugie, nazwa aplikacji wyświetlana jest w nowej "
+"kolumnie, jeśli jesteś podłączony do serwera PostgreSQL 9.0. I po trzecie, "
+"można zmienić porządek klikając na nagłówek kolumny. Mała ikona pokazuje "
+"obecne sortowanie."
+
+#: ../visualtour.php:19
+msgid ""
+"There are two major new features in the <b>Query Tool</b>. They both\n"
+"  came out of GSoC projects."
+msgstr ""
+"Istnieją dwie główne nowe cechy w <b>Narzędziu Zapytania</b>. Obie\n"
+"  pochodzą z projektów GSoC."
+
+#: ../visualtour.php:53
+msgid ""
+"There is <b>enhanced support for Greenplum database</b>: resource queues,\n"
+"  external tables and partitioned tables are supported and the graphical "
+"explain \n"
+"  tool knows much more about Greenplum query node types. There are also "
+"links to \n"
+"  Greenplum help and Greenplum utility support."
+msgstr ""
+"Mamy <b>rozszerzone wsparcie dla bazy danych Greenplum</b>: są obsługiwane\n"
+"   kolejki zasobów,tabele zewnętrzne i partycjonowane a graficzne narzędzie\n"
+"   planu zapytania wie znacznie więcej o typach węzłów zapytania Greenplum.\n"
+"   Istnieją również linki do pomocy Greenplum i obsługa oprogramowania "
+"Greenplum."
+
+#: ../visualtour14.php:236
+msgid "There is a new action to reset the statistics of the selected function:"
+msgstr "Pojawiła się nowa akcja, zresetowanie statystyk wybranej funkcji:"
+
+#: ../visualtour12.php:32
+msgid ""
+"There is big news in the browser. If you have a large number of registered "
+"servers, you will be able to group them together. At the beginning, you'll "
+"only have one group : Servers. So, it will look similar to previous releases "
+"of pgAdmin. The folder name containing a server can be changed on the "
+"Properties dialogue for the server."
+msgstr ""
+"Wprowadzono dużą zmianę w przeglądarce. Jeśli masz dużą liczbę serwerów "
+"zarejestrowane, będziesz mógł je pogrupować. Na początku jest tylko jedna "
+"grupa: Serwery. Zatem wygląda to podobnie jak w poprzednich wersjach "
+"pgAdmin. Nazwa folderu zawierającego serwer może być zmieniona w dialogu "
+"Właściwości dla serwera."
+
+#: ../visualtour14.php:311
+msgid ""
+"There is one unique aspect to these objects. You don't type their names, you "
+"select them from a list of preinstalled extensions."
+msgstr ""
+"Jest jeden wyjątkowy aspekt tych obiektów. Nie musisz wpisywać ich nazwy, "
+"wystarczy wybrać je z listy preinstalowanych rozszerzeń."
+
+#: ../visualtour.php:306
+msgid "There was a <b>complete UI rework</b> of the \"Server Status\" window."
+msgstr "Nastąpiła <b>kompletna przeróbka UI</b> okna \"Status serwera\"."
+
+#: ../visualtour12.php:196
+msgid ""
+"There was no way to change the storage information of a column in the "
+"previous releases of pgAdmin. Beginning with 1.12, you can change that "
+"information in the properties dialog."
+msgstr ""
+"Nie było sposobu, aby zmienić informacje o przechowywaniu dla kolumny w "
+"poprzednich wersjach pgAdmin. Począwszy od 1.12, można zmienić te informacje "
+"w oknie dialogowym właściwości."
+
+#: ../visualtour12.php:140
+msgid ""
+"There were also enhancements on tables in 9.0. A new combobox has been added "
+"for handling typed tabes."
+msgstr ""
+"Były też ulepszenia w tabelach 9.0. Nowy ComboBox został dodany dla obsługi "
+"tabel wpisanych."
+
+#: ../visualtour.php:86
+msgid "There's also a new <b>DELETE script</b> item:"
+msgstr "Jest też nowy <b>skrypt DELETE</b>:"
+
+#: ../visualtour.php:242
+msgid ""
+"There's now an option to <b>ignore server version mismatches</b> with\n"
+"  pg_dump/pg_dumpall/pg_restore."
+msgstr ""
+"Mamy teraz możliwość <b>ignorowania niezgodności wersji serwera</b> w\n"
+"   pg_dump/pg_dumpall/pg_restore."
+
+#: ../translation/howto.php:72
+msgid ""
+"Therefore, never translate entries written in upper-case letters. In some "
+"cases you might even break pgAdmin if you do! To reach a 100% translation "
+"status, just copy these strings using the poEdit Alt+C Copy command. For "
+"example: translate <i>ACL</i> into <i>ACL</i>, <i>AFTER</i> into <i>AFTER</"
+"i>, etc."
+msgstr ""
+"Dlatego nigdy nie należy tłumaczyć zapisów napisanych wielkimi literami. W "
+"niektórych przypadkach gdy się tak zrobi można nawet zepsuć pgAdmin! Aby "
+"osiągnąć stan tłumaczenia 100, wystarczy skopiować te łańcuchy za pomocą "
+"polecenia Kopiuj poedit Alt+C. Przykład: przetłumaczenie <i>ACL</i> na "
+"<i>ACL</i>, <i>AFTER</i> na <i>AFTER</i> itp."
+
+#: ../download/macosx.php:26
+msgid ""
+"These packages are Mac OSX appbundles. To install the 1.8 or later series, "
+"mount the disk image using the finder, and drag the pgAdmin appbundle to the "
+"desired location. To install the 1.6 series, unpack the archive, and run the "
+"installer package. For earlier versions, unpack the archive, and move the "
+"appbundle into the desired location."
+msgstr ""
+"Te pakiety to appbundles Mac OSX. Aby zainstalować 1.8 lub nowszą serię, "
+"zamontuj obraz dysku za pomocą wyszukiwarki i przeciągnij appbundle pgAdmin "
+"do żądanej lokalizacji. Aby zainstalować serię 1.6, rozpakuj archiwum i "
+"uruchom pakiet instalacyjny. We wcześniejszych wersjach, rozpakuj archiwum i "
+"przenieś appbundle do żądanej lokalizacji."
+
+#: ../visualtour14.php:180
+msgid ""
+"They are both only available during the creation of a table. The first one, "
+"\"Of type\", allows you to specify a user composite type, instead of the "
+"columns. The last one, \"Unlogged\", allows you to create an unlogged table."
+msgstr ""
+"Oba są dostępne tylko podczas tworzenia tabeli. Pierwszy z nich, \"typu\", "
+"pozwala na określenie przez użytkownika typu złożonego, zamiast kolumn. Ten "
+"ostatni, \"Nielogowana\", pozwala na tworzenie tabeli nielogowanej."
+
+#: ../visualtour14.php:166
+msgid "They both are 9.1 only:"
+msgstr "Oba one dotyczą tylko wersji 9.1:"
+
+#: ../visualtour.php:148
+msgid "This color is the <b>background color for each server</b>:"
+msgstr "Ten kolor jest <b>kolor tła dla każdego serwera</b>:"
+
+#: ../visualtour12.php:278
+msgid ""
+"This dialog is also resizable. The main new feature consists on the use of "
+"its own connection. Because of this, you still can use the main window while "
+"doing a VACUUM on a database."
+msgstr ""
+"To okno ma również możliwość zmiany rozmiaru. Najważniejsza nowość polega na "
+"wykorzystaniu własnego połączenia. Z tego powodu, można nadal korzystać z "
+"głównego okna robiąc VACUUM w bazie danych."
+
+#: ../visualtour12.php:50
+msgid "This folder functionality allows you to group servers by type or use."
+msgstr ""
+"Ta funkcjonalność katalogowania pozwala grupować serwery według typów lub "
+"zastosowania."
+
+#: ../development/roadmap.php:10
+#, php-format
+msgid ""
+"This roadmap outlines the work that is hoped will be done in the %s "
+"development cycle for release in version %s of pgAdmin."
+msgstr ""
+"Niniejszy plan działań wyszczególnia pracę, która prawdopodobnie nastąpi w %"
+"s cyklu rozwoju i będzie opublikowana w %s wersji pgAdmin."
+
+#: ../privacypolicy.php:24
+msgid ""
+"This website uses Google Analytics, a web analytics service provided by "
+"Google, Inc. (\"Google\"). Google Analytics uses \"cookies\", which are text "
+"files placed on your computer, to help the website analyze how users use the "
+"site. The information generated by the cookie about your use of the website "
+"(including your IP address) will be transmitted to and stored by Google on "
+"servers in the United States. Google will use this information for the "
+"purpose of evaluating your use of the website, compiling reports on website "
+"activity for website operators and providing other services relating to "
+"website activity and internet usage. Google may also transfer this "
+"information to third parties where required to do so by law, or where such "
+"third parties process the information on Google's behalf. Google will not "
+"associate your IP address with any other data held by Google. You may refuse "
+"the use of cookies by selecting the appropriate settings on your browser, "
+"however please note that if you do this you may not be able to use the full "
+"functionality of this website. By using this website, you consent to the "
+"processing of data about you by Google in the manner and for the purposes "
+"set out above."
+msgstr ""
+"Niniejsza witryna internetowa korzysta z Google Analytics, usługi analizy "
+"oglądalności stron internetowych udostępnianej przez Google Inc. (\"Google\"). "
+"Google Analytics używa \"ciasteczek\", czyli plików tekstowych umieszczanych "
+"na komputerze użytkownika w celu umożliwienia witrynie przeanalizowania, w "
+"jaki sposób użytkownicy z niej korzystają. Informacje generowane przez "
+"ciasteczka na temat korzystania z witryny (w tym adres IP) będą przekazywane "
+"spółce Google i przechowywane przez nią na serwerach w Stanach "
+"Zjednoczonych. Google będzie korzystała z tych informacji w celu oceny "
+"korzystania z witryny przez użytkownika, tworzenia raportów dotyczących "
+"ruchu na stronach dla operatorów witryn oraz świadczenia innych usług "
+"związanych z aktywnością w witrynie i korzystania z internetu. Google może "
+"również przekazywać te informacje osobom trzecim, jeżeli jest to wymagane "
+"przez prawo lub jeżeli osoby trzecie przetwarzają te informacje w imieniu "
+"Google. Google nie będzie łączyła adresu IP użytkownika z żadnymi innymi "
+"danymi będącymi w jej posiadaniu. Użytkownik może zrezygnować z ciasteczek "
+"wybierając odpowiednie ustawienia na przeglądarce, jednak należy pamiętać, "
+"że robiąc tak, użytkownik może nie być w stanie korzystać z pełnej "
+"funkcjonalności tej strony. Korzystając z tej strony, użytkownik wyraża "
+"zgodę na przetwarzanie swoich danych przez Google w sposób i w celach "
+"określonych powyżej."
+
+#: ../visualtour14.php:97
+msgid ""
+"This will help the user to quickly understand which objects are valid or "
+"enabled and which aren't."
+msgstr ""
+"Pozwoli to na szybkie zrozumienie, które obiekty są poprawne lub włączony, a "
+"które nie."
+
+#: ../download/languages.php:14
+#, php-format
+msgid ""
+"To add a new language, follow the update procedure, but create the lc_CC "
+"directory if required and save the new message catalogue in it. You may also "
+"need to update the <i>i18n/pgadmin3.lng</i> file which is also available "
+"from the <a href=\"%s\">translation status</a> page."
+msgstr ""
+"Aby dodać nowy język, postępuj zgodnie z procedurą aktualizacji, jednak "
+"najpierw stwórz folder lc_CC, jeśli wymagane, aby zapisać w nim nowy katalog "
+"wiadomości. Być może trzeba będzie zaktualizować plik "
+"<i>i18n/pgadmin3.lng</i>, który jest również dostępny na stronie <a href=\"%"
+"s\">stanu tłumaczenia</a>."
+
+#: ../development/git.php:12
+#, php-format
+msgid ""
+"To checkout the source from the command line and get started, you might use "
+"commands such as shown below on a Linux or Unix system. For further details, "
+"please see the <a href=\"%s\">source code</a> build instructions."
+msgstr ""
+"Aby pobrać źródła z wiersza poleceń i zacząć, możesz użyć takie polecenia w "
+"systemie Linux oraz Unix, jak pokazano poniżej. Więcej szczegółów można "
+"znaleźć w instrukcjach budowy <a href=\"%s\">kodu źródłowego</a>."
+
+#: ../download/windows.php:29
+msgid ""
+"To install these packages, unzip the downloaded file, double-click the </"
+"i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
+"Minor upgrades (e.g. from 1.4.0 to 1.4.1) can be performed using the "
+"<i>upgrade.bat</i> script. Differing major releases, e.g. 1.2.2 and 1.4.1, "
+"can be installed on the same machine at the same time."
+msgstr ""
+"Aby zainstalować te pakiety, rozpakuj pobrany plik, kliknij dwukrotnie na "
+"pliku instalatora <i>pgadmin3.msi</i> i postępuj zgodnie z instrukcjami "
+"wyświetlanymi na ekranie. Mniejsze uaktualnienia (np. z 1.4.0 do 1.4.1) mogą "
+"być wykonane przy użyciu <i>upgrade.bat</i> skryptu. Różniące się główne "
+"wydania, np. 1.2.2 i 1.4.1, mogą być zainstalowane na tej samej maszynie w "
+"tym samym czasie."
+
+#: ../download/freebsd.php:21 ../download/rpm.php:22
+msgid "To install these packages, use a command such as:"
+msgstr "Aby zainstalować te pakiety, użyj następującego polecenia:"
+
+#: ../download/opensuse.php:23
+msgid ""
+"To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
+"i> utilities."
+msgstr ""
+"Aby zainstalować te pakiety, użyj narzędzi OpenSUSE <i>pkgtool</i> lub "
+"<i>installpkg</i>."
+
+#: ../download/slackware.php:20
+msgid ""
+"To install these packages, use the Slackware <i>pkgtool</i> or "
+"<i>installpkg</i> utilities."
+msgstr ""
+"Aby zainstalować te pakiety, użyj narzędzi Slackware <i>pkgtool</i> lub "
+"<i>installpkg</i>."
+
+#: ../translation/howto.php:70
+msgid ""
+"To make it easier, all SQL keywords are written in capital letters. "
+"Conversely, all capital letters entries are SQL keywords."
+msgstr ""
+"Dla ułatwienia wszystkie słowa kluczowe SQL pisane wielkimi literami. Z "
+"drugiej strony wszystkie wpisy z wielkiej litery to słowa kluczowe SQL."
+
+#: ../download/languages.php:12
+msgid ""
+"To update a language, download the appropriate <i>.mo</i> file, and update "
+"your local copy. This is normally stored under <i>/usr/share/pgadmin3/i18n/"
+"lc_CC</i> on Linux and other Unixes or <i>C:\\Program Files\\pgAdmin III\\X.Y"
+"\\i18n\\lc_CC</i> on Windows, where <i>lc_CC</i> is your language code and "
+"country code - e.g. <i>pt_BR</i> for Portuguese as spoken in Brazil"
+msgstr ""
+"Aby zaktualizować język, pobrać odpowiedni plik <i>.mo</i> i uaktualnij "
+"lokalną kopię. Jest ona zazwyczaj przechowywana w "
+"<i>/usr/share/pgadmin3/i18n/lc_CC</i> na Linuksie i innych Uniksach lub "
+"<i>C:\\Program Files\\pgAdmin III\\X.Y\\i18n\\lc_CC</i> na Windows, gdzie "
+"<i>lc_CC</i> jest kodem języka oraz kraju - np. <i>pt_BR</i> oznacza język "
+"portugalski używany w Brazylii"
+
+#: ../screenshots/index.php:12
+#, php-format
+msgid ""
+"To view a full size version of any screenshot, simply click on it. In "
+"addition to the those found in this section additional images can also be "
+"found in the <a href=\"%s\">online documentation</a>."
+msgstr ""
+"Aby zobaczyć pełnowymiarową wersję dowolnego zrzutu ekranu, po prostu "
+"kliknij na nim. Poza tymi z bieżącej sekcji można znaleźć również dodatkowe "
+"zdjęcia w <a href=\"%s\">dokumentacji online</a>."
+
+#: ../menu.php:10
+msgid "Tour (1.10)"
+msgstr "Przewodnik (1.10)"
+
+#: ../menu.php:9
+msgid "Tour (1.12)"
+msgstr "Przewodnik (1.12)"
+
+#: ../menu.php:8
+msgid "Tour (1.14)"
+msgstr "Przewodnik (1.14)"
+
+#: ../include/po_status.php:257
+msgid "Translated"
+msgstr "Przetłumaczono"
+
+#: ../contribute.php:16 ../include/page.php:132
+msgid "Translation"
+msgstr "Tłumaczenie"
+
+#: ../visualtour14.php:225
+msgid "Trigger"
+msgstr "Wyzwalacz"
+
+#: ../features.php:91
+msgid "Trigger functions"
+msgstr "Funkcje wyzwalacza"
+
+#: ../visualtour12.php:171
+msgid "Trigger properties"
+msgstr "Właściwości wyzwalacza"
+
+#: ../advocacy/strategy.php:21
+#, php-format
+msgid ""
+"Try to publish 'standard' information about pgAdmin to help ensure accuracy "
+"and consistency of information. Some examples are shown on the <a href=\"%s"
+"\">information</a> page."
+msgstr ""
+"Spróbuj opublikować 'standardowe' informacje o pgAdmin by zapewnić "
+"dokładność i spójność informacji. Niektóre przykłady zostały pokazane na "
+"stronie <a href=\"%s\">informacji</a>."
+
+#: ../visualtour14.php:140
+msgid ""
+"Two new piece of information (specific to PostgreSQL 9.1) are shown in the "
+"browser's properties tab: timestamp of last xact replay, and replication "
+"status."
+msgstr ""
+"Dwa nowe kawałki informacji (specyficzne dla PostgreSQL 9.1) przedstawiono w "
+"zakładce przeglądarki właściwości: znacznik czasu ostatniej powtórki xact i "
+"stan replikacji."
+
+#: ../visualtour14.php:174
+msgid ""
+"Two new properties are available on the second tab of the table properties "
+"dialog:"
+msgstr ""
+"Dwie nowe właściwości są dostępne na drugiej karcie w oknie dialogowym "
+"właściwości tabeli:"
+
+#: ../visualtour14.php:241
+msgid "Type"
+msgstr "Typ"
+
+#: ../visualtour.php:213
+msgid "Type properties"
+msgstr "Właściwości typu"
+
+#: ../features.php:92
+msgid "Types"
+msgstr "Typy"
+
+#: ../features.php:105
+msgid "UNICODE/UTF-8"
+msgstr "UNICODE/UTF-8"
+
+#: ../download/menu.php:15 ../download/ubuntu.php:8
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: ../download/ubuntu.php:26
+msgid "Ubuntu Dapper configuration"
+msgstr "Konfiguracja Ubuntu Dapper"
+
+#: ../download/ubuntu.php:36
+msgid "Ubuntu Feisty or Gutsy configuration"
+msgstr "Konfiguracja Ubuntu Feisty lub Gutsy"
+
+#: ../advocacy/information.php:31
+msgid "Under 2000 characters"
+msgstr "Około 2000 znaków"
+
+#: ../advocacy/information.php:25
+msgid "Under 250 characters"
+msgstr "Około 250 znaków"
+
+#: ../advocacy/information.php:19
+msgid "Under 45 characters"
+msgstr "Około 45 znaków"
+
+#: ../advocacy/information.php:28
+msgid "Under 450 characters"
+msgstr "Około 450 znaków"
+
+#: ../advocacy/information.php:22
+msgid "Under 80 characters"
+msgstr "Około 80 znaków"
+
+#: ../visualtour.php:64
+msgid ""
+"Unfortunately, pgAdmin 1.8 doesn't have support for FTS Objects</b>.\n"
+"  One of the things we had to do for 1.10 is to support these."
+msgstr ""
+"Niestety, pgAdmin 1.8 nie ma <b>obsługi Obiektów FTS</b>.\n"
+"  Jedną z rzeczy, jakie trzeba było zrobić dla 1.10 była ich obsługa."
+
+#: ../screenshots/menu.php:7 ../screenshots/ui.php:8
+msgid "User interface"
+msgstr "Interfejs użytkownika"
+
+#: ../features.php:93
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: ../visualtour12.php:132
+msgid ""
+"Using the table properties dialog should be quicker now because the list of "
+"types is now cached."
+msgstr ""
+"Korzystanie z okna dialogowego właściwości tabeli powinny być szybsze, "
+"ponieważ teraz lista typów jest przechowywana w pamięci podręcznej."
+
+#: ../translation/howto.php:17
+msgid ""
+"Usually, we prefer native speakers translate into their mother tongue. In "
+"the case of non-European and non-Asian languages, we have no special "
+"requirements."
+msgstr ""
+"Zazwyczaj wolelibyśmy by native speakerzy tłumaczyli na swój język ojczysty. "
+"W przypadku języków pozaeuropejskich i nie-azjatyckich, nie mamy "
+"szczególnych wymagań."
+
+#: ../features.php:45
+msgid "Very fast datagrid for display/entry of data"
+msgstr "Bardzo szybki siatka danych do wyświetlania/wprowadzania danych"
+
+#: ../features.php:94
+msgid "Views"
+msgstr "Widoki"
+
+#: ../features.php:108
+msgid "WIN"
+msgstr "WIN"
+
+#: ../features.php:110
+msgid "WIN1256"
+msgstr "WIN1256"
+
+#: ../features.php:112
+msgid "WIN874"
+msgstr "WIN874"
+
+#: ../visualtour.php:359
+msgid ""
+"Warn the user if connecting to a newer version of the server than is\n"
+"    supported"
+msgstr ""
+"Ostrzeganie użytkownika w przypadku podłączenia do nowszej wersji serwera,\n"
+"    niż może być obsłużona"
+
+#: ../visualtour14.php:361
+msgid ""
+"We also added support for the new --quote-all-identifiers command-line "
+"option of pg_dump:"
+msgstr ""
+"Ponadto dodano obsługę nowej opcji wiersza poleceń --quote-all-identifiers "
+"dla pg_dump:"
+
+#: ../visualtour14.php:341
+msgid ""
+"We also enhanced the connect dialog so that it tries to keep the old values "
+"when connecting to another server."
+msgstr ""
+"Ulepszyliśmy również okno połączenia tak, by starało się utrzymać poprzednie "
+"wartości po podłączeniu do innego serwera."
+
+#: ../visualtour.php:121
+msgid ""
+"We also have allowed the SQL tab to be edited. For example, when adding a\n"
+"  new column with a default value and a NOT NULL constraint, you couldn't "
+"do\n"
+"  it with pgAdmin in one action because one needs to first add the column, "
+"change the\n"
+"  value for each existing row and then add the NOT NULL constraint. Now, "
+"you\n"
+"  can use the UI to do this. You'll get this query:"
+msgstr ""
+"Dodaliśmy również możliwość edycji karty SQL. Na przykład, podczas dodawania\n"
+"  nowej kolumny z wartością domyślną i ograniczenie NOT NULL, nie można było\n"
+"  zrobić tego w pgAdmin w jednym ruchu, ponieważ trzeba najpierw dodać "
+"kolumnę,\n"
+"  zmienić wartości w każdym wierszu, a następnie dodać ograniczenie NOT "
+"NULL.\n"
+"  Teraz można skorzystać z interfejsu użytkownika, aby to zrobić. Otrzymasz\n"
+"  takie zapytanie:"
+
+#: ../visualtour14.php:385
+msgid ""
+"We also list the log files in the reverse order, so that the last one is "
+"displayed first."
+msgstr ""
+"Listujemy również pliki dziennika w odwrotnej kolejności, tak aby ostatni z "
+"nich był wyświetlany jako pierwszy."
+
+#: ../visualtour14.php:331
+msgid ""
+"We fixed the enabling and disabling of toolbar buttons according to the "
+"selected text and the panel. We allowed the use of the mousewheel to showthe "
+"text larger or smaller in the results grid. We changed the tabs to use "
+"tearable tabsets. We added block folding in all SQL text boxes, query tool "
+"included."
+msgstr ""
+"Naprawiliśmy włączanie i wyłączanie przycisków na pasku narzędzi w "
+"zależności od wybranego tekstu i panelu. Ustawiliśmy wykorzystanie kółka "
+"myszy do powiększania i pomniejszania tekstu w siatce wyników. Zmieniliśmy "
+"zakładki by móc stosować przesuwalne grupy zakładek. Dodaliśmy zwijanie "
+"bloków we wszystkich polach tekstowych SQL, w tym w narzędziu zapytania."
+
+#: ../visualtour14.php:158
+msgid ""
+"We have two new pieces of information in the browser's statistics tab for a "
+"database:"
+msgstr ""
+"Mamy dwa nowe kawałki informacji w zakładce przeglądarki statystyki dla bazy "
+"danych:"
+
+#: ../visualtour14.php:26
+msgid "We hope it will allow more users to use pgAdmin on netbooks."
+msgstr ""
+"Mamy nadzieję, że pozwoli to większej liczbie użytkowników korzystać z "
+"pgAdmin na netbookach."
+
+#: ../privacypolicy.php:20
+msgid ""
+"We may collect demographic and interest category information from people via "
+"surveys, volunteered information, suggestions from members, and other means. "
+"Our members may voluntarily provide information, including that regarding "
+"personal, interests, geography, and demographics. The purpose of this data "
+"collection is to ensure we continue to understand the needs and wants of the "
+"PostgreSQL community, and therefore can provide the most relevant "
+"information, guides, and content."
+msgstr ""
+"Możemy gromadzić dane demograficzne i informacje o kategoriach zainteresowań "
+"od osób za pomocą ankiet, dobrowolnie podanych informacji, sugestii ze "
+"strony członków, i innych środków. Nasi członkowie mogą dobrowolnie podawać "
+"informacje, w tym osobiste, dotyczące zainteresowań, geografii i demografii. "
+"Celem zbierania danych z tej jest zapewnienie, że nadal zrozumiemy potrzeby "
+"i życzenia społeczności PostgreSQL, a dzięki temu możemy dostarczyć "
+"najbardziej istotne informacje, instrukcje i treści."
+
+#: ../contribute.php:18
+#, php-format
+msgid ""
+"We need help to translate pgAdmin and our website to as many languages as "
+"possible for the benefit of our worldwide userbase. If you think you can "
+"help us, please visit the <a href=\"%s\">translation</a> page."
+msgstr ""
+"Potrzebujemy pomocy w tłumaczeniu pgAdmin i naszej strony na tak wiele "
+"języków, jak to możliwe, z korzyścią dla naszej ogólnoświatowej bazy "
+"użytkowników. Jeśli myślisz, że możesz nam pomóc, odwiedź stronę <a href=\"%"
+"s\">tłumaczeń</a>."
+
+#: ../translation/index.php:14
+#, php-format
+msgid ""
+"We need your help to translate pgAdmin into additional languages. Everyone "
+"can participate, please refer to the translation <a href=\"%s\">howto</a> "
+"for more information. This web site can also be translated using the <a href="
+"\"%s\">pgadmin3_website.pot</a> file. If you are interested in the "
+"translation of PostgreSQL server messages, please visit the <a href=\"%s"
+"\">PostgreSQL National Language Support</a> project page. "
+msgstr ""
+"Potrzebujemy Twojej pomocy, aby przetłumaczyć pgAdmin na kolejne języki. "
+"Każdy może w tym uczestniczyć, prosimy zapoznać się z <a href=\"%s\">jak to "
+"zrobić</a> aby uzyskać więcej informacji. Ta strona internetowa może być "
+"również przetłumaczona za pomocą pliku <a href=\"%"
+"s\">pgadmin3_website.pot</a>. Jeśli jesteś zainteresowany tłumaczeniem "
+"wiadomości serwera PostgreSQL, odwiedź stronę projektu <a href=\"%s\">Obsługi "
+"Języków Narodowych PostgreSQL</a>. "
+
+#: ../visualtour.php:140
+msgid ""
+"We no longer display the SQL tab for the Server properties dialog. It had "
+"no\n"
+"  real meaning on this dialog. But we add a few things, like the color\n"
+"  selection:"
+msgstr ""
+"Nie wyświetlamy już zakładki SQL dla okna właściwości serwera. Nie miało\n"
+"   prawdziwego znaczenia w tym oknie dialogowym. Dodaliśmy za to kilka "
+"rzeczy, \n"
+"   jak wybór koloru:"
+
+#: ../screenshots/index.php:14
+msgid ""
+"We provide source and binary packages for FreeBSD, Linux, Mac OSX and "
+"Microsoft Windows &trade;. Solaris binaries may also be compiled from the "
+"source code."
+msgstr ""
+"Zapewniamy źródła i pakiety binarne dla FreeBSD, Linux, Mac OSX i Microsoft "
+"Windows &trade;. Pliki binarne Solaris mogą być również skompilowane z kodu "
+"źródłowego."
+
+#: ../privacypolicy.php:16
+msgid ""
+"We store information such as your email address, name and locality only if "
+"you decide to send us such information by completing a survey, or "
+"registering as a user on one of our sites. We collect this information to "
+"help us improve the content of our sites, customize the layout of our web "
+"pages and to contact people for technical and support purposes. We will not "
+"share your email address with other organizations unless required by law."
+msgstr ""
+"Przechowujemy informacje, takie jak adres e-mail, imię i miejscowość tylko, "
+"jeśli zdecydujesz się przesłać nam takie informacje poprzez wypełnienie "
+"ankiety, lub zarejestrowanie się jako użytkownik na jednej z naszych stron. "
+"Zbieramy takie informacje, aby pomóc nam udoskonalić zawartość naszych "
+"witryn, dostosować układ z naszych stron internetowych i do kontaktowania "
+"się w celach technicznych i wsparcia. Nie będziemy udostępniać adres e-mail "
+"innym organizacjom, chyba że wymaga tego prawo."
+
+#: ../visualtour.php:271
+msgid ""
+"When clicked, the psql console is launched and connects\n"
+"  to the database selected in pgAdmin."
+msgstr ""
+"Po kliknięciu uruchamia się konsola psql i łączy\n"
+"   do bazy danych wybranej w pgAdmin."
+
+#: ../translation/howto.php:53
+#, php-format
+msgid ""
+"When the translation is finished and reviewed, send the pgadmin3.po and "
+"pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/"
+"taring them. We will do our best to publish your files immediately. The "
+"translations are published in the <a href=\"%s\">snapshot builds</a> once "
+"they have been committed to the source repository."
+msgstr ""
+"Gdy tłumaczenie jest gotowe i przejrzane, wyślij pliki pgadmin3.po i "
+"pgadmin3.mo do <a href=\"%s\">Guillaume Lelarge</a> po ich "
+"zzipowaniu/starowaniu. Dołożymy wszelkich starań, aby opublikować pliki "
+"natychmiast. Tłumaczenia są publikowane w <a href=\"%s\">kompilacji "
+"migawkowej</a>, gdy już zostały one zatwierdzone do repozytorium kodu "
+"źródłowego."
+
+#: ../translation/howto.php:25
+#, php-format
+msgid ""
+"When this is done, you will receive an email. Browse to the <a href=\"%s"
+"\">translation status</a> page and download the *.po file corresponding to "
+"your language. The <a href=\"%s\">pgadmin3.pot</a> file serves as empty "
+"template for a new language source file."
+msgstr ""
+"Gdy zostanie to zrobione, otrzymasz e-mail. Przejdź na stronę <a href=\"%"
+"s\">stanu tłumaczenia</a> i pobierz plik *.po odpowiadający Twojemu językowi. "
+"Plik <a href=\"%s\">pgadmin3.pot</a> służy jako pusty szablon dla nowego "
+"pliku źródłowego języka."
+
+#: ../visualtour12.php:44
+msgid ""
+"When you click on the OK button, a new group appears with your server in it."
+msgstr ""
+"Po kliknięciu na przycisk OK, pojawia się nowa grupa z tym serwerem w niej."
+
+#: ../privacypolicy.php:12
+msgid ""
+"When you visit our website, our servers automatically log your IP address "
+"and/or host name."
+msgstr ""
+"Podczas wizyty na naszej stronie internetowej, nasze serwery automatycznie "
+"rejestrują Twój adres IP i/lub nazwę hosta."
+
+#: ../advocacy/index.php:10
+msgid "Why promote pgAdmin?"
+msgstr "Dlaczego promować pgAdmin?"
+
+#: ../download/menu.php:16 ../download/windows.php:8
+#: ../screenshots/index.php:28
+msgid "Windows &trade;"
+msgstr "Windows &trade;"
+
+#: ../advocacy/information.php:10
+msgid ""
+"You are free to publish any technical information about pgAdmin. Here are "
+"some guidelines, primarily about links and localization."
+msgstr ""
+"Możesz swobodnie publikować dowolne informacje techniczne na temat pgAdmin. "
+"Oto kilka wskazówek, dotyczących przede wszystkim linków i lokalizacji."
+
+#: ../advocacy/strategy.php:17
+msgid ""
+"You are free to register everywhere as long as the registration conditions "
+"do not limit the rights of pgAdmin Team members."
+msgstr ""
+"Możesz swobodnie zarejestrować się wszędzie dopóty, dopóki warunki "
+"rejestracji nie ograniczają praw członków zespołu pgAdmin."
+
+#: ../translation/howto.php:51
+msgid ""
+"You can also use the translation debug mode of pgAdmin (command line option -"
+"t) to review your translation in all dialogues. You won't need a database "
+"connection in that mode, but all dialogue resource files (*.xrc) are "
+"required, copied to the <i>ui</i> directory. If you compiled in debug mode, "
+"this will be the case automatically."
+msgstr ""
+"Możesz także skorzystać z trybu debugowania tłumaczenia pgAdmin (opcja -t "
+"linii poleceń), aby przejrzeć tłumaczenie wszystkich okien dialogowych. W "
+"tym trybie nie jest potrzebne połączenie z bazą danych, ale są wymagane "
+"wszystkie pliki zasobów dialogu (*.xrc), skopiowane do katalogu <i>ui</i>. "
+"Jeśli kompilowałeś w trybie debugowania, to będzie w przypadek automatyczny."
+
+#: ../visualtour12.php:290
+msgid ""
+"You can drag a file from the desktop and drop it in the query text box. It "
+"will automatically open the file."
+msgstr ""
+"Można przeciągnąć plik z pulpitu i upuść go w polu zapytania tekstu. "
+"Spowoduje to automatyczne otwarcie pliku."
+
+#: ../visualtour12.php:102
+msgid ""
+"You immediately see the choosen color. To change it, click on the button and "
+"a native colour chooser dialog will appear. As soon as you close it, the "
+"colour button will change its colour."
+msgstr ""
+"Natychmiast widać wybrany kolor. Aby go zmienić, kliknij przycisk i pojawi "
+"się natywne okno wyboru koloru. Tuż po jego zamknięciu, przycisk koloru "
+"zmieni kolor."
+
+#: ../translation/howto.php:49
+msgid ""
+"You should be able to add the appropriate <i>i18n/language_Country/pgadmin3."
+"mo</i> file under an existing binary installation of pgAdmin. Then, just "
+"select the language under the File -> Options menu. The review is an "
+"important step because some strings do not have a real context when viewed "
+"in the editor. You will only be able to correct entries by using pgAdmin "
+"yourself."
+msgstr ""
+"Powinieneś być w stanie dodać odpowiedni plik "
+"<i>i18n/language_Country/pgadmin3.mo</i> do istniejących binariów instalacji "
+"pgAdmin. Następnie wystarczy wybrać język w menu Plik -> Opcje. Przegląd to "
+"ważny krok, ponieważ niektóre słowa nie mają prawdziwego kontekstu podczas "
+"przeglądania w edytorze. Będziesz w stanie samodzielnie skorygować zapisy za "
+"pomocą pgAdmin."
+
+#: ../visualtour12.php:92
+msgid "You'll also see the last time a superuser reloaded the configuration."
+msgstr ""
+"Zobaczysz również czas ostatniego przeładowania konfiguracji przez "
+"superużytkownika."
+
+#: ../visualtour14.php:161
+msgid "all fields of the new pg_stat_database_conflicts view."
+msgstr "wszystkie pola nowego widoku pg_stat_database_conflicts."
+
+#: ../visualtour14.php:278 ../visualtour14.php:301
+msgid "first tab"
+msgstr "pierwsza zakładka"
+
+#: ../visualtour14.php:249
+msgid "for the composite type"
+msgstr "dla typu złożonego"
+
+#: ../visualtour14.php:253
+msgid "for the enumeration type"
+msgstr "dla typu wyliczeniowego"
+
+#: ../visualtour14.php:257
+msgid "for the external type"
+msgstr "dla typu zewnętrznego"
+
+#: ../index.php:20
+#, php-format
+msgid ""
+"pgAdmin %s has now been released. This release is the culmination of over 12 "
+"months of development work. A visual tour of the new release is available <a "
+"href=\"/visualtour12.php\">here</a>, or a complete list of changes can be "
+"seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please "
+"visit the <a href=\"download\">download area</a> to get your copy, or "
+"alternatively download a <a href=\"http://www.enterprisedb.com/products/"
+"pgdownload.do\">PostgreSQL 9.0 Installer</a> which includes pgAdmin."
+msgstr ""
+"pgAdmin %s został wydany. Wydanie to jest zwieńczeniem ponad 12 miesięcy "
+"prac rozwojowych. Wizualny przewodnik dla nowej wersji jest dostępny <a "
+"href=\"/visualtour12.php\">tutaj</a>, zaś pełną listę zmian można zobaczyć na "
+"<a href=\"/development/changelog.php\">CHANGELOG</a>. Odwiedź <a "
+"href=\"download\">obszar pobierania</a>, aby uzyskać kopię, lub ewentualnie "
+"pobrać <a "
+"href=\"http://www.enterprisedb.com/products/pgdownload.do\">Instalator "
+"PostgreSQL 9.0</a>, który zawiera pgAdmin."
+
+#: ../download/debian.php:16 ../download/debian.php:20
+#: ../download/debian.php:24 ../download/debian.php:28
+#, php-format
+msgid ""
+"pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can "
+"install pgAdmin just as you would do with any other Debian package (apt-get "
+"install pgadmin3)."
+msgstr ""
+"pgAdmin %s jest <a href=\"%s\">dostępny</a> bezpośrednio przez Debian. Można "
+"zainstalować pgAdmin jak to zwykle robisz z innymi pakietami Debiana (apt-"
+"get install pgadmin3)."
+
+#: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
+#: ../include/doc.php:33 ../include/doc.php:39 ../include/doc.php:45
+#: ../include/doc.php:51
+#, php-format
+msgid "pgAdmin %s online documentation"
+msgstr "dokumentacja online pgAdmin %s"
+
+#: ../visualtour.php:5 ../visualtour.php:8
+msgid "pgAdmin 1.10 Visual Tour"
+msgstr "Wizualny Przewodnik po pgAdmin 1.10"
+
+#: ../visualtour.php:192
+msgid ""
+"pgAdmin 1.10 adds <b>support for DESC and NULLs FIRST/LAST options</b>\n"
+"  for index columns."
+msgstr ""
+"pgAdmin 1.10 dodaje <b>wsparcie dla opcji DESC i NULLs FIRST/LAST</b>\n"
+"   do kolumn indeksu."
+
+#: ../visualtour.php:257
+msgid ""
+"pgAdmin 1.10 adds the ability to register external applications on a\n"
+"  <b>plugins menu</b>. Menu options can be activated based on the current "
+"object\n"
+"  selection and a variety of variables - including everything needed to\n"
+"  open a database connection - can be passed to the external utility."
+msgstr ""
+"pgAdmin 1.10 dodaje możliwość rejestracji aplikacji zewnętrznych w\n"
+"   <b>menu wtyczek</b>. Opcje menu mogą być aktywowane w oparciu o wybrany "
+"bieżący\n"
+"   obiekt zaś wiele zmiennych - w tym wszystko, co potrzebne do otwarcia\n"
+"   połączenia z bazą danych - mogą być przekazywane do narzędzia "
+"zewnętrznego."
+
+#: ../visualtour12.php:108
+msgid ""
+"pgAdmin 1.10 lacks some statistics for database, indexes and functions. They "
+"all are available now. For example, this is what pgAdmin 1.12 shows for a "
+"selected database."
+msgstr ""
+"W pgAdmin 1.10 brakuje niektórych danych statystycznych dla bazy danych, "
+"indeksów i funkcji. Wszystkie są już dostępne. Dla przykładu, oto co pgAdmin "
+"1.12 pokazuje dla wybranej bazy danych."
+
+#: ../visualtour12.php:188
+msgid ""
+"pgAdmin 1.10 lacks some statistics for database, indexes and functions. They "
+"all are available now. For example, this is what pgAdmin 1.12 shows for "
+"function."
+msgstr ""
+"W pgAdmin 1.10 brakuje niektórych danych statystycznych dla bazy danych, "
+"indeksów i funkcji. Wszystkie są już dostępne. Dla przykładu, oto co pgAdmin "
+"1.12 pokazuje dla funkcji."
+
+#: ../visualtour12.php:156
+msgid ""
+"pgAdmin 1.10 lacks some statistics for databases, indexes and functions. "
+"They all are available now. For example, this is what pgAdmin 1.12 shows for "
+"indexes."
+msgstr ""
+"W pgAdmin 1.10 brakuje niektórych danych statystycznych dla bazy danych, "
+"indeksów i funkcji. Wszystkie są już dostępne. Dla przykładu, oto co pgAdmin "
+"1.12 pokazuje dla indeksów."
+
+#: ../visualtour.php:207
+msgid ""
+"pgAdmin 1.10 supports <b>default values for function parameters</b> in\n"
+"  PostgreSQL 8.4+ and on EnterpriseDB, and <b>variadic functions</b>."
+msgstr ""
+"pgAdmin 1.10 obsługuje <b>wartości domyślne parametrów funkcji</b> w\n"
+"   PostgreSQL 8.4 + i EnterpriseDB, oraz <b>funkcje variadic</b>."
+
+#: ../visualtour12.php:5 ../visualtour12.php:7
+msgid "pgAdmin 1.12 Visual Tour"
+msgstr "Wizualny Przewodnik po pgAdmin 1.12"
+
+#: ../visualtour12.php:226
+msgid ""
+"pgAdmin 1.12 handles many more options already available in the pg_dump/"
+"pg_restore binaries."
+msgstr ""
+"pgAdmin 1.12 obsługuje wiele więcej opcji już dostępnych w programach "
+"pg_dump/pg_restore."
+
+#: ../visualtour12.php:174
+msgid ""
+"pgAdmin 1.12 supports the new syntax of CREATE TRIGGER. The WHEN clause and "
+"the column link are handled. The former uses a new textbox."
+msgstr ""
+"pgAdmin 1.12 wspiera nową składnię CREATE TRIGGER. Są obsługiwane klauzula "
+"WHEN oraz link kolumny. Kreator używa nowego pola tekstowego."
+
+#: ../visualtour14.php:103
+msgid ""
+"pgAdmin 1.12 used a single file to store the configuration for all available "
+"plugins. 1.14 looks for files in a folder where each file contains "
+"information about one or more plugins. This new system allows other "
+"applications to register themselves as plugins in pgAdmin without having to "
+"edit, and perhaps break, the old plugins.ini file."
+msgstr ""
+"pgAdmin 1.12 używa pojedynczego pliku do przechowywania konfiguracji "
+"wszystkich dostępnych wtyczek. 1.14 szuka plików w folderze, w którym każdy "
+"plik zawiera informacje o jednej lub większej ilości wtyczek. Ten nowy "
+"system pozwala innym aplikacjom zarejestrować się jako wtyczki w pgAdmin bez "
+"konieczności edytowania, a może nawet uszkodzenia poprzedniej wersji pliku "
+"plugins.ini."
+
+#: ../index.php:16
+msgid ""
+"pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous "
+"version. The list of bug fixes is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4 "
+"Installer</a> which includes pgAdmin."
+msgstr ""
+"Został wydany pgAdmin 1.12.3, oferując 26 poprawek błędów z poprzednich "
+"wersji. Lista poprawek jest dostępna w <a "
+"href=\"/development/changelog.php\">CHANGELOG</a>. Odwiedź <a "
+"href=\"download\">obszar pobierania</a>, aby uzyskać kopię, lub ewentualnie "
+"pobrać <a "
+"href=\"http://www.enterprisedb.com/products/pgdownload.do\">Instalator "
+"PostgreSQL 9.0.4</a>, który zawiera pgAdmin."
+
+#: ../index.php:12
+msgid ""
+"pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new "
+"interesting features. We're still working on a visual tour. In the meantime, "
+"the list of new features is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 "
+"Release Candidate 1 Installer</a> which includes pgAdmin."
+msgstr ""
+"Został wydany pgAdmin 1.14 Release Candidate 1, oferując wiele nowych "
+"interesujących funkcji. Pracujemy wciąż nad wizualnym przewodnikiem. Lista "
+"poprawek jest dostępna w <a href=\"/development/changelog.php\">CHANGELOG</a>. "
+"Odwiedź <a href=\"download\">obszar pobierania</a>, aby uzyskać kopię, lub "
+"ewentualnie pobrać <a "
+"href=\"http://www.enterprisedb.com/products/pgdownload.do\">Instalator "
+"PostgreSQL 9.1 Release Candidate 1</a>, który zawiera pgAdmin."
+
+#: ../visualtour14.php:5 ../visualtour14.php:7
+msgid "pgAdmin 1.14 Visual Tour"
+msgstr "Wizualny Przewodnik po pgAdmin 1.14"
+
+#: ../visualtour14.php:357
+msgid ""
+"pgAdmin 1.14 uses the -w switch of pg_dump/pg_restore when this switch is "
+"available."
+msgstr ""
+"pgAdmin 1.14 używa przełącznika -w podczas wykonywania pg_dump/pg_restore "
+"jeśli jest on dostępny."
+
+#: ../visualtour14.php:70
+msgid ""
+"pgAdmin 1.14 uses the same idea for valid and invalid foreign keys and "
+"enabled and disabled triggers and rules."
+msgstr ""
+"pgAdmin 1.14 wykorzystuje ten sam pomysł na ważne i nieważne klucze obce i "
+"włączane i wyłączone wyzwalacze i reguły."
+
+#: ../translation/index.php:10
+#, php-format
+msgid ""
+"pgAdmin 1.4 was released with over a dozen language options and more than "
+"another 25 translations are in various states of completion. If a language "
+"you find here isn't included in your distribution package, you can easily "
+"upgrade your installation to support that additional translation. Simply "
+"locate the appropriate language file (pgadmin3.mo) in the <a href=\"%s"
+"\">translation status</a> section, create a subdirectory in your "
+"installation's i18n directory with a name corresponding to the locale code, "
+"and copy the new translation file into that directory. You might need to "
+"update the language description file <a href=\"%s\">i18n/pgadmin3.lng</a> to "
+"allow the new translation to appear in the language selection combobox."
+msgstr ""
+"pgAdmin 1.4 został wydany w kilkunastu opcjach językowych a ponad 25 kolejne "
+"tłumaczenia są w różnym stanie kompletności. Jeśli język jest tutaj nie "
+"został włączony do pakietu dystrybucyjnego, można łatwo uaktualnić "
+"instalację by obsługiwała dodatkowe tłumaczenie. Wystarczy znaleźć właściwy "
+"plik językowy (pgadmin3.mo) w sekcji <a href=\"%s\">stan tłumaczenia</a>, "
+"utworzyć podkatalog w katalogu instalacji i18n z nazwą odpowiednią dla kodu "
+"lokalizacji i skopiować nowy plik tłumaczenie do tego katalogu. Być może "
+"trzeba zaktualizować plik opisu języka <a href=\"%s\">i18n/pgadmin3.lng</a>, "
+"aby umożliwić nowemu tłumaczeniu pojawienie się w menu rozwijalnym wyboru "
+"języka."
+
+#: ../features.php:30
+msgid "pgAdmin Documentation"
+msgstr "Dokumentacja pgAdmin"
+
+#: ../download/solaris.php:5
+msgid "pgAdmin Download - Solaris"
+msgstr "Pobieranie pgAdmin - Solaris"
+
+#: ../download/rpm.php:12
+#, php-format
+msgid ""
+"pgAdmin III RPM packages are available for several Linux distributions from "
+"the PostgreSQL <a href=\"%s\">RPM repository</a>."
+msgstr ""
+"Pakiety RPM pgAdmin III są dostępne dla wielu dystrybucji systemu Linux na "
+"<a PostgreSQL href=\"%s\">repozytorium RPM</a>."
+
+#: ../include/page.php:63
+msgid "pgAdmin III: PostgreSQL Tools"
+msgstr "pgAdmin III: Narzędzia PostgreSQL"
+
+#: ../screenshots/ui.php:12
+msgid ""
+"pgAdmin can connect to any PostgreSQL 7.3/7.4 and 8.x database using the "
+"embedded libpq native library. The application does not need any ODBC, .NET "
+"or JDBC layer. When configured server-side, it is possible to connect using "
+"encrypted password or SSL authentication."
+msgstr ""
+"pgAdmin można podłączyć do dowolnej bazy danych PostgreSQL 7.3/7.4 i 8.x za "
+"pomocą wbudowanej rodzimej biblioteki libpq. Aplikacja nie wymaga ODBC, .NET "
+"ani warstwy JDBC. Po skonfigurowaniu po stronie serwera, można połączyć się "
+"za pomocą szyfrowanego hasła lub uwierzytelnienia SSL."
+
+#: ../download/snapshots.php:14
+#, php-format
+msgid ""
+"pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
+msgstr "Migawki rozwojowe pgAdmin można pobrać <a href=\"%s\">stąd</a>."
+
+#: ../visualtour14.php:290
+msgid ""
+"pgAdmin didn't support any SQL/Med objects prior to this release. pgAdmin "
+"1.14 adds support for Foreign Data Wrappers, Foreign Servers, User Mappings, "
+"and Foreign Tables."
+msgstr ""
+"pgAdmin nie obsługiwał obiektów SQL/Med przed tym wydaniem. W pgAdmin 1.14 "
+"dodano wsparcie dla Opakowań Danych Obcych, Serwerów Obcych, Mapowań "
+"użytkownika i Tabel Obcych."
+
+#: ../screenshots/xgl.php:10
+msgid "pgAdmin even works in 3D!!."
+msgstr "pgAdmin pracuje nawet w 3D!!."
+
+#: ../features.php:10
+#, php-format
+msgid ""
+"pgAdmin has a huge array of features and by far the best way to see them all "
+"is to <a href=\"%s\">download</a> a copy and give it a try. Here's a brief "
+"list to give you an idea of it's capabilities:"
+msgstr ""
+"pgAdmin posiada ogromny zakres funkcjonalności a zdecydowanie najlepszym "
+"sposobem, aby zobaczyć je wszystkie jest <a href=\"%s\">pobranie</a> kopii i "
+"jej wypróbowanie. Oto krótka lista by dać Ci wyobrażenie o jego "
+"możliwościach:"
+
+#: ../screenshots/ui.php:26
+msgid ""
+"pgAdmin includes a table editor. Columns can be dropped. Column data types "
+"can be modified in certain conditions as allowed by the server version."
+msgstr ""
+"pgAdmin zawiera edytor tabel. Kolumny mogą być usuwane. Typy danych kolumn "
+"można zmieniać pod pewnymi warunkami dozwolonymi przez wersję serwera."
+
+#: ../screenshots/documentation.php:10
+msgid ""
+"pgAdmin includes full PostgreSQL and Slony-I documentation, in addition to "
+"it's own."
+msgstr "pgAdmin zawiera pełną dokumentację PostgreSQL i Slony-I, poza własną."
+
+#: ../support/index.php:10
+msgid ""
+"pgAdmin is a community project comprising of a number of volunteers from "
+"around the world. We do not provide 'paid for' support for pgAdmin, although "
+"we do aim to fix bugs and help out wherever possible. Obviously we cannot "
+"guarantee to fix every problem or help every user though we always try to."
+msgstr ""
+"pgAdmin to projekt społeczności składającej się z wielu ochotników z całego "
+"świata. Nie przewidujemy 'opłacanego' wsparcia dla pgAdmin, chociaż stawiamy "
+"sobie za cel naprawę błędów i pomoc w miarę możliwości. Oczywiście, nie "
+"możemy zagwarantować, aby rozwiązać każdy problem i pomóc każdemu "
+"użytkownikowi chociaż zawsze się staramy."
+
+#: ../development/index.php:10
+#, php-format
+msgid ""
+"pgAdmin is a community project, relying on contributions from developers "
+"around the world for bug fixes and new features. Anyone is welcome to join "
+"the project and contribute as much or as little as they like. pgAdmin is "
+"written in C++ using the <a href=\"%s\">wxWidgets</a> cross platform "
+"framework, so at the least you will want to be familiar with C/C++ to hack "
+"the code. The more experienced pgAdmin developers will also be able to lend "
+"a guiding hand to new developers, so don't be afraid to get stuck in!"
+msgstr ""
+"pgAdmin to projekt społeczności, w oparciu o wkład programistów na całym "
+"świecie do poprawek i nowych funkcji. Serdecznie zapraszamy każdego do "
+"przyłączenia się do projektu i dodania tak wiele lub tak mało, jak się "
+"podoba. pgAdmin jest napisany w C++ przy użyciu wieloplatformowego "
+"środowiska <a href=\"%s\">wxWidgets</a>, musisz zatem przynajmniej znać C/C++ "
+"by rozkminić kod. Bardziej doświadczeni programiści pgAdmin będą mogli "
+"przyłożyć rękę do prowadzenia nowych deweloperów, więc nie bój się rzucić w "
+"wir!"
+
+#: ../screenshots/index.php:10
+#, php-format
+msgid ""
+"pgAdmin is a comprehensive design and management interface for PostgreSQL "
+"database, designed to run on most operating systems. The software is written "
+"in C++ and uses the excellent <a href=\"%s\">wxWidgets</a> cross platform "
+"toolkit. In every environment, pgAdmin is a native application. The "
+"application is executed in binary code, not in a virtual machine, therefore "
+"offering excellent performance."
+msgstr ""
+"pgAdmin jest kompleksowym interfejsem projektowania i zarządzania dla bazy "
+"danych PostgreSQL, przeznaczony do pracy na większości systemów "
+"operacyjnych. Oprogramowanie jest napisane w C++ i wykorzystuje doskonały "
+"wieloplatformowy zestaw narzędzi <a href=\"%s\">wxWidgets</a>. W każdym "
+"środowisku pgAdmin jest aplikacją natywną. Aplikacja jest wykonywana w "
+"kodzie binarnym, a nie na maszynie wirtualnej, dlatego oferuje doskonałe "
+"osiągi."
+
+#: ../download/index.php:10
+#, php-format
+msgid ""
+"pgAdmin is a free software project released under the <a href=\"%s"
+"\">PostgreSQL/Artistic licence</a>. The software is available in source and "
+"binary format from the <a href=\"%s\">PostgreSQL mirror network</a>. Because "
+"compiling from source requires technical knowledge, we recommend installing "
+"binary packages whenever possible."
+msgstr ""
+"pgAdmin jest wolnym projektem oprogramowania wydanym na <a href=\"%"
+"s\">Licencji artystycznej/PostgreSQL</a>. Oprogramowanie jest dostępne w "
+"postaci źródłowej i binarnej z <a href=\"%s\">sieci lustrzanych serwerów "
+"PostgreSQL</a>. Ponieważ kompilacja ze źródeł wymaga wiedzy technicznej, "
+"zalecamy instalację w miarę możliwości pakietów binarnych."
+
+#: ../contribute.php:10
+msgid ""
+"pgAdmin is a voluntary project created and managed by contributors from "
+"around the world. The project can only live and develop with your help. Do "
+"not hesitate to get involved."
+msgstr ""
+"pgAdmin jest dobrowolnym projektem tworzonym i zarządzanym przez autorów z "
+"całego świata. Projekt może żyć i rozwijać się z twoją pomocą. Nie wahaj się "
+"angażować."
+
+#: ../download/windows.php:12
+msgid "pgAdmin is available for Windows &trade; 2000 and above."
+msgstr "pgAdmin jest dostępny na Windows &trade; 2000 i powyżej."
+
+#: ../development/git.php:10
+#, php-format
+msgid ""
+"pgAdmin is available subject to the terms of the <a href=\"%s\">licence</a>. "
+"pgAdmin is developed using a number of GIT repositories to hold the source "
+"code. Access to the repository is available through a <a href=\"%s\">web "
+"interface</a> or using your favourite GIT client. Under Windows, we "
+"recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
+msgstr ""
+"pgAdmin jest dostępny zgodnie z warunkami <a href=\"%s\">licencji</a>. pgAdmin "
+"jest rozwijany w oparciu zestaw repozytoriów GIT utrzymujących kod "
+"źródłowy. Dostęp do repozytorium jest możliwy za pośrednictwem <a href=\"%"
+"s\">interfejsu www</a> lub za pomocą Twojego ulubionego klienta GIT. W "
+"systemie Windows, zalecamy użycie <a href=\"%s\">TortoiseGIT</a>, będącego "
+"wolnym oprogramowaniem."
+
+#: ../index.php:30
+#, php-format
+msgid ""
+"pgAdmin is designed to answer the needs of all users, from writing simple "
+"SQL queries to developing complex databases. The graphical interface "
+"supports all PostgreSQL features and makes administration easy. The "
+"application also includes a syntax highlighting SQL editor, a server-side "
+"code editor, an SQL/batch/shell job scheduling agent, support for the <a "
+"href=\"%s\">Slony-I</a> replication engine and much more. Server connection "
+"may be made using TCP/IP or Unix Domain Sockets (on *nix platforms), and may "
+"be SSL encrypted for security. No additional drivers are required to "
+"communicate with the database server."
+msgstr ""
+"pgAdmin został stworzony, by odpowiadać na potrzeby wszystkich użytkowników, "
+"od pisania prostych zapytań SQL do tworzenia złożonych baz danych. "
+"Interfejs graficzny obsługuje wszystkie funkcje PostgreSQL i czyni "
+"zarządzanie łatwym. Aplikacja zawiera również edytor SQL z podświetlaniem "
+"składni, edytor kodu uruchamianego po stronie serwera, agent tworzenia "
+"harmonogramu pracy SQL/wsadowego/powłoki, obsługę silnika replikacji <a "
+"href=\"%s\">Slony-I</a> i wiele więcej. Połączenia z serwerem mogą być "
+"wykonywane za pomocą TCP/IP lub gniazda domeny UNIX (na platformach *nix) i "
+"mogą być szyfrowane SSL dla bezpieczeństwa. Nie wymaga również dodatkowych "
+"sterowników do komunikacji z serwerem bazy danych."
+
+#: ../index.php:32
+#, php-format
+msgid ""
+"pgAdmin is developed by a community of PostgreSQL experts around the world "
+"and is available in more than a dozen languages. It is Free Software "
+"released under the <a href=\"%s\">PostgreSQL License</a>."
+msgstr ""
+"pgAdmin jest rozwijany przez społeczność ekspertów PostgreSQL na całym "
+"świecie i jest dostępny w kilkunastu językach. To jest Wolnym "
+"Oprogramowaniem wydanym na <a href=\"%s\">licencji PostgreSQL</a>."
+
+#: ../index.php:28
+#, php-format
+msgid ""
+"pgAdmin is the most popular and feature rich Open Source administration and "
+"development platform for <a href=\"%s\">PostgreSQL</a>, the most advanced "
+"Open Source database in the world. The application may be used on Linux, "
+"FreeBSD, Solaris, Mac OSX and Windows platforms to manage PostgreSQL 7.3 and "
+"above running on any platform, as well as commercial and derived versions of "
+"PostgreSQL such as <a href=\"%s\">Postgres Plus Advanced Server</a> and <a "
+"href=\"%s\">Greenplum database</a>."
+msgstr ""
+"pgAdmin jest najbardziej popularną i funkcjonalną otwartą platformą służąca "
+"do administracji i rozwoju <a href=\"%s\">PostgreSQL</a>, najbardziej "
+"zaawansowanej bazy danych open source na świecie. Aplikacja może być używana "
+"w systemach Linux, FreeBSD, Solaris, Mac OSX i Windows do zarządzania "
+"PostgreSQL 7.3 i powyżej działa na każdej platformie, jak i komercyjnych "
+"pochodnych wersjach PostgreSQL, takich jak <a href=\"%s\">Postgres Plus "
+"Advanced Server</a> i <a href=\"%s\">baza danych Greenplum</a>."
+
+#: ../download/debian.php:12
+#, php-format
+msgid ""
+"pgAdmin packages are available for <a href=\"%s\">Debian</a> stable, testing "
+"and unstable distributions. These packages are also well-suited for <a href="
+"\"%s\">Ubuntu</a> and other Debian based distributions"
+msgstr ""
+"pakiety pgAdmin są dostępne dla dystrybucji stabilnej, testowej i "
+"niestabilnej <a href=\"%s\"> Debiana</a>. Pakiety te doskonale nadają się "
+"także do <a href=\"%s\">Ubuntu</a> i innych dystrybucji opartych na Debianie"
+
+#: ../download/freebsd.php:12
+msgid ""
+"pgAdmin packages are available for download. These packages have been built "
+"on FreeBSD 6."
+msgstr ""
+"pakiety pgAdmin są dostępne do pobrania. Pakiety te zostały zbudowane we "
+"FreeBSD 6."
+
+#: ../download/ubuntu.php:12
+#, php-format
+msgid ""
+"pgAdmin packages are available for the <a href=\"%s\">Ubuntu</a> dapper and "
+"feisty distributions."
+msgstr ""
+"pakiety pgAdmin są dostępne dla dystrybucji <a href=\"%s\">Ubuntu</a> dapper i "
+"feisty."
+
+#: ../screenshots/index.php:17
+msgid "pgAdmin running on FreeBSD"
+msgstr "pgAdmin w systemie FreeBSD"
+
+#: ../screenshots/index.php:20
+msgid "pgAdmin running on Linux"
+msgstr "pgAdmin w systemie Linux"
+
+#: ../screenshots/index.php:23
+msgid "pgAdmin running on Mac OSX"
+msgstr "pgAdmin w systemie Mac OSX"
+
+#: ../screenshots/index.php:26
+msgid "pgAdmin running on Solaris"
+msgstr "pgAdmin w systemie Solaris"
+
+#: ../screenshots/xgl.php:12
+msgid "pgAdmin running on Suse 10 XGL"
+msgstr "pgAdmin w systemie Suse 10 XGL"
+
+#: ../screenshots/index.php:29
+msgid "pgAdmin running on Windows"
+msgstr "pgAdmin w systemie Windows"
+
+#: ../screenshots/mb_i18n.php:10
+msgid ""
+"pgAdmin supports most PostgreSQL server-side encodings including Unicode "
+"UTF-8 and other multi-byte charactersets."
+msgstr ""
+"pgAdmin obsługuje większą część kodowań PostgreSQL po stronie serwera w tym "
+"Unikodowy UTF-8 i inne zestawy znaków wielobajtowych."
+
+#: ../features.php:98
+msgid "pgAdmin supports most PostgreSQL server-side encodings:"
+msgstr "pgAdmin obsługuje lwią część kodowań PostgreSQL po stronie serwera:"
+
+#: ../advocacy/information.php:5
+msgid "pgAdmin: Advocacy - Information"
+msgstr "pgAdmin: Poparcie - Informacje"
+
+#: ../advocacy/index.php:5
+msgid "pgAdmin: Advocacy - Introduction"
+msgstr "pgAdmin: Poparcie - Wstęp"
+
+#: ../advocacy/strategy.php:5
+msgid "pgAdmin: Advocacy - Strategy"
+msgstr "pgAdmin: Poparcie - Strategia"
+
+#: ../development/changelog.php:5
+msgid "pgAdmin: Development - Change log"
+msgstr "pgAdmin: Rozwój - Dziennik zmian"
+
+#: ../development/team.php:5
+msgid "pgAdmin: Development - Development team"
+msgstr "pgAdmin: Rozwój - Zespół Deweloperów"
+
+#: ../development/git.php:5
+msgid "pgAdmin: Development - GIT access"
+msgstr "pgAdmin: Rozwój - Dostęp do GIT"
+
+#: ../development/index.php:5
+msgid "pgAdmin: Development - Introduction"
+msgstr "pgAdmin: Rozwój - Wstęp"
+
+#: ../development/list.php:5
+msgid "pgAdmin: Development - Mailing list"
+msgstr "pgAdmin: Rozwój - Lista mailingowa"
+
+#: ../development/roadmap.php:5
+msgid "pgAdmin: Development - Roadmap"
+msgstr "pgAdmin: Rozwój - Mapa drogowa"
+
+#: ../development/todo.php:5
+msgid "pgAdmin: Development - TODO list"
+msgstr "pgAdmin: Rozwój - Lista rzeczy do zrobienia"
+
+#: ../docs/index.php:5
+msgid "pgAdmin: Documentation"
+msgstr "pgAdmin: Dokumentacja"
+
+#: ../include/doc.php:93
+msgid "pgAdmin: Documentation - Couldn't find the document title!"
+msgstr "pgAdmin: Dokumentacja - Nie udało się znaleźć tytułu dokumentu!"
+
+#: ../download/adminpacks.php:5
+msgid "pgAdmin: Download - Admin packs"
+msgstr "pgAdmin: Pobieranie - Pakiety administracyjne"
+
+#: ../download/debian.php:5
+msgid "pgAdmin: Download - Debian"
+msgstr "pgAdmin: Pobieranie - Debian"
+
+#: ../download/freebsd.php:5
+msgid "pgAdmin: Download - FreeBSD"
+msgstr "pgAdmin: Pobieranie - FreeBSD"
+
+#: ../download/index.php:5
+msgid "pgAdmin: Download - Introduction"
+msgstr "pgAdmin: Pobieranie - Wstęp"
+
+#: ../download/languages.php:5
+msgid "pgAdmin: Download - Languages"
+msgstr "pgAdmin: Pobieranie - Języki"
+
+#: ../download/macosx.php:5
+msgid "pgAdmin: Download - Mac OSX"
+msgstr "pgAdmin: Pobieranie - Mac OSX"
+
+#: ../download/opensuse.php:5
+msgid "pgAdmin: Download - OpenSUSE"
+msgstr "pgAdmin: Pobieranie - OpenSUSE"
+
+#: ../download/rpm.php:5
+msgid "pgAdmin: Download - RPM"
+msgstr "pgAdmin: Pobieranie - RPM"
+
+#: ../download/slackware.php:5
+msgid "pgAdmin: Download - Slackware"
+msgstr "pgAdmin: Pobieranie - Slackware"
+
+#: ../download/snapshots.php:5
+msgid "pgAdmin: Download - Snapshots"
+msgstr "pgAdmin: Pobieranie - Migawki"
+
+#: ../download/source.php:5
+msgid "pgAdmin: Download - Source code"
+msgstr "pgAdmin: Pobieranie - Kod źródłowy"
+
+#: ../download/ubuntu.php:5
+msgid "pgAdmin: Download - Ubuntu"
+msgstr "pgAdmin: Pobieranie - Ubuntu"
+
+#: ../download/windows.php:5
+msgid "pgAdmin: Download - Windows &trade;"
+msgstr "pgAdmin: Pobieranie - Windows &trade;"
+
+#: ../download/pgagent.php:5
+msgid "pgAdmin: Download - pgAgent"
+msgstr "pgAdmin: Pobieranie - pgAgent"
+
+#: ../features.php:5
+msgid "pgAdmin: Feature"
+msgstr "pgAdmin: Cechy"
+
+#: ../contribute.php:5
+msgid "pgAdmin: How to contribute"
+msgstr "pgAdmin: Jak wnieść wkład w rozwój"
+
+#: ../licence.php:5
+msgid "pgAdmin: Licence"
+msgstr "pgAdmin: Licencja"
+
+#: ../index.php:5
+msgid "pgAdmin: PostgreSQL administration and management tools"
+msgstr "pgAdmin: Narzędzia administracyjne i zarządzania PostgreSQL"
+
+#: ../privacypolicy.php:5
+msgid "pgAdmin: Privacy policy"
+msgstr "pgAdmin: Polityka prywatności"
+
+#: ../screenshots/data.php:5
+msgid "pgAdmin: Screenshots - Data"
+msgstr "pgAdmin: Zrzuty ekranu - Dane"
+
+#: ../screenshots/documentation.php:5
+msgid "pgAdmin: Screenshots - Documentation"
+msgstr "pgAdmin: Zrzuty ekranu - Dokumentacja"
+
+#: ../screenshots/index.php:5
+msgid "pgAdmin: Screenshots - Introduction"
+msgstr "pgAdmin: Zrzuty ekranu - Wstęp"
+
+#: ../screenshots/mb_i18n.php:5
+msgid "pgAdmin: Screenshots - Multibyte and i18n"
+msgstr "pgAdmin: Zrzuty ekranu - Wielobajtowość i i18n"
+
+#: ../screenshots/serverstatus.php:5
+msgid "pgAdmin: Screenshots - Server status"
+msgstr "pgAdmin: Zrzuty ekranu - Status serwera"
+
+#: ../screenshots/xgl.php:5
+msgid "pgAdmin: Screenshots - Suse 10 XGL"
+msgstr "pgAdmin: Zrzuty ekranu - Suse 10 XGL"
+
+#: ../screenshots/ui.php:5
+msgid "pgAdmin: Screenshots - User interface"
+msgstr "pgAdmin: Zrzuty ekranu - Interfejs Użytkownika"
+
+#: ../support/faq.php:5
+msgid "pgAdmin: Support - Frequently Asked Questions"
+msgstr "pgAdmin: Wsparcie - Najczęściej Zadawane Pytania"
+
+#: ../support/index.php:5
+msgid "pgAdmin: Support - Introduction"
+msgstr "pgAdmin: Wsparcie - Wstęp"
+
+#: ../support/issues.php:5
+msgid "pgAdmin: Support - Known issues"
+msgstr "pgAdmin: Wsparcie - Znane problemy"
+
+#: ../support/list.php:5
+msgid "pgAdmin: Support - Mailing list"
+msgstr "pgAdmin: Wsparcie - Listy mailowe"
+
+#: ../translation/howto.php:5
+msgid "pgAdmin: Translation - Howto"
+msgstr "pgAdmin: Tłumaczenie - Jak to zrobić"
+
+#: ../translation/index.php:5
+msgid "pgAdmin: Translation - Introduction"
+msgstr "pgAdmin: Tłumaczenie - Wstęp"
+
+#: ../translation/status.php:22
+msgid "pgAdmin: Translation - Status"
+msgstr "pgAdmin: Tłumaczenie - Status"
+
+#: ../download/menu.php:20 ../download/pgagent.php:8
+msgid "pgAgent"
+msgstr "pgAgent"
+
+#: ../download/pgagent.php:10
+msgid ""
+"pgAgent is a job scheduler for PostgreSQL which may be managed using "
+"pgAdmin. Prior to pgAdmin v1.9, pgAgent shipped as part of pgAdmin. From "
+"pgAdmin v1.9 onwards, pgAgent is shipped as a separate application."
+msgstr ""
+"pgAgent jest planistą zadań dla PostgreSQL, który może być zarządzany za "
+"pomocą pgAdmin. Przed pgAdmin v1.9, pgAgent dostarczany był jako część "
+"pgAdmin. Od pgAdmin v1.9 r. pgAgent jest dostarczany jako osobna aplikacja."
+
+#: ../features.php:80
+msgid "pgAgent objects (such as jobs, schedules)"
+msgstr "Obiekty pgAgenta (jak zadania, harmonogramy)"
+
+#: ../development/roadmap.php:37
+msgid ""
+"pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
+"in PG 8.4) [DP]"
+msgstr ""
+"pgsql-performance narzędzie raportujące problematyczne pytania (wymaga XML "
+"EXPLAIN w PG 8.4) [DP]"
+
+#: ../translation/howto.php:21
+#, php-format
+msgid ""
+"poEdit is our recommended choice, as it makes it very easy to maintain your "
+"translation. A Windows installer is available on the poEdit web site. "
+"Alternatively, you may also run <a href=\"%s\">Kbabel</a> which can be found "
+"in many popular Linux distributions."
+msgstr ""
+"poEdit to nasz zalecany wybór, jako że czyni on Twoje tłumaczenie bardzo "
+"łatwym do utrzymania. Instalator Windows jest dostępny na stronie "
+"internetowej poEdit. Alternatywnie, można również uruchomić <a href=\"%"
+"s\">KBabel</a>, które można znaleźć w wielu popularnych dystrybucjach "
+"Linuksa."
+
+#: ../visualtour14.php:282 ../visualtour14.php:305
+msgid "second tab"
+msgstr "druga zakładka"
+
+#: ../visualtour14.php:160
+msgid "timestamp of the last reset on the statistics;"
+msgstr "znacznik czasu ostatniego resetu statystyk;"

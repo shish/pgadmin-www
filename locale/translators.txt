@@ -22,10 +22,10 @@ Begina Felicysym [begina.felicysym@wp.pl]
 fr_FR (French)
 --------------
 
-Guillaume Lelarge [guillaume.lelarge at gmail.com]
+Guillaume Lelarge [guillaume@lelarge.info]
 
 
 zh_CN (Simplified Chinese)
 --------------------------
 
-Quan Zongliang [quanzongliang at gmail.com]
+Quan Zongliang [quanzongliang@gmail.com]

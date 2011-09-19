@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-12 15:43+0200\n"
+"POT-Creation-Date: 2011-09-19 08:59+0200\n"
 "PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -333,7 +333,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr "Admin packs"
 
-#: ../include/page.php:126
+#: ../include/page.php:127
 msgid "Advocacy"
 msgstr "Propagace"
 
@@ -786,7 +786,7 @@ msgstr "Navržený pro práci s více verzemi PostgreSQL a jeho odvozenin"
 msgid "Dev"
 msgstr "Ve vývoji"
 
-#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:127
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:128
 msgid "Development"
 msgstr "Vývoj"
 
@@ -810,7 +810,7 @@ msgstr "Dokument nelze přečíst"
 msgid "Document not found"
 msgstr "Dokument nenalezen"
 
-#: ../include/page.php:128 ../screenshots/documentation.php:8
+#: ../include/page.php:129 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr "Dokumentace"
@@ -829,7 +829,7 @@ msgid ""
 "Domains are also subject to change because of the new collation feature:"
 msgstr ""
 
-#: ../include/page.php:129 ../include/po_status.php:256
+#: ../include/page.php:130 ../include/po_status.php:256
 msgid "Download"
 msgstr "Stáhnout"
 
@@ -1119,7 +1119,7 @@ msgstr "Pokyny"
 msgid "Guru Hints to help less experienced users"
 msgstr "Rady odborníka na pomoc méně zkušeným uživatelům"
 
-#: ../include/page.php:125
+#: ../include/page.php:126
 msgid "Home"
 msgstr "Začínáme"
 
@@ -1968,6 +1968,11 @@ msgstr ""
 msgid "Plugins menu"
 msgstr "Menu zásuvných modulů"
 
+#: ../include/page.php:114
+#, fuzzy
+msgid "Polish"
+msgstr "Angličtina"
+
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
 msgstr "PostgreSQL 7.3 a novější"
@@ -2213,7 +2218,7 @@ msgstr "Agent na plánování úkolů (SQL, shell, dávky)"
 msgid "SQL_ASCII"
 msgstr "SQL_ASCII"
 
-#: ../include/page.php:114
+#: ../include/page.php:115
 msgid "Salvatorian"
 msgstr ""
 
@@ -2233,7 +2238,7 @@ msgstr "Vlastnosti schématu"
 msgid "Schemas"
 msgstr "Schémata"
 
-#: ../include/page.php:130
+#: ../include/page.php:131
 msgid "Screenshots"
 msgstr "Ukázky"
 
@@ -2294,7 +2299,7 @@ msgstr "Prohlížeč stavu a procesů serveru"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Serverové jazyky (jako pl/pgsql, pl/perl, pl/python apod.)"
 
-#: ../include/page.php:115
+#: ../include/page.php:116
 msgid "Simplified Chinese"
 msgstr "Zjednodušená čínština"
 
@@ -2435,7 +2440,7 @@ msgstr ""
 "překladatelů</a> a pohlídáme, aby dva překladatelé nepracovali ve stejném "
 "okamžiku na stejném jazyce."
 
-#: ../include/page.php:131
+#: ../include/page.php:132
 msgid "Support"
 msgstr "Podpora"
 
@@ -3511,7 +3516,7 @@ msgstr "Prohlídka (1.10)"
 msgid "Translated"
 msgstr "Přeloženo"
 
-#: ../contribute.php:16 ../include/page.php:132
+#: ../contribute.php:16 ../include/page.php:133
 msgid "Translation"
 msgstr "Překlad"
 

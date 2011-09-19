@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-12 15:43+0200\n"
+"POT-Creation-Date: 2011-09-19 08:59+0200\n"
 "PO-Revision-Date: 2011-08-23 19:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -306,7 +306,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr "管理工具包"
 
-#: ../include/page.php:126
+#: ../include/page.php:127
 msgid "Advocacy"
 msgstr "倡议"
 
@@ -728,7 +728,7 @@ msgstr "为多个PostgreSQL版本及其派生设计"
 msgid "Dev"
 msgstr "开发中"
 
-#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:127
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:128
 msgid "Development"
 msgstr "开发"
 
@@ -752,7 +752,7 @@ msgstr "无法读取文档"
 msgid "Document not found"
 msgstr "无法找到文档"
 
-#: ../include/page.php:128 ../screenshots/documentation.php:8
+#: ../include/page.php:129 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr "文档"
@@ -770,7 +770,7 @@ msgid ""
 "Domains are also subject to change because of the new collation feature:"
 msgstr "因为同样具有定序规则新特性，域也作了修改："
 
-#: ../include/page.php:129 ../include/po_status.php:256
+#: ../include/page.php:130 ../include/po_status.php:256
 msgid "Download"
 msgstr "下载"
 
@@ -1045,7 +1045,7 @@ msgstr "指导方针"
 msgid "Guru Hints to help less experienced users"
 msgstr "指导建议能够帮助经验比较少的用户。"
 
-#: ../include/page.php:125
+#: ../include/page.php:126
 msgid "Home"
 msgstr "主页"
 
@@ -1827,6 +1827,11 @@ msgstr ""
 msgid "Plugins menu"
 msgstr "插件菜单"
 
+#: ../include/page.php:114
+#, fuzzy
+msgid "Polish"
+msgstr "英语"
+
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
 msgstr "PostgreSQL 7.3以及更高版本"
@@ -2049,7 +2054,7 @@ msgstr "SQL/shell/批处理 作业调度代理。"
 msgid "SQL_ASCII"
 msgstr "SQL_ASCII"
 
-#: ../include/page.php:114
+#: ../include/page.php:115
 msgid "Salvatorian"
 msgstr ""
 
@@ -2067,7 +2072,7 @@ msgstr "模式属性"
 msgid "Schemas"
 msgstr "方案"
 
-#: ../include/page.php:130
+#: ../include/page.php:131
 msgid "Screenshots"
 msgstr "屏幕截图"
 
@@ -2125,7 +2130,7 @@ msgstr "服务器状态/进程查看器"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "服务器端语言（例如：pl/pgsql、pl/perl、pl/python等等）"
 
-#: ../include/page.php:115
+#: ../include/page.php:116
 msgid "Simplified Chinese"
 msgstr "简体中文"
 
@@ -2257,7 +2262,7 @@ msgstr ""
 "翻译者。根据收到的邮件，我们会把你加入到<a href=\"%s\">翻译者列表</a>中，确保"
 "不会有两个翻译者同时在翻译同一种语言。"
 
-#: ../include/page.php:131
+#: ../include/page.php:132
 msgid "Support"
 msgstr "技术支持"
 
@@ -3249,7 +3254,7 @@ msgstr "教程(1.14)"
 msgid "Translated"
 msgstr "翻译完毕"
 
-#: ../contribute.php:16 ../include/page.php:132
+#: ../contribute.php:16 ../include/page.php:133
 msgid "Translation"
 msgstr "翻译"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-12 15:43+0200\n"
+"POT-Creation-Date: 2011-09-19 08:59+0200\n"
 "PO-Revision-Date: 2010-10-22 19:38+0700\n"
 "Last-Translator: Dadan Setia <dadan.setia@gmail.com>\n"
 "Language-Team: pgAdmin Developers <pgadmin-hackers@postgresql.org>\n"
@@ -344,7 +344,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr "Admin paket"
 
-#: ../include/page.php:126
+#: ../include/page.php:127
 msgid "Advocacy"
 msgstr "Advokasi"
 
@@ -879,7 +879,7 @@ msgstr "Didesain untuk versi PostgreSQL beberapa dan turunannya"
 msgid "Dev"
 msgstr "Dev "
 
-#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:127
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:128
 msgid "Development"
 msgstr "Pengembangan"
 
@@ -903,7 +903,7 @@ msgstr "Dokumen tidak bisa dibaca"
 msgid "Document not found"
 msgstr "Dokumen tidak ditemukan"
 
-#: ../include/page.php:128 ../screenshots/documentation.php:8
+#: ../include/page.php:129 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr "Dokumentasi"
@@ -921,7 +921,7 @@ msgid ""
 "Domains are also subject to change because of the new collation feature:"
 msgstr ""
 
-#: ../include/page.php:129 ../include/po_status.php:256
+#: ../include/page.php:130 ../include/po_status.php:256
 msgid "Download"
 msgstr "Unduh"
 
@@ -1264,7 +1264,7 @@ msgstr "Pedoman"
 msgid "Guru Hints to help less experienced users"
 msgstr "Petunjuk guru untuk membantu pengguna yang kurang berpengalaman"
 
-#: ../include/page.php:125
+#: ../include/page.php:126
 msgid "Home"
 msgstr "Home"
 
@@ -2243,6 +2243,11 @@ msgstr ""
 msgid "Plugins menu"
 msgstr "Menu Plugin"
 
+#: ../include/page.php:114
+#, fuzzy
+msgid "Polish"
+msgstr "Publikasi"
+
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
 msgstr "PostgreSQL 7.3 dan lebih"
@@ -2528,7 +2533,7 @@ msgstr "SQL_ASCII"
 # src/schema/pgLanguage.cpp:67 standard input:178
 # src/schema/pgLanguage.cpp:67 standard input:7
 # standard
-#: ../include/page.php:114
+#: ../include/page.php:115
 #, fuzzy
 msgid "Salvatorian"
 msgstr "Validator"
@@ -2581,7 +2586,7 @@ msgstr "Skema"
 # src/schema/pgSequence.cpp:94 standard input:226
 # src/schema/pgSequence.cpp:94 standard input:4
 # standard
-#: ../include/page.php:130
+#: ../include/page.php:131
 msgid "Screenshots"
 msgstr "Rekaman layar"
 
@@ -2675,7 +2680,7 @@ msgstr "Status server/pemantau proses"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Bahasa server-slide (seperti pl/pgsql, pl/perl, pl/python, dll.)"
 
-#: ../include/page.php:115
+#: ../include/page.php:116
 msgid "Simplified Chinese"
 msgstr "China simpel"
 
@@ -2832,7 +2837,7 @@ msgstr ""
 # standard input:198
 # standard input:18
 # standard
-#: ../include/page.php:131
+#: ../include/page.php:132
 msgid "Support"
 msgstr "Mendukung hash"
 
@@ -3991,7 +3996,7 @@ msgstr "Tour (1.10)"
 msgid "Translated"
 msgstr "Diterjemahkan"
 
-#: ../contribute.php:16 ../include/page.php:132
+#: ../contribute.php:16 ../include/page.php:133
 msgid "Translation"
 msgstr "Terjemahan"
 
@@ -14224,9 +14229,6 @@ msgstr ""
 
 #~ msgid "Public synonyms"
 #~ msgstr "Synonim Publik"
-
-#~ msgid "Published"
-#~ msgstr "Publikasi"
 
 # src/ui/frmQueryBuilder.cpp:1194 src/ui/frmStatus.cpp:58 standard input:385
 # src/ui/frmStatus.cpp:58 standard input:11

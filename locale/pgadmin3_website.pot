@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-12 15:43+0200\n"
+"POT-Creation-Date: 2011-09-19 08:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -265,7 +265,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr ""
 
-#: ../include/page.php:126
+#: ../include/page.php:127
 msgid "Advocacy"
 msgstr ""
 
@@ -654,7 +654,7 @@ msgstr ""
 msgid "Dev"
 msgstr ""
 
-#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:127
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:128
 msgid "Development"
 msgstr ""
 
@@ -678,7 +678,7 @@ msgstr ""
 msgid "Document not found"
 msgstr ""
 
-#: ../include/page.php:128 ../screenshots/documentation.php:8
+#: ../include/page.php:129 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr ""
@@ -696,7 +696,7 @@ msgid ""
 "Domains are also subject to change because of the new collation feature:"
 msgstr ""
 
-#: ../include/page.php:129 ../include/po_status.php:256
+#: ../include/page.php:130 ../include/po_status.php:256
 msgid "Download"
 msgstr ""
 
@@ -956,7 +956,7 @@ msgstr ""
 msgid "Guru Hints to help less experienced users"
 msgstr ""
 
-#: ../include/page.php:125
+#: ../include/page.php:126
 msgid "Home"
 msgstr ""
 
@@ -1627,6 +1627,10 @@ msgstr ""
 msgid "Plugins menu"
 msgstr ""
 
+#: ../include/page.php:114
+msgid "Polish"
+msgstr ""
+
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
 msgstr ""
@@ -1829,7 +1833,7 @@ msgstr ""
 msgid "SQL_ASCII"
 msgstr ""
 
-#: ../include/page.php:114
+#: ../include/page.php:115
 msgid "Salvatorian"
 msgstr ""
 
@@ -1847,7 +1851,7 @@ msgstr ""
 msgid "Schemas"
 msgstr ""
 
-#: ../include/page.php:130
+#: ../include/page.php:131
 msgid "Screenshots"
 msgstr ""
 
@@ -1898,7 +1902,7 @@ msgstr ""
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr ""
 
-#: ../include/page.php:115
+#: ../include/page.php:116
 msgid "Simplified Chinese"
 msgstr ""
 
@@ -2007,7 +2011,7 @@ msgid ""
 "make sure two translators do not work at the same time on the same language."
 msgstr ""
 
-#: ../include/page.php:131
+#: ../include/page.php:132
 msgid "Support"
 msgstr ""
 
@@ -2845,7 +2849,7 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../contribute.php:16 ../include/page.php:132
+#: ../contribute.php:16 ../include/page.php:133
 msgid "Translation"
 msgstr ""
 

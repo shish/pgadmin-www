@@ -14,11 +14,9 @@ $PAGE_CONTENT = '
 <p>' . sprintf(_("Note that the <a href=\"%s\">EnterpriseDB</a> distribution of PostgreSQL for Windows includes a bundled copy of pgAdmin."), "http://www.enterprisedb.com/products-services-training/pgdownload") . '</p>
 
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.14.1/win32/", "1.14.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.14.0/win32/", "1.14.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.12.3/win32/", "1.12.3") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.12.2/win32/", "1.12.2") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.12.1/win32/", "1.12.1") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.12.0/win32/", "1.12.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.10.5/win32/", "1.10.5") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.8.4/win32/", "1.8.4") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.6.3/win32/", "1.6.3") . '<br />&nbsp;</li>

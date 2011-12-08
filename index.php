@@ -7,13 +7,13 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2011-12-05", "1.14.1") . '</h2>
+
+<p>' . _("pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.2 Installer</a> which includes pgAdmin.") . '</p>
+
 <h2>' . sprintf(_("%s - pgAdmin v%s released"), "2011-09-12", "1.14.0") . '</h2>
 
 <p>' . sprintf(_("pgAdmin %s has now been released. This release is the culmination of over 14 months of development work. A visual tour of the new release is available <a href=\"/visualtour14.php\">here</a>, or a complete list of changes can be seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."), "1.14.0") . '</p>
-
-<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2011-04-18", "1.12.3") . '</h2>
-
-<p>' . _("pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4 Installer</a> which includes pgAdmin.") . '</p>
 
 <h2>' . sprintf(_("%s - pgAdmin demo video"), "2010-04-09") . '</h2>
 
@@ -28,7 +28,7 @@ $PAGE_CONTENT = '
 <p>' . sprintf(_("pgAdmin is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the <a href=\"%s\">PostgreSQL License</a>."), "licence.php") . '</p>
 
 <div class="pgaBanner">
-' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.14.0") . '
+' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.14.1") . '
 </div>
 
 '; 

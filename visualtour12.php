@@ -7,7 +7,7 @@ $PAGE_CONTENT = '
 <h1>' . _("pgAdmin 1.12 Visual Tour") . '</h1>
 
 <p>
-  ' . _("The long awaited 1.12 version of pgAdmin III is finally available in beta. We will try to highlight some of the new features which have been added since the last stable release.") . '
+  ' . _("The long awaited 1.12 version of pgAdmin III is finally available. We will try to highlight some of the new features which have been added since the last stable release.") . '
 </p>
 
 <h2>' . _("Connection handling") . '</h2>

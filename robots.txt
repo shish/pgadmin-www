@@ -2,3 +2,7 @@ User-agent: *
 Disallow: /images/
 Disallow: /snapshots/
 Disallow: /svnrepo/
+Disallow: /docs/1.4/pg/
+Disallow: /docs/1.6/pg/
+Disallow: /docs/1.4/slony/
+Disallow: /docs/1.6/slony/

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-19 08:59+0200\n"
+"POT-Creation-Date: 2012-02-27 23:33+0100\n"
 "PO-Revision-Date: 2011-08-23 19:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -29,12 +29,12 @@ msgstr ""
 "“解释分析”有了自己的菜单和自己的快捷键（Shift-F7）。可以禁用自动回滚动作（通"
 "常可能期望回滚到上一个保存点）。"
 
-#: ../index.php:18
+#: ../index.php:22
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - pgAdmin演示视频"
 
-#: ../index.php:10 ../index.php:14
+#: ../index.php:10 ../index.php:14 ../index.php:18
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin%s版本发布"
@@ -60,8 +60,7 @@ msgstr "<a href=\"%s\">下载pgAgent</a>"
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/macosx.php:22
-#: ../download/macosx.php:23 ../download/opensuse.php:14
+#: ../download/macosx.php:21 ../download/opensuse.php:14
 #: ../download/opensuse.php:15 ../download/opensuse.php:16
 #: ../download/opensuse.php:17 ../download/opensuse.php:18
 #: ../download/opensuse.php:19 ../download/opensuse.php:20
@@ -74,19 +73,17 @@ msgstr "<a href=\"%s\">下载pgAgent</a>"
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
-#: ../download/source.php:24 ../download/source.php:25
 #: ../download/windows.php:17 ../download/windows.php:18
 #: ../download/windows.php:19 ../download/windows.php:20
 #: ../download/windows.php:21 ../download/windows.php:22
 #: ../download/windows.php:23 ../download/windows.php:24
-#: ../download/windows.php:25 ../download/windows.php:26
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
 
+#: ../download/source.php:29 ../download/source.php:30
 #: ../download/source.php:31 ../download/source.php:32
-#: ../download/source.php:33 ../download/source.php:34
-#: ../download/source.php:35
+#: ../download/source.php:33
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">v%s build指导</a>"
@@ -493,7 +490,7 @@ msgstr ""
 "pgAdmin的bug和问题在报告给我们之后几乎都能够很快的修正，但是有时一些问题会超"
 "出我们的控制，或者解决它会带来重大的影响，而通常这种影响比问题本身更加重要。"
 
-#: ../download/source.php:28
+#: ../download/source.php:26
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr "tar包中包含build指导，也可以在线阅读："
@@ -1001,7 +998,7 @@ msgstr "GIT浏览器"
 msgid "GSoC"
 msgstr "GSoC"
 
-#: ../index.php:20
+#: ../index.php:24
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1204,7 +1201,7 @@ msgstr ""
 "国际化需要一些增强工作，比如在复数方面，因此，翻译者们在这个版本上需要完成更"
 "多的工作，我们希望在1.14能够保留同样数量的语言。"
 
-#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2520,7 +2517,7 @@ msgstr ""
 "改变了连接处理，以前的版本使用不兼容IPv6的函数，这部分代码已经升级为支持IPv6"
 "连接。"
 
-#: ../index.php:31
+#: ../index.php:35
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "pgAdmin的当前版本是<a href=\"/download/\">%s</a>."
@@ -2654,19 +2651,21 @@ msgstr ""
 "发布以来增加的新特性。"
 
 #: ../visualtour12.php:10
+#, fuzzy
 msgid ""
-"The long awaited 1.12 version of pgAdmin III is finally available in beta. "
-"We will try to highlight some of the new features which have been added "
-"since the last stable release."
+"The long awaited 1.12 version of pgAdmin III is finally available. We will "
+"try to highlight some of the new features which have been added since the "
+"last stable release."
 msgstr ""
 "经过长久等待的pgAdmin III v1.12终于发布beta版，在这里我们着重强调一些从上次稳"
 "定版发布以来增加的新特性。"
 
 #: ../visualtour14.php:10
+#, fuzzy
 msgid ""
-"The long awaited 1.14 version of pgAdmin III is finally available in beta. "
-"We will try to highlight some of the new features which have been added "
-"since the last stable release."
+"The long awaited 1.14 version of pgAdmin III is finally available. We will "
+"try to highlight some of the new features which have been added since the "
+"last stable release."
 msgstr ""
 "经过长久等待的pgAdmin III v1.14终于发布beta版，在这里我们着重强调一些从上次稳"
 "定版发布以来增加的新特性。"
@@ -3072,7 +3071,7 @@ msgstr ""
 "行！为了达到100%的翻译状态，只要把这些字符串使用poEdit的Alt+C命令拷贝即可，例"
 "如<i>ACL</i>翻译为<i>ACL</i>、<i>AFTER</i>翻译为<i>AFTER</i>诸如此类。"
 
-#: ../download/macosx.php:26
+#: ../download/macosx.php:24
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -3179,7 +3178,7 @@ msgstr ""
 "由命令行获取源程序然后开始，例如在Linux或者Unix系统可以使用下边的命令。更多的"
 "细节请查看<a href=\"%s\">源代码</a>build指令。"
 
-#: ../download/windows.php:29
+#: ../download/windows.php:27
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3656,7 +3655,7 @@ msgstr "枚举类型"
 msgid "for the external type"
 msgstr "外部类型"
 
-#: ../index.php:12
+#: ../index.php:20
 #, fuzzy, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -3778,20 +3777,6 @@ msgstr ""
 "一个或者多个插件信息的文件。这个新体系允许其他程序将自己作为插件在pgAdmin中注"
 "册，不必冒着可能随坏的风险编辑原有的plugins.ini文件。"
 
-#: ../index.php:16
-msgid ""
-"pgAdmin 1.12.3 has been released, offering 26 bug fixes over the previous "
-"version. The list of bug fixes is available in the <a href=\"/development/"
-"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-"\">download area</a> to get your copy, or alternatively download a <a href="
-"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4 "
-"Installer</a> which includes pgAdmin."
-msgstr ""
-"pgAdmin 1.12.3 已经发布，提供了基于上个版本26个bug修复，可以在<a href=\"/"
-"development/changelog.php\">CHANGELOG</a>里看到列表。请访问<a href=\"download"
-"\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://www."
-"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4安装程序</a>。"
-
 #: ../visualtour14.php:5 ../visualtour14.php:7
 msgid "pgAdmin 1.14 Visual Tour"
 msgstr "pgAdmin1.14 视觉教程"
@@ -3808,6 +3793,36 @@ msgid ""
 "enabled and disabled triggers and rules."
 msgstr ""
 "pgAdmin 1.14将同样方法运用于有效和无效的外键、启用和禁用的触发器和规则。"
+
+#: ../index.php:16
+#, fuzzy
+msgid ""
+"pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
+"version. The list of bug fixes is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.2 "
+"Installer</a> which includes pgAdmin."
+msgstr ""
+"pgAdmin 1.12.3 已经发布，提供了基于上个版本26个bug修复，可以在<a href=\"/"
+"development/changelog.php\">CHANGELOG</a>里看到列表。请访问<a href=\"download"
+"\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4安装程序</a>。"
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
+"version. The list of bug fixes is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.3 "
+"Installer</a> which includes pgAdmin."
+msgstr ""
+"pgAdmin 1.12.3 已经发布，提供了基于上个版本26个bug修复，可以在<a href=\"/"
+"development/changelog.php\">CHANGELOG</a>里看到列表。请访问<a href=\"download"
+"\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4安装程序</a>。"
 
 #: ../translation/index.php:10
 #, php-format
@@ -3986,7 +4001,7 @@ msgstr ""
 "欢的GIT客户端访问它们。Windows下，我们推荐使用<a href=\"%s\">TortoiseGIT</"
 "a>，这是一个自由软件。"
 
-#: ../index.php:26
+#: ../index.php:30
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4006,7 +4021,7 @@ msgstr ""
 "Unix Domain Sockets（在*nix平台上）创建服务器连接，也可以使用SSL增强安全性。"
 "与数据库服务器交互不需要附加的其他驱动。"
 
-#: ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4016,7 +4031,7 @@ msgstr ""
 "pgAdmin由世界范围的PostgreSQL专家团体开发，可以支持多种语言，是一个基于<a "
 "href=\"%s\">PostgreSQL协议</a>发布的自由软件。"
 
-#: ../index.php:24
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "

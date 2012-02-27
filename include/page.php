@@ -113,6 +113,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 <option value="fr_FR">' . _("French") . '</option>
 <option value="pl_PL">' . _("Polish") . '</option>
 <option value="es_SV">' . _("Salvatorian") . '</option>
+<option value="ru_RU">' . _("Russian") . '</option>
 <option value="zh_CN">' . _("Simplified Chinese") . '</option>
 </select>
 <input type="submit" value="Go">

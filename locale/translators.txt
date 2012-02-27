@@ -25,6 +25,12 @@ fr_FR (French)
 Guillaume Lelarge [guillaume@lelarge.info]
 
 
+ru_RU (Russian)
+--------------------------
+
+Alexander LAW [exclusion@gmail.com]
+
+
 zh_CN (Simplified Chinese)
 --------------------------
 

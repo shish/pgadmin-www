@@ -53,6 +53,12 @@ switch ($lang){
     $_SESSION['xPGA']['direction'] = "ltr";
     break;
 
+  case "ru_RU":
+    $_SESSION['xPGA']['css'] = "pgadmin-ltr.css";
+    $_SESSION['xPGA']['lang'] = $lang;
+    $_SESSION['xPGA']['direction'] = "ltr";
+    break;
+
   case "zh_CN":
     $_SESSION['xPGA']['css'] = "pgadmin-ltr.css";
     $_SESSION['xPGA']['lang'] = $lang;

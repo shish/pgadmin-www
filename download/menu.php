@@ -18,7 +18,6 @@ function www_menu()
 <div' . www_current_menu_page("adminpacks.php") . '><a href="adminpacks.php">&rsaquo; ' . _("Admin packs") . '</a></div>
 <div' . www_current_menu_page("languages.php") . '><a href="languages.php">&rsaquo; ' . _("Languages") . '</a></div>
 <div' . www_current_menu_page("pgagent.php") . '><a href="pgagent.php">&rsaquo; ' . _("pgAgent") . '</a></div>
-<div' . www_current_menu_page("snapshots.php") . '><a href="snapshots.php">&rsaquo; ' . _("Snapshots") . '</a></div>
 ';
 
   return $output;

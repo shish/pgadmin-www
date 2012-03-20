@@ -50,7 +50,7 @@ $PAGE_CONTENT = '
 
       ' . _("You can also use the translation debug mode of pgAdmin (command line option -t) to review your translation in all dialogues. You won't need a database connection in that mode, but all dialogue resource files (*.xrc) are required, copied to the <i>ui</i> directory. If you compiled in debug mode, this will be the case automatically.") . '<br />&nbsp;</li> 
 
-  <li>' . sprintf(_("When the translation is finished and reviewed, send the pgadmin3.po and pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/taring them. We will do our best to publish your files immediately. The translations are published in the <a href=\"%s\">snapshot builds</a> once they have been committed to the source repository."), "mailto:guillaume@lelarge.info", "/download/snapshots.php") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("When the translation is finished and reviewed, send the pgadmin3.po and pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/taring them. We will do our best to publish your files immediately."), "mailto:guillaume@lelarge.info", "/download/snapshots.php") . '<br />&nbsp;</li>
 
   <li>' . sprintf(_("From time to time, new strings which need translation are added to the application. Download/update the new <a href=\"%s\">pgadmin3.pot</a> and merge the new file with your language file using the poEdit <i>Catalog/Update from POT file</i> function. Alternatively, you can run the following command manually:"), "http://git.postgresql.org/gitweb?p=pgadmin3.git;a=blob;f=pgadmin3.pot;h=284b5cd0b11fcbfa0b255f83624157b62ae2adb2;hb=HEAD") . '<br />&nbsp;<br />
     <div class="pgaCode">

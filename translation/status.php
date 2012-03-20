@@ -28,8 +28,6 @@ $PAGE_CONTENT = '
 
 <p>' . _("If you are not the author/maintainer of a translation and wish to submit a translation fix: download the language file (*.po extension), make the necessary corrections and send it back to us CC'd to the translator.") . '</p>
 
-<p>' . _("The updated translations are published in daily snapshots automatically.") . '</p>
-
 <h2>' . sprintf(_("Published translations (%d)"), $translated->getNbLanguages()) . '</h2>
 <center>';
 

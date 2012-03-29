@@ -11,7 +11,7 @@ $PAGE_CONTENT = '
 
 <h2>' . _("Contribute a translation") . '</h2>
 
-<p>' . sprintf(_("We need your help to translate pgAdmin into additional languages. Everyone can participate, please refer to the translation <a href=\"%s\">howto</a> for more information. This web site can also be translated using the <a href=\"%s\">pgadmin3_website.pot</a> file. If you are interested in the translation of PostgreSQL server messages, please visit the <a href=\"%s\">PostgreSQL National Language Support</a> project page. "), "howto.php", "/locale/pgadmin3_website.pot", "http://developer.postgresql.org/~petere/nlsstatus/") . '</p>
+<p>' . sprintf(_("We need your help to translate pgAdmin into additional languages. Everyone can participate, please refer to the translation <a href=\"%s\">howto</a> for more information. This web site can also be translated using the <a href=\"%s\">pgadmin3_website.pot</a> file. If you are interested in the translation of PostgreSQL server messages, please visit the <a href=\"%s\">PostgreSQL National Language Support</a> project page. "), "howto.php", "/locale/pgadmin3_website.pot", "http://babel.postgresql.org/") . '</p>
 
 '; 
 

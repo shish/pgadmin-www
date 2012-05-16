@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <h2>' . sprintf(_("%s - pgAdmin v%s available"), "2012-05-14", "1.16 beta1") . '</h2>
 
-<p>' . _("pgAdmin 1.16 beta 1 has been released, offering lots of new interesting features. We're still working on a visual tour. In the mean time, the list of new features fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 Installer</a> which includes pgAdmin.") . '</p>
+<p>' . _("pgAdmin 1.16 beta 1 has been released, offering lots of new interesting features. We're still working on a visual tour. We also don't have yet Windows and Mac OS X packages, but they may come up later. In the mean time, the list of new features fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 Installer</a> which includes pgAdmin.") . '</p>
 
 <p>' . _("Be careful that this is a BETA release. It's not production ready. It's available for testing purpose only.") . '</p>
 

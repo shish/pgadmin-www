@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-27 23:33+0100\n"
+"POT-Creation-Date: 2012-05-16 12:53-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,17 @@ msgid ""
 "to a previous savepoint)."
 msgstr ""
 
-#: ../index.php:22
+#: ../index.php:28
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr ""
 
-#: ../index.php:10 ../index.php:14 ../index.php:18
+#: ../index.php:10
+#, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr ""
+
+#: ../index.php:16 ../index.php:20 ../index.php:24
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr ""
@@ -55,7 +60,8 @@ msgstr ""
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/opensuse.php:14
+#: ../download/macosx.php:21 ../download/macosx.php:22
+#: ../download/macosx.php:23 ../download/opensuse.php:14
 #: ../download/opensuse.php:15 ../download/opensuse.php:16
 #: ../download/opensuse.php:17 ../download/opensuse.php:18
 #: ../download/opensuse.php:19 ../download/opensuse.php:20
@@ -68,17 +74,19 @@ msgstr ""
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
+#: ../download/source.php:24 ../download/source.php:25
 #: ../download/windows.php:17 ../download/windows.php:18
 #: ../download/windows.php:19 ../download/windows.php:20
 #: ../download/windows.php:21 ../download/windows.php:22
 #: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25 ../download/windows.php:26
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
 
-#: ../download/source.php:29 ../download/source.php:30
 #: ../download/source.php:31 ../download/source.php:32
-#: ../download/source.php:33
+#: ../download/source.php:33 ../download/source.php:34
+#: ../download/source.php:35
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr ""
@@ -126,16 +134,6 @@ msgid ""
 "keywords. These should reflect any aspect of what pgAdmin does, and what it "
 "works with. <b>Under no circumstances should you include competitors company "
 "or product names in keywords</b>. Our proposal for a keyword list is:"
-msgstr ""
-
-#: ../download/snapshots.php:12
-msgid ""
-"<b>WARNING:</b> Development snapshots have had little or no testing, and in "
-"some cases may not even run. It is only recommended that you use a snapshot "
-"if you are sure you know what you are doing, or are testing a specific bug "
-"fix or new feature on the direction of one of the developers. Please report "
-"any bugs or issue you may have with the development snapshots, but do "
-"remember that they are 'works in progress'."
 msgstr ""
 
 #: ../advocacy/information.php:13
@@ -262,7 +260,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr ""
 
-#: ../include/page.php:127
+#: ../include/page.php:128
 msgid "Advocacy"
 msgstr ""
 
@@ -397,6 +395,12 @@ msgstr ""
 msgid "Backup and restore tools"
 msgstr ""
 
+#: ../index.php:14
+msgid ""
+"Be careful that this is a BETA release. It's not production ready. It's "
+"available for testing purpose only."
+msgstr ""
+
 #: ../advocacy/strategy.php:13
 #, php-format
 msgid ""
@@ -421,7 +425,7 @@ msgid ""
 "effort than the issue warrants."
 msgstr ""
 
-#: ../download/source.php:26
+#: ../download/source.php:28
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -651,7 +655,7 @@ msgstr ""
 msgid "Dev"
 msgstr ""
 
-#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:128
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:129
 msgid "Development"
 msgstr ""
 
@@ -675,7 +679,7 @@ msgstr ""
 msgid "Document not found"
 msgstr ""
 
-#: ../include/page.php:129 ../screenshots/documentation.php:8
+#: ../include/page.php:130 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr ""
@@ -693,7 +697,7 @@ msgid ""
 "Domains are also subject to change because of the new collation feature:"
 msgstr ""
 
-#: ../include/page.php:130 ../include/po_status.php:256
+#: ../include/page.php:131 ../include/po_status.php:256
 msgid "Download"
 msgstr ""
 
@@ -913,7 +917,7 @@ msgstr ""
 msgid "GSoC"
 msgstr ""
 
-#: ../index.php:24
+#: ../index.php:30
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -953,7 +957,7 @@ msgstr ""
 msgid "Guru Hints to help less experienced users"
 msgstr ""
 
-#: ../include/page.php:126
+#: ../include/page.php:127
 msgid "Home"
 msgstr ""
 
@@ -1094,7 +1098,7 @@ msgid ""
 "1.14."
 msgstr ""
 
-#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:32 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1548,7 +1552,7 @@ msgid ""
 "  options."
 msgstr ""
 
-#: ../translation/status.php:45
+#: ../translation/status.php:43
 #, php-format
 msgid "Out of date translations (%d)"
 msgstr ""
@@ -1731,7 +1735,7 @@ msgid ""
 "maintained."
 msgstr ""
 
-#: ../translation/status.php:33
+#: ../translation/status.php:31
 #, php-format
 msgid "Published translations (%d)"
 msgstr ""
@@ -1818,6 +1822,10 @@ msgstr ""
 msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 
+#: ../include/page.php:116
+msgid "Russian"
+msgstr ""
+
 #: ../visualtour14.php:287
 msgid "SQL/Med objects"
 msgstr ""
@@ -1848,7 +1856,7 @@ msgstr ""
 msgid "Schemas"
 msgstr ""
 
-#: ../include/page.php:131
+#: ../include/page.php:132
 msgid "Screenshots"
 msgstr ""
 
@@ -1899,7 +1907,7 @@ msgstr ""
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr ""
 
-#: ../include/page.php:116
+#: ../include/page.php:117
 msgid "Simplified Chinese"
 msgstr ""
 
@@ -1928,10 +1936,6 @@ msgstr ""
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr ""
 
-#: ../download/menu.php:21 ../download/snapshots.php:8
-msgid "Snapshots"
-msgstr ""
-
 #: ../features.php:18 ../download/menu.php:13 ../download/solaris.php:8
 #: ../screenshots/index.php:25
 msgid "Solaris"
@@ -1950,14 +1954,6 @@ msgstr ""
 
 #: ../download/menu.php:14 ../download/source.php:8
 msgid "Source code"
-msgstr ""
-
-#: ../download/snapshots.php:10
-#, php-format
-msgid ""
-"Source tarballs and binary snapshots for a variety of platforms are built "
-"from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a less "
-"regular basis, following programming milestones."
 msgstr ""
 
 #: ../download/source.php:12
@@ -2008,7 +2004,7 @@ msgid ""
 "make sure two translators do not work at the same time on the same language."
 msgstr ""
 
-#: ../include/page.php:132
+#: ../include/page.php:133
 msgid "Support"
 msgstr ""
 
@@ -2229,7 +2225,7 @@ msgid ""
 "connections."
 msgstr ""
 
-#: ../index.php:35
+#: ../index.php:41
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr ""
@@ -2545,7 +2541,7 @@ msgstr ""
 msgid "The table properties dialogue"
 msgstr ""
 
-#: ../translation/status.php:47
+#: ../translation/status.php:45
 msgid ""
 "The translations below are not considered complete enough for inclusion in "
 "current releases. Around 750 translated strings indicate v1.0 support, 1000 "
@@ -2566,11 +2562,6 @@ msgid ""
 "The type properties dialog supports the new syntax to change an existing "
 "composite type and an existing enumeration type. It also supports the new "
 "collation feature. See the screenshots to find the new information:"
-msgstr ""
-
-#: ../translation/status.php:31
-msgid ""
-"The updated translations are published in daily snapshots automatically."
 msgstr ""
 
 #: ../support/list.php:14
@@ -2696,7 +2687,7 @@ msgid ""
 "i>, etc."
 msgstr ""
 
-#: ../download/macosx.php:24
+#: ../download/macosx.php:26
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -2782,7 +2773,7 @@ msgid ""
 "please see the <a href=\"%s\">source code</a> build instructions."
 msgstr ""
 
-#: ../download/windows.php:27
+#: ../download/windows.php:29
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -2846,7 +2837,7 @@ msgstr ""
 msgid "Translated"
 msgstr ""
 
-#: ../contribute.php:16 ../include/page.php:133
+#: ../contribute.php:16 ../include/page.php:134
 msgid "Translation"
 msgstr ""
 
@@ -3099,9 +3090,7 @@ msgstr ""
 msgid ""
 "When the translation is finished and reviewed, send the pgadmin3.po and "
 "pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/"
-"taring them. We will do our best to publish your files immediately. The "
-"translations are published in the <a href=\"%s\">snapshot builds</a> once "
-"they have been committed to the source repository."
+"taring them. We will do our best to publish your files immediately."
 msgstr ""
 
 #: ../translation/howto.php:25
@@ -3201,7 +3190,7 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:20
+#: ../index.php:26
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -3316,7 +3305,7 @@ msgid ""
 "enabled and disabled triggers and rules."
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:22
 msgid ""
 "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -3326,7 +3315,7 @@ msgid ""
 "Installer</a> which includes pgAdmin."
 msgstr ""
 
-#: ../index.php:12
+#: ../index.php:18
 msgid ""
 "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -3334,6 +3323,17 @@ msgid ""
 "\">download area</a> to get your copy, or alternatively download a <a href="
 "\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.3 "
 "Installer</a> which includes pgAdmin."
+msgstr ""
+
+#: ../index.php:12
+msgid ""
+"pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
+"features. We're still working on a visual tour. In the mean time, the list "
+"of new features fixes is available in the <a href=\"/development/changelog."
+"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
+"to get your copy, or alternatively download a <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 Installer</"
+"a> which includes pgAdmin."
 msgstr ""
 
 #: ../translation/index.php:10
@@ -3376,12 +3376,6 @@ msgid ""
 "embedded libpq native library. The application does not need any ODBC, .NET "
 "or JDBC layer. When configured server-side, it is possible to connect using "
 "encrypted password or SSL authentication."
-msgstr ""
-
-#: ../download/snapshots.php:14
-#, php-format
-msgid ""
-"pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
 msgstr ""
 
 #: ../visualtour14.php:290
@@ -3477,7 +3471,7 @@ msgid ""
 "recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 
-#: ../index.php:30
+#: ../index.php:36
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3491,7 +3485,7 @@ msgid ""
 "communicate with the database server."
 msgstr ""
 
-#: ../index.php:32
+#: ../index.php:38
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3499,7 +3493,7 @@ msgid ""
 "released under the <a href=\"%s\">PostgreSQL License</a>."
 msgstr ""
 
-#: ../index.php:28
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -3648,10 +3642,6 @@ msgstr ""
 
 #: ../download/slackware.php:5
 msgid "pgAdmin: Download - Slackware"
-msgstr ""
-
-#: ../download/snapshots.php:5
-msgid "pgAdmin: Download - Snapshots"
 msgstr ""
 
 #: ../download/source.php:5

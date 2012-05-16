@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-27 23:33+0100\n"
+"POT-Creation-Date: 2012-05-16 12:53-0400\n"
 "PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -29,12 +29,17 @@ msgstr ""
 "transakcí (auto-rollback), obvykle když se chcete vrátit k předchozímu "
 "uloženému bodu."
 
-#: ../index.php:22
+#: ../index.php:28
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - ukázkové video pgAdmin"
 
-#: ../index.php:10 ../index.php:14 ../index.php:18
+#: ../index.php:10
+#, fuzzy, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr "%s - vydán pgAdmin v%s"
+
+#: ../index.php:16 ../index.php:20 ../index.php:24
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - vydán pgAdmin v%s"
@@ -60,7 +65,8 @@ msgstr "<a href=\"%s\">Stáhnout pgAgent</a>"
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/opensuse.php:14
+#: ../download/macosx.php:21 ../download/macosx.php:22
+#: ../download/macosx.php:23 ../download/opensuse.php:14
 #: ../download/opensuse.php:15 ../download/opensuse.php:16
 #: ../download/opensuse.php:17 ../download/opensuse.php:18
 #: ../download/opensuse.php:19 ../download/opensuse.php:20
@@ -73,17 +79,19 @@ msgstr "<a href=\"%s\">Stáhnout pgAgent</a>"
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
+#: ../download/source.php:24 ../download/source.php:25
 #: ../download/windows.php:17 ../download/windows.php:18
 #: ../download/windows.php:19 ../download/windows.php:20
 #: ../download/windows.php:21 ../download/windows.php:22
 #: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25 ../download/windows.php:26
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:29 ../download/source.php:30
 #: ../download/source.php:31 ../download/source.php:32
-#: ../download/source.php:33
+#: ../download/source.php:33 ../download/source.php:34
+#: ../download/source.php:35
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instrukce pro v%s</a>"
@@ -152,22 +160,6 @@ msgstr ""
 "klíčová slova. Ty by měly odrážet aspekty toho, co pgAdmin dělá a jak se s "
 "ním pracuje. <b>Nikdy byste neměli do klíčových slov zadávat názvy "
 "konkurenčních firem nebo jejich produktů.</b> Náš návrh na klíčová slova:"
-
-#: ../download/snapshots.php:12
-msgid ""
-"<b>WARNING:</b> Development snapshots have had little or no testing, and in "
-"some cases may not even run. It is only recommended that you use a snapshot "
-"if you are sure you know what you are doing, or are testing a specific bug "
-"fix or new feature on the direction of one of the developers. Please report "
-"any bugs or issue you may have with the development snapshots, but do "
-"remember that they are 'works in progress'."
-msgstr ""
-"<b>VAROVÁNÍ:</b> Vývojářské snímky jsou jen málo nebo vůbec testované a v "
-"některých případech nemusí jít vůbec spustit. Doporučujeme vám je použít "
-"pouze v případě, že víte přesně co děláte a nebo potřebujete otestovat "
-"specifickou chybu nebo novou vlastnost podle instrukcí vývojáře. Chyby a "
-"problémy ve vývojářských snímcích nám prosím hlaste, ale pamatujte, že „se "
-"na tom pracuje“."
 
 #: ../advocacy/information.php:13
 #, php-format
@@ -330,7 +322,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr "Admin packs"
 
-#: ../include/page.php:127
+#: ../include/page.php:128
 msgid "Advocacy"
 msgstr "Propagace"
 
@@ -499,6 +491,12 @@ msgstr ""
 msgid "Backup and restore tools"
 msgstr ""
 
+#: ../index.php:14
+msgid ""
+"Be careful that this is a BETA release. It's not production ready. It's "
+"available for testing purpose only."
+msgstr ""
+
 #: ../advocacy/strategy.php:13
 #, php-format
 msgid ""
@@ -531,7 +529,7 @@ msgstr ""
 "představovalo neúměrně úsilí v porovnání s drobnou nepříjemností, kterou "
 "problém způsobuje."
 
-#: ../download/source.php:26
+#: ../download/source.php:28
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -783,7 +781,7 @@ msgstr "Navržený pro práci s více verzemi PostgreSQL a jeho odvozenin"
 msgid "Dev"
 msgstr "Ve vývoji"
 
-#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:128
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:129
 msgid "Development"
 msgstr "Vývoj"
 
@@ -807,7 +805,7 @@ msgstr "Dokument nelze přečíst"
 msgid "Document not found"
 msgstr "Dokument nenalezen"
 
-#: ../include/page.php:129 ../screenshots/documentation.php:8
+#: ../include/page.php:130 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr "Dokumentace"
@@ -826,7 +824,7 @@ msgid ""
 "Domains are also subject to change because of the new collation feature:"
 msgstr ""
 
-#: ../include/page.php:130 ../include/po_status.php:256
+#: ../include/page.php:131 ../include/po_status.php:256
 msgid "Download"
 msgstr "Stáhnout"
 
@@ -1071,7 +1069,7 @@ msgstr "Procházení přes GIT"
 msgid "GSoC"
 msgstr "Google Summer of Code"
 
-#: ../index.php:24
+#: ../index.php:30
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1116,7 +1114,7 @@ msgstr "Pokyny"
 msgid "Guru Hints to help less experienced users"
 msgstr "Rady odborníka na pomoc méně zkušeným uživatelům"
 
-#: ../include/page.php:126
+#: ../include/page.php:127
 msgid "Home"
 msgstr "Začínáme"
 
@@ -1291,7 +1289,7 @@ msgid ""
 "1.14."
 msgstr ""
 
-#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:32 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1860,7 +1858,7 @@ msgstr ""
 "pouze\n"
 " okno se stavem serveru."
 
-#: ../translation/status.php:45
+#: ../translation/status.php:43
 #, php-format
 msgid "Out of date translations (%d)"
 msgstr "Neaktuální překlady (%d)"
@@ -2103,7 +2101,7 @@ msgstr ""
 "enterprisedb.com\">EnterpriseDB</a> poskytla Apple Powerbook, aby se mohl "
 "vyvíjet a spravovat port pro Mac OSX."
 
-#: ../translation/status.php:33
+#: ../translation/status.php:31
 #, php-format
 msgid "Published translations (%d)"
 msgstr "Vydané překlady (%d)"
@@ -2203,6 +2201,10 @@ msgstr ""
 "Pro nainstalování pgAdmin III spusťtě jako uživatel <i>root</i> následující "
 "příkazy"
 
+#: ../include/page.php:116
+msgid "Russian"
+msgstr ""
+
 #: ../visualtour14.php:287
 msgid "SQL/Med objects"
 msgstr ""
@@ -2235,7 +2237,7 @@ msgstr "Vlastnosti schématu"
 msgid "Schemas"
 msgstr "Schémata"
 
-#: ../include/page.php:131
+#: ../include/page.php:132
 msgid "Screenshots"
 msgstr "Ukázky"
 
@@ -2296,7 +2298,7 @@ msgstr "Prohlížeč stavu a procesů serveru"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Serverové jazyky (jako pl/pgsql, pl/perl, pl/python apod.)"
 
-#: ../include/page.php:116
+#: ../include/page.php:117
 msgid "Simplified Chinese"
 msgstr "Zjednodušená čínština"
 
@@ -2330,10 +2332,6 @@ msgstr "Dokumentace Slony-I"
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Objekty Slony-I (jako uzly, clustery apod.)"
 
-#: ../download/menu.php:21 ../download/snapshots.php:8
-msgid "Snapshots"
-msgstr "Snímky"
-
 #: ../features.php:18 ../download/menu.php:13 ../download/solaris.php:8
 #: ../screenshots/index.php:25
 msgid "Solaris"
@@ -2360,17 +2358,6 @@ msgstr ""
 #: ../download/menu.php:14 ../download/source.php:8
 msgid "Source code"
 msgstr "Zdrojový kód"
-
-#: ../download/snapshots.php:10
-#, php-format
-msgid ""
-"Source tarballs and binary snapshots for a variety of platforms are built "
-"from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a less "
-"regular basis, following programming milestones."
-msgstr ""
-"Archivy se zdrojovým kódem a binární snímky pro různé platformy se sestavují "
-"každý den z <a href=\"%s\">větve trunk v GIT</a>. Další snímky se sestavují "
-"méně pravidelně podle milníků ve vývoji."
 
 #: ../download/source.php:12
 msgid ""
@@ -2437,7 +2424,7 @@ msgstr ""
 "překladatelů</a> a pohlídáme, aby dva překladatelé nepracovali ve stejném "
 "okamžiku na stejném jazyce."
 
-#: ../include/page.php:132
+#: ../include/page.php:133
 msgid "Support"
 msgstr "Podpora"
 
@@ -2704,7 +2691,7 @@ msgstr ""
 "nevyhovovaly pro IPv6. Tato část kódu byla aktualizována tak, aby umožnila "
 "připojení pomocí IPv6."
 
-#: ../index.php:35
+#: ../index.php:41
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Aktuální verze pgAdmin je <a href=\"/download/\">%s</a>."
@@ -3101,7 +3088,7 @@ msgstr ""
 msgid "The table properties dialogue"
 msgstr "Dialog vlastností tabulky"
 
-#: ../translation/status.php:47
+#: ../translation/status.php:45
 msgid ""
 "The translations below are not considered complete enough for inclusion in "
 "current releases. Around 750 translated strings indicate v1.0 support, 1000 "
@@ -3131,12 +3118,6 @@ msgid ""
 "composite type and an existing enumeration type. It also supports the new "
 "collation feature. See the screenshots to find the new information:"
 msgstr ""
-
-#: ../translation/status.php:31
-msgid ""
-"The updated translations are published in daily snapshots automatically."
-msgstr ""
-"Aktualizované překlady se zveřejňují automaticky v každodenních snímcích."
 
 #: ../support/list.php:14
 msgid ""
@@ -3305,7 +3286,7 @@ msgstr ""
 "dosáhl 100%, jednoduše zkopírujte tyto řetězce pomocí Alt+C v poEdit. Např. "
 "přeložte <i>ACL</i> jako <i>ACL</i>, <i>AFTER</i> jako <i>AFTER</i>, atd."
 
-#: ../download/macosx.php:24
+#: ../download/macosx.php:26
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -3428,7 +3409,7 @@ msgstr ""
 "jak pokračovat dál najdete v instrukcích na sestavení ze <a href=\"%s"
 "\">zdrojového kódu</a>."
 
-#: ../download/windows.php:27
+#: ../download/windows.php:29
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3514,7 +3495,7 @@ msgstr "Prohlídka (1.10)"
 msgid "Translated"
 msgstr "Přeloženo"
 
-#: ../contribute.php:16 ../include/page.php:133
+#: ../contribute.php:16 ../include/page.php:134
 msgid "Translation"
 msgstr "Překlad"
 
@@ -3813,13 +3794,11 @@ msgstr ""
 " která je v pgAdmin právě vybraná."
 
 #: ../translation/howto.php:53
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "When the translation is finished and reviewed, send the pgadmin3.po and "
 "pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/"
-"taring them. We will do our best to publish your files immediately. The "
-"translations are published in the <a href=\"%s\">snapshot builds</a> once "
-"they have been committed to the source repository."
+"taring them. We will do our best to publish your files immediately."
 msgstr ""
 "Když máte překlad dokončený a zkontrolovaný, archivujte soubory pgadmin3.po "
 "a pgadmin3.mo pomocí zip/tar a výsledný soubor pošlete vývojáři <a href=\"%s"
@@ -3951,7 +3930,7 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:20
+#: ../index.php:26
 #, fuzzy, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -4100,7 +4079,7 @@ msgid ""
 "enabled and disabled triggers and rules."
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:22
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
@@ -4115,7 +4094,7 @@ msgstr ""
 "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
 "\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
-#: ../index.php:12
+#: ../index.php:18
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
@@ -4124,6 +4103,22 @@ msgid ""
 "\">download area</a> to get your copy, or alternatively download a <a href="
 "\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.3 "
 "Installer</a> which includes pgAdmin."
+msgstr ""
+"Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
+"Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
+"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
+"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
+"features. We're still working on a visual tour. In the mean time, the list "
+"of new features fixes is available in the <a href=\"/development/changelog."
+"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
+"to get your copy, or alternatively download a <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 Installer</"
+"a> which includes pgAdmin."
 msgstr ""
 "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
 "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
@@ -4186,12 +4181,6 @@ msgstr ""
 "knihovny libpq, která je součástí PostgreSQL. Aplikace nepotřebuje žádnou "
 "pomocnou vrstvu jako ODBC, .NET nebo JDBC. Pokud je příslušně nastavený "
 "server, lze se přihlašovat pomocí šifrovaného hesla nebo ověření přes SSL."
-
-#: ../download/snapshots.php:14
-#, php-format
-msgid ""
-"pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
-msgstr "Vývojářské snímky pgAdmin lze stáhnout <a href=\"%s\">tady</a>."
 
 #: ../visualtour14.php:290
 msgid ""
@@ -4325,7 +4314,7 @@ msgstr ""
 "svobodný software <a href=\"%s\">TortoiseGIT</a>. Pod Linuxem je dostupných "
 "několik svobodných klientů jak pro příkazovou řádku, tak grafické prostředí."
 
-#: ../index.php:30
+#: ../index.php:36
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4348,7 +4337,7 @@ msgstr ""
 "šifrované SSL. Pro komunikaci s databázovým serverem nejsou potřeba žádné "
 "přídavné ovladače."
 
-#: ../index.php:32
+#: ../index.php:38
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4359,7 +4348,7 @@ msgstr ""
 "dostupný ve více jak tuctu jazyků. Jedná se o svobodný software vydaný pod "
 "licencí <a href=\"%s\">PostgreSQL License</a>."
 
-#: ../index.php:28
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -4526,10 +4515,6 @@ msgstr "pgAdmin: Ke stažení - RPM"
 msgid "pgAdmin: Download - Slackware"
 msgstr "pgAdmin: Ke stažení - Slackware"
 
-#: ../download/snapshots.php:5
-msgid "pgAdmin: Download - Snapshots"
-msgstr "pgAdmin: Ke stažení - Snímky"
-
 #: ../download/source.php:5
 msgid "pgAdmin: Download - Source code"
 msgstr "pgAdmin: Ke stažení - Zdrojový kód"
@@ -4669,25 +4654,44 @@ msgstr ""
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
 
-#, fuzzy
-#~ msgid "%s - pgAdmin v%s available"
-#~ msgstr "%s - vydán pgAdmin v%s"
-
-#, fuzzy
 #~ msgid ""
-#~ "pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new "
-#~ "interesting features. We're still working on a visual tour. In the "
-#~ "meantime, the list of new features is available in the <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
-#~ "\"download\">download area</a> to get your copy, or alternatively "
-#~ "download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-#~ "\">PostgreSQL 9.1 Release Candidate 1 Installer</a> which includes "
-#~ "pgAdmin."
+#~ "<b>WARNING:</b> Development snapshots have had little or no testing, and "
+#~ "in some cases may not even run. It is only recommended that you use a "
+#~ "snapshot if you are sure you know what you are doing, or are testing a "
+#~ "specific bug fix or new feature on the direction of one of the "
+#~ "developers. Please report any bugs or issue you may have with the "
+#~ "development snapshots, but do remember that they are 'works in progress'."
 #~ msgstr ""
-#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
-#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+#~ "<b>VAROVÁNÍ:</b> Vývojářské snímky jsou jen málo nebo vůbec testované a v "
+#~ "některých případech nemusí jít vůbec spustit. Doporučujeme vám je použít "
+#~ "pouze v případě, že víte přesně co děláte a nebo potřebujete otestovat "
+#~ "specifickou chybu nebo novou vlastnost podle instrukcí vývojáře. Chyby a "
+#~ "problémy ve vývojářských snímcích nám prosím hlaste, ale pamatujte, že "
+#~ "„se na tom pracuje“."
+
+#~ msgid "Snapshots"
+#~ msgstr "Snímky"
+
+#~ msgid ""
+#~ "Source tarballs and binary snapshots for a variety of platforms are built "
+#~ "from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a "
+#~ "less regular basis, following programming milestones."
+#~ msgstr ""
+#~ "Archivy se zdrojovým kódem a binární snímky pro různé platformy se "
+#~ "sestavují každý den z <a href=\"%s\">větve trunk v GIT</a>. Další snímky "
+#~ "se sestavují méně pravidelně podle milníků ve vývoji."
+
+#~ msgid ""
+#~ "The updated translations are published in daily snapshots automatically."
+#~ msgstr ""
+#~ "Aktualizované překlady se zveřejňují automaticky v každodenních snímcích."
+
+#~ msgid ""
+#~ "pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
+#~ msgstr "Vývojářské snímky pgAdmin lze stáhnout <a href=\"%s\">tady</a>."
+
+#~ msgid "pgAdmin: Download - Snapshots"
+#~ msgstr "pgAdmin: Ke stažení - Snímky"
 
 #~ msgid "Better i18n support [GL]"
 #~ msgstr "Lepší podpora i18n [GL]"

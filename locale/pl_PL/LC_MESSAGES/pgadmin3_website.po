@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-27 23:33+0100\n"
+"POT-Creation-Date: 2012-05-16 12:53-0400\n"
 "PO-Revision-Date: 2012-02-28 00:56+0200\n"
 "Last-Translator: Begina Felicysym <begina.felicysym@wp.eu>\n"
 "Language-Team: Begina Felicysym\n"
@@ -28,12 +28,17 @@ msgstr ""
 "(Shift-F7). Możesz zablokować zachowanie auto-rollback (zwykle jeśli chcesz "
 "wycofać do poprzedniego punktu zapisu)"
 
-#: ../index.php:22
+#: ../index.php:28
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - wideo demonstracyjne pgAdmin"
 
-#: ../index.php:10 ../index.php:14 ../index.php:18
+#: ../index.php:10
+#, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr "%s - dostępny pgAdmin v%s"
+
+#: ../index.php:16 ../index.php:20 ../index.php:24
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - wydany pgAdmin v%s"
@@ -59,7 +64,8 @@ msgstr "<a href=\"%s\">Pobierz pgAgent</a>"
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/opensuse.php:14
+#: ../download/macosx.php:21 ../download/macosx.php:22
+#: ../download/macosx.php:23 ../download/opensuse.php:14
 #: ../download/opensuse.php:15 ../download/opensuse.php:16
 #: ../download/opensuse.php:17 ../download/opensuse.php:18
 #: ../download/opensuse.php:19 ../download/opensuse.php:20
@@ -72,17 +78,19 @@ msgstr "<a href=\"%s\">Pobierz pgAgent</a>"
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
+#: ../download/source.php:24 ../download/source.php:25
 #: ../download/windows.php:17 ../download/windows.php:18
 #: ../download/windows.php:19 ../download/windows.php:20
 #: ../download/windows.php:21 ../download/windows.php:22
 #: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25 ../download/windows.php:26
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:29 ../download/source.php:30
 #: ../download/source.php:31 ../download/source.php:32
-#: ../download/source.php:33
+#: ../download/source.php:33 ../download/source.php:34
+#: ../download/source.php:35
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instrukcje v%s</a>"
@@ -155,22 +163,6 @@ msgstr ""
 "pgAdmin robi, i jak działa. <b> Pod żadnym pozorem nie należy wprowadzać "
 "nazw firm konkurencyjnych ani nazw ich produktów jako słów kluczowych</b>. "
 "Oto nasza propozycja listy słów kluczowych:"
-
-#: ../download/snapshots.php:12
-msgid ""
-"<b>WARNING:</b> Development snapshots have had little or no testing, and in "
-"some cases may not even run. It is only recommended that you use a snapshot "
-"if you are sure you know what you are doing, or are testing a specific bug "
-"fix or new feature on the direction of one of the developers. Please report "
-"any bugs or issue you may have with the development snapshots, but do "
-"remember that they are 'works in progress'."
-msgstr ""
-"<b>OSTRZEŻENIE:</b> Migawki rozwojowe nie były prawie albo wcale testowane, "
-"a w niektórych przypadkach mogą nawet nie działać. Zalecane jest używanie "
-"migawki tylko wtedy, gdy na pewno wiesz co robisz, lub badasz określoną "
-"poprawkę błędu lub nową funkcję pod obserwacją jednego z deweloperów. Proszę "
-"zgłaszać wszelkie błędy lub problemy jakie mieliście z migawkami "
-"rozwojowymi, ale pamiętaj, że trwają 'prace w toku'."
 
 #: ../advocacy/information.php:13
 #, php-format
@@ -337,7 +329,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr "Pakiety administracyjne"
 
-#: ../include/page.php:127
+#: ../include/page.php:128
 msgid "Advocacy"
 msgstr "Promocja"
 
@@ -521,6 +513,12 @@ msgstr ""
 msgid "Backup and restore tools"
 msgstr "Narzędzia tworzenia odtwarzania z kopii zapasowej"
 
+#: ../index.php:14
+msgid ""
+"Be careful that this is a BETA release. It's not production ready. It's "
+"available for testing purpose only."
+msgstr ""
+
 #: ../advocacy/strategy.php:13
 #, php-format
 msgid ""
@@ -553,7 +551,7 @@ msgstr ""
 "mogą być poza naszą kontrolą, lub mogą wymagać znacznego wysiłku w celu "
 "rozwiązania, często więcej wysiłku niż wymaga tego problem."
 
-#: ../download/source.php:26
+#: ../download/source.php:28
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -802,7 +800,7 @@ msgstr "Zaprojektowane dla wielu wersji i pochodnych PostgreSQL"
 msgid "Dev"
 msgstr "Dev"
 
-#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:128
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:129
 msgid "Development"
 msgstr "Rozwój"
 
@@ -826,7 +824,7 @@ msgstr "Nie można odczytać dokumentu"
 msgid "Document not found"
 msgstr "Nie znaleziono dokumentu"
 
-#: ../include/page.php:129 ../screenshots/documentation.php:8
+#: ../include/page.php:130 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr "Dokumentacja"
@@ -845,7 +843,7 @@ msgid ""
 msgstr ""
 "Domeny są również przedmiotami zmian ze względu na nową cechę porównań:"
 
-#: ../include/page.php:130 ../include/po_status.php:256
+#: ../include/page.php:131 ../include/po_status.php:256
 msgid "Download"
 msgstr "Pobieranie"
 
@@ -1097,7 +1095,7 @@ msgstr "Przeglądarka GIT"
 msgid "GSoC"
 msgstr "GSoC"
 
-#: ../index.php:24
+#: ../index.php:30
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1141,7 +1139,7 @@ msgstr "Wytyczne"
 msgid "Guru Hints to help less experienced users"
 msgstr "Podpowiedzi Guru pomagające mniej doświadczonym użytkownikom"
 
-#: ../include/page.php:126
+#: ../include/page.php:127
 msgid "Home"
 msgstr "Początek"
 
@@ -1323,7 +1321,7 @@ msgstr ""
 "zrobienia w tym wydaniu i mamy nadzieję, że będziemy utrzymamy przynajmniej "
 "taką samą liczbę języków dla 1.14."
 
-#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:32 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1920,7 +1918,7 @@ msgstr ""
 "  pgAdmin tylko by pokazać okno Stanu Serwera, z opcjami -S i-Sc linii "
 "poleceń."
 
-#: ../translation/status.php:45
+#: ../translation/status.php:43
 #, php-format
 msgid "Out of date translations (%d)"
 msgstr "Tłumaczenia nieaktualne (%d)"
@@ -2167,7 +2165,7 @@ msgstr ""
 "dostarczyła Apple Powerbook, aby umożliwić właściwy rozwój i utrzymywanie "
 "portu Mac OSX."
 
-#: ../translation/status.php:33
+#: ../translation/status.php:31
 #, php-format
 msgid "Published translations (%d)"
 msgstr "Opublikowane tłumaczenia (%d)"
@@ -2265,6 +2263,10 @@ msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 "Wykonaj następujące polecenia jako <i>root</i> by zainstalować pgAdmin III"
 
+#: ../include/page.php:116
+msgid "Russian"
+msgstr ""
+
 #: ../visualtour14.php:287
 msgid "SQL/Med objects"
 msgstr "Obiekty SQL/Med"
@@ -2297,7 +2299,7 @@ msgstr "Właściwości schematu"
 msgid "Schemas"
 msgstr "Schematy"
 
-#: ../include/page.php:131
+#: ../include/page.php:132
 msgid "Screenshots"
 msgstr "Zrzuty Ekranu"
 
@@ -2357,7 +2359,7 @@ msgstr "Przeglądarka statusu/procesu serwera"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Języki strony serwera (np. pl/pgsql, pl/perl, pl/python, itd.)"
 
-#: ../include/page.php:116
+#: ../include/page.php:117
 msgid "Simplified Chinese"
 msgstr "Chiński uproszczony"
 
@@ -2391,10 +2393,6 @@ msgstr "Dokumentacja Slony-I"
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Obiekty Slony-I (takie jak węzły, klastry itp.)"
 
-#: ../download/menu.php:21 ../download/snapshots.php:8
-msgid "Snapshots"
-msgstr "Migawki"
-
 #: ../features.php:18 ../download/menu.php:13 ../download/solaris.php:8
 #: ../screenshots/index.php:25
 msgid "Solaris"
@@ -2422,18 +2420,6 @@ msgstr ""
 #: ../download/menu.php:14 ../download/source.php:8
 msgid "Source code"
 msgstr "Kod źródłowy"
-
-#: ../download/snapshots.php:10
-#, php-format
-msgid ""
-"Source tarballs and binary snapshots for a variety of platforms are built "
-"from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a less "
-"regular basis, following programming milestones."
-msgstr ""
-"Archiwa tar z kodem źródłowym i binarne migawki dla różnych platform są "
-"kompilowane <a href=\"%s\">linii głównej GIT</a> raz na dobę. Inne migawki "
-"są budowane w oparciu o mniej regularne, kolejne etapy kluczowe "
-"programowania."
 
 #: ../download/source.php:12
 msgid ""
@@ -2502,7 +2488,7 @@ msgstr ""
 "e-mail, dodamy Cię do <a href=\"%s\">listy tłumaczy</a>, upewnij się też, że "
 "dwóch tłumaczy, nie pracuje w tym samym czasie nad tym samym językiem."
 
-#: ../include/page.php:132
+#: ../include/page.php:133
 msgid "Support"
 msgstr "Wsparcie techniczne"
 
@@ -2795,7 +2781,7 @@ msgstr ""
 "niezgodnych z IPv6. Ta część kodu została zaktualizowana w celu umożliwienia "
 "połączeń IPv6."
 
-#: ../index.php:35
+#: ../index.php:41
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Obecna wersja pgAdmin to <a href=\"/download/\">%s</a>."
@@ -3212,7 +3198,7 @@ msgstr ""
 msgid "The table properties dialogue"
 msgstr "Okno dialogowe właściwości tabeli"
 
-#: ../translation/status.php:47
+#: ../translation/status.php:45
 msgid ""
 "The translations below are not considered complete enough for inclusion in "
 "current releases. Around 750 translated strings indicate v1.0 support, 1000 "
@@ -3246,13 +3232,6 @@ msgstr ""
 "Okno właściwości typu obsługuje nową składnę zmiany istniejącego typu "
 "złożonego i istniejącego typu wyliczeniowego. Wspiera on także nową "
 "właściwość porównania. Zobacz zrzuty ekranu, by zobaczyć nowe informacje:"
-
-#: ../translation/status.php:31
-msgid ""
-"The updated translations are published in daily snapshots automatically."
-msgstr ""
-"Uaktualnione tłumaczenia publikowane są automatycznie w codziennych "
-"migawkach."
 
 #: ../support/list.php:14
 msgid ""
@@ -3428,7 +3407,7 @@ msgstr ""
 "polecenia Kopiuj poedit Alt+C. Przykład: przetłumaczenie <i>ACL</i> na "
 "<i>ACL</i>, <i>AFTER</i> na <i>AFTER</i> itp."
 
-#: ../download/macosx.php:24
+#: ../download/macosx.php:26
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -3559,7 +3538,7 @@ msgstr ""
 "systemie Linux oraz Unix, jak pokazano poniżej. Więcej szczegółów można "
 "znaleźć w instrukcjach budowy <a href=\"%s\">kodu źródłowego</a>."
 
-#: ../download/windows.php:27
+#: ../download/windows.php:29
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3644,7 +3623,7 @@ msgstr "Przewodnik (1.14)"
 msgid "Translated"
 msgstr "Przetłumaczono"
 
-#: ../contribute.php:16 ../include/page.php:133
+#: ../contribute.php:16 ../include/page.php:134
 msgid "Translation"
 msgstr "Tłumaczenie"
 
@@ -3916,10 +3895,10 @@ msgstr ""
 "Potrzebujemy Twojej pomocy, aby przetłumaczyć pgAdmin na kolejne języki. "
 "Każdy może w tym uczestniczyć, prosimy zapoznać się z <a href=\"%s\">jak to "
 "zrobić</a> aby uzyskać więcej informacji. Ta strona internetowa może być "
-"również przetłumaczona za pomocą pliku <a href=\"%"
-"s\">pgadmin3_website.pot</a>. Jeśli jesteś zainteresowany tłumaczeniem "
-"wiadomości serwera PostgreSQL, odwiedź stronę projektu <a href=\"%s\">Obsługi "
-"Języków Narodowych PostgreSQL</a>. "
+"również przetłumaczona za pomocą pliku <a href=\"%s\">pgadmin3_website.pot</"
+"a>. Jeśli jesteś zainteresowany tłumaczeniem wiadomości serwera PostgreSQL, "
+"odwiedź stronę projektu <a href=\"%s\">Obsługi Języków Narodowych "
+"PostgreSQL</a>. "
 
 #: ../visualtour.php:140
 msgid ""
@@ -3969,13 +3948,11 @@ msgstr ""
 "   do bazy danych wybranej w pgAdmin."
 
 #: ../translation/howto.php:53
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "When the translation is finished and reviewed, send the pgadmin3.po and "
 "pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/"
-"taring them. We will do our best to publish your files immediately. The "
-"translations are published in the <a href=\"%s\">snapshot builds</a> once "
-"they have been committed to the source repository."
+"taring them. We will do our best to publish your files immediately."
 msgstr ""
 "Gdy tłumaczenie jest gotowe i przejrzane, wyślij pliki pgadmin3.po i "
 "pgadmin3.mo do <a href=\"%s\">Guillaume Lelarge</a> po ich zzipowaniu/"
@@ -4109,7 +4086,7 @@ msgstr "dla typu wyliczeniowego"
 msgid "for the external type"
 msgstr "dla typu zewnętrznego"
 
-#: ../index.php:20
+#: ../index.php:26
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -4268,7 +4245,7 @@ msgstr ""
 "pgAdmin 1.14 wykorzystuje ten sam pomysł na ważne i nieważne klucze obce i "
 "włączane i wyłączone wyzwalacze i reguły."
 
-#: ../index.php:16
+#: ../index.php:22
 msgid ""
 "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -4278,14 +4255,13 @@ msgid ""
 "Installer</a> which includes pgAdmin."
 msgstr ""
 "Został wydany pgAdmin 1.14.1, oferując 8 poprawek błędów z poprzednich "
-"wersji. Lista poprawek jest dostępna w <a "
-"href=\"/development/changelog.php\">CHANGELOG</a>. Odwiedź <a "
-"href=\"download\">obszar pobierania</a>, aby uzyskać własną kopię, lub "
-"ewentualnie pobierz <a "
-"href=\"http://www.enterprisedb.com/products/pgdownload.do\">Instalator "
-"PostgreSQL 9.1.2</a>, który zawiera pgAdmin."
+"wersji. Lista poprawek jest dostępna w <a href=\"/development/changelog.php"
+"\">CHANGELOG</a>. Odwiedź <a href=\"download\">obszar pobierania</a>, aby "
+"uzyskać własną kopię, lub ewentualnie pobierz <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">Instalator PostgreSQL 9.1.2</a>, "
+"który zawiera pgAdmin."
 
-#: ../index.php:12
+#: ../index.php:18
 msgid ""
 "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -4295,12 +4271,30 @@ msgid ""
 "Installer</a> which includes pgAdmin."
 msgstr ""
 "Został wydany pgAdmin 1.14.2, oferując 28 poprawek błędów z poprzednich "
-"wersji. Lista poprawek jest dostępna w <a "
-"href=\"/development/changelog.php\">CHANGELOG</a>. Odwiedź <a "
-"href=\"download\">obszar pobierania</a>, aby wziąć kopię dla siebie, możesz "
-"również pobrać <a "
-"href=\"http://www.enterprisedb.com/products/pgdownload.do\">Instalator "
-"PostgreSQL 9.1.3</a>, który zawiera pgAdmin."
+"wersji. Lista poprawek jest dostępna w <a href=\"/development/changelog.php"
+"\">CHANGELOG</a>. Odwiedź <a href=\"download\">obszar pobierania</a>, aby "
+"wziąć kopię dla siebie, możesz również pobrać <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">Instalator PostgreSQL 9.1.3</a>, "
+"który zawiera pgAdmin."
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
+"features. We're still working on a visual tour. In the mean time, the list "
+"of new features fixes is available in the <a href=\"/development/changelog."
+"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
+"to get your copy, or alternatively download a <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 Installer</"
+"a> which includes pgAdmin."
+msgstr ""
+"Został wydany pgAdmin 1.14 Release Candidate 1, oferując wiele nowych "
+"interesujących funkcji. Pracujemy wciąż nad wizualnym przewodnikiem. Lista "
+"poprawek jest dostępna w <a href=\"/development/changelog.php\">CHANGELOG</"
+"a>. Odwiedź <a href=\"download\">obszar pobierania</a>, aby uzyskać kopię, "
+"lub ewentualnie pobrać <a href=\"http://www.enterprisedb.com/products/"
+"pgdownload.do\">Instalator PostgreSQL 9.1 Release Candidate 1</a>, który "
+"zawiera pgAdmin."
 
 #: ../translation/index.php:10
 #, php-format
@@ -4359,12 +4353,6 @@ msgstr ""
 "pomocą wbudowanej rodzimej biblioteki libpq. Aplikacja nie wymaga ODBC, .NET "
 "ani warstwy JDBC. Po skonfigurowaniu po stronie serwera, można połączyć się "
 "za pomocą szyfrowanego hasła lub uwierzytelnienia SSL."
-
-#: ../download/snapshots.php:14
-#, php-format
-msgid ""
-"pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
-msgstr "Migawki rozwojowe pgAdmin można pobrać <a href=\"%s\">stąd</a>."
 
 #: ../visualtour14.php:290
 msgid ""
@@ -4502,7 +4490,7 @@ msgstr ""
 "systemie Windows, zalecamy użycie <a href=\"%s\">TortoiseGIT</a>, będącego "
 "wolnym oprogramowaniem."
 
-#: ../index.php:30
+#: ../index.php:36
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4526,7 +4514,7 @@ msgstr ""
 "szyfrowane SSL dla bezpieczeństwa. Nie wymaga również dodatkowych "
 "sterowników do komunikacji z serwerem bazy danych."
 
-#: ../index.php:32
+#: ../index.php:38
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4537,7 +4525,7 @@ msgstr ""
 "świecie i jest dostępny w kilkunastu językach. To jest Wolnym "
 "Oprogramowaniem wydanym na <a href=\"%s\">licencji PostgreSQL</a>."
 
-#: ../index.php:28
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -4704,10 +4692,6 @@ msgstr "pgAdmin: Pobieranie - RPM"
 msgid "pgAdmin: Download - Slackware"
 msgstr "pgAdmin: Pobieranie - Slackware"
 
-#: ../download/snapshots.php:5
-msgid "pgAdmin: Download - Snapshots"
-msgstr "pgAdmin: Pobieranie - Migawki"
-
 #: ../download/source.php:5
 msgid "pgAdmin: Download - Source code"
 msgstr "pgAdmin: Pobieranie - Kod źródłowy"
@@ -4847,8 +4831,46 @@ msgstr "druga zakładka"
 msgid "timestamp of the last reset on the statistics;"
 msgstr "znacznik czasu ostatniego resetu statystyk;"
 
-#~ msgid "%s - pgAdmin v%s available"
-#~ msgstr "%s - dostępny pgAdmin v%s"
+#~ msgid ""
+#~ "<b>WARNING:</b> Development snapshots have had little or no testing, and "
+#~ "in some cases may not even run. It is only recommended that you use a "
+#~ "snapshot if you are sure you know what you are doing, or are testing a "
+#~ "specific bug fix or new feature on the direction of one of the "
+#~ "developers. Please report any bugs or issue you may have with the "
+#~ "development snapshots, but do remember that they are 'works in progress'."
+#~ msgstr ""
+#~ "<b>OSTRZEŻENIE:</b> Migawki rozwojowe nie były prawie albo wcale "
+#~ "testowane, a w niektórych przypadkach mogą nawet nie działać. Zalecane "
+#~ "jest używanie migawki tylko wtedy, gdy na pewno wiesz co robisz, lub "
+#~ "badasz określoną poprawkę błędu lub nową funkcję pod obserwacją jednego z "
+#~ "deweloperów. Proszę zgłaszać wszelkie błędy lub problemy jakie mieliście "
+#~ "z migawkami rozwojowymi, ale pamiętaj, że trwają 'prace w toku'."
+
+#~ msgid "Snapshots"
+#~ msgstr "Migawki"
+
+#~ msgid ""
+#~ "Source tarballs and binary snapshots for a variety of platforms are built "
+#~ "from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a "
+#~ "less regular basis, following programming milestones."
+#~ msgstr ""
+#~ "Archiwa tar z kodem źródłowym i binarne migawki dla różnych platform są "
+#~ "kompilowane <a href=\"%s\">linii głównej GIT</a> raz na dobę. Inne "
+#~ "migawki są budowane w oparciu o mniej regularne, kolejne etapy kluczowe "
+#~ "programowania."
+
+#~ msgid ""
+#~ "The updated translations are published in daily snapshots automatically."
+#~ msgstr ""
+#~ "Uaktualnione tłumaczenia publikowane są automatycznie w codziennych "
+#~ "migawkach."
+
+#~ msgid ""
+#~ "pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
+#~ msgstr "Migawki rozwojowe pgAdmin można pobrać <a href=\"%s\">stąd</a>."
+
+#~ msgid "pgAdmin: Download - Snapshots"
+#~ msgstr "pgAdmin: Pobieranie - Migawki"
 
 #~ msgid ""
 #~ "pgAdmin %s has now been released. This release is the culmination of over "
@@ -4867,21 +4889,3 @@ msgstr "znacznik czasu ostatniego resetu statystyk;"
 #~ "<a href=\"download\">obszar pobierania</a>, aby uzyskać kopię, lub "
 #~ "ewentualnie pobrać <a href=\"http://www.enterprisedb.com/products/"
 #~ "pgdownload.do\">Instalator PostgreSQL 9.0</a>, który zawiera pgAdmin."
-
-#~ msgid ""
-#~ "pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new "
-#~ "interesting features. We're still working on a visual tour. In the "
-#~ "meantime, the list of new features is available in the <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
-#~ "\"download\">download area</a> to get your copy, or alternatively "
-#~ "download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-#~ "\">PostgreSQL 9.1 Release Candidate 1 Installer</a> which includes "
-#~ "pgAdmin."
-#~ msgstr ""
-#~ "Został wydany pgAdmin 1.14 Release Candidate 1, oferując wiele nowych "
-#~ "interesujących funkcji. Pracujemy wciąż nad wizualnym przewodnikiem. "
-#~ "Lista poprawek jest dostępna w <a href=\"/development/changelog.php"
-#~ "\">CHANGELOG</a>. Odwiedź <a href=\"download\">obszar pobierania</a>, aby "
-#~ "uzyskać kopię, lub ewentualnie pobrać <a href=\"http://www.enterprisedb."
-#~ "com/products/pgdownload.do\">Instalator PostgreSQL 9.1 Release Candidate "
-#~ "1</a>, który zawiera pgAdmin."

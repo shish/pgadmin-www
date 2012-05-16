@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-27 23:33+0100\n"
+"POT-Creation-Date: 2012-05-16 12:53-0400\n"
 "PO-Revision-Date: 2010-10-22 19:38+0700\n"
 "Last-Translator: Dadan Setia <dadan.setia@gmail.com>\n"
 "Language-Team: pgAdmin Developers <pgadmin-hackers@postgresql.org>\n"
@@ -29,12 +29,17 @@ msgstr ""
 "F7). Anda dapat menonaktifkan perilaku auto-rollback (biasanya jika Anda "
 "ingin kembalikan ke savepoint sebelumnya)."
 
-#: ../index.php:22
+#: ../index.php:28
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - pgAdmin demo video"
 
-#: ../index.php:10 ../index.php:14 ../index.php:18
+#: ../index.php:10
+#, fuzzy, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr "%s - pgAdmin v%s telah dirilis"
+
+#: ../index.php:16 ../index.php:20 ../index.php:24
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin v%s telah dirilis"
@@ -60,7 +65,8 @@ msgstr "<a href=\"%s\">Download pgAgent</a>"
 #: ../download/macosx.php:15 ../download/macosx.php:16
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/opensuse.php:14
+#: ../download/macosx.php:21 ../download/macosx.php:22
+#: ../download/macosx.php:23 ../download/opensuse.php:14
 #: ../download/opensuse.php:15 ../download/opensuse.php:16
 #: ../download/opensuse.php:17 ../download/opensuse.php:18
 #: ../download/opensuse.php:19 ../download/opensuse.php:20
@@ -73,17 +79,19 @@ msgstr "<a href=\"%s\">Download pgAgent</a>"
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
+#: ../download/source.php:24 ../download/source.php:25
 #: ../download/windows.php:17 ../download/windows.php:18
 #: ../download/windows.php:19 ../download/windows.php:20
 #: ../download/windows.php:21 ../download/windows.php:22
 #: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25 ../download/windows.php:26
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:29 ../download/source.php:30
 #: ../download/source.php:31 ../download/source.php:32
-#: ../download/source.php:33
+#: ../download/source.php:33 ../download/source.php:34
+#: ../download/source.php:35
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">v%s intruksi</a>"
@@ -156,23 +164,6 @@ msgstr ""
 "setiap aspek dari apa pgAdmin, dan dengan apa yang dikerjakan. <b> Dalam "
 "situasi harus Anda menyertakan perusahaan pesaing atau nama produk dalam "
 "kata kunci </b>. Proposal kami untuk daftar kata kunci adalah:"
-
-#: ../download/snapshots.php:12
-msgid ""
-"<b>WARNING:</b> Development snapshots have had little or no testing, and in "
-"some cases may not even run. It is only recommended that you use a snapshot "
-"if you are sure you know what you are doing, or are testing a specific bug "
-"fix or new feature on the direction of one of the developers. Please report "
-"any bugs or issue you may have with the development snapshots, but do "
-"remember that they are 'works in progress'."
-msgstr ""
-"<b>PERINGATAN:</b> Pengembangan snapshots memiliki sedikit atau tanpa "
-"pengetesan, dan dalam beberapa kasus mungkin tidak berjalan. Ini hanya saran "
-"untuk anda menggunakan snapshot  jika Anda yakin Anda tahu apa yang Anda "
-"lakukan, atau sedang menguji memperbaiki bug tertentu atau fitur baru pada "
-"arah salah satu pengembang. Silakan laporkan bug atau masalah yang mungkin "
-"Anda miliki dengan foto-foto perkembangan, tetapi ingat bahwa mereka  'works "
-"in progress'."
 
 #: ../advocacy/information.php:13
 #, php-format
@@ -341,7 +332,7 @@ msgstr ""
 msgid "Admin packs"
 msgstr "Admin paket"
 
-#: ../include/page.php:127
+#: ../include/page.php:128
 msgid "Advocacy"
 msgstr "Advokasi"
 
@@ -517,6 +508,12 @@ msgstr ""
 msgid "Backup and restore tools"
 msgstr ""
 
+#: ../index.php:14
+msgid ""
+"Be careful that this is a BETA release. It's not production ready. It's "
+"available for testing purpose only."
+msgstr ""
+
 #: ../advocacy/strategy.php:13
 #, php-format
 msgid ""
@@ -551,7 +548,7 @@ msgstr ""
 "signifikan untuk menyelesaikan, seringkali usaha yang lebih daripada waran "
 "masalah."
 
-#: ../download/source.php:26
+#: ../download/source.php:28
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr "Membangun instruksi disertakan dalam tarball, tersedia online:"
@@ -876,7 +873,7 @@ msgstr "Didesain untuk versi PostgreSQL beberapa dan turunannya"
 msgid "Dev"
 msgstr "Dev "
 
-#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:128
+#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:129
 msgid "Development"
 msgstr "Pengembangan"
 
@@ -900,7 +897,7 @@ msgstr "Dokumen tidak bisa dibaca"
 msgid "Document not found"
 msgstr "Dokumen tidak ditemukan"
 
-#: ../include/page.php:129 ../screenshots/documentation.php:8
+#: ../include/page.php:130 ../screenshots/documentation.php:8
 #: ../screenshots/menu.php:9
 msgid "Documentation"
 msgstr "Dokumentasi"
@@ -918,7 +915,7 @@ msgid ""
 "Domains are also subject to change because of the new collation feature:"
 msgstr ""
 
-#: ../include/page.php:130 ../include/po_status.php:256
+#: ../include/page.php:131 ../include/po_status.php:256
 msgid "Download"
 msgstr "Unduh"
 
@@ -1213,7 +1210,7 @@ msgstr "Browser GIT"
 msgid "GSoC"
 msgstr "GSoC"
 
-#: ../index.php:24
+#: ../index.php:30
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1261,7 +1258,7 @@ msgstr "Pedoman"
 msgid "Guru Hints to help less experienced users"
 msgstr "Petunjuk guru untuk membantu pengguna yang kurang berpengalaman"
 
-#: ../include/page.php:126
+#: ../include/page.php:127
 msgid "Home"
 msgstr "Home"
 
@@ -1474,7 +1471,7 @@ msgstr ""
 # standard input:274
 # standard input:9
 # standard
-#: ../index.php:26 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:32 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2132,7 +2129,7 @@ msgstr ""
 "  hanya menampilkan jendela Server Status, dengan S-dan-Sc baris perintah\n"
 "  Pilihan."
 
-#: ../translation/status.php:45
+#: ../translation/status.php:43
 #, php-format
 msgid "Out of date translations (%d)"
 msgstr "Terjemahan sudah tua (%d)"
@@ -2384,7 +2381,7 @@ msgstr ""
 "www.enterprisedb.com\">EnterpriseDB</a> memberikan Powerbook Apple untuk "
 "memungkinkan port Mac OSX untuk menjadi benar dikembangkan dan dipelihara."
 
-#: ../translation/status.php:33
+#: ../translation/status.php:31
 #, php-format
 msgid "Published translations (%d)"
 msgstr "Published translations (%d)"
@@ -2514,6 +2511,10 @@ msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 "Jalankan perintah dibawah ini sebagai <i>root</i> untuk memasang pgAdmin III"
 
+#: ../include/page.php:116
+msgid "Russian"
+msgstr ""
+
 #: ../visualtour14.php:287
 #, fuzzy
 msgid "SQL/Med objects"
@@ -2583,7 +2584,7 @@ msgstr "Skema"
 # src/schema/pgSequence.cpp:94 standard input:226
 # src/schema/pgSequence.cpp:94 standard input:4
 # standard
-#: ../include/page.php:131
+#: ../include/page.php:132
 msgid "Screenshots"
 msgstr "Rekaman layar"
 
@@ -2677,7 +2678,7 @@ msgstr "Status server/pemantau proses"
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Bahasa server-slide (seperti pl/pgsql, pl/perl, pl/python, dll.)"
 
-#: ../include/page.php:116
+#: ../include/page.php:117
 msgid "Simplified Chinese"
 msgstr "China simpel"
 
@@ -2711,10 +2712,6 @@ msgstr "Dokumentasi Slony-I"
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Objek Slony-I (seperti node, clusters dll.)"
 
-#: ../download/menu.php:21 ../download/snapshots.php:8
-msgid "Snapshots"
-msgstr "Rekaman layar"
-
 #: ../features.php:18 ../download/menu.php:13 ../download/solaris.php:8
 #: ../screenshots/index.php:25
 msgid "Solaris"
@@ -2745,17 +2742,6 @@ msgstr ""
 #: ../download/menu.php:14 ../download/source.php:8
 msgid "Source code"
 msgstr "Sumber kode"
-
-#: ../download/snapshots.php:10
-#, php-format
-msgid ""
-"Source tarballs and binary snapshots for a variety of platforms are built "
-"from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a less "
-"regular basis, following programming milestones."
-msgstr ""
-"Sumber tarball dan snapshot biner untuk berbagai platform yang dibangun dari "
-"<a href=\"%s\">batang GIT</a>setiap hari. snapshots lain dibangun secara "
-"kurang teratur, mengikuti tonggak pemrograman."
 
 #: ../download/source.php:12
 msgid ""
@@ -2834,7 +2820,7 @@ msgstr ""
 # standard input:198
 # standard input:18
 # standard
-#: ../include/page.php:132
+#: ../include/page.php:133
 msgid "Support"
 msgstr "Mendukung hash"
 
@@ -3141,7 +3127,7 @@ msgstr ""
 "tidak kompatibel dengan IPv6. Ini bagian dari kode telah diperbarui untuk "
 "memungkinkan koneksi IPv6."
 
-#: ../index.php:35
+#: ../index.php:41
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Versi pgAdmin saat ini adalah <a href=\"/download/\">%s</a>."
@@ -3574,7 +3560,7 @@ msgstr ""
 msgid "The table properties dialogue"
 msgstr "Dialog Properti Tabel"
 
-#: ../translation/status.php:47
+#: ../translation/status.php:45
 msgid ""
 "The translations below are not considered complete enough for inclusion in "
 "current releases. Around 750 translated strings indicate v1.0 support, 1000 "
@@ -3606,12 +3592,6 @@ msgid ""
 "composite type and an existing enumeration type. It also supports the new "
 "collation feature. See the screenshots to find the new information:"
 msgstr ""
-
-#: ../translation/status.php:31
-msgid ""
-"The updated translations are published in daily snapshots automatically."
-msgstr ""
-"Pembaruan Terjemahan diterbitkan dalam snapshot harian secara otomatis."
 
 #: ../support/list.php:14
 msgid ""
@@ -3784,7 +3764,7 @@ msgstr ""
 "ini menggunakan perintah Alt+C . Sebagai contoh: menerjemahkan <i>ACL</i> ke "
 "<i>ACL</i>, <i>AFTER</i> ke <i>SETELAH</i>, dll."
 
-#: ../download/macosx.php:24
+#: ../download/macosx.php:26
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -3909,7 +3889,7 @@ msgstr ""
 "keterangan lebih lanjut, silakan lihat petunjuk membangun <a href=\"%s"
 "\">kode sumber</a> ."
 
-#: ../download/windows.php:27
+#: ../download/windows.php:29
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3994,7 +3974,7 @@ msgstr "Tour (1.10)"
 msgid "Translated"
 msgstr "Diterjemahkan"
 
-#: ../contribute.php:16 ../include/page.php:133
+#: ../contribute.php:16 ../include/page.php:134
 msgid "Translation"
 msgstr "Terjemahan"
 
@@ -4382,13 +4362,11 @@ msgstr ""
 "  ke basisdata terpilih di pgAdmin."
 
 #: ../translation/howto.php:53
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "When the translation is finished and reviewed, send the pgadmin3.po and "
 "pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/"
-"taring them. We will do our best to publish your files immediately. The "
-"translations are published in the <a href=\"%s\">snapshot builds</a> once "
-"they have been committed to the source repository."
+"taring them. We will do our best to publish your files immediately."
 msgstr ""
 "Bila terjemahan selesai dan ditinjau, kirim file pgadmin3.po dan pgadmin3.mo "
 "untuk <a href=\"%s\">Guillaume Lelarge</a> setelah di zipping/taring. Kami "
@@ -4523,7 +4501,7 @@ msgstr ""
 msgid "for the external type"
 msgstr "Refresh"
 
-#: ../index.php:20
+#: ../index.php:26
 #, fuzzy, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -4672,7 +4650,7 @@ msgid ""
 "enabled and disabled triggers and rules."
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:22
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
@@ -4688,7 +4666,7 @@ msgstr ""
 "com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> yang mencakup "
 "pgAdmin."
 
-#: ../index.php:12
+#: ../index.php:18
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
@@ -4697,6 +4675,23 @@ msgid ""
 "\">download area</a> to get your copy, or alternatively download a <a href="
 "\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.3 "
 "Installer</a> which includes pgAdmin."
+msgstr ""
+"pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari versi "
+"sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ a> untuk "
+"mendapatkan salinan Anda, atau download <a href=\"http://www.enterprisedb."
+"com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> yang mencakup "
+"pgAdmin."
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
+"features. We're still working on a visual tour. In the mean time, the list "
+"of new features fixes is available in the <a href=\"/development/changelog."
+"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
+"to get your copy, or alternatively download a <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 Installer</"
+"a> which includes pgAdmin."
 msgstr ""
 "pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari versi "
 "sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ a> untuk "
@@ -4761,13 +4756,6 @@ msgstr ""
 "library tertanam libpq asli. Aplikasi ini tidak memerlukan ODBC,. NET atau "
 "lapisan JDBC. Ketika dikonfigurasi server-side, memungkinkan untuk terhubung "
 "menggunakan password terenkripsi atau otentikasi SSL."
-
-#: ../download/snapshots.php:14
-#, php-format
-msgid ""
-"pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
-msgstr ""
-"snapshots pembangunan pgAdmin bisa di-download <a href=\"%s\">disini</a>."
 
 #: ../visualtour14.php:290
 msgid ""
@@ -4903,7 +4891,7 @@ msgstr ""
 "sarankan untuk menggunakan <a href=\"%s\"> TortoiseGIT </ a>, yang merupakan "
 "perangkat lunak bebas."
 
-#: ../index.php:30
+#: ../index.php:36
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4926,7 +4914,7 @@ msgstr ""
 "nix), dan dapat SSL dienkripsi untuk keamanan. Tidak ada driver tambahan "
 "yang diperlukan untuk berkomunikasi dengan server database."
 
-#: ../index.php:32
+#: ../index.php:38
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4937,7 +4925,7 @@ msgstr ""
 "tersedia di lebih dari selusin bahasa. Ini adalah perangkat lunak gratis "
 "yang dirilis dibawah Lisensi <a href=\"%s\"> PostgreSQL </ a>."
 
-#: ../index.php:28
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -5102,10 +5090,6 @@ msgstr "pgAdmin: Unduh - RPM"
 msgid "pgAdmin: Download - Slackware"
 msgstr "pgAdmin: Unduh - Slackware"
 
-#: ../download/snapshots.php:5
-msgid "pgAdmin: Download - Snapshots"
-msgstr "pgAdmin: Unduh - Snapshots"
-
 #: ../download/source.php:5
 msgid "pgAdmin: Download - Source code"
 msgstr "pgAdmin: Unduh - Kode Sumber"
@@ -5249,26 +5233,46 @@ msgstr "1 detik"
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
 
-#, fuzzy
-#~ msgid "%s - pgAdmin v%s available"
-#~ msgstr "%s - pgAdmin v%s telah dirilis"
-
-#, fuzzy
 #~ msgid ""
-#~ "pgAdmin 1.14 Release Candidate 1 has been released, offering lots of new "
-#~ "interesting features. We're still working on a visual tour. In the "
-#~ "meantime, the list of new features is available in the <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
-#~ "\"download\">download area</a> to get your copy, or alternatively "
-#~ "download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-#~ "\">PostgreSQL 9.1 Release Candidate 1 Installer</a> which includes "
-#~ "pgAdmin."
+#~ "<b>WARNING:</b> Development snapshots have had little or no testing, and "
+#~ "in some cases may not even run. It is only recommended that you use a "
+#~ "snapshot if you are sure you know what you are doing, or are testing a "
+#~ "specific bug fix or new feature on the direction of one of the "
+#~ "developers. Please report any bugs or issue you may have with the "
+#~ "development snapshots, but do remember that they are 'works in progress'."
 #~ msgstr ""
-#~ "pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari "
-#~ "versi sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ "
-#~ "a> untuk mendapatkan salinan Anda, atau download <a href=\"http://www."
-#~ "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> "
-#~ "yang mencakup pgAdmin."
+#~ "<b>PERINGATAN:</b> Pengembangan snapshots memiliki sedikit atau tanpa "
+#~ "pengetesan, dan dalam beberapa kasus mungkin tidak berjalan. Ini hanya "
+#~ "saran untuk anda menggunakan snapshot  jika Anda yakin Anda tahu apa yang "
+#~ "Anda lakukan, atau sedang menguji memperbaiki bug tertentu atau fitur "
+#~ "baru pada arah salah satu pengembang. Silakan laporkan bug atau masalah "
+#~ "yang mungkin Anda miliki dengan foto-foto perkembangan, tetapi ingat "
+#~ "bahwa mereka  'works in progress'."
+
+#~ msgid "Snapshots"
+#~ msgstr "Rekaman layar"
+
+#~ msgid ""
+#~ "Source tarballs and binary snapshots for a variety of platforms are built "
+#~ "from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a "
+#~ "less regular basis, following programming milestones."
+#~ msgstr ""
+#~ "Sumber tarball dan snapshot biner untuk berbagai platform yang dibangun "
+#~ "dari <a href=\"%s\">batang GIT</a>setiap hari. snapshots lain dibangun "
+#~ "secara kurang teratur, mengikuti tonggak pemrograman."
+
+#~ msgid ""
+#~ "The updated translations are published in daily snapshots automatically."
+#~ msgstr ""
+#~ "Pembaruan Terjemahan diterbitkan dalam snapshot harian secara otomatis."
+
+#~ msgid ""
+#~ "pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
+#~ msgstr ""
+#~ "snapshots pembangunan pgAdmin bisa di-download <a href=\"%s\">disini</a>."
+
+#~ msgid "pgAdmin: Download - Snapshots"
+#~ msgstr "pgAdmin: Unduh - Snapshots"
 
 #~ msgid "Better i18n support [GL]"
 #~ msgstr "Better i18n support [GL]"

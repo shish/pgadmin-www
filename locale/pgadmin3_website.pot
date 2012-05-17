@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-16 12:53-0400\n"
+"POT-Creation-Date: 2012-05-17 07:17-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,12 +61,11 @@ msgstr ""
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
 #: ../download/macosx.php:21 ../download/macosx.php:22
-#: ../download/macosx.php:23 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/opensuse.php:18
-#: ../download/opensuse.php:19 ../download/opensuse.php:20
-#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
-#: ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/opensuse.php:14 ../download/opensuse.php:15
+#: ../download/opensuse.php:16 ../download/opensuse.php:17
+#: ../download/opensuse.php:18 ../download/opensuse.php:19
+#: ../download/opensuse.php:20 ../download/rpm.php:16 ../download/rpm.php:17
+#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
@@ -79,7 +78,7 @@ msgstr ""
 #: ../download/windows.php:19 ../download/windows.php:20
 #: ../download/windows.php:21 ../download/windows.php:22
 #: ../download/windows.php:23 ../download/windows.php:24
-#: ../download/windows.php:25 ../download/windows.php:26
+#: ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
@@ -2687,7 +2686,7 @@ msgid ""
 "i>, etc."
 msgstr ""
 
-#: ../download/macosx.php:26
+#: ../download/macosx.php:25
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -2773,7 +2772,7 @@ msgid ""
 "please see the <a href=\"%s\">source code</a> build instructions."
 msgstr ""
 
-#: ../download/windows.php:29
+#: ../download/windows.php:28
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3328,12 +3327,13 @@ msgstr ""
 #: ../index.php:12
 msgid ""
 "pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
-"features. We're still working on a visual tour. In the mean time, the list "
-"of new features fixes is available in the <a href=\"/development/changelog."
-"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
-"to get your copy, or alternatively download a <a href=\"http://www."
-"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 Installer</"
-"a> which includes pgAdmin."
+"features. We're still working on a visual tour. We also don't have yet "
+"Windows and Mac OS X packages, but they may come up later. In the mean time, "
+"the list of new features fixes is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 "
+"Installer</a> which includes pgAdmin."
 msgstr ""
 
 #: ../translation/index.php:10

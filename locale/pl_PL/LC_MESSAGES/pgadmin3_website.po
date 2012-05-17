@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-05-16 12:53-0400\n"
-"PO-Revision-Date: 2012-02-28 00:56+0200\n"
+"PO-Revision-Date: 2012-05-16 20:53+0200\n"
 "Last-Translator: Begina Felicysym <begina.felicysym@wp.eu>\n"
 "Language-Team: Begina Felicysym\n"
 "Language: pl\n"
@@ -518,6 +518,8 @@ msgid ""
 "Be careful that this is a BETA release. It's not production ready. It's "
 "available for testing purpose only."
 msgstr ""
+"Uważaj, to jest wersja BETA. Nie jest gotowa do wykorzystania w produkcji. "
+"Została udostępniona tylko w celu przetestowania."
 
 #: ../advocacy/strategy.php:13
 #, php-format
@@ -2265,7 +2267,7 @@ msgstr ""
 
 #: ../include/page.php:116
 msgid "Russian"
-msgstr ""
+msgstr "Rosyjski"
 
 #: ../visualtour14.php:287
 msgid "SQL/Med objects"
@@ -3948,17 +3950,16 @@ msgstr ""
 "   do bazy danych wybranej w pgAdmin."
 
 #: ../translation/howto.php:53
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "When the translation is finished and reviewed, send the pgadmin3.po and "
 "pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/"
 "taring them. We will do our best to publish your files immediately."
 msgstr ""
 "Gdy tłumaczenie jest gotowe i przejrzane, wyślij pliki pgadmin3.po i "
-"pgadmin3.mo do <a href=\"%s\">Guillaume Lelarge</a> po ich zzipowaniu/"
-"starowaniu. Dołożymy wszelkich starań, aby opublikować pliki natychmiast. "
-"Tłumaczenia są publikowane w <a href=\"%s\">kompilacji migawkowej</a>, gdy "
-"już zostały one zatwierdzone do repozytorium kodu źródłowego."
+"pgadmin3.mo do <a href=\"%s\">Guillaume Lelarge</a> po ich "
+"zzipowaniu/starowaniu. Dołożymy wszelkich starań, aby niezwłocznie "
+"opublikować pliki."
 
 #: ../translation/howto.php:25
 #, php-format
@@ -4278,7 +4279,6 @@ msgstr ""
 "który zawiera pgAdmin."
 
 #: ../index.php:12
-#, fuzzy
 msgid ""
 "pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
 "features. We're still working on a visual tour. In the mean time, the list "
@@ -4288,13 +4288,13 @@ msgid ""
 "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 Installer</"
 "a> which includes pgAdmin."
 msgstr ""
-"Został wydany pgAdmin 1.14 Release Candidate 1, oferując wiele nowych "
-"interesujących funkcji. Pracujemy wciąż nad wizualnym przewodnikiem. Lista "
-"poprawek jest dostępna w <a href=\"/development/changelog.php\">CHANGELOG</"
-"a>. Odwiedź <a href=\"download\">obszar pobierania</a>, aby uzyskać kopię, "
-"lub ewentualnie pobrać <a href=\"http://www.enterprisedb.com/products/"
-"pgdownload.do\">Instalator PostgreSQL 9.1 Release Candidate 1</a>, który "
-"zawiera pgAdmin."
+"Został wydany pgAdmin 1.16 beta 1, oferując wiele nowych interesujących "
+"funkcji. Pracujemy wciąż nad wizualnym przewodnikiem. Lista poprawek jest "
+"dostępna w <a href=\"/development/changelog.php\">CHANGELOG</a>. Odwiedź <a "
+"href=\"download\">obszar pobierania</a>, aby uzyskać kopię, lub ewentualnie "
+"pobrać <a "
+"href=\"http://www.enterprisedb.com/products/pgdownload.do\">Instalator "
+"PostgreSQL 9.2 beta 1</a>, który zawiera pgAdmin."
 
 #: ../translation/index.php:10
 #, php-format

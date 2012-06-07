@@ -7,7 +7,7 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
-<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2012-06-04, "1.14.3") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2012-06-04", "1.14.3") . '</h2>
 
 <p>' . _("pgAdmin 1.14.3 has been released, offering 25 bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.4 Installer</a> which includes pgAdmin.") . '</p>
 

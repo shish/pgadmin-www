@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin-www\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-17 07:17-0400\n"
+"POT-Creation-Date: 2012-06-07 14:37+0200\n"
 "PO-Revision-Date: 2012-02-22 15:55+0500\n"
 "Last-Translator: Timon <timosha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -28,17 +28,17 @@ msgstr ""
 "(Shift-F7). Кроме того, вы можете выключить режим автоотката (обычно это "
 "делают для отката к предыдущей точке сохранения)."
 
-#: ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - демонстрация pgAdmin"
 
-#: ../index.php:10
+#: ../index.php:14
 #, fuzzy, php-format
 msgid "%s - pgAdmin v%s available"
 msgstr "%s - pgAdmin v%s выпущен"
 
-#: ../index.php:16 ../index.php:20 ../index.php:24
+#: ../index.php:10 ../index.php:20 ../index.php:24 ../index.php:28
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - выпущен pgAdmin %s"
@@ -65,11 +65,12 @@ msgstr "<a href=\"%s\">Загрузить pgAgent</a>"
 #: ../download/macosx.php:17 ../download/macosx.php:18
 #: ../download/macosx.php:19 ../download/macosx.php:20
 #: ../download/macosx.php:21 ../download/macosx.php:22
-#: ../download/opensuse.php:14 ../download/opensuse.php:15
-#: ../download/opensuse.php:16 ../download/opensuse.php:17
-#: ../download/opensuse.php:18 ../download/opensuse.php:19
-#: ../download/opensuse.php:20 ../download/rpm.php:16 ../download/rpm.php:17
-#: ../download/rpm.php:18 ../download/rpm.php:19 ../download/slackware.php:14
+#: ../download/macosx.php:23 ../download/opensuse.php:14
+#: ../download/opensuse.php:15 ../download/opensuse.php:16
+#: ../download/opensuse.php:17 ../download/opensuse.php:18
+#: ../download/opensuse.php:19 ../download/opensuse.php:20
+#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
+#: ../download/rpm.php:19 ../download/slackware.php:14
 #: ../download/slackware.php:15 ../download/slackware.php:16
 #: ../download/slackware.php:17 ../download/solaris.php:14
 #: ../download/solaris.php:15 ../download/source.php:15
@@ -78,18 +79,18 @@ msgstr "<a href=\"%s\">Загрузить pgAgent</a>"
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
 #: ../download/source.php:24 ../download/source.php:25
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
-#: ../download/windows.php:25
+#: ../download/source.php:26 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24 ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:31 ../download/source.php:32
-#: ../download/source.php:33 ../download/source.php:34
-#: ../download/source.php:35
+#: ../download/source.php:32 ../download/source.php:33
+#: ../download/source.php:34 ../download/source.php:35
+#: ../download/source.php:36
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">инструкции для %s</a>"
@@ -506,7 +507,7 @@ msgstr ""
 msgid "Backup and restore tools"
 msgstr "Резервное копирование и восстановление"
 
-#: ../index.php:14
+#: ../index.php:18
 msgid ""
 "Be careful that this is a BETA release. It's not production ready. It's "
 "available for testing purpose only."
@@ -543,7 +544,7 @@ msgstr ""
 "могут быть неподвластны нам или для их решения нужно приложить неоправданно "
 "много усилий."
 
-#: ../download/source.php:28
+#: ../download/source.php:29
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -1089,7 +1090,7 @@ msgstr "Обзор GIT"
 msgid "GSoC"
 msgstr "GSoC"
 
-#: ../index.php:30
+#: ../index.php:34
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1314,7 +1315,7 @@ msgstr ""
 "приложить больше усилий для подготовки этого выпуска, однако мы надеемся, "
 "что число поддерживаемых языков от этого не уменьшится."
 
-#: ../index.php:32 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:36 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2759,7 +2760,7 @@ msgstr ""
 "использовались функции, несовместимые с IPv6, но теперь они заменены новыми, "
 "поддерживающими IPv6."
 
-#: ../index.php:41
+#: ../index.php:45
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Текущая версия pgAdmin: <a href=\"/download/\">%s</a>."
@@ -3391,7 +3392,7 @@ msgstr ""
 "команды Скопировать... (Alt+C)). Например: переводом для <i>ACL</i> будет "
 "<i>ACL</i>, для <i>AFTER</i> - <i>AFTER</i> и т.п."
 
-#: ../download/macosx.php:25
+#: ../download/macosx.php:26
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -4064,7 +4065,7 @@ msgstr "для типа перечисления"
 msgid "for the external type"
 msgstr "для внешнего типа"
 
-#: ../index.php:26
+#: ../index.php:30
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -4222,7 +4223,7 @@ msgstr ""
 "В pgAdmin 1.14 эта идея распространена на внешние ключи (целые и "
 "нарушенные), триггеры и правила (включенные и отключенные)."
 
-#: ../index.php:22
+#: ../index.php:26
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
@@ -4239,7 +4240,7 @@ msgstr ""
 "\"http://www.enterprisedb.com/products/pgdownload.do\">инсталлятор "
 "PostgreSQL 9.0.4 Installer</a>, включающий pgAdmin."
 
-#: ../index.php:18
+#: ../index.php:22
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
@@ -4256,7 +4257,7 @@ msgstr ""
 "\"http://www.enterprisedb.com/products/pgdownload.do\">инсталлятор "
 "PostgreSQL 9.0.4 Installer</a>, включающий pgAdmin."
 
-#: ../index.php:12
+#: ../index.php:16
 #, fuzzy
 msgid ""
 "pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
@@ -4469,7 +4470,7 @@ msgstr ""
 "или используя любой GIT-клиент. Для пользователей Windows мы рекомендуем "
 "использовать бесплатный <a href=\"%s\">TortoiseGIT</a>."
 
-#: ../index.php:36
+#: ../index.php:40
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4493,7 +4494,7 @@ msgstr ""
 "SSL-шифрование для безопасности. При этом никакие дополнительные драйверы "
 "для соединения с сервером баз данных не требуются."
 
-#: ../index.php:38
+#: ../index.php:42
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4504,7 +4505,7 @@ msgstr ""
 "доступен более чем на десяти языках. Это свободное программное обеспечение "
 "выпускается под <a href=\"%s\">лицензией PostgreSQL</a>."
 
-#: ../index.php:34
+#: ../index.php:38
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "

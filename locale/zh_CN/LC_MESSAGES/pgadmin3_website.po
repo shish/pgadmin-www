@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-07 19:54+0200\n"
+"POT-Creation-Date: 2012-06-29 11:15+0200\n"
 "PO-Revision-Date: 2011-08-23 19:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -59,32 +59,22 @@ msgstr "<a href=\"%s\">Admin pack</a> 用于pgAdmin %s以及更高版本"
 msgid "<a href=\"%s\">Download pgAgent</a>"
 msgstr "<a href=\"%s\">下载pgAgent</a>"
 
-#: ../download/freebsd.php:14 ../download/freebsd.php:15
-#: ../download/freebsd.php:16 ../download/freebsd.php:17
-#: ../download/freebsd.php:18 ../download/macosx.php:14
-#: ../download/macosx.php:15 ../download/macosx.php:16
-#: ../download/macosx.php:17 ../download/macosx.php:18
-#: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/macosx.php:22
-#: ../download/macosx.php:23 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/opensuse.php:18
-#: ../download/opensuse.php:19 ../download/opensuse.php:20
-#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
-#: ../download/rpm.php:19 ../download/slackware.php:14
-#: ../download/slackware.php:15 ../download/slackware.php:16
-#: ../download/slackware.php:17 ../download/solaris.php:14
-#: ../download/solaris.php:15 ../download/source.php:15
-#: ../download/source.php:16 ../download/source.php:17
-#: ../download/source.php:18 ../download/source.php:19
-#: ../download/source.php:20 ../download/source.php:21
-#: ../download/source.php:22 ../download/source.php:23
-#: ../download/source.php:24 ../download/source.php:25
-#: ../download/source.php:26 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
+#: ../download/macosx.php:14 ../download/macosx.php:15
+#: ../download/macosx.php:16 ../download/macosx.php:17
+#: ../download/macosx.php:18 ../download/macosx.php:19
+#: ../download/macosx.php:20 ../download/macosx.php:21
+#: ../download/macosx.php:22 ../download/macosx.php:23
+#: ../download/source.php:15 ../download/source.php:16
+#: ../download/source.php:17 ../download/source.php:18
+#: ../download/source.php:19 ../download/source.php:20
+#: ../download/source.php:21 ../download/source.php:22
+#: ../download/source.php:23 ../download/source.php:24
+#: ../download/source.php:25 ../download/source.php:26
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin %s版本</a>"
@@ -294,7 +284,7 @@ msgstr ""
 "加入在8.2+服务器添加/移除<b>继承表</b>的功能，列表控件和两个按钮都已经\n"
 "移动到他们自己的面板中。"
 
-#: ../download/adminpacks.php:8 ../download/menu.php:18
+#: ../download/adminpacks.php:8 ../download/menu.php:11
 msgid "Admin packs"
 msgstr "管理工具包"
 
@@ -473,10 +463,6 @@ msgstr ""
 "在开始之前，推荐使用自己的母语翻译pgAdmin以及网站，如果还没有人做这个工作的"
 "话。请访问<a href=\"%s\">翻译</a>网页了解更多信息以及如何开始。"
 
-#: ../download/ubuntu.php:14
-msgid "Before you try to install"
-msgstr "安装之前的准备"
-
 #: ../visualtour14.php:29
 msgid "Better i18n"
 msgstr "更好的国际化支持"
@@ -514,20 +500,10 @@ msgstr "检查并移除现在已经在wxWidgets中实现的自定义控件。"
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "验证wxWidgets 2.9/3.0的使用"
 
-#: ../download/freebsd.php:33
-msgid "Check that the pgAdmin executable is in the path:"
-msgstr "确认pgAdmin在系统路径中是可以正确执行的："
-
 #: ../translation/howto.php:31
 msgid ""
 "Check the <i>Automatically compile .mo file on save</i> option in Properties."
 msgstr "在（文件/首选/编辑器）选中<i>保存时自动编译.mo文件</i>选项"
-
-#: ../download/ubuntu.php:29 ../download/ubuntu.php:38
-msgid ""
-"Choose your mirror as mentioned above and edit /etc/apt/sources.list file "
-"and add the following line:"
-msgstr "选在上边提及的镜像并且编辑/etc/apt/sources.list文件追加如下行："
 
 #: ../visualtour12.php:66
 msgid ""
@@ -624,10 +600,6 @@ msgstr "编码转换"
 msgid "Couldn't find the document content!"
 msgstr "无法找到文档内容"
 
-#: ../download/freebsd.php:27
-msgid "Create a symlink to the pgAdmin binary:"
-msgstr "创建一个指向pgAdmin的符号连接："
-
 #: ../advocacy/strategy.php:23
 msgid ""
 "Cross your fingers and wait until PostgreSQL becomes the world's number one "
@@ -678,26 +650,6 @@ msgstr "数据库模式的差异观测器（Adeel Khan）"
 #: ../features.php:66
 msgid "Databases"
 msgstr "数据库"
-
-#: ../download/debian.php:8 ../download/menu.php:7
-msgid "Debian"
-msgstr "Debian"
-
-#: ../download/debian.php:14
-msgid "Debian Etch (oldstable)"
-msgstr "Debian Etch（旧稳定版）"
-
-#: ../download/debian.php:18
-msgid "Debian Lenny (stable)"
-msgstr "Debian Lenny（稳定版）"
-
-#: ../download/debian.php:26
-msgid "Debian Sid (unstable)"
-msgstr "Debian Sid（非正式版本）"
-
-#: ../download/debian.php:22
-msgid "Debian Squeeze (testing)"
-msgstr "Debian Squeeze（正在测试）"
 
 #: ../visualtour14.php:388
 msgid "Debugger tool"
@@ -882,6 +834,16 @@ msgstr "FTS模板"
 msgid "Features"
 msgstr "特性"
 
+#: ../download/index.php:14
+#, php-format
+msgid ""
+"Finally, pgAdmin is included by default in most Linux distributions, such as "
+"RedHat, Fedora, Debian and Ubuntu. If you want a different version than the "
+"one included in the distribution, you can use channels such as the "
+"PostgreSQL <a href=\"%s\">yum repository</a>, Debian <a href=\"%s"
+"\">backports</a> or the Ubuntu <a href=\"%s\">PPA</a>."
+msgstr ""
+
 #: ../visualtour12.php:244
 msgid ""
 "Finally, the fourth tab allows you to select all the objects you want to "
@@ -937,12 +899,7 @@ msgstr "修正对'bit varying'字段的支持"
 msgid "Fix the index UI to handle columns with commas in the name"
 msgstr "修正索引窗口处理名字带有逗号的字段名"
 
-#: ../download/ubuntu.php:48
-msgid "For example, for France and Gutsy Gibbon, you can try:"
-msgstr "例如，在法国和Gutsy Gibbon，可以试一下："
-
-#: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:8
-#: ../screenshots/index.php:16
+#: ../features.php:16 ../screenshots/index.php:16
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
@@ -1188,10 +1145,6 @@ msgstr ""
 "安装你正在使用的pgAdmin和数据库服务器相应的管理工具包。Windows版PostgreSQL安"
 "装包中已经包含管理工具包。"
 
-#: ../download/debian.php:30
-msgid "Installation"
-msgstr "安装"
-
 #: ../visualtour14.php:32
 msgid ""
 "Internationalization needed a bit of work to improve in areas such as "
@@ -1296,7 +1249,7 @@ msgstr "语言属性"
 msgid "Language:"
 msgstr "语种："
 
-#: ../features.php:76 ../download/languages.php:8 ../download/menu.php:19
+#: ../features.php:76 ../download/languages.php:8 ../download/menu.php:12
 msgid "Languages"
 msgstr "语种"
 
@@ -1348,7 +1301,7 @@ msgstr "日志文件浏览器"
 msgid "MULE_INTERNAL"
 msgstr "MULE_INTERNAL"
 
-#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:9
+#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:7
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr "Mac OSX"
@@ -1371,11 +1324,8 @@ msgstr "邮件列表"
 msgid "Maintainer"
 msgstr "维护者"
 
-#: ../download/debian.php:10 ../download/freebsd.php:10
-#: ../download/macosx.php:10 ../download/opensuse.php:10
-#: ../download/rpm.php:10 ../download/slackware.php:10
-#: ../download/solaris.php:10 ../download/source.php:10
-#: ../download/ubuntu.php:10 ../download/windows.php:10
+#: ../download/macosx.php:10 ../download/source.php:10
+#: ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr "维护者：%s"
@@ -1570,18 +1520,6 @@ msgstr ""
 "哪一个连接。管理员察看pg_stat_activity目录或者开启服务器状态窗口能够迅速了解"
 "pgAdmin在使用哪个连接，pgAdmin工具使用哪个。"
 
-#: ../download/ubuntu.php:22
-#, php-format
-msgid ""
-"Once the key added, you need to choose a mirror from the list of <a href=\"%s"
-"\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the "
-"flags, and copy the URL you are redirected to. On each mirror, the packages "
-"are located in: <i>/pgadmin3/release/ubuntu</i>"
-msgstr ""
-"增加key之后，从<a href=\"%s\">PostgreSQL镜像列表</a>中选择一个镜像并且设置源"
-"代码列表，然后点击其中一个标记，拷贝重定向后的URL。在每一个镜像中，安装包放"
-"在：<i>/pgadmin3/release/ubuntu</i>。"
-
 #: ../visualtour12.php:268
 msgid ""
 "Once you've selected a dump file, the \"View\" button will be enabled. Once "
@@ -1679,19 +1617,6 @@ msgid ""
 "Open Source management and administration tools for the PostgreSQL database."
 msgstr "针对PostgreSQL数据库的开放源码管理工具"
 
-#: ../download/menu.php:10 ../download/opensuse.php:8
-msgid "OpenSUSE"
-msgstr "OpenSUSE"
-
-#: ../download/opensuse.php:12
-msgid ""
-"OpenSUSE packages built on a server periodically updated to -current are "
-"available for download. These builds should run on most recent versions of "
-"OpenSUSE."
-msgstr ""
-"OpenSUSE包在一个服务器上定期制作，当前有效的可用下载不断被更新，它们应该用在"
-"OpenSUSE的最新版本上。"
-
 #: ../features.php:77
 msgid "Operator classes"
 msgstr "运算符类"
@@ -1746,12 +1671,6 @@ msgid ""
 msgstr ""
 "支持超过12个语种的翻译，在<a href=\"%s\">翻译状态</a>页面可以看到语种支持的更"
 "详细信息。"
-
-#: ../download/solaris.php:12
-msgid ""
-"Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
-"Microsystems."
-msgstr "在Sun Microsystems的授权下，基于Sparc和Intel的Solaris之上制作。"
 
 #: ../visualtour12.php:20
 msgid ""
@@ -1810,16 +1729,6 @@ msgid ""
 "Please refer to the translation guidelines below to translate variables (%s "
 "and %d) and keyboard shortcuts entries (&amp;)."
 msgstr "准确反映变量（%s和%d）以及键盘快捷方式（&amp;）"
-
-#: ../download/ubuntu.php:54
-msgid ""
-"Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as "
-"wxWidgets2.8 is available from universe only at the moment. To do so, check "
-"the Ubuntu documentation or at least try to launch the update-manager "
-"configuration from the System/Administration Gnome menu."
-msgstr ""
-"请注意，此时另外需要ENABLE THE UNIVERSE COMPONENT以便使wxWidgets2.8有效化，参"
-"考Ubuntu文档，或者至少试着从System/Administration Gnome启动update-manager。"
 
 #: ../visualtour.php:254
 msgid "Plugins menu"
@@ -1925,10 +1834,6 @@ msgstr ""
 msgid "Privacy policy"
 msgstr "隐私保护"
 
-#: ../download/ubuntu.php:57
-msgid "Proceed to installation"
-msgstr "进行安装"
-
 #: ../advocacy/index.php:12
 msgid ""
 "Promotion is essential for the life and development of the pgAdmin project. "
@@ -1963,16 +1868,6 @@ msgstr "查询工具"
 #: ../visualtour12.php:283 ../visualtour14.php:322
 msgid "Query tool"
 msgstr "查询工具"
-
-#: ../download/menu.php:11 ../download/rpm.php:8
-msgid "RPM"
-msgstr "RPM包"
-
-#: ../download/rpm.php:14
-msgid ""
-"RPMs for older versions of pgAdmin are available from the pgAdmin download "
-"sites:"
-msgstr "旧版本pgAdmin RPM包现在可以下载："
 
 #: ../development/roadmap.php:35
 msgid ""
@@ -2035,10 +1930,6 @@ msgstr "日常维护"
 #: ../features.php:84
 msgid "Rules"
 msgstr "规则"
-
-#: ../download/debian.php:32
-msgid "Run the following commands as <i>root</i> to install pgAdmin III"
-msgstr "在<i>root</i>用户下运行下边的命令安装pgAdmin III"
 
 #: ../include/page.php:116
 msgid "Russian"
@@ -2136,27 +2027,6 @@ msgstr "服务器端语言（例如：pl/pgsql、pl/perl、pl/python等等）"
 msgid "Simplified Chinese"
 msgstr "简体中文"
 
-#: ../download/ubuntu.php:59
-msgid ""
-"Simply use Synaptic to install pgAdmin as you would do with any other "
-"package or run the following command from the command prompt:"
-msgstr ""
-"如同对其他包所做的那样简单地使用Synaptic安装pgAdmin，或者在命令提示符下使用如"
-"下命令："
-
-#: ../download/menu.php:12 ../download/slackware.php:8
-msgid "Slackware"
-msgstr "Slackware"
-
-#: ../download/slackware.php:12
-msgid ""
-"Slackware packages built on a server periodically updated to -current are "
-"available for download. These builds should run on most recent versions of "
-"Slackware."
-msgstr ""
-"Slackware包在一个服务器上定期制作，当前有效的可用下载不断被更新，它们应该用在"
-"Slackware的最新版本上。"
-
 #: ../features.php:33
 msgid "Slony-I documentation"
 msgstr "Slony-I文档"
@@ -2165,8 +2035,7 @@ msgstr "Slony-I文档"
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Slony-I对象（例如节点、聚簇等）"
 
-#: ../features.php:18 ../download/menu.php:13 ../download/solaris.php:8
-#: ../screenshots/index.php:25
+#: ../features.php:18 ../screenshots/index.php:25
 msgid "Solaris"
 msgstr "Solaris"
 
@@ -2186,7 +2055,7 @@ msgstr ""
 "is logged in</i>可以被翻译为<i>L'utilisateur s%2$s est connect&eacute; au "
 "serveur %1$s</i>"
 
-#: ../download/menu.php:14 ../download/source.php:8
+#: ../download/menu.php:8 ../download/source.php:8
 msgid "Source code"
 msgstr "源代码"
 
@@ -3176,22 +3045,6 @@ msgstr ""
 "装。小版本号的升级（例如，从1.4.0到1.4.1），可以运行<i>upgrade.bat</i>脚本。"
 "不同大版本号，例如1.2.2和1.4.1，可以在同一台计算机上同时安装。"
 
-#: ../download/freebsd.php:21 ../download/rpm.php:22
-msgid "To install these packages, use a command such as:"
-msgstr "运行如下命令安装这个包："
-
-#: ../download/opensuse.php:23
-msgid ""
-"To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
-"i> utilities."
-msgstr "使用OpenSUSE的<i>pkgtool</i>或者<i>installpkg</i>工具安装这些包。"
-
-#: ../download/slackware.php:20
-msgid ""
-"To install these packages, use the Slackware <i>pkgtool</i> or "
-"<i>installpkg</i> utilities."
-msgstr "使用Slackware的<i>pkgtool</i>或者<i>installpkg</i>工具安装这些包。"
-
 #: ../translation/howto.php:70
 msgid ""
 "To make it easier, all SQL keywords are written in capital letters. "
@@ -3295,18 +3148,6 @@ msgstr "类型"
 #: ../features.php:105
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
-
-#: ../download/menu.php:15 ../download/ubuntu.php:8
-msgid "Ubuntu"
-msgstr "Ubuntu"
-
-#: ../download/ubuntu.php:26
-msgid "Ubuntu Dapper configuration"
-msgstr "Ubuntu Dapper配置"
-
-#: ../download/ubuntu.php:36
-msgid "Ubuntu Feisty or Gutsy configuration"
-msgstr "Ubuntu Feisty或者Gutsy 配置"
 
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
@@ -3553,7 +3394,7 @@ msgstr "当你访问我们的网页时，我们的服务器将自动记录你的
 msgid "Why promote pgAdmin?"
 msgstr "为什么要推广pgAdmin？"
 
-#: ../download/menu.php:16 ../download/windows.php:8
+#: ../download/menu.php:9 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr "Windows &trade;"
@@ -3655,17 +3496,6 @@ msgstr ""
 "changelog.php\">更新日志</a> 里也可以查看完整列表。请访问<a href=\"download"
 "\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://www."
 "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0 Installer</a>。"
-
-#: ../download/debian.php:16 ../download/debian.php:20
-#: ../download/debian.php:24 ../download/debian.php:28
-#, php-format
-msgid ""
-"pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can "
-"install pgAdmin just as you would do with any other Debian package (apt-get "
-"install pgadmin3)."
-msgstr ""
-"pgAdmin %s已经<a href=\"%s\">直接包含</a>在Debian当中，可以像其他包一样去安装"
-"它（apt-get install pgadmin3）。"
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
 #: ../include/doc.php:33 ../include/doc.php:39 ../include/doc.php:45
@@ -3866,19 +3696,6 @@ msgstr ""
 msgid "pgAdmin Documentation"
 msgstr "pgAdmin文档"
 
-#: ../download/solaris.php:5
-msgid "pgAdmin Download - Solaris"
-msgstr "pgAdmin下载 - Solaris"
-
-#: ../download/rpm.php:12
-#, php-format
-msgid ""
-"pgAdmin III RPM packages are available for several Linux distributions from "
-"the PostgreSQL <a href=\"%s\">RPM repository</a>."
-msgstr ""
-"从PostgreSQL <a href=\"%s\">RPM repository</a>发布的pgAdmin III RPM包针对多种"
-"Linux分发有效。"
-
 #: ../include/page.php:63
 msgid "pgAdmin III: PostgreSQL Tools"
 msgstr "pgAdmin III：PostgreSQL工具"
@@ -4059,29 +3876,6 @@ msgstr ""
 "及更高版本，也包括商业版本例如<a href=\"%s\">Postgres Plus Advanced Server</"
 "a> 和 <a href=\"%s\">Greenplum database</a>。"
 
-#: ../download/debian.php:12
-#, php-format
-msgid ""
-"pgAdmin packages are available for <a href=\"%s\">Debian</a> stable, testing "
-"and unstable distributions. These packages are also well-suited for <a href="
-"\"%s\">Ubuntu</a> and other Debian based distributions"
-msgstr ""
-"pgAdmin包可以用在<a href=\"%s\">Debian</a>的稳定版、测试版以及非稳定版中，也"
-"可以很好地适用于<a href=\"%s\">Ubuntu</a>和其他基于Debian的分发中。"
-
-#: ../download/freebsd.php:12
-msgid ""
-"pgAdmin packages are available for download. These packages have been built "
-"on FreeBSD 6."
-msgstr "pgAdmin包目前可以下载，这个包是在FreeBSD 6之下制作的。"
-
-#: ../download/ubuntu.php:12
-#, php-format
-msgid ""
-"pgAdmin packages are available for the <a href=\"%s\">Ubuntu</a> dapper and "
-"feisty distributions."
-msgstr "pgAdmin包对于<a href=\"%s\">Ubuntu</a>的dapper和feisty分发有效。"
-
 #: ../screenshots/index.php:17
 msgid "pgAdmin running on FreeBSD"
 msgstr "运行于FreeBSD之上的pgAdmin III"
@@ -4170,14 +3964,6 @@ msgstr "pgAdmin：文档 - 无法找到文档标题！"
 msgid "pgAdmin: Download - Admin packs"
 msgstr "pgAdmin III：下载 - 管理工具包"
 
-#: ../download/debian.php:5
-msgid "pgAdmin: Download - Debian"
-msgstr "pgAdmin III：下载 - Debian"
-
-#: ../download/freebsd.php:5
-msgid "pgAdmin: Download - FreeBSD"
-msgstr "pgAdmin III：下载 - FreeBSD"
-
 #: ../download/index.php:5
 msgid "pgAdmin: Download - Introduction"
 msgstr "pgAdmin III：下载 - 介绍"
@@ -4190,25 +3976,9 @@ msgstr "pgAdmin III：下载 - 语种"
 msgid "pgAdmin: Download - Mac OSX"
 msgstr "pgAdmin III：下载 - Mac OSX"
 
-#: ../download/opensuse.php:5
-msgid "pgAdmin: Download - OpenSUSE"
-msgstr "pgAdmin III：下载 - OpenSUSE"
-
-#: ../download/rpm.php:5
-msgid "pgAdmin: Download - RPM"
-msgstr "pgAdmin II：下载 - RPM包"
-
-#: ../download/slackware.php:5
-msgid "pgAdmin: Download - Slackware"
-msgstr "pgAdmin III：下载 - Slackware"
-
 #: ../download/source.php:5
 msgid "pgAdmin: Download - Source code"
 msgstr "pgAdmin III：下载 - 源代码"
-
-#: ../download/ubuntu.php:5
-msgid "pgAdmin: Download - Ubuntu"
-msgstr "pgAdmin III：下载 - Ubuntu"
 
 #: ../download/windows.php:5
 msgid "pgAdmin: Download - Windows &trade;"
@@ -4294,7 +4064,7 @@ msgstr "pgAdmin III：翻译 - 介绍"
 msgid "pgAdmin: Translation - Status"
 msgstr "pgAdmin III：翻译 - 状态"
 
-#: ../download/menu.php:20 ../download/pgagent.php:8
+#: ../download/menu.php:13 ../download/pgagent.php:8
 msgid "pgAgent"
 msgstr "pgAgent"
 
@@ -4336,6 +4106,185 @@ msgstr "第二个标签页"
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr "最近重置统计信息的时间；"
+
+#~ msgid "Before you try to install"
+#~ msgstr "安装之前的准备"
+
+#~ msgid "Check that the pgAdmin executable is in the path:"
+#~ msgstr "确认pgAdmin在系统路径中是可以正确执行的："
+
+#~ msgid ""
+#~ "Choose your mirror as mentioned above and edit /etc/apt/sources.list file "
+#~ "and add the following line:"
+#~ msgstr "选在上边提及的镜像并且编辑/etc/apt/sources.list文件追加如下行："
+
+#~ msgid "Create a symlink to the pgAdmin binary:"
+#~ msgstr "创建一个指向pgAdmin的符号连接："
+
+#~ msgid "Debian"
+#~ msgstr "Debian"
+
+#~ msgid "Debian Etch (oldstable)"
+#~ msgstr "Debian Etch（旧稳定版）"
+
+#~ msgid "Debian Lenny (stable)"
+#~ msgstr "Debian Lenny（稳定版）"
+
+#~ msgid "Debian Sid (unstable)"
+#~ msgstr "Debian Sid（非正式版本）"
+
+#~ msgid "Debian Squeeze (testing)"
+#~ msgstr "Debian Squeeze（正在测试）"
+
+#~ msgid "For example, for France and Gutsy Gibbon, you can try:"
+#~ msgstr "例如，在法国和Gutsy Gibbon，可以试一下："
+
+#~ msgid "Installation"
+#~ msgstr "安装"
+
+#~ msgid ""
+#~ "Once the key added, you need to choose a mirror from the list of <a href="
+#~ "\"%s\">PostgreSQL mirrors</a> and configure your sources.list. Click one "
+#~ "of the flags, and copy the URL you are redirected to. On each mirror, the "
+#~ "packages are located in: <i>/pgadmin3/release/ubuntu</i>"
+#~ msgstr ""
+#~ "增加key之后，从<a href=\"%s\">PostgreSQL镜像列表</a>中选择一个镜像并且设置"
+#~ "源代码列表，然后点击其中一个标记，拷贝重定向后的URL。在每一个镜像中，安装"
+#~ "包放在：<i>/pgadmin3/release/ubuntu</i>。"
+
+#~ msgid "OpenSUSE"
+#~ msgstr "OpenSUSE"
+
+#~ msgid ""
+#~ "OpenSUSE packages built on a server periodically updated to -current are "
+#~ "available for download. These builds should run on most recent versions "
+#~ "of OpenSUSE."
+#~ msgstr ""
+#~ "OpenSUSE包在一个服务器上定期制作，当前有效的可用下载不断被更新，它们应该用"
+#~ "在OpenSUSE的最新版本上。"
+
+#~ msgid ""
+#~ "Packages built for Solaris on Sparc and Intel are available, courtesy of "
+#~ "Sun Microsystems."
+#~ msgstr "在Sun Microsystems的授权下，基于Sparc和Intel的Solaris之上制作。"
+
+#~ msgid ""
+#~ "Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT "
+#~ "as wxWidgets2.8 is available from universe only at the moment. To do so, "
+#~ "check the Ubuntu documentation or at least try to launch the update-"
+#~ "manager configuration from the System/Administration Gnome menu."
+#~ msgstr ""
+#~ "请注意，此时另外需要ENABLE THE UNIVERSE COMPONENT以便使wxWidgets2.8有效"
+#~ "化，参考Ubuntu文档，或者至少试着从System/Administration Gnome启动update-"
+#~ "manager。"
+
+#~ msgid "Proceed to installation"
+#~ msgstr "进行安装"
+
+#~ msgid "RPM"
+#~ msgstr "RPM包"
+
+#~ msgid ""
+#~ "RPMs for older versions of pgAdmin are available from the pgAdmin "
+#~ "download sites:"
+#~ msgstr "旧版本pgAdmin RPM包现在可以下载："
+
+#~ msgid "Run the following commands as <i>root</i> to install pgAdmin III"
+#~ msgstr "在<i>root</i>用户下运行下边的命令安装pgAdmin III"
+
+#~ msgid ""
+#~ "Simply use Synaptic to install pgAdmin as you would do with any other "
+#~ "package or run the following command from the command prompt:"
+#~ msgstr ""
+#~ "如同对其他包所做的那样简单地使用Synaptic安装pgAdmin，或者在命令提示符下使"
+#~ "用如下命令："
+
+#~ msgid "Slackware"
+#~ msgstr "Slackware"
+
+#~ msgid ""
+#~ "Slackware packages built on a server periodically updated to -current are "
+#~ "available for download. These builds should run on most recent versions "
+#~ "of Slackware."
+#~ msgstr ""
+#~ "Slackware包在一个服务器上定期制作，当前有效的可用下载不断被更新，它们应该"
+#~ "用在Slackware的最新版本上。"
+
+#~ msgid "To install these packages, use a command such as:"
+#~ msgstr "运行如下命令安装这个包："
+
+#~ msgid ""
+#~ "To install these packages, use the OpenSUSE <i>pkgtool</i> or "
+#~ "<i>installpkg</i> utilities."
+#~ msgstr "使用OpenSUSE的<i>pkgtool</i>或者<i>installpkg</i>工具安装这些包。"
+
+#~ msgid ""
+#~ "To install these packages, use the Slackware <i>pkgtool</i> or "
+#~ "<i>installpkg</i> utilities."
+#~ msgstr "使用Slackware的<i>pkgtool</i>或者<i>installpkg</i>工具安装这些包。"
+
+#~ msgid "Ubuntu"
+#~ msgstr "Ubuntu"
+
+#~ msgid "Ubuntu Dapper configuration"
+#~ msgstr "Ubuntu Dapper配置"
+
+#~ msgid "Ubuntu Feisty or Gutsy configuration"
+#~ msgstr "Ubuntu Feisty或者Gutsy 配置"
+
+#~ msgid ""
+#~ "pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can "
+#~ "install pgAdmin just as you would do with any other Debian package (apt-"
+#~ "get install pgadmin3)."
+#~ msgstr ""
+#~ "pgAdmin %s已经<a href=\"%s\">直接包含</a>在Debian当中，可以像其他包一样去"
+#~ "安装它（apt-get install pgadmin3）。"
+
+#~ msgid "pgAdmin Download - Solaris"
+#~ msgstr "pgAdmin下载 - Solaris"
+
+#~ msgid ""
+#~ "pgAdmin III RPM packages are available for several Linux distributions "
+#~ "from the PostgreSQL <a href=\"%s\">RPM repository</a>."
+#~ msgstr ""
+#~ "从PostgreSQL <a href=\"%s\">RPM repository</a>发布的pgAdmin III RPM包针对"
+#~ "多种Linux分发有效。"
+
+#~ msgid ""
+#~ "pgAdmin packages are available for <a href=\"%s\">Debian</a> stable, "
+#~ "testing and unstable distributions. These packages are also well-suited "
+#~ "for <a href=\"%s\">Ubuntu</a> and other Debian based distributions"
+#~ msgstr ""
+#~ "pgAdmin包可以用在<a href=\"%s\">Debian</a>的稳定版、测试版以及非稳定版中，"
+#~ "也可以很好地适用于<a href=\"%s\">Ubuntu</a>和其他基于Debian的分发中。"
+
+#~ msgid ""
+#~ "pgAdmin packages are available for download. These packages have been "
+#~ "built on FreeBSD 6."
+#~ msgstr "pgAdmin包目前可以下载，这个包是在FreeBSD 6之下制作的。"
+
+#~ msgid ""
+#~ "pgAdmin packages are available for the <a href=\"%s\">Ubuntu</a> dapper "
+#~ "and feisty distributions."
+#~ msgstr "pgAdmin包对于<a href=\"%s\">Ubuntu</a>的dapper和feisty分发有效。"
+
+#~ msgid "pgAdmin: Download - Debian"
+#~ msgstr "pgAdmin III：下载 - Debian"
+
+#~ msgid "pgAdmin: Download - FreeBSD"
+#~ msgstr "pgAdmin III：下载 - FreeBSD"
+
+#~ msgid "pgAdmin: Download - OpenSUSE"
+#~ msgstr "pgAdmin III：下载 - OpenSUSE"
+
+#~ msgid "pgAdmin: Download - RPM"
+#~ msgstr "pgAdmin II：下载 - RPM包"
+
+#~ msgid "pgAdmin: Download - Slackware"
+#~ msgstr "pgAdmin III：下载 - Slackware"
+
+#~ msgid "pgAdmin: Download - Ubuntu"
+#~ msgstr "pgAdmin III：下载 - Ubuntu"
 
 #~ msgid ""
 #~ "<b>WARNING:</b> Development snapshots have had little or no testing, and "

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-07 19:54+0200\n"
+"POT-Creation-Date: 2012-06-29 11:15+0200\n"
 "PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -59,32 +59,22 @@ msgstr "<a href=\"%s\">Admin pack</a> pro pgAdmin v%s a novější"
 msgid "<a href=\"%s\">Download pgAgent</a>"
 msgstr "<a href=\"%s\">Stáhnout pgAgent</a>"
 
-#: ../download/freebsd.php:14 ../download/freebsd.php:15
-#: ../download/freebsd.php:16 ../download/freebsd.php:17
-#: ../download/freebsd.php:18 ../download/macosx.php:14
-#: ../download/macosx.php:15 ../download/macosx.php:16
-#: ../download/macosx.php:17 ../download/macosx.php:18
-#: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/macosx.php:22
-#: ../download/macosx.php:23 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/opensuse.php:18
-#: ../download/opensuse.php:19 ../download/opensuse.php:20
-#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
-#: ../download/rpm.php:19 ../download/slackware.php:14
-#: ../download/slackware.php:15 ../download/slackware.php:16
-#: ../download/slackware.php:17 ../download/solaris.php:14
-#: ../download/solaris.php:15 ../download/source.php:15
-#: ../download/source.php:16 ../download/source.php:17
-#: ../download/source.php:18 ../download/source.php:19
-#: ../download/source.php:20 ../download/source.php:21
-#: ../download/source.php:22 ../download/source.php:23
-#: ../download/source.php:24 ../download/source.php:25
-#: ../download/source.php:26 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
+#: ../download/macosx.php:14 ../download/macosx.php:15
+#: ../download/macosx.php:16 ../download/macosx.php:17
+#: ../download/macosx.php:18 ../download/macosx.php:19
+#: ../download/macosx.php:20 ../download/macosx.php:21
+#: ../download/macosx.php:22 ../download/macosx.php:23
+#: ../download/source.php:15 ../download/source.php:16
+#: ../download/source.php:17 ../download/source.php:18
+#: ../download/source.php:19 ../download/source.php:20
+#: ../download/source.php:21 ../download/source.php:22
+#: ../download/source.php:23 ../download/source.php:24
+#: ../download/source.php:25 ../download/source.php:26
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
@@ -318,7 +308,7 @@ msgstr ""
 "Jejich\n"
 " seznam a dvě tlačítka byly přesunuty na oddělenou kartu:"
 
-#: ../download/adminpacks.php:8 ../download/menu.php:18
+#: ../download/adminpacks.php:8 ../download/menu.php:11
 msgid "Admin packs"
 msgstr "Admin packs"
 
@@ -508,10 +498,6 @@ msgstr ""
 "jazyka, pokud se tak již nestalo. Podrobné informace jak na to najdete na "
 "stránce <a href=\"%s\">překlad</a>."
 
-#: ../download/ubuntu.php:14
-msgid "Before you try to install"
-msgstr "Než začnete instalovat"
-
 #: ../visualtour14.php:29
 #, fuzzy
 msgid "Better i18n"
@@ -555,26 +541,12 @@ msgstr ""
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "Zkontrolovat kvůli přechodu na wxWidgets 2.9/3.0"
 
-#: ../download/freebsd.php:33
-msgid "Check that the pgAdmin executable is in the path:"
-msgstr ""
-"Zkontrolujte, jestli se spustitelný program pgAdmin nachází v prohledávané "
-"cestě:"
-
 #: ../translation/howto.php:31
 msgid ""
 "Check the <i>Automatically compile .mo file on save</i> option in Properties."
 msgstr ""
 "V dialogu nastavení zvolte <i>Automaticky zkompilovat .mo soubor při "
 "uložení</i>."
-
-#: ../download/ubuntu.php:29 ../download/ubuntu.php:38
-msgid ""
-"Choose your mirror as mentioned above and edit /etc/apt/sources.list file "
-"and add the following line:"
-msgstr ""
-"Zvolte se své zrcadlo, jak bylo vysvětleno výše a do souboru /etc/apt/"
-"sources.list přidejte následující řádek:"
 
 #: ../visualtour12.php:66
 msgid ""
@@ -673,10 +645,6 @@ msgstr "Konverze"
 msgid "Couldn't find the document content!"
 msgstr "Nelze nalézt obsah dokumentu!"
 
-#: ../download/freebsd.php:27
-msgid "Create a symlink to the pgAdmin binary:"
-msgstr "Vytvořte symbolický odkaz na binární soubor pgAdmin:"
-
 #: ../advocacy/strategy.php:23
 msgid ""
 "Cross your fingers and wait until PostgreSQL becomes the world's number one "
@@ -730,26 +698,6 @@ msgstr "Vizualizátor rozdílů ve schématech databází [Adeel Khan]"
 #: ../features.php:66
 msgid "Databases"
 msgstr "Databáze"
-
-#: ../download/debian.php:8 ../download/menu.php:7
-msgid "Debian"
-msgstr "Debian"
-
-#: ../download/debian.php:14
-msgid "Debian Etch (oldstable)"
-msgstr "Debian Etch (zastaralá stabilní)"
-
-#: ../download/debian.php:18
-msgid "Debian Lenny (stable)"
-msgstr "Debian Lenny (stabilní)"
-
-#: ../download/debian.php:26
-msgid "Debian Sid (unstable)"
-msgstr "Debian Sid (nestabilní)"
-
-#: ../download/debian.php:22
-msgid "Debian Squeeze (testing)"
-msgstr "Debian Squeeze (testovací)"
 
 #: ../visualtour14.php:388
 #, fuzzy
@@ -944,6 +892,16 @@ msgstr "Šablony FTS"
 msgid "Features"
 msgstr "Vlastnosti"
 
+#: ../download/index.php:14
+#, php-format
+msgid ""
+"Finally, pgAdmin is included by default in most Linux distributions, such as "
+"RedHat, Fedora, Debian and Ubuntu. If you want a different version than the "
+"one included in the distribution, you can use channels such as the "
+"PostgreSQL <a href=\"%s\">yum repository</a>, Debian <a href=\"%s"
+"\">backports</a> or the Ubuntu <a href=\"%s\">PPA</a>."
+msgstr ""
+
 #: ../visualtour12.php:244
 msgid ""
 "Finally, the fourth tab allows you to select all the objects you want to "
@@ -1005,12 +963,7 @@ msgstr ""
 "Opravené uživatelské rozhraní indexu, tak aby pracoval s názvy obsahujícími "
 "čárky"
 
-#: ../download/ubuntu.php:48
-msgid "For example, for France and Gutsy Gibbon, you can try:"
-msgstr "Např. pro Francii a Gutsy Gibbon můžete zkusit:"
-
-#: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:8
-#: ../screenshots/index.php:16
+#: ../features.php:16 ../screenshots/index.php:16
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
@@ -1277,10 +1230,6 @@ msgstr ""
 "serveru, na kterém běžíte. pgInstaller distribuce PostgreSQL pro Windows už "
 "admin pack přímo obsahuje."
 
-#: ../download/debian.php:30
-msgid "Installation"
-msgstr "Instalace"
-
 #: ../visualtour14.php:32
 msgid ""
 "Internationalization needed a bit of work to improve in areas such as "
@@ -1394,7 +1343,7 @@ msgstr "Vlastnosti jazyka"
 msgid "Language:"
 msgstr "Jazyk:"
 
-#: ../features.php:76 ../download/languages.php:8 ../download/menu.php:19
+#: ../features.php:76 ../download/languages.php:8 ../download/menu.php:12
 msgid "Languages"
 msgstr "Jazyky"
 
@@ -1447,7 +1396,7 @@ msgstr "Prohlížeč deníku"
 msgid "MULE_INTERNAL"
 msgstr "MULE_INTERNAL"
 
-#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:9
+#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:7
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr "Mac OSX"
@@ -1471,11 +1420,8 @@ msgstr "Poštovní konference"
 msgid "Maintainer"
 msgstr "Správce"
 
-#: ../download/debian.php:10 ../download/freebsd.php:10
-#: ../download/macosx.php:10 ../download/opensuse.php:10
-#: ../download/rpm.php:10 ../download/slackware.php:10
-#: ../download/solaris.php:10 ../download/source.php:10
-#: ../download/ubuntu.php:10 ../download/windows.php:10
+#: ../download/macosx.php:10 ../download/source.php:10
+#: ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr "Správce: %s"
@@ -1684,19 +1630,6 @@ msgstr ""
 "serveru rychle pozná, které připojení používá aplikace pgAdmin a které "
 "nástroj pgAdmin."
 
-#: ../download/ubuntu.php:22
-#, php-format
-msgid ""
-"Once the key added, you need to choose a mirror from the list of <a href=\"%s"
-"\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the "
-"flags, and copy the URL you are redirected to. On each mirror, the packages "
-"are located in: <i>/pgadmin3/release/ubuntu</i>"
-msgstr ""
-"Jakmile máte přidaný klíč, musíte zvolit zrcadlo ze seznamu <a href=\"%s"
-"\">zrcadel PostgreSQL</a> a nastavit váš sources.list. Klikněte na "
-"příslušnou vlaječku a zkopírujte si URL, na které vás to přesměrovalo. Na "
-"každém z těchto zrcadel se balíček nachází v: <i>/pgadmin3/release/ubuntu</i>"
-
 #: ../visualtour12.php:268
 msgid ""
 "Once you've selected a dump file, the \"View\" button will be enabled. Once "
@@ -1798,20 +1731,6 @@ msgid ""
 "Open Source management and administration tools for the PostgreSQL database."
 msgstr "Open Source nástroje pro správu a administraci databází PostgreSQL."
 
-#: ../download/menu.php:10 ../download/opensuse.php:8
-msgid "OpenSUSE"
-msgstr "OpenSUSE"
-
-#: ../download/opensuse.php:12
-msgid ""
-"OpenSUSE packages built on a server periodically updated to -current are "
-"available for download. These builds should run on most recent versions of "
-"OpenSUSE."
-msgstr ""
-"Sestavení balíčku dostupného ke stažení pro OpenSUSE je na serveru "
-"periodicky aktualizováno na -current. Tím pádem by toto sestavení mělo běžet "
-"na nejnovějších verzí OpenSUSE."
-
 #: ../features.php:77
 msgid "Operator classes"
 msgstr "Třídy operátorů"
@@ -1871,14 +1790,6 @@ msgid ""
 msgstr ""
 "Více jak 12 podporovaných překladů. Podrobný seznam podporovaných jazyků je "
 "dostupný na stránce <a href=\"%s\">stav překladu</a>."
-
-#: ../download/solaris.php:12
-msgid ""
-"Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
-"Microsystems."
-msgstr ""
-"Jsou dostupné balíčky sestavené pro Solaris na Sparc a Intel, se svolením "
-"Sun Microsystems."
 
 #: ../visualtour12.php:20
 msgid ""
@@ -1946,18 +1857,6 @@ msgid ""
 msgstr ""
 "Prostudujte si v nápovědě pro překladatele, jak správně pracovat s "
 "proměnnými (%s a %d) a klávesovými zkratkami (&amp;)."
-
-#: ../download/ubuntu.php:54
-msgid ""
-"Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as "
-"wxWidgets2.8 is available from universe only at the moment. To do so, check "
-"the Ubuntu documentation or at least try to launch the update-manager "
-"configuration from the System/Administration Gnome menu."
-msgstr ""
-"Vezměte prosím na vědomí, že navíc potřebujete POVOLIT KOMUNITNÍ (UNIVERSE) "
-"KOMPONENTY, protože např. wxWidgets2.8 jsou dostupné pouze jako komunitní. "
-"Jak na to najdete v dokumentaci Ubuntu nebo alespoň zkuste spustit „Zdroje "
-"software“ z menu „Systém“ / „Správa“, kde najdete příslušné nastavení."
 
 #: ../visualtour.php:254
 msgid "Plugins menu"
@@ -2072,10 +1971,6 @@ msgstr ""
 msgid "Privacy policy"
 msgstr "Ochrana soukromí"
 
-#: ../download/ubuntu.php:57
-msgid "Proceed to installation"
-msgstr "Postup instalace"
-
 #: ../advocacy/index.php:12
 msgid ""
 "Promotion is essential for the life and development of the pgAdmin project. "
@@ -2113,18 +2008,6 @@ msgstr "Dotazovací nástroj"
 #: ../visualtour12.php:283 ../visualtour14.php:322
 msgid "Query tool"
 msgstr "Dotazovací nástroj"
-
-#: ../download/menu.php:11 ../download/rpm.php:8
-msgid "RPM"
-msgstr "RPM"
-
-#: ../download/rpm.php:14
-msgid ""
-"RPMs for older versions of pgAdmin are available from the pgAdmin download "
-"sites:"
-msgstr ""
-"Balíčky RPM pro starší verze pgAdmin jsou dostupné ze stahovacích webů "
-"pgAdmin:"
 
 #: ../development/roadmap.php:35
 #, fuzzy
@@ -2194,12 +2077,6 @@ msgstr "Běžná údržba"
 #: ../features.php:84
 msgid "Rules"
 msgstr "Pravidla"
-
-#: ../download/debian.php:32
-msgid "Run the following commands as <i>root</i> to install pgAdmin III"
-msgstr ""
-"Pro nainstalování pgAdmin III spusťtě jako uživatel <i>root</i> následující "
-"příkazy"
 
 #: ../include/page.php:116
 msgid "Russian"
@@ -2302,28 +2179,6 @@ msgstr "Serverové jazyky (jako pl/pgsql, pl/perl, pl/python apod.)"
 msgid "Simplified Chinese"
 msgstr "Zjednodušená čínština"
 
-#: ../download/ubuntu.php:59
-msgid ""
-"Simply use Synaptic to install pgAdmin as you would do with any other "
-"package or run the following command from the command prompt:"
-msgstr ""
-"Na instalaci pgAdmin jednoduše použijte Synaptic, stejně jako u jiných "
-"balíčků nebo spusťte ručně v příkazovém řádku následující příkazy:"
-
-#: ../download/menu.php:12 ../download/slackware.php:8
-msgid "Slackware"
-msgstr "Slackware"
-
-#: ../download/slackware.php:12
-msgid ""
-"Slackware packages built on a server periodically updated to -current are "
-"available for download. These builds should run on most recent versions of "
-"Slackware."
-msgstr ""
-"Sestavení balíčku dostupného ke stažení pro Slackware se na serveru "
-"periodicky aktualizuje na -current. Díky tomu by toto sestavení mělo běžet "
-"na nejnovějších verzích Slackware."
-
 #: ../features.php:33
 msgid "Slony-I documentation"
 msgstr "Dokumentace Slony-I"
@@ -2332,8 +2187,7 @@ msgstr "Dokumentace Slony-I"
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Objekty Slony-I (jako uzly, clustery apod.)"
 
-#: ../features.php:18 ../download/menu.php:13 ../download/solaris.php:8
-#: ../screenshots/index.php:25
+#: ../features.php:18 ../screenshots/index.php:25
 msgid "Solaris"
 msgstr "Solaris"
 
@@ -2355,7 +2209,7 @@ msgstr ""
 "proměnných: <i>Server %s user %s is logged in</i> lze přeložit jako "
 "<i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
 
-#: ../download/menu.php:14 ../download/source.php:8
+#: ../download/menu.php:8 ../download/source.php:8
 msgid "Source code"
 msgstr "Zdrojový kód"
 
@@ -3423,26 +3277,6 @@ msgstr ""
 "skript <i>upgrade.bat</i>. Hlavních verzí (např. 1.2.2 a 1.4.1) můžete mít "
 "na jednom počítači nainstalováno i několik současně."
 
-#: ../download/freebsd.php:21 ../download/rpm.php:22
-msgid "To install these packages, use a command such as:"
-msgstr "Pro nainstalování balíčků použijte příkazy jako:"
-
-#: ../download/opensuse.php:23
-msgid ""
-"To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
-"i> utilities."
-msgstr ""
-"Pro nainstalování těchto balíčků použijte pomůcky OpenSUSE <i>pkgtool</i> "
-"nebo <i>installpkg</i>."
-
-#: ../download/slackware.php:20
-msgid ""
-"To install these packages, use the Slackware <i>pkgtool</i> or "
-"<i>installpkg</i> utilities."
-msgstr ""
-"Pro nainstalování těchto balíčků použijte pomůcky Slackware <i>pkgtool</i> "
-"nebo <i>installpkg</i>."
-
 #: ../translation/howto.php:70
 msgid ""
 "To make it easier, all SQL keywords are written in capital letters. "
@@ -3551,18 +3385,6 @@ msgstr "Typy"
 #: ../features.php:105
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
-
-#: ../download/menu.php:15 ../download/ubuntu.php:8
-msgid "Ubuntu"
-msgstr "Ubuntu"
-
-#: ../download/ubuntu.php:26
-msgid "Ubuntu Dapper configuration"
-msgstr "Nastavení v Ubuntu Drapper"
-
-#: ../download/ubuntu.php:36
-msgid "Ubuntu Feisty or Gutsy configuration"
-msgstr "Nastavení v Ubuntu Feisty nebo Gutsy"
 
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
@@ -3838,7 +3660,7 @@ msgstr ""
 msgid "Why promote pgAdmin?"
 msgstr "Proč podporovat pgAdmin?"
 
-#: ../download/menu.php:16 ../download/windows.php:8
+#: ../download/menu.php:9 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr "Windows &trade;"
@@ -3948,18 +3770,6 @@ msgstr ""
 "Vydání můžete najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
 "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
 "\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
-
-#: ../download/debian.php:16 ../download/debian.php:20
-#: ../download/debian.php:24 ../download/debian.php:28
-#, php-format
-msgid ""
-"pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can "
-"install pgAdmin just as you would do with any other Debian package (apt-get "
-"install pgadmin3)."
-msgstr ""
-"pgAdmin %s je <a href=\"%s\">dostupný</a> přímo v Debianu. Můžete jej "
-"nainstalovat stejně snadno, jako kterýkoliv jiný balíček Debianu (apt-get "
-"install pgadmin3)."
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
 #: ../include/doc.php:33 ../include/doc.php:39 ../include/doc.php:45
@@ -4169,19 +3979,6 @@ msgstr ""
 msgid "pgAdmin Documentation"
 msgstr "Dokumentace pgAdmin"
 
-#: ../download/solaris.php:5
-msgid "pgAdmin Download - Solaris"
-msgstr "pgAdmin: Ke stažení - Solaris"
-
-#: ../download/rpm.php:12
-#, php-format
-msgid ""
-"pgAdmin III RPM packages are available for several Linux distributions from "
-"the PostgreSQL <a href=\"%s\">RPM repository</a>."
-msgstr ""
-"Balíčky RPM pgAdmin III jsou v <a href=\"%s\">repozitáři RPM</a> PostgreSQL "
-"dostupné pro několik Linuxových distribucí."
-
 #: ../include/page.php:63
 msgid "pgAdmin III: PostgreSQL Tools"
 msgstr "pgAdmin III: Nástroje PostgreSQL"
@@ -4383,34 +4180,6 @@ msgstr ""
 "PostgreSQL, jako je <a href=\"%s\">Postgres Plus Advanced Server</a> a <a "
 "href=\"%s\">Greenplum database</a>."
 
-#: ../download/debian.php:12
-#, php-format
-msgid ""
-"pgAdmin packages are available for <a href=\"%s\">Debian</a> stable, testing "
-"and unstable distributions. These packages are also well-suited for <a href="
-"\"%s\">Ubuntu</a> and other Debian based distributions"
-msgstr ""
-"Balíčky pgAdmin jsou dostupné pro distribuce <a href=\"%s\">Debian</a> "
-"stabilní, testovací a nestabilní. Tyto balíčky jsou rovněž vhodné pro <a "
-"href=\"%s\">Ubuntu</a> a další distribuce založené na Debianu."
-
-#: ../download/freebsd.php:12
-msgid ""
-"pgAdmin packages are available for download. These packages have been built "
-"on FreeBSD 6."
-msgstr ""
-"Balíčky pgAdmin jsou k dispozici ke stažení. Tyto balíčky byly sestavené ve "
-"FreeBSD 6."
-
-#: ../download/ubuntu.php:12
-#, php-format
-msgid ""
-"pgAdmin packages are available for the <a href=\"%s\">Ubuntu</a> dapper and "
-"feisty distributions."
-msgstr ""
-"Balíčky pgAdmin jsou dostupné pro distribuce <a href=\"%s\">Ubuntu</a> "
-"dapper a feisty."
-
 #: ../screenshots/index.php:17
 msgid "pgAdmin running on FreeBSD"
 msgstr "pgAdmin běžící na FreeBSD"
@@ -4499,14 +4268,6 @@ msgstr "pgAdmin: Dokumentace - Nelze najít titulek dokumentu!"
 msgid "pgAdmin: Download - Admin packs"
 msgstr "pgAdmin: Ke stažení - Admin packs"
 
-#: ../download/debian.php:5
-msgid "pgAdmin: Download - Debian"
-msgstr "pgAdmin: Ke stažení - Debian"
-
-#: ../download/freebsd.php:5
-msgid "pgAdmin: Download - FreeBSD"
-msgstr "pgAdmin: Ke stažení - FreeBSD"
-
 #: ../download/index.php:5
 msgid "pgAdmin: Download - Introduction"
 msgstr "pgAdmin: Ke stažení - Úvod"
@@ -4519,25 +4280,9 @@ msgstr "pgAdmin: Ke stažení - Jazyky"
 msgid "pgAdmin: Download - Mac OSX"
 msgstr "pgAdmin: Ke stažení - Mac OSX"
 
-#: ../download/opensuse.php:5
-msgid "pgAdmin: Download - OpenSUSE"
-msgstr "pgAdmin: Ke stažení - OpenSUSE"
-
-#: ../download/rpm.php:5
-msgid "pgAdmin: Download - RPM"
-msgstr "pgAdmin: Ke stažení - RPM"
-
-#: ../download/slackware.php:5
-msgid "pgAdmin: Download - Slackware"
-msgstr "pgAdmin: Ke stažení - Slackware"
-
 #: ../download/source.php:5
 msgid "pgAdmin: Download - Source code"
 msgstr "pgAdmin: Ke stažení - Zdrojový kód"
-
-#: ../download/ubuntu.php:5
-msgid "pgAdmin: Download - Ubuntu"
-msgstr "pgAdmin: Ke stažení - Ubuntu"
 
 #: ../download/windows.php:5
 msgid "pgAdmin: Download - Windows &trade;"
@@ -4623,7 +4368,7 @@ msgstr "pgAdmin: Překlad - Úvod"
 msgid "pgAdmin: Translation - Status"
 msgstr "pgAdmin: Překlad - Stav"
 
-#: ../download/menu.php:20 ../download/pgagent.php:8
+#: ../download/menu.php:13 ../download/pgagent.php:8
 msgid "pgAgent"
 msgstr "pgAgent"
 
@@ -4669,6 +4414,211 @@ msgstr ""
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
+
+#~ msgid "Before you try to install"
+#~ msgstr "Než začnete instalovat"
+
+#~ msgid "Check that the pgAdmin executable is in the path:"
+#~ msgstr ""
+#~ "Zkontrolujte, jestli se spustitelný program pgAdmin nachází v "
+#~ "prohledávané cestě:"
+
+#~ msgid ""
+#~ "Choose your mirror as mentioned above and edit /etc/apt/sources.list file "
+#~ "and add the following line:"
+#~ msgstr ""
+#~ "Zvolte se své zrcadlo, jak bylo vysvětleno výše a do souboru /etc/apt/"
+#~ "sources.list přidejte následující řádek:"
+
+#~ msgid "Create a symlink to the pgAdmin binary:"
+#~ msgstr "Vytvořte symbolický odkaz na binární soubor pgAdmin:"
+
+#~ msgid "Debian"
+#~ msgstr "Debian"
+
+#~ msgid "Debian Etch (oldstable)"
+#~ msgstr "Debian Etch (zastaralá stabilní)"
+
+#~ msgid "Debian Lenny (stable)"
+#~ msgstr "Debian Lenny (stabilní)"
+
+#~ msgid "Debian Sid (unstable)"
+#~ msgstr "Debian Sid (nestabilní)"
+
+#~ msgid "Debian Squeeze (testing)"
+#~ msgstr "Debian Squeeze (testovací)"
+
+#~ msgid "For example, for France and Gutsy Gibbon, you can try:"
+#~ msgstr "Např. pro Francii a Gutsy Gibbon můžete zkusit:"
+
+#~ msgid "Installation"
+#~ msgstr "Instalace"
+
+#~ msgid ""
+#~ "Once the key added, you need to choose a mirror from the list of <a href="
+#~ "\"%s\">PostgreSQL mirrors</a> and configure your sources.list. Click one "
+#~ "of the flags, and copy the URL you are redirected to. On each mirror, the "
+#~ "packages are located in: <i>/pgadmin3/release/ubuntu</i>"
+#~ msgstr ""
+#~ "Jakmile máte přidaný klíč, musíte zvolit zrcadlo ze seznamu <a href=\"%s"
+#~ "\">zrcadel PostgreSQL</a> a nastavit váš sources.list. Klikněte na "
+#~ "příslušnou vlaječku a zkopírujte si URL, na které vás to přesměrovalo. Na "
+#~ "každém z těchto zrcadel se balíček nachází v: <i>/pgadmin3/release/"
+#~ "ubuntu</i>"
+
+#~ msgid "OpenSUSE"
+#~ msgstr "OpenSUSE"
+
+#~ msgid ""
+#~ "OpenSUSE packages built on a server periodically updated to -current are "
+#~ "available for download. These builds should run on most recent versions "
+#~ "of OpenSUSE."
+#~ msgstr ""
+#~ "Sestavení balíčku dostupného ke stažení pro OpenSUSE je na serveru "
+#~ "periodicky aktualizováno na -current. Tím pádem by toto sestavení mělo "
+#~ "běžet na nejnovějších verzí OpenSUSE."
+
+#~ msgid ""
+#~ "Packages built for Solaris on Sparc and Intel are available, courtesy of "
+#~ "Sun Microsystems."
+#~ msgstr ""
+#~ "Jsou dostupné balíčky sestavené pro Solaris na Sparc a Intel, se svolením "
+#~ "Sun Microsystems."
+
+#~ msgid ""
+#~ "Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT "
+#~ "as wxWidgets2.8 is available from universe only at the moment. To do so, "
+#~ "check the Ubuntu documentation or at least try to launch the update-"
+#~ "manager configuration from the System/Administration Gnome menu."
+#~ msgstr ""
+#~ "Vezměte prosím na vědomí, že navíc potřebujete POVOLIT KOMUNITNÍ "
+#~ "(UNIVERSE) KOMPONENTY, protože např. wxWidgets2.8 jsou dostupné pouze "
+#~ "jako komunitní. Jak na to najdete v dokumentaci Ubuntu nebo alespoň "
+#~ "zkuste spustit „Zdroje software“ z menu „Systém“ / „Správa“, kde najdete "
+#~ "příslušné nastavení."
+
+#~ msgid "Proceed to installation"
+#~ msgstr "Postup instalace"
+
+#~ msgid "RPM"
+#~ msgstr "RPM"
+
+#~ msgid ""
+#~ "RPMs for older versions of pgAdmin are available from the pgAdmin "
+#~ "download sites:"
+#~ msgstr ""
+#~ "Balíčky RPM pro starší verze pgAdmin jsou dostupné ze stahovacích webů "
+#~ "pgAdmin:"
+
+#~ msgid "Run the following commands as <i>root</i> to install pgAdmin III"
+#~ msgstr ""
+#~ "Pro nainstalování pgAdmin III spusťtě jako uživatel <i>root</i> "
+#~ "následující příkazy"
+
+#~ msgid ""
+#~ "Simply use Synaptic to install pgAdmin as you would do with any other "
+#~ "package or run the following command from the command prompt:"
+#~ msgstr ""
+#~ "Na instalaci pgAdmin jednoduše použijte Synaptic, stejně jako u jiných "
+#~ "balíčků nebo spusťte ručně v příkazovém řádku následující příkazy:"
+
+#~ msgid "Slackware"
+#~ msgstr "Slackware"
+
+#~ msgid ""
+#~ "Slackware packages built on a server periodically updated to -current are "
+#~ "available for download. These builds should run on most recent versions "
+#~ "of Slackware."
+#~ msgstr ""
+#~ "Sestavení balíčku dostupného ke stažení pro Slackware se na serveru "
+#~ "periodicky aktualizuje na -current. Díky tomu by toto sestavení mělo "
+#~ "běžet na nejnovějších verzích Slackware."
+
+#~ msgid "To install these packages, use a command such as:"
+#~ msgstr "Pro nainstalování balíčků použijte příkazy jako:"
+
+#~ msgid ""
+#~ "To install these packages, use the OpenSUSE <i>pkgtool</i> or "
+#~ "<i>installpkg</i> utilities."
+#~ msgstr ""
+#~ "Pro nainstalování těchto balíčků použijte pomůcky OpenSUSE <i>pkgtool</i> "
+#~ "nebo <i>installpkg</i>."
+
+#~ msgid ""
+#~ "To install these packages, use the Slackware <i>pkgtool</i> or "
+#~ "<i>installpkg</i> utilities."
+#~ msgstr ""
+#~ "Pro nainstalování těchto balíčků použijte pomůcky Slackware <i>pkgtool</"
+#~ "i> nebo <i>installpkg</i>."
+
+#~ msgid "Ubuntu"
+#~ msgstr "Ubuntu"
+
+#~ msgid "Ubuntu Dapper configuration"
+#~ msgstr "Nastavení v Ubuntu Drapper"
+
+#~ msgid "Ubuntu Feisty or Gutsy configuration"
+#~ msgstr "Nastavení v Ubuntu Feisty nebo Gutsy"
+
+#~ msgid ""
+#~ "pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can "
+#~ "install pgAdmin just as you would do with any other Debian package (apt-"
+#~ "get install pgadmin3)."
+#~ msgstr ""
+#~ "pgAdmin %s je <a href=\"%s\">dostupný</a> přímo v Debianu. Můžete jej "
+#~ "nainstalovat stejně snadno, jako kterýkoliv jiný balíček Debianu (apt-get "
+#~ "install pgadmin3)."
+
+#~ msgid "pgAdmin Download - Solaris"
+#~ msgstr "pgAdmin: Ke stažení - Solaris"
+
+#~ msgid ""
+#~ "pgAdmin III RPM packages are available for several Linux distributions "
+#~ "from the PostgreSQL <a href=\"%s\">RPM repository</a>."
+#~ msgstr ""
+#~ "Balíčky RPM pgAdmin III jsou v <a href=\"%s\">repozitáři RPM</a> "
+#~ "PostgreSQL dostupné pro několik Linuxových distribucí."
+
+#~ msgid ""
+#~ "pgAdmin packages are available for <a href=\"%s\">Debian</a> stable, "
+#~ "testing and unstable distributions. These packages are also well-suited "
+#~ "for <a href=\"%s\">Ubuntu</a> and other Debian based distributions"
+#~ msgstr ""
+#~ "Balíčky pgAdmin jsou dostupné pro distribuce <a href=\"%s\">Debian</a> "
+#~ "stabilní, testovací a nestabilní. Tyto balíčky jsou rovněž vhodné pro <a "
+#~ "href=\"%s\">Ubuntu</a> a další distribuce založené na Debianu."
+
+#~ msgid ""
+#~ "pgAdmin packages are available for download. These packages have been "
+#~ "built on FreeBSD 6."
+#~ msgstr ""
+#~ "Balíčky pgAdmin jsou k dispozici ke stažení. Tyto balíčky byly sestavené "
+#~ "ve FreeBSD 6."
+
+#~ msgid ""
+#~ "pgAdmin packages are available for the <a href=\"%s\">Ubuntu</a> dapper "
+#~ "and feisty distributions."
+#~ msgstr ""
+#~ "Balíčky pgAdmin jsou dostupné pro distribuce <a href=\"%s\">Ubuntu</a> "
+#~ "dapper a feisty."
+
+#~ msgid "pgAdmin: Download - Debian"
+#~ msgstr "pgAdmin: Ke stažení - Debian"
+
+#~ msgid "pgAdmin: Download - FreeBSD"
+#~ msgstr "pgAdmin: Ke stažení - FreeBSD"
+
+#~ msgid "pgAdmin: Download - OpenSUSE"
+#~ msgstr "pgAdmin: Ke stažení - OpenSUSE"
+
+#~ msgid "pgAdmin: Download - RPM"
+#~ msgstr "pgAdmin: Ke stažení - RPM"
+
+#~ msgid "pgAdmin: Download - Slackware"
+#~ msgstr "pgAdmin: Ke stažení - Slackware"
+
+#~ msgid "pgAdmin: Download - Ubuntu"
+#~ msgstr "pgAdmin: Ke stažení - Ubuntu"
 
 #~ msgid ""
 #~ "<b>WARNING:</b> Development snapshots have had little or no testing, and "

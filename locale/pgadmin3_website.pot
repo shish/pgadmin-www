@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-07 19:54+0200\n"
+"POT-Creation-Date: 2012-06-29 11:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,32 +54,22 @@ msgstr ""
 msgid "<a href=\"%s\">Download pgAgent</a>"
 msgstr ""
 
-#: ../download/freebsd.php:14 ../download/freebsd.php:15
-#: ../download/freebsd.php:16 ../download/freebsd.php:17
-#: ../download/freebsd.php:18 ../download/macosx.php:14
-#: ../download/macosx.php:15 ../download/macosx.php:16
-#: ../download/macosx.php:17 ../download/macosx.php:18
-#: ../download/macosx.php:19 ../download/macosx.php:20
-#: ../download/macosx.php:21 ../download/macosx.php:22
-#: ../download/macosx.php:23 ../download/opensuse.php:14
-#: ../download/opensuse.php:15 ../download/opensuse.php:16
-#: ../download/opensuse.php:17 ../download/opensuse.php:18
-#: ../download/opensuse.php:19 ../download/opensuse.php:20
-#: ../download/rpm.php:16 ../download/rpm.php:17 ../download/rpm.php:18
-#: ../download/rpm.php:19 ../download/slackware.php:14
-#: ../download/slackware.php:15 ../download/slackware.php:16
-#: ../download/slackware.php:17 ../download/solaris.php:14
-#: ../download/solaris.php:15 ../download/source.php:15
-#: ../download/source.php:16 ../download/source.php:17
-#: ../download/source.php:18 ../download/source.php:19
-#: ../download/source.php:20 ../download/source.php:21
-#: ../download/source.php:22 ../download/source.php:23
-#: ../download/source.php:24 ../download/source.php:25
-#: ../download/source.php:26 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
+#: ../download/macosx.php:14 ../download/macosx.php:15
+#: ../download/macosx.php:16 ../download/macosx.php:17
+#: ../download/macosx.php:18 ../download/macosx.php:19
+#: ../download/macosx.php:20 ../download/macosx.php:21
+#: ../download/macosx.php:22 ../download/macosx.php:23
+#: ../download/source.php:15 ../download/source.php:16
+#: ../download/source.php:17 ../download/source.php:18
+#: ../download/source.php:19 ../download/source.php:20
+#: ../download/source.php:21 ../download/source.php:22
+#: ../download/source.php:23 ../download/source.php:24
+#: ../download/source.php:25 ../download/source.php:26
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
@@ -256,7 +246,7 @@ msgid ""
 "  list control and the two buttons have moved to their own tab:"
 msgstr ""
 
-#: ../download/adminpacks.php:8 ../download/menu.php:18
+#: ../download/adminpacks.php:8 ../download/menu.php:11
 msgid "Admin packs"
 msgstr ""
 
@@ -409,10 +399,6 @@ msgid ""
 "\"%s\">translation</a> page for details on how to get started."
 msgstr ""
 
-#: ../download/ubuntu.php:14
-msgid "Before you try to install"
-msgstr ""
-
 #: ../visualtour14.php:29
 msgid "Better i18n"
 msgstr ""
@@ -448,19 +434,9 @@ msgstr ""
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr ""
 
-#: ../download/freebsd.php:33
-msgid "Check that the pgAdmin executable is in the path:"
-msgstr ""
-
 #: ../translation/howto.php:31
 msgid ""
 "Check the <i>Automatically compile .mo file on save</i> option in Properties."
-msgstr ""
-
-#: ../download/ubuntu.php:29 ../download/ubuntu.php:38
-msgid ""
-"Choose your mirror as mentioned above and edit /etc/apt/sources.list file "
-"and add the following line:"
 msgstr ""
 
 #: ../visualtour12.php:66
@@ -554,10 +530,6 @@ msgstr ""
 msgid "Couldn't find the document content!"
 msgstr ""
 
-#: ../download/freebsd.php:27
-msgid "Create a symlink to the pgAdmin binary:"
-msgstr ""
-
 #: ../advocacy/strategy.php:23
 msgid ""
 "Cross your fingers and wait until PostgreSQL becomes the world's number one "
@@ -607,26 +579,6 @@ msgstr ""
 
 #: ../features.php:66
 msgid "Databases"
-msgstr ""
-
-#: ../download/debian.php:8 ../download/menu.php:7
-msgid "Debian"
-msgstr ""
-
-#: ../download/debian.php:14
-msgid "Debian Etch (oldstable)"
-msgstr ""
-
-#: ../download/debian.php:18
-msgid "Debian Lenny (stable)"
-msgstr ""
-
-#: ../download/debian.php:26
-msgid "Debian Sid (unstable)"
-msgstr ""
-
-#: ../download/debian.php:22
-msgid "Debian Squeeze (testing)"
 msgstr ""
 
 #: ../visualtour14.php:388
@@ -808,6 +760,16 @@ msgstr ""
 msgid "Features"
 msgstr ""
 
+#: ../download/index.php:14
+#, php-format
+msgid ""
+"Finally, pgAdmin is included by default in most Linux distributions, such as "
+"RedHat, Fedora, Debian and Ubuntu. If you want a different version than the "
+"one included in the distribution, you can use channels such as the "
+"PostgreSQL <a href=\"%s\">yum repository</a>, Debian <a href=\"%s"
+"\">backports</a> or the Ubuntu <a href=\"%s\">PPA</a>."
+msgstr ""
+
 #: ../visualtour12.php:244
 msgid ""
 "Finally, the fourth tab allows you to select all the objects you want to "
@@ -858,12 +820,7 @@ msgstr ""
 msgid "Fix the index UI to handle columns with commas in the name"
 msgstr ""
 
-#: ../download/ubuntu.php:48
-msgid "For example, for France and Gutsy Gibbon, you can try:"
-msgstr ""
-
-#: ../features.php:16 ../download/freebsd.php:8 ../download/menu.php:8
-#: ../screenshots/index.php:16
+#: ../features.php:16 ../screenshots/index.php:16
 msgid "FreeBSD"
 msgstr ""
 
@@ -1086,10 +1043,6 @@ msgid ""
 "Windows include the admin packs."
 msgstr ""
 
-#: ../download/debian.php:30
-msgid "Installation"
-msgstr ""
-
 #: ../visualtour14.php:32
 msgid ""
 "Internationalization needed a bit of work to improve in areas such as "
@@ -1178,7 +1131,7 @@ msgstr ""
 msgid "Language:"
 msgstr ""
 
-#: ../features.php:76 ../download/languages.php:8 ../download/menu.php:19
+#: ../features.php:76 ../download/languages.php:8 ../download/menu.php:12
 msgid "Languages"
 msgstr ""
 
@@ -1228,7 +1181,7 @@ msgstr ""
 msgid "MULE_INTERNAL"
 msgstr ""
 
-#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:9
+#: ../features.php:17 ../download/macosx.php:8 ../download/menu.php:7
 #: ../screenshots/index.php:22
 msgid "Mac OSX"
 msgstr ""
@@ -1249,11 +1202,8 @@ msgstr ""
 msgid "Maintainer"
 msgstr ""
 
-#: ../download/debian.php:10 ../download/freebsd.php:10
-#: ../download/macosx.php:10 ../download/opensuse.php:10
-#: ../download/rpm.php:10 ../download/slackware.php:10
-#: ../download/solaris.php:10 ../download/source.php:10
-#: ../download/ubuntu.php:10 ../download/windows.php:10
+#: ../download/macosx.php:10 ../download/source.php:10
+#: ../download/windows.php:10
 #, php-format
 msgid "Maintainer: %s"
 msgstr ""
@@ -1422,15 +1372,6 @@ msgid ""
 "by which pgAdmin tool."
 msgstr ""
 
-#: ../download/ubuntu.php:22
-#, php-format
-msgid ""
-"Once the key added, you need to choose a mirror from the list of <a href=\"%s"
-"\">PostgreSQL mirrors</a> and configure your sources.list. Click one of the "
-"flags, and copy the URL you are redirected to. On each mirror, the packages "
-"are located in: <i>/pgadmin3/release/ubuntu</i>"
-msgstr ""
-
 #: ../visualtour12.php:268
 msgid ""
 "Once you've selected a dump file, the \"View\" button will be enabled. Once "
@@ -1505,17 +1446,6 @@ msgid ""
 "Open Source management and administration tools for the PostgreSQL database."
 msgstr ""
 
-#: ../download/menu.php:10 ../download/opensuse.php:8
-msgid "OpenSUSE"
-msgstr ""
-
-#: ../download/opensuse.php:12
-msgid ""
-"OpenSUSE packages built on a server periodically updated to -current are "
-"available for download. These builds should run on most recent versions of "
-"OpenSUSE."
-msgstr ""
-
 #: ../features.php:77
 msgid "Operator classes"
 msgstr ""
@@ -1564,12 +1494,6 @@ msgid ""
 "available on the <a href=\"%s\">translation status</a> page."
 msgstr ""
 
-#: ../download/solaris.php:12
-msgid ""
-"Packages built for Solaris on Sparc and Intel are available, courtesy of Sun "
-"Microsystems."
-msgstr ""
-
 #: ../visualtour12.php:20
 msgid ""
 "People using pgAdmin on WLAN and other unreliable connections may have "
@@ -1614,14 +1538,6 @@ msgstr ""
 msgid ""
 "Please refer to the translation guidelines below to translate variables (%s "
 "and %d) and keyboard shortcuts entries (&amp;)."
-msgstr ""
-
-#: ../download/ubuntu.php:54
-msgid ""
-"Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT as "
-"wxWidgets2.8 is available from universe only at the moment. To do so, check "
-"the Ubuntu documentation or at least try to launch the update-manager "
-"configuration from the System/Administration Gnome menu."
 msgstr ""
 
 #: ../visualtour.php:254
@@ -1716,10 +1632,6 @@ msgstr ""
 msgid "Privacy policy"
 msgstr ""
 
-#: ../download/ubuntu.php:57
-msgid "Proceed to installation"
-msgstr ""
-
 #: ../advocacy/index.php:12
 msgid ""
 "Promotion is essential for the life and development of the pgAdmin project. "
@@ -1746,16 +1658,6 @@ msgstr ""
 
 #: ../visualtour12.php:283 ../visualtour14.php:322
 msgid "Query tool"
-msgstr ""
-
-#: ../download/menu.php:11 ../download/rpm.php:8
-msgid "RPM"
-msgstr ""
-
-#: ../download/rpm.php:14
-msgid ""
-"RPMs for older versions of pgAdmin are available from the pgAdmin download "
-"sites:"
 msgstr ""
 
 #: ../development/roadmap.php:35
@@ -1816,10 +1718,6 @@ msgstr ""
 
 #: ../features.php:84
 msgid "Rules"
-msgstr ""
-
-#: ../download/debian.php:32
-msgid "Run the following commands as <i>root</i> to install pgAdmin III"
 msgstr ""
 
 #: ../include/page.php:116
@@ -1911,23 +1809,6 @@ msgstr ""
 msgid "Simplified Chinese"
 msgstr ""
 
-#: ../download/ubuntu.php:59
-msgid ""
-"Simply use Synaptic to install pgAdmin as you would do with any other "
-"package or run the following command from the command prompt:"
-msgstr ""
-
-#: ../download/menu.php:12 ../download/slackware.php:8
-msgid "Slackware"
-msgstr ""
-
-#: ../download/slackware.php:12
-msgid ""
-"Slackware packages built on a server periodically updated to -current are "
-"available for download. These builds should run on most recent versions of "
-"Slackware."
-msgstr ""
-
 #: ../features.php:33
 msgid "Slony-I documentation"
 msgstr ""
@@ -1936,8 +1817,7 @@ msgstr ""
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr ""
 
-#: ../features.php:18 ../download/menu.php:13 ../download/solaris.php:8
-#: ../screenshots/index.php:25
+#: ../features.php:18 ../screenshots/index.php:25
 msgid "Solaris"
 msgstr ""
 
@@ -1952,7 +1832,7 @@ msgid ""
 "translated as <i>L'utilisateur s%2$s est connect&eacute; au serveur %1$s</i>."
 msgstr ""
 
-#: ../download/menu.php:14 ../download/source.php:8
+#: ../download/menu.php:8 ../download/source.php:8
 msgid "Source code"
 msgstr ""
 
@@ -2782,22 +2662,6 @@ msgid ""
 "can be installed on the same machine at the same time."
 msgstr ""
 
-#: ../download/freebsd.php:21 ../download/rpm.php:22
-msgid "To install these packages, use a command such as:"
-msgstr ""
-
-#: ../download/opensuse.php:23
-msgid ""
-"To install these packages, use the OpenSUSE <i>pkgtool</i> or <i>installpkg</"
-"i> utilities."
-msgstr ""
-
-#: ../download/slackware.php:20
-msgid ""
-"To install these packages, use the Slackware <i>pkgtool</i> or "
-"<i>installpkg</i> utilities."
-msgstr ""
-
 #: ../translation/howto.php:70
 msgid ""
 "To make it easier, all SQL keywords are written in capital letters. "
@@ -2888,18 +2752,6 @@ msgstr ""
 
 #: ../features.php:105
 msgid "UNICODE/UTF-8"
-msgstr ""
-
-#: ../download/menu.php:15 ../download/ubuntu.php:8
-msgid "Ubuntu"
-msgstr ""
-
-#: ../download/ubuntu.php:26
-msgid "Ubuntu Dapper configuration"
-msgstr ""
-
-#: ../download/ubuntu.php:36
-msgid "Ubuntu Feisty or Gutsy configuration"
 msgstr ""
 
 #: ../advocacy/information.php:31
@@ -3117,7 +2969,7 @@ msgstr ""
 msgid "Why promote pgAdmin?"
 msgstr ""
 
-#: ../download/menu.php:16 ../download/windows.php:8
+#: ../download/menu.php:9 ../download/windows.php:8
 #: ../screenshots/index.php:28
 msgid "Windows &trade;"
 msgstr ""
@@ -3200,15 +3052,6 @@ msgid ""
 "visit the <a href=\"download\">download area</a> to get your copy, or "
 "alternatively download a <a href=\"http://www.enterprisedb.com/products/"
 "pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."
-msgstr ""
-
-#: ../download/debian.php:16 ../download/debian.php:20
-#: ../download/debian.php:24 ../download/debian.php:28
-#, php-format
-msgid ""
-"pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can "
-"install pgAdmin just as you would do with any other Debian package (apt-get "
-"install pgadmin3)."
 msgstr ""
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
@@ -3366,17 +3209,6 @@ msgstr ""
 msgid "pgAdmin Documentation"
 msgstr ""
 
-#: ../download/solaris.php:5
-msgid "pgAdmin Download - Solaris"
-msgstr ""
-
-#: ../download/rpm.php:12
-#, php-format
-msgid ""
-"pgAdmin III RPM packages are available for several Linux distributions from "
-"the PostgreSQL <a href=\"%s\">RPM repository</a>."
-msgstr ""
-
 #: ../include/page.php:63
 msgid "pgAdmin III: PostgreSQL Tools"
 msgstr ""
@@ -3516,27 +3348,6 @@ msgid ""
 "href=\"%s\">Greenplum database</a>."
 msgstr ""
 
-#: ../download/debian.php:12
-#, php-format
-msgid ""
-"pgAdmin packages are available for <a href=\"%s\">Debian</a> stable, testing "
-"and unstable distributions. These packages are also well-suited for <a href="
-"\"%s\">Ubuntu</a> and other Debian based distributions"
-msgstr ""
-
-#: ../download/freebsd.php:12
-msgid ""
-"pgAdmin packages are available for download. These packages have been built "
-"on FreeBSD 6."
-msgstr ""
-
-#: ../download/ubuntu.php:12
-#, php-format
-msgid ""
-"pgAdmin packages are available for the <a href=\"%s\">Ubuntu</a> dapper and "
-"feisty distributions."
-msgstr ""
-
 #: ../screenshots/index.php:17
 msgid "pgAdmin running on FreeBSD"
 msgstr ""
@@ -3623,14 +3434,6 @@ msgstr ""
 msgid "pgAdmin: Download - Admin packs"
 msgstr ""
 
-#: ../download/debian.php:5
-msgid "pgAdmin: Download - Debian"
-msgstr ""
-
-#: ../download/freebsd.php:5
-msgid "pgAdmin: Download - FreeBSD"
-msgstr ""
-
 #: ../download/index.php:5
 msgid "pgAdmin: Download - Introduction"
 msgstr ""
@@ -3643,24 +3446,8 @@ msgstr ""
 msgid "pgAdmin: Download - Mac OSX"
 msgstr ""
 
-#: ../download/opensuse.php:5
-msgid "pgAdmin: Download - OpenSUSE"
-msgstr ""
-
-#: ../download/rpm.php:5
-msgid "pgAdmin: Download - RPM"
-msgstr ""
-
-#: ../download/slackware.php:5
-msgid "pgAdmin: Download - Slackware"
-msgstr ""
-
 #: ../download/source.php:5
 msgid "pgAdmin: Download - Source code"
-msgstr ""
-
-#: ../download/ubuntu.php:5
-msgid "pgAdmin: Download - Ubuntu"
 msgstr ""
 
 #: ../download/windows.php:5
@@ -3747,7 +3534,7 @@ msgstr ""
 msgid "pgAdmin: Translation - Status"
 msgstr ""
 
-#: ../download/menu.php:20 ../download/pgagent.php:8
+#: ../download/menu.php:13 ../download/pgagent.php:8
 msgid "pgAgent"
 msgstr ""
 

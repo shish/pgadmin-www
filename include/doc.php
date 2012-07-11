@@ -45,6 +45,12 @@ if (isset($_GET['docset']))
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.14");
       break;
 
+    case "1.16":
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.16/docs/".$_SESSION['xPGA']['lang']."/_build/html";
+      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.16/docs/en_US/_build/html";
+      $docheader = sprintf(_("pgAdmin %s online documentation"), _("1.16"));
+      break;
+
     case "dev":
       $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3/docs/".$_SESSION['xPGA']['lang']."/_build/html";
       $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3/docs/en_US/_build/html";

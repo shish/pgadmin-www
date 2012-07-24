@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-29 11:15+0200\n"
+"POT-Creation-Date: 2012-07-24 22:19+0200\n"
 "PO-Revision-Date: 2011-08-23 19:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -43,6 +43,10 @@ msgstr "%s - pgAdmin v%s发布"
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin%s版本发布"
+
+#: ../include/doc.php:51
+msgid "1.16"
+msgstr ""
 
 #: ../download/adminpacks.php:13
 #, php-format
@@ -220,6 +224,16 @@ msgstr ""
 "显示一个新的“用户名称”下拉框，可以选择一个用户为这个 用户/数据库 组合增加一个"
 "特殊设定。"
 
+#: ../visualtour16.php:24
+msgid ""
+"A new import tool has been added to the browser. A right-click on a table "
+"shows a new menu item, named \"Import...\"."
+msgstr ""
+
+#: ../visualtour16.php:144
+msgid "A new tab is available to copy the structure of another table:"
+msgstr ""
+
 #: ../screenshots/data.php:14
 msgid ""
 "A query tool with colour syntax highlighting allows users to run custom "
@@ -235,6 +249,10 @@ msgstr ""
 "行的查询如果需要的话可以通过点击红色方块按钮中断。查询工具可以显示查询的执行"
 "时间帮助用户去优化它们，全面支持PostgreSQL的异步通知系统。"
 
+#: ../visualtour16.php:158
+msgid "A truncate menu item has been added to the table contextual menu:"
+msgstr ""
+
 #: ../features.php:109
 msgid "ALT"
 msgstr "ALT"
@@ -248,6 +266,10 @@ msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
 msgstr "增加一个对话框允许用户在特殊的后台进程中增加全局断点。[DP]"
+
+#: ../visualtour16.php:316
+msgid "Add compatibility with wxWidgets 2.9,"
+msgstr ""
 
 #: ../visualtour.php:337
 msgid "Add more index stats"
@@ -292,9 +314,13 @@ msgstr "管理工具包"
 msgid "Advocacy"
 msgstr "倡议"
 
-#: ../features.php:61
+#: ../features.php:61 ../visualtour16.php:247
 msgid "Aggregates"
 msgstr "集合函数"
+
+#: ../visualtour16.php:250
+msgid "Aggregates finally have privilege support."
+msgstr ""
 
 #: ../visualtour14.php:16
 msgid ""
@@ -311,6 +337,13 @@ msgstr ""
 "每个对象的所有信息。第一个标签页都有同样信息：名称、OID、所有者、注释、以及复"
 "制设置，其他标签页含有您正在查看对象的特定信息。安全标签页（权限）和默认安全"
 "标签页（默认权限）在您能够设置这些信息的对象之上仍然存在，也仍然有SQL标签页。"
+
+#: ../visualtour16.php:74
+msgid ""
+"All the results will appear in the table below. A double-click on an object "
+"will select the object in the browser, so that the user can continue his "
+"work on this object."
+msgstr ""
 
 #: ../visualtour.php:350
 msgid ""
@@ -383,6 +416,20 @@ msgstr ""
 "最后，在活动进程列表中，能够打开查询工具，使它带有选中进程正在执行的当前查"
 "询。"
 
+#: ../visualtour16.php:301
+msgid "And note that the timestamp columns skip the microsecond part."
+msgstr ""
+
+#: ../visualtour16.php:56
+msgid ""
+"And once the import is done, the \"Import\" button is changed in a \"Done\" "
+"button. A click on it will dismiss the window."
+msgstr ""
+
+#: ../visualtour16.php:236
+msgid "And then set its properties in the \"Definition\" tab:"
+msgstr ""
+
 #: ../visualtour12.php:71
 msgid ""
 "Another new menu item, \"Reload configuration\" allows the user to request "
@@ -427,6 +474,14 @@ msgstr ""
 "SQL定义。同时在命令行或脚本和GUI中运行它们，能够帮助用户更容易得学习和理解"
 "SQL。"
 
+#: ../visualtour16.php:18
+msgid ""
+"As usual, the new release of pgAdmin aims to have full compatibility with "
+"the new release of PostgreSQL. This release is no different: pgAdmin 1.16 "
+"supports all PostgreSQL 9.2 new features, while remaining compatible with "
+"all PostgreSQL releases starting from 8.2."
+msgstr ""
+
 #: ../visualtour.php:355
 msgid "Auto-discover Postgres Plus servers on Mac and Unix"
 msgstr "在Mac和Unix之下能够自动发现Postgres Plus服务器"
@@ -445,6 +500,11 @@ msgstr ""
 
 #: ../visualtour14.php:344
 msgid "Backup and restore tools"
+msgstr "备份和恢复工具"
+
+#: ../visualtour16.php:275
+#, fuzzy
+msgid "Backup/Restore tools"
 msgstr "备份和恢复工具"
 
 #: ../index.php:18
@@ -580,11 +640,11 @@ msgstr ""
 "约束触发器已经存在很长时间，但pgAdmin 1.14才开始支持它。更值得庆幸的是"
 "INSTEAD OF触发器现在也得到了支持，但仅仅在视图上有效。"
 
-#: ../features.php:64
+#: ../features.php:64 ../visualtour16.php:169
 msgid "Constraints"
 msgstr "约束"
 
-#: ../menu.php:11
+#: ../menu.php:12
 msgid "Contribute"
 msgstr "捐助"
 
@@ -596,7 +656,7 @@ msgstr "分发翻译"
 msgid "Conversions"
 msgstr "编码转换"
 
-#: ../include/doc.php:99
+#: ../include/doc.php:105
 msgid "Couldn't find the document content!"
 msgstr "无法找到文档内容"
 
@@ -647,7 +707,7 @@ msgstr "数据库属性"
 msgid "Database schema difference visualizer, by Adeel Khan"
 msgstr "数据库模式的差异观测器（Adeel Khan）"
 
-#: ../features.php:66
+#: ../features.php:66 ../visualtour16.php:133
 msgid "Databases"
 msgstr "数据库"
 
@@ -678,7 +738,7 @@ msgstr "为多个PostgreSQL版本及其派生设计"
 msgid "Dev"
 msgstr "开发中"
 
-#: ../contribute.php:12 ../include/doc.php:51 ../include/page.php:129
+#: ../contribute.php:12 ../include/doc.php:57 ../include/page.php:129
 msgid "Development"
 msgstr "开发"
 
@@ -694,11 +754,11 @@ msgstr "上网本的对话框"
 msgid "Different icons to highlight different states"
 msgstr "不同图标凸显不同状态"
 
-#: ../include/doc.php:79
+#: ../include/doc.php:85
 msgid "Document cannot be read"
 msgstr "无法读取文档"
 
-#: ../include/doc.php:56 ../include/doc.php:73
+#: ../include/doc.php:62 ../include/doc.php:79
 msgid "Document not found"
 msgstr "无法找到文档"
 
@@ -711,7 +771,7 @@ msgstr "文档"
 msgid "Domain"
 msgstr "域"
 
-#: ../features.php:67
+#: ../features.php:67 ../visualtour16.php:241
 msgid "Domains"
 msgstr "域"
 
@@ -936,7 +996,7 @@ msgstr "函数属性"
 msgid "Functionality"
 msgstr "功能"
 
-#: ../features.php:72
+#: ../features.php:72 ../visualtour16.php:203
 msgid "Functions"
 msgstr "函数"
 
@@ -1015,6 +1075,13 @@ msgstr "如何去做"
 #: ../features.php:104
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
+
+#: ../visualtour16.php:68
+msgid ""
+"If a user selects this item, pgAdmin will open a new window where the user "
+"can type a pattern, and select the type of the object he's looking for. Then "
+"a simple click on the \"Find\" button will start the search."
+msgstr ""
 
 #: ../development/index.php:14
 #, php-format
@@ -1098,6 +1165,13 @@ msgid ""
 "role properties dialog:"
 msgstr "PostgreSQL 9.1中增加一个新的角色属性，你可以在角色属性对话框中设置："
 
+#: ../visualtour16.php:82
+msgid ""
+"In older releases, a user couldn't change the schema of an object with the "
+"properties dialog. pgAdmin 1.16 allows that. All objects belonging to a "
+"schema have a new widget allowing the user to modify the schema :"
+msgstr ""
+
 #: ../translation/howto.php:40
 msgid ""
 "In poEdit, clicking on the save button will automatically compile pgadmin3."
@@ -1128,7 +1202,7 @@ msgstr "索引"
 msgid "Index properties"
 msgstr "索引属性"
 
-#: ../features.php:75
+#: ../features.php:75 ../visualtour16.php:163
 msgid "Indexes"
 msgstr "索引"
 
@@ -1178,6 +1252,13 @@ msgstr ""
 "外观在每次运行时可以保留下来。此外，可以<b>拷贝每一个网格的内容</b>，还有n一"
 "个新工具条可以调用任何动作。"
 
+#: ../visualtour16.php:62
+msgid ""
+"It is sometimes useful to be able to find an object by its name. So there is "
+"now a way to search for objects by name within pgAdmin. The database context "
+"menu has a new item: \"Search objects...\"."
+msgstr ""
+
 #: ../visualtour.php:294
 msgid ""
 "It was already possible to sort and filter the grid but one has to go \n"
@@ -1192,6 +1273,16 @@ msgstr ""
 "像WHERE子句那样写一个过滤器。新特性允许用户右键点击想过滤的值（包含或排除）\n"
 "直接设定，也可以在字段上点击右键用这个字段排序。"
 
+#: ../visualtour16.php:118
+msgid ""
+"It works also on shared objects, such as databases and roles since "
+"PostgreSQL 9.2:"
+msgstr ""
+
+#: ../visualtour16.php:182
+msgid "It's also possible to add invalid check constraints to a domain."
+msgstr ""
+
 #: ../advocacy/index.php:13
 #, php-format
 msgid ""
@@ -1201,6 +1292,11 @@ msgid ""
 msgstr ""
 "如何推广pgAdmin以便长远得帮助我们是非常简单的事情，请查看<a href=\"%s\">策略"
 "</a>网页去了解你应该如何去做。"
+
+#: ../visualtour16.php:150
+msgid ""
+"It's just an interface around the \"CREATE TABLE ... LIKE ...\" statement."
+msgstr ""
 
 #: ../features.php:102
 msgid "JOHAB"
@@ -1249,7 +1345,8 @@ msgstr "语言属性"
 msgid "Language:"
 msgstr "语种："
 
-#: ../features.php:76 ../download/languages.php:8 ../download/menu.php:12
+#: ../features.php:76 ../visualtour16.php:259 ../download/languages.php:8
+#: ../download/menu.php:12
 msgid "Languages"
 msgstr "语种"
 
@@ -1273,7 +1370,7 @@ msgstr "最后更新：%s"
 msgid "Latest news"
 msgstr "最近的新闻"
 
-#: ../licence.php:8 ../menu.php:12
+#: ../licence.php:8 ../menu.php:13
 msgid "Licence"
 msgstr "协议"
 
@@ -1338,7 +1435,12 @@ msgstr "维护"
 msgid "Maintenance dialogs"
 msgstr "维护对话框"
 
-#: ../visualtour.php:16
+#: ../visualtour16.php:304
+#, fuzzy
+msgid "Maintenance tool"
+msgstr "维护"
+
+#: ../visualtour16.php:13 ../visualtour.php:16
 msgid "Major new features"
 msgstr "主要新特性"
 
@@ -1376,9 +1478,13 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr "Microsoft Windows &trade; 2000和更高版本"
 
-#: ../visualtour.php:327
+#: ../visualtour16.php:312 ../visualtour.php:327
 msgid "Miscellanous"
 msgstr "杂项"
+
+#: ../visualtour16.php:79
+msgid "Modifying the schema of an object"
+msgstr ""
 
 #: ../visualtour12.php:168
 msgid ""
@@ -1428,6 +1534,11 @@ msgstr "多平台"
 msgid "Native PostgreSQL acccess (no ODBC layer needed)"
 msgstr "系统本地化的PostgreSQL连接（不需要ODBC层）"
 
+#: ../visualtour16.php:317
+#, fuzzy
+msgid "New documentation system."
+msgstr "文档"
+
 #: ../visualtour.php:156
 msgid ""
 "New features have been added to this dialog for 8.4: support for changing "
@@ -1440,6 +1551,10 @@ msgstr ""
 "一些新特性增加到8.4的数据库对话框中：更改已存在数据库的表空间，已打开数据库"
 "的\n"
 "重命名，修改每个数据库的字符排序、字符分类以及连接数限制。"
+
+#: ../visualtour16.php:21
+msgid "New import tool"
+msgstr ""
 
 #: ../development/roadmap.php:32
 msgid "New options dialog [GL]"
@@ -1489,7 +1604,8 @@ msgstr "注意：PostgreSQL 8.2以及更新版本已经将管理工具包作为�
 msgid "Object browser"
 msgstr "对象浏览器"
 
-#: ../visualtour12.php:77 ../visualtour14.php:105 ../visualtour.php:99
+#: ../visualtour12.php:77 ../visualtour14.php:105 ../visualtour16.php:123
+#: ../visualtour.php:99
 msgid "Object properties"
 msgstr "对象属性"
 
@@ -1520,6 +1636,24 @@ msgstr ""
 "哪一个连接。管理员察看pg_stat_activity目录或者开启服务器状态窗口能够迅速了解"
 "pgAdmin在使用哪个连接，pgAdmin工具使用哪个。"
 
+#: ../visualtour16.php:186
+msgid ""
+"On the foreign key properties dialog, the \"References\" table textbox has "
+"been moved to the third tab ("
+msgstr ""
+
+#: ../visualtour16.php:30
+msgid ""
+"Once clicked, it opens a new dialog. This dialog allows the user to select a "
+"file, specify its format (text, csv, or binary), and its encoding."
+msgstr ""
+
+#: ../visualtour16.php:50
+msgid ""
+"Once the user clicks the \"Import\" button, the import process will take "
+"place. A widget will show the progress of the import:"
+msgstr ""
+
 #: ../visualtour12.php:268
 msgid ""
 "Once you've selected a dump file, the \"View\" button will be enabled. Once "
@@ -1531,9 +1665,23 @@ msgstr ""
 "所有卸出文件中的可用对象。这里可以选择所有想要恢复的对象，而所有其他对象会被"
 "跳过。"
 
+#: ../visualtour16.php:90
+msgid ""
+"One big issue with pgAdmin is that it doesn't know when objects are changed "
+"in the background. The user has to refresh the browser each time he thinks "
+"there might have been some schema updates on the database - and some changes "
+"may get lost because of this."
+msgstr ""
+
 #: ../visualtour.php:225
 msgid "One can now change a <b>language's owner</b>."
 msgstr "现在可以更改<b>语言属主</b>。"
+
+#: ../visualtour16.php:230
+msgid ""
+"One of the main feature of PostgreSQL 9.2, the range type, is also supported "
+"by pgAdmin 1.16. To add a new range type, select it on the \"Type\" tab:"
+msgstr ""
 
 #: ../visualtour14.php:379
 msgid ""
@@ -1784,6 +1932,43 @@ msgstr ""
 "PostgreSQL 9.0能够处理用户/数据库对的特殊设定，pgAdmin 1.12使用修改过的数据库"
 "和用户对象的“变量”标签支持这一特性。"
 
+#: ../visualtour16.php:224
+msgid ""
+"PostgreSQL 9.2 adds privileges to types objects, and pgAdmin 1.16 allows to "
+"set these privileges."
+msgstr ""
+
+#: ../visualtour16.php:172
+msgid ""
+"PostgreSQL 9.2 allows the creation of \"non valid\" check constraints. "
+"pgAdmin offers that option in the \"Definition\" tab:"
+msgstr ""
+
+#: ../visualtour16.php:128
+msgid ""
+"PostgreSQL 9.2 offers a new connection option for SSL connections. It is "
+"called the \"sslcompression\" option. It's enabled by default, but users can "
+"disable it if they want. This option is available in the \"SSL\" tab:"
+msgstr ""
+
+#: ../visualtour16.php:278
+msgid ""
+"PostgreSQL 9.2 offers a new option for its pg_dump/pg_restore tools, called "
+"section. pgAdmin allows its use through:"
+msgstr ""
+
+#: ../visualtour16.php:136
+msgid ""
+"PostgreSQL 9.2 offers two new statistics (blocks read, and write time) in "
+"the catalog \"pg_stat_database\", and so does pgAdmin 1.16 on its "
+"\"Statistics\" tab for databases:"
+msgstr ""
+
+#: ../visualtour16.php:15
+#, fuzzy
+msgid "PostgreSQL 9.2 support"
+msgstr "PostgreSQL 8.2支持："
+
 #: ../development/roadmap.php:13
 msgid "PostgreSQL compatibility"
 msgstr "PostgreSQL兼容性"
@@ -1810,11 +1995,25 @@ msgstr "Postgres Plus Advanced Server对象（包、过程、同义词）"
 msgid "Powerful query tool with colour syntax highlighting"
 msgstr "支持语法彩色高亮显示的强大查询工具"
 
+#: ../visualtour16.php:315
+msgid ""
+"Prevent dropping connection, dropping and refreshing object when a "
+"properties dialog is open,"
+msgstr ""
+
 #: ../visualtour14.php:48
 msgid ""
 "Previous releases already displayed servers and databases in two different "
 "ways, connected and disconnected."
 msgstr "上一个版本已经采用不同方式展示已连接和断开的服务器和数据库。"
+
+#: ../visualtour16.php:244
+msgid ""
+"Previous releases of pgAdmin didn't allow users to rename a domain, even if "
+"it was possible with an \"ALTER TYPE\" statement. pgAdmin 1.16 allows the "
+"renaming through the \"ALTER DOMAIN\" statement in PostgreSQL 9.2, and "
+"through the \"ALTER TYPE\" statement in previous releases of PostgreSQL."
+msgstr ""
 
 #: ../visualtour14.php:220
 msgid ""
@@ -1830,7 +2029,7 @@ msgstr ""
 "主键和唯一索引现在可以定义为可延迟和延迟约束，因此这里有两个选择框设置这个选"
 "项。"
 
-#: ../menu.php:13 ../privacypolicy.php:8
+#: ../menu.php:14 ../privacypolicy.php:8
 msgid "Privacy policy"
 msgstr "隐私保护"
 
@@ -1865,7 +2064,7 @@ msgstr "已经发布的翻译（%d）"
 msgid "Query Tool"
 msgstr "查询工具"
 
-#: ../visualtour12.php:283 ../visualtour14.php:322
+#: ../visualtour12.php:283 ../visualtour14.php:322 ../visualtour16.php:286
 msgid "Query tool"
 msgstr "查询工具"
 
@@ -1875,8 +2074,17 @@ msgid ""
 "with grid style UI [GL]"
 msgstr "重新设计数据表对话框，尽可能去掉子对话框，以栅格UI风格替代。[GL]"
 
+#: ../visualtour16.php:101
+msgid "Redesigned Options window"
+msgstr ""
+
+#: ../visualtour16.php:87
+msgid "Refresh objects automatically when clicked"
+msgstr ""
+
 #: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
 #: ../docs/menu.php:11 ../docs/menu.php:12 ../docs/menu.php:13
+#: ../docs/menu.php:14
 #, php-format
 msgid "Release %s"
 msgstr "%s版本"
@@ -1919,7 +2127,7 @@ msgstr "角色"
 msgid "Role properties"
 msgstr "角色属性"
 
-#: ../features.php:83
+#: ../features.php:83 ../visualtour16.php:267
 msgid "Roles"
 msgstr "角色"
 
@@ -1934,6 +2142,11 @@ msgstr "规则"
 #: ../include/page.php:116
 msgid "Russian"
 msgstr ""
+
+#: ../visualtour16.php:253
+#, fuzzy
+msgid "SQL/MED objects"
+msgstr "SQL/Med对象"
 
 #: ../visualtour14.php:287
 msgid "SQL/Med objects"
@@ -1968,6 +2181,23 @@ msgstr "方案"
 #: ../include/page.php:132
 msgid "Screenshots"
 msgstr "屏幕截图"
+
+#: ../visualtour16.php:59
+#, fuzzy
+msgid "Search Objects"
+msgstr "SQL/Med对象"
+
+#: ../visualtour16.php:112
+msgid ""
+"Security labels are available since PostgreSQL 9.1. Unfortunately, pgAdmin "
+"didn't support them, but the 1.16 release will fix that. Security labels are "
+"handled via a new tab in each local object:"
+msgstr ""
+
+#: ../visualtour16.php:109
+#, fuzzy
+msgid "Security labels support"
+msgstr "支持派生数据库"
 
 #: ../translation/howto.php:23
 #, php-format
@@ -2015,6 +2245,11 @@ msgstr "服务器属性"
 msgid "Server status"
 msgstr "服务器状态"
 
+#: ../visualtour16.php:292
+#, fuzzy
+msgid "Server status tool"
+msgstr "服务器状态工具"
+
 #: ../features.php:54
 msgid "Server status/process viewer"
 msgstr "服务器状态/进程查看器"
@@ -2022,6 +2257,11 @@ msgstr "服务器状态/进程查看器"
 #: ../features.php:87
 msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "服务器端语言（例如：pl/pgsql、pl/perl、pl/python等等）"
+
+#: ../visualtour16.php:125
+#, fuzzy
+msgid "Servers"
+msgstr "服务器"
 
 #: ../include/page.php:117
 msgid "Simplified Chinese"
@@ -2149,7 +2389,7 @@ msgstr "表"
 msgid "Table properties"
 msgstr "数据表属性"
 
-#: ../features.php:89
+#: ../features.php:89 ../visualtour16.php:141
 msgid "Tables"
 msgstr "表"
 
@@ -2177,6 +2417,28 @@ msgstr "开发组"
 #: ../visualtour14.php:37
 msgid "Tearable tabsets"
 msgstr "可分离标签页"
+
+#: ../visualtour16.php:218 ../visualtour16.php:219 ../visualtour16.php:220
+msgid "The "
+msgstr ""
+
+#: ../visualtour16.php:214
+msgid ""
+"The \"Definition\" tab has changed for external type. It now contains "
+"another set of tabs so that it allows to add three previously missing "
+"functions comboboxes (ANALYZE, CATEGORY, and PREFERED functions):"
+msgstr ""
+
+#: ../visualtour16.php:307
+msgid "The \"Maintenance\"  tool has a new action: cluster."
+msgstr ""
+
+#: ../visualtour16.php:295
+msgid ""
+"The \"pg_stat_activity\" view has two new columns: state, and state_change "
+"columns. pgAdmin 1.16 displays them in the Activity report of the server "
+"status tool if the user is connected on a PostgreSQL 9.2 server:"
+msgstr ""
 
 #: ../visualtour12.php:368
 msgid ""
@@ -2258,6 +2520,14 @@ msgid ""
 "The OK button of the restore tool has also been changed with a Restore "
 "button."
 msgstr "恢复工具的“确定”按钮也被修改为“恢复”按钮。"
+
+#: ../visualtour16.php:104
+msgid ""
+"The Options window has been completely redesigned so that it will allow us "
+"to put more options into it. There is now a treeview on the left part of the "
+"window. This treeview lets the user choose what kind of options he wants to "
+"set:"
+msgstr ""
 
 #: ../support/list.php:18
 msgid ""
@@ -2399,11 +2669,11 @@ msgstr ""
 "调试工具采用可分离标签页，使它更容易使用。此外，当您调试一个带有默认值参数的"
 "函数时，这些默认值会显示在消息对话框中请求输入。"
 
-#: ../include/doc.php:79
+#: ../include/doc.php:85
 msgid "The document requested cannot be read!"
 msgstr "无法读取请求的文档！"
 
-#: ../include/doc.php:56 ../include/doc.php:73
+#: ../include/doc.php:62 ../include/doc.php:79
 msgid "The document requested does not exist!"
 msgstr "查找的文档不存在！"
 
@@ -2530,12 +2800,39 @@ msgstr ""
 "经过长久等待的pgAdmin III v1.14终于发布beta版，在这里我们着重强调一些从上次稳"
 "定版发布以来增加的新特性。"
 
+#: ../visualtour16.php:10
+#, fuzzy
+msgid ""
+"The long awaited 1.16 version of pgAdmin III is finally available. We will "
+"try to highlight some of the new features which have been added since the "
+"last stable release."
+msgstr ""
+"经过长久等待的pgAdmin III v1.12终于发布beta版，在这里我们着重强调一些从上次稳"
+"定版发布以来增加的新特性。"
+
 #: ../visualtour12.php:220
 msgid ""
 "The maintenance dialogs have been reviewed. They offer now all options "
 "available. Moreover, they are resizable."
 msgstr ""
 "维护对话框已经准备好，现在可以提供所有可用选项。更进一步的是，可以变更尺寸。"
+
+#: ../visualtour16.php:289
+msgid ""
+"The new \"TIMING\" option of \"EXPLAIN\" is available in the query tool."
+msgstr ""
+
+#: ../visualtour16.php:206
+msgid ""
+"The new \"leakproof\" option on functions is available in the \"Options\" "
+"tab:"
+msgstr ""
+
+#: ../visualtour16.php:198
+msgid ""
+"The new \"security_barrier\" option on views is available in the \"Definition"
+"\" tab:"
+msgstr ""
 
 #: ../visualtour12.php:320
 msgid ""
@@ -2697,6 +2994,10 @@ msgstr "一些被提议的简单策略："
 msgid "The query tool"
 msgstr "查询工具"
 
+#: ../visualtour16.php:42
+msgid "The remaining tabs allow a deeper customization of the import."
+msgstr ""
+
 #: ../visualtour12.php:250
 msgid "The restore dialog has been completely redesigned."
 msgstr "完全重新设计“恢复”对话框。"
@@ -2705,6 +3006,12 @@ msgstr "完全重新设计“恢复”对话框。"
 msgid ""
 "The second and third tabs give you all the options available via pg_dump."
 msgstr "第二和第三个标签给出了所有pg_dump选项。"
+
+#: ../visualtour16.php:36
+msgid ""
+"The second tab contains the list of the columns for this table. The user can "
+"choose the columns available in the file."
+msgstr ""
 
 #: ../visualtour14.php:124
 msgid ""
@@ -2777,6 +3084,12 @@ msgid ""
 msgstr ""
 "类型属性对话框支持修改现有复合类型和枚举类型的新语法，也支持新的定序规则特"
 "性，从截图中能看到这些新信息："
+
+#: ../visualtour16.php:178
+msgid ""
+"The user can validate the constraint, either with the properties dialog, or "
+"with a contextual menu item called \"Validate check constraint\"."
+msgstr ""
 
 #: ../support/list.php:14
 msgid ""
@@ -2975,6 +3288,10 @@ msgid ""
 "development cycle for release in version %s of pgAdmin."
 msgstr "这个开发计划概述了希望在%s版本开发周期内为发布%s版本而需要完成的工作。"
 
+#: ../visualtour16.php:98
+msgid "This should resolve this long-lasting issue."
+msgstr ""
+
 #: ../privacypolicy.php:24
 msgid ""
 "This website uses Google Analytics, a web analytics service provided by "
@@ -3076,17 +3393,22 @@ msgstr ""
 "单击图片可以看到完整的屏幕截图，除了本章节使用的图片以外，还可以在<a href="
 "\"%s\">在线文档</a>中找到其他截图。"
 
-#: ../menu.php:10
+#: ../menu.php:11
 msgid "Tour (1.10)"
 msgstr "教程(1.10)"
 
-#: ../menu.php:9
+#: ../menu.php:10
 msgid "Tour (1.12)"
 msgstr "教程(1.12)"
 
-#: ../menu.php:8
+#: ../menu.php:9
 msgid "Tour (1.14)"
 msgstr "教程(1.14)"
+
+#: ../menu.php:8
+#, fuzzy
+msgid "Tour (1.16)"
+msgstr "教程(1.10)"
 
 #: ../include/po_status.php:257
 msgid "Translated"
@@ -3141,7 +3463,7 @@ msgstr "类型"
 msgid "Type properties"
 msgstr "类型属性"
 
-#: ../features.php:92
+#: ../features.php:92 ../visualtour16.php:211
 msgid "Types"
 msgstr "类型"
 
@@ -3201,7 +3523,7 @@ msgstr ""
 msgid "Very fast datagrid for display/entry of data"
 msgstr "用来显示存取数据的快速数据表格"
 
-#: ../features.php:94
+#: ../features.php:94 ../visualtour16.php:195
 msgid "Views"
 msgstr "视图"
 
@@ -3350,6 +3672,10 @@ msgstr ""
 "内容、定制网页版面、出于技术和支持目的进行联系，除非法律要求，我们不会与其他"
 "人分享你的邮件地址。"
 
+#: ../visualtour16.php:192
+msgid "We think it's easier that way."
+msgstr ""
+
 #: ../visualtour.php:271
 msgid ""
 "When clicked, the psql console is launched and connects\n"
@@ -3464,6 +3790,10 @@ msgstr "也可以查看超级用户最后一次重载配置的时间。"
 msgid "all fields of the new pg_stat_database_conflicts view."
 msgstr "新视图pg_stat_database_conflicts中的所有字段。"
 
+#: ../visualtour16.php:283
+msgid "and the restore window:"
+msgstr ""
+
 #: ../visualtour14.php:278 ../visualtour14.php:301
 msgid "first tab"
 msgstr "第一个标签页"
@@ -3499,7 +3829,7 @@ msgstr ""
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
 #: ../include/doc.php:33 ../include/doc.php:39 ../include/doc.php:45
-#: ../include/doc.php:51
+#: ../include/doc.php:51 ../include/doc.php:57
 #, php-format
 msgid "pgAdmin %s online documentation"
 msgstr "pgAdmin %s在线文档"
@@ -3653,6 +3983,31 @@ msgstr ""
 "\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://www."
 "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.4安装程序</a>。"
 
+#: ../visualtour16.php:5 ../visualtour16.php:7
+#, fuzzy
+msgid "pgAdmin 1.16 Visual Tour"
+msgstr "pgAdmin1.10 视觉教程"
+
+#: ../visualtour16.php:166
+msgid ""
+"pgAdmin 1.16 allows the modification of the fillfactor property on an "
+"existing index."
+msgstr ""
+
+#: ../visualtour16.php:256
+msgid ""
+"pgAdmin 1.16 allows the renaming of Foreign Data Wrappers and Foreign "
+"Servers if the user is connected to a 9.2 PostgreSQL server."
+msgstr ""
+
+#: ../visualtour16.php:154
+msgid ""
+"pgAdmin 1.16 allows the user to add OIDs to an existing table with the \"Has "
+"OIDs\" checkbox. It only works if the user is connected to a Postgres 8.4 or "
+"later server. It also allows the change of the fillfactor property on an "
+"existing table."
+msgstr ""
+
 #: ../index.php:16
 #, fuzzy
 msgid ""
@@ -3670,6 +4025,13 @@ msgstr ""
 "href=\"download\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href="
 "\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 beta 1 "
 "Installer</a>。"
+
+#: ../visualtour16.php:94
+msgid ""
+"pgAdmin 1.16 refreshes the node when the user clicks on it. This means it "
+"will try to find new objects if the user clicks on a parent node, and new "
+"properties if the user clicks on an object node."
+msgstr ""
 
 #: ../translation/index.php:10
 #, php-format
@@ -3700,6 +4062,13 @@ msgstr "pgAdmin文档"
 msgid "pgAdmin III: PostgreSQL Tools"
 msgstr "pgAdmin III：PostgreSQL工具"
 
+#: ../visualtour16.php:270
+msgid ""
+"pgAdmin already allowed users to configure parameters for a role/database "
+"pair in the database properties dialog. Now, it's also possible to do it in "
+"the role properties dialog:"
+msgstr ""
+
 #: ../screenshots/ui.php:12
 msgid ""
 "pgAdmin can connect to any PostgreSQL 7.3/7.4 and 8.x database using the "
@@ -3709,6 +4078,12 @@ msgid ""
 msgstr ""
 "pgAdmin使用嵌入式本地化libpq库连接到PostgreSQL 7.3/7.4以及8.x数据库，不需要任"
 "何ODBC、.net或者JDBC层。配置服务器端时，允许使用加密密码和SSL认证。"
+
+#: ../visualtour16.php:262
+msgid ""
+"pgAdmin didn't have a way to input the inline function for a language. It's "
+"now available in the \"Definition\" tab:"
+msgstr ""
 
 #: ../visualtour14.php:290
 msgid ""
@@ -3956,7 +4331,7 @@ msgstr "pgAdmin III：开发 - 工作计划列表"
 msgid "pgAdmin: Documentation"
 msgstr "pgAdmin文档"
 
-#: ../include/doc.php:93
+#: ../include/doc.php:99
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
 msgstr "pgAdmin：文档 - 无法找到文档标题！"
 
@@ -4102,6 +4477,10 @@ msgstr ""
 #: ../visualtour14.php:282 ../visualtour14.php:305
 msgid "second tab"
 msgstr "第二个标签页"
+
+#: ../visualtour16.php:282
+msgid "the backup window:"
+msgstr ""
 
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
@@ -5327,9 +5706,6 @@ msgstr "最近重置统计信息的时间；"
 #~ "Position the cursor at the error position when an error occurs in the "
 #~ "Query Tool. Ensure the line is visible."
 #~ msgstr "查询工具中发生错误时，将光标移动到错误位置，确保该行可见。"
-
-#~ msgid "PostgreSQL 8.2 support:"
-#~ msgstr "PostgreSQL 8.2支持："
 
 #~ msgid ""
 #~ "Pre-encrypt passwords before sending them down the wire, or displaying "

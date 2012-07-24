@@ -24,33 +24,33 @@ $PAGE_CONTENT = '
   ' . _("A new import tool has been added to the browser. A right-click on a table shows a new menu item, named \"Import...\".") . '
 </p>
 
-<img src="importtool_1.png"/>
+<img src="images/visualtour14/importtool_1.png"/>
 
 <p>
   ' . _("Once clicked, it opens a new dialog. This dialog allows the user to select a file, specify its format (text, csv, or binary), and its encoding.") . '
 </p>
 
-<img src="importtool_2.png"/>
+<img src="images/visualtour14/importtool_2.png"/>
 
 <p>
   ' . _("The second tab contains the list of the columns for this table. The user can choose the columns available in the file.") . '
 </p>
 
-<img src="importtool_3.png"/>
+<img src="images/visualtour14/importtool_3.png"/>
 
 <p>
   ' . _("The remaining tabs allow a deeper customization of the import.") . '
 </p>
 
-<img src="importtool_4.png"/>
-<img src="importtool_5.png"/>
-<img src="importtool_6.png"/>
+<img src="images/visualtour14/importtool_4.png"/>
+<img src="images/visualtour14/importtool_5.png"/>
+<img src="images/visualtour14/importtool_6.png"/>
 
 <p>
   ' . _("Once the user clicks the \"Import\" button, the import process will take place. A widget will show the progress of the import:") . '
 </p>
 
-<img src="importtool_7.png"/>
+<img src="images/visualtour14/importtool_7.png"/>
 
 <p>
   ' . _("And once the import is done, the \"Import\" button is changed in a \"Done\" button. A click on it will dismiss the window.") . '
@@ -62,19 +62,19 @@ $PAGE_CONTENT = '
   ' . _("It is sometimes useful to be able to find an object by its name. So there is now a way to search for objects by name within pgAdmin. The database context menu has a new item: \"Search objects...\".") . '
 </p>
 
-<img src="searchobject_1.png"/>
+<img src="images/visualtour14/searchobject_1.png"/>
 
 <p>
   ' . _("If a user selects this item, pgAdmin will open a new window where the user can type a pattern, and select the type of the object he's looking for. Then a simple click on the \"Find\" button will start the search.") . '
 </p>
 
-<img src="searchobject_2.png"/>
+<img src="images/visualtour14/searchobject_2.png"/>
 
 <p>
   ' . _("All the results will appear in the table below. A double-click on an object will select the object in the browser, so that the user can continue his work on this object.") . '
 </p>
 
-<img src="searchobject_3.png"/>
+<img src="images/visualtour14/searchobject_3.png"/>
 
 <h3>' . _("Modifying the schema of an object") . '</h3>
 
@@ -82,7 +82,7 @@ $PAGE_CONTENT = '
   ' . _("In older releases, a user couldn't change the schema of an object with the properties dialog. pgAdmin 1.16 allows that. All objects belonging to a schema have a new widget allowing the user to modify the schema :") . '
 </p>
 
-<img src="schemachange.png"/>
+<img src="images/visualtour14/schemachange.png"/>
 
 <h3>' . _("Refresh objects automatically when clicked") . '</h3>
 
@@ -104,7 +104,7 @@ $PAGE_CONTENT = '
   ' . _("The Options window has been completely redesigned so that it will allow us to put more options into it. There is now a treeview on the left part of the window. This treeview lets the user choose what kind of options he wants to set:") . '
 </p>
 
-<img src="optionswindow.png"/>
+<img src="images/visualtour14/optionswindow.png"/>
 
 <h3>' . _("Security labels support") . '</h3>
 
@@ -112,13 +112,13 @@ $PAGE_CONTENT = '
   ' . _("Security labels are available since PostgreSQL 9.1. Unfortunately, pgAdmin didn't support them, but the 1.16 release will fix that. Security labels are handled via a new tab in each local object:") . '
 </p>
 
-<img src="seclabels_1.png"/>
+<img src="images/visualtour14/seclabels_1.png"/>
 
 <p>
   ' . _("It works also on shared objects, such as databases and roles since PostgreSQL 9.2:") . '
 </p>
 
-<img src="seclabels_2.png"/>
+<img src="images/visualtour14/seclabels_2.png"/>
 
 <h2>' . _("Object properties") . '</h2>
 
@@ -128,7 +128,7 @@ $PAGE_CONTENT = '
   ' . _("PostgreSQL 9.2 offers a new connection option for SSL connections. It is called the \"sslcompression\" option. It's enabled by default, but users can disable it if they want. This option is available in the \"SSL\" tab:") . '
 </p>
 
-<img src="serverprops_1.png"/>
+<img src="images/visualtour14/serverprops_1.png"/>
 
 <h3>' . _("Databases") . '</h3>
 
@@ -136,7 +136,7 @@ $PAGE_CONTENT = '
   ' . _("PostgreSQL 9.2 offers two new statistics (blocks read, and write time) in the catalog \"pg_stat_database\", and so does pgAdmin 1.16 on its \"Statistics\" tab for databases:") . '
 </p>
 
-<img src="databasestats_1.png"/>
+<img src="images/visualtour14/databasestats_1.png"/>
 
 <h3>' . _("Tables") . '</h3>
 
@@ -144,7 +144,7 @@ $PAGE_CONTENT = '
   ' . _("A new tab is available to copy the structure of another table:") . '
 </p>
 
-<img src="table_1.png"/>
+<img src="images/visualtour14/table_1.png"/>
 
 <p>
   ' . _("It's just an interface around the \"CREATE TABLE ... LIKE ...\" statement.") . '
@@ -158,7 +158,7 @@ $PAGE_CONTENT = '
   ' . _("A truncate menu item has been added to the table contextual menu:") . '
 </p>
 
-<img src="table_2.png"/>
+<img src="images/visualtour14/table_2.png"/>
 
 <h3>' . _("Indexes") . '</h3>
 
@@ -172,7 +172,7 @@ $PAGE_CONTENT = '
   ' . _("PostgreSQL 9.2 allows the creation of \"non valid\" check constraints. pgAdmin offers that option in the \"Definition\" tab:") . '
 </p>
 
-<img src="constraintprops_1.png"/>
+<img src="images/visualtour14/constraintprops_1.png"/>
 
 <p>
   ' . _("The user can validate the constraint, either with the properties dialog, or with a contextual menu item called \"Validate check constraint\".") . '
@@ -183,10 +183,10 @@ $PAGE_CONTENT = '
 </p>
 
 <p>
-  ' . _("On the foreign key properties dialog, the \"References\" table textbox has been moved to the third tab (""):") . '
+  ' . _("On the foreign key properties dialog, the \"References\" table textbox has been moved to the third tab:") . '
 </p>
 
-<img src="constraintprops_2.png"/>
+<img src="images/visualtour14/constraintprops_2.png"/>
 
 <p>
   ' . _("We think it's easier that way.") . '
@@ -198,7 +198,7 @@ $PAGE_CONTENT = '
   ' . _("The new \"security_barrier\" option on views is available in the \"Definition\" tab:") . '
 </p>
 
-<img src="viewprops.png"/>
+<img src="images/visualtour14/viewprops.png"/>
 
 <h3>' . _("Functions") . '</h3>
 
@@ -206,7 +206,7 @@ $PAGE_CONTENT = '
   ' . _("The new \"leakproof\" option on functions is available in the \"Options\" tab:") . '
 </p>
 
-<img src="functionprops.png"/>
+<img src="images/visualtour14/functionprops.png"/>
 
 <h3>' . _("Types") . '</h3>
 
@@ -215,28 +215,28 @@ $PAGE_CONTENT = '
 </p>
 
 <ul>
-  <li>' . _("The "Required" tab:") . '<br/><img src="typeprops_1.png"/></li>
-  <li>' . _("The "Optional 1" tab:") . '<br/><img src="typeprops_2.png"/></li>
-  <li>' . _("The "Optional 2" tab:") . '<br/><img src="typeprops_3.png"/></li>
+  <li>' . _("The "Required" tab:") . '<br/><img src="images/visualtour14/typeprops_1.png"/></li>
+  <li>' . _("The "Optional 1" tab:") . '<br/><img src="images/visualtour14/typeprops_2.png"/></li>
+  <li>' . _("The "Optional 2" tab:") . '<br/><img src="images/visualtour14/typeprops_3.png"/></li>
 </ul>
 
 <p>
   ' . _("PostgreSQL 9.2 adds privileges to types objects, and pgAdmin 1.16 allows to set these privileges.") . '
 </p>
 
-<img src="typeprops_4.png"/>
+<img src="images/visualtour14/typeprops_4.png"/>
 
 <p>
   ' . _("One of the main feature of PostgreSQL 9.2, the range type, is also supported by pgAdmin 1.16. To add a new range type, select it on the \"Type\" tab:") . '
 </p>
 
-<img src="typeprops_5.png"/>
+<img src="images/visualtour14/typeprops_5.png"/>
 
 <p>
   ' . _("And then set its properties in the \"Definition\" tab:") . '
 </p>
 
-<img src="typeprops_6.png"/>
+<img src="images/visualtour14/typeprops_6.png"/>
 
 <h3>' . _("Domains") . '</h3>
 
@@ -262,7 +262,7 @@ $PAGE_CONTENT = '
   ' . _("pgAdmin didn't have a way to input the inline function for a language. It's now available in the \"Definition\" tab:") . '
 </p>
 
-<img src="languageprops.png"/>
+<img src="images/visualtour14/languageprops.png"/>
 
 <h3>' . _("Roles") . '</h3>
 
@@ -270,7 +270,7 @@ $PAGE_CONTENT = '
   ' . _("pgAdmin already allowed users to configure parameters for a role/database pair in the database properties dialog. Now, it's also possible to do it in the role properties dialog:") . '
 </p>
 
-<img src="roleprops.png"/>
+<img src="images/visualtour14/roleprops.png"/>
 
 <h2>' . _("Backup/Restore tools") . '</h2>
 
@@ -279,8 +279,8 @@ $PAGE_CONTENT = '
 </p>
 
 <ul>
-  <li>' . _("the backup window:") . '<br/><img src="backup.png"/></li>
-  <li>' . _("and the restore window:") . '<br/><img src="restore.png"/></li>
+  <li>' . _("the backup window:") . '<br/><img src="images/visualtour14/backup.png"/></li>
+  <li>' . _("and the restore window:") . '<br/><img src="images/visualtour14/restore.png"/></li>
 </ul>
 
 <h2>' . _("Query tool") . '</h2>
@@ -295,7 +295,7 @@ $PAGE_CONTENT = '
   ' . _("The \"pg_stat_activity\" view has two new columns: state, and state_change columns. pgAdmin 1.16 displays them in the Activity report of the server status tool if the user is connected on a PostgreSQL 9.2 server:") . '
 </p>
 
-<img src="serverstatus.png"/>
+<img src="images/visualtour14/serverstatus.png"/>
 
 <p>
   ' . _("And note that the timestamp columns skip the microsecond part.") . '
@@ -307,7 +307,7 @@ $PAGE_CONTENT = '
   ' . _("The \"Maintenance\"  tool has a new action: cluster.") . '
 </p>
 
-<img src="cluster.png"/>
+<img src="images/visualtour14/cluster.png"/>
 
 <h2>' . _("Miscellanous") . '</h2>
 

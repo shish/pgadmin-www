@@ -215,9 +215,9 @@ $PAGE_CONTENT = '
 </p>
 
 <ul>
-  <li>' . _("The "Required" tab:") . '<br/><img src="images/visualtour14/typeprops_1.png"/></li>
-  <li>' . _("The "Optional 1" tab:") . '<br/><img src="images/visualtour14/typeprops_2.png"/></li>
-  <li>' . _("The "Optional 2" tab:") . '<br/><img src="images/visualtour14/typeprops_3.png"/></li>
+  <li>' . _("The \"Required\" tab:") . '<br/><img src="images/visualtour14/typeprops_1.png"/></li>
+  <li>' . _("The \"Optional 1\" tab:") . '<br/><img src="images/visualtour14/typeprops_2.png"/></li>
+  <li>' . _("The \"Optional 2\" tab:") . '<br/><img src="images/visualtour14/typeprops_3.png"/></li>
 </ul>
 
 <p>

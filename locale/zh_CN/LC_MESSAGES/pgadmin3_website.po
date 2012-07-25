@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-24 22:19+0200\n"
+"POT-Creation-Date: 2012-07-25 21:54+0200\n"
 "PO-Revision-Date: 2011-08-23 19:18+0800\n"
 "Last-Translator: \n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -1639,7 +1639,7 @@ msgstr ""
 #: ../visualtour16.php:186
 msgid ""
 "On the foreign key properties dialog, the \"References\" table textbox has "
-"been moved to the third tab ("
+"been moved to the third tab:"
 msgstr ""
 
 #: ../visualtour16.php:30
@@ -2418,10 +2418,6 @@ msgstr "开发组"
 msgid "Tearable tabsets"
 msgstr "可分离标签页"
 
-#: ../visualtour16.php:218 ../visualtour16.php:219 ../visualtour16.php:220
-msgid "The "
-msgstr ""
-
 #: ../visualtour16.php:214
 msgid ""
 "The \"Definition\" tab has changed for external type. It now contains "
@@ -2431,6 +2427,18 @@ msgstr ""
 
 #: ../visualtour16.php:307
 msgid "The \"Maintenance\"  tool has a new action: cluster."
+msgstr ""
+
+#: ../visualtour16.php:219
+msgid "The \"Optional 1\" tab:"
+msgstr ""
+
+#: ../visualtour16.php:220
+msgid "The \"Optional 2\" tab:"
+msgstr ""
+
+#: ../visualtour16.php:218
+msgid "The \"Required\" tab:"
 msgstr ""
 
 #: ../visualtour16.php:295

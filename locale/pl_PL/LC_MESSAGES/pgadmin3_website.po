@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-25 21:54+0200\n"
-"PO-Revision-Date: 2012-06-07 23:15+0200\n"
+"PO-Revision-Date: 2012-07-27 21:54+0200\n"
 "Last-Translator: Begina Felicysym <begina.felicysym@wp.eu>\n"
 "Language-Team: Begina Felicysym\n"
 "Language: pl\n"
@@ -45,7 +45,7 @@ msgstr "%s - wydany pgAdmin v%s"
 
 #: ../include/doc.php:51
 msgid "1.16"
-msgstr ""
+msgstr "1.16"
 
 #: ../download/adminpacks.php:13
 #, php-format
@@ -251,10 +251,14 @@ msgid ""
 "A new import tool has been added to the browser. A right-click on a table "
 "shows a new menu item, named \"Import...\"."
 msgstr ""
+"Do przeglądarki zostało dodane nowe narzędzie importu. Prawoklik na tabeli "
+"pokazuje element menu o nazwie \"Importuj...\"."
 
 #: ../visualtour16.php:144
 msgid "A new tab is available to copy the structure of another table:"
 msgstr ""
+"Dostępna jest nowa zakładka przeznaczona do kopiowania struktury z innej "
+"tabeli:"
 
 #: ../screenshots/data.php:14
 msgid ""
@@ -277,7 +281,7 @@ msgstr ""
 
 #: ../visualtour16.php:158
 msgid "A truncate menu item has been added to the table contextual menu:"
-msgstr ""
+msgstr "Dodano element menu obetnij do menu kontekstowego tabeli:"
 
 #: ../features.php:109
 msgid "ALT"
@@ -297,7 +301,7 @@ msgstr ""
 
 #: ../visualtour16.php:316
 msgid "Add compatibility with wxWidgets 2.9,"
-msgstr ""
+msgstr "Dodanie zgodności z wxWidgets 2.9,"
 
 #: ../visualtour.php:337
 msgid "Add more index stats"
@@ -351,7 +355,7 @@ msgstr "Agregaty"
 
 #: ../visualtour16.php:250
 msgid "Aggregates finally have privilege support."
-msgstr ""
+msgstr "Agregaty mają w końcu obsługę uprawnień."
 
 #: ../visualtour14.php:16
 msgid ""
@@ -380,6 +384,9 @@ msgid ""
 "will select the object in the browser, so that the user can continue his "
 "work on this object."
 msgstr ""
+"Wszystkie wyniki zostaną pokazane w tabeli poniżej. Dwuklik na obiekcie "
+"wybierze obiekt w przeglądarce, by użytkownik mógł dalej pracować na tym "
+"obiekcie."
 
 #: ../visualtour.php:350
 msgid ""
@@ -468,16 +475,19 @@ msgstr ""
 #: ../visualtour16.php:301
 msgid "And note that the timestamp columns skip the microsecond part."
 msgstr ""
+"I zauważ, że w kolumnach ze znacznikiem czasowym pominięto mikrosekundy."
 
 #: ../visualtour16.php:56
 msgid ""
 "And once the import is done, the \"Import\" button is changed in a \"Done\" "
 "button. A click on it will dismiss the window."
 msgstr ""
+"A gdy już import zostanie wykonany, przycisk \"Importuj\" zostanie zmieniony w "
+"przycisk \"Wykonano\". Wciśnięcie go zamyka okno."
 
 #: ../visualtour16.php:236
 msgid "And then set its properties in the \"Definition\" tab:"
-msgstr ""
+msgstr "A następnie ustawia jego właściwości w zakładce \"Definicja\":"
 
 #: ../visualtour12.php:71
 msgid ""
@@ -536,6 +546,10 @@ msgid ""
 "supports all PostgreSQL 9.2 new features, while remaining compatible with "
 "all PostgreSQL releases starting from 8.2."
 msgstr ""
+"Zwykle nowe wydanie pgAdmin ma na celu pełną zgodność z nowym wydaniem "
+"PostgreSQL. To wydanie nie jest wyjątkiem: pgAdmin 1.16 obsługuje wszystkie "
+"nowe funkcje PostgreSQL 9.2, przy zachowaniu pełnej zgodności ze wszystkimi "
+"wersjami PostgreSQL począwszy od 8.2."
 
 #: ../visualtour.php:355
 msgid "Auto-discover Postgres Plus servers on Mac and Unix"
@@ -559,9 +573,8 @@ msgid "Backup and restore tools"
 msgstr "Narzędzia tworzenia odtwarzania z kopii zapasowej"
 
 #: ../visualtour16.php:275
-#, fuzzy
 msgid "Backup/Restore tools"
-msgstr "Narzędzia tworzenia odtwarzania z kopii zapasowej"
+msgstr "Narzędzia tworzenia/odtwarzania z kopii zapasowej"
 
 #: ../index.php:18
 msgid ""
@@ -988,6 +1001,11 @@ msgid ""
 "PostgreSQL <a href=\"%s\">yum repository</a>, Debian <a href=\"%s"
 "\">backports</a> or the Ubuntu <a href=\"%s\">PPA</a>."
 msgstr ""
+"Na koniec pgAdmin jest dodawany do większości dystrybucji Linux, jak RedHat, "
+"Fedora, Debian and Ubuntu. Jeśli życzysz sobie innej wersji niż dostarczana "
+"z dystrybucją, możesz uzyć kanałów takich jak <a href=\"%s\">repositorium "
+"yum</a> PostgreSQL, <a href=\"%s\">backporty</a> Debiana lub <a href=\"%"
+"s\">PPA</a> Ubuntu."
 
 #: ../visualtour12.php:244
 msgid ""
@@ -1178,6 +1196,9 @@ msgid ""
 "can type a pattern, and select the type of the object he's looking for. Then "
 "a simple click on the \"Find\" button will start the search."
 msgstr ""
+"Gdy użytkownik wybierze ten element, pgAdmin otworzy nowe okno gdzie "
+"użytkownik może wpisać wzorzec i wybrać typ obiektu do znalezienia. Wtedy "
+"wciśnięcie przycisku \"Znajdź\" rozpocznie wyszukiwanie."
 
 #: ../development/index.php:14
 #, php-format
@@ -1282,6 +1303,9 @@ msgid ""
 "properties dialog. pgAdmin 1.16 allows that. All objects belonging to a "
 "schema have a new widget allowing the user to modify the schema :"
 msgstr ""
+"W starszych wersjach użytkownik nie mógł zmienić schematu obiektu w oknie "
+"właściwości. pgAdmin 1.16 daje taką możliwość. Wszystkie obiekty należące do "
+"schematu mają widżet pozwalający użytkownikowi zmienić schemat:"
 
 #: ../translation/howto.php:40
 msgid ""
@@ -1381,6 +1405,9 @@ msgid ""
 "now a way to search for objects by name within pgAdmin. The database context "
 "menu has a new item: \"Search objects...\"."
 msgstr ""
+"Czasem użyteczne jest wyszukanie obiektu po nazwie. Dlatego wprowadzono w "
+"pgAdmin możliwość wyszukiwania obiektów. Kontekstowe menu bazy danych "
+"posiada nowy element: \"Wyszukaj obiekty...\"."
 
 #: ../visualtour.php:294
 msgid ""
@@ -1407,10 +1434,14 @@ msgid ""
 "It works also on shared objects, such as databases and roles since "
 "PostgreSQL 9.2:"
 msgstr ""
+"Działa to również na obiektach współdzielonych, jak bazy danych i role od "
+"PostgreSQL 9.2:"
 
 #: ../visualtour16.php:182
 msgid "It's also possible to add invalid check constraints to a domain."
 msgstr ""
+"Możliwe jest również dodanie niepoprawnego ograniczenia sprawdzającego do "
+"domeny."
 
 #: ../advocacy/index.php:13
 #, php-format
@@ -1427,6 +1458,8 @@ msgstr ""
 msgid ""
 "It's just an interface around the \"CREATE TABLE ... LIKE ...\" statement."
 msgstr ""
+"To po prostu interfejs do wykorzystania deklaracji \"CREATE TABLE ... LIKE "
+"...\"."
 
 #: ../features.php:102
 msgid "JOHAB"
@@ -1573,9 +1606,8 @@ msgid "Maintenance dialogs"
 msgstr "Okna dialogowe porządkowania"
 
 #: ../visualtour16.php:304
-#, fuzzy
 msgid "Maintenance tool"
-msgstr "Porządkowanie"
+msgstr "Narzędzie porządkowania"
 
 #: ../visualtour16.php:13 ../visualtour.php:16
 msgid "Major new features"
@@ -1624,7 +1656,7 @@ msgstr "Pozostałe"
 
 #: ../visualtour16.php:79
 msgid "Modifying the schema of an object"
-msgstr ""
+msgstr "Zmiana schematu obiektu"
 
 #: ../visualtour12.php:168
 msgid ""
@@ -1680,9 +1712,8 @@ msgid "Native PostgreSQL acccess (no ODBC layer needed)"
 msgstr "Natywny dostęp PostgreSQL (niepotrzebna warstwa ODBC)"
 
 #: ../visualtour16.php:317
-#, fuzzy
 msgid "New documentation system."
-msgstr "Dokumentacja"
+msgstr "Nowy system dokumentacji."
 
 #: ../visualtour.php:156
 msgid ""
@@ -1700,7 +1731,7 @@ msgstr ""
 
 #: ../visualtour16.php:21
 msgid "New import tool"
-msgstr ""
+msgstr "Nowe narzędzie importu"
 
 #: ../development/roadmap.php:32
 msgid "New options dialog [GL]"
@@ -1797,18 +1828,24 @@ msgid ""
 "On the foreign key properties dialog, the \"References\" table textbox has "
 "been moved to the third tab:"
 msgstr ""
+"W oknie właściwości klucza obcego pole tekstowe tabeli \"Odniesienia\" zostały "
+"przeniesione do trzeciej zakładki:"
 
 #: ../visualtour16.php:30
 msgid ""
 "Once clicked, it opens a new dialog. This dialog allows the user to select a "
 "file, specify its format (text, csv, or binary), and its encoding."
 msgstr ""
+"Po kliknięciu otwiera nowe okno. To okno pozwala użytkownikowi wybrać plik, "
+"wskazać jego format (tekst, csv, or binarny), oraz kodowanie."
 
 #: ../visualtour16.php:50
 msgid ""
 "Once the user clicks the \"Import\" button, the import process will take "
 "place. A widget will show the progress of the import:"
 msgstr ""
+"Po kliknięciu przycisku \"Import\" przez użytkownika, zostanie wykonany proces "
+"importu. Widżet pokaże postęp importowania:"
 
 #: ../visualtour12.php:268
 msgid ""
@@ -1829,6 +1866,10 @@ msgid ""
 "there might have been some schema updates on the database - and some changes "
 "may get lost because of this."
 msgstr ""
+"Jednym z poważniejszych problemów w pgAdminie jest to, że nie wie on kiedy "
+"obiekty zmieniono w tle. Użytkownik musi odświeżyć przeglądarkę za każdym "
+"razem gdy podejrzewa, że mogły nastąpić modyfikacje schematu w bazie danych "
+"- a przez to mogą zostać utracone pewne zmiany."
 
 #: ../visualtour.php:225
 msgid "One can now change a <b>language's owner</b>."
@@ -1839,6 +1880,9 @@ msgid ""
 "One of the main feature of PostgreSQL 9.2, the range type, is also supported "
 "by pgAdmin 1.16. To add a new range type, select it on the \"Type\" tab:"
 msgstr ""
+"Jedną z podstawowych funkcji PostgreSQL 9.2, typ przedziału, jest również "
+"obsługiwany przez pgAdmin 1.16. By dodać nowy typ przedziału, wybierz go w "
+"zakładce \"Typ\":"
 
 #: ../visualtour14.php:379
 msgid ""
@@ -2133,12 +2177,16 @@ msgid ""
 "PostgreSQL 9.2 adds privileges to types objects, and pgAdmin 1.16 allows to "
 "set these privileges."
 msgstr ""
+"PostgreSQL 9.2 dodaje uprawnienia do obiektów typów, a pgAdmin 1.16 pozwala "
+"ustawić te uprawnienia."
 
 #: ../visualtour16.php:172
 msgid ""
 "PostgreSQL 9.2 allows the creation of \"non valid\" check constraints. "
 "pgAdmin offers that option in the \"Definition\" tab:"
 msgstr ""
+"PostgreSQL 9.2 pozwala na tworzenie \"niepoprawnych\" ograniczeń "
+"sprawdzających. pgAdmin daje taką możliwość w zakładce \"Definicja\":"
 
 #: ../visualtour16.php:128
 msgid ""
@@ -2146,12 +2194,17 @@ msgid ""
 "called the \"sslcompression\" option. It's enabled by default, but users can "
 "disable it if they want. This option is available in the \"SSL\" tab:"
 msgstr ""
+"PostgreSQL 9.2 daje nową możliwość dla połączeń SSL. Nazywa się ona opcją "
+"\"sslcompression\". Domyślnie jest ona włączona, jednak użytkownik może "
+"zablokować ją jak chce. Opcja ta jest dostępna w zakładce \"SSL\":"
 
 #: ../visualtour16.php:278
 msgid ""
 "PostgreSQL 9.2 offers a new option for its pg_dump/pg_restore tools, called "
 "section. pgAdmin allows its use through:"
 msgstr ""
+"PostgreSQL 9.2 dodaje nową opcję dopoleceń pg_dump/pg_restore tools, zwaną "
+"section. pgAdmin pozwala na jej użycie przez:"
 
 #: ../visualtour16.php:136
 msgid ""
@@ -2159,11 +2212,13 @@ msgid ""
 "the catalog \"pg_stat_database\", and so does pgAdmin 1.16 on its "
 "\"Statistics\" tab for databases:"
 msgstr ""
+"PostgreSQL 9.2 dodaje dwie statystyki (czas odczytu i zapisu bloku) w "
+"katalogu \"pg_stat_database\", i tak samo pgAdmin 1.16 w zakładki \"Statystyki\" "
+"dla baz danych:"
 
 #: ../visualtour16.php:15
-#, fuzzy
 msgid "PostgreSQL 9.2 support"
-msgstr "Pełna obsługa 9.2"
+msgstr "Pełna obsługa PostgreSQL 9.2"
 
 #: ../development/roadmap.php:13
 msgid "PostgreSQL compatibility"
@@ -2198,6 +2253,8 @@ msgid ""
 "Prevent dropping connection, dropping and refreshing object when a "
 "properties dialog is open,"
 msgstr ""
+"Zapobiega gubieniu połączenia, odrzucając i odświeżając obiekt podczas "
+"otwarcia okna właściwości."
 
 #: ../visualtour14.php:48
 msgid ""
@@ -2214,6 +2271,10 @@ msgid ""
 "renaming through the \"ALTER DOMAIN\" statement in PostgreSQL 9.2, and "
 "through the \"ALTER TYPE\" statement in previous releases of PostgreSQL."
 msgstr ""
+"Poprzednie wydania pgAdmina nie pozwalały użytkownikom zmienić nazwy domeny, "
+"nawet gdy było to możliwe przy użyciu deklaracji \"ALTER TYPE\". pgAdmin 1.16 "
+"pozwala na zmianę nazwy poprzez deklarację \"ALTER DOMAIN\" w PostgreSQL 9.2 "
+"oraz \"ALTER TYPE\" w poprzednich wersjach PostgreSQL."
 
 #: ../visualtour14.php:220
 msgid ""
@@ -2285,11 +2346,11 @@ msgstr ""
 
 #: ../visualtour16.php:101
 msgid "Redesigned Options window"
-msgstr ""
+msgstr "Przeprojektowane okno Opcji"
 
 #: ../visualtour16.php:87
 msgid "Refresh objects automatically when clicked"
-msgstr ""
+msgstr "Odświeża obiekty automatycznie po kliknięciu"
 
 #: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
 #: ../docs/menu.php:11 ../docs/menu.php:12 ../docs/menu.php:13
@@ -2358,9 +2419,8 @@ msgid "Russian"
 msgstr "Rosyjski"
 
 #: ../visualtour16.php:253
-#, fuzzy
 msgid "SQL/MED objects"
-msgstr "Obiekty SQL/Med"
+msgstr "Obiekty SQL/MED"
 
 #: ../visualtour14.php:287
 msgid "SQL/Med objects"
@@ -2399,9 +2459,8 @@ msgid "Screenshots"
 msgstr "Zrzuty Ekranu"
 
 #: ../visualtour16.php:59
-#, fuzzy
 msgid "Search Objects"
-msgstr "Obiekty SQL/Med"
+msgstr "Szukaj obiektów"
 
 #: ../visualtour16.php:112
 msgid ""
@@ -2409,11 +2468,13 @@ msgid ""
 "didn't support them, but the 1.16 release will fix that. Security labels are "
 "handled via a new tab in each local object:"
 msgstr ""
+"Etykiety zabezpieczeń są dostępne od PostgreSQL 9.1. Niestety pgAdmin nie "
+"obsługiwał ich, naprawia to jednak wersja 1.16. Etykiety zabezpieczeń są "
+"zarządzane przez nową zakładkę dla każdego lokalnego obiektu:"
 
 #: ../visualtour16.php:109
-#, fuzzy
 msgid "Security labels support"
-msgstr "Obsługa pochodna baz wanych"
+msgstr "Obsługa etykiet zabezpieczeń"
 
 #: ../translation/howto.php:23
 #, php-format
@@ -2464,9 +2525,8 @@ msgid "Server status"
 msgstr "Status serwera"
 
 #: ../visualtour16.php:292
-#, fuzzy
 msgid "Server status tool"
-msgstr "Narzędzie Statusu serwera"
+msgstr "Narzędzie statusu serwera"
 
 #: ../features.php:54
 msgid "Server status/process viewer"
@@ -2477,9 +2537,8 @@ msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Języki strony serwera (np. pl/pgsql, pl/perl, pl/python, itd.)"
 
 #: ../visualtour16.php:125
-#, fuzzy
 msgid "Servers"
-msgstr "Serwer"
+msgstr "Serwery"
 
 #: ../include/page.php:117
 msgid "Simplified Chinese"
@@ -2655,22 +2714,25 @@ msgid ""
 "another set of tabs so that it allows to add three previously missing "
 "functions comboboxes (ANALYZE, CATEGORY, and PREFERED functions):"
 msgstr ""
+"ZMieniona została zakładka \"Definicja\" dla typu zewnętrznego. Zawiera ona "
+"teraz kolejny zestaw zakładek przez co pozwala dodać brakujące poprzednio "
+"pola kombo funkcji (funkcje ANALYZE, CATEGORY i PREFERED):"
 
 #: ../visualtour16.php:307
 msgid "The \"Maintenance\"  tool has a new action: cluster."
-msgstr ""
+msgstr "Narzędzie \"Porządkowanie\"  ma teraz nową akcję: klastruj."
 
 #: ../visualtour16.php:219
 msgid "The \"Optional 1\" tab:"
-msgstr ""
+msgstr "Zakładka \"Opcjonalne 1\":"
 
 #: ../visualtour16.php:220
 msgid "The \"Optional 2\" tab:"
-msgstr ""
+msgstr "Zakładka \"Opcjonalne 2\":"
 
 #: ../visualtour16.php:218
 msgid "The \"Required\" tab:"
-msgstr ""
+msgstr "Zakładka \"Wymagane\":"
 
 #: ../visualtour16.php:295
 msgid ""
@@ -2678,6 +2740,9 @@ msgid ""
 "columns. pgAdmin 1.16 displays them in the Activity report of the server "
 "status tool if the user is connected on a PostgreSQL 9.2 server:"
 msgstr ""
+"Widok \"pg_stat_activity\" ma dwie nowe kolumny: state i state_change. pgAdmin "
+"1.16 wyświetla je w raporcie Aktywność narzędzia stanu serwera jeśli "
+"użytkownik jestpołączony z serwerem PostgreSQL 9.2:"
 
 #: ../visualtour12.php:368
 msgid ""
@@ -2781,6 +2846,9 @@ msgid ""
 "window. This treeview lets the user choose what kind of options he wants to "
 "set:"
 msgstr ""
+"Okno Opcje został w pełni przeprojektowany by można w nim było zmieścić "
+"więcej opcji. Znajduje się w nim teraz widok drzewa po lewej stronie okna. "
+"Drzewo to pozwala użytkownikowi wybrać jaki rodzaj opcji chce zmieniać:"
 
 #: ../support/list.php:18
 msgid ""
@@ -3087,13 +3155,12 @@ msgstr ""
 "stabilnego wydania."
 
 #: ../visualtour16.php:10
-#, fuzzy
 msgid ""
 "The long awaited 1.16 version of pgAdmin III is finally available. We will "
 "try to highlight some of the new features which have been added since the "
 "last stable release."
 msgstr ""
-"Długo oczekiwana wersja 1.12 pgAdmin III jest nareszcie dostępna. Postaramy "
+"Długo oczekiwana wersja 1.16 pgAdmin III jest nareszcie dostępna. Postaramy "
 "się wskazać kilka nowych funkcji, które zostały dodane od ostatniego "
 "stabilnego wydania."
 
@@ -3109,18 +3176,20 @@ msgstr ""
 msgid ""
 "The new \"TIMING\" option of \"EXPLAIN\" is available in the query tool."
 msgstr ""
+"Nowa opcja \"EXPLAIN\" o nazwie \"TIMING\" jest dostępna w narzędziu zapytania."
 
 #: ../visualtour16.php:206
 msgid ""
 "The new \"leakproof\" option on functions is available in the \"Options\" "
 "tab:"
-msgstr ""
+msgstr "Nowa opcja \"szczelność\" dla funkcji jest dostępna w zakładce \"Opcje\":"
 
 #: ../visualtour16.php:198
 msgid ""
 "The new \"security_barrier\" option on views is available in the \"Definition"
 "\" tab:"
 msgstr ""
+"Nowa opcja \"security_barrier\" widoków jest dostępna w zakładce \"Definicja\":"
 
 #: ../visualtour12.php:320
 msgid ""
@@ -3305,7 +3374,7 @@ msgstr "Narzędzie zapytania"
 
 #: ../visualtour16.php:42
 msgid "The remaining tabs allow a deeper customization of the import."
-msgstr ""
+msgstr "Pozostałe zakładki pozwalają na dokładniejsze dostosowanie importu."
 
 #: ../visualtour12.php:250
 msgid "The restore dialog has been completely redesigned."
@@ -3323,6 +3392,8 @@ msgid ""
 "The second tab contains the list of the columns for this table. The user can "
 "choose the columns available in the file."
 msgstr ""
+"Druga zakładka zawiera listę kolumn dostępnych dla tej tabeli. Użytkownik "
+"może wybrać kolumny dostępne w pliku."
 
 #: ../visualtour14.php:124
 msgid ""
@@ -3413,6 +3484,9 @@ msgid ""
 "The user can validate the constraint, either with the properties dialog, or "
 "with a contextual menu item called \"Validate check constraint\"."
 msgstr ""
+"Użytkownik może sprawdzić poprawność ograniczenia albo w oknie właściwości "
+"albo poprzez element menu kontekstowego \"Sprawdzenie poprawności "
+"ograniczenia sprawdzającego\"."
 
 #: ../support/list.php:14
 msgid ""
@@ -3647,7 +3721,7 @@ msgstr ""
 
 #: ../visualtour16.php:98
 msgid "This should resolve this long-lasting issue."
-msgstr ""
+msgstr "To powinno rozwiązać ten długotrwały problem."
 
 #: ../privacypolicy.php:24
 msgid ""
@@ -3785,9 +3859,8 @@ msgid "Tour (1.14)"
 msgstr "Przewodnik (1.14)"
 
 #: ../menu.php:8
-#, fuzzy
 msgid "Tour (1.16)"
-msgstr "Przewodnik (1.10)"
+msgstr "Przewodnik (1.16)"
 
 #: ../include/po_status.php:257
 msgid "Translated"
@@ -4099,7 +4172,7 @@ msgstr ""
 
 #: ../visualtour16.php:192
 msgid "We think it's easier that way."
-msgstr ""
+msgstr "Myślimy, że w ten sposób jest prościej."
 
 #: ../visualtour.php:271
 msgid ""
@@ -4232,7 +4305,7 @@ msgstr "wszystkie pola nowego widoku pg_stat_database_conflicts."
 
 #: ../visualtour16.php:283
 msgid "and the restore window:"
-msgstr ""
+msgstr "i okno odtwarzania:"
 
 #: ../visualtour14.php:278 ../visualtour14.php:301
 msgid "first tab"
@@ -4446,21 +4519,24 @@ msgstr ""
 "który zawiera pgAdmin."
 
 #: ../visualtour16.php:5 ../visualtour16.php:7
-#, fuzzy
 msgid "pgAdmin 1.16 Visual Tour"
-msgstr "Wizualny Przewodnik po pgAdmin 1.10"
+msgstr "Wizualny Przewodnik po pgAdmin 1.16"
 
 #: ../visualtour16.php:166
 msgid ""
 "pgAdmin 1.16 allows the modification of the fillfactor property on an "
 "existing index."
 msgstr ""
+"pgAdmin 1.16 pozwala na zmianę właściwości współczynnika wypełnienia "
+"istniejącego indeksu."
 
 #: ../visualtour16.php:256
 msgid ""
 "pgAdmin 1.16 allows the renaming of Foreign Data Wrappers and Foreign "
 "Servers if the user is connected to a 9.2 PostgreSQL server."
 msgstr ""
+"pgAdmin 1.16 pozwala zmienić nazwę Opakowania Obcych Danych i Obcych "
+"Serwerów jeśli użytkownik połączył się z serwerem 9.2 PostgreSQL."
 
 #: ../visualtour16.php:154
 msgid ""
@@ -4469,6 +4545,10 @@ msgid ""
 "later server. It also allows the change of the fillfactor property on an "
 "existing table."
 msgstr ""
+"pgAdmin 1.16 pozwala dodać OIDy do istniejącej już tabeli przez pole wyboru "
+"\"Jest OID\". Działa to jeśli tylko użytkownik połączył się do serwera "
+"Postgres w wersji 8.4 lub następnych. Daje również możliwość zmiany "
+"właściwości współczynnika wypełnienia na istniejącej tabeli."
 
 #: ../index.php:16
 msgid ""
@@ -4496,6 +4576,9 @@ msgid ""
 "will try to find new objects if the user clicks on a parent node, and new "
 "properties if the user clicks on an object node."
 msgstr ""
+"pgAdmin 1.16 odświeża węzeł gdy użytkownik na niegokliknie. Oznacza to że "
+"próbuje odnaleźć nowe obiekty gdy użytkownik kliknie na węzeł nadrzędny, "
+"oraz nowe właściwości jeśli użytkownik kliknie na węzeł obiektu."
 
 #: ../translation/index.php:10
 #, php-format
@@ -4536,6 +4619,9 @@ msgid ""
 "pair in the database properties dialog. Now, it's also possible to do it in "
 "the role properties dialog:"
 msgstr ""
+"pgAdmin pozwalał już użytkownikom konfigurować parametry dla pary roli/bazy "
+"danych w oknie właściwości bazy danych. Teraz jest to możliwe również w "
+"oknie właściwości roli:"
 
 #: ../screenshots/ui.php:12
 msgid ""
@@ -4554,6 +4640,8 @@ msgid ""
 "pgAdmin didn't have a way to input the inline function for a language. It's "
 "now available in the \"Definition\" tab:"
 msgstr ""
+"pgAdmin nie miał możliwości wprowadzania funkcji inline dla języka. Jest to "
+"teraz dostępne w zakładce \"Definicja\":"
 
 #: ../visualtour14.php:290
 msgid ""
@@ -4978,7 +5066,7 @@ msgstr "druga zakładka"
 
 #: ../visualtour16.php:282
 msgid "the backup window:"
-msgstr ""
+msgstr "okno kopii zapasowej:"
 
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"

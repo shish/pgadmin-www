@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-25 21:54+0200\n"
+"POT-Creation-Date: 2012-09-11 22:15+0200\n"
 "PO-Revision-Date: 2012-07-27 21:54+0200\n"
 "Last-Translator: Begina Felicysym <begina.felicysym@wp.eu>\n"
 "Language-Team: Begina Felicysym\n"
@@ -28,17 +28,18 @@ msgstr ""
 "(Shift-F7). Możesz zablokować zachowanie auto-rollback (zwykle jeśli chcesz "
 "wycofać do poprzedniego punktu zapisu)"
 
-#: ../index.php:32
+#: ../index.php:36
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - wideo demonstracyjne pgAdmin"
 
-#: ../index.php:14
+#: ../index.php:18
 #, php-format
 msgid "%s - pgAdmin v%s available"
 msgstr "%s - dostępny pgAdmin v%s"
 
-#: ../index.php:10 ../index.php:20 ../index.php:24 ../index.php:28
+#: ../index.php:10 ../index.php:14 ../index.php:24 ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - wydany pgAdmin v%s"
@@ -66,25 +67,22 @@ msgstr "<a href=\"%s\">Pobierz pgAgent</a>"
 #: ../download/macosx.php:16 ../download/macosx.php:17
 #: ../download/macosx.php:18 ../download/macosx.php:19
 #: ../download/macosx.php:20 ../download/macosx.php:21
-#: ../download/macosx.php:22 ../download/macosx.php:23
 #: ../download/source.php:15 ../download/source.php:16
 #: ../download/source.php:17 ../download/source.php:18
 #: ../download/source.php:19 ../download/source.php:20
 #: ../download/source.php:21 ../download/source.php:22
-#: ../download/source.php:23 ../download/source.php:24
-#: ../download/source.php:25 ../download/source.php:26
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
-#: ../download/windows.php:25
+#: ../download/source.php:23 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:32 ../download/source.php:33
-#: ../download/source.php:34 ../download/source.php:35
-#: ../download/source.php:36
+#: ../download/source.php:29 ../download/source.php:30
+#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:33
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instrukcje v%s</a>"
@@ -291,7 +289,7 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "Dostęp do wszystkich obiektów PostgreSQL"
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:35
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
@@ -307,7 +305,7 @@ msgstr "Dodanie zgodności z wxWidgets 2.9,"
 msgid "Add more index stats"
 msgstr "Dodanie więcej statystyk indeksów"
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:36
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP/"
 "AV]"
@@ -482,8 +480,8 @@ msgid ""
 "And once the import is done, the \"Import\" button is changed in a \"Done\" "
 "button. A click on it will dismiss the window."
 msgstr ""
-"A gdy już import zostanie wykonany, przycisk \"Importuj\" zostanie zmieniony w "
-"przycisk \"Wykonano\". Wciśnięcie go zamyka okno."
+"A gdy już import zostanie wykonany, przycisk \"Importuj\" zostanie zmieniony "
+"w przycisk \"Wykonano\". Wciśnięcie go zamyka okno."
 
 #: ../visualtour16.php:236
 msgid "And then set its properties in the \"Definition\" tab:"
@@ -576,7 +574,7 @@ msgstr "Narzędzia tworzenia odtwarzania z kopii zapasowej"
 msgid "Backup/Restore tools"
 msgstr "Narzędzia tworzenia/odtwarzania z kopii zapasowej"
 
-#: ../index.php:18
+#: ../index.php:22
 msgid ""
 "Be careful that this is a BETA release. It's not production ready. It's "
 "available for testing purpose only."
@@ -612,7 +610,7 @@ msgstr ""
 "mogą być poza naszą kontrolą, lub mogą wymagać znacznego wysiłku w celu "
 "rozwiązania, często więcej wysiłku niż wymaga tego problem."
 
-#: ../download/source.php:29
+#: ../download/source.php:26
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -626,7 +624,7 @@ msgstr "Rzutowania"
 msgid "Change log"
 msgstr "Dziennik zmian"
 
-#: ../development/roadmap.php:24
+#: ../development/roadmap.php:23
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
@@ -634,7 +632,7 @@ msgstr ""
 "Sprawdzenie i usunięcie wszystkich niestandardowych formantów, które są "
 "obecnie realizowane w wxWidgets."
 
-#: ../development/roadmap.php:25
+#: ../development/roadmap.php:24
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "Weryfikacja użycia wxWidgets 2.9/3.0."
 
@@ -653,7 +651,7 @@ msgstr ""
 "Wybór jednej z tych dwóch opcji uruchomi narzędzie zapytania i pokaże "
 "odpowiednie zapytanie."
 
-#: ../development/roadmap.php:22
+#: ../development/roadmap.php:21
 msgid "Code housekeeping"
 msgstr "Porządkowanie kodu"
 
@@ -686,12 +684,9 @@ msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr "Skompiluj pgadmin3.po do pliku binarnego pgadmin3.mo."
 
 #: ../development/roadmap.php:15
-msgid "Complete 9.2 support"
+#, fuzzy
+msgid "Complete 9.3 support"
 msgstr "Pełna obsługa 9.2"
-
-#: ../development/roadmap.php:31
-msgid "Complete redesign of the documentation [GL]"
-msgstr "Całkowite przeprojektowanie dokumentacji [GL]"
 
 #: ../visualtour12.php:355
 msgid "Configuration"
@@ -751,7 +746,7 @@ msgstr ""
 "Trzymaj kciuki i czekaj, aż PostgreSQL stanie się bazą danych numer jeden na "
 "świecie."
 
-#: ../development/roadmap.php:33
+#: ../development/roadmap.php:30
 msgid "Custom reports in frmStatus [GL]"
 msgstr "Raporty niestandardowe w frmStatus [GL]"
 
@@ -767,7 +762,7 @@ msgstr "Dane"
 msgid "Data access"
 msgstr "Dostęp do danych"
 
-#: ../development/roadmap.php:36
+#: ../development/roadmap.php:33
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
@@ -777,10 +772,6 @@ msgstr ""
 msgid "Database"
 msgstr "Baza danych"
 
-#: ../development/roadmap.php:45
-msgid "Database designer for pgAdmin, by Luis Ochoa"
-msgstr "Projektant bazy danych dla pgAdmin, autorstwa Luisa Ochoa"
-
 #: ../screenshots/mb_i18n.php:12 ../screenshots/mb_i18n.php:18
 msgid "Database encoding selection"
 msgstr "Wybór kodowania bazy danych"
@@ -788,10 +779,6 @@ msgstr "Wybór kodowania bazy danych"
 #: ../visualtour12.php:105 ../visualtour.php:153
 msgid "Database properties"
 msgstr "Właściwości bazy danych"
-
-#: ../development/roadmap.php:46
-msgid "Database schema difference visualizer, by Adeel Khan"
-msgstr "Wizualizer różnicowy schematów bazy danych, wykonany przez Adeel Khan"
 
 #: ../features.php:66 ../visualtour16.php:133
 msgid "Databases"
@@ -1004,8 +991,8 @@ msgstr ""
 "Na koniec pgAdmin jest dodawany do większości dystrybucji Linux, jak RedHat, "
 "Fedora, Debian and Ubuntu. Jeśli życzysz sobie innej wersji niż dostarczana "
 "z dystrybucją, możesz uzyć kanałów takich jak <a href=\"%s\">repositorium "
-"yum</a> PostgreSQL, <a href=\"%s\">backporty</a> Debiana lub <a href=\"%"
-"s\">PPA</a> Ubuntu."
+"yum</a> PostgreSQL, <a href=\"%s\">backporty</a> Debiana lub <a href=\"%s"
+"\">PPA</a> Ubuntu."
 
 #: ../visualtour12.php:244
 msgid ""
@@ -1032,17 +1019,13 @@ msgstr ""
 "dodaje następnie ten punkt przywracania, ale należy pamiętać, że nie jest on "
 "dostępny na maszynie podrzędnej replikacji strumieniowej."
 
-#: ../development/roadmap.php:18
+#: ../development/roadmap.php:17
 msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
 msgstr "Zakończono wsparcie 7.4 (?) tworzenia klas operatorów obiektu [GL]"
 
-#: ../development/roadmap.php:17
+#: ../development/roadmap.php:16
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "Zakończono wsparcie 8.3 tworzenia rodzin operatorów obiektu [GL]"
-
-#: ../development/roadmap.php:16
-msgid "Finish 9.1 support with security labels [GL]"
-msgstr "Zakończono wsparcie 9.1 etykiet bezpieczeństwa [GL]"
 
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
@@ -1106,7 +1089,7 @@ msgstr "Funkcja"
 msgid "Function properties"
 msgstr "Właściwości funkcji"
 
-#: ../development/roadmap.php:29
+#: ../development/roadmap.php:28
 msgid "Functionality"
 msgstr "Funkcjonalność"
 
@@ -1126,11 +1109,7 @@ msgstr "Dostęp GIT"
 msgid "GIT browser"
 msgstr "Przeglądarka GIT"
 
-#: ../development/roadmap.php:43
-msgid "GSoC"
-msgstr "GSoC"
-
-#: ../index.php:34
+#: ../index.php:38
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1150,7 +1129,7 @@ msgstr "Pierwsze kroki"
 msgid "Google analytics"
 msgstr "Google analytics"
 
-#: ../development/roadmap.php:34
+#: ../development/roadmap.php:31
 msgid "Graphs in frmStatus [GL]"
 msgstr "Wykresy w frmStatus [GL]"
 
@@ -1372,7 +1351,7 @@ msgstr ""
 "zrobienia w tym wydaniu i mamy nadzieję, że będziemy utrzymamy przynajmniej "
 "taką samą liczbę języków dla 1.14."
 
-#: ../index.php:36 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:40 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1458,8 +1437,8 @@ msgstr ""
 msgid ""
 "It's just an interface around the \"CREATE TABLE ... LIKE ...\" statement."
 msgstr ""
-"To po prostu interfejs do wykorzystania deklaracji \"CREATE TABLE ... LIKE "
-"...\"."
+"To po prostu interfejs do wykorzystania deklaracji \"CREATE TABLE ... "
+"LIKE ...\"."
 
 #: ../features.php:102
 msgid "JOHAB"
@@ -1733,10 +1712,6 @@ msgstr ""
 msgid "New import tool"
 msgstr "Nowe narzędzie importu"
 
-#: ../development/roadmap.php:32
-msgid "New options dialog [GL]"
-msgstr "Nowe okno dialogowe opcji [GL]"
-
 #: ../visualtour14.php:114
 msgid ""
 "New properties are available, all connection parameters. The first tab shows "
@@ -1828,8 +1803,8 @@ msgid ""
 "On the foreign key properties dialog, the \"References\" table textbox has "
 "been moved to the third tab:"
 msgstr ""
-"W oknie właściwości klucza obcego pole tekstowe tabeli \"Odniesienia\" zostały "
-"przeniesione do trzeciej zakładki:"
+"W oknie właściwości klucza obcego pole tekstowe tabeli \"Odniesienia\" "
+"zostały przeniesione do trzeciej zakładki:"
 
 #: ../visualtour16.php:30
 msgid ""
@@ -1844,8 +1819,8 @@ msgid ""
 "Once the user clicks the \"Import\" button, the import process will take "
 "place. A widget will show the progress of the import:"
 msgstr ""
-"Po kliknięciu przycisku \"Import\" przez użytkownika, zostanie wykonany proces "
-"importu. Widżet pokaże postęp importowania:"
+"Po kliknięciu przycisku \"Import\" przez użytkownika, zostanie wykonany "
+"proces importu. Widżet pokaże postęp importowania:"
 
 #: ../visualtour12.php:268
 msgid ""
@@ -2213,8 +2188,8 @@ msgid ""
 "\"Statistics\" tab for databases:"
 msgstr ""
 "PostgreSQL 9.2 dodaje dwie statystyki (czas odczytu i zapisu bloku) w "
-"katalogu \"pg_stat_database\", i tak samo pgAdmin 1.16 w zakładki \"Statystyki\" "
-"dla baz danych:"
+"katalogu \"pg_stat_database\", i tak samo pgAdmin 1.16 w zakładki "
+"\"Statystyki\" dla baz danych:"
 
 #: ../visualtour16.php:15
 msgid "PostgreSQL 9.2 support"
@@ -2272,9 +2247,9 @@ msgid ""
 "through the \"ALTER TYPE\" statement in previous releases of PostgreSQL."
 msgstr ""
 "Poprzednie wydania pgAdmina nie pozwalały użytkownikom zmienić nazwy domeny, "
-"nawet gdy było to możliwe przy użyciu deklaracji \"ALTER TYPE\". pgAdmin 1.16 "
-"pozwala na zmianę nazwy poprzez deklarację \"ALTER DOMAIN\" w PostgreSQL 9.2 "
-"oraz \"ALTER TYPE\" w poprzednich wersjach PostgreSQL."
+"nawet gdy było to możliwe przy użyciu deklaracji \"ALTER TYPE\". pgAdmin "
+"1.16 pozwala na zmianę nazwy poprzez deklarację \"ALTER DOMAIN\" w "
+"PostgreSQL 9.2 oraz \"ALTER TYPE\" w poprzednich wersjach PostgreSQL."
 
 #: ../visualtour14.php:220
 msgid ""
@@ -2336,7 +2311,7 @@ msgstr "Narzędzie Zapytania"
 msgid "Query tool"
 msgstr "Narzędzie zapytania"
 
-#: ../development/roadmap.php:35
+#: ../development/roadmap.php:32
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
 "with grid style UI [GL]"
@@ -2740,8 +2715,8 @@ msgid ""
 "columns. pgAdmin 1.16 displays them in the Activity report of the server "
 "status tool if the user is connected on a PostgreSQL 9.2 server:"
 msgstr ""
-"Widok \"pg_stat_activity\" ma dwie nowe kolumny: state i state_change. pgAdmin "
-"1.16 wyświetla je w raporcie Aktywność narzędzia stanu serwera jeśli "
+"Widok \"pg_stat_activity\" ma dwie nowe kolumny: state i state_change. "
+"pgAdmin 1.16 wyświetla je w raporcie Aktywność narzędzia stanu serwera jeśli "
 "użytkownik jestpołączony z serwerem PostgreSQL 9.2:"
 
 #: ../visualtour12.php:368
@@ -2986,7 +2961,7 @@ msgstr ""
 "niezgodnych z IPv6. Ta część kodu została zaktualizowana w celu umożliwienia "
 "połączeń IPv6."
 
-#: ../index.php:45
+#: ../index.php:49
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Obecna wersja pgAdmin to <a href=\"/download/\">%s</a>."
@@ -3176,20 +3151,23 @@ msgstr ""
 msgid ""
 "The new \"TIMING\" option of \"EXPLAIN\" is available in the query tool."
 msgstr ""
-"Nowa opcja \"EXPLAIN\" o nazwie \"TIMING\" jest dostępna w narzędziu zapytania."
+"Nowa opcja \"EXPLAIN\" o nazwie \"TIMING\" jest dostępna w narzędziu "
+"zapytania."
 
 #: ../visualtour16.php:206
 msgid ""
 "The new \"leakproof\" option on functions is available in the \"Options\" "
 "tab:"
-msgstr "Nowa opcja \"szczelność\" dla funkcji jest dostępna w zakładce \"Opcje\":"
+msgstr ""
+"Nowa opcja \"szczelność\" dla funkcji jest dostępna w zakładce \"Opcje\":"
 
 #: ../visualtour16.php:198
 msgid ""
 "The new \"security_barrier\" option on views is available in the \"Definition"
 "\" tab:"
 msgstr ""
-"Nowa opcja \"security_barrier\" widoków jest dostępna w zakładce \"Definicja\":"
+"Nowa opcja \"security_barrier\" widoków jest dostępna w zakładce \"Definicja"
+"\":"
 
 #: ../visualtour12.php:320
 msgid ""
@@ -3662,7 +3640,7 @@ msgstr ""
 "polecenia Kopiuj poedit Alt+C. Przykład: przetłumaczenie <i>ACL</i> na "
 "<i>ACL</i>, <i>AFTER</i> na <i>AFTER</i> itp."
 
-#: ../download/macosx.php:26
+#: ../download/macosx.php:24
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -3797,7 +3775,7 @@ msgstr ""
 "systemie Linux oraz Unix, jak pokazano poniżej. Więcej szczegółów można "
 "znaleźć w instrukcjach budowy <a href=\"%s\">kodu źródłowego</a>."
 
-#: ../download/windows.php:28
+#: ../download/windows.php:27
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -4323,7 +4301,7 @@ msgstr "dla typu wyliczeniowego"
 msgid "for the external type"
 msgstr "dla typu zewnętrznego"
 
-#: ../index.php:30
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -4333,6 +4311,26 @@ msgid ""
 "visit the <a href=\"download\">download area</a> to get your copy, or "
 "alternatively download a <a href=\"http://www.enterprisedb.com/products/"
 "pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."
+msgstr ""
+"pgAdmin %s został opublikowany. Wydanie to jest zwieńczeniem ponad 14 "
+"miesięcy prac rozwojowych. Wizualny przewodnik dla nowej wersji jest "
+"dostępny <a href=\"/visualtour12.php\">tutaj</a>, zaś pełną listę zmian "
+"można zobaczyć na <a href=\"/development/changelog.php\">CHANGELOG</a>. "
+"Odwiedź <a href=\"download\">obszar pobierania</a>, aby uzyskać własną "
+"kopię, lub ewentualnie pobierz <a href=\"http://www.enterprisedb.com/"
+"products/pgdownload.do\">Instalator PostgreSQL 9.1</a>, który zawiera "
+"pgAdmin."
+
+#: ../index.php:12
+#, fuzzy, php-format
+msgid ""
+"pgAdmin %s has now been released. This release is the culmination of over 16 "
+"months of development work. A visual tour of the new release is available <a "
+"href=\"/visualtour16.php\">here</a>, or a complete list of changes can be "
+"seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please "
+"visit the <a href=\"download\">download area</a> to get your copy, or "
+"alternatively download a <a href=\"http://www.enterprisedb.com/products/"
+"pgdownload.do\">PostgreSQL 9.2 Installer</a> which includes pgAdmin."
 msgstr ""
 "pgAdmin %s został opublikowany. Wydanie to jest zwieńczeniem ponad 14 "
 "miesięcy prac rozwojowych. Wizualny przewodnik dla nowej wersji jest "
@@ -4470,7 +4468,7 @@ msgstr ""
 "pgAdmin 1.14 wykorzystuje ten sam pomysł na ważne i nieważne klucze obce i "
 "włączane i wyłączone wyzwalacze i reguły."
 
-#: ../index.php:26
+#: ../index.php:30
 msgid ""
 "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -4486,7 +4484,7 @@ msgstr ""
 "enterprisedb.com/products/pgdownload.do\">Instalator PostgreSQL 9.1.2</a>, "
 "który zawiera pgAdmin."
 
-#: ../index.php:22
+#: ../index.php:26
 msgid ""
 "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -4502,7 +4500,7 @@ msgstr ""
 "enterprisedb.com/products/pgdownload.do\">Instalator PostgreSQL 9.1.3</a>, "
 "który zawiera pgAdmin."
 
-#: ../index.php:12
+#: ../index.php:16
 msgid ""
 "pgAdmin 1.14.3 has been released, offering 25 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -4550,7 +4548,7 @@ msgstr ""
 "Postgres w wersji 8.4 lub następnych. Daje również możliwość zmiany "
 "właściwości współczynnika wypełnienia na istniejącej tabeli."
 
-#: ../index.php:16
+#: ../index.php:20
 msgid ""
 "pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
 "features. We're still working on a visual tour. We also don't have yet "
@@ -4779,7 +4777,7 @@ msgstr ""
 "systemie Windows, zalecamy użycie <a href=\"%s\">TortoiseGIT</a>, będącego "
 "wolnym oprogramowaniem."
 
-#: ../index.php:40
+#: ../index.php:44
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4803,7 +4801,7 @@ msgstr ""
 "szyfrowane SSL dla bezpieczeństwa. Nie wymaga również dodatkowych "
 "sterowników do komunikacji z serwerem bazy danych."
 
-#: ../index.php:42
+#: ../index.php:46
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4814,7 +4812,7 @@ msgstr ""
 "świecie i jest dostępny w kilkunastu językach. To jest Wolnym "
 "Oprogramowaniem wydanym na <a href=\"%s\">licencji PostgreSQL</a>."
 
-#: ../index.php:38
+#: ../index.php:42
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -5039,7 +5037,7 @@ msgstr ""
 msgid "pgAgent objects (such as jobs, schedules)"
 msgstr "Obiekty pgAgenta (jak zadania, harmonogramy)"
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:34
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"
@@ -5071,6 +5069,25 @@ msgstr "okno kopii zapasowej:"
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr "znacznik czasu ostatniego resetu statystyk;"
+
+#~ msgid "Complete redesign of the documentation [GL]"
+#~ msgstr "Całkowite przeprojektowanie dokumentacji [GL]"
+
+#~ msgid "Database designer for pgAdmin, by Luis Ochoa"
+#~ msgstr "Projektant bazy danych dla pgAdmin, autorstwa Luisa Ochoa"
+
+#~ msgid "Database schema difference visualizer, by Adeel Khan"
+#~ msgstr ""
+#~ "Wizualizer różnicowy schematów bazy danych, wykonany przez Adeel Khan"
+
+#~ msgid "Finish 9.1 support with security labels [GL]"
+#~ msgstr "Zakończono wsparcie 9.1 etykiet bezpieczeństwa [GL]"
+
+#~ msgid "GSoC"
+#~ msgstr "GSoC"
+
+#~ msgid "New options dialog [GL]"
+#~ msgstr "Nowe okno dialogowe opcji [GL]"
 
 #~ msgid "Before you try to install"
 #~ msgstr "Przed próbą instalacji"

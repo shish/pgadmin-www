@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-25 21:54+0200\n"
+"POT-Creation-Date: 2012-09-11 22:15+0200\n"
 "PO-Revision-Date: 2010-10-22 19:38+0700\n"
 "Last-Translator: Dadan Setia <dadan.setia@gmail.com>\n"
 "Language-Team: pgAdmin Developers <pgadmin-hackers@postgresql.org>\n"
@@ -29,17 +29,18 @@ msgstr ""
 "F7). Anda dapat menonaktifkan perilaku auto-rollback (biasanya jika Anda "
 "ingin kembalikan ke savepoint sebelumnya)."
 
-#: ../index.php:32
+#: ../index.php:36
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - pgAdmin demo video"
 
-#: ../index.php:14
+#: ../index.php:18
 #, fuzzy, php-format
 msgid "%s - pgAdmin v%s available"
 msgstr "%s - pgAdmin v%s telah dirilis"
 
-#: ../index.php:10 ../index.php:20 ../index.php:24 ../index.php:28
+#: ../index.php:10 ../index.php:14 ../index.php:24 ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin v%s telah dirilis"
@@ -67,25 +68,22 @@ msgstr "<a href=\"%s\">Download pgAgent</a>"
 #: ../download/macosx.php:16 ../download/macosx.php:17
 #: ../download/macosx.php:18 ../download/macosx.php:19
 #: ../download/macosx.php:20 ../download/macosx.php:21
-#: ../download/macosx.php:22 ../download/macosx.php:23
 #: ../download/source.php:15 ../download/source.php:16
 #: ../download/source.php:17 ../download/source.php:18
 #: ../download/source.php:19 ../download/source.php:20
 #: ../download/source.php:21 ../download/source.php:22
-#: ../download/source.php:23 ../download/source.php:24
-#: ../download/source.php:25 ../download/source.php:26
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
-#: ../download/windows.php:25
+#: ../download/source.php:23 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:32 ../download/source.php:33
-#: ../download/source.php:34 ../download/source.php:35
-#: ../download/source.php:36
+#: ../download/source.php:29 ../download/source.php:30
+#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:33
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">v%s intruksi</a>"
@@ -287,7 +285,7 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "Akses ke semua objek PostgreSQL"
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:35
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
@@ -304,7 +302,7 @@ msgstr ""
 msgid "Add more index stats"
 msgstr "Tambah beberapa index stats"
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:36
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP/"
 "AV]"
@@ -570,7 +568,7 @@ msgstr ""
 msgid "Backup/Restore tools"
 msgstr "Dump/Restore"
 
-#: ../index.php:18
+#: ../index.php:22
 msgid ""
 "Be careful that this is a BETA release. It's not production ready. It's "
 "available for testing purpose only."
@@ -606,7 +604,7 @@ msgstr ""
 "signifikan untuk menyelesaikan, seringkali usaha yang lebih daripada waran "
 "masalah."
 
-#: ../download/source.php:29
+#: ../download/source.php:26
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr "Membangun instruksi disertakan dalam tarball, tersedia online:"
@@ -622,14 +620,14 @@ msgstr "Cast"
 msgid "Change log"
 msgstr "Ubah log"
 
-#: ../development/roadmap.php:24
+#: ../development/roadmap.php:23
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
 msgstr ""
 "Memeriksa dan menghapus kontrol kustom yang sekarang diterapkan di wxWidgets."
 
-#: ../development/roadmap.php:25
+#: ../development/roadmap.php:24
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "Mengecek penggunaan wxWidgets 2.9/3.0."
 
@@ -647,7 +645,7 @@ msgstr ""
 "Choosing either of those two will launch the query tool and show the "
 "appropriate query."
 
-#: ../development/roadmap.php:22
+#: ../development/roadmap.php:21
 msgid "Code housekeeping"
 msgstr "Code housekeeping"
 
@@ -715,13 +713,8 @@ msgstr "Mengkompile pgadmin3.po ke file binary pgadmin3.mo ."
 
 #: ../development/roadmap.php:15
 #, fuzzy
-msgid "Complete 9.2 support"
+msgid "Complete 9.3 support"
 msgstr "Komplit mendukung 9.1"
-
-#: ../development/roadmap.php:31
-#, fuzzy
-msgid "Complete redesign of the documentation [GL]"
-msgstr "Sampai pada dokumen yang paling akhir"
 
 #: ../visualtour12.php:355
 msgid "Configuration"
@@ -784,7 +777,7 @@ msgstr ""
 "Cross jari-jari anda dan tunggu sampai PostgreSQL menjadi basisdata nomor "
 "satu di dunia."
 
-#: ../development/roadmap.php:33
+#: ../development/roadmap.php:30
 msgid "Custom reports in frmStatus [GL]"
 msgstr "Kustomisasi laporan di frmStatus [GL]"
 
@@ -803,7 +796,7 @@ msgstr "Data"
 msgid "Data access"
 msgstr "Akses data"
 
-#: ../development/roadmap.php:36
+#: ../development/roadmap.php:33
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
@@ -813,10 +806,6 @@ msgstr ""
 #: ../visualtour14.php:155
 msgid "Database"
 msgstr "Basisdata"
-
-#: ../development/roadmap.php:45
-msgid "Database designer for pgAdmin, by Luis Ochoa"
-msgstr "Disainer Basisdata untuk pgAdmin, oleh Luis Ochoa"
 
 #: ../screenshots/mb_i18n.php:12 ../screenshots/mb_i18n.php:18
 msgid "Database encoding selection"
@@ -854,10 +843,6 @@ msgstr "Pemilihan encoding basisdata"
 #: ../visualtour12.php:105 ../visualtour.php:153
 msgid "Database properties"
 msgstr "Properti basisdata"
-
-#: ../development/roadmap.php:46
-msgid "Database schema difference visualizer, by Adeel Khan"
-msgstr "Perubahan skema visualisasi Basisdata, oleh Adeel Khan"
 
 #: ../features.php:66 ../visualtour16.php:133
 msgid "Databases"
@@ -1102,20 +1087,15 @@ msgid ""
 "this action is not available on a streaming replication slave."
 msgstr ""
 
-#: ../development/roadmap.php:18
+#: ../development/roadmap.php:17
 #, fuzzy
 msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
 msgstr "Selesai 8.4 support dengan SQL / Med objek [GL]"
 
-#: ../development/roadmap.php:17
+#: ../development/roadmap.php:16
 #, fuzzy
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "Selesai 8.4 support dengan SQL / Med objek [GL]"
-
-#: ../development/roadmap.php:16
-#, fuzzy
-msgid "Finish 9.1 support with security labels [GL]"
-msgstr "Selesai 9.0 support dengan batasan pengecualian [GL]"
 
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
@@ -1213,7 +1193,7 @@ msgstr "Fungsi Properti"
 # standard input:6
 # standard input:8
 # standard
-#: ../development/roadmap.php:29
+#: ../development/roadmap.php:28
 msgid "Functionality"
 msgstr "Fungsionaliti"
 
@@ -1233,11 +1213,7 @@ msgstr "GIT akses"
 msgid "GIT browser"
 msgstr "Browser GIT"
 
-#: ../development/roadmap.php:43
-msgid "GSoC"
-msgstr "GSoC"
-
-#: ../index.php:34
+#: ../index.php:38
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1258,7 +1234,7 @@ msgstr "Persiapan"
 msgid "Google analytics"
 msgstr "Google analytics"
 
-#: ../development/roadmap.php:34
+#: ../development/roadmap.php:31
 msgid "Graphs in frmStatus [GL]"
 msgstr "Grafik dalam frmStatus [GL]"
 
@@ -1506,7 +1482,7 @@ msgstr ""
 # standard input:274
 # standard input:9
 # standard
-#: ../index.php:36 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:40 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1910,11 +1886,6 @@ msgstr ""
 #: ../visualtour16.php:21
 msgid "New import tool"
 msgstr ""
-
-#: ../development/roadmap.php:32
-#, fuzzy
-msgid "New options dialog [GL]"
-msgstr "Tunjukan dialog opsi."
 
 #: ../visualtour14.php:114
 msgid ""
@@ -2505,7 +2476,7 @@ msgstr "Perkakas Query"
 msgid "Query tool"
 msgstr "Tool Query"
 
-#: ../development/roadmap.php:35
+#: ../development/roadmap.php:32
 #, fuzzy
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
@@ -3275,7 +3246,7 @@ msgstr ""
 "tidak kompatibel dengan IPv6. Ini bagian dari kode telah diperbarui untuk "
 "memungkinkan koneksi IPv6."
 
-#: ../index.php:45
+#: ../index.php:49
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Versi pgAdmin saat ini adalah <a href=\"/download/\">%s</a>."
@@ -3956,7 +3927,7 @@ msgstr ""
 "ini menggunakan perintah Alt+C . Sebagai contoh: menerjemahkan <i>ACL</i> ke "
 "<i>ACL</i>, <i>AFTER</i> ke <i>SETELAH</i>, dll."
 
-#: ../download/macosx.php:26
+#: ../download/macosx.php:24
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -4085,7 +4056,7 @@ msgstr ""
 "keterangan lebih lanjut, silakan lihat petunjuk membangun <a href=\"%s"
 "\">kode sumber</a> ."
 
-#: ../download/windows.php:28
+#: ../download/windows.php:27
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -4679,7 +4650,7 @@ msgstr ""
 msgid "for the external type"
 msgstr "Refresh"
 
-#: ../index.php:30
+#: ../index.php:34
 #, fuzzy, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -4689,6 +4660,25 @@ msgid ""
 "visit the <a href=\"download\">download area</a> to get your copy, or "
 "alternatively download a <a href=\"http://www.enterprisedb.com/products/"
 "pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."
+msgstr ""
+"pgAdmin %s telah dirilis.Rilis ini adalah puncak dari lebih dari 12 bulan "
+"kerja pembangunan. Tour visual dari rilis baru tersedia <a href=\"/"
+"visualtour12.php\">disini</a>,atau daftar lengkap perubahan dapat dilihat "
+"di  <a href=\"/development/changelog.php\">CHANGELOG</a>. Kunjungi <a href="
+"\"download\">area unduhan</a> untuk mendapatkan salinan Anda, atau download "
+"<a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
+"9.0 Installer</a> termasuk pgAdmin."
+
+#: ../index.php:12
+#, fuzzy, php-format
+msgid ""
+"pgAdmin %s has now been released. This release is the culmination of over 16 "
+"months of development work. A visual tour of the new release is available <a "
+"href=\"/visualtour16.php\">here</a>, or a complete list of changes can be "
+"seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please "
+"visit the <a href=\"download\">download area</a> to get your copy, or "
+"alternatively download a <a href=\"http://www.enterprisedb.com/products/"
+"pgdownload.do\">PostgreSQL 9.2 Installer</a> which includes pgAdmin."
 msgstr ""
 "pgAdmin %s telah dirilis.Rilis ini adalah puncak dari lebih dari 12 bulan "
 "kerja pembangunan. Tour visual dari rilis baru tersedia <a href=\"/"
@@ -4816,7 +4806,7 @@ msgid ""
 "enabled and disabled triggers and rules."
 msgstr ""
 
-#: ../index.php:26
+#: ../index.php:30
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
@@ -4832,7 +4822,7 @@ msgstr ""
 "com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> yang mencakup "
 "pgAdmin."
 
-#: ../index.php:22
+#: ../index.php:26
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
@@ -4848,7 +4838,7 @@ msgstr ""
 "com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> yang mencakup "
 "pgAdmin."
 
-#: ../index.php:12
+#: ../index.php:16
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.3 has been released, offering 25 bug fixes over the previous "
@@ -4889,7 +4879,7 @@ msgid ""
 "existing table."
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:20
 #, fuzzy
 msgid ""
 "pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
@@ -5106,7 +5096,7 @@ msgstr ""
 "sarankan untuk menggunakan <a href=\"%s\"> TortoiseGIT </ a>, yang merupakan "
 "perangkat lunak bebas."
 
-#: ../index.php:40
+#: ../index.php:44
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -5129,7 +5119,7 @@ msgstr ""
 "nix), dan dapat SSL dienkripsi untuk keamanan. Tidak ada driver tambahan "
 "yang diperlukan untuk berkomunikasi dengan server database."
 
-#: ../index.php:42
+#: ../index.php:46
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -5140,7 +5130,7 @@ msgstr ""
 "tersedia di lebih dari selusin bahasa. Ini adalah perangkat lunak gratis "
 "yang dirilis dibawah Lisensi <a href=\"%s\"> PostgreSQL </ a>."
 
-#: ../index.php:38
+#: ../index.php:42
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -5368,7 +5358,7 @@ msgstr ""
 msgid "pgAgent objects (such as jobs, schedules)"
 msgstr "Objek pgAgent (seperti jobs, jadwal)"
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:34
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"
@@ -5402,6 +5392,27 @@ msgstr "Bersihkan window"
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Complete redesign of the documentation [GL]"
+#~ msgstr "Sampai pada dokumen yang paling akhir"
+
+#~ msgid "Database designer for pgAdmin, by Luis Ochoa"
+#~ msgstr "Disainer Basisdata untuk pgAdmin, oleh Luis Ochoa"
+
+#~ msgid "Database schema difference visualizer, by Adeel Khan"
+#~ msgstr "Perubahan skema visualisasi Basisdata, oleh Adeel Khan"
+
+#, fuzzy
+#~ msgid "Finish 9.1 support with security labels [GL]"
+#~ msgstr "Selesai 9.0 support dengan batasan pengecualian [GL]"
+
+#~ msgid "GSoC"
+#~ msgstr "GSoC"
+
+#, fuzzy
+#~ msgid "New options dialog [GL]"
+#~ msgstr "Tunjukan dialog opsi."
 
 #~ msgid "Before you try to install"
 #~ msgstr "Sebelum anda mencoba untuk memasang"

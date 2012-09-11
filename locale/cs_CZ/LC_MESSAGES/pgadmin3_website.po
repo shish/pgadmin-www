@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-25 21:54+0200\n"
+"POT-Creation-Date: 2012-09-11 22:15+0200\n"
 "PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -29,17 +29,18 @@ msgstr ""
 "transakcí (auto-rollback), obvykle když se chcete vrátit k předchozímu "
 "uloženému bodu."
 
-#: ../index.php:32
+#: ../index.php:36
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - ukázkové video pgAdmin"
 
-#: ../index.php:14
+#: ../index.php:18
 #, fuzzy, php-format
 msgid "%s - pgAdmin v%s available"
 msgstr "%s - vydán pgAdmin v%s"
 
-#: ../index.php:10 ../index.php:20 ../index.php:24 ../index.php:28
+#: ../index.php:10 ../index.php:14 ../index.php:24 ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - vydán pgAdmin v%s"
@@ -67,25 +68,22 @@ msgstr "<a href=\"%s\">Stáhnout pgAgent</a>"
 #: ../download/macosx.php:16 ../download/macosx.php:17
 #: ../download/macosx.php:18 ../download/macosx.php:19
 #: ../download/macosx.php:20 ../download/macosx.php:21
-#: ../download/macosx.php:22 ../download/macosx.php:23
 #: ../download/source.php:15 ../download/source.php:16
 #: ../download/source.php:17 ../download/source.php:18
 #: ../download/source.php:19 ../download/source.php:20
 #: ../download/source.php:21 ../download/source.php:22
-#: ../download/source.php:23 ../download/source.php:24
-#: ../download/source.php:25 ../download/source.php:26
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
-#: ../download/windows.php:25
+#: ../download/source.php:23 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:32 ../download/source.php:33
-#: ../download/source.php:34 ../download/source.php:35
-#: ../download/source.php:36
+#: ../download/source.php:29 ../download/source.php:30
+#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:33
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instrukce pro v%s</a>"
@@ -280,7 +278,7 @@ msgstr "ALT"
 msgid "Access to all PostgreSQL objects"
 msgstr "Přístup ke všem objektům PostgreSQL"
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:35
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
@@ -296,7 +294,7 @@ msgstr ""
 msgid "Add more index stats"
 msgstr "Přidáno více statistik k indexům"
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:36
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP/"
 "AV]"
@@ -541,7 +539,7 @@ msgstr ""
 msgid "Backup/Restore tools"
 msgstr "Zálohování/obnova"
 
-#: ../index.php:18
+#: ../index.php:22
 msgid ""
 "Be careful that this is a BETA release. It's not production ready. It's "
 "available for testing purpose only."
@@ -575,7 +573,7 @@ msgstr ""
 "představovalo neúměrně úsilí v porovnání s drobnou nepříjemností, kterou "
 "problém způsobuje."
 
-#: ../download/source.php:29
+#: ../download/source.php:26
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -589,7 +587,7 @@ msgstr "Přetypování"
 msgid "Change log"
 msgstr "Seznam změn"
 
-#: ../development/roadmap.php:24
+#: ../development/roadmap.php:23
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
@@ -597,7 +595,7 @@ msgstr ""
 "Vyhledat a odstranit vlastní ovládací prvky, které jsou již přímo "
 "implementované ve wxWidgets."
 
-#: ../development/roadmap.php:25
+#: ../development/roadmap.php:24
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr "Zkontrolovat kvůli přechodu na wxWidgets 2.9/3.0"
 
@@ -616,7 +614,7 @@ msgstr ""
 "Výběr jednoho z těchto dvou skriptů spustí dotazovací nástroj a zobrazí "
 "příslušný dotaz."
 
-#: ../development/roadmap.php:22
+#: ../development/roadmap.php:21
 msgid "Code housekeeping"
 msgstr "Optimalizace kódu"
 
@@ -650,12 +648,8 @@ msgstr "Přeložte pgadmin3.po do binární podoby pgadmin3.mo."
 
 #: ../development/roadmap.php:15
 #, fuzzy
-msgid "Complete 9.2 support"
+msgid "Complete 9.3 support"
 msgstr "Dodělat podporu pro 9.1"
-
-#: ../development/roadmap.php:31
-msgid "Complete redesign of the documentation [GL]"
-msgstr ""
 
 #: ../visualtour12.php:355
 msgid "Configuration"
@@ -712,7 +706,7 @@ msgid ""
 msgstr ""
 "Držte palce a čekejte, až se PostgreSQL stane databází číslo jedna na světě."
 
-#: ../development/roadmap.php:33
+#: ../development/roadmap.php:30
 msgid "Custom reports in frmStatus [GL]"
 msgstr "Vlastní výstupní sestavy ve frmStatus [GL]"
 
@@ -728,7 +722,7 @@ msgstr "Data"
 msgid "Data access"
 msgstr "Přístup k datům"
 
-#: ../development/roadmap.php:36
+#: ../development/roadmap.php:33
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
@@ -739,10 +733,6 @@ msgstr ""
 msgid "Database"
 msgstr "Databáze"
 
-#: ../development/roadmap.php:45
-msgid "Database designer for pgAdmin, by Luis Ochoa"
-msgstr "Návrhář databází pro pgAdmin [Luis Ochoa]"
-
 #: ../screenshots/mb_i18n.php:12 ../screenshots/mb_i18n.php:18
 msgid "Database encoding selection"
 msgstr "Volba kódování databáze"
@@ -750,10 +740,6 @@ msgstr "Volba kódování databáze"
 #: ../visualtour12.php:105 ../visualtour.php:153
 msgid "Database properties"
 msgstr "Vlastnosti databáze"
-
-#: ../development/roadmap.php:46
-msgid "Database schema difference visualizer, by Adeel Khan"
-msgstr "Vizualizátor rozdílů ve schématech databází [Adeel Khan]"
 
 #: ../features.php:66 ../visualtour16.php:133
 msgid "Databases"
@@ -980,20 +966,15 @@ msgid ""
 "this action is not available on a streaming replication slave."
 msgstr ""
 
-#: ../development/roadmap.php:18
+#: ../development/roadmap.php:17
 #, fuzzy
 msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
 msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
 
-#: ../development/roadmap.php:17
+#: ../development/roadmap.php:16
 #, fuzzy
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
-
-#: ../development/roadmap.php:16
-#, fuzzy
-msgid "Finish 9.1 support with security labels [GL]"
-msgstr "Dokončit podporu 9.0 s omezeními exkluzí [GL]"
 
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
@@ -1058,7 +1039,7 @@ msgstr "Funkce"
 msgid "Function properties"
 msgstr "Vlastnosti funkce"
 
-#: ../development/roadmap.php:29
+#: ../development/roadmap.php:28
 msgid "Functionality"
 msgstr "Funkcionalita"
 
@@ -1078,11 +1059,7 @@ msgstr "Přístup přes GIT"
 msgid "GIT browser"
 msgstr "Procházení přes GIT"
 
-#: ../development/roadmap.php:43
-msgid "GSoC"
-msgstr "Google Summer of Code"
-
-#: ../index.php:34
+#: ../index.php:38
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1103,7 +1080,7 @@ msgstr "Začínáme"
 msgid "Google analytics"
 msgstr "Google analytics"
 
-#: ../development/roadmap.php:34
+#: ../development/roadmap.php:31
 msgid "Graphs in frmStatus [GL]"
 msgstr "Grafy ve frmStatus [GL]"
 
@@ -1312,7 +1289,7 @@ msgid ""
 "1.14."
 msgstr ""
 
-#: ../index.php:36 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:40 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1657,10 +1634,6 @@ msgstr ""
 
 #: ../visualtour16.php:21
 msgid "New import tool"
-msgstr ""
-
-#: ../development/roadmap.php:32
-msgid "New options dialog [GL]"
 msgstr ""
 
 #: ../visualtour14.php:114
@@ -2208,7 +2181,7 @@ msgstr "Dotazovací nástroj"
 msgid "Query tool"
 msgstr "Dotazovací nástroj"
 
-#: ../development/roadmap.php:35
+#: ../development/roadmap.php:32
 #, fuzzy
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
@@ -2821,7 +2794,7 @@ msgstr ""
 "nevyhovovaly pro IPv6. Tato část kódu byla aktualizována tak, aby umožnila "
 "připojení pomocí IPv6."
 
-#: ../index.php:45
+#: ../index.php:49
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Aktuální verze pgAdmin je <a href=\"/download/\">%s</a>."
@@ -3460,7 +3433,7 @@ msgstr ""
 "dosáhl 100%, jednoduše zkopírujte tyto řetězce pomocí Alt+C v poEdit. Např. "
 "přeložte <i>ACL</i> jako <i>ACL</i>, <i>AFTER</i> jako <i>AFTER</i>, atd."
 
-#: ../download/macosx.php:26
+#: ../download/macosx.php:24
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -3587,7 +3560,7 @@ msgstr ""
 "jak pokračovat dál najdete v instrukcích na sestavení ze <a href=\"%s"
 "\">zdrojového kódu</a>."
 
-#: ../download/windows.php:28
+#: ../download/windows.php:27
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -4089,7 +4062,7 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:30
+#: ../index.php:34
 #, fuzzy, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -4099,6 +4072,25 @@ msgid ""
 "visit the <a href=\"download\">download area</a> to get your copy, or "
 "alternatively download a <a href=\"http://www.enterprisedb.com/products/"
 "pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."
+msgstr ""
+"Právě byl vydán pgAdmin %s. Toto vydání je vyvrcholením 12 měsíců práce "
+"vývojářů. Vizuální prohlídka nové verze je k dispozici <a href=\"/"
+"visualtour12.php\">zde</a> a rovněž si můžete prohlédnou <a href=\"/"
+"development/changelog.php\">seznam změn CHANGELOG</a> (pouze anglicky). "
+"Vydání můžete najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
+"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
+"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+
+#: ../index.php:12
+#, fuzzy, php-format
+msgid ""
+"pgAdmin %s has now been released. This release is the culmination of over 16 "
+"months of development work. A visual tour of the new release is available <a "
+"href=\"/visualtour16.php\">here</a>, or a complete list of changes can be "
+"seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please "
+"visit the <a href=\"download\">download area</a> to get your copy, or "
+"alternatively download a <a href=\"http://www.enterprisedb.com/products/"
+"pgdownload.do\">PostgreSQL 9.2 Installer</a> which includes pgAdmin."
 msgstr ""
 "Právě byl vydán pgAdmin %s. Toto vydání je vyvrcholením 12 měsíců práce "
 "vývojářů. Vizuální prohlídka nové verze je k dispozici <a href=\"/"
@@ -4226,7 +4218,7 @@ msgid ""
 "enabled and disabled triggers and rules."
 msgstr ""
 
-#: ../index.php:26
+#: ../index.php:30
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
@@ -4241,7 +4233,7 @@ msgstr ""
 "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
 "\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
-#: ../index.php:22
+#: ../index.php:26
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
@@ -4256,7 +4248,7 @@ msgstr ""
 "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
 "\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
-#: ../index.php:12
+#: ../index.php:16
 #, fuzzy
 msgid ""
 "pgAdmin 1.14.3 has been released, offering 25 bug fixes over the previous "
@@ -4296,7 +4288,7 @@ msgid ""
 "existing table."
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:20
 #, fuzzy
 msgid ""
 "pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
@@ -4509,7 +4501,7 @@ msgstr ""
 "svobodný software <a href=\"%s\">TortoiseGIT</a>. Pod Linuxem je dostupných "
 "několik svobodných klientů jak pro příkazovou řádku, tak grafické prostředí."
 
-#: ../index.php:40
+#: ../index.php:44
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4532,7 +4524,7 @@ msgstr ""
 "šifrované SSL. Pro komunikaci s databázovým serverem nejsou potřeba žádné "
 "přídavné ovladače."
 
-#: ../index.php:42
+#: ../index.php:46
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4543,7 +4535,7 @@ msgstr ""
 "dostupný ve více jak tuctu jazyků. Jedná se o svobodný software vydaný pod "
 "licencí <a href=\"%s\">PostgreSQL License</a>."
 
-#: ../index.php:38
+#: ../index.php:42
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -4768,7 +4760,7 @@ msgstr ""
 msgid "pgAgent objects (such as jobs, schedules)"
 msgstr "Objekty pgAgent (jako úkoly, plány apod.)"
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:34
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"
@@ -4800,6 +4792,19 @@ msgstr ""
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
 msgstr ""
+
+#~ msgid "Database designer for pgAdmin, by Luis Ochoa"
+#~ msgstr "Návrhář databází pro pgAdmin [Luis Ochoa]"
+
+#~ msgid "Database schema difference visualizer, by Adeel Khan"
+#~ msgstr "Vizualizátor rozdílů ve schématech databází [Adeel Khan]"
+
+#, fuzzy
+#~ msgid "Finish 9.1 support with security labels [GL]"
+#~ msgstr "Dokončit podporu 9.0 s omezeními exkluzí [GL]"
+
+#~ msgid "GSoC"
+#~ msgstr "Google Summer of Code"
 
 #~ msgid "Before you try to install"
 #~ msgstr "Než začnete instalovat"

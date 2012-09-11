@@ -7,13 +7,12 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Roadmap") . '</h1>
 
-<p>' . sprintf(_("This roadmap outlines the work that is hoped will be done in the %s development cycle for release in version %s of pgAdmin."), "1.15", "1.16") . '</p>
+<p>' . sprintf(_("This roadmap outlines the work that is hoped will be done in the %s development cycle for release in version %s of pgAdmin."), "1.17", "1.18") . '</p>
 
 <ul>
   <li>' . _("PostgreSQL compatibility") . '<br />&nbsp;
     <ul>
-      <li>' . _("Complete 9.2 support") . '<br />&nbsp;</li>
-      <li><del>' . _("Finish 9.1 support with security labels [GL]") .  '</del><br />&nbsp;</li>
+      <li>' . _("Complete 9.3 support") . '<br />&nbsp;</li>
       <li>' . _("Finish 8.3 support with operator family objets' creation [GL]") . '<br />&nbsp;</li>
       <li>' . _("Finish 7.4 (?) support with operator class objects' creation [GL]") . '<br />&nbsp;</li>
     </ul>
@@ -28,8 +27,6 @@ $PAGE_CONTENT = '
 
   <li>' . _("Functionality") . '<br />&nbsp;
     <ul>
-      <li><del>' . _("Complete redesign of the documentation [GL]") . '</del><br />&nbsp;</li>
-      <li><del>' . _("New options dialog [GL]") . '</del><br />&nbsp;</li>
       <li>' . _("Custom reports in frmStatus [GL]") . '<br />&nbsp;</li>
       <li>' . _("Graphs in frmStatus [GL]") . '<br />&nbsp;</li>
       <li>' . _("Redesign Table dialogue to remove sub-dialogues where possible and replace with grid style UI [GL]") . '<br />&nbsp;</li>
@@ -39,14 +36,7 @@ $PAGE_CONTENT = '
       <li>' . _("Add printing support to the query tool (and other styled text controls?) [DP/AV]") . '<br />&nbsp;</li>
     </ul>
   </li>
-
-  <li>' . _("GSoC") . '<br />&nbsp;
-    <ul>
-      <li>' . _("Database designer for pgAdmin, by Luis Ochoa") . '<br />&nbsp;</li>
-      <li>' . _("Database schema difference visualizer, by Adeel Khan") . '<br />&nbsp;</li>
-    </ul>
-  </li>
-
+</ul>
 '; 
 
 // Display the page

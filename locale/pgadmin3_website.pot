@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-25 21:54+0200\n"
+"POT-Creation-Date: 2012-09-11 22:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,17 +24,18 @@ msgid ""
 "to a previous savepoint)."
 msgstr ""
 
-#: ../index.php:32
+#: ../index.php:36
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr ""
 
-#: ../index.php:14
+#: ../index.php:18
 #, php-format
 msgid "%s - pgAdmin v%s available"
 msgstr ""
 
-#: ../index.php:10 ../index.php:20 ../index.php:24 ../index.php:28
+#: ../index.php:10 ../index.php:14 ../index.php:24 ../index.php:28
+#: ../index.php:32
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr ""
@@ -62,25 +63,22 @@ msgstr ""
 #: ../download/macosx.php:16 ../download/macosx.php:17
 #: ../download/macosx.php:18 ../download/macosx.php:19
 #: ../download/macosx.php:20 ../download/macosx.php:21
-#: ../download/macosx.php:22 ../download/macosx.php:23
 #: ../download/source.php:15 ../download/source.php:16
 #: ../download/source.php:17 ../download/source.php:18
 #: ../download/source.php:19 ../download/source.php:20
 #: ../download/source.php:21 ../download/source.php:22
-#: ../download/source.php:23 ../download/source.php:24
-#: ../download/source.php:25 ../download/source.php:26
-#: ../download/windows.php:17 ../download/windows.php:18
-#: ../download/windows.php:19 ../download/windows.php:20
-#: ../download/windows.php:21 ../download/windows.php:22
-#: ../download/windows.php:23 ../download/windows.php:24
-#: ../download/windows.php:25
+#: ../download/source.php:23 ../download/windows.php:17
+#: ../download/windows.php:18 ../download/windows.php:19
+#: ../download/windows.php:20 ../download/windows.php:21
+#: ../download/windows.php:22 ../download/windows.php:23
+#: ../download/windows.php:24
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr ""
 
-#: ../download/source.php:32 ../download/source.php:33
-#: ../download/source.php:34 ../download/source.php:35
-#: ../download/source.php:36
+#: ../download/source.php:29 ../download/source.php:30
+#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:33
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr ""
@@ -225,7 +223,7 @@ msgstr ""
 msgid "Access to all PostgreSQL objects"
 msgstr ""
 
-#: ../development/roadmap.php:38
+#: ../development/roadmap.php:35
 msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
@@ -239,7 +237,7 @@ msgstr ""
 msgid "Add more index stats"
 msgstr ""
 
-#: ../development/roadmap.php:39
+#: ../development/roadmap.php:36
 msgid ""
 "Add printing support to the query tool (and other styled text controls?) [DP/"
 "AV]"
@@ -444,7 +442,7 @@ msgstr ""
 msgid "Backup/Restore tools"
 msgstr ""
 
-#: ../index.php:18
+#: ../index.php:22
 msgid ""
 "Be careful that this is a BETA release. It's not production ready. It's "
 "available for testing purpose only."
@@ -470,7 +468,7 @@ msgid ""
 "effort than the issue warrants."
 msgstr ""
 
-#: ../download/source.php:29
+#: ../download/source.php:26
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -483,13 +481,13 @@ msgstr ""
 msgid "Change log"
 msgstr ""
 
-#: ../development/roadmap.php:24
+#: ../development/roadmap.php:23
 msgid ""
 "Check for and remove any custom controls that are now implemented in "
 "wxWidgets."
 msgstr ""
 
-#: ../development/roadmap.php:25
+#: ../development/roadmap.php:24
 msgid "Check for the use of wxWidgets 2.9/3.0."
 msgstr ""
 
@@ -504,7 +502,7 @@ msgid ""
 "appropriate query."
 msgstr ""
 
-#: ../development/roadmap.php:22
+#: ../development/roadmap.php:21
 msgid "Code housekeeping"
 msgstr ""
 
@@ -535,11 +533,7 @@ msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr ""
 
 #: ../development/roadmap.php:15
-msgid "Complete 9.2 support"
-msgstr ""
-
-#: ../development/roadmap.php:31
-msgid "Complete redesign of the documentation [GL]"
+msgid "Complete 9.3 support"
 msgstr ""
 
 #: ../visualtour12.php:355
@@ -595,7 +589,7 @@ msgid ""
 "database."
 msgstr ""
 
-#: ../development/roadmap.php:33
+#: ../development/roadmap.php:30
 msgid "Custom reports in frmStatus [GL]"
 msgstr ""
 
@@ -611,7 +605,7 @@ msgstr ""
 msgid "Data access"
 msgstr ""
 
-#: ../development/roadmap.php:36
+#: ../development/roadmap.php:33
 msgid ""
 "Data tune-up options for slow queries (requires XML EXPLAIN in PG 8.4) [DP]"
 msgstr ""
@@ -620,20 +614,12 @@ msgstr ""
 msgid "Database"
 msgstr ""
 
-#: ../development/roadmap.php:45
-msgid "Database designer for pgAdmin, by Luis Ochoa"
-msgstr ""
-
 #: ../screenshots/mb_i18n.php:12 ../screenshots/mb_i18n.php:18
 msgid "Database encoding selection"
 msgstr ""
 
 #: ../visualtour12.php:105 ../visualtour.php:153
 msgid "Database properties"
-msgstr ""
-
-#: ../development/roadmap.php:46
-msgid "Database schema difference visualizer, by Adeel Khan"
 msgstr ""
 
 #: ../features.php:66 ../visualtour16.php:133
@@ -845,16 +831,12 @@ msgid ""
 "this action is not available on a streaming replication slave."
 msgstr ""
 
-#: ../development/roadmap.php:18
+#: ../development/roadmap.php:17
 msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
 msgstr ""
 
-#: ../development/roadmap.php:17
-msgid "Finish 8.3 support with operator family objets' creation [GL]"
-msgstr ""
-
 #: ../development/roadmap.php:16
-msgid "Finish 9.1 support with security labels [GL]"
+msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr ""
 
 #: ../visualtour.php:24
@@ -909,7 +891,7 @@ msgstr ""
 msgid "Function properties"
 msgstr ""
 
-#: ../development/roadmap.php:29
+#: ../development/roadmap.php:28
 msgid "Functionality"
 msgstr ""
 
@@ -929,11 +911,7 @@ msgstr ""
 msgid "GIT browser"
 msgstr ""
 
-#: ../development/roadmap.php:43
-msgid "GSoC"
-msgstr ""
-
-#: ../index.php:34
+#: ../index.php:38
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -949,7 +927,7 @@ msgstr ""
 msgid "Google analytics"
 msgstr ""
 
-#: ../development/roadmap.php:34
+#: ../development/roadmap.php:31
 msgid "Graphs in frmStatus [GL]"
 msgstr ""
 
@@ -1124,7 +1102,7 @@ msgid ""
 "1.14."
 msgstr ""
 
-#: ../index.php:36 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:40 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1415,10 +1393,6 @@ msgstr ""
 
 #: ../visualtour16.php:21
 msgid "New import tool"
-msgstr ""
-
-#: ../development/roadmap.php:32
-msgid "New options dialog [GL]"
 msgstr ""
 
 #: ../visualtour14.php:114
@@ -1855,7 +1829,7 @@ msgstr ""
 msgid "Query tool"
 msgstr ""
 
-#: ../development/roadmap.php:35
+#: ../development/roadmap.php:32
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
 "with grid style UI [GL]"
@@ -2374,7 +2348,7 @@ msgid ""
 "connections."
 msgstr ""
 
-#: ../index.php:45
+#: ../index.php:49
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr ""
@@ -2876,7 +2850,7 @@ msgid ""
 "i>, etc."
 msgstr ""
 
-#: ../download/macosx.php:26
+#: ../download/macosx.php:24
 msgid ""
 "These packages are Mac OSX appbundles. To install the 1.8 or later series, "
 "mount the disk image using the finder, and drag the pgAdmin appbundle to the "
@@ -2966,7 +2940,7 @@ msgid ""
 "please see the <a href=\"%s\">source code</a> build instructions."
 msgstr ""
 
-#: ../download/windows.php:28
+#: ../download/windows.php:27
 msgid ""
 "To install these packages, unzip the downloaded file, double-click the </"
 "i>pgadmin3.msi</i> installer file and follow the on-screen instructions. "
@@ -3367,7 +3341,7 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:30
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 14 "
@@ -3377,6 +3351,18 @@ msgid ""
 "visit the <a href=\"download\">download area</a> to get your copy, or "
 "alternatively download a <a href=\"http://www.enterprisedb.com/products/"
 "pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."
+msgstr ""
+
+#: ../index.php:12
+#, php-format
+msgid ""
+"pgAdmin %s has now been released. This release is the culmination of over 16 "
+"months of development work. A visual tour of the new release is available <a "
+"href=\"/visualtour16.php\">here</a>, or a complete list of changes can be "
+"seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please "
+"visit the <a href=\"download\">download area</a> to get your copy, or "
+"alternatively download a <a href=\"http://www.enterprisedb.com/products/"
+"pgdownload.do\">PostgreSQL 9.2 Installer</a> which includes pgAdmin."
 msgstr ""
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
@@ -3473,7 +3459,7 @@ msgid ""
 "enabled and disabled triggers and rules."
 msgstr ""
 
-#: ../index.php:26
+#: ../index.php:30
 msgid ""
 "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -3483,7 +3469,7 @@ msgid ""
 "Installer</a> which includes pgAdmin."
 msgstr ""
 
-#: ../index.php:22
+#: ../index.php:26
 msgid ""
 "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -3493,7 +3479,7 @@ msgid ""
 "Installer</a> which includes pgAdmin."
 msgstr ""
 
-#: ../index.php:12
+#: ../index.php:16
 msgid ""
 "pgAdmin 1.14.3 has been released, offering 25 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -3527,7 +3513,7 @@ msgid ""
 "existing table."
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:20
 msgid ""
 "pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
 "features. We're still working on a visual tour. We also don't have yet "
@@ -3683,7 +3669,7 @@ msgid ""
 "recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 
-#: ../index.php:40
+#: ../index.php:44
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3697,7 +3683,7 @@ msgid ""
 "communicate with the database server."
 msgstr ""
 
-#: ../index.php:42
+#: ../index.php:46
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3705,7 +3691,7 @@ msgid ""
 "released under the <a href=\"%s\">PostgreSQL License</a>."
 msgstr ""
 
-#: ../index.php:38
+#: ../index.php:42
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -3918,7 +3904,7 @@ msgstr ""
 msgid "pgAgent objects (such as jobs, schedules)"
 msgstr ""
 
-#: ../development/roadmap.php:37
+#: ../development/roadmap.php:34
 msgid ""
 "pgsql-performance report tool for problematic queries (requires XML EXPLAIN "
 "in PG 8.4) [DP]"

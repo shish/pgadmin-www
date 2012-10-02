@@ -1,17 +1,17 @@
 <html>
 <head>
-<title>pgAdmin III Online FAQ</title>
+<title>pgAdmin FAQ</title>
 </head>
 
 <body>
-<H1>pgAdmin III FAQ</H1>
+<H1>pgAdmin FAQ</H1>
 <p>
 <A HREF="#CantEdit">Can't edit table data</A><BR>
 <A HREF="#PropertyDisabled">A property is disabled on an object I want to edit</A><BR>
 <A HREF="#UserPrivileges">User privileges</A><BR>
 <A HREF="#ConstraintTrigger">Foreign key constraints not shown</A><BR>
 <A HREF="#ColChange">Problem after changing column type</A><BR>
-<A HREF="#CantRestore">Can't restore backup file created with pgAdmin III</A><BR>
+<A HREF="#CantRestore">Can't restore backup file created with pgAdmin</A><BR>
 <A HREF="#datpath">ERROR: column &quot;datpath&quot; does not exist</A><BR>
 <A HREF="#Win9x">Win9x problems</A><BR>
 <A HREF="#HangWin9x">Query tool hangs on Win9x</A><BR>
@@ -29,7 +29,7 @@
 <p>
 When I open a table to edit, there's no empty line at the end to enter new data. I can't edit the existing data either.
 </p><p>
-In order to edit data, pgAdmin III requires a primary key on the table, which is a good database design practice anyway.
+In order to edit data, pgAdmin requires a primary key on the table, which is a good database design practice anyway.
 Alternatively, the table can be created WITH OIDS. Please note that oids are *not* guaranteed to be unique over a very 
 long period of time, so using oids as kind-of primary key is only second choice.
 [AP]
@@ -40,10 +40,10 @@ I want to edit an object, but the property I'd like to edit always appears disab
 </p><p>
 You're probably editing an object on an older version of PostgreSQL server.
 </p><p>
-pgAdmin III supports PostgreSQL server versions starting from V7.3. Naturally, constant improvements
-add more features. pgAdmin III tries to keep up with this development.
+pgAdmin supports PostgreSQL server versions starting from V7.3. Naturally, constant improvements
+add more features. pgAdmin tries to keep up with this development.
 Consequently, some features that are described in the online documentation, which always covers the latest released
-PostgreSQL version available, are not accessible on older server versions. In this case, pgAdmin III detects this and
+PostgreSQL version available, are not accessible on older server versions. In this case, pgAdmin detects this and
 disables the option.
 </p><p>
 Hint: If you're working on older PostgreSQL servers regularly, you can change the online help site in the options dialogue.
@@ -62,13 +62,13 @@ for privileges" on the General tab of the Options dialogue.
 </p><br>
 <H3><A Name="ConstraintTrigger">Foreign key constraints not shown</A></H3>
 <p>
-My database contains foreign key constraints, but these are not visible with pgAdmin III.
+My database contains foreign key constraints, but these are not visible with pgAdmin.
 </p><p>
 If you convert a database prior to 7.3 to a newer one, some dependency information isn't created
 because it didn't exist in PostgreSQL 7.2 and older. When restoring such a pg_dump file, the foreign
 keys are generated with CREATE CONSTRAINT TRIGGER instead of an ADD 
 CONSTRAINT command.
-<br>pgAdmin III considers constraint triggers as an internal implementation detail,
+<br>pgAdmin considers constraint triggers as an internal implementation detail,
 not interesting for the common administrator. In fact, CREATE CONSTRAINT TRIGGER is for backward 
 compatibility only, and shouldn't be used in newer scripts any more. Some tools (e.g. pgAdmin II) imply this, 
 by showing a ADD CONSTRAINT when reverse engineering, while actually the constraint information in 
@@ -81,20 +81,20 @@ Run the adddepend script, which can be found in the backend's sources contrib/ad
 After changing a column type in PostgreSQL 7.3 or 7.4, I get errors when executing views or triggers. 
 I don't see this problem on 8.0 servers.
 <p></p>
-PostgreSQL 7.3 and 7.4 don't support changing the column type by themselves, pgAdmin III changes system tables 
+PostgreSQL 7.3 and 7.4 don't support changing the column type by themselves, pgAdmin changes system tables 
 directly instead. Under some circumstances, the query plan that was stored when a view or trigger created 
 containing that column, have to be replanned using the new type information.
 </p><p>
-Currently, pgAdmin III does not recreate depending objects automatically for 7.3 and 7.4 servers; you will 
+Currently, pgAdmin does not recreate depending objects automatically for 7.3 and 7.4 servers; you will 
 have to do that manually if you encounter execution errors. This is not necessary on PostgreSQL 8.+ servers, because these versions support altering a column type instrinsically.
-<H3><A Name="CantRestore">Can't restore backup file created with pgAdmin III</A></H3>
+<H3><A Name="CantRestore">Can't restore backup file created with pgAdmin</A></H3>
 <p>
-I created a backup file using pgAdmin III, but when I try to restore it using pgAdmin III
+I created a backup file using pgAdmin, but when I try to restore it using pgAdmin
 the OK button will stay grayed.
 <p></p>
-pgAdmin III uses PostgreSQL's pg_restore tool, which supports only the COMRESS and TAR options of pg_dump
-which is used for backup creation. The PLAIN format can't be interpreted by pgAdmin III and pg_restore
-(it can be edited manually, and executed with psql and pgAdmin III's query tool in many cases), and thus 
+pgAdmin uses PostgreSQL's pg_restore tool, which supports only the COMRESS and TAR options of pg_dump
+which is used for backup creation. The PLAIN format can't be interpreted by pgAdmin and pg_restore
+(it can be edited manually, and executed with psql and pgAdmin's query tool in many cases), and thus 
 isn't accepted as valid file.
 </p><p>
 We recommend using the COMPRESS format for daily backup tasks. The PLAIN format is for advanced manual
@@ -103,19 +103,19 @@ for standard backup tasks.
 </p><br>
 <H3><A Name="datpath">ERROR: column &quot;datpath&quot; does not exist</A></H3>
 <p>
-I'm using pgAdmin III V1.0.x and try to connect to a PostgreSQL 8.0.x server. I get the message
+I'm using pgAdmin V1.0.x and try to connect to a PostgreSQL 8.0.x server. I get the message
 &quot;ERROR: column &quot;datpath&quot; does not exist.&quot; and can't continue.
 </p><p>
-pgAdmin III V1.0.x does not work on PostgreSQL 8.0.x, because some system structure changed.
+pgAdmin V1.0.x does not work on PostgreSQL 8.0.x, because some system structure changed.
 </p><p>
-Use pgAdmin III V1.2.x or later instead, which supports PostgreSQL 7.3.x, 7.4.x and 8.0.x.
+Use pgAdmin V1.2.x or later instead, which supports PostgreSQL 7.3.x, 7.4.x and 8.0.x.
 [AP]
 </p><br>
 <H3><A Name="Win9x">Win9x problems</A></H3>
 <p>
-We're providing a stripped down pgAdmin III  1.0 version without unicode support and limited functionality.
+We're providing a stripped down pgAdmin v1.0 version without unicode support and limited functionality.
 Still, Win9x imposes some other problems too. Consider using a true 32bit operating system 
-(Linux, W2K, XP) if these constraints hit you. We won't provide Win9x compatible pgAdmin III 1.2 versions.<BR>
+(Linux, W2K, XP) if these constraints hit you. We won't provide Win9x compatible pgAdmin 1.2 versions.<BR>
 One example: </p>
 <H3><A Name="HangWin9x">Query tool hangs on Win9x</A></H3>
 <p>
@@ -133,16 +133,16 @@ Some columns are truncated when running a query in the query tool.
 You can increase the query option "max. chars per column" for this. Please note that there's another limit for this imposed by the underlying 
 windows control, which apparently doesn't allow more than 511 characters.
 <BR>
-In pgAdmin III V1.1 and up, we provide the function "execute to file", which has no column restrictions.
+In pgAdmin V1.1 and up, we provide the function "execute to file", which has no column restrictions.
 [AP]
 </p><br>
 <H3><A Name="UnsuppProtocol">Server log: unsupported protocol</A></H3>
 <p>
-Every time I  connect to my PostgreSQL 7.3.x server with pgAdmin III,
+Every time I  connect to my PostgreSQL 7.3.x server with pgAdmin,
 I get the following message in the serverlog:<br>
    FATAL: unsupported frontend protocol
 </p><p>
-Binary distributions of pgAdmin III are linked against the newest
+Binary distributions of pgAdmin are linked against the newest
 PostgreSQL libpq 7.4/8.0 library, which implements a new frontend protocol. It
 will try to connect to the backend using this protocol first, and if that fails it
 uses the older one.<br>
@@ -153,7 +153,7 @@ from this.
 <H3><A Name="FontProblem1">Font problem: too big</A></H3>
 <p>On my *ix system, the text is too big, and is truncated in the controls.
 </p><p>
-pgAdmin III uses the system's setting for the font, which sometimes
+pgAdmin uses the system's setting for the font, which sometimes
 isn't a good choice.<br>
 Try to put something like this in your ~/.gtkrc-2.0 file:
 <br>
@@ -165,7 +165,7 @@ style "defaultfont"<br>
 widget_class "*" style "defaultfont"<br>
 <---------cut here------------------->
 <br>
-pgAdmin III V1.1 and up solves this by resizing the dialogues according to the font in use.
+pgAdmin V1.1 and up solves this by resizing the dialogues according to the font in use.
 In addition, you may select you preferred application font in the options dialogue.
 [RE]
 </p><br>
@@ -175,7 +175,7 @@ characters</A></H3>
 On my system, the reengineered SQL windows shows weird characters,
 while it should show non-Latin characters.
 </p><p>
-By default, pgAdmin III uses a fixed pitch font, to show nicely
+By default, pgAdmin uses a fixed pitch font, to show nicely
 formatted reengineered SQL commands. This may lead to weird characters
 if these are not supported by the fixed font codeset.<br>
 On the Query tab of the  Options dialogue, you may select your preferred
@@ -184,10 +184,10 @@ font to have a correct display.
 </p><br>
 <H3><A Name="gtk-qt">Crash on Linux: Qpixmap: Invalid pixmap parameters</A></H3>
 <p>
-When running on a machine with gtk-qt-engine installed, pgAdmin III will crash with a 
+When running on a machine with gtk-qt-engine installed, pgAdmin will crash with a 
 segmentation fault. A console will print "QPixmap: Invalid pixmap parameters".
 <p></p>
-This is caused by a broken gtk-qt-engine; not only pgAdmin III suffers from this.
+This is caused by a broken gtk-qt-engine; not only pgAdmin suffers from this.
 <p></p>
 To fix, remove the broken gtk-qt-engine or install a fixed version if available.
 </p><br>
@@ -201,7 +201,7 @@ Unfortunately some network administrators or default firewall settings extend fu
 meant for external web server access to cover
 internal database traffic too. After some minutes of inactivity, the TCP/IP connection
 is interrupted without notice to both sides of the connection. As a result, the backend 
-doesn't know that there's no connection to the client (in this case: pgAdmin III, but any
+doesn't know that there's no connection to the client (in this case: pgAdmin , but any
 other PostgreSQL client would be affected in the same way) any more, 
 but thinks it's just idle, and will continue waiting for the next query that never arrives.
 <BR>
@@ -229,13 +229,13 @@ SSH package's documentation for "tunneling".
 <H3><A Name="EncodingProblem">Encoding Problem: My data is not shown</A></H3>
 <p>Data that includes non-ascii characters (character code > 0x7f) will not be shown.
 </p><p>
-pgAdmin III 1.0.0 uses the client_encoding set to UNICODE. The server will automatically convert 
+pgAdmin 1.0.0 uses the client_encoding set to UNICODE. The server will automatically convert 
 all data from the encoding format stored in the database to UNICODE. If the server is not able
 to convert the data, it will suppress this. A common problem is using the SQL_ASCII server side
 encoding, but storing non-ascii data in it. If you're using a client_encoding set to SQL_ASCII,
 you won't notice a problem because the server doesn't convert the data, but when using a different
 client encoding the server starts to convert, and fails.<br>
-Later versions of pgAdmin III (1.0.1 and up) will use SQL_ASCII client encoding, if it detects a server encoding 
+Later versions of pgAdmin (1.0.1 and up) will use SQL_ASCII client encoding, if it detects a server encoding 
 of SQL_ASCII. If a different encoding is present, UNICODE is used.
 [AP]
 </p>

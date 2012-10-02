@@ -9,7 +9,7 @@ $PAGE_CONTENT = '
 
 <h4>' . sprintf(_("Maintainer: %s"), "Dave Page") . '</h4>
 
-<p>' . _("pgAdmin is available for Windows &trade; 2000 and above.") . '</p>
+<p>' . _("pgAdmin is available for Windows &trade; 2000 and above, up to version 1.14.3. From v1.16.0, Windows XP/2003 or later is required.") . '</p>
 
 <p>' . sprintf(_("Note that the <a href=\"%s\">EnterpriseDB</a> distribution of PostgreSQL for Windows includes a bundled copy of pgAdmin."), "http://www.enterprisedb.com/products-services-training/pgdownload") . '</p>
 

@@ -11,28 +11,6 @@ $PAGE_CONTENT = '
 
 <p>' . sprintf(_("pgAdmin %s has now been released. This release is the culmination of over 16 months of development work. A visual tour of the new release is available <a href=\"/visualtour16.php\">here</a>, or a complete list of changes can be seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 Installer</a> which includes pgAdmin."), "1.16.0") . '</p>
 
-<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2012-06-04", "1.14.3") . '</h2>
-
-<p>' . _("pgAdmin 1.14.3 has been released, offering 25 bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.4 Installer</a> which includes pgAdmin.") . '</p>
-
-<h2>' . sprintf(_("%s - pgAdmin v%s available"), "2012-05-14", "1.16 beta1") . '</h2>
-
-<p>' . _("pgAdmin 1.16 beta 1 has been released, offering lots of new interesting features. We're still working on a visual tour. We also don't have yet Windows and Mac OS X packages, but they may come up later. In the mean time, the list of new features fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1 Installer</a> which includes pgAdmin.") . '</p>
-
-<p>' . _("Be careful that this is a BETA release. It's not production ready. It's available for testing purpose only.") . '</p>
-
-<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2012-02-27", "1.14.2") . '</h2>
-
-<p>' . _("pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.3 Installer</a> which includes pgAdmin.") . '</p>
-
-<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2011-12-05", "1.14.1") . '</h2>
-
-<p>' . _("pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.2 Installer</a> which includes pgAdmin.") . '</p>
-
-<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2011-09-12", "1.14.0") . '</h2>
-
-<p>' . sprintf(_("pgAdmin %s has now been released. This release is the culmination of over 14 months of development work. A visual tour of the new release is available <a href=\"/visualtour14.php\">here</a>, or a complete list of changes can be seen in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 Installer</a> which includes pgAdmin."), "1.14.0") . '</p>
-
 <h2>' . sprintf(_("%s - pgAdmin demo video"), "2010-04-09") . '</h2>
 
 <p>' . _("Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has produced a <a href=\"http://www.enterprisedb.com/resources-community/webcasts-podcasts-videos/videos/how-create-postgres-database-using-pgadmin\">video walkthrough</a> showing off some of the features in pgAdmin.") . '</p>
@@ -46,7 +24,7 @@ $PAGE_CONTENT = '
 <p>' . sprintf(_("pgAdmin is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the <a href=\"%s\">PostgreSQL License</a>."), "licence.php") . '</p>
 
 <div class="pgaBanner">
-' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.14.3") . '
+' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.16.0") . '
 </div>
 
 '; 

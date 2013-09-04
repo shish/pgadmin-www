@@ -1,175 +1,6 @@
-h1
-{
-  font-weight: bold;
-  font-size: 150%;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  margin-top: 0px;
-  padding-bottom: 0.5ex;
-  color: #009ace;
-}
-
-h2
-{
-  font-weight: bold;
-  font-size: 120%;
-  padding-bottom: 0.5ex;
-  color: #009ace;
-}
-
-h3
-{
-  font-weight: bold;
-  font-size: 115%;
-  padding-bottom: 0.5ex;
-  color: #009ace;
-}
-
-h4
-{
-  font-size: 105%;
-  padding-bottom: 0.5ex;
-  color: #009ace;
-}
-
-a
-{
-  color: #009ace;
-  font-weight: bold;
-}
-
-a:visited
-{
-  color: #999999;
-  font-weight: bold;
-}
-
-img
-{
-  border-style: none;
-}
-
 body
 {
-  font-size: 90%;
-  font-family: verdana, helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
   direction: rtl;
-}
-
-.pgaCode
-{
-  font-family: "lucida console", monospace;
-  background-color: #eeeeee;
-  padding: 5px;
-}
-
-.pgaBanner
-{
-  background-color: #eeeeee;
-  padding: 5px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.pgaTranslationTable
-{
-  border-style: solid;
-  border-width: 1px;
-  border-color: #999999;
-  border-collapse: collapse;
-}
-
-.pgaTranslationTableHeader
-{
-  font-weight: bold;
-  color: #ffffff;
-  border-color: #999999;
-  border-style: solid;
-  border-width: 1px;
-  background-color: #009ace;
-}
-
-.pgaTranslationTableHeader a
-{
-  color: #ffffff;
-}
-
-.pgaTranslationTableHeader a:visited
-{
-  color: #ffffff;
-}
-
-.pgaTranslationTableCell
-{
-  border-style: solid;
-  border-width: 1px;
-}
-
-#pgaPage
-{
-  margin: 0;
-  padding: 0;
-}
-
-#pgaHeader
-{
-  width: 100%;
-  border-style: none;
-  border-collapse: collapse;
-  border-spacing: 0px;
-  background-color: #009ace;
-}
-
-#pgaMainMenu
-{
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-color: #999999;
-  color: #999999;
-  font-weight: bold;
-  white-space: nowrap;
-}
-
-#pgaMainMenu a
-{
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.pgaMainMenuOption
-{
-  display: inline;
-}
-
-.pgaMainMenuOption a:hover
-{
-  background-color: #999999;
-}
-
-#pgaMainMenuSelection
-{
-  display: inline;
-  background-color: #eeeeee;
-}
-
-#pgaMainMenuSelection a
-{
-  color: #009ace;
-}
-
-#pgaLogo
-{
-  height: 100px;
-  width: 349px;
-  padding: 0px;
 }
 
 #pgaSVN
@@ -177,24 +8,6 @@ body
   float: left;
   text-align: left;
   padding-left: 5px;
-  color: #ffffff;
-}
-
-#pgaSVN a
-{
-  color: #ffffff;
-  text-decoration: none;
-}
-
-#pgaSVN a:visited
-{
-  color: #ffffff;
-  text-decoration: none;
-}
-
-#pgaSVN a:hover
-{
-  text-decoration: underline;
 }
 
 #pgaSearch
@@ -204,112 +17,24 @@ body
   padding-left: 5px;
 }
 
-#pgaSearch form
-{
-  margin-bottom: 0px;
-}
-
 #pgaLanguages
 {
   float: left;
   text-align: left;
   padding-left: 5px;
-  color: #ffffff;
-}
-
-#pgaLanguages form
-{
-  margin-bottom: 0px;
-}
-
-#pgaSectionContent
-{
-  margin-top: 15px;
-  line-height: 1.2;
-  width: 100%;
 }
 
 #pgaSectionMenu
 {
-  vertical-align: top;
-  width: 170px;
-  line-height: 2.0;
-  white-space: nowrap;
   padding-right: 5px;
-  font-weight: bold;
-  color: #999999;
-}
-
-#pgaSectionMenu a
-{
-  text-decoration: none;
-}
-
-#pgaSectionMenuSelection
-{
-  background-color: #009ace;
-}
-
-#pgaSectionMenuSelection a
-{
-  color: #ffffff;
-}
-
-.pgaSectionMenuOption
-{
-  background-color: #eeeeee;
-}
-
-.pgaSectionMenuOption a
-{
-  display: block;
-  color: #009ace;
-}
-
-.pgaSectionMenuOption a:visited
-{
-  color: #009ace;
-}
-
-.pgaSectionMenuOption a:hover
-{
-  background-color: #999999;
-  color: #eeeeee;
-}
-
-#pgaContent
-{
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-#pgaSVNContent
-{
-  vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
-  align: center;
 }
 
 #pgaAd
 {
-  text-align: center;
-  vertical-align: top;
-  white-space: nowrap;
-  width: 165px;
   padding-left: 5px;
 }
 
 #pgaFooter
 {
   text-align: left;
-  padding-right: 5px;
-  font-weight: bold;
 }
-
-#pgaFooter a
-{
-  color: #009ace;
-}
-

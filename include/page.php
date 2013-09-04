@@ -48,6 +48,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 <meta name="Description" content="pgAdmin is the leading graphical Open Source management, development and administration tool for PostgreSQL, running on Windows, Linux, Solaris, FreeBSD and Mac OSX" />
 <meta name="Keywords" content="postgresql,postgres,pgsql,psql,postgre,pginstaller,pervasive postgres,enterprisedb,mammoth,powergres,pgadmin,pgadmin iii, pgadmin ii,pgadmin3,pgadmin2,windows,linux,solaris,mac osx,freebsd,administration,managment,tools" />
 <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="/css/pgadmin-base.css" title="pgAdmin.org" />
 <link rel="stylesheet" type="text/css" href="/css/' . $css . '" title="pgAdmin.org" />
 <title>' . $PAGE_TITLE . '</title>
 </head>

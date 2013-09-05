@@ -13,20 +13,30 @@ $PAGE_CONTENT = '
 
 <p>' . _("We provide source and binary packages for FreeBSD, Linux, Mac OSX and Microsoft Windows &trade;. Solaris binaries may also be compiled from the source code.") . '</p>
 
+<div class="pgaScreenShotBox">
 <h2>' . _("FreeBSD") . '</h2>
-<center><a href="/images/screenshots/pgadmin3_freebsd.png" target="_Shot"><img src="/images/screenshots/pgadmin3_freebsd.png" alt="' . _("pgAdmin running on FreeBSD") . '" width="254" height="170" /></a></center>
+<a href="/images/screenshots/pgadmin3_freebsd.png" target="_Shot"><img src="/images/screenshots/pgadmin3_freebsd.png" alt="' . _("pgAdmin running on FreeBSD") . '" width="254" height="170" /></a>
+</div>
 
+<div class="pgaScreenShotBox">
 <h2>' . _("Linux") . '</h2>
-<center><a href="/images/screenshots/pgadmin3_linux.png" target="_Shot"><img src="/images/screenshots/pgadmin3_linux.png" alt="' . _("pgAdmin running on Linux") . '" width="200" height="213" /></a></center>
+<a href="/images/screenshots/pgadmin3_linux.png" target="_Shot"><img src="/images/screenshots/pgadmin3_linux.png" alt="' . _("pgAdmin running on Linux") . '" width="200" height="213" /></a>
+</div>
 
+<div class="pgaScreenShotBox">
 <h2>' . _("Mac OSX") . '</h2>
-<center><a href="/images/screenshots/pgadmin3_macosx.png" target="_Shot"><img src="/images/screenshots/pgadmin3_macosx.png" alt="' . _("pgAdmin running on Mac OSX") . '" width="256" height="192" /></a></center>
+<a href="/images/screenshots/pgadmin3_macosx.png" target="_Shot"><img src="/images/screenshots/pgadmin3_macosx.png" alt="' . _("pgAdmin running on Mac OSX") . '" width="256" height="192" /></a>
+</div>
 
+<div class="pgaScreenShotBox">
 <h2>' . _("Solaris") . '</h2>
-<center><a href="/images/screenshots/pgadmin3_solaris.png" target="_Shot"><img src="/images/screenshots/pgadmin3_solaris.png" alt="' . _("pgAdmin running on Solaris") . '" width="200" height="150" /></a></center>
+<a href="/images/screenshots/pgadmin3_solaris.png" target="_Shot"><img src="/images/screenshots/pgadmin3_solaris.png" alt="' . _("pgAdmin running on Solaris") . '" width="200" height="150" /></a>
+</div>
 
+<div class="pgaScreenShotBox">
 <h2>' . _("Windows &trade;") . '</h2>
-<center><a href="/images/screenshots/pgadmin3_win32.png" target="_Shot"><img src="/images/screenshots/pgadmin3_win32.png" alt="' . _("pgAdmin running on Windows") . '" width="253" height="208" /></a></center>
+<a href="/images/screenshots/pgadmin3_win32.png" target="_Shot"><img src="/images/screenshots/pgadmin3_win32.png" alt="' . _("pgAdmin running on Windows") . '" width="253" height="208" /></a>
+</div>
 
 '; 
 

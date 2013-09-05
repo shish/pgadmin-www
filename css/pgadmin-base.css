@@ -300,3 +300,9 @@ a.pgaMainMenuSelection:hover
   color: #009ace;
 }
 
+.pgaScreenShotBox
+{
+  width: 300px;
+  height: 300px;
+  float: left;
+}

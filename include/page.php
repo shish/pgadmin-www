@@ -7,7 +7,7 @@ require $_SERVER['DOCUMENT_ROOT'] . "/include/lastmod.php";
 function www_current_menu_section($SECTION)
 {
   if (dirname($_SERVER['SCRIPT_NAME']) == $SECTION || dirname($_SERVER['SCRIPT_NAME']) . "/" == $SECTION)
-    return " id=\"pgaMainMenuSelection\"";
+    return " class=\"pgaMainMenuOption pgaMainMenuSelection\"";
   else
     return " class=\"pgaMainMenuOption\"";
 }
@@ -122,19 +122,16 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 
 </td>
 </tr><tr>
-<td colspan="2" id="pgaMainMenu">
-
-<div' . www_current_menu_section("/") . '>
-&nbsp;<a href="/index.php">' . _("Home") . '</a>&nbsp;</div>&nbsp;&middot;&nbsp;<div' . www_current_menu_section("/advocacy/") . '>
-<a href="/advocacy/" >' . _("Advocacy") . '</a>&nbsp;</div>&nbsp;&middot;&nbsp;<div' . www_current_menu_section("/development/") . '>
-<a href="/development/">' . _("Development") . '</a>&nbsp;</div>&nbsp;&middot;&nbsp;<div' . www_current_menu_section("/docs/") . '>
-<a href="/docs/">' . _("Documentation") . '</a>&nbsp;</div>&nbsp;&middot;&nbsp;<div' . www_current_menu_section("/download/") . '>
-<a href="/download/">' . _("Download") . '</a>&nbsp;</div>&nbsp;&middot;&nbsp;<div' . www_current_menu_section("/screenshots/") . '>
-<a href="/screenshots/">' . _("Screenshots") . '</a>&nbsp;</div>&nbsp;&middot;&nbsp;<div' . www_current_menu_section("/support/") . '>
-<a href="/support/">' . _("Support") . '</a>&nbsp;</div>&nbsp;&middot;&nbsp;<div' . www_current_menu_section("/translation/") . '>
-<a href="/translation/">' . _("Translation") . '</a>&nbsp;</div>
-
-</td>
+<td colspan="2" id="pgaMainMenu">' .
+'<a' . www_current_menu_section("/") . ' href="/index.php">' . _("Home") . '</a>' .
+'<a' . www_current_menu_section("/advocacy/") . ' href="/advocacy/" >' . _("Advocacy") . '</a>' .
+'<a' . www_current_menu_section("/development/") . ' href="/development/">' . _("Development") . '</a>' .
+'<a' . www_current_menu_section("/docs/") . ' href="/docs/">' . _("Documentation") . '</a>' .
+'<a' . www_current_menu_section("/download/") . ' href="/download/">' . _("Download") . '</a>' .
+'<a' . www_current_menu_section("/screenshots/") . ' href="/screenshots/">' . _("Screenshots") . '</a>' .
+'<a' . www_current_menu_section("/support/") . ' href="/support/">' . _("Support") . '</a>' .
+'<a' . www_current_menu_section("/translation/") . ' href="/translation/">' . _("Translation") . '</a>' .
+'</td>
 </tr>
 </table>
 
